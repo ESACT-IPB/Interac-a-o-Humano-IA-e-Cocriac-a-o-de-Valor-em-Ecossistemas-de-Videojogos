@@ -153,9 +153,9 @@
 
   <div class="header">
     <div class="header-info">
-      <span class="badge">Pipeline DART Netnografia</span>
-      <h1>Fluxograma de Implementação</h1>
-      <p>Use os controlos de zoom ou arraste o diagrama com o rato para navegar confortavelmente.</p>
+      <span class="badge">DART-NET v3.0 | Jan 2024 – 2026</span>
+      <h1>Interação Humano-IA e Cocriação de Valor em Ecossistemas de Videojogos</h1>
+      <p>Fluxograma Metodológico Multiagente (303 Tópicos Canónicos, 1.032 Posts Validados, Auditoria 84,41%)</p>
     </div>
 
     <div class="toolbar">
@@ -179,87 +179,98 @@ flowchart TD
     classDef output fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
     classDef validation fill:#fce4ec,stroke:#c2185b,stroke-width:2px;
 
-    %% FASE 1: Ingestão de Dados
-    subgraph FASE1 ["Fase 1: Ingestão e Normalização"]
-        RAW_WOW["Fóruns Blizzard WoW<br/>(53 discussões)"]:::source
-        RAW_EVE["Fóruns CCP EVE Online<br/>(28 discussões)"]:::source
-        RAW_REDDIT["Reddit & Média Externa<br/>(20 tópicos / vídeos)"]:::source
+    %% CAMADA 1: Ingestão de Dados Brutos
+    subgraph FASE1 ["Camada 1: Ingestão de Dados Brutos (RAW DATA) — Jan 2024 a 2026"]
+        CORPUS["Corpus Canónico de 303 Tópicos Únicos<br/>(A1-A5 curados + Query Booleana IA/LLM/MCP)"]:::source
         
-        SCRAPER["ScraperAgent<br/>(Extração, limpeza de HTML e metadados)"]:::agent
+        RAW_WOW["Fóruns Blizzard WoW<br/>(87 tópicos Discourse JSON)"]:::source
+        RAW_EVE["Fóruns CCP EVE Online<br/>(62 tópicos Discourse JSON)"]:::source
+        RAW_REDDIT["Reddit r/wow & r/Eve<br/>(125 tópicos Arctic Shift API)"]:::source
+        RAW_STEAM["Steam Community<br/>(11 tópicos 2026)"]:::source
+        
+        CORPUS --> RAW_WOW
+        CORPUS --> RAW_EVE
+        CORPUS --> RAW_REDDIT
+        CORPUS --> RAW_STEAM
+        
+        SCRAPER["ScraperAgent<br/>(Filtro Temporal Estrito: created_at >= 2024-01-01<br/>Comprimento mínimo >= 50 carateres)"]:::agent
         RAW_WOW --> SCRAPER
         RAW_EVE --> SCRAPER
         RAW_REDDIT --> SCRAPER
-        SCRAPER --> SCRAPED_POSTS[("scraped_posts.json<br/>(1308 posts brutos)")]
+        RAW_STEAM --> SCRAPER
+        
+        SCRAPER --> SCRAPED_POSTS[("scraped_posts.json<br/>(6.485 posts pós-2024 preservados)")]
     end
 
-    %% FASE 2: Triagem e Anonimização
-    subgraph FASE2 ["Fase 2: Validação Semântica e Sanitização"]
-        SCRAPED_POSTS --> VALIDATOR["SemanticValidatorAgent<br/>(deepseek-v4-flash)"]:::agent
-        VCACHE[("validation_cache.json")] <--> VALIDATOR
+    %% CAMADA 2: Triagem e Anonimização Ética
+    subgraph FASE2 ["Fase 2: Triagem Semântica e Pseudonimização Ética"]
+        SCRAPED_POSTS --> VALIDATOR["SemanticValidatorAgent<br/>(deepseek-v4-flash com léxico expandido)"]:::agent
+        VCACHE[("validation_cache.json<br/>(12.429 validações em cache)")] <--> VALIDATOR
         
-        VALID_CHECK{"Post aborda bots, RMT,<br/>economia ou IA?"}:::decision
+        VALID_CHECK{"Classificação de Relevância<br/>(RELEVANT / POSSIBLY RELEVANT)?"}:::decision
         VALIDATOR --> VALID_CHECK
-        VALID_CHECK -- "Não" --> DISCARD["Descartado da Análise"]
-        VALID_CHECK -- "Sim" --> VALID_POSTS[("validated_posts.json<br/>(763-765 posts)")]
+        VALID_CHECK -- "IRRELEVANT" --> DISCARD["Descartado da Análise"]
+        VALID_CHECK -- "Válido (2024-2026)" --> VALID_POSTS[("validated_posts.json<br/>(1.034 posts qualificados)")]
         
-        ANON["AnonymizerAgent<br/>(Sanitiza dados sensíveis e<br/>preserva nomes originais dos autores)"]:::agent
+        ANON["AnonymizerAgent<br/>(Preservação das 3 camadas, sanitização de PII<br/>e pseudonimização Player_0001 a Player_1032)"]:::agent
         VALID_POSTS --> ANON
-        ANON --> ANON_POSTS[("anonymized_posts.json<br/>(Autores reais preservados)")]
+        ANON --> ANON_POSTS[("anonymized_posts.json<br/>(1.032 posts únicos com texto integral)")]
     end
 
-    %% FASE 3: Codificação Qualitativa DART
-    subgraph FASE3 ["Fase 3: Codificação Teórica DART"]
-        ANON_POSTS --> NETNO["NetnographyAgent<br/>(deepseek-v4-flash)"]:::agent
+    %% CAMADA 2: Codificação Qualitativa DART-NET
+    subgraph FASE3 ["Camada 2: Codificação Científica DART-NET (AI CODING)"]
+        ANON_POSTS --> NETNO["NetnographyAgent<br/>(deepseek-v4-flash, 30 workers concorrentes)"]:::agent
         
-        subgraph DART_CODING ["Classificação Multi-Dimensional"]
-            DART_DIM["Dimensão DART<br/>(Diálogo, Acesso, Risco, Transparência)"]
-            COCREATE["Tipologia de Cocriação<br/>(Simétrica, Assimétrica, Parasitária)"]
-            RISK_SCORE["Score de Risco Percebido (1-5)"]
-            QUOTE["Evidência Literal (Citação exata)"]
+        subgraph DART_CODING ["Classificação Multi-Taxonómica DART-NET"]
+            AI_TAX["Tipo de IA (A1–A6)<br/>(87 A1, 100 A2, 14 A3, 52 A4, 511 A5, 268 A6)"]
+            INTERACTION["Estrutura de Interação (I1–I6)<br/>(43 I1, 5 I2, 51 I3, 578 I4, 4 I5, 351 I6)"]
+            VALUE_TAX["Cocriação de Valor (VC1–VC4)<br/>(23 VC1, 50 VC2, 45 VC3, 914 VC4)"]
+            DART_DIM["Dimensões DART (0 a 5)<br/>(D: 0,66 | A: 0,75 | R: 1,16 | T: 0,77)"]
+            CONFIDENCE["Calibração de Confiança & Flag<br/>(human_review_required = True se conf < 0,80)"]
         end
         
         NETNO --> DART_CODING
-        DART_CODING --> NETNO_RESULTS[("netnography_results.jsonl<br/>(Base de dados DART)")]
+        DART_CODING --> NETNO_RESULTS[("netnography_results.jsonl<br/>(1.032 análises científicas)")]
     end
 
-    %% FASE 4: Auditoria de Qualidade
-    subgraph FASE4 ["Fase 4: Controlo de Qualidade Interno"]
-        NETNO_RESULTS --> AUDIT_SAMPLE["Amostragem Aleatória de 20%<br/>(Seed 42)"]
-        AUDIT_SAMPLE --> QUALITY_GUARD["QualityGuardAgent<br/>(deepseek-v4-pro em modo pensamento)"]:::agent
+    %% CAMADA 2: Auditoria de Qualidade Interna
+    subgraph FASE4 ["Fase 4: Controlo de Qualidade Interno Multiagente"]
+        NETNO_RESULTS --> AUDIT_SAMPLE["Amostragem Aleatória de 20%<br/>(206 análises, Seed 42)"]
+        AUDIT_SAMPLE --> QUALITY_GUARD["QualityGuardAgent<br/>(deepseek-v4-pro auditor independente)"]:::agent
         
         QUALITY_CHECK{"Índice de Concordância<br/>Global >= 70%?"}:::decision
         QUALITY_GUARD --> QUALITY_CHECK
         QUALITY_CHECK -- "Não" --> ABORT["Abortar Pipeline"]
-        QUALITY_CHECK -- "Sim (88.38%)" --> AUDIT_REPORT[("quality_audit_results.json")]
+        QUALITY_CHECK -- "Aprovado: 84,41%" --> AUDIT_REPORT[("quality_audit_results.json<br/>(Score 84,41% | 100% citações literais)")]
     end
 
-    %% FASE 5: Síntese e Entregáveis Finais
+    %% CAMADA 2 & 3: Síntese e Entregáveis Finais
     subgraph FASE5 ["Fase 5: Síntese e Entregáveis Principais"]
-        NETNO_RESULTS --> SYNTHESIS["SynthesisAgent<br/>(deepseek-v4-pro)"]:::agent
+        NETNO_RESULTS --> SYNTHESIS["SynthesisAgent<br/>(deepseek-v4-pro com amostragem estratificada)"]:::agent
         AUDIT_REPORT --> SYNTHESIS
         
-        SYNTHESIS --> REPORT_FINAL["relatorio_netnografia.md<br/>(Relatório Académico Completo)"]:::output
+        SYNTHESIS --> REPORT_FINAL["relatorio_netnografia.md<br/>(Relatório Académico de 8 Secções — QI1 a QI5)"]:::output
         
-        ANON_POSTS --> TABLE_GEN["SummaryTableGenerator<br/>(Resumos de até 50 palavras)"]:::agent
-        TABLE_GEN --> TABLE_RESUMOS["tabela_resumos.md<br/>(Tabela com links diretos)"]:::output
+        ANON_POSTS --> TABLE_GEN["SummaryTableGenerator<br/>(deepseek-v4-flash para resumos <= 50 palavras)"]:::agent
+        NETNO_RESULTS --> TABLE_GEN
+        TABLE_GEN --> TABLE_RESUMOS["tabela_resumos.md<br/>(1.032 posts com DART, resumos e links diretos)"]:::output
         
-        ANON_POSTS --> GROUP_GEN["group_posts_by_topic.py"]:::agent
-        GROUP_GEN --> POSTS_GROUPED["posts_agrupados_por_tema.txt<br/>(91 temas agrupados)"]:::output
-        
-        URL_GEN["Exportação de URLs"] --> LISTA_LINKS["lista_links.txt<br/>(101 URLs)"]:::output
-        COST_LOG["Registo de Tokens"] --> TABELA_CUSTOS["tabela_custos.md<br/>(Custos de API: $8.45)"]:::output
+        CORPUS --> LISTA_LINKS_MD["lista_links.md / lista_links.txt<br/>(Catálogo das 303 URLs Canónicas)"]:::output
+        COST_LOG["Registo de Tokens<br/>(26.616 chamadas API)"] --> TABELA_CUSTOS["tabela_custos.md<br/>(Auditoria de Custos: $21,05 USD)"]:::output
     end
 
-    %% FASE 6: Validação Inter-Codificadores
-    subgraph FASE6 ["Fase 6: Validação Metodológica Externa"]
-        NETNO_RESULTS --> KAPPA_SAMPLE["prepare_kappa_sample.py"]:::agent
-        KAPPA_SAMPLE --> CSV_HUMAN["amostra_codificacao_humana.csv<br/>(50 posts com links)"]:::validation
+    %% CAMADA 3: Validação Metodológica Externa
+    subgraph FASE6 ["Camada 3: Validação Humana e Reprodutibilidade (HUMAN VALIDATION)"]
+        NETNO_RESULTS --> HUMAN_QUEUE["Fila de Validação Humana Prioritária<br/>(803 posts com '⚠️ Sim' em Rev. Humana)"]:::validation
         
-        HUMAN_CODING["Codificação Cega por Investigador Humano<br/>(DART + Cocriação)"]:::validation
+        NETNO_RESULTS --> KAPPA_SAMPLE["Amostragem para Revisão Humana"]:::agent
+        KAPPA_SAMPLE --> CSV_HUMAN["amostra_codificacao_humana.csv<br/>(Amostra para teste cego)"]:::validation
+        
+        HUMAN_CODING["Codificação Cega por Investigador Humano<br/>(DART-NET: A1-A6, I1-I6, VC1-VC4, DART)"]:::validation
         CSV_HUMAN --> HUMAN_CODING
         
-        HUMAN_CODING --> CALC_KAPPA["calculate_kappa.py<br/>(Cálculo do Kappa de Cohen)"]:::agent
-        CALC_KAPPA --> KAPPA_REPORT["relatorio_concordancia_kappa.md<br/>(Índice de Fiabilidade Inter-Codificadores)"]:::output
+        HUMAN_CODING --> CALC_KAPPA["calculate_kappa.py<br/>(Cálculo do Coeficiente Kappa de Cohen)"]:::agent
+        CALC_KAPPA --> KAPPA_REPORT["relatorio_concordancia_kappa.md<br/>(Índice de Fiabilidade Científica)"]:::output
     end
       </pre>
     </div>

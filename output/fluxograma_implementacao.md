@@ -1,6 +1,7 @@
-# Fluxograma do Plano de Implementação da Pipeline Netnográfica DART-NET v2.0
+# Fluxograma da Pipeline Netnográfica DART-NET v3.0
+## Interação Humano-IA e Cocriação de Valor em Ecossistemas de Videojogos
 
-Este documento apresenta o fluxograma metodológico e arquitetural completo da pipeline multiagente de análise netnográfica baseada no Framework **DART-NET** (Prahalad & Ramaswamy, 2004; DART-NET 2026), integrando desde a extração de dados brutos até a validação inter-codificadores via Kappa de Cohen.
+Este documento apresenta o fluxograma metodológico e arquitetural completo da pipeline multiagente de análise netnográfica baseada no Framework **DART-NET** (Prahalad & Ramaswamy, 2004; DART-NET 2026), integrando desde a extração de dados brutos pós-2024 até à validação inter-codificadores via Kappa de Cohen.
 
 ---
 
@@ -16,125 +17,142 @@ flowchart TD
     classDef validation fill:#fce4ec,stroke:#c2185b,stroke-width:2px;
 
     %% CAMADA 1: Ingestão de Dados Brutos
-    subgraph FASE1 ["Camada 1: Ingestão de Dados Brutos (RAW DATA)"]
-        RAW_WOW["Fóruns Blizzard WoW<br/>(Comunidades e Tópicos)"]:::source
-        RAW_EVE["Fóruns CCP EVE Online<br/>(Economia e Mecânicas)"]:::source
-        RAW_REDDIT["Reddit & Média Externa<br/>(Subreddits e Discussões)"]:::source
+    subgraph FASE1 ["Camada 1: Ingestão de Dados Brutos (RAW DATA) — Jan 2024 a 2026"]
+        CORPUS["Corpus Canónico de 303 Tópicos Únicos<br/>(A1-A5 curados + Query Booleana IA/LLM/MCP)"]:::source
         
-        SCRAPER["ScraperAgent<br/>(Extração integral, preservação de contexto e keywords)"]:::agent
+        RAW_WOW["Fóruns Blizzard WoW<br/>(87 tópicos Discourse JSON)"]:::source
+        RAW_EVE["Fóruns CCP EVE Online<br/>(62 tópicos Discourse JSON)"]:::source
+        RAW_REDDIT["Reddit r/wow & r/Eve<br/>(125 tópicos Arctic Shift API)"]:::source
+        RAW_STEAM["Steam Community<br/>(11 tópicos 2026)"]:::source
+        
+        CORPUS --> RAW_WOW
+        CORPUS --> RAW_EVE
+        CORPUS --> RAW_REDDIT
+        CORPUS --> RAW_STEAM
+        
+        SCRAPER["ScraperAgent<br/>(Filtro Temporal Estrito: created_at >= 2024-01-01<br/>Comprimento mínimo >= 50 carateres)"]:::agent
         RAW_WOW --> SCRAPER
         RAW_EVE --> SCRAPER
         RAW_REDDIT --> SCRAPER
-        SCRAPER --> SCRAPED_POSTS[("scraped_posts.json<br/>(RAW DATA Preservado)")]
+        RAW_STEAM --> SCRAPER
+        
+        SCRAPER --> SCRAPED_POSTS[("scraped_posts.json<br/>(6.485 posts pós-2024 preservados)")]
     end
 
     %% CAMADA 2: Triagem e Anonimização Ética
-    subgraph FASE2 ["Fase 2: Triagem em 2 Etapas e Pseudonimização"]
-        SCRAPED_POSTS --> VALIDATOR["SemanticValidatorAgent<br/>(deepseek-v4-flash)"]:::agent
-        VCACHE[("validation_cache.json")] <--> VALIDATOR
+    subgraph FASE2 ["Fase 2: Triagem Semântica e Pseudonimização Ética"]
+        SCRAPED_POSTS --> VALIDATOR["SemanticValidatorAgent<br/>(deepseek-v4-flash com léxico expandido)"]:::agent
+        VCACHE[("validation_cache.json<br/>(12.429 validações em cache)")] <--> VALIDATOR
         
-        VALID_CHECK{"Classificação de Relevância<br/>(Secção 6)"}:::decision
+        VALID_CHECK{"Classificação de Relevância<br/>(RELEVANT / POSSIBLY RELEVANT)?"}:::decision
         VALIDATOR --> VALID_CHECK
         VALID_CHECK -- "IRRELEVANT" --> DISCARD["Descartado da Análise"]
-        VALID_CHECK -- "RELEVANT / POSSIBLY RELEVANT" --> VALID_POSTS[("validated_posts.json")]
+        VALID_CHECK -- "Válido (2024-2026)" --> VALID_POSTS[("validated_posts.json<br/>(1.034 posts qualificados)")]
         
-        ANON["AnonymizerAgent<br/>(Preservação das 3 camadas e<br/>atribuição de Player_XXX)"]:::agent
+        ANON["AnonymizerAgent<br/>(Preservação das 3 camadas, sanitização de PII<br/>e pseudonimização Player_0001 a Player_1032)"]:::agent
         VALID_POSTS --> ANON
-        ANON --> ANON_POSTS[("anonymized_posts.json<br/>(Texto integral preservado)")]
+        ANON --> ANON_POSTS[("anonymized_posts.json<br/>(1.032 posts únicos com texto integral)")]
     end
 
     %% CAMADA 2: Codificação Qualitativa DART-NET
-    subgraph FASE3 ["Camada 2: Codificação Científica DART-NET"]
-        ANON_POSTS --> NETNO["NetnographyAgent<br/>(deepseek-v4-flash em thinking mode)"]:::agent
+    subgraph FASE3 ["Camada 2: Codificação Científica DART-NET (AI CODING)"]
+        ANON_POSTS --> NETNO["NetnographyAgent<br/>(deepseek-v4-flash, 30 workers concorrentes)"]:::agent
         
         subgraph DART_CODING ["Classificação Multi-Taxonómica DART-NET"]
-            AI_TAX["Tipo de IA (A1–A6)<br/>(AI Agent, Bot, Script, Assisted, etc.)"]
-            INTERACTION["Estrutura de Interação (I1–I6)<br/>(Humano-IA, Bidirecional, Mediado)"]
-            VALUE_TAX["Cocriação de Valor (VC1–VC4)<br/>(Co-criação vs Co-destruição)"]
-            DART_DIM["Dimensões DART (0 a 5)<br/>(Diálogo, Acesso, Risco, Transparência)"]
-            CONFIDENCE["Calibração de Confiança & Flag<br/>(human_review_required se < 0.80)"]
+            AI_TAX["Tipo de IA (A1–A6)<br/>(87 A1, 100 A2, 14 A3, 52 A4, 511 A5, 268 A6)"]
+            INTERACTION["Estrutura de Interação (I1–I6)<br/>(43 I1, 5 I2, 51 I3, 578 I4, 4 I5, 351 I6)"]
+            VALUE_TAX["Cocriação de Valor (VC1–VC4)<br/>(23 VC1, 50 VC2, 45 VC3, 914 VC4)"]
+            DART_DIM["Dimensões DART (0 a 5)<br/>(D: 0,66 | A: 0,75 | R: 1,16 | T: 0,77)"]
+            CONFIDENCE["Calibração de Confiança & Flag<br/>(human_review_required = True se conf < 0,80)"]
         end
         
         NETNO --> DART_CODING
-        DART_CODING --> NETNO_RESULTS[("netnography_results.jsonl<br/>(Esquema Padronizado Secção 13)")]
+        DART_CODING --> NETNO_RESULTS[("netnography_results.jsonl<br/>(1.032 análises científicas)")]
     end
 
-    %% CAMADA 2: Auditoria de Qualidade
-    subgraph FASE4 ["Fase 4: Controlo de Qualidade Interno"]
-        NETNO_RESULTS --> AUDIT_SAMPLE["Amostragem Aleatória de 20%<br/>(Seed 42)"]
-        AUDIT_SAMPLE --> QUALITY_GUARD["QualityGuardAgent<br/>(deepseek-v4-pro em thinking mode)"]:::agent
+    %% CAMADA 2: Auditoria de Qualidade Interna
+    subgraph FASE4 ["Fase 4: Controlo de Qualidade Interno Multiagente"]
+        NETNO_RESULTS --> AUDIT_SAMPLE["Amostragem Aleatória de 20%<br/>(206 análises, Seed 42)"]
+        AUDIT_SAMPLE --> QUALITY_GUARD["QualityGuardAgent<br/>(deepseek-v4-pro auditor independente)"]:::agent
         
         QUALITY_CHECK{"Índice de Concordância<br/>Global >= 70%?"}:::decision
         QUALITY_GUARD --> QUALITY_CHECK
         QUALITY_CHECK -- "Não" --> ABORT["Abortar Pipeline"]
-        QUALITY_CHECK -- "Sim" --> AUDIT_REPORT[("quality_audit_results.json")]
+        QUALITY_CHECK -- "Aprovado: 84,41%" --> AUDIT_REPORT[("quality_audit_results.json<br/>(Score 84,41% | 100% citações literais)")]
     end
 
     %% CAMADA 2 & 3: Síntese e Entregáveis Finais
-    subgraph FASE5 ["Fase 5: Síntese e Entregáveis Finais"]
-        NETNO_RESULTS --> SYNTHESIS["SynthesisAgent<br/>(deepseek-v4-pro)"]:::agent
+    subgraph FASE5 ["Fase 5: Síntese e Entregáveis Principais"]
+        NETNO_RESULTS --> SYNTHESIS["SynthesisAgent<br/>(deepseek-v4-pro com amostragem estratificada)"]:::agent
         AUDIT_REPORT --> SYNTHESIS
         
-        SYNTHESIS --> REPORT_FINAL["relatorio_netnografia.md<br/>(Relatório Académico DART-NET)"]:::output
+        SYNTHESIS --> REPORT_FINAL["relatorio_netnografia.md<br/>(Relatório Académico de 8 Secções — QI1 a QI5)"]:::output
         
-        ANON_POSTS --> TABLE_GEN["SummaryTableGenerator<br/>(Resumos + Codificação DART-NET)"]:::agent
+        ANON_POSTS --> TABLE_GEN["SummaryTableGenerator<br/>(deepseek-v4-flash para resumos <= 50 palavras)"]:::agent
         NETNO_RESULTS --> TABLE_GEN
-        TABLE_GEN --> TABLE_RESUMOS["tabela_resumos.md<br/>(Tabela com Links e Classificações)"]:::output
+        TABLE_GEN --> TABLE_RESUMOS["tabela_resumos.md<br/>(1.032 posts com DART, resumos e links diretos)"]:::output
         
-        COST_LOG["Registo de Tokens"] --> TABELA_CUSTOS["tabela_custos.md<br/>(Auditoria de Custos de API)"]:::output
+        CORPUS --> LISTA_LINKS_MD["lista_links.md / lista_links.txt<br/>(Catálogo das 303 URLs Canónicas)"]:::output
+        COST_LOG["Registo de Tokens<br/>(26.616 chamadas API)"] --> TABELA_CUSTOS["tabela_custos.md<br/>(Auditoria de Custos: $21,05 USD)"]:::output
     end
 
     %% CAMADA 3: Validação Metodológica Externa
-    subgraph FASE6 ["Camada 3: Validação Humana e Reprodutibilidade"]
+    subgraph FASE6 ["Camada 3: Validação Humana e Reprodutibilidade (HUMAN VALIDATION)"]
+        NETNO_RESULTS --> HUMAN_QUEUE["Fila de Validação Humana Prioritária<br/>(803 posts com '⚠️ Sim' em Rev. Humana)"]:::validation
+        
         NETNO_RESULTS --> KAPPA_SAMPLE["Amostragem para Revisão Humana"]:::agent
-        KAPPA_SAMPLE --> CSV_HUMAN["amostra_codificacao_humana.csv<br/>(Fila de Revisão Humana)"]:::validation
+        KAPPA_SAMPLE --> CSV_HUMAN["amostra_codificacao_humana.csv<br/>(Amostra para teste cego)"]:::validation
         
         HUMAN_CODING["Codificação Cega por Investigador Humano<br/>(DART-NET: A1-A6, I1-I6, VC1-VC4, DART)"]:::validation
         CSV_HUMAN --> HUMAN_CODING
         
-        HUMAN_CODING --> CALC_KAPPA["calculate_kappa.py<br/>(Cálculo do Kappa de Cohen)"]:::agent
+        HUMAN_CODING --> CALC_KAPPA["calculate_kappa.py<br/>(Cálculo do Coeficiente Kappa de Cohen)"]:::agent
         CALC_KAPPA --> KAPPA_REPORT["relatorio_concordancia_kappa.md<br/>(Índice de Fiabilidade Científica)"]:::output
     end
 ```
 
 ---
 
-## Descrição das Fases da Pipeline DART-NET v2.0
+## Descrição das Fases da Pipeline DART-NET v3.0
 
-1. **Fase 1: Ingestão e Preservação de Dados Brutos (RAW DATA)**
+1. **Fase 1: Ingestão Canónica e Filtro Temporal Estrito (RAW DATA)**
    * **Agente:** `ScraperAgent`
-   * **Fontes:** Publicações de fóruns Discourse (WoW e EVE Online), subreddits e plataformas externas.
-   * **Ação:** Extração preservando o texto original, contexto conversacional e identificando as palavras-chave desencadeadoras de descoberta (`keywords_triggered`).
-   * **Saída:** `data/interim/scraped_posts.json` (Camada 1 preservada integralmente).
+   * **Fontes:** 303 discussões canónicas catalogadas (Discourse WoW e EVE Online, Reddit `r/wow` e `r/Eve`, Steam Community).
+   * **Regra Temporal:** `POST_MIN_DATE = "2024-01-01T00:00:00Z"`. Foram filtradas 8.999 mensagens, excluindo 1.248 posts pré-2024 e 1.266 posts curtos (< 50 carateres).
+   * **Saída:** `data/interim/scraped_posts.json` (6.485 posts pós-2024 preservados na íntegra).
 
 2. **Fase 2: Triagem Semântica e Sanitização Ética**
    * **Agentes:** `SemanticValidatorAgent` e `AnonymizerAgent`
-   * **Ação:** Triagem de relevância tripartida (`RELEVANT`, `POSSIBLY RELEVANT`, `IRRELEVANT`) com calibração de confiança. Pseudonimização ética de autores (`author_id` -> `Player_XXX`) garantindo a não-exclusão dos ficheiros brutos conforme a regra de três camadas (Secção 14).
-   * **Saída:** `data/processed/anonymized_posts.json`.
+   * **Ação:** Triagem semântica de relevância suportada pelo modelo `deepseek-v4-flash` com léxico expandido (LLM, MCP, Copilot, etc.). Pseudonimização ética (`Player_0001` a `Player_1032`) e sanitização de dados privados (PII), preservando as 3 camadas metodológicas intactas (Secção 14).
+   * **Saída:** `data/processed/anonymized_posts.json` (1.032 posts únicos estritamente pós-2024).
 
-3. **Fase 3: Codificação Qualitativa DART-NET**
+3. **Fase 3: Codificação Qualitativa DART-NET (AI CODING)**
    * **Agente:** `NetnographyAgent`
-   * **Ação:** Codificação teórica com `deepseek-v4-flash` (*thinking mode*):
-     * **Tipologia de IA (`A1` a `A6`)**: Distinção estrita de agentes de IA vs bots convencionais e scripts.
-     * **Estrutura de Interação (`I1` a `I6`)**: Identificação de fluxos unidirecionais, bidirecionais (`I3`) e mediados.
-     * **Cocriação de Valor (`VC1` a `VC4`)**: Mapeamento de criação, potencial cocriação e codestruição de valor.
-     * **Dimensões DART (0 a 5)**: Avaliação independente de Diálogo, Acesso, Risco e Transparência com citação literal (máx. 40 palavras).
-     * **Calibração de Confiança e Flag Humana**: Atribuição automática de `human_review_required: true` se confiança `< 0.80` ou ambiguidade.
-   * **Saída:** Base de dados incremental em `data/analysis/netnography_results.jsonl` (Esquema da Secção 13).
+   * **Ação:** Codificação analítica paralela (30 workers) via `deepseek-v4-flash`:
+     * **Tipologia de IA (`A1` a `A6`)**: Distinção estrita de agentes de IA autónomos (87 A1) vs bots convencionais (100 A2) e discussões (511 A5).
+     * **Estrutura de Interação (`I1` a `I6`)**: Identificação de fluxos diretos (I1 a I3) e discurso social (578 I4).
+     * **Cocriação de Valor (`VC1` a `VC4`)**: Mapeamento de cocriação (23 VC1), potencial cocriação (50 VC2) e codestruição (45 VC3).
+     * **Dimensões DART (0 a 5)**: Avaliação independente de Diálogo (0,66), Acesso (0,75), Risco (1,16) e Transparência (0,77) com evidência literal.
+     * **Calibração de Confiança e Flag Humana**: Sinalização automática de `human_review_required: true` para casos com confiança < 0,80 ou ambiguidade.
+   * **Saída:** `data/analysis/netnography_results.jsonl` (1.032 análises científicas).
 
-4. **Fase 4: Controlo de Qualidade Interno**
+4. **Fase 4: Controlo de Qualidade Interno Multiagente**
    * **Agente:** `QualityGuardAgent`
-   * **Ação:** Amostragem cega de 20% avaliada por `deepseek-v4-pro` (*thinking mode*) validando a veracidade das citações literais, consistência concetual de A1-A6 e I1-I6, calibração DART (0-5) e sinalização da revisão humana. Limiar mínimo de aprovação $\ge 70\%$.
+   * **Ação:** Amostragem cega e probabilística de 20% (206 análises) auditada pelo modelo de raciocínio `deepseek-v4-pro`. Validação da autenticidade literal de 100% das citações, coerência taxonómica e calibração DART.
+   * **Resultado:** **Score Médio de 84,41%** (limiar crítico de $\ge 70\%$ aprovado com folga).
    * **Saída:** `data/analysis/quality_audit_results.json`.
 
 5. **Fase 5: Síntese e Entregáveis Finais**
    * **Agentes:** `SynthesisAgent` e `SummaryTableGenerator`
    * **Entregáveis:**
-     * `output/relatorio_netnografia.md`: Relatório científico formal incorporando as taxonomias DART-NET.
-     * `output/tabela_resumos.md`: Tabela cruzada com posts, classificações DART-NET, flags de revisão humana, resumos e links diretos.
-     * `output/tabela_custos.md`: Auditoria financeira de consumo da API DeepSeek.
+     * `output/relatorio_netnografia.md`: Relatório académico formal de 8 secções em português de Portugal, respondendo às 5 Questões de Investigação (QI1 a QI5) fundamentadas empiricamente.
+     * `output/tabela_resumos.md`: Matriz com 1.032 registos (DART scores, Tipos IA, Interação, Valor, resumos $\le$ 50 palavras, temas $\le$ 8 palavras, links diretos e flag de revisão humana).
+     * `output/lista_links.md` e `output/lista_links.txt`: Inventário canónico das 303 discussões catalogadas.
+     * `output/tabela_custos.md`: Auditoria financeira de 26.616 chamadas de API com custo consolidado de **$21,05 USD**.
 
-6. **Fase 6: Validação Inter-Codificadores (Kappa de Cohen)**
-   * **Ação:** Extração de amostra de auditoria humana cega para cálculo estatístico do coeficiente Kappa de Cohen ($\kappa$) comparando a codificação da IA com o investigador humano.
+6. **Fase 6: Validação Humana e Reprodutibilidade (HUMAN VALIDATION)**
+   * **Fila de Revisão Humana**: 803 posts (77,81%) priorizados para validação humana através da flag `⚠️ Sim`.
+   * **Concordância Inter-Codificadores**: Amostra de validação para teste cego e cálculo estatístico do coeficiente Kappa de Cohen ($\kappa$).
    * **Saída:** `output/relatorio_concordancia_kappa.md`.
+
 
