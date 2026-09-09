@@ -2,7 +2,7 @@ import os
 import json
 from collections import Counter
 
-BASE_DIR = "/Users/jpaulo/Documents/AntiGravity_Agents/DeepSeek_Netnography DART Pipeline Orchestration"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUTPUT_DIR = os.path.join(BASE_DIR, "output")
 
 def convert_netnography_results():
