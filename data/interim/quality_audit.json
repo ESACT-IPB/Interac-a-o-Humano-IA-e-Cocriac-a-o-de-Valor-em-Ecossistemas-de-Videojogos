@@ -1,0 +1,58 @@
+{
+  "audits": [
+    {
+      "audit_id": "post_0011",
+      "literal_match": true,
+      "score_consistency": true,
+      "type_appropriateness": true,
+      "rq_correctness": true,
+      "accepted": true,
+      "audit_notes": "All checks passed: quote found verbatim, scores consistent with evidence, parasitic type fits the AI exploitation narrative, and research questions align with the post content."
+    },
+    {
+      "audit_id": "post_0027",
+      "literal_match": true,
+      "score_consistency": true,
+      "type_appropriateness": true,
+      "rq_correctness": true,
+      "accepted": true,
+      "audit_notes": "The quote appears verbatim in the post. Scores appropriately reflect the public access, moderate risk of platform moderation, low transparency of pseudonymous identity, and minimal dialogue in a single complaint post. Parasitic co-creation accurately describes gold buyers exploiting GDKP runs. Research question mapping fits the themes of monetization and fairness."
+    },
+    {
+      "audit_id": "post_0026",
+      "literal_match": true,
+      "score_consistency": true,
+      "type_appropriateness": false,
+      "rq_correctness": true,
+      "accepted": false,
+      "audit_notes": "Quote evidence is verbatim and scores are plausible, but the co-creation type is misclassified: the WeakAura unilaterally dictates assignments without reciprocal input, making it asymmetric rather than symmetric."
+    },
+    {
+      "audit_id": "post_0043",
+      "literal_match": true,
+      "score_consistency": true,
+      "type_appropriateness": true,
+      "rq_correctness": true,
+      "accepted": true,
+      "audit_notes": "The quote is a direct match, scores appropriately reflect the post's emphasis on essential addons (Access 5) and minimal dialogue, the asymmetric type correctly captures the tension with automation, and the research questions align with the post's theme."
+    },
+    {
+      "audit_id": "post_0023",
+      "literal_match": true,
+      "score_consistency": true,
+      "type_appropriateness": true,
+      "rq_correctness": true,
+      "accepted": true,
+      "audit_notes": "Quote evidence matches post body exactly. DART scores align with the post content, especially Access and Risk. The co-creation type 'parasitic' is justified. Research question mapping appears correct. Minor: Transparency score only weakly indicated by the evidence, but the third sentence regarding Blizzard's unfulfilled promise supports low transparency, so it is acceptable."
+    },
+    {
+      "audit_id": "post_0008",
+      "literal_match": true,
+      "score_consistency": true,
+      "type_appropriateness": true,
+      "rq_correctness": true,
+      "accepted": true,
+      "audit_notes": "The quote_evidence appears verbatim in the post body. DART scores are consistent with the player's description of low dialogue, moderate access, high perceived risk, and limited transparency. Asymmetric co-creation correctly reflects the unequal value and exploitation. Research question mapping is appropriate for a post focused on agency loss due to automation."
+    }
+  ]
+}

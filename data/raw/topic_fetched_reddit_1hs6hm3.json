@@ -1,0 +1,112 @@
+{
+  "id": "1hs6hm3",
+  "title": "The issue isn’t multiboxing, it’s input broadcasting",
+  "slug": "1hs6hm3",
+  "jogo": "EVE Online",
+  "fonte": "Reddit",
+  "seccao": "r/Eve",
+  "url_fonte": "https://www.reddit.com/r/Eve/comments/1hs6hm3/the_issue_isnt_multiboxing_its_input_broadcasting/",
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1,
+        "username": "Rich-Fall-4488",
+        "cooked": "<p>Sem conteúdo.</p>",
+        "created_at": "2025-01-02T22:30:10.130Z",
+        "like_count": 200,
+        "trust_level": 2,
+        "version": 1
+      },
+      {
+        "id": 2,
+        "username": "Gunzbngbng",
+        "cooked": "<p>Input broadcasting is against the rules for a reason. If the rules changed to allow for input broadcasting, fine.  But as it stands now, it's against the rules and should be punished.  The alternative is to also cheat to maintain parity.</p>",
+        "created_at": "2025-01-02T23:11:23.804Z",
+        "like_count": 98,
+        "trust_level": 2,
+        "version": 1
+      },
+      {
+        "id": 3,
+        "username": "devilishlydo",
+        "cooked": "<p>The issue is that CCP is unable or unwilling to crack down on cheating and now the problem is so entrenched that it's commonplace. I have no policy prescription. I see no way back.</p>",
+        "created_at": "2025-01-02T22:49:08.520Z",
+        "like_count": 68,
+        "trust_level": 2,
+        "version": 1
+      },
+      {
+        "id": 4,
+        "username": "EmperorThor",
+        "cooked": "<p>no, multiboxing is the issue. Its not the APM of the multiboxing, because as you said 1 person on 15 screens cant react the same as 15 people can. But the issue is that to achieve the things that a lot of people want to do you must have 5-15 accounts. mining solo is trash, so you need a full fleet just to yourself for compression, a rat killer, multiple miners etc. ratting solo is trash isk, so everyone rolls multiple VNI or Ishtars or stormies which are a minimum of 5 at a time, so you need multiaccounts. Skill trading via extractors/injectors is just multi account farming of passive SP generation. You want to undock the capitol you wanted for so long? better also have a scout, a cyno and maybe some bait as well, thats 2-3 accounts. And then to afford all of these accounts you need to income to plex them all or just fork out cash for omega which gets very costly. SO either big time investment for plex or cash investment for omega. Sure once you have 10 accounts they can generate the income to plex 10 accounts but getting from 1-10 while also trying to undock and do fun things is painful AF and is often seen as the barrier to entry for this game. I know CCP push multi accounts, its their whole revenue stream is people just having bulk accounts each but its a shit way to prop up a game and a big turn off for new players. Ive been playing for 10+ years and i still fucking hate it and quit for a few years at a time because of it.</p>",
+        "created_at": "2025-01-03T02:34:09.943Z",
+        "like_count": 52,
+        "trust_level": 2,
+        "version": 1
+      },
+      {
+        "id": 5,
+        "username": "deltaxi65",
+        "cooked": "<p>It never ceases to amaze me how many people believe that multiboxing and input broadcasting are the same thing, because they do not believe that - in a game designed for, by and with crazy hardcore gamers bordering on and sometimes completely on the spectrum in mind, I mean literally the target audience - anybody could actually press buttons like that. This is EVE.  Of course they can. Stop spending all your energy on this. CCP actively goes after folks who are reported and if they can confirm it they ban people. And even then they sometimes get it wrong. If the guys with the actual servers logs and years of experience looking at this stuff can fuck it up, your anecdotal “well, Globby just looks like an input broadcaster” anecdote is just wasting everyone’s time.</p>",
+        "created_at": "2025-01-03T00:09:27.882Z",
+        "like_count": 40,
+        "trust_level": 2,
+        "version": 1
+      },
+      {
+        "id": 6,
+        "username": "Deleted User",
+        "cooked": "<p>Input broadcasting and macro use is regularly banned by CCP GMs even today. The reaaaallllll issue is the fact that CCP is very limited in how they combat these people making new accounts and reinjecting new toons and doing it all over again.</p>",
+        "created_at": "2025-01-02T23:28:04.245Z",
+        "like_count": 11,
+        "trust_level": 2,
+        "version": 1
+      },
+      {
+        "id": 7,
+        "username": "The_Fyrewyre",
+        "cooked": "<p>I remember this all but 10 years ago.................. https://nosygamer.blogspot.com/2014/11/ccp-revisits-isboxer-and-keystroke.html Always loved the guys setup, about halfway down the page, it involves sticks and sellotape.</p>",
+        "created_at": "2025-01-03T04:29:00.380Z",
+        "like_count": 3,
+        "trust_level": 2,
+        "version": 1
+      },
+      {
+        "id": 8,
+        "username": "Coneman_bongbarian",
+        "cooked": "<p>There are many instances where someone thinks input broadcasting is being used when in reality its server priority and fast APM + hotkeys That said there are of course times people are using it.</p>",
+        "created_at": "2025-01-03T10:13:09.936Z",
+        "like_count": 3,
+        "trust_level": 2,
+        "version": 1
+      },
+      {
+        "id": 9,
+        "username": "Efficient_Word_2382",
+        "cooked": "<p>Every time when i hear \"imput broadcasting\" Every time I hear ‘imput’ I think of this video - https://www.twitch.tv/jason_kusion/clip/FreezingAntsyFrogPrimeMe are you sure it's what you think it is?</p>",
+        "created_at": "2025-01-03T17:27:45.484Z",
+        "like_count": 3,
+        "trust_level": 2,
+        "version": 1
+      },
+      {
+        "id": 10,
+        "username": "Ohh_Yeah",
+        "cooked": "<p>On top of that the client of a regular multiboxer, with every part of the UI in the exact same place, is the same as you’d see with an input broadcaster, and because the tool is client side it would be hard for CCP to detect. So the question becomes “how many clicks in X seconds across Y clients is reasonable? This is really the only part I agree with you on? They definitely do crack down on input broadcasting. I have always thought it was kind of lame that tools like EVE-O Preview give you such a huge increase in efficiency that you would be very hard pressed to match otherwise. Like if EVE-O Preview (and similar tools, i.e. ISBoxer without broadcasting) ceased to exist, how many multibox operations would close up shop immediately? My guess is a lot, which I interpret as EVE-O Preview functionality being a bad thing for the game. The idea that you have a third party software which allows you to monitor 10-20-30 clients at once across just a couple monitors, and then have them all neatly hotkeyed, and without the software this would all be extremely cumbersome, is super concerning to me. I do not believe there is a strong argument in favor keeping stuff like this around, but that ship has already sailed so so far lol.</p>",
+        "created_at": "2025-01-02T22:51:21.048Z",
+        "like_count": 13,
+        "trust_level": 2,
+        "version": 1
+      },
+      {
+        "id": 11,
+        "username": "xeron_vann",
+        "cooked": "<p>Smoothbrains don't know how to tell good multiboxing from input broadcasting (ie, 99% of this sub). CCP are the only ones with the backend data to legitimately determine this, and even then without directly breaking privacy and reading what is active on your PC, they can't 100% be sure. A handful of accounts aren't hard to synchronize and have firing on a single tick. https://youtu.be/uBy0t-u4mYk?si=3fcD5DwGf2iCPzTF</p>",
+        "created_at": "2025-01-03T01:23:03.864Z",
+        "like_count": 11,
+        "trust_level": 2,
+        "version": 1
+      }
+    ]
+  }
+}

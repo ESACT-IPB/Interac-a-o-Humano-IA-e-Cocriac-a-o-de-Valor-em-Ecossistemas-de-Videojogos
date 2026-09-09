@@ -1,0 +1,134 @@
+{
+  "id": "reddit_1p38i14",
+  "title": "WowGPT for understanding lore?",
+  "slug": "wowgpt_for_understanding_lore",
+  "posts_count": 10,
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1,
+        "username": "teamongered",
+        "cooked": "<p>The main campaign is generally easy to follow, but I also like to do the smaller side stories to experience all that the zone has to offer. But to get a more immersive experience I like to know the history and context of the storyline... which is often presented in a very disjointed way in the game. That or I did the main campaign a while ago, so I forgot a lot of stuff. So I often just ask ChatGPT to do things like summarize the history Hallowfall, explain who a character is, who is this tribe of murlok-like creatures, etc. Makes me wish there was some way to ask free-form questions to in-game NPCs to better understand the lore. Good / bad idea? That and I wish they would narrate more quest text. I really loved the music and aesthetics of most TWWs zones, so I want to experience more of it by questing.</p>",
+        "created_at": "2025-11-21T19:52:38.562000+0000",
+        "post_number": 1,
+        "reply_to_post_number": null,
+        "reply_count": 9,
+        "like_count": 0,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 2,
+        "username": "teamongered",
+        "cooked": "<p>Oh nice, thanks.</p>",
+        "created_at": "2025-11-21T20:02:47.782000+0000",
+        "post_number": 2,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": -4,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 3,
+        "username": "teamongered",
+        "cooked": "<p>Yes, there are many great resources. But the other angle of my point is immersion. If I am playing the game, enjoying the music, ambiance, storyline, etc. and I suddenly get a new quest that throws a bunch of stuff at me that I have no context for why it matters, it breaks immersion since I now have to spend 5 minutes searching and reading an ad-filled wiki to understand the meaning of what I am doing. The alternative is to not try to understand it, just do the quest, and feel like I am just doing a chore.</p>",
+        "created_at": "2025-11-21T20:30:10.434000+0000",
+        "post_number": 3,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": -3,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 4,
+        "username": "OdysseyBrands",
+        "cooked": "<p>doesn't take much to insult people trolls like you</p>",
+        "created_at": "2025-11-21T20:05:15.879000+0000",
+        "post_number": 4,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": -9,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 5,
+        "username": "Sad-Struggle-Cat",
+        "cooked": "<p>There are some youtubers like Nobbel who make lore summary videos that are easy to follow.</p>",
+        "created_at": "2025-11-21T20:12:03.255000+0000",
+        "post_number": 5,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 4,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 6,
+        "username": "Typhron",
+        "cooked": "<p>No.</p>",
+        "created_at": "2025-11-21T22:35:25.525000+0000",
+        "post_number": 6,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 7,
+        "username": "Basilisk_Says",
+        "cooked": "<p>Right up until it hallucinates and tells OP a load of bullshit \"lore\" it created as if it were fact.</p>",
+        "created_at": "2025-11-21T21:24:19.294000+0000",
+        "post_number": 7,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 9,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 8,
+        "username": "GhostintheReins",
+        "cooked": "<p>OP I do it, it does (I'm sure you've noticed) have limitations where it'll get things wrong (about wow) because it gets confused but it has helped at direct me in the right direction because if I posted all the questions I had about this game every time I had one, I'd probably be banned for spamming so I've adapted lol</p>",
+        "created_at": "2025-11-21T21:00:44.520000+0000",
+        "post_number": 8,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 9,
+        "username": "teamongered",
+        "cooked": "<p>I maybe over generalized. Obviously a lot of stuff can be searched for easily, but other stuff isn't. The other angle of my post is immersion. If I am playing the game, enjoying the music, ambiance, storyline, etc. and I suddenly get a new quest that throws a bunch of stuff at me that I have no context for why it matters, it breaks immersion since I now have to spend 5 minutes searching and reading some ad-filled wiki to understand the meaning of what I am doing. The alternative is to not try to understand it, just do the quest, and feel like I am just doing a chore.</p>",
+        "created_at": "2025-11-21T20:36:19.335000+0000",
+        "post_number": 9,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 10,
+        "username": "OdysseyBrands",
+        "cooked": "<p>You are still incorrect... this space moves fast so your operational knowledge has fallen quickly out of date. I've just asked gemini, chatgpt & claude to confirm, and they all answered my Midnight question accurately. They all have had web search for a few months now bud. edit: lol he deleted... dude was saying confidently lying how AI doesnt know anything past dragonflight</p>",
+        "created_at": "2025-11-21T20:15:10.618000+0000",
+        "post_number": 10,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 0,
+        "version": 1,
+        "trust_level": 1
+      }
+    ]
+  },
+  "jogo": "World of Warcraft",
+  "fonte": "Reddit",
+  "seccao": "r/wow",
+  "url_fonte": "https://www.reddit.com/r/wow/comments/1p38i14/wowgpt_for_understanding_lore/"
+}

@@ -1,0 +1,2822 @@
+{
+  "id": 3000012,
+  "title": "Will history repeat itself with the bot crisis when the servers launch?",
+  "slug": "will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch",
+  "jogo": "World of Warcraft",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Blizzard",
+  "url_fonte": "https://us.forums.blizzard.com/en/wow/t/will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch/2012234",
+  "post_stream": {
+    "posts": [
+      {
+        "id": 25620015,
+        "name": "KG1991",
+        "username": "KG1991-1452349",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-19T04:00:57.964Z",
+        "cooked": "<p>I remember way back when classic launched the level of bots were insane. Whole armies of them running into stockades etc? It’s great to see all the QoL changes coming, but will the elephant in the room actually be addressed? Or will the economy be trashed, again?</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 42,
+        "updated_at": "2024-11-19T04:00:57.964Z",
+        "reply_count": 2,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 60,
+        "reads": 190,
+        "readers_count": 189,
+        "score": 388.0,
+        "yours": false,
+        "topic_id": 2012234,
+        "topic_slug": "will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch",
+        "display_username": "KG1991",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1452349,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/barthilas/hueythered/",
+          "race": "Orc",
+          "class": "Rogue",
+          "player_class_enum": "ROGUE",
+          "blizzard_post_count": "3",
+          "level": "50",
+          "achievement_points": "7335"
+        },
+        "post_url": "/t/will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch/2012234/1",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/barthilas/64/199089216-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "alias_username": "Hueythered-barthilas",
+        "poster_alias": {
+          "alias": {
+            "name": "Hueythered-barthilas",
+            "avatar": "https://render.worldofwarcraft.com/us/character/barthilas/64/199089216-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/barthilas/hueythered/",
+            "user_id": 1452349,
+            "id": 1019185,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 3,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/barthilas/hueythered/"
+              },
+              {
+                "name": "realm",
+                "value": "Barthilas"
+              },
+              {
+                "name": "achievement_points",
+                "value": "7335"
+              },
+              {
+                "name": "level",
+                "value": "50"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 3,
+        "character": {
+          "name": "KG1991",
+          "guild": null,
+          "achievement_points": "7335",
+          "level": "50",
+          "class": "Rogue",
+          "race": "Orc",
+          "player_class_enum": "ROGUE",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 25620164,
+        "name": "Psycha",
+        "username": "Psycha-2070889",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-19T04:18:48.675Z",
+        "cooked": "<p>I mean when the movement started for a fresh server and everyone starting hyping up Deviate Delight. Tons of bots started popping up.</p>\n<p>So yes. It’ll be bad.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 42,
+        "updated_at": "2026-07-06T14:43:49.085Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 180,
+        "readers_count": 179,
+        "score": 96.0,
+        "yours": false,
+        "topic_id": 2012234,
+        "topic_slug": "will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch",
+        "display_username": "Psycha",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 4
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2070889,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/moon-guard/psycha/",
+          "race": "Human",
+          "classic": "t",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "level": "80",
+          "guild": "Silver Serenity",
+          "achievement_points": "11860",
+          "blizzard_post_count": "1210"
+        },
+        "post_url": "/t/will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch/2012234/2",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/mankrik/110/41454702-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+        "alias_username": "Psychachi",
+        "poster_alias": {
+          "alias": {
+            "name": "Psychachi",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/mankrik/110/41454702-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+            "url": null,
+            "user_id": 2070889,
+            "id": 2568887,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 849,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Mankrik"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 1210,
+        "character": {
+          "name": "Psycha",
+          "guild": "Silver Serenity",
+          "achievement_points": "11860",
+          "level": "80",
+          "class": "Paladin",
+          "race": "Human",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25620171,
+        "name": "Devox",
+        "username": "Devox-2989932",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-19T04:19:26.344Z",
+        "cooked": "<p>There will always be bots. There is no real way to stop them completely.</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 42,
+        "updated_at": "2026-07-06T14:56:56.548Z",
+        "reply_count": 2,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 172,
+        "readers_count": 171,
+        "score": 44.4,
+        "yours": false,
+        "topic_id": 2012234,
+        "topic_slug": "will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch",
+        "display_username": "Devox",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2989932,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/akama/devox/",
+          "achievement_points": "0",
+          "race": "Human",
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "classic": "t",
+          "level": "60",
+          "guild": "War Boys",
+          "blizzard_post_count": "633"
+        },
+        "post_url": "/t/will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch/2012234/3",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/crusader-strike/253/44339965-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+        "alias_username": "Devoxqt-crusader-strike",
+        "poster_alias": {
+          "alias": {
+            "name": "Devoxqt-crusader-strike",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/crusader-strike/253/44339965-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+            "url": null,
+            "user_id": 2989932,
+            "id": 30328,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 891,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Crusader Strike"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/crusader-strike/253/44339965-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Devoxqt-crusader-strike"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 633,
+        "character": {
+          "name": "Devox",
+          "guild": "War Boys",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Mage",
+          "race": "Human",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25620287,
+        "name": "Robotron",
+        "username": "Robotron-593076",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-19T04:30:40.297Z",
+        "cooked": "<p>Sure there is, perm ban gold buyers…</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 42,
+        "updated_at": "2024-11-19T04:30:40.297Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 158,
+        "readers_count": 157,
+        "score": 196.6,
+        "yours": false,
+        "topic_id": 2012234,
+        "topic_slug": "will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch",
+        "display_username": "Robotron",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 11
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 593076,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/kalecgos/bullbreaker/",
+          "guild": "Warfare",
+          "race": "Tauren",
+          "class": "Druid",
+          "player_class_enum": "DRUID",
+          "level": "54",
+          "achievement_points": "3770",
+          "blizzard_post_count": "196"
+        },
+        "post_url": "/t/will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch/2012234/4",
+        "alias_avatar": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png",
+        "alias_username": "Bullbreaker-kalecgos",
+        "poster_alias": {
+          "alias": {
+            "name": "Bullbreaker-kalecgos",
+            "avatar": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png",
+            "url": "https://worldofwarcraft.com/en-us/character/us/kalecgos/bullbreaker/",
+            "user_id": 593076,
+            "id": 560384,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 196,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/kalecgos/bullbreaker/"
+              },
+              {
+                "name": "realm",
+                "value": "Kalecgos"
+              },
+              {
+                "name": "achievement_points",
+                "value": "3770"
+              },
+              {
+                "name": "level",
+                "value": "54"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png"
+              },
+              {
+                "name": "name",
+                "value": "Bullbreaker-kalecgos"
+              },
+              {
+                "name": "guild",
+                "value": "Warfare"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 196,
+        "character": {
+          "name": "Robotron",
+          "guild": "Warfare",
+          "achievement_points": "3770",
+          "level": "54",
+          "class": "Druid",
+          "race": "Tauren",
+          "player_class_enum": "DRUID",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25620323,
+        "name": "TenHitsOfLSD",
+        "username": "TenHitsOfLSD-3102375",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-19T04:35:03.207Z",
+        "cooked": "<p>I swear classic andys live in a box, ive gamed for 20 years and every single game has the same bot problems. Nobody will ever get rid of bots, its impossible</p>",
+        "post_number": 5,
+        "post_type": 1,
+        "posts_count": 42,
+        "updated_at": "2026-06-23T23:32:20.385Z",
+        "reply_count": 3,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 143,
+        "readers_count": 142,
+        "score": 63.6,
+        "yours": false,
+        "topic_id": 2012234,
+        "topic_slug": "will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch",
+        "display_username": "TenHitsOfLSD",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3102375,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/bartheiel/",
+          "guild": "Deedgenerates",
+          "achievement_points": "0",
+          "race": "Tauren",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "classic": "t",
+          "level": "60",
+          "blizzard_post_count": "19"
+        },
+        "post_url": "/t/will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch/2012234/5",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/twisting-nether/209/199823569-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
+        "alias_username": "Perkthirty-twisting-nether",
+        "poster_alias": {
+          "alias": {
+            "name": "Perkthirty-twisting-nether",
+            "avatar": "https://render.worldofwarcraft.com/us/character/twisting-nether/209/199823569-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/twisting-nether/perkthirty/",
+            "user_id": 3102375,
+            "id": 122619,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 122,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/twisting-nether/perkthirty/"
+              },
+              {
+                "name": "realm",
+                "value": "Twisting Nether"
+              },
+              {
+                "name": "achievement_points",
+                "value": "10620"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Dwarf"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/twisting-nether/209/199823569-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Perkthirty-twisting-nether"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 19,
+        "character": {
+          "name": "TenHitsOfLSD",
+          "guild": "Deedgenerates",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Warrior",
+          "race": "Tauren",
+          "player_class_enum": "WARRIOR",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25620420,
+        "name": "Deadlock",
+        "username": "Deadlock-3131297",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-19T04:45:41.172Z",
+        "cooked": "<p>Literally nobody thinks removing 100% of bots is achievable.</p>\n<p>It can however be so heavily cracked down that it’s driven underground and doesn’t destroy the economy.</p>\n<p>The secret is perma bans for buying and human moderators who ban bots 24/7 like we used to have decades ago.</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "posts_count": 42,
+        "updated_at": "2026-06-29T21:38:37.123Z",
+        "reply_count": 1,
+        "reply_to_post_number": 5,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 128,
+        "readers_count": 127,
+        "score": 180.6,
+        "yours": false,
+        "topic_id": 2012234,
+        "topic_slug": "will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch",
+        "display_username": "Deadlock",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 3102375,
+          "username": "TenHitsOfLSD-3102375",
+          "name": "TenHitsOfLSD",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 10
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3131297,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": null,
+          "guild": "Chatroom",
+          "achievement_points": "0",
+          "level": "15",
+          "race": "Undead",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "classic": "t",
+          "blizzard_post_count": "405"
+        },
+        "post_url": "/t/will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch/2012234/6",
+        "alias_avatar": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png",
+        "alias_username": "Bloodsacced",
+        "poster_alias": {
+          "alias": {
+            "name": "Bloodsacced",
+            "avatar": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png",
+            "url": null,
+            "user_id": 3131297,
+            "id": 2511772,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 213,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Whitemane"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "10"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Shaman"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "SHAMAN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 122619,
+          "username": "Perkthirty-twisting-nether",
+          "name": "Perkthirty",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/twisting-nether/209/199823569-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 405,
+        "character": {
+          "name": "Deadlock",
+          "guild": "Chatroom",
+          "achievement_points": "0",
+          "level": "15",
+          "class": "Warrior",
+          "race": "Undead",
+          "player_class_enum": "WARRIOR",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25620442,
+        "name": "TenHitsOfLSD",
+        "username": "TenHitsOfLSD-3102375",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-19T04:49:43.473Z",
+        "cooked": "<p>Yeah thats not true lol, even when blizzard had gms banning bots by hand they still wrecked the AH. Runescape was the same way and you had player mods everywhere in that game lol</p>\n<p>The people creating the bots have a way easier time making new bots as opposed to companies stopping them</p>\n<p>Could blizzard do more? Absolutely but regardless the same stuff is gonna happen. You can thank the demand, all the players that take short cuts. GDKPers that “dont have the time to farm gold” but had the time to level to max plus raid</p>",
+        "post_number": 7,
+        "post_type": 1,
+        "posts_count": 42,
+        "updated_at": "2026-06-23T23:32:20.475Z",
+        "reply_count": 1,
+        "reply_to_post_number": 6,
+        "quote_count": 0,
+        "incoming_link_count": 4,
+        "reads": 117,
+        "readers_count": 116,
+        "score": 48.4,
+        "yours": false,
+        "topic_id": 2012234,
+        "topic_slug": "will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch",
+        "display_username": "TenHitsOfLSD",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 3131297,
+          "username": "Deadlock-3131297",
+          "name": "Deadlock",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3102375,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/bartheiel/",
+          "guild": "Deedgenerates",
+          "achievement_points": "0",
+          "race": "Tauren",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "classic": "t",
+          "level": "60",
+          "blizzard_post_count": "19"
+        },
+        "post_url": "/t/will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch/2012234/7",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/twisting-nether/209/199823569-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
+        "alias_username": "Perkthirty-twisting-nether",
+        "poster_alias": {
+          "alias": {
+            "name": "Perkthirty-twisting-nether",
+            "avatar": "https://render.worldofwarcraft.com/us/character/twisting-nether/209/199823569-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/twisting-nether/perkthirty/",
+            "user_id": 3102375,
+            "id": 122619,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 122,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/twisting-nether/perkthirty/"
+              },
+              {
+                "name": "realm",
+                "value": "Twisting Nether"
+              },
+              {
+                "name": "achievement_points",
+                "value": "10620"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Dwarf"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/twisting-nether/209/199823569-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Perkthirty-twisting-nether"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2511772,
+          "username": "Bloodsacced",
+          "name": "Bloodsacced",
+          "avatar_template": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png"
+        },
+        "animated_avatar": null,
+        "user_post_count": 19,
+        "character": {
+          "name": "TenHitsOfLSD",
+          "guild": "Deedgenerates",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Warrior",
+          "race": "Tauren",
+          "player_class_enum": "WARRIOR",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25620537,
+        "name": "Pseudowoodo",
+        "username": "Pseudowoodo-2974700",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-19T05:04:28.801Z",
+        "cooked": "<p>There was a guy who was killIing HC bots and the bot creator was getting all mad he lost his level 60 hunter bot, saying how the bots are part of a literal bot cartel in wow and how he isn’t stopping them and how they plan to take over the new fresh servers.</p>\n<p>So get ready guys to deal with hundreds of bots.</p>\n<p>Again blizzard, if you’re reading this, please bring in a method of making (hand picked) players into mini server moderators based on a trust metric. If you dont want to help us combat bots and youve allowed us to moderate ourselves with a report player feature. Do us a favor and let us moderate for bots ourselves. Since you wont.</p>\n<p>You have community managers on the forums so applying this type of principle to your in game content doesn’t seem like a far off concept.</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "posts_count": 42,
+        "updated_at": "2024-11-21T05:21:19.694Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 101,
+        "readers_count": 100,
+        "score": 65.2,
+        "yours": false,
+        "topic_id": 2012234,
+        "topic_slug": "will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch",
+        "display_username": "Pseudowoodo",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 4,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2974700,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "achievement_points": "0",
+          "level": "60",
+          "race": "Gnome",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/bleeding-hollow/cerñunnos/",
+          "blizzard_post_count": "177"
+        },
+        "post_url": "/t/will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch/2012234/8",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/wild-growth/88/41607512-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg",
+        "alias_username": "Hoodedbaldy-wild-growth",
+        "poster_alias": {
+          "alias": {
+            "name": "Hoodedbaldy-wild-growth",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/wild-growth/88/41607512-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg",
+            "url": null,
+            "user_id": 2974700,
+            "id": 182180,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 180,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Wild Growth"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/wild-growth/88/41607512-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Hoodedbaldy-wild-growth"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 177,
+        "character": {
+          "name": "Pseudowoodo",
+          "guild": null,
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Warlock",
+          "race": "Gnome",
+          "player_class_enum": "WARLOCK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25620602,
+        "name": "Stablordx",
+        "username": "Stablordx-1704668",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-19T05:11:51.183Z",
+        "cooked": "<p>Bots weren’t that bad when classic launched.  YOu must be clueless or lying.</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "posts_count": 42,
+        "updated_at": "2024-11-19T05:11:51.183Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 87,
+        "readers_count": 86,
+        "score": 52.4,
+        "yours": false,
+        "topic_id": 2012234,
+        "topic_slug": "will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch",
+        "display_username": "Stablordx",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1704668,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "profile_url": null,
+          "guild": "FRESH Waiting Room",
+          "level": "61",
+          "classic": "t",
+          "race": "Undead",
+          "achievement_points": "2830",
+          "blizzard_post_count": "18190"
+        },
+        "post_url": "/t/will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch/2012234/9",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/pagle/244/88312820-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+        "alias_username": "Frosstfire-pagle",
+        "poster_alias": {
+          "alias": {
+            "name": "Frosstfire-pagle",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/pagle/244/88312820-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+            "url": null,
+            "user_id": 1704668,
+            "id": 621315,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 18189,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Pagle"
+              },
+              {
+                "name": "achievement_points",
+                "value": "2830"
+              },
+              {
+                "name": "level",
+                "value": "61"
+              },
+              {
+                "name": "race",
+                "value": "Undead"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic-us/character/pagle/244/88312820-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Frosstfire-pagle"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 18190,
+        "character": {
+          "name": "Stablordx",
+          "guild": "FRESH Waiting Room",
+          "achievement_points": "2830",
+          "level": "61",
+          "class": "Mage",
+          "race": "Undead",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25620617,
+        "name": "Pseudowoodo",
+        "username": "Pseudowoodo-2974700",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-19T05:13:02.935Z",
+        "cooked": "<p>We have had ~5 years since classic launched. Get a brain.</p>\n<p>I have videos of bots flying through the air, at least a hundred bots running into a tree, climbing up the silverpine trees which are massive, and then flying through the air in one massive long train of bots towards SFK.</p>",
+        "post_number": 10,
+        "post_type": 1,
+        "posts_count": 42,
+        "updated_at": "2024-11-19T05:15:49.564Z",
+        "reply_count": 1,
+        "reply_to_post_number": 9,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 83,
+        "readers_count": 82,
+        "score": 51.6,
+        "yours": false,
+        "topic_id": 2012234,
+        "topic_slug": "will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch",
+        "display_username": "Pseudowoodo",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 1704668,
+          "username": "Stablordx-1704668",
+          "name": "Stablordx",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2974700,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "achievement_points": "0",
+          "level": "60",
+          "race": "Gnome",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/bleeding-hollow/cerñunnos/",
+          "blizzard_post_count": "177"
+        },
+        "post_url": "/t/will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch/2012234/10",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/wild-growth/88/41607512-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg",
+        "alias_username": "Hoodedbaldy-wild-growth",
+        "poster_alias": {
+          "alias": {
+            "name": "Hoodedbaldy-wild-growth",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/wild-growth/88/41607512-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg",
+            "url": null,
+            "user_id": 2974700,
+            "id": 182180,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 180,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Wild Growth"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/wild-growth/88/41607512-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Hoodedbaldy-wild-growth"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 621315,
+          "username": "Frosstfire-pagle",
+          "name": "Frosstfire",
+          "avatar_template": "https://render.worldofwarcraft.com/classic-us/character/pagle/244/88312820-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 177,
+        "character": {
+          "name": "Pseudowoodo",
+          "guild": null,
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Warlock",
+          "race": "Gnome",
+          "player_class_enum": "WARLOCK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25620640,
+        "name": "Stablordx",
+        "username": "Stablordx-1704668",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-19T05:15:50.681Z",
+        "cooked": "<p>That wasn’t in 2019 I was there.</p>\n<p>You are probably talking about when SoD launched or something cause you can’t keep track of the passage of time like most zoomers who can’t read clocks.</p>",
+        "post_number": 11,
+        "post_type": 1,
+        "posts_count": 42,
+        "updated_at": "2024-11-19T05:15:50.681Z",
+        "reply_count": 2,
+        "reply_to_post_number": 10,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 75,
+        "readers_count": 74,
+        "score": 25.0,
+        "yours": false,
+        "topic_id": 2012234,
+        "topic_slug": "will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch",
+        "display_username": "Stablordx",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "reply_to_user": {
+          "id": 2974700,
+          "username": "Pseudowoodo-2974700",
+          "name": "Pseudowoodo",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1704668,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "profile_url": null,
+          "guild": "FRESH Waiting Room",
+          "level": "61",
+          "classic": "t",
+          "race": "Undead",
+          "achievement_points": "2830",
+          "blizzard_post_count": "18190"
+        },
+        "post_url": "/t/will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch/2012234/11",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/pagle/244/88312820-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+        "alias_username": "Frosstfire-pagle",
+        "poster_alias": {
+          "alias": {
+            "name": "Frosstfire-pagle",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/pagle/244/88312820-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+            "url": null,
+            "user_id": 1704668,
+            "id": 621315,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 18189,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Pagle"
+              },
+              {
+                "name": "achievement_points",
+                "value": "2830"
+              },
+              {
+                "name": "level",
+                "value": "61"
+              },
+              {
+                "name": "race",
+                "value": "Undead"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic-us/character/pagle/244/88312820-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Frosstfire-pagle"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 182180,
+          "username": "Hoodedbaldy-wild-growth",
+          "name": "Hoodedbaldy",
+          "avatar_template": "https://render.worldofwarcraft.com/classic1x-us/character/wild-growth/88/41607512-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 18190,
+        "character": {
+          "name": "Stablordx",
+          "guild": "FRESH Waiting Room",
+          "achievement_points": "2830",
+          "level": "61",
+          "class": "Mage",
+          "race": "Undead",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25620659,
+        "name": "Pseudowoodo",
+        "username": "Pseudowoodo-2974700",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-19T05:17:49.275Z",
+        "cooked": "<p>Are you a botter or something? You seem kinda peeved im bringing up bots right now. What do you gain from trying to discredit me. If you havent seen them then you obviously didnt care to.</p>\n<p>Look it up literally anywhere online and you will find it for yourself, fool.</p>",
+        "post_number": 12,
+        "post_type": 1,
+        "posts_count": 42,
+        "updated_at": "2024-11-19T05:18:28.336Z",
+        "reply_count": 1,
+        "reply_to_post_number": 11,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 76,
+        "readers_count": 75,
+        "score": 40.2,
+        "yours": false,
+        "topic_id": 2012234,
+        "topic_slug": "will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch",
+        "display_username": "Pseudowoodo",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 1704668,
+          "username": "Stablordx-1704668",
+          "name": "Stablordx",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2974700,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "achievement_points": "0",
+          "level": "60",
+          "race": "Gnome",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/bleeding-hollow/cerñunnos/",
+          "blizzard_post_count": "177"
+        },
+        "post_url": "/t/will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch/2012234/12",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/wild-growth/88/41607512-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg",
+        "alias_username": "Hoodedbaldy-wild-growth",
+        "poster_alias": {
+          "alias": {
+            "name": "Hoodedbaldy-wild-growth",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/wild-growth/88/41607512-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg",
+            "url": null,
+            "user_id": 2974700,
+            "id": 182180,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 180,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Wild Growth"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/wild-growth/88/41607512-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Hoodedbaldy-wild-growth"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 621315,
+          "username": "Frosstfire-pagle",
+          "name": "Frosstfire",
+          "avatar_template": "https://render.worldofwarcraft.com/classic-us/character/pagle/244/88312820-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 177,
+        "character": {
+          "name": "Pseudowoodo",
+          "guild": null,
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Warlock",
+          "race": "Gnome",
+          "player_class_enum": "WARLOCK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25620669,
+        "name": "Stablordx",
+        "username": "Stablordx-1704668",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-19T05:18:53.162Z",
+        "cooked": "<p>I don’t like revisionist history from clueless people.</p>",
+        "post_number": 13,
+        "post_type": 1,
+        "posts_count": 42,
+        "updated_at": "2024-11-19T05:18:53.162Z",
+        "reply_count": 1,
+        "reply_to_post_number": 12,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 67,
+        "readers_count": 66,
+        "score": 18.4,
+        "yours": false,
+        "topic_id": 2012234,
+        "topic_slug": "will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch",
+        "display_username": "Stablordx",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "reply_to_user": {
+          "id": 2974700,
+          "username": "Pseudowoodo-2974700",
+          "name": "Pseudowoodo",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1704668,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "profile_url": null,
+          "guild": "FRESH Waiting Room",
+          "level": "61",
+          "classic": "t",
+          "race": "Undead",
+          "achievement_points": "2830",
+          "blizzard_post_count": "18190"
+        },
+        "post_url": "/t/will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch/2012234/13",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/pagle/244/88312820-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+        "alias_username": "Frosstfire-pagle",
+        "poster_alias": {
+          "alias": {
+            "name": "Frosstfire-pagle",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/pagle/244/88312820-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+            "url": null,
+            "user_id": 1704668,
+            "id": 621315,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 18189,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Pagle"
+              },
+              {
+                "name": "achievement_points",
+                "value": "2830"
+              },
+              {
+                "name": "level",
+                "value": "61"
+              },
+              {
+                "name": "race",
+                "value": "Undead"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic-us/character/pagle/244/88312820-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Frosstfire-pagle"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 182180,
+          "username": "Hoodedbaldy-wild-growth",
+          "name": "Hoodedbaldy",
+          "avatar_template": "https://render.worldofwarcraft.com/classic1x-us/character/wild-growth/88/41607512-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 18190,
+        "character": {
+          "name": "Stablordx",
+          "guild": "FRESH Waiting Room",
+          "achievement_points": "2830",
+          "level": "61",
+          "class": "Mage",
+          "race": "Undead",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25620672,
+        "name": "Yurt",
+        "username": "Yurt-2689507",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-19T05:19:06.011Z",
+        "cooked": "<p>It always does.</p>",
+        "post_number": 14,
+        "post_type": 1,
+        "posts_count": 42,
+        "updated_at": "2024-11-19T05:19:06.011Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 65,
+        "readers_count": 64,
+        "score": 13.0,
+        "yours": false,
+        "topic_id": 2012234,
+        "topic_slug": "will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch",
+        "display_username": "Yurt",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2689507,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/stormrage/tradnelf/",
+          "level": "70",
+          "race": "Night Elf",
+          "class": "Druid",
+          "player_class_enum": "DRUID",
+          "classic": "t",
+          "blizzard_post_count": "73",
+          "achievement_points": "4250",
+          "guild": "EXIT ONLY"
+        },
+        "post_url": "/t/will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch/2012234/14",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/stormrage/68/253115716-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Tradnelf-stormrage",
+        "poster_alias": {
+          "alias": {
+            "name": "Tradnelf-stormrage",
+            "avatar": "https://render.worldofwarcraft.com/us/character/stormrage/68/253115716-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": null,
+            "user_id": 2689507,
+            "id": 93677,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 79,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/stormrage/tradnelf/"
+              },
+              {
+                "name": "realm",
+                "value": "Stormrage"
+              },
+              {
+                "name": "achievement_points",
+                "value": "4260"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/stormrage/68/253115716-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Tradnelf-stormrage"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 73,
+        "character": {
+          "name": "Yurt",
+          "guild": "EXIT ONLY",
+          "achievement_points": "4250",
+          "level": "70",
+          "class": "Druid",
+          "race": "Night Elf",
+          "player_class_enum": "DRUID",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25620679,
+        "name": "kingkhaled",
+        "username": "kingkhaled-2869716",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-19T05:19:38.981Z",
+        "cooked": "<p>If they perma buyers then it can be controlled at least. We’ll see I suppose.</p>",
+        "post_number": 15,
+        "post_type": 1,
+        "posts_count": 42,
+        "updated_at": "2026-07-01T12:35:45.274Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 63,
+        "readers_count": 62,
+        "score": 52.6,
+        "yours": false,
+        "topic_id": 2012234,
+        "topic_slug": "will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch",
+        "display_username": "kingkhaled",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2869716,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "achievement_points": "0",
+          "race": "Human",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "classic": "t",
+          "level": "20",
+          "blizzard_post_count": "7086"
+        },
+        "post_url": "/t/will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch/2012234/15",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/thunderfury/187/25611195-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "alias_username": "Kalamari",
+        "poster_alias": {
+          "alias": {
+            "name": "Kalamari",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/thunderfury/187/25611195-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": null,
+            "user_id": 2869716,
+            "id": 2531665,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 537,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Thunderfury"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Shaman"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "SHAMAN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 7086,
+        "character": {
+          "name": "kingkhaled",
+          "guild": null,
+          "achievement_points": "0",
+          "level": "20",
+          "class": "Paladin",
+          "race": "Human",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25620707,
+        "name": "QuirkyOrc",
+        "username": "QuirkyOrc-932901",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-19T05:22:03.137Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Hueythered-barthilas\" data-post=\"1\" data-topic=\"2012234\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/us/character/barthilas/64/199089216-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg\" class=\"avatar\"> Hueythered:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>will the elephant in the room actually be addressed?</p>\n</blockquote>\n</aside>\n<p>Sadly I doubt any true efforts will be made.</p>\n<p>The true problem however is the swarm of gold buying locusts that can’t be bothered to play the game normally; they want to skip the part where you use the auction house and trade skills to make gold.</p>\n<p>As a result the Classic 2 will be infested by the botters because the gold buyers exist.</p>\n<p>If you want to end the problem then buying gold needs a full and permanent battle net ban for any amount of gold without mercy.</p>",
+        "post_number": 16,
+        "post_type": 1,
+        "posts_count": 42,
+        "updated_at": "2026-06-01T18:14:59.132Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 1,
+        "incoming_link_count": 1,
+        "reads": 64,
+        "readers_count": 63,
+        "score": 92.8,
+        "yours": false,
+        "topic_id": 2012234,
+        "topic_slug": "will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch",
+        "display_username": "QuirkyOrc",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 5
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 932901,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/akama/williams/",
+          "race": "Human",
+          "achievement_points": "0",
+          "classic": "t",
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "level": "60",
+          "guild": "Tidas",
+          "blizzard_post_count": "38393"
+        },
+        "post_url": "/t/will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch/2012234/16",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/kurinnaxx/131/25524099-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Cezar-kurinnaxx",
+        "poster_alias": {
+          "alias": {
+            "name": "Cezar-kurinnaxx",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/kurinnaxx/131/25524099-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": null,
+            "user_id": 932901,
+            "id": 2233639,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 10694,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Kurinnaxx"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/kurinnaxx/131/25524099-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Cezar-kurinnaxx"
+              },
+              {
+                "name": "guild",
+                "value": "Fresh Daily"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 38393,
+        "character": {
+          "name": "QuirkyOrc",
+          "guild": "Tidas",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Mage",
+          "race": "Human",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25620757,
+        "name": "Pseudowoodo",
+        "username": "Pseudowoodo-2974700",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-19T05:28:33.587Z",
+        "cooked": "<p>This whole entire post was created with the notion that AT LAUNCH, botting was bad, yet you come here and say (me - and only I am conflating the issue) its funny because I dont see this opinion from just me. Clearly youre the one lying. So it begs to question why. Are u a gold seller or something? I would say a good majority, if not all players, well evidently besides you, seem to think botting is an issue. Interesting</p>",
+        "post_number": 17,
+        "post_type": 1,
+        "posts_count": 42,
+        "updated_at": "2024-11-19T05:28:33.587Z",
+        "reply_count": 1,
+        "reply_to_post_number": 13,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 61,
+        "readers_count": 60,
+        "score": 27.2,
+        "yours": false,
+        "topic_id": 2012234,
+        "topic_slug": "will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch",
+        "display_username": "Pseudowoodo",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 1704668,
+          "username": "Stablordx-1704668",
+          "name": "Stablordx",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2974700,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "achievement_points": "0",
+          "level": "60",
+          "race": "Gnome",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/bleeding-hollow/cerñunnos/",
+          "blizzard_post_count": "177"
+        },
+        "post_url": "/t/will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch/2012234/17",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/wild-growth/88/41607512-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg",
+        "alias_username": "Hoodedbaldy-wild-growth",
+        "poster_alias": {
+          "alias": {
+            "name": "Hoodedbaldy-wild-growth",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/wild-growth/88/41607512-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg",
+            "url": null,
+            "user_id": 2974700,
+            "id": 182180,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 180,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Wild Growth"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/wild-growth/88/41607512-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Hoodedbaldy-wild-growth"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 621315,
+          "username": "Frosstfire-pagle",
+          "name": "Frosstfire",
+          "avatar_template": "https://render.worldofwarcraft.com/classic-us/character/pagle/244/88312820-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 177,
+        "character": {
+          "name": "Pseudowoodo",
+          "guild": null,
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Warlock",
+          "race": "Gnome",
+          "player_class_enum": "WARLOCK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25620806,
+        "name": "crablad",
+        "username": "crablad-3243890",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-19T05:33:02.518Z",
+        "cooked": "<p>Yep, and the bots flying from mulgore. Botting problem was the worst its ever been on classic launch. They had years of pservers to finesse their paths.</p>\n<p>The no gdkps will do alot for it, as you can see in sod</p>",
+        "post_number": 18,
+        "post_type": 1,
+        "posts_count": 42,
+        "updated_at": "2026-07-05T05:09:48.235Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 59,
+        "readers_count": 58,
+        "score": 16.8,
+        "yours": false,
+        "topic_id": 2012234,
+        "topic_slug": "will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch",
+        "display_username": "crablad",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3243890,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Big NFs",
+          "achievement_points": "8195",
+          "level": "39",
+          "race": "Human",
+          "class": "Priest",
+          "player_class_enum": "PRIEST",
+          "classic": "t",
+          "blizzard_post_count": "5813"
+        },
+        "post_url": "/t/will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch/2012234/18",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/crusader-strike/29/52527133-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+        "alias_username": "Crabr-crusader-strike",
+        "poster_alias": {
+          "alias": {
+            "name": "Crabr-crusader-strike",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/crusader-strike/29/52527133-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+            "url": null,
+            "user_id": 3243890,
+            "id": 525885,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 467,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Crusader Strike"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/crusader-strike/29/52527133-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Crabr-crusader-strike"
+              },
+              {
+                "name": "guild",
+                "value": "LEVELONE"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 5813,
+        "character": {
+          "name": "crablad",
+          "guild": "Big NFs",
+          "achievement_points": "8195",
+          "level": "39",
+          "class": "Priest",
+          "race": "Human",
+          "player_class_enum": "PRIEST",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25620945,
+        "name": "Reapers",
+        "username": "Reapers-3229898",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-19T05:49:02.360Z",
+        "cooked": "<p>That dudes an idiot, its best to not even reply to them.</p>",
+        "post_number": 19,
+        "post_type": 1,
+        "posts_count": 42,
+        "updated_at": "2026-06-29T19:42:28.333Z",
+        "reply_count": 0,
+        "reply_to_post_number": 17,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 51,
+        "readers_count": 50,
+        "score": 10.2,
+        "yours": false,
+        "topic_id": 2012234,
+        "topic_slug": "will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch",
+        "display_username": "Reapers",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2974700,
+          "username": "Pseudowoodo-2974700",
+          "name": "Pseudowoodo",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3229898,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/sargeras/moonuredps/",
+          "race": "Orc",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "classic": "t",
+          "level": "90",
+          "achievement_points": "9110",
+          "guild": "Proficient",
+          "blizzard_post_count": "55292"
+        },
+        "post_url": "/t/will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch/2012234/19",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/benediction/86/92245846-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg",
+        "alias_username": "Peeposcam",
+        "poster_alias": {
+          "alias": {
+            "name": "Peeposcam",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/benediction/86/92245846-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg",
+            "url": null,
+            "user_id": 3229898,
+            "id": 2511295,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 651,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Benediction"
+              },
+              {
+                "name": "achievement_points",
+                "value": "7445"
+              },
+              {
+                "name": "level",
+                "value": "85"
+              },
+              {
+                "name": "race",
+                "value": "Draenei"
+              },
+              {
+                "name": "player_class",
+                "value": "Shaman"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "SHAMAN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "HUNKS"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 182180,
+          "username": "Hoodedbaldy-wild-growth",
+          "name": "Hoodedbaldy",
+          "avatar_template": "https://render.worldofwarcraft.com/classic1x-us/character/wild-growth/88/41607512-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 55292,
+        "character": {
+          "name": "Reapers",
+          "guild": "Proficient",
+          "achievement_points": "9110",
+          "level": "90",
+          "class": "Hunter",
+          "race": "Orc",
+          "player_class_enum": "HUNTER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25620958,
+        "name": "Reapers",
+        "username": "Reapers-3229898",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-19T05:49:42.095Z",
+        "cooked": "<p>I cant wait for the 500 warlocks selling summons and spamming 24 hours a day.</p>",
+        "post_number": 20,
+        "post_type": 1,
+        "posts_count": 42,
+        "updated_at": "2026-06-29T19:42:28.765Z",
+        "reply_count": 1,
+        "reply_to_post_number": 18,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 48,
+        "readers_count": 47,
+        "score": 14.6,
+        "yours": false,
+        "topic_id": 2012234,
+        "topic_slug": "will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch",
+        "display_username": "Reapers",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 3243890,
+          "username": "crablad-3243890",
+          "name": "crablad",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3229898,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/sargeras/moonuredps/",
+          "race": "Orc",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "classic": "t",
+          "level": "90",
+          "achievement_points": "9110",
+          "guild": "Proficient",
+          "blizzard_post_count": "55292"
+        },
+        "post_url": "/t/will-history-repeat-itself-with-the-bot-crisis-when-the-servers-launch/2012234/20",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/benediction/86/92245846-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg",
+        "alias_username": "Peeposcam",
+        "poster_alias": {
+          "alias": {
+            "name": "Peeposcam",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/benediction/86/92245846-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg",
+            "url": null,
+            "user_id": 3229898,
+            "id": 2511295,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 651,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Benediction"
+              },
+              {
+                "name": "achievement_points",
+                "value": "7445"
+              },
+              {
+                "name": "level",
+                "value": "85"
+              },
+              {
+                "name": "race",
+                "value": "Draenei"
+              },
+              {
+                "name": "player_class",
+                "value": "Shaman"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "SHAMAN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "HUNKS"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 525885,
+          "username": "Crabr-crusader-strike",
+          "name": "Crabr",
+          "avatar_template": "https://render.worldofwarcraft.com/classic1x-us/character/crusader-strike/29/52527133-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 55292,
+        "character": {
+          "name": "Reapers",
+          "guild": "Proficient",
+          "achievement_points": "9110",
+          "level": "90",
+          "class": "Hunter",
+          "race": "Orc",
+          "player_class_enum": "HUNTER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ]
+  }
+}

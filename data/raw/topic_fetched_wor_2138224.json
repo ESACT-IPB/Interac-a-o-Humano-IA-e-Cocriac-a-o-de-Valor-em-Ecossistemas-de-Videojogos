@@ -1,0 +1,984 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 27354342,
+        "name": "BathtimeSnax",
+        "username": "BathtimeSnax-3166022",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-07-27T17:11:13.407Z",
+        "cooked": "<p>New Project Release: WoW Economic Analysis MCP Server</p>\n<p>I’ve published a new open-source project: <a href=\"https://github.com/noahmott/mcp_wowconomics_server\" rel=\"noopener nofollow ugc\">mcp_wowconomics_server</a>. It’s a research-grade Model Context Protocol (MCP) server for analyzing the World of Warcraft economy using live Auction House data from both Retail and Classic realms.</p>\n<p>Key features:</p>\n<ul>\n<li>Continuously collects and caches auction house and guild roster data</li>\n<li>Supports economic trend analysis including time series, volatility, and arbitrage</li>\n<li>Compatible with Claude.ai and any FastMCP-compliant client</li>\n<li>Built with FastAPI, Redis, and PostgreSQL</li>\n</ul>\n<p>The server is live on Heroku and open for use. It’s designed for players, economists, and researchers interested in virtual markets and digital economies.</p>\n<p>Note on telemetry:</p>\n<p>The only telemetry collected is what the client allows and consists of tool call activity, used solely for long-term efficiency analysis and improvement.</p>\n<p>You can explore the code and documentation here:</p>\n<aside class=\"onebox githubrepo\" data-onebox-src=\"https://github.com/noahmott/mcp_wowconomics_server\">\n  <header class=\"source\">\n\n      <a href=\"https://github.com/noahmott/mcp_wowconomics_server\" target=\"_blank\" rel=\"noopener nofollow ugc\">github.com</a>\n  </header>\n\n  <article class=\"onebox-body\">\n    <div class=\"github-row\" data-github-private-repo=\"false\">\n  <img width=\"695\" height=\"347\" src=\"https://opengraph.githubassets.com/e61a5571ed6503995446067c4139fd0f/noahmott/mcp_wowconomics_server\" class=\"thumbnail\">\n\n  <h3><a href=\"https://github.com/noahmott/mcp_wowconomics_server\" target=\"_blank\" rel=\"noopener nofollow ugc\">GitHub - noahmott/mcp_wowconomics_server: Model Context Protocol server for WoW virtual...</a></h3>\n\n    <p><span class=\"github-repo-description\">Model Context Protocol server for WoW virtual economy analysis. Academic research tools for market efficiency studies, arbitrage detection, and auction house data collection.</span></p>\n</div>\n\n  </article>\n\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n\n  <div style=\"clear: both\"></div>\n</aside>\n",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 2,
+        "updated_at": "2025-07-27T17:11:32.588Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 711,
+        "reads": 40,
+        "readers_count": 39,
+        "score": 3543.0,
+        "yours": false,
+        "topic_id": 2138224,
+        "topic_slug": "open-source-mcp-server-for-interfacing-with-blizzard-api",
+        "display_username": "BathtimeSnax",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://github.com/noahmott/mcp_wowconomics_server",
+            "internal": false,
+            "reflection": false,
+            "title": "GitHub - noahmott/mcp_wowconomics_server: Model Context Protocol server for WoW virtual economy analysis. Academic research tools for market efficiency studies, arbitrage detection, and auction house data collection.",
+            "clicks": 177
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3166022,
+        "hidden": false,
+        "trust_level": 0,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/lightbringer/bathtime/",
+          "achievement_points": "7655",
+          "level": "80",
+          "race": "Vulpera",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "blizzard_post_count": "0"
+        },
+        "post_url": "/t/open-source-mcp-server-for-interfacing-with-blizzard-api/2138224/1",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/lightbringer/244/113345012-avatar.jpg?alt=/wow/static/images/2d/avatar/35-0.jpg",
+        "alias_username": "Bathtime-lightbringer",
+        "poster_alias": {
+          "alias": {
+            "name": "Bathtime-lightbringer",
+            "avatar": "https://render.worldofwarcraft.com/us/character/lightbringer/244/113345012-avatar.jpg?alt=/wow/static/images/2d/avatar/35-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/lightbringer/bathtime/",
+            "user_id": 3166022,
+            "id": 1915084,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 0,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/lightbringer/bathtime/"
+              },
+              {
+                "name": "realm",
+                "value": "Lightbringer"
+              },
+              {
+                "name": "achievement_points",
+                "value": "7655"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Vulpera"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 0,
+        "character": {
+          "name": "BathtimeSnax",
+          "guild": null,
+          "achievement_points": "7655",
+          "level": "80",
+          "class": "Hunter",
+          "race": "Vulpera",
+          "player_class_enum": "HUNTER",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 27354779,
+        "name": "Ventorath",
+        "username": "Ventorath-829503",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-07-27T19:09:32.222Z",
+        "cooked": "<p>Aight but if the AH starts lagging I’m going to assume it’s your fault</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 2,
+        "updated_at": "2025-07-27T19:09:32.222Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 29,
+        "readers_count": 28,
+        "score": 30.8,
+        "yours": false,
+        "topic_id": 2138224,
+        "topic_slug": "open-source-mcp-server-for-interfacing-with-blizzard-api",
+        "display_username": "Ventorath",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 829503,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Mellonea",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/wyrmrest-accord/ventorath/",
+          "race": "Worgen",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "level": "10",
+          "achievement_points": "23110",
+          "blizzard_post_count": "21253"
+        },
+        "post_url": "/t/open-source-mcp-server-for-interfacing-with-blizzard-api/2138224/2",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/118/148562550-avatar.jpg?alt=/wow/static/images/2d/avatar/22-0.jpg",
+        "alias_username": "Ventorath-wyrmrest-accord",
+        "poster_alias": {
+          "alias": {
+            "name": "Ventorath-wyrmrest-accord",
+            "avatar": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/118/148562550-avatar.jpg?alt=/wow/static/images/2d/avatar/22-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/wyrmrest-accord/ventorath/",
+            "user_id": 829503,
+            "id": 434615,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 16603,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/wyrmrest-accord/ventorath/"
+              },
+              {
+                "name": "realm",
+                "value": "Wyrmrest Accord"
+              },
+              {
+                "name": "achievement_points",
+                "value": "23110"
+              },
+              {
+                "name": "level",
+                "value": "10"
+              },
+              {
+                "name": "race",
+                "value": "Worgen"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/118/148562550-avatar.jpg?alt=/wow/static/images/2d/avatar/22-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Ventorath-wyrmrest-accord"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 21253,
+        "character": {
+          "name": "Ventorath",
+          "guild": "Mellonea",
+          "achievement_points": "23110",
+          "level": "10",
+          "class": "Warlock",
+          "race": "Worgen",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ],
+    "stream": [
+      27354342,
+      27354779
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      408
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "fancy_title": "Ol&rsquo; Bwonsamdi appreciation post",
+      "id": 2340911,
+      "title": "Ol' Bwonsamdi appreciation post",
+      "slug": "ol-bwonsamdi-appreciation-post",
+      "posts_count": 50,
+      "reply_count": 19,
+      "highest_post_number": 50,
+      "image_url": null,
+      "created_at": "2026-08-25T14:42:51.604Z",
+      "last_posted_at": "2026-08-27T17:17:17.236Z",
+      "bumped": true,
+      "bumped_at": "2026-08-27T17:17:17.236Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "I love the hell out of this guy. I think he’s one of the best designed characters in all of warcraft. \n                    \n            \n          \n\n \nHe’s a sassy rascal. I would gladly go to his realm when I bite the d&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 135,
+      "views": 341,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 27,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 20738,
+            "username": "Chief-20738",
+            "name": "Chief",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3339407,
+            "username": "DeadlyKitten-3339407",
+            "name": "DeadlyKitten",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3432226,
+            "username": "cxxgard-3432226",
+            "name": "cxxgard",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 201580,
+            "username": "Eurynomos-201580",
+            "name": "Eurynomos",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 22312,
+            "username": "Cyaneyed-22312",
+            "name": "Cyaneyed",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Instead of Hearthstone or Rumble why not a Gacha?",
+      "id": 2341627,
+      "title": "Instead of Hearthstone or Rumble why not a Gacha?",
+      "slug": "instead-of-hearthstone-or-rumble-why-not-a-gacha",
+      "posts_count": 21,
+      "reply_count": 8,
+      "highest_post_number": 21,
+      "image_url": null,
+      "created_at": "2026-08-27T10:16:37.983Z",
+      "last_posted_at": "2026-08-28T10:00:16.634Z",
+      "bumped": true,
+      "bumped_at": "2026-08-28T10:00:16.634Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "That would make them so much money. \nImagine pulling for Jaina or Thrall, or Losing 50/50 to Gazlow. Imagine good 4 stars like Li Li. Bad 4 stars like Gamon. (Don’t worry he’ll get a 5 star version in the future). \nExplo&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 14,
+      "views": 242,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 1,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 2428007,
+            "username": "Velaethia-2428007",
+            "name": "Velaethia",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 12809,
+            "username": "freckles-12809",
+            "name": "freckles",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1851299,
+            "username": "Sumwun-1851299",
+            "name": "Sumwun",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3197800,
+            "username": "AuMatar-3197800",
+            "name": "AuMatar",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 20209,
+            "username": "Zing45-20209",
+            "name": "Zing45",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Delve Group Issue",
+      "id": 2342013,
+      "title": "Delve Group Issue",
+      "slug": "delve-group-issue",
+      "posts_count": 4,
+      "reply_count": 0,
+      "highest_post_number": 5,
+      "image_url": null,
+      "created_at": "2026-08-28T02:23:46.710Z",
+      "last_posted_at": "2026-08-28T02:25:57.132Z",
+      "bumped": true,
+      "bumped_at": "2026-08-28T02:25:57.132Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "I have multiple wow accounts on my battle net account. I’m trying to complete some achievements from TWW. Specifically playing each delve as a healer, dps, and healer. \nSo i have them all grouped and I get these error me&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 70,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 2534852,
+            "username": "DUCA-2534852",
+            "name": "DUCA",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 1,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 459667,
+            "username": "Kaleidoscope-459667",
+            "name": "Kaleidoscope",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2339159,
+            "username": "Kesh-2339159",
+            "name": "Kesh",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Class Balance Determines the Success or Failure of the Game",
+      "id": 2342088,
+      "title": "Class Balance Determines the Success or Failure of the Game",
+      "slug": "class-balance-determines-the-success-or-failure-of-the-game",
+      "posts_count": 47,
+      "reply_count": 17,
+      "highest_post_number": 47,
+      "image_url": null,
+      "created_at": "2026-08-28T10:06:35.337Z",
+      "last_posted_at": "2026-09-04T01:34:12.229Z",
+      "bumped": true,
+      "bumped_at": "2026-09-04T01:34:12.229Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "I don’t know what data the development team is currently using to analyze class balance, but I honestly believe there may be a problem with the current approach. \nI don’t think balance decisions should be based on player&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 88,
+      "views": 733,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 4,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3435164,
+            "username": "MangoBadger-3435164",
+            "name": "MangoBadger",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 1,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17431,
+            "username": "Saithis-17431",
+            "name": "Saithis",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 21538,
+            "username": "Awkward-21538",
+            "name": "Awkward",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1983370,
+            "username": "Hapablap-1983370",
+            "name": "Hapablap",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 2815497,
+            "username": "Zapan-2815497",
+            "name": "Zapan",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Why is that my 2 charchters havent been boosted yet?",
+      "id": 2340258,
+      "title": "Why is that my 2 charchters havent been boosted yet?",
+      "slug": "why-is-that-my-2-charchters-havent-been-boosted-yet",
+      "posts_count": 3,
+      "reply_count": 1,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2026-08-23T17:16:17.234Z",
+      "last_posted_at": "2026-08-23T17:39:11.108Z",
+      "bumped": true,
+      "bumped_at": "2026-08-23T17:39:11.108Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Bought Midnight 1 free , and 2 level boosts. Boosted 2 out of three , my Druid first, that worked, but boosted my DK, hasnt been boosted yet.. I have 1 left from Midnight or the boosts I bought. I dont want to waste it .&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 59,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 3441350,
+            "username": "PwrPak-3441350",
+            "name": "PwrPak",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 0,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1388332,
+            "username": "Hax-1388332",
+            "name": "Hax",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    }
+  ],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "Open Source MCP Server for interfacing with Blizzard API",
+  "id": 2138224,
+  "title": "Open Source MCP Server for interfacing with Blizzard API",
+  "posts_count": 2,
+  "created_at": "2025-07-27T17:11:12.596Z",
+  "views": 628,
+  "reply_count": 0,
+  "like_count": 1,
+  "last_posted_at": "2025-07-27T19:09:32.222Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "open-source-mcp-server-for-interfacing-with-blizzard-api",
+  "category_id": 171,
+  "word_count": 168,
+  "deleted_at": null,
+  "user_id": 3166022,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_2138224",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 2,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 1001,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1002,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1003,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1004,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1005,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 2,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 829503,
+        "username": "Ventorath-829503",
+        "name": "Ventorath",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Ventorath-wyrmrest-accord",
+            "avatar": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/118/148562550-avatar.jpg?alt=/wow/static/images/2d/avatar/22-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/wyrmrest-accord/ventorath/",
+            "user_id": 829503,
+            "id": 434615,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 16603,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/wyrmrest-accord/ventorath/"
+              },
+              {
+                "name": "realm",
+                "value": "Wyrmrest Accord"
+              },
+              {
+                "name": "achievement_points",
+                "value": "23110"
+              },
+              {
+                "name": "level",
+                "value": "10"
+              },
+              {
+                "name": "race",
+                "value": "Worgen"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/118/148562550-avatar.jpg?alt=/wow/static/images/2d/avatar/22-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Ventorath-wyrmrest-accord"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 3166022,
+        "username": "BathtimeSnax-3166022",
+        "name": "BathtimeSnax",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 0,
+        "acting_alias": {
+          "alias": {
+            "name": "Bathtime-lightbringer",
+            "avatar": "https://render.worldofwarcraft.com/us/character/lightbringer/244/113345012-avatar.jpg?alt=/wow/static/images/2d/avatar/35-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/lightbringer/bathtime/",
+            "user_id": 3166022,
+            "id": 1915084,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 0,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/lightbringer/bathtime/"
+              },
+              {
+                "name": "realm",
+                "value": "Lightbringer"
+              },
+              {
+                "name": "achievement_points",
+                "value": "7655"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Vulpera"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      }
+    ],
+    "created_by": {
+      "id": 3166022,
+      "username": "BathtimeSnax-3166022",
+      "name": "BathtimeSnax",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    },
+    "last_poster": {
+      "id": 829503,
+      "username": "Ventorath-829503",
+      "name": "Ventorath",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    },
+    "links": [
+      {
+        "url": "https://github.com/noahmott/mcp_wowconomics_server",
+        "title": "GitHub - noahmott/mcp_wowconomics_server: Model Context Protocol server for WoW virtual economy analysis. Academic research tools for market efficiency studies, arbitrage detection, and auction house data collection.",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 177,
+        "user_id": 3166022,
+        "domain": "github.com",
+        "root_domain": "github.com"
+      }
+    ]
+  },
+  "bookmarks": [],
+  "jogo": "World of Warcraft",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Blizzard",
+  "url_fonte": "https://us.forums.blizzard.com/en/wow/t/open-source-mcp-server-for-interfacing-with-blizzard-api/2138224"
+}

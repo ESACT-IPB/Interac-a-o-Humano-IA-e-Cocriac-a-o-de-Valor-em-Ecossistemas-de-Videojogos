@@ -1,0 +1,158 @@
+{
+  "id": "reddit_1vdomcq",
+  "title": "How many people are using AI to build tools to improve trading and industry profits?",
+  "slug": "how_many_people_are_using_ai_to_build_tools_to",
+  "posts_count": 12,
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1,
+        "username": "Soggy-Ambition2296",
+        "cooked": "<p>I recently got back into the game after years away and started completely fresh about 6 weeks ago. Ran the intro missions up to about 25 mil, got lucky with a 40 mil booster drop from one of the daily campaigns, and started station trading with around 80 mil. No plex involved. Six weeks later the pot is just over 1.5 bill. The twist is I have been using a market tool I built with Claude Code on top of the ESI. To be clear it does not play the game for me, every order is placed and updated by hand. It just pulls market data and ranks opportunities by real fee adjusted margin and velocity, so my 30 minutes a day goes on the best flips instead of scrolling the market window. I have started pointing the same tool at industry as well, T2 invention mostly, but it is too early to say if that side is profitable. Curious how many others are using AI or custom ESI tools for trading or industry?</p>",
+        "created_at": "2026-08-02T17:52:39.285000+0000",
+        "post_number": 1,
+        "reply_to_post_number": null,
+        "reply_count": 11,
+        "like_count": 0,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 2,
+        "username": "2hurd",
+        "cooked": "<p>Shhh don't tell them that.</p>",
+        "created_at": "2026-08-02T17:58:26.462000+0000",
+        "post_number": 2,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 12,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 3,
+        "username": "EntertainmentMission",
+        "cooked": "<p>People don't need Jane street level of coding and mathematics to make profitable trades in eve, just some basic spreadsheet with esi integration is plenty So nearly all of the 'i built an trade app with ai to track my profits' is wasting resources on a non-problem</p>",
+        "created_at": "2026-08-03T01:13:44.617000+0000",
+        "post_number": 3,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 3,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 4,
+        "username": "CompetitiveJump2937",
+        "cooked": "<p>Yeah I’ve been playing for a couple of weeks and have used Gemini to create apps for station arbitrage, regional arbitrage, industry. It’s great, super accurate and free, there was an app that was asking for close o 1B isk per month for regional arbitrage, but an hour working through it with Gemini you have practically the same result. If I’m doing it, everyone is probably doing it</p>",
+        "created_at": "2026-08-03T08:27:55.217000+0000",
+        "post_number": 4,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 3,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 5,
+        "username": "funbob",
+        "cooked": "<p>Anyone who is seriously into the markets has probably graduated from spreadsheets and built themselves some tooling to help with this.</p>",
+        "created_at": "2026-08-02T18:38:12.951000+0000",
+        "post_number": 5,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 6,
+        "username": "jehe",
+        "cooked": "<p>There's atleast 2 or 3 vibe coded eve projects here a week. So it's happening</p>",
+        "created_at": "2026-08-03T14:50:33.170000+0000",
+        "post_number": 6,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 7,
+        "username": "beardfearer",
+        "cooked": "<p>What does this even mean?</p>",
+        "created_at": "2026-08-02T19:40:19.615000+0000",
+        "post_number": 7,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 8,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 8,
+        "username": "Annie_Ghostclaw",
+        "cooked": "<p>clanker cope at best, even if it's not wasting one resource or another, there's so many other harms. All to avoid learning from the struggle of figuring something out without a 50%-probable delusion generator to do your thinking for you. There are legitimate uses of LLM and ML tech; clankers out here with millions of square pegs for those dozens of round holes.</p>",
+        "created_at": "2026-08-02T22:36:49.246000+0000",
+        "post_number": 8,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 9,
+        "username": "Annie_Ghostclaw",
+        "cooked": "<p>It's so funny (depressing) to think about the conversion of real-world money cost (of running AI tools) to the fractional value of ISK, and how much is being wasted for such fractions of pennies of returns. All to avoid the struggle needed to improve your own capacity for building something that would be more reliable, more maintainable, and not disposable as a shred of toilet paper. MY GAAAAIIIIINNNS BRRRROHHHHH</p>",
+        "created_at": "2026-08-02T21:36:05.717000+0000",
+        "post_number": 9,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 10,
+        "username": "Saithir",
+        "cooked": "<p>Because I don't want to give them money.</p>",
+        "created_at": "2026-08-03T08:56:11.385000+0000",
+        "post_number": 10,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 4,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 11,
+        "username": "Annie_Ghostclaw",
+        "cooked": "<p>I'm managing just fine without it, and my low-maintenance build/buy-order machinations have been paying for 4+ subs 6 months or more at a time, since '22 stable, without ever needing AI tools (and I've tried them). They're unreliable in the long-run, and using them would dull my skills of identifying opportunities for myself. If I do need to automate that (rarely), then it's nothing that spreadsheets and python can't handle. Again, I don't want to dull my skills by delegating this to some trash generator that will never be maintainable. I don't need to sell my soul by wasting gallons of water or validating the current AI trends (and there's dozens of reasons to hate AI culture, fuck building more datacenters destroying neighborhoods off the top of my head) Tl;dr Nah + GTFO clankers</p>",
+        "created_at": "2026-08-02T21:32:49.351000+0000",
+        "post_number": 11,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 3,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 12,
+        "username": "Annie_Ghostclaw",
+        "cooked": "<p>https://thathandsomedevil.bandcamp.com/track/a-million-bots and then they tell you to get therapy lmao</p>",
+        "created_at": "2026-08-04T01:10:27.462000+0000",
+        "post_number": 12,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 0,
+        "version": 1,
+        "trust_level": 1
+      }
+    ]
+  },
+  "jogo": "World of Warcraft",
+  "fonte": "Reddit",
+  "seccao": "r/wow",
+  "url_fonte": "https://www.reddit.com/r/wow/comments/1vdomcq/how_many_people_are_using_ai_to_build_tools_to/"
+}

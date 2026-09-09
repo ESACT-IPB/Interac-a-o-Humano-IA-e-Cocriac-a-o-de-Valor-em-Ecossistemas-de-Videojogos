@@ -1,0 +1,98 @@
+{
+  "id": "reddit_1spdcd4",
+  "title": "EVE-KILL.com - We LLM now (And more..)",
+  "slug": "evekillcom_we_llm_now_and_more",
+  "posts_count": 7,
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1,
+        "username": "karbowiak",
+        "cooked": "<p>edit:// I love how everyone is hyper focusing on the MCP part, and going all apeshit over \"BRUH IS LETTING IT TALK TO AI LETS DOWNVOTE TO HELL\" AI tools were already hammering the site, this just lets them do it more efficiently and will cost me less in CPU/RAM utilization, get over yourself you toxic fucking nerds.. -- Hello everyone , another week, another set of updates, additions and new stuff for EK. An entirely new stats system that should be faster and hopefully more accurate (and easier to maintain.. yay), some more interactivity on the site itself and also some AI nonsense. New Features MCP (The AI nonsense..) : There is an entirely new MCP endpoint that you can connect Claude, ChatGPT and so forth to. https://eve-kill.com/mcp - it can do basically everything you can do on the frontend (and arguably more..). Announcements/News Ticker : As you've noticed, there's now a sliding news ticker at the bottom of EK showing big kills, battles, etc. It makes the page a bit more interactive and interesting. Maps : The Maps got a huge overhaul and can be seen here https://eve-kill.com/map You can either click a region and go to the region page, or directly to the region tab https://eve-kill.com/map?tab=regions It uses the x2d/z2d coordinates provided by CCP, so the map locations are similar to in game - and each system is rendered with its actual planets in the correct orbit. Legacy Killmails : Not everyone remembers old EVE from before December 2007, but for those of us who do, it's kinda nostalgic. I recently got a hold of a killmail dump from between 2003 and end of 2007 - you can view this dump here https://eve-kill.com/legacy It's a simplified view, and the old killmails are NOT counted into the general stats on the site. But there is most likely some fun stuff in there. Updates Wars / Faction Warfare : The Wars page got updated to have finished, upcoming and eligible corps/alliances listed in their own tabs, with some stats above. On the war page itself, it now lists all the characters involved in the war, their kill count, loss count, isk etc.. And it also has an intel page showing where the war took place, and more. For faction wars i added the recent system flips and characters involved in the last 30 days (similar to the wars page), an intel page, and a map showing the systems. There's also a sortable systems tab. If you're into faction warfare, and got ideas - lemme know how i can make it even better :) System/Const/Region images : Regenerated all the system/constellation/region images so missing images no longer show up here and there. Also had to regenerate them because of the new Exordium space. Misc : So so many things done internally... SEO updates Stats rewrite Cleanups of the killlist to add links into it so it's easier to get around (for users AND for bots) Added a discord bot for easier approval/disapproval of custom board image uploads, comments and bio updates. Added member counts to corp/alli dashboards Updated the intel on the char/corp/alli pages and did some updates to the graph db API updates for coalition data, killmail data, searching, advanced search via the API and a bunch of other stuff. -- All in all not AS busy as the previous weeks, but still a lot of stuff - the biggest time culprit was the stats system - it took a good three days just to regenerate it.. As always tho, if you find a bug, got a feature request or in general just wanna hang out and chat - come by our Discord :) Links : Main site: https://eve-kill.com API: https://api.eve-kill.com MCP: https://mcp.eve-kill.com Docs: https://eve-kill.com/docs Discord: https://discord.gg/R9gZRc4Jtn</p>",
+        "created_at": "2026-04-18T23:53:27.694000+0000",
+        "post_number": 1,
+        "reply_to_post_number": null,
+        "reply_count": 6,
+        "like_count": 8,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 2,
+        "username": "karbowiak",
+        "cooked": "<p>As i wrote in another comment, AI is already accessing the site, all the MCP does is allow them to better access the data on the site they're already accessing, and hopefully will lead to less hammering from those same AI instances. It's wild that the post is at 0 up/down votes simply because of that fact.</p>",
+        "created_at": "2026-04-19T08:40:54.275000+0000",
+        "post_number": 2,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 5,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 3,
+        "username": "karbowiak",
+        "cooked": "<p>Odd, i tested all of them. Guess I'll take a look when I'm home again in a few hours 😅</p>",
+        "created_at": "2026-04-19T08:46:39.175000+0000",
+        "post_number": 3,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 4,
+        "username": "Gareitonis",
+        "cooked": "<p>tarball sounds exactly what i'm looking for. Thanks!</p>",
+        "created_at": "2026-04-19T09:31:02.602000+0000",
+        "post_number": 4,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 5,
+        "username": "karbowiak",
+        "cooked": "<p>It's just an MCP api, if it all dies, it has no effect on the site. Storm in a glass of water..</p>",
+        "created_at": "2026-04-19T08:36:20.096000+0000",
+        "post_number": 5,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 8,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 6,
+        "username": "Sixguns1977",
+        "cooked": "<p>Quit supporting LLM bullshit. This. And every time I see someone posting \"what hardware/ gpu do I need to run AI?\" I wonder if they're also unhappy about RAM and SSD prices.</p>",
+        "created_at": "2026-04-19T06:52:28.537000+0000",
+        "post_number": 6,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 5,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 7,
+        "username": "karbowiak",
+        "cooked": "<p>That is fixed yes, the br.evetools switch to use EK happened just as the stats database went belly up - so i had to stop all the queue jobs from doing anything for about 15 hours - but that has been fixed with the stats rewrite :)</p>",
+        "created_at": "2026-04-19T01:59:04.055000+0000",
+        "post_number": 7,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 6,
+        "version": 1,
+        "trust_level": 1
+      }
+    ]
+  },
+  "jogo": "World of Warcraft",
+  "fonte": "Reddit",
+  "seccao": "r/wow",
+  "url_fonte": "https://www.reddit.com/r/wow/comments/1spdcd4/evekillcom_we_llm_now_and_more/"
+}

@@ -1,0 +1,2916 @@
+{
+  "id": 3000009,
+  "title": "Does Microsoft use any of its A.I. technology for anything related to World of Warcraft?",
+  "slug": "does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft",
+  "jogo": "World of Warcraft",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Blizzard",
+  "url_fonte": "https://us.forums.blizzard.com/en/wow/t/does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft/2248219",
+  "post_stream": {
+    "posts": [
+      {
+        "id": 28801038,
+        "name": "Jperry21",
+        "username": "Jperry21-1768015",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-09T10:19:32.153Z",
+        "cooked": "<p>Been wondering if Microsoft uses A.I. for any aspect of WoW?</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 118,
+        "updated_at": "2026-02-09T10:19:32.153Z",
+        "reply_count": 4,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 67,
+        "reads": 350,
+        "readers_count": 349,
+        "score": 470.0,
+        "yours": false,
+        "topic_id": 2248219,
+        "topic_slug": "does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft",
+        "display_username": "Jperry21",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 4
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1768015,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/hyjal/jbob/",
+          "guild": "More Humble Than You",
+          "race": "Zandalari Troll",
+          "class": "Druid",
+          "player_class_enum": "DRUID",
+          "level": "80",
+          "achievement_points": "35990",
+          "blizzard_post_count": "1243"
+        },
+        "post_url": "/t/does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft/2248219/1",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/hyjal/93/114997085-avatar.jpg?alt=/wow/static/images/2d/avatar/31-0.jpg",
+        "alias_username": "Jbob-hyjal",
+        "poster_alias": {
+          "alias": {
+            "name": "Jbob-hyjal",
+            "avatar": "https://render.worldofwarcraft.com/us/character/hyjal/93/114997085-avatar.jpg?alt=/wow/static/images/2d/avatar/31-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/hyjal/jbob/",
+            "user_id": 1768015,
+            "id": 519056,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 720,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/hyjal/jbob/"
+              },
+              {
+                "name": "realm",
+                "value": "Hyjal"
+              },
+              {
+                "name": "achievement_points",
+                "value": "37240"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Zandalari Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/hyjal/93/114997085-avatar.jpg?alt=/wow/static/images/2d/avatar/31-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Jbob-hyjal"
+              },
+              {
+                "name": "guild",
+                "value": "More Humble Than You"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 1243,
+        "character": {
+          "name": "Jperry21",
+          "guild": "More Humble Than You",
+          "achievement_points": "35990",
+          "level": "80",
+          "class": "Druid",
+          "race": "Zandalari Troll",
+          "player_class_enum": "DRUID",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 28801045,
+        "name": "biofrog",
+        "username": "biofrog-3270674",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-09T10:22:05.487Z",
+        "cooked": "<p>did you know ai bots run around wow and have for 20+ years? gasp</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 118,
+        "updated_at": "2026-02-09T10:22:05.487Z",
+        "reply_count": 3,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 342,
+        "readers_count": 341,
+        "score": 178.4,
+        "yours": false,
+        "topic_id": 2248219,
+        "topic_slug": "does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft",
+        "display_username": "biofrog",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 6
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3270674,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/silvermoon/oneburst/",
+          "guild": "House of Ulf",
+          "achievement_points": "1295",
+          "level": "86",
+          "race": "Human",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "classic": "t",
+          "blizzard_post_count": "398"
+        },
+        "post_url": "/t/does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft/2248219/2",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/raden/238/100230638-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+        "alias_username": "Platinumtwo-raden",
+        "poster_alias": {
+          "alias": {
+            "name": "Platinumtwo-raden",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/raden/238/100230638-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+            "url": null,
+            "user_id": 3270674,
+            "id": 42542,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 412,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Ra-den"
+              },
+              {
+                "name": "achievement_points",
+                "value": "1685"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic-us/character/raden/238/100230638-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Platinumtwo-raden"
+              },
+              {
+                "name": "guild",
+                "value": "House of Ulf"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 398,
+        "character": {
+          "name": "biofrog",
+          "guild": "House of Ulf",
+          "achievement_points": "1295",
+          "level": "86",
+          "class": "Warrior",
+          "race": "Human",
+          "player_class_enum": "WARRIOR",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28801061,
+        "name": "Ventus",
+        "username": "Ventus-3120455",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-09T10:31:43.160Z",
+        "cooked": "<p>Classic wow as well as the expansions its following has been using A.I. to better fix some of the graphics.  Retail uses it for armor rigs on player races.   Been a thing for awhile.</p>\n<p>But if anything Microsoft been gutting their gaming companies for AI.   Pretty much 99% of gaming companies microsoft owns is on the crap list including Blizzard as Microsoft didn’t really want them and only wanted Activision-King (mostly King).</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 118,
+        "updated_at": "2026-02-09T10:31:43.160Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 328,
+        "readers_count": 327,
+        "score": 70.6,
+        "yours": false,
+        "topic_id": 2248219,
+        "topic_slug": "does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft",
+        "display_username": "Ventus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3120455,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/moon-guard/zaguel/",
+          "level": "80",
+          "race": "Blood Elf",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "guild": "Loser Emporium",
+          "achievement_points": "27190",
+          "blizzard_post_count": "763"
+        },
+        "post_url": "/t/does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft/2248219/3",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/moon-guard/31/178341663-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
+        "alias_username": "Zaguel-moon-guard",
+        "poster_alias": {
+          "alias": {
+            "name": "Zaguel-moon-guard",
+            "avatar": "https://render.worldofwarcraft.com/us/character/moon-guard/31/178341663-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/moon-guard/zaguel/",
+            "user_id": 3120455,
+            "id": 699134,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 787,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/moon-guard/zaguel/"
+              },
+              {
+                "name": "realm",
+                "value": "Moon Guard"
+              },
+              {
+                "name": "achievement_points",
+                "value": "28080"
+              },
+              {
+                "name": "level",
+                "value": "82"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/moon-guard/31/178341663-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Zaguel-moon-guard"
+              },
+              {
+                "name": "guild",
+                "value": "Loser Emporium"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 763,
+        "character": {
+          "name": "Ventus",
+          "guild": "Loser Emporium",
+          "achievement_points": "27190",
+          "level": "80",
+          "class": "Warlock",
+          "race": "Blood Elf",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28801101,
+        "name": "Auss",
+        "username": "Auss-43430",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-09T10:48:39.789Z",
+        "cooked": "<p>Honestly, I think people need to stop worrying about AI so much.<br>\nIt’s become ridiculous at this point, to the extent people are accusing its use on everything lol</p>\n<ul>\n<li>It’s also become an inflammatory term or action — even in spite of its benefits or positive outcomes. People act as if it’s a heinously offensive thing to ludicrous proportions.</li>\n</ul>\n<p>So whether or not something uses it, should be weighed subjectively too.</p>\n<p>Personally, the extent I use AI is merely asking google random stuff time to time like many do — but yeah as for ChatGTP and all that other nonsense, I couldn’t really be F’d with <img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/joy.png?v=14\" title=\":joy:\" class=\"emoji\" alt=\":joy:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n<aside class=\"quote no-group\" data-username=\"Jbob-hyjal\" data-post=\"1\" data-topic=\"2248219\" data-full=\"true\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/hyjal/93/114997085-avatar.jpg?alt=/wow/static/images/2d/avatar/31-0.jpg\" class=\"avatar\"> Jbob:</div>\n<blockquote>\n<p>Been wondering if Microsoft uses A.I. for any aspect of WoW?</p>\n</blockquote>\n</aside>\n<p>As for Microsoft using AI for any aspect of WoW?  … <em>Probably, yeah.</em><br>\nI’d argue for rather simple things though, like tying up loose ends, reviewing mistakes and stuff like that.</p>\n<p>If you could use AI to scan for and <strong>correct</strong> stuff like N-gons in deforming meshes within development and some variances here &amp; there to save time for developers — It’d allow for better quality work on modeling and the time they’re dispensed for the players to enjoy <img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/slight_smile.png?v=14\" title=\":slight_smile:\" class=\"emoji\" alt=\":slight_smile:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n<p>The prime issue <strong>I’d</strong> argue –  is the overreliance of it and not overviewing its use – to see if it was used properly. AI isn’t always correct, nor does it always achieve the desired result.</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 118,
+        "updated_at": "2026-02-09T10:50:11.859Z",
+        "reply_count": 9,
+        "reply_to_post_number": null,
+        "quote_count": 1,
+        "incoming_link_count": 1,
+        "reads": 285,
+        "readers_count": 284,
+        "score": 182.0,
+        "yours": false,
+        "topic_id": 2248219,
+        "topic_slug": "does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft",
+        "display_username": "Auss",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 5
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 43430,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Blood Elf",
+          "class": "Priest",
+          "player_class_enum": "PRIEST",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/dathremar/aussielight/",
+          "guild": "Valhalla",
+          "level": "86",
+          "achievement_points": "29350",
+          "blizzard_post_count": "12504"
+        },
+        "post_url": "/t/does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft/2248219/4",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/dathremar/123/180051579-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
+        "alias_username": "Aussielight-dathremar",
+        "poster_alias": {
+          "alias": {
+            "name": "Aussielight-dathremar",
+            "avatar": "https://render.worldofwarcraft.com/us/character/dathremar/123/180051579-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/dathremar/aussielight/",
+            "user_id": 43430,
+            "id": 432957,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 11036,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/dathremar/aussielight/"
+              },
+              {
+                "name": "realm",
+                "value": "Dath'Remar"
+              },
+              {
+                "name": "achievement_points",
+                "value": "30710"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Priest"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PRIEST"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/dathremar/123/180051579-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Aussielight-dathremar"
+              },
+              {
+                "name": "guild",
+                "value": "Valhalla"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 12504,
+        "character": {
+          "name": "Auss",
+          "guild": "Valhalla",
+          "achievement_points": "29350",
+          "level": "86",
+          "class": "Priest",
+          "race": "Blood Elf",
+          "player_class_enum": "PRIEST",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28801167,
+        "name": "Sepaaru",
+        "username": "Sepaaru-2943593",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-09T11:03:22.119Z",
+        "cooked": "<p>This is funny coming from someone whose gimmick is every one of their posts being written by AI.<img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/rofl.png?v=14\" title=\":rofl:\" class=\"emoji\" alt=\":rofl:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+        "post_number": 5,
+        "post_type": 1,
+        "posts_count": 118,
+        "updated_at": "2026-02-09T11:03:31.799Z",
+        "reply_count": 1,
+        "reply_to_post_number": 4,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 206,
+        "readers_count": 205,
+        "score": 66.2,
+        "yours": false,
+        "topic_id": 2248219,
+        "topic_slug": "does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft",
+        "display_username": "Sepaaru",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 43430,
+          "username": "Auss-43430",
+          "name": "Auss",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2943593,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/frostmourne/ekhana/",
+          "guild": "The Last Stand",
+          "achievement_points": "1325",
+          "level": "80",
+          "race": "Draenei",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "classic": "t",
+          "blizzard_post_count": "8208"
+        },
+        "post_url": "/t/does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft/2248219/5",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/arugal/96/15656544-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg",
+        "alias_username": "Ekhana-arugal",
+        "poster_alias": {
+          "alias": {
+            "name": "Ekhana-arugal",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/arugal/96/15656544-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg",
+            "url": null,
+            "user_id": 2943593,
+            "id": 620918,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 4217,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Arugal"
+              },
+              {
+                "name": "achievement_points",
+                "value": "1325"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Draenei"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic-us/character/arugal/96/15656544-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Ekhana-arugal"
+              },
+              {
+                "name": "guild",
+                "value": "The Last Stand"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 432957,
+          "username": "Aussielight-dathremar",
+          "name": "Aussielight",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/dathremar/123/180051579-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 8208,
+        "character": {
+          "name": "Sepaaru",
+          "guild": "The Last Stand",
+          "achievement_points": "1325",
+          "level": "80",
+          "class": "Warrior",
+          "race": "Draenei",
+          "player_class_enum": "WARRIOR",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28801220,
+        "name": "Jorudd343",
+        "username": "Jorudd343-2395766",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-09T11:19:15.552Z",
+        "cooked": "<p>Wow has had ai since its inception for basically everything but bosses.</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "posts_count": 118,
+        "updated_at": "2026-02-09T11:19:15.552Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 193,
+        "readers_count": 192,
+        "score": 48.6,
+        "yours": false,
+        "topic_id": 2248219,
+        "topic_slug": "does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft",
+        "display_username": "Jorudd343",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2395766,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/alleria/skulbasher/",
+          "guild": "Warrior Soul",
+          "race": "Human",
+          "class": "Death Knight",
+          "player_class_enum": "DEATHKNIGHT",
+          "classic": "t",
+          "level": "70",
+          "achievement_points": "16630",
+          "blizzard_post_count": "624"
+        },
+        "post_url": "/t/does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft/2248219/6",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/khadgar/218/169487834-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+        "alias_username": "Chandra-khadgar",
+        "poster_alias": {
+          "alias": {
+            "name": "Chandra-khadgar",
+            "avatar": "https://render.worldofwarcraft.com/us/character/khadgar/218/169487834-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/khadgar/chandra/",
+            "user_id": 2395766,
+            "id": 251646,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 45,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/khadgar/chandra/"
+              },
+              {
+                "name": "realm",
+                "value": "Khadgar"
+              },
+              {
+                "name": "achievement_points",
+                "value": "17125"
+              },
+              {
+                "name": "level",
+                "value": "31"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/khadgar/218/169487834-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Chandra-khadgar"
+              },
+              {
+                "name": "guild",
+                "value": "Slappy"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 624,
+        "character": {
+          "name": "Jorudd343",
+          "guild": "Warrior Soul",
+          "achievement_points": "16630",
+          "level": "70",
+          "class": "Death Knight",
+          "race": "Human",
+          "player_class_enum": "DEATHKNIGHT",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28801249,
+        "name": "Chief",
+        "username": "Chief-20738",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-09T11:26:22.220Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Jbob-hyjal\" data-post=\"1\" data-topic=\"2248219\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/hyjal/93/114997085-avatar.jpg?alt=/wow/static/images/2d/avatar/31-0.jpg\" class=\"avatar\"> Jbob:</div>\n<blockquote>\n<p>Been wondering if Microsoft uses A.I. for any aspect of WoW</p>\n</blockquote>\n</aside>\n<p>In any aspects? Undoubtedly. AI is just baked into most software these days. It’s a very broad term. If you work any kind of office job it’s pretty much a given that you will be utilising AI more and more.</p>\n<p>Someone told me a quote a few months ago that put things in perspective for me: “AI won’t replace people. But people who use AI will replace people who don’t.”</p>",
+        "post_number": 7,
+        "post_type": 1,
+        "posts_count": 118,
+        "updated_at": "2026-02-09T11:26:22.220Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 181,
+        "readers_count": 180,
+        "score": 41.2,
+        "yours": false,
+        "topic_id": 2248219,
+        "topic_slug": "does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft",
+        "display_username": "Chief",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 20738,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Human",
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/amanthul/magnarok/",
+          "level": "80",
+          "achievement_points": "28665",
+          "blizzard_post_count": "24838"
+        },
+        "post_url": "/t/does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft/2248219/7",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/amanthul/47/196623663-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Magnarok-amanthul",
+        "poster_alias": {
+          "alias": {
+            "name": "Magnarok-amanthul",
+            "avatar": "https://render.worldofwarcraft.com/us/character/amanthul/47/196623663-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/amanthul/magnarok/",
+            "user_id": 20738,
+            "id": 436487,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 25009,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/amanthul/magnarok/"
+              },
+              {
+                "name": "realm",
+                "value": "Aman'Thul"
+              },
+              {
+                "name": "achievement_points",
+                "value": "30130"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/amanthul/47/196623663-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Magnarok-amanthul"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 24838,
+        "character": {
+          "name": "Chief",
+          "guild": null,
+          "achievement_points": "28665",
+          "level": "80",
+          "class": "Mage",
+          "race": "Human",
+          "player_class_enum": "MAGE",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28801357,
+        "name": "Coprus",
+        "username": "Coprus-2992856",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-09T11:55:27.673Z",
+        "cooked": "<p>No, it’s not ridiculous to be critical and disparaging of the sloppenator 5000 trained on stolen material that allows people to skip all the toil and skill-building involved in creating works of art, skip the act of investing emotion and resonance into those works of art, and then 99% of the time not even read or really look at the thing they received via typing up a prompt.</p>\n<p>It’s garbage and will always be garbage and it takes jobs from real humans with emotions who create things for other real humans with emotions, vs corporate use of AI which creates things for dummies/marks with wallets.</p>\n<p>If WoW ever uses AI for anything more complex or critical than mundane tasks like fitting armor models to different body models, etc, I’m out, because I won’t pay a company to not pay humans, and I especially won’t !@#$ing do that when the product in question is art.</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "posts_count": 118,
+        "updated_at": "2026-02-09T11:56:13.769Z",
+        "reply_count": 1,
+        "reply_to_post_number": 4,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 134,
+        "readers_count": 133,
+        "score": 131.8,
+        "yours": false,
+        "topic_id": 2248219,
+        "topic_slug": "does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft",
+        "display_username": "Coprus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 43430,
+          "username": "Auss-43430",
+          "name": "Auss",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 6
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2992856,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/grizzly-hills/citshan/",
+          "guild": "Elf Slayer Squad",
+          "level": "69",
+          "race": "Highmountain Tauren",
+          "class": "Druid",
+          "player_class_enum": "DRUID",
+          "achievement_points": "25235",
+          "blizzard_post_count": "1274"
+        },
+        "post_url": "/t/does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft/2248219/8",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/grizzly-hills/246/256111606-avatar.jpg?alt=/wow/static/images/2d/avatar/28-0.jpg",
+        "alias_username": "Citshan-grizzly-hills",
+        "poster_alias": {
+          "alias": {
+            "name": "Citshan-grizzly-hills",
+            "avatar": "https://render.worldofwarcraft.com/us/character/grizzly-hills/246/256111606-avatar.jpg?alt=/wow/static/images/2d/avatar/28-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/grizzly-hills/citshan/",
+            "user_id": 2992856,
+            "id": 96479,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 1083,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/grizzly-hills/citshan/"
+              },
+              {
+                "name": "realm",
+                "value": "Grizzly Hills"
+              },
+              {
+                "name": "achievement_points",
+                "value": "27575"
+              },
+              {
+                "name": "level",
+                "value": "69"
+              },
+              {
+                "name": "race",
+                "value": "Highmountain Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/grizzly-hills/246/256111606-avatar.jpg?alt=/wow/static/images/2d/avatar/28-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Citshan-grizzly-hills"
+              },
+              {
+                "name": "guild",
+                "value": "Elf Slayer Squad"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 432957,
+          "username": "Aussielight-dathremar",
+          "name": "Aussielight",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/dathremar/123/180051579-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 1274,
+        "character": {
+          "name": "Coprus",
+          "guild": "Elf Slayer Squad",
+          "achievement_points": "25235",
+          "level": "69",
+          "class": "Druid",
+          "race": "Highmountain Tauren",
+          "player_class_enum": "DRUID",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28801690,
+        "name": "Orlando11",
+        "username": "Orlando11-1068980",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-09T13:33:03.652Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Jbob-hyjal\" data-post=\"1\" data-topic=\"2248219\" data-full=\"true\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/hyjal/93/114997085-avatar.jpg?alt=/wow/static/images/2d/avatar/31-0.jpg\" class=\"avatar\"> Jbob:</div>\n<blockquote>\n<p>Been wondering if Microsoft uses A.I. for any aspect of WoW?</p>\n</blockquote>\n</aside>\n<p>It depends on what you mean by A.I. People have been putting some type of “intelligence” into computer programs since 1842 when Ada Lovelace wrote “Note G” to describe how someone could use Charles Babbage’s Analytical Engine to calculate Bernoulli numbers.</p>\n<p>Recently a new technique for “intelligence” has come along where computers use a bottom up approach to problem solving rather than a programmer using a top down approach but A.I. has been around in some form for quite some time with “expert systems” being a good example.</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "posts_count": 118,
+        "updated_at": "2026-02-09T13:33:03.652Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 1,
+        "incoming_link_count": 1,
+        "reads": 97,
+        "readers_count": 96,
+        "score": 24.4,
+        "yours": false,
+        "topic_id": 2248219,
+        "topic_slug": "does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft",
+        "display_username": "Orlando11",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1068980,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/ravencrest/tiffany/",
+          "race": "Blood Elf",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "level": "80",
+          "achievement_points": "5350",
+          "blizzard_post_count": "21311"
+        },
+        "post_url": "/t/does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft/2248219/9",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/ravencrest/202/112325578-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+        "alias_username": "Tiffany-ravencrest",
+        "poster_alias": {
+          "alias": {
+            "name": "Tiffany-ravencrest",
+            "avatar": "https://render.worldofwarcraft.com/us/character/ravencrest/202/112325578-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/ravencrest/tiffany/",
+            "user_id": 1068980,
+            "id": 436125,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 21483,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/ravencrest/tiffany/"
+              },
+              {
+                "name": "realm",
+                "value": "Ravencrest"
+              },
+              {
+                "name": "achievement_points",
+                "value": "5895"
+              },
+              {
+                "name": "level",
+                "value": "83"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/ravencrest/202/112325578-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Tiffany-ravencrest"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 21311,
+        "character": {
+          "name": "Orlando11",
+          "guild": null,
+          "achievement_points": "5350",
+          "level": "80",
+          "class": "Hunter",
+          "race": "Blood Elf",
+          "player_class_enum": "HUNTER",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28801712,
+        "name": "mattyfresh",
+        "username": "mattyfresh-20235",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-09T13:38:44.397Z",
+        "cooked": "<p>Of course. Definitely. 100%. So does pretty much every company you interact with on a daily basis at this point.</p>",
+        "post_number": 10,
+        "post_type": 1,
+        "posts_count": 118,
+        "updated_at": "2026-03-11T18:09:19.385Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 3,
+        "reads": 89,
+        "readers_count": 88,
+        "score": 37.8,
+        "yours": false,
+        "topic_id": 2248219,
+        "topic_slug": "does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft",
+        "display_username": "mattyfresh",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 20235,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Hawtness",
+          "race": "Draenei",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/lightnings-blade/oniana/",
+          "level": "80",
+          "achievement_points": "27365",
+          "blizzard_post_count": "7960"
+        },
+        "post_url": "/t/does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft/2248219/10",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/lightnings-blade/186/208590778-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Mattyfresh-lightnings-blade",
+        "poster_alias": {
+          "alias": {
+            "name": "Mattyfresh-lightnings-blade",
+            "avatar": "https://render.worldofwarcraft.com/us/character/lightnings-blade/186/208590778-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/lightnings-blade/mattyfresh/",
+            "user_id": 20235,
+            "id": 426775,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 3743,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/lightnings-blade/mattyfresh/"
+              },
+              {
+                "name": "realm",
+                "value": "Lightning's Blade"
+              },
+              {
+                "name": "achievement_points",
+                "value": "29930"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/lightnings-blade/186/208590778-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Mattyfresh-lightnings-blade"
+              },
+              {
+                "name": "guild",
+                "value": "Vicious and Delicious"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 7960,
+        "character": {
+          "name": "mattyfresh",
+          "guild": "Hawtness",
+          "achievement_points": "27365",
+          "level": "80",
+          "class": "Hunter",
+          "race": "Draenei",
+          "player_class_enum": "HUNTER",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28801766,
+        "name": "Jesodoth",
+        "username": "Jesodoth-23504",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-09T13:48:19.301Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Platinumtwo-raden\" data-post=\"2\" data-topic=\"2248219\" data-full=\"true\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/classic-us/character/raden/238/100230638-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg\" class=\"avatar\"> Platinumtwo:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>did you know ai bots run around wow and have for 20+ years? gasp</p>\n</blockquote>\n</aside>\n<p>Yeah, and that’s not a good thing.</p>\n<aside class=\"quote no-group\" data-username=\"Zaguel-moon-guard\" data-post=\"3\" data-topic=\"2248219\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/moon-guard/31/178341663-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg\" class=\"avatar\"> Zaguel:</div>\n<blockquote>\n<p>Retail uses it for armor rigs on player races.</p>\n</blockquote>\n</aside>\n<p>Then they are failing.</p>\n<p>Trying to wear any modern transmog on a Forsaken is a nightmare.</p>\n<aside class=\"quote no-group\" data-username=\"Aussielight-dathremar\" data-post=\"4\" data-topic=\"2248219\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/dathremar/123/180051579-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg\" class=\"avatar\"> Auss:</div>\n<blockquote>\n<p>e are accusing its use on everything</p>\n</blockquote>\n</aside>\n<aside class=\"quote no-group\" data-username=\"Aussielight-dathremar\" data-post=\"4\" data-topic=\"2248219\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/dathremar/123/180051579-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg\" class=\"avatar\"> Auss:</div>\n<blockquote>\n<p>stop worrying about AI so much.</p>\n</blockquote>\n</aside>\n<p>The issue is, there’s no world that exists where Microsoft wouldn’t look at AI and want to use it to cut corners or manpower.. which means less devs which means less quality.</p>\n<p>Then there’s also the fact and problem that AI is a bubble and as its bursting WoW will suffer that much more.</p>\n<aside class=\"quote no-group\" data-username=\"Mattyfresh-lightnings-blade\" data-post=\"10\" data-topic=\"2248219\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/lightnings-blade/186/208590778-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg\" class=\"avatar\"> Mattyfresh:</div>\n<blockquote>\n<p>Of course. Definitely. 100%. So does pretty much every company you interact with on a daily basis at this point</p>\n</blockquote>\n</aside>\n<p>I think that’s an interesting point, and it’s probably true. The issue is the community would constantly say that AI wasn’t being used in WoW.. now that we know it is, people say “yeah, but everyone does it” .. I don’t care if everyone does it, it’s garbage. I want humans writing my stories and building my game.. that’s literally the deal.</p>",
+        "post_number": 11,
+        "post_type": 1,
+        "posts_count": 118,
+        "updated_at": "2026-02-09T13:48:19.301Z",
+        "reply_count": 3,
+        "reply_to_post_number": 2,
+        "quote_count": 4,
+        "incoming_link_count": 1,
+        "reads": 89,
+        "readers_count": 88,
+        "score": 52.8,
+        "yours": false,
+        "topic_id": 2248219,
+        "topic_slug": "does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft",
+        "display_username": "Jesodoth",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 23504,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "class": "Warlock",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/azjolnerub/kittredge/",
+          "player_class_enum": "WARLOCK",
+          "race": "Undead",
+          "level": "60",
+          "achievement_points": "29410",
+          "blizzard_post_count": "15537"
+        },
+        "post_url": "/t/does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft/2248219/11",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/azjolnerub/75/176911179-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+        "alias_username": "Kittredge-azjolnerub",
+        "poster_alias": {
+          "alias": {
+            "name": "Kittredge-azjolnerub",
+            "avatar": "https://render.worldofwarcraft.com/us/character/azjolnerub/75/176911179-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/azjolnerub/kittredge/",
+            "user_id": 23504,
+            "id": 526377,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 15546,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/azjolnerub/kittredge/"
+              },
+              {
+                "name": "realm",
+                "value": "Azjol-Nerub"
+              },
+              {
+                "name": "achievement_points",
+                "value": "31110"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Undead"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/azjolnerub/75/176911179-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Kittredge-azjolnerub"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 15537,
+        "character": {
+          "name": "Jesodoth",
+          "guild": null,
+          "achievement_points": "29410",
+          "level": "60",
+          "class": "Warlock",
+          "race": "Undead",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28801791,
+        "name": "Auss",
+        "username": "Auss-43430",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-09T13:52:45.319Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Ekhana-arugal\" data-post=\"5\" data-topic=\"2248219\" data-full=\"true\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/classic-us/character/arugal/96/15656544-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg\" class=\"avatar\"> Ekhana:</div>\n<blockquote>\n<p>This is funny coming from someone whose gimmick is every one of their posts being written by AI.<img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/rofl.png?v=15\" title=\":rofl:\" class=\"emoji\" alt=\":rofl:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n</blockquote>\n</aside>\n<p>I don’t use AI to write my posts, but feel free to feel that way @ the notion of someone daring to punctuation, grammar, paragraphing and utilising the forum text-chat tools <img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/person_shrugging.png?v=15\" title=\":person_shrugging:\" class=\"emoji\" alt=\":person_shrugging:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n<p>It’s also really weird when people attempt to accuse &amp; protest “AI” at what’s written in some flawed sense to try invalidate it, instead of actually addressing what’s written …</p>\n<h2><a name=\"p-28801791-towards-those-who-make-such-accusations-1\" class=\"anchor\" href=\"#p-28801791-towards-those-who-make-such-accusations-1\" aria-label=\"Heading link\"></a>Towards those who make such accusations,</h2>\n<p>I’ll say to them a wise-quote from another thread I came across in the past:</p>\n<aside class=\"quote no-group\" data-username=\"Aerithe-hyjal\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n Aerithe:</div>\n<blockquote>\n<p>My “AI topic” that I just spent so much time writing out and detailing my thoughts. I’m sorry you can’t imagine forming coherent thoughts and creating an actual argument.</p>\n</blockquote>\n</aside>",
+        "post_number": 12,
+        "post_type": 1,
+        "posts_count": 118,
+        "updated_at": "2026-02-09T13:52:45.319Z",
+        "reply_count": 1,
+        "reply_to_post_number": 5,
+        "quote_count": 1,
+        "incoming_link_count": 1,
+        "reads": 75,
+        "readers_count": 74,
+        "score": 55.0,
+        "yours": false,
+        "topic_id": 2248219,
+        "topic_slug": "does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft",
+        "display_username": "Auss",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 43430,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Blood Elf",
+          "class": "Priest",
+          "player_class_enum": "PRIEST",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/dathremar/aussielight/",
+          "guild": "Valhalla",
+          "level": "86",
+          "achievement_points": "29350",
+          "blizzard_post_count": "12504"
+        },
+        "post_url": "/t/does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft/2248219/12",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/dathremar/123/180051579-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
+        "alias_username": "Aussielight-dathremar",
+        "poster_alias": {
+          "alias": {
+            "name": "Aussielight-dathremar",
+            "avatar": "https://render.worldofwarcraft.com/us/character/dathremar/123/180051579-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/dathremar/aussielight/",
+            "user_id": 43430,
+            "id": 432957,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 11036,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/dathremar/aussielight/"
+              },
+              {
+                "name": "realm",
+                "value": "Dath'Remar"
+              },
+              {
+                "name": "achievement_points",
+                "value": "30710"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Priest"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PRIEST"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/dathremar/123/180051579-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Aussielight-dathremar"
+              },
+              {
+                "name": "guild",
+                "value": "Valhalla"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 12504,
+        "character": {
+          "name": "Auss",
+          "guild": "Valhalla",
+          "achievement_points": "29350",
+          "level": "86",
+          "class": "Priest",
+          "race": "Blood Elf",
+          "player_class_enum": "PRIEST",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28801807,
+        "name": "Ardeth",
+        "username": "Ardeth-2195677",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-09T13:54:56.365Z",
+        "cooked": "<p>So far all that I’ve seen is AI Thrall, but I’ve heard conflicting accounts of that.  It doesn’t really sound like him, but it could just be the mixing of the Orc effect added onto his voice, but on Exile’s Reach I’ve heard the sounds at the end of sentences that are tell tale signs of AI, but I didn’t code it so what do I know?  But that’s what my ears told me.</p>",
+        "post_number": 13,
+        "post_type": 1,
+        "posts_count": 118,
+        "updated_at": "2026-02-09T13:54:56.365Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 66,
+        "readers_count": 65,
+        "score": 23.2,
+        "yours": false,
+        "topic_id": 2248219,
+        "topic_slug": "does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft",
+        "display_username": "Ardeth",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2195677,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/tichondrius/kargosh/",
+          "race": "Orc",
+          "class": "Monk",
+          "player_class_enum": "MONK",
+          "guild": "Ten Years Gone",
+          "level": "80",
+          "achievement_points": "9995",
+          "blizzard_post_count": "1202"
+        },
+        "post_url": "/t/does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft/2248219/13",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/tichondrius/44/246422316-avatar.jpg?alt=/wow/static/images/2d/avatar/9-0.jpg",
+        "alias_username": "Qwarq-tichondrius",
+        "poster_alias": {
+          "alias": {
+            "name": "Qwarq-tichondrius",
+            "avatar": "https://render.worldofwarcraft.com/us/character/tichondrius/44/246422316-avatar.jpg?alt=/wow/static/images/2d/avatar/9-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/tichondrius/qwarq/",
+            "user_id": 2195677,
+            "id": 78172,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 7,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/tichondrius/qwarq/"
+              },
+              {
+                "name": "realm",
+                "value": "Tichondrius"
+              },
+              {
+                "name": "achievement_points",
+                "value": "10295"
+              },
+              {
+                "name": "level",
+                "value": "31"
+              },
+              {
+                "name": "race",
+                "value": "Goblin"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/tichondrius/44/246422316-avatar.jpg?alt=/wow/static/images/2d/avatar/9-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Qwarq-tichondrius"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 1202,
+        "character": {
+          "name": "Ardeth",
+          "guild": "Ten Years Gone",
+          "achievement_points": "9995",
+          "level": "80",
+          "class": "Monk",
+          "race": "Orc",
+          "player_class_enum": "MONK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28801826,
+        "name": "qaccy",
+        "username": "qaccy-17071",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-09T13:59:28.973Z",
+        "cooked": "<p>This OP is kinda funny to me. It sounds like the OP wants to be told where the AI usage is so they can look back at it and be like ‘yup, that’s why this thing sucks’. <img src=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/fda21e81a4a6fa8c9f5e972d2b019b17c1c1ae23.png?v=14\" title=\":dracthyr_crylaugh:\" class=\"emoji emoji-custom\" alt=\":dracthyr_crylaugh:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+        "post_number": 14,
+        "post_type": 1,
+        "posts_count": 118,
+        "updated_at": "2026-02-09T13:59:28.973Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 63,
+        "readers_count": 62,
+        "score": 32.6,
+        "yours": false,
+        "topic_id": 2248219,
+        "topic_slug": "does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft",
+        "display_username": "qaccy",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 17071,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Pandaren",
+          "class": "Priest",
+          "player_class_enum": "PRIEST",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/baelgun/qaccy/",
+          "guild": "The Red Shirts",
+          "level": "90",
+          "achievement_points": "43655",
+          "blizzard_post_count": "8537"
+        },
+        "post_url": "/t/does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft/2248219/14",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/baelgun/199/162433735-avatar.jpg?alt=/wow/static/images/2d/avatar/25-1.jpg",
+        "alias_username": "Qaccy-baelgun",
+        "poster_alias": {
+          "alias": {
+            "name": "Qaccy-baelgun",
+            "avatar": "https://render.worldofwarcraft.com/us/character/baelgun/199/162433735-avatar.jpg?alt=/wow/static/images/2d/avatar/25-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/baelgun/qaccy/",
+            "user_id": 17071,
+            "id": 429301,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 8606,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/baelgun/qaccy/"
+              },
+              {
+                "name": "realm",
+                "value": "Baelgun"
+              },
+              {
+                "name": "achievement_points",
+                "value": "46015"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Pandaren"
+              },
+              {
+                "name": "player_class",
+                "value": "Priest"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PRIEST"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/baelgun/199/162433735-avatar.jpg?alt=/wow/static/images/2d/avatar/25-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Qaccy-baelgun"
+              },
+              {
+                "name": "guild",
+                "value": "The Red Shirts"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 8537,
+        "character": {
+          "name": "qaccy",
+          "guild": "The Red Shirts",
+          "achievement_points": "43655",
+          "level": "90",
+          "class": "Priest",
+          "race": "Pandaren",
+          "player_class_enum": "PRIEST",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28801834,
+        "name": "Ventus",
+        "username": "Ventus-3120455",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-09T14:01:07.747Z",
+        "cooked": "<p>The goal is for the ai system to do its best, then a dev comes in it with the finishing touches.   We’re missing the dev atm or he’s over worked as the team is under staffed.  One of the two.</p>",
+        "post_number": 15,
+        "post_type": 1,
+        "posts_count": 118,
+        "updated_at": "2026-02-09T14:01:07.747Z",
+        "reply_count": 1,
+        "reply_to_post_number": 11,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 59,
+        "readers_count": 58,
+        "score": 21.8,
+        "yours": false,
+        "topic_id": 2248219,
+        "topic_slug": "does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft",
+        "display_username": "Ventus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 23504,
+          "username": "Jesodoth-23504",
+          "name": "Jesodoth",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3120455,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/moon-guard/zaguel/",
+          "level": "80",
+          "race": "Blood Elf",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "guild": "Loser Emporium",
+          "achievement_points": "27190",
+          "blizzard_post_count": "763"
+        },
+        "post_url": "/t/does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft/2248219/15",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/moon-guard/31/178341663-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
+        "alias_username": "Zaguel-moon-guard",
+        "poster_alias": {
+          "alias": {
+            "name": "Zaguel-moon-guard",
+            "avatar": "https://render.worldofwarcraft.com/us/character/moon-guard/31/178341663-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/moon-guard/zaguel/",
+            "user_id": 3120455,
+            "id": 699134,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 787,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/moon-guard/zaguel/"
+              },
+              {
+                "name": "realm",
+                "value": "Moon Guard"
+              },
+              {
+                "name": "achievement_points",
+                "value": "28080"
+              },
+              {
+                "name": "level",
+                "value": "82"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/moon-guard/31/178341663-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Zaguel-moon-guard"
+              },
+              {
+                "name": "guild",
+                "value": "Loser Emporium"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 526377,
+          "username": "Kittredge-azjolnerub",
+          "name": "Kittredge",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/azjolnerub/75/176911179-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 763,
+        "character": {
+          "name": "Ventus",
+          "guild": "Loser Emporium",
+          "achievement_points": "27190",
+          "level": "80",
+          "class": "Warlock",
+          "race": "Blood Elf",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28801841,
+        "name": "Auss",
+        "username": "Auss-43430",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-09T14:02:20.353Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Citshan-grizzly-hills\" data-post=\"8\" data-topic=\"2248219\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/us/character/grizzly-hills/246/256111606-avatar.jpg?alt=/wow/static/images/2d/avatar/28-0.jpg\" class=\"avatar\"> Citshan:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>No, it’s not ridiculous to be critical and disparaging</p>\n</blockquote>\n</aside>\n<p>I meant in the general sense of people being obsessive over any mention or utility of such, no matter now miniscule or trivial (Like fitting armour models, fixing mathematical errors or finding best prices / nutrition info / groceries etc).</p>\n<p>As for the manner of art, writing and creativity — I’m actually <em><img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/100.png?v=15\" title=\":100:\" class=\"emoji only-emoji\" alt=\":100:\" loading=\"lazy\" width=\"20\" height=\"20\"></em> percent with you:<br>\nThat for <strong>those</strong> subjects however, AI can kick go kick rocks. lol</p>\n<aside class=\"quote no-group\" data-username=\"Zaguel-moon-guard\" data-post=\"15\" data-topic=\"2248219\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/moon-guard/31/178341663-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg\" class=\"avatar\"> Zaguel:</div>\n<blockquote>\n<p>The goal is for the ai system to do its best, then a dev comes in it with the finishing touches.</p>\n</blockquote>\n</aside>\n<h2><a name=\"p-28801841-spot-on-1\" class=\"anchor\" href=\"#p-28801841-spot-on-1\" aria-label=\"Heading link\"></a>Spot on.</h2>\n<p><img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/point_up.png?v=15\" title=\":point_up:\" class=\"emoji\" alt=\":point_up:\" loading=\"lazy\" width=\"20\" height=\"20\"> This right here.</p>\n<aside class=\"quote no-group\" data-username=\"Kittredge-azjolnerub\" data-post=\"11\" data-topic=\"2248219\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/azjolnerub/75/176911179-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg\" class=\"avatar\"> Jesodoth:</div>\n<blockquote>\n<p>The issue is, there’s no world that exists where Microsoft wouldn’t look at AI and want to use it to cut corners or manpower.. which means less devs which means less quality.</p>\n</blockquote>\n</aside>\n<p>Yeah that’s true.</p>\n<p>In hindsight, although I wouldn’t mind them using such for the better qualities as I listed in my previous post — Corporate companies like Microsoft would probably use it for … Less than noble purposes <img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/joy.png?v=15\" title=\":joy:\" class=\"emoji\" alt=\":joy:\" loading=\"lazy\" width=\"20\" height=\"20\"> <img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/sob.png?v=15\" title=\":sob:\" class=\"emoji\" alt=\":sob:\" loading=\"lazy\" width=\"20\" height=\"20\"> and likely design some stupidly designed strict KPI system / corner-cutting <strong>requirement</strong> on content-development towards it.</p>\n<p>In that sense, I’d be against it.<br>\nPersonally, I would love laws against the nature of <strong>how</strong> AI is used to be honest – So that way, it’s not abused.</p>",
+        "post_number": 16,
+        "post_type": 1,
+        "posts_count": 118,
+        "updated_at": "2026-02-09T14:05:16.381Z",
+        "reply_count": 1,
+        "reply_to_post_number": 8,
+        "quote_count": 3,
+        "incoming_link_count": 1,
+        "reads": 59,
+        "readers_count": 58,
+        "score": 21.8,
+        "yours": false,
+        "topic_id": 2248219,
+        "topic_slug": "does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft",
+        "display_username": "Auss",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 43430,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Blood Elf",
+          "class": "Priest",
+          "player_class_enum": "PRIEST",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/dathremar/aussielight/",
+          "guild": "Valhalla",
+          "level": "86",
+          "achievement_points": "29350",
+          "blizzard_post_count": "12504"
+        },
+        "post_url": "/t/does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft/2248219/16",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/dathremar/123/180051579-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
+        "alias_username": "Aussielight-dathremar",
+        "poster_alias": {
+          "alias": {
+            "name": "Aussielight-dathremar",
+            "avatar": "https://render.worldofwarcraft.com/us/character/dathremar/123/180051579-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/dathremar/aussielight/",
+            "user_id": 43430,
+            "id": 432957,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 11036,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/dathremar/aussielight/"
+              },
+              {
+                "name": "realm",
+                "value": "Dath'Remar"
+              },
+              {
+                "name": "achievement_points",
+                "value": "30710"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Priest"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PRIEST"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/dathremar/123/180051579-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Aussielight-dathremar"
+              },
+              {
+                "name": "guild",
+                "value": "Valhalla"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 12504,
+        "character": {
+          "name": "Auss",
+          "guild": "Valhalla",
+          "achievement_points": "29350",
+          "level": "86",
+          "class": "Priest",
+          "race": "Blood Elf",
+          "player_class_enum": "PRIEST",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28801877,
+        "name": "Killjoy",
+        "username": "Killjoy-3198551",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-09T14:07:35.412Z",
+        "cooked": "<p>Very different definition of “AI”.</p>\n<p>Part of the problem in these discussions, the LLM-bros took the term “AI” both for the marketing hype and fluffery, and to confuse people.</p>\n<p>On the stuff the LLM-bros are pushing…</p>\n<p><code>https://youtu.be/U8dcFhF0Dlk?si=w4v0Mvkw9hxHFHZA</code> – the cost of AI, and who is really pushing it<br>\n<code>https://www.youtube.com/watch?v=mb3uK-_QkOo</code> – Brandon Sanderson on AI vs art</p>",
+        "post_number": 17,
+        "post_type": 1,
+        "posts_count": 118,
+        "updated_at": "2026-02-09T14:15:37.727Z",
+        "reply_count": 1,
+        "reply_to_post_number": 2,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 51,
+        "readers_count": 50,
+        "score": 50.2,
+        "yours": false,
+        "topic_id": 2248219,
+        "topic_slug": "does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft",
+        "display_username": "Killjoy",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 3270674,
+          "username": "biofrog-3270674",
+          "name": "biofrog",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3198551,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/llane/kazethera/",
+          "guild": "Special Snowflake",
+          "level": "80",
+          "race": "Blood Elf",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "achievement_points": "10785",
+          "blizzard_post_count": "12893"
+        },
+        "post_url": "/t/does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft/2248219/17",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/llane/23/9384983-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+        "alias_username": "Kazethera-llane",
+        "poster_alias": {
+          "alias": {
+            "name": "Kazethera-llane",
+            "avatar": "https://render.worldofwarcraft.com/us/character/llane/23/9384983-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/llane/kazethera/",
+            "user_id": 3198551,
+            "id": 430555,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 13133,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/llane/kazethera/"
+              },
+              {
+                "name": "realm",
+                "value": "Llane"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12020"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/llane/23/9384983-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Kazethera-llane"
+              },
+              {
+                "name": "guild",
+                "value": "Special Snowflake"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 42542,
+          "username": "Platinumtwo-raden",
+          "name": "Platinumtwo",
+          "avatar_template": "https://render.worldofwarcraft.com/classic-us/character/raden/238/100230638-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 12893,
+        "character": {
+          "name": "Killjoy",
+          "guild": "Special Snowflake",
+          "achievement_points": "10785",
+          "level": "80",
+          "class": "Warlock",
+          "race": "Blood Elf",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28801887,
+        "name": "Killjoy",
+        "username": "Killjoy-3198551",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-09T14:09:24.110Z",
+        "cooked": "<p>I went to the trouble of spending a Saturday afternoon gutting all the AI out of my work laptop, after they forced the “upgrade” to Window 11.</p>",
+        "post_number": 18,
+        "post_type": 1,
+        "posts_count": 118,
+        "updated_at": "2026-02-09T14:09:24.110Z",
+        "reply_count": 1,
+        "reply_to_post_number": 7,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 49,
+        "readers_count": 48,
+        "score": 49.8,
+        "yours": false,
+        "topic_id": 2248219,
+        "topic_slug": "does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft",
+        "display_username": "Killjoy",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 20738,
+          "username": "Chief-20738",
+          "name": "Chief",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3198551,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/llane/kazethera/",
+          "guild": "Special Snowflake",
+          "level": "80",
+          "race": "Blood Elf",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "achievement_points": "10785",
+          "blizzard_post_count": "12893"
+        },
+        "post_url": "/t/does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft/2248219/18",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/llane/23/9384983-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+        "alias_username": "Kazethera-llane",
+        "poster_alias": {
+          "alias": {
+            "name": "Kazethera-llane",
+            "avatar": "https://render.worldofwarcraft.com/us/character/llane/23/9384983-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/llane/kazethera/",
+            "user_id": 3198551,
+            "id": 430555,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 13133,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/llane/kazethera/"
+              },
+              {
+                "name": "realm",
+                "value": "Llane"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12020"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/llane/23/9384983-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Kazethera-llane"
+              },
+              {
+                "name": "guild",
+                "value": "Special Snowflake"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 436487,
+          "username": "Magnarok-amanthul",
+          "name": "Magnarok",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/amanthul/47/196623663-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 12893,
+        "character": {
+          "name": "Killjoy",
+          "guild": "Special Snowflake",
+          "achievement_points": "10785",
+          "level": "80",
+          "class": "Warlock",
+          "race": "Blood Elf",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28801931,
+        "name": "Chief",
+        "username": "Chief-20738",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-09T14:15:52.694Z",
+        "cooked": "<p>I’ve found some legit use for it. Not so much copilot. Actually when I asked copilot how to change a certain setting in outlook it gave me the wrong answer! <img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/laughing.png?v=14\" title=\":laughing:\" class=\"emoji\" alt=\":laughing:\" loading=\"lazy\" width=\"20\" height=\"20\"><br>\nBut I do system testing, and we now have a program with AI to write our test scripts. Or at least the frames of them. It saves an enormous amount of time. You just gotta go through and refine the details a bit.</p>",
+        "post_number": 19,
+        "post_type": 1,
+        "posts_count": 118,
+        "updated_at": "2026-02-09T14:15:52.694Z",
+        "reply_count": 0,
+        "reply_to_post_number": 18,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 47,
+        "readers_count": 46,
+        "score": 14.4,
+        "yours": false,
+        "topic_id": 2248219,
+        "topic_slug": "does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft",
+        "display_username": "Chief",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 3198551,
+          "username": "Killjoy-3198551",
+          "name": "Killjoy",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 20738,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Human",
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/amanthul/magnarok/",
+          "level": "80",
+          "achievement_points": "28665",
+          "blizzard_post_count": "24838"
+        },
+        "post_url": "/t/does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft/2248219/19",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/amanthul/47/196623663-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Magnarok-amanthul",
+        "poster_alias": {
+          "alias": {
+            "name": "Magnarok-amanthul",
+            "avatar": "https://render.worldofwarcraft.com/us/character/amanthul/47/196623663-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/amanthul/magnarok/",
+            "user_id": 20738,
+            "id": 436487,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 25009,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/amanthul/magnarok/"
+              },
+              {
+                "name": "realm",
+                "value": "Aman'Thul"
+              },
+              {
+                "name": "achievement_points",
+                "value": "30130"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/amanthul/47/196623663-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Magnarok-amanthul"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 430555,
+          "username": "Kazethera-llane",
+          "name": "Kazethera",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/llane/23/9384983-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 24838,
+        "character": {
+          "name": "Chief",
+          "guild": null,
+          "achievement_points": "28665",
+          "level": "80",
+          "class": "Mage",
+          "race": "Human",
+          "player_class_enum": "MAGE",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28802471,
+        "name": "GrayRaven",
+        "username": "GrayRaven-3029281",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-09T15:50:26.101Z",
+        "cooked": "<p>They might as well. I use AI to do my work from home. I mean Claude is better at it but sometimes I use their AI. It’s just a matter of when that everyone will adapt or fade away. Maybe you’ll get UBI or something to pay bills or whatever.</p>",
+        "post_number": 20,
+        "post_type": 1,
+        "posts_count": 118,
+        "updated_at": "2026-02-09T15:50:26.101Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 43,
+        "readers_count": 42,
+        "score": 38.6,
+        "yours": false,
+        "topic_id": 2248219,
+        "topic_slug": "does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft",
+        "display_username": "GrayRaven",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3029281,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "achievement_points": "0",
+          "race": "Gnome",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "classic": "t",
+          "guild": "Heroes of Azeroth",
+          "level": "17",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/proudmoore/skaara/",
+          "blizzard_post_count": "939"
+        },
+        "post_url": "/t/does-microsoft-use-any-of-its-ai-technology-for-anything-related-to-world-of-warcraft/2248219/20",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/proudmoore/33/246386721-avatar.jpg?alt=/wow/static/images/2d/avatar/29-0.jpg",
+        "alias_username": "Skaara-proudmoore",
+        "poster_alias": {
+          "alias": {
+            "name": "Skaara-proudmoore",
+            "avatar": "https://render.worldofwarcraft.com/us/character/proudmoore/33/246386721-avatar.jpg?alt=/wow/static/images/2d/avatar/29-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/proudmoore/skaara/",
+            "user_id": 3029281,
+            "id": 33535,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 128,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/proudmoore/skaara/"
+              },
+              {
+                "name": "realm",
+                "value": "Proudmoore"
+              },
+              {
+                "name": "achievement_points",
+                "value": "10840"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Void Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Demon Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEMONHUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/proudmoore/33/246386721-avatar.jpg?alt=/wow/static/images/2d/avatar/29-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Skaara-proudmoore"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 939,
+        "character": {
+          "name": "GrayRaven",
+          "guild": "Heroes of Azeroth",
+          "achievement_points": "0",
+          "level": "17",
+          "class": "Warlock",
+          "race": "Gnome",
+          "player_class_enum": "WARLOCK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ]
+  }
+}

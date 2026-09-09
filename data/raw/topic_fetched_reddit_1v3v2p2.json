@@ -1,0 +1,50 @@
+{
+  "id": "reddit_1v3v2p2",
+  "title": "Claude Code Success",
+  "slug": "claude_code_success",
+  "posts_count": 3,
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1,
+        "username": "Amatore2088",
+        "cooked": "<p>Hey! I know everyone is having issues with their addons. Dev’s trying to get them working. Etc. I opened visual studio code to my addons folder. Explained a breakdown to what happened. Gave a link to the blue post. Directed it to review addons that have deprecated api calls or are causing issues (gave it access to my buggrabber logs). Instructed it to add updated logic where available or failsafes/soft failures where not. It worked for atlaslootclassic, going to test others next. If you have a pro or higher license, go fix your problem while you wait for the addon devs! Edit: added verbiage for the neck beards</p>",
+        "created_at": "2026-07-22T22:17:55.497000+0000",
+        "post_number": 1,
+        "reply_to_post_number": null,
+        "reply_count": 2,
+        "like_count": 0,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 2,
+        "username": "NoMusician2574",
+        "cooked": "<p>Respectfully check your privledge. Id take broken addons over corporate greed, poisoning the earths water supply, and taking jobs.</p>",
+        "created_at": "2026-07-23T15:27:36.475000+0000",
+        "post_number": 2,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 0,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 3,
+        "username": "NoMusician2574",
+        "cooked": "<p>yeah lets not encourage this. we should be boycotting AI as a community</p>",
+        "created_at": "2026-07-31T18:22:38.085000+0000",
+        "post_number": 3,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      }
+    ]
+  },
+  "jogo": "World of Warcraft",
+  "fonte": "Reddit",
+  "seccao": "r/wow",
+  "url_fonte": "https://www.reddit.com/r/wow/comments/1v3v2p2/claude_code_success/"
+}

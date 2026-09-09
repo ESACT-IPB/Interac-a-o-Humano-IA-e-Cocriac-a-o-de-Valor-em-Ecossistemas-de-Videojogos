@@ -1,0 +1,1709 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 28944767,
+        "name": null,
+        "username": "Onlyfrost-aegwynn",
+        "avatar_template": "https://render.worldofwarcraft.com/us/character/aegwynn/215/156126167-avatar.jpg?alt=/wow/static/images/2d/avatar/27-1.jpg",
+        "created_at": "2026-02-27T23:42:12.612Z",
+        "cooked": "<p>More and more, the world is moving toward agentic AI usage. It’s reasonable to assume that the vast majority of people on this forum have already used tools like ChatGPT in some capacity — even if only in a non-agentic way.</p>\n<p>Technology is evolving quickly, and expectations are evolving with it. I believe it’s time for Blizzard Entertainment to consider introducing a structured AI integration strategy for World of Warcraft — starting with two components:</p>\n<hr>\n<h3><a name=\"p-28944767-h-1-an-in-game-ai-assistant-llm-based-1\" class=\"anchor\" href=\"#p-28944767-h-1-an-in-game-ai-assistant-llm-based-1\" aria-label=\"Heading link\"></a><img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/one.png?v=15\" title=\":one:\" class=\"emoji\" alt=\":one:\" loading=\"lazy\" width=\"20\" height=\"20\"> An In-Game AI Assistant (LLM-Based)</h3>\n<p>An in-game assistant trained specifically on WoW data could provide contextual, intelligent support such as:</p>\n<ul>\n<li>\n<p>“Where can I farm cloth efficiently at my level?”</p>\n</li>\n<li>\n<p>“Based on my character’s gear and spec, what Mythic+ difficulty is reasonable?”</p>\n</li>\n<li>\n<p>“What’s the fastest way to unlock X reputation?”</p>\n</li>\n</ul>\n<p>This wouldn’t replace gameplay. It would enhance decision-making and reduce friction — especially for returning players or those navigating increasingly complex systems.</p>\n<p>Think of it as a modern evolution of in-game help systems — but dynamic, personalized, and aware of your character.</p>\n<hr>\n<h3><a name=\"p-28944767-h-2-a-structured-mcp-server-for-external-agent-integration-2\" class=\"anchor\" href=\"#p-28944767-h-2-a-structured-mcp-server-for-external-agent-integration-2\" aria-label=\"Heading link\"></a><img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/two.png?v=15\" title=\":two:\" class=\"emoji\" alt=\":two:\" loading=\"lazy\" width=\"20\" height=\"20\"> A Structured MCP Server for External Agent Integration</h3>\n<p>Looking one step further: a properly designed MCP-style interface that allows controlled, compliant agent interaction.</p>\n<p>Not botting. Not automation of combat. Not “run this delve for me.”</p>\n<p>But reasonable quality-of-life actions such as:</p>\n<ul>\n<li>\n<p>Navigating from point A to point B</p>\n</li>\n<li>\n<p>Guiding a character to a profession trainer</p>\n</li>\n<li>\n<p>Bringing a player to the entrance of a specific instance</p>\n</li>\n</ul>\n<p>For example:</p>\n<blockquote>\n<p>“Take me to the Tailoring trainer in Silvermoon.”<br>\n“Bring me to the entrance of X dungeon.”</p>\n</blockquote>\n<p>This would be structured, logged, rule-bound, and aligned with the Terms of Service — not an open door to abuse.</p>\n<hr>\n<h3><a name=\"p-28944767-why-this-matters-3\" class=\"anchor\" href=\"#p-28944767-why-this-matters-3\" aria-label=\"Heading link\"></a>Why This Matters</h3>\n<p>The world is changing. Software is changing. Workflows are changing.</p>\n<p>Games don’t need to resist this shift — they can shape it.</p>\n<p>Right now, players alt-tab constantly to look up guides, routes, builds, and farming spots. An integrated AI layer would keep players immersed instead of pushing them to third-party sites.</p>\n<p>Even starting small — just an interactive LLM inside the game trained on WoW knowledge — would be a strong first step. MCP-style extensibility could follow once governance and guardrails are clear.</p>\n<hr>\n<h3><a name=\"p-28944767-a-cultural-perspective-4\" class=\"anchor\" href=\"#p-28944767-a-cultural-perspective-4\" aria-label=\"Heading link\"></a>A Cultural Perspective</h3>\n<p>In many industries, AI copilots are already standard. Very few professionals today write important emails, reports, or proposals without at least running them past an AI assistant. It’s not about replacing humans — it’s about augmenting capability.</p>\n<p>Gaming will not be an exception to this broader transformation.</p>\n<p>WoW has always evolved — from add-ons to group finder to cross-realm systems. AI integration feels like the next logical step in that progression.</p>\n<p>If done thoughtfully and transparently, it could strengthen the ecosystem rather than disrupt it.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 7,
+        "updated_at": "2026-02-27T23:42:12.612Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 257,
+        "reads": 25,
+        "readers_count": 24,
+        "score": 1290.0,
+        "yours": false,
+        "topic_id": 2259935,
+        "topic_slug": "wow-and-the-agentic-future-%E2%80%93-a-constructive-proposal",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2885649,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/aegwynn/onlyfrost/",
+          "guild": "Les JDueRRs",
+          "level": "80",
+          "race": "Nightborne",
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "blizzard_post_count": "15",
+          "achievement_points": "8905"
+        },
+        "post_url": "/t/wow-and-the-agentic-future-%E2%80%93-a-constructive-proposal/2259935/1",
+        "alias_avatar": null,
+        "alias_username": null,
+        "poster_alias": null,
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 15,
+        "character": {
+          "name": "Onlyfrost",
+          "guild": "Les JDueRRs",
+          "achievement_points": "8905",
+          "level": "80",
+          "class": "Mage",
+          "race": "Nightborne",
+          "player_class_enum": "MAGE",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 28944863,
+        "name": "Nitrix",
+        "username": "Nitrix-2791079",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-27T23:59:09.273Z",
+        "cooked": "<p>AI slop.  Not going to read that.</p>\n<p>If you have an argument to make, make it yourself.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 7,
+        "updated_at": "2026-02-27T23:59:09.273Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 17,
+        "readers_count": 16,
+        "score": 83.4,
+        "yours": false,
+        "topic_id": 2259935,
+        "topic_slug": "wow-and-the-agentic-future-%E2%80%93-a-constructive-proposal",
+        "display_username": "Nitrix",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 5
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2791079,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/hyjal/phibane/",
+          "guild": "tren",
+          "achievement_points": "0",
+          "race": "Troll",
+          "class": "Priest",
+          "player_class_enum": "PRIEST",
+          "classic": "t",
+          "blizzard_post_count": "10",
+          "level": "60"
+        },
+        "post_url": "/t/wow-and-the-agentic-future-%E2%80%93-a-constructive-proposal/2259935/2",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/wild-growth/61/32192061-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+        "alias_username": "Gentlemen-wild-growth",
+        "poster_alias": {
+          "alias": {
+            "name": "Gentlemen-wild-growth",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/wild-growth/61/32192061-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+            "url": null,
+            "user_id": 2791079,
+            "id": 906867,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 10,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Wild Growth"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Priest"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PRIEST"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/wild-growth/61/32192061-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Gentlemen-wild-growth"
+              },
+              {
+                "name": "guild",
+                "value": "tren"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 10,
+        "character": {
+          "name": "Nitrix",
+          "guild": "tren",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Priest",
+          "race": "Troll",
+          "player_class_enum": "PRIEST",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28944875,
+        "name": "Fulautomatix",
+        "username": "Fulautomatix-98406",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-28T00:00:47.878Z",
+        "cooked": "<p>Begone clanker we don’t look kindly to the likes of you round here, now git.</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 7,
+        "updated_at": "2026-02-28T00:00:47.878Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 15,
+        "readers_count": 14,
+        "score": 43.0,
+        "yours": false,
+        "topic_id": 2259935,
+        "topic_slug": "wow-and-the-agentic-future-%E2%80%93-a-constructive-proposal",
+        "display_username": "Fulautomatix",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 98406,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Lucky Ducky Bar N Grill",
+          "race": "Night Elf",
+          "class": "Hunter",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/zangarmarsh/sumar/",
+          "player_class_enum": "HUNTER",
+          "level": "80",
+          "achievement_points": "28135",
+          "blizzard_post_count": "2112"
+        },
+        "post_url": "/t/wow-and-the-agentic-future-%E2%80%93-a-constructive-proposal/2259935/3",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/zangarmarsh/96/113320800-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
+        "alias_username": "Sumar-zangarmarsh",
+        "poster_alias": {
+          "alias": {
+            "name": "Sumar-zangarmarsh",
+            "avatar": "https://render.worldofwarcraft.com/us/character/zangarmarsh/96/113320800-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/zangarmarsh/sumar/",
+            "user_id": 98406,
+            "id": 373558,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 2271,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/zangarmarsh/sumar/"
+              },
+              {
+                "name": "realm",
+                "value": "Zangarmarsh"
+              },
+              {
+                "name": "achievement_points",
+                "value": "32020"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/zangarmarsh/96/113320800-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Sumar-zangarmarsh"
+              },
+              {
+                "name": "guild",
+                "value": "Lucky Ducky Bar N Grill"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 2112,
+        "character": {
+          "name": "Fulautomatix",
+          "guild": "Lucky Ducky Bar N Grill",
+          "achievement_points": "28135",
+          "level": "80",
+          "class": "Hunter",
+          "race": "Night Elf",
+          "player_class_enum": "HUNTER",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28944878,
+        "name": null,
+        "username": "Onlyfrost-aegwynn",
+        "avatar_template": "https://render.worldofwarcraft.com/us/character/aegwynn/215/156126167-avatar.jpg?alt=/wow/static/images/2d/avatar/27-1.jpg",
+        "created_at": "2026-02-28T00:01:10.234Z",
+        "cooked": "<p>I did, just used spell checking and presentation changes. So only three AI agents were involved.</p>\n<p>In case you’re wondering, in this one, only one AI is involved — it’s my spell checker.</p>\n<p>And you can use AI to remove AI. Ask your favorite AI tool to create a bullet-point list of arguments if it’s too much to read.</p>\n<aside class=\"quote no-group\" data-username=\"Sumar-zangarmarsh\" data-post=\"3\" data-topic=\"2259935\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/us/character/zangarmarsh/96/113320800-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg\" class=\"avatar\"> Sumar:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>Begone clanker we don’t look kindly to the likes of you round here, now git.</p>\n</blockquote>\n</aside>\n<p>Wouldn’t it be fun to right-click on Jaina or Thrall and have a conversation bot trained to their specific persona? With the whole history of their being? I would say it would prompt more people to stay connected and engaged than ever. Imagine just chatting with Varian, for example.</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 7,
+        "updated_at": "2026-02-28T00:04:19.569Z",
+        "reply_count": 0,
+        "reply_to_post_number": 2,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 15,
+        "readers_count": 14,
+        "score": 3.0,
+        "yours": false,
+        "topic_id": 2259935,
+        "topic_slug": "wow-and-the-agentic-future-%E2%80%93-a-constructive-proposal",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2791079,
+          "username": "Nitrix-2791079",
+          "name": "Nitrix",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2885649,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/aegwynn/onlyfrost/",
+          "guild": "Les JDueRRs",
+          "level": "80",
+          "race": "Nightborne",
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "blizzard_post_count": "15",
+          "achievement_points": "8905"
+        },
+        "post_url": "/t/wow-and-the-agentic-future-%E2%80%93-a-constructive-proposal/2259935/4",
+        "alias_avatar": null,
+        "alias_username": null,
+        "poster_alias": null,
+        "reply_to_alias": {
+          "id": 906867,
+          "username": "Gentlemen-wild-growth",
+          "name": "Gentlemen",
+          "avatar_template": "https://render.worldofwarcraft.com/classic1x-us/character/wild-growth/61/32192061-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 15,
+        "character": {
+          "name": "Onlyfrost",
+          "guild": "Les JDueRRs",
+          "achievement_points": "8905",
+          "level": "80",
+          "class": "Mage",
+          "race": "Nightborne",
+          "player_class_enum": "MAGE",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28944925,
+        "name": "pritomd",
+        "username": "pritomd-3173538",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-28T00:09:32.260Z",
+        "cooked": "<p>OP likely describes themselves as an ‘AI Evangelist’ on linkedin.</p>",
+        "post_number": 5,
+        "post_type": 1,
+        "posts_count": 7,
+        "updated_at": "2026-02-28T00:09:32.260Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 9,
+        "readers_count": 8,
+        "score": 26.8,
+        "yours": false,
+        "topic_id": 2259935,
+        "topic_slug": "wow-and-the-agentic-future-%E2%80%93-a-constructive-proposal",
+        "display_username": "pritomd",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3173538,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/boulderfist/cailand/",
+          "guild": "Prime",
+          "race": "Tauren",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "level": "80",
+          "achievement_points": "27800",
+          "blizzard_post_count": "239"
+        },
+        "post_url": "/t/wow-and-the-agentic-future-%E2%80%93-a-constructive-proposal/2259935/5",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/boulderfist/179/247055283-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+        "alias_username": "Cailand-boulderfist",
+        "poster_alias": {
+          "alias": {
+            "name": "Cailand-boulderfist",
+            "avatar": "https://render.worldofwarcraft.com/us/character/boulderfist/179/247055283-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/boulderfist/cailand/",
+            "user_id": 3173538,
+            "id": 32081,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 327,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/boulderfist/cailand/"
+              },
+              {
+                "name": "realm",
+                "value": "Boulderfist"
+              },
+              {
+                "name": "achievement_points",
+                "value": "35650"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/boulderfist/179/247055283-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Cailand-boulderfist"
+              },
+              {
+                "name": "guild",
+                "value": "Heroes of Azeroth"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 239,
+        "character": {
+          "name": "pritomd",
+          "guild": "Prime",
+          "achievement_points": "27800",
+          "level": "80",
+          "class": "Warrior",
+          "race": "Tauren",
+          "player_class_enum": "WARRIOR",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28944931,
+        "name": "Llew",
+        "username": "Llew-3012793",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-28T00:11:12.401Z",
+        "cooked": "<p>solid troll, 7/10</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "posts_count": 7,
+        "updated_at": "2026-02-28T00:11:12.401Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 8,
+        "readers_count": 7,
+        "score": 36.6,
+        "yours": false,
+        "topic_id": 2259935,
+        "topic_slug": "wow-and-the-agentic-future-%E2%80%93-a-constructive-proposal",
+        "display_username": "Llew",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3012793,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/moknathal/dailyalice/",
+          "guild": "Ministry of Happy",
+          "level": "80",
+          "race": "Night Elf",
+          "class": "Demon Hunter",
+          "player_class_enum": "DEMONHUNTER",
+          "achievement_points": "34745",
+          "blizzard_post_count": "220"
+        },
+        "post_url": "/t/wow-and-the-agentic-future-%E2%80%93-a-constructive-proposal/2259935/6",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/moknathal/68/127772740-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Dailyalice-moknathal",
+        "poster_alias": {
+          "alias": {
+            "name": "Dailyalice-moknathal",
+            "avatar": "https://render.worldofwarcraft.com/us/character/moknathal/68/127772740-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/moknathal/dailyalice/",
+            "user_id": 3012793,
+            "id": 88215,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 45,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/moknathal/dailyalice/"
+              },
+              {
+                "name": "realm",
+                "value": "Mok'Nathal"
+              },
+              {
+                "name": "achievement_points",
+                "value": "36380"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Demon Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEMONHUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/moknathal/68/127772740-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Dailyalice-moknathal"
+              },
+              {
+                "name": "guild",
+                "value": "Ministry of Happy"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 220,
+        "character": {
+          "name": "Llew",
+          "guild": "Ministry of Happy",
+          "achievement_points": "34745",
+          "level": "80",
+          "class": "Demon Hunter",
+          "race": "Night Elf",
+          "player_class_enum": "DEMONHUNTER",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28944961,
+        "name": null,
+        "username": "Onlyfrost-aegwynn",
+        "avatar_template": "https://render.worldofwarcraft.com/us/character/aegwynn/215/156126167-avatar.jpg?alt=/wow/static/images/2d/avatar/27-1.jpg",
+        "created_at": "2026-02-28T00:15:49.477Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Cailand-boulderfist\" data-post=\"5\" data-topic=\"2259935\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/us/character/boulderfist/157/221199773-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg\" class=\"avatar\"> Cailand:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>OP likely describes themselves as an ‘AI Evangelist’ on linkedin.</p>\n</blockquote>\n</aside>\n<p>Would you be surprised that my LinkedIn does not mention AI at all?</p>\n<p>I like using AI to automate my work and tasks.</p>\n<p>But I do not believe AI will replace “everyone.” (Okay, for professional translators and voice actors it’s already done, but it’s a small example.)</p>\n<aside class=\"quote no-group\" data-username=\"Dailyalice-moknathal\" data-post=\"6\" data-topic=\"2259935\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/us/character/moknathal/68/127772740-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg\" class=\"avatar\"> Dailyalice:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>solid troll, 7/10</p>\n</blockquote>\n</aside>\n<p>Awwww, not even 8 ?</p>",
+        "post_number": 7,
+        "post_type": 1,
+        "posts_count": 7,
+        "updated_at": "2026-02-28T00:16:13.509Z",
+        "reply_count": 0,
+        "reply_to_post_number": 5,
+        "quote_count": 2,
+        "incoming_link_count": 4,
+        "reads": 7,
+        "readers_count": 6,
+        "score": 21.4,
+        "yours": false,
+        "topic_id": 2259935,
+        "topic_slug": "wow-and-the-agentic-future-%E2%80%93-a-constructive-proposal",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2885649,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/aegwynn/onlyfrost/",
+          "guild": "Les JDueRRs",
+          "level": "80",
+          "race": "Nightborne",
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "blizzard_post_count": "15",
+          "achievement_points": "8905"
+        },
+        "post_url": "/t/wow-and-the-agentic-future-%E2%80%93-a-constructive-proposal/2259935/7",
+        "alias_avatar": null,
+        "alias_username": null,
+        "poster_alias": null,
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 15,
+        "character": {
+          "name": "Onlyfrost",
+          "guild": "Les JDueRRs",
+          "achievement_points": "8905",
+          "level": "80",
+          "class": "Mage",
+          "race": "Nightborne",
+          "player_class_enum": "MAGE",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ],
+    "stream": [
+      28944767,
+      28944863,
+      28944875,
+      28944878,
+      28944925,
+      28944931,
+      28944961
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      190
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "fancy_title": "Nobody is queuing up for my Mythic+ keys",
+      "id": 2338523,
+      "title": "Nobody is queuing up for my Mythic+ keys",
+      "slug": "nobody-is-queuing-up-for-my-mythic-keys",
+      "posts_count": 25,
+      "reply_count": 10,
+      "highest_post_number": 25,
+      "image_url": null,
+      "created_at": "2026-08-19T02:53:46.498Z",
+      "last_posted_at": "2026-08-20T04:20:26.896Z",
+      "bumped": true,
+      "bumped_at": "2026-08-20T04:20:26.896Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Not sure what happened. I usually get many people, but since today with the new season, I’m not getting anyone. I had like 1 guy the entire day. \nI ended up just queuing up for other people’s keys and get invited. But I &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 21,
+      "views": 657,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 1,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 302930,
+            "username": "Wonderclam-302930",
+            "name": "Wonderclam",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 236781,
+            "username": "CommandoCat-236781",
+            "name": "CommandoCat",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2874024,
+            "username": "BarnAnimal-2874024",
+            "name": "BarnAnimal",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1509915,
+            "username": "Daysfast-1509915",
+            "name": "Daysfast",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 3012918,
+            "username": "GhostDog-3012918",
+            "name": "GhostDog",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "30 minutes in Queue to log to be told there is an error",
+      "id": 2338824,
+      "title": "30 minutes in Queue to log to be told there is an error",
+      "slug": "30-minutes-in-queue-to-log-to-be-told-there-is-an-error",
+      "posts_count": 16,
+      "reply_count": 10,
+      "highest_post_number": 16,
+      "image_url": null,
+      "created_at": "2026-08-19T19:33:05.302Z",
+      "last_posted_at": "2026-08-19T20:13:37.241Z",
+      "bumped": true,
+      "bumped_at": "2026-08-19T20:13:37.241Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "I do not think it’s reasonable have 30 minutes queue to log into a server to be told there is an error. I think that is very backwards and if there is a login issue it should be handled or stated before the queue timer.",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 4,
+      "views": 483,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 1,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3421950,
+            "username": "Typhean-3421950",
+            "name": "Typhean",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2125651,
+            "username": "ShiniJenkins-2125651",
+            "name": "ShiniJenkins",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 87398,
+            "username": "Blackseal-87398",
+            "name": "Blackseal",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1456706,
+            "username": "Claviusnex-1456706",
+            "name": "Claviusnex",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 208225,
+            "username": "Dreta-208225",
+            "name": "Dreta",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Bag management",
+      "id": 2339141,
+      "title": "Bag management",
+      "slug": "bag-management",
+      "posts_count": 9,
+      "reply_count": 1,
+      "highest_post_number": 9,
+      "image_url": null,
+      "created_at": "2026-08-20T13:29:33.706Z",
+      "last_posted_at": "2026-08-20T15:16:31.105Z",
+      "bumped": true,
+      "bumped_at": "2026-08-20T15:16:31.105Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "12.1… the high cholesterol season. My bags… my poor bags. Is this an effort to sell the overpriced next warband slot? On a practical level, though… what are you doing to manage all the cooking reagent drops, new fish, ne&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 11,
+      "views": 109,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 3,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 1704360,
+            "username": "Critterbug-1704360",
+            "name": "Critterbug",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17114,
+            "username": "Fake-17114",
+            "name": "Fake",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 287181,
+            "username": "FrodoBggns-287181",
+            "name": "FrodoBggns",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3054397,
+            "username": "Reignskream-3054397",
+            "name": "Reignskream",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2763594,
+            "username": "Charred-2763594",
+            "name": "Charred",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Gaps in armor sets",
+      "id": 2340545,
+      "title": "Gaps in armor sets",
+      "slug": "gaps-in-armor-sets",
+      "posts_count": 12,
+      "reply_count": 4,
+      "highest_post_number": 12,
+      "image_url": null,
+      "created_at": "2026-08-24T09:56:31.841Z",
+      "last_posted_at": "2026-09-03T01:57:00.556Z",
+      "bumped": true,
+      "bumped_at": "2026-09-03T01:57:00.556Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Ok so when I was raiding in Cata, MoP, Warlords etc: There were raid tiers with a set ilvl and all 16 slots would drop in that raid. Over the patch you’d raid and raid and eventually I’d always ended up with a full set o&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 3,
+      "views": 137,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 201580,
+            "username": "Eurynomos-201580",
+            "name": "Eurynomos",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2894132,
+            "username": "Drenxulz-2894132",
+            "name": "Drenxulz",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 1,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 236781,
+            "username": "CommandoCat-236781",
+            "name": "CommandoCat",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 19059,
+            "username": "Phane-19059",
+            "name": "Phane",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 2703122,
+            "username": "Sashido-2703122",
+            "name": "Sashido",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Drastically increase drop rate of new shirts!",
+      "id": 2337649,
+      "title": "Drastically increase drop rate of new shirts!",
+      "slug": "drastically-increase-drop-rate-of-new-shirts",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2026-08-16T20:10:17.618Z",
+      "last_posted_at": "2026-08-16T20:10:17.722Z",
+      "bumped": true,
+      "bumped_at": "2026-08-16T20:10:17.722Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Climbing on the bandwagon, because this is annoying. The new shirts are insanely rare for an event that lasts one day. I spent an hour picking up shirts and got two of the new shirts, about 60 “Free T-Shirt” and so many &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 2,
+      "views": 52,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 2,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 1912879,
+            "username": "Anurism-1912879",
+            "name": "Anurism",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    }
+  ],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "WoW and the Agentic Future – A Constructive Proposal",
+  "id": 2259935,
+  "title": "WoW and the Agentic Future – A Constructive Proposal",
+  "posts_count": 7,
+  "created_at": "2026-02-27T23:42:12.439Z",
+  "views": 191,
+  "reply_count": 2,
+  "like_count": 10,
+  "last_posted_at": "2026-02-28T00:15:49.477Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "wow-and-the-agentic-future-%E2%80%93-a-constructive-proposal",
+  "category_id": 171,
+  "word_count": 725,
+  "deleted_at": null,
+  "user_id": 2885649,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_2259935",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 7,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 1001,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1002,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1003,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1004,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1005,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 4,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 3173538,
+        "username": "pritomd-3173538",
+        "name": "pritomd",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Cailand-boulderfist",
+            "avatar": "https://render.worldofwarcraft.com/us/character/boulderfist/179/247055283-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/boulderfist/cailand/",
+            "user_id": 3173538,
+            "id": 32081,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 327,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/boulderfist/cailand/"
+              },
+              {
+                "name": "realm",
+                "value": "Boulderfist"
+              },
+              {
+                "name": "achievement_points",
+                "value": "35650"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/boulderfist/179/247055283-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Cailand-boulderfist"
+              },
+              {
+                "name": "guild",
+                "value": "Heroes of Azeroth"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 3012793,
+        "username": "Llew-3012793",
+        "name": "Llew",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Dailyalice-moknathal",
+            "avatar": "https://render.worldofwarcraft.com/us/character/moknathal/68/127772740-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/moknathal/dailyalice/",
+            "user_id": 3012793,
+            "id": 88215,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 45,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/moknathal/dailyalice/"
+              },
+              {
+                "name": "realm",
+                "value": "Mok'Nathal"
+              },
+              {
+                "name": "achievement_points",
+                "value": "36380"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Demon Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEMONHUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/moknathal/68/127772740-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Dailyalice-moknathal"
+              },
+              {
+                "name": "guild",
+                "value": "Ministry of Happy"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 98406,
+        "username": "Fulautomatix-98406",
+        "name": "Fulautomatix",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Sumar-zangarmarsh",
+            "avatar": "https://render.worldofwarcraft.com/us/character/zangarmarsh/96/113320800-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/zangarmarsh/sumar/",
+            "user_id": 98406,
+            "id": 373558,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 2271,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/zangarmarsh/sumar/"
+              },
+              {
+                "name": "realm",
+                "value": "Zangarmarsh"
+              },
+              {
+                "name": "achievement_points",
+                "value": "32020"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/zangarmarsh/96/113320800-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Sumar-zangarmarsh"
+              },
+              {
+                "name": "guild",
+                "value": "Lucky Ducky Bar N Grill"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 2791079,
+        "username": "Nitrix-2791079",
+        "name": "Nitrix",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Gentlemen-wild-growth",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/wild-growth/61/32192061-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+            "url": null,
+            "user_id": 2791079,
+            "id": 906867,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 10,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Wild Growth"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Priest"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PRIEST"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/wild-growth/61/32192061-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Gentlemen-wild-growth"
+              },
+              {
+                "name": "guild",
+                "value": "tren"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      }
+    ],
+    "created_by": {
+      "id": 2885649,
+      "username": "Onlyfrost-aegwynn",
+      "name": null,
+      "avatar_template": "https://render.worldofwarcraft.com/us/character/aegwynn/215/156126167-avatar.jpg?alt=/wow/static/images/2d/avatar/27-1.jpg",
+      "animated_avatar": null
+    },
+    "last_poster": {
+      "id": 2885649,
+      "username": "Onlyfrost-aegwynn",
+      "name": null,
+      "avatar_template": "https://render.worldofwarcraft.com/us/character/aegwynn/215/156126167-avatar.jpg?alt=/wow/static/images/2d/avatar/27-1.jpg",
+      "animated_avatar": null
+    }
+  },
+  "bookmarks": [],
+  "jogo": "World of Warcraft",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Blizzard",
+  "url_fonte": "https://us.forums.blizzard.com/en/wow/t/wow-and-the-agentic-future-%E2%80%93-a-constructive-proposal/2259935"
+}

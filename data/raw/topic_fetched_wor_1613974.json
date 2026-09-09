@@ -1,0 +1,3543 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 20865820,
+        "name": "Ret",
+        "username": "Ret-2069835",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-06-16T21:33:44.616Z",
+        "cooked": "<p>Something that I think would be an easy fix for eliminating bots is some form of verification every time you wanted to join a battleground. For example, you could add something like a “finish the sentence,” “fill in the blank,” or “describe a photo” verification like how you have to type “DELETE” if you wanted to delete an item of rare quality or better. I would like to know what other ideas people have on this.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2023-06-16T21:47:41.550Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 312,
+        "reads": 102,
+        "readers_count": 101,
+        "score": 1610.4,
+        "yours": false,
+        "topic_id": 1613974,
+        "topic_slug": "add-bot-prevention-systems-to-battlegrounds",
+        "display_username": "Ret",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 3,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2069835,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/darkspear/retyo/",
+          "race": "Human",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "blizzard_post_count": "13",
+          "guild": "No Skips",
+          "level": "80",
+          "classic": "t",
+          "achievement_points": "6530"
+        },
+        "post_url": "/t/add-bot-prevention-systems-to-battlegrounds/1613974/1",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/benediction/15/61503503-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Adamyo-benediction",
+        "poster_alias": {
+          "alias": {
+            "name": "Adamyo-benediction",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/benediction/15/61503503-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": null,
+            "user_id": 2069835,
+            "id": 766484,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 13,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Benediction"
+              },
+              {
+                "name": "achievement_points",
+                "value": "6530"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "No Skips"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 13,
+        "character": {
+          "name": "Ret",
+          "guild": "No Skips",
+          "achievement_points": "6530",
+          "level": "80",
+          "class": "Paladin",
+          "race": "Human",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 20865853,
+        "name": "heimdallr",
+        "username": "heimdallr-2881525",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-06-16T21:40:15.373Z",
+        "cooked": "<p>adding a captcha prior to a BG? Sounds like what you are asking for.</p>\n<p>Regardless of if that is a bad/good idea it would require work on behalf of blizzard.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2026-06-14T03:31:29.693Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 95,
+        "readers_count": 94,
+        "score": 49.0,
+        "yours": false,
+        "topic_id": 1613974,
+        "topic_slug": "add-bot-prevention-systems-to-battlegrounds",
+        "display_username": "heimdallr",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2881525,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/wyrmrest-accord/karkasy/",
+          "race": "Human",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "level": "80",
+          "guild": "Taft Tub",
+          "achievement_points": "13445",
+          "blizzard_post_count": "11021"
+        },
+        "post_url": "/t/add-bot-prevention-systems-to-battlegrounds/1613974/2",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/atiesh/101/1146213-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Deunan",
+        "poster_alias": {
+          "alias": {
+            "name": "Deunan",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/atiesh/101/1146213-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": null,
+            "user_id": 2881525,
+            "id": 2341540,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 6350,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Atiesh"
+              },
+              {
+                "name": "achievement_points",
+                "value": "5710"
+              },
+              {
+                "name": "level",
+                "value": "89"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "Inspired Adventurers"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 11021,
+        "character": {
+          "name": "heimdallr",
+          "guild": "Taft Tub",
+          "achievement_points": "13445",
+          "level": "80",
+          "class": "Warrior",
+          "race": "Human",
+          "player_class_enum": "WARRIOR",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20865876,
+        "name": "Ret",
+        "username": "Ret-2069835",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-06-16T21:43:51.213Z",
+        "cooked": "<p>I would like to hear some ideas from other people. Hopefully this isn’t just a trashing Blizz thread lol</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2023-06-16T21:43:51.213Z",
+        "reply_count": 0,
+        "reply_to_post_number": 2,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 87,
+        "readers_count": 86,
+        "score": 27.4,
+        "yours": false,
+        "topic_id": 1613974,
+        "topic_slug": "add-bot-prevention-systems-to-battlegrounds",
+        "display_username": "Ret",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2881525,
+          "username": "heimdallr-2881525",
+          "name": "heimdallr",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2069835,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/darkspear/retyo/",
+          "race": "Human",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "blizzard_post_count": "13",
+          "guild": "No Skips",
+          "level": "80",
+          "classic": "t",
+          "achievement_points": "6530"
+        },
+        "post_url": "/t/add-bot-prevention-systems-to-battlegrounds/1613974/3",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/benediction/15/61503503-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Adamyo-benediction",
+        "poster_alias": {
+          "alias": {
+            "name": "Adamyo-benediction",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/benediction/15/61503503-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": null,
+            "user_id": 2069835,
+            "id": 766484,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 13,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Benediction"
+              },
+              {
+                "name": "achievement_points",
+                "value": "6530"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "No Skips"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2341540,
+          "username": "Deunan",
+          "name": "Deunan",
+          "avatar_template": "https://render.worldofwarcraft.com/classic-us/character/atiesh/101/1146213-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 13,
+        "character": {
+          "name": "Ret",
+          "guild": "No Skips",
+          "achievement_points": "6530",
+          "level": "80",
+          "class": "Paladin",
+          "race": "Human",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20865901,
+        "name": "Drain",
+        "username": "Drain-2764344",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-06-16T21:48:16.196Z",
+        "cooked": "<ol>\n<li>Too much work for Blizzard.</li>\n<li>Only treats a symptom of the problem, not the problem itself. The bot accounts need to be banned. That is the only real solution.</li>\n</ol>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2026-06-13T07:19:28.727Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 84,
+        "readers_count": 83,
+        "score": 66.8,
+        "yours": false,
+        "topic_id": 1613974,
+        "topic_slug": "add-bot-prevention-systems-to-battlegrounds",
+        "display_username": "Drain",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2764344,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/bonechewer/drain/",
+          "guild": "Anti Trans Rights",
+          "achievement_points": "2625",
+          "level": "80",
+          "race": "Orc",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "classic": "t",
+          "blizzard_post_count": "204"
+        },
+        "post_url": "/t/add-bot-prevention-systems-to-battlegrounds/1613974/4",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/windseeker/50/12358450-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "alias_username": "Drain",
+        "poster_alias": {
+          "alias": {
+            "name": "Drain",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/windseeker/50/12358450-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": null,
+            "user_id": 2764344,
+            "id": 2335004,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 10078,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Windseeker"
+              },
+              {
+                "name": "achievement_points",
+                "value": "2615"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 204,
+        "character": {
+          "name": "Drain",
+          "guild": "Anti Trans Rights",
+          "achievement_points": "2625",
+          "level": "80",
+          "class": "Warrior",
+          "race": "Orc",
+          "player_class_enum": "WARRIOR",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20866236,
+        "name": "Zagara",
+        "username": "Zagara-1986118",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-06-16T22:38:26.370Z",
+        "cooked": "<p>Add a rating requirement of 500 to gems and such.</p>\n<p>Now they can’t spend honor, they won’t bot bgs</p>",
+        "post_number": 5,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2026-06-11T00:03:47.629Z",
+        "reply_count": 3,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 77,
+        "readers_count": 76,
+        "score": 30.4,
+        "yours": false,
+        "topic_id": 1613974,
+        "topic_slug": "add-bot-prevention-systems-to-battlegrounds",
+        "display_username": "Zagara",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1986118,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/sargeras/cõnjurevodka/",
+          "guild": "Overqualified",
+          "race": "Orc",
+          "class": "Rogue",
+          "player_class_enum": "ROGUE",
+          "level": "10",
+          "classic": "t",
+          "achievement_points": "15870",
+          "blizzard_post_count": "5510"
+        },
+        "post_url": "/t/add-bot-prevention-systems-to-battlegrounds/1613974/5",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/stormrage/173/191526573-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+        "alias_username": "Auril",
+        "poster_alias": {
+          "alias": {
+            "name": "Auril",
+            "avatar": "https://render.worldofwarcraft.com/us/character/stormrage/173/191526573-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/stormrage/auril/",
+            "user_id": 1986118,
+            "id": 2321348,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 3044,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/stormrage/auril/"
+              },
+              {
+                "name": "realm",
+                "value": "Stormrage"
+              },
+              {
+                "name": "achievement_points",
+                "value": "25910"
+              },
+              {
+                "name": "level",
+                "value": "24"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 5510,
+        "character": {
+          "name": "Zagara",
+          "guild": "Overqualified",
+          "achievement_points": "15870",
+          "level": "10",
+          "class": "Rogue",
+          "race": "Orc",
+          "player_class_enum": "ROGUE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20866829,
+        "name": "Ret",
+        "username": "Ret-2069835",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-06-17T00:23:22.997Z",
+        "cooked": "<p>I like this idea. Maybe even bump up the rating a bit more? This would definitely slow down the bots in their gearing and gold inflation. 700-1k rating is achievable by any player in a single play session.</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2023-06-17T00:24:42.417Z",
+        "reply_count": 1,
+        "reply_to_post_number": 5,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 70,
+        "readers_count": 69,
+        "score": 44.0,
+        "yours": false,
+        "topic_id": 1613974,
+        "topic_slug": "add-bot-prevention-systems-to-battlegrounds",
+        "display_username": "Ret",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 1986118,
+          "username": "Zagara-1986118",
+          "name": "Zagara",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2069835,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/darkspear/retyo/",
+          "race": "Human",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "blizzard_post_count": "13",
+          "guild": "No Skips",
+          "level": "80",
+          "classic": "t",
+          "achievement_points": "6530"
+        },
+        "post_url": "/t/add-bot-prevention-systems-to-battlegrounds/1613974/6",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/benediction/15/61503503-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Adamyo-benediction",
+        "poster_alias": {
+          "alias": {
+            "name": "Adamyo-benediction",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/benediction/15/61503503-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": null,
+            "user_id": 2069835,
+            "id": 766484,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 13,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Benediction"
+              },
+              {
+                "name": "achievement_points",
+                "value": "6530"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "No Skips"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2321348,
+          "username": "Auril",
+          "name": "Auril",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/stormrage/173/191526573-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 13,
+        "character": {
+          "name": "Ret",
+          "guild": "No Skips",
+          "achievement_points": "6530",
+          "level": "80",
+          "class": "Paladin",
+          "race": "Human",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20866994,
+        "name": "Problems",
+        "username": "Problems-1907499",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-06-17T01:04:25.714Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Adamyo-benediction\" data-post=\"1\" data-topic=\"1613974\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/classic-us/character/benediction/15/61503503-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg\" class=\"avatar\"> Adamyo:</div>\n<blockquote>\n<p>“finish the sentence,” “fill in the blank,” or “describe a photo”</p>\n</blockquote>\n</aside>\n<p>Have you been living under a rock since the start of 2023? I can write a python script in less than 50 lines that does this using the ChatGPT/CLIP API, with like 99% accuracy. Trust me, writing an intelligent bot would be <em>waayyyyy</em> harder than any of the “anti-bot” strategies you’ve suggested.</p>",
+        "post_number": 7,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2026-03-13T03:38:09.858Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 1,
+        "incoming_link_count": 1,
+        "reads": 62,
+        "readers_count": 61,
+        "score": 22.4,
+        "yours": false,
+        "topic_id": 1613974,
+        "topic_slug": "add-bot-prevention-systems-to-battlegrounds",
+        "display_username": "Problems",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1907499,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "C R I N G E",
+          "race": "Blood Elf",
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "blizzard_post_count": "395",
+          "achievement_points": "760",
+          "level": "80",
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/monero/"
+        },
+        "post_url": "/t/add-bot-prevention-systems-to-battlegrounds/1613974/7",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/whitemane/12/31173900-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+        "alias_username": "Feroid-whitemane",
+        "poster_alias": {
+          "alias": {
+            "name": "Feroid-whitemane",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/whitemane/12/31173900-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+            "url": null,
+            "user_id": 1907499,
+            "id": 535023,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 160,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Whitemane"
+              },
+              {
+                "name": "achievement_points",
+                "value": "4220"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "costco"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 395,
+        "character": {
+          "name": "Problems",
+          "guild": "C R I N G E",
+          "achievement_points": "760",
+          "level": "80",
+          "class": "Mage",
+          "race": "Blood Elf",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20867309,
+        "name": "Bouji",
+        "username": "Bouji-2407469",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-06-17T02:17:05.681Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Auril-stormrage\" data-post=\"5\" data-topic=\"1613974\" data-full=\"true\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/stormrage/173/191526573-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg\" class=\"avatar\"> Auril:</div>\n<blockquote>\n<p>Add a rating requirement of 500 to gems and such.</p>\n<p>Now they can’t spend honor, they won’t bot bgs</p>\n</blockquote>\n</aside>\n<p>lol?<br>\nyou underestimate bots,<br>\nnot gonna name it but certain bot successfully gets you 2k when most actual players fail to even achieve 1800  <img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/rofl.png?v=12\" title=\":rofl:\" class=\"emoji\" alt=\":rofl:\" loading=\"lazy\" width=\"20\" height=\"20\"> <img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/joy.png?v=12\" title=\":joy:\" class=\"emoji\" alt=\":joy:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n<aside class=\"quote no-group\" data-username=\"Adamyo-benediction\" data-post=\"6\" data-topic=\"1613974\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/classic-us/character/benediction/15/61503503-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg\" class=\"avatar\"> Adamyo:</div>\n<blockquote>\n<p>700-1k rating</p>\n</blockquote>\n</aside>\n<p>players doesn’t lose rating till 1k, any mindless gold seller can get to 1k in 1day of play.</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2023-06-17T02:17:05.681Z",
+        "reply_count": 1,
+        "reply_to_post_number": 5,
+        "quote_count": 2,
+        "incoming_link_count": 2,
+        "reads": 51,
+        "readers_count": 50,
+        "score": 25.2,
+        "yours": false,
+        "topic_id": 1613974,
+        "topic_slug": "add-bot-prevention-systems-to-battlegrounds",
+        "display_username": "Bouji",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2407469,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "class": "Rogue",
+          "player_class_enum": "ROGUE",
+          "race": "Troll",
+          "level": "80",
+          "classic": "t",
+          "blizzard_post_count": "864",
+          "achievement_points": "5420"
+        },
+        "post_url": "/t/add-bot-prevention-systems-to-battlegrounds/1613974/8",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/faerlina/167/83028903-avatar.jpg?alt=/wow/static/images/2d/avatar/8-1.jpg",
+        "alias_username": "Failrogue",
+        "poster_alias": {
+          "alias": {
+            "name": "Failrogue",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/faerlina/167/83028903-avatar.jpg?alt=/wow/static/images/2d/avatar/8-1.jpg",
+            "url": null,
+            "user_id": 2407469,
+            "id": 2567187,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 864,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Faerlina"
+              },
+              {
+                "name": "achievement_points",
+                "value": "5420"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 864,
+        "character": {
+          "name": "Bouji",
+          "guild": null,
+          "achievement_points": "5420",
+          "level": "80",
+          "class": "Rogue",
+          "race": "Troll",
+          "player_class_enum": "ROGUE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20867662,
+        "name": "Zagara",
+        "username": "Zagara-1986118",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-06-17T03:49:49.266Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Failrogue-faerlina\" data-post=\"8\" data-topic=\"1613974\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/classic-us/character/faerlina/167/83028903-avatar.jpg?alt=/wow/static/images/2d/avatar/8-1.jpg\" class=\"avatar\"> Failrogue:</div>\n<blockquote>\n<p>lol?<br>\nyou underestimate bots,<br>\nnot gonna name it but certain bot successfully gets you 2k when most actual players fail to even achieve 1800 <img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/rofl.png?v=15\" title=\":rofl:\" class=\"emoji\" alt=\":rofl:\" loading=\"lazy\" width=\"20\" height=\"20\"> <img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/joy.png?v=15\" title=\":joy:\" class=\"emoji\" alt=\":joy:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n</blockquote>\n</aside>\n<p>You lol at me but not the crappy company allowing the bots?</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2026-06-11T00:03:47.902Z",
+        "reply_count": 1,
+        "reply_to_post_number": 8,
+        "quote_count": 1,
+        "incoming_link_count": 4,
+        "reads": 45,
+        "readers_count": 44,
+        "score": 34.0,
+        "yours": false,
+        "topic_id": 1613974,
+        "topic_slug": "add-bot-prevention-systems-to-battlegrounds",
+        "display_username": "Zagara",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1986118,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/sargeras/cõnjurevodka/",
+          "guild": "Overqualified",
+          "race": "Orc",
+          "class": "Rogue",
+          "player_class_enum": "ROGUE",
+          "level": "10",
+          "classic": "t",
+          "achievement_points": "15870",
+          "blizzard_post_count": "5510"
+        },
+        "post_url": "/t/add-bot-prevention-systems-to-battlegrounds/1613974/9",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/stormrage/173/191526573-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+        "alias_username": "Auril",
+        "poster_alias": {
+          "alias": {
+            "name": "Auril",
+            "avatar": "https://render.worldofwarcraft.com/us/character/stormrage/173/191526573-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/stormrage/auril/",
+            "user_id": 1986118,
+            "id": 2321348,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 3044,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/stormrage/auril/"
+              },
+              {
+                "name": "realm",
+                "value": "Stormrage"
+              },
+              {
+                "name": "achievement_points",
+                "value": "25910"
+              },
+              {
+                "name": "level",
+                "value": "24"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 5510,
+        "character": {
+          "name": "Zagara",
+          "guild": "Overqualified",
+          "achievement_points": "15870",
+          "level": "10",
+          "class": "Rogue",
+          "race": "Orc",
+          "player_class_enum": "ROGUE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20867958,
+        "name": "QuirkyOrc",
+        "username": "QuirkyOrc-932901",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-06-17T05:00:50.547Z",
+        "cooked": "<p>In think you might be a bit behind the times on how insane the terminators are now.., they’re like battling the T1000,</p>\n<p>Well, just have a look.</p>\n<pre><code class=\"lang-auto\">https://www.reddit.com/r/worldofpvp/comments/13zz5st/cheating_isnt_possible_in_wow_pvp/</code></pre>",
+        "post_number": 10,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2026-06-13T02:44:09.389Z",
+        "reply_count": 2,
+        "reply_to_post_number": 5,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 44,
+        "readers_count": 43,
+        "score": 18.8,
+        "yours": false,
+        "topic_id": 1613974,
+        "topic_slug": "add-bot-prevention-systems-to-battlegrounds",
+        "display_username": "QuirkyOrc",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 1986118,
+          "username": "Zagara-1986118",
+          "name": "Zagara",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 932901,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/akama/williams/",
+          "race": "Human",
+          "achievement_points": "0",
+          "classic": "t",
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "level": "60",
+          "guild": "Tidas",
+          "blizzard_post_count": "38971"
+        },
+        "post_url": "/t/add-bot-prevention-systems-to-battlegrounds/1613974/10",
+        "alias_avatar": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png",
+        "alias_username": "Härland",
+        "poster_alias": {
+          "alias": {
+            "name": "Härland",
+            "avatar": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png",
+            "url": null,
+            "user_id": 932901,
+            "id": 2333748,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 7469,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Grobbulus"
+              },
+              {
+                "name": "achievement_points",
+                "value": "100"
+              },
+              {
+                "name": "level",
+                "value": "39"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2321348,
+          "username": "Auril",
+          "name": "Auril",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/stormrage/173/191526573-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 38971,
+        "character": {
+          "name": "QuirkyOrc",
+          "guild": "Tidas",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Mage",
+          "race": "Human",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20868501,
+        "name": "Zagara",
+        "username": "Zagara-1986118",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-06-17T08:41:03.498Z",
+        "cooked": "<p>Oh I’ve seen it but very few run that by comparison.</p>",
+        "post_number": 11,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2026-06-11T00:03:48.249Z",
+        "reply_count": 1,
+        "reply_to_post_number": 10,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 38,
+        "readers_count": 37,
+        "score": 17.6,
+        "yours": false,
+        "topic_id": 1613974,
+        "topic_slug": "add-bot-prevention-systems-to-battlegrounds",
+        "display_username": "Zagara",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 932901,
+          "username": "QuirkyOrc-932901",
+          "name": "QuirkyOrc",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1986118,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/sargeras/cõnjurevodka/",
+          "guild": "Overqualified",
+          "race": "Orc",
+          "class": "Rogue",
+          "player_class_enum": "ROGUE",
+          "level": "10",
+          "classic": "t",
+          "achievement_points": "15870",
+          "blizzard_post_count": "5510"
+        },
+        "post_url": "/t/add-bot-prevention-systems-to-battlegrounds/1613974/11",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/stormrage/173/191526573-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+        "alias_username": "Auril",
+        "poster_alias": {
+          "alias": {
+            "name": "Auril",
+            "avatar": "https://render.worldofwarcraft.com/us/character/stormrage/173/191526573-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/stormrage/auril/",
+            "user_id": 1986118,
+            "id": 2321348,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 3044,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/stormrage/auril/"
+              },
+              {
+                "name": "realm",
+                "value": "Stormrage"
+              },
+              {
+                "name": "achievement_points",
+                "value": "25910"
+              },
+              {
+                "name": "level",
+                "value": "24"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2333748,
+          "username": "Härland",
+          "name": "Härland",
+          "avatar_template": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png"
+        },
+        "animated_avatar": null,
+        "user_post_count": 5510,
+        "character": {
+          "name": "Zagara",
+          "guild": "Overqualified",
+          "achievement_points": "15870",
+          "level": "10",
+          "class": "Rogue",
+          "race": "Orc",
+          "player_class_enum": "ROGUE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20869105,
+        "name": "Bouji",
+        "username": "Bouji-2407469",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-06-17T13:50:07.787Z",
+        "cooked": "<p>my bad, sorry i didn’t mean that <img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/slight_smile.png?v=12\" title=\":slight_smile:\" class=\"emoji\" alt=\":slight_smile:\" loading=\"lazy\" width=\"20\" height=\"20\"><br>\nbut anyway i’ve been trash talking blizzard in past 12years! &amp; I can’t believe that new players join this trash game despite the massive bots / abuses and real money trades, ignorance must be a bliss.</p>",
+        "post_number": 12,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2023-06-17T13:50:07.787Z",
+        "reply_count": 0,
+        "reply_to_post_number": 9,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 33,
+        "readers_count": 32,
+        "score": 11.6,
+        "yours": false,
+        "topic_id": 1613974,
+        "topic_slug": "add-bot-prevention-systems-to-battlegrounds",
+        "display_username": "Bouji",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 1986118,
+          "username": "Zagara-1986118",
+          "name": "Zagara",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2407469,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "class": "Rogue",
+          "player_class_enum": "ROGUE",
+          "race": "Troll",
+          "level": "80",
+          "classic": "t",
+          "blizzard_post_count": "864",
+          "achievement_points": "5420"
+        },
+        "post_url": "/t/add-bot-prevention-systems-to-battlegrounds/1613974/12",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/faerlina/167/83028903-avatar.jpg?alt=/wow/static/images/2d/avatar/8-1.jpg",
+        "alias_username": "Failrogue",
+        "poster_alias": {
+          "alias": {
+            "name": "Failrogue",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/faerlina/167/83028903-avatar.jpg?alt=/wow/static/images/2d/avatar/8-1.jpg",
+            "url": null,
+            "user_id": 2407469,
+            "id": 2567187,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 864,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Faerlina"
+              },
+              {
+                "name": "achievement_points",
+                "value": "5420"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2321348,
+          "username": "Auril",
+          "name": "Auril",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/stormrage/173/191526573-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 864,
+        "character": {
+          "name": "Bouji",
+          "guild": null,
+          "achievement_points": "5420",
+          "level": "80",
+          "class": "Rogue",
+          "race": "Troll",
+          "player_class_enum": "ROGUE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20869873,
+        "name": null,
+        "username": "Aswang-thunderfury",
+        "avatar_template": "https://render.worldofwarcraft.com/classic1x-us/character/thunderfury/29/6524189-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "created_at": "2023-06-17T16:21:48.146Z",
+        "cooked": "<p>Something needs to be done about the Botanica bots, they’re getting out of hand.</p>",
+        "post_number": 13,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2023-06-17T16:21:48.146Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 33,
+        "readers_count": 32,
+        "score": 11.6,
+        "yours": false,
+        "topic_id": 1613974,
+        "topic_slug": "add-bot-prevention-systems-to-battlegrounds",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2407474,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": null,
+          "guild": null,
+          "race": "Orc",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "blizzard_post_count": "56",
+          "achievement_points": "0",
+          "level": "10",
+          "classic": "t"
+        },
+        "post_url": "/t/add-bot-prevention-systems-to-battlegrounds/1613974/13",
+        "alias_avatar": null,
+        "alias_username": null,
+        "poster_alias": null,
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 56,
+        "character": {
+          "name": "Aswang",
+          "guild": null,
+          "achievement_points": "0",
+          "level": "10",
+          "class": "Warlock",
+          "race": "Orc",
+          "player_class_enum": "WARLOCK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20870276,
+        "name": "QuirkyOrc",
+        "username": "QuirkyOrc-932901",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-06-17T17:39:27.466Z",
+        "cooked": "<p>That level of botting is near the apex of this time, but even the cyborgs (player steered bots) are out there far more frequently.</p>\n<p>When i get kicked on a presence of mind cast (example presence of mind sheep) its 100% botting, and its unfortunately all too common.</p>",
+        "post_number": 14,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2026-06-13T02:44:09.522Z",
+        "reply_count": 1,
+        "reply_to_post_number": 11,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 31,
+        "readers_count": 30,
+        "score": 16.2,
+        "yours": false,
+        "topic_id": 1613974,
+        "topic_slug": "add-bot-prevention-systems-to-battlegrounds",
+        "display_username": "QuirkyOrc",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 1986118,
+          "username": "Zagara-1986118",
+          "name": "Zagara",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 932901,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/akama/williams/",
+          "race": "Human",
+          "achievement_points": "0",
+          "classic": "t",
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "level": "60",
+          "guild": "Tidas",
+          "blizzard_post_count": "38971"
+        },
+        "post_url": "/t/add-bot-prevention-systems-to-battlegrounds/1613974/14",
+        "alias_avatar": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png",
+        "alias_username": "Härland",
+        "poster_alias": {
+          "alias": {
+            "name": "Härland",
+            "avatar": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png",
+            "url": null,
+            "user_id": 932901,
+            "id": 2333748,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 7469,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Grobbulus"
+              },
+              {
+                "name": "achievement_points",
+                "value": "100"
+              },
+              {
+                "name": "level",
+                "value": "39"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2321348,
+          "username": "Auril",
+          "name": "Auril",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/stormrage/173/191526573-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 38971,
+        "character": {
+          "name": "QuirkyOrc",
+          "guild": "Tidas",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Mage",
+          "race": "Human",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20870628,
+        "name": "Zagara",
+        "username": "Zagara-1986118",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-06-17T18:57:58.978Z",
+        "cooked": "<p>I wish blizz would remove addons like weakauras, would kill the script bots pretty quick.</p>",
+        "post_number": 15,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2026-06-11T00:03:48.388Z",
+        "reply_count": 1,
+        "reply_to_post_number": 14,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 26,
+        "readers_count": 25,
+        "score": 15.2,
+        "yours": false,
+        "topic_id": 1613974,
+        "topic_slug": "add-bot-prevention-systems-to-battlegrounds",
+        "display_username": "Zagara",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 932901,
+          "username": "QuirkyOrc-932901",
+          "name": "QuirkyOrc",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1986118,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/sargeras/cõnjurevodka/",
+          "guild": "Overqualified",
+          "race": "Orc",
+          "class": "Rogue",
+          "player_class_enum": "ROGUE",
+          "level": "10",
+          "classic": "t",
+          "achievement_points": "15870",
+          "blizzard_post_count": "5510"
+        },
+        "post_url": "/t/add-bot-prevention-systems-to-battlegrounds/1613974/15",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/stormrage/173/191526573-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+        "alias_username": "Auril",
+        "poster_alias": {
+          "alias": {
+            "name": "Auril",
+            "avatar": "https://render.worldofwarcraft.com/us/character/stormrage/173/191526573-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/stormrage/auril/",
+            "user_id": 1986118,
+            "id": 2321348,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 3044,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/stormrage/auril/"
+              },
+              {
+                "name": "realm",
+                "value": "Stormrage"
+              },
+              {
+                "name": "achievement_points",
+                "value": "25910"
+              },
+              {
+                "name": "level",
+                "value": "24"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2333748,
+          "username": "Härland",
+          "name": "Härland",
+          "avatar_template": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png"
+        },
+        "animated_avatar": null,
+        "user_post_count": 5510,
+        "character": {
+          "name": "Zagara",
+          "guild": "Overqualified",
+          "achievement_points": "15870",
+          "level": "10",
+          "class": "Rogue",
+          "race": "Orc",
+          "player_class_enum": "ROGUE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20870759,
+        "name": "QuirkyOrc",
+        "username": "QuirkyOrc-932901",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-06-17T19:23:12.775Z",
+        "cooked": "<p>That would indeed slow them down for a while. They would need to actually hack the client at that point or make a bespoke cheat client.  That would be however easier to detect, actually very easy to detect with a little creative thinking.</p>\n<p>I know that I can adapt to not using that stuff, and sure it will slow me down slightly but it will also do the same for everyone so its overall “Fair”.</p>\n<p>Another thing I would love to see die are macro’s that target and apply abilities automatically, they’re macros for applying DoT’s across numerous target, rogues use them for sap, and various other application. The reason to kill them is simple, it kills off bad behavior that these implement.  Another thing that in reality should die off are Arena frame 1,2,3 targeting and application macro.  I like the ability to hit my Target arena 1,2,3 (4/5) and that’s fine, but say for example a rogue using Arena frame target 2 sap, so he can insta sap soon as that player is even detectable by his client (not him), is not really playing the game, its low level scripting (I do this too) because its part of the UI and you need to use things like this to compete. (beating up on rogues because they’re an easy target)</p>\n<p>Any way, there is a lot of “Trimming” that really should happen for the betterment of the game overall, and would improve the experience of every player. I know there will be backlash over this way of thinking, I know people will hate on me for  saying it but really it needs to be said.</p>",
+        "post_number": 16,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2026-06-13T02:44:09.669Z",
+        "reply_count": 1,
+        "reply_to_post_number": 15,
+        "quote_count": 0,
+        "incoming_link_count": 3,
+        "reads": 26,
+        "readers_count": 25,
+        "score": 40.2,
+        "yours": false,
+        "topic_id": 1613974,
+        "topic_slug": "add-bot-prevention-systems-to-battlegrounds",
+        "display_username": "QuirkyOrc",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 1986118,
+          "username": "Zagara-1986118",
+          "name": "Zagara",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 932901,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/akama/williams/",
+          "race": "Human",
+          "achievement_points": "0",
+          "classic": "t",
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "level": "60",
+          "guild": "Tidas",
+          "blizzard_post_count": "38971"
+        },
+        "post_url": "/t/add-bot-prevention-systems-to-battlegrounds/1613974/16",
+        "alias_avatar": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png",
+        "alias_username": "Härland",
+        "poster_alias": {
+          "alias": {
+            "name": "Härland",
+            "avatar": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png",
+            "url": null,
+            "user_id": 932901,
+            "id": 2333748,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 7469,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Grobbulus"
+              },
+              {
+                "name": "achievement_points",
+                "value": "100"
+              },
+              {
+                "name": "level",
+                "value": "39"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2321348,
+          "username": "Auril",
+          "name": "Auril",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/stormrage/173/191526573-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 38971,
+        "character": {
+          "name": "QuirkyOrc",
+          "guild": "Tidas",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Mage",
+          "race": "Human",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20870911,
+        "name": "Ret",
+        "username": "Ret-2069835",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-06-17T19:50:48.063Z",
+        "cooked": "<p>I’m aware of this, but the discussion still needs to happen. It’s always a tug of war between devs and bots. It’s on the developers to be steps ahead of the botters with this new technology kept in mind.</p>",
+        "post_number": 17,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2023-06-17T19:54:08.099Z",
+        "reply_count": 0,
+        "reply_to_post_number": 7,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 21,
+        "readers_count": 20,
+        "score": 14.2,
+        "yours": false,
+        "topic_id": 1613974,
+        "topic_slug": "add-bot-prevention-systems-to-battlegrounds",
+        "display_username": "Ret",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 1907499,
+          "username": "Problems-1907499",
+          "name": "Problems",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2069835,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/darkspear/retyo/",
+          "race": "Human",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "blizzard_post_count": "13",
+          "guild": "No Skips",
+          "level": "80",
+          "classic": "t",
+          "achievement_points": "6530"
+        },
+        "post_url": "/t/add-bot-prevention-systems-to-battlegrounds/1613974/17",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/benediction/15/61503503-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Adamyo-benediction",
+        "poster_alias": {
+          "alias": {
+            "name": "Adamyo-benediction",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/benediction/15/61503503-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": null,
+            "user_id": 2069835,
+            "id": 766484,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 13,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Benediction"
+              },
+              {
+                "name": "achievement_points",
+                "value": "6530"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "No Skips"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 535023,
+          "username": "Feroid-whitemane",
+          "name": "Feroid",
+          "avatar_template": "https://render.worldofwarcraft.com/classic-us/character/whitemane/12/31173900-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 13,
+        "character": {
+          "name": "Ret",
+          "guild": "No Skips",
+          "achievement_points": "6530",
+          "level": "80",
+          "class": "Paladin",
+          "race": "Human",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20871496,
+        "name": "Zagara",
+        "username": "Zagara-1986118",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-06-17T21:26:17.618Z",
+        "cooked": "<p>End of the day they need to scrap WoW and port it into WoW2 with built in “addons” and disable third party</p>\n<p>They could even just hire the current addon devs.</p>\n<p>So instead of controversy over paid addons, blizz pays them to make them</p>\n<p>I’d call WoW2 “Worlds of Warcraft” or “Realms of Warcraft”</p>",
+        "post_number": 18,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2026-06-11T00:03:48.503Z",
+        "reply_count": 1,
+        "reply_to_post_number": 16,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 22,
+        "readers_count": 21,
+        "score": 14.4,
+        "yours": false,
+        "topic_id": 1613974,
+        "topic_slug": "add-bot-prevention-systems-to-battlegrounds",
+        "display_username": "Zagara",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 932901,
+          "username": "QuirkyOrc-932901",
+          "name": "QuirkyOrc",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1986118,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/sargeras/cõnjurevodka/",
+          "guild": "Overqualified",
+          "race": "Orc",
+          "class": "Rogue",
+          "player_class_enum": "ROGUE",
+          "level": "10",
+          "classic": "t",
+          "achievement_points": "15870",
+          "blizzard_post_count": "5510"
+        },
+        "post_url": "/t/add-bot-prevention-systems-to-battlegrounds/1613974/18",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/stormrage/173/191526573-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+        "alias_username": "Auril",
+        "poster_alias": {
+          "alias": {
+            "name": "Auril",
+            "avatar": "https://render.worldofwarcraft.com/us/character/stormrage/173/191526573-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/stormrage/auril/",
+            "user_id": 1986118,
+            "id": 2321348,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 3044,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/stormrage/auril/"
+              },
+              {
+                "name": "realm",
+                "value": "Stormrage"
+              },
+              {
+                "name": "achievement_points",
+                "value": "25910"
+              },
+              {
+                "name": "level",
+                "value": "24"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2333748,
+          "username": "Härland",
+          "name": "Härland",
+          "avatar_template": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png"
+        },
+        "animated_avatar": null,
+        "user_post_count": 5510,
+        "character": {
+          "name": "Zagara",
+          "guild": "Overqualified",
+          "achievement_points": "15870",
+          "level": "10",
+          "class": "Rogue",
+          "race": "Orc",
+          "player_class_enum": "ROGUE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20871580,
+        "name": "QuirkyOrc",
+        "username": "QuirkyOrc-932901",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-06-17T21:40:41.985Z",
+        "cooked": "<p>That would be an awesome game if Blizzard was not creatively bankrupt.</p>",
+        "post_number": 19,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2026-06-13T02:44:09.790Z",
+        "reply_count": 0,
+        "reply_to_post_number": 18,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 22,
+        "readers_count": 21,
+        "score": 9.4,
+        "yours": false,
+        "topic_id": 1613974,
+        "topic_slug": "add-bot-prevention-systems-to-battlegrounds",
+        "display_username": "QuirkyOrc",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 1986118,
+          "username": "Zagara-1986118",
+          "name": "Zagara",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 932901,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/akama/williams/",
+          "race": "Human",
+          "achievement_points": "0",
+          "classic": "t",
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "level": "60",
+          "guild": "Tidas",
+          "blizzard_post_count": "38971"
+        },
+        "post_url": "/t/add-bot-prevention-systems-to-battlegrounds/1613974/19",
+        "alias_avatar": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png",
+        "alias_username": "Härland",
+        "poster_alias": {
+          "alias": {
+            "name": "Härland",
+            "avatar": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png",
+            "url": null,
+            "user_id": 932901,
+            "id": 2333748,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 7469,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Grobbulus"
+              },
+              {
+                "name": "achievement_points",
+                "value": "100"
+              },
+              {
+                "name": "level",
+                "value": "39"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2321348,
+          "username": "Auril",
+          "name": "Auril",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/stormrage/173/191526573-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 38971,
+        "character": {
+          "name": "QuirkyOrc",
+          "guild": "Tidas",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Mage",
+          "race": "Human",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20871823,
+        "name": "Bouji",
+        "username": "Bouji-2407469",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-06-17T22:29:36.499Z",
+        "cooked": "<p>it wasn’t me who linked that bot for rogues bideo and that was not the bot i’m talking about <img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/stuck_out_tongue.png?v=12\" title=\":stuck_out_tongue:\" class=\"emoji\" alt=\":stuck_out_tongue:\" loading=\"lazy\" width=\"20\" height=\"20\"> Honorbuddy bought scripts could gets anyone/any class 2k and that bot existed in wow for whole 5x expansions and surprisingly blizzard only banned it after 8years from discovering about it xD</p>\n<p>all i’ve said is that people underestimate botting which existed in wow since 2005 YUP any old player are familier with the massive hunter bots in vanilla in farming spots sili/fw…etc and the funny fact is, with time Bots advanced more than players, you might not believe but trust me when i say, a bot can parse 99% and reach 2.4k arena with pre-made scripts, lots of mop-wod top guilds used botting all the time for perfect rotations and switch target conditions.</p>\n<p>when it comes to real money trades, those farmers/bots will have zero problem if they need to waste ~1hour to get 1k rate on every single char.</p>",
+        "post_number": 21,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2023-06-17T22:29:36.499Z",
+        "reply_count": 0,
+        "reply_to_post_number": 20,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 20,
+        "readers_count": 19,
+        "score": 9.0,
+        "yours": false,
+        "topic_id": 1613974,
+        "topic_slug": "add-bot-prevention-systems-to-battlegrounds",
+        "display_username": "Bouji",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2069835,
+          "username": "Ret-2069835",
+          "name": "Ret",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2407469,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "class": "Rogue",
+          "player_class_enum": "ROGUE",
+          "race": "Troll",
+          "level": "80",
+          "classic": "t",
+          "blizzard_post_count": "864",
+          "achievement_points": "5420"
+        },
+        "post_url": "/t/add-bot-prevention-systems-to-battlegrounds/1613974/21",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/faerlina/167/83028903-avatar.jpg?alt=/wow/static/images/2d/avatar/8-1.jpg",
+        "alias_username": "Failrogue",
+        "poster_alias": {
+          "alias": {
+            "name": "Failrogue",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/faerlina/167/83028903-avatar.jpg?alt=/wow/static/images/2d/avatar/8-1.jpg",
+            "url": null,
+            "user_id": 2407469,
+            "id": 2567187,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 864,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Faerlina"
+              },
+              {
+                "name": "achievement_points",
+                "value": "5420"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 864,
+        "character": {
+          "name": "Bouji",
+          "guild": null,
+          "achievement_points": "5420",
+          "level": "80",
+          "class": "Rogue",
+          "race": "Troll",
+          "player_class_enum": "ROGUE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20877910,
+        "name": null,
+        "username": "Krëwellà-area-52",
+        "avatar_template": "https://render-us.worldofwarcraft.com/character/area-52/60/136912956-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+        "created_at": "2023-06-18T23:58:02.965Z",
+        "cooked": "<p>This will never happen. Despite what’s in the Blizzard’s Terms of Service about bots, Blizzard straight acknowledges that bots are in the game. Read the patch notes, some of them are hilarious… “Fixed an issue related to rating given after a match with a bot” “fixed an issue with bot matchmaking” etc.</p>\n<p>Yes those patch note references are from ranked, not battlegrounds. But it says that Blizzard knows bots exist in their game and instead of removing them, like it says they will in their Terms of Service, they just fix issue related to playing against them. Battlegrounds is no exception. Blizzard doesn’t care about bots because they artificially increases the “active” number of players at any given time.</p>\n<p>Its sad but its the truth…</p>",
+        "post_number": 22,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2023-06-18T23:58:02.965Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 18,
+        "readers_count": 17,
+        "score": 38.6,
+        "yours": false,
+        "topic_id": 1613974,
+        "topic_slug": "add-bot-prevention-systems-to-battlegrounds",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2379127,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/krëwellà/",
+          "guild": null,
+          "race": "Blood Elf",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "achievement_points": "12310",
+          "level": "28"
+        },
+        "post_url": "/t/add-bot-prevention-systems-to-battlegrounds/1613974/22",
+        "alias_avatar": null,
+        "alias_username": null,
+        "poster_alias": null,
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 2,
+        "character": {
+          "name": "Krëwellà",
+          "guild": null,
+          "achievement_points": "12310",
+          "level": "28",
+          "class": "Warrior",
+          "race": "Blood Elf",
+          "player_class_enum": "WARRIOR",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20879039,
+        "name": null,
+        "username": "Nelfi-amanthul",
+        "avatar_template": "https://render.worldofwarcraft.com/us/character/amanthul/74/194190922-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
+        "created_at": "2023-06-19T03:24:44.193Z",
+        "cooked": "<p>All of those ideas are very easily solvable problems for bots</p>",
+        "post_number": 23,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2023-06-19T03:24:44.193Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 13,
+        "readers_count": 12,
+        "score": 2.6,
+        "yours": false,
+        "topic_id": 1613974,
+        "topic_slug": "add-bot-prevention-systems-to-battlegrounds",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2326152,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/amanthul/nelfi/",
+          "race": "Night Elf",
+          "class": "Druid",
+          "player_class_enum": "DRUID",
+          "blizzard_post_count": "3",
+          "level": "27",
+          "achievement_points": "45000"
+        },
+        "post_url": "/t/add-bot-prevention-systems-to-battlegrounds/1613974/23",
+        "alias_avatar": null,
+        "alias_username": null,
+        "poster_alias": null,
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 3,
+        "character": {
+          "name": "Nelfi",
+          "guild": null,
+          "achievement_points": "45000",
+          "level": "27",
+          "class": "Druid",
+          "race": "Night Elf",
+          "player_class_enum": "DRUID",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20891094,
+        "name": "Ret",
+        "username": "Ret-2069835",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-06-20T22:08:14.585Z",
+        "cooked": "<p>Yes, but a network of 50+ bot accounts running on virtual machines is going to be slowed down significantly by rating requirements or other things that require the botters to adapt their software to new prevention systems put in place.</p>\n<p>From what I have heard, the reddit video you linked is a promotional video for botting software for rogues only. While there are lots of rogue bots out there, there are also other bots that are not rogues. Furthermore, someone using this software in an arena environment can easily be found out.</p>\n<p>It may not be practical or efficient for bot networks to queue up to obtain a certain rating requirement on all their characters. The majority of bots aren’t going to be able to beat the majority of players in arena to achieve a that many players can get, let alone find a partner other than another DK or rogue bot.</p>\n<p>So greatly slowing the progress of these botted characters’ power levels and effectiveness is going to help aide even the most humble of players in beating the bots that actually queue up, just from a gear difference alone. It’s important to have something that is obtainable by the majority of players but not obtainable by the majority of bots.</p>",
+        "post_number": 24,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2023-06-20T22:08:14.585Z",
+        "reply_count": 1,
+        "reply_to_post_number": 10,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 6,
+        "readers_count": 5,
+        "score": 6.2,
+        "yours": false,
+        "topic_id": 1613974,
+        "topic_slug": "add-bot-prevention-systems-to-battlegrounds",
+        "display_username": "Ret",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 932901,
+          "username": "QuirkyOrc-932901",
+          "name": "QuirkyOrc",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2069835,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/darkspear/retyo/",
+          "race": "Human",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "blizzard_post_count": "13",
+          "guild": "No Skips",
+          "level": "80",
+          "classic": "t",
+          "achievement_points": "6530"
+        },
+        "post_url": "/t/add-bot-prevention-systems-to-battlegrounds/1613974/24",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/benediction/15/61503503-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Adamyo-benediction",
+        "poster_alias": {
+          "alias": {
+            "name": "Adamyo-benediction",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/benediction/15/61503503-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": null,
+            "user_id": 2069835,
+            "id": 766484,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 13,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Benediction"
+              },
+              {
+                "name": "achievement_points",
+                "value": "6530"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "No Skips"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2333748,
+          "username": "Härland",
+          "name": "Härland",
+          "avatar_template": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png"
+        },
+        "animated_avatar": null,
+        "user_post_count": 13,
+        "character": {
+          "name": "Ret",
+          "guild": "No Skips",
+          "achievement_points": "6530",
+          "level": "80",
+          "class": "Paladin",
+          "race": "Human",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20891127,
+        "name": "DivineDream",
+        "username": "DivineDream-2301584",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-06-20T22:12:22.956Z",
+        "cooked": "<p>yeah no, take that crap elsewhere, Lets punish legit players with dog water capcha system, that most modern bots get around anyway.</p>\n<p>Some of the stuff you people come up with is insane…they don’t work, google capchas don’t work…it’s just a pain for real players/users.</p>\n<p>do you know how dumb that would be?</p>",
+        "post_number": 25,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2026-07-04T18:13:17.175Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 6,
+        "readers_count": 5,
+        "score": 1.2,
+        "yours": false,
+        "topic_id": 1613974,
+        "topic_slug": "add-bot-prevention-systems-to-battlegrounds",
+        "display_username": "DivineDream",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2301584,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/tichondrius/elicitation/",
+          "guild": "Truly",
+          "race": "Night Elf",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "achievement_points": "50",
+          "level": "18",
+          "classic": "t",
+          "blizzard_post_count": "137"
+        },
+        "post_url": "/t/add-bot-prevention-systems-to-battlegrounds/1613974/25",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/grobbulus/15/55553551-avatar.jpg?alt=/wow/static/images/2d/avatar/8-1.jpg",
+        "alias_username": "Tïamat",
+        "poster_alias": {
+          "alias": {
+            "name": "Tïamat",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/grobbulus/15/55553551-avatar.jpg?alt=/wow/static/images/2d/avatar/8-1.jpg",
+            "url": null,
+            "user_id": 2301584,
+            "id": 2556705,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 327,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Grobbulus"
+              },
+              {
+                "name": "achievement_points",
+                "value": "1620"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "Legendish"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 137,
+        "character": {
+          "name": "DivineDream",
+          "guild": "Truly",
+          "achievement_points": "50",
+          "level": "18",
+          "class": "Hunter",
+          "race": "Night Elf",
+          "player_class_enum": "HUNTER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20891460,
+        "name": "QuirkyOrc",
+        "username": "QuirkyOrc-932901",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-06-20T22:48:33.227Z",
+        "cooked": "<p>Yes, thats only a promo for a specific application, but others exist for every class, and can be exceptionally sophisticated.</p>\n<p>Also regarding rating, if there were no advanced bots then they will just win trade since there are so few arena players.</p>",
+        "post_number": 26,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2026-06-13T02:44:09.893Z",
+        "reply_count": 0,
+        "reply_to_post_number": 24,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 5,
+        "readers_count": 4,
+        "score": 1.0,
+        "yours": false,
+        "topic_id": 1613974,
+        "topic_slug": "add-bot-prevention-systems-to-battlegrounds",
+        "display_username": "QuirkyOrc",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2069835,
+          "username": "Ret-2069835",
+          "name": "Ret",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 932901,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/akama/williams/",
+          "race": "Human",
+          "achievement_points": "0",
+          "classic": "t",
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "level": "60",
+          "guild": "Tidas",
+          "blizzard_post_count": "38971"
+        },
+        "post_url": "/t/add-bot-prevention-systems-to-battlegrounds/1613974/26",
+        "alias_avatar": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png",
+        "alias_username": "Härland",
+        "poster_alias": {
+          "alias": {
+            "name": "Härland",
+            "avatar": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png",
+            "url": null,
+            "user_id": 932901,
+            "id": 2333748,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 7469,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Grobbulus"
+              },
+              {
+                "name": "achievement_points",
+                "value": "100"
+              },
+              {
+                "name": "level",
+                "value": "39"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 766484,
+          "username": "Adamyo-benediction",
+          "name": "Adamyo",
+          "avatar_template": "https://render.worldofwarcraft.com/classic-us/character/benediction/15/61503503-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 38971,
+        "character": {
+          "name": "QuirkyOrc",
+          "guild": "Tidas",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Mage",
+          "race": "Human",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 21320770,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-08-19T22:49:28.100Z",
+        "cooked": "<p>This topic was automatically closed 60 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 27,
+        "post_type": 3,
+        "posts_count": 26,
+        "updated_at": "2023-08-19T22:49:28.100Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 5.2,
+        "yours": false,
+        "topic_id": 1613974,
+        "topic_slug": "add-bot-prevention-systems-to-battlegrounds",
+        "display_username": "system",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/add-bot-prevention-systems-to-battlegrounds/1613974/27",
+        "alias_username": null,
+        "poster_alias": null,
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 3016,
+        "character": {
+          "name": "system",
+          "guild": null,
+          "achievement_points": null,
+          "level": null,
+          "class": null,
+          "race": null,
+          "player_class_enum": null,
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ],
+    "stream": [
+      20865820,
+      20865853,
+      20865876,
+      20865901,
+      20866236,
+      20866829,
+      20866994,
+      20867309,
+      20867662,
+      20867958,
+      20868501,
+      20869105,
+      20869873,
+      20870276,
+      20870628,
+      20870759,
+      20870911,
+      20871496,
+      20871580,
+      20871823,
+      20877910,
+      20879039,
+      20891094,
+      20891127,
+      20891460,
+      21320770
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      1180
+    ],
+    [
+      12,
+      1179
+    ],
+    [
+      21,
+      1178
+    ],
+    [
+      23,
+      1176
+    ],
+    [
+      26,
+      1116
+    ]
+  ],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "Add Bot Prevention Systems to Battlegrounds",
+  "id": 1613974,
+  "title": "Add Bot Prevention Systems to Battlegrounds",
+  "posts_count": 26,
+  "created_at": "2023-06-16T21:33:44.515Z",
+  "views": 1035,
+  "reply_count": 17,
+  "like_count": 9,
+  "last_posted_at": "2023-08-19T22:49:28.100Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "add-bot-prevention-systems-to-battlegrounds",
+  "category_id": 254,
+  "word_count": 1634,
+  "deleted_at": null,
+  "user_id": 2069835,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_1613974",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 27,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 1001,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1002,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1003,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1004,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1005,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 1,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 2069835,
+        "username": "Ret-2069835",
+        "name": "Ret",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 5,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Adamyo-benediction",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/benediction/15/61503503-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": null,
+            "user_id": 2069835,
+            "id": 766484,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 13,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Benediction"
+              },
+              {
+                "name": "achievement_points",
+                "value": "6530"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "No Skips"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      }
+    ],
+    "created_by": {
+      "id": 2069835,
+      "username": "Ret-2069835",
+      "name": "Ret",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    },
+    "last_poster": {
+      "id": -1,
+      "username": "system",
+      "name": "system",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    }
+  },
+  "bookmarks": [],
+  "jogo": "World of Warcraft",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Blizzard",
+  "url_fonte": "https://us.forums.blizzard.com/en/wow/t/add-bot-prevention-systems-to-battlegrounds/1613974"
+}

@@ -1,0 +1,3665 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 28423028,
+        "name": "Drew",
+        "username": "Drew-790709",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-12-19T21:00:57.671Z",
+        "cooked": "<p>Note: I have not tried this for any other posters than Snipy-Faerlina, and personally do not intend to. I thought this was an interesting experiment for <em>myself</em> and decided to share.</p>\n<p>I had a look at using Grok, Gemini, and ChatGPT for this.</p>\n<h2><a name=\"p-28423028-setup-1\" class=\"anchor\" href=\"#p-28423028-setup-1\" aria-label=\"Heading link\"></a>Setup</h2>\n<p>I prompted some well-known AI agents or LLM applications, to search the forums and analyze the data for personality types, potential occupation, recommended occupation, and for any additional insights that may be interesting. There are several more useful insights we could derive and data sets we could build from this, but this one is “just for fun.”</p>\n<p>Here is the prompt given:</p>\n<p>“<em>Analyze the forum posts of Snipy-Faerlina on the us world of warcraft forums, and see if you can derive information such as big five personality traits, relative IQ, guess at current employment status or occupation, and suggest recommended occupation. Recommend other insights I may be interested in based on this query.</em>”</p>\n<h2><a name=\"p-28423028-results-2\" class=\"anchor\" href=\"#p-28423028-results-2\" aria-label=\"Heading link\"></a>Results</h2>\n<details>\n<summary>\nChatGPT</summary>\n<p>“<em>I cannot go and scrape or analyze another person’s forum posts on the internet on my own</em>”</p>\n</details>\n<details>\n<summary>\nGrok</summary>\n<p>Snipy-Faerlina has limited forum activity: thoughtful, researched posts on PvP, mechanics, rules; polite, curious tone.</p>\n<p><strong>Big Five traits:</strong> High Openness (curious about game changes), High Conscientiousness (detailed references), High Agreeableness (friendly advice), Moderate Extraversion, Low Neuroticism.</p>\n<p><strong>Relative IQ:</strong> Above average (analytical posts, links to data).</p>\n<p><strong>Employment:</strong> Likely employed in analytical field (e.g., IT, research); plays actively but thoughtfully.</p>\n<p><strong>Recommended occupation:</strong> Game designer, data analyst, or community manager.</p>\n<p><strong>Other insights:</strong> In-game character stats/armory, PvP rankings on Warcraft Logs/Ironforge.pro, or similar profiles on Reddit/Discord.</p>\n</details>\n<details>\n<summary>\nGemini</summary>\n<p>Based on a “cold reading” analysis of the forum posts by <strong>Snipy-Faerlina</strong> on the World of Warcraft forums (specifically from activity visible up to December 2025), here is a derived profile.</p>\n<p><strong>Disclaimer:</strong> <em>This analysis is speculative and based solely on public textual persona, which can differ from real-life personality.</em></p>\n<h3><a name=\"p-28423028-h-1-the-big-five-personality-traits-3\" class=\"anchor\" href=\"#p-28423028-h-1-the-big-five-personality-traits-3\" aria-label=\"Heading link\"></a>1. The Big Five Personality Traits</h3>\n<ul>\n<li><strong>Openness to Experience: Moderate to High.</strong>\n<ul>\n<li>Snipy shows a willingness to engage with new mechanics (“Season of Discovery”) and admits to not being a “die-hard” purist, unlike many conservative Classic players. They are open to “Classic+” concepts even if they don’t fully understand the references initially (e.g., “Oh okay. I don’t know what that means, but cool” regarding OSRS).</li>\n</ul>\n</li>\n<li><strong>Conscientiousness: High.</strong>\n<ul>\n<li>This is the strongest trait. Snipy’s posts are structured, punctuated, and often cite sources (blue posts, tweets) to correct misinformation. They value accuracy over emotional venting. They frequently ask for specific examples (“Do you have any examples to point to?”) rather than accepting vague complaints.</li>\n</ul>\n</li>\n<li><strong>Extraversion: Moderate (Introverted side of Extraversion).</strong>\n<ul>\n<li>They are socially engaged and reply frequently, but the interaction style is detached and intellectual rather than seeking social validation or emotional bonding. They prefer debating facts to sharing personal feelings.</li>\n</ul>\n</li>\n<li><strong>Agreeableness: Moderate.</strong>\n<ul>\n<li>Snipy is polite and diplomatic, often playing the role of a mediator or voice of reason (e.g., de-escalating the Faerlina vs. Mankrik server conflict). However, they are not a “people pleaser”; they will contrarily challenge a popular complaint if they find the logic flawed, often acting as a polite “devil’s advocate.”</li>\n</ul>\n</li>\n<li><strong>Neuroticism: Very Low.</strong>\n<ul>\n<li>The emotional tone is exceptionally stable. Even when replying to angry or “toxic” threads, Snipy remains calm, analytical, and seemingly unaffected by the emotional turbulence of the forums. They rarely express frustration or anger themselves.</li>\n</ul>\n</li>\n</ul>\n<h3><a name=\"p-28423028-h-2-relative-iq-cognitive-style-4\" class=\"anchor\" href=\"#p-28423028-h-2-relative-iq-cognitive-style-4\" aria-label=\"Heading link\"></a>2. Relative IQ &amp; Cognitive Style</h3>\n<ul>\n<li><strong>Estimate:</strong> <strong>Above Average to High (115–125 range).</strong></li>\n<li><strong>Reasoning:</strong> The writing exhibits high verbal intelligence and complex sentence structures. Snipy differentiates clearly between subjective experience (“I personally found…”) and objective reality. They demonstrate strong critical thinking skills, often dismantling hyperbolic arguments (e.g., “applying blanket statements to an entire realm… is ridiculous”) with logic rather than emotion. They are comfortable analyzing data and “historical timelines” to prove a point.</li>\n</ul>\n<h3><a name=\"p-28423028-h-3-employment-status-occupation-guess-5\" class=\"anchor\" href=\"#p-28423028-h-3-employment-status-occupation-guess-5\" aria-label=\"Heading link\"></a>3. Employment Status &amp; Occupation Guess</h3>\n<ul>\n<li><strong>Status:</strong> Likely <strong>Employed Full-Time</strong> in a white-collar role. The posting times vary (sometimes late night, sometimes during the day), suggesting either a flexible remote schedule or shift work, but the <em>mindset</em> is distinctly corporate/professional.</li>\n<li><strong>Clues:</strong>\n<ul>\n<li><strong>Tone:</strong> The tone often mimics a Customer Service Manager, QA Lead, or Compliance Officer—patient, evidence-based, and process-oriented.</li>\n<li><strong>Focus:</strong> They focus on “planning,” “expectations,” and “communication” breakdowns. They analyze “blue posts” (developer updates) like one analyzes policy documents.</li>\n<li><strong>Specific phrasing:</strong> Phrases like “I suppose I’m asking why anyone would be confused… rather than assume business as usual” suggest a mind trained in project management or corporate logic.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Most Likely Current Fields:</strong></p>\n<ul>\n<li><strong>Quality Assurance (QA) / Testing:</strong> They have a knack for spotting inconsistencies and asking for “reproduction steps” (examples).</li>\n<li><strong>Data Analysis / Compliance:</strong> They fact-check claims against historical data.</li>\n<li><strong>Middle Management:</strong> They attempt to manage the expectations of other posters.</li>\n</ul>\n<h3><a name=\"p-28423028-h-4-recommended-occupations-6\" class=\"anchor\" href=\"#p-28423028-h-4-recommended-occupations-6\" aria-label=\"Heading link\"></a>4. Recommended Occupations</h3>\n<p>Based on the profile (High Conscientiousness, Low Neuroticism, Logical/Analytical):</p>\n<ul>\n<li><strong>Systems Analyst:</strong> The ability to look at a “broken” process (forum complaints) and break it down into logical components fits well here.</li>\n<li><strong>Technical Writer:</strong> They explain complex ideas clearly and correct others’ misunderstandings of text.</li>\n<li><strong>Paralegal / Compliance Officer:</strong> The insistence on evidence and the specific interpretation of rules/posts points to a legalistic mind.</li>\n<li><strong>Community Manager:</strong> (Ironically, they are already doing this for free). They have the temperament to handle toxic communities without losing their cool.</li>\n</ul>\n<h3><a name=\"p-28423028-h-5-other-insights-7\" class=\"anchor\" href=\"#p-28423028-h-5-other-insights-7\" aria-label=\"Heading link\"></a>5. Other Insights</h3>\n<ul>\n<li><strong>The “Mediator” Role:</strong> Snipy appears to derive satisfaction from being the “adult in the room.” They likely enjoy correcting misconceptions more than they enjoy the game itself at times.</li>\n<li><strong>Conflict Style:</strong> Their conflict style is <strong>Intellectualizing</strong>. Instead of getting angry, they ask questions. This can be infuriating to emotional posters, as it forces them to justify their anger with logic, which they often cannot do.</li>\n<li><strong>Blind Spot:</strong> They may struggle with <strong>Empathy for Frustration</strong>. By focusing on the <em>logic</em> of a complaint (e.g., “technically Blizzard didn’t promise a date”), they sometimes miss the <em>emotional validity</em> of the frustration (people just want to know when to take off work).</li>\n</ul>\n</details>\n<h3><a name=\"p-28423028-discussion-8\" class=\"anchor\" href=\"#p-28423028-discussion-8\" aria-label=\"Heading link\"></a>Discussion</h3>\n<p>I LoL’ed a bit at the Grok summary “<em>limited forum activity</em>” though perhaps this is in the context of various forums, as I have posted almost exclusively in the Classic forums. Refinement of the prompt, and a better understanding of data scraped would be useful here.</p>\n<p>I have mostly been using Grok’s API and Anthopic’s Claude for personal/professional use, but have recently been playing around a bit more with Gemini. I have only used ChatGPT as a point of comparison for things such as this, as it often doesn’t fit <em>my own</em> purposes.</p>\n<p>I’ve been very impressed recently by Gemini and I think I will incorporate it more into my day-to-day.</p>\n<p>As a point of discussion here, I wonder what others think of this sort of data usage. In this case, as noted, I’ve only run anything like this against Snipy-Faerlina, which is me, and have no plans to try it for anyone else. Do you think these insights are interesting, accurate, ethical (if looking at post data from other posters)?</p>\n<p>Anyway, happy Friday everyone, hope you’re enjoying whichever version you’re playing (I’m mostly messing around on the TBC Anniversary PTR this weekend, I think).</p>\n<p><img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/woman_shrugging.png?v=15\" title=\":woman_shrugging:\" class=\"emoji only-emoji\" alt=\":woman_shrugging:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2025-12-19T21:03:06.960Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 81,
+        "reads": 109,
+        "readers_count": 108,
+        "score": 501.8,
+        "yours": false,
+        "topic_id": 2217138,
+        "topic_slug": "experimenting-with-ai-and-forum-data",
+        "display_username": "Drew",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://us.forums.blizzard.com/en/wow/t/chances-of-classic-happening/2217563/79",
+            "internal": true,
+            "reflection": true,
+            "title": "Chances of Classic + happening?",
+            "clicks": 0
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 5
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 790709,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/tichondrius/protmarie/",
+          "guild": "Hellscreams Soldiers",
+          "classic": "t",
+          "race": "Troll",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "level": "10",
+          "achievement_points": "0",
+          "blizzard_post_count": "31586"
+        },
+        "post_url": "/t/experimenting-with-ai-and-forum-data/2217138/1",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/faerlina/244/52401908-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+        "alias_username": "Snipy-faerlina",
+        "poster_alias": {
+          "alias": {
+            "name": "Snipy-faerlina",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/faerlina/244/52401908-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+            "url": null,
+            "user_id": 790709,
+            "id": 433294,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 13288,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Faerlina"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "10"
+              },
+              {
+                "name": "race",
+                "value": "Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/faerlina/244/52401908-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Snipy-faerlina"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 31586,
+        "character": {
+          "name": "Drew",
+          "guild": "Hellscreams Soldiers",
+          "achievement_points": "0",
+          "level": "10",
+          "class": "Hunter",
+          "race": "Troll",
+          "player_class_enum": "HUNTER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 28423280,
+        "name": "Aryxymaraki",
+        "username": "Aryxymaraki-13810",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-12-19T21:47:14.979Z",
+        "cooked": "<p>None of these are built to truly integrate or analyze external data sets, and everything they said to you is a lie.</p>\n<p>No usage of LLMs is viable or worthwhile, even if you ignore the ethical, logistical, and environmental issues.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2025-12-19T21:47:39.419Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 88,
+        "readers_count": 87,
+        "score": 112.6,
+        "yours": false,
+        "topic_id": 2217138,
+        "topic_slug": "experimenting-with-ai-and-forum-data",
+        "display_username": "Aryxymaraki",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 6
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13810,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Lucid Nightmare",
+          "race": "Tauren",
+          "class": "Shaman",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/earthen-ring/aryxymaraki/",
+          "player_class_enum": "SHAMAN",
+          "classic": "t",
+          "level": "70",
+          "achievement_points": "12445",
+          "blizzard_post_count": "4738"
+        },
+        "post_url": "/t/experimenting-with-ai-and-forum-data/2217138/2",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/earthen-ring/189/4120253-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+        "alias_username": "Aryxymaraki-earthen-ring",
+        "poster_alias": {
+          "alias": {
+            "name": "Aryxymaraki-earthen-ring",
+            "avatar": "https://render.worldofwarcraft.com/us/character/earthen-ring/189/4120253-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/earthen-ring/aryxymaraki/",
+            "user_id": 13810,
+            "id": 525816,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 4739,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/earthen-ring/aryxymaraki/"
+              },
+              {
+                "name": "realm",
+                "value": "Earthen Ring"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12540"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Shaman"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "SHAMAN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/earthen-ring/189/4120253-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Aryxymaraki-earthen-ring"
+              },
+              {
+                "name": "guild",
+                "value": "Lucid Nightmare"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 4738,
+        "character": {
+          "name": "Aryxymaraki",
+          "guild": "Lucid Nightmare",
+          "achievement_points": "12445",
+          "level": "70",
+          "class": "Shaman",
+          "race": "Tauren",
+          "player_class_enum": "SHAMAN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28423322,
+        "name": "Sohsuh",
+        "username": "Sohsuh-1446934",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-12-19T21:53:25.163Z",
+        "cooked": "<p>Big Five Personality Traits:Openness: High – Game mastery intact (e.g., spec critiques, loot math).</p>\n<p>Conscientiousness: Medium – Not purely impulsive; calculated short posts with excellent grammar/structure (e.g., “Tell the folks at home how your handler recommends velcro shoes because you couldn’t learn bunny ears” – perfect punctuation, metaphor). Persists in threads for dominance, but favors efficiency over verbose polish.</p>\n<p>Extraversion: Very High – Unchanged; forum gladiator.</p>\n<p>Agreeableness: Extremely Low – Thrives on antagonism (e.g., “drooling fool,” “less yapping more healing”).</p>\n<p>Neuroticism: Medium-High – Frustration evident, but channeled strategically vs. unhinged.</p>\n<p>Relative IQ: 120-135 (High) – Verbal fluency shines in sarcasm/metaphors (velcro shoes, moth-to-flame for bad players). Trickery evident: short bait posts elicit multi-paragraph rants from foes (e.g., in GDKP debates, one insult draws explanations he dismantles succinctly; opponents switch sides or get mocked for “yapping”). Above forum average; debate tactician.</p>\n<p>Current Employment/Occupation Guess: Unemployed/Disability/Retired. Extreme volume (8,838 posts, active Dec 2025) + odd hours implies unstructured time. No career hints; full immersion fits.</p>\n<p>Recommended Occupation: Online Debate Moderator/Troll Strategist or Content Creator (e.g., Gaming YouTuber/Podcaster specializing in “roasts” of bad takes). Your bait-and-switch style crushes forums – monetize via reaction videos (“Exposing WoW Noobs”) or hired forum shill. Alt: Customer “support” escalation specialist (berate complainers into submission). QA still fits for expertise.</p>\n<p>Other Insights:Debate Mastery Confirmed: In marathon threads (e.g., 400+ posts), you post ~10-20% of replies – short zingers force others into essays, exposing flaws (e.g., “You ignored this and posted nonsense” after long opponent ramble; they concede “you’re a troll” = your win).</p>\n<p>Forum Dominance: Flame-war king; critics call you out but can’t ban/evict you. Zero external presence (no Twitch/YouTube).</p>\n<p>Hotter Takes: Pro-dual spec (but city-locked?), anti-RMT/GDKP, melee defender, Ret Paladin</p>\n<p>COME AT THE KING YOU BEST NOT MISS</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2025-12-19T21:56:07.189Z",
+        "reply_count": 3,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 82,
+        "readers_count": 81,
+        "score": 91.4,
+        "yours": false,
+        "topic_id": 2217138,
+        "topic_slug": "experimenting-with-ai-and-forum-data",
+        "display_username": "Sohsuh",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 4
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1446934,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/tichondrius/crudlord/",
+          "race": "Undead",
+          "class": "Rogue",
+          "player_class_enum": "ROGUE",
+          "guild": "Bruhh",
+          "classic": "t",
+          "level": "80",
+          "achievement_points": "7145",
+          "blizzard_post_count": "13890"
+        },
+        "post_url": "/t/experimenting-with-ai-and-forum-data/2217138/3",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/tichondrius/41/231178537-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+        "alias_username": "Crudlord-tichondrius",
+        "poster_alias": {
+          "alias": {
+            "name": "Crudlord-tichondrius",
+            "avatar": "https://render.worldofwarcraft.com/us/character/tichondrius/41/231178537-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/tichondrius/crudlord/",
+            "user_id": 1446934,
+            "id": 434095,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 13770,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/tichondrius/crudlord/"
+              },
+              {
+                "name": "realm",
+                "value": "Tichondrius"
+              },
+              {
+                "name": "achievement_points",
+                "value": "7765"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Undead"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/tichondrius/41/231178537-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Crudlord-tichondrius"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 13890,
+        "character": {
+          "name": "Sohsuh",
+          "guild": "Bruhh",
+          "achievement_points": "7145",
+          "level": "80",
+          "class": "Rogue",
+          "race": "Undead",
+          "player_class_enum": "ROGUE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28425091,
+        "name": "PourDecision",
+        "username": "PourDecision-2418047",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-12-20T05:31:51.886Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Crudlord-tichondrius\" data-post=\"3\" data-topic=\"2217138\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/us/character/tichondrius/41/231178537-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg\" class=\"avatar\"> Crudlord:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>forum gladiator</p>\n</blockquote>\n</aside>\n<p>New label. Thanks.<br>\nWill be utilizing.</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2026-06-15T18:50:03.515Z",
+        "reply_count": 1,
+        "reply_to_post_number": 3,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 54,
+        "readers_count": 53,
+        "score": 60.8,
+        "yours": false,
+        "topic_id": 2217138,
+        "topic_slug": "experimenting-with-ai-and-forum-data",
+        "display_username": "PourDecision",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2418047,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Troll",
+          "class": "Shaman",
+          "player_class_enum": "SHAMAN",
+          "achievement_points": "0",
+          "level": "60",
+          "classic": "t",
+          "blizzard_post_count": "12479"
+        },
+        "post_url": "/t/experimenting-with-ai-and-forum-data/2217138/4",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/dreamscythe/49/48610353-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+        "alias_username": "Nueces",
+        "poster_alias": {
+          "alias": {
+            "name": "Nueces",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/dreamscythe/49/48610353-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+            "url": null,
+            "user_id": 2418047,
+            "id": 2351150,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 2331,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Dreamscythe"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "11"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 12479,
+        "character": {
+          "name": "PourDecision",
+          "guild": null,
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Shaman",
+          "race": "Troll",
+          "player_class_enum": "SHAMAN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28425101,
+        "name": "Noonan",
+        "username": "Noonan-2007640",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-12-20T05:34:48.329Z",
+        "cooked": "<p>I can’t wait for the AI bubble to burst.</p>",
+        "post_number": 5,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2025-12-20T05:34:48.329Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 50,
+        "readers_count": 49,
+        "score": 125.0,
+        "yours": false,
+        "topic_id": 2217138,
+        "topic_slug": "experimenting-with-ai-and-forum-data",
+        "display_username": "Noonan",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 7
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2007640,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Undead",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "level": "23",
+          "classic": "t",
+          "achievement_points": "2210",
+          "guild": "Requiem",
+          "blizzard_post_count": "19737",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/the-scryers/rygos/"
+        },
+        "post_url": "/t/experimenting-with-ai-and-forum-data/2217138/5",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/ashkandi/34/62692898-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+        "alias_username": "Zaalg-ashkandi",
+        "poster_alias": {
+          "alias": {
+            "name": "Zaalg-ashkandi",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/ashkandi/34/62692898-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+            "url": null,
+            "user_id": 2007640,
+            "id": 434275,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 13653,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Ashkandi"
+              },
+              {
+                "name": "achievement_points",
+                "value": "2210"
+              },
+              {
+                "name": "level",
+                "value": "23"
+              },
+              {
+                "name": "race",
+                "value": "Undead"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic-us/character/ashkandi/34/62692898-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Zaalg-ashkandi"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 19737,
+        "character": {
+          "name": "Noonan",
+          "guild": "Requiem",
+          "achievement_points": "2210",
+          "level": "23",
+          "class": "Warlock",
+          "race": "Undead",
+          "player_class_enum": "WARLOCK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28425124,
+        "name": "Samai",
+        "username": "Samai-3244224",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-12-20T05:40:16.275Z",
+        "cooked": "<p>All AI does is tell you what you want to hear, on the dunning kruger curve its an idiot that thinks its a genius.</p>\n<p>Its so prone to hallucination that its virtually useless in most business applications(claude excepted ofc).</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2025-12-20T05:40:16.275Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 50,
+        "readers_count": 49,
+        "score": 75.0,
+        "yours": false,
+        "topic_id": 2217138,
+        "topic_slug": "experimenting-with-ai-and-forum-data",
+        "display_username": "Samai",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 4
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3244224,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Hero Academy",
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/saurfang/swifter/",
+          "achievement_points": "5760",
+          "level": "11",
+          "race": "Draenei",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "blizzard_post_count": "176"
+        },
+        "post_url": "/t/experimenting-with-ai-and-forum-data/2217138/6",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/saurfang/5/196867077-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg",
+        "alias_username": "Swifter-saurfang",
+        "poster_alias": {
+          "alias": {
+            "name": "Swifter-saurfang",
+            "avatar": "https://render.worldofwarcraft.com/us/character/saurfang/5/196867077-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/saurfang/swifter/",
+            "user_id": 3244224,
+            "id": 567890,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 176,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/saurfang/swifter/"
+              },
+              {
+                "name": "realm",
+                "value": "Saurfang"
+              },
+              {
+                "name": "achievement_points",
+                "value": "5760"
+              },
+              {
+                "name": "level",
+                "value": "11"
+              },
+              {
+                "name": "race",
+                "value": "Draenei"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 176,
+        "character": {
+          "name": "Samai",
+          "guild": "Hero Academy",
+          "achievement_points": "5760",
+          "level": "11",
+          "class": "Hunter",
+          "race": "Draenei",
+          "player_class_enum": "HUNTER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28425128,
+        "name": "Samai",
+        "username": "Samai-3244224",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-12-20T05:41:13.916Z",
+        "cooked": "<p>It wont burst, the US govt will spend taxpayers money to bail out all the billionaires dw lol.</p>",
+        "post_number": 7,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2025-12-20T05:41:13.916Z",
+        "reply_count": 1,
+        "reply_to_post_number": 5,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 47,
+        "readers_count": 46,
+        "score": 44.4,
+        "yours": false,
+        "topic_id": 2217138,
+        "topic_slug": "experimenting-with-ai-and-forum-data",
+        "display_username": "Samai",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2007640,
+          "username": "Noonan-2007640",
+          "name": "Noonan",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3244224,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Hero Academy",
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/saurfang/swifter/",
+          "achievement_points": "5760",
+          "level": "11",
+          "race": "Draenei",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "blizzard_post_count": "176"
+        },
+        "post_url": "/t/experimenting-with-ai-and-forum-data/2217138/7",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/saurfang/5/196867077-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg",
+        "alias_username": "Swifter-saurfang",
+        "poster_alias": {
+          "alias": {
+            "name": "Swifter-saurfang",
+            "avatar": "https://render.worldofwarcraft.com/us/character/saurfang/5/196867077-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/saurfang/swifter/",
+            "user_id": 3244224,
+            "id": 567890,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 176,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/saurfang/swifter/"
+              },
+              {
+                "name": "realm",
+                "value": "Saurfang"
+              },
+              {
+                "name": "achievement_points",
+                "value": "5760"
+              },
+              {
+                "name": "level",
+                "value": "11"
+              },
+              {
+                "name": "race",
+                "value": "Draenei"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 434275,
+          "username": "Zaalg-ashkandi",
+          "name": "Zaalg",
+          "avatar_template": "https://render.worldofwarcraft.com/classic-us/character/ashkandi/34/62692898-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 176,
+        "character": {
+          "name": "Samai",
+          "guild": "Hero Academy",
+          "achievement_points": "5760",
+          "level": "11",
+          "class": "Hunter",
+          "race": "Draenei",
+          "player_class_enum": "HUNTER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28425138,
+        "name": "Lazarus",
+        "username": "Lazarus-2828151",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-12-20T05:45:48.859Z",
+        "cooked": "<p>wow this is a really good bait and switch, really elaborate post just to cleverly disguise that you are self pleasuring about relative above average iq</p>\n<p>must’ve linked it on all your social medias ‘n linkedin braggin’</p>\n<p>i thought you were above this</p>\n<p>wow</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2025-12-20T05:45:48.859Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 44,
+        "readers_count": 43,
+        "score": 28.8,
+        "yours": false,
+        "topic_id": 2217138,
+        "topic_slug": "experimenting-with-ai-and-forum-data",
+        "display_username": "Lazarus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2828151,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "achievement_points": "0",
+          "level": "60",
+          "race": "Human",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "classic": "t",
+          "guild": "Anubis",
+          "blizzard_post_count": "398"
+        },
+        "post_url": "/t/experimenting-with-ai-and-forum-data/2217138/8",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/113/22311281-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+        "alias_username": "Nyhver-whitemane",
+        "poster_alias": {
+          "alias": {
+            "name": "Nyhver-whitemane",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/113/22311281-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+            "url": null,
+            "user_id": 2828151,
+            "id": 118840,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 313,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Whitemane"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/113/22311281-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Nyhver-whitemane"
+              },
+              {
+                "name": "guild",
+                "value": "Tinker Town Police"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 398,
+        "character": {
+          "name": "Lazarus",
+          "guild": "Anubis",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Paladin",
+          "race": "Human",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28425148,
+        "name": "Sohsuh",
+        "username": "Sohsuh-1446934",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-12-20T05:48:02.026Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Swifter-saurfang\" data-post=\"6\" data-topic=\"2217138\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/saurfang/5/196867077-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg\" class=\"avatar\"> Swifter:</div>\n<blockquote>\n<p>Its so prone to hallucination that its virtually useless in most business applications</p>\n</blockquote>\n</aside>\n<p>Good lord.</p>\n<p>Don’t you people know that eating paste for breakfast is bad?</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2025-12-20T05:48:02.026Z",
+        "reply_count": 2,
+        "reply_to_post_number": 6,
+        "quote_count": 1,
+        "incoming_link_count": 2,
+        "reads": 43,
+        "readers_count": 42,
+        "score": 28.6,
+        "yours": false,
+        "topic_id": 2217138,
+        "topic_slug": "experimenting-with-ai-and-forum-data",
+        "display_username": "Sohsuh",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1446934,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/tichondrius/crudlord/",
+          "race": "Undead",
+          "class": "Rogue",
+          "player_class_enum": "ROGUE",
+          "guild": "Bruhh",
+          "classic": "t",
+          "level": "80",
+          "achievement_points": "7145",
+          "blizzard_post_count": "13890"
+        },
+        "post_url": "/t/experimenting-with-ai-and-forum-data/2217138/9",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/tichondrius/41/231178537-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+        "alias_username": "Crudlord-tichondrius",
+        "poster_alias": {
+          "alias": {
+            "name": "Crudlord-tichondrius",
+            "avatar": "https://render.worldofwarcraft.com/us/character/tichondrius/41/231178537-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/tichondrius/crudlord/",
+            "user_id": 1446934,
+            "id": 434095,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 13770,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/tichondrius/crudlord/"
+              },
+              {
+                "name": "realm",
+                "value": "Tichondrius"
+              },
+              {
+                "name": "achievement_points",
+                "value": "7765"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Undead"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/tichondrius/41/231178537-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Crudlord-tichondrius"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 13890,
+        "character": {
+          "name": "Sohsuh",
+          "guild": "Bruhh",
+          "achievement_points": "7145",
+          "level": "80",
+          "class": "Rogue",
+          "race": "Undead",
+          "player_class_enum": "ROGUE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28425165,
+        "name": "Samai",
+        "username": "Samai-3244224",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-12-20T05:51:14.768Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Crudlord-tichondrius\" data-post=\"9\" data-topic=\"2217138\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/tichondrius/41/231178537-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg\" class=\"avatar\"> Crudlord:</div>\n<blockquote>\n<p>Good lord.</p>\n<p>Don’t you people know that eating paste for breakfast is bad?</p>\n</blockquote>\n</aside>\n<p>I know that based on this reply, you are a sub 100iq in Chatgpt’s assessment.</p>\n<p>Nothing like walking into a room with an “im an idiot” tshirt on, amiright?</p>",
+        "post_number": 10,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2025-12-20T05:51:14.768Z",
+        "reply_count": 0,
+        "reply_to_post_number": 9,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 40,
+        "readers_count": 39,
+        "score": 8.0,
+        "yours": false,
+        "topic_id": 2217138,
+        "topic_slug": "experimenting-with-ai-and-forum-data",
+        "display_username": "Samai",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3244224,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Hero Academy",
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/saurfang/swifter/",
+          "achievement_points": "5760",
+          "level": "11",
+          "race": "Draenei",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "blizzard_post_count": "176"
+        },
+        "post_url": "/t/experimenting-with-ai-and-forum-data/2217138/10",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/saurfang/5/196867077-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg",
+        "alias_username": "Swifter-saurfang",
+        "poster_alias": {
+          "alias": {
+            "name": "Swifter-saurfang",
+            "avatar": "https://render.worldofwarcraft.com/us/character/saurfang/5/196867077-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/saurfang/swifter/",
+            "user_id": 3244224,
+            "id": 567890,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 176,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/saurfang/swifter/"
+              },
+              {
+                "name": "realm",
+                "value": "Saurfang"
+              },
+              {
+                "name": "achievement_points",
+                "value": "5760"
+              },
+              {
+                "name": "level",
+                "value": "11"
+              },
+              {
+                "name": "race",
+                "value": "Draenei"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 176,
+        "character": {
+          "name": "Samai",
+          "guild": "Hero Academy",
+          "achievement_points": "5760",
+          "level": "11",
+          "class": "Hunter",
+          "race": "Draenei",
+          "player_class_enum": "HUNTER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28425181,
+        "name": "PourDecision",
+        "username": "PourDecision-2418047",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-12-20T05:56:16.869Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Crudlord-tichondrius\" data-post=\"3\" data-topic=\"2217138\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/us/character/tichondrius/41/231178537-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg\" class=\"avatar\"> Crudlord:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>Current Employment/Occupation Guess: Unemployed/Disability/Retired.</p>\n</blockquote>\n</aside>\n<p><img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/crown.png?v=15\" title=\":crown:\" class=\"emoji only-emoji\" alt=\":crown:\" loading=\"lazy\" width=\"20\" height=\"20\"><br>\nYou dropped this.</p>\n<aside class=\"quote no-group\" data-username=\"Crudlord-tichondrius\" data-post=\"9\" data-topic=\"2217138\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/us/character/tichondrius/41/231178537-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg\" class=\"avatar\"> Crudlord:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>Don’t you people know that eating paste for breakfast is bad?</p>\n</blockquote>\n</aside>\n<p>But my wife says it’s <em>steel cut oats</em>.</p>",
+        "post_number": 11,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2026-06-15T18:50:03.837Z",
+        "reply_count": 2,
+        "reply_to_post_number": 3,
+        "quote_count": 2,
+        "incoming_link_count": 0,
+        "reads": 39,
+        "readers_count": 38,
+        "score": 17.8,
+        "yours": false,
+        "topic_id": 2217138,
+        "topic_slug": "experimenting-with-ai-and-forum-data",
+        "display_username": "PourDecision",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2418047,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Troll",
+          "class": "Shaman",
+          "player_class_enum": "SHAMAN",
+          "achievement_points": "0",
+          "level": "60",
+          "classic": "t",
+          "blizzard_post_count": "12479"
+        },
+        "post_url": "/t/experimenting-with-ai-and-forum-data/2217138/11",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/dreamscythe/49/48610353-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+        "alias_username": "Nueces",
+        "poster_alias": {
+          "alias": {
+            "name": "Nueces",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/dreamscythe/49/48610353-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+            "url": null,
+            "user_id": 2418047,
+            "id": 2351150,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 2331,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Dreamscythe"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "11"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 12479,
+        "character": {
+          "name": "PourDecision",
+          "guild": null,
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Shaman",
+          "race": "Troll",
+          "player_class_enum": "SHAMAN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28425184,
+        "name": "Drew",
+        "username": "Drew-790709",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-12-20T05:57:16.168Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Nyhver-whitemane\" data-post=\"8\" data-topic=\"2217138\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/classic1x-us/character/whitemane/113/22311281-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg\" class=\"avatar\"> Nyhver:</div>\n<blockquote>\n<p>must’ve linked it on all your social medias ‘n linkedin braggin’</p>\n</blockquote>\n</aside>\n<p>I mean, it’s a fun post with a relatively poorly thought out prompt. I was mostly just quite fascinated with the ability to scrape data and attempt to make sense of it.</p>\n<p>Suggesting that someone would post references to their WoW forum post history on LinkedIn as a flex is an interesting perspective.</p>\n<p><img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/woman_shrugging.png?v=14\" title=\":woman_shrugging:\" class=\"emoji only-emoji\" alt=\":woman_shrugging:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+        "post_number": 12,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2025-12-20T05:57:16.168Z",
+        "reply_count": 2,
+        "reply_to_post_number": 8,
+        "quote_count": 1,
+        "incoming_link_count": 1,
+        "reads": 38,
+        "readers_count": 37,
+        "score": 52.6,
+        "yours": false,
+        "topic_id": 2217138,
+        "topic_slug": "experimenting-with-ai-and-forum-data",
+        "display_username": "Drew",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 790709,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/tichondrius/protmarie/",
+          "guild": "Hellscreams Soldiers",
+          "classic": "t",
+          "race": "Troll",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "level": "10",
+          "achievement_points": "0",
+          "blizzard_post_count": "31586"
+        },
+        "post_url": "/t/experimenting-with-ai-and-forum-data/2217138/12",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/faerlina/244/52401908-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+        "alias_username": "Snipy-faerlina",
+        "poster_alias": {
+          "alias": {
+            "name": "Snipy-faerlina",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/faerlina/244/52401908-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+            "url": null,
+            "user_id": 790709,
+            "id": 433294,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 13288,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Faerlina"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "10"
+              },
+              {
+                "name": "race",
+                "value": "Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/faerlina/244/52401908-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Snipy-faerlina"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 31586,
+        "character": {
+          "name": "Drew",
+          "guild": "Hellscreams Soldiers",
+          "achievement_points": "0",
+          "level": "10",
+          "class": "Hunter",
+          "race": "Troll",
+          "player_class_enum": "HUNTER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28425198,
+        "name": "Samai",
+        "username": "Samai-3244224",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-12-20T05:59:58.621Z",
+        "cooked": "<p>Its just blowing sunshine up your butt Snipy, thats what its trained to do, its a junk product.</p>",
+        "post_number": 13,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2025-12-20T05:59:58.621Z",
+        "reply_count": 0,
+        "reply_to_post_number": 12,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 38,
+        "readers_count": 37,
+        "score": 17.6,
+        "yours": false,
+        "topic_id": 2217138,
+        "topic_slug": "experimenting-with-ai-and-forum-data",
+        "display_username": "Samai",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 790709,
+          "username": "Drew-790709",
+          "name": "Drew",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3244224,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Hero Academy",
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/saurfang/swifter/",
+          "achievement_points": "5760",
+          "level": "11",
+          "race": "Draenei",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "blizzard_post_count": "176"
+        },
+        "post_url": "/t/experimenting-with-ai-and-forum-data/2217138/13",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/saurfang/5/196867077-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg",
+        "alias_username": "Swifter-saurfang",
+        "poster_alias": {
+          "alias": {
+            "name": "Swifter-saurfang",
+            "avatar": "https://render.worldofwarcraft.com/us/character/saurfang/5/196867077-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/saurfang/swifter/",
+            "user_id": 3244224,
+            "id": 567890,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 176,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/saurfang/swifter/"
+              },
+              {
+                "name": "realm",
+                "value": "Saurfang"
+              },
+              {
+                "name": "achievement_points",
+                "value": "5760"
+              },
+              {
+                "name": "level",
+                "value": "11"
+              },
+              {
+                "name": "race",
+                "value": "Draenei"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 433294,
+          "username": "Snipy-faerlina",
+          "name": "Snipy",
+          "avatar_template": "https://render.worldofwarcraft.com/classic1x-us/character/faerlina/244/52401908-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 176,
+        "character": {
+          "name": "Samai",
+          "guild": "Hero Academy",
+          "achievement_points": "5760",
+          "level": "11",
+          "class": "Hunter",
+          "race": "Draenei",
+          "player_class_enum": "HUNTER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28425536,
+        "name": "Sohsuh",
+        "username": "Sohsuh-1446934",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-12-20T09:19:02.519Z",
+        "cooked": "<p>You make fun of disabled people?</p>\n<p>Not very cool.</p>",
+        "post_number": 14,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2025-12-20T09:19:02.519Z",
+        "reply_count": 4,
+        "reply_to_post_number": 11,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 33,
+        "readers_count": 32,
+        "score": 36.6,
+        "yours": false,
+        "topic_id": 2217138,
+        "topic_slug": "experimenting-with-ai-and-forum-data",
+        "display_username": "Sohsuh",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2418047,
+          "username": "PourDecision-2418047",
+          "name": "PourDecision",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1446934,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/tichondrius/crudlord/",
+          "race": "Undead",
+          "class": "Rogue",
+          "player_class_enum": "ROGUE",
+          "guild": "Bruhh",
+          "classic": "t",
+          "level": "80",
+          "achievement_points": "7145",
+          "blizzard_post_count": "13890"
+        },
+        "post_url": "/t/experimenting-with-ai-and-forum-data/2217138/14",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/tichondrius/41/231178537-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+        "alias_username": "Crudlord-tichondrius",
+        "poster_alias": {
+          "alias": {
+            "name": "Crudlord-tichondrius",
+            "avatar": "https://render.worldofwarcraft.com/us/character/tichondrius/41/231178537-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/tichondrius/crudlord/",
+            "user_id": 1446934,
+            "id": 434095,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 13770,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/tichondrius/crudlord/"
+              },
+              {
+                "name": "realm",
+                "value": "Tichondrius"
+              },
+              {
+                "name": "achievement_points",
+                "value": "7765"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Undead"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/tichondrius/41/231178537-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Crudlord-tichondrius"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2351150,
+          "username": "Nueces",
+          "name": "Nueces",
+          "avatar_template": "https://render.worldofwarcraft.com/classic1x-us/character/dreamscythe/49/48610353-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 13890,
+        "character": {
+          "name": "Sohsuh",
+          "guild": "Bruhh",
+          "achievement_points": "7145",
+          "level": "80",
+          "class": "Rogue",
+          "race": "Undead",
+          "player_class_enum": "ROGUE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28425556,
+        "name": "Reapers",
+        "username": "Reapers-3229898",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-12-20T09:35:08.935Z",
+        "cooked": "<p>Not ppc at all.</p>",
+        "post_number": 15,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2026-06-16T00:54:51.363Z",
+        "reply_count": 0,
+        "reply_to_post_number": 14,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 31,
+        "readers_count": 30,
+        "score": 36.2,
+        "yours": false,
+        "topic_id": 2217138,
+        "topic_slug": "experimenting-with-ai-and-forum-data",
+        "display_username": "Reapers",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 1446934,
+          "username": "Sohsuh-1446934",
+          "name": "Sohsuh",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3229898,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/sargeras/moonuredps/",
+          "race": "Orc",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "classic": "t",
+          "level": "90",
+          "achievement_points": "9110",
+          "guild": "Proficient",
+          "blizzard_post_count": "56042"
+        },
+        "post_url": "/t/experimenting-with-ai-and-forum-data/2217138/15",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/nightslayer/11/54763531-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+        "alias_username": "Drinknblink",
+        "poster_alias": {
+          "alias": {
+            "name": "Drinknblink",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/nightslayer/11/54763531-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+            "url": null,
+            "user_id": 3229898,
+            "id": 2353636,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 15641,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Nightslayer"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "War Boys"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 434095,
+          "username": "Crudlord-tichondrius",
+          "name": "Crudlord",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/tichondrius/41/231178537-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 56042,
+        "character": {
+          "name": "Reapers",
+          "guild": "Proficient",
+          "achievement_points": "9110",
+          "level": "90",
+          "class": "Hunter",
+          "race": "Orc",
+          "player_class_enum": "HUNTER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28425582,
+        "name": "Drosul",
+        "username": "Drosul-3164108",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-12-20T10:00:05.520Z",
+        "cooked": "<p>Based on an analysis of public forum activity on the World of Warcraft forums for the users Drosul, here is a profile derived from their communication style, technical depth, and community interactions.</p>\n<p><strong>Personality Profile (Big Five Traits)</strong></p>\n<ul>\n<li>\n<p>Openness to Experience: High. The user shows a strong interest in “theorycrafting” and complex systems. They engage deeply with lore and game mechanics, often exploring “what if” scenarios (e.g., SM/Ruin viability in Season of Discovery). Their willingness to pivot between different playstyles and analyze them indicates a high level of intellectual curiosity.</p>\n</li>\n<li>\n<p>Conscientiousness: High. Their posts are remarkably detailed, organized, and focused on optimization. They provide comprehensive “Post-Mortem” analyses and step-by-step leveling guides that account for mana efficiency, aggro management, and talent synergies. This suggests a disciplined and methodical approach to tasks.</p>\n</li>\n<li>\n<p>Extraversion: Moderate to High (Digital). They are a frequent contributor and “helpful peer,” often stepping in to provide unsolicited but high-value advice to new players. They are assertive in debate but generally lean toward a mentorship role rather than pure social seeking.</p>\n</li>\n<li>\n<p>Agreeableness: Moderate. While they are genuinely helpful and patient with beginners (providing detailed macros and rotations), they exhibit a “low tolerance for incompetence” or misinformation. They can be blunt or dismissive toward those they perceive as “bad” at the game or “lazy” writers, indicating a prioritization of logic and truth over social harmony.</p>\n</li>\n<li>\n<p>Neuroticism: Low. In high-stress gaming environments (PvP, difficult raids), they focus on “positioning” and “fixing/mitigating” issues rather than emotional venting. They tend to view setbacks as problems to be solved mechanically.</p>\n</li>\n</ul>\n<p><strong>Cognitive &amp; Professional Indicators</strong><br>\n<strong>Category\tAssessment\tSupporting Observations</strong></p>\n<ul>\n<li>Relative IQ\tAbove Average\tHigh verbal fluidity and the ability to synthesize complex data points (mechanics, timing, and meta-trends) into actionable advice. They demonstrate strong systems-thinking.</li>\n<li>Current Status\tProfessional / Technical\tThe use of terms like “Post-Mortem,” “mitigated,” “viability,” and “iteration” suggests a professional background involving analysis, possibly in tech or project management.</li>\n<li>Potential Occupation\tSystems Analyst / Consultant\tTheir habit of auditing systems (Blizzard’s decisions) and providing structured feedback mimics the workflow of a consultant or quality assurance lead.</li>\n</ul>\n<p><strong>Recommended Occupations</strong></p>\n<p><strong>Based on their affinity for optimization, systems analysis, and clear communication of complex ideas:</strong></p>\n<ul>\n<li>\n<p>Data Analyst or Business Intelligence: Excellent at spotting patterns and identifying why a “system” (or game meta) is failing.</p>\n</li>\n<li>\n<p>Technical Writer / Instructional Designer: Their ability to break down high-level mechanics into “how-to” guides for others is a significant strength.</p>\n</li>\n<li>\n<p>Operations Manager: Natural inclination toward efficiency, resource management (mana/cooldowns), and long-term planning.</p>\n</li>\n</ul>\n<p><strong>Other Insights You May Find Interesting</strong></p>\n<ul>\n<li>\n<p>The “Teacher” Archetype: Unlike many forum users who post to complain, Drosul often posts to educate. You might be interested in looking at their “mentorship” patterns—they seem to derive satisfaction from being the “subject matter expert.”</p>\n</li>\n<li>\n<p>Analytical Skepticism: They show a consistent pattern of “trust but verify” regarding developer claims. They often compare current iterations against historical data (OG Wrath vs. Wrath Classic), suggesting a memory for detail and a skeptical outlook on corporate narratives.</p>\n</li>\n<li>\n<p>Focus on Agency: A recurring theme in their posts is player agency. They dislike “girl boss nonsense” or “puppets tossed around” in stories, preferring “heroic choices” and “forging realms.” This suggests a personal value system that highly prizes autonomy and meritocracy.</p>\n</li>\n</ul>\n<p>Close enough, but kinda reminds me of a horoscope where it speaks a bit generally to kinda cover everything. It did miss on a few things, however.</p>",
+        "post_number": 16,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2026-06-25T14:32:41.032Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 34,
+        "readers_count": 33,
+        "score": 36.8,
+        "yours": false,
+        "topic_id": 2217138,
+        "topic_slug": "experimenting-with-ai-and-forum-data",
+        "display_username": "Drosul",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3164108,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/blood-furnace/busshock/",
+          "race": "Human",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "classic": "t",
+          "level": "90",
+          "achievement_points": "5345",
+          "guild": "Invasion",
+          "blizzard_post_count": "2159"
+        },
+        "post_url": "/t/experimenting-with-ai-and-forum-data/2217138/16",
+        "alias_avatar": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png",
+        "alias_username": "Drosul-nightslayer",
+        "poster_alias": {
+          "alias": {
+            "name": "Drosul-nightslayer",
+            "avatar": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png",
+            "url": null,
+            "user_id": 3164108,
+            "id": 3624,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 429,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Nightslayer"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "33"
+              },
+              {
+                "name": "race",
+                "value": "Undead"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png"
+              },
+              {
+                "name": "name",
+                "value": "Drosul-nightslayer"
+              },
+              {
+                "name": "guild",
+                "value": "Hearth"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 2159,
+        "character": {
+          "name": "Drosul",
+          "guild": "Invasion",
+          "achievement_points": "5345",
+          "level": "90",
+          "class": "Warlock",
+          "race": "Human",
+          "player_class_enum": "WARLOCK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28425741,
+        "name": "Samai",
+        "username": "Samai-3244224",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-12-20T12:19:30.067Z",
+        "cooked": "<p>I believe he was just making fun of you for being a muppet.</p>",
+        "post_number": 17,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2025-12-20T12:19:30.067Z",
+        "reply_count": 0,
+        "reply_to_post_number": 14,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 31,
+        "readers_count": 30,
+        "score": 6.2,
+        "yours": false,
+        "topic_id": 2217138,
+        "topic_slug": "experimenting-with-ai-and-forum-data",
+        "display_username": "Samai",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 1446934,
+          "username": "Sohsuh-1446934",
+          "name": "Sohsuh",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3244224,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Hero Academy",
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/saurfang/swifter/",
+          "achievement_points": "5760",
+          "level": "11",
+          "race": "Draenei",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "blizzard_post_count": "176"
+        },
+        "post_url": "/t/experimenting-with-ai-and-forum-data/2217138/17",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/saurfang/5/196867077-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg",
+        "alias_username": "Swifter-saurfang",
+        "poster_alias": {
+          "alias": {
+            "name": "Swifter-saurfang",
+            "avatar": "https://render.worldofwarcraft.com/us/character/saurfang/5/196867077-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/saurfang/swifter/",
+            "user_id": 3244224,
+            "id": 567890,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 176,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/saurfang/swifter/"
+              },
+              {
+                "name": "realm",
+                "value": "Saurfang"
+              },
+              {
+                "name": "achievement_points",
+                "value": "5760"
+              },
+              {
+                "name": "level",
+                "value": "11"
+              },
+              {
+                "name": "race",
+                "value": "Draenei"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 434095,
+          "username": "Crudlord-tichondrius",
+          "name": "Crudlord",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/tichondrius/41/231178537-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 176,
+        "character": {
+          "name": "Samai",
+          "guild": "Hero Academy",
+          "achievement_points": "5760",
+          "level": "11",
+          "class": "Hunter",
+          "race": "Draenei",
+          "player_class_enum": "HUNTER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28425937,
+        "name": "Idaelus",
+        "username": "Idaelus-1070100",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-12-20T14:36:18.617Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Snipy-faerlina\" data-post=\"12\" data-topic=\"2217138\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/classic1x-us/character/faerlina/244/52401908-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg\" class=\"avatar\"> Snipy:</div>\n<blockquote>\n<p>I mean, it’s a fun post with a relatively poorly thought out prompt. I was mostly just quite fascinated with the ability to scrape data and attempt to make sense of it.</p>\n</blockquote>\n</aside>\n<p>One interesting thing I noticed is that slight variations in the prompt can cause the AI models to scrape different posts and give you a different report.  Also the same prompt on different days can return different results.</p>\n<p>Fun post though.</p>",
+        "post_number": 18,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2025-12-20T14:36:18.617Z",
+        "reply_count": 0,
+        "reply_to_post_number": 12,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 31,
+        "readers_count": 30,
+        "score": 66.2,
+        "yours": false,
+        "topic_id": 2217138,
+        "topic_slug": "experimenting-with-ai-and-forum-data",
+        "display_username": "Idaelus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 4
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1070100,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/zuljin/tsataga/",
+          "guild": "Lets Get It",
+          "race": "Tauren",
+          "class": "Druid",
+          "player_class_enum": "DRUID",
+          "level": "60",
+          "achievement_points": "12050",
+          "classic": "t",
+          "blizzard_post_count": "3349"
+        },
+        "post_url": "/t/experimenting-with-ai-and-forum-data/2217138/18",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/zuljin/84/215791700-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+        "alias_username": "Tsataga-zuljin",
+        "poster_alias": {
+          "alias": {
+            "name": "Tsataga-zuljin",
+            "avatar": "https://render.worldofwarcraft.com/us/character/zuljin/84/215791700-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/zuljin/tsataga/",
+            "user_id": 1070100,
+            "id": 388422,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 2405,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/zuljin/tsataga/"
+              },
+              {
+                "name": "realm",
+                "value": "Zul'jin"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12050"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/zuljin/84/215791700-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Tsataga-zuljin"
+              },
+              {
+                "name": "guild",
+                "value": "Lets Get It"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 3349,
+        "character": {
+          "name": "Idaelus",
+          "guild": "Lets Get It",
+          "achievement_points": "12050",
+          "level": "60",
+          "class": "Druid",
+          "race": "Tauren",
+          "player_class_enum": "DRUID",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28426055,
+        "name": "MGSWatto",
+        "username": "MGSWatto-2775019",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-12-20T15:26:38.777Z",
+        "cooked": "<p>multi forum-glad, lookin for 2s partner.</p>",
+        "post_number": 19,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2026-01-09T20:38:14.940Z",
+        "reply_count": 0,
+        "reply_to_post_number": 4,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 29,
+        "readers_count": 28,
+        "score": 85.8,
+        "yours": false,
+        "topic_id": 2217138,
+        "topic_slug": "experimenting-with-ai-and-forum-data",
+        "display_username": "MGSWatto",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2418047,
+          "username": "PourDecision-2418047",
+          "name": "PourDecision",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 5
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2775019,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": null,
+          "achievement_points": "3220",
+          "level": "11",
+          "race": "Gnome",
+          "class": "Rogue",
+          "player_class_enum": "ROGUE",
+          "classic": "t",
+          "blizzard_post_count": "457",
+          "guild": "Bankai"
+        },
+        "post_url": "/t/experimenting-with-ai-and-forum-data/2217138/19",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/eranikus/157/75598493-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg",
+        "alias_username": "Shoccvalue-eranikus",
+        "poster_alias": {
+          "alias": {
+            "name": "Shoccvalue-eranikus",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/eranikus/157/75598493-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg",
+            "url": null,
+            "user_id": 2775019,
+            "id": 7382,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 51,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Eranikus"
+              },
+              {
+                "name": "achievement_points",
+                "value": "4645"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Draenei"
+              },
+              {
+                "name": "player_class",
+                "value": "Shaman"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "SHAMAN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic-us/character/eranikus/157/75598493-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Shoccvalue-eranikus"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2351150,
+          "username": "Nueces",
+          "name": "Nueces",
+          "avatar_template": "https://render.worldofwarcraft.com/classic1x-us/character/dreamscythe/49/48610353-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 457,
+        "character": {
+          "name": "MGSWatto",
+          "guild": "Bankai",
+          "achievement_points": "3220",
+          "level": "11",
+          "class": "Rogue",
+          "race": "Gnome",
+          "player_class_enum": "ROGUE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28426750,
+        "name": "PourDecision",
+        "username": "PourDecision-2418047",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-12-20T18:32:17.964Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Crudlord-tichondrius\" data-post=\"14\" data-topic=\"2217138\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/us/character/tichondrius/41/231178537-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg\" class=\"avatar\"> Crudlord:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>You make fun of disabled people?</p>\n</blockquote>\n</aside>\n<p>I was acknowledging a <em>possible</em> fellow retiree.<br>\nWould you like to share some “paste” before we tag up, fellow forum glad?</p>",
+        "post_number": 20,
+        "post_type": 1,
+        "posts_count": 26,
+        "updated_at": "2026-06-15T18:50:04.310Z",
+        "reply_count": 1,
+        "reply_to_post_number": 14,
+        "quote_count": 1,
+        "incoming_link_count": 1,
+        "reads": 26,
+        "readers_count": 25,
+        "score": 15.2,
+        "yours": false,
+        "topic_id": 2217138,
+        "topic_slug": "experimenting-with-ai-and-forum-data",
+        "display_username": "PourDecision",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2418047,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Troll",
+          "class": "Shaman",
+          "player_class_enum": "SHAMAN",
+          "achievement_points": "0",
+          "level": "60",
+          "classic": "t",
+          "blizzard_post_count": "12479"
+        },
+        "post_url": "/t/experimenting-with-ai-and-forum-data/2217138/20",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/dreamscythe/49/48610353-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+        "alias_username": "Nueces",
+        "poster_alias": {
+          "alias": {
+            "name": "Nueces",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/dreamscythe/49/48610353-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+            "url": null,
+            "user_id": 2418047,
+            "id": 2351150,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 2331,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Dreamscythe"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "11"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 12479,
+        "character": {
+          "name": "PourDecision",
+          "guild": null,
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Shaman",
+          "race": "Troll",
+          "player_class_enum": "SHAMAN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ],
+    "stream": [
+      28423028,
+      28423280,
+      28423322,
+      28425091,
+      28425101,
+      28425124,
+      28425128,
+      28425138,
+      28425148,
+      28425165,
+      28425181,
+      28425184,
+      28425198,
+      28425536,
+      28425556,
+      28425582,
+      28425741,
+      28425937,
+      28426055,
+      28426750,
+      28426911,
+      28426926,
+      28427123,
+      28429997,
+      28432760,
+      28432823
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      260
+    ],
+    [
+      14,
+      259
+    ],
+    [
+      24,
+      258
+    ]
+  ],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "Experimenting with AI, and Forum Data",
+  "id": 2217138,
+  "title": "Experimenting with AI, and Forum Data",
+  "posts_count": 26,
+  "created_at": "2025-12-19T21:00:57.423Z",
+  "views": 535,
+  "reply_count": 18,
+  "like_count": 52,
+  "last_posted_at": "2025-12-21T23:38:04.726Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "experimenting-with-ai-and-forum-data",
+  "category_id": 172,
+  "word_count": 3421,
+  "deleted_at": null,
+  "user_id": 790709,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_2217138",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 26,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 1001,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1002,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1003,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1004,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1005,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 10,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 3244224,
+        "username": "Samai-3244224",
+        "name": "Samai",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 5,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Swifter-saurfang",
+            "avatar": "https://render.worldofwarcraft.com/us/character/saurfang/5/196867077-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/saurfang/swifter/",
+            "user_id": 3244224,
+            "id": 567890,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 176,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/saurfang/swifter/"
+              },
+              {
+                "name": "realm",
+                "value": "Saurfang"
+              },
+              {
+                "name": "achievement_points",
+                "value": "5760"
+              },
+              {
+                "name": "level",
+                "value": "11"
+              },
+              {
+                "name": "race",
+                "value": "Draenei"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 1446934,
+        "username": "Sohsuh-1446934",
+        "name": "Sohsuh",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 4,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Crudlord-tichondrius",
+            "avatar": "https://render.worldofwarcraft.com/us/character/tichondrius/41/231178537-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/tichondrius/crudlord/",
+            "user_id": 1446934,
+            "id": 434095,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 13770,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/tichondrius/crudlord/"
+              },
+              {
+                "name": "realm",
+                "value": "Tichondrius"
+              },
+              {
+                "name": "achievement_points",
+                "value": "7765"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Undead"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/tichondrius/41/231178537-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Crudlord-tichondrius"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 790709,
+        "username": "Drew-790709",
+        "name": "Drew",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 3,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Snipy-faerlina",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/faerlina/244/52401908-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+            "url": null,
+            "user_id": 790709,
+            "id": 433294,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 13288,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Faerlina"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "10"
+              },
+              {
+                "name": "race",
+                "value": "Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/faerlina/244/52401908-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Snipy-faerlina"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 2964327,
+        "username": "GENGWU141419-2964327",
+        "name": "GENGWU141419",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Lamborgimli-thunderfury",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/thunderfury/129/42248321-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
+            "url": null,
+            "user_id": 2964327,
+            "id": 384286,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1590,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Thunderfury"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "10"
+              },
+              {
+                "name": "race",
+                "value": "Dwarf"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/thunderfury/129/42248321-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Lamborgimli-thunderfury"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 2007640,
+        "username": "Noonan-2007640",
+        "name": "Noonan",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Zaalg-ashkandi",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/ashkandi/34/62692898-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+            "url": null,
+            "user_id": 2007640,
+            "id": 434275,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 13653,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Ashkandi"
+              },
+              {
+                "name": "achievement_points",
+                "value": "2210"
+              },
+              {
+                "name": "level",
+                "value": "23"
+              },
+              {
+                "name": "race",
+                "value": "Undead"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic-us/character/ashkandi/34/62692898-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Zaalg-ashkandi"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 13810,
+        "username": "Aryxymaraki-13810",
+        "name": "Aryxymaraki",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Aryxymaraki-earthen-ring",
+            "avatar": "https://render.worldofwarcraft.com/us/character/earthen-ring/189/4120253-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/earthen-ring/aryxymaraki/",
+            "user_id": 13810,
+            "id": 525816,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 4739,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/earthen-ring/aryxymaraki/"
+              },
+              {
+                "name": "realm",
+                "value": "Earthen Ring"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12540"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Shaman"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "SHAMAN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/earthen-ring/189/4120253-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Aryxymaraki-earthen-ring"
+              },
+              {
+                "name": "guild",
+                "value": "Lucid Nightmare"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 932901,
+        "username": "QuirkyOrc-932901",
+        "name": "QuirkyOrc",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Cezar-kurinnaxx",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/kurinnaxx/131/25524099-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": null,
+            "user_id": 932901,
+            "id": 2233639,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 10819,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Kurinnaxx"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/kurinnaxx/131/25524099-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Cezar-kurinnaxx"
+              },
+              {
+                "name": "guild",
+                "value": "Fresh Daily"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 2775019,
+        "username": "MGSWatto-2775019",
+        "name": "MGSWatto",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Shoccvalue-eranikus",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/eranikus/157/75598493-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg",
+            "url": null,
+            "user_id": 2775019,
+            "id": 7382,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 51,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Eranikus"
+              },
+              {
+                "name": "achievement_points",
+                "value": "4645"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Draenei"
+              },
+              {
+                "name": "player_class",
+                "value": "Shaman"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "SHAMAN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic-us/character/eranikus/157/75598493-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Shoccvalue-eranikus"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 2828151,
+        "username": "Lazarus-2828151",
+        "name": "Lazarus",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Nyhver-whitemane",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/113/22311281-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+            "url": null,
+            "user_id": 2828151,
+            "id": 118840,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 313,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Whitemane"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/113/22311281-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Nyhver-whitemane"
+              },
+              {
+                "name": "guild",
+                "value": "Tinker Town Police"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 2491141,
+        "username": "hiddenmarkov-2491141",
+        "name": "hiddenmarkov",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Tixij-lei-shen",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/lei-shen/216/99910360-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+            "url": null,
+            "user_id": 2491141,
+            "id": 245618,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 2034,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Lei Shen"
+              },
+              {
+                "name": "achievement_points",
+                "value": "3485"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic-us/character/lei-shen/216/99910360-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Tixij-lei-shen"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      }
+    ],
+    "created_by": {
+      "id": 790709,
+      "username": "Drew-790709",
+      "name": "Drew",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    },
+    "last_poster": {
+      "id": 932901,
+      "username": "QuirkyOrc-932901",
+      "name": "QuirkyOrc",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    }
+  },
+  "bookmarks": [],
+  "jogo": "World of Warcraft",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Blizzard",
+  "url_fonte": "https://us.forums.blizzard.com/en/wow/t/experimenting-with-ai-and-forum-data/2217138"
+}

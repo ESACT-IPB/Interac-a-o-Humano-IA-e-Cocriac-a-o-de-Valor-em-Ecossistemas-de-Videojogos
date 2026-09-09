@@ -1,0 +1,182 @@
+{
+  "id": "reddit_1t4rxjy",
+  "title": "For anyone relevant to WoW Game Development @ Blizzard who might be reading this and has a voice to say something",
+  "slug": "for_anyone_relevant_to_wow_game_development",
+  "posts_count": 14,
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1,
+        "username": "robizgb1",
+        "cooked": "<p>In the sea of understanding people who share points trying to find positives regarding the entirety of the shitshow you pulled coming into Midnight, I have to admit I don't have any for a game that has a monthly subscription fee developed by a multi-million dollar company. You are PRIVILEGED and LUCKY to have a stable, passionate community of people willing to dedicate their free time and resources and pool them into a game that they care about in forms of being active on the forums, maintaining various class and game resources across mediums such as Discord, blogs, Reddit etc, developing Add-ons which are COMPLETELY OPTIONAL BY THE WAY to enhance the game experience. The only thing that made sense in what you did is the squish in the overly complicated talent trees of some classes. The moment you came out with the idea of reducing the amount of Addons and Weakauras, it was obvious that the majority of the player base was against it, yet you did it anyway. And where are we now? We essentially got back 80% of the stuff that was being purged, just in form of a lower quality from the restrictions on the API that even you guys can't seem to understand. (eg. Add-ons are able to track cooldowns of certain classes, but not of some other). One of the major losses of this expansion is definitely Details (which even with its own problems in some cases) was miles ahead of the garbage AI slop you call a damage meter which shipped with Midnight that has so little options to analyze and track what happened in combat, and even those options don't work. The 'unfair' Weakauras and Add-ons are still being used in competitive gameplay (m33kauras, the thing for memory-game on Lu'ra, ExBoss). You said the new players found the game 'overwhelming' probably because they were looking at people competing in MDI and RWF and expected to play on their level even though some of those people have been no-lifing this game for over 15 years and taking PTO from work (if they work) to play the game that they love for over 12 hours a day. If I watch a performance of Mozart on the piano, and I can't replicate that without years of practice, the piano isn't the problem, my mindset is. This game is standing on the shoulders of people that work for you who are in charge of music and environment design, people who design features like Housing (even with the ridiculous paywalls), and raid/dungeon design which are still at a very decent level. So if you're looking for an idea on how to help next, please just don't help. If you're looking for stuff to 'fix', try starting with tons of forum posts made by the community such as the continue button on your \"Self character unstuck service\" does nothing but refresh the page, and ever since 2019 (possibly earlier), aggressively dismounting still causes a disconnect loop. STOP FIXING WHAT ISN'T BROKEN. THANK YOU. Sincerely, someone who has been playing this game through ups and downs for almost 20 years now</p>",
+        "created_at": "2026-05-05T20:46:44.536000+0000",
+        "post_number": 1,
+        "reply_to_post_number": null,
+        "reply_count": 13,
+        "like_count": 0,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 2,
+        "username": "Jester-Joe",
+        "cooked": "<p>It's not the other way around though, Blizzard openly said they started to make encounters harder and harder because of add-ons trivializing the fights. On a casual scale sure, it's easy to pass on the add-ons, but the cutting edge guilds will use anything to get an advantage, the only way to stop it would be to gut it from the game.</p>",
+        "created_at": "2026-05-05T21:37:17.441000+0000",
+        "post_number": 2,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 3,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 3,
+        "username": "DyrusforPresident",
+        "cooked": "<p>Did those bosses require a WA? i remember doing all 3 without having one</p>",
+        "created_at": "2026-05-05T22:02:01.434000+0000",
+        "post_number": 3,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 4,
+        "username": "TheBungler2",
+        "cooked": "<p>That isn't a counter to why Blizzard said they did it, though. They have specifically said they felt forced to make fights like those to keep up with WA's trivialising everything.</p>",
+        "created_at": "2026-05-06T04:00:08.770000+0000",
+        "post_number": 4,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 5,
+        "username": "Invis_Chick",
+        "cooked": "<p>Who really cares if it trivializes content? I would rather have that than the pre-alpha release we got.</p>",
+        "created_at": "2026-05-05T21:20:17.326000+0000",
+        "post_number": 5,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 6,
+        "username": "robizgb1",
+        "cooked": "<p>The point is not to lock the content for a specific group of people due to the problems of some other ones. If competitive groups want to track what the adds are casting on who, let them. No one is forcing you to install any weak-auras. There are a plethora of casual guilds who don't even use addons and yet engage in normal, heroic and mythic raids. The problem doesn't only lie in WAs that simplified stuff, it's people's expectations and how to manage some people wanting to do stuff in their own way, and others in some other way. There is not a single RIGHT way, it's about what you want to do and how. Just because I like WAs, no one should be forcing you to install them to play the content the way you want to play it at the pace you want to play it.</p>",
+        "created_at": "2026-05-05T20:57:12.788000+0000",
+        "post_number": 6,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": -5,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 7,
+        "username": "dxxxxxxxxxxxxxxxxxxb",
+        "cooked": "<p>Can i have your stuff</p>",
+        "created_at": "2026-05-05T20:53:57.269000+0000",
+        "post_number": 7,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 14,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 8,
+        "username": "TheBungler2",
+        "cooked": "<p>Yeah, but that isn't killing m33kauras. That addon will continue to function fine.</p>",
+        "created_at": "2026-05-06T04:58:51.241000+0000",
+        "post_number": 8,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 9,
+        "username": "Yoshilisk",
+        "cooked": "<p>the auction house could really use some UI improvements before they go killing AH addons. i don't expect blizzard to do AH prices in item tooltips like the addons do, but basic stuff like saved searches would go a long way to making it less of a pain in the rear</p>",
+        "created_at": "2026-05-05T21:42:56.846000+0000",
+        "post_number": 9,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 10,
+        "username": "TaleOfDash",
+        "cooked": "<p>I know, t'was joke</p>",
+        "created_at": "2026-05-05T21:42:46.435000+0000",
+        "post_number": 10,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 11,
+        "username": "Zakbaar",
+        "cooked": "<p>Some people are clearly very deep into the game. If Details wasn't accurate enough you must really know how to min max. I'm just happy questing and running PUG dungeons.</p>",
+        "created_at": "2026-05-05T21:18:29.968000+0000",
+        "post_number": 11,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 12,
+        "username": "_toadsy",
+        "cooked": "<p>I love a good unhinged rant that offers no solutions, 10/10 very nice</p>",
+        "created_at": "2026-05-05T22:54:00.212000+0000",
+        "post_number": 12,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 13,
+        "username": "gmanclassic",
+        "cooked": "<p>Addon purge did nothing but make the game worse in my opinion. I don’t know how less customisation makes it better?</p>",
+        "created_at": "2026-05-05T22:07:15.709000+0000",
+        "post_number": 13,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 14,
+        "username": "Taeliim",
+        "cooked": "<p>This. Why answer AI slop with more AI slop. Type your thoughts people. Reread. Edit. Hit enter. Be a fucking human.</p>",
+        "created_at": "2026-05-05T21:20:35.898000+0000",
+        "post_number": 14,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 3,
+        "version": 1,
+        "trust_level": 1
+      }
+    ]
+  },
+  "jogo": "World of Warcraft",
+  "fonte": "Reddit",
+  "seccao": "r/wow",
+  "url_fonte": "https://www.reddit.com/r/wow/comments/1t4rxjy/for_anyone_relevant_to_wow_game_development/"
+}

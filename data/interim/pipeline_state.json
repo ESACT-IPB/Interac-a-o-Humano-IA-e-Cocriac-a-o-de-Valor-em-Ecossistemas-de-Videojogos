@@ -1,0 +1,21 @@
+{
+  "start_time": "2026-07-02T08:43:16Z",
+  "last_updated": "2026-09-09T02:30:19Z",
+  "heartbeats": {
+    "ScraperAgent": "COMPLETED",
+    "SemanticValidatorAgent": "COMPLETED",
+    "AnonymizerAgent": "COMPLETED",
+    "NetnographyAgent": "COMPLETED",
+    "QualityGuardAgent": "COMPLETED",
+    "SynthesisAgent": "COMPLETED",
+    "SummaryTableGenerator": "COMPLETED"
+  },
+  "netnography_progress": {
+    "last_post_id": "513384_2889848",
+    "progress_pct": 100,
+    "remaining_count": 0
+  },
+  "framework": "DART-NET",
+  "version": "2.0.0",
+  "prompt_version": "2026.1"
+}

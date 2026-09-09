@@ -1,0 +1,98 @@
+{
+  "id": "reddit_1s2nfj8",
+  "title": "Who is making the addon API change decisions?",
+  "slug": "who_is_making_the_addon_api_change_decisions",
+  "posts_count": 7,
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1,
+        "username": "MinRoll",
+        "cooked": "<p>Are they close to retirement?</p>",
+        "created_at": "2026-03-24T19:16:12.173000+0000",
+        "post_number": 1,
+        "reply_to_post_number": null,
+        "reply_count": 6,
+        "like_count": 0,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 2,
+        "username": "Flaky-Journalist1748",
+        "cooked": "<p>If theyre so keen on this stance, just disable these features in M raids and M+ and be done with it. We dont need to entire game losing all these quality of life tweaks.</p>",
+        "created_at": "2026-03-24T19:42:36.034000+0000",
+        "post_number": 2,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 3,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 3,
+        "username": "Lord0fHats",
+        "cooked": "<p>This, and because Blizzard had 9 months not to fuck it up, was told those entire 9 months by everyone 'you're fucking it up' and in classic corporate fashion decided that fucking it up wasn't really their problem.</p>",
+        "created_at": "2026-03-24T19:30:58.960000+0000",
+        "post_number": 3,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 5,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 4,
+        "username": "Aaleell",
+        "cooked": "<p>Probably the right answer</p>",
+        "created_at": "2026-03-24T20:02:14.961000+0000",
+        "post_number": 4,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 0,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 5,
+        "username": "[deleted]",
+        "cooked": "<p>It's the infamous senior addon API change engineer, John Prune</p>",
+        "created_at": "2026-03-24T21:55:22.069000+0000",
+        "post_number": 5,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 0,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 6,
+        "username": "Simple_Emotion_3152",
+        "cooked": "<p>then go for it</p>",
+        "created_at": "2026-03-24T19:19:06.838000+0000",
+        "post_number": 6,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": -6,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 7,
+        "username": "Fusshaman",
+        "cooked": "<p>Some bigwig in Microsoft as they want the game on Xbox.</p>",
+        "created_at": "2026-03-24T19:25:10.686000+0000",
+        "post_number": 7,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": -9,
+        "version": 1,
+        "trust_level": 1
+      }
+    ]
+  },
+  "jogo": "World of Warcraft",
+  "fonte": "Reddit",
+  "seccao": "r/wow",
+  "url_fonte": "https://www.reddit.com/r/wow/comments/1s2nfj8/who_is_making_the_addon_api_change_decisions/"
+}

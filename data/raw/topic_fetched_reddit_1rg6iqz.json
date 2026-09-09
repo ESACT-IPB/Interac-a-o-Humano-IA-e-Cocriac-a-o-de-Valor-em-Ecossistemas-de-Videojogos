@@ -1,0 +1,98 @@
+{
+  "id": "reddit_1rg6iqz",
+  "title": "did I just come across AI chatbot output in wow?",
+  "slug": "did_i_just_come_across_ai_chatbot_output_in_wow",
+  "posts_count": 7,
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1,
+        "username": "Big-Slip-6980",
+        "cooked": "<p>￼​\"It's hardly just smuggling--it's a disaster waiting to unfold.\" screams \"I copied and pasted this from chatGPT... Edit: I want to clarify that the -- is not my focus, it’s the phrasing. ChatGPT often says things like “it’s not just A, it’s B”, especially when I never suggested it was “just A”. And that implication always bothered me so I guess it made me sensitive to when I see it. Sorry if I offended anyone by saying wow has ai slop in it 😂 Second edit: I’m laughing at how triggered people are by this post 😂😂😂</p>",
+        "created_at": "2026-02-27T13:22:28.451000+0000",
+        "post_number": 1,
+        "reply_to_post_number": null,
+        "reply_count": 6,
+        "like_count": 0,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 2,
+        "username": "Big-Slip-6980",
+        "cooked": "<p>I don’t use it that much. Like I said, the emdash isn’t what caught me. It was the phrasing.</p>",
+        "created_at": "2026-02-27T13:36:44.349000+0000",
+        "post_number": 2,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": -1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 3,
+        "username": "Big-Slip-6980",
+        "cooked": "<p>Lmfao ok. Like I don’t use AI in my daily life and as a developer of… you guessed it…AI… don’t let your emotions control you so much. It’s not pretty on you.</p>",
+        "created_at": "2026-02-27T14:02:55.346000+0000",
+        "post_number": 3,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": -2,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 4,
+        "username": "Big-Slip-6980",
+        "cooked": "<p>Hard miss. Try again.</p>",
+        "created_at": "2026-02-27T14:00:46.789000+0000",
+        "post_number": 4,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 5,
+        "username": "Xenavire",
+        "cooked": "<p>I mean, I'd be more inclined to say this is a typo of some kind of mistake than specifically AI. Doesn't rule out the possibility, but I write similarly to that at times, and I'm not an AI. I don't do the double dash though, but again, could be a genuine mistake. Lord knows we don't have enough QA time spent on quest text specifically, so it could easily slip through.</p>",
+        "created_at": "2026-02-27T13:30:38.892000+0000",
+        "post_number": 5,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 4,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 6,
+        "username": "monkpawfire",
+        "cooked": "<p>Saw many text pieces that felt like they were generated but to me this felt like either a certain slop or intentional trolling by the quest writers.</p>",
+        "created_at": "2026-03-04T12:56:08.267000+0000",
+        "post_number": 6,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 7,
+        "username": "Thenidhogg",
+        "cooked": "<p>they should have used a semi colon but that is even more scary to wow players lol its not AI its just a sentence</p>",
+        "created_at": "2026-02-27T13:55:38.192000+0000",
+        "post_number": 7,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      }
+    ]
+  },
+  "jogo": "World of Warcraft",
+  "fonte": "Reddit",
+  "seccao": "r/wow",
+  "url_fonte": "https://www.reddit.com/r/wow/comments/1rg6iqz/did_i_just_come_across_ai_chatbot_output_in_wow/"
+}

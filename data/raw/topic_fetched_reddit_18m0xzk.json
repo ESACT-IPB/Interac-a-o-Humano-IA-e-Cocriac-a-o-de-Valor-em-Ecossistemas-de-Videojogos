@@ -1,0 +1,112 @@
+{
+  "id": "18m0xzk",
+  "title": "First time I've noticed market manipulation in the wild - someone bought out all the rigs and then tripled the price. kinda neat",
+  "slug": "18m0xzk",
+  "jogo": "EVE Online",
+  "fonte": "Reddit",
+  "seccao": "r/Eve",
+  "url_fonte": "https://www.reddit.com/r/Eve/comments/18m0xzk/first_time_ive_noticed_market_manipulation_in_the/",
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1,
+        "username": "nightswatchman",
+        "cooked": "<p>Sem conteúdo.</p>",
+        "created_at": "2023-12-19T12:39:40.686Z",
+        "like_count": 191,
+        "trust_level": 2,
+        "version": 1
+      },
+      {
+        "id": 2,
+        "username": "Grarr_Dexx",
+        "cooked": "<p>These things usually self-correct pretty quickly. Exp shield rigs are an insanely niche market though (look at the sale volume below), so it'll take a while for this maneuver to pan out financially for our friend. That's also if noone undercuts them which is pretty likely to occur now that you've exposed it.</p>",
+        "created_at": "2023-12-19T12:48:46.938Z",
+        "like_count": 158,
+        "trust_level": 2,
+        "version": 1
+      },
+      {
+        "id": 3,
+        "username": "nightswatchman",
+        "cooked": "<p>Alternate title - us americans trying to buy a house in 2023, colorized</p>",
+        "created_at": "2023-12-19T12:41:07.439Z",
+        "like_count": 161,
+        "trust_level": 2,
+        "version": 1
+      },
+      {
+        "id": 4,
+        "username": "monasou89",
+        "cooked": "<p>You know what to do right? Either make some yourself or have them shipped in and sell them for around 75% of his price. This forces him to either buy yours out (at a nice premium) to maintain the monopoly or you get paid twice what they're worth.</p>",
+        "created_at": "2023-12-19T13:27:47.632Z",
+        "like_count": 38,
+        "trust_level": 2,
+        "version": 1
+      },
+      {
+        "id": 5,
+        "username": "vtsandtrooper",
+        "cooked": "<p>Good. As an indy Im tired of people selling their builds for barely any profit.</p>",
+        "created_at": "2023-12-19T12:56:08.821Z",
+        "like_count": 26,
+        "trust_level": 2,
+        "version": 1
+      },
+      {
+        "id": 6,
+        "username": "Kebacool",
+        "cooked": "<p>the ticket is kinda illiquid, according to volume, so i doubt it being a manipulation</p>",
+        "created_at": "2023-12-19T13:06:12.782Z",
+        "like_count": 12,
+        "trust_level": 2,
+        "version": 1
+      },
+      {
+        "id": 7,
+        "username": "Zombie-Lenin",
+        "cooked": "<p>This sort of market manipulation very rarely works out well for the person doing it. Typically speaking, depending on the item, you get anywhere between a day to a few hours to sell the stuff you bought out at a higher price before the market is flooded again with 'regularly' priced items. Depending on the number of items a person trying to manipulate the market this way has to buy, this is typically a \"break even\" move at best. It works best in player structures in null, but most null sec alliances in my experience end up looking very poorly on alliance members who fuck around with alliance members like this. It's a really good way to get ejected from your corp and alliance and to get all of your stuff stuck in a hostile system. Edit I earn 100% of my isk through trading, so I do pay attention to this stuff and have seen it play out poorly for the person doing the market manipulation more times than I can count.</p>",
+        "created_at": "2023-12-19T15:00:05.750Z",
+        "like_count": 6,
+        "trust_level": 2,
+        "version": 1
+      },
+      {
+        "id": 8,
+        "username": "Mustasade",
+        "cooked": "<p>The moving avg is down on the first volume stick, with the 250 volume stick balancing the price and later bringing it slightly uptrend. The 500 stick is a bullish indicator creating a three white soldiers pattern in price (and in volume) which indicates a positive price sentiment. The volume then goes down and hardly a 100 units have been sold. This is actually healthy for the market since buyers are waiting for better prices and weak hand buyers hardly exist, but on the other hand this is in Forge and other markets might want to raise prices. Anyway, the guy who did this read the indicators well and has probably made his money's worth in taxes and in listing while still holding assets, and most importantly had fun while doing so.</p>",
+        "created_at": "2023-12-19T13:38:18.145Z",
+        "like_count": 6,
+        "trust_level": 2,
+        "version": 1
+      },
+      {
+        "id": 9,
+        "username": "LusciusUta",
+        "cooked": "<p>I don't think that the person who is responsible for this will make much profit. Because there's plenty of people who build and sell rigs and they might start manufacturing this very rig as soon as they see this and will seed the market back before the person who is trying to manipulate the market sells all his copies as it isn't a large volume market. One good way to manipulate the market is when there is a spike in demand for ships, modules or implants needed in certain nullsec doctrines. I've seen stuff like Eagles or Sacrileges quickly disappearing from Jita market a few times. Of course you need quite a lot of isk sitting around to buy them all but you also get nice profits from reselling.</p>",
+        "created_at": "2023-12-19T13:47:57.218Z",
+        "like_count": 3,
+        "trust_level": 2,
+        "version": 1
+      },
+      {
+        "id": 10,
+        "username": "NeilDeCrash",
+        "cooked": "<p>Damn... i have been mining in my Ibis for so long to finally own a Large Explosive Shield Reinforcer I, but now again my dream is so far away... Well, a man can dream. Some day Large Explosive Shield Reinforcer I, some day...</p>",
+        "created_at": "2023-12-20T00:44:17.170Z",
+        "like_count": 3,
+        "trust_level": 2,
+        "version": 1
+      },
+      {
+        "id": 11,
+        "username": "mrbezlington",
+        "cooked": "<p>Does no-one remember the great command burst gouge of 2022? Ahh, happy times.</p>",
+        "created_at": "2023-12-19T13:33:28.636Z",
+        "like_count": 5,
+        "trust_level": 2,
+        "version": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,2831 @@
+{
+  "id": 3000011,
+  "title": "AI/Bots/Cheating in battlegrounds",
+  "slug": "aibotscheating-in-battlegrounds",
+  "jogo": "World of Warcraft",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Blizzard",
+  "url_fonte": "https://us.forums.blizzard.com/en/wow/t/aibotscheating-in-battlegrounds/1828475",
+  "post_stream": {
+    "posts": [
+      {
+        "id": 23362870,
+        "name": "College",
+        "username": "College-2306334",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-04-12T09:06:45.173Z",
+        "cooked": "<p>Venruki posted some videos on youtube looking into the AI programs people have been using in pvp, and after seeing the evidence I believe I’ve been seeing these in bg’s as well. Players knowing when to LOS or feign death at just the right moment despite opening from stealth, instant interrupts, teams getting creamed by players who are just a little too quick and never seem to make a mistake, are all becoming all too common experiences.</p>\n<p>I was just in a Twin Peaks with a flag carrier who made his way out of bounds. Despite our team reporting him repeatedly, nothing happened to him.</p>\n<p>But I’ve seen people instantly kicked from bg’s from players spam reporting afk in retaliation for speaking up against afkers or premades.</p>\n<p>The odds seem specifically stacked against those who just genuinely want to play the game, without cheaters, without premades, without afkers.</p>\n<p>What is Blizzard doing about this? A wave ban every 6 months? GG.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 51,
+        "updated_at": "2024-04-12T09:06:45.173Z",
+        "reply_count": 2,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 354,
+        "reads": 248,
+        "readers_count": 247,
+        "score": 1959.6,
+        "yours": false,
+        "topic_id": 1828475,
+        "topic_slug": "aibotscheating-in-battlegrounds",
+        "display_username": "College",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 9
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2306334,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/stormrage/çollege/",
+          "race": "Dracthyr",
+          "class": "Evoker",
+          "player_class_enum": "EVOKER",
+          "level": "80",
+          "guild": "Darkfuse Solutions",
+          "achievement_points": "23475",
+          "blizzard_post_count": "295"
+        },
+        "post_url": "/t/aibotscheating-in-battlegrounds/1828475/1",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/stormrage/111/249357167-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg",
+        "alias_username": "Çollege-stormrage",
+        "poster_alias": {
+          "alias": {
+            "name": "Çollege-stormrage",
+            "avatar": "https://render.worldofwarcraft.com/us/character/stormrage/111/249357167-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/stormrage/çollege/",
+            "user_id": 2306334,
+            "id": 547194,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 282,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/stormrage/çollege/"
+              },
+              {
+                "name": "realm",
+                "value": "Stormrage"
+              },
+              {
+                "name": "achievement_points",
+                "value": "23875"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Dracthyr"
+              },
+              {
+                "name": "player_class",
+                "value": "Evoker"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "EVOKER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/stormrage/111/249357167-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Çollege-stormrage"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 295,
+        "character": {
+          "name": "College",
+          "guild": "Darkfuse Solutions",
+          "achievement_points": "23475",
+          "level": "80",
+          "class": "Evoker",
+          "race": "Dracthyr",
+          "player_class_enum": "EVOKER",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 23363593,
+        "name": "Urfstompa",
+        "username": "Urfstompa-66103",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-04-12T12:43:23.103Z",
+        "cooked": "<p>Blizzard doesn’t care about PvP is pretty much the bottom line.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 51,
+        "updated_at": "2024-04-12T12:43:23.103Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 227,
+        "readers_count": 226,
+        "score": 130.4,
+        "yours": false,
+        "topic_id": 1828475,
+        "topic_slug": "aibotscheating-in-battlegrounds",
+        "display_username": "Urfstompa",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 5
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 66103,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Highmountain Tauren",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/maelstrom/bhorum/",
+          "classic": "t",
+          "blizzard_post_count": "1207",
+          "level": "80",
+          "achievement_points": "24190"
+        },
+        "post_url": "/t/aibotscheating-in-battlegrounds/1828475/2",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/maelstrom/61/54212925-avatar.jpg?alt=/wow/static/images/2d/avatar/28-0.jpg",
+        "alias_username": "Bhorum-maelstrom",
+        "poster_alias": {
+          "alias": {
+            "name": "Bhorum-maelstrom",
+            "avatar": "https://render.worldofwarcraft.com/us/character/maelstrom/61/54212925-avatar.jpg?alt=/wow/static/images/2d/avatar/28-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/maelstrom/bhorum/",
+            "user_id": 66103,
+            "id": 376219,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1019,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/maelstrom/bhorum/"
+              },
+              {
+                "name": "realm",
+                "value": "Maelstrom"
+              },
+              {
+                "name": "achievement_points",
+                "value": "24190"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Highmountain Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/maelstrom/61/54212925-avatar.jpg?alt=/wow/static/images/2d/avatar/28-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Bhorum-maelstrom"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 1207,
+        "character": {
+          "name": "Urfstompa",
+          "guild": null,
+          "achievement_points": "24190",
+          "level": "80",
+          "class": "Warrior",
+          "race": "Highmountain Tauren",
+          "player_class_enum": "WARRIOR",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 23364545,
+        "name": "Mhortai",
+        "username": "Mhortai-1970057",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-04-12T14:54:28.344Z",
+        "cooked": "<p>I do notice some odd things in BGs, but not a lot honestly.</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 51,
+        "updated_at": "2024-04-12T14:54:28.344Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 208,
+        "readers_count": 207,
+        "score": 46.6,
+        "yours": false,
+        "topic_id": 1828475,
+        "topic_slug": "aibotscheating-in-battlegrounds",
+        "display_username": "Mhortai",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1970057,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/stormrage/mhortai/",
+          "classic": "t",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "race": "Dwarf",
+          "level": "80",
+          "guild": "Ú sui mîn",
+          "achievement_points": "34355",
+          "blizzard_post_count": "4534"
+        },
+        "post_url": "/t/aibotscheating-in-battlegrounds/1828475/3",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/stormrage/146/261410194-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
+        "alias_username": "Mhortai-stormrage",
+        "poster_alias": {
+          "alias": {
+            "name": "Mhortai-stormrage",
+            "avatar": "https://render.worldofwarcraft.com/us/character/stormrage/146/261410194-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/stormrage/mhortai/",
+            "user_id": 1970057,
+            "id": 392820,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 2984,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/stormrage/mhortai/"
+              },
+              {
+                "name": "realm",
+                "value": "Stormrage"
+              },
+              {
+                "name": "achievement_points",
+                "value": "36485"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Dwarf"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/stormrage/146/261410194-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Mhortai-stormrage"
+              },
+              {
+                "name": "guild",
+                "value": "Ú sui mîn"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 4534,
+        "character": {
+          "name": "Mhortai",
+          "guild": "Ú sui mîn",
+          "achievement_points": "34355",
+          "level": "80",
+          "class": "Paladin",
+          "race": "Dwarf",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 23365016,
+        "name": "pigzig",
+        "username": "pigzig-444798",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-04-12T15:37:48.295Z",
+        "cooked": "<p>ban em all</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 51,
+        "updated_at": "2024-04-12T15:37:48.295Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 193,
+        "readers_count": 192,
+        "score": 43.6,
+        "yours": false,
+        "topic_id": 1828475,
+        "topic_slug": "aibotscheating-in-battlegrounds",
+        "display_username": "pigzig",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 444798,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/nagrand/pigzig/",
+          "race": "Orc",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "guild": "Tranquillity",
+          "level": "80",
+          "classic": "t",
+          "achievement_points": "23445",
+          "blizzard_post_count": "7121"
+        },
+        "post_url": "/t/aibotscheating-in-battlegrounds/1828475/4",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/nagrand/113/181609585-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "alias_username": "Pigzig-nagrand",
+        "poster_alias": {
+          "alias": {
+            "name": "Pigzig-nagrand",
+            "avatar": "https://render.worldofwarcraft.com/us/character/nagrand/113/181609585-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/nagrand/pigzig/",
+            "user_id": 444798,
+            "id": 421158,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 5699,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/nagrand/pigzig/"
+              },
+              {
+                "name": "realm",
+                "value": "Nagrand"
+              },
+              {
+                "name": "achievement_points",
+                "value": "26670"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/nagrand/113/181609585-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Pigzig-nagrand"
+              },
+              {
+                "name": "guild",
+                "value": "Tranquillity"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 7121,
+        "character": {
+          "name": "pigzig",
+          "guild": "Tranquillity",
+          "achievement_points": "23445",
+          "level": "80",
+          "class": "Warrior",
+          "race": "Orc",
+          "player_class_enum": "WARRIOR",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 23367154,
+        "name": "Moz",
+        "username": "Moz-3157544",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-04-12T19:25:00.752Z",
+        "cooked": "<p>It’s hard to tell if they got lucky timing or cheating but deep down I know they’re cheating.</p>",
+        "post_number": 5,
+        "post_type": 1,
+        "posts_count": 51,
+        "updated_at": "2026-06-19T13:00:28.701Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 171,
+        "readers_count": 170,
+        "score": 34.2,
+        "yours": false,
+        "topic_id": 1828475,
+        "topic_slug": "aibotscheating-in-battlegrounds",
+        "display_username": "Moz",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3157544,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/mohz/",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "guild": "Starlaced",
+          "race": "Blood Elf",
+          "level": "90",
+          "achievement_points": "21590",
+          "blizzard_post_count": "8596"
+        },
+        "post_url": "/t/aibotscheating-in-battlegrounds/1828475/5",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/kiljaeden/234/245386730-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+        "alias_username": "Mohz",
+        "poster_alias": {
+          "alias": {
+            "name": "Mohz",
+            "avatar": "https://render.worldofwarcraft.com/us/character/kiljaeden/234/245386730-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/kiljaeden/mohz/",
+            "user_id": 3157544,
+            "id": 2420983,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 3479,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/kiljaeden/mohz/"
+              },
+              {
+                "name": "realm",
+                "value": "Kil'jaeden"
+              },
+              {
+                "name": "achievement_points",
+                "value": "19100"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 8596,
+        "character": {
+          "name": "Moz",
+          "guild": "Starlaced",
+          "achievement_points": "21590",
+          "level": "90",
+          "class": "Paladin",
+          "race": "Blood Elf",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 23367193,
+        "name": "sevenohseven",
+        "username": "sevenohseven-3171373",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-04-12T19:31:27.689Z",
+        "cooked": "<p>there would be a hard line separating players who rely on things like mouseover macros and addons that show your targets trinket timers if those things ever went away.<br>\nyoure not imagining getting kicked as soon as you cast.</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "posts_count": 51,
+        "updated_at": "2026-07-03T16:26:23.781Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 156,
+        "readers_count": 155,
+        "score": 41.2,
+        "yours": false,
+        "topic_id": 1828475,
+        "topic_slug": "aibotscheating-in-battlegrounds",
+        "display_username": "sevenohseven",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3171373,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Ruinous",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/proudmoore/gnömelander/",
+          "race": "Gnome",
+          "class": "Death Knight",
+          "player_class_enum": "DEATHKNIGHT",
+          "achievement_points": "7835",
+          "level": "80",
+          "blizzard_post_count": "6275"
+        },
+        "post_url": "/t/aibotscheating-in-battlegrounds/1828475/6",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/dethecus/173/197514413-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
+        "alias_username": "Fritzthecat",
+        "poster_alias": {
+          "alias": {
+            "name": "Fritzthecat",
+            "avatar": "https://render.worldofwarcraft.com/us/character/dethecus/173/197514413-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/dethecus/fritzthecat/",
+            "user_id": 3171373,
+            "id": 2548956,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 341,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/dethecus/fritzthecat/"
+              },
+              {
+                "name": "realm",
+                "value": "Dethecus"
+              },
+              {
+                "name": "achievement_points",
+                "value": "7805"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "guild",
+                "value": "Afro Ninjas"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 6275,
+        "character": {
+          "name": "sevenohseven",
+          "guild": "Ruinous",
+          "achievement_points": "7835",
+          "level": "80",
+          "class": "Death Knight",
+          "race": "Gnome",
+          "player_class_enum": "DEATHKNIGHT",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 23367215,
+        "name": "Raggok",
+        "username": "Raggok-825392",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-04-12T19:36:16.042Z",
+        "cooked": "<p>If you know something is coming and prepared to respond to it then 0.1-0.3 second reactions aren’t that uncommon.</p>\n<p>It can be easy to mistake good awareness and prediction for cheating.</p>",
+        "post_number": 7,
+        "post_type": 1,
+        "posts_count": 51,
+        "updated_at": "2024-04-12T19:36:35.366Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 150,
+        "readers_count": 149,
+        "score": 50.0,
+        "yours": false,
+        "topic_id": 1828475,
+        "topic_slug": "aibotscheating-in-battlegrounds",
+        "display_username": "Raggok",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 825392,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Pay To Win",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/archimonde/oozo/",
+          "race": "Orc",
+          "class": "Death Knight",
+          "player_class_enum": "DEATHKNIGHT",
+          "classic": "t",
+          "achievement_points": "11075",
+          "level": "23",
+          "blizzard_post_count": "2892"
+        },
+        "post_url": "/t/aibotscheating-in-battlegrounds/1828475/7",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/archimonde/244/111778804-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "alias_username": "Oozo-archimonde",
+        "poster_alias": {
+          "alias": {
+            "name": "Oozo-archimonde",
+            "avatar": "https://render.worldofwarcraft.com/us/character/archimonde/244/111778804-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": null,
+            "user_id": 825392,
+            "id": 390539,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 2983,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/archimonde/oozo/"
+              },
+              {
+                "name": "realm",
+                "value": "Archimonde"
+              },
+              {
+                "name": "achievement_points",
+                "value": "11075"
+              },
+              {
+                "name": "level",
+                "value": "23"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 2892,
+        "character": {
+          "name": "Raggok",
+          "guild": "Pay To Win",
+          "achievement_points": "11075",
+          "level": "23",
+          "class": "Death Knight",
+          "race": "Orc",
+          "player_class_enum": "DEATHKNIGHT",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 23368054,
+        "name": "College",
+        "username": "College-2306334",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-04-12T21:04:16.709Z",
+        "cooked": "<p>You’re not wrong, although awareness of scripts for kicking are also becoming fairly common knowledge.</p>\n<p>After 17 years in bg’s, you become accustomed to gauging a player’s reaction times and improvisation. I actually love running into skilled players in the wild, I become competitive and geek out simultaneously.</p>\n<p>Some kicks are too instant. LoS and feign death at just the right moment when you’re stealthed… the first time can be a fluke, the second and third time it’s unmistakable. Seriously check out Venruki’s video on bots in pvp, pretty mind blowing what’s out there.</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "posts_count": 51,
+        "updated_at": "2024-04-12T21:04:16.709Z",
+        "reply_count": 1,
+        "reply_to_post_number": 7,
+        "quote_count": 0,
+        "incoming_link_count": 6,
+        "reads": 145,
+        "readers_count": 144,
+        "score": 109.0,
+        "yours": false,
+        "topic_id": 1828475,
+        "topic_slug": "aibotscheating-in-battlegrounds",
+        "display_username": "College",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 825392,
+          "username": "Raggok-825392",
+          "name": "Raggok",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2306334,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/stormrage/çollege/",
+          "race": "Dracthyr",
+          "class": "Evoker",
+          "player_class_enum": "EVOKER",
+          "level": "80",
+          "guild": "Darkfuse Solutions",
+          "achievement_points": "23475",
+          "blizzard_post_count": "295"
+        },
+        "post_url": "/t/aibotscheating-in-battlegrounds/1828475/8",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/stormrage/111/249357167-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg",
+        "alias_username": "Çollege-stormrage",
+        "poster_alias": {
+          "alias": {
+            "name": "Çollege-stormrage",
+            "avatar": "https://render.worldofwarcraft.com/us/character/stormrage/111/249357167-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/stormrage/çollege/",
+            "user_id": 2306334,
+            "id": 547194,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 282,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/stormrage/çollege/"
+              },
+              {
+                "name": "realm",
+                "value": "Stormrage"
+              },
+              {
+                "name": "achievement_points",
+                "value": "23875"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Dracthyr"
+              },
+              {
+                "name": "player_class",
+                "value": "Evoker"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "EVOKER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/stormrage/111/249357167-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Çollege-stormrage"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 390539,
+          "username": "Oozo-archimonde",
+          "name": "Oozo",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/archimonde/244/111778804-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 295,
+        "character": {
+          "name": "College",
+          "guild": "Darkfuse Solutions",
+          "achievement_points": "23475",
+          "level": "80",
+          "class": "Evoker",
+          "race": "Dracthyr",
+          "player_class_enum": "EVOKER",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 23368653,
+        "name": "Raggok",
+        "username": "Raggok-825392",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-04-12T22:20:36.253Z",
+        "cooked": "<p>Oh, there are definitely people botting/scripting and I have had my suspicions on some occasions.  Check out this interrupt on lightning lasso.</p>\n<ul>\n<li><a href=\"https://www.youtube.com/watch?v=kHBhWe4boRA\" rel=\"noopener nofollow ugc\">https://www.youtube.com/watch?v=kHBhWe4boRA</a></li>\n</ul>\n<p>But, I still think it is pretty rare and most instances are just someone predicting what is going to happen or just pure luck.  You are right though about seeing the same unlikely move happening multiple times from the same player though.  That is a red flag for sure.</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "posts_count": 51,
+        "updated_at": "2024-04-12T22:22:50.733Z",
+        "reply_count": 1,
+        "reply_to_post_number": 8,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 136,
+        "readers_count": 135,
+        "score": 52.2,
+        "yours": false,
+        "topic_id": 1828475,
+        "topic_slug": "aibotscheating-in-battlegrounds",
+        "display_username": "Raggok",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://www.youtube.com/watch?v=kHBhWe4boRA",
+            "internal": false,
+            "reflection": false,
+            "clicks": 29
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2306334,
+          "username": "College-2306334",
+          "name": "College",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 825392,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Pay To Win",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/archimonde/oozo/",
+          "race": "Orc",
+          "class": "Death Knight",
+          "player_class_enum": "DEATHKNIGHT",
+          "classic": "t",
+          "achievement_points": "11075",
+          "level": "23",
+          "blizzard_post_count": "2892"
+        },
+        "post_url": "/t/aibotscheating-in-battlegrounds/1828475/9",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/archimonde/244/111778804-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "alias_username": "Oozo-archimonde",
+        "poster_alias": {
+          "alias": {
+            "name": "Oozo-archimonde",
+            "avatar": "https://render.worldofwarcraft.com/us/character/archimonde/244/111778804-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": null,
+            "user_id": 825392,
+            "id": 390539,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 2983,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/archimonde/oozo/"
+              },
+              {
+                "name": "realm",
+                "value": "Archimonde"
+              },
+              {
+                "name": "achievement_points",
+                "value": "11075"
+              },
+              {
+                "name": "level",
+                "value": "23"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 547194,
+          "username": "Çollege-stormrage",
+          "name": "Çollege",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/stormrage/111/249357167-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 2892,
+        "character": {
+          "name": "Raggok",
+          "guild": "Pay To Win",
+          "achievement_points": "11075",
+          "level": "23",
+          "class": "Death Knight",
+          "race": "Orc",
+          "player_class_enum": "DEATHKNIGHT",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 23370925,
+        "name": "Decardcain",
+        "username": "Decardcain-2735317",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-04-13T04:22:56.421Z",
+        "cooked": "<p>For me I use several mouse buttons/fuctions for things I want done fast or as a mouseover macro. Interupts without cheating can be very fast if my finger is aleady on the button for it.</p>",
+        "post_number": 10,
+        "post_type": 1,
+        "posts_count": 51,
+        "updated_at": "2024-04-13T04:22:56.421Z",
+        "reply_count": 0,
+        "reply_to_post_number": 9,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 124,
+        "readers_count": 123,
+        "score": 29.8,
+        "yours": false,
+        "topic_id": 1828475,
+        "topic_slug": "aibotscheating-in-battlegrounds",
+        "display_username": "Decardcain",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 825392,
+          "username": "Raggok-825392",
+          "name": "Raggok",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2735317,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/whisperwind/deckarcain/",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "guild": "Apes Together Strong",
+          "level": "80",
+          "race": "Night Elf",
+          "achievement_points": "15605",
+          "blizzard_post_count": "3224"
+        },
+        "post_url": "/t/aibotscheating-in-battlegrounds/1828475/10",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/whisperwind/218/229845466-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Deckarcain-whisperwind",
+        "poster_alias": {
+          "alias": {
+            "name": "Deckarcain-whisperwind",
+            "avatar": "https://render.worldofwarcraft.com/us/character/whisperwind/218/229845466-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": null,
+            "user_id": 2735317,
+            "id": 399606,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 3317,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/whisperwind/deckarcain/"
+              },
+              {
+                "name": "realm",
+                "value": "Whisperwind"
+              },
+              {
+                "name": "achievement_points",
+                "value": "15625"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "guild",
+                "value": "Apes Together Strong"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 390539,
+          "username": "Oozo-archimonde",
+          "name": "Oozo",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/archimonde/244/111778804-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 3224,
+        "character": {
+          "name": "Decardcain",
+          "guild": "Apes Together Strong",
+          "achievement_points": "15605",
+          "level": "80",
+          "class": "Hunter",
+          "race": "Night Elf",
+          "player_class_enum": "HUNTER",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 23371120,
+        "name": "pigzig",
+        "username": "pigzig-444798",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-04-13T04:58:49.868Z",
+        "cooked": "<p>Whats that thing when you try and interupt a caster and it doesnt? It feels like they cancelled last second. Only seen it this expansion, so I thought it was a talent or embelishment.</p>",
+        "post_number": 11,
+        "post_type": 1,
+        "posts_count": 51,
+        "updated_at": "2024-04-13T04:59:05.755Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 120,
+        "readers_count": 119,
+        "score": 29.0,
+        "yours": false,
+        "topic_id": 1828475,
+        "topic_slug": "aibotscheating-in-battlegrounds",
+        "display_username": "pigzig",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 444798,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/nagrand/pigzig/",
+          "race": "Orc",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "guild": "Tranquillity",
+          "level": "80",
+          "classic": "t",
+          "achievement_points": "23445",
+          "blizzard_post_count": "7121"
+        },
+        "post_url": "/t/aibotscheating-in-battlegrounds/1828475/11",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/nagrand/113/181609585-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "alias_username": "Pigzig-nagrand",
+        "poster_alias": {
+          "alias": {
+            "name": "Pigzig-nagrand",
+            "avatar": "https://render.worldofwarcraft.com/us/character/nagrand/113/181609585-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/nagrand/pigzig/",
+            "user_id": 444798,
+            "id": 421158,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 5699,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/nagrand/pigzig/"
+              },
+              {
+                "name": "realm",
+                "value": "Nagrand"
+              },
+              {
+                "name": "achievement_points",
+                "value": "26670"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/nagrand/113/181609585-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Pigzig-nagrand"
+              },
+              {
+                "name": "guild",
+                "value": "Tranquillity"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 7121,
+        "character": {
+          "name": "pigzig",
+          "guild": "Tranquillity",
+          "achievement_points": "23445",
+          "level": "80",
+          "class": "Warrior",
+          "race": "Orc",
+          "player_class_enum": "WARRIOR",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 23371141,
+        "name": "sevenohseven",
+        "username": "sevenohseven-3171373",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-04-13T05:05:03.321Z",
+        "cooked": "<p>this one?</p><aside class=\"onebox allowlistedgeneric\" data-onebox-src=\"https://www.wowhead.com/item=204909/statuette-of-foreseen-power\">\n  <header class=\"source\">\n      <img src=\"https://wow.zamimg.com/images/logos/favicon-live.png\" class=\"site-icon\" alt=\"\" width=\"48\" height=\"48\">\n\n      <a href=\"https://www.wowhead.com/item=204909/statuette-of-foreseen-power\" target=\"_blank\" rel=\"noopener nofollow ugc\">Wowhead</a>\n  </header>\n\n  <article class=\"onebox-body\">\n    <img width=\"56\" height=\"56\" src=\"https://wow.zamimg.com/images/wow/icons/large/inv_qirajidol_death.jpg\" class=\"thumbnail onebox-avatar\" alt=\"\">\n\n<h3><a href=\"https://www.wowhead.com/item=204909/statuette-of-foreseen-power\" target=\"_blank\" rel=\"noopener nofollow ugc\">Statuette of Foreseen Power</a></h3>\n\n  <p>It is crafted. In the Optional Reagents category. An item from World of Warcraft: Dragonflight. Always up to date with the latest patch (12.0.7).</p>\n\n\n  </article>\n\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n\n  <div style=\"clear: both\"></div>\n</aside>\n",
+        "post_number": 12,
+        "post_type": 1,
+        "posts_count": 51,
+        "updated_at": "2026-07-03T16:26:23.881Z",
+        "reply_count": 1,
+        "reply_to_post_number": 11,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 117,
+        "readers_count": 116,
+        "score": 33.4,
+        "yours": false,
+        "topic_id": 1828475,
+        "topic_slug": "aibotscheating-in-battlegrounds",
+        "display_username": "sevenohseven",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://www.wowhead.com/item=204909/statuette-of-foreseen-power",
+            "internal": false,
+            "reflection": false,
+            "title": "Statuette of Foreseen Power - Item - World of Warcraft",
+            "clicks": 6
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 444798,
+          "username": "pigzig-444798",
+          "name": "pigzig",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3171373,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Ruinous",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/proudmoore/gnömelander/",
+          "race": "Gnome",
+          "class": "Death Knight",
+          "player_class_enum": "DEATHKNIGHT",
+          "achievement_points": "7835",
+          "level": "80",
+          "blizzard_post_count": "6275"
+        },
+        "post_url": "/t/aibotscheating-in-battlegrounds/1828475/12",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/dethecus/173/197514413-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
+        "alias_username": "Fritzthecat",
+        "poster_alias": {
+          "alias": {
+            "name": "Fritzthecat",
+            "avatar": "https://render.worldofwarcraft.com/us/character/dethecus/173/197514413-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/dethecus/fritzthecat/",
+            "user_id": 3171373,
+            "id": 2548956,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 341,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/dethecus/fritzthecat/"
+              },
+              {
+                "name": "realm",
+                "value": "Dethecus"
+              },
+              {
+                "name": "achievement_points",
+                "value": "7805"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "guild",
+                "value": "Afro Ninjas"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 421158,
+          "username": "Pigzig-nagrand",
+          "name": "Pigzig",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/nagrand/113/181609585-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 6275,
+        "character": {
+          "name": "sevenohseven",
+          "guild": "Ruinous",
+          "achievement_points": "7835",
+          "level": "80",
+          "class": "Death Knight",
+          "race": "Gnome",
+          "player_class_enum": "DEATHKNIGHT",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 23371464,
+        "name": "DarthStar",
+        "username": "DarthStar-2716548",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-04-13T06:44:01.280Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Çollege-stormrage\" data-post=\"1\" data-topic=\"1828475\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/us/character/stormrage/111/249357167-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg\" class=\"avatar\"> Çollege:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>But I’ve seen people instantly kicked from bg’s from players spam reporting afk in retaliation for speaking up against afkers or premades.</p>\n</blockquote>\n</aside>\n<p>i have yet to see this</p>",
+        "post_number": 13,
+        "post_type": 1,
+        "posts_count": 51,
+        "updated_at": "2026-06-12T06:26:45.681Z",
+        "reply_count": 2,
+        "reply_to_post_number": null,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 112,
+        "readers_count": 111,
+        "score": 47.4,
+        "yours": false,
+        "topic_id": 1828475,
+        "topic_slug": "aibotscheating-in-battlegrounds",
+        "display_username": "DarthStar",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2716548,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/sargeras/darthstar/",
+          "guild": "Alderaan Didnt LOS",
+          "race": "Void Elf",
+          "class": "Priest",
+          "player_class_enum": "PRIEST",
+          "level": "80",
+          "achievement_points": "18105",
+          "blizzard_post_count": "9848"
+        },
+        "post_url": "/t/aibotscheating-in-battlegrounds/1828475/13",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/sargeras/134/162565254-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
+        "alias_username": "Kitanana",
+        "poster_alias": {
+          "alias": {
+            "name": "Kitanana",
+            "avatar": "https://render.worldofwarcraft.com/us/character/sargeras/134/162565254-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/sargeras/kitanana/",
+            "user_id": 2716548,
+            "id": 2329340,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 7018,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/sargeras/kitanana/"
+              },
+              {
+                "name": "realm",
+                "value": "Sargeras"
+              },
+              {
+                "name": "achievement_points",
+                "value": "16050"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Void Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Priest"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PRIEST"
+              },
+              {
+                "name": "guild",
+                "value": "Alderaan Didnt LOS"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 9848,
+        "character": {
+          "name": "DarthStar",
+          "guild": "Alderaan Didnt LOS",
+          "achievement_points": "18105",
+          "level": "80",
+          "class": "Priest",
+          "race": "Void Elf",
+          "player_class_enum": "PRIEST",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 23371502,
+        "name": "Soulbleeder",
+        "username": "Soulbleeder-2005473",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-04-13T07:00:10.656Z",
+        "cooked": "<p>The last bg I was in I was carrying the flag in wsg and I was half way across the map and I saw a tumbleweed.<br>\nIt was at that moment that every dev to ever work for wow has abandoned PvP. And that’s a true story and everyone knows it. This game is dying from old age</p>\n<p>Also nerf hunters</p>",
+        "post_number": 14,
+        "post_type": 1,
+        "posts_count": 51,
+        "updated_at": "2024-04-13T07:00:29.856Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 107,
+        "readers_count": 106,
+        "score": 56.4,
+        "yours": false,
+        "topic_id": 1828475,
+        "topic_slug": "aibotscheating-in-battlegrounds",
+        "display_username": "Soulbleeder",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2005473,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/gurubashi/soulpriest/",
+          "race": "Blood Elf",
+          "class": "Priest",
+          "player_class_enum": "PRIEST",
+          "guild": "Equínox",
+          "level": "80",
+          "achievement_points": "8975",
+          "blizzard_post_count": "6598"
+        },
+        "post_url": "/t/aibotscheating-in-battlegrounds/1828475/14",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/gurubashi/173/152591021-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
+        "alias_username": "Soulpriest-gurubashi",
+        "poster_alias": {
+          "alias": {
+            "name": "Soulpriest-gurubashi",
+            "avatar": "https://render.worldofwarcraft.com/us/character/gurubashi/173/152591021-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/gurubashi/soulpriest/",
+            "user_id": 2005473,
+            "id": 400350,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 4538,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/gurubashi/soulpriest/"
+              },
+              {
+                "name": "realm",
+                "value": "Gurubashi"
+              },
+              {
+                "name": "achievement_points",
+                "value": "9235"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Priest"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PRIEST"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/gurubashi/173/152591021-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Soulpriest-gurubashi"
+              },
+              {
+                "name": "guild",
+                "value": "Equínox"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 6598,
+        "character": {
+          "name": "Soulbleeder",
+          "guild": "Equínox",
+          "achievement_points": "8975",
+          "level": "80",
+          "class": "Priest",
+          "race": "Blood Elf",
+          "player_class_enum": "PRIEST",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 23371767,
+        "name": "pigzig",
+        "username": "pigzig-444798",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-04-13T08:09:30.993Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Fritzthecat-dethecus\" data-post=\"12\" data-topic=\"1828475\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/dethecus/173/197514413-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg\" class=\"avatar\"> Fritzthecat:</div>\n<blockquote>\n<p>this one?</p>\n</blockquote>\n</aside>\n<p>Ill have to have a closer look from now on, I dont think its that. But it activates that.</p>\n<p>Sometimes when I attempt an interrupt a player will cancel beforehand and the interrupt goes off on nothing. This wastes it and activates this. Good players will try and feint casts this way in order to get you to waste your interrupt. But also I’ve seen timing that seems impossible.</p>\n<p>Sometimes it’s like…  they managed to send the spell cancel to the server 1/10th of a second before I pummel. As if they are front running the server. Or manipulating what would’ve been an interrupt that connected into one that doesn’t somehow.</p>\n<p>It could just be luck or timing but its almost perfect the way some casters lately seem to cancel at a fraction of second.</p>",
+        "post_number": 15,
+        "post_type": 1,
+        "posts_count": 51,
+        "updated_at": "2024-04-13T08:09:30.993Z",
+        "reply_count": 2,
+        "reply_to_post_number": 12,
+        "quote_count": 1,
+        "incoming_link_count": 3,
+        "reads": 107,
+        "readers_count": 106,
+        "score": 76.4,
+        "yours": false,
+        "topic_id": 1828475,
+        "topic_slug": "aibotscheating-in-battlegrounds",
+        "display_username": "pigzig",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 444798,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/nagrand/pigzig/",
+          "race": "Orc",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "guild": "Tranquillity",
+          "level": "80",
+          "classic": "t",
+          "achievement_points": "23445",
+          "blizzard_post_count": "7121"
+        },
+        "post_url": "/t/aibotscheating-in-battlegrounds/1828475/15",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/nagrand/113/181609585-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "alias_username": "Pigzig-nagrand",
+        "poster_alias": {
+          "alias": {
+            "name": "Pigzig-nagrand",
+            "avatar": "https://render.worldofwarcraft.com/us/character/nagrand/113/181609585-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/nagrand/pigzig/",
+            "user_id": 444798,
+            "id": 421158,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 5699,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/nagrand/pigzig/"
+              },
+              {
+                "name": "realm",
+                "value": "Nagrand"
+              },
+              {
+                "name": "achievement_points",
+                "value": "26670"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/nagrand/113/181609585-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Pigzig-nagrand"
+              },
+              {
+                "name": "guild",
+                "value": "Tranquillity"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 7121,
+        "character": {
+          "name": "pigzig",
+          "guild": "Tranquillity",
+          "achievement_points": "23445",
+          "level": "80",
+          "class": "Warrior",
+          "race": "Orc",
+          "player_class_enum": "WARRIOR",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 23374019,
+        "name": "College",
+        "username": "College-2306334",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-04-13T17:07:32.218Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Kitanana-sargeras\" data-post=\"13\" data-topic=\"1828475\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/sargeras/134/162565254-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg\" class=\"avatar\"> Kitanana:</div>\n<blockquote>\n<p>i have yet to see this</p>\n</blockquote>\n</aside>\n<p>I’ve been spam reported in retaliation for calling out afkers. There are other anecdotal accounts in this forum regarding getting kicked from groups for not following premade instructions. This is more of a situation that unless it happens to you personally or are on the lookout for it specifically, you likely wouldn’t notice.</p>",
+        "post_number": 16,
+        "post_type": 1,
+        "posts_count": 51,
+        "updated_at": "2024-04-13T17:07:32.218Z",
+        "reply_count": 0,
+        "reply_to_post_number": 13,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 100,
+        "readers_count": 99,
+        "score": 20.0,
+        "yours": false,
+        "topic_id": 1828475,
+        "topic_slug": "aibotscheating-in-battlegrounds",
+        "display_username": "College",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2306334,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/stormrage/çollege/",
+          "race": "Dracthyr",
+          "class": "Evoker",
+          "player_class_enum": "EVOKER",
+          "level": "80",
+          "guild": "Darkfuse Solutions",
+          "achievement_points": "23475",
+          "blizzard_post_count": "295"
+        },
+        "post_url": "/t/aibotscheating-in-battlegrounds/1828475/16",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/stormrage/111/249357167-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg",
+        "alias_username": "Çollege-stormrage",
+        "poster_alias": {
+          "alias": {
+            "name": "Çollege-stormrage",
+            "avatar": "https://render.worldofwarcraft.com/us/character/stormrage/111/249357167-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/stormrage/çollege/",
+            "user_id": 2306334,
+            "id": 547194,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 282,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/stormrage/çollege/"
+              },
+              {
+                "name": "realm",
+                "value": "Stormrage"
+              },
+              {
+                "name": "achievement_points",
+                "value": "23875"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Dracthyr"
+              },
+              {
+                "name": "player_class",
+                "value": "Evoker"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "EVOKER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/stormrage/111/249357167-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Çollege-stormrage"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 295,
+        "character": {
+          "name": "College",
+          "guild": "Darkfuse Solutions",
+          "achievement_points": "23475",
+          "level": "80",
+          "class": "Evoker",
+          "race": "Dracthyr",
+          "player_class_enum": "EVOKER",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 23374396,
+        "name": "Snowcrest",
+        "username": "Snowcrest-439571",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-04-13T17:46:21.850Z",
+        "cooked": "<p>I haven’t seen obvious botting in battlegrounds in years.  I can’t see an incentive for it by today’s standards.</p>",
+        "post_number": 17,
+        "post_type": 1,
+        "posts_count": 51,
+        "updated_at": "2024-04-13T17:46:21.850Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 101,
+        "readers_count": 100,
+        "score": 25.2,
+        "yours": false,
+        "topic_id": 1828475,
+        "topic_slug": "aibotscheating-in-battlegrounds",
+        "display_username": "Snowcrest",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 439571,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/cenarius/snowcrest/",
+          "race": "Draenei",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "classic": "t",
+          "achievement_points": "19135",
+          "level": "84",
+          "blizzard_post_count": "12661"
+        },
+        "post_url": "/t/aibotscheating-in-battlegrounds/1828475/17",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/cenarius/0/128625152-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg",
+        "alias_username": "Snowcrest-cenarius",
+        "poster_alias": {
+          "alias": {
+            "name": "Snowcrest-cenarius",
+            "avatar": "https://render.worldofwarcraft.com/us/character/cenarius/0/128625152-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/cenarius/snowcrest/",
+            "user_id": 439571,
+            "id": 433134,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 11747,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/cenarius/snowcrest/"
+              },
+              {
+                "name": "realm",
+                "value": "Cenarius"
+              },
+              {
+                "name": "achievement_points",
+                "value": "20135"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Draenei"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/cenarius/0/128625152-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Snowcrest-cenarius"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 12661,
+        "character": {
+          "name": "Snowcrest",
+          "guild": null,
+          "achievement_points": "19135",
+          "level": "84",
+          "class": "Paladin",
+          "race": "Draenei",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 23374783,
+        "name": "DarthStar",
+        "username": "DarthStar-2716548",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-04-13T18:36:11.361Z",
+        "cooked": "<p>ive seen it even in epics lmfao</p>",
+        "post_number": 18,
+        "post_type": 1,
+        "posts_count": 51,
+        "updated_at": "2026-06-12T06:26:46.068Z",
+        "reply_count": 0,
+        "reply_to_post_number": 17,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 100,
+        "readers_count": 99,
+        "score": 20.0,
+        "yours": false,
+        "topic_id": 1828475,
+        "topic_slug": "aibotscheating-in-battlegrounds",
+        "display_username": "DarthStar",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 439571,
+          "username": "Snowcrest-439571",
+          "name": "Snowcrest",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2716548,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/sargeras/darthstar/",
+          "guild": "Alderaan Didnt LOS",
+          "race": "Void Elf",
+          "class": "Priest",
+          "player_class_enum": "PRIEST",
+          "level": "80",
+          "achievement_points": "18105",
+          "blizzard_post_count": "9848"
+        },
+        "post_url": "/t/aibotscheating-in-battlegrounds/1828475/18",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/sargeras/134/162565254-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
+        "alias_username": "Kitanana",
+        "poster_alias": {
+          "alias": {
+            "name": "Kitanana",
+            "avatar": "https://render.worldofwarcraft.com/us/character/sargeras/134/162565254-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/sargeras/kitanana/",
+            "user_id": 2716548,
+            "id": 2329340,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 7018,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/sargeras/kitanana/"
+              },
+              {
+                "name": "realm",
+                "value": "Sargeras"
+              },
+              {
+                "name": "achievement_points",
+                "value": "16050"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Void Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Priest"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PRIEST"
+              },
+              {
+                "name": "guild",
+                "value": "Alderaan Didnt LOS"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 433134,
+          "username": "Snowcrest-cenarius",
+          "name": "Snowcrest",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/cenarius/0/128625152-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 9848,
+        "character": {
+          "name": "DarthStar",
+          "guild": "Alderaan Didnt LOS",
+          "achievement_points": "18105",
+          "level": "80",
+          "class": "Priest",
+          "race": "Void Elf",
+          "player_class_enum": "PRIEST",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 23374941,
+        "name": "DevilandGod",
+        "username": "DevilandGod-2749322",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-04-13T18:53:42.038Z",
+        "cooked": "<p>regular battlegrounds are dead and just filled with trash. probably better if we all bot those. also, venruki is a 48-year-old clown not sure why you’re watching him.</p>",
+        "post_number": 19,
+        "post_type": 1,
+        "posts_count": 51,
+        "updated_at": "2024-04-13T18:53:42.038Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 98,
+        "readers_count": 97,
+        "score": 24.6,
+        "yours": false,
+        "topic_id": 1828475,
+        "topic_slug": "aibotscheating-in-battlegrounds",
+        "display_username": "DevilandGod",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2749322,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/illidan/hauntêd/",
+          "achievement_points": "205",
+          "level": "24",
+          "race": "Dwarf",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "blizzard_post_count": "16"
+        },
+        "post_url": "/t/aibotscheating-in-battlegrounds/1828475/19",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/illidan/33/229410593-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
+        "alias_username": "Hauntêd-illidan",
+        "poster_alias": {
+          "alias": {
+            "name": "Hauntêd-illidan",
+            "avatar": "https://render.worldofwarcraft.com/us/character/illidan/33/229410593-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/illidan/hauntêd/",
+            "user_id": 2749322,
+            "id": 805425,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 16,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/illidan/hauntêd/"
+              },
+              {
+                "name": "realm",
+                "value": "Illidan"
+              },
+              {
+                "name": "achievement_points",
+                "value": "205"
+              },
+              {
+                "name": "level",
+                "value": "24"
+              },
+              {
+                "name": "race",
+                "value": "Dwarf"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 16,
+        "character": {
+          "name": "DevilandGod",
+          "guild": null,
+          "achievement_points": "205",
+          "level": "24",
+          "class": "Hunter",
+          "race": "Dwarf",
+          "player_class_enum": "HUNTER",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 23375102,
+        "name": "Snowcrest",
+        "username": "Snowcrest-439571",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-04-13T19:18:33.959Z",
+        "cooked": "<p>He’s 33.  A 48-year old clown would have been in high school when he was born.</p>",
+        "post_number": 20,
+        "post_type": 1,
+        "posts_count": 51,
+        "updated_at": "2024-04-13T19:18:33.959Z",
+        "reply_count": 1,
+        "reply_to_post_number": 19,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 93,
+        "readers_count": 92,
+        "score": 28.6,
+        "yours": false,
+        "topic_id": 1828475,
+        "topic_slug": "aibotscheating-in-battlegrounds",
+        "display_username": "Snowcrest",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2749322,
+          "username": "DevilandGod-2749322",
+          "name": "DevilandGod",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 439571,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/cenarius/snowcrest/",
+          "race": "Draenei",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "classic": "t",
+          "achievement_points": "19135",
+          "level": "84",
+          "blizzard_post_count": "12661"
+        },
+        "post_url": "/t/aibotscheating-in-battlegrounds/1828475/20",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/cenarius/0/128625152-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg",
+        "alias_username": "Snowcrest-cenarius",
+        "poster_alias": {
+          "alias": {
+            "name": "Snowcrest-cenarius",
+            "avatar": "https://render.worldofwarcraft.com/us/character/cenarius/0/128625152-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/cenarius/snowcrest/",
+            "user_id": 439571,
+            "id": 433134,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 11747,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/cenarius/snowcrest/"
+              },
+              {
+                "name": "realm",
+                "value": "Cenarius"
+              },
+              {
+                "name": "achievement_points",
+                "value": "20135"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Draenei"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/cenarius/0/128625152-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Snowcrest-cenarius"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 805425,
+          "username": "Hauntêd-illidan",
+          "name": "Hauntêd",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/illidan/33/229410593-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 12661,
+        "character": {
+          "name": "Snowcrest",
+          "guild": null,
+          "achievement_points": "19135",
+          "level": "84",
+          "class": "Paladin",
+          "race": "Draenei",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ]
+  }
+}

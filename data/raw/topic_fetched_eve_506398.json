@@ -1,0 +1,759 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 2837103,
+        "name": "Das Biertier",
+        "username": "Das_Biertier",
+        "avatar_template": "/user_avatar/forums.eveonline.com/das_biertier/{size}/490706_2.png",
+        "created_at": "2026-02-10T14:30:01.492Z",
+        "cooked": "<p>Hello fellow pilots,</p>\n<p>I’ve just released my first custom skill for OpenClaw: An integration with the EVE Online ESI API for easy character management. It supports queries for character info, wallet, assets, skills, clones, location, contracts, mail, and more. Includes a dashboard config system for personalized alerts, reports, and market tracking. Comes with reusable Python scripts for ESI queries and config validation, plus guides for SSO OAuth2.</p>\n<p>•  GitHub Repo: <a href=\"https://github.com/burnshall-ui/openclaw-eve-skill\" rel=\"noopener nofollow ugc\">https://github.com/burnshall-ui/openclaw-eve-skill</a></p>\n<p>•  ClawHub Link: <a href=\"https://clawhub.ai/burnshall-ui/eve-esi\" rel=\"noopener nofollow ugc\">https://clawhub.ai/burnshall-ui/eve-esi</a></p>\n<p>Structure is straightforward: Copy to your OpenClaw skills dir, set up your auth, and you’re good. Quick start examples with curl or the bundled scripts. Built this as a hobby on a Ubuntu VPS with Docker.</p>\n<p>If you’re into OpenClaw tools or API stuff, check it out and star the repo if you like it! Feedback or collab ideas? Hit me up. o7</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 2,
+        "updated_at": "2026-02-10T14:30:01.492Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 171,
+        "reads": 29,
+        "readers_count": 28,
+        "score": 870.8,
+        "yours": false,
+        "topic_id": 506398,
+        "topic_slug": "openclaw-skill-eve-esi-integration-for-account-management-open-source",
+        "display_username": "Das Biertier",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://github.com/burnshall-ui/openclaw-eve-skill",
+            "internal": false,
+            "reflection": false,
+            "title": "GitHub - burnshall-ui/openclaw-eve-skill: OpenClaw skill for EVE Online ESI account management",
+            "clicks": 37
+          },
+          {
+            "url": "https://clawhub.ai/burnshall-ui/eve-esi",
+            "internal": false,
+            "reflection": false,
+            "title": "Eve online Esi Skill — ClawHub",
+            "clicks": 17
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 223084,
+        "hidden": false,
+        "trust_level": 0,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/openclaw-skill-eve-esi-integration-for-account-management-open-source/506398/1",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 2841362,
+        "name": "Cormorant Fell",
+        "username": "Cormorant_Fell",
+        "avatar_template": "/user_avatar/forums.eveonline.com/cormorant_fell/{size}/429069_2.png",
+        "created_at": "2026-02-21T02:15:35.243Z",
+        "cooked": "<p>Really nice work!</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 2,
+        "updated_at": "2026-02-21T02:15:35.243Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 17,
+        "readers_count": 16,
+        "score": 8.4,
+        "yours": false,
+        "topic_id": 506398,
+        "topic_slug": "openclaw-skill-eve-esi-integration-for-account-management-open-source",
+        "display_username": "Cormorant Fell",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 208,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/openclaw-skill-eve-esi-integration-for-account-management-open-source/506398/2",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2878498,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "https://global.discourse-cdn.com/eveonline/original/3X/4/1/41ec4921cbaca7a6f9ea556e7cc20018461eae5e.png",
+        "created_at": "2026-05-22T02:16:22.246Z",
+        "cooked": "<p>This topic was automatically closed 90 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 3,
+        "post_type": 3,
+        "posts_count": 2,
+        "updated_at": "2026-05-22T02:16:22.246Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 5.2,
+        "yours": false,
+        "topic_id": 506398,
+        "topic_slug": "openclaw-skill-eve-esi-integration-for-account-management-open-source",
+        "display_username": "system",
+        "primary_group_name": "system",
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/openclaw-skill-eve-esi-integration-for-account-management-open-source/506398/3",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ],
+    "stream": [
+      2837103,
+      2841362,
+      2878498
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      210
+    ],
+    [
+      2,
+      200
+    ],
+    [
+      3,
+      110
+    ]
+  ],
+  "suggested_topics": [],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "OpenClaw Skill: EVE ESI Integration for Account Management – Open Source",
+  "id": 506398,
+  "title": "OpenClaw Skill: EVE ESI Integration for Account Management – Open Source",
+  "posts_count": 2,
+  "created_at": "2026-02-10T14:30:01.441Z",
+  "views": 240,
+  "reply_count": 0,
+  "like_count": 1,
+  "last_posted_at": "2026-02-21T02:15:35.243Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "openclaw-skill-eve-esi-integration-for-account-management-open-source",
+  "category_id": 76,
+  "word_count": 170,
+  "deleted_at": null,
+  "user_id": 223084,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_506398",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 3,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 2,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "tags_disable_ads": false,
+  "related_topics": [
+    {
+      "fancy_title": "No longer relevant",
+      "id": 515797,
+      "title": "No longer relevant",
+      "slug": "no-longer-relevant",
+      "posts_count": 8,
+      "reply_count": 5,
+      "highest_post_number": 8,
+      "image_url": null,
+      "created_at": "2026-08-03T17:05:46.720Z",
+      "last_posted_at": "2026-08-10T16:23:16.860Z",
+      "bumped": true,
+      "bumped_at": "2026-08-10T16:23:16.860Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 6,
+      "views": 165,
+      "category_id": 76,
+      "featured_link": null,
+      "op_like_count": 2,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 17957,
+            "username": "Ajdeathgiver",
+            "name": "Ajdeathgiver",
+            "avatar_template": "/user_avatar/forums.eveonline.com/ajdeathgiver/{size}/381113_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Recent Poster",
+          "user": {
+            "id": 1612,
+            "username": "DeMichael_Crimson",
+            "name": "DeMichael Crimson",
+            "avatar_template": "/user_avatar/forums.eveonline.com/demichael_crimson/{size}/507884_2.png",
+            "trust_level": 3
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Simplest possible connection?",
+      "id": 111295,
+      "title": "Simplest possible connection?",
+      "slug": "simplest-possible-connection",
+      "posts_count": 4,
+      "reply_count": 1,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2018-10-05T17:11:23.933Z",
+      "last_posted_at": "2018-10-05T18:17:19.017Z",
+      "bumped": true,
+      "bumped_at": "2018-10-05T18:17:19.017Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 366,
+      "category_id": 76,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 64894,
+            "username": "Mostly_Enat",
+            "name": "Mostly Enat",
+            "avatar_template": "/user_avatar/forums.eveonline.com/mostly_enat/{size}/100148_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1242,
+            "username": "Blacksmoke16",
+            "name": "Blacksmoke16",
+            "avatar_template": "/user_avatar/forums.eveonline.com/blacksmoke16/{size}/376589_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "https://global.discourse-cdn.com/eveonline/original/3X/4/1/41ec4921cbaca7a6f9ea556e7cc20018461eae5e.png",
+            "primary_group_name": "system",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": null,
+          "description": "Recent Poster",
+          "user": {
+            "id": 71,
+            "username": "Obil_Que",
+            "name": "Obil Que",
+            "avatar_template": "/user_avatar/forums.eveonline.com/obil_que/{size}/171329_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Things which are handy to know:",
+      "id": 3931,
+      "title": "Things which are handy to know:",
+      "slug": "things-which-are-handy-to-know",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2017-06-20T15:13:23.616Z",
+      "last_posted_at": "2017-06-20T15:13:23.703Z",
+      "bumped": true,
+      "bumped_at": "2017-06-20T15:13:23.703Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 4,
+      "views": 688,
+      "category_id": 76,
+      "featured_link": null,
+      "op_like_count": 4,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 46,
+            "username": "Steve_Ronuken",
+            "name": "Steve Ronuken",
+            "avatar_template": "/user_avatar/forums.eveonline.com/steve_ronuken/{size}/373894_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "[App] EvePanda - Character management for Android",
+      "id": 73595,
+      "title": "[App] EvePanda - Character management for Android",
+      "slug": "app-evepanda-character-management-for-android",
+      "posts_count": 13,
+      "reply_count": 5,
+      "highest_post_number": 13,
+      "image_url": "https://global.discourse-cdn.com/eveonline/original/3X/a/a/aa69c543604ea4ee836f7da57f7ec140493df560.jpg",
+      "created_at": "2018-05-01T06:37:08.765Z",
+      "last_posted_at": "2018-06-30T08:03:00.810Z",
+      "bumped": true,
+      "bumped_at": "2018-06-30T08:03:00.810Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 4,
+      "views": 6779,
+      "category_id": 76,
+      "featured_link": null,
+      "op_like_count": 2,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 46345,
+            "username": "Light_Morn",
+            "name": "Light Morn",
+            "avatar_template": "/user_avatar/forums.eveonline.com/light_morn/{size}/159882_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 38061,
+            "username": "Retainer_of_Souls",
+            "name": "Retainer of Souls",
+            "avatar_template": "/user_avatar/forums.eveonline.com/retainer_of_souls/{size}/249744_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 37308,
+            "username": "Christy_Cloud",
+            "name": "Christy Cloud",
+            "avatar_template": "/user_avatar/forums.eveonline.com/christy_cloud/{size}/391951_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "https://global.discourse-cdn.com/eveonline/original/3X/4/1/41ec4921cbaca7a6f9ea556e7cc20018461eae5e.png",
+            "primary_group_name": "system",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": null,
+          "description": "Recent Poster",
+          "user": {
+            "id": 1242,
+            "username": "Blacksmoke16",
+            "name": "Blacksmoke16",
+            "avatar_template": "/user_avatar/forums.eveonline.com/blacksmoke16/{size}/376589_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "EVE-Skillplan.net - Plan your training online! (v3.3.0 - Relaunched in August 2020!)",
+      "id": 17858,
+      "title": "EVE-Skillplan.net - Plan your training online! (v3.3.0 - Relaunched in August 2020!)",
+      "slug": "eve-skillplan-net-plan-your-training-online-v3-3-0-relaunched-in-august-2020",
+      "posts_count": 107,
+      "reply_count": 42,
+      "highest_post_number": 110,
+      "image_url": null,
+      "created_at": "2017-08-18T09:47:09.104Z",
+      "last_posted_at": "2025-07-26T21:36:07.054Z",
+      "bumped": true,
+      "bumped_at": "2025-07-26T21:36:07.054Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 42,
+      "views": 130608,
+      "category_id": 95,
+      "featured_link": null,
+      "op_like_count": 9,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 10479,
+            "username": "Legedric_Striker",
+            "name": "Legedric Striker",
+            "avatar_template": "/user_avatar/forums.eveonline.com/legedric_striker/{size}/393965_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 29912,
+            "username": "Richard_Price",
+            "name": "Richard Price",
+            "avatar_template": "/user_avatar/forums.eveonline.com/richard_price/{size}/146146_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2561,
+            "username": "Quazar_Doosan",
+            "name": "Quazar Doosan",
+            "avatar_template": "/user_avatar/forums.eveonline.com/quazar_doosan/{size}/74322_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Recent Poster",
+          "user": {
+            "id": 215021,
+            "username": "Tsavoung_Lah",
+            "name": "Tsavoung Lah",
+            "avatar_template": "/user_avatar/forums.eveonline.com/tsavoung_lah/{size}/468390_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 16819,
+            "username": "Geo_Eclipse_Oksaras",
+            "name": "Geo Eclipse Oksaras",
+            "avatar_template": "/user_avatar/forums.eveonline.com/geo_eclipse_oksaras/{size}/500781_2.png",
+            "trust_level": 3
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "has_cached_summary": false,
+  "valid_reactions": [
+    "heart",
+    "+1",
+    "laughing",
+    "open_mouth",
+    "clap",
+    "confetti_ball",
+    "hugs"
+  ],
+  "has_accepted_answer": false,
+  "can_create_shared_issue": false,
+  "shared_issue_visible": false,
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 223084,
+        "username": "Das_Biertier",
+        "name": "Das Biertier",
+        "avatar_template": "/user_avatar/forums.eveonline.com/das_biertier/{size}/490706_2.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 0
+      },
+      {
+        "id": 208,
+        "username": "Cormorant_Fell",
+        "name": "Cormorant Fell",
+        "avatar_template": "/user_avatar/forums.eveonline.com/cormorant_fell/{size}/429069_2.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      }
+    ],
+    "created_by": {
+      "id": 223084,
+      "username": "Das_Biertier",
+      "name": "Das Biertier",
+      "avatar_template": "/user_avatar/forums.eveonline.com/das_biertier/{size}/490706_2.png"
+    },
+    "last_poster": {
+      "id": 208,
+      "username": "Cormorant_Fell",
+      "name": "Cormorant Fell",
+      "avatar_template": "/user_avatar/forums.eveonline.com/cormorant_fell/{size}/429069_2.png"
+    },
+    "links": [
+      {
+        "url": "https://github.com/burnshall-ui/openclaw-eve-skill",
+        "title": "GitHub - burnshall-ui/openclaw-eve-skill: OpenClaw skill for EVE Online ESI account management",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 37,
+        "user_id": 223084,
+        "domain": "github.com",
+        "root_domain": "github.com"
+      },
+      {
+        "url": "https://clawhub.ai/burnshall-ui/eve-esi",
+        "title": "Eve online Esi Skill — ClawHub",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 17,
+        "user_id": 223084,
+        "domain": "clawhub.ai",
+        "root_domain": "clawhub.ai"
+      }
+    ]
+  },
+  "bookmarks": [],
+  "jogo": "EVE Online",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum CCP EVE",
+  "url_fonte": "https://forums.eveonline.com/t/openclaw-skill-eve-esi-integration-for-account-management-open-source/506398"
+}

@@ -1,0 +1,1699 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 19955763,
+        "name": null,
+        "username": "Aadvark-sulfuras",
+        "avatar_template": "https://render.worldofwarcraft.com/classic-us/character/sulfuras/61/41902141-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+        "created_at": "2023-02-27T21:25:36.232Z",
+        "cooked": "<p>Since we don’t want to ban the DK bots in BGs, I have a brand new solution to make it better than new.  I’d like to request that Blizzard simply add new functionality to their APIs that the DK bots can use so that everyone will have more fun playing with their new AI ChatGPT friends.  Some ideas for the new DK bot functionality below:</p>\n<p>PickUpFlag() → DKs never run the flag in WSG, this will definitely help the team out<br>\nCapFlag() → See above ^<br>\nReturnFlag() → Sure, 8 DKs stacked together will kill the flag carrier, but they need an easy way to cap the flag afterwards<br>\nAttackDemolisher() → sure the DK bots are great and everyone loves it when they’re in strand of the Ancients with you, but I noticed they just straight up run by demolishers, BLIZZARD YOU NEED TO HELP THEM ATTACK DEMOLISHERS, it’s not their fault, they just need your help.<br>\nManTurret() → similar to above they just need a little help, it’s not their fault<br>\nSpaceOutALittleBro() → this could send a signal to other bots to space them out a little, I do love seeing 15 of them stacked together, but it’s just kinda nice if they have their own space, especially after all of them rez at a graveyard<br>\nHoldTrinketForASec() → it’s great to see a DK use their trinket .0001 seconds after a cheap shot, but I’m afraid this is ruining my immersion a little bit, I think if they hold their trinket, say until CC is stacked or maybe until .0002 seconds it might be more realistic<br>\nHoldMindFreezeYouFreakOfNatureIJustStartedCasting() → I think the name of this method really flows, but anyway similar to above I think this could really help DK bot immersion<br>\nDontQueueYetINeedToRepair() → DK bots are dedicated gamers to be sure, but queues usually aren’t instant.  I think it would be really nice if you added an option for them to repair before games.  I see a naked DK with 11k HP running around WSG and I am blown away by their dedication to the horde cause, but they should be taken care of in Dalaran.  You could even add a special vendor to do it for free so they continue to sell premium gold and wreck the economy<br>\nDontBreakMyCCBro() → as a rogue, I have to admit I really like it when I blind a trinket and sap off in order to kill an enemy player and they get deathgripped across the map by a DK bot, I just love their enthusiasm!  But sometimes I think it would be cool for them to not break CC and use a little bit of strategy<br>\nHumanSpeak() → I think this is the thing I’m most excited about.  I think it would be really cool to add an API so the bots could talk.  So that when you asked a DK to say potato if they’re not a bot they could be like \"Potato silly willy <img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/wink.png?v=12\" title=\":wink:\" class=\"emoji\" alt=\":wink:\" loading=\"lazy\" width=\"20\" height=\"20\"> \" I know that you love your Classic fanbase and are willing to invest so much to make our subscriptions worth it so that’s why I think you could collab with ChatGPT on this!  Maybe this method could tunnel all the player chat to ChatGPT and maybe the ChatGPT could be configured to think it’s a wow player or something.  I think it could be so exciting!</p>\n<p>Anyway those are my suggestions for now.  I’m really really glad you all are taking the botting so seriously and that this game isn’t just a cash grab for a bunch of execs that don’t give a damn about gaming! Til next time!</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 10,
+        "updated_at": "2023-02-27T21:39:59.200Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 39,
+        "reads": 108,
+        "readers_count": 107,
+        "score": 391.6,
+        "yours": false,
+        "topic_id": 1533459,
+        "topic_slug": "a-new-solution-to-dk-bots",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 3,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 12
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1720286,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": null,
+          "guild": "GnoMercy",
+          "race": "Undead",
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "blizzard_post_count": "43",
+          "achievement_points": "3070",
+          "level": "80",
+          "classic": "t"
+        },
+        "post_url": "/t/a-new-solution-to-dk-bots/1533459/1",
+        "alias_avatar": null,
+        "alias_username": null,
+        "poster_alias": null,
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 43,
+        "character": {
+          "name": "Aadvark",
+          "guild": "GnoMercy",
+          "achievement_points": "3070",
+          "level": "80",
+          "class": "Mage",
+          "race": "Undead",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 19955783,
+        "name": "Riv",
+        "username": "Riv-966314",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-02-27T21:28:05.437Z",
+        "cooked": "<p>What did i just read?</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 10,
+        "updated_at": "2023-02-27T21:28:05.437Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 84,
+        "readers_count": 83,
+        "score": 51.8,
+        "yours": false,
+        "topic_id": 1533459,
+        "topic_slug": "a-new-solution-to-dk-bots",
+        "display_username": "Riv",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 966314,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Gnome",
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "blizzard_post_count": "68",
+          "guild": "Damage Networks",
+          "level": "80",
+          "classic": "t",
+          "achievement_points": "2785"
+        },
+        "post_url": "/t/a-new-solution-to-dk-bots/1533459/2",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/grobbulus/183/18413239-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg",
+        "alias_username": "Arpeggio-grobbulus",
+        "poster_alias": {
+          "alias": {
+            "name": "Arpeggio-grobbulus",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/grobbulus/183/18413239-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg",
+            "url": null,
+            "user_id": 966314,
+            "id": 630385,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 68,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Grobbulus"
+              },
+              {
+                "name": "achievement_points",
+                "value": "2785"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "Damage Networks"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 68,
+        "character": {
+          "name": "Riv",
+          "guild": "Damage Networks",
+          "achievement_points": "2785",
+          "level": "80",
+          "class": "Mage",
+          "race": "Gnome",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 19958405,
+        "name": null,
+        "username": "Anbruh-benediction",
+        "avatar_template": "https://render.worldofwarcraft.com/classic-us/character/benediction/123/55970427-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg",
+        "created_at": "2023-02-28T01:50:26.026Z",
+        "cooked": "<p>Great post. Since blizz won’t ever fix their bug &amp; bot filled game, maybe they can drop new DLC. A “bot-only” exclusive flying mount; maybe even a “totally not a bot or gold farmer tabard”. I’ll have my credit card at the ready for anything at any price they demand! <span class=\"hashtag\">#wotlkhype</span> <span class=\"hashtag\">#newdlcwhen</span> <a class=\"hashtag\" href=\"/en/wow/c/wow-classic/197\">#<span>wow-classic</span></a></p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 10,
+        "updated_at": "2023-02-28T01:50:26.026Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 72,
+        "readers_count": 71,
+        "score": 64.4,
+        "yours": false,
+        "topic_id": 1533459,
+        "topic_slug": "a-new-solution-to-dk-bots",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2056311,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": null,
+          "guild": "Fresh",
+          "race": "Draenei",
+          "class": "Shaman",
+          "player_class_enum": "SHAMAN",
+          "blizzard_post_count": "3",
+          "achievement_points": "980",
+          "level": "72",
+          "classic": "t"
+        },
+        "post_url": "/t/a-new-solution-to-dk-bots/1533459/3",
+        "alias_avatar": null,
+        "alias_username": null,
+        "poster_alias": null,
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 3,
+        "character": {
+          "name": "Anbruh",
+          "guild": "Fresh",
+          "achievement_points": "980",
+          "level": "72",
+          "class": "Shaman",
+          "race": "Draenei",
+          "player_class_enum": "SHAMAN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 19958565,
+        "name": "hiddenmarkov",
+        "username": "hiddenmarkov-2491141",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-02-28T02:11:42.908Z",
+        "cooked": "<p>pseudo code function calls for bots to use.</p>\n<p>Part of me is going…interesting idea lol.       this is how games like eve with an expanded API you can get actually useful bots.  see them in faction warfare sometimes.</p>\n<p>want to hate them for being leeching botters.  but…they are coded to actually fight pretty decent so they kill opposing faction, sometimes.  they also shoot friendlies too…to keep their spot.</p>\n<p>or their “get the hell out” code is so good if they aren’t botting the same spot they bot 99.99999% of the time it can mean a few things you may need to be wary of.</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 10,
+        "updated_at": "2026-06-17T15:06:18.166Z",
+        "reply_count": 0,
+        "reply_to_post_number": 2,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 67,
+        "readers_count": 66,
+        "score": 33.4,
+        "yours": false,
+        "topic_id": 1533459,
+        "topic_slug": "a-new-solution-to-dk-bots",
+        "display_username": "hiddenmarkov",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 966314,
+          "username": "Riv-966314",
+          "name": "Riv",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2491141,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/moon-guard/tixij/",
+          "race": "Human",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "achievement_points": "13215",
+          "level": "80",
+          "guild": "Slayers Minions",
+          "classic": "t",
+          "blizzard_post_count": "29405"
+        },
+        "post_url": "/t/a-new-solution-to-dk-bots/1533459/4",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/old-blanchy/92/52820316-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Misanthra",
+        "poster_alias": {
+          "alias": {
+            "name": "Misanthra",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/old-blanchy/92/52820316-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": null,
+            "user_id": 2491141,
+            "id": 2400948,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 3833,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Old Blanchy"
+              },
+              {
+                "name": "achievement_points",
+                "value": "1240"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 630385,
+          "username": "Arpeggio-grobbulus",
+          "name": "Arpeggio",
+          "avatar_template": "https://render.worldofwarcraft.com/classic-us/character/grobbulus/183/18413239-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 29405,
+        "character": {
+          "name": "hiddenmarkov",
+          "guild": "Slayers Minions",
+          "achievement_points": "13215",
+          "level": "80",
+          "class": "Hunter",
+          "race": "Human",
+          "player_class_enum": "HUNTER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 19960026,
+        "name": "Apoc",
+        "username": "Apoc-2322757",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-02-28T05:55:14.937Z",
+        "cooked": "<p>Hey now, I saw some bots grab the flag the other day! They’re evolving!</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "posts_count": 10,
+        "updated_at": "2023-02-28T05:55:14.937Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 36,
+        "readers_count": 35,
+        "score": 12.2,
+        "yours": false,
+        "topic_id": 1533459,
+        "topic_slug": "a-new-solution-to-dk-bots",
+        "display_username": "Apoc",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2322757,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/balnazzar/halflife/",
+          "guild": "Vindication",
+          "race": "Night Elf",
+          "class": "Druid",
+          "player_class_enum": "DRUID",
+          "blizzard_post_count": "3",
+          "achievement_points": "1310",
+          "level": "79",
+          "classic": "t"
+        },
+        "post_url": "/t/a-new-solution-to-dk-bots/1533459/6",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/westfall/45/46875949-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Apocas-westfall",
+        "poster_alias": {
+          "alias": {
+            "name": "Apocas-westfall",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/westfall/45/46875949-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": null,
+            "user_id": 2322757,
+            "id": 823649,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 3,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Westfall"
+              },
+              {
+                "name": "achievement_points",
+                "value": "1310"
+              },
+              {
+                "name": "level",
+                "value": "79"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "Vindication"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 3,
+        "character": {
+          "name": "Apoc",
+          "guild": "Vindication",
+          "achievement_points": "1310",
+          "level": "79",
+          "class": "Druid",
+          "race": "Night Elf",
+          "player_class_enum": "DRUID",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20202415,
+        "name": null,
+        "username": "Aadvark-sulfuras",
+        "avatar_template": "https://render.worldofwarcraft.com/classic-us/character/sulfuras/61/41902141-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+        "created_at": "2023-03-25T16:26:26.720Z",
+        "cooked": "<p>Only 8 bots on my team in this WSG, completely playable</p>",
+        "post_number": 7,
+        "post_type": 1,
+        "posts_count": 10,
+        "updated_at": "2023-03-25T16:26:26.720Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 21,
+        "readers_count": 20,
+        "score": 9.2,
+        "yours": false,
+        "topic_id": 1533459,
+        "topic_slug": "a-new-solution-to-dk-bots",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1720286,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": null,
+          "guild": "GnoMercy",
+          "race": "Undead",
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "blizzard_post_count": "43",
+          "achievement_points": "3070",
+          "level": "80",
+          "classic": "t"
+        },
+        "post_url": "/t/a-new-solution-to-dk-bots/1533459/7",
+        "alias_avatar": null,
+        "alias_username": null,
+        "poster_alias": null,
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 43,
+        "character": {
+          "name": "Aadvark",
+          "guild": "GnoMercy",
+          "achievement_points": "3070",
+          "level": "80",
+          "class": "Mage",
+          "race": "Undead",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20202490,
+        "name": "Kaeane",
+        "username": "Kaeane-20733",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-03-25T16:36:17.332Z",
+        "cooked": "<p><em>25 days later …</em></p>",
+        "post_number": 8,
+        "post_type": 1,
+        "posts_count": 10,
+        "updated_at": "2023-03-25T16:36:17.332Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 20,
+        "readers_count": 19,
+        "score": 24.0,
+        "yours": false,
+        "topic_id": 1533459,
+        "topic_slug": "a-new-solution-to-dk-bots",
+        "display_username": "Kaeane",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 20733,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Antiguild",
+          "race": "Orc",
+          "class": "Death Knight",
+          "player_class_enum": "DEATHKNIGHT",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/malganis/zachaios/",
+          "level": "70",
+          "achievement_points": "16850",
+          "blizzard_post_count": "6422",
+          "classic": "t"
+        },
+        "post_url": "/t/a-new-solution-to-dk-bots/1533459/8",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/malganis/204/119084236-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "alias_username": "Zachaios-malganis",
+        "poster_alias": {
+          "alias": {
+            "name": "Zachaios-malganis",
+            "avatar": "https://render.worldofwarcraft.com/us/character/malganis/204/119084236-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/malganis/zachaios/",
+            "user_id": 20733,
+            "id": 425693,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 6422,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/malganis/zachaios/"
+              },
+              {
+                "name": "realm",
+                "value": "Mal'Ganis"
+              },
+              {
+                "name": "achievement_points",
+                "value": "16850"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/malganis/204/119084236-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Zachaios-malganis"
+              },
+              {
+                "name": "guild",
+                "value": "Antiguild"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 6422,
+        "character": {
+          "name": "Kaeane",
+          "guild": "Antiguild",
+          "achievement_points": "16850",
+          "level": "70",
+          "class": "Death Knight",
+          "race": "Orc",
+          "player_class_enum": "DEATHKNIGHT",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20209401,
+        "name": "Drain",
+        "username": "Drain-2764344",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-03-26T13:51:28.229Z",
+        "cooked": "<p>Don’t try to help them cheat at the game. Assuming they aren’t banned, the next best thing would be to dump all of them into their own separate queue to brawl with each other (earning no honor of course) while we can play normal matches without them.<br>\n(Censored until March 26)</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "posts_count": 10,
+        "updated_at": "2026-06-13T07:16:54.691Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 13,
+        "readers_count": 12,
+        "score": 12.6,
+        "yours": false,
+        "topic_id": 1533459,
+        "topic_slug": "a-new-solution-to-dk-bots",
+        "display_username": "Drain",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2764344,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/bonechewer/drain/",
+          "guild": "Anti Trans Rights",
+          "achievement_points": "2625",
+          "level": "80",
+          "race": "Orc",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "classic": "t",
+          "blizzard_post_count": "204"
+        },
+        "post_url": "/t/a-new-solution-to-dk-bots/1533459/9",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/windseeker/50/12358450-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "alias_username": "Drain",
+        "poster_alias": {
+          "alias": {
+            "name": "Drain",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/windseeker/50/12358450-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": null,
+            "user_id": 2764344,
+            "id": 2335004,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 10078,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Windseeker"
+              },
+              {
+                "name": "achievement_points",
+                "value": "2615"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 204,
+        "character": {
+          "name": "Drain",
+          "guild": "Anti Trans Rights",
+          "achievement_points": "2625",
+          "level": "80",
+          "class": "Warrior",
+          "race": "Orc",
+          "player_class_enum": "WARRIOR",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20215513,
+        "name": null,
+        "username": "Dredlok-atiesh",
+        "avatar_template": "https://render.worldofwarcraft.com/classic-us/character/atiesh/165/16660901-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "created_at": "2023-03-27T05:43:01.584Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Drain-windseeker\" data-post=\"9\" data-topic=\"1533459\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/classic-us/character/windseeker/50/12358450-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg\" class=\"avatar\"> Drain:</div>\n<blockquote>\n<p>Don’t try to help them cheat at the game.</p>\n</blockquote>\n</aside>\n<p>Do you have some kind of problem with satire?<br>\nJust tell the @Aadvark that it was brilliantly written, Blizzard should hire him as a dev on the lua/addon team to implement his suggested changes, and move on to the next post already.<br>\nJeez Louise.</p>",
+        "post_number": 10,
+        "post_type": 1,
+        "posts_count": 10,
+        "updated_at": "2023-03-27T05:43:01.584Z",
+        "reply_count": 0,
+        "reply_to_post_number": 9,
+        "quote_count": 1,
+        "incoming_link_count": 1,
+        "reads": 10,
+        "readers_count": 9,
+        "score": 7.0,
+        "yours": false,
+        "topic_id": 1533459,
+        "topic_slug": "a-new-solution-to-dk-bots",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 880566,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Orc",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "blizzard_post_count": "34",
+          "achievement_points": "30",
+          "level": "12",
+          "classic": "t"
+        },
+        "post_url": "/t/a-new-solution-to-dk-bots/1533459/10",
+        "alias_avatar": null,
+        "alias_username": null,
+        "poster_alias": null,
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 34,
+        "character": {
+          "name": "Dredlok",
+          "guild": null,
+          "achievement_points": "30",
+          "level": "12",
+          "class": "Warlock",
+          "race": "Orc",
+          "player_class_enum": "WARLOCK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20710328,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-05-26T05:43:06.115Z",
+        "cooked": "<p>This topic was automatically closed 60 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 11,
+        "post_type": 3,
+        "posts_count": 10,
+        "updated_at": "2023-05-26T05:43:06.115Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 1533459,
+        "topic_slug": "a-new-solution-to-dk-bots",
+        "display_username": "system",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/a-new-solution-to-dk-bots/1533459/11",
+        "alias_username": null,
+        "poster_alias": null,
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 3016,
+        "character": {
+          "name": "system",
+          "guild": null,
+          "achievement_points": null,
+          "level": null,
+          "class": null,
+          "race": null,
+          "player_class_enum": null,
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ],
+    "stream": [
+      19955763,
+      19955783,
+      19958405,
+      19958565,
+      19960026,
+      20202415,
+      20202490,
+      20209401,
+      20215513,
+      20710328
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      1289
+    ],
+    [
+      6,
+      1263
+    ],
+    [
+      8,
+      1262
+    ],
+    [
+      10,
+      1202
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "fancy_title": "Classic Future Idea",
+      "id": 2339272,
+      "title": "Classic Future Idea",
+      "slug": "classic-future-idea",
+      "posts_count": 3,
+      "reply_count": 1,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2026-08-20T18:57:38.082Z",
+      "last_posted_at": "2026-08-20T21:36:05.679Z",
+      "bumped": true,
+      "bumped_at": "2026-08-20T21:36:05.679Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "This is just an idea I had if Blizzard is not going to announce WOD progression at Blizz Con \n\ncreate three era servers: Vanilla, WOTLK and MOP\nlet us transfer our toons to one of the three realms, no clones\nif you stay &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 3,
+      "views": 132,
+      "category_id": 254,
+      "featured_link": null,
+      "op_like_count": 2,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 3134917,
+            "username": "bottomsup-3134917",
+            "name": "bottomsup",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3388704,
+            "username": "dorotea-3388704",
+            "name": "dorotea",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 1,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Level one worgen off xp",
+      "id": 2340182,
+      "title": "Level one worgen off xp",
+      "slug": "level-one-worgen-off-xp",
+      "posts_count": 5,
+      "reply_count": 2,
+      "highest_post_number": 5,
+      "image_url": null,
+      "created_at": "2026-08-23T10:31:33.861Z",
+      "last_posted_at": "2026-08-24T09:27:53.751Z",
+      "bumped": true,
+      "bumped_at": "2026-08-24T09:27:53.751Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Has anyone been able to make a level one off xp worgen in mop classic?",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 214,
+      "category_id": 254,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3029778,
+            "username": "Anderxael-3029778",
+            "name": "Anderxael",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 1,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3388704,
+            "username": "dorotea-3388704",
+            "name": "dorotea",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 1,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 3040992,
+            "username": "ThecrazyScot-3040992",
+            "name": "ThecrazyScot",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Joyous Journeys?",
+      "id": 2340204,
+      "title": "Joyous Journeys?",
+      "slug": "joyous-journeys",
+      "posts_count": 17,
+      "reply_count": 14,
+      "highest_post_number": 17,
+      "image_url": null,
+      "created_at": "2026-08-23T13:32:16.293Z",
+      "last_posted_at": "2026-09-08T17:27:45.956Z",
+      "bumped": true,
+      "bumped_at": "2026-09-08T17:27:45.956Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "I heard rumors of Joyous Journeys returning to MoP Classic, and I was wondering if it was true, and if so, when?",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 5,
+      "views": 758,
+      "category_id": 254,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 677027,
+            "username": "Sebtastic-stormrage",
+            "name": null,
+            "avatar_template": "https://render.worldofwarcraft.com/us/character/stormrage/72/99854408-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg",
+            "trust_level": 0,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3016927,
+            "username": "Radroit-3016927",
+            "name": "Radroit",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2399570,
+            "username": "Pandey-2399570",
+            "name": "Pandey",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3388704,
+            "username": "dorotea-3388704",
+            "name": "dorotea",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 1,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 3443266,
+            "username": "DryRot-3443266",
+            "name": "DryRot",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 1,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "You can solo the legendary cloak celestial bosses using only celestial gears",
+      "id": 2341626,
+      "title": "You can solo the legendary cloak celestial bosses using only celestial gears",
+      "slug": "you-can-solo-the-legendary-cloak-celestial-bosses-using-only-celestial-gears",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2026-08-27T09:46:26.405Z",
+      "last_posted_at": "2026-08-27T09:46:26.542Z",
+      "bumped": true,
+      "bumped_at": "2026-08-27T09:46:26.542Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Good news for the autistic death knights on dead servers, you can solo all of the celestial bosses without talking to anybody. You only need full celestial gear ilvl 540-ish. \nIf you are not a death knight, you can also &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 192,
+      "category_id": 254,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 2327806,
+            "username": "Areuhungry-2327806",
+            "name": "Areuhungry",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 1,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Work orders",
+      "id": 2342825,
+      "title": "Work orders",
+      "slug": "work-orders",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2026-08-30T12:58:18.085Z",
+      "last_posted_at": "2026-08-30T12:58:18.217Z",
+      "bumped": true,
+      "bumped_at": "2026-08-30T12:58:18.217Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "I can’t turn in work orders for farming",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 72,
+      "category_id": 254,
+      "featured_link": null,
+      "op_like_count": 1,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 2686041,
+            "username": "NONIA-2686041",
+            "name": "NONIA",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    }
+  ],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "A new solution to DK bots",
+  "id": 1533459,
+  "title": "A new solution to DK bots",
+  "posts_count": 10,
+  "created_at": "2023-02-27T21:25:36.044Z",
+  "views": 587,
+  "reply_count": 2,
+  "like_count": 19,
+  "last_posted_at": "2023-05-26T05:43:06.115Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "a-new-solution-to-dk-bots",
+  "category_id": 254,
+  "word_count": 940,
+  "deleted_at": null,
+  "user_id": 1720286,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_1533459",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 11,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 1001,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1002,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1003,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1004,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1005,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 2,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 966314,
+        "username": "Riv-966314",
+        "name": "Riv",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Arpeggio-grobbulus",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/grobbulus/183/18413239-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg",
+            "url": null,
+            "user_id": 966314,
+            "id": 630385,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 68,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Grobbulus"
+              },
+              {
+                "name": "achievement_points",
+                "value": "2785"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "Damage Networks"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 2322757,
+        "username": "Apoc-2322757",
+        "name": "Apoc",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Apocas-westfall",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/westfall/45/46875949-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": null,
+            "user_id": 2322757,
+            "id": 823649,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 3,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Westfall"
+              },
+              {
+                "name": "achievement_points",
+                "value": "1310"
+              },
+              {
+                "name": "level",
+                "value": "79"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "Vindication"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      }
+    ],
+    "created_by": {
+      "id": 1720286,
+      "username": "Aadvark-sulfuras",
+      "name": null,
+      "avatar_template": "https://render.worldofwarcraft.com/classic-us/character/sulfuras/61/41902141-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+      "animated_avatar": null
+    },
+    "last_poster": {
+      "id": -1,
+      "username": "system",
+      "name": "system",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    }
+  },
+  "bookmarks": [],
+  "jogo": "World of Warcraft",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Blizzard",
+  "url_fonte": "https://us.forums.blizzard.com/en/wow/t/a-new-solution-to-dk-bots/1533459"
+}

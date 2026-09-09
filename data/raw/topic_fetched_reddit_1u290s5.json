@@ -1,0 +1,38 @@
+{
+  "id": "reddit_1u290s5",
+  "title": "After Years of Making WoW Routes, I Built My Own Addon",
+  "slug": "after_years_of_making_wow_routes_i_built_my_own",
+  "posts_count": 2,
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1,
+        "username": "Puzzleheaded-List823",
+        "cooked": "<p>After spending years creating and sharing WoW farming routes, I got tired of juggling multiple addons, route strings, screenshots, websites, and manual route editing. So I've been building Golden Routes — a World of Warcraft addon focused on creating, editing, sharing, and managing custom farming routes directly in-game. Current features include: • Route Library • Custom Route Creation • Map-Based Route Editing • Import / Export Strings • Mining Routes • Herbalism Routes • Skinning Routes • Cloth Farming Routes • Route Recording • Favorites & Organization Tools One of my biggest goals is making route creation easier. Instead of relying entirely on coordinates and external tools, I'm working toward a workflow where routes can be built and edited visually on the map. The addon is currently in public beta and I'm looking for feedback from players who spend time farming, gathering, collecting transmogs, hunting rares, or building efficient travel paths. CurseForge: Golden Routes on CurseForge If you try it out, I'd love to hear: What feels confusing? What features are missing? What would make route creation easier? What would make you switch from Routes or other route addons? Thanks to everyone who's helped test it so far. A little background on the project: Golden Routes started because I spend a lot of time creating farming routes, gathering routes, transmog routes, and other travel paths throughout World of Warcraft. Over time I found myself constantly switching between addons, screenshots, notes, route strings, and external websites just to manage everything. What began as a personal project slowly grew into something much larger. My goal wasn't to replace every addon available, but to create a tool that makes route creation and route management more intuitive, especially for players who enjoy gathering, farming, exploration, or collecting. One of the biggest focuses of the project has been allowing routes to be created and edited visually instead of relying entirely on manually editing coordinates. Recent updates have focused heavily on improving the route editor, expanding the route creation tools, improving map interaction, and making route management easier overall. The addon is still actively being developed and many of the improvements currently being made are coming directly from tester feedback. That's one of the main reasons I'm sharing it here. I'm interested in hearing how other players approach route creation, what frustrations they have with current tools, and what features would actually make route management easier for them. Whether you're a farmer, gatherer, completionist, achievement hunter, transmog collector, or someone who simply enjoys optimizing travel paths, I'd love to hear your thoughts. If you decide to try it, feedback of any kind is appreciated. Bug reports, feature requests, UI suggestions, workflow ideas, and general impressions all help shape future updates.</p>",
+        "created_at": "2026-06-10T17:33:20.556000+0000",
+        "post_number": 1,
+        "reply_to_post_number": null,
+        "reply_count": 1,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 2,
+        "username": "Pathard",
+        "cooked": "<p>This looks awesome! I'll take a look later when I get home - thanks for making it!</p>",
+        "created_at": "2026-06-10T19:17:14.878000+0000",
+        "post_number": 2,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      }
+    ]
+  },
+  "jogo": "World of Warcraft",
+  "fonte": "Reddit",
+  "seccao": "r/wow",
+  "url_fonte": "https://www.reddit.com/r/wow/comments/1u290s5/after_years_of_making_wow_routes_i_built_my_own/"
+}

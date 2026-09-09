@@ -1,0 +1,74 @@
+{
+  "id": "reddit_1r5ymuj",
+  "title": "Going to check it out after ~20 years away, lol",
+  "slug": "going_to_check_it_out_after_20_years_away_lol",
+  "posts_count": 5,
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1,
+        "username": "Proteus-Seven",
+        "cooked": "<p>So with all the MMO's shutting down lately, I thought it would be nice to revisit something somewhat stable. WoW came to mind, and then I heard about the housing. Thing is, it's literally been at least 20 years since I last played. I asked ChatGPT if much had changed in the last ten years or so, and got a long list that sounded good. Are there any expansions I would need to buy besides the new Midnight, or is all of that covered with subscription? I am particularly interested in harvesting, crafting, marketplace. I'm also a casual player and like experimenting with different builds, so I'm not concerned with what endgame offers (or doesn't).</p>",
+        "created_at": "2026-02-16T03:25:32.335000+0000",
+        "post_number": 1,
+        "reply_to_post_number": null,
+        "reply_count": 4,
+        "like_count": 0,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 2,
+        "username": "ABNreaper",
+        "cooked": "<p>Once you purchase Midnight all other expansions are unlocked for you. Good look adventurer!</p>",
+        "created_at": "2026-02-16T03:32:26.034000+0000",
+        "post_number": 2,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 5,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 3,
+        "username": "Ohiru",
+        "cooked": "<p>Now is a good time to come back. The game has a lot of solo options and it sounds like your interests will work well. You just need to buy the newest expansion, midnight, and you get access to all the old content if you just decide you want to explore it. Most people will be at the newest expason, which officially starts March 2nd i think. There is early access which starts Feb. 26th if you want to pay extra. Hope you have a good time! If you buy in now, you can explore the last of TWW content and level your characters so that you are ready. Just explore and don't worry about the mechanics- they'll all change soon enough!</p>",
+        "created_at": "2026-02-16T03:36:19.760000+0000",
+        "post_number": 3,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 4,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 4,
+        "username": "Ok-Key5729",
+        "cooked": "<p>The sub + Midnight gets you access to everything the game has to offer. The current crafting system is very complex. I find it the most enjoyable it's ever been. Of note, they've expanded endgame options to include solo content designed for casual players. Since it's solo, it gives you the freedom to play around with builds as much as you want. While your NPC companion can sometimes be mildly passive aggressive, he's never complained about my build.</p>",
+        "created_at": "2026-02-16T03:46:23.929000+0000",
+        "post_number": 4,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 5,
+        "username": "underlurker1337",
+        "cooked": "<p>The sub always includes everything but the newwest expansion. Prepurchase of the newest expansion also gives you access to the current newest one (to tide you over until launch/prepatch, basically).</p>",
+        "created_at": "2026-02-16T07:58:21.599000+0000",
+        "post_number": 5,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      }
+    ]
+  },
+  "jogo": "World of Warcraft",
+  "fonte": "Reddit",
+  "seccao": "r/wow",
+  "url_fonte": "https://www.reddit.com/r/wow/comments/1r5ymuj/going_to_check_it_out_after_20_years_away_lol/"
+}

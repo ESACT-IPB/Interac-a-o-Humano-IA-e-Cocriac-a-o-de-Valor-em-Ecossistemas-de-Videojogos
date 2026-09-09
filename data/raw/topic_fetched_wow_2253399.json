@@ -1,0 +1,4613 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 28864905,
+        "name": "joeywall",
+        "username": "joeywall-2852426",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-17T15:51:44.367Z",
+        "cooked": "<p>Does anyone know if installing Openclaw on the same computer you play WoW on  would get you banned?</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 23,
+        "updated_at": "2026-02-17T15:51:44.367Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1412,
+        "reads": 169,
+        "readers_count": 168,
+        "score": 7108.8,
+        "yours": false,
+        "topic_id": 2253399,
+        "topic_slug": "is-it-ok-to-install-openclaw",
+        "display_username": "joeywall",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2852426,
+        "hidden": false,
+        "trust_level": 0,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/azgalor/acornsmith/",
+          "level": "70",
+          "race": "Highmountain Tauren",
+          "class": "Druid",
+          "player_class_enum": "DRUID",
+          "blizzard_post_count": "2",
+          "achievement_points": "26845"
+        },
+        "post_url": "/t/is-it-ok-to-install-openclaw/2253399/1",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/azgalor/24/258333720-avatar.jpg?alt=/wow/static/images/2d/avatar/28-0.jpg",
+        "alias_username": "Acornsmith-azgalor",
+        "poster_alias": {
+          "alias": {
+            "name": "Acornsmith-azgalor",
+            "avatar": "https://render.worldofwarcraft.com/us/character/azgalor/24/258333720-avatar.jpg?alt=/wow/static/images/2d/avatar/28-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/azgalor/acornsmith/",
+            "user_id": 2852426,
+            "id": 1283663,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 2,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/azgalor/acornsmith/"
+              },
+              {
+                "name": "realm",
+                "value": "Azgalor"
+              },
+              {
+                "name": "achievement_points",
+                "value": "26845"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Highmountain Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 2,
+        "character": {
+          "name": "joeywall",
+          "guild": null,
+          "achievement_points": "26845",
+          "level": "70",
+          "class": "Druid",
+          "race": "Highmountain Tauren",
+          "player_class_enum": "DRUID",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 28864936,
+        "name": "GoauldOfWar",
+        "username": "GoauldOfWar-13534",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-17T15:55:24.579Z",
+        "cooked": "<p>Not knowing what that is or does, can’t really say. Blizzard won’t tell you.</p>\n<p>If it interacts with anything on a systems level and can be used for any kind of automation though, I’d err on the side of no</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 23,
+        "updated_at": "2026-02-17T15:55:24.579Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 162,
+        "readers_count": 161,
+        "score": 117.4,
+        "yours": false,
+        "topic_id": 2253399,
+        "topic_slug": "is-it-ok-to-install-openclaw",
+        "display_username": "GoauldOfWar",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 5
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13534,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Blood Elf",
+          "class": "Paladin",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/vaeana/",
+          "player_class_enum": "PALADIN",
+          "level": "80",
+          "guild": "SINDICATE II",
+          "achievement_points": "14850",
+          "blizzard_post_count": "7391"
+        },
+        "post_url": "/t/is-it-ok-to-install-openclaw/2253399/2",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/area-52/65/116098881-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+        "alias_username": "Vaeana-area-52",
+        "poster_alias": {
+          "alias": {
+            "name": "Vaeana-area-52",
+            "avatar": "https://render.worldofwarcraft.com/us/character/area-52/65/116098881-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/area-52/vaeana/",
+            "user_id": 13534,
+            "id": 427434,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 7429,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/area-52/vaeana/"
+              },
+              {
+                "name": "realm",
+                "value": "Area 52"
+              },
+              {
+                "name": "achievement_points",
+                "value": "15230"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/area-52/65/116098881-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Vaeana-area-52"
+              },
+              {
+                "name": "guild",
+                "value": "SINDICATE II"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 7391,
+        "character": {
+          "name": "GoauldOfWar",
+          "guild": "SINDICATE II",
+          "achievement_points": "14850",
+          "level": "80",
+          "class": "Paladin",
+          "race": "Blood Elf",
+          "player_class_enum": "PALADIN",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28864937,
+        "name": "Poct",
+        "username": "Poct-964340",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-17T15:55:25.705Z",
+        "cooked": "<p>You won’t get a firm answer from Blizzard, but I’d be wary about anything that automates anything, even if you don’t use those features.</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 23,
+        "updated_at": "2026-02-17T15:55:25.705Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 5,
+        "reads": 156,
+        "readers_count": 155,
+        "score": 146.2,
+        "yours": false,
+        "topic_id": 2253399,
+        "topic_slug": "is-it-ok-to-install-openclaw",
+        "display_username": "Poct",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 6
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 964340,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/thrall/poctzarwaz/",
+          "guild": "Analog Dawn",
+          "race": "Troll",
+          "class": "Shaman",
+          "player_class_enum": "SHAMAN",
+          "level": "80",
+          "achievement_points": "22640",
+          "blizzard_post_count": "3355"
+        },
+        "post_url": "/t/is-it-ok-to-install-openclaw/2253399/3",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/thrall/145/160180625-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+        "alias_username": "Poctzarwaz-thrall",
+        "poster_alias": {
+          "alias": {
+            "name": "Poctzarwaz-thrall",
+            "avatar": "https://render.worldofwarcraft.com/us/character/thrall/145/160180625-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/thrall/poctzarwaz/",
+            "user_id": 964340,
+            "id": 392971,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 3371,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/thrall/poctzarwaz/"
+              },
+              {
+                "name": "realm",
+                "value": "Thrall"
+              },
+              {
+                "name": "achievement_points",
+                "value": "23980"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Shaman"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "SHAMAN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/thrall/145/160180625-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Poctzarwaz-thrall"
+              },
+              {
+                "name": "guild",
+                "value": "Analog Dawn"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 3355,
+        "character": {
+          "name": "Poct",
+          "guild": "Analog Dawn",
+          "achievement_points": "22640",
+          "level": "80",
+          "class": "Shaman",
+          "race": "Troll",
+          "player_class_enum": "SHAMAN",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28865039,
+        "name": "Shrapnyl",
+        "username": "Shrapnyl-3068703",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-17T16:04:30.103Z",
+        "cooked": "<p>So not knowing what Openclaw was, I did a search for Automate Games with Openclaw, while this answer from Google and from AI so it might not be accurate, reading it makes me certain I would never install it a computer I wanted to play WOW on, and having this on your computer would likely put your account at risk.</p>\n<p>OpenClaw is a highly capable, open-source AI agent framework that can interact with, and operate, computer games. It runs locally, allowing for the automation of tasks such as launching, controlling, and potentially playing games through screen analysis and input simulation.</p>\n<p><strong>Key Interactions with Games:</strong></p>\n<ul>\n<li><strong>Automation:</strong> It can be used to automate routine gaming tasks or workflows.</li>\n<li><strong>Action Execution:</strong> As a persistent, local agent, it can execute scripts and control applications, extending this capability to gaming environments.</li>\n<li><strong>Potential for Autonomous Play:</strong> It is designed to act on behalf of users, with possibilities to learn and interact with game interfaces.</li>\n</ul>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 23,
+        "updated_at": "2026-02-17T16:07:24.933Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 4,
+        "reads": 152,
+        "readers_count": 151,
+        "score": 175.4,
+        "yours": false,
+        "topic_id": 2253399,
+        "topic_slug": "is-it-ok-to-install-openclaw",
+        "display_username": "Shrapnyl",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 8
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3068703,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/scarlet-crusade/raesta/",
+          "achievement_points": "12735",
+          "level": "10",
+          "race": "Lightforged Draenei",
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "classic": "t",
+          "blizzard_post_count": "4231"
+        },
+        "post_url": "/t/is-it-ok-to-install-openclaw/2253399/4",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/scarlet-crusade/170/174094762-avatar.jpg?alt=/wow/static/images/2d/avatar/30-1.jpg",
+        "alias_username": "Raesta-scarlet-crusade",
+        "poster_alias": {
+          "alias": {
+            "name": "Raesta-scarlet-crusade",
+            "avatar": "https://render.worldofwarcraft.com/us/character/scarlet-crusade/170/174094762-avatar.jpg?alt=/wow/static/images/2d/avatar/30-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/scarlet-crusade/raesta/",
+            "user_id": 3068703,
+            "id": 8524,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1151,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/scarlet-crusade/raesta/"
+              },
+              {
+                "name": "realm",
+                "value": "Scarlet Crusade"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12735"
+              },
+              {
+                "name": "level",
+                "value": "10"
+              },
+              {
+                "name": "race",
+                "value": "Lightforged Draenei"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/scarlet-crusade/170/174094762-avatar.jpg?alt=/wow/static/images/2d/avatar/30-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Raesta-scarlet-crusade"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 4231,
+        "character": {
+          "name": "Shrapnyl",
+          "guild": null,
+          "achievement_points": "12735",
+          "level": "10",
+          "class": "Mage",
+          "race": "Lightforged Draenei",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28865118,
+        "name": "Poct",
+        "username": "Poct-964340",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-17T16:11:06.335Z",
+        "cooked": "<p>Provided those responses are correct, I’d stay <em>very far</em> away from having it on the same machine you use for WOW.</p>",
+        "post_number": 5,
+        "post_type": 1,
+        "posts_count": 23,
+        "updated_at": "2026-02-17T16:11:06.335Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 137,
+        "readers_count": 136,
+        "score": 202.4,
+        "yours": false,
+        "topic_id": 2253399,
+        "topic_slug": "is-it-ok-to-install-openclaw",
+        "display_username": "Poct",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 11
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 964340,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/thrall/poctzarwaz/",
+          "guild": "Analog Dawn",
+          "race": "Troll",
+          "class": "Shaman",
+          "player_class_enum": "SHAMAN",
+          "level": "80",
+          "achievement_points": "22640",
+          "blizzard_post_count": "3355"
+        },
+        "post_url": "/t/is-it-ok-to-install-openclaw/2253399/5",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/thrall/145/160180625-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+        "alias_username": "Poctzarwaz-thrall",
+        "poster_alias": {
+          "alias": {
+            "name": "Poctzarwaz-thrall",
+            "avatar": "https://render.worldofwarcraft.com/us/character/thrall/145/160180625-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/thrall/poctzarwaz/",
+            "user_id": 964340,
+            "id": 392971,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 3371,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/thrall/poctzarwaz/"
+              },
+              {
+                "name": "realm",
+                "value": "Thrall"
+              },
+              {
+                "name": "achievement_points",
+                "value": "23980"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Shaman"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "SHAMAN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/thrall/145/160180625-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Poctzarwaz-thrall"
+              },
+              {
+                "name": "guild",
+                "value": "Analog Dawn"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 3355,
+        "character": {
+          "name": "Poct",
+          "guild": "Analog Dawn",
+          "achievement_points": "22640",
+          "level": "80",
+          "class": "Shaman",
+          "race": "Troll",
+          "player_class_enum": "SHAMAN",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28865137,
+        "name": "GoauldOfWar",
+        "username": "GoauldOfWar-13534",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-17T16:12:21.304Z",
+        "cooked": "<p>I’d go further and say just don’t start installing random AI apps on your system.</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "posts_count": 23,
+        "updated_at": "2026-02-17T16:12:21.304Z",
+        "reply_count": 0,
+        "reply_to_post_number": 5,
+        "quote_count": 0,
+        "incoming_link_count": 4,
+        "reads": 134,
+        "readers_count": 133,
+        "score": 166.8,
+        "yours": false,
+        "topic_id": 2253399,
+        "topic_slug": "is-it-ok-to-install-openclaw",
+        "display_username": "GoauldOfWar",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 964340,
+          "username": "Poct-964340",
+          "name": "Poct",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 8
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13534,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Blood Elf",
+          "class": "Paladin",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/vaeana/",
+          "player_class_enum": "PALADIN",
+          "level": "80",
+          "guild": "SINDICATE II",
+          "achievement_points": "14850",
+          "blizzard_post_count": "7391"
+        },
+        "post_url": "/t/is-it-ok-to-install-openclaw/2253399/6",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/area-52/65/116098881-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+        "alias_username": "Vaeana-area-52",
+        "poster_alias": {
+          "alias": {
+            "name": "Vaeana-area-52",
+            "avatar": "https://render.worldofwarcraft.com/us/character/area-52/65/116098881-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/area-52/vaeana/",
+            "user_id": 13534,
+            "id": 427434,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 7429,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/area-52/vaeana/"
+              },
+              {
+                "name": "realm",
+                "value": "Area 52"
+              },
+              {
+                "name": "achievement_points",
+                "value": "15230"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/area-52/65/116098881-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Vaeana-area-52"
+              },
+              {
+                "name": "guild",
+                "value": "SINDICATE II"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 392971,
+          "username": "Poctzarwaz-thrall",
+          "name": "Poctzarwaz",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/thrall/145/160180625-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 7391,
+        "character": {
+          "name": "GoauldOfWar",
+          "guild": "SINDICATE II",
+          "achievement_points": "14850",
+          "level": "80",
+          "class": "Paladin",
+          "race": "Blood Elf",
+          "player_class_enum": "PALADIN",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28865736,
+        "name": "Kozzae",
+        "username": "Kozzae-4668",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-17T16:58:12.076Z",
+        "cooked": "<p>This would fall into a grey area,  unfortunately CS would not be able to approve.</p>",
+        "post_number": 7,
+        "post_type": 1,
+        "posts_count": 23,
+        "updated_at": "2026-02-17T16:58:12.076Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 4,
+        "reads": 127,
+        "readers_count": 126,
+        "score": 120.4,
+        "yours": false,
+        "topic_id": 2253399,
+        "topic_slug": "is-it-ok-to-install-openclaw",
+        "display_username": "Kozzae",
+        "primary_group_name": "cs-mvp",
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "MVP",
+        "title_is_group": true,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 5
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4668,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Phank",
+          "race": "Troll",
+          "class": "Rogue",
+          "player_class_enum": "ROGUE",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/doomhammer/kozzae/",
+          "level": "80",
+          "achievement_points": "30215",
+          "blizzard_post_count": "10877"
+        },
+        "post_url": "/t/is-it-ok-to-install-openclaw/2253399/7",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/doomhammer/80/123411280-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+        "alias_username": "Kozzae-doomhammer",
+        "poster_alias": {
+          "alias": {
+            "name": "Kozzae-doomhammer",
+            "avatar": "https://render.worldofwarcraft.com/us/character/doomhammer/80/123411280-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/doomhammer/kozzae/",
+            "user_id": 4668,
+            "id": 102,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 11282,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/doomhammer/kozzae/"
+              },
+              {
+                "name": "realm",
+                "value": "Doomhammer"
+              },
+              {
+                "name": "achievement_points",
+                "value": "32430"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/doomhammer/80/123411280-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Kozzae-doomhammer"
+              },
+              {
+                "name": "guild",
+                "value": "Phank"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 10877,
+        "character": {
+          "name": "Kozzae",
+          "guild": "Phank",
+          "achievement_points": "30215",
+          "level": "80",
+          "class": "Rogue",
+          "race": "Troll",
+          "player_class_enum": "ROGUE",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28865990,
+        "name": "Bjoerg",
+        "username": "Bjoerg-3177905",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-17T17:13:02.509Z",
+        "cooked": "<p>Just based on the Google result above, don’t even risk it.</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "posts_count": 23,
+        "updated_at": "2026-02-17T17:13:02.509Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 120,
+        "readers_count": 119,
+        "score": 84.0,
+        "yours": false,
+        "topic_id": 2253399,
+        "topic_slug": "is-it-ok-to-install-openclaw",
+        "display_username": "Bjoerg",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 4
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3177905,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Lucky",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/aegwynn/moridins/",
+          "achievement_points": "9155",
+          "level": "14",
+          "race": "Pandaren",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "classic": "t",
+          "blizzard_post_count": "7009"
+        },
+        "post_url": "/t/is-it-ok-to-install-openclaw/2253399/8",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/mankrik/77/96576077-avatar.jpg?alt=/wow/static/images/2d/avatar/26-1.jpg",
+        "alias_username": "Furryhunta-mankrik",
+        "poster_alias": {
+          "alias": {
+            "name": "Furryhunta-mankrik",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/mankrik/77/96576077-avatar.jpg?alt=/wow/static/images/2d/avatar/26-1.jpg",
+            "url": null,
+            "user_id": 3177905,
+            "id": 521048,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1456,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Mankrik"
+              },
+              {
+                "name": "achievement_points",
+                "value": "9155"
+              },
+              {
+                "name": "level",
+                "value": "14"
+              },
+              {
+                "name": "race",
+                "value": "Pandaren"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic-us/character/mankrik/77/96576077-avatar.jpg?alt=/wow/static/images/2d/avatar/26-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Furryhunta-mankrik"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 7009,
+        "character": {
+          "name": "Bjoerg",
+          "guild": "Lucky",
+          "achievement_points": "9155",
+          "level": "14",
+          "class": "Hunter",
+          "race": "Pandaren",
+          "player_class_enum": "HUNTER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28867139,
+        "name": "joeywall",
+        "username": "joeywall-2852426",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-17T19:08:00.718Z",
+        "cooked": "<p>ya kinda figured … just curious because this is the future we are going toward. We will see how they address this stuff in the future.</p>\n<p>thanks everyone</p>\n<p>i just play with it on another computer</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "posts_count": 23,
+        "updated_at": "2026-02-17T19:09:15.181Z",
+        "reply_count": 4,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 113,
+        "readers_count": 112,
+        "score": 47.6,
+        "yours": false,
+        "topic_id": 2253399,
+        "topic_slug": "is-it-ok-to-install-openclaw",
+        "display_username": "joeywall",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2852426,
+        "hidden": false,
+        "trust_level": 0,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/azgalor/acornsmith/",
+          "level": "70",
+          "race": "Highmountain Tauren",
+          "class": "Druid",
+          "player_class_enum": "DRUID",
+          "blizzard_post_count": "2",
+          "achievement_points": "26845"
+        },
+        "post_url": "/t/is-it-ok-to-install-openclaw/2253399/9",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/azgalor/24/258333720-avatar.jpg?alt=/wow/static/images/2d/avatar/28-0.jpg",
+        "alias_username": "Acornsmith-azgalor",
+        "poster_alias": {
+          "alias": {
+            "name": "Acornsmith-azgalor",
+            "avatar": "https://render.worldofwarcraft.com/us/character/azgalor/24/258333720-avatar.jpg?alt=/wow/static/images/2d/avatar/28-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/azgalor/acornsmith/",
+            "user_id": 2852426,
+            "id": 1283663,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 2,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/azgalor/acornsmith/"
+              },
+              {
+                "name": "realm",
+                "value": "Azgalor"
+              },
+              {
+                "name": "achievement_points",
+                "value": "26845"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Highmountain Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 2,
+        "character": {
+          "name": "joeywall",
+          "guild": null,
+          "achievement_points": "26845",
+          "level": "70",
+          "class": "Druid",
+          "race": "Highmountain Tauren",
+          "player_class_enum": "DRUID",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28867364,
+        "name": "Meadow",
+        "username": "Meadow-2126353",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-17T19:35:16.438Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Acornsmith-azgalor\" data-post=\"9\" data-topic=\"2253399\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/azgalor/24/258333720-avatar.jpg?alt=/wow/static/images/2d/avatar/28-0.jpg\" class=\"avatar\"> Acornsmith:</div>\n<blockquote>\n<p>just curious because this is the future we are going toward</p>\n</blockquote>\n</aside>\n<p>Give it another 3 decades or something until we get the Assistant AI being able to do everything in your home.</p>\n<p>AIssistant: You must drink a verification can and watch a mandatory 15 minute ad as part of your freemium home subscription before you’re allowed to do any Home Actions.</p>",
+        "post_number": 10,
+        "post_type": 1,
+        "posts_count": 23,
+        "updated_at": "2026-02-17T19:35:16.438Z",
+        "reply_count": 0,
+        "reply_to_post_number": 9,
+        "quote_count": 1,
+        "incoming_link_count": 1,
+        "reads": 101,
+        "readers_count": 100,
+        "score": 70.2,
+        "yours": false,
+        "topic_id": 2253399,
+        "topic_slug": "is-it-ok-to-install-openclaw",
+        "display_username": "Meadow",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2126353,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/wildhammer/forumcat/",
+          "race": "Night Elf",
+          "class": "Druid",
+          "player_class_enum": "DRUID",
+          "blizzard_post_count": "1683",
+          "level": "10",
+          "achievement_points": "110"
+        },
+        "post_url": "/t/is-it-ok-to-install-openclaw/2253399/10",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/wildhammer/96/223675488-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Forumcat-wildhammer",
+        "poster_alias": {
+          "alias": {
+            "name": "Forumcat-wildhammer",
+            "avatar": "https://render.worldofwarcraft.com/us/character/wildhammer/96/223675488-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/wildhammer/forumcat/",
+            "user_id": 2126353,
+            "id": 387839,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1947,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/wildhammer/forumcat/"
+              },
+              {
+                "name": "realm",
+                "value": "Wildhammer"
+              },
+              {
+                "name": "achievement_points",
+                "value": "110"
+              },
+              {
+                "name": "level",
+                "value": "10"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/wildhammer/96/223675488-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Forumcat-wildhammer"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 1683,
+        "character": {
+          "name": "Meadow",
+          "guild": null,
+          "achievement_points": "110",
+          "level": "10",
+          "class": "Druid",
+          "race": "Night Elf",
+          "player_class_enum": "DRUID",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28867606,
+        "name": "Darthwraith",
+        "username": "Darthwraith-4607",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-17T20:01:03.153Z",
+        "cooked": "<p>Just make sure u dont have wow on that computer it will flag u.</p>",
+        "post_number": 11,
+        "post_type": 1,
+        "posts_count": 23,
+        "updated_at": "2026-02-17T20:01:03.153Z",
+        "reply_count": 0,
+        "reply_to_post_number": 9,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 84,
+        "readers_count": 83,
+        "score": 36.8,
+        "yours": false,
+        "topic_id": 2253399,
+        "topic_slug": "is-it-ok-to-install-openclaw",
+        "display_username": "Darthwraith",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2852426,
+          "username": "joeywall-2852426",
+          "name": "joeywall",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4607,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Tauren",
+          "class": "Druid",
+          "player_class_enum": "DRUID",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/blackhand/darthwraith/",
+          "guild": "Enlightened Dark",
+          "blizzard_post_count": "22535",
+          "level": "80",
+          "achievement_points": "26240"
+        },
+        "post_url": "/t/is-it-ok-to-install-openclaw/2253399/11",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/blackhand/57/133879097-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+        "alias_username": "Darthwraith-blackhand",
+        "poster_alias": {
+          "alias": {
+            "name": "Darthwraith-blackhand",
+            "avatar": "https://render.worldofwarcraft.com/us/character/blackhand/57/133879097-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/blackhand/darthwraith/",
+            "user_id": 4607,
+            "id": 436067,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 21166,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/blackhand/darthwraith/"
+              },
+              {
+                "name": "realm",
+                "value": "Blackhand"
+              },
+              {
+                "name": "achievement_points",
+                "value": "26610"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/blackhand/57/133879097-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Darthwraith-blackhand"
+              },
+              {
+                "name": "guild",
+                "value": "Enlightened Dark"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 1283663,
+          "username": "Acornsmith-azgalor",
+          "name": "Acornsmith",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/azgalor/24/258333720-avatar.jpg?alt=/wow/static/images/2d/avatar/28-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 22535,
+        "character": {
+          "name": "Darthwraith",
+          "guild": "Enlightened Dark",
+          "achievement_points": "26240",
+          "level": "80",
+          "class": "Druid",
+          "race": "Tauren",
+          "player_class_enum": "DRUID",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28867609,
+        "name": "Kennie",
+        "username": "Kennie-1745818",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-17T20:01:14.333Z",
+        "cooked": "<p>You should be fine if you’re sure it isn’t interacting with the game but if you aren’t then yeah, I’d avoid it. <img src=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/b0e8d99a3fb0e81827b2e355974fb8aef4c66e9f.gif?v=14\" title=\":dracthyr_blob_dance_animated:\" class=\"emoji emoji-custom\" alt=\":dracthyr_blob_dance_animated:\" loading=\"lazy\" width=\"20\" height=\"20\"> Remember, no automation or enhancements.</p>",
+        "post_number": 12,
+        "post_type": 1,
+        "posts_count": 23,
+        "updated_at": "2026-02-17T20:01:14.333Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 83,
+        "readers_count": 82,
+        "score": 26.6,
+        "yours": false,
+        "topic_id": 2253399,
+        "topic_slug": "is-it-ok-to-install-openclaw",
+        "display_username": "Kennie",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1745818,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/malganis/kennie/",
+          "race": "Vulpera",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "classic": "t",
+          "guild": "Fluff and Blood",
+          "level": "90",
+          "achievement_points": "54075",
+          "blizzard_post_count": "77649"
+        },
+        "post_url": "/t/is-it-ok-to-install-openclaw/2253399/12",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/malganis/44/135439660-avatar.jpg?alt=/wow/static/images/2d/avatar/35-0.jpg",
+        "alias_username": "Kennie-malganis",
+        "poster_alias": {
+          "alias": {
+            "name": "Kennie-malganis",
+            "avatar": "https://render.worldofwarcraft.com/us/character/malganis/44/135439660-avatar.jpg?alt=/wow/static/images/2d/avatar/35-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/malganis/kennie/",
+            "user_id": 1745818,
+            "id": 437727,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 69677,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/malganis/kennie/"
+              },
+              {
+                "name": "realm",
+                "value": "Mal'Ganis"
+              },
+              {
+                "name": "achievement_points",
+                "value": "58165"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Vulpera"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/malganis/44/135439660-avatar.jpg?alt=/wow/static/images/2d/avatar/35-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Kennie-malganis"
+              },
+              {
+                "name": "guild",
+                "value": "heavy is the crown"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 77649,
+        "character": {
+          "name": "Kennie",
+          "guild": "Fluff and Blood",
+          "achievement_points": "54075",
+          "level": "90",
+          "class": "Warrior",
+          "race": "Vulpera",
+          "player_class_enum": "WARRIOR",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28867744,
+        "name": "Auryssa",
+        "username": "Auryssa-128937",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-17T20:14:14.169Z",
+        "cooked": "<p>Even if it’s not interacting with the game, Warden will see it running and flag it. Don’t do it.</p>\n<p>If you (anyone reading; OP already said they wouldn’t) insist on installing it on your WoW computer, make absolutely sure it isn’t running and nothing from it is left in memory before you start WoW.</p>",
+        "post_number": 13,
+        "post_type": 1,
+        "posts_count": 23,
+        "updated_at": "2026-02-17T20:14:14.169Z",
+        "reply_count": 1,
+        "reply_to_post_number": 12,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 77,
+        "readers_count": 76,
+        "score": 110.4,
+        "yours": false,
+        "topic_id": 2253399,
+        "topic_slug": "is-it-ok-to-install-openclaw",
+        "display_username": "Auryssa",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 1745818,
+          "username": "Kennie-1745818",
+          "name": "Kennie",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 6
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 128937,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Blood Elf",
+          "class": "Paladin",
+          "blizzard_post_count": "1592",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/earthen-ring/auryssa/",
+          "player_class_enum": "PALADIN",
+          "guild": "alea iacta est libertas",
+          "level": "80",
+          "achievement_points": "21815"
+        },
+        "post_url": "/t/is-it-ok-to-install-openclaw/2253399/13",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/earthen-ring/115/71193459-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+        "alias_username": "Auryssa-earthen-ring",
+        "poster_alias": {
+          "alias": {
+            "name": "Auryssa-earthen-ring",
+            "avatar": "https://render.worldofwarcraft.com/us/character/earthen-ring/115/71193459-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/earthen-ring/auryssa/",
+            "user_id": 128937,
+            "id": 376122,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 207,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/earthen-ring/auryssa/"
+              },
+              {
+                "name": "realm",
+                "value": "Earthen Ring"
+              },
+              {
+                "name": "achievement_points",
+                "value": "22445"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/earthen-ring/115/71193459-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Auryssa-earthen-ring"
+              },
+              {
+                "name": "guild",
+                "value": "alea iacta est libertas"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 437727,
+          "username": "Kennie-malganis",
+          "name": "Kennie",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/malganis/44/135439660-avatar.jpg?alt=/wow/static/images/2d/avatar/35-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 1592,
+        "character": {
+          "name": "Auryssa",
+          "guild": "alea iacta est libertas",
+          "achievement_points": "21815",
+          "level": "80",
+          "class": "Paladin",
+          "race": "Blood Elf",
+          "player_class_enum": "PALADIN",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28867818,
+        "name": "Nephe",
+        "username": "Nephe-4676",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-17T20:20:42.583Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Acornsmith-azgalor\" data-post=\"9\" data-topic=\"2253399\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/azgalor/24/258333720-avatar.jpg?alt=/wow/static/images/2d/avatar/28-0.jpg\" class=\"avatar\"> Acornsmith:</div>\n<blockquote>\n<p>this is the future we are going toward</p>\n</blockquote>\n</aside>\n<p>The moment an AI is required to tell me how to live my life is the moment I will go completely off-grid.</p>",
+        "post_number": 14,
+        "post_type": 1,
+        "posts_count": 23,
+        "updated_at": "2026-02-17T20:20:42.583Z",
+        "reply_count": 1,
+        "reply_to_post_number": 9,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 74,
+        "readers_count": 73,
+        "score": 109.8,
+        "yours": false,
+        "topic_id": 2253399,
+        "topic_slug": "is-it-ok-to-install-openclaw",
+        "display_username": "Nephe",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 6
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4676,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Dark Haven",
+          "race": "Void Elf",
+          "class": "Mage",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/caelestrasz/nephe/",
+          "player_class_enum": "MAGE",
+          "classic": "t",
+          "level": "80",
+          "achievement_points": "20915",
+          "blizzard_post_count": "4171"
+        },
+        "post_url": "/t/is-it-ok-to-install-openclaw/2253399/14",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/caelestrasz/213/129683925-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
+        "alias_username": "Nephe-caelestrasz",
+        "poster_alias": {
+          "alias": {
+            "name": "Nephe-caelestrasz",
+            "avatar": "https://render.worldofwarcraft.com/us/character/caelestrasz/213/129683925-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/caelestrasz/nephe/",
+            "user_id": 4676,
+            "id": 419046,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 4187,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/caelestrasz/nephe/"
+              },
+              {
+                "name": "realm",
+                "value": "Caelestrasz"
+              },
+              {
+                "name": "achievement_points",
+                "value": "21000"
+              },
+              {
+                "name": "level",
+                "value": "83"
+              },
+              {
+                "name": "race",
+                "value": "Void Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/caelestrasz/213/129683925-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Nephe-caelestrasz"
+              },
+              {
+                "name": "guild",
+                "value": "Dark Haven"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 4171,
+        "character": {
+          "name": "Nephe",
+          "guild": "Dark Haven",
+          "achievement_points": "20915",
+          "level": "80",
+          "class": "Mage",
+          "race": "Void Elf",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28867882,
+        "name": "Meadow",
+        "username": "Meadow-2126353",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-17T20:26:51.455Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Nephe-caelestrasz\" data-post=\"14\" data-topic=\"2253399\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/caelestrasz/213/129683925-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg\" class=\"avatar\"> Nephe:</div>\n<blockquote>\n<p>I will go completely off-grid.</p>\n</blockquote>\n</aside>\n<p>Psycho Pass is a good anime :x</p>",
+        "post_number": 15,
+        "post_type": 1,
+        "posts_count": 23,
+        "updated_at": "2026-02-17T20:26:51.455Z",
+        "reply_count": 0,
+        "reply_to_post_number": 14,
+        "quote_count": 1,
+        "incoming_link_count": 1,
+        "reads": 73,
+        "readers_count": 72,
+        "score": 19.6,
+        "yours": false,
+        "topic_id": 2253399,
+        "topic_slug": "is-it-ok-to-install-openclaw",
+        "display_username": "Meadow",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2126353,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/wildhammer/forumcat/",
+          "race": "Night Elf",
+          "class": "Druid",
+          "player_class_enum": "DRUID",
+          "blizzard_post_count": "1683",
+          "level": "10",
+          "achievement_points": "110"
+        },
+        "post_url": "/t/is-it-ok-to-install-openclaw/2253399/15",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/wildhammer/96/223675488-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Forumcat-wildhammer",
+        "poster_alias": {
+          "alias": {
+            "name": "Forumcat-wildhammer",
+            "avatar": "https://render.worldofwarcraft.com/us/character/wildhammer/96/223675488-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/wildhammer/forumcat/",
+            "user_id": 2126353,
+            "id": 387839,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1947,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/wildhammer/forumcat/"
+              },
+              {
+                "name": "realm",
+                "value": "Wildhammer"
+              },
+              {
+                "name": "achievement_points",
+                "value": "110"
+              },
+              {
+                "name": "level",
+                "value": "10"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/wildhammer/96/223675488-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Forumcat-wildhammer"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 1683,
+        "character": {
+          "name": "Meadow",
+          "guild": null,
+          "achievement_points": "110",
+          "level": "10",
+          "class": "Druid",
+          "race": "Night Elf",
+          "player_class_enum": "DRUID",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28868015,
+        "name": "illinifan80",
+        "username": "illinifan80-4733",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-17T20:44:20.257Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Raesta-scarlet-crusade\" data-post=\"4\" data-topic=\"2253399\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/us/character/scarlet-crusade/170/174094762-avatar.jpg?alt=/wow/static/images/2d/avatar/30-1.jpg\" class=\"avatar\"> Raesta:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p><strong>Automation:</strong> It can be used to automate routine gaming tasks or workflows.</p>\n</blockquote>\n</aside>\n<p>You seriously needed to ask if a program that “automates gaming tasks” is truly against the Blizzard policy of “don’t automate gameplay”??</p>",
+        "post_number": 16,
+        "post_type": 1,
+        "posts_count": 23,
+        "updated_at": "2026-02-17T20:44:20.257Z",
+        "reply_count": 1,
+        "reply_to_post_number": 4,
+        "quote_count": 1,
+        "incoming_link_count": 1,
+        "reads": 74,
+        "readers_count": 73,
+        "score": 99.8,
+        "yours": false,
+        "topic_id": 2253399,
+        "topic_slug": "is-it-ok-to-install-openclaw",
+        "display_username": "illinifan80",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 5
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4733,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Night Elf",
+          "class": "Demon Hunter",
+          "player_class_enum": "DEMONHUNTER",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/proudmoore/melaesia/",
+          "level": "80",
+          "guild": "Bank of Masón",
+          "achievement_points": "26100",
+          "blizzard_post_count": "4149"
+        },
+        "post_url": "/t/is-it-ok-to-install-openclaw/2253399/16",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/proudmoore/9/176511241-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Melaesia-proudmoore",
+        "poster_alias": {
+          "alias": {
+            "name": "Melaesia-proudmoore",
+            "avatar": "https://render.worldofwarcraft.com/us/character/proudmoore/9/176511241-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/proudmoore/melaesia/",
+            "user_id": 4733,
+            "id": 418315,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 4156,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/proudmoore/melaesia/"
+              },
+              {
+                "name": "realm",
+                "value": "Proudmoore"
+              },
+              {
+                "name": "achievement_points",
+                "value": "27970"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Demon Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEMONHUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/proudmoore/9/176511241-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Melaesia-proudmoore"
+              },
+              {
+                "name": "guild",
+                "value": "Bank of Masón"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 4149,
+        "character": {
+          "name": "illinifan80",
+          "guild": "Bank of Masón",
+          "achievement_points": "26100",
+          "level": "80",
+          "class": "Demon Hunter",
+          "race": "Night Elf",
+          "player_class_enum": "DEMONHUNTER",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28868043,
+        "name": "Shrapnyl",
+        "username": "Shrapnyl-3068703",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-17T20:46:29.117Z",
+        "cooked": "<p>LOL I didn’t as I don’t install things like that on my computer, I just didn’t know what the application even was, so since the original poster had a question, thats the search I ran, and thats the answer it came back with.</p>",
+        "post_number": 17,
+        "post_type": 1,
+        "posts_count": 23,
+        "updated_at": "2026-02-17T20:46:29.117Z",
+        "reply_count": 1,
+        "reply_to_post_number": 16,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 70,
+        "readers_count": 69,
+        "score": 64.0,
+        "yours": false,
+        "topic_id": 2253399,
+        "topic_slug": "is-it-ok-to-install-openclaw",
+        "display_username": "Shrapnyl",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 4733,
+          "username": "illinifan80-4733",
+          "name": "illinifan80",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3068703,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/scarlet-crusade/raesta/",
+          "achievement_points": "12735",
+          "level": "10",
+          "race": "Lightforged Draenei",
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "classic": "t",
+          "blizzard_post_count": "4231"
+        },
+        "post_url": "/t/is-it-ok-to-install-openclaw/2253399/17",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/scarlet-crusade/170/174094762-avatar.jpg?alt=/wow/static/images/2d/avatar/30-1.jpg",
+        "alias_username": "Raesta-scarlet-crusade",
+        "poster_alias": {
+          "alias": {
+            "name": "Raesta-scarlet-crusade",
+            "avatar": "https://render.worldofwarcraft.com/us/character/scarlet-crusade/170/174094762-avatar.jpg?alt=/wow/static/images/2d/avatar/30-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/scarlet-crusade/raesta/",
+            "user_id": 3068703,
+            "id": 8524,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1151,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/scarlet-crusade/raesta/"
+              },
+              {
+                "name": "realm",
+                "value": "Scarlet Crusade"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12735"
+              },
+              {
+                "name": "level",
+                "value": "10"
+              },
+              {
+                "name": "race",
+                "value": "Lightforged Draenei"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/scarlet-crusade/170/174094762-avatar.jpg?alt=/wow/static/images/2d/avatar/30-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Raesta-scarlet-crusade"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 418315,
+          "username": "Melaesia-proudmoore",
+          "name": "Melaesia",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/proudmoore/9/176511241-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 4231,
+        "character": {
+          "name": "Shrapnyl",
+          "guild": null,
+          "achievement_points": "12735",
+          "level": "10",
+          "class": "Mage",
+          "race": "Lightforged Draenei",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28869134,
+        "name": "illinifan80",
+        "username": "illinifan80-4733",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-17T22:30:30.316Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Raesta-scarlet-crusade\" data-post=\"17\" data-topic=\"2253399\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/us/character/scarlet-crusade/170/174094762-avatar.jpg?alt=/wow/static/images/2d/avatar/30-1.jpg\" class=\"avatar\"> Raesta:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>LOL I didn’t</p>\n</blockquote>\n</aside>\n<p>Sorry, was quoting you to emphasize what you found. It was directed at the OP.</p>",
+        "post_number": 18,
+        "post_type": 1,
+        "posts_count": 23,
+        "updated_at": "2026-02-17T22:30:30.316Z",
+        "reply_count": 0,
+        "reply_to_post_number": 17,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 66,
+        "readers_count": 65,
+        "score": 58.2,
+        "yours": false,
+        "topic_id": 2253399,
+        "topic_slug": "is-it-ok-to-install-openclaw",
+        "display_username": "illinifan80",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4733,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Night Elf",
+          "class": "Demon Hunter",
+          "player_class_enum": "DEMONHUNTER",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/proudmoore/melaesia/",
+          "level": "80",
+          "guild": "Bank of Masón",
+          "achievement_points": "26100",
+          "blizzard_post_count": "4149"
+        },
+        "post_url": "/t/is-it-ok-to-install-openclaw/2253399/18",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/proudmoore/9/176511241-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Melaesia-proudmoore",
+        "poster_alias": {
+          "alias": {
+            "name": "Melaesia-proudmoore",
+            "avatar": "https://render.worldofwarcraft.com/us/character/proudmoore/9/176511241-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/proudmoore/melaesia/",
+            "user_id": 4733,
+            "id": 418315,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 4156,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/proudmoore/melaesia/"
+              },
+              {
+                "name": "realm",
+                "value": "Proudmoore"
+              },
+              {
+                "name": "achievement_points",
+                "value": "27970"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Demon Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEMONHUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/proudmoore/9/176511241-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Melaesia-proudmoore"
+              },
+              {
+                "name": "guild",
+                "value": "Bank of Masón"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 4149,
+        "character": {
+          "name": "illinifan80",
+          "guild": "Bank of Masón",
+          "achievement_points": "26100",
+          "level": "80",
+          "class": "Demon Hunter",
+          "race": "Night Elf",
+          "player_class_enum": "DEMONHUNTER",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28869654,
+        "name": "Davetheslave",
+        "username": "Davetheslave-282861706e49c76232b51257a3ffb093dc46f1d",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-17T23:26:49.304Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Auryssa-earthen-ring\" data-post=\"13\" data-topic=\"2253399\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/us/character/earthen-ring/115/71193459-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg\" class=\"avatar\"> Auryssa:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>Even if it’s not interacting with the game, Warden will see it running and flag it. Don’t do it.</p>\n</blockquote>\n</aside>\n<p>This is without question the best advice in the entire thread.</p>",
+        "post_number": 19,
+        "post_type": 1,
+        "posts_count": 23,
+        "updated_at": "2026-02-17T23:26:49.304Z",
+        "reply_count": 0,
+        "reply_to_post_number": 13,
+        "quote_count": 1,
+        "incoming_link_count": 3,
+        "reads": 55,
+        "readers_count": 54,
+        "score": 71.0,
+        "yours": false,
+        "topic_id": 2253399,
+        "topic_slug": "is-it-ok-to-install-openclaw",
+        "display_username": "Davetheslave",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2828617,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/sargeras/davetheslave/",
+          "achievement_points": "0",
+          "level": "44",
+          "race": "Night Elf",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "classic": "t",
+          "guild": "Gaia",
+          "blizzard_post_count": "1575"
+        },
+        "post_url": "/t/is-it-ok-to-install-openclaw/2253399/19",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/lone-wolf/149/36149141-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Nerfd-lone-wolf",
+        "poster_alias": {
+          "alias": {
+            "name": "Nerfd-lone-wolf",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/lone-wolf/149/36149141-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": null,
+            "user_id": 2828617,
+            "id": 10320,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 108,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Lone Wolf"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "44"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/lone-wolf/149/36149141-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Nerfd-lone-wolf"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 1575,
+        "character": {
+          "name": "Davetheslave",
+          "guild": "Gaia",
+          "achievement_points": "0",
+          "level": "44",
+          "class": "Hunter",
+          "race": "Night Elf",
+          "player_class_enum": "HUNTER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28870121,
+        "name": "lorethon",
+        "username": "lorethon-2687972",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-18T00:52:59.838Z",
+        "cooked": "<p>Cleaning up old posts! <img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/slight_smile.png?v=15\" title=\":slight_smile:\" class=\"emoji\" alt=\":slight_smile:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+        "post_number": 20,
+        "post_type": 1,
+        "posts_count": 23,
+        "updated_at": "2026-05-17T20:48:26.778Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 54,
+        "readers_count": 53,
+        "score": 20.8,
+        "yours": false,
+        "topic_id": 2253399,
+        "topic_slug": "is-it-ok-to-install-openclaw",
+        "display_username": "lorethon",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2687972,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/moon-guard/elehan/",
+          "guild": "The Emerald Leaf",
+          "race": "Night Elf",
+          "class": "Druid",
+          "player_class_enum": "DRUID",
+          "level": "80",
+          "achievement_points": "31585",
+          "blizzard_post_count": "4212"
+        },
+        "post_url": "/t/is-it-ok-to-install-openclaw/2253399/20",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/moon-guard/5/176739333-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Lorethon-moon-guard",
+        "poster_alias": {
+          "alias": {
+            "name": "Lorethon-moon-guard",
+            "avatar": "https://render.worldofwarcraft.com/us/character/moon-guard/5/176739333-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/moon-guard/lorethon/",
+            "user_id": 2687972,
+            "id": 417589,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 3844,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/moon-guard/lorethon/"
+              },
+              {
+                "name": "realm",
+                "value": "Moon Guard"
+              },
+              {
+                "name": "achievement_points",
+                "value": "32425"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/moon-guard/5/176739333-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Lorethon-moon-guard"
+              },
+              {
+                "name": "guild",
+                "value": "The Emerald Leaf"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 4212,
+        "character": {
+          "name": "lorethon",
+          "guild": "The Emerald Leaf",
+          "achievement_points": "31585",
+          "level": "80",
+          "class": "Druid",
+          "race": "Night Elf",
+          "player_class_enum": "DRUID",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28870577,
+        "name": "Thundertotem",
+        "username": "Thundertotem-1045005",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-18T02:08:22.907Z",
+        "cooked": "<p>I want AI to do my laundry or clean my house, not play my games for me.</p>",
+        "post_number": 21,
+        "post_type": 1,
+        "posts_count": 23,
+        "updated_at": "2026-02-18T02:08:22.907Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 46,
+        "readers_count": 45,
+        "score": 84.2,
+        "yours": false,
+        "topic_id": 2253399,
+        "topic_slug": "is-it-ok-to-install-openclaw",
+        "display_username": "Thundertotem",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 5
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1045005,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/blackwater-raiders/ravenhawk/",
+          "class": "Rogue",
+          "player_class_enum": "ROGUE",
+          "classic": "t",
+          "race": "Blood Elf",
+          "level": "80",
+          "guild": "Plagued",
+          "achievement_points": "21585",
+          "blizzard_post_count": "23331"
+        },
+        "post_url": "/t/is-it-ok-to-install-openclaw/2253399/21",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/blackwater-raiders/74/121841226-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
+        "alias_username": "Ravenhawk-blackwater-raiders",
+        "poster_alias": {
+          "alias": {
+            "name": "Ravenhawk-blackwater-raiders",
+            "avatar": "https://render.worldofwarcraft.com/us/character/blackwater-raiders/74/121841226-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/blackwater-raiders/ravenhawk/",
+            "user_id": 1045005,
+            "id": 396250,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 4470,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/blackwater-raiders/ravenhawk/"
+              },
+              {
+                "name": "realm",
+                "value": "Blackwater Raiders"
+              },
+              {
+                "name": "achievement_points",
+                "value": "22515"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/blackwater-raiders/74/121841226-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Ravenhawk-blackwater-raiders"
+              },
+              {
+                "name": "guild",
+                "value": "Plagued"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 23331,
+        "character": {
+          "name": "Thundertotem",
+          "guild": "Plagued",
+          "achievement_points": "21585",
+          "level": "80",
+          "class": "Rogue",
+          "race": "Blood Elf",
+          "player_class_enum": "ROGUE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28870593,
+        "name": "Revan",
+        "username": "Revan-1844562",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-02-18T02:09:48.392Z",
+        "cooked": "<p>Until someone managed to prompt-inject it, and messes up your PC (or steals data).</p>",
+        "post_number": 22,
+        "post_type": 1,
+        "posts_count": 23,
+        "updated_at": "2026-02-18T02:09:48.392Z",
+        "reply_count": 0,
+        "reply_to_post_number": 9,
+        "quote_count": 0,
+        "incoming_link_count": 3,
+        "reads": 46,
+        "readers_count": 45,
+        "score": 54.2,
+        "yours": false,
+        "topic_id": 2253399,
+        "topic_slug": "is-it-ok-to-install-openclaw",
+        "display_username": "Revan",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2852426,
+          "username": "joeywall-2852426",
+          "name": "joeywall",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1844562,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/proudmoore/cäpslöck/",
+          "guild": "Objectively Bad",
+          "race": "Void Elf",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "level": "60",
+          "achievement_points": "22695",
+          "classic": "t",
+          "blizzard_post_count": "30080"
+        },
+        "post_url": "/t/is-it-ok-to-install-openclaw/2253399/22",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/proudmoore/200/235403720-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
+        "alias_username": "Cäpslöck-proudmoore",
+        "poster_alias": {
+          "alias": {
+            "name": "Cäpslöck-proudmoore",
+            "avatar": "https://render.worldofwarcraft.com/us/character/proudmoore/200/235403720-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/proudmoore/cäpslöck/",
+            "user_id": 1844562,
+            "id": 437422,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 30115,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/proudmoore/cäpslöck/"
+              },
+              {
+                "name": "realm",
+                "value": "Proudmoore"
+              },
+              {
+                "name": "achievement_points",
+                "value": "22695"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Void Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/proudmoore/200/235403720-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Cäpslöck-proudmoore"
+              },
+              {
+                "name": "guild",
+                "value": "Objectively Bad"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 1283663,
+          "username": "Acornsmith-azgalor",
+          "name": "Acornsmith",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/azgalor/24/258333720-avatar.jpg?alt=/wow/static/images/2d/avatar/28-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 30080,
+        "character": {
+          "name": "Revan",
+          "guild": "Objectively Bad",
+          "achievement_points": "22695",
+          "level": "60",
+          "class": "Warlock",
+          "race": "Void Elf",
+          "player_class_enum": "WARLOCK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 29332822,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-04-19T02:10:19.062Z",
+        "cooked": "<p>This topic was automatically closed 60 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 23,
+        "post_type": 3,
+        "posts_count": 23,
+        "updated_at": "2026-04-19T02:10:19.062Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 2253399,
+        "topic_slug": "is-it-ok-to-install-openclaw",
+        "display_username": "system",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/is-it-ok-to-install-openclaw/2253399/23",
+        "alias_username": null,
+        "poster_alias": null,
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 3016,
+        "character": {
+          "name": "system",
+          "guild": null,
+          "achievement_points": null,
+          "level": null,
+          "class": null,
+          "race": null,
+          "player_class_enum": null,
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ],
+    "stream": [
+      28864905,
+      28864936,
+      28864937,
+      28865039,
+      28865118,
+      28865137,
+      28865736,
+      28865990,
+      28867139,
+      28867364,
+      28867606,
+      28867609,
+      28867744,
+      28867818,
+      28867882,
+      28868015,
+      28868043,
+      28869134,
+      28869654,
+      28870121,
+      28870577,
+      28870593,
+      29332822
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      200
+    ],
+    [
+      23,
+      140
+    ]
+  ],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "Is it ok to install Openclaw?",
+  "id": 2253399,
+  "title": "Is it ok to install Openclaw?",
+  "posts_count": 23,
+  "created_at": "2026-02-17T15:51:43.833Z",
+  "views": 1346,
+  "reply_count": 11,
+  "like_count": 84,
+  "last_posted_at": "2026-04-19T02:10:19.062Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "is-it-ok-to-install-openclaw",
+  "category_id": 13,
+  "word_count": 801,
+  "deleted_at": null,
+  "user_id": 2852426,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_2253399",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 23,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 1001,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1002,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1003,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1004,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1005,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 16,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "first_tracked_post": {
+    "group": "cs-mvp",
+    "post_number": 7,
+    "jump_target": 7
+  },
+  "tracked_posts": [
+    {
+      "group": "cs-mvp",
+      "post_number": 7,
+      "jump_target": 7
+    }
+  ],
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 2852426,
+        "username": "joeywall-2852426",
+        "name": "joeywall",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 0,
+        "acting_alias": {
+          "alias": {
+            "name": "Acornsmith-azgalor",
+            "avatar": "https://render.worldofwarcraft.com/us/character/azgalor/24/258333720-avatar.jpg?alt=/wow/static/images/2d/avatar/28-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/azgalor/acornsmith/",
+            "user_id": 2852426,
+            "id": 1283663,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 2,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/azgalor/acornsmith/"
+              },
+              {
+                "name": "realm",
+                "value": "Azgalor"
+              },
+              {
+                "name": "achievement_points",
+                "value": "26845"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Highmountain Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 3068703,
+        "username": "Shrapnyl-3068703",
+        "name": "Shrapnyl",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Raesta-scarlet-crusade",
+            "avatar": "https://render.worldofwarcraft.com/us/character/scarlet-crusade/170/174094762-avatar.jpg?alt=/wow/static/images/2d/avatar/30-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/scarlet-crusade/raesta/",
+            "user_id": 3068703,
+            "id": 8524,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1151,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/scarlet-crusade/raesta/"
+              },
+              {
+                "name": "realm",
+                "value": "Scarlet Crusade"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12735"
+              },
+              {
+                "name": "level",
+                "value": "10"
+              },
+              {
+                "name": "race",
+                "value": "Lightforged Draenei"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/scarlet-crusade/170/174094762-avatar.jpg?alt=/wow/static/images/2d/avatar/30-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Raesta-scarlet-crusade"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 2126353,
+        "username": "Meadow-2126353",
+        "name": "Meadow",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Forumcat-wildhammer",
+            "avatar": "https://render.worldofwarcraft.com/us/character/wildhammer/96/223675488-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/wildhammer/forumcat/",
+            "user_id": 2126353,
+            "id": 387839,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1947,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/wildhammer/forumcat/"
+              },
+              {
+                "name": "realm",
+                "value": "Wildhammer"
+              },
+              {
+                "name": "achievement_points",
+                "value": "110"
+              },
+              {
+                "name": "level",
+                "value": "10"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/wildhammer/96/223675488-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Forumcat-wildhammer"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 964340,
+        "username": "Poct-964340",
+        "name": "Poct",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Poctzarwaz-thrall",
+            "avatar": "https://render.worldofwarcraft.com/us/character/thrall/145/160180625-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/thrall/poctzarwaz/",
+            "user_id": 964340,
+            "id": 392971,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 3371,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/thrall/poctzarwaz/"
+              },
+              {
+                "name": "realm",
+                "value": "Thrall"
+              },
+              {
+                "name": "achievement_points",
+                "value": "23980"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Shaman"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "SHAMAN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/thrall/145/160180625-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Poctzarwaz-thrall"
+              },
+              {
+                "name": "guild",
+                "value": "Analog Dawn"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 4733,
+        "username": "illinifan80-4733",
+        "name": "illinifan80",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Melaesia-proudmoore",
+            "avatar": "https://render.worldofwarcraft.com/us/character/proudmoore/9/176511241-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/proudmoore/melaesia/",
+            "user_id": 4733,
+            "id": 418315,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 4156,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/proudmoore/melaesia/"
+              },
+              {
+                "name": "realm",
+                "value": "Proudmoore"
+              },
+              {
+                "name": "achievement_points",
+                "value": "27970"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Demon Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEMONHUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/proudmoore/9/176511241-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Melaesia-proudmoore"
+              },
+              {
+                "name": "guild",
+                "value": "Bank of Masón"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 13534,
+        "username": "GoauldOfWar-13534",
+        "name": "GoauldOfWar",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Vaeana-area-52",
+            "avatar": "https://render.worldofwarcraft.com/us/character/area-52/65/116098881-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/area-52/vaeana/",
+            "user_id": 13534,
+            "id": 427434,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 7429,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/area-52/vaeana/"
+              },
+              {
+                "name": "realm",
+                "value": "Area 52"
+              },
+              {
+                "name": "achievement_points",
+                "value": "15230"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/area-52/65/116098881-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Vaeana-area-52"
+              },
+              {
+                "name": "guild",
+                "value": "SINDICATE II"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 1045005,
+        "username": "Thundertotem-1045005",
+        "name": "Thundertotem",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Ravenhawk-blackwater-raiders",
+            "avatar": "https://render.worldofwarcraft.com/us/character/blackwater-raiders/74/121841226-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/blackwater-raiders/ravenhawk/",
+            "user_id": 1045005,
+            "id": 396250,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 4470,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/blackwater-raiders/ravenhawk/"
+              },
+              {
+                "name": "realm",
+                "value": "Blackwater Raiders"
+              },
+              {
+                "name": "achievement_points",
+                "value": "22515"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/blackwater-raiders/74/121841226-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Ravenhawk-blackwater-raiders"
+              },
+              {
+                "name": "guild",
+                "value": "Plagued"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 2687972,
+        "username": "lorethon-2687972",
+        "name": "lorethon",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Lorethon-moon-guard",
+            "avatar": "https://render.worldofwarcraft.com/us/character/moon-guard/5/176739333-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/moon-guard/lorethon/",
+            "user_id": 2687972,
+            "id": 417589,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 3844,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/moon-guard/lorethon/"
+              },
+              {
+                "name": "realm",
+                "value": "Moon Guard"
+              },
+              {
+                "name": "achievement_points",
+                "value": "32425"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/moon-guard/5/176739333-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Lorethon-moon-guard"
+              },
+              {
+                "name": "guild",
+                "value": "The Emerald Leaf"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 3177905,
+        "username": "Bjoerg-3177905",
+        "name": "Bjoerg",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Furryhunta-mankrik",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/mankrik/77/96576077-avatar.jpg?alt=/wow/static/images/2d/avatar/26-1.jpg",
+            "url": null,
+            "user_id": 3177905,
+            "id": 521048,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1456,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Mankrik"
+              },
+              {
+                "name": "achievement_points",
+                "value": "9155"
+              },
+              {
+                "name": "level",
+                "value": "14"
+              },
+              {
+                "name": "race",
+                "value": "Pandaren"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic-us/character/mankrik/77/96576077-avatar.jpg?alt=/wow/static/images/2d/avatar/26-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Furryhunta-mankrik"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 4676,
+        "username": "Nephe-4676",
+        "name": "Nephe",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Nephe-caelestrasz",
+            "avatar": "https://render.worldofwarcraft.com/us/character/caelestrasz/213/129683925-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/caelestrasz/nephe/",
+            "user_id": 4676,
+            "id": 419046,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 4187,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/caelestrasz/nephe/"
+              },
+              {
+                "name": "realm",
+                "value": "Caelestrasz"
+              },
+              {
+                "name": "achievement_points",
+                "value": "21000"
+              },
+              {
+                "name": "level",
+                "value": "83"
+              },
+              {
+                "name": "race",
+                "value": "Void Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/caelestrasz/213/129683925-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Nephe-caelestrasz"
+              },
+              {
+                "name": "guild",
+                "value": "Dark Haven"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 4668,
+        "username": "Kozzae-4668",
+        "name": "Kozzae",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": "cs-mvp",
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 3,
+        "acting_alias": {
+          "alias": {
+            "name": "Kozzae-doomhammer",
+            "avatar": "https://render.worldofwarcraft.com/us/character/doomhammer/80/123411280-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/doomhammer/kozzae/",
+            "user_id": 4668,
+            "id": 102,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 11282,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/doomhammer/kozzae/"
+              },
+              {
+                "name": "realm",
+                "value": "Doomhammer"
+              },
+              {
+                "name": "achievement_points",
+                "value": "32430"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/doomhammer/80/123411280-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Kozzae-doomhammer"
+              },
+              {
+                "name": "guild",
+                "value": "Phank"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 4607,
+        "username": "Darthwraith-4607",
+        "name": "Darthwraith",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Darthwraith-blackhand",
+            "avatar": "https://render.worldofwarcraft.com/us/character/blackhand/57/133879097-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/blackhand/darthwraith/",
+            "user_id": 4607,
+            "id": 436067,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 21166,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/blackhand/darthwraith/"
+              },
+              {
+                "name": "realm",
+                "value": "Blackhand"
+              },
+              {
+                "name": "achievement_points",
+                "value": "26610"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/blackhand/57/133879097-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Darthwraith-blackhand"
+              },
+              {
+                "name": "guild",
+                "value": "Enlightened Dark"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 2828617,
+        "username": "Davetheslave-282861706e49c76232b51257a3ffb093dc46f1d",
+        "name": "Davetheslave",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Nerfd-lone-wolf",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/lone-wolf/149/36149141-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": null,
+            "user_id": 2828617,
+            "id": 10320,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 108,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Lone Wolf"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "44"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/lone-wolf/149/36149141-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Nerfd-lone-wolf"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 128937,
+        "username": "Auryssa-128937",
+        "name": "Auryssa",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Auryssa-earthen-ring",
+            "avatar": "https://render.worldofwarcraft.com/us/character/earthen-ring/115/71193459-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/earthen-ring/auryssa/",
+            "user_id": 128937,
+            "id": 376122,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 207,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/earthen-ring/auryssa/"
+              },
+              {
+                "name": "realm",
+                "value": "Earthen Ring"
+              },
+              {
+                "name": "achievement_points",
+                "value": "22445"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/earthen-ring/115/71193459-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Auryssa-earthen-ring"
+              },
+              {
+                "name": "guild",
+                "value": "alea iacta est libertas"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 1844562,
+        "username": "Revan-1844562",
+        "name": "Revan",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Cäpslöck-proudmoore",
+            "avatar": "https://render.worldofwarcraft.com/us/character/proudmoore/200/235403720-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/proudmoore/cäpslöck/",
+            "user_id": 1844562,
+            "id": 437422,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 30115,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/proudmoore/cäpslöck/"
+              },
+              {
+                "name": "realm",
+                "value": "Proudmoore"
+              },
+              {
+                "name": "achievement_points",
+                "value": "22695"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Void Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/proudmoore/200/235403720-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Cäpslöck-proudmoore"
+              },
+              {
+                "name": "guild",
+                "value": "Objectively Bad"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 1745818,
+        "username": "Kennie-1745818",
+        "name": "Kennie",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Kennie-malganis",
+            "avatar": "https://render.worldofwarcraft.com/us/character/malganis/44/135439660-avatar.jpg?alt=/wow/static/images/2d/avatar/35-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/malganis/kennie/",
+            "user_id": 1745818,
+            "id": 437727,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 69677,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/malganis/kennie/"
+              },
+              {
+                "name": "realm",
+                "value": "Mal'Ganis"
+              },
+              {
+                "name": "achievement_points",
+                "value": "58165"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Vulpera"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/malganis/44/135439660-avatar.jpg?alt=/wow/static/images/2d/avatar/35-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Kennie-malganis"
+              },
+              {
+                "name": "guild",
+                "value": "heavy is the crown"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      }
+    ],
+    "created_by": {
+      "id": 2852426,
+      "username": "joeywall-2852426",
+      "name": "joeywall",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    },
+    "last_poster": {
+      "id": -1,
+      "username": "system",
+      "name": "system",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    }
+  },
+  "bookmarks": [],
+  "jogo": "World of Warcraft",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Blizzard",
+  "url_fonte": "https://us.forums.blizzard.com/en/wow/t/is-it-ok-to-install-openclaw/2253399"
+}

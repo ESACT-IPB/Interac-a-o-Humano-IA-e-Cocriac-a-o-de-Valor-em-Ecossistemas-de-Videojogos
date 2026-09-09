@@ -1,0 +1,38 @@
+{
+  "id": "reddit_1oyimz6",
+  "title": "WoW Classic Character Generator",
+  "slug": "wow_classic_character_generator",
+  "posts_count": 2,
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1,
+        "username": "KatsPurr",
+        "cooked": "<p>Heya folks! In short: Need a generator that will decide for you: 1. Faction 2. Race 3. Class? Here ya go! Backstory: I'm usually a sandbox survival kinda gal, but WoW is also a huuuge part of my gaming history and it's nice to dabble with Classic HC from time to time. Anyhow, since \"living and dying\" is a big part of the hardcore experience, rolling the same old character in the same old class has become a bit stale. I thought it would be really cool if I could have instead \"fate decide\" which faction, which race and which class. I did look around a bit for the kind of generator I was wanting, but didn't find any, so I asked ChatGPT to code one for me, added some snazzy graphics and was able to come up with exactly the kind of thing I was looking for! Since there might be other Classic HC players out there who have been looking for something like this, I figured I could share it with you here!</p>",
+        "created_at": "2025-11-16T10:42:57.008000+0000",
+        "post_number": 1,
+        "reply_to_post_number": null,
+        "reply_count": 1,
+        "like_count": 0,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 2,
+        "username": "KatsPurr",
+        "cooked": "<p>Sounds good. I've been really enjoying trying out combos I'd have never ever chosen before.</p>",
+        "created_at": "2025-11-16T21:37:23.295000+0000",
+        "post_number": 2,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      }
+    ]
+  },
+  "jogo": "World of Warcraft",
+  "fonte": "Reddit",
+  "seccao": "r/wow",
+  "url_fonte": "https://www.reddit.com/r/wow/comments/1oyimz6/wow_classic_character_generator/"
+}

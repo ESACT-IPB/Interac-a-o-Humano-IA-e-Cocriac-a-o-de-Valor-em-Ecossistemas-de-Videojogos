@@ -1,0 +1,98 @@
+{
+  "id": "reddit_1s5tj3u",
+  "title": "[Crest Bug] Community Manager vs ChatGPT response",
+  "slug": "crest_bug_community_manager_vs_chatgpt_response",
+  "posts_count": 7,
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1,
+        "username": "Flare-Star",
+        "cooked": "<p>(Reddit post): [Crest Bug] Community Manager vs ChatGPT response</p>",
+        "created_at": "2026-03-28T07:06:18.840000+0000",
+        "post_number": 1,
+        "reply_to_post_number": null,
+        "reply_count": 6,
+        "like_count": 0,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 2,
+        "username": "GOONGOON_OW",
+        "cooked": "<p>Hate to defend Blizzards customer service but this feels like a nothing burger considering the AI response will be based off of thousands of posts just like the top one.</p>",
+        "created_at": "2026-03-28T07:11:20.544000+0000",
+        "post_number": 2,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 12,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 3,
+        "username": "Secrezeeee",
+        "cooked": "<p>What point are you trying to make here?</p>",
+        "created_at": "2026-03-28T07:49:14.206000+0000",
+        "post_number": 3,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 6,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 4,
+        "username": "_toadsy",
+        "cooked": "<p>What discussion are you expecting to have here? Corporations have corporate responses, and ai can approximate them, this isn't news.</p>",
+        "created_at": "2026-03-28T17:16:51.735000+0000",
+        "post_number": 4,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 3,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 5,
+        "username": "RalseitheFloofie",
+        "cooked": "<p>... you do realize that most of these responses were automated long before ai was a thing?</p>",
+        "created_at": "2026-03-28T07:52:03.597000+0000",
+        "post_number": 5,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 4,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 6,
+        "username": "Thirteenera",
+        "cooked": "<p>A bottle of water died for this</p>",
+        "created_at": "2026-03-28T12:22:35.978000+0000",
+        "post_number": 6,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 7,
+        "username": "PossibleIsland3468",
+        "cooked": "<p>So, you realize most companies train on their explicit data sets when they use GenAI? If you use an open generalized model, you'll get a general response. If you train it on your data set, it'll mimic a more custom response. Lastly, most of the GenAI is baked into tools. So along with pre-established scripts, they'll have AI generated suggestions. Basically, here's the problem, here are some suggested responses, some even auto fill in and then allow certain overrides. Like Legos.</p>",
+        "created_at": "2026-03-28T14:46:42.055000+0000",
+        "post_number": 7,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      }
+    ]
+  },
+  "jogo": "World of Warcraft",
+  "fonte": "Reddit",
+  "seccao": "r/wow",
+  "url_fonte": "https://www.reddit.com/r/wow/comments/1s5tj3u/crest_bug_community_manager_vs_chatgpt_response/"
+}

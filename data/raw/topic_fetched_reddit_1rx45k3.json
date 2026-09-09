@@ -1,0 +1,50 @@
+{
+  "id": "reddit_1rx45k3",
+  "title": "New to wow..quick question",
+  "slug": "new_to_wowquick_question",
+  "posts_count": 3,
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1,
+        "username": "don-m",
+        "cooked": "<p>Not sure if its relevant but playing as an unholy dk and planning on focusing on pvp content mostly. Really new to wow so lost on a few things but my question is which professions should i go for in this midnight expansion to make as much money as possible or enhance my pvp experience? Chatgpt (i know…i know ahaha) said herbalism and alchemy to make potions but id rather hear from you guys ahaha</p>",
+        "created_at": "2026-03-18T13:38:58.831000+0000",
+        "post_number": 1,
+        "reply_to_post_number": null,
+        "reply_count": 2,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 2,
+        "username": "fox112",
+        "cooked": "<p>1: mining and herbalism 2: no profession</p>",
+        "created_at": "2026-03-18T13:40:11.400000+0000",
+        "post_number": 2,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 3,
+        "username": "Durenas",
+        "cooked": "<p>Right NOW, Herbalism, Mining, Skinning. Pick two. For maximum brain dead operation, Herbalism and Mining. If you farm a lot of mobs for whatever reason, Skinning is fine.</p>",
+        "created_at": "2026-03-20T00:48:39.992000+0000",
+        "post_number": 3,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      }
+    ]
+  },
+  "jogo": "World of Warcraft",
+  "fonte": "Reddit",
+  "seccao": "r/wow",
+  "url_fonte": "https://www.reddit.com/r/wow/comments/1rx45k3/new_to_wowquick_question/"
+}

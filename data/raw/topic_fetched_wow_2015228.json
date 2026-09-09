@@ -1,0 +1,5376 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 25662796,
+        "name": "mortalux",
+        "username": "mortalux-3027990",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-22T13:54:13.094Z",
+        "cooked": "<p>Why the hell do we still have that requirement that is completely useless and just steals r1 from the best players who actually deserve it.<br>\nI’m r1 rn but if I didn’t find out you need 50 games I would prob end up not getting the title because I’m under those 50 wins. That makes no sense since it should be awarded for being the highest.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2026-06-12T04:02:54.773Z",
+        "reply_count": 2,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 20,
+        "reads": 127,
+        "readers_count": 126,
+        "score": 160.4,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "mortalux",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3027990,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/mortalux/",
+          "race": "Dark Iron Dwarf",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "guild": "Feeling Glad",
+          "level": "90",
+          "achievement_points": "26220",
+          "blizzard_post_count": "1483"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/1",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/sargeras/82/199749458-avatar.jpg?alt=/wow/static/images/2d/avatar/34-0.jpg",
+        "alias_username": "Mortalx",
+        "poster_alias": {
+          "alias": {
+            "name": "Mortalx",
+            "avatar": "https://render.worldofwarcraft.com/us/character/sargeras/82/199749458-avatar.jpg?alt=/wow/static/images/2d/avatar/34-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/sargeras/mortalx/",
+            "user_id": 3027990,
+            "id": 2329047,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 1021,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/sargeras/mortalx/"
+              },
+              {
+                "name": "realm",
+                "value": "Sargeras"
+              },
+              {
+                "name": "achievement_points",
+                "value": "24385"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Dark Iron Dwarf"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "guild",
+                "value": "Phoenyx"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 1483,
+        "character": {
+          "name": "mortalux",
+          "guild": "Feeling Glad",
+          "achievement_points": "26220",
+          "level": "90",
+          "class": "Paladin",
+          "race": "Dark Iron Dwarf",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 25662805,
+        "name": "CardinalFang",
+        "username": "CardinalFang-3137331",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-22T13:55:20.952Z",
+        "cooked": "<p>Queue up, coward.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2026-06-15T09:13:54.000Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 125,
+        "readers_count": 124,
+        "score": 60.0,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "CardinalFang",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3137331,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Deadpool",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/illidan/darkjim/",
+          "level": "70",
+          "race": "Tauren",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "achievement_points": "17145",
+          "blizzard_post_count": "8524"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/2",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/illidan/147/226675603-avatar.jpg?alt=/wow/static/images/2d/avatar/84-0.jpg",
+        "alias_username": "Grandpopjim",
+        "poster_alias": {
+          "alias": {
+            "name": "Grandpopjim",
+            "avatar": "https://render.worldofwarcraft.com/us/character/illidan/147/226675603-avatar.jpg?alt=/wow/static/images/2d/avatar/84-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/illidan/grandpopjim/",
+            "user_id": 3137331,
+            "id": 2348865,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 2576,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/illidan/grandpopjim/"
+              },
+              {
+                "name": "realm",
+                "value": "Illidan"
+              },
+              {
+                "name": "achievement_points",
+                "value": "15780"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Earthen"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "guild",
+                "value": "Deadpool"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 8524,
+        "character": {
+          "name": "CardinalFang",
+          "guild": "Deadpool",
+          "achievement_points": "17145",
+          "level": "70",
+          "class": "Warlock",
+          "race": "Tauren",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25662897,
+        "name": "mortalux",
+        "username": "mortalux-3027990",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-22T14:14:30.965Z",
+        "cooked": "<p>I am ! Bro thinks people can play everyday all day. We got lives ! Can’t study engineering and do both 2s, 3s, SS, rbgs, bgb. For both ret and prot ! Give me a break !!!</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2026-06-12T04:02:55.229Z",
+        "reply_count": 4,
+        "reply_to_post_number": 2,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 120,
+        "readers_count": 119,
+        "score": 89.0,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "mortalux",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 3137331,
+          "username": "CardinalFang-3137331",
+          "name": "CardinalFang",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3027990,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/mortalux/",
+          "race": "Dark Iron Dwarf",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "guild": "Feeling Glad",
+          "level": "90",
+          "achievement_points": "26220",
+          "blizzard_post_count": "1483"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/3",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/sargeras/82/199749458-avatar.jpg?alt=/wow/static/images/2d/avatar/34-0.jpg",
+        "alias_username": "Mortalx",
+        "poster_alias": {
+          "alias": {
+            "name": "Mortalx",
+            "avatar": "https://render.worldofwarcraft.com/us/character/sargeras/82/199749458-avatar.jpg?alt=/wow/static/images/2d/avatar/34-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/sargeras/mortalx/",
+            "user_id": 3027990,
+            "id": 2329047,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 1021,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/sargeras/mortalx/"
+              },
+              {
+                "name": "realm",
+                "value": "Sargeras"
+              },
+              {
+                "name": "achievement_points",
+                "value": "24385"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Dark Iron Dwarf"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "guild",
+                "value": "Phoenyx"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2348865,
+          "username": "Grandpopjim",
+          "name": "Grandpopjim",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/illidan/147/226675603-avatar.jpg?alt=/wow/static/images/2d/avatar/84-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 1483,
+        "character": {
+          "name": "mortalux",
+          "guild": "Feeling Glad",
+          "achievement_points": "26220",
+          "level": "90",
+          "class": "Paladin",
+          "race": "Dark Iron Dwarf",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25663074,
+        "name": "Ogizzle",
+        "username": "Ogizzle-1774980",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-22T14:43:56.605Z",
+        "cooked": "<p>Nobody cares that you have to study. Queue up</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2024-11-22T14:43:56.605Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 113,
+        "readers_count": 112,
+        "score": 57.6,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "Ogizzle",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1774980,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/moon-guard/ogunreal/",
+          "race": "Night Elf",
+          "class": "Rogue",
+          "player_class_enum": "ROGUE",
+          "level": "80",
+          "blizzard_post_count": "407",
+          "achievement_points": "16730",
+          "guild": "Death Cult",
+          "classic": "t"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/4",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/moon-guard/254/170928382-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Ogunreal-moon-guard",
+        "poster_alias": {
+          "alias": {
+            "name": "Ogunreal-moon-guard",
+            "avatar": "https://render.worldofwarcraft.com/us/character/moon-guard/254/170928382-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/moon-guard/ogunreal/",
+            "user_id": 1774980,
+            "id": 534557,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 407,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/moon-guard/ogunreal/"
+              },
+              {
+                "name": "realm",
+                "value": "Moon Guard"
+              },
+              {
+                "name": "achievement_points",
+                "value": "16620"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/moon-guard/254/170928382-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Ogunreal-moon-guard"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 407,
+        "character": {
+          "name": "Ogizzle",
+          "guild": "Death Cult",
+          "achievement_points": "16730",
+          "level": "80",
+          "class": "Rogue",
+          "race": "Night Elf",
+          "player_class_enum": "ROGUE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25663105,
+        "name": "Dizzie",
+        "username": "Dizzie-1455571",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-22T14:48:48.549Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Mortalx-sargeras\" data-post=\"3\" data-topic=\"2015228\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/sargeras/82/199749458-avatar.jpg?alt=/wow/static/images/2d/avatar/34-0.jpg\" class=\"avatar\"> Mortalx:</div>\n<blockquote>\n<p>engineering</p>\n</blockquote>\n</aside>\n<p>Imagine going to school for a dying profession LOL</p>\n<p>Let me guess, you’re getting a minor in liberal arts too? <img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/rofl.png?v=12\" title=\":rofl:\" class=\"emoji\" alt=\":rofl:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+        "post_number": 5,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2024-11-22T14:49:15.453Z",
+        "reply_count": 1,
+        "reply_to_post_number": 3,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 106,
+        "readers_count": 105,
+        "score": 86.2,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "Dizzie",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1455571,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/sargeras/biebz/",
+          "race": "Gnome",
+          "class": "Rogue",
+          "player_class_enum": "ROGUE",
+          "classic": "t",
+          "guild": "And His Sock Puppets",
+          "level": "80",
+          "achievement_points": "17735",
+          "blizzard_post_count": "6128"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/5",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/sargeras/123/175832187-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+        "alias_username": "Biebz-sargeras",
+        "poster_alias": {
+          "alias": {
+            "name": "Biebz-sargeras",
+            "avatar": "https://render.worldofwarcraft.com/us/character/sargeras/123/175832187-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/sargeras/biebz/",
+            "user_id": 1455571,
+            "id": 398332,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 2506,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/sargeras/biebz/"
+              },
+              {
+                "name": "realm",
+                "value": "Sargeras"
+              },
+              {
+                "name": "achievement_points",
+                "value": "18555"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/sargeras/123/175832187-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Biebz-sargeras"
+              },
+              {
+                "name": "guild",
+                "value": "And His Sock Puppets"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 6128,
+        "character": {
+          "name": "Dizzie",
+          "guild": "And His Sock Puppets",
+          "achievement_points": "17735",
+          "level": "80",
+          "class": "Rogue",
+          "race": "Gnome",
+          "player_class_enum": "ROGUE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25663107,
+        "name": "CardinalFang",
+        "username": "CardinalFang-3137331",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-22T14:49:14.086Z",
+        "cooked": "<p>Alright, alright! I apologize. I get you. Engineering is a good field of study too. Nice work.</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2026-06-15T09:13:54.136Z",
+        "reply_count": 0,
+        "reply_to_post_number": 3,
+        "quote_count": 0,
+        "incoming_link_count": 3,
+        "reads": 99,
+        "readers_count": 98,
+        "score": 34.8,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "CardinalFang",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 3027990,
+          "username": "mortalux-3027990",
+          "name": "mortalux",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3137331,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Deadpool",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/illidan/darkjim/",
+          "level": "70",
+          "race": "Tauren",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "achievement_points": "17145",
+          "blizzard_post_count": "8524"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/6",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/illidan/147/226675603-avatar.jpg?alt=/wow/static/images/2d/avatar/84-0.jpg",
+        "alias_username": "Grandpopjim",
+        "poster_alias": {
+          "alias": {
+            "name": "Grandpopjim",
+            "avatar": "https://render.worldofwarcraft.com/us/character/illidan/147/226675603-avatar.jpg?alt=/wow/static/images/2d/avatar/84-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/illidan/grandpopjim/",
+            "user_id": 3137331,
+            "id": 2348865,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 2576,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/illidan/grandpopjim/"
+              },
+              {
+                "name": "realm",
+                "value": "Illidan"
+              },
+              {
+                "name": "achievement_points",
+                "value": "15780"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Earthen"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "guild",
+                "value": "Deadpool"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2329047,
+          "username": "Mortalx",
+          "name": "Mortalx",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/sargeras/82/199749458-avatar.jpg?alt=/wow/static/images/2d/avatar/34-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 8524,
+        "character": {
+          "name": "CardinalFang",
+          "guild": "Deadpool",
+          "achievement_points": "17145",
+          "level": "70",
+          "class": "Warlock",
+          "race": "Tauren",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25663160,
+        "name": "Visions",
+        "username": "Visions-2231848",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-22T14:54:03.562Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Mortalx-sargeras\" data-post=\"1\" data-topic=\"2015228\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/sargeras/82/199749458-avatar.jpg?alt=/wow/static/images/2d/avatar/34-0.jpg\" class=\"avatar\"> Mortalx:</div>\n<blockquote>\n<p>I’m r1 rn but</p>\n</blockquote>\n</aside>\n<p><code>https://gyazo.com/77367c9a810a5b73442c84ce5ebc37a0</code></p>\n<p><code>https://gyazo.com/d3582e86547adbba559bea1c10b81e8d</code></p>\n<p>So anyways my favourite cheese is gouda and I like turkey with it <img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/slight_smile.png?v=12\" title=\":slight_smile:\" class=\"emoji\" alt=\":slight_smile:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+        "post_number": 7,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2024-11-22T14:54:49.908Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 1,
+        "incoming_link_count": 2,
+        "reads": 90,
+        "readers_count": 89,
+        "score": 33.0,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "Visions",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2231848,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/moon-guard/raïsin/",
+          "race": "Night Elf",
+          "class": "Druid",
+          "player_class_enum": "DRUID",
+          "level": "80",
+          "guild": "House of Terry",
+          "achievement_points": "25230",
+          "blizzard_post_count": "8817"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/7",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/moon-guard/42/172634666-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Raïsin-moon-guard",
+        "poster_alias": {
+          "alias": {
+            "name": "Raïsin-moon-guard",
+            "avatar": "https://render.worldofwarcraft.com/us/character/moon-guard/42/172634666-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/moon-guard/raïsin/",
+            "user_id": 2231848,
+            "id": 400668,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 5454,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/moon-guard/raïsin/"
+              },
+              {
+                "name": "realm",
+                "value": "Moon Guard"
+              },
+              {
+                "name": "achievement_points",
+                "value": "27170"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/moon-guard/42/172634666-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Raïsin-moon-guard"
+              },
+              {
+                "name": "guild",
+                "value": "House of Terry"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 8817,
+        "character": {
+          "name": "Visions",
+          "guild": "House of Terry",
+          "achievement_points": "25230",
+          "level": "80",
+          "class": "Druid",
+          "race": "Night Elf",
+          "player_class_enum": "DRUID",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25663672,
+        "name": "Hiskra",
+        "username": "Hiskra-2919071",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-22T16:00:00.797Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Mortalx-sargeras\" data-post=\"3\" data-topic=\"2015228\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/sargeras/82/199749458-avatar.jpg?alt=/wow/static/images/2d/avatar/34-0.jpg\" class=\"avatar\"> Mortalx:</div>\n<blockquote>\n<p>engineering</p>\n</blockquote>\n</aside>\n<p>if it’s not control and automation then its a meme degree dont even @ me</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2024-11-22T16:00:00.797Z",
+        "reply_count": 2,
+        "reply_to_post_number": 3,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 75,
+        "readers_count": 74,
+        "score": 25.0,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "Hiskra",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2919071,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/stormrage/kinsington/",
+          "level": "80",
+          "class": "Monk",
+          "player_class_enum": "MONK",
+          "blizzard_post_count": "2234",
+          "race": "Night Elf",
+          "guild": "VALOR",
+          "achievement_points": "15195"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/8",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/stormrage/7/251653383-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Kinsington-stormrage",
+        "poster_alias": {
+          "alias": {
+            "name": "Kinsington-stormrage",
+            "avatar": "https://render.worldofwarcraft.com/us/character/stormrage/7/251653383-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": null,
+            "user_id": 2919071,
+            "id": 391026,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 2357,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/stormrage/kinsington/"
+              },
+              {
+                "name": "realm",
+                "value": "Stormrage"
+              },
+              {
+                "name": "achievement_points",
+                "value": "16650"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Monk"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MONK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/stormrage/7/251653383-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Kinsington-stormrage"
+              },
+              {
+                "name": "guild",
+                "value": "VALOR"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 2234,
+        "character": {
+          "name": "Hiskra",
+          "guild": "VALOR",
+          "achievement_points": "15195",
+          "level": "80",
+          "class": "Monk",
+          "race": "Night Elf",
+          "player_class_enum": "MONK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25664396,
+        "name": "Inemia",
+        "username": "Inemia-987278",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-22T17:13:30.522Z",
+        "cooked": "<p>you should see the cybersecurity scene, “engineers” with no degree or even a GED. granted its a more authentic usage of the word, but its not like you can hang with bridge designers.</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2024-11-22T17:13:30.522Z",
+        "reply_count": 1,
+        "reply_to_post_number": 8,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 57,
+        "readers_count": 56,
+        "score": 21.4,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "Inemia",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2919071,
+          "username": "Hiskra-2919071",
+          "name": "Hiskra",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 987278,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/wyrmrest-accord/inemia/",
+          "class": "Death Knight",
+          "player_class_enum": "DEATHKNIGHT",
+          "classic": "t",
+          "race": "Night Elf",
+          "level": "84",
+          "achievement_points": "25030",
+          "guild": "Nerves Concord",
+          "blizzard_post_count": "15151"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/9",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/155/185056155-avatar.jpg?alt=/wow/static/images/2d/avatar/27-1.jpg",
+        "alias_username": "Inemia-wyrmrest-accord",
+        "poster_alias": {
+          "alias": {
+            "name": "Inemia-wyrmrest-accord",
+            "avatar": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/155/185056155-avatar.jpg?alt=/wow/static/images/2d/avatar/27-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/wyrmrest-accord/inemia/",
+            "user_id": 987278,
+            "id": 2233486,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 10840,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/wyrmrest-accord/inemia/"
+              },
+              {
+                "name": "realm",
+                "value": "Wyrmrest Accord"
+              },
+              {
+                "name": "achievement_points",
+                "value": "25690"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Nightborne"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/155/185056155-avatar.jpg?alt=/wow/static/images/2d/avatar/27-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Inemia-wyrmrest-accord"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 391026,
+          "username": "Kinsington-stormrage",
+          "name": "Kinsington",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/stormrage/7/251653383-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 15151,
+        "character": {
+          "name": "Inemia",
+          "guild": "Nerves Concord",
+          "achievement_points": "25030",
+          "level": "84",
+          "class": "Death Knight",
+          "race": "Night Elf",
+          "player_class_enum": "DEATHKNIGHT",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25664407,
+        "name": "Hiskra",
+        "username": "Hiskra-2919071",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-22T17:14:40.282Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Inemia-wyrmrest-accord\" data-post=\"9\" data-topic=\"2015228\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/wyrmrest-accord/169/179571625-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg\" class=\"avatar\"> Inemia:</div>\n<blockquote>\n<p>you should see the cybersecurity scene, “engineers” with no degree or even a GED</p>\n</blockquote>\n</aside>\n<p>I don’t have to see it, I’m arguably in there<br>\nalso no degree just started coding one day yolo</p>",
+        "post_number": 10,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2024-11-22T17:14:40.282Z",
+        "reply_count": 1,
+        "reply_to_post_number": 9,
+        "quote_count": 1,
+        "incoming_link_count": 1,
+        "reads": 54,
+        "readers_count": 53,
+        "score": 35.8,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "Hiskra",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2919071,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/stormrage/kinsington/",
+          "level": "80",
+          "class": "Monk",
+          "player_class_enum": "MONK",
+          "blizzard_post_count": "2234",
+          "race": "Night Elf",
+          "guild": "VALOR",
+          "achievement_points": "15195"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/10",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/stormrage/7/251653383-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Kinsington-stormrage",
+        "poster_alias": {
+          "alias": {
+            "name": "Kinsington-stormrage",
+            "avatar": "https://render.worldofwarcraft.com/us/character/stormrage/7/251653383-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": null,
+            "user_id": 2919071,
+            "id": 391026,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 2357,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/stormrage/kinsington/"
+              },
+              {
+                "name": "realm",
+                "value": "Stormrage"
+              },
+              {
+                "name": "achievement_points",
+                "value": "16650"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Monk"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MONK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/stormrage/7/251653383-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Kinsington-stormrage"
+              },
+              {
+                "name": "guild",
+                "value": "VALOR"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 2234,
+        "character": {
+          "name": "Hiskra",
+          "guild": "VALOR",
+          "achievement_points": "15195",
+          "level": "80",
+          "class": "Monk",
+          "race": "Night Elf",
+          "player_class_enum": "MONK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25664533,
+        "name": "Inemia",
+        "username": "Inemia-987278",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-22T17:25:46.368Z",
+        "cooked": "<p>don’t forget to tell everyone you are an engineer.</p>",
+        "post_number": 11,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2024-11-22T17:25:46.368Z",
+        "reply_count": 1,
+        "reply_to_post_number": 10,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 49,
+        "readers_count": 48,
+        "score": 19.8,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "Inemia",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2919071,
+          "username": "Hiskra-2919071",
+          "name": "Hiskra",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 987278,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/wyrmrest-accord/inemia/",
+          "class": "Death Knight",
+          "player_class_enum": "DEATHKNIGHT",
+          "classic": "t",
+          "race": "Night Elf",
+          "level": "84",
+          "achievement_points": "25030",
+          "guild": "Nerves Concord",
+          "blizzard_post_count": "15151"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/11",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/155/185056155-avatar.jpg?alt=/wow/static/images/2d/avatar/27-1.jpg",
+        "alias_username": "Inemia-wyrmrest-accord",
+        "poster_alias": {
+          "alias": {
+            "name": "Inemia-wyrmrest-accord",
+            "avatar": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/155/185056155-avatar.jpg?alt=/wow/static/images/2d/avatar/27-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/wyrmrest-accord/inemia/",
+            "user_id": 987278,
+            "id": 2233486,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 10840,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/wyrmrest-accord/inemia/"
+              },
+              {
+                "name": "realm",
+                "value": "Wyrmrest Accord"
+              },
+              {
+                "name": "achievement_points",
+                "value": "25690"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Nightborne"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/155/185056155-avatar.jpg?alt=/wow/static/images/2d/avatar/27-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Inemia-wyrmrest-accord"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 391026,
+          "username": "Kinsington-stormrage",
+          "name": "Kinsington",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/stormrage/7/251653383-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 15151,
+        "character": {
+          "name": "Inemia",
+          "guild": "Nerves Concord",
+          "achievement_points": "25030",
+          "level": "84",
+          "class": "Death Knight",
+          "race": "Night Elf",
+          "player_class_enum": "DEATHKNIGHT",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25664537,
+        "name": "Hiskra",
+        "username": "Hiskra-2919071",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-22T17:26:06.257Z",
+        "cooked": "<p>i’m not tho<br>\ni mean<br>\ni am for usre</p>\n<p>whatever pays more</p>",
+        "post_number": 12,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2024-11-22T17:26:34.873Z",
+        "reply_count": 1,
+        "reply_to_post_number": 11,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 46,
+        "readers_count": 45,
+        "score": 14.2,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "Hiskra",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 987278,
+          "username": "Inemia-987278",
+          "name": "Inemia",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2919071,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/stormrage/kinsington/",
+          "level": "80",
+          "class": "Monk",
+          "player_class_enum": "MONK",
+          "blizzard_post_count": "2234",
+          "race": "Night Elf",
+          "guild": "VALOR",
+          "achievement_points": "15195"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/12",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/stormrage/7/251653383-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Kinsington-stormrage",
+        "poster_alias": {
+          "alias": {
+            "name": "Kinsington-stormrage",
+            "avatar": "https://render.worldofwarcraft.com/us/character/stormrage/7/251653383-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": null,
+            "user_id": 2919071,
+            "id": 391026,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 2357,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/stormrage/kinsington/"
+              },
+              {
+                "name": "realm",
+                "value": "Stormrage"
+              },
+              {
+                "name": "achievement_points",
+                "value": "16650"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Monk"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MONK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/stormrage/7/251653383-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Kinsington-stormrage"
+              },
+              {
+                "name": "guild",
+                "value": "VALOR"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2233486,
+          "username": "Inemia-wyrmrest-accord",
+          "name": "Inemia",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/155/185056155-avatar.jpg?alt=/wow/static/images/2d/avatar/27-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 2234,
+        "character": {
+          "name": "Hiskra",
+          "guild": "VALOR",
+          "achievement_points": "15195",
+          "level": "80",
+          "class": "Monk",
+          "race": "Night Elf",
+          "player_class_enum": "MONK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25664595,
+        "name": "Inemia",
+        "username": "Inemia-987278",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-22T17:31:59.177Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Kinsington-stormrage\" data-post=\"12\" data-topic=\"2015228\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/stormrage/7/251653383-avatar.jpg?alt=/wow/static/images/2d/avatar/22-1.jpg\" class=\"avatar\"> Kinsington:</div>\n<blockquote>\n<p>whatever pays more</p>\n</blockquote>\n</aside>\n<p>well, if you have the natural propensity to be a security engineer, that pays more than a  real engineer, but, you have to be born with the natural criminal skills, you can’t just go to school for cybersecurity and become a ninja, especially if you are the type of person who never breaks rules or thinks outside the box.</p>\n<p>that said, the days of onsite pen tests with your vest and clipboard are sort of over, so idk, maybe AI engineer is the hot thing to be now.</p>",
+        "post_number": 13,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2024-11-22T17:32:22.498Z",
+        "reply_count": 1,
+        "reply_to_post_number": 12,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 46,
+        "readers_count": 45,
+        "score": 29.2,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "Inemia",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 987278,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/wyrmrest-accord/inemia/",
+          "class": "Death Knight",
+          "player_class_enum": "DEATHKNIGHT",
+          "classic": "t",
+          "race": "Night Elf",
+          "level": "84",
+          "achievement_points": "25030",
+          "guild": "Nerves Concord",
+          "blizzard_post_count": "15151"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/13",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/155/185056155-avatar.jpg?alt=/wow/static/images/2d/avatar/27-1.jpg",
+        "alias_username": "Inemia-wyrmrest-accord",
+        "poster_alias": {
+          "alias": {
+            "name": "Inemia-wyrmrest-accord",
+            "avatar": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/155/185056155-avatar.jpg?alt=/wow/static/images/2d/avatar/27-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/wyrmrest-accord/inemia/",
+            "user_id": 987278,
+            "id": 2233486,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 10840,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/wyrmrest-accord/inemia/"
+              },
+              {
+                "name": "realm",
+                "value": "Wyrmrest Accord"
+              },
+              {
+                "name": "achievement_points",
+                "value": "25690"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Nightborne"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/155/185056155-avatar.jpg?alt=/wow/static/images/2d/avatar/27-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Inemia-wyrmrest-accord"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 15151,
+        "character": {
+          "name": "Inemia",
+          "guild": "Nerves Concord",
+          "achievement_points": "25030",
+          "level": "84",
+          "class": "Death Knight",
+          "race": "Night Elf",
+          "player_class_enum": "DEATHKNIGHT",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25664623,
+        "name": "Varick",
+        "username": "Varick-334623",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-22T17:34:45.732Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Mortalx-sargeras\" data-post=\"3\" data-topic=\"2015228\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n Mortalx:</div>\n<blockquote>\n<p>Can’t study engineering and do both 2s, 3s, SS, rbgs, bgb. For both ret and prot</p>\n</blockquote>\n</aside>\n<p>not with that attitude you can’t. stem students don’t  get to sleep</p>",
+        "post_number": 14,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2026-06-16T14:58:13.989Z",
+        "reply_count": 0,
+        "reply_to_post_number": 3,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 44,
+        "readers_count": 43,
+        "score": 8.8,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "Varick",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 334623,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Rogues take zero skill",
+          "race": "Undead",
+          "class": "Rogue",
+          "player_class_enum": "ROGUE",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/arthas/varick/",
+          "blizzard_post_count": "16",
+          "level": "70",
+          "achievement_points": "21900"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/14",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/emerald-dream/77/142666829-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+        "alias_username": "Vãrick",
+        "poster_alias": {
+          "alias": {
+            "name": "Vãrick",
+            "avatar": "https://render.worldofwarcraft.com/us/character/emerald-dream/77/142666829-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/emerald-dream/vãrick/",
+            "user_id": 334623,
+            "id": 2357596,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 13003,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/emerald-dream/vãrick/"
+              },
+              {
+                "name": "realm",
+                "value": "Emerald Dream"
+              },
+              {
+                "name": "achievement_points",
+                "value": "21900"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Undead"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 16,
+        "character": {
+          "name": "Varick",
+          "guild": "Rogues take zero skill",
+          "achievement_points": "21900",
+          "level": "70",
+          "class": "Rogue",
+          "race": "Undead",
+          "player_class_enum": "ROGUE",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25664864,
+        "name": "Qfiend",
+        "username": "Qfiend-3366989",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-22T18:00:03.864Z",
+        "cooked": "<p>believe they added that requirement to make it harder for wintraders/cheaters to get an undeserved r1</p>",
+        "post_number": 15,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2026-07-03T10:14:30.074Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 41,
+        "readers_count": 40,
+        "score": 8.2,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "Qfiend",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3366989,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/stormrage/qfiendtwo/",
+          "guild": "Inflated Gladiator",
+          "achievement_points": "23535",
+          "level": "90",
+          "race": "Gnome",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "blizzard_post_count": "4725"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/15",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/crusader-strike/51/43403827-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
+        "alias_username": "Bathroom",
+        "poster_alias": {
+          "alias": {
+            "name": "Bathroom",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/crusader-strike/51/43403827-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
+            "url": null,
+            "user_id": 3366989,
+            "id": 2547335,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 868,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Crusader Strike"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "25"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "LOBSTERSOD"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 4725,
+        "character": {
+          "name": "Qfiend",
+          "guild": "Inflated Gladiator",
+          "achievement_points": "23535",
+          "level": "90",
+          "class": "Warrior",
+          "race": "Gnome",
+          "player_class_enum": "WARRIOR",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25664938,
+        "name": "Swole",
+        "username": "Swole-1775936",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-22T18:06:23.062Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Biebz-sargeras\" data-post=\"5\" data-topic=\"2015228\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/sargeras/123/175832187-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg\" class=\"avatar\"> Biebz:</div>\n<blockquote>\n<p>minor in liberal arts too?</p>\n</blockquote>\n</aside>\n<p>Im getting a doctorate in liberal arts. What’s wrong with that?</p>",
+        "post_number": 16,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2024-11-22T18:06:23.062Z",
+        "reply_count": 1,
+        "reply_to_post_number": 5,
+        "quote_count": 1,
+        "incoming_link_count": 1,
+        "reads": 36,
+        "readers_count": 35,
+        "score": 17.2,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "Swole",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1775936,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/emerald-dream/swolé/",
+          "class": "Shaman",
+          "player_class_enum": "SHAMAN",
+          "guild": "MORDOR",
+          "level": "80",
+          "race": "Goblin",
+          "achievement_points": "11285",
+          "blizzard_post_count": "26552"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/16",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/emerald-dream/27/198012955-avatar.jpg?alt=/wow/static/images/2d/avatar/9-0.jpg",
+        "alias_username": "Swolé-emerald-dream",
+        "poster_alias": {
+          "alias": {
+            "name": "Swolé-emerald-dream",
+            "avatar": "https://render.worldofwarcraft.com/us/character/emerald-dream/27/198012955-avatar.jpg?alt=/wow/static/images/2d/avatar/9-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/emerald-dream/swolé/",
+            "user_id": 1775936,
+            "id": 435864,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 21756,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/emerald-dream/swolé/"
+              },
+              {
+                "name": "realm",
+                "value": "Emerald Dream"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12015"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Goblin"
+              },
+              {
+                "name": "player_class",
+                "value": "Shaman"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "SHAMAN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/emerald-dream/27/198012955-avatar.jpg?alt=/wow/static/images/2d/avatar/9-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Swolé-emerald-dream"
+              },
+              {
+                "name": "guild",
+                "value": "MORDOR"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 26552,
+        "character": {
+          "name": "Swole",
+          "guild": "MORDOR",
+          "achievement_points": "11285",
+          "level": "80",
+          "class": "Shaman",
+          "race": "Goblin",
+          "player_class_enum": "SHAMAN",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25664955,
+        "name": "Mushy",
+        "username": "Mushy-100262",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-22T18:07:54.725Z",
+        "cooked": "<p>a doctorate in 7-11 glizzies?</p>",
+        "post_number": 17,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2024-11-22T18:07:54.725Z",
+        "reply_count": 1,
+        "reply_to_post_number": 16,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 35,
+        "readers_count": 34,
+        "score": 42.0,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "Mushy",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "reply_to_user": {
+          "id": 1775936,
+          "username": "Swole-1775936",
+          "name": "Swole",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 100262,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/dawnbringer/dabdaddy/",
+          "guild": "Welfare Recipient",
+          "race": "Human",
+          "classic": "t",
+          "level": "82",
+          "achievement_points": "17150",
+          "blizzard_post_count": "8874"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/17",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/dawnbringer/18/181098002-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Dabdaddy-dawnbringer",
+        "poster_alias": {
+          "alias": {
+            "name": "Dabdaddy-dawnbringer",
+            "avatar": "https://render.worldofwarcraft.com/us/character/dawnbringer/18/181098002-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/dawnbringer/dabdaddy/",
+            "user_id": 100262,
+            "id": 525938,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 8906,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/dawnbringer/dabdaddy/"
+              },
+              {
+                "name": "realm",
+                "value": "Dawnbringer"
+              },
+              {
+                "name": "achievement_points",
+                "value": "17535"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/dawnbringer/18/181098002-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Dabdaddy-dawnbringer"
+              },
+              {
+                "name": "guild",
+                "value": "Welfare Recipient"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 435864,
+          "username": "Swolé-emerald-dream",
+          "name": "Swolé",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/emerald-dream/27/198012955-avatar.jpg?alt=/wow/static/images/2d/avatar/9-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 8874,
+        "character": {
+          "name": "Mushy",
+          "guild": "Welfare Recipient",
+          "achievement_points": "17150",
+          "level": "82",
+          "class": "Warrior",
+          "race": "Human",
+          "player_class_enum": "WARRIOR",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25665046,
+        "name": "Seratox",
+        "username": "Seratox-1531411",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-22T18:16:05.954Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Dabdaddy-dawnbringer\" data-post=\"17\" data-topic=\"2015228\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/dawnbringer/18/181098002-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg\" class=\"avatar\"> Dabdaddy:</div>\n<blockquote>\n<p>doctorate in 7-11 glizzies?</p>\n</blockquote>\n</aside>\n<p>Doctorate in Liberal Arts focusing focusing in theater and visual arts focused on the alegorical relevance of Spongebob quotes, most likely.</p>",
+        "post_number": 18,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2024-11-22T18:16:19.338Z",
+        "reply_count": 1,
+        "reply_to_post_number": 17,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 35,
+        "readers_count": 34,
+        "score": 27.0,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "Seratox",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1531411,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/illidan/seratox/",
+          "classic": "t",
+          "race": "Blood Elf",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "level": "80",
+          "guild": "Get In The Crystal Lib",
+          "achievement_points": "27290",
+          "blizzard_post_count": "11971"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/18",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/illidan/26/232158746-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
+        "alias_username": "Seratox-illidan",
+        "poster_alias": {
+          "alias": {
+            "name": "Seratox-illidan",
+            "avatar": "https://render.worldofwarcraft.com/us/character/illidan/26/232158746-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/illidan/seratox/",
+            "user_id": 1531411,
+            "id": 428244,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 10214,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/illidan/seratox/"
+              },
+              {
+                "name": "realm",
+                "value": "Illidan"
+              },
+              {
+                "name": "achievement_points",
+                "value": "28210"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/illidan/26/232158746-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Seratox-illidan"
+              },
+              {
+                "name": "guild",
+                "value": "Get In The Crystal Lib"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 11971,
+        "character": {
+          "name": "Seratox",
+          "guild": "Get In The Crystal Lib",
+          "achievement_points": "27290",
+          "level": "80",
+          "class": "Paladin",
+          "race": "Blood Elf",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25665145,
+        "name": "Hiskra",
+        "username": "Hiskra-2919071",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-22T18:24:13.541Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Inemia-wyrmrest-accord\" data-post=\"13\" data-topic=\"2015228\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/wyrmrest-accord/169/179571625-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg\" class=\"avatar\"> Inemia:</div>\n<blockquote>\n<p>that said, the days of onsite pen tests with your vest and clipboard are sort of over, so idk, maybe AI engineer is the hot thing to be now.</p>\n</blockquote>\n</aside>\n<p>that may be true, I’m already wearing my AI engineer hat</p>\n<p>how do you do fellow OpenAI agents</p>\n<p>from openai import openai_client amirite</p>",
+        "post_number": 19,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2024-11-22T18:24:34.187Z",
+        "reply_count": 0,
+        "reply_to_post_number": 13,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 35,
+        "readers_count": 34,
+        "score": 7.0,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "Hiskra",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2919071,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/stormrage/kinsington/",
+          "level": "80",
+          "class": "Monk",
+          "player_class_enum": "MONK",
+          "blizzard_post_count": "2234",
+          "race": "Night Elf",
+          "guild": "VALOR",
+          "achievement_points": "15195"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/19",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/stormrage/7/251653383-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Kinsington-stormrage",
+        "poster_alias": {
+          "alias": {
+            "name": "Kinsington-stormrage",
+            "avatar": "https://render.worldofwarcraft.com/us/character/stormrage/7/251653383-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": null,
+            "user_id": 2919071,
+            "id": 391026,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 2357,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/stormrage/kinsington/"
+              },
+              {
+                "name": "realm",
+                "value": "Stormrage"
+              },
+              {
+                "name": "achievement_points",
+                "value": "16650"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Monk"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MONK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/stormrage/7/251653383-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Kinsington-stormrage"
+              },
+              {
+                "name": "guild",
+                "value": "VALOR"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 2234,
+        "character": {
+          "name": "Hiskra",
+          "guild": "VALOR",
+          "achievement_points": "15195",
+          "level": "80",
+          "class": "Monk",
+          "race": "Night Elf",
+          "player_class_enum": "MONK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25665151,
+        "name": "Ethylene",
+        "username": "Ethylene-3045613",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-22T18:25:11.750Z",
+        "cooked": "<p>Nah that’s bs mechanical and chemical engineers are still in high demand in my industry.</p>",
+        "post_number": 20,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2026-07-05T02:44:35.701Z",
+        "reply_count": 1,
+        "reply_to_post_number": 8,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 34,
+        "readers_count": 33,
+        "score": 16.8,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "Ethylene",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2919071,
+          "username": "Hiskra-2919071",
+          "name": "Hiskra",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3045613,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/stormrage/ethl/",
+          "level": "80",
+          "class": "Priest",
+          "player_class_enum": "PRIEST",
+          "guild": "High T Bussy Bois",
+          "race": "Gnome",
+          "achievement_points": "11630",
+          "blizzard_post_count": "1451"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/20",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/stormrage/88/261037144-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg",
+        "alias_username": "Ethâne-stormrage",
+        "poster_alias": {
+          "alias": {
+            "name": "Ethâne-stormrage",
+            "avatar": "https://render.worldofwarcraft.com/us/character/stormrage/88/261037144-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/stormrage/ethâne/",
+            "user_id": 3045613,
+            "id": 382170,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 468,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/stormrage/ethâne/"
+              },
+              {
+                "name": "realm",
+                "value": "Stormrage"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12610"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/stormrage/88/261037144-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Ethâne-stormrage"
+              },
+              {
+                "name": "guild",
+                "value": "High T Bussy Bois"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 391026,
+          "username": "Kinsington-stormrage",
+          "name": "Kinsington",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/stormrage/7/251653383-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 1451,
+        "character": {
+          "name": "Ethylene",
+          "guild": "High T Bussy Bois",
+          "achievement_points": "11630",
+          "level": "80",
+          "class": "Priest",
+          "race": "Gnome",
+          "player_class_enum": "PRIEST",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25665156,
+        "name": "Hiskra",
+        "username": "Hiskra-2919071",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-22T18:25:35.188Z",
+        "cooked": "<p>I’m legit making shot up about it, I have no idea how these degrees are doing</p>",
+        "post_number": 21,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2024-11-22T18:25:35.188Z",
+        "reply_count": 1,
+        "reply_to_post_number": 20,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 34,
+        "readers_count": 33,
+        "score": 16.8,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "Hiskra",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 3045613,
+          "username": "Ethylene-3045613",
+          "name": "Ethylene",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2919071,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/stormrage/kinsington/",
+          "level": "80",
+          "class": "Monk",
+          "player_class_enum": "MONK",
+          "blizzard_post_count": "2234",
+          "race": "Night Elf",
+          "guild": "VALOR",
+          "achievement_points": "15195"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/21",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/stormrage/7/251653383-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Kinsington-stormrage",
+        "poster_alias": {
+          "alias": {
+            "name": "Kinsington-stormrage",
+            "avatar": "https://render.worldofwarcraft.com/us/character/stormrage/7/251653383-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": null,
+            "user_id": 2919071,
+            "id": 391026,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 2357,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/stormrage/kinsington/"
+              },
+              {
+                "name": "realm",
+                "value": "Stormrage"
+              },
+              {
+                "name": "achievement_points",
+                "value": "16650"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Monk"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MONK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/stormrage/7/251653383-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Kinsington-stormrage"
+              },
+              {
+                "name": "guild",
+                "value": "VALOR"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 382170,
+          "username": "Ethâne-stormrage",
+          "name": "Ethâne",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/stormrage/88/261037144-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 2234,
+        "character": {
+          "name": "Hiskra",
+          "guild": "VALOR",
+          "achievement_points": "15195",
+          "level": "80",
+          "class": "Monk",
+          "race": "Night Elf",
+          "player_class_enum": "MONK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25665164,
+        "name": "Ethylene",
+        "username": "Ethylene-3045613",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-22T18:26:25.053Z",
+        "cooked": "<p>Damn I’ve been falling victim to trolls way too much lately</p>",
+        "post_number": 22,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2026-07-05T02:44:35.848Z",
+        "reply_count": 1,
+        "reply_to_post_number": 21,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 35,
+        "readers_count": 34,
+        "score": 17.0,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "Ethylene",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2919071,
+          "username": "Hiskra-2919071",
+          "name": "Hiskra",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3045613,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/stormrage/ethl/",
+          "level": "80",
+          "class": "Priest",
+          "player_class_enum": "PRIEST",
+          "guild": "High T Bussy Bois",
+          "race": "Gnome",
+          "achievement_points": "11630",
+          "blizzard_post_count": "1451"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/22",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/stormrage/88/261037144-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg",
+        "alias_username": "Ethâne-stormrage",
+        "poster_alias": {
+          "alias": {
+            "name": "Ethâne-stormrage",
+            "avatar": "https://render.worldofwarcraft.com/us/character/stormrage/88/261037144-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/stormrage/ethâne/",
+            "user_id": 3045613,
+            "id": 382170,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 468,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/stormrage/ethâne/"
+              },
+              {
+                "name": "realm",
+                "value": "Stormrage"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12610"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/stormrage/88/261037144-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Ethâne-stormrage"
+              },
+              {
+                "name": "guild",
+                "value": "High T Bussy Bois"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 391026,
+          "username": "Kinsington-stormrage",
+          "name": "Kinsington",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/stormrage/7/251653383-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 1451,
+        "character": {
+          "name": "Ethylene",
+          "guild": "High T Bussy Bois",
+          "achievement_points": "11630",
+          "level": "80",
+          "class": "Priest",
+          "race": "Gnome",
+          "player_class_enum": "PRIEST",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25665347,
+        "name": "Mushy",
+        "username": "Mushy-100262",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-22T18:42:55.954Z",
+        "cooked": "<p>TONIGHT</p>\n<p>WE OWN KENNIE WITH SPONGEBOB REFERENCES</p>\n<p>10lemons</p>",
+        "post_number": 23,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2024-11-22T18:42:55.954Z",
+        "reply_count": 0,
+        "reply_to_post_number": 18,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 33,
+        "readers_count": 32,
+        "score": 6.6,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "Mushy",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "reply_to_user": {
+          "id": 1531411,
+          "username": "Seratox-1531411",
+          "name": "Seratox",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 100262,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/dawnbringer/dabdaddy/",
+          "guild": "Welfare Recipient",
+          "race": "Human",
+          "classic": "t",
+          "level": "82",
+          "achievement_points": "17150",
+          "blizzard_post_count": "8874"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/23",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/dawnbringer/18/181098002-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Dabdaddy-dawnbringer",
+        "poster_alias": {
+          "alias": {
+            "name": "Dabdaddy-dawnbringer",
+            "avatar": "https://render.worldofwarcraft.com/us/character/dawnbringer/18/181098002-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/dawnbringer/dabdaddy/",
+            "user_id": 100262,
+            "id": 525938,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 8906,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/dawnbringer/dabdaddy/"
+              },
+              {
+                "name": "realm",
+                "value": "Dawnbringer"
+              },
+              {
+                "name": "achievement_points",
+                "value": "17535"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/dawnbringer/18/181098002-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Dabdaddy-dawnbringer"
+              },
+              {
+                "name": "guild",
+                "value": "Welfare Recipient"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 428244,
+          "username": "Seratox-illidan",
+          "name": "Seratox",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/illidan/26/232158746-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 8874,
+        "character": {
+          "name": "Mushy",
+          "guild": "Welfare Recipient",
+          "achievement_points": "17150",
+          "level": "82",
+          "class": "Warrior",
+          "race": "Human",
+          "player_class_enum": "WARRIOR",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25665433,
+        "name": "mortalux",
+        "username": "mortalux-3027990",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-22T18:54:26.555Z",
+        "cooked": "<p>You know there are 3 rank 1 titles right ?<br>\nForged legend<br>\nForged gladiator<br>\nForged warlord</p>\n<p>I have forged legend right now under 50 wins. I haven’t pushed for the other 2 at all.</p>",
+        "post_number": 24,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2026-06-12T04:02:55.432Z",
+        "reply_count": 1,
+        "reply_to_post_number": 7,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 28,
+        "readers_count": 27,
+        "score": 10.6,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "mortalux",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2231848,
+          "username": "Visions-2231848",
+          "name": "Visions",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3027990,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/mortalux/",
+          "race": "Dark Iron Dwarf",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "guild": "Feeling Glad",
+          "level": "90",
+          "achievement_points": "26220",
+          "blizzard_post_count": "1483"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/24",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/sargeras/82/199749458-avatar.jpg?alt=/wow/static/images/2d/avatar/34-0.jpg",
+        "alias_username": "Mortalx",
+        "poster_alias": {
+          "alias": {
+            "name": "Mortalx",
+            "avatar": "https://render.worldofwarcraft.com/us/character/sargeras/82/199749458-avatar.jpg?alt=/wow/static/images/2d/avatar/34-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/sargeras/mortalx/",
+            "user_id": 3027990,
+            "id": 2329047,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 1021,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/sargeras/mortalx/"
+              },
+              {
+                "name": "realm",
+                "value": "Sargeras"
+              },
+              {
+                "name": "achievement_points",
+                "value": "24385"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Dark Iron Dwarf"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "guild",
+                "value": "Phoenyx"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 400668,
+          "username": "Raïsin-moon-guard",
+          "name": "Raïsin",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/moon-guard/42/172634666-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 1483,
+        "character": {
+          "name": "mortalux",
+          "guild": "Feeling Glad",
+          "achievement_points": "26220",
+          "level": "90",
+          "class": "Paladin",
+          "race": "Dark Iron Dwarf",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25665438,
+        "name": "stefanj",
+        "username": "stefanj-2030485",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-22T18:54:47.821Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Mortalx-sargeras\" data-post=\"1\" data-topic=\"2015228\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/sargeras/82/199749458-avatar.jpg?alt=/wow/static/images/2d/avatar/34-0.jpg\" class=\"avatar\"> Mortalx:</div>\n<blockquote>\n<p>I’m r1 rn</p>\n</blockquote>\n</aside>\n<p>R1 in bad mogs, maybe <img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/face_vomiting.png?v=12\" title=\":face_vomiting:\" class=\"emoji\" alt=\":face_vomiting:\" loading=\"lazy\" width=\"20\" height=\"20\"><br>\nYou’re not even the good tank spec!!!</p>",
+        "post_number": 25,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2024-11-22T18:54:47.821Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 27,
+        "readers_count": 26,
+        "score": 10.4,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "stefanj",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2030485,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/sargeras/nasrajin/",
+          "race": "Tauren",
+          "class": "Druid",
+          "player_class_enum": "DRUID",
+          "guild": "Humble",
+          "level": "80",
+          "achievement_points": "39495",
+          "blizzard_post_count": "18755"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/25",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/sargeras/141/192793741-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg",
+        "alias_username": "Nasrajin-sargeras",
+        "poster_alias": {
+          "alias": {
+            "name": "Nasrajin-sargeras",
+            "avatar": "https://render.worldofwarcraft.com/us/character/sargeras/141/192793741-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/sargeras/nasrajin/",
+            "user_id": 2030485,
+            "id": 434213,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 16430,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/sargeras/nasrajin/"
+              },
+              {
+                "name": "realm",
+                "value": "Sargeras"
+              },
+              {
+                "name": "achievement_points",
+                "value": "43175"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Haranir"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/sargeras/141/192793741-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Nasrajin-sargeras"
+              },
+              {
+                "name": "guild",
+                "value": "Humble"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 18755,
+        "character": {
+          "name": "stefanj",
+          "guild": "Humble",
+          "achievement_points": "39495",
+          "level": "80",
+          "class": "Druid",
+          "race": "Tauren",
+          "player_class_enum": "DRUID",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25665466,
+        "name": "mortalux",
+        "username": "mortalux-3027990",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-22T18:57:32.543Z",
+        "cooked": "<p>That’s racist bro, just because I’m a Chinese rice farmer you say it’s a bad mog. I guess time for you to get canceled !<br>\nI don’t know a single good tank spec tho. None of them are “good”.</p>",
+        "post_number": 26,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2026-06-12T04:02:55.555Z",
+        "reply_count": 1,
+        "reply_to_post_number": 25,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 27,
+        "readers_count": 26,
+        "score": 15.4,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "mortalux",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2030485,
+          "username": "stefanj-2030485",
+          "name": "stefanj",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3027990,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/mortalux/",
+          "race": "Dark Iron Dwarf",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "guild": "Feeling Glad",
+          "level": "90",
+          "achievement_points": "26220",
+          "blizzard_post_count": "1483"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/26",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/sargeras/82/199749458-avatar.jpg?alt=/wow/static/images/2d/avatar/34-0.jpg",
+        "alias_username": "Mortalx",
+        "poster_alias": {
+          "alias": {
+            "name": "Mortalx",
+            "avatar": "https://render.worldofwarcraft.com/us/character/sargeras/82/199749458-avatar.jpg?alt=/wow/static/images/2d/avatar/34-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/sargeras/mortalx/",
+            "user_id": 3027990,
+            "id": 2329047,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 1021,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/sargeras/mortalx/"
+              },
+              {
+                "name": "realm",
+                "value": "Sargeras"
+              },
+              {
+                "name": "achievement_points",
+                "value": "24385"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Dark Iron Dwarf"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "guild",
+                "value": "Phoenyx"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 434213,
+          "username": "Nasrajin-sargeras",
+          "name": "Nasrajin",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/sargeras/141/192793741-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 1483,
+        "character": {
+          "name": "mortalux",
+          "guild": "Feeling Glad",
+          "achievement_points": "26220",
+          "level": "90",
+          "class": "Paladin",
+          "race": "Dark Iron Dwarf",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25665482,
+        "name": "Kennie",
+        "username": "Kennie-1745818",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-22T18:58:31.098Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Mortalx-sargeras\" data-post=\"24\" data-topic=\"2015228\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/sargeras/82/199749458-avatar.jpg?alt=/wow/static/images/2d/avatar/34-0.jpg\" class=\"avatar\"> Mortalx:</div>\n<blockquote>\n<p>You know there are 3 rank 1 titles right ?<br>\nForged legend<br>\nForged gladiator<br>\nForged warlord</p>\n<p>I have forged legend right now under 50 wins</p>\n</blockquote>\n</aside>\n<p>So did abomb and swole whats ur point</p>\n<aside class=\"quote no-group\" data-username=\"Mortalx-sargeras\" data-post=\"26\" data-topic=\"2015228\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/sargeras/82/199749458-avatar.jpg?alt=/wow/static/images/2d/avatar/34-0.jpg\" class=\"avatar\"> Mortalx:</div>\n<blockquote>\n<p>I don’t know a single good tank spec tho. None of them are “good”.</p>\n</blockquote>\n</aside>\n<p>Prot pala due for nerfs along with blood</p>",
+        "post_number": 27,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2024-11-22T18:59:37.233Z",
+        "reply_count": 1,
+        "reply_to_post_number": 24,
+        "quote_count": 2,
+        "incoming_link_count": 1,
+        "reads": 26,
+        "readers_count": 25,
+        "score": 30.2,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "Kennie",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1745818,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/malganis/kennie/",
+          "race": "Vulpera",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "classic": "t",
+          "guild": "Fluff and Blood",
+          "level": "90",
+          "achievement_points": "54075",
+          "blizzard_post_count": "77649"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/27",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/malganis/44/135439660-avatar.jpg?alt=/wow/static/images/2d/avatar/35-0.jpg",
+        "alias_username": "Kennie-malganis",
+        "poster_alias": {
+          "alias": {
+            "name": "Kennie-malganis",
+            "avatar": "https://render.worldofwarcraft.com/us/character/malganis/44/135439660-avatar.jpg?alt=/wow/static/images/2d/avatar/35-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/malganis/kennie/",
+            "user_id": 1745818,
+            "id": 437727,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 69677,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/malganis/kennie/"
+              },
+              {
+                "name": "realm",
+                "value": "Mal'Ganis"
+              },
+              {
+                "name": "achievement_points",
+                "value": "58165"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Vulpera"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/malganis/44/135439660-avatar.jpg?alt=/wow/static/images/2d/avatar/35-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Kennie-malganis"
+              },
+              {
+                "name": "guild",
+                "value": "heavy is the crown"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 77649,
+        "character": {
+          "name": "Kennie",
+          "guild": "Fluff and Blood",
+          "achievement_points": "54075",
+          "level": "90",
+          "class": "Warrior",
+          "race": "Vulpera",
+          "player_class_enum": "WARRIOR",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25665490,
+        "name": "mortalux",
+        "username": "mortalux-3027990",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-22T18:59:16.841Z",
+        "cooked": "<p>Well unless we q more we ain’t getting the title nor the achievement even tho we have the ranking.</p>\n<aside class=\"quote no-group\" data-username=\"Kennie-malganis\" data-post=\"27\" data-topic=\"2015228\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/us/character/malganis/44/135439660-avatar.jpg?alt=/wow/static/images/2d/avatar/35-0.jpg\" class=\"avatar\"> Kennie:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>Prot pala due for nerfs along with blood</p>\n</blockquote>\n</aside>\n<p>Blood dk ok, but there is not much presence of prot paladin at all. But that doesn’t make them “good” they are all bad and should all be removed. Guardian has been broken in bgb and rbgs for 8 years at least. Vengeance dh has been untouchable if played correctly since its launch. Brewmaster is able to ninja cap ez pz with its infinit knockback combo.</p>",
+        "post_number": 28,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2026-06-12T04:02:55.751Z",
+        "reply_count": 1,
+        "reply_to_post_number": 27,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 27,
+        "readers_count": 26,
+        "score": 10.4,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "mortalux",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3027990,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/mortalux/",
+          "race": "Dark Iron Dwarf",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "guild": "Feeling Glad",
+          "level": "90",
+          "achievement_points": "26220",
+          "blizzard_post_count": "1483"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/28",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/sargeras/82/199749458-avatar.jpg?alt=/wow/static/images/2d/avatar/34-0.jpg",
+        "alias_username": "Mortalx",
+        "poster_alias": {
+          "alias": {
+            "name": "Mortalx",
+            "avatar": "https://render.worldofwarcraft.com/us/character/sargeras/82/199749458-avatar.jpg?alt=/wow/static/images/2d/avatar/34-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/sargeras/mortalx/",
+            "user_id": 3027990,
+            "id": 2329047,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 1021,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/sargeras/mortalx/"
+              },
+              {
+                "name": "realm",
+                "value": "Sargeras"
+              },
+              {
+                "name": "achievement_points",
+                "value": "24385"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Dark Iron Dwarf"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "guild",
+                "value": "Phoenyx"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 1483,
+        "character": {
+          "name": "mortalux",
+          "guild": "Feeling Glad",
+          "achievement_points": "26220",
+          "level": "90",
+          "class": "Paladin",
+          "race": "Dark Iron Dwarf",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25665578,
+        "name": "draven",
+        "username": "draven-912329",
+        "avatar_template": "https://render-us.worldofwarcraft.com/character/kelthuzad/203/179177675-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "created_at": "2024-11-22T19:07:19.987Z",
+        "cooked": "<p>Im rank n-one and a sanitation engineer. They call me kombatX</p>",
+        "post_number": 29,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2026-08-29T18:28:41.111Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 25,
+        "readers_count": 24,
+        "score": 15.0,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "draven",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 912329,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/kelthuzad/thuperduperx/",
+          "race": "Human",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "blizzard_post_count": "776",
+          "achievement_points": "9365",
+          "level": "60",
+          "guild": "skill diff"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/29",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/tichondrius/206/246960078-avatar.jpg?alt=/wow/static/images/2d/avatar/2-1.jpg",
+        "alias_username": "Accessdraven-tichondrius",
+        "poster_alias": {
+          "alias": {
+            "name": "Accessdraven-tichondrius",
+            "avatar": "https://render.worldofwarcraft.com/us/character/tichondrius/206/246960078-avatar.jpg?alt=/wow/static/images/2d/avatar/2-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/tichondrius/accessdraven/",
+            "user_id": 912329,
+            "id": 2515844,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 46,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/tichondrius/accessdraven/"
+              },
+              {
+                "name": "realm",
+                "value": "Tichondrius"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12395"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/tichondrius/206/246960078-avatar.jpg?alt=/wow/static/images/2d/avatar/2-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Accessdraven-tichondrius"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 776,
+        "character": {
+          "name": "draven",
+          "guild": "skill diff",
+          "achievement_points": "9365",
+          "level": "60",
+          "class": "Hunter",
+          "race": "Human",
+          "player_class_enum": "HUNTER",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25665703,
+        "name": "Swole",
+        "username": "Swole-1775936",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-22T19:21:27.853Z",
+        "cooked": "<p>You’re wasting time trying to discuss things with him. He’s only here to troll.</p>",
+        "post_number": 30,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2024-11-22T19:21:27.853Z",
+        "reply_count": 0,
+        "reply_to_post_number": 28,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 25,
+        "readers_count": 24,
+        "score": 5.0,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "Swole",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 3027990,
+          "username": "mortalux-3027990",
+          "name": "mortalux",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1775936,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/emerald-dream/swolé/",
+          "class": "Shaman",
+          "player_class_enum": "SHAMAN",
+          "guild": "MORDOR",
+          "level": "80",
+          "race": "Goblin",
+          "achievement_points": "11285",
+          "blizzard_post_count": "26552"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/30",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/emerald-dream/27/198012955-avatar.jpg?alt=/wow/static/images/2d/avatar/9-0.jpg",
+        "alias_username": "Swolé-emerald-dream",
+        "poster_alias": {
+          "alias": {
+            "name": "Swolé-emerald-dream",
+            "avatar": "https://render.worldofwarcraft.com/us/character/emerald-dream/27/198012955-avatar.jpg?alt=/wow/static/images/2d/avatar/9-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/emerald-dream/swolé/",
+            "user_id": 1775936,
+            "id": 435864,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 21756,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/emerald-dream/swolé/"
+              },
+              {
+                "name": "realm",
+                "value": "Emerald Dream"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12015"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Goblin"
+              },
+              {
+                "name": "player_class",
+                "value": "Shaman"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "SHAMAN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/emerald-dream/27/198012955-avatar.jpg?alt=/wow/static/images/2d/avatar/9-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Swolé-emerald-dream"
+              },
+              {
+                "name": "guild",
+                "value": "MORDOR"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2329047,
+          "username": "Mortalx",
+          "name": "Mortalx",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/sargeras/82/199749458-avatar.jpg?alt=/wow/static/images/2d/avatar/34-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 26552,
+        "character": {
+          "name": "Swole",
+          "guild": "MORDOR",
+          "achievement_points": "11285",
+          "level": "80",
+          "class": "Shaman",
+          "race": "Goblin",
+          "player_class_enum": "SHAMAN",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25665736,
+        "name": "Hiskra",
+        "username": "Hiskra-2919071",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-22T19:24:04.617Z",
+        "cooked": "<p>to be fair, abusing anonymity to get away with deranged takes has become a wider-spread plague lately as well</p>\n<p>if it helps I never lie so I do believe the things I say to a <strong>degree</strong></p>\n<p>nerf warrior</p>",
+        "post_number": 31,
+        "post_type": 1,
+        "posts_count": 31,
+        "updated_at": "2024-11-22T20:12:55.456Z",
+        "reply_count": 0,
+        "reply_to_post_number": 22,
+        "quote_count": 0,
+        "incoming_link_count": 4,
+        "reads": 25,
+        "readers_count": 24,
+        "score": 40.0,
+        "yours": false,
+        "topic_id": 2015228,
+        "topic_slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+        "display_username": "Hiskra",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 3045613,
+          "username": "Ethylene-3045613",
+          "name": "Ethylene",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2919071,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/stormrage/kinsington/",
+          "level": "80",
+          "class": "Monk",
+          "player_class_enum": "MONK",
+          "blizzard_post_count": "2234",
+          "race": "Night Elf",
+          "guild": "VALOR",
+          "achievement_points": "15195"
+        },
+        "post_url": "/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228/31",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/stormrage/7/251653383-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Kinsington-stormrage",
+        "poster_alias": {
+          "alias": {
+            "name": "Kinsington-stormrage",
+            "avatar": "https://render.worldofwarcraft.com/us/character/stormrage/7/251653383-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": null,
+            "user_id": 2919071,
+            "id": 391026,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 2357,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/stormrage/kinsington/"
+              },
+              {
+                "name": "realm",
+                "value": "Stormrage"
+              },
+              {
+                "name": "achievement_points",
+                "value": "16650"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Monk"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MONK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/stormrage/7/251653383-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Kinsington-stormrage"
+              },
+              {
+                "name": "guild",
+                "value": "VALOR"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 382170,
+          "username": "Ethâne-stormrage",
+          "name": "Ethâne",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/stormrage/88/261037144-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 2234,
+        "character": {
+          "name": "Hiskra",
+          "guild": "VALOR",
+          "achievement_points": "15195",
+          "level": "80",
+          "class": "Monk",
+          "race": "Night Elf",
+          "player_class_enum": "MONK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ],
+    "stream": [
+      25662796,
+      25662805,
+      25662897,
+      25663074,
+      25663105,
+      25663107,
+      25663160,
+      25663672,
+      25664396,
+      25664407,
+      25664533,
+      25664537,
+      25664595,
+      25664623,
+      25664864,
+      25664938,
+      25664955,
+      25665046,
+      25665145,
+      25665151,
+      25665156,
+      25665164,
+      25665347,
+      25665433,
+      25665438,
+      25665466,
+      25665482,
+      25665490,
+      25665578,
+      25665703,
+      25665736
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      652
+    ]
+  ],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "Why does r1 still require 50 wins in a season bracket?",
+  "id": 2015228,
+  "title": "Why does r1 still require 50 wins in a season bracket?",
+  "posts_count": 31,
+  "created_at": "2024-11-22T13:54:12.993Z",
+  "views": 436,
+  "reply_count": 24,
+  "like_count": 19,
+  "last_posted_at": "2024-11-22T19:24:04.617Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "why-does-r1-still-require-50-wins-in-a-season-bracket",
+  "category_id": 21,
+  "word_count": 1002,
+  "deleted_at": null,
+  "user_id": 3027990,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_2015228",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 31,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 1001,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1002,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1003,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1004,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1005,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 10,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 2919071,
+        "username": "Hiskra-2919071",
+        "name": "Hiskra",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 6,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Kinsington-stormrage",
+            "avatar": "https://render.worldofwarcraft.com/us/character/stormrage/7/251653383-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": null,
+            "user_id": 2919071,
+            "id": 391026,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 2357,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/stormrage/kinsington/"
+              },
+              {
+                "name": "realm",
+                "value": "Stormrage"
+              },
+              {
+                "name": "achievement_points",
+                "value": "16650"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Monk"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MONK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/stormrage/7/251653383-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Kinsington-stormrage"
+              },
+              {
+                "name": "guild",
+                "value": "VALOR"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 987278,
+        "username": "Inemia-987278",
+        "name": "Inemia",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 3,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Inemia-wyrmrest-accord",
+            "avatar": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/155/185056155-avatar.jpg?alt=/wow/static/images/2d/avatar/27-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/wyrmrest-accord/inemia/",
+            "user_id": 987278,
+            "id": 2233486,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 10840,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/wyrmrest-accord/inemia/"
+              },
+              {
+                "name": "realm",
+                "value": "Wyrmrest Accord"
+              },
+              {
+                "name": "achievement_points",
+                "value": "25690"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Nightborne"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/155/185056155-avatar.jpg?alt=/wow/static/images/2d/avatar/27-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Inemia-wyrmrest-accord"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 1775936,
+        "username": "Swole-1775936",
+        "name": "Swole",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Swolé-emerald-dream",
+            "avatar": "https://render.worldofwarcraft.com/us/character/emerald-dream/27/198012955-avatar.jpg?alt=/wow/static/images/2d/avatar/9-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/emerald-dream/swolé/",
+            "user_id": 1775936,
+            "id": 435864,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 21756,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/emerald-dream/swolé/"
+              },
+              {
+                "name": "realm",
+                "value": "Emerald Dream"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12015"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Goblin"
+              },
+              {
+                "name": "player_class",
+                "value": "Shaman"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "SHAMAN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/emerald-dream/27/198012955-avatar.jpg?alt=/wow/static/images/2d/avatar/9-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Swolé-emerald-dream"
+              },
+              {
+                "name": "guild",
+                "value": "MORDOR"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 100262,
+        "username": "Mushy-100262",
+        "name": "Mushy",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Dabdaddy-dawnbringer",
+            "avatar": "https://render.worldofwarcraft.com/us/character/dawnbringer/18/181098002-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/dawnbringer/dabdaddy/",
+            "user_id": 100262,
+            "id": 525938,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 8906,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/dawnbringer/dabdaddy/"
+              },
+              {
+                "name": "realm",
+                "value": "Dawnbringer"
+              },
+              {
+                "name": "achievement_points",
+                "value": "17535"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/dawnbringer/18/181098002-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Dabdaddy-dawnbringer"
+              },
+              {
+                "name": "guild",
+                "value": "Welfare Recipient"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 1745818,
+        "username": "Kennie-1745818",
+        "name": "Kennie",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Kennie-malganis",
+            "avatar": "https://render.worldofwarcraft.com/us/character/malganis/44/135439660-avatar.jpg?alt=/wow/static/images/2d/avatar/35-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/malganis/kennie/",
+            "user_id": 1745818,
+            "id": 437727,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 69677,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/malganis/kennie/"
+              },
+              {
+                "name": "realm",
+                "value": "Mal'Ganis"
+              },
+              {
+                "name": "achievement_points",
+                "value": "58165"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Vulpera"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/malganis/44/135439660-avatar.jpg?alt=/wow/static/images/2d/avatar/35-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Kennie-malganis"
+              },
+              {
+                "name": "guild",
+                "value": "heavy is the crown"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 1774980,
+        "username": "Ogizzle-1774980",
+        "name": "Ogizzle",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Ogunreal-moon-guard",
+            "avatar": "https://render.worldofwarcraft.com/us/character/moon-guard/254/170928382-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/moon-guard/ogunreal/",
+            "user_id": 1774980,
+            "id": 534557,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 407,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/moon-guard/ogunreal/"
+              },
+              {
+                "name": "realm",
+                "value": "Moon Guard"
+              },
+              {
+                "name": "achievement_points",
+                "value": "16620"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/moon-guard/254/170928382-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Ogunreal-moon-guard"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 2231848,
+        "username": "Visions-2231848",
+        "name": "Visions",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Raïsin-moon-guard",
+            "avatar": "https://render.worldofwarcraft.com/us/character/moon-guard/42/172634666-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/moon-guard/raïsin/",
+            "user_id": 2231848,
+            "id": 400668,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 5454,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/moon-guard/raïsin/"
+              },
+              {
+                "name": "realm",
+                "value": "Moon Guard"
+              },
+              {
+                "name": "achievement_points",
+                "value": "27170"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/moon-guard/42/172634666-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Raïsin-moon-guard"
+              },
+              {
+                "name": "guild",
+                "value": "House of Terry"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 1455571,
+        "username": "Dizzie-1455571",
+        "name": "Dizzie",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Biebz-sargeras",
+            "avatar": "https://render.worldofwarcraft.com/us/character/sargeras/123/175832187-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/sargeras/biebz/",
+            "user_id": 1455571,
+            "id": 398332,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 2506,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/sargeras/biebz/"
+              },
+              {
+                "name": "realm",
+                "value": "Sargeras"
+              },
+              {
+                "name": "achievement_points",
+                "value": "18555"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/sargeras/123/175832187-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Biebz-sargeras"
+              },
+              {
+                "name": "guild",
+                "value": "And His Sock Puppets"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 1531411,
+        "username": "Seratox-1531411",
+        "name": "Seratox",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Seratox-illidan",
+            "avatar": "https://render.worldofwarcraft.com/us/character/illidan/26/232158746-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/illidan/seratox/",
+            "user_id": 1531411,
+            "id": 428244,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 10214,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/illidan/seratox/"
+              },
+              {
+                "name": "realm",
+                "value": "Illidan"
+              },
+              {
+                "name": "achievement_points",
+                "value": "28210"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/illidan/26/232158746-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Seratox-illidan"
+              },
+              {
+                "name": "guild",
+                "value": "Get In The Crystal Lib"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 2030485,
+        "username": "stefanj-2030485",
+        "name": "stefanj",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Nasrajin-sargeras",
+            "avatar": "https://render.worldofwarcraft.com/us/character/sargeras/141/192793741-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/sargeras/nasrajin/",
+            "user_id": 2030485,
+            "id": 434213,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 16430,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/sargeras/nasrajin/"
+              },
+              {
+                "name": "realm",
+                "value": "Sargeras"
+              },
+              {
+                "name": "achievement_points",
+                "value": "43175"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Haranir"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/sargeras/141/192793741-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Nasrajin-sargeras"
+              },
+              {
+                "name": "guild",
+                "value": "Humble"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      }
+    ],
+    "created_by": {
+      "id": 3027990,
+      "username": "mortalux-3027990",
+      "name": "mortalux",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    },
+    "last_poster": {
+      "id": 2919071,
+      "username": "Hiskra-2919071",
+      "name": "Hiskra",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    }
+  },
+  "bookmarks": [],
+  "jogo": "World of Warcraft",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Blizzard",
+  "url_fonte": "https://us.forums.blizzard.com/en/wow/t/why-does-r1-still-require-50-wins-in-a-season-bracket/2015228"
+}

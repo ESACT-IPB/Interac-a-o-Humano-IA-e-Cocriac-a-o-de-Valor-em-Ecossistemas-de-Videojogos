@@ -1,0 +1,22 @@
+{
+  "id": 21,
+  "title": "How long before we see AI bots?",
+  "slug": "how-long-before-we-see-ai-bots",
+  "jogo": "World of Warcraft",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Blizzard",
+  "url_fonte": "https://us.forums.blizzard.com/en/wow/t/how-long-before-we-see-ai-bots/2041181/21?page=2",
+  "post_stream": {
+    "posts": [
+      {
+        "id": 26020523,
+        "username": "Drosul-3164108",
+        "cooked": "<p>Tin foil conspiracy theory, but I always assumed that AI development was a primary driving factor in Microsoft’s acquisition of Blizzard.</p>\n<p>Think about it. Say you want to develop an artificial general intelligence. You need a closed environment within which to test. You need need that environment to have room for decision making/freedom. And you also need years of data to feed into the AI to accelerate it’s potential learning curve.</p>\n<p>Vanilla wow has literally all of that. It’s complex, with countless “decisions”, but it’s also been largely consistent for 20 years, with billions of hours of player data, and been “solved”. You can integrate chat bot functions for social interaction, and even use it as a blind Turing test, since other players theoretically interacting with the bot may never even know they where interacting with a bot. Longer term, if it ever gets to the point where it’s “perfected”, it can also be used to populate servers to keep whatever humans still playing thinking the game is more popular than it may actually be, especially for less populated regions like OCE.</p>\n<p>A virtual “Westworld” is a perfect AI testing ground.</p>",
+        "created_at": "2025-01-07T23:29:56.861Z",
+        "like_count": 0,
+        "trust_level": 2,
+        "version": 1
+      }
+    ]
+  }
+}

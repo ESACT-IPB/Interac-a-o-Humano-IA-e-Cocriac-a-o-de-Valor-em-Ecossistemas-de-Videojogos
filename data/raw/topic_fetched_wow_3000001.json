@@ -1,0 +1,2793 @@
+{
+  "id": 3000001,
+  "title": "Is Cataclysm going to be infested with bots just as Wrath is?",
+  "slug": "is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is",
+  "jogo": "World of Warcraft",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Blizzard",
+  "url_fonte": "https://us.forums.blizzard.com/en/wow/t/is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is/1771235",
+  "post_stream": {
+    "posts": [
+      {
+        "id": 22608125,
+        "name": "Mihal",
+        "username": "Mihal-3020340",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-21T09:00:49.734Z",
+        "cooked": "<p>Not in Vanilla classic, nor TBC classic was botting so out of hand as it is now, at least in bg’s that is.Blizzard needs a better approach of how to eliminate the bots because the game is unplayable as far as bg’s are concerned.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 37,
+        "updated_at": "2026-06-30T17:18:08.870Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1082,
+        "reads": 176,
+        "readers_count": 175,
+        "score": 5605.2,
+        "yours": false,
+        "topic_id": 1771235,
+        "topic_slug": "is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is",
+        "display_username": "Mihal",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 12
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3020340,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/tichondrius/jubeiyagyu/",
+          "achievement_points": "0",
+          "level": "60",
+          "race": "Night Elf",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "classic": "t",
+          "blizzard_post_count": "105",
+          "guild": "Old Guard"
+        },
+        "post_url": "/t/is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is/1771235/1",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/faerlina/170/97855402-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+        "alias_username": "Mihal",
+        "poster_alias": {
+          "alias": {
+            "name": "Mihal",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/faerlina/170/97855402-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+            "url": null,
+            "user_id": 3020340,
+            "id": 2523335,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 117,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Faerlina"
+              },
+              {
+                "name": "achievement_points",
+                "value": "9290"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Undead"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "Ropetown"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 105,
+        "character": {
+          "name": "Mihal",
+          "guild": "Old Guard",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Warrior",
+          "race": "Night Elf",
+          "player_class_enum": "WARRIOR",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 22608154,
+        "name": "fiveofeight",
+        "username": "fiveofeight-2019636",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-21T09:11:32.707Z",
+        "cooked": "<p>As long as the xpac is popular it will be infested with bots. Just like SoD got bot infested.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 37,
+        "updated_at": "2026-07-02T04:05:06.446Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 5,
+        "reads": 172,
+        "readers_count": 171,
+        "score": 119.4,
+        "yours": false,
+        "topic_id": 1771235,
+        "topic_slug": "is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is",
+        "display_username": "fiveofeight",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 4
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2019636,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Tauren",
+          "class": "Druid",
+          "player_class_enum": "DRUID",
+          "blizzard_post_count": "57",
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/aerie-peak/iyata/",
+          "level": "86",
+          "achievement_points": "5780"
+        },
+        "post_url": "/t/is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is/1771235/2",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/earthfury/69/65505093-avatar.jpg?alt=/wow/static/images/2d/avatar/3-1.jpg",
+        "alias_username": "Depressíng-earthfury",
+        "poster_alias": {
+          "alias": {
+            "name": "Depressíng-earthfury",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/earthfury/69/65505093-avatar.jpg?alt=/wow/static/images/2d/avatar/3-1.jpg",
+            "url": null,
+            "user_id": 2019636,
+            "id": 650237,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 643,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Earthfury"
+              },
+              {
+                "name": "achievement_points",
+                "value": "5780"
+              },
+              {
+                "name": "level",
+                "value": "69"
+              },
+              {
+                "name": "race",
+                "value": "Dwarf"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic-us/character/earthfury/69/65505093-avatar.jpg?alt=/wow/static/images/2d/avatar/3-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Depressíng-earthfury"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 57,
+        "character": {
+          "name": "fiveofeight",
+          "guild": null,
+          "achievement_points": "5780",
+          "level": "86",
+          "class": "Druid",
+          "race": "Tauren",
+          "player_class_enum": "DRUID",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 22608155,
+        "name": "Thanatos",
+        "username": "Thanatos-3233769",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-21T09:11:34.768Z",
+        "cooked": "<p>It was just as bad as it was then as it is now only that it’s more blatant.</p>\n<p>In Classic the bots were in BRD 24/7 pickpocketing the arena mobs and in TBC all of the bots were going in and out of Hellfire dungeons (mainly Ramparts iirc).</p>\n<p>There were also blatent fishing bots along the coast of Feathermoon Stronghold and in Tanaris during Classic that I reported (which did get them banned).</p>\n<p>Again, they’re just being more blatant in their activities.</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 37,
+        "updated_at": "2026-06-18T03:54:55.430Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 166,
+        "readers_count": 165,
+        "score": 78.2,
+        "yours": false,
+        "topic_id": 1771235,
+        "topic_slug": "is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is",
+        "display_username": "Thanatos",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3233769,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/nagrand/malnathrea/",
+          "level": "90",
+          "race": "Troll",
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "classic": "t",
+          "blizzard_post_count": "188",
+          "guild": "Woke",
+          "achievement_points": "14145"
+        },
+        "post_url": "/t/is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is/1771235/3",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/arugal/20/20821780-avatar.jpg?alt=/wow/static/images/2d/avatar/8-1.jpg",
+        "alias_username": "Heydownthere",
+        "poster_alias": {
+          "alias": {
+            "name": "Heydownthere",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/arugal/20/20821780-avatar.jpg?alt=/wow/static/images/2d/avatar/8-1.jpg",
+            "url": null,
+            "user_id": 3233769,
+            "id": 2407679,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 7443,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Arugal"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12850"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "ship jumpers"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 188,
+        "character": {
+          "name": "Thanatos",
+          "guild": "Woke",
+          "achievement_points": "14145",
+          "level": "90",
+          "class": "Mage",
+          "race": "Troll",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 22608205,
+        "name": "wafectus",
+        "username": "wafectus-3335904",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-21T09:30:10.894Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Heydownthere-arugal\" data-post=\"3\" data-topic=\"1771235\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/classic-us/character/arugal/20/20821780-avatar.jpg?alt=/wow/static/images/2d/avatar/8-1.jpg\" class=\"avatar\"> Heydownthere:</div>\n<blockquote>\n<p>In Classic the bots were in BRD 24/7 pickpocketing the arena mobs and in TBC all of the bots were going in and out of Hellfire dungeons (mainly Ramparts iirc).</p>\n</blockquote>\n</aside>\n<p>In their own instances where they weren’t bothering anyone.</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 37,
+        "updated_at": "2026-06-17T09:09:40.555Z",
+        "reply_count": 3,
+        "reply_to_post_number": null,
+        "quote_count": 1,
+        "incoming_link_count": 6,
+        "reads": 143,
+        "readers_count": 142,
+        "score": 73.6,
+        "yours": false,
+        "topic_id": 1771235,
+        "topic_slug": "is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is",
+        "display_username": "wafectus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3335904,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Faux Real",
+          "achievement_points": "0",
+          "level": "29",
+          "race": "Orc",
+          "class": "Shaman",
+          "player_class_enum": "SHAMAN",
+          "classic": "t",
+          "blizzard_post_count": "6480"
+        },
+        "post_url": "/t/is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is/1771235/4",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/grobbulus/199/51720135-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "alias_username": "Wafectus",
+        "poster_alias": {
+          "alias": {
+            "name": "Wafectus",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/grobbulus/199/51720135-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": null,
+            "user_id": 3335904,
+            "id": 2399856,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 4122,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Grobbulus"
+              },
+              {
+                "name": "achievement_points",
+                "value": "4075"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Shaman"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "SHAMAN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "Stand and Fight"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 6480,
+        "character": {
+          "name": "wafectus",
+          "guild": "Faux Real",
+          "achievement_points": "0",
+          "level": "29",
+          "class": "Shaman",
+          "race": "Orc",
+          "player_class_enum": "SHAMAN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 22608227,
+        "name": "Thanatos",
+        "username": "Thanatos-3233769",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-21T09:42:13.719Z",
+        "cooked": "<p>And? Why does that matter? The fact that they’re bots doesn’t change anything.</p>",
+        "post_number": 5,
+        "post_type": 1,
+        "posts_count": 37,
+        "updated_at": "2026-06-18T03:54:55.576Z",
+        "reply_count": 1,
+        "reply_to_post_number": 4,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 131,
+        "readers_count": 130,
+        "score": 101.2,
+        "yours": false,
+        "topic_id": 1771235,
+        "topic_slug": "is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is",
+        "display_username": "Thanatos",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 3335904,
+          "username": "wafectus-3335904",
+          "name": "wafectus",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3233769,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/nagrand/malnathrea/",
+          "level": "90",
+          "race": "Troll",
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "classic": "t",
+          "blizzard_post_count": "188",
+          "guild": "Woke",
+          "achievement_points": "14145"
+        },
+        "post_url": "/t/is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is/1771235/5",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/arugal/20/20821780-avatar.jpg?alt=/wow/static/images/2d/avatar/8-1.jpg",
+        "alias_username": "Heydownthere",
+        "poster_alias": {
+          "alias": {
+            "name": "Heydownthere",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/arugal/20/20821780-avatar.jpg?alt=/wow/static/images/2d/avatar/8-1.jpg",
+            "url": null,
+            "user_id": 3233769,
+            "id": 2407679,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 7443,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Arugal"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12850"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "ship jumpers"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2399856,
+          "username": "Wafectus",
+          "name": "Wafectus",
+          "avatar_template": "https://render.worldofwarcraft.com/classic-us/character/grobbulus/199/51720135-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 188,
+        "character": {
+          "name": "Thanatos",
+          "guild": "Woke",
+          "achievement_points": "14145",
+          "level": "90",
+          "class": "Mage",
+          "race": "Troll",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 22608239,
+        "name": "ZeWinter",
+        "username": "ZeWinter-15783",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-21T09:51:24.894Z",
+        "cooked": "<p>Their strategy toward botting as failed. Their only solution was adding the token. Of course cata classic will have bots.</p>\n<p>Unless theyre willing to make meaningful changes so botting is reduced it will happen again.</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "posts_count": 37,
+        "updated_at": "2024-01-21T09:51:42.588Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 3,
+        "reads": 119,
+        "readers_count": 118,
+        "score": 38.8,
+        "yours": false,
+        "topic_id": 1771235,
+        "topic_slug": "is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is",
+        "display_username": "ZeWinter",
+        "primary_group_name": "CommunityCouncil",
+        "flair_name": "CommunityCouncil",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 68,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "WoW Community Council",
+        "title_is_group": true,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 15783,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Troll",
+          "class": "Death Knight",
+          "player_class_enum": "DEATHKNIGHT",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/zuljin/zoumz/",
+          "guild": "Grimoire",
+          "classic": "t",
+          "level": "90",
+          "achievement_points": "43700",
+          "blizzard_post_count": "20469"
+        },
+        "post_url": "/t/is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is/1771235/6",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/zuljin/190/187329470-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+        "alias_username": "Zoumz-zuljin",
+        "poster_alias": {
+          "alias": {
+            "name": "Zoumz-zuljin",
+            "avatar": "https://render.worldofwarcraft.com/us/character/zuljin/190/187329470-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/zuljin/zoumz/",
+            "user_id": 15783,
+            "id": 435817,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 20537,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/zuljin/zoumz/"
+              },
+              {
+                "name": "realm",
+                "value": "Zul'jin"
+              },
+              {
+                "name": "achievement_points",
+                "value": "45560"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/zuljin/190/187329470-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Zoumz-zuljin"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 20469,
+        "character": {
+          "name": "ZeWinter",
+          "guild": "Grimoire",
+          "achievement_points": "43700",
+          "level": "90",
+          "class": "Death Knight",
+          "race": "Troll",
+          "player_class_enum": "DEATHKNIGHT",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 22609087,
+        "name": "Pikachu",
+        "username": "Pikachu-1674004",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-21T14:38:08.346Z",
+        "cooked": "<p>Can’t speak for bots, but with Wrath pre-patch, Blizzard banned A LOT OF PLAYERS.<br>\nLIKE A LOT for RMT and hacking.</p>\n<p>I’m expecting the same thing to happen with Cataclysm pre-patch.</p>\n<p>Given how Retail has botting, and those are essentially same bots, I wouldn’t hold my breath.</p>\n<p><strong>The only way for bots to go away is for people to stop buying gold.</strong></p>",
+        "post_number": 7,
+        "post_type": 1,
+        "posts_count": 37,
+        "updated_at": "2026-06-10T06:29:37.317Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 4,
+        "reads": 113,
+        "readers_count": 112,
+        "score": 137.6,
+        "yours": false,
+        "topic_id": 1771235,
+        "topic_slug": "is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is",
+        "display_username": "Pikachu",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 6
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1674004,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/kelthuzad/peexee/",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "race": "Blood Elf",
+          "level": "80",
+          "guild": "Sending It",
+          "achievement_points": "14380",
+          "classic": "t",
+          "blizzard_post_count": "5473"
+        },
+        "post_url": "/t/is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is/1771235/7",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/pagle/167/64913319-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Tesalyn-pagle",
+        "poster_alias": {
+          "alias": {
+            "name": "Tesalyn-pagle",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/pagle/167/64913319-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": null,
+            "user_id": 1674004,
+            "id": 393439,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 2866,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Pagle"
+              },
+              {
+                "name": "achievement_points",
+                "value": "13460"
+              },
+              {
+                "name": "level",
+                "value": "89"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic-us/character/pagle/167/64913319-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Tesalyn-pagle"
+              },
+              {
+                "name": "guild",
+                "value": "The Locker Room"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 5473,
+        "character": {
+          "name": "Pikachu",
+          "guild": "Sending It",
+          "achievement_points": "14380",
+          "level": "80",
+          "class": "Paladin",
+          "race": "Blood Elf",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 22609105,
+        "name": "ZeWinter",
+        "username": "ZeWinter-15783",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-21T14:44:44.239Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Tesalyn-pagle\" data-post=\"7\" data-topic=\"1771235\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/classic-us/character/pagle/167/64913319-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg\" class=\"avatar\"> Tesalyn:</div>\n<blockquote>\n<p>The only way for bots to go away is for people to stop buying gold.</p>\n</blockquote>\n</aside>\n<p>If you’d remove gold people would find another currency, trading and how it is regulated is the main issue.</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "posts_count": 37,
+        "updated_at": "2024-01-21T14:44:44.239Z",
+        "reply_count": 1,
+        "reply_to_post_number": 7,
+        "quote_count": 1,
+        "incoming_link_count": 3,
+        "reads": 94,
+        "readers_count": 93,
+        "score": 38.8,
+        "yours": false,
+        "topic_id": 1771235,
+        "topic_slug": "is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is",
+        "display_username": "ZeWinter",
+        "primary_group_name": "CommunityCouncil",
+        "flair_name": "CommunityCouncil",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 68,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "WoW Community Council",
+        "title_is_group": true,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 15783,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Troll",
+          "class": "Death Knight",
+          "player_class_enum": "DEATHKNIGHT",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/zuljin/zoumz/",
+          "guild": "Grimoire",
+          "classic": "t",
+          "level": "90",
+          "achievement_points": "43700",
+          "blizzard_post_count": "20469"
+        },
+        "post_url": "/t/is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is/1771235/8",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/zuljin/190/187329470-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+        "alias_username": "Zoumz-zuljin",
+        "poster_alias": {
+          "alias": {
+            "name": "Zoumz-zuljin",
+            "avatar": "https://render.worldofwarcraft.com/us/character/zuljin/190/187329470-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/zuljin/zoumz/",
+            "user_id": 15783,
+            "id": 435817,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 20537,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/zuljin/zoumz/"
+              },
+              {
+                "name": "realm",
+                "value": "Zul'jin"
+              },
+              {
+                "name": "achievement_points",
+                "value": "45560"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/zuljin/190/187329470-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Zoumz-zuljin"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 20469,
+        "character": {
+          "name": "ZeWinter",
+          "guild": "Grimoire",
+          "achievement_points": "43700",
+          "level": "90",
+          "class": "Death Knight",
+          "race": "Troll",
+          "player_class_enum": "DEATHKNIGHT",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 22609188,
+        "name": "Pikachu",
+        "username": "Pikachu-1674004",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-21T14:59:13.627Z",
+        "cooked": "<p>Wasn’t talking about removing gold.<br>\nWas talking about perma banning all gold buyers.</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "posts_count": 37,
+        "updated_at": "2026-06-10T06:29:37.709Z",
+        "reply_count": 1,
+        "reply_to_post_number": 8,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 83,
+        "readers_count": 82,
+        "score": 96.6,
+        "yours": false,
+        "topic_id": 1771235,
+        "topic_slug": "is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is",
+        "display_username": "Pikachu",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 15783,
+          "username": "ZeWinter-15783",
+          "name": "ZeWinter",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 5
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1674004,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/kelthuzad/peexee/",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "race": "Blood Elf",
+          "level": "80",
+          "guild": "Sending It",
+          "achievement_points": "14380",
+          "classic": "t",
+          "blizzard_post_count": "5473"
+        },
+        "post_url": "/t/is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is/1771235/9",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/pagle/167/64913319-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Tesalyn-pagle",
+        "poster_alias": {
+          "alias": {
+            "name": "Tesalyn-pagle",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/pagle/167/64913319-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": null,
+            "user_id": 1674004,
+            "id": 393439,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 2866,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Pagle"
+              },
+              {
+                "name": "achievement_points",
+                "value": "13460"
+              },
+              {
+                "name": "level",
+                "value": "89"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic-us/character/pagle/167/64913319-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Tesalyn-pagle"
+              },
+              {
+                "name": "guild",
+                "value": "The Locker Room"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 435817,
+          "username": "Zoumz-zuljin",
+          "name": "Zoumz",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/zuljin/190/187329470-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 5473,
+        "character": {
+          "name": "Pikachu",
+          "guild": "Sending It",
+          "achievement_points": "14380",
+          "level": "80",
+          "class": "Paladin",
+          "race": "Blood Elf",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 22609193,
+        "name": "ZeWinter",
+        "username": "ZeWinter-15783",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-21T15:00:30.654Z",
+        "cooked": "<aside class=\"quote no-group quote-modified\" data-username=\"Tesalyn-pagle\" data-post=\"9\" data-topic=\"1771235\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/classic-us/character/pagle/167/64913319-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg\" class=\"avatar\"> Tesalyn:</div>\n<blockquote>\n<p>Was talking about perma buying all gold buyers.</p>\n</blockquote>\n</aside>\n<p>For that they’d have to be able to tell and tons of ways exist to whitewash the gold, people that get caught are mostly bad at it. It is way easier to stop this happening at the start than at the end.</p>\n<p>But sure if they find out they should ban for 6 months people at minimum.</p>\n<p>Funnily, they won’t even ban streamers and high level players that have openly admitted to it.</p>",
+        "post_number": 10,
+        "post_type": 1,
+        "posts_count": 37,
+        "updated_at": "2024-01-21T15:01:22.492Z",
+        "reply_count": 1,
+        "reply_to_post_number": 9,
+        "quote_count": 1,
+        "incoming_link_count": 1,
+        "reads": 74,
+        "readers_count": 73,
+        "score": 39.8,
+        "yours": false,
+        "topic_id": 1771235,
+        "topic_slug": "is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is",
+        "display_username": "ZeWinter",
+        "primary_group_name": "CommunityCouncil",
+        "flair_name": "CommunityCouncil",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 68,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "WoW Community Council",
+        "title_is_group": true,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 15783,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Troll",
+          "class": "Death Knight",
+          "player_class_enum": "DEATHKNIGHT",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/zuljin/zoumz/",
+          "guild": "Grimoire",
+          "classic": "t",
+          "level": "90",
+          "achievement_points": "43700",
+          "blizzard_post_count": "20469"
+        },
+        "post_url": "/t/is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is/1771235/10",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/zuljin/190/187329470-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+        "alias_username": "Zoumz-zuljin",
+        "poster_alias": {
+          "alias": {
+            "name": "Zoumz-zuljin",
+            "avatar": "https://render.worldofwarcraft.com/us/character/zuljin/190/187329470-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/zuljin/zoumz/",
+            "user_id": 15783,
+            "id": 435817,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 20537,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/zuljin/zoumz/"
+              },
+              {
+                "name": "realm",
+                "value": "Zul'jin"
+              },
+              {
+                "name": "achievement_points",
+                "value": "45560"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/zuljin/190/187329470-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Zoumz-zuljin"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 20469,
+        "character": {
+          "name": "ZeWinter",
+          "guild": "Grimoire",
+          "achievement_points": "43700",
+          "level": "90",
+          "class": "Death Knight",
+          "race": "Troll",
+          "player_class_enum": "DEATHKNIGHT",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 22609217,
+        "name": "Pikachu",
+        "username": "Pikachu-1674004",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-21T15:06:15.745Z",
+        "cooked": "<p>Ever wondered what happens with all of GDKP admin cuts for large GDKP discords?</p>\n<p>Let’s eye ball.<br>\nLet’s say an average GKDP gets 300,000 gold pot. 10% admin cut is 30,000.<br>\nThere are at least 20 runs per week.<br>\nThat’s, 30,000*20= 600,000 per week into pockets of admins.</p>\n<p>What di you think they do with this gold?</p>",
+        "post_number": 11,
+        "post_type": 1,
+        "posts_count": 37,
+        "updated_at": "2026-06-10T06:29:37.927Z",
+        "reply_count": 1,
+        "reply_to_post_number": 10,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 69,
+        "readers_count": 68,
+        "score": 63.8,
+        "yours": false,
+        "topic_id": 1771235,
+        "topic_slug": "is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is",
+        "display_username": "Pikachu",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 15783,
+          "username": "ZeWinter-15783",
+          "name": "ZeWinter",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1674004,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/kelthuzad/peexee/",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "race": "Blood Elf",
+          "level": "80",
+          "guild": "Sending It",
+          "achievement_points": "14380",
+          "classic": "t",
+          "blizzard_post_count": "5473"
+        },
+        "post_url": "/t/is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is/1771235/11",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/pagle/167/64913319-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Tesalyn-pagle",
+        "poster_alias": {
+          "alias": {
+            "name": "Tesalyn-pagle",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/pagle/167/64913319-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": null,
+            "user_id": 1674004,
+            "id": 393439,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 2866,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Pagle"
+              },
+              {
+                "name": "achievement_points",
+                "value": "13460"
+              },
+              {
+                "name": "level",
+                "value": "89"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic-us/character/pagle/167/64913319-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Tesalyn-pagle"
+              },
+              {
+                "name": "guild",
+                "value": "The Locker Room"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 435817,
+          "username": "Zoumz-zuljin",
+          "name": "Zoumz",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/zuljin/190/187329470-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 5473,
+        "character": {
+          "name": "Pikachu",
+          "guild": "Sending It",
+          "achievement_points": "14380",
+          "level": "80",
+          "class": "Paladin",
+          "race": "Blood Elf",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 22609228,
+        "name": "ZeWinter",
+        "username": "ZeWinter-15783",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-21T15:07:36.358Z",
+        "cooked": "<p>Oh definitely any big amount of gold moving is prone to RMT, which is something you can try to regulate but Blizzard has never been really interesting in trying to do so.</p>",
+        "post_number": 12,
+        "post_type": 1,
+        "posts_count": 37,
+        "updated_at": "2024-01-21T15:07:36.358Z",
+        "reply_count": 1,
+        "reply_to_post_number": 11,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 62,
+        "readers_count": 61,
+        "score": 22.4,
+        "yours": false,
+        "topic_id": 1771235,
+        "topic_slug": "is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is",
+        "display_username": "ZeWinter",
+        "primary_group_name": "CommunityCouncil",
+        "flair_name": "CommunityCouncil",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 68,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "WoW Community Council",
+        "title_is_group": true,
+        "reply_to_user": {
+          "id": 1674004,
+          "username": "Pikachu-1674004",
+          "name": "Pikachu",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 15783,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Troll",
+          "class": "Death Knight",
+          "player_class_enum": "DEATHKNIGHT",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/zuljin/zoumz/",
+          "guild": "Grimoire",
+          "classic": "t",
+          "level": "90",
+          "achievement_points": "43700",
+          "blizzard_post_count": "20469"
+        },
+        "post_url": "/t/is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is/1771235/12",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/zuljin/190/187329470-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+        "alias_username": "Zoumz-zuljin",
+        "poster_alias": {
+          "alias": {
+            "name": "Zoumz-zuljin",
+            "avatar": "https://render.worldofwarcraft.com/us/character/zuljin/190/187329470-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/zuljin/zoumz/",
+            "user_id": 15783,
+            "id": 435817,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 20537,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/zuljin/zoumz/"
+              },
+              {
+                "name": "realm",
+                "value": "Zul'jin"
+              },
+              {
+                "name": "achievement_points",
+                "value": "45560"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/zuljin/190/187329470-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Zoumz-zuljin"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 393439,
+          "username": "Tesalyn-pagle",
+          "name": "Tesalyn",
+          "avatar_template": "https://render.worldofwarcraft.com/classic-us/character/pagle/167/64913319-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 20469,
+        "character": {
+          "name": "ZeWinter",
+          "guild": "Grimoire",
+          "achievement_points": "43700",
+          "level": "90",
+          "class": "Death Knight",
+          "race": "Troll",
+          "player_class_enum": "DEATHKNIGHT",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 22609260,
+        "name": "Pikachu",
+        "username": "Pikachu-1674004",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-21T15:10:34.082Z",
+        "cooked": "<p>Warmane, pserver, used to cut all gold in half. Straight up would delete 50% all of gold in the economy every year. xD</p>\n<p>But there are also no GDKPs allowed.</p>\n<p>Gold as a currency is not the root cause of RMT. It’s the effects of GDKPs. Player enforced raid loot system that encourages new comers to spend $$$ for gold.</p>\n<p>Changes I’m hoping for in Cata</p>\n<ul>\n<li>ban of GDKPs</li>\n<li>per boss lockouts</li>\n</ul>",
+        "post_number": 13,
+        "post_type": 1,
+        "posts_count": 37,
+        "updated_at": "2026-06-10T06:29:38.032Z",
+        "reply_count": 2,
+        "reply_to_post_number": 12,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 66,
+        "readers_count": 65,
+        "score": 28.2,
+        "yours": false,
+        "topic_id": 1771235,
+        "topic_slug": "is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is",
+        "display_username": "Pikachu",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 15783,
+          "username": "ZeWinter-15783",
+          "name": "ZeWinter",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1674004,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/kelthuzad/peexee/",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "race": "Blood Elf",
+          "level": "80",
+          "guild": "Sending It",
+          "achievement_points": "14380",
+          "classic": "t",
+          "blizzard_post_count": "5473"
+        },
+        "post_url": "/t/is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is/1771235/13",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/pagle/167/64913319-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Tesalyn-pagle",
+        "poster_alias": {
+          "alias": {
+            "name": "Tesalyn-pagle",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/pagle/167/64913319-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": null,
+            "user_id": 1674004,
+            "id": 393439,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 2866,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Pagle"
+              },
+              {
+                "name": "achievement_points",
+                "value": "13460"
+              },
+              {
+                "name": "level",
+                "value": "89"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic-us/character/pagle/167/64913319-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Tesalyn-pagle"
+              },
+              {
+                "name": "guild",
+                "value": "The Locker Room"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 435817,
+          "username": "Zoumz-zuljin",
+          "name": "Zoumz",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/zuljin/190/187329470-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 5473,
+        "character": {
+          "name": "Pikachu",
+          "guild": "Sending It",
+          "achievement_points": "14380",
+          "level": "80",
+          "class": "Paladin",
+          "race": "Blood Elf",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 22609261,
+        "name": "LastLaugh",
+        "username": "LastLaugh-111346",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-21T15:11:03.634Z",
+        "cooked": "<p>Anyone can name ONE game that’s not plagued with bots or RMT nowdays?</p>\n<p>(sure classic dev’s could do better by not abandoning their expansions and doing more often ban waves)</p>",
+        "post_number": 14,
+        "post_type": 1,
+        "posts_count": 37,
+        "updated_at": "2024-01-21T15:11:03.634Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 19,
+        "reads": 65,
+        "readers_count": 64,
+        "score": 143.0,
+        "yours": false,
+        "topic_id": 1771235,
+        "topic_slug": "is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is",
+        "display_username": "LastLaugh",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 111346,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Void Elf",
+          "class": "Warlock",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/medivh/xyrtran/",
+          "player_class_enum": "WARLOCK",
+          "achievement_points": "30265",
+          "level": "48",
+          "guild": "Shadé",
+          "classic": "t",
+          "blizzard_post_count": "7257"
+        },
+        "post_url": "/t/is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is/1771235/14",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/medivh/90/213034842-avatar.jpg?alt=/wow/static/images/2d/avatar/29-0.jpg",
+        "alias_username": "Xyrtran-medivh",
+        "poster_alias": {
+          "alias": {
+            "name": "Xyrtran-medivh",
+            "avatar": "https://render.worldofwarcraft.com/us/character/medivh/90/213034842-avatar.jpg?alt=/wow/static/images/2d/avatar/29-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/medivh/xyrtran/",
+            "user_id": 111346,
+            "id": 426784,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 7253,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/medivh/xyrtran/"
+              },
+              {
+                "name": "realm",
+                "value": "Medivh"
+              },
+              {
+                "name": "achievement_points",
+                "value": "30265"
+              },
+              {
+                "name": "level",
+                "value": "48"
+              },
+              {
+                "name": "race",
+                "value": "Void Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/medivh/90/213034842-avatar.jpg?alt=/wow/static/images/2d/avatar/29-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Xyrtran-medivh"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 7257,
+        "character": {
+          "name": "LastLaugh",
+          "guild": "Shadé",
+          "achievement_points": "30265",
+          "level": "48",
+          "class": "Warlock",
+          "race": "Void Elf",
+          "player_class_enum": "WARLOCK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 22609277,
+        "name": "Pikachu",
+        "username": "Pikachu-1674004",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-21T15:13:16.058Z",
+        "cooked": "<p>I dont think anyone has the expectation of removing bots 100%. Nah, never gonna happen.</p>\n<p>But Blizzard dropped the ball on banning RMTers.<br>\nPeople were getting banned for RMT…but only for 3 days at the start of Classic. And in most cases gold wasn’t even removed.<br>\nThen it went to a week, and then to 2 weeks. Streamers are not getting banned at all.</p>",
+        "post_number": 15,
+        "post_type": 1,
+        "posts_count": 37,
+        "updated_at": "2026-06-10T06:29:38.136Z",
+        "reply_count": 0,
+        "reply_to_post_number": 14,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 61,
+        "readers_count": 60,
+        "score": 12.2,
+        "yours": false,
+        "topic_id": 1771235,
+        "topic_slug": "is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is",
+        "display_username": "Pikachu",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 111346,
+          "username": "LastLaugh-111346",
+          "name": "LastLaugh",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1674004,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/kelthuzad/peexee/",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "race": "Blood Elf",
+          "level": "80",
+          "guild": "Sending It",
+          "achievement_points": "14380",
+          "classic": "t",
+          "blizzard_post_count": "5473"
+        },
+        "post_url": "/t/is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is/1771235/15",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/pagle/167/64913319-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Tesalyn-pagle",
+        "poster_alias": {
+          "alias": {
+            "name": "Tesalyn-pagle",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/pagle/167/64913319-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": null,
+            "user_id": 1674004,
+            "id": 393439,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 2866,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Pagle"
+              },
+              {
+                "name": "achievement_points",
+                "value": "13460"
+              },
+              {
+                "name": "level",
+                "value": "89"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic-us/character/pagle/167/64913319-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Tesalyn-pagle"
+              },
+              {
+                "name": "guild",
+                "value": "The Locker Room"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 426784,
+          "username": "Xyrtran-medivh",
+          "name": "Xyrtran",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/medivh/90/213034842-avatar.jpg?alt=/wow/static/images/2d/avatar/29-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 5473,
+        "character": {
+          "name": "Pikachu",
+          "guild": "Sending It",
+          "achievement_points": "14380",
+          "level": "80",
+          "class": "Paladin",
+          "race": "Blood Elf",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 22609293,
+        "name": "LastLaugh",
+        "username": "LastLaugh-111346",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-21T15:16:23.004Z",
+        "cooked": "<p>The OP seems to have that “illusion” regardless… but I dont recall a product from blizzard being this abandoned since hots or the release of ow2. All in sake of sod mind you, another thing that the classic dev’s released and it’s proven to be more successful than anything classic related so far.</p>\n<p>Bots are still on a rampage on bgs, on the world mining/herbing or farming eternals/primals… and still selling gold under the table…</p>",
+        "post_number": 16,
+        "post_type": 1,
+        "posts_count": 37,
+        "updated_at": "2024-01-21T15:16:23.004Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 3,
+        "reads": 55,
+        "readers_count": 54,
+        "score": 26.0,
+        "yours": false,
+        "topic_id": 1771235,
+        "topic_slug": "is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is",
+        "display_username": "LastLaugh",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 111346,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Void Elf",
+          "class": "Warlock",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/medivh/xyrtran/",
+          "player_class_enum": "WARLOCK",
+          "achievement_points": "30265",
+          "level": "48",
+          "guild": "Shadé",
+          "classic": "t",
+          "blizzard_post_count": "7257"
+        },
+        "post_url": "/t/is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is/1771235/16",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/medivh/90/213034842-avatar.jpg?alt=/wow/static/images/2d/avatar/29-0.jpg",
+        "alias_username": "Xyrtran-medivh",
+        "poster_alias": {
+          "alias": {
+            "name": "Xyrtran-medivh",
+            "avatar": "https://render.worldofwarcraft.com/us/character/medivh/90/213034842-avatar.jpg?alt=/wow/static/images/2d/avatar/29-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/medivh/xyrtran/",
+            "user_id": 111346,
+            "id": 426784,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 7253,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/medivh/xyrtran/"
+              },
+              {
+                "name": "realm",
+                "value": "Medivh"
+              },
+              {
+                "name": "achievement_points",
+                "value": "30265"
+              },
+              {
+                "name": "level",
+                "value": "48"
+              },
+              {
+                "name": "race",
+                "value": "Void Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/medivh/90/213034842-avatar.jpg?alt=/wow/static/images/2d/avatar/29-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Xyrtran-medivh"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 7257,
+        "character": {
+          "name": "LastLaugh",
+          "guild": "Shadé",
+          "achievement_points": "30265",
+          "level": "48",
+          "class": "Warlock",
+          "race": "Void Elf",
+          "player_class_enum": "WARLOCK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 22609513,
+        "name": "ShinyPants",
+        "username": "ShinyPants-1012369",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-21T16:05:37.824Z",
+        "cooked": "<p>Yes, cata will be a whale based expansion with much fewer players and many whales. Which means logistically you will need more bots per whale than the bots per whale in wrath.  The nature of the raids and the loot economics will be a factor, but in classic vanilla loot was scarce thus a good run could get alot of gold, same in tbc though some really hard to get items like the glaives which could only be used for dps rouges/warriors meant that they would be presold (I believe that back in the day we would see rogues and warriors in greens with the glaives who bought it).  GDKP did continue in wrath but alot more we would see ticket runs where you would be carried by 24 others and get all loot you can use.</p>\n<p>The tedius difficulty of cata raids can best be modeled by the wrath raid uld or to a much lesser extent prenerf p5 (though comparing a great expansion like tbc to cata might be a bit of a stretch and you could still run t4 in prenerf t5).  A few dedicated guilds and alot of people selling the healing hammer. Only this time tedious raids will promote a similar attitude where people want to only go to make gold selling tricket runs.</p>\n<p>As far as bg go it depends right now you can bot bg maybe get honor to turn to gems to sell.  I think there is a honor trade good vendor added in cata which is good for pvp people wanting to play but also means that bots will prob run whatever is the best honor/hour.  And really if they did ban them they would just level normal bot wise as bots do level fast.  The only way might be continuous bans and while people who might be more honest will say things like ‘the raids were tedious but the pvp was good’ I can see a future where blizzard needs the bots to get gdkp gold, but where the pvp outcome is determined by whoever has the fewer bots.</p>",
+        "post_number": 17,
+        "post_type": 1,
+        "posts_count": 37,
+        "updated_at": "2024-01-21T16:05:37.824Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 3,
+        "reads": 54,
+        "readers_count": 53,
+        "score": 25.8,
+        "yours": false,
+        "topic_id": 1771235,
+        "topic_slug": "is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is",
+        "display_username": "ShinyPants",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1012369,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Night Elf",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "guild": "Encore",
+          "achievement_points": "0",
+          "level": "60",
+          "classic": "t",
+          "blizzard_post_count": "2446"
+        },
+        "post_url": "/t/is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is/1771235/17",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/ashkandi/176/16465840-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Mirrina-ashkandi",
+        "poster_alias": {
+          "alias": {
+            "name": "Mirrina-ashkandi",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/ashkandi/176/16465840-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": null,
+            "user_id": 1012369,
+            "id": 393185,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 2549,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Ashkandi"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/ashkandi/176/16465840-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Mirrina-ashkandi"
+              },
+              {
+                "name": "guild",
+                "value": "Encore"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 2446,
+        "character": {
+          "name": "ShinyPants",
+          "guild": "Encore",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Warrior",
+          "race": "Night Elf",
+          "player_class_enum": "WARRIOR",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 22609813,
+        "name": null,
+        "username": "Dastier-pagle",
+        "avatar_template": "https://render.worldofwarcraft.com/classic-us/character/pagle/20/83347476-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "created_at": "2024-01-21T17:00:40.194Z",
+        "cooked": "<p>yes of course…why wouldnt it be?</p>",
+        "post_number": 18,
+        "post_type": 1,
+        "posts_count": 37,
+        "updated_at": "2024-01-21T17:00:40.194Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 49,
+        "readers_count": 48,
+        "score": 24.8,
+        "yours": false,
+        "topic_id": 1771235,
+        "topic_slug": "is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2554093,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Karma",
+          "race": "Orc",
+          "class": "Shaman",
+          "player_class_enum": "SHAMAN",
+          "level": "80",
+          "classic": "t",
+          "achievement_points": "1600",
+          "blizzard_post_count": "91"
+        },
+        "post_url": "/t/is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is/1771235/18",
+        "alias_avatar": null,
+        "alias_username": null,
+        "poster_alias": null,
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 91,
+        "character": {
+          "name": "Dastier",
+          "guild": "Karma",
+          "achievement_points": "1600",
+          "level": "80",
+          "class": "Shaman",
+          "race": "Orc",
+          "player_class_enum": "SHAMAN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 22609991,
+        "name": "Drain",
+        "username": "Drain-2764344",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-21T17:25:54.365Z",
+        "cooked": "<p>Why wouldn’t it be? Bots will follow players to every version and realm of the game. If Blizzard isn’t bothering to protect this game, they aren’t going to bother to protect the next one in line either. SOD is already overrun with them btw.</p>\n<aside class=\"quote no-group\" data-username=\"Tesalyn-pagle\" data-post=\"13\" data-topic=\"1771235\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/classic-us/character/pagle/167/64913319-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg\" class=\"avatar\"> Tesalyn:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>Warmane, pserver, used to cut all gold in half. Straight up would delete 50% all of gold in the economy every year. xD</p>\n</blockquote>\n</aside>\n<p>This combats inflation. It doesn’t do a damn thing to botters. Banning GDKP <em>also</em> doesn’t do a damn thing to botters. People were botting long before GDKP, and they’d be botting all the same if it was prohibited. The ONLY solution for botting is for the developer to ban their accounts.</p>",
+        "post_number": 19,
+        "post_type": 1,
+        "posts_count": 37,
+        "updated_at": "2026-06-13T07:23:45.078Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 1,
+        "incoming_link_count": 1,
+        "reads": 51,
+        "readers_count": 50,
+        "score": 45.2,
+        "yours": false,
+        "topic_id": 1771235,
+        "topic_slug": "is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is",
+        "display_username": "Drain",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2764344,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/bonechewer/drain/",
+          "guild": "Anti Trans Rights",
+          "achievement_points": "2625",
+          "level": "80",
+          "race": "Orc",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "classic": "t",
+          "blizzard_post_count": "204"
+        },
+        "post_url": "/t/is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is/1771235/19",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/windseeker/50/12358450-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "alias_username": "Drain",
+        "poster_alias": {
+          "alias": {
+            "name": "Drain",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/windseeker/50/12358450-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": null,
+            "user_id": 2764344,
+            "id": 2335004,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 10078,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Windseeker"
+              },
+              {
+                "name": "achievement_points",
+                "value": "2615"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 204,
+        "character": {
+          "name": "Drain",
+          "guild": "Anti Trans Rights",
+          "achievement_points": "2625",
+          "level": "80",
+          "class": "Warrior",
+          "race": "Orc",
+          "player_class_enum": "WARRIOR",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 22614295,
+        "name": "Reppz",
+        "username": "Reppz-2085681",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-22T03:19:53.723Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Wafectus-grobbulus\" data-post=\"4\" data-topic=\"1771235\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/classic-us/character/grobbulus/199/51720135-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg\" class=\"avatar\"> Wafectus:</div>\n<blockquote>\n<p>In their own instances where they weren’t bothering anyone</p>\n</blockquote>\n</aside>\n<aside class=\"quote no-group\" data-username=\"Heydownthere-arugal\" data-post=\"5\" data-topic=\"1771235\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/classic-us/character/arugal/188/2501564-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg\" class=\"avatar\"> Heydownthere:</div>\n<blockquote>\n<p>And? Why does that matter?</p>\n</blockquote>\n</aside>\n<p>He’s mad that he isn’t in there.</p>\n<p>Yes, he’s argued for bot AI party members before.</p>\n<p>And no, he doesn’t care that they’re bots. He’s argued that they “have a right to be in bgs” before, so, he’d probably extend that logic here as well.</p>\n<p>No, he does not care that it’s against TOS, or even acknowledged it when I brought it up.</p>",
+        "post_number": 20,
+        "post_type": 1,
+        "posts_count": 37,
+        "updated_at": "2024-01-22T03:19:53.723Z",
+        "reply_count": 1,
+        "reply_to_post_number": 4,
+        "quote_count": 2,
+        "incoming_link_count": 0,
+        "reads": 47,
+        "readers_count": 46,
+        "score": 44.4,
+        "yours": false,
+        "topic_id": 1771235,
+        "topic_slug": "is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is",
+        "display_username": "Reppz",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2085681,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Blood Elf",
+          "class": "Rogue",
+          "player_class_enum": "ROGUE",
+          "guild": "Vindiction",
+          "level": "80",
+          "classic": "t",
+          "blizzard_post_count": "3623",
+          "achievement_points": "6080"
+        },
+        "user_suspended": true,
+        "post_url": "/t/is-cataclysm-going-to-be-infested-with-bots-just-as-wrath-is/1771235/20",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/mankrik/21/51696917-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+        "alias_username": "Äpathy-mankrik",
+        "poster_alias": {
+          "alias": {
+            "name": "Äpathy-mankrik",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/mankrik/21/51696917-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+            "url": null,
+            "user_id": 2085681,
+            "id": 417783,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 3623,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Mankrik"
+              },
+              {
+                "name": "achievement_points",
+                "value": "6080"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic-us/character/mankrik/21/51696917-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Äpathy-mankrik"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 3623,
+        "character": {
+          "name": "Reppz",
+          "guild": "Vindiction",
+          "achievement_points": "6080",
+          "level": "80",
+          "class": "Rogue",
+          "race": "Blood Elf",
+          "player_class_enum": "ROGUE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ]
+  }
+}

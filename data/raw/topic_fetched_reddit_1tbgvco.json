@@ -1,0 +1,182 @@
+{
+  "id": "reddit_1tbgvco",
+  "title": "Everyone loves the vibecode look right?!",
+  "slug": "everyone_loves_the_vibecode_look_right",
+  "posts_count": 14,
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1,
+        "username": "BixbeAI",
+        "cooked": "<p>I miss tools and websites looking unique and different.</p>",
+        "created_at": "2026-05-12T22:26:38.653000+0000",
+        "post_number": 1,
+        "reply_to_post_number": null,
+        "reply_count": 13,
+        "like_count": 129,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 2,
+        "username": "NotBad_ForAHuman",
+        "cooked": "<p>desperately trying to resist the urge to commit private keys to my repo</p>",
+        "created_at": "2026-05-13T01:19:28.437000+0000",
+        "post_number": 2,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 44,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 3,
+        "username": "BixbeAI",
+        "cooked": "<p>Same</p>",
+        "created_at": "2026-05-12T22:50:44.485000+0000",
+        "post_number": 3,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 12,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 4,
+        "username": "Beginning_Insect_520",
+        "cooked": "<p>dont worry soon AI will make also good posts</p>",
+        "created_at": "2026-05-13T06:43:26.106000+0000",
+        "post_number": 4,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 5,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 5,
+        "username": "Dr_Mibbles",
+        "cooked": "<p>I quite like some vibe coded apps like killmail One problem is if you don't aggressively micromanage Claude, and provide a very clear visual direction of your own, it will default to that unmistakable 'Claude look' And since most vibe coders have no actual aesthetic talent that happens a LOT</p>",
+        "created_at": "2026-05-13T07:50:34.427000+0000",
+        "post_number": 5,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 14,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 6,
+        "username": "Quaschimodo",
+        "cooked": "<p>Gemini, spin my ship a thousand times. make no mistakes.</p>",
+        "created_at": "2026-05-13T07:31:55.056000+0000",
+        "post_number": 6,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 13,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 7,
+        "username": "joeymcflow",
+        "cooked": "<p>\"wtf Claude! Thats not a safe\" \"You were right to push back. I see my mistake. Would you like me to open multibuy and purchase a new blingy gila?\"</p>",
+        "created_at": "2026-05-13T21:13:33.782000+0000",
+        "post_number": 7,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 7,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 8,
+        "username": "baralheia",
+        "cooked": "<p>I'm glad it works for you but that hasn't been my experience. I find it more of a hindrance than helpful even in passive roles.</p>",
+        "created_at": "2026-05-14T01:16:20.227000+0000",
+        "post_number": 8,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 9,
+        "username": "MarshmelloStrawberry",
+        "cooked": "<p>im sure your first app was this amazing, maintainable app that always worked right.</p>",
+        "created_at": "2026-05-13T18:21:59.297000+0000",
+        "post_number": 9,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": -4,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 10,
+        "username": "ThatGuyFromAms",
+        "cooked": "<p>I think it’s temporary like with skinr posts. But overall it’s good that more people are able to create tools rather than relying on a few people to maintain everything</p>",
+        "created_at": "2026-05-13T07:50:08.047000+0000",
+        "post_number": 10,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 4,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 11,
+        "username": "nekomata_58",
+        "cooked": "<p>Claude is a useful tool, but it HAS to be shepherded. I have seen it make some really whacky decisions when left to its own devices.</p>",
+        "created_at": "2026-05-14T04:43:58.191000+0000",
+        "post_number": 11,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 12,
+        "username": "Wolfhauler",
+        "cooked": "<p>Killsync is pretty gewd</p>",
+        "created_at": "2026-05-15T11:13:32.071000+0000",
+        "post_number": 12,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 13,
+        "username": "Ok-Translator2708",
+        "cooked": "<p>Well, at last, the workforce is showing its true face. This is what the EVE Online community is really like—constant downvotes for me while harassment gets upvoted. Can you believe now how these people actually behave? In which game does harassment actually get upvoted? They simply downvote what they dislike and upvote whatever favors them. This is classic 'goon-style' behavior. Is this really a healthy environment for people to play in? It’s all about stalking, harassment, and 'pay-to-play'—if you don’t pay them, they won't let you enjoy the good content. Every activity in the game is controlled by specific groups that only allow certain people to participate. Even if you are part of their group, they might still kill you themselves (you are able to do content cause its like TRIAL , later they will kill you don't worry ). These groups act like a coordinated workforce, splitting tasks to maintain this control. This is the reality, no matter how many downvotes I receive from the EVE workforce or the PLA. 80% of the posts are made by the PLA; they monopolize the forums by pretending to be actual players, commenting on their own threads and upvoting or downvoting accordingly to control the narrative. If you talk back , they indirectly see ways to hurt you thats how cheap it is atm. I am not gonna report the above comment let people see</p>",
+        "created_at": "2026-05-14T03:51:38.558000+0000",
+        "post_number": 13,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 0,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 14,
+        "username": "Rainbolt",
+        "cooked": "<p>What</p>",
+        "created_at": "2026-05-13T16:08:01.385000+0000",
+        "post_number": 14,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      }
+    ]
+  },
+  "jogo": "World of Warcraft",
+  "fonte": "Reddit",
+  "seccao": "r/wow",
+  "url_fonte": "https://www.reddit.com/r/wow/comments/1tbgvco/everyone_loves_the_vibecode_look_right/"
+}

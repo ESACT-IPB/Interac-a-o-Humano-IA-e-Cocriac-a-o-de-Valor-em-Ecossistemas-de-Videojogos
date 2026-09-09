@@ -1,0 +1,5454 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 2433763,
+        "name": "DrysonBennington",
+        "username": "DrysonBennington",
+        "avatar_template": "/user_avatar/forums.eveonline.com/drysonbennington/{size}/501369_2.png",
+        "created_at": "2023-11-26T18:18:31.360Z",
+        "cooked": "<p>The Legend of Tomiris</p>\n<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"Abmmo5gHxvU\" data-video-title=\"The Legend of Tomiris\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=Abmmo5gHxvU\" target=\"_blank\" rel=\"noopener nofollow ugc\">\n    <img class=\"youtube-thumbnail\" src=\"https://global.discourse-cdn.com/eveonline/original/4X/2/9/f/29f0d823ec7cd86683089e4de5f4c55ea9d1595d.jpeg\" title=\"The Legend of Tomiris\" data-dominant-color=\"56464E\" width=\"690\" height=\"388\">\n  </a>\n</div>\n",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2023-11-26T18:18:31.360Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 73,
+        "reads": 191,
+        "readers_count": 190,
+        "score": 433.2,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "DrysonBennington",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://www.youtube.com/watch?v=Abmmo5gHxvU",
+            "internal": false,
+            "reflection": false,
+            "clicks": 1
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4948,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/1",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 2
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 2,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 2434986,
+        "name": "mdfgjbhmpstjbn",
+        "username": "mdfgjbhmpstjbn",
+        "avatar_template": "/user_avatar/forums.eveonline.com/mdfgjbhmpstjbn/{size}/395940_2.png",
+        "created_at": "2023-11-28T16:56:28.062Z",
+        "cooked": "<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"xHPhBtejIgo\" data-video-title=\"30 Years of James Bond - James Bond Documentary [Director's Commentary]\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=xHPhBtejIgo\" target=\"_blank\" rel=\"noopener nofollow ugc\">\n    <img class=\"youtube-thumbnail\" src=\"https://global.discourse-cdn.com/eveonline/original/4X/f/b/f/fbfea69e3078aab0f8eedf048d5e1c3cf91abede.jpeg\" title=\"30 Years of James Bond - James Bond Documentary [Director's Commentary]\" data-dominant-color=\"7C82A1\" width=\"480\" height=\"360\">\n  </a>\n</div>\n",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2023-11-28T16:56:28.062Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 177,
+        "readers_count": 176,
+        "score": 85.4,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "mdfgjbhmpstjbn",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://www.youtube.com/watch?v=xHPhBtejIgo",
+            "internal": false,
+            "reflection": false,
+            "clicks": 1
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 190290,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/2",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 3
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 3,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2437555,
+        "name": "Josie McMiner",
+        "username": "Josie_McMiner",
+        "avatar_template": "/user_avatar/forums.eveonline.com/josie_mcminer/{size}/397187_2.png",
+        "created_at": "2023-12-02T11:28:14.513Z",
+        "cooked": "<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"t7jChl1isV8\" data-video-title=\"The Story of Rock Drilling\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=t7jChl1isV8\" target=\"_blank\" rel=\"noopener nofollow ugc\">\n    <img class=\"youtube-thumbnail\" src=\"https://global.discourse-cdn.com/eveonline/original/4X/a/7/3/a7331b9410ddb3a4c85d62f8508de69cfcd219e7.jpeg\" title=\"The Story of Rock Drilling\" data-dominant-color=\"838383\" width=\"690\" height=\"388\">\n  </a>\n</div>\n",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2023-12-02T11:28:14.513Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 142,
+        "readers_count": 141,
+        "score": 88.4,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "Josie McMiner",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://www.youtube.com/watch?v=t7jChl1isV8",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 4
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 190635,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/3",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 4
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 4,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2445334,
+        "name": "Calamity Unleashed",
+        "username": "Calamity_Unleashed",
+        "avatar_template": "/user_avatar/forums.eveonline.com/calamity_unleashed/{size}/413414_2.png",
+        "created_at": "2023-12-13T19:16:14.411Z",
+        "cooked": "<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"zSZBdnq3chc\" data-video-title=\"EXOPLANETS | Journey to «Other Worlds». Documentary Film\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=zSZBdnq3chc\" target=\"_blank\" rel=\"noopener nofollow ugc\">\n    <img class=\"youtube-thumbnail\" src=\"https://global.discourse-cdn.com/eveonline/original/4X/c/7/e/c7ea157fc45e2a87b6c4700257f36e6f97fde561.jpeg\" title=\"EXOPLANETS | Journey to «Other Worlds». Documentary Film\" data-dominant-color=\"284559\" width=\"690\" height=\"388\">\n  </a>\n</div>\n",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2023-12-13T19:16:14.411Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 4,
+        "reads": 128,
+        "readers_count": 127,
+        "score": 110.6,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "Calamity Unleashed",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://www.youtube.com/watch?v=zSZBdnq3chc",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 4
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 190621,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/4",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 4
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 4,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2451517,
+        "name": "Calamity Unleashed",
+        "username": "Calamity_Unleashed",
+        "avatar_template": "/user_avatar/forums.eveonline.com/calamity_unleashed/{size}/413414_2.png",
+        "created_at": "2023-12-23T07:16:34.053Z",
+        "cooked": "<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"uQvZuSQVXGc\" data-video-title=\"Timeline of Failure - The SHOCKING Outcome\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=uQvZuSQVXGc\" target=\"_blank\" rel=\"noopener nofollow ugc\">\n    <img class=\"youtube-thumbnail\" src=\"https://global.discourse-cdn.com/eveonline/original/4X/4/f/6/4f623b727ea916907473ae6b79387a1480545a2d.jpeg\" title=\"Timeline of Failure - The SHOCKING Outcome\" data-dominant-color=\"92916F\" width=\"690\" height=\"388\">\n  </a>\n</div>\n\n<p>( love that guy <span class=\"mention\">@03</span>:23 )</p>",
+        "post_number": 5,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2023-12-23T07:16:34.053Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 112,
+        "readers_count": 111,
+        "score": 57.4,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "Calamity Unleashed",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://www.youtube.com/watch?v=uQvZuSQVXGc",
+            "internal": false,
+            "reflection": false,
+            "clicks": 1
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 190621,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/5",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 2
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 2,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2452163,
+        "name": "DrysonBennington",
+        "username": "DrysonBennington",
+        "avatar_template": "/user_avatar/forums.eveonline.com/drysonbennington/{size}/501369_2.png",
+        "created_at": "2023-12-24T15:06:47.411Z",
+        "cooked": "<p>Have astronomers found any life on the Kepler planets yet?</p>\n<p>The Dark Crystal - Awesome puppet animation movie.</p>\n<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"95EjzhSiP_o\" data-video-title=\"The Dark Crystal\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=95EjzhSiP_o\" target=\"_blank\" rel=\"noopener nofollow ugc\">\n    <img class=\"youtube-thumbnail\" src=\"https://global.discourse-cdn.com/eveonline/original/4X/a/e/f/aef3acfcda5827fde23a01ffb4a15d304b1cf365.jpeg\" title=\"The Dark Crystal\" data-dominant-color=\"54432B\" width=\"690\" height=\"388\">\n  </a>\n</div>\n\n<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"8yrUMPpG8GU\" data-video-title=\"Reflections of The Dark Crystal: Shard of Illusion\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=8yrUMPpG8GU\" target=\"_blank\" rel=\"noopener nofollow ugc\">\n    <img class=\"youtube-thumbnail\" src=\"https://global.discourse-cdn.com/eveonline/original/4X/9/1/4/91412328d6767d47f2da41c2c7eebea29f37b9b3.jpeg\" title=\"Reflections of The Dark Crystal: Shard of Illusion\" data-dominant-color=\"372B21\" width=\"480\" height=\"360\">\n  </a>\n</div>\n",
+        "post_number": 6,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2023-12-24T15:06:47.411Z",
+        "reply_count": 2,
+        "reply_to_post_number": 4,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 96,
+        "readers_count": 95,
+        "score": 74.2,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "DrysonBennington",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://www.youtube.com/watch?v=95EjzhSiP_o",
+            "internal": false,
+            "reflection": false,
+            "clicks": 1
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=8yrUMPpG8GU",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 190621,
+          "username": "Calamity_Unleashed",
+          "name": "Calamity Unleashed",
+          "avatar_template": "/user_avatar/forums.eveonline.com/calamity_unleashed/{size}/413414_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4948,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/6",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 3
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 3,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2452368,
+        "name": "Calamity Unleashed",
+        "username": "Calamity_Unleashed",
+        "avatar_template": "/user_avatar/forums.eveonline.com/calamity_unleashed/{size}/413414_2.png",
+        "created_at": "2023-12-24T22:09:32.407Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"DrysonBennington\" data-post=\"6\" data-topic=\"429811\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://sea1.discourse-cdn.com/eveonline/user_avatar/forums.eveonline.com/drysonbennington/48/501369_2.png\" class=\"avatar\"> DrysonBennington:</div>\n<blockquote>\n<p>Have astronomers found any life on the Kepler planets yet?</p>\n</blockquote>\n</aside>\n<p>“Astronomers say that the planet is in the “Goldilocks zone”, meaning that the distance of the planet from its star is just right, making it not too hot and not too cold for life to exist.”</p>\n<p>They haven’t said anything about finding life on any of Kepler planets but if their theory on Goldilock zone is correct then there is life on at least one of them. We probably can’t see it because we’re too far… and we’ll probably never know.</p>\n<p>I remember going to the theater to watch Dark Crystal. It was amazing.</p>\n<hr>\n<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"DUAHqrdIAz8\" data-video-title=\"The Scary Parallels Between The Great Depression And Today | When the World Breaks | Real History\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=DUAHqrdIAz8\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener nofollow ugc\">\n    <img class=\"youtube-thumbnail\" src=\"https://global.discourse-cdn.com/eveonline/original/4X/7/e/c/7ec2f2a2f8602fbd2629a7fc9118529c858127b2.jpeg\" title=\"The Scary Parallels Between The Great Depression And Today | When the World Breaks | Real History\" data-dominant-color=\"818083\" width=\"690\" height=\"388\">\n  </a>\n</div>\n",
+        "post_number": 7,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2023-12-25T03:24:56.274Z",
+        "reply_count": 1,
+        "reply_to_post_number": 6,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 83,
+        "readers_count": 82,
+        "score": 81.6,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "Calamity Unleashed",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://www.youtube.com/watch?v=DUAHqrdIAz8",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 4
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 190621,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/7",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 4
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 4,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2455300,
+        "name": "Iceacid Frostpacker",
+        "username": "Iceacid_Frostpacker",
+        "avatar_template": "/user_avatar/forums.eveonline.com/iceacid_frostpacker/{size}/505689_2.png",
+        "created_at": "2023-12-29T23:39:52.165Z",
+        "cooked": "<p>The Womans Tennis Channel 9 Sydney, Australia</p>\n<p>They even have biceps. <img src=\"https://emoji.discourse-cdn.com/twitter/upside_down_face.png?v=12\" title=\":upside_down_face:\" class=\"emoji\" alt=\":upside_down_face:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n<p>/think it’s called Woman’s Tennis Australia Tour</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2023-12-29T23:54:18.811Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 74,
+        "readers_count": 73,
+        "score": 29.8,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "Iceacid Frostpacker",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 56427,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/8",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2455485,
+        "name": "Yiole Gionglao",
+        "username": "Yiole_Gionglao",
+        "avatar_template": "/user_avatar/forums.eveonline.com/yiole_gionglao/{size}/374866_2.png",
+        "created_at": "2023-12-30T11:43:37.126Z",
+        "cooked": "<p>An oldie, of course. <img src=\"https://emoji.discourse-cdn.com/twitter/tipping_hand_woman/2.png?v=12\" title=\":tipping_hand_woman:t2:\" class=\"emoji\" alt=\":tipping_hand_woman:t2:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"FQRIjzW-kg0\" data-video-title=\"Test Alliance - Lasers Are Magic\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=FQRIjzW-kg0\" target=\"_blank\" rel=\"noopener nofollow ugc\">\n    <img class=\"youtube-thumbnail\" src=\"https://global.discourse-cdn.com/eveonline/original/4X/1/d/4/1d4dae7dc7acd759ead38b1ff618b23707306338.jpeg\" title=\"Test Alliance - Lasers Are Magic\" data-dominant-color=\"322F25\" width=\"690\" height=\"388\">\n  </a>\n</div>\n\n<p>With bonus: original music by courtesy of Ishtanchuk’s library</p>\n<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"Q1WHXkqlu1Y\" data-video-title=\"Alex S - Party With Pinkie\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=Q1WHXkqlu1Y\" target=\"_blank\" rel=\"noopener nofollow ugc\">\n    <img class=\"youtube-thumbnail\" src=\"https://global.discourse-cdn.com/eveonline/original/4X/e/4/4/e44ef40fda641082850e590527e30b1dfef58e0c.jpeg\" title=\"Alex S - Party With Pinkie\" data-dominant-color=\"7A4C62\" width=\"690\" height=\"388\">\n  </a>\n</div>\n",
+        "post_number": 9,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2023-12-30T11:43:37.126Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 72,
+        "readers_count": 71,
+        "score": 59.4,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "Yiole Gionglao",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://www.youtube.com/watch?v=FQRIjzW-kg0",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Q1WHXkqlu1Y",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 707,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/9",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 3
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 3,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2455487,
+        "name": "Calamity Unleashed",
+        "username": "Calamity_Unleashed",
+        "avatar_template": "/user_avatar/forums.eveonline.com/calamity_unleashed/{size}/413414_2.png",
+        "created_at": "2023-12-30T11:47:05.475Z",
+        "cooked": "<p>Better than paying for a seat at a theater.</p>\n<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"QJR-irXKiyc\" data-video-title=\"Mass Effect: Andromeda — Game Movie (Main Story / All Cutscenes / No Hud)\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=QJR-irXKiyc\" target=\"_blank\" rel=\"noopener nofollow ugc\">\n    <img class=\"youtube-thumbnail\" src=\"https://global.discourse-cdn.com/eveonline/original/4X/5/a/7/5a7898bb10d3bb6cac0966512252251da32c3861.jpeg\" title=\"Mass Effect: Andromeda — Game Movie (Main Story / All Cutscenes / No Hud)\" data-dominant-color=\"202125\" width=\"480\" height=\"360\">\n  </a>\n</div>\n",
+        "post_number": 10,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2023-12-30T11:47:05.475Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 71,
+        "readers_count": 70,
+        "score": 59.2,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "Calamity Unleashed",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://www.youtube.com/watch?v=QJR-irXKiyc",
+            "internal": false,
+            "reflection": false,
+            "clicks": 1
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 190621,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/10",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 3
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 3,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2456883,
+        "name": "Calamity Unleashed",
+        "username": "Calamity_Unleashed",
+        "avatar_template": "/user_avatar/forums.eveonline.com/calamity_unleashed/{size}/413414_2.png",
+        "created_at": "2024-01-02T03:33:33.508Z",
+        "cooked": "<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"RL74Jb4OU9U\" data-video-title=\"TIMELAPSE OF FUTURE SPACECRAFT: 2025 - 3000+\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=RL74Jb4OU9U\" target=\"_blank\" rel=\"noopener nofollow ugc\">\n    <img class=\"youtube-thumbnail\" src=\"https://global.discourse-cdn.com/eveonline/original/4X/a/0/c/a0c13c10158f6feea435c940b8fc35627131b4de.jpeg\" title=\"TIMELAPSE OF FUTURE SPACECRAFT: 2025 - 3000+\" data-dominant-color=\"D0C3C0\" width=\"690\" height=\"388\">\n  </a>\n</div>\n",
+        "post_number": 11,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2024-01-02T03:33:33.508Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 69,
+        "readers_count": 68,
+        "score": 58.8,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "Calamity Unleashed",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://www.youtube.com/watch?v=RL74Jb4OU9U",
+            "internal": false,
+            "reflection": false,
+            "clicks": 1
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 190621,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/11",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 3
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 3,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2458034,
+        "name": "DrysonBennington",
+        "username": "DrysonBennington",
+        "avatar_template": "/user_avatar/forums.eveonline.com/drysonbennington/{size}/501369_2.png",
+        "created_at": "2024-01-03T23:43:43.889Z",
+        "cooked": "<p>The Kepler planets are the ones really close together or was the Gliese planets?</p>\n<p>I think that the string of planets that are very close together would create a very interesting biome exchange. If the atmospheres came close enough, Tardigrades should be able to migrate from each planet very easily given the Tardigrades resistence to heat and be able to desicate for many months.</p>",
+        "post_number": 12,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2024-01-03T23:43:43.889Z",
+        "reply_count": 2,
+        "reply_to_post_number": 7,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 62,
+        "readers_count": 61,
+        "score": 52.4,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "DrysonBennington",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 190621,
+          "username": "Calamity_Unleashed",
+          "name": "Calamity Unleashed",
+          "avatar_template": "/user_avatar/forums.eveonline.com/calamity_unleashed/{size}/413414_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4948,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/12",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 2
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 2,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2458129,
+        "name": "Calamity Unleashed",
+        "username": "Calamity_Unleashed",
+        "avatar_template": "/user_avatar/forums.eveonline.com/calamity_unleashed/{size}/413414_2.png",
+        "created_at": "2024-01-04T03:42:39.503Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"DrysonBennington\" data-post=\"12\" data-topic=\"429811\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://sea1.discourse-cdn.com/eveonline/user_avatar/forums.eveonline.com/drysonbennington/48/501369_2.png\" class=\"avatar\"> DrysonBennington:</div>\n<blockquote>\n<p>Gliese planets</p>\n</blockquote>\n</aside>\n<p>“The Gliese 581 planetary system now has four known planets, with masses of about 1.9 (planet e, left in the foreground), 16 (planet b, nearest to the star), 5 (planet c, centre), and 7 Earth-masses (planet d, with the bluish colour).”<br>\nDepends what you call “close together”.</p>\n<p>“As of June 16 2023, the Kepler space telescope and its follow-up observations have detected 2,778 confirmed planets, including hot Jupiters, super-Earths, circumbinary planets, and planets located in the circumstellar habitable zones of their host stars.” Those planets aren’t necessarily located in the same solar system.</p>",
+        "post_number": 13,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2024-01-04T03:42:39.503Z",
+        "reply_count": 0,
+        "reply_to_post_number": 6,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 61,
+        "readers_count": 60,
+        "score": 42.2,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "Calamity Unleashed",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 4948,
+          "username": "DrysonBennington",
+          "name": "DrysonBennington",
+          "avatar_template": "/user_avatar/forums.eveonline.com/drysonbennington/{size}/501369_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 190621,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/13",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 2
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 2,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2458611,
+        "name": "Calamity Unleashed",
+        "username": "Calamity_Unleashed",
+        "avatar_template": "/user_avatar/forums.eveonline.com/calamity_unleashed/{size}/413414_2.png",
+        "created_at": "2024-01-04T23:35:03.786Z",
+        "cooked": "<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"-Qg1BDF-oyo\" data-video-title=\"The Most Exciting Thing Webb Saw Near The Edge Of The Cosmos\" data-video-start-time=\"322s\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=-Qg1BDF-oyo&amp;t=322s\" target=\"_blank\" rel=\"noopener nofollow ugc\">\n    <img class=\"youtube-thumbnail\" src=\"https://global.discourse-cdn.com/eveonline/original/4X/0/1/9/0190c3c15e6c2ba3a2145d186c1034f995ca3d07.jpeg\" title=\"The Most Exciting Thing Webb Saw Near The Edge Of The Cosmos\" data-dominant-color=\"302D48\" width=\"690\" height=\"388\">\n  </a>\n</div>\n",
+        "post_number": 14,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2024-01-04T23:35:03.786Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 57,
+        "readers_count": 56,
+        "score": 56.4,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "Calamity Unleashed",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://www.youtube.com/watch?v=-Qg1BDF-oyo&t=322s",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=-Qg1BDF-oyo",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 190621,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/14",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 3
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 3,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2459246,
+        "name": "DrysonBennington",
+        "username": "DrysonBennington",
+        "avatar_template": "/user_avatar/forums.eveonline.com/drysonbennington/{size}/501369_2.png",
+        "created_at": "2024-01-06T02:52:44.182Z",
+        "cooked": "<p>Would anyone be interested in watching a modern movie that involves pre-historic people experiencing magic mushrooms while dinosaurs roamed the Earth?</p>",
+        "post_number": 15,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2024-01-06T02:52:44.182Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 53,
+        "readers_count": 52,
+        "score": 50.6,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "DrysonBennington",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4948,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/15",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 2
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 2,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2459323,
+        "name": "Calamity Unleashed",
+        "username": "Calamity_Unleashed",
+        "avatar_template": "/user_avatar/forums.eveonline.com/calamity_unleashed/{size}/413414_2.png",
+        "created_at": "2024-01-06T06:58:19.525Z",
+        "cooked": "<p>Of course, as long as some of the prehistoric people get eaten jurassic park style.</p>",
+        "post_number": 16,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2024-01-06T06:58:19.525Z",
+        "reply_count": 1,
+        "reply_to_post_number": 12,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 53,
+        "readers_count": 52,
+        "score": 45.6,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "Calamity Unleashed",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 4948,
+          "username": "DrysonBennington",
+          "name": "DrysonBennington",
+          "avatar_template": "/user_avatar/forums.eveonline.com/drysonbennington/{size}/501369_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 190621,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/16",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 2
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 2,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2459954,
+        "name": "Nana Skalski",
+        "username": "Nana_Skalski",
+        "avatar_template": "/user_avatar/forums.eveonline.com/nana_skalski/{size}/489985_2.png",
+        "created_at": "2024-01-07T10:56:07.923Z",
+        "cooked": "<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"KCn3l4tbd9A\" data-video-title=\"The Fake (and real) History of Potato Chips\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=KCn3l4tbd9A\" target=\"_blank\" rel=\"noopener nofollow ugc\">\n    <img class=\"youtube-thumbnail\" src=\"https://global.discourse-cdn.com/eveonline/original/4X/4/9/5/495acba790b82c56b8b6f33f165920574a6fc2a0.jpeg\" title=\"The Fake (and real) History of Potato Chips\" data-dominant-color=\"997544\" width=\"690\" height=\"388\">\n  </a>\n</div>\n<p>\nPOTATO CHIPS<br>\n<div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://global.discourse-cdn.com/eveonline/original/4X/9/b/a/9bac4eb29f4a8ec287c9a90d947f394f76af6e38.jpeg\" data-download-href=\"/uploads/short-url/md9aQ7wZNjj9o6fn8RU9BdQX5eU.jpeg?dl=1\" title=\"\" rel=\"noopener nofollow ugc\"><img src=\"https://global.discourse-cdn.com/eveonline/optimized/4X/9/b/a/9bac4eb29f4a8ec287c9a90d947f394f76af6e38_2_375x499.jpeg\" alt=\"\" data-base62-sha1=\"md9aQ7wZNjj9o6fn8RU9BdQX5eU\" role=\"presentation\" width=\"375\" height=\"499\" srcset=\"https://global.discourse-cdn.com/eveonline/optimized/4X/9/b/a/9bac4eb29f4a8ec287c9a90d947f394f76af6e38_2_375x499.jpeg, https://global.discourse-cdn.com/eveonline/optimized/4X/9/b/a/9bac4eb29f4a8ec287c9a90d947f394f76af6e38_2_562x748.jpeg 1.5x, https://global.discourse-cdn.com/eveonline/optimized/4X/9/b/a/9bac4eb29f4a8ec287c9a90d947f394f76af6e38_2_750x998.jpeg 2x\" data-dominant-color=\"E9D7B6\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\"></span><span class=\"informations\">1002×1334 222 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>",
+        "post_number": 17,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2024-01-07T10:58:13.215Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 56,
+        "readers_count": 55,
+        "score": 76.2,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "Nana Skalski",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://www.youtube.com/watch?v=KCn3l4tbd9A",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          },
+          {
+            "url": "https://global.discourse-cdn.com/eveonline/original/4X/9/b/a/9bac4eb29f4a8ec287c9a90d947f394f76af6e38.jpeg",
+            "internal": false,
+            "reflection": false,
+            "title": "9bac4eb29f4a8ec287c9a90d947f394f76af6e38.jpeg",
+            "clicks": 0
+          }
+        ],
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 4
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 325,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "downloaded local copies of images",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/17",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 4
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 4,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2460253,
+        "name": "Ian Morbius",
+        "username": "Ian_Morbius",
+        "avatar_template": "/user_avatar/forums.eveonline.com/ian_morbius/{size}/476592_2.png",
+        "created_at": "2024-01-07T19:49:01.183Z",
+        "cooked": "<p>Ten hours of white noise.</p>",
+        "post_number": 18,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2024-01-07T19:49:01.183Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 52,
+        "readers_count": 51,
+        "score": 25.4,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "Ian Morbius",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1759,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/18",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2460354,
+        "name": "Yiole Gionglao",
+        "username": "Yiole_Gionglao",
+        "avatar_template": "/user_avatar/forums.eveonline.com/yiole_gionglao/{size}/374866_2.png",
+        "created_at": "2024-01-07T22:48:24.278Z",
+        "cooked": "<p>That’s one fascinating video… and now I kind of fancy some fried potatoes (not crisps, not chips, in Spanish they’re just called fried potatoes). BOTH french fries and potato chips are called the same, but then french fries are always made to the order and potato chips ara always manufactured and sold in bags/packages so it’s difficult to mix them up unless you expect a restaurant to deliver chips not french fries, but then they’re called (a-ha!) “bag potatoes” (and then nobody expects a restarurant to sell raw potatoes in a bag). Although it’s not the same bag potatoes (<em>patatas de bolsa</em>) than a bag of potatoes (<em>una bolsa de patatas</em>) than a bag of bag potatoes (<em>una bolsa de patatas de bolsa</em>).</p>\n<p>And now I wonder why I am talking about this… <img src=\"https://emoji.discourse-cdn.com/twitter/woman_shrugging/2.png?v=12\" title=\":woman_shrugging:t2:\" class=\"emoji\" alt=\":woman_shrugging:t2:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n<p>(in a next episode, the Spanish concept of <em>“patatas bravas”</em>, a staple of bar food)</p>",
+        "post_number": 19,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2024-01-07T22:48:58.819Z",
+        "reply_count": 0,
+        "reply_to_post_number": 17,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 55,
+        "readers_count": 54,
+        "score": 56.0,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "Yiole Gionglao",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 325,
+          "username": "Nana_Skalski",
+          "name": "Nana Skalski",
+          "avatar_template": "/user_avatar/forums.eveonline.com/nana_skalski/{size}/489985_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 707,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/19",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 3
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 3,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2460564,
+        "name": "Nana Skalski",
+        "username": "Nana_Skalski",
+        "avatar_template": "/user_avatar/forums.eveonline.com/nana_skalski/{size}/489985_2.png",
+        "created_at": "2024-01-08T10:42:13.779Z",
+        "cooked": "<p>“<em>In a race for domination, the Continental Alliance’s ambition leads to the uninhibited exploitation of planet Solstice-5. As they construct unstoppable autonomous factories, the Alliance’s insatiable quest for power leaves behind a forsaken workforce in a world spiraling out of control.</em>”</p><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"cntb3wcZdTw\" data-video-title=\"SOLSTICE - 5\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=cntb3wcZdTw\" target=\"_blank\" rel=\"noopener nofollow ugc\">\n    <img class=\"youtube-thumbnail\" src=\"https://global.discourse-cdn.com/eveonline/original/4X/e/f/d/efd4fd1f08cb1744d6cc17789aeef83d8284503c.jpeg\" title=\"SOLSTICE - 5\" data-dominant-color=\"38332C\" width=\"480\" height=\"360\">\n  </a>\n</div>\n<p>\nMegastructures.  <img src=\"https://emoji.discourse-cdn.com/twitter/eyes.png?v=12\" title=\":eyes:\" class=\"emoji\" alt=\":eyes:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+        "post_number": 20,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2024-01-08T10:43:24.241Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 55,
+        "readers_count": 54,
+        "score": 61.0,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "Nana Skalski",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://www.youtube.com/watch?v=cntb3wcZdTw",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          }
+        ],
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 325,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/20",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 3
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 3,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2732764,
+        "name": "Yiole Gionglao",
+        "username": "Yiole_Gionglao",
+        "avatar_template": "/user_avatar/forums.eveonline.com/yiole_gionglao/{size}/374866_2.png",
+        "created_at": "2025-06-09T21:51:19.553Z",
+        "cooked": "<p>The thing with SF combat ships is that we don’t really know if they will ever exist. War in space will be related to economy in space and that is a far stretch from now.</p>\n<p>Navy ships grew larger in order to carry bigger guns which also meant they would be hit harder which meant they got extra armor, but that only worked for a few decades and nowadays neither guns nor armor are a thing in navy ships. “Sea dominance” is not much of a thing neither, compared to “air dominance”, so, what will the future bring? Probably not combat spaceships.</p>\n<p>SF ships make for cool stories, but as reality goes, so far there’s not even a credible reason to even have a spacefaring economy, let alone a reason to fight for “space dominance”, prevent an enemy from using space for their economy or against yours.</p>\n<p>The cheapest metal is not the one you go and mine from an asteroid, rather the one you don’t use. And if you absolutely and completely must use metal… at one point it might be cheaper to dig them from abandoned landfills rather than go to space and spend the horrendous amount of energy involved in moving through gravity wells. Maybe even just go and gather minerals from seawater might be cheaper than send stuff to space and back, accelerate it all the way to 11 km/s and then back to 0 just to begin with… then even faster to change orbits… and why? There’s nothing habitable out there. No place were our survival hasn’t to be pulled out from the jaws of death, continuously and forever.</p>\n<p>I… I wonder whether space will ever be a place for Mankind. It’s there and we look at it, wondering… but, is the price right?</p>",
+        "post_number": 344,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2025-06-09T21:51:19.553Z",
+        "reply_count": 0,
+        "reply_to_post_number": 343,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 13,
+        "readers_count": 12,
+        "score": 32.6,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "Yiole Gionglao",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 208490,
+          "username": "DeMichelle_Geniale",
+          "name": "DeMichelle Geniale",
+          "avatar_template": "/user_avatar/forums.eveonline.com/demichelle_geniale/{size}/450875_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 707,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/344",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 2
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 2,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2733934,
+        "name": "DeMichelle Geniale",
+        "username": "DeMichelle_Geniale",
+        "avatar_template": "/user_avatar/forums.eveonline.com/demichelle_geniale/{size}/450875_2.png",
+        "created_at": "2025-06-11T10:15:36.655Z",
+        "cooked": "<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"a9rn-ATHoHA\" data-video-title=\"How LinkedIn Destroyed The Labor Market\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=a9rn-ATHoHA\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://global.discourse-cdn.com/eveonline/original/4X/c/6/8/c684c51d00aef5e08c2f15085857891194ad9ddb.jpeg\" title=\"How LinkedIn Destroyed The Labor Market\" data-dominant-color=\"AFA6A6\" width=\"690\" height=\"388\">\n  </a>\n</div>\n",
+        "post_number": 345,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2025-06-11T10:15:36.655Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 12,
+        "readers_count": 11,
+        "score": 7.4,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "DeMichelle Geniale",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://www.youtube.com/watch?v=a9rn-ATHoHA",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          }
+        ],
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 208490,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/345",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2734068,
+        "name": "Lydra Victor",
+        "username": "Lydra_Victor",
+        "avatar_template": "/user_avatar/forums.eveonline.com/lydra_victor/{size}/456813_2.png",
+        "created_at": "2025-06-11T12:43:51.681Z",
+        "cooked": "<p>edited wrong thread</p>",
+        "post_number": 346,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2025-06-11T12:50:44.689Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 14,
+        "readers_count": 13,
+        "score": 2.8,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "Lydra Victor",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 210260,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/346",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2735893,
+        "name": "Chad Frostpacker",
+        "username": "Chad_Frostpacker",
+        "avatar_template": "/user_avatar/forums.eveonline.com/chad_frostpacker/{size}/504356_2.png",
+        "created_at": "2025-06-14T05:09:45.610Z",
+        "cooked": "<p>Right now I am watching MacGyver versus Mythbusters</p>\n<p>Who likes both series?</p>\n<p>/<br>\nMy favourite is always the Myth Busters Mailbag Special  where the general public get to send in their myths.</p>",
+        "post_number": 347,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2025-06-14T05:25:04.241Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 4,
+        "reads": 14,
+        "readers_count": 13,
+        "score": 37.8,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "Chad Frostpacker",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 169023,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/347",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2735958,
+        "name": "DeMichelle Geniale",
+        "username": "DeMichelle_Geniale",
+        "avatar_template": "/user_avatar/forums.eveonline.com/demichelle_geniale/{size}/450875_2.png",
+        "created_at": "2025-06-14T08:57:59.554Z",
+        "cooked": "<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"EtNagNezo8w\" data-video-title=\"Two AI agents on a phone call realize they’re both AI and switch to a superior audio signal ggwave\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=EtNagNezo8w\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://global.discourse-cdn.com/eveonline/original/4X/1/f/6/1f6b1fb7896f2010eab9d6ef6659402967360848.jpeg\" title=\"Two AI agents on a phone call realize they’re both AI and switch to a superior audio signal ggwave\" data-dominant-color=\"493C36\" width=\"690\" height=\"388\">\n  </a>\n</div>\n",
+        "post_number": 348,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2025-06-14T08:57:59.554Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 14,
+        "readers_count": 13,
+        "score": 22.8,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "DeMichelle Geniale",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://www.youtube.com/watch?v=EtNagNezo8w",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          }
+        ],
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 208490,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/348",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2736451,
+        "name": "Yiole Gionglao",
+        "username": "Yiole_Gionglao",
+        "avatar_template": "/user_avatar/forums.eveonline.com/yiole_gionglao/{size}/374866_2.png",
+        "created_at": "2025-06-15T09:49:22.010Z",
+        "cooked": "<p>The video is a half truth… as in it is real, but also is a demo of GibberLink protocol, not an actual interaction between two AI agents in the wild.</p>\n<p>Also, I wouldn’t trust an AI agent to deal with booking 150 guests on its own, neither as a hotel nor as an agent. Like, not in our universe and this side of stupid, sorry.</p>\n<p>There is a reason why dealing with large groups of people is a specialyzed career, and it is the same reason why photographing pets and toddlers is a specialyzed career: the customer is a nightmare to work with even in the best cases, and the best cases are known as miracles you will talk about to your granchildren.</p>",
+        "post_number": 349,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2025-06-15T09:49:58.028Z",
+        "reply_count": 0,
+        "reply_to_post_number": 348,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 17,
+        "readers_count": 16,
+        "score": 53.4,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "Yiole Gionglao",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 208490,
+          "username": "DeMichelle_Geniale",
+          "name": "DeMichelle Geniale",
+          "avatar_template": "/user_avatar/forums.eveonline.com/demichelle_geniale/{size}/450875_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 707,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/349",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 3
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 3,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2736614,
+        "name": "Yiole Gionglao",
+        "username": "Yiole_Gionglao",
+        "avatar_template": "/user_avatar/forums.eveonline.com/yiole_gionglao/{size}/374866_2.png",
+        "created_at": "2025-06-15T16:12:57.818Z",
+        "cooked": "<p>Youtube will suggest the weirdest things. And oh my what things does it bring to my plate…</p>\n<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"lNiXbcQTnn4\" data-video-title=\"The Evil Business of The Aviator Game!\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=lNiXbcQTnn4\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener nofollow ugc\">\n    <img class=\"youtube-thumbnail\" src=\"https://global.discourse-cdn.com/eveonline/original/4X/a/c/0/ac033fe052c525ec72fbf61b5206069a5898750b.jpeg\" title=\"The Evil Business of The Aviator Game!\" data-dominant-color=\"5A4B2F\" width=\"690\" height=\"388\">\n  </a>\n</div>\n\n<p>Frankly, I’m not sure the game is even available in the EU but this Kenyan video about Aviator’s situation in Kenya is quite a telling tale.</p>\n<p>BTW, 1,000 Kenyan shlling = 6.4 euros</p>",
+        "post_number": 350,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2025-06-15T16:12:57.818Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 17,
+        "readers_count": 16,
+        "score": 3.4,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "Yiole Gionglao",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://www.youtube.com/watch?v=lNiXbcQTnn4",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 707,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/350",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2736926,
+        "name": "Salartarium",
+        "username": "Salartarium",
+        "avatar_template": "/user_avatar/forums.eveonline.com/salartarium/{size}/468818_2.png",
+        "created_at": "2025-06-16T06:21:25.927Z",
+        "cooked": "<aside class=\"onebox allowlistedgeneric\" data-onebox-src=\"https://tv.apple.com/us/show/hijack/umc.cmc.1dg08zn0g3zx52hs8npoj5qe3\">\n  <header class=\"source\">\n      <img src=\"https://global.discourse-cdn.com/eveonline/original/4X/e/b/1/eb1717867d242df6f39fcc1ebffcd8232556b5e2.png\" class=\"site-icon\" data-dominant-color=\"404040\" width=\"32\" height=\"32\">\n\n      <a href=\"https://tv.apple.com/us/show/hijack/umc.cmc.1dg08zn0g3zx52hs8npoj5qe3\" target=\"_blank\" rel=\"noopener\">Apple&nbsp;TV</a>\n  </header>\n\n  <article class=\"onebox-body\">\n    <div class=\"aspect-image\" style=\"--aspect-ratio:690/387;\"><img src=\"https://global.discourse-cdn.com/eveonline/optimized/4X/9/2/f/92f01ba494d2099a204bc0b65e7b359a65613e5d_2_690x388.jpeg\" class=\"thumbnail\" data-dominant-color=\"232B2B\" width=\"690\" height=\"388\"></div>\n\n<h3><a href=\"https://tv.apple.com/us/show/hijack/umc.cmc.1dg08zn0g3zx52hs8npoj5qe3\" target=\"_blank\" rel=\"noopener\">Watch Hijack - Show - Apple TV+</a></h3>\n\n  <p>Watch Hijack, a thriller following a hijacked flight from London to Dubai. Starring Idris Elba, Neil Maskell, and Eve Myles. Streaming on Apple TV+.</p>\n\n\n  </article>\n\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n\n  <div style=\"clear: both\"></div>\n</aside>\n",
+        "post_number": 351,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2025-06-16T06:21:25.927Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 16,
+        "readers_count": 15,
+        "score": 33.2,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "Salartarium",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://tv.apple.com/us/show/hijack/umc.cmc.1dg08zn0g3zx52hs8npoj5qe3",
+            "internal": false,
+            "reflection": false,
+            "title": "‎Watch Hijack - Show - Apple TV+",
+            "clicks": 1
+          }
+        ],
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 152815,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/351",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 2
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 2,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2736975,
+        "name": "Uriel the Flame",
+        "username": "Uriel_the_Flame",
+        "avatar_template": "/user_avatar/forums.eveonline.com/uriel_the_flame/{size}/490165_2.png",
+        "created_at": "2025-06-16T08:47:23.106Z",
+        "cooked": "<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"EV-k5DHaoJU\" data-video-title=\"Production Hell - Heaven's Gate\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=EV-k5DHaoJU\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://global.discourse-cdn.com/eveonline/original/4X/5/5/b/55b6704ae4660d198adf60d0872f5704d031ccb0.jpeg\" title=\"Production Hell - Heaven's Gate\" data-dominant-color=\"9D7D45\" width=\"480\" height=\"360\">\n  </a>\n</div>\n",
+        "post_number": 352,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2025-06-16T08:47:23.106Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 16,
+        "readers_count": 15,
+        "score": 3.2,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "Uriel the Flame",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://www.youtube.com/watch?v=EV-k5DHaoJU",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          }
+        ],
+        "read": true,
+        "user_title": "Veteran",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5605,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/352",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2737627,
+        "name": "Chad Frostpacker",
+        "username": "Chad_Frostpacker",
+        "avatar_template": "/user_avatar/forums.eveonline.com/chad_frostpacker/{size}/504356_2.png",
+        "created_at": "2025-06-17T07:36:53.204Z",
+        "cooked": "<p>Bob the Butler</p>",
+        "post_number": 353,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2025-06-17T07:36:53.204Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 15,
+        "readers_count": 14,
+        "score": 8.0,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "Chad Frostpacker",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 169023,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/353",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2738271,
+        "name": "DeMichelle Geniale",
+        "username": "DeMichelle_Geniale",
+        "avatar_template": "/user_avatar/forums.eveonline.com/demichelle_geniale/{size}/450875_2.png",
+        "created_at": "2025-06-18T07:29:20.745Z",
+        "cooked": "<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"gwQ2cIoJBqQ\" data-video-title=\"Big Budget AAA Gaming Has Collapsed.\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=gwQ2cIoJBqQ\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://global.discourse-cdn.com/eveonline/original/4X/e/b/3/eb34f6dab7387f1cdcd627a0db3f98a4d0f06d38.jpeg\" title=\"Big Budget AAA Gaming Has Collapsed.\" data-dominant-color=\"93706E\" width=\"690\" height=\"388\">\n  </a>\n</div>\n",
+        "post_number": 354,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2025-06-18T07:29:20.745Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 14,
+        "readers_count": 13,
+        "score": 7.8,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "DeMichelle Geniale",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://www.youtube.com/watch?v=gwQ2cIoJBqQ",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          }
+        ],
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 208490,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/354",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2738428,
+        "name": "Yiole Gionglao",
+        "username": "Yiole_Gionglao",
+        "avatar_template": "/user_avatar/forums.eveonline.com/yiole_gionglao/{size}/374866_2.png",
+        "created_at": "2025-06-18T15:17:49.969Z",
+        "cooked": "<p>Hmm… 4 minutes in and the guy still hasn’t stopped spewing alt right hatred without ever mentioning anything technical or design wise wrong with the games…</p>\n<p>So, “go woke and go broke”? F him and F the orange horse he rode on with this “you see, you go woke you go broke” drivel. It’s effin videogames butthole, players aren’t upset at wokeism or not even a black samurai in Japan, they are upset at BAD GAMING with premium price tag disguised as beloved franchises.</p>\n<p>When will everyone, left and right, learn that entertainment is about being entertained for your money? Good films are good no matter what, good games are good no matter what. And bad ones are bad, period.</p>\n<p>(And then there are opinions)</p>",
+        "post_number": 355,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2025-06-18T15:17:49.969Z",
+        "reply_count": 1,
+        "reply_to_post_number": 354,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 16,
+        "readers_count": 15,
+        "score": 8.2,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "Yiole Gionglao",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 208490,
+          "username": "DeMichelle_Geniale",
+          "name": "DeMichelle Geniale",
+          "avatar_template": "/user_avatar/forums.eveonline.com/demichelle_geniale/{size}/450875_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 707,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/355",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2738445,
+        "name": "DeMichelle Geniale",
+        "username": "DeMichelle_Geniale",
+        "avatar_template": "/user_avatar/forums.eveonline.com/demichelle_geniale/{size}/450875_2.png",
+        "created_at": "2025-06-18T16:11:28.722Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Yiole_Gionglao\" data-post=\"355\" data-topic=\"429811\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://sea1.discourse-cdn.com/eveonline/user_avatar/forums.eveonline.com/yiole_gionglao/48/374866_2.png\" class=\"avatar\"> Yiole Gionglao:</div>\n<blockquote>\n<p>Hmm… 4 minutes in and the guy still hasn’t stopped spewing alt right hatred without ever mentioning anything technical or design wise wrong with the games…</p>\n<p>So, “go woke and go broke”? F him and F the orange horse he rode on with this “you see, you go woke you go broke” drivel</p>\n</blockquote>\n</aside>\n<p>Yea, that’s YouTube for you, lots of different views not necessarily welcomed by all but I make abstraction and move past the lunacy.<br>\nI was more interested in the topic of how some game companies think about gamers - their customers. Apparently most of us live in caves and only come out for an RPG game. Others are so stupid that no matter what excrement is in the box they’ll buy it because it’s &lt;&lt; insert IP here&gt;&gt;…</p>\n<aside class=\"quote no-group\" data-username=\"Yiole_Gionglao\" data-post=\"355\" data-topic=\"429811\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://sea1.discourse-cdn.com/eveonline/user_avatar/forums.eveonline.com/yiole_gionglao/48/374866_2.png\" class=\"avatar\"> Yiole Gionglao:</div>\n<blockquote>\n<p>they are upset at BAD GAMING with premium price tag disguised as beloved franchises</p>\n</blockquote>\n</aside>\n<p>I agree. There’s a lot to be upset and maybe that’s why some recent AAA games flopped last year.</p>\n<aside class=\"quote no-group\" data-username=\"Yiole_Gionglao\" data-post=\"355\" data-topic=\"429811\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://sea1.discourse-cdn.com/eveonline/user_avatar/forums.eveonline.com/yiole_gionglao/48/374866_2.png\" class=\"avatar\"> Yiole Gionglao:</div>\n<blockquote>\n<p>When will everyone, left and right, learn that entertainment is about being entertained for your money?</p>\n</blockquote>\n</aside>\n<p>I don’t know. I’m neither on the left or the right. I’m not moved by the lies of corrupt politicians.</p>",
+        "post_number": 356,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2025-06-18T16:12:21.490Z",
+        "reply_count": 0,
+        "reply_to_post_number": 355,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 14,
+        "readers_count": 13,
+        "score": 2.8,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "DeMichelle Geniale",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 208490,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/356",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2739529,
+        "name": "DeMichelle Geniale",
+        "username": "DeMichelle_Geniale",
+        "avatar_template": "/user_avatar/forums.eveonline.com/demichelle_geniale/{size}/450875_2.png",
+        "created_at": "2025-06-20T10:03:03.403Z",
+        "cooked": "<p><strong>A.I in everyday applications:</strong></p>\n<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"eWgrvNHjKkY\" data-video-title=\"Total Recall - Johnny Cab\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=eWgrvNHjKkY\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://global.discourse-cdn.com/eveonline/original/4X/f/3/5/f35c4aed4bc6c958c75817c8d23e5f48ef25633d.jpeg\" title=\"Total Recall - Johnny Cab\" data-dominant-color=\"25272E\" width=\"480\" height=\"360\">\n  </a>\n</div>\n\n<p><img src=\"https://emoji.discourse-cdn.com/twitter/joy.png?v=14\" title=\":joy:\" class=\"emoji only-emoji\" alt=\":joy:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+        "post_number": 357,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2025-06-20T10:03:03.403Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 13,
+        "readers_count": 12,
+        "score": 7.6,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "DeMichelle Geniale",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://www.youtube.com/watch?v=eWgrvNHjKkY",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          }
+        ],
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 208490,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/357",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2739572,
+        "name": "Uriel the Flame",
+        "username": "Uriel_the_Flame",
+        "avatar_template": "/user_avatar/forums.eveonline.com/uriel_the_flame/{size}/490165_2.png",
+        "created_at": "2025-06-20T11:49:18.842Z",
+        "cooked": "<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"wunfHCvkZAg\" data-video-title=\"Being Kyle Katarn | Making Star Wars Jedi Knight: Dark Forces II\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=wunfHCvkZAg\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://global.discourse-cdn.com/eveonline/original/4X/d/7/9/d7988555861e4835f04adb59367670ef09d5c49f.jpeg\" title=\"Being Kyle Katarn | Making Star Wars Jedi Knight: Dark Forces II\" data-dominant-color=\"5F5231\" width=\"690\" height=\"388\">\n  </a>\n</div>\n",
+        "post_number": 358,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2025-06-20T11:49:18.842Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 14,
+        "readers_count": 13,
+        "score": 17.8,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "Uriel the Flame",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://www.youtube.com/watch?v=wunfHCvkZAg",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          }
+        ],
+        "read": true,
+        "user_title": "Veteran",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 5605,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/358",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2741088,
+        "name": "Salartarium",
+        "username": "Salartarium",
+        "avatar_template": "/user_avatar/forums.eveonline.com/salartarium/{size}/468818_2.png",
+        "created_at": "2025-06-23T09:15:00.290Z",
+        "cooked": "<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"VpAZPPCLCUI\" data-video-title=\"Interview with 2000s PC User [Original Resolution]\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=VpAZPPCLCUI\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://global.discourse-cdn.com/eveonline/original/4X/d/d/5/dd59686b6c9f4db620d996e9eee24592c095b01b.jpeg\" title=\"Interview with 2000s PC User [Original Resolution]\" data-dominant-color=\"5D5758\" width=\"690\" height=\"388\">\n  </a>\n</div>\n",
+        "post_number": 359,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2025-06-23T09:15:00.290Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 16,
+        "readers_count": 15,
+        "score": 3.2,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "Salartarium",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://www.youtube.com/watch?v=VpAZPPCLCUI",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          }
+        ],
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 152815,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/359",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2742485,
+        "name": "DeMichelle Geniale",
+        "username": "DeMichelle_Geniale",
+        "avatar_template": "/user_avatar/forums.eveonline.com/demichelle_geniale/{size}/450875_2.png",
+        "created_at": "2025-06-26T05:32:32.446Z",
+        "cooked": "<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"4rsI6CUPu0s\" data-video-title=\"The Mechanical Arms Race that Kills Online Games\" data-video-start-time=\"138s\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=4rsI6CUPu0s&amp;t=138s\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://global.discourse-cdn.com/eveonline/original/4X/c/9/1/c91ee5da1eb1a264254aec3fd5e4121b7ea68ce9.jpeg\" title=\"The Mechanical Arms Race that Kills Online Games\" data-dominant-color=\"513131\" width=\"690\" height=\"388\">\n  </a>\n</div>\n",
+        "post_number": 360,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2025-06-26T05:32:32.446Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 15,
+        "readers_count": 14,
+        "score": 3.0,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "DeMichelle Geniale",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://www.youtube.com/watch?v=4rsI6CUPu0s&t=138s",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=4rsI6CUPu0s",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          }
+        ],
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 208490,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/360",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2743887,
+        "name": "Salartarium",
+        "username": "Salartarium",
+        "avatar_template": "/user_avatar/forums.eveonline.com/salartarium/{size}/468818_2.png",
+        "created_at": "2025-06-29T00:37:56.185Z",
+        "cooked": "<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"HdZBn1ph7Kg\" data-video-title=\"How Azura Picks Her Champions #elderscrolls #memes #morrowind\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=HdZBn1ph7Kg\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://global.discourse-cdn.com/eveonline/original/4X/f/9/e/f9e164f05fc5e35c0a3b405110191df5a542f1f6.jpeg\" title=\"How Azura Picks Her Champions #elderscrolls #memes #morrowind\" data-dominant-color=\"523C5F\" width=\"690\" height=\"388\">\n  </a>\n</div>\n",
+        "post_number": 361,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2025-06-29T00:37:56.185Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 16,
+        "readers_count": 15,
+        "score": 18.2,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "Salartarium",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://www.youtube.com/watch?v=HdZBn1ph7Kg",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          }
+        ],
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 152815,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/361",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2744251,
+        "name": "Yiole Gionglao",
+        "username": "Yiole_Gionglao",
+        "avatar_template": "/user_avatar/forums.eveonline.com/yiole_gionglao/{size}/374866_2.png",
+        "created_at": "2025-06-29T21:07:16.023Z",
+        "cooked": "<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"B7PHRVQgTKM\" data-video-title=\"The $40BN Plan to Save The World’s Fastest Sinking City\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=B7PHRVQgTKM\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener nofollow ugc\">\n    <img class=\"youtube-thumbnail\" src=\"https://global.discourse-cdn.com/eveonline/original/4X/c/a/6/ca69b873ae6169bf3b1e3c4124bdeb27a14fc34e.jpeg\" title=\"The $40BN Plan to Save The World’s Fastest Sinking City\" data-dominant-color=\"364850\" width=\"690\" height=\"388\">\n  </a>\n</div>\n\n<p>Problem: poor people without access to running water are drilling wells and removing so much water from underground that the city is sinking on top of it already being partially under the level of the sea and sit in a flood plain crossed by 13 rivers which overflow each monsoon season.</p>\n<p>Solution: give contractors and corrupt government officials 40 billion $ for a pharaonic development unlikely to be completed in time nor address the issues, and then just in case move the capital 1200 km away to give contractors and corrupt government officials another 35 billion $ to turn a piece of jungle into a city or something. Start by building the government palace and then maybe the airport? Or roads? Or…?</p>",
+        "post_number": 362,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2025-06-29T21:08:38.171Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 16,
+        "readers_count": 15,
+        "score": 33.2,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "Yiole Gionglao",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://www.youtube.com/watch?v=B7PHRVQgTKM",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 707,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/362",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 2
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 2,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2745027,
+        "name": "Salartarium",
+        "username": "Salartarium",
+        "avatar_template": "/user_avatar/forums.eveonline.com/salartarium/{size}/468818_2.png",
+        "created_at": "2025-07-01T05:42:29.264Z",
+        "cooked": "<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"O91YcZWcUVY\" data-video-title=\"Charlie/Die-Hardman BB's Theme Musical (Dance Scene) - Death Stranding 2\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=O91YcZWcUVY\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://global.discourse-cdn.com/eveonline/original/4X/b/5/a/b5a7114505c7ee9390837a317f84168fc22668dc.jpeg\" title=\"Charlie/Die-Hardman BB's Theme Musical (Dance Scene) - Death Stranding 2\" data-dominant-color=\"574644\" width=\"690\" height=\"388\">\n  </a>\n</div>\n\n<p>ChatGPT couldn’t come up with this!</p>",
+        "post_number": 363,
+        "post_type": 1,
+        "posts_count": 578,
+        "updated_at": "2025-07-01T05:42:29.264Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 16,
+        "readers_count": 15,
+        "score": 38.2,
+        "yours": false,
+        "topic_id": 429811,
+        "topic_slug": "what-video-are-you-watching-today",
+        "display_username": "Salartarium",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://www.youtube.com/watch?v=O91YcZWcUVY",
+            "internal": false,
+            "reflection": false,
+            "clicks": 0
+          }
+        ],
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 152815,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/what-video-are-you-watching-today/429811/363",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 2
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 2,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ],
+    "stream": [
+      2433763,
+      2434986,
+      2437555,
+      2445334,
+      2451517,
+      2452163,
+      2452368,
+      2455300,
+      2455485,
+      2455487,
+      2456883,
+      2458034,
+      2458129,
+      2458611,
+      2459246,
+      2459323,
+      2459954,
+      2460253,
+      2460354,
+      2460564,
+      2460750,
+      2460867,
+      2460898,
+      2461660,
+      2461764,
+      2462292,
+      2462370,
+      2462488,
+      2462501,
+      2462527,
+      2463059,
+      2463111,
+      2463131,
+      2463636,
+      2463741,
+      2463749,
+      2464165,
+      2465714,
+      2466104,
+      2466725,
+      2467283,
+      2468463,
+      2470575,
+      2470900,
+      2471303,
+      2471794,
+      2472101,
+      2472916,
+      2473046,
+      2473105,
+      2474197,
+      2476266,
+      2478099,
+      2478328,
+      2478410,
+      2479738,
+      2480646,
+      2480718,
+      2480722,
+      2481153,
+      2481489,
+      2481597,
+      2482888,
+      2482892,
+      2483038,
+      2483962,
+      2498489,
+      2501048,
+      2504402,
+      2504862,
+      2505848,
+      2506005,
+      2506488,
+      2507586,
+      2507651,
+      2510533,
+      2511637,
+      2512481,
+      2512505,
+      2512590,
+      2512844,
+      2512854,
+      2512974,
+      2512975,
+      2530966,
+      2531184,
+      2536432,
+      2536455,
+      2536464,
+      2537661,
+      2541981,
+      2542365,
+      2544028,
+      2546378,
+      2548464,
+      2548813,
+      2548922,
+      2549233,
+      2549374,
+      2550577,
+      2552479,
+      2554526,
+      2554659,
+      2554990,
+      2555223,
+      2560449,
+      2561004,
+      2561072,
+      2561874,
+      2562350,
+      2562543,
+      2562736,
+      2563681,
+      2567237,
+      2572345,
+      2572348,
+      2572358,
+      2572665,
+      2573068,
+      2573285,
+      2574177,
+      2574427,
+      2574615,
+      2574620,
+      2574693,
+      2575462,
+      2575507,
+      2575530,
+      2576059,
+      2576072,
+      2576176,
+      2576182,
+      2576280,
+      2576666,
+      2576676,
+      2576742,
+      2577845,
+      2580099,
+      2580326,
+      2580559,
+      2582267,
+      2582544,
+      2582608,
+      2582662,
+      2582797,
+      2584829,
+      2587083,
+      2589400,
+      2591300,
+      2591344,
+      2591453,
+      2591709,
+      2593095,
+      2593217,
+      2593282,
+      2593683,
+      2593693,
+      2593694,
+      2593714,
+      2593731,
+      2593932,
+      2594649,
+      2595463,
+      2595543,
+      2595667,
+      2596130,
+      2596266,
+      2596415,
+      2596430,
+      2596494,
+      2596534,
+      2596539,
+      2596548,
+      2596554,
+      2597369,
+      2597386,
+      2597529,
+      2599313,
+      2599505,
+      2599507,
+      2599511,
+      2600802,
+      2601247,
+      2602153,
+      2602178,
+      2602194,
+      2602202,
+      2602214,
+      2602271,
+      2602891,
+      2602897,
+      2602997,
+      2603039,
+      2603323,
+      2603338,
+      2604045,
+      2605279,
+      2605942,
+      2607530,
+      2608556,
+      2608748,
+      2608796,
+      2608841,
+      2609385,
+      2609596,
+      2610414,
+      2611590,
+      2612867,
+      2612893,
+      2614158,
+      2614989,
+      2615293,
+      2615756,
+      2616246,
+      2616651,
+      2617039,
+      2617045,
+      2617282,
+      2617443,
+      2617449,
+      2618383,
+      2618816,
+      2618826,
+      2620288,
+      2620462,
+      2621656,
+      2621662,
+      2621694,
+      2622479,
+      2627062,
+      2627075,
+      2628913,
+      2630531,
+      2631415,
+      2632198,
+      2633060,
+      2634520,
+      2636297,
+      2636639,
+      2638973,
+      2639164,
+      2641734,
+      2642195,
+      2642938,
+      2645296,
+      2646027,
+      2646471,
+      2646593,
+      2647034,
+      2647048,
+      2647341,
+      2648164,
+      2648293,
+      2648321,
+      2648471,
+      2648918,
+      2649372,
+      2649436,
+      2650382,
+      2654035,
+      2654133,
+      2654680,
+      2655478,
+      2657975,
+      2658153,
+      2659827,
+      2662142,
+      2662609,
+      2662841,
+      2664955,
+      2665050,
+      2670200,
+      2670225,
+      2670837,
+      2672045,
+      2675892,
+      2677965,
+      2678150,
+      2678525,
+      2679810,
+      2679942,
+      2680376,
+      2680421,
+      2689310,
+      2690344,
+      2692295,
+      2698567,
+      2699229,
+      2699295,
+      2699762,
+      2700133,
+      2702308,
+      2703700,
+      2703796,
+      2704095,
+      2704191,
+      2704212,
+      2704544,
+      2708166,
+      2708181,
+      2709724,
+      2710165,
+      2711041,
+      2715116,
+      2717511,
+      2720863,
+      2721095,
+      2721098,
+      2721601,
+      2721622,
+      2722269,
+      2722506,
+      2722510,
+      2722646,
+      2722676,
+      2722754,
+      2724912,
+      2725730,
+      2726365,
+      2726371,
+      2727938,
+      2731152,
+      2731518,
+      2731968,
+      2732138,
+      2732631,
+      2732764,
+      2733934,
+      2734068,
+      2735893,
+      2735958,
+      2736451,
+      2736614,
+      2736926,
+      2736975,
+      2737627,
+      2738271,
+      2738428,
+      2738445,
+      2739529,
+      2739572,
+      2741088,
+      2742485,
+      2743887,
+      2744251,
+      2745027,
+      2746058,
+      2746379,
+      2746413,
+      2746451,
+      2748567,
+      2748708,
+      2748737,
+      2748937,
+      2750110,
+      2750332,
+      2754555,
+      2754987,
+      2755467,
+      2756097,
+      2756469,
+      2756880,
+      2756895,
+      2757122,
+      2758903,
+      2759255,
+      2759267,
+      2759563,
+      2759582,
+      2759669,
+      2759889,
+      2759907,
+      2760345,
+      2760383,
+      2760967,
+      2761023,
+      2762336,
+      2762445,
+      2762855,
+      2763183,
+      2763763,
+      2763849,
+      2764040,
+      2764346,
+      2765716,
+      2766615,
+      2766623,
+      2766832,
+      2767047,
+      2769506,
+      2769559,
+      2769579,
+      2769619,
+      2771154,
+      2771500,
+      2771742,
+      2771793,
+      2773411,
+      2773807,
+      2774088,
+      2774541,
+      2774689,
+      2775665,
+      2775874,
+      2775890,
+      2775894,
+      2775895,
+      2776983,
+      2777006,
+      2777980,
+      2778012,
+      2778438,
+      2778522,
+      2778552,
+      2778609,
+      2778659,
+      2778691,
+      2779040,
+      2779051,
+      2779185,
+      2780537,
+      2781606,
+      2782361,
+      2783080,
+      2783819,
+      2783926,
+      2784582,
+      2785060,
+      2785085,
+      2785224,
+      2787539,
+      2788480,
+      2790897,
+      2792630,
+      2793084,
+      2793088,
+      2794280,
+      2795599,
+      2796204,
+      2796890,
+      2797864,
+      2798495,
+      2798586,
+      2798672,
+      2799795,
+      2799828,
+      2801253,
+      2801900,
+      2801917,
+      2801921,
+      2803132,
+      2803221,
+      2803234,
+      2803744,
+      2803812,
+      2806794,
+      2806807,
+      2808041,
+      2808705,
+      2809142,
+      2809147,
+      2809164,
+      2809270,
+      2809274,
+      2810887,
+      2811339,
+      2811723,
+      2811773,
+      2812853,
+      2814018,
+      2814292,
+      2814307,
+      2815417,
+      2816848,
+      2817280,
+      2817461,
+      2817571,
+      2817994,
+      2818719,
+      2820160,
+      2820515,
+      2820533,
+      2820596,
+      2820790,
+      2820819,
+      2820992,
+      2821668,
+      2822424,
+      2822478,
+      2822599,
+      2822838,
+      2823392,
+      2823441,
+      2823513,
+      2823889,
+      2824081,
+      2824529,
+      2825330,
+      2825412,
+      2825880,
+      2826456,
+      2828339,
+      2828851,
+      2829033,
+      2829166,
+      2829369,
+      2829648,
+      2829996,
+      2830117,
+      2830132,
+      2831774,
+      2833572,
+      2834804,
+      2836515,
+      2838587,
+      2840561,
+      2846251,
+      2847645,
+      2850043,
+      2852850,
+      2853623,
+      2856793,
+      2859237,
+      2864556,
+      2864728,
+      2865054,
+      2865401,
+      2865535,
+      2866146,
+      2866174,
+      2867454,
+      2867883,
+      2867895,
+      2868162,
+      2868626,
+      2872595,
+      2874839,
+      2878389,
+      2878999,
+      2880029,
+      2880079,
+      2880390,
+      2880502,
+      2880732,
+      2881509,
+      2881682,
+      2881693,
+      2881696,
+      2887480,
+      2889231,
+      2889263,
+      2889305,
+      2900342,
+      2901430,
+      2901618,
+      2902206,
+      2902220,
+      2903112,
+      2905397,
+      2905548,
+      2905792,
+      2906017,
+      2908084,
+      2911135,
+      2912974,
+      2913904,
+      2913916,
+      2914212,
+      2915004,
+      2916300,
+      2917466,
+      2917794,
+      2917819,
+      2918119,
+      2920313,
+      2921248,
+      2922606,
+      2922890
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      1014
+    ],
+    [
+      3,
+      1008
+    ],
+    [
+      5,
+      987
+    ],
+    [
+      7,
+      986
+    ],
+    [
+      9,
+      980
+    ],
+    [
+      11,
+      978
+    ],
+    [
+      13,
+      976
+    ],
+    [
+      15,
+      974
+    ],
+    [
+      17,
+      972
+    ],
+    [
+      21,
+      971
+    ],
+    [
+      25,
+      969
+    ],
+    [
+      27,
+      968
+    ],
+    [
+      31,
+      967
+    ],
+    [
+      35,
+      965
+    ],
+    [
+      39,
+      961
+    ],
+    [
+      41,
+      958
+    ],
+    [
+      43,
+      952
+    ],
+    [
+      45,
+      950
+    ],
+    [
+      47,
+      949
+    ],
+    [
+      49,
+      948
+    ],
+    [
+      51,
+      945
+    ],
+    [
+      53,
+      938
+    ],
+    [
+      57,
+      934
+    ],
+    [
+      61,
+      932
+    ],
+    [
+      63,
+      929
+    ],
+    [
+      67,
+      905
+    ],
+    [
+      69,
+      895
+    ],
+    [
+      71,
+      893
+    ],
+    [
+      73,
+      892
+    ],
+    [
+      75,
+      890
+    ],
+    [
+      77,
+      882
+    ],
+    [
+      79,
+      880
+    ],
+    [
+      83,
+      879
+    ],
+    [
+      85,
+      840
+    ],
+    [
+      87,
+      829
+    ],
+    [
+      91,
+      818
+    ],
+    [
+      93,
+      815
+    ],
+    [
+      95,
+      808
+    ],
+    [
+      97,
+      807
+    ],
+    [
+      101,
+      801
+    ],
+    [
+      103,
+      797
+    ],
+    [
+      105,
+      796
+    ],
+    [
+      107,
+      785
+    ],
+    [
+      109,
+      784
+    ],
+    [
+      111,
+      782
+    ],
+    [
+      113,
+      780
+    ],
+    [
+      115,
+      763
+    ],
+    [
+      119,
+      761
+    ],
+    [
+      121,
+      758
+    ],
+    [
+      123,
+      757
+    ],
+    [
+      127,
+      755
+    ],
+    [
+      129,
+      754
+    ],
+    [
+      133,
+      753
+    ],
+    [
+      137,
+      750
+    ],
+    [
+      139,
+      745
+    ],
+    [
+      141,
+      742
+    ],
+    [
+      143,
+      741
+    ],
+    [
+      147,
+      731
+    ],
+    [
+      149,
+      722
+    ],
+    [
+      153,
+      718
+    ],
+    [
+      157,
+      717
+    ],
+    [
+      161,
+      716
+    ],
+    [
+      163,
+      713
+    ],
+    [
+      167,
+      711
+    ],
+    [
+      175,
+      709
+    ],
+    [
+      179,
+      705
+    ],
+    [
+      183,
+      703
+    ],
+    [
+      185,
+      701
+    ],
+    [
+      191,
+      700
+    ],
+    [
+      195,
+      699
+    ],
+    [
+      197,
+      695
+    ],
+    [
+      199,
+      691
+    ],
+    [
+      201,
+      689
+    ],
+    [
+      205,
+      688
+    ],
+    [
+      207,
+      684
+    ],
+    [
+      209,
+      682
+    ],
+    [
+      211,
+      678
+    ],
+    [
+      213,
+      677
+    ],
+    [
+      215,
+      675
+    ],
+    [
+      219,
+      674
+    ],
+    [
+      221,
+      672
+    ],
+    [
+      223,
+      671
+    ],
+    [
+      225,
+      668
+    ],
+    [
+      227,
+      666
+    ],
+    [
+      229,
+      665
+    ],
+    [
+      231,
+      657
+    ],
+    [
+      233,
+      651
+    ],
+    [
+      235,
+      647
+    ],
+    [
+      237,
+      643
+    ],
+    [
+      239,
+      640
+    ],
+    [
+      241,
+      635
+    ],
+    [
+      243,
+      631
+    ],
+    [
+      245,
+      626
+    ],
+    [
+      247,
+      624
+    ],
+    [
+      249,
+      623
+    ],
+    [
+      251,
+      622
+    ],
+    [
+      253,
+      621
+    ],
+    [
+      255,
+      620
+    ],
+    [
+      257,
+      618
+    ],
+    [
+      259,
+      616
+    ],
+    [
+      261,
+      609
+    ],
+    [
+      263,
+      607
+    ],
+    [
+      265,
+      601
+    ],
+    [
+      267,
+      593
+    ],
+    [
+      269,
+      592
+    ],
+    [
+      271,
+      587
+    ],
+    [
+      273,
+      576
+    ],
+    [
+      275,
+      572
+    ],
+    [
+      277,
+      558
+    ],
+    [
+      279,
+      557
+    ],
+    [
+      281,
+      554
+    ],
+    [
+      283,
+      553
+    ],
+    [
+      285,
+      534
+    ],
+    [
+      287,
+      519
+    ],
+    [
+      289,
+      517
+    ],
+    [
+      291,
+      515
+    ],
+    [
+      293,
+      507
+    ],
+    [
+      295,
+      506
+    ],
+    [
+      299,
+      498
+    ],
+    [
+      301,
+      495
+    ],
+    [
+      303,
+      492
+    ],
+    [
+      305,
+      478
+    ],
+    [
+      307,
+      471
+    ],
+    [
+      309,
+      470
+    ],
+    [
+      311,
+      468
+    ],
+    [
+      317,
+      465
+    ],
+    [
+      319,
+      463
+    ],
+    [
+      321,
+      460
+    ],
+    [
+      323,
+      455
+    ],
+    [
+      325,
+      454
+    ],
+    [
+      327,
+      453
+    ],
+    [
+      329,
+      451
+    ],
+    [
+      331,
+      448
+    ],
+    [
+      333,
+      447
+    ],
+    [
+      335,
+      446
+    ],
+    [
+      337,
+      444
+    ],
+    [
+      341,
+      442
+    ],
+    [
+      343,
+      436
+    ],
+    [
+      345,
+      433
+    ],
+    [
+      347,
+      429
+    ],
+    [
+      351,
+      423
+    ],
+    [
+      355,
+      419
+    ],
+    [
+      357,
+      409
+    ],
+    [
+      359,
+      407
+    ],
+    [
+      361,
+      404
+    ],
+    [
+      363,
+      403
+    ],
+    [
+      365,
+      397
+    ],
+    [
+      369,
+      396
+    ],
+    [
+      371,
+      395
+    ],
+    [
+      373,
+      394
+    ],
+    [
+      375,
+      392
+    ],
+    [
+      377,
+      388
+    ],
+    [
+      379,
+      387
+    ],
+    [
+      381,
+      384
+    ],
+    [
+      385,
+      380
+    ],
+    [
+      387,
+      377
+    ],
+    [
+      389,
+      376
+    ],
+    [
+      391,
+      370
+    ],
+    [
+      395,
+      365
+    ],
+    [
+      397,
+      364
+    ],
+    [
+      399,
+      359
+    ],
+    [
+      401,
+      356
+    ],
+    [
+      403,
+      353
+    ],
+    [
+      409,
+      349
+    ],
+    [
+      411,
+      346
+    ],
+    [
+      413,
+      344
+    ],
+    [
+      417,
+      343
+    ],
+    [
+      419,
+      342
+    ],
+    [
+      421,
+      338
+    ],
+    [
+      423,
+      334
+    ],
+    [
+      425,
+      330
+    ],
+    [
+      427,
+      328
+    ],
+    [
+      429,
+      327
+    ],
+    [
+      431,
+      320
+    ],
+    [
+      433,
+      311
+    ],
+    [
+      435,
+      306
+    ],
+    [
+      437,
+      303
+    ],
+    [
+      439,
+      298
+    ],
+    [
+      441,
+      295
+    ],
+    [
+      443,
+      294
+    ],
+    [
+      445,
+      291
+    ],
+    [
+      447,
+      290
+    ],
+    [
+      449,
+      288
+    ],
+    [
+      451,
+      286
+    ],
+    [
+      455,
+      285
+    ],
+    [
+      457,
+      279
+    ],
+    [
+      459,
+      276
+    ],
+    [
+      461,
+      275
+    ],
+    [
+      465,
+      272
+    ],
+    [
+      467,
+      270
+    ],
+    [
+      469,
+      268
+    ],
+    [
+      471,
+      265
+    ],
+    [
+      473,
+      263
+    ],
+    [
+      475,
+      259
+    ],
+    [
+      477,
+      258
+    ],
+    [
+      479,
+      255
+    ],
+    [
+      481,
+      251
+    ],
+    [
+      483,
+      250
+    ],
+    [
+      487,
+      248
+    ],
+    [
+      489,
+      246
+    ],
+    [
+      491,
+      245
+    ],
+    [
+      493,
+      244
+    ],
+    [
+      495,
+      242
+    ],
+    [
+      497,
+      241
+    ],
+    [
+      499,
+      239
+    ],
+    [
+      501,
+      236
+    ],
+    [
+      503,
+      229
+    ],
+    [
+      505,
+      228
+    ],
+    [
+      507,
+      227
+    ],
+    [
+      509,
+      225
+    ],
+    [
+      511,
+      220
+    ],
+    [
+      513,
+      214
+    ],
+    [
+      515,
+      204
+    ],
+    [
+      517,
+      184
+    ],
+    [
+      519,
+      175
+    ],
+    [
+      521,
+      166
+    ],
+    [
+      523,
+      152
+    ],
+    [
+      525,
+      140
+    ],
+    [
+      527,
+      139
+    ],
+    [
+      529,
+      137
+    ],
+    [
+      531,
+      134
+    ],
+    [
+      533,
+      133
+    ],
+    [
+      535,
+      131
+    ],
+    [
+      537,
+      115
+    ],
+    [
+      539,
+      106
+    ],
+    [
+      541,
+      103
+    ],
+    [
+      543,
+      102
+    ],
+    [
+      545,
+      100
+    ],
+    [
+      549,
+      87
+    ],
+    [
+      551,
+      84
+    ],
+    [
+      553,
+      55
+    ],
+    [
+      555,
+      51
+    ],
+    [
+      557,
+      50
+    ],
+    [
+      559,
+      42
+    ],
+    [
+      561,
+      41
+    ],
+    [
+      563,
+      35
+    ],
+    [
+      565,
+      22
+    ],
+    [
+      567,
+      20
+    ],
+    [
+      569,
+      18
+    ],
+    [
+      571,
+      13
+    ],
+    [
+      573,
+      12
+    ],
+    [
+      575,
+      6
+    ],
+    [
+      577,
+      1
+    ],
+    [
+      578,
+      0
+    ]
+  ],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "What video are you watching today?",
+  "id": 429811,
+  "title": "What video are you watching today?",
+  "posts_count": 578,
+  "created_at": "2023-11-26T18:18:31.306Z",
+  "views": 8116,
+  "reply_count": 141,
+  "like_count": 562,
+  "last_posted_at": "2026-09-05T15:58:41.969Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": true,
+  "archetype": "regular",
+  "slug": "what-video-are-you-watching-today",
+  "category_id": 14,
+  "word_count": 19101,
+  "deleted_at": null,
+  "user_id": 4948,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": "https://global.discourse-cdn.com/eveonline/optimized/4X/2/9/f/29f0d823ec7cd86683089e4de5f4c55ea9d1595d_2_1024x576.jpeg",
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_429811",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 595,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": {
+    "id": 109870,
+    "execute_at": "2026-12-04T15:58:41.969Z",
+    "duration_minutes": 129600,
+    "based_on_last_post": true,
+    "status_type": "close",
+    "category_id": null
+  },
+  "message_bus_last_id": 172,
+  "participant_count": 64,
+  "show_read_indicator": false,
+  "thumbnails": [
+    {
+      "max_width": null,
+      "max_height": null,
+      "width": 1920,
+      "height": 1080,
+      "url": "https://global.discourse-cdn.com/eveonline/original/4X/2/9/f/29f0d823ec7cd86683089e4de5f4c55ea9d1595d.jpeg"
+    },
+    {
+      "max_width": 1024,
+      "max_height": 1024,
+      "width": 1024,
+      "height": 576,
+      "url": "https://global.discourse-cdn.com/eveonline/optimized/4X/2/9/f/29f0d823ec7cd86683089e4de5f4c55ea9d1595d_2_1024x576.jpeg"
+    }
+  ],
+  "slow_mode_enabled_until": null,
+  "tags_disable_ads": false,
+  "related_topics": null,
+  "summarizable": false,
+  "has_cached_summary": false,
+  "valid_reactions": [
+    "heart",
+    "+1",
+    "laughing",
+    "open_mouth",
+    "clap",
+    "confetti_ball",
+    "hugs"
+  ],
+  "has_accepted_answer": false,
+  "can_create_shared_issue": false,
+  "shared_issue_visible": false,
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 707,
+        "username": "Yiole_Gionglao",
+        "name": "Yiole Gionglao",
+        "avatar_template": "/user_avatar/forums.eveonline.com/yiole_gionglao/{size}/374866_2.png",
+        "post_count": 101,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      },
+      {
+        "id": 4948,
+        "username": "DrysonBennington",
+        "name": "DrysonBennington",
+        "avatar_template": "/user_avatar/forums.eveonline.com/drysonbennington/{size}/501369_2.png",
+        "post_count": 54,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      },
+      {
+        "id": 198770,
+        "username": "Aallin_Gicquet",
+        "name": "Aallin Gicquet",
+        "avatar_template": "/user_avatar/forums.eveonline.com/aallin_gicquet/{size}/502797_2.png",
+        "post_count": 50,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      },
+      {
+        "id": 437,
+        "username": "LordOdysseus",
+        "name": "LordOdysseus",
+        "avatar_template": "/user_avatar/forums.eveonline.com/lordodysseus/{size}/422627_2.png",
+        "post_count": 46,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      },
+      {
+        "id": 152815,
+        "username": "Salartarium",
+        "name": "Salartarium",
+        "avatar_template": "/user_avatar/forums.eveonline.com/salartarium/{size}/468818_2.png",
+        "post_count": 34,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      },
+      {
+        "id": 142865,
+        "username": "Zaera_Keena",
+        "name": "Zaera Keena",
+        "avatar_template": "/user_avatar/forums.eveonline.com/zaera_keena/{size}/449938_2.png",
+        "post_count": 32,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      },
+      {
+        "id": 169023,
+        "username": "Chad_Frostpacker",
+        "name": "Chad Frostpacker",
+        "avatar_template": "/user_avatar/forums.eveonline.com/chad_frostpacker/{size}/504356_2.png",
+        "post_count": 31,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      },
+      {
+        "id": 190621,
+        "username": "Calamity_Unleashed",
+        "name": "Calamity Unleashed",
+        "avatar_template": "/user_avatar/forums.eveonline.com/calamity_unleashed/{size}/413414_2.png",
+        "post_count": 29,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      },
+      {
+        "id": 202336,
+        "username": "Analoreke_Brunette",
+        "name": "Analoreke Brunette",
+        "avatar_template": "/user_avatar/forums.eveonline.com/analoreke_brunette/{size}/441333_2.png",
+        "post_count": 25,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      },
+      {
+        "id": 208490,
+        "username": "DeMichelle_Geniale",
+        "name": "DeMichelle Geniale",
+        "avatar_template": "/user_avatar/forums.eveonline.com/demichelle_geniale/{size}/450875_2.png",
+        "post_count": 18,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      },
+      {
+        "id": 325,
+        "username": "Nana_Skalski",
+        "name": "Nana Skalski",
+        "avatar_template": "/user_avatar/forums.eveonline.com/nana_skalski/{size}/489985_2.png",
+        "post_count": 16,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      },
+      {
+        "id": 185509,
+        "username": "Felix_Frostpacker",
+        "name": "Felix Frostpacker",
+        "avatar_template": "/user_avatar/forums.eveonline.com/felix_frostpacker/{size}/420339_2.png",
+        "post_count": 15,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      },
+      {
+        "id": 200169,
+        "username": "Naomie_Pennilez",
+        "name": "Naomie Pennilez",
+        "avatar_template": "/user_avatar/forums.eveonline.com/naomie_pennilez/{size}/426959_2.png",
+        "post_count": 14,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      },
+      {
+        "id": 206214,
+        "username": "Thork_DeLaroche",
+        "name": "Thork DeLaroche",
+        "avatar_template": "/user_avatar/forums.eveonline.com/thork_delaroche/{size}/446812_2.png",
+        "post_count": 10,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      },
+      {
+        "id": 5605,
+        "username": "Uriel_the_Flame",
+        "name": "Uriel the Flame",
+        "avatar_template": "/user_avatar/forums.eveonline.com/uriel_the_flame/{size}/490165_2.png",
+        "post_count": 10,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 3
+      },
+      {
+        "id": 8588,
+        "username": "Rana_Ash",
+        "name": "Rana Ash",
+        "avatar_template": "/user_avatar/forums.eveonline.com/rana_ash/{size}/374123_2.png",
+        "post_count": 9,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      },
+      {
+        "id": 56427,
+        "username": "Iceacid_Frostpacker",
+        "name": "Iceacid Frostpacker",
+        "avatar_template": "/user_avatar/forums.eveonline.com/iceacid_frostpacker/{size}/505689_2.png",
+        "post_count": 8,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      },
+      {
+        "id": 201897,
+        "username": "James_Bohd",
+        "name": "James Bohd",
+        "avatar_template": "/user_avatar/forums.eveonline.com/james_bohd/{size}/431694_2.png",
+        "post_count": 7,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      },
+      {
+        "id": 143153,
+        "username": "Lucy_Alfrir",
+        "name": "Lucy Alfrir",
+        "avatar_template": "/user_avatar/forums.eveonline.com/lucy_alfrir/{size}/382506_2.png",
+        "post_count": 4,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 3
+      },
+      {
+        "id": 194332,
+        "username": "Yuzima",
+        "name": "Yuzima",
+        "avatar_template": "/user_avatar/forums.eveonline.com/yuzima/{size}/416395_2.png",
+        "post_count": 4,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      },
+      {
+        "id": 42015,
+        "username": "Yahamssi_Judihuijj",
+        "name": "Yahamssi Judihuijj",
+        "avatar_template": "/user_avatar/forums.eveonline.com/yahamssi_judihuijj/{size}/392777_2.png",
+        "post_count": 4,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      },
+      {
+        "id": 210260,
+        "username": "Lydra_Victor",
+        "name": "Lydra Victor",
+        "avatar_template": "/user_avatar/forums.eveonline.com/lydra_victor/{size}/456813_2.png",
+        "post_count": 4,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      },
+      {
+        "id": 124741,
+        "username": "Zedminer_Severasse",
+        "name": "Zedminer Severasse",
+        "avatar_template": "/user_avatar/forums.eveonline.com/zedminer_severasse/{size}/377928_2.png",
+        "post_count": 3,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      },
+      {
+        "id": 198705,
+        "username": "Drixie_Trix",
+        "name": "Drixie Trix",
+        "avatar_template": "/user_avatar/forums.eveonline.com/drixie_trix/{size}/423000_2.png",
+        "post_count": 3,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      }
+    ],
+    "created_by": {
+      "id": 4948,
+      "username": "DrysonBennington",
+      "name": "DrysonBennington",
+      "avatar_template": "/user_avatar/forums.eveonline.com/drysonbennington/{size}/501369_2.png"
+    },
+    "last_poster": {
+      "id": 707,
+      "username": "Yiole_Gionglao",
+      "name": "Yiole Gionglao",
+      "avatar_template": "/user_avatar/forums.eveonline.com/yiole_gionglao/{size}/374866_2.png"
+    },
+    "links": [
+      {
+        "url": "https://www.facebook.com/share/v/8a1ygUB9GPRgAwWX/?mibextid=xfxF2i",
+        "title": "Redirecting...",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 2,
+        "user_id": 4948,
+        "domain": "www.facebook.com",
+        "root_domain": "facebook.com"
+      },
+      {
+        "url": "https://www.bilibili.com/video/BV11Q4y127tg/?share_source=copy_web",
+        "title": "JESUS N!_哔哩哔哩_bilibili",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 2,
+        "user_id": 152815,
+        "domain": "www.bilibili.com",
+        "root_domain": "bilibili.com"
+      },
+      {
+        "url": "https://www.facebook.com/reel/902763925437226/?rdid=2cCvHYHUCLbgTupC&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fr%2F1DcLcFwsa4%2F",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 2,
+        "user_id": 4948,
+        "domain": "www.facebook.com",
+        "root_domain": "facebook.com"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=Fgw44m1AdKc",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 2,
+        "user_id": 4948,
+        "domain": "www.youtube.com",
+        "root_domain": "youtube.com"
+      },
+      {
+        "url": "https://www.facebook.com/reel/1803972330202959?rdid=h1zxNKzICGVIKKml&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fr%2F17BxBnekED%2F",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 2,
+        "user_id": 4948,
+        "domain": "www.facebook.com",
+        "root_domain": "facebook.com"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=lAmkl1jL0fo",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 2,
+        "user_id": 152815,
+        "domain": "www.youtube.com",
+        "root_domain": "youtube.com"
+      },
+      {
+        "url": "https://www.facebook.com/reel/837402939244122?rdid=LcgXkNFEYfBywsd2&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fr%2F17JMF9PRiS%2F",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 4948,
+        "domain": "www.facebook.com",
+        "root_domain": "facebook.com"
+      },
+      {
+        "url": "https://www.facebook.com/share/v/1HEzXY3XUp/",
+        "title": "Redirecting...",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 4948,
+        "domain": "www.facebook.com",
+        "root_domain": "facebook.com"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0368226/?ref_=nv_sr_srsg_3_tt_8_nm_0_q_The%2520Room",
+        "title": "The Room (2003) - IMDb",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 45880,
+        "domain": "www.imdb.com",
+        "root_domain": "imdb.com"
+      },
+      {
+        "url": "https://www.instagram.com/reel/DLCRuVRxC7a/?igsh=aTMzaHNiOHpzbm5y",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 4948,
+        "domain": "www.instagram.com",
+        "root_domain": "instagram.com"
+      },
+      {
+        "url": "https://www.msn.com/en-us/video/peopleandplaces/building-a-stunning-underground-cave-house-with-platinum-finish/vi-AA1vJ68j?ocid=socialshare",
+        "title": "MSN",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 4948,
+        "domain": "www.msn.com",
+        "root_domain": "msn.com"
+      },
+      {
+        "url": "https://www.youtube.com/@AndromedaOfficialTV",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 5605,
+        "domain": "www.youtube.com",
+        "root_domain": "youtube.com"
+      },
+      {
+        "url": "https://www.youtube.com/@FarscapeOfficial",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 5605,
+        "domain": "www.youtube.com",
+        "root_domain": "youtube.com"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=2fAPgOCjToA",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 325,
+        "domain": "www.youtube.com",
+        "root_domain": "youtube.com"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=95EjzhSiP_o",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 4948,
+        "domain": "www.youtube.com",
+        "root_domain": "youtube.com"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=9b5LXKQfsNg",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 4948,
+        "domain": "www.youtube.com",
+        "root_domain": "youtube.com"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=Abmmo5gHxvU",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 4948,
+        "domain": "www.youtube.com",
+        "root_domain": "youtube.com"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=ePCY-PwehfY",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 4948,
+        "domain": "www.youtube.com",
+        "root_domain": "youtube.com"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=HIVmSewHqMY",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 707,
+        "domain": "www.youtube.com",
+        "root_domain": "youtube.com"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=LvojlUFJoEI",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 152815,
+        "domain": "www.youtube.com",
+        "root_domain": "youtube.com"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=mIsnIt1p978",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 4948,
+        "domain": "www.youtube.com",
+        "root_domain": "youtube.com"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=n6czzarv3tM",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 198770,
+        "domain": "www.youtube.com",
+        "root_domain": "youtube.com"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=ozG4jW2xlKo",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 437,
+        "domain": "www.youtube.com",
+        "root_domain": "youtube.com"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=qFYhW0WyRIk",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 707,
+        "domain": "www.youtube.com",
+        "root_domain": "youtube.com"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=QJR-irXKiyc",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 190621,
+        "domain": "www.youtube.com",
+        "root_domain": "youtube.com"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=RL74Jb4OU9U",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 190621,
+        "domain": "www.youtube.com",
+        "root_domain": "youtube.com"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=U0xn9eqIjns",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 4948,
+        "domain": "www.youtube.com",
+        "root_domain": "youtube.com"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=uQvZuSQVXGc",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 190621,
+        "domain": "www.youtube.com",
+        "root_domain": "youtube.com"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=VFGP7lBMAFY",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 42015,
+        "domain": "www.youtube.com",
+        "root_domain": "youtube.com"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=xHPhBtejIgo",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 190290,
+        "domain": "www.youtube.com",
+        "root_domain": "youtube.com"
+      },
+      {
+        "url": "https://tv.apple.com/us/episode/woes-hollow/umc.cmc.39o64vs9jfwkrt6zr653oe0dx?showId=umc.cmc.1srk2goyh2q2zdxcx605w8vtx",
+        "title": "Watch Woe’s Hollow - Severance (Season 2, Episode 4) - Apple TV+",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 152815,
+        "domain": "tv.apple.com",
+        "root_domain": "apple.com"
+      },
+      {
+        "url": "https://youtube.com/shorts/%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C_FNc-W9ohTE?si=G7raUXvHaYoBtOGq",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 4948,
+        "domain": "youtube.com",
+        "root_domain": "youtube.com"
+      },
+      {
+        "url": "https://tv.apple.com/us/show/hijack/umc.cmc.1dg08zn0g3zx52hs8npoj5qe3",
+        "title": "‎Watch Hijack - Show - Apple TV+",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 152815,
+        "domain": "tv.apple.com",
+        "root_domain": "apple.com"
+      },
+      {
+        "url": "https://www.facebook.com/reel/24959478457050186",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 4948,
+        "domain": "www.facebook.com",
+        "root_domain": "facebook.com"
+      },
+      {
+        "url": "https://www.facebook.com/reel/396278196902364",
+        "title": "39K views · 723 reactions | Plant eating gummy bear in #timelapse | Interesting as FCK",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 4948,
+        "domain": "www.facebook.com",
+        "root_domain": "facebook.com"
+      },
+      {
+        "url": "https://www.facebook.com/reel/4170521686523234",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 4948,
+        "domain": "www.facebook.com",
+        "root_domain": "facebook.com"
+      },
+      {
+        "url": "https://www.facebook.com/reel/636155449434495?rdid=MxZPfcPdFZ4VnMjG&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fr%2F17TY9vic41%2F",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 4948,
+        "domain": "www.facebook.com",
+        "root_domain": "facebook.com"
+      }
+    ]
+  },
+  "bookmarks": [],
+  "jogo": "EVE Online",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum EVE",
+  "url_fonte": "https://forums.eveonline.com/t/what-video-are-you-watching-today/429811/349"
+}

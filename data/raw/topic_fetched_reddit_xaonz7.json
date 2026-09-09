@@ -1,0 +1,112 @@
+{
+  "id": "xaonz7",
+  "title": "The Problem of botting in EVE, and the simple solution.",
+  "slug": "xaonz7",
+  "jogo": "EVE Online",
+  "fonte": "Reddit",
+  "seccao": "r/Eve",
+  "url_fonte": "https://www.reddit.com/r/Eve/comments/xaonz7/the_problem_of_botting_in_eve_and_the_simple/",
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1,
+        "username": "MifuneSwordGod",
+        "cooked": "<p>Sem conteúdo.</p>",
+        "created_at": "2022-09-10T12:52:14.232Z",
+        "like_count": 66,
+        "trust_level": 2,
+        "version": 1
+      },
+      {
+        "id": 2,
+        "username": "Deleted User",
+        "cooked": "<p>The solution people instantly think about is introducing some sort of measure like EAC, BattleEye, or heaven forbid we have to be like valorant and pull a kernel 0 anticheat. Cheating isn't same thing as botting. Above software will have zero to minimal impact on EVE as TQ has zero trust in EVE client. All stuff is calculated server side. And those programs mainly stop from injecting code into game client. With 1 Hz tick rate it's really hard to figure out server side what is input broadcasting and what legit player. As most commands gets normalized to 1s timer. What is simplest solution to botting? Make RMT not viable. I said this in other post but botting in EVE is like crypto mining. Without RMT there isn't really a reason to have bots unless you are die hard krab that likes to pump your in game wallet. Banning bots will change noting. It's RMT cartels that needs to go. Plex price dropped from ~4.4 mil in mid 2019 exactly because CCP shoot down few RMT cartels. but CCP being CCP. They did massive anti botting anti RMT push for year or so. Got bored of it and now they again do shit about it. [tin foil hat on] I won't be surprised  if CCP don't want to ban bots because they are so deep in shit they can't afford income hit. both from bots subs and cut they get from RMT (RMT isk used on plex etc.) [/tin foil hat off]</p>",
+        "created_at": "2022-09-10T13:10:27.743Z",
+        "like_count": 65,
+        "trust_level": 2,
+        "version": 1
+      },
+      {
+        "id": 3,
+        "username": "Commander_Starscream",
+        "cooked": "<p>TLDR; Riddle be this, If it's such a simple \"Solution\" what hasn't the billion dollar company \"Blizzard\" been able to ban \"Gold Farming RMTers\" from WoW?</p>",
+        "created_at": "2022-09-10T14:25:14.419Z",
+        "like_count": 12,
+        "trust_level": 2,
+        "version": 1
+      },
+      {
+        "id": 4,
+        "username": "Deleted User",
+        "cooked": "<p>One thing you've glossed over here, is that in any arms race, there if a cost of participating. CCP could absolutely spend more engineering effort in anti-cheat software... But at the cost of developing new content (or failed FPS titles) Is botting in Eve bad? Yea absolutely… would increasing the cost of bots improve the game… maybe a little, but not much…</p>",
+        "created_at": "2022-09-10T13:00:12.035Z",
+        "like_count": 13,
+        "trust_level": 2,
+        "version": 1
+      },
+      {
+        "id": 5,
+        "username": "TalkingBackAgain",
+        "cooked": "<p>Can anyone explain to me, in simple terms please I’m not a smart man, how it is both true that EVE’s log in numbers are plunging and it’s on the cusp of dying, but at the same time there’s still enough interest in it that botting is still a problem? Who would put effort in botting for a game that’s slowly dying. What are they getting out of that which makes it economically viable to engage in it?</p>",
+        "created_at": "2022-09-10T16:01:46.263Z",
+        "like_count": 6,
+        "trust_level": 2,
+        "version": 1
+      },
+      {
+        "id": 6,
+        "username": "rake483",
+        "cooked": "<p>You know what would help against bots? CCP doing basic bot detection measures like pattern recognition. I had serveral experiences with super obvious bots. For example ice miners in high sec who mine 16h a day, 7 days a week ... im pretty sure they are bots. Especially when they are all new characters, with auto-generated names and no corp history and never talk in local. I reported them ... 8 months later i got the email notification that someone i have reported has been banned. Another case were the swarms of Thukker Mix courier mission bots who were operating for at least 6 months in Minmatar space before CCP banned them. Hundreds of players were reporting them, but because CCP didnt react for months, they organzied and started suicide ganking the bots. CCPs anti-botting measures are a joke. They dont even do the basics.</p>",
+        "created_at": "2022-09-10T21:33:44.570Z",
+        "like_count": 6,
+        "trust_level": 2,
+        "version": 1
+      },
+      {
+        "id": 7,
+        "username": "Subduction_Zone",
+        "cooked": "<p>Require a credit card to sign up for an account, even if nothing is ever charged from it, so that every account associated with the same payment information can be banned.  If the botters make multiple cards under different names, that's real life fraud and the bank will probably detect them and report the activity to authorities.</p>",
+        "created_at": "2022-09-11T02:52:18.401Z",
+        "like_count": 6,
+        "trust_level": 2,
+        "version": 1
+      },
+      {
+        "id": 8,
+        "username": "FluorescentFlux",
+        "cooked": "<p>this is an arms race, there is no clear winner But there are clear losers: linux players, and those who teamviewer/rdp/vnc in while away (not counting resources ccp has to allocate to write & maintain it on windows and 2 different kinds of macos').</p>",
+        "created_at": "2022-09-10T13:35:44.383Z",
+        "like_count": 10,
+        "trust_level": 2,
+        "version": 1
+      },
+      {
+        "id": 9,
+        "username": "Mes_Aynak",
+        "cooked": "<p>they just need that check box you click aksing you if your a bot and it will solve the botting problem.</p>",
+        "created_at": "2022-09-10T17:22:55.931Z",
+        "like_count": 4,
+        "trust_level": 2,
+        "version": 1
+      },
+      {
+        "id": 10,
+        "username": "GeeBeeEVE",
+        "cooked": "<p>Botting is a pretty serious issue, but treating players as bots is also a pretty serious issue.   Changes to the game that are intended to interdict botting should not also mess with actual players, if it does then the bots are going to win based on the law of averages.  They will put in more time on average and at the same reward levels reap more. There needs to be a method of the client/server flagging bot behavior then a way for the client to challenge the user in a way a bot cannot answer. A dream solution here would be to have every account paid for with sources restricted so the purchaser cannot be easily aliased as a form of identify verification.   But considering the international business of the game that may prove infeasible.</p>",
+        "created_at": "2022-09-10T16:57:13.065Z",
+        "like_count": 3,
+        "trust_level": 2,
+        "version": 1
+      },
+      {
+        "id": 11,
+        "username": "ashwalk33r",
+        "cooked": "<p>CCP benefits from Bots as they pay for Omega. In short therm. In longer they wreck economy, but they had Scarcity so it's ok. Right CCP greedy fucks? RIGHT?</p>",
+        "created_at": "2022-09-11T08:28:34.043Z",
+        "like_count": 3,
+        "trust_level": 2,
+        "version": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,2763 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 22621631,
+        "name": "LordVader",
+        "username": "LordVader-2923419",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-22T22:42:03.354Z",
+        "cooked": "<p>The only real way to get rid of bots is by closing all loopholes in the codes and that means closing the API and everything else in between. And lockdown everything  and every angle. Leaving no stones unturned.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 14,
+        "updated_at": "2026-06-25T00:46:26.151Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 148,
+        "reads": 64,
+        "readers_count": 63,
+        "score": 747.8,
+        "yours": false,
+        "topic_id": 1772220,
+        "topic_slug": "all-of-these-talks-about-bots",
+        "display_username": "LordVader",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2923419,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/cenarius/agumon/",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "classic": "t",
+          "race": "Blood Elf",
+          "level": "80",
+          "achievement_points": "16530",
+          "blizzard_post_count": "9769"
+        },
+        "post_url": "/t/all-of-these-talks-about-bots/1772220/1",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/akama/121/177507705-avatar.jpg?alt=/wow/static/images/2d/avatar/29-0.jpg",
+        "alias_username": "Lucionz",
+        "poster_alias": {
+          "alias": {
+            "name": "Lucionz",
+            "avatar": "https://render.worldofwarcraft.com/us/character/akama/121/177507705-avatar.jpg?alt=/wow/static/images/2d/avatar/29-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/akama/lucionz/",
+            "user_id": 2923419,
+            "id": 2475946,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 182,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/akama/lucionz/"
+              },
+              {
+                "name": "realm",
+                "value": "Akama"
+              },
+              {
+                "name": "achievement_points",
+                "value": "735"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Void Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 9769,
+        "character": {
+          "name": "LordVader",
+          "guild": null,
+          "achievement_points": "16530",
+          "level": "80",
+          "class": "Warlock",
+          "race": "Blood Elf",
+          "player_class_enum": "WARLOCK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 22621640,
+        "name": "CutiePi",
+        "username": "CutiePi-2727634",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-22T22:43:25.235Z",
+        "cooked": "<p>The best way to get rid of bots is to BAN them BEFORE they become profitable. But if that happened people would actually stop botting, so Blizz doesn’t. They like bots. Bots buy expansions and pay subscriptions.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 14,
+        "updated_at": "2026-06-19T04:35:19.349Z",
+        "reply_count": 3,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 64,
+        "readers_count": 63,
+        "score": 62.8,
+        "yours": false,
+        "topic_id": 1772220,
+        "topic_slug": "all-of-these-talks-about-bots",
+        "display_username": "CutiePi",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2727634,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/elmisha/",
+          "race": "Dracthyr",
+          "class": "Evoker",
+          "player_class_enum": "EVOKER",
+          "guild": "Loves Gold",
+          "achievement_points": "26515",
+          "level": "73",
+          "blizzard_post_count": "48571"
+        },
+        "post_url": "/t/all-of-these-talks-about-bots/1772220/2",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/velen/101/136113765-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+        "alias_username": "Rita",
+        "poster_alias": {
+          "alias": {
+            "name": "Rita",
+            "avatar": "https://render.worldofwarcraft.com/us/character/velen/101/136113765-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/velen/rita/",
+            "user_id": 2727634,
+            "id": 2418128,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 21087,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/velen/rita/"
+              },
+              {
+                "name": "realm",
+                "value": "Velen"
+              },
+              {
+                "name": "achievement_points",
+                "value": "26330"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Priest"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PRIEST"
+              },
+              {
+                "name": "guild",
+                "value": "Loves Gold"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 48571,
+        "character": {
+          "name": "CutiePi",
+          "guild": "Loves Gold",
+          "achievement_points": "26515",
+          "level": "73",
+          "class": "Evoker",
+          "race": "Dracthyr",
+          "player_class_enum": "EVOKER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 22621645,
+        "name": null,
+        "username": "anon27994941",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-22T22:44:37.683Z",
+        "cooked": "<p>And… make multi-Boxxing bannable.</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 14,
+        "updated_at": "2024-01-22T22:44:37.683Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 55,
+        "readers_count": 54,
+        "score": 21.0,
+        "yours": false,
+        "topic_id": 1772220,
+        "topic_slug": "all-of-these-talks-about-bots",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2169284,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "blizzard_post_count": "1190"
+        },
+        "post_url": "/t/all-of-these-talks-about-bots/1772220/3",
+        "alias_avatar": null,
+        "alias_username": null,
+        "poster_alias": null,
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 1190,
+        "character": {
+          "name": "anon27994941",
+          "guild": null,
+          "achievement_points": null,
+          "level": null,
+          "class": null,
+          "race": null,
+          "player_class_enum": null,
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 22621656,
+        "name": "SleepyBear",
+        "username": "SleepyBear-3150534",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-22T22:46:48.083Z",
+        "cooked": "<p>There are hardly any multiboxers left. How would it change the bot problem to ban a handful of players who are currently following the rules? Does it just make you happy inside to dream up reasons to ban other players?</p>\n<p>On the other hand, maybe you make your living running bots, and you want to distract from your own violations.</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 14,
+        "updated_at": "2026-06-20T00:52:41.995Z",
+        "reply_count": 1,
+        "reply_to_post_number": 3,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 49,
+        "readers_count": 48,
+        "score": 29.8,
+        "yours": false,
+        "topic_id": 1772220,
+        "topic_slug": "all-of-these-talks-about-bots",
+        "display_username": "SleepyBear",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2169284,
+          "username": "anon27994941",
+          "name": null,
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3150534,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/sentinels/jelybeantoes/",
+          "achievement_points": "7160",
+          "level": "20",
+          "race": "Troll",
+          "class": "Druid",
+          "player_class_enum": "DRUID",
+          "classic": "t",
+          "blizzard_post_count": "6547",
+          "guild": "Legacy Thirty"
+        },
+        "post_url": "/t/all-of-these-talks-about-bots/1772220/4",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/bleeding-hollow/184/253438904-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Opalunaiya",
+        "poster_alias": {
+          "alias": {
+            "name": "Opalunaiya",
+            "avatar": "https://render.worldofwarcraft.com/us/character/bleeding-hollow/184/253438904-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/bleeding-hollow/opalunaiya/",
+            "user_id": 3150534,
+            "id": 2426401,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 4788,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/bleeding-hollow/opalunaiya/"
+              },
+              {
+                "name": "realm",
+                "value": "Bleeding Hollow"
+              },
+              {
+                "name": "achievement_points",
+                "value": "8195"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "guild",
+                "value": "most dominant ever"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 6547,
+        "character": {
+          "name": "SleepyBear",
+          "guild": "Legacy Thirty",
+          "achievement_points": "7160",
+          "level": "20",
+          "class": "Druid",
+          "race": "Troll",
+          "player_class_enum": "DRUID",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 22621666,
+        "name": "Mike",
+        "username": "Mike-2893997",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-22T22:48:00.926Z",
+        "cooked": "<p>Are you talking about the LUA API?  Bots don’t need the API, a majority of them read memory directly, the API doesn’t expose information they need, it’s already secured.  They also run at kernel level since most use rootkits to inject themselves.  Every process is vulnerable to these things, not just WoW.</p>",
+        "post_number": 5,
+        "post_type": 1,
+        "posts_count": 14,
+        "updated_at": "2026-06-26T00:11:44.900Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 48,
+        "readers_count": 47,
+        "score": 29.6,
+        "yours": false,
+        "topic_id": 1772220,
+        "topic_slug": "all-of-these-talks-about-bots",
+        "display_username": "Mike",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2893997,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/foximusprimé/",
+          "race": "Vulpera",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "level": "80",
+          "achievement_points": "18325",
+          "blizzard_post_count": "709"
+        },
+        "post_url": "/t/all-of-these-talks-about-bots/1772220/5",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/stormrage/86/198969686-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Llamanade-stormrage",
+        "poster_alias": {
+          "alias": {
+            "name": "Llamanade-stormrage",
+            "avatar": "https://render.worldofwarcraft.com/us/character/stormrage/86/198969686-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": null,
+            "user_id": 2893997,
+            "id": 24402,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 178,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/stormrage/llamanade/"
+              },
+              {
+                "name": "realm",
+                "value": "Stormrage"
+              },
+              {
+                "name": "achievement_points",
+                "value": "16205"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Demon Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEMONHUNTER"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/stormrage/86/198969686-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Llamanade-stormrage"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 709,
+        "character": {
+          "name": "Mike",
+          "guild": null,
+          "achievement_points": "18325",
+          "level": "80",
+          "class": "Hunter",
+          "race": "Vulpera",
+          "player_class_enum": "HUNTER",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 22621672,
+        "name": null,
+        "username": "anon27994941",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-22T22:48:19.966Z",
+        "cooked": "<p>As long as blizzard continues to create NPC’s and Dungeon Followers… there will always be bots. We’ve/They’ve already concluded that anyone running multiboxing… can rewrite or allow someone to rewrite the code in order to create bots…</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "posts_count": 14,
+        "updated_at": "2024-01-22T22:50:51.325Z",
+        "reply_count": 1,
+        "reply_to_post_number": 4,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 43,
+        "readers_count": 42,
+        "score": 13.6,
+        "yours": false,
+        "topic_id": 1772220,
+        "topic_slug": "all-of-these-talks-about-bots",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 3150534,
+          "username": "SleepyBear-3150534",
+          "name": "SleepyBear",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2169284,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "blizzard_post_count": "1190"
+        },
+        "post_url": "/t/all-of-these-talks-about-bots/1772220/6",
+        "alias_avatar": null,
+        "alias_username": null,
+        "poster_alias": null,
+        "reply_to_alias": {
+          "id": 2426401,
+          "username": "Opalunaiya",
+          "name": "Opalunaiya",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/bleeding-hollow/184/253438904-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 1190,
+        "character": {
+          "name": "anon27994941",
+          "guild": null,
+          "achievement_points": null,
+          "level": null,
+          "class": null,
+          "race": null,
+          "player_class_enum": null,
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 22621705,
+        "name": "LordVader",
+        "username": "LordVader-2923419",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-22T22:50:08.477Z",
+        "cooked": "<p>Those are legal bots since they are created by first party and not by third party from the outside. Plus, those bots are illegal and not just illegal but disruptive.</p>",
+        "post_number": 7,
+        "post_type": 1,
+        "posts_count": 14,
+        "updated_at": "2026-06-25T00:46:26.293Z",
+        "reply_count": 0,
+        "reply_to_post_number": 6,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 38,
+        "readers_count": 37,
+        "score": 7.6,
+        "yours": false,
+        "topic_id": 1772220,
+        "topic_slug": "all-of-these-talks-about-bots",
+        "display_username": "LordVader",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "reply_to_user": {
+          "id": 2169284,
+          "username": "anon27994941",
+          "name": null,
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2923419,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/cenarius/agumon/",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "classic": "t",
+          "race": "Blood Elf",
+          "level": "80",
+          "achievement_points": "16530",
+          "blizzard_post_count": "9769"
+        },
+        "post_url": "/t/all-of-these-talks-about-bots/1772220/7",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/akama/121/177507705-avatar.jpg?alt=/wow/static/images/2d/avatar/29-0.jpg",
+        "alias_username": "Lucionz",
+        "poster_alias": {
+          "alias": {
+            "name": "Lucionz",
+            "avatar": "https://render.worldofwarcraft.com/us/character/akama/121/177507705-avatar.jpg?alt=/wow/static/images/2d/avatar/29-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/akama/lucionz/",
+            "user_id": 2923419,
+            "id": 2475946,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 182,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/akama/lucionz/"
+              },
+              {
+                "name": "realm",
+                "value": "Akama"
+              },
+              {
+                "name": "achievement_points",
+                "value": "735"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Void Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 9769,
+        "character": {
+          "name": "LordVader",
+          "guild": null,
+          "achievement_points": "16530",
+          "level": "80",
+          "class": "Warlock",
+          "race": "Blood Elf",
+          "player_class_enum": "WARLOCK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 22621720,
+        "name": "Break",
+        "username": "Break-3302352",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-22T22:52:23.135Z",
+        "cooked": "<p>or, now.. or.. hear me out..</p>\n<p>Punish bots in real time instead of letting them ruin the economy for half a year at a time then ban-waving them.</p>\n<p>Do silly things.. just randomly kill them. Wipe their inventories every 2 hours. Disable their trading. Disable their mailboxes.</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "posts_count": 14,
+        "updated_at": "2026-06-16T21:35:14.969Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 35,
+        "readers_count": 34,
+        "score": 12.0,
+        "yours": false,
+        "topic_id": 1772220,
+        "topic_slug": "all-of-these-talks-about-bots",
+        "display_username": "Break",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3302352,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/malganis/apez/",
+          "guild": "Turbo Team",
+          "achievement_points": "0",
+          "level": "54",
+          "race": "Night Elf",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "classic": "t",
+          "blizzard_post_count": "4776"
+        },
+        "post_url": "/t/all-of-these-talks-about-bots/1772220/8",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/sulfuras/182/66106294-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+        "alias_username": "Semicasual",
+        "poster_alias": {
+          "alias": {
+            "name": "Semicasual",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/sulfuras/182/66106294-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+            "url": null,
+            "user_id": 3302352,
+            "id": 2390381,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 3723,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Sulfuras"
+              },
+              {
+                "name": "achievement_points",
+                "value": "2680"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 4776,
+        "character": {
+          "name": "Break",
+          "guild": "Turbo Team",
+          "achievement_points": "0",
+          "level": "54",
+          "class": "Hunter",
+          "race": "Night Elf",
+          "player_class_enum": "HUNTER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 22621817,
+        "name": "Decepticon",
+        "username": "Decepticon-2078918",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-22T23:05:38.893Z",
+        "cooked": "<p>It does seem about time to thin the bots again.</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "posts_count": 14,
+        "updated_at": "2026-03-03T14:56:57.958Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 26,
+        "readers_count": 25,
+        "score": 5.2,
+        "yours": false,
+        "topic_id": 1772220,
+        "topic_slug": "all-of-these-talks-about-bots",
+        "display_username": "Decepticon",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2078918,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/chaosnachos/",
+          "race": "Blood Elf",
+          "class": "Demon Hunter",
+          "player_class_enum": "DEMONHUNTER",
+          "level": "70",
+          "guild": "Hellz Fury",
+          "achievement_points": "20665",
+          "blizzard_post_count": "3140"
+        },
+        "post_url": "/t/all-of-these-talks-about-bots/1772220/9",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/area-52/60/240721980-avatar.jpg?alt=/wow/static/images/2d/avatar/31-0.jpg",
+        "alias_username": "Kaoscontroll-area-52",
+        "poster_alias": {
+          "alias": {
+            "name": "Kaoscontroll-area-52",
+            "avatar": "https://render.worldofwarcraft.com/us/character/area-52/60/240721980-avatar.jpg?alt=/wow/static/images/2d/avatar/31-0.jpg",
+            "url": null,
+            "user_id": 2078918,
+            "id": 431296,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 653,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/area-52/kaoscontroll/"
+              },
+              {
+                "name": "realm",
+                "value": "Area 52"
+              },
+              {
+                "name": "achievement_points",
+                "value": "20665"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Zandalari Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "guild",
+                "value": "Hellz Fury"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 3140,
+        "character": {
+          "name": "Decepticon",
+          "guild": "Hellz Fury",
+          "achievement_points": "20665",
+          "level": "70",
+          "class": "Demon Hunter",
+          "race": "Blood Elf",
+          "player_class_enum": "DEMONHUNTER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 22621864,
+        "name": "Gryphon",
+        "username": "Gryphon-2466528",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-22T23:12:59.697Z",
+        "cooked": "<p>Yup, the API would not be enough to control bots. It’s less about loopholes in code than identifying non-human behavior. So it would be a great task for audit trail logging (movement and activity tracking) and Machine Learning to identify patterns in play activity, time, etc.</p>\n<p>Heck, anything that’s running around 24x7 is hopefully already being tagged.</p>",
+        "post_number": 10,
+        "post_type": 1,
+        "posts_count": 14,
+        "updated_at": "2024-01-22T23:12:59.697Z",
+        "reply_count": 0,
+        "reply_to_post_number": 5,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 26,
+        "readers_count": 25,
+        "score": 5.2,
+        "yours": false,
+        "topic_id": 1772220,
+        "topic_slug": "all-of-these-talks-about-bots",
+        "display_username": "Gryphon",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2893997,
+          "username": "Mike-2893997",
+          "name": "Mike",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2466528,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/cowvenent/",
+          "guild": "Wur Mah Durguns",
+          "race": "Tauren",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "level": "50",
+          "achievement_points": "21615",
+          "blizzard_post_count": "1358"
+        },
+        "post_url": "/t/all-of-these-talks-about-bots/1772220/10",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/area-52/229/116550117-avatar.jpg?alt=/wow/static/images/2d/avatar/6-1.jpg",
+        "alias_username": "Cowvenent-area-52",
+        "poster_alias": {
+          "alias": {
+            "name": "Cowvenent-area-52",
+            "avatar": "https://render.worldofwarcraft.com/us/character/area-52/229/116550117-avatar.jpg?alt=/wow/static/images/2d/avatar/6-1.jpg",
+            "url": null,
+            "user_id": 2466528,
+            "id": 373555,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1642,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/area-52/cowvenent/"
+              },
+              {
+                "name": "realm",
+                "value": "Area 52"
+              },
+              {
+                "name": "achievement_points",
+                "value": "21615"
+              },
+              {
+                "name": "level",
+                "value": "50"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "guild",
+                "value": "Wur Mah Durguns"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 24402,
+          "username": "Llamanade-stormrage",
+          "name": "Llamanade",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/stormrage/86/198969686-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 1358,
+        "character": {
+          "name": "Gryphon",
+          "guild": "Wur Mah Durguns",
+          "achievement_points": "21615",
+          "level": "50",
+          "class": "Paladin",
+          "race": "Tauren",
+          "player_class_enum": "PALADIN",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 22621912,
+        "name": "Rokujuro1049",
+        "username": "Rokujuro1049-23109",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-22T23:18:53.870Z",
+        "cooked": "<p>Somehow the bot developers get paid for the software, and if they ban one by one, the devs only lose the revenue from those single instances. If they ban a massive wave of bots (thousands?) the bot developers lose a massive chunk of change as many people cancel the charge on their credit card all at once. That is the explanation some ex Blizzard guy gave on Youtube for ban waves, and it makes sense.</p>",
+        "post_number": 11,
+        "post_type": 1,
+        "posts_count": 14,
+        "updated_at": "2026-06-25T07:21:17.597Z",
+        "reply_count": 0,
+        "reply_to_post_number": 2,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 27,
+        "readers_count": 26,
+        "score": 10.4,
+        "yours": false,
+        "topic_id": 1772220,
+        "topic_slug": "all-of-these-talks-about-bots",
+        "display_username": "Rokujuro1049",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2727634,
+          "username": "CutiePi-2727634",
+          "name": "CutiePi",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 23109,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Canis Canem Edit",
+          "race": "Blood Elf",
+          "class": "Rogue",
+          "player_class_enum": "ROGUE",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/shuhalo/unsub/",
+          "level": "73",
+          "achievement_points": "15165",
+          "blizzard_post_count": "2141"
+        },
+        "post_url": "/t/all-of-these-talks-about-bots/1772220/11",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/shuhalo/54/111511094-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
+        "alias_username": "Presterjoe-shuhalo",
+        "poster_alias": {
+          "alias": {
+            "name": "Presterjoe-shuhalo",
+            "avatar": "https://render.worldofwarcraft.com/us/character/shuhalo/54/111511094-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/shuhalo/presterjoe/",
+            "user_id": 23109,
+            "id": 389801,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 298,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/shuhalo/presterjoe/"
+              },
+              {
+                "name": "realm",
+                "value": "Shu'halo"
+              },
+              {
+                "name": "achievement_points",
+                "value": "15255"
+              },
+              {
+                "name": "level",
+                "value": "74"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Priest"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PRIEST"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/shuhalo/54/111511094-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Presterjoe-shuhalo"
+              },
+              {
+                "name": "guild",
+                "value": "Canis Canem Edit"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2418128,
+          "username": "Rita",
+          "name": "Rita",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/velen/101/136113765-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 2141,
+        "character": {
+          "name": "Rokujuro1049",
+          "guild": "Canis Canem Edit",
+          "achievement_points": "15165",
+          "level": "73",
+          "class": "Rogue",
+          "race": "Blood Elf",
+          "player_class_enum": "ROGUE",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 22622103,
+        "name": "snowberry",
+        "username": "snowberry-294436",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-22T23:42:50.204Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Rita-velen\" data-post=\"2\" data-topic=\"1772220\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/velen/101/136113765-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg\" class=\"avatar\"> Rita:</div>\n<blockquote>\n<p>Bots buy expansions and pay subscriptions.</p>\n</blockquote>\n</aside>\n<p><img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/point_up_2.png?v=12\" title=\":point_up_2:\" class=\"emoji\" alt=\":point_up_2:\" loading=\"lazy\" width=\"20\" height=\"20\"> <img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/point_up_2.png?v=12\" title=\":point_up_2:\" class=\"emoji\" alt=\":point_up_2:\" loading=\"lazy\" width=\"20\" height=\"20\"> <img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/point_up_2.png?v=12\" title=\":point_up_2:\" class=\"emoji\" alt=\":point_up_2:\" loading=\"lazy\" width=\"20\" height=\"20\"> <img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/point_up_2.png?v=12\" title=\":point_up_2:\" class=\"emoji\" alt=\":point_up_2:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+        "post_number": 12,
+        "post_type": 1,
+        "posts_count": 14,
+        "updated_at": "2024-01-22T23:42:50.204Z",
+        "reply_count": 0,
+        "reply_to_post_number": 2,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 18,
+        "readers_count": 17,
+        "score": 3.6,
+        "yours": false,
+        "topic_id": 1772220,
+        "topic_slug": "all-of-these-talks-about-bots",
+        "display_username": "snowberry",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 294436,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Pandaren",
+          "class": "Monk",
+          "player_class_enum": "MONK",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/daggerspine/liolang/",
+          "guild": "MingHoyJoyLuck",
+          "level": "80",
+          "achievement_points": "14090",
+          "blizzard_post_count": "75484"
+        },
+        "post_url": "/t/all-of-these-talks-about-bots/1772220/12",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/daggerspine/212/134305236-avatar.jpg?alt=/wow/static/images/2d/avatar/26-1.jpg",
+        "alias_username": "Liolang-daggerspine",
+        "poster_alias": {
+          "alias": {
+            "name": "Liolang-daggerspine",
+            "avatar": "https://render.worldofwarcraft.com/us/character/daggerspine/212/134305236-avatar.jpg?alt=/wow/static/images/2d/avatar/26-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/daggerspine/liolang/",
+            "user_id": 294436,
+            "id": 437209,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 29219,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/daggerspine/liolang/"
+              },
+              {
+                "name": "realm",
+                "value": "Daggerspine"
+              },
+              {
+                "name": "achievement_points",
+                "value": "14760"
+              },
+              {
+                "name": "level",
+                "value": "85"
+              },
+              {
+                "name": "race",
+                "value": "Pandaren"
+              },
+              {
+                "name": "player_class",
+                "value": "Monk"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MONK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/daggerspine/212/134305236-avatar.jpg?alt=/wow/static/images/2d/avatar/26-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Liolang-daggerspine"
+              },
+              {
+                "name": "guild",
+                "value": "MingHoyJoyLuck"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 75484,
+        "character": {
+          "name": "snowberry",
+          "guild": "MingHoyJoyLuck",
+          "achievement_points": "14090",
+          "level": "80",
+          "class": "Monk",
+          "race": "Pandaren",
+          "player_class_enum": "MONK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 22622376,
+        "name": "Slotmachine",
+        "username": "Slotmachine-2280782",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-23T00:05:02.083Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Rita-velen\" data-post=\"2\" data-topic=\"1772220\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/velen/101/136113765-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg\" class=\"avatar\"> Rita:</div>\n<blockquote>\n<p>The best way to get rid of bots is to BAN them BEFORE they become profitable</p>\n</blockquote>\n</aside>\n<p>Only thing you can do is to make people stop buying their stuffs, and you know it aint gonna happen</p>",
+        "post_number": 13,
+        "post_type": 1,
+        "posts_count": 14,
+        "updated_at": "2024-01-23T00:05:11.921Z",
+        "reply_count": 0,
+        "reply_to_post_number": 2,
+        "quote_count": 1,
+        "incoming_link_count": 1,
+        "reads": 13,
+        "readers_count": 12,
+        "score": 7.6,
+        "yours": false,
+        "topic_id": 1772220,
+        "topic_slug": "all-of-these-talks-about-bots",
+        "display_username": "Slotmachine",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2280782,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/sargeras/slotmachine/",
+          "race": "Night Elf",
+          "class": "Rogue",
+          "player_class_enum": "ROGUE",
+          "guild": "Astral Vision",
+          "classic": "t",
+          "level": "90",
+          "achievement_points": "25140",
+          "blizzard_post_count": "18562"
+        },
+        "post_url": "/t/all-of-these-talks-about-bots/1772220/13",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/sargeras/198/190443206-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Slotmachine-sargeras",
+        "poster_alias": {
+          "alias": {
+            "name": "Slotmachine-sargeras",
+            "avatar": "https://render.worldofwarcraft.com/us/character/sargeras/198/190443206-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/sargeras/slotmachine/",
+            "user_id": 2280782,
+            "id": 526109,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 14992,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/sargeras/slotmachine/"
+              },
+              {
+                "name": "realm",
+                "value": "Sargeras"
+              },
+              {
+                "name": "achievement_points",
+                "value": "26615"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/sargeras/198/190443206-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Slotmachine-sargeras"
+              },
+              {
+                "name": "guild",
+                "value": "Astral Vision"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 18562,
+        "character": {
+          "name": "Slotmachine",
+          "guild": "Astral Vision",
+          "achievement_points": "25140",
+          "level": "90",
+          "class": "Rogue",
+          "race": "Night Elf",
+          "player_class_enum": "ROGUE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 22622499,
+        "name": "wizard",
+        "username": "wizard-224181",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-01-23T00:16:09.366Z",
+        "cooked": "<ul>\n<li>Bots make up a massive portion of the Monthly Active Users (MAU) metric for the shareholders. Banning  them, at least before a report period, would be counterproductive to their bottom line.</li>\n<li>Ban waves take too long to be enacted. It’s highly profitable to create a new account and use a bot to farm gold since they will make far more money than they ever lose, especially in classic where there’s no box price to the game. Gold generation is at an all time high. Blizzard’s answer is to create more gold sinks in the game when in reality there’s too much gold from nefarious sources and the average real player will never be able to collect that much.</li>\n<li>Gold buying isn’t punished enough. To deter players from buying gold they need to:<br>\n— Ban the gold seller.<br>\n— Delete all gold in the transaction from all sources, even if it’s already changed hands.<br>\n— Ban the gold buyer.<br>\n— Remove any/all achievements, colllectibles, and progress on any associated account. If you’re banned you still keep all  of your achievements and  collections across your Battlenet account so you don’t really lose too much if you have to make a new  WoW license.</li>\n<li>Set a generic filter in trade chat and LFG that auto bans advertisements of any  kind for carries/sales of “services”</li>\n<li>Set a generic chat filter in LFG and the services channel that auto detects and bans any/all sales that advertise any form of 3rd party (website, discord etc…) entity to discuss payments.</li>\n<li>Strictly monitor the services channel as it is really just a spam haven for RMT and frauds. There’s almost no legitimate sellers in services, it’s just a wall of RMT spam that is so blatant and obvious. These people need instant account closures.</li>\n<li>Implement name/payment method/hardware bans on commercial use bots and sellers.</li>\n<li>Do better at detecting and banning VPNs as this is a main way that these mostly foreign gold sellers access US servers to cheat and sell illegal gold.</li>\n</ul>\n<p>There’s so much that could be done, but let’s be real. Blizzard doesn’t want any of it. Banning bots that generate gold would kill token sales and make it impossible for people to legitimately afford things. The mass inflation would go down over night, trade goods would immediately skyrocket in  price due to bots not being able to sell them anymore. It’d just be a mess.</p>",
+        "post_number": 14,
+        "post_type": 1,
+        "posts_count": 14,
+        "updated_at": "2024-01-23T00:16:34.007Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 7,
+        "readers_count": 6,
+        "score": 1.4,
+        "yours": false,
+        "topic_id": 1772220,
+        "topic_slug": "all-of-these-talks-about-bots",
+        "display_username": "wizard",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 224181,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "class": "Priest",
+          "player_class_enum": "PRIEST",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/illidan/ithost/",
+          "level": "80",
+          "race": "Blood Elf",
+          "guild": "Reverb",
+          "achievement_points": "33905",
+          "blizzard_post_count": "7378"
+        },
+        "post_url": "/t/all-of-these-talks-about-bots/1772220/14",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/illidan/158/234212510-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
+        "alias_username": "Ithost-illidan",
+        "poster_alias": {
+          "alias": {
+            "name": "Ithost-illidan",
+            "avatar": "https://render.worldofwarcraft.com/us/character/illidan/158/234212510-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/illidan/ithost/",
+            "user_id": 224181,
+            "id": 424669,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 6342,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/illidan/ithost/"
+              },
+              {
+                "name": "realm",
+                "value": "Illidan"
+              },
+              {
+                "name": "achievement_points",
+                "value": "37225"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Priest"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PRIEST"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/illidan/158/234212510-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Ithost-illidan"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 7378,
+        "character": {
+          "name": "wizard",
+          "guild": "Reverb",
+          "achievement_points": "33905",
+          "level": "80",
+          "class": "Priest",
+          "race": "Blood Elf",
+          "player_class_enum": "PRIEST",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ],
+    "stream": [
+      22621631,
+      22621640,
+      22621645,
+      22621656,
+      22621666,
+      22621672,
+      22621705,
+      22621720,
+      22621817,
+      22621864,
+      22621912,
+      22622103,
+      22622376,
+      22622499
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      960
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "fancy_title": "It doesn&rsquo;t make sense for crafted items to have a nerfed ilvl if mythic raiders are getting 9/6 gear",
+      "id": 2343323,
+      "title": "It doesn't make sense for crafted items to have a nerfed ilvl if mythic raiders are getting 9/6 gear",
+      "slug": "it-doesnt-make-sense-for-crafted-items-to-have-a-nerfed-ilvl-if-mythic-raiders-are-getting-96-gear",
+      "posts_count": 39,
+      "reply_count": 20,
+      "highest_post_number": 39,
+      "image_url": null,
+      "created_at": "2026-09-01T04:39:52.385Z",
+      "last_posted_at": "2026-09-02T06:16:39.274Z",
+      "bumped": true,
+      "bumped_at": "2026-09-02T06:16:39.274Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "crafted items having a 3 ilvl nerf made sense to give mythic raiders room at the top end of ilvl spectrum, but now that they literally made more room at the top end of the ilvl spectrum for mythic raiders it doesn’t make&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 44,
+      "views": 511,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 6,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3262438,
+            "username": "InvisibleInk-3262438",
+            "name": "InvisibleInk",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 73641,
+            "username": "Pyrii-73641",
+            "name": "Pyrii",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2419537,
+            "username": "Faith-2419537",
+            "name": "Faith",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2422238,
+            "username": "Venom-2422238",
+            "name": "Venom",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 8324,
+            "username": "JDxBaraka-8324",
+            "name": "JDxBaraka",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Are Illidari blindfolds enchanted?",
+      "id": 2340053,
+      "title": "Are Illidari blindfolds enchanted?",
+      "slug": "are-illidari-blindfolds-enchanted",
+      "posts_count": 4,
+      "reply_count": 0,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2026-08-22T21:16:18.059Z",
+      "last_posted_at": "2026-08-22T21:24:10.956Z",
+      "bumped": true,
+      "bumped_at": "2026-08-22T21:24:10.956Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "How do they not burn it? \nCan’t help but think of Cyclops.",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 3,
+      "views": 48,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3339407,
+            "username": "DeadlyKitten-3339407",
+            "name": "DeadlyKitten",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2277436,
+            "username": "Thallia-2277436",
+            "name": "Thallia",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 24591,
+            "username": "MajorThor-24591",
+            "name": "MajorThor",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 419999,
+            "username": "cloudbuster-419999",
+            "name": "cloudbuster",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Character feels slow",
+      "id": 2338998,
+      "title": "Character feels slow",
+      "slug": "character-feels-slow",
+      "posts_count": 6,
+      "reply_count": 1,
+      "highest_post_number": 6,
+      "image_url": null,
+      "created_at": "2026-08-20T01:46:10.959Z",
+      "last_posted_at": "2026-08-20T03:59:12.552Z",
+      "bumped": true,
+      "bumped_at": "2026-08-20T03:59:12.552Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "My game play is miserable because my Death Knight feels slow and encumbered even trying to interrupt or cast a spell takes two or three presses or clicks before the action takes place. Mounting or mining is also slow. Is&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 4,
+      "views": 95,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3231664,
+            "username": "TheReign-3231664",
+            "name": "TheReign",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 271638,
+            "username": "Wurmfuud-271638",
+            "name": "Wurmfuud",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 31626,
+            "username": "Xanril-31626",
+            "name": "Xanril",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 111152,
+            "username": "RedMage-111152",
+            "name": "RedMage",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "What is this week?!",
+      "id": 2342020,
+      "title": "What is this week?!",
+      "slug": "what-is-this-week",
+      "posts_count": 16,
+      "reply_count": 7,
+      "highest_post_number": 16,
+      "image_url": null,
+      "created_at": "2026-08-28T03:39:27.179Z",
+      "last_posted_at": "2026-08-28T11:25:35.280Z",
+      "bumped": true,
+      "bumped_at": "2026-08-28T11:25:35.280Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Dolly, Tim and now Peter Cullen \nWHAT IS GOING on is…this sign or some thing… Sign more despair and horrible thing to come?",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 4,
+      "views": 203,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 18154,
+            "username": "Landusk-18154",
+            "name": "Landusk",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 260875,
+            "username": "CrazyGamer-260875",
+            "name": "CrazyGamer",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3059015,
+            "username": "MrHoliday-3059015",
+            "name": "MrHoliday",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 22882,
+            "username": "Maplestone-22882",
+            "name": "Maplestone",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 201580,
+            "username": "Eurynomos-201580",
+            "name": "Eurynomos",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "WoW Has a Toxicity Problem - and the Current Reporting System Isn’t Enough",
+      "id": 2343932,
+      "title": "WoW Has a Toxicity Problem - and the Current Reporting System Isn’t Enough",
+      "slug": "wow-has-a-toxicity-problem-and-the-current-reporting-system-isn%E2%80%99t-enough",
+      "posts_count": 153,
+      "reply_count": 81,
+      "highest_post_number": 154,
+      "image_url": null,
+      "created_at": "2026-09-02T16:23:08.941Z",
+      "last_posted_at": "2026-09-03T16:41:33.776Z",
+      "bumped": true,
+      "bumped_at": "2026-09-03T16:41:33.776Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "WoW has a broader community problem with toxic behavior, and I think part of the reason it persists is that the current reporting and moderation systems do not seem effective enough to discourage it. \nThis shows up in ma&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 252,
+      "views": 1243,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 13,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3181758,
+            "username": "Ambition-3181758",
+            "name": "Ambition",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 1,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2008824,
+            "username": "Ordaine-2008824",
+            "name": "Ordaine",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2412709,
+            "username": "SeaGrass-2412709",
+            "name": "SeaGrass",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 294436,
+            "username": "snowberry-294436",
+            "name": "snowberry",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 1658049,
+            "username": "JOHNofHEARTS-1658049",
+            "name": "JOHNofHEARTS",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    }
+  ],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "All of these talks about bots",
+  "id": 1772220,
+  "title": "All of these talks about bots",
+  "posts_count": 14,
+  "created_at": "2024-01-22T22:42:03.269Z",
+  "views": 392,
+  "reply_count": 7,
+  "like_count": 4,
+  "last_posted_at": "2024-01-23T00:16:09.366Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "all-of-these-talks-about-bots",
+  "category_id": 171,
+  "word_count": 937,
+  "deleted_at": null,
+  "user_id": 2923419,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_1772220",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 14,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 1001,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1002,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1003,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1004,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1005,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 5,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 2466528,
+        "username": "Gryphon-2466528",
+        "name": "Gryphon",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Cowvenent-area-52",
+            "avatar": "https://render.worldofwarcraft.com/us/character/area-52/229/116550117-avatar.jpg?alt=/wow/static/images/2d/avatar/6-1.jpg",
+            "url": null,
+            "user_id": 2466528,
+            "id": 373555,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1642,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/area-52/cowvenent/"
+              },
+              {
+                "name": "realm",
+                "value": "Area 52"
+              },
+              {
+                "name": "achievement_points",
+                "value": "21615"
+              },
+              {
+                "name": "level",
+                "value": "50"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "guild",
+                "value": "Wur Mah Durguns"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 224181,
+        "username": "wizard-224181",
+        "name": "wizard",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Ithost-illidan",
+            "avatar": "https://render.worldofwarcraft.com/us/character/illidan/158/234212510-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/illidan/ithost/",
+            "user_id": 224181,
+            "id": 424669,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 6342,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/illidan/ithost/"
+              },
+              {
+                "name": "realm",
+                "value": "Illidan"
+              },
+              {
+                "name": "achievement_points",
+                "value": "37225"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Priest"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PRIEST"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/illidan/158/234212510-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Ithost-illidan"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 2078918,
+        "username": "Decepticon-2078918",
+        "name": "Decepticon",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Kaoscontroll-area-52",
+            "avatar": "https://render.worldofwarcraft.com/us/character/area-52/60/240721980-avatar.jpg?alt=/wow/static/images/2d/avatar/31-0.jpg",
+            "url": null,
+            "user_id": 2078918,
+            "id": 431296,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 653,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/area-52/kaoscontroll/"
+              },
+              {
+                "name": "realm",
+                "value": "Area 52"
+              },
+              {
+                "name": "achievement_points",
+                "value": "20665"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Zandalari Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "guild",
+                "value": "Hellz Fury"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 2280782,
+        "username": "Slotmachine-2280782",
+        "name": "Slotmachine",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Slotmachine-sargeras",
+            "avatar": "https://render.worldofwarcraft.com/us/character/sargeras/198/190443206-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/sargeras/slotmachine/",
+            "user_id": 2280782,
+            "id": 526109,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 14992,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/sargeras/slotmachine/"
+              },
+              {
+                "name": "realm",
+                "value": "Sargeras"
+              },
+              {
+                "name": "achievement_points",
+                "value": "26615"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/sargeras/198/190443206-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Slotmachine-sargeras"
+              },
+              {
+                "name": "guild",
+                "value": "Astral Vision"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 294436,
+        "username": "snowberry-294436",
+        "name": "snowberry",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Liolang-daggerspine",
+            "avatar": "https://render.worldofwarcraft.com/us/character/daggerspine/212/134305236-avatar.jpg?alt=/wow/static/images/2d/avatar/26-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/daggerspine/liolang/",
+            "user_id": 294436,
+            "id": 437209,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 29219,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/daggerspine/liolang/"
+              },
+              {
+                "name": "realm",
+                "value": "Daggerspine"
+              },
+              {
+                "name": "achievement_points",
+                "value": "14760"
+              },
+              {
+                "name": "level",
+                "value": "85"
+              },
+              {
+                "name": "race",
+                "value": "Pandaren"
+              },
+              {
+                "name": "player_class",
+                "value": "Monk"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MONK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/daggerspine/212/134305236-avatar.jpg?alt=/wow/static/images/2d/avatar/26-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Liolang-daggerspine"
+              },
+              {
+                "name": "guild",
+                "value": "MingHoyJoyLuck"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      }
+    ],
+    "created_by": {
+      "id": 2923419,
+      "username": "LordVader-2923419",
+      "name": "LordVader",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    },
+    "last_poster": {
+      "id": 224181,
+      "username": "wizard-224181",
+      "name": "wizard",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    }
+  },
+  "bookmarks": [],
+  "jogo": "World of Warcraft",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Blizzard",
+  "url_fonte": "https://us.forums.blizzard.com/en/wow/t/all-of-these-talks-about-bots/1772220"
+}

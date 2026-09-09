@@ -1,0 +1,2702 @@
+{
+  "id": 3000007,
+  "title": "Adjustments to Reduce Non-Participation in Dungeons",
+  "slug": "adjustments-to-reduce-non-participation-in-dungeons",
+  "jogo": "World of Warcraft",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Blizzard",
+  "url_fonte": "https://us.forums.blizzard.com/en/wow/t/adjustments-to-reduce-non-participation-in-dungeons/2291104",
+  "post_stream": {
+    "posts": [
+      {
+        "id": 29299248,
+        "name": "Kaivax",
+        "username": "Kaivax",
+        "avatar_template": "/en/wow/user_avatar/us.forums.blizzard.com/kaivax/{size}/880_2.png",
+        "created_at": "2026-04-13T23:17:49.916Z",
+        "cooked": "<p><strong>Update April 15, 7:15 p.m. PDT</strong></p>\n<p>Yesterday, we implemented the hotfixes described above to support core gameplay in instances in Burning Crusade Classic Anniversary. Unfortunately, these changes were impaired by bugs that did not appear in our pre-release testing. The result was unintended behavior of drops for both solo and group players. For example: one bug resulted in some players becoming completely disallowed from rolling on loot.</p>\n<p>With an update we sent to the live game a few minutes ago, we have reverted the original changes while we investigate these bugs.</p>\n<p>Thank you for your feedback.</p>\n<hr>\n<p>We’ve observed a significant number of Burning Crusade players entering dungeons and then participating in no meaningful gameplay, often while only one party member plays through the instance. When this is prominent, it can lead to detrimental economic effects, among other concerns, so we’re implementing a series of hotfixes to address it.</p>\n<p><strong>The Burning Crusade Classic</strong></p>\n<ul>\n<li><strong>Dungeons</strong>\n<ul>\n<li>Players must participate in combat to receive experience from dungeons.</li>\n<li>The amount of loot dropped by non-boss enemies in high-level dungeons is now determined by how many players participate in the kill.</li>\n</ul>\n</li>\n</ul>\n<p>The vast majority of players who participate in dungeon groups as usual should see no difference after these updates.</p>\n<p>These changes will go into effect with scheduled weekly maintenance in each region.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 950,
+        "updated_at": "2026-04-16T02:19:55.174Z",
+        "reply_count": 20,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 10541,
+        "reads": 1829,
+        "readers_count": 1828,
+        "score": 53245.4,
+        "yours": false,
+        "topic_id": 2291104,
+        "topic_slug": "adjustments-to-reduce-non-participation-in-dungeons",
+        "display_username": "Kaivax",
+        "primary_group_name": "community-manager",
+        "flair_name": "community-manager",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 43,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://us.forums.blizzard.com/en/wow/t/changes-were-unnecessary-and-punish-players-not-boosting/2291885/3",
+            "internal": true,
+            "reflection": true,
+            "title": "Changes were unnecessary and punish players not boosting",
+            "clicks": 107
+          },
+          {
+            "url": "https://us.forums.blizzard.com/en/wow/t/you-didnt-fix-boosting/2292196/4",
+            "internal": true,
+            "reflection": true,
+            "title": "You didn't fix boosting",
+            "clicks": 33
+          },
+          {
+            "url": "https://us.forums.blizzard.com/en/wow/t/can-a-cm-address-the-player-having-a-meltdown-in-the-tbcc-anniversary-forums/2292181/21",
+            "internal": true,
+            "reflection": true,
+            "title": "Can a CM address the player having a meltdown in the TBCC Anniversary forums?",
+            "clicks": 10
+          }
+        ],
+        "read": true,
+        "user_title": "Community Manager",
+        "title_is_group": true,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 23
+          }
+        ],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": 3390,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "blizzard_post_count": "2085"
+        },
+        "post_url": "/t/adjustments-to-reduce-non-participation-in-dungeons/2291104/1",
+        "alias_avatar": null,
+        "alias_username": null,
+        "poster_alias": null,
+        "reply_to_alias": null,
+        "animated_avatar": "//assets-wowusen-blz-prod-us.s3.dualstack.us-west-2.amazonaws.com/original/1X/2e2d7f4147bb13644e4eb8b3586a7a3950c2b464.gif",
+        "user_post_count": 2085,
+        "character": {
+          "name": "Kaivax",
+          "guild": null,
+          "achievement_points": null,
+          "level": null,
+          "class": null,
+          "race": null,
+          "player_class_enum": null,
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 29299250,
+        "name": "Kaivax",
+        "username": "Kaivax",
+        "avatar_template": "/en/wow/user_avatar/us.forums.blizzard.com/kaivax/{size}/880_2.png",
+        "created_at": "2026-04-13T23:17:56.357Z",
+        "cooked": "",
+        "post_number": 2,
+        "post_type": 3,
+        "posts_count": 950,
+        "updated_at": "2026-04-13T23:17:56.357Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 12,
+        "reads": 1671,
+        "readers_count": 1670,
+        "score": 394.0,
+        "yours": false,
+        "topic_id": 2291104,
+        "topic_slug": "adjustments-to-reduce-non-participation-in-dungeons",
+        "display_username": "Kaivax",
+        "primary_group_name": "community-manager",
+        "flair_name": "community-manager",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 43,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Community Manager",
+        "title_is_group": true,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": 3390,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "blizzard_post_count": "2085"
+        },
+        "action_code": "pinned.enabled",
+        "post_url": "/t/adjustments-to-reduce-non-participation-in-dungeons/2291104/2",
+        "alias_avatar": null,
+        "alias_username": null,
+        "poster_alias": null,
+        "reply_to_alias": null,
+        "animated_avatar": "//assets-wowusen-blz-prod-us.s3.dualstack.us-west-2.amazonaws.com/original/1X/2e2d7f4147bb13644e4eb8b3586a7a3950c2b464.gif",
+        "user_post_count": 2085,
+        "character": {
+          "name": "Kaivax",
+          "guild": null,
+          "achievement_points": null,
+          "level": null,
+          "class": null,
+          "race": null,
+          "player_class_enum": null,
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 29299353,
+        "name": "Chad",
+        "username": "Chad-1794758",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-04-13T23:33:10.198Z",
+        "cooked": "<p>You guys planning on doing anything about the insane amount of 1700/2000 arena boosting going on, then? The boosting is horrible there.</p>\n<p>I’m guessing you won’t though, only matters if it impacts your $$$ (your change is clearly intended to push people to pay for 58 boosts.)</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 950,
+        "updated_at": "2026-04-13T23:33:10.198Z",
+        "reply_count": 2,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 52,
+        "reads": 1520,
+        "readers_count": 1519,
+        "score": 1249.0,
+        "yours": false,
+        "topic_id": 2291104,
+        "topic_slug": "adjustments-to-reduce-non-participation-in-dungeons",
+        "display_username": "Chad",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 45
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1794758,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/bleeding-hollow/sisco/",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "classic": "t",
+          "race": "Human",
+          "achievement_points": "11990",
+          "level": "70",
+          "blizzard_post_count": "1098"
+        },
+        "post_url": "/t/adjustments-to-reduce-non-participation-in-dungeons/2291104/4",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/wild-growth/112/45219696-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "alias_username": "Chadderall-wild-growth",
+        "poster_alias": {
+          "alias": {
+            "name": "Chadderall-wild-growth",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/wild-growth/112/45219696-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": null,
+            "user_id": 1794758,
+            "id": 1086041,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 12,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Wild Growth"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/wild-growth/112/45219696-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Chadderall-wild-growth"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 1098,
+        "character": {
+          "name": "Chad",
+          "guild": null,
+          "achievement_points": "11990",
+          "level": "70",
+          "class": "Paladin",
+          "race": "Human",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 29299356,
+        "name": "AlexStorm",
+        "username": "AlexStorm-1120192",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-04-13T23:34:02.308Z",
+        "cooked": "<p>What if instead of wasting so much time doing these non sense changes and banning gameplay loops that have been around since before 90% of you had jobs at blizzard you actually <strong>just banned gold buyers</strong></p>",
+        "post_number": 5,
+        "post_type": 1,
+        "posts_count": 950,
+        "updated_at": "2026-07-07T16:04:21.649Z",
+        "reply_count": 5,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 38,
+        "reads": 1354,
+        "readers_count": 1353,
+        "score": 1460.6,
+        "yours": false,
+        "topic_id": 2291104,
+        "topic_slug": "adjustments-to-reduce-non-participation-in-dungeons",
+        "display_username": "AlexStorm",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 65
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1120192,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "The Relinquished",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/dalaran/danytargery/",
+          "race": "Mechagnome",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "achievement_points": "25810",
+          "level": "20",
+          "classic": "t",
+          "blizzard_post_count": "32"
+        },
+        "post_url": "/t/adjustments-to-reduce-non-participation-in-dungeons/2291104/5",
+        "alias_avatar": null,
+        "alias_username": null,
+        "poster_alias": null,
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 32,
+        "character": {
+          "name": "AlexStorm",
+          "guild": "The Relinquished",
+          "achievement_points": "25810",
+          "level": "20",
+          "class": "Hunter",
+          "race": "Mechagnome",
+          "player_class_enum": "HUNTER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 29299389,
+        "name": "Mogzy",
+        "username": "Mogzy-3282109",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-04-13T23:38:42.067Z",
+        "cooked": "<p>Can you please clarify what ‘high level dungeons’ are? Outlands? 50+?</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "posts_count": 950,
+        "updated_at": "2026-04-13T23:38:42.067Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 18,
+        "reads": 1231,
+        "readers_count": 1230,
+        "score": 655.8,
+        "yours": false,
+        "topic_id": 2291104,
+        "topic_slug": "adjustments-to-reduce-non-participation-in-dungeons",
+        "display_username": "Mogzy",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 21
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3282109,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "achievement_points": "1120",
+          "level": "70",
+          "race": "Orc",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "classic": "t",
+          "blizzard_post_count": "1"
+        },
+        "post_url": "/t/adjustments-to-reduce-non-participation-in-dungeons/2291104/6",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/arugal-au/171/21103787-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "alias_username": "Machida-arugal-au",
+        "poster_alias": {
+          "alias": {
+            "name": "Machida-arugal-au",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/arugal-au/171/21103787-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": null,
+            "user_id": 3282109,
+            "id": 1987689,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Arugal (AU)"
+              },
+              {
+                "name": "achievement_points",
+                "value": "1120"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 1,
+        "character": {
+          "name": "Mogzy",
+          "guild": null,
+          "achievement_points": "1120",
+          "level": "70",
+          "class": "Warrior",
+          "race": "Orc",
+          "player_class_enum": "WARRIOR",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 29299397,
+        "name": "KoKoRo",
+        "username": "KoKoRo-2026930",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-04-13T23:40:42.053Z",
+        "cooked": "<p>I would also like to know if this targets 50-60 dungeons. Because this is a serious pain in the , almost makes me not want to play anymore and I was already on verge of raidlogging.</p>",
+        "post_number": 7,
+        "post_type": 1,
+        "posts_count": 950,
+        "updated_at": "2026-04-13T23:41:09.188Z",
+        "reply_count": 1,
+        "reply_to_post_number": 6,
+        "quote_count": 0,
+        "incoming_link_count": 17,
+        "reads": 1144,
+        "readers_count": 1143,
+        "score": 618.4,
+        "yours": false,
+        "topic_id": 2291104,
+        "topic_slug": "adjustments-to-reduce-non-participation-in-dungeons",
+        "display_username": "KoKoRo",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 3282109,
+          "username": "Mogzy-3282109",
+          "name": "Mogzy",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 20
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2026930,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Rise",
+          "race": "Human",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "blizzard_post_count": "6",
+          "achievement_points": "5315",
+          "level": "80",
+          "classic": "t"
+        },
+        "post_url": "/t/adjustments-to-reduce-non-participation-in-dungeons/2291104/7",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/pagle/85/63635797-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Hypesage-pagle",
+        "poster_alias": {
+          "alias": {
+            "name": "Hypesage-pagle",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/pagle/85/63635797-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": null,
+            "user_id": 2026930,
+            "id": 1083311,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 6,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Pagle"
+              },
+              {
+                "name": "achievement_points",
+                "value": "5315"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "Rise"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 1987689,
+          "username": "Machida-arugal-au",
+          "name": "Machida",
+          "avatar_template": "https://render.worldofwarcraft.com/classic-us/character/arugal-au/171/21103787-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 6,
+        "character": {
+          "name": "KoKoRo",
+          "guild": "Rise",
+          "achievement_points": "5315",
+          "level": "80",
+          "class": "Paladin",
+          "race": "Human",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 29299404,
+        "name": "josephxp",
+        "username": "josephxp-1044637",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-04-13T23:41:07.913Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Stormbeasts-raden\" data-post=\"5\" data-topic=\"2291104\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/classic-us/character/raden/101/98894693-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg\" class=\"avatar\"> Stormbeasts:</div>\n<blockquote>\n<p>actually <strong>just banned gold buyers</strong></p>\n</blockquote>\n</aside>\n<p>They do, we see people all the time on the CS forums that they got banned for RMT.</p>\n<p>Issue is people keep making new accounts/licenses and go back to buying gold and rinse and repeat.</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "posts_count": 950,
+        "updated_at": "2026-04-13T23:41:07.913Z",
+        "reply_count": 1,
+        "reply_to_post_number": 5,
+        "quote_count": 1,
+        "incoming_link_count": 18,
+        "reads": 1073,
+        "readers_count": 1072,
+        "score": 324.4,
+        "yours": false,
+        "topic_id": 2291104,
+        "topic_slug": "adjustments-to-reduce-non-participation-in-dungeons",
+        "display_username": "josephxp",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1044637,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/whisperwind/voidarcane/",
+          "race": "Human",
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "guild": "Legalize Peacebloom",
+          "level": "80",
+          "achievement_points": "40600",
+          "blizzard_post_count": "9912"
+        },
+        "post_url": "/t/adjustments-to-reduce-non-participation-in-dungeons/2291104/8",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/whisperwind/54/202589238-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Voidarcane-whisperwind",
+        "poster_alias": {
+          "alias": {
+            "name": "Voidarcane-whisperwind",
+            "avatar": "https://render.worldofwarcraft.com/us/character/whisperwind/54/202589238-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/whisperwind/voidarcane/",
+            "user_id": 1044637,
+            "id": 426983,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 7338,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/whisperwind/voidarcane/"
+              },
+              {
+                "name": "realm",
+                "value": "Whisperwind"
+              },
+              {
+                "name": "achievement_points",
+                "value": "43750"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/whisperwind/54/202589238-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Voidarcane-whisperwind"
+              },
+              {
+                "name": "guild",
+                "value": "Legalize Peacebloom"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 9912,
+        "character": {
+          "name": "josephxp",
+          "guild": "Legalize Peacebloom",
+          "achievement_points": "40600",
+          "level": "80",
+          "class": "Mage",
+          "race": "Human",
+          "player_class_enum": "MAGE",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 29299405,
+        "name": "Fisher",
+        "username": "Fisher-3389278",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-04-13T23:41:11.240Z",
+        "cooked": "<p>How do I report this post for trolling?</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "posts_count": 950,
+        "updated_at": "2026-04-13T23:41:11.240Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 17,
+        "reads": 998,
+        "readers_count": 997,
+        "score": 1199.4,
+        "yours": false,
+        "topic_id": 2291104,
+        "topic_slug": "adjustments-to-reduce-non-participation-in-dungeons",
+        "display_username": "Fisher",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 59
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3389278,
+        "hidden": false,
+        "trust_level": 0,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/shifthole/",
+          "guild": "Completionist",
+          "achievement_points": "2225",
+          "level": "80",
+          "race": "Tauren",
+          "class": "Druid",
+          "player_class_enum": "DRUID",
+          "blizzard_post_count": "1"
+        },
+        "post_url": "/t/adjustments-to-reduce-non-participation-in-dungeons/2291104/9",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/area-52/224/246756064-avatar.jpg?alt=/wow/static/images/2d/avatar/6-1.jpg",
+        "alias_username": "Shifthole-area-52",
+        "poster_alias": {
+          "alias": {
+            "name": "Shifthole-area-52",
+            "avatar": "https://render.worldofwarcraft.com/us/character/area-52/224/246756064-avatar.jpg?alt=/wow/static/images/2d/avatar/6-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/area-52/shifthole/",
+            "user_id": 3389278,
+            "id": 1811862,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/area-52/shifthole/"
+              },
+              {
+                "name": "realm",
+                "value": "Area 52"
+              },
+              {
+                "name": "achievement_points",
+                "value": "2225"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/area-52/224/246756064-avatar.jpg?alt=/wow/static/images/2d/avatar/6-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Shifthole-area-52"
+              },
+              {
+                "name": "guild",
+                "value": "Completionist"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 1,
+        "character": {
+          "name": "Fisher",
+          "guild": "Completionist",
+          "achievement_points": "2225",
+          "level": "80",
+          "class": "Druid",
+          "race": "Tauren",
+          "player_class_enum": "DRUID",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 29299409,
+        "name": "Xavic",
+        "username": "Xavic-841850",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-04-13T23:41:34.323Z",
+        "cooked": "<p>I agree, this is completely unnecessary.</p>",
+        "post_number": 10,
+        "post_type": 1,
+        "posts_count": 950,
+        "updated_at": "2026-04-13T23:41:34.323Z",
+        "reply_count": 1,
+        "reply_to_post_number": 3,
+        "quote_count": 0,
+        "incoming_link_count": 23,
+        "reads": 955,
+        "readers_count": 954,
+        "score": 880.8,
+        "yours": false,
+        "topic_id": 2291104,
+        "topic_slug": "adjustments-to-reduce-non-participation-in-dungeons",
+        "display_username": "Xavic",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2237443,
+          "username": "Scaryseizure-2237443",
+          "name": "Scaryseizure",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 38
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 841850,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Troll",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "achievement_points": "0",
+          "level": "60",
+          "classic": "t",
+          "guild": "Deja Vu",
+          "blizzard_post_count": "134"
+        },
+        "post_url": "/t/adjustments-to-reduce-non-participation-in-dungeons/2291104/10",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/mankrik/103/17970791-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+        "alias_username": "Bairan-mankrik",
+        "poster_alias": {
+          "alias": {
+            "name": "Bairan-mankrik",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/mankrik/103/17970791-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+            "url": null,
+            "user_id": 841850,
+            "id": 786,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 135,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Mankrik"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/mankrik/103/17970791-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Bairan-mankrik"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 134,
+        "character": {
+          "name": "Xavic",
+          "guild": "Deja Vu",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Hunter",
+          "race": "Troll",
+          "player_class_enum": "HUNTER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 29299411,
+        "name": "NoOne",
+        "username": "NoOne-2583202",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-04-13T23:42:20.647Z",
+        "cooked": "<p>Do you guys have any plans to actually improve the game for anyone?  Or do you just plan on these unnecessary changes negatively impacting the community?  So it’s ok for YOU to offer an in-game boost to 58 for money, but it’s not ok to leverage in-game currency to help someone level?  Most players buy your in-game boost so they can get to max level quicker.  Sounds like a good way to drop sub count in an already stale-content patch.  You’ll let 500 people run around with ‘Mommymilk’ in their names, but this is what you’re focused on?  Actual pathetic decision making - you guys must just sit around bored looking for useless tasks to fill your sprint cycle.</p>",
+        "post_number": 11,
+        "post_type": 1,
+        "posts_count": 950,
+        "updated_at": "2026-04-13T23:42:20.647Z",
+        "reply_count": 2,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 45,
+        "reads": 916,
+        "readers_count": 915,
+        "score": 1633.0,
+        "yours": false,
+        "topic_id": 2291104,
+        "topic_slug": "adjustments-to-reduce-non-participation-in-dungeons",
+        "display_username": "NoOne",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 81
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2583202,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "achievement_points": "450",
+          "level": "71",
+          "race": "Gnome",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "classic": "t",
+          "blizzard_post_count": "28"
+        },
+        "post_url": "/t/adjustments-to-reduce-non-participation-in-dungeons/2291104/11",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/crusader-strike/195/46465219-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+        "alias_username": "Seth-crusader-strike",
+        "poster_alias": {
+          "alias": {
+            "name": "Seth-crusader-strike",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/crusader-strike/195/46465219-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+            "url": null,
+            "user_id": 2583202,
+            "id": 1200371,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 3,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Crusader Strike"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Undead"
+              },
+              {
+                "name": "player_class",
+                "value": "Priest"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PRIEST"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/crusader-strike/195/46465219-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Seth-crusader-strike"
+              },
+              {
+                "name": "guild",
+                "value": "Single Digit Rolls"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 28,
+        "character": {
+          "name": "NoOne",
+          "guild": null,
+          "achievement_points": "450",
+          "level": "71",
+          "class": "Warrior",
+          "race": "Gnome",
+          "player_class_enum": "WARRIOR",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 29299415,
+        "name": "Zace",
+        "username": "Zace-3106235",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-04-13T23:43:15.911Z",
+        "cooked": "<p>Is this an out of season April Fools joke?</p>",
+        "post_number": 12,
+        "post_type": 1,
+        "posts_count": 950,
+        "updated_at": "2026-04-13T23:43:15.911Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 12,
+        "reads": 848,
+        "readers_count": 847,
+        "score": 1084.4,
+        "yours": false,
+        "topic_id": 2291104,
+        "topic_slug": "adjustments-to-reduce-non-participation-in-dungeons",
+        "display_username": "Zace",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 57
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3106235,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Kierk and the Boys",
+          "level": "80",
+          "race": "Draenei",
+          "class": "Shaman",
+          "player_class_enum": "SHAMAN",
+          "classic": "t",
+          "achievement_points": "9130",
+          "blizzard_post_count": "40"
+        },
+        "post_url": "/t/adjustments-to-reduce-non-participation-in-dungeons/2291104/12",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/crusader-strike/34/46335010-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+        "alias_username": "Magdonald-crusader-strike",
+        "poster_alias": {
+          "alias": {
+            "name": "Magdonald-crusader-strike",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/crusader-strike/34/46335010-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+            "url": null,
+            "user_id": 3106235,
+            "id": 5265,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 9,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Crusader Strike"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "25"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/crusader-strike/34/46335010-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Magdonald-crusader-strike"
+              },
+              {
+                "name": "guild",
+                "value": "Kierk and the Boys"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 40,
+        "character": {
+          "name": "Zace",
+          "guild": "Kierk and the Boys",
+          "achievement_points": "9130",
+          "level": "80",
+          "class": "Shaman",
+          "race": "Draenei",
+          "player_class_enum": "SHAMAN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 29299417,
+        "name": "Xavic",
+        "username": "Xavic-841850",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-04-13T23:43:29.218Z",
+        "cooked": "<p>yep, they need to focus their resources on getting Phase2 out, working on Classic+, and stop with this non-sense.</p>",
+        "post_number": 13,
+        "post_type": 1,
+        "posts_count": 950,
+        "updated_at": "2026-04-13T23:43:29.218Z",
+        "reply_count": 0,
+        "reply_to_post_number": 11,
+        "quote_count": 0,
+        "incoming_link_count": 23,
+        "reads": 817,
+        "readers_count": 816,
+        "score": 623.2,
+        "yours": false,
+        "topic_id": 2291104,
+        "topic_slug": "adjustments-to-reduce-non-participation-in-dungeons",
+        "display_username": "Xavic",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2583202,
+          "username": "NoOne-2583202",
+          "name": "NoOne",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 23
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 841850,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Troll",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "achievement_points": "0",
+          "level": "60",
+          "classic": "t",
+          "guild": "Deja Vu",
+          "blizzard_post_count": "134"
+        },
+        "post_url": "/t/adjustments-to-reduce-non-participation-in-dungeons/2291104/13",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/mankrik/103/17970791-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+        "alias_username": "Bairan-mankrik",
+        "poster_alias": {
+          "alias": {
+            "name": "Bairan-mankrik",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/mankrik/103/17970791-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+            "url": null,
+            "user_id": 841850,
+            "id": 786,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 135,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Mankrik"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/mankrik/103/17970791-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Bairan-mankrik"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 1200371,
+          "username": "Seth-crusader-strike",
+          "name": "Seth",
+          "avatar_template": "https://render.worldofwarcraft.com/classic1x-us/character/crusader-strike/195/46465219-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 134,
+        "character": {
+          "name": "Xavic",
+          "guild": "Deja Vu",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Hunter",
+          "race": "Troll",
+          "player_class_enum": "HUNTER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 29299421,
+        "name": "Deception",
+        "username": "Deception-3235493",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-04-13T23:44:00.735Z",
+        "cooked": "<p>this has gotta be the most out of touch bullhonkey i’ve seen from you guys since banning gdkp.</p>\n<p>actually unreal how you guys just want tbc to be nuked into nothingness with these terrible changes that no one asked for. Here’s an idea, fix the game in the parts that are broken ya dummies.</p>",
+        "post_number": 14,
+        "post_type": 1,
+        "posts_count": 950,
+        "updated_at": "2026-04-13T23:44:00.735Z",
+        "reply_count": 2,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 18,
+        "reads": 793,
+        "readers_count": 792,
+        "score": 828.4,
+        "yours": false,
+        "topic_id": 2291104,
+        "topic_slug": "adjustments-to-reduce-non-participation-in-dungeons",
+        "display_username": "Deception",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 38
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3235493,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/decepper/",
+          "level": "90",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "classic": "t",
+          "race": "Blood Elf",
+          "achievement_points": "14295",
+          "guild": "Welcome",
+          "blizzard_post_count": "47"
+        },
+        "post_url": "/t/adjustments-to-reduce-non-participation-in-dungeons/2291104/14",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/raden/63/100304703-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
+        "alias_username": "Deception-raden",
+        "poster_alias": {
+          "alias": {
+            "name": "Deception-raden",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/raden/63/100304703-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
+            "url": null,
+            "user_id": 3235493,
+            "id": 93284,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 15,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Ra-den"
+              },
+              {
+                "name": "achievement_points",
+                "value": "14415"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic-us/character/raden/63/100304703-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Deception-raden"
+              },
+              {
+                "name": "guild",
+                "value": "Welcome"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 47,
+        "character": {
+          "name": "Deception",
+          "guild": "Welcome",
+          "achievement_points": "14295",
+          "level": "90",
+          "class": "Paladin",
+          "race": "Blood Elf",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 29299422,
+        "name": "Echoside",
+        "username": "Echoside-40888",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-04-13T23:44:04.719Z",
+        "cooked": "<p>So many problems with TBC anni and THIS is what you pick? ARE YOU SERIOUS?! Who cares if Johnny Paladin is soloing Strat?</p>\n<p>BAN THE BOTS.</p>",
+        "post_number": 15,
+        "post_type": 1,
+        "posts_count": 950,
+        "updated_at": "2026-04-13T23:44:04.719Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 30,
+        "reads": 750,
+        "readers_count": 749,
+        "score": 1260.0,
+        "yours": false,
+        "topic_id": 2291104,
+        "topic_slug": "adjustments-to-reduce-non-participation-in-dungeons",
+        "display_username": "Echoside",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 64
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 40888,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Wraith",
+          "class": "Death Knight",
+          "player_class_enum": "DEATHKNIGHT",
+          "race": "Blood Elf",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/icecrown/secular/",
+          "level": "80",
+          "achievement_points": "23615",
+          "blizzard_post_count": "138"
+        },
+        "post_url": "/t/adjustments-to-reduce-non-participation-in-dungeons/2291104/15",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/icecrown/100/103162212-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
+        "alias_username": "Secular-icecrown",
+        "poster_alias": {
+          "alias": {
+            "name": "Secular-icecrown",
+            "avatar": "https://render.worldofwarcraft.com/us/character/icecrown/100/103162212-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/icecrown/secular/",
+            "user_id": 40888,
+            "id": 591684,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 137,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/icecrown/secular/"
+              },
+              {
+                "name": "realm",
+                "value": "Icecrown"
+              },
+              {
+                "name": "achievement_points",
+                "value": "23615"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/icecrown/100/103162212-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Secular-icecrown"
+              },
+              {
+                "name": "guild",
+                "value": "Wraith"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 138,
+        "character": {
+          "name": "Echoside",
+          "guild": "Wraith",
+          "achievement_points": "23615",
+          "level": "80",
+          "class": "Death Knight",
+          "race": "Blood Elf",
+          "player_class_enum": "DEATHKNIGHT",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 29299427,
+        "name": "zarathustraa",
+        "username": "zarathustraa-3301094",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-04-13T23:44:58.744Z",
+        "cooked": "<p>Does this screw me from farming gear on my main for an alt in vanilla content?</p>\n<p>I typically clear on my 70 and bring my alt in for boss kills. But, they’re not always capable of participating in combat. Just moving to the safe zone so I can master loot gear to them with guild help. A lot of this content you can’t get groups for.</p>\n<p>Just ban the practice and hire GMs. Have the GMs ban all accounts permanently if they do not stop when the GMs tell them to stop.</p>",
+        "post_number": 16,
+        "post_type": 1,
+        "posts_count": 950,
+        "updated_at": "2026-04-13T23:48:45.552Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 14,
+        "reads": 720,
+        "readers_count": 719,
+        "score": 319.0,
+        "yours": false,
+        "topic_id": 2291104,
+        "topic_slug": "adjustments-to-reduce-non-participation-in-dungeons",
+        "display_username": "zarathustraa",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 7
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3301094,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "achievement_points": "0",
+          "level": "29",
+          "race": "Night Elf",
+          "class": "Rogue",
+          "player_class_enum": "ROGUE",
+          "classic": "t",
+          "blizzard_post_count": "145"
+        },
+        "post_url": "/t/adjustments-to-reduce-non-participation-in-dungeons/2291104/16",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/lone-wolf/49/37200433-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
+        "alias_username": "Daseinn-lone-wolf",
+        "poster_alias": {
+          "alias": {
+            "name": "Daseinn-lone-wolf",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/lone-wolf/49/37200433-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
+            "url": null,
+            "user_id": 3301094,
+            "id": 628423,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 177,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Lone Wolf"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "29"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/lone-wolf/49/37200433-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Daseinn-lone-wolf"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 145,
+        "character": {
+          "name": "zarathustraa",
+          "guild": null,
+          "achievement_points": "0",
+          "level": "29",
+          "class": "Rogue",
+          "race": "Night Elf",
+          "player_class_enum": "ROGUE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 29299429,
+        "name": "KoKoRo",
+        "username": "KoKoRo-2026930",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-04-13T23:45:25.297Z",
+        "cooked": "<p>It’s going to be impossible to level enchanting if 10-60 dungeons get hit with this nerf too. Enchanting is already one of the most expensive, and it’s going to get a lot worse if this affects more than 60-70 dungeons.</p>",
+        "post_number": 17,
+        "post_type": 1,
+        "posts_count": 950,
+        "updated_at": "2026-04-13T23:45:25.297Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 6,
+        "reads": 691,
+        "readers_count": 690,
+        "score": 353.2,
+        "yours": false,
+        "topic_id": 2291104,
+        "topic_slug": "adjustments-to-reduce-non-participation-in-dungeons",
+        "display_username": "KoKoRo",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 12
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2026930,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Rise",
+          "race": "Human",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "blizzard_post_count": "6",
+          "achievement_points": "5315",
+          "level": "80",
+          "classic": "t"
+        },
+        "post_url": "/t/adjustments-to-reduce-non-participation-in-dungeons/2291104/17",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/pagle/85/63635797-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Hypesage-pagle",
+        "poster_alias": {
+          "alias": {
+            "name": "Hypesage-pagle",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/pagle/85/63635797-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": null,
+            "user_id": 2026930,
+            "id": 1083311,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 6,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Pagle"
+              },
+              {
+                "name": "achievement_points",
+                "value": "5315"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "Rise"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 6,
+        "character": {
+          "name": "KoKoRo",
+          "guild": "Rise",
+          "achievement_points": "5315",
+          "level": "80",
+          "class": "Paladin",
+          "race": "Human",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 29299433,
+        "name": "josephxp",
+        "username": "josephxp-1044637",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-04-13T23:46:16.792Z",
+        "cooked": "<aside class=\"quote group-community-manager\" data-username=\"Kaivax\" data-post=\"1\" data-topic=\"2291104\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/user_avatar/us.forums.blizzard.com/kaivax/48/880_2.png\" class=\"avatar\"> Kaivax:</div>\n<blockquote>\n<p>in high-level dungeons</p>\n</blockquote>\n</aside>\n<p>It’s safe to assume it’s only going to be for TBC dungeons.</p>",
+        "post_number": 18,
+        "post_type": 1,
+        "posts_count": 950,
+        "updated_at": "2026-04-13T23:46:16.792Z",
+        "reply_count": 3,
+        "reply_to_post_number": 17,
+        "quote_count": 1,
+        "incoming_link_count": 19,
+        "reads": 690,
+        "readers_count": 689,
+        "score": 262.8,
+        "yours": false,
+        "topic_id": 2291104,
+        "topic_slug": "adjustments-to-reduce-non-participation-in-dungeons",
+        "display_username": "josephxp",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2026930,
+          "username": "KoKoRo-2026930",
+          "name": "KoKoRo",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1044637,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/whisperwind/voidarcane/",
+          "race": "Human",
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "guild": "Legalize Peacebloom",
+          "level": "80",
+          "achievement_points": "40600",
+          "blizzard_post_count": "9912"
+        },
+        "post_url": "/t/adjustments-to-reduce-non-participation-in-dungeons/2291104/18",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/whisperwind/54/202589238-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Voidarcane-whisperwind",
+        "poster_alias": {
+          "alias": {
+            "name": "Voidarcane-whisperwind",
+            "avatar": "https://render.worldofwarcraft.com/us/character/whisperwind/54/202589238-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/whisperwind/voidarcane/",
+            "user_id": 1044637,
+            "id": 426983,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 7338,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/whisperwind/voidarcane/"
+              },
+              {
+                "name": "realm",
+                "value": "Whisperwind"
+              },
+              {
+                "name": "achievement_points",
+                "value": "43750"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/whisperwind/54/202589238-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Voidarcane-whisperwind"
+              },
+              {
+                "name": "guild",
+                "value": "Legalize Peacebloom"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 1083311,
+          "username": "Hypesage-pagle",
+          "name": "Hypesage",
+          "avatar_template": "https://render.worldofwarcraft.com/classic-us/character/pagle/85/63635797-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 9912,
+        "character": {
+          "name": "josephxp",
+          "guild": "Legalize Peacebloom",
+          "achievement_points": "40600",
+          "level": "80",
+          "class": "Mage",
+          "race": "Human",
+          "player_class_enum": "MAGE",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 29299434,
+        "name": "BigglesX",
+        "username": "BigglesX-3389282",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-04-13T23:46:25.220Z",
+        "cooked": "<p>So. just Screw the solo players clearing lvl 50-60 dungeons for gold huh? FFS. way to continue to ruin what was once a great game.</p>",
+        "post_number": 19,
+        "post_type": 1,
+        "posts_count": 950,
+        "updated_at": "2026-04-13T23:46:25.220Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 20,
+        "reads": 685,
+        "readers_count": 684,
+        "score": 731.8,
+        "yours": false,
+        "topic_id": 2291104,
+        "topic_slug": "adjustments-to-reduce-non-participation-in-dungeons",
+        "display_username": "BigglesX",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 33
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3389282,
+        "hidden": false,
+        "trust_level": 0,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Sentinels",
+          "achievement_points": "0",
+          "level": "12",
+          "race": "Gnome",
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "classic": "t",
+          "blizzard_post_count": "1"
+        },
+        "post_url": "/t/adjustments-to-reduce-non-participation-in-dungeons/2291104/19",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/wild-growth/55/48183863-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg",
+        "alias_username": "Castev-wild-growth",
+        "poster_alias": {
+          "alias": {
+            "name": "Castev-wild-growth",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/wild-growth/55/48183863-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg",
+            "url": null,
+            "user_id": 3389282,
+            "id": 1785995,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Wild Growth"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "12"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/wild-growth/55/48183863-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Castev-wild-growth"
+              },
+              {
+                "name": "guild",
+                "value": "Sentinels"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 1,
+        "character": {
+          "name": "BigglesX",
+          "guild": "Sentinels",
+          "achievement_points": "0",
+          "level": "12",
+          "class": "Mage",
+          "race": "Gnome",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 29299438,
+        "name": "KoKoRo",
+        "username": "KoKoRo-2026930",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-04-13T23:46:48.780Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Voidarcane-whisperwind\" data-post=\"18\" data-topic=\"2291104\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/us/character/whisperwind/54/202589238-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg\" class=\"avatar\"> Voidarcane:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>It’s safe to assume it’s only going to be for TBC dungeons.</p>\n</blockquote>\n</aside>\n<p>Let’s not assume Blizzard is that competent.</p>",
+        "post_number": 20,
+        "post_type": 1,
+        "posts_count": 950,
+        "updated_at": "2026-04-13T23:46:48.780Z",
+        "reply_count": 0,
+        "reply_to_post_number": 18,
+        "quote_count": 1,
+        "incoming_link_count": 20,
+        "reads": 676,
+        "readers_count": 675,
+        "score": 580.2,
+        "yours": false,
+        "topic_id": 2291104,
+        "topic_slug": "adjustments-to-reduce-non-participation-in-dungeons",
+        "display_username": "KoKoRo",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 23
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2026930,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Rise",
+          "race": "Human",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "blizzard_post_count": "6",
+          "achievement_points": "5315",
+          "level": "80",
+          "classic": "t"
+        },
+        "post_url": "/t/adjustments-to-reduce-non-participation-in-dungeons/2291104/20",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/pagle/85/63635797-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Hypesage-pagle",
+        "poster_alias": {
+          "alias": {
+            "name": "Hypesage-pagle",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/pagle/85/63635797-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": null,
+            "user_id": 2026930,
+            "id": 1083311,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 6,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Pagle"
+              },
+              {
+                "name": "achievement_points",
+                "value": "5315"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "Rise"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 6,
+        "character": {
+          "name": "KoKoRo",
+          "guild": "Rise",
+          "achievement_points": "5315",
+          "level": "80",
+          "class": "Paladin",
+          "race": "Human",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 29299450,
+        "name": "Skyodin",
+        "username": "Skyodin-3350996",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-04-13T23:47:39.126Z",
+        "cooked": "<p>wild take…anniversary is accelerated..how about more rep and xp for questing..u have shorter time to play and enjoy the expansion. if questing is the way to go then maybe living in dungeons wont be as desirable? higher floor, lower ceiling on arena cap so everyone can have a chance to get some arena gear b4 season ends. have some catch up arena pts obtainable at half way through season. p2 add 1 more item per boss in old raids maybe even heroics/normal dungeons. also, does this mean if i don’t cleave an npc before it dies, my efforts on cc’ing or killing another target isn’t taken into consideration?</p>",
+        "post_number": 21,
+        "post_type": 1,
+        "posts_count": 950,
+        "updated_at": "2026-04-13T23:48:45.108Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 8,
+        "reads": 644,
+        "readers_count": 643,
+        "score": 323.8,
+        "yours": false,
+        "topic_id": 2291104,
+        "topic_slug": "adjustments-to-reduce-non-participation-in-dungeons",
+        "display_username": "Skyodin",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 10
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3350996,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/whisperwind/skyodin/",
+          "guild": "Amenity",
+          "achievement_points": "20945",
+          "level": "80",
+          "race": "Night Elf",
+          "class": "Rogue",
+          "player_class_enum": "ROGUE",
+          "blizzard_post_count": "4"
+        },
+        "post_url": "/t/adjustments-to-reduce-non-participation-in-dungeons/2291104/21",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/whisperwind/190/225547198-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Skyodin-whisperwind",
+        "poster_alias": {
+          "alias": {
+            "name": "Skyodin-whisperwind",
+            "avatar": "https://render.worldofwarcraft.com/us/character/whisperwind/190/225547198-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/whisperwind/skyodin/",
+            "user_id": 3350996,
+            "id": 1207549,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 4,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/whisperwind/skyodin/"
+              },
+              {
+                "name": "realm",
+                "value": "Whisperwind"
+              },
+              {
+                "name": "achievement_points",
+                "value": "21480"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/whisperwind/190/225547198-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Skyodin-whisperwind"
+              },
+              {
+                "name": "guild",
+                "value": "Amenity"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 4,
+        "character": {
+          "name": "Skyodin",
+          "guild": "Amenity",
+          "achievement_points": "20945",
+          "level": "80",
+          "class": "Rogue",
+          "race": "Night Elf",
+          "player_class_enum": "ROGUE",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "reddit_1sq7b1r",
+  "title": "Eve Market Scout (LLM coded project)",
+  "slug": "eve_market_scout_llm_coded_project",
+  "posts_count": 6,
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1,
+        "username": "Noviceuser44",
+        "cooked": "<p>Introducing Eve Market Scout. For more images see https://photobucket.com/share/9393e367-174e-4fe3-a921-75b238932858 This project has taken nearly 3 months to produce with Claude pro account. Well over 200 separate discussions and coding with over 100 versions to produce this. My knowledge of coding is limited but this project has produced a functional product ready for alpha testing. I almost had it ready two weeks ago but discovered a major bug that took me that long to resolve... Eve Market scout: This tool is broken up into 3 main functions. The scanner was the primary tool that started the whole adventure in programming it. The scanner is then further subdivided into subfunctions. There are low risk, high risk, steals, and then two separate watchlists and a tracking function for profit. There is ESI integration, which is essential for the tracking function to work, but not essential for the scanner. You would simply record down manually your reputation and the taxes/broker fees. This is necessary to actually find the margins and the deals to know if what you are buying will actually make you money or just lose money on something that looks like a profitable venture. There's a smaller tool located on the top right that allows you to put in the cost you spent and your sale price, which accounts for your fees to see if you can profit on an individual item. The scanner is heavily filtered through a process of first pulling all the trades at a station and then filtering by a series of proprietary secret methods (TBA.... see claude message below), which heavily relies on Jita for protection against fake trades and manipulation. It is further separated into low risk, high risk, and steals. Low risk deals are basically guaranteed profit. They may not be particularly high profit, but they will make money. This is subject to the heaviest filtering and has to basically match or beat all of the parameters. High risk deals are deals that are found with at least one reason why it's a risky trade. It may be that the volume is too small for daily trades, there's not very much data to tell you an appropriate price, or some of the safety checks against Jita have failed. This sometimes can have good deals, but it takes more work to find out if it's a good deal or not. Steals are deals that someone basically was lazy and posted it without assessing the actual market price, for example someone posted a Crane at the buy price (and eve helpfully increased it by a tiny bit and you didn't notice that it didn't sell) The selling price may be as much as 40mil greater and and can buy it and sell in that huge margin. Most of the time the bots see these deals before you can hop on them or someone was shopping that page and sees it. Not super common in that range but generally up to 2 mil profit and happens on occasion. Far more common is the 100-800k range profit. Of note, steals have an entirely different filtering system and what might appear really good may not be. Red= risky Yellow= medium risk Green= safe You will see these colors used generally throughout the app and basically mean the same thing based off of how many flags it hits. Green is 0 flags, yellow is 1 and red is multiple for the scanner. I believe Yellow is 2 or more for the stock market and Red is 3 or more. Additional features in the scanner is you can double click on low risk, high risk or steals to open a graph with up to 3 years of data shown or down to 3 months. You can also right click for further options such as tracking a trade (if you plan to buy it, find it, buy it and then do this. If you wait, the deal will disappear from the list and you can't track it.) You can also add it to a watchlist or to the stock market or copy the name for quick pasting in Eve. Stock market: This is poorly tested and purely the nature of it runs much higher risk and is comparable to a real commodities market. Initially when you launch the app you are given an option to download 30 days or 3 years of data (the 3 year isn't tested) after downloading the 30 days, its imported and processed to allow the filtering to work correctly (this is from everef history) The 3 year download happens in the background while you are using the scanner and only happens on first launch (assuming it finishes) and if you go to the stock market part, you are locked out until a few things happen. 1: download finishes 2: extracted and imported to SQLite DB 3: indexed 4: Material scanner runs. The material scanner is necessary for comparing risk, it looks at the item in question and sees if the inputs are increasing in cost, decreasing in cost and if all or just some of them which is used to further filter the displayed data. You will see green for example in medium risk which means it failed the material screening and got bumped to medium risk or yellow in the high risk. You can add things to holdings to track and theoretically it will track your purchases and amount you hold and tell you if you should buy or sell by signals. The system is separated by the main regional stations each with their own profit tracker and holdings for each station/region. As I said, this section is poorly tested but theoretically will work and you can evaluate it. The system basically is designed to find things with fairly stable flux between a set range and you buy below and sell above. So the system for example 10% of the time is above set price X and 10% of the time below set price Z and the majority is between it. The sell signal would show when its above the margin and the buy when its below the margin. The last tool available is a station to station trading system. This is also poorly tested. My general preference is to stay in 1 station and thats why its not well tested. This will show you by risk tabs again, low or high risk and to select, you chose at the top left your buy station and your sell station. The resulting available options get shown. Low risk is basically sell orders at station A are less then buy orders at station B so you have assured profit if you fulfill the order. High risk is not assured and may be a good deal but has the same basic risks that high risk scanner does along with color coding further informing you. Green likely will make money but no buy order to sell into. Yellow may make money but more risk. Red is obviously still riskier. This system is missing one feature though which may be added later, volume... You buy 100 of an item only to find that it takes 1k m3 and you can't actually haul it in your little ship... So buyer beware. Honestly because I'm fed up typing I had Claude give this next summary to show the filtering process for everything. EVE Market Scout — Filtering Reference Scanner (Same-Station Flips) Shared pipeline: Every candidate runs through the same scanner_common logic — history parsing, ceiling calculation, risk flag evaluation, and profit filters. The split into Low/High/Steals happens based on which flags survive. Ceiling calculation: Start with competition price (2nd lowest sell, undercut by 0.1%). Cap at 105% of Jita conservative avg (lower of 7d/30d). Also cap at 105% of live Jita sell. If the cap reduces ceiling by 20%+, flag CEILING_CAPPED_HARD . Risk flags (5 possible): LOW_VELOCITY — conservative velocity (lower of 7d/30d volume) below user's min NO_JITA_DATA — no Jita history or live price to validate against MARKET_CRASHING — 7d avg price 10%+ below 30d avg CEILING_CAPPED_HARD — Jita forced ceiling down 20%+ SPORADIC_TRADING — fewer than 15 of 30 days had trades BUY_ABOVE_AVERAGE — buy price exceeds local conservative avg Profit filters (all three must pass): min profit/unit, min total profit, min margin %. Low Risk: Zero risk flags. Sorted by total profit descending. High Risk: One or more risk flags. Same profit filters still apply. Sorted by total profit descending. Steals (separate processor): Detected when buy/sell ratio >= 0.98 (sell order within ~2% of highest buy order — fat finger). Steals skip the Low/High pipeline entirely. They still get risk-flagged and profit-filtered, but the flag count drives color coding: green (0 flags), yellow (1 flag), red (2+ flags). Volume capped at 30% of daily velocity. Stock Market (Station Trading Profiles) Two filter layers here: discovery filters and profitability filters . Discovery filters ( discovery_filters.py ) — item exclusion by name keywords. Removes blueprints, SKINs, skillbooks, apparel, limited/unlimited items. Also requires published=True and a valid market_group_id . Minimum daily volume threshold of 100 before an item is worth profiling. Profitability filters ( stockmarket_filters.py ) — applied to computed profiles: Min margin % (default 8%) — must clear total round-trip fees (2x broker + sales tax) plus this margin Min band width % (default 10%) — spread between floor and ceiling as % of floor Min daily volume (default 5/day) Min/max price bounds (optional, default 0 = no limit) Fee rates loaded from cached ESI skills per hub Material analysis (secondary pass, once per hub per day): Only touches items classified as low risk. If an item's raw material costs (TBC) are also declining, promotes it from low risk to medium risk. Never demotes. Tracked by MaterialFilterTracker singleton to avoid re-running. Risk classification is driven by floor price trend direction from the profile data — declining = red, rising = yellow, stable = green. This color is independent of which risk tab the item lands in. Cross-Hub (Inter-Station Arbitrage) Candidate building: Matches items present at both stations. Source must have a valid sell order with volume. Destination must have either a buy order or sell orders. Optional max cost filter. Low Risk (guaranteed profit): Destination has an active buy order that covers buy price + all fees. Volume capped by whichever is smaller: source availability or destination buy order volume. Min guaranteed volume = 5 units. No risk flags evaluated — if the buy order covers costs, it's guaranteed. Profit filters apply. Duplicates removed from High Risk results. High Risk (relist at destination): No guaranteed buyer — must place sell order at destination. Ceiling = undercut destination competition, capped at 105% of Jita conservative avg. Volume capped at 30% of sell station daily velocity. Five risk flags evaluated: LOW_VELOCITY — sell station volume below min MARKET_CRASHING — sell station 7d 10%+ below 30d SPORADIC_TRADING — sell station < 15 of 30 trading days ABOVE_SELL_AVG — buy price > sell station conservative avg (1 strike) ABOVE_JITA_AVG — buy price > Jita conservative avg (2 strikes — heavier penalty in GUI color) Both tiers use dual-character fee calculations (buyer's broker + seller's broker + sales tax). Profit filters (per-unit, total, margin %) apply to both. okay its me again. Now I for whatever reason suck at using github... but I have somehow stumbled through it before... If you want to alpha test this or have ideas for further development, please reach out through Discord https://discord.gg/fxWcB8P2qj If you know python and want to help, hit me up on discord. If you know how to use github... :P hit me up and help me out so that less trusting can review all the code themselves.</p>",
+        "created_at": "2026-04-19T22:34:07.164000+0000",
+        "post_number": 1,
+        "reply_to_post_number": null,
+        "reply_count": 5,
+        "like_count": 0,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 2,
+        "username": "Noviceuser44",
+        "cooked": "<p>Yeah… marketing apparently isn’t my strong suit. Basically it’s a locally ran market tool that does the same function as Eve Guru but doesn’t cost a subscription. Produces deals to make isk. After seeing a few other projects not identified as llm that were get good reception… I think that being upfront doesn’t do a person any favors.</p>",
+        "created_at": "2026-04-20T09:09:34.467000+0000",
+        "post_number": 2,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 3,
+        "username": "Noviceuser44",
+        "cooked": "<p>I think it’ll take way too much bandwidth to do what I’m doing on an Internet based platform which is probably why I’ve always found the tools to be limited and not really that useful.</p>",
+        "created_at": "2026-04-20T09:11:06.721000+0000",
+        "post_number": 3,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 4,
+        "username": "BentaroAdun",
+        "cooked": "<p>hahaha</p>",
+        "created_at": "2026-04-20T01:54:49.963000+0000",
+        "post_number": 4,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 5,
+        "username": "Noviceuser44",
+        "cooked": "<p>You are perfectly welcome to look at the files themselves and run through a virtual.</p>",
+        "created_at": "2026-04-20T21:14:53.127000+0000",
+        "post_number": 5,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 6,
+        "username": "Noviceuser44",
+        "cooked": "<p>At least I didn't conceal it like the last 3 apps. You can know up front that you aren't interested.</p>",
+        "created_at": "2026-04-20T12:32:29.707000+0000",
+        "post_number": 6,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      }
+    ]
+  },
+  "jogo": "World of Warcraft",
+  "fonte": "Reddit",
+  "seccao": "r/wow",
+  "url_fonte": "https://www.reddit.com/r/wow/comments/1sq7b1r/eve_market_scout_llm_coded_project/"
+}

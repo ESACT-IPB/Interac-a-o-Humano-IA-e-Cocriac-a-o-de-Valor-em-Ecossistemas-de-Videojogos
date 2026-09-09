@@ -1,0 +1,182 @@
+{
+  "id": "reddit_1vy3jwo",
+  "title": "I created ChatGPT copilot for EVE",
+  "slug": "i_created_chatgpt_copilot_for_eve",
+  "posts_count": 14,
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1,
+        "username": "Cultural-Egg-7917",
+        "cooked": "<p>I am newbie player who tried this game tons of time but crushed under the complexity of it. I am mostly trying to learn it with AI help. However AI giving full of generic suggestions and most of the time they are failing. So as hobby project i created this in weekend and i am actively using it. And it actually helps me lot. Its probably not something for pro players or even intermediate players. Its just making me understand things faster and making communication with AI easier. It turns your ChatGPT into your EVE copilot. Basically its some sort of agent harness with collection of: MCP (Allow chatgpt to use ESI) Some memory layer for making agent to remember things. Part of Dogma Engine to make chatgpt to simulate the CPU usage - Powergrid usage etc based on the current skills of the character. Skills for exploration combat or mining route fitting and ship suggestions. Persona for each faction I am enabling the voice chat of chatgpt and whenever i talk with chatgpt while playing eve online it just act like my copilot and it has access to everything ESI capable of. Actually it fits perfectly to Eve Online and boost my immersion so even if it wouldn't help still I would use it. Allow copilot to start: Explorer Expedition Mining Expedition Combat Expedition Hauling Expedition based on your current location current skills and your goal - suggest ship and fitting - suggest rotation etc. Its little bit tricky to install and it has some dependencies. Yet i wrote the skills so full installation will be handled by ChatGPT when you write Setup Eve Copilot. However use it only if you are comfortable to give your computer control to ChatGPT and make it install things into your computer. And use it only if you don't mind of your ChatGPT token usage. Here some examples from my usage: I know those things are too easy to understand and find out for most of the players. So you can think like its completely unnecesary. But understanding those things not easy for me. So like i said probably the pro users will have little value from it other than immersion maybe. Yet for noobs like me it may help. That little bubble at upper right corner is always on voice ChatGPT so whenever you talk it answers. This can also work with Claude but I never tested it because i dont have subscription. I just wanted to share. If you want to check it : https://github.com/quareth/eve-copilot-plugin Also more examples of my usage in github. It may have problems its not well tested. The Persona thing not that reliable. Tho I am not sure if i need something like that since direct and normal ChatGPT or any other AI already immersive enough for this game. This is actually simple concept of how Eve with AI may look like. Its basically give AI different tools and allow it to interact with the actual game and also give it some memory layer with lore accurate persona. All those spreadsheets and things can be added as knowledge graph to make it more \"intelligent\".</p>",
+        "created_at": "2026-08-25T15:47:31.594000+0000",
+        "post_number": 1,
+        "reply_to_post_number": null,
+        "reply_count": 13,
+        "like_count": 0,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 2,
+        "username": "Real_Farfnarkle",
+        "cooked": "<p>Counterpoint: when the chatbot is solving those problems I can’t/don’t want to it allows me to spend more time with my friends. I used to code by hand. When I did that I had to essentially be alone. Now I have an LLM work on my code while I hang out with friends on discord and chat :) Do you drive to work? Or bike? That robs you of cardio to keep in shape. Do you ever use a cart to move things? That robs you of strength training. Do you use a jacket when it’s cold? That robs you of your ability to stay warm in your own. Hmm</p>",
+        "created_at": "2026-08-25T19:11:52.776000+0000",
+        "post_number": 2,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 3,
+        "username": "Extreme_Ad3595",
+        "cooked": "<p>and you can just run this stuff on your own hardware. It just takes a little longer to get an answer.</p>",
+        "created_at": "2026-08-25T21:49:42.578000+0000",
+        "post_number": 3,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 4,
+        "username": "Cultural-Egg-7917",
+        "cooked": "<p>I am beyond the career agents. This is my fourth time to try this game. However still there are lot of things i can't understand and i don't have much time to read everything. So it just helps. And I believe this is exactly the same thing you want me to do. AI not making up things its just querying information from the very similiar source you want me to go read. Its doing that just faster. And it can query the exact information I need. So I was already writing to ChatGPT about the game. But its so slow and require me to every time give the context from the game like my ship or fittings. Now It can query those informations from the game directly. Thats it. Tho that was really well structured and good wiki btw. Thanks for sharing. \"Once men turned their thinking over to machines in the hope that this would set them free. But that only permitted other men with machines to enslave them.\" -Frank Herbert This is very true quore by the way. Yet its already true for computers washing machines and all kinds of machines. Why hesitate to add one more machinery to the collection?</p>",
+        "created_at": "2026-08-25T16:40:12.184000+0000",
+        "post_number": 4,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": -1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 5,
+        "username": "Cultural-Egg-7917",
+        "cooked": "<p>I really appreciate thank you for your comment. This is something simple but let me enjoy the game more than before. As far as you have API backend that could be exposed to LLM its just little technical detail to put LLM layer somewhere between. I wanted to use some of the most popular tools like DOTLAN but since they dont have official API I couldnt add them into MCP. Again thank you.</p>",
+        "created_at": "2026-08-25T17:09:01.231000+0000",
+        "post_number": 5,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 6,
+        "username": "xeron_vann",
+        "cooked": "<p>Dude's one step away from flat out botting</p>",
+        "created_at": "2026-08-25T16:25:35.552000+0000",
+        "post_number": 6,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 10,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 7,
+        "username": "Real_Farfnarkle",
+        "cooked": "<p>Check my zkill. Your dime is only like 60% of what I feed</p>",
+        "created_at": "2026-08-25T19:04:43.449000+0000",
+        "post_number": 7,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 8,
+        "username": "Cultural-Egg-7917",
+        "cooked": "<p>No such thing as AI pressing the button. Its just querying the informations from ESI and based on that it is giving you a suggestions.</p>",
+        "created_at": "2026-08-25T16:19:51.749000+0000",
+        "post_number": 8,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 3,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 9,
+        "username": "Blueshoes317",
+        "cooked": "<p>my thinking was that it directly interfaces or embeds itself in the client in a way that could be construed as interfering with the game display; if it just sits on top of eve in the window order (like eve-o) then i'll admit it's no eula violation on that count, still as others have said deprives yourself of learning and using the more advanced 3rd-party tools to their fullest yourself - people have made careers just out of using pyfa to its fullest, to rely on chatgpt's understanding of the game from ESIs does yourself a disservice; you never really grasp what the graphs actually tell you, which does let you gain an intuition for them over time you wouldn't by just absorbing a summary</p>",
+        "created_at": "2026-08-25T16:28:45.160000+0000",
+        "post_number": 9,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 10,
+        "username": "Cultural-Egg-7917",
+        "cooked": "<p>Well it actually completely built by AI while I am playing the game. I am someone also crushed by the complexity of programming.</p>",
+        "created_at": "2026-08-25T17:10:20.893000+0000",
+        "post_number": 10,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 11,
+        "username": "Cultural-Egg-7917",
+        "cooked": "<p>Oh never thought of this. Great idea I will check that to understand. Thanks !!</p>",
+        "created_at": "2026-08-25T18:03:54.842000+0000",
+        "post_number": 11,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 12,
+        "username": "Fart_Spray_9969",
+        "cooked": "<p>Have you tried joining a learning corp and actually asking your fellow humans?</p>",
+        "created_at": "2026-08-25T16:20:41.839000+0000",
+        "post_number": 12,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 3,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 13,
+        "username": "Cultural-Egg-7917",
+        "cooked": "<p>Thank you so much man</p>",
+        "created_at": "2026-08-26T04:32:43.035000+0000",
+        "post_number": 13,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 3,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 14,
+        "username": "Elkatra2",
+        "cooked": "<p>I imagined the situation when you start PVP and then you ask your opponent(s) to wait until chatgpt will answer you for the next move.</p>",
+        "created_at": "2026-08-25T18:05:07.611000+0000",
+        "post_number": 14,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      }
+    ]
+  },
+  "jogo": "World of Warcraft",
+  "fonte": "Reddit",
+  "seccao": "r/wow",
+  "url_fonte": "https://www.reddit.com/r/wow/comments/1vy3jwo/i_created_chatgpt_copilot_for_eve/"
+}

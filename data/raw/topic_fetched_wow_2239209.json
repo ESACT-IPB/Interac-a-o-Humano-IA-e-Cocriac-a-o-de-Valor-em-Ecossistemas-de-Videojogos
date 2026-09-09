@@ -1,0 +1,5533 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 28693965,
+        "name": "JStark",
+        "username": "JStark-1979297",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-28T00:49:38.438Z",
+        "cooked": "<p>somewhere on the roadmap better have clear information regarding tbc era!!!</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-06-22T18:54:31.080Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 20,
+        "reads": 180,
+        "readers_count": 179,
+        "score": 316.0,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "JStark",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 12
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1979297,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Troll",
+          "class": "Shaman",
+          "player_class_enum": "SHAMAN",
+          "guild": "Left For Dead",
+          "achievement_points": "0",
+          "classic": "t",
+          "level": "20",
+          "blizzard_post_count": "882"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/1",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/nightslayer/169/57377449-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "alias_username": "Tbcera",
+        "poster_alias": {
+          "alias": {
+            "name": "Tbcera",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/nightslayer/169/57377449-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": null,
+            "user_id": 1979297,
+            "id": 2451703,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 646,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Nightslayer"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "15"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 882,
+        "character": {
+          "name": "JStark",
+          "guild": "Left For Dead",
+          "achievement_points": "0",
+          "level": "20",
+          "class": "Shaman",
+          "race": "Troll",
+          "player_class_enum": "SHAMAN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 28694000,
+        "name": "hokutoken",
+        "username": "hokutoken-3248293",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-28T00:52:58.745Z",
+        "cooked": "<p>They won’t.  Investing in lvl 70 is waste of time.  Hence why I’m only doing a 69 twink</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-01-28T00:52:58.745Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 178,
+        "readers_count": 177,
+        "score": 40.6,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "hokutoken",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3248293,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/malganis/maxsparkles/",
+          "achievement_points": "0",
+          "level": "60",
+          "race": "Human",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "classic": "t",
+          "guild": "mLord",
+          "blizzard_post_count": "4031"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/2",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/153/25925273-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Uglyhaircut-whitemane",
+        "poster_alias": {
+          "alias": {
+            "name": "Uglyhaircut-whitemane",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/153/25925273-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": null,
+            "user_id": 3248293,
+            "id": 21867,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 248,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Whitemane"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/153/25925273-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Uglyhaircut-whitemane"
+              },
+              {
+                "name": "guild",
+                "value": "Marshals for Hire"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 4031,
+        "character": {
+          "name": "hokutoken",
+          "guild": "mLord",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Paladin",
+          "race": "Human",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28694045,
+        "name": "Dreamsphere",
+        "username": "Dreamsphere-32491842c8245b8c6da75e70d368896ad7e9504",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-28T00:57:37.449Z",
+        "cooked": "<p>Bro your hair…oh my god</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-01-28T00:57:37.449Z",
+        "reply_count": 0,
+        "reply_to_post_number": 2,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 166,
+        "readers_count": 165,
+        "score": 78.2,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "Dreamsphere",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 3248293,
+          "username": "hokutoken-3248293",
+          "name": "hokutoken",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3249184,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Azeroth Coffee Company",
+          "achievement_points": "0",
+          "level": "60",
+          "race": "Night Elf",
+          "class": "Druid",
+          "player_class_enum": "DRUID",
+          "classic": "t",
+          "blizzard_post_count": "5948"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/3",
+        "alias_avatar": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png",
+        "alias_username": "Dreamsphere-dreamscythe",
+        "poster_alias": {
+          "alias": {
+            "name": "Dreamsphere-dreamscythe",
+            "avatar": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png",
+            "url": null,
+            "user_id": 3249184,
+            "id": 1199,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 1041,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Dreamscythe"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png"
+              },
+              {
+                "name": "name",
+                "value": "Dreamsphere-dreamscythe"
+              },
+              {
+                "name": "guild",
+                "value": "Azeroth Coffee Company"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 21867,
+          "username": "Uglyhaircut-whitemane",
+          "name": "Uglyhaircut",
+          "avatar_template": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/153/25925273-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 5948,
+        "character": {
+          "name": "Dreamsphere",
+          "guild": "Azeroth Coffee Company",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Druid",
+          "race": "Night Elf",
+          "player_class_enum": "DRUID",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28694047,
+        "name": "PourDecision",
+        "username": "PourDecision-2418047",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-28T00:57:54.343Z",
+        "cooked": "<p>It would be nice if they would share a definitive yes or no regarding TBC Era instead of avoiding the topic and allowing us to infer their intentions. I’m wearing out the Magic 8 Ball.</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-06-15T18:54:33.647Z",
+        "reply_count": 2,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 158,
+        "readers_count": 157,
+        "score": 131.6,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "PourDecision",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 6
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2418047,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Troll",
+          "class": "Shaman",
+          "player_class_enum": "SHAMAN",
+          "achievement_points": "0",
+          "level": "60",
+          "classic": "t",
+          "blizzard_post_count": "12479"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/4",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/dreamscythe/49/48610353-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+        "alias_username": "Nueces",
+        "poster_alias": {
+          "alias": {
+            "name": "Nueces",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/dreamscythe/49/48610353-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+            "url": null,
+            "user_id": 2418047,
+            "id": 2351150,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 2331,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Dreamscythe"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "11"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 12479,
+        "character": {
+          "name": "PourDecision",
+          "guild": null,
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Shaman",
+          "race": "Troll",
+          "player_class_enum": "SHAMAN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28694134,
+        "name": "hokutoken",
+        "username": "hokutoken-3248293",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-28T01:05:27.142Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Nueces-dreamscythe\" data-post=\"4\" data-topic=\"2239209\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/classic1x-us/character/dreamscythe/49/48610353-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg\" class=\"avatar\"> Nueces:</div>\n<blockquote>\n<p>instead of avoiding the topic</p>\n</blockquote>\n</aside>\n<p>Read between the lines.  They are going to wrath for max $$$</p>",
+        "post_number": 5,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-01-28T01:05:27.142Z",
+        "reply_count": 1,
+        "reply_to_post_number": 4,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 146,
+        "readers_count": 145,
+        "score": 34.2,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "hokutoken",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3248293,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/malganis/maxsparkles/",
+          "achievement_points": "0",
+          "level": "60",
+          "race": "Human",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "classic": "t",
+          "guild": "mLord",
+          "blizzard_post_count": "4031"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/5",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/153/25925273-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Uglyhaircut-whitemane",
+        "poster_alias": {
+          "alias": {
+            "name": "Uglyhaircut-whitemane",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/153/25925273-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": null,
+            "user_id": 3248293,
+            "id": 21867,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 248,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Whitemane"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/153/25925273-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Uglyhaircut-whitemane"
+              },
+              {
+                "name": "guild",
+                "value": "Marshals for Hire"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 4031,
+        "character": {
+          "name": "hokutoken",
+          "guild": "mLord",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Paladin",
+          "race": "Human",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28694138,
+        "name": "JStark",
+        "username": "JStark-1979297",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-28T01:05:31.669Z",
+        "cooked": "<p>they are supposed to be sharing the future of classic and this is it tbc era and wotlk era…..</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-06-22T18:54:31.219Z",
+        "reply_count": 0,
+        "reply_to_post_number": 4,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 133,
+        "readers_count": 132,
+        "score": 101.6,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "JStark",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2418047,
+          "username": "PourDecision-2418047",
+          "name": "PourDecision",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 5
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1979297,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Troll",
+          "class": "Shaman",
+          "player_class_enum": "SHAMAN",
+          "guild": "Left For Dead",
+          "achievement_points": "0",
+          "classic": "t",
+          "level": "20",
+          "blizzard_post_count": "882"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/6",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/nightslayer/169/57377449-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "alias_username": "Tbcera",
+        "poster_alias": {
+          "alias": {
+            "name": "Tbcera",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/nightslayer/169/57377449-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": null,
+            "user_id": 1979297,
+            "id": 2451703,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 646,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Nightslayer"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "15"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2351150,
+          "username": "Nueces",
+          "name": "Nueces",
+          "avatar_template": "https://render.worldofwarcraft.com/classic1x-us/character/dreamscythe/49/48610353-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 882,
+        "character": {
+          "name": "JStark",
+          "guild": "Left For Dead",
+          "achievement_points": "0",
+          "level": "20",
+          "class": "Shaman",
+          "race": "Troll",
+          "player_class_enum": "SHAMAN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28694178,
+        "name": "PourDecision",
+        "username": "PourDecision-2418047",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-28T01:08:33.672Z",
+        "cooked": "<p>I’ll wait for the 29th before I “panic”.</p>\n<p>Thanks, Gavin MacLeod.</p>",
+        "post_number": 7,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-06-15T18:54:33.904Z",
+        "reply_count": 1,
+        "reply_to_post_number": 5,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 120,
+        "readers_count": 119,
+        "score": 29.0,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "PourDecision",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 3248293,
+          "username": "hokutoken-3248293",
+          "name": "hokutoken",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2418047,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Troll",
+          "class": "Shaman",
+          "player_class_enum": "SHAMAN",
+          "achievement_points": "0",
+          "level": "60",
+          "classic": "t",
+          "blizzard_post_count": "12479"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/7",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/dreamscythe/49/48610353-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+        "alias_username": "Nueces",
+        "poster_alias": {
+          "alias": {
+            "name": "Nueces",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/dreamscythe/49/48610353-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+            "url": null,
+            "user_id": 2418047,
+            "id": 2351150,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 2331,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Dreamscythe"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "11"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 21867,
+          "username": "Uglyhaircut-whitemane",
+          "name": "Uglyhaircut",
+          "avatar_template": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/153/25925273-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 12479,
+        "character": {
+          "name": "PourDecision",
+          "guild": null,
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Shaman",
+          "race": "Troll",
+          "player_class_enum": "SHAMAN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28694319,
+        "name": "hokutoken",
+        "username": "hokutoken-3248293",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-28T01:19:59.029Z",
+        "cooked": "<p>Anyone with half a brain knows TBC is going to wrath</p>\n<pre><code class=\"lang-auto\">https://www.facebook.com/Blizzard.ANZ/posts/in-the-end-you-will-all-serve-me/1433039231815197/\n</code></pre>\n<p>It’s literally the sole reason why they won’t confirm TBC era.</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-01-28T01:21:39.567Z",
+        "reply_count": 2,
+        "reply_to_post_number": 7,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 107,
+        "readers_count": 106,
+        "score": 31.4,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "hokutoken",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2418047,
+          "username": "PourDecision-2418047",
+          "name": "PourDecision",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3248293,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/malganis/maxsparkles/",
+          "achievement_points": "0",
+          "level": "60",
+          "race": "Human",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "classic": "t",
+          "guild": "mLord",
+          "blizzard_post_count": "4031"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/8",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/153/25925273-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Uglyhaircut-whitemane",
+        "poster_alias": {
+          "alias": {
+            "name": "Uglyhaircut-whitemane",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/153/25925273-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": null,
+            "user_id": 3248293,
+            "id": 21867,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 248,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Whitemane"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/153/25925273-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Uglyhaircut-whitemane"
+              },
+              {
+                "name": "guild",
+                "value": "Marshals for Hire"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2351150,
+          "username": "Nueces",
+          "name": "Nueces",
+          "avatar_template": "https://render.worldofwarcraft.com/classic1x-us/character/dreamscythe/49/48610353-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 4031,
+        "character": {
+          "name": "hokutoken",
+          "guild": "mLord",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Paladin",
+          "race": "Human",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28694359,
+        "name": "JStark",
+        "username": "JStark-1979297",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-28T01:23:28.914Z",
+        "cooked": "<p>anniversary is 1000% going to wrath but if they cared about the classic playerbase they will leave up 2 tbc servers we could transfer off to. doing this will actually prob make them more money because so many people will keep their 70 gear in tbc and then just buy a boost</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-06-22T18:54:31.332Z",
+        "reply_count": 0,
+        "reply_to_post_number": 8,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 100,
+        "readers_count": 99,
+        "score": 65.0,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "JStark",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 3248293,
+          "username": "hokutoken-3248293",
+          "name": "hokutoken",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1979297,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Troll",
+          "class": "Shaman",
+          "player_class_enum": "SHAMAN",
+          "guild": "Left For Dead",
+          "achievement_points": "0",
+          "classic": "t",
+          "level": "20",
+          "blizzard_post_count": "882"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/9",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/nightslayer/169/57377449-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "alias_username": "Tbcera",
+        "poster_alias": {
+          "alias": {
+            "name": "Tbcera",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/nightslayer/169/57377449-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": null,
+            "user_id": 1979297,
+            "id": 2451703,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 646,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Nightslayer"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "15"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 21867,
+          "username": "Uglyhaircut-whitemane",
+          "name": "Uglyhaircut",
+          "avatar_template": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/153/25925273-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 882,
+        "character": {
+          "name": "JStark",
+          "guild": "Left For Dead",
+          "achievement_points": "0",
+          "level": "20",
+          "class": "Shaman",
+          "race": "Troll",
+          "player_class_enum": "SHAMAN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28694397,
+        "name": "PourDecision",
+        "username": "PourDecision-2418047",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-28T01:26:36.691Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Uglyhaircut-whitemane\" data-post=\"8\" data-topic=\"2239209\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/classic1x-us/character/whitemane/153/25925273-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg\" class=\"avatar\"> Uglyhaircut:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>TBC is going to wrath</p>\n</blockquote>\n</aside>\n<p>Oh that.</p>\n<p>Of course and I’ve supported that. I simply want an Era offramp for <strong>both</strong> TBC &amp; Wrath. And for Blizzard to be transparent about their intentions.</p>\n<p>They let players jump off the ride to stay in 60 Era. Let others exit to remain in TBC Era.</p>",
+        "post_number": 10,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-06-15T18:54:34.372Z",
+        "reply_count": 1,
+        "reply_to_post_number": 8,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 93,
+        "readers_count": 92,
+        "score": 68.6,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "PourDecision",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2418047,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Troll",
+          "class": "Shaman",
+          "player_class_enum": "SHAMAN",
+          "achievement_points": "0",
+          "level": "60",
+          "classic": "t",
+          "blizzard_post_count": "12479"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/10",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/dreamscythe/49/48610353-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+        "alias_username": "Nueces",
+        "poster_alias": {
+          "alias": {
+            "name": "Nueces",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/dreamscythe/49/48610353-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+            "url": null,
+            "user_id": 2418047,
+            "id": 2351150,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 2331,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Dreamscythe"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "11"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 12479,
+        "character": {
+          "name": "PourDecision",
+          "guild": null,
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Shaman",
+          "race": "Troll",
+          "player_class_enum": "SHAMAN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28694422,
+        "name": "hokutoken",
+        "username": "hokutoken-3248293",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-28T01:29:24.617Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Nueces-dreamscythe\" data-post=\"10\" data-topic=\"2239209\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/classic1x-us/character/dreamscythe/49/48610353-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg\" class=\"avatar\"> Nueces:</div>\n<blockquote>\n<p>And for Blizzard to be transparent about their intentions.</p>\n</blockquote>\n</aside>\n<p>Nope.  They only hire people that either a) hate their customers or b) have the worse possible communication skills.  They barely even use their own forums.  One of the most unprofessional things I’ve seen from a large company.</p>",
+        "post_number": 11,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-01-28T01:29:24.617Z",
+        "reply_count": 1,
+        "reply_to_post_number": 10,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 90,
+        "readers_count": 89,
+        "score": 38.0,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "hokutoken",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3248293,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/malganis/maxsparkles/",
+          "achievement_points": "0",
+          "level": "60",
+          "race": "Human",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "classic": "t",
+          "guild": "mLord",
+          "blizzard_post_count": "4031"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/11",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/153/25925273-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Uglyhaircut-whitemane",
+        "poster_alias": {
+          "alias": {
+            "name": "Uglyhaircut-whitemane",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/153/25925273-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": null,
+            "user_id": 3248293,
+            "id": 21867,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 248,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Whitemane"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/153/25925273-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Uglyhaircut-whitemane"
+              },
+              {
+                "name": "guild",
+                "value": "Marshals for Hire"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 4031,
+        "character": {
+          "name": "hokutoken",
+          "guild": "mLord",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Paladin",
+          "race": "Human",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28694740,
+        "name": "Biqnoob",
+        "username": "Biqnoob-3315274",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-28T02:04:15.009Z",
+        "cooked": "<p>Don’t even make wotlk era. wotlk is where in the classic hype cycle of the game actually died… just stop at TBC we don’t even want wotlk. look at your tbc classic vs wotlk classic player stats across the entire xpacs. it’s a dumb decision by the manager who wants to stop at wotlk instead of tbc.</p>",
+        "post_number": 12,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-01-28T02:06:59.258Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 78,
+        "readers_count": 77,
+        "score": 50.6,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "Biqnoob",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3315274,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/barthilas/lexilovegood/",
+          "achievement_points": "15670",
+          "level": "45",
+          "race": "Human",
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "blizzard_post_count": "47"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/12",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/barthilas/24/174099736-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+        "alias_username": "Lexilovegood-barthilas",
+        "poster_alias": {
+          "alias": {
+            "name": "Lexilovegood-barthilas",
+            "avatar": "https://render.worldofwarcraft.com/us/character/barthilas/24/174099736-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+            "url": null,
+            "user_id": 3315274,
+            "id": 98957,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 8,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/barthilas/lexilovegood/"
+              },
+              {
+                "name": "realm",
+                "value": "Barthilas"
+              },
+              {
+                "name": "achievement_points",
+                "value": "15670"
+              },
+              {
+                "name": "level",
+                "value": "45"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/barthilas/24/174099736-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Lexilovegood-barthilas"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 47,
+        "character": {
+          "name": "Biqnoob",
+          "guild": null,
+          "achievement_points": "15670",
+          "level": "45",
+          "class": "Mage",
+          "race": "Human",
+          "player_class_enum": "MAGE",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28695063,
+        "name": "PourDecision",
+        "username": "PourDecision-2418047",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-28T02:36:47.319Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Uglyhaircut-whitemane\" data-post=\"11\" data-topic=\"2239209\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/classic1x-us/character/whitemane/153/25925273-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg\" class=\"avatar\"> Uglyhaircut:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>They barely even use their own forums. One of the most unprofessional things I’ve seen from a large company.</p>\n</blockquote>\n</aside>\n<p>That is pretty sad but let’s not pretend that some of the petty manchild rage directed at them here didn’t up the ante. Yeah just words and they can control it through heavy moderation but that’s not satisfactory either squelching dissent just because some Neanderthals gotta spew <em>gamer words</em> incessantly.</p>\n<p>Meh. I’m still disgruntled that I had to get an X account just to better monitor their comms.</p>",
+        "post_number": 13,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-06-15T18:54:34.956Z",
+        "reply_count": 1,
+        "reply_to_post_number": 11,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 72,
+        "readers_count": 71,
+        "score": 19.4,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "PourDecision",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2418047,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Troll",
+          "class": "Shaman",
+          "player_class_enum": "SHAMAN",
+          "achievement_points": "0",
+          "level": "60",
+          "classic": "t",
+          "blizzard_post_count": "12479"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/13",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/dreamscythe/49/48610353-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+        "alias_username": "Nueces",
+        "poster_alias": {
+          "alias": {
+            "name": "Nueces",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/dreamscythe/49/48610353-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+            "url": null,
+            "user_id": 2418047,
+            "id": 2351150,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 2331,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Dreamscythe"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "11"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 12479,
+        "character": {
+          "name": "PourDecision",
+          "guild": null,
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Shaman",
+          "race": "Troll",
+          "player_class_enum": "SHAMAN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28695538,
+        "name": "hokutoken",
+        "username": "hokutoken-3248293",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-28T03:19:07.851Z",
+        "cooked": "<p>All the more reason for microsoft to just hire AI agents instead, the way of the future.  No wounded egos or disdain for customers.</p>\n<p>BTW I work in customer service.  I have thick skin and I don’t hate or disrespect my customers.  In fact, I help them as often as I can.</p>",
+        "post_number": 14,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-01-28T03:21:43.122Z",
+        "reply_count": 2,
+        "reply_to_post_number": 13,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 64,
+        "readers_count": 63,
+        "score": 27.8,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "hokutoken",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2418047,
+          "username": "PourDecision-2418047",
+          "name": "PourDecision",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3248293,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/malganis/maxsparkles/",
+          "achievement_points": "0",
+          "level": "60",
+          "race": "Human",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "classic": "t",
+          "guild": "mLord",
+          "blizzard_post_count": "4031"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/14",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/153/25925273-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Uglyhaircut-whitemane",
+        "poster_alias": {
+          "alias": {
+            "name": "Uglyhaircut-whitemane",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/153/25925273-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": null,
+            "user_id": 3248293,
+            "id": 21867,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 248,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Whitemane"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/153/25925273-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Uglyhaircut-whitemane"
+              },
+              {
+                "name": "guild",
+                "value": "Marshals for Hire"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2351150,
+          "username": "Nueces",
+          "name": "Nueces",
+          "avatar_template": "https://render.worldofwarcraft.com/classic1x-us/character/dreamscythe/49/48610353-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 4031,
+        "character": {
+          "name": "hokutoken",
+          "guild": "mLord",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Paladin",
+          "race": "Human",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28696565,
+        "name": "Aryxymaraki",
+        "username": "Aryxymaraki-13810",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-28T05:53:57.874Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Uglyhaircut-whitemane\" data-post=\"14\" data-topic=\"2239209\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/classic1x-us/character/whitemane/153/25925273-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg\" class=\"avatar\"> Uglyhaircut:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>All the more reason for microsoft to just hire AI agents instead, the way of the future. No wounded egos or disdain for customers.</p>\n</blockquote>\n</aside>\n<p>No successful responses or correct information, either.</p>",
+        "post_number": 15,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-01-28T05:53:57.874Z",
+        "reply_count": 0,
+        "reply_to_post_number": 14,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 56,
+        "readers_count": 55,
+        "score": 11.2,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "Aryxymaraki",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 13810,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Lucid Nightmare",
+          "race": "Tauren",
+          "class": "Shaman",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/earthen-ring/aryxymaraki/",
+          "player_class_enum": "SHAMAN",
+          "classic": "t",
+          "level": "70",
+          "achievement_points": "12445",
+          "blizzard_post_count": "4738"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/15",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/earthen-ring/189/4120253-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+        "alias_username": "Aryxymaraki-earthen-ring",
+        "poster_alias": {
+          "alias": {
+            "name": "Aryxymaraki-earthen-ring",
+            "avatar": "https://render.worldofwarcraft.com/us/character/earthen-ring/189/4120253-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/earthen-ring/aryxymaraki/",
+            "user_id": 13810,
+            "id": 525816,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 4739,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/earthen-ring/aryxymaraki/"
+              },
+              {
+                "name": "realm",
+                "value": "Earthen Ring"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12540"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Shaman"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "SHAMAN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/earthen-ring/189/4120253-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Aryxymaraki-earthen-ring"
+              },
+              {
+                "name": "guild",
+                "value": "Lucid Nightmare"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 4738,
+        "character": {
+          "name": "Aryxymaraki",
+          "guild": "Lucid Nightmare",
+          "achievement_points": "12445",
+          "level": "70",
+          "class": "Shaman",
+          "race": "Tauren",
+          "player_class_enum": "SHAMAN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28696652,
+        "name": "SteezyKO",
+        "username": "SteezyKO-2072621",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-28T06:05:47.594Z",
+        "cooked": "<p>if they say wotlk ill be upset. that means another year postpone for classic+</p>",
+        "post_number": 16,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-01-28T06:05:47.594Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 53,
+        "readers_count": 52,
+        "score": 10.6,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "SteezyKO",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2072621,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/bleeding-hollow/ogsteez/",
+          "guild": "rats and apes",
+          "race": "Orc",
+          "class": "Shaman",
+          "player_class_enum": "SHAMAN",
+          "blizzard_post_count": "76",
+          "level": "80",
+          "achievement_points": "9655"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/16",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/bleeding-hollow/82/247912786-avatar.jpg?alt=/wow/static/images/2d/avatar/2-1.jpg",
+        "alias_username": "Ogsteez-bleeding-hollow",
+        "poster_alias": {
+          "alias": {
+            "name": "Ogsteez-bleeding-hollow",
+            "avatar": "https://render.worldofwarcraft.com/us/character/bleeding-hollow/82/247912786-avatar.jpg?alt=/wow/static/images/2d/avatar/2-1.jpg",
+            "url": null,
+            "user_id": 2072621,
+            "id": 44918,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 80,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/bleeding-hollow/ogsteez/"
+              },
+              {
+                "name": "realm",
+                "value": "Bleeding Hollow"
+              },
+              {
+                "name": "achievement_points",
+                "value": "9655"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Shaman"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "SHAMAN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/bleeding-hollow/82/247912786-avatar.jpg?alt=/wow/static/images/2d/avatar/2-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Ogsteez-bleeding-hollow"
+              },
+              {
+                "name": "guild",
+                "value": "rats and apes"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 76,
+        "character": {
+          "name": "SteezyKO",
+          "guild": "rats and apes",
+          "achievement_points": "9655",
+          "level": "80",
+          "class": "Shaman",
+          "race": "Orc",
+          "player_class_enum": "SHAMAN",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28696729,
+        "name": "doritoloco",
+        "username": "doritoloco-3257523",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-28T06:19:57.968Z",
+        "cooked": "<p>we will get titanforge servers before classic + im betting</p>",
+        "post_number": 17,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-01-28T06:19:57.968Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 50,
+        "readers_count": 49,
+        "score": 30.0,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "doritoloco",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3257523,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/slamgìna/",
+          "guild": "Busted Honor",
+          "achievement_points": "0",
+          "level": "60",
+          "race": "Human",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "classic": "t",
+          "blizzard_post_count": "581"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/17",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/74/51499338-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+        "alias_username": "Slamholy-whitemane",
+        "poster_alias": {
+          "alias": {
+            "name": "Slamholy-whitemane",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/74/51499338-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+            "url": null,
+            "user_id": 3257523,
+            "id": 182614,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 602,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Whitemane"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/74/51499338-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Slamholy-whitemane"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 581,
+        "character": {
+          "name": "doritoloco",
+          "guild": "Busted Honor",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Paladin",
+          "race": "Human",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28696731,
+        "name": "wafectus",
+        "username": "wafectus-3335904",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-28T06:20:11.744Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Uglyhaircut-whitemane\" data-post=\"14\" data-topic=\"2239209\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/classic1x-us/character/whitemane/153/25925273-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg\" class=\"avatar\"> Uglyhaircut:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>All the more reason for microsoft to just hire AI agents instead, the way of the future. No wounded egos or disdain for customers.</p>\n</blockquote>\n</aside>\n<p>They don’t come here because they know that we call them out on any little thing and nothing escapes forum users like us…</p>\n<p>The company can’t stand that I can conjecture and guess their plans with simple critical thinking…</p>\n<p>And announce to the world that while I would like WOTLK era,</p>\n<p>We’re not getting Wrath or TBC era; for the simple reason, that it doesn’t make much financial sense to me, and likely them, to provide us with more than one type of era server.</p>",
+        "post_number": 18,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-06-17T09:21:41.345Z",
+        "reply_count": 0,
+        "reply_to_post_number": 14,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 54,
+        "readers_count": 53,
+        "score": 10.8,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "wafectus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3335904,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Faux Real",
+          "achievement_points": "0",
+          "level": "29",
+          "race": "Orc",
+          "class": "Shaman",
+          "player_class_enum": "SHAMAN",
+          "classic": "t",
+          "blizzard_post_count": "6660"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/18",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/grobbulus/199/51720135-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "alias_username": "Wafectus",
+        "poster_alias": {
+          "alias": {
+            "name": "Wafectus",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/grobbulus/199/51720135-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": null,
+            "user_id": 3335904,
+            "id": 2399856,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 4122,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Grobbulus"
+              },
+              {
+                "name": "achievement_points",
+                "value": "4075"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Shaman"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "SHAMAN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "Stand and Fight"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 6660,
+        "character": {
+          "name": "wafectus",
+          "guild": "Faux Real",
+          "achievement_points": "0",
+          "level": "29",
+          "class": "Shaman",
+          "race": "Orc",
+          "player_class_enum": "SHAMAN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28696741,
+        "name": "Alyson",
+        "username": "Alyson-30912",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-28T06:22:35.709Z",
+        "cooked": "<p>PERMANENT TBC AND WRATH SERVERS</p>\n<p>The drop off started in Cata Classic and those realms are now GHOST TOWNS - <strong>history is repeating itself</strong></p>",
+        "post_number": 19,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-02-14T15:10:14.692Z",
+        "reply_count": 2,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 53,
+        "readers_count": 52,
+        "score": 20.6,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "Alyson",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 30912,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "class": "Druid",
+          "race": "Night Elf",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/stormrage/vhiana/",
+          "player_class_enum": "DRUID",
+          "level": "80",
+          "guild": "We Want Fresh too",
+          "classic": "t",
+          "achievement_points": "19075",
+          "blizzard_post_count": "4863"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/19",
+        "alias_avatar": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png",
+        "alias_username": "Saltheril-dreamscythe",
+        "poster_alias": {
+          "alias": {
+            "name": "Saltheril-dreamscythe",
+            "avatar": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png",
+            "url": null,
+            "user_id": 30912,
+            "id": 390947,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 226,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Dreamscythe"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "50"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png"
+              },
+              {
+                "name": "name",
+                "value": "Saltheril-dreamscythe"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 4863,
+        "character": {
+          "name": "Alyson",
+          "guild": "We Want Fresh too",
+          "achievement_points": "19075",
+          "level": "80",
+          "class": "Druid",
+          "race": "Night Elf",
+          "player_class_enum": "DRUID",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28696753,
+        "name": "TheMarshall",
+        "username": "TheMarshall-3271057",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-28T06:24:31.243Z",
+        "cooked": "<p>I hope so.</p>",
+        "post_number": 20,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-01-28T06:24:31.243Z",
+        "reply_count": 0,
+        "reply_to_post_number": 17,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 52,
+        "readers_count": 51,
+        "score": 10.4,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "TheMarshall",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "reply_to_user": {
+          "id": 3257523,
+          "username": "doritoloco-3257523",
+          "name": "doritoloco",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3271057,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Toxic Community",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/blackwing-lair/reshana/",
+          "achievement_points": "0",
+          "level": "60",
+          "race": "Undead",
+          "class": "Priest",
+          "player_class_enum": "PRIEST",
+          "classic": "t",
+          "blizzard_post_count": "955"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/20",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/wildhammer/192/235246528-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+        "alias_username": "Luminaughty-wildhammer",
+        "poster_alias": {
+          "alias": {
+            "name": "Luminaughty-wildhammer",
+            "avatar": "https://render.worldofwarcraft.com/us/character/wildhammer/192/235246528-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/wildhammer/luminaughty/",
+            "user_id": 3271057,
+            "id": 12462,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 165,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/wildhammer/luminaughty/"
+              },
+              {
+                "name": "realm",
+                "value": "Wildhammer"
+              },
+              {
+                "name": "achievement_points",
+                "value": "22065"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/wildhammer/192/235246528-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Luminaughty-wildhammer"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 182614,
+          "username": "Slamholy-whitemane",
+          "name": "Slamholy",
+          "avatar_template": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/74/51499338-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 955,
+        "character": {
+          "name": "TheMarshall",
+          "guild": "Toxic Community",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Priest",
+          "race": "Undead",
+          "player_class_enum": "PRIEST",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28696845,
+        "name": "Eradicator",
+        "username": "Eradicator-3285637",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-28T06:44:28.030Z",
+        "cooked": "<p>In my opinion, Blizz has everything planned years out on what they want to do (no company gets this big and successful without doing that).</p>\n<p>That said, I don’t think they will ever give players insight to their plans because if they did, I think players would be less inclined to sign up and play Classic/Anniversary/other iterations.</p>\n<p>I also don’t think they will ever have TBC era or WotLK era as a huge draw for players to play fresh Classic servers is to progress to those expansions. If they had permanent eras of them, less players would play fresh Classic iterations; but, obviously not all players. Another draw is to play fresh Classic and then transfer to era. Thus, why less players would sign up for fresh Classic roll outs</p>\n<p>But, we don’t know if/what they have planned for Classic+ and maybe they do something we haven’t thought of with it.</p>",
+        "post_number": 21,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-01-28T06:44:28.030Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 51,
+        "readers_count": 50,
+        "score": 10.2,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "Eradicator",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3285637,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Fun",
+          "achievement_points": "0",
+          "level": "60",
+          "race": "Human",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "classic": "t",
+          "blizzard_post_count": "17"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/21",
+        "alias_avatar": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png",
+        "alias_username": "Pellaeon-dreamscythe",
+        "poster_alias": {
+          "alias": {
+            "name": "Pellaeon-dreamscythe",
+            "avatar": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png",
+            "url": null,
+            "user_id": 3285637,
+            "id": 814643,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 17,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Dreamscythe"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "Fun"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 17,
+        "character": {
+          "name": "Eradicator",
+          "guild": "Fun",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Paladin",
+          "race": "Human",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28696856,
+        "name": "wafectus",
+        "username": "wafectus-3335904",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-28T06:46:25.784Z",
+        "cooked": "<p>Who’s going to want to do arena again if we’re all running around in our Brutal gear post TBC-Era?</p>\n<p>I know I won’t.</p>\n<p>Fresh arena seasons are part of their bread and butter in which they like to sell as a part of their hype-train.</p>\n<p>They won’t want us getting complacent with our arena gear forever…</p>\n<p>TBC/Wrath Era aren’t going to happen.</p>",
+        "post_number": 22,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-06-17T09:21:41.646Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 50,
+        "readers_count": 49,
+        "score": 10.0,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "wafectus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3335904,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Faux Real",
+          "achievement_points": "0",
+          "level": "29",
+          "race": "Orc",
+          "class": "Shaman",
+          "player_class_enum": "SHAMAN",
+          "classic": "t",
+          "blizzard_post_count": "6660"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/22",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/grobbulus/199/51720135-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "alias_username": "Wafectus",
+        "poster_alias": {
+          "alias": {
+            "name": "Wafectus",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/grobbulus/199/51720135-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": null,
+            "user_id": 3335904,
+            "id": 2399856,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 4122,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Grobbulus"
+              },
+              {
+                "name": "achievement_points",
+                "value": "4075"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Shaman"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "SHAMAN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "Stand and Fight"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 6660,
+        "character": {
+          "name": "wafectus",
+          "guild": "Faux Real",
+          "achievement_points": "0",
+          "level": "29",
+          "class": "Shaman",
+          "race": "Orc",
+          "player_class_enum": "SHAMAN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28696921,
+        "name": "ChromeJoker",
+        "username": "ChromeJoker-3308645",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-28T07:03:46.905Z",
+        "cooked": "<p>Tbc is peak wow I agree give era! Tbc era hype!</p>",
+        "post_number": 23,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-01-28T07:03:46.905Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 49,
+        "readers_count": 48,
+        "score": 54.8,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "ChromeJoker",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3308645,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/barthilas/saritian/",
+          "achievement_points": "0",
+          "level": "60",
+          "race": "Orc",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "classic": "t",
+          "blizzard_post_count": "15"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/23",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/189/54388413-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "alias_username": "Tneetiny-whitemane",
+        "poster_alias": {
+          "alias": {
+            "name": "Tneetiny-whitemane",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/189/54388413-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": null,
+            "user_id": 3308645,
+            "id": 761817,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 15,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Whitemane"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 15,
+        "character": {
+          "name": "ChromeJoker",
+          "guild": null,
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Warrior",
+          "race": "Orc",
+          "player_class_enum": "WARRIOR",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28697394,
+        "name": "hokutoken",
+        "username": "hokutoken-3248293",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-28T09:10:23.746Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Saltheril-dreamscythe\" data-post=\"19\" data-topic=\"2239209\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/classic1x-us/character/dreamscythe/79/42810447-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg\" class=\"avatar\"> Saltheril:</div>\n<blockquote>\n<p>history is repeating itself</p>\n</blockquote>\n</aside>\n<p>Read your own words.  TBC is going to wrath with no era options.  They just want max $$$</p>",
+        "post_number": 24,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-01-28T09:10:23.746Z",
+        "reply_count": 0,
+        "reply_to_post_number": 19,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 46,
+        "readers_count": 45,
+        "score": 9.2,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "hokutoken",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3248293,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/malganis/maxsparkles/",
+          "achievement_points": "0",
+          "level": "60",
+          "race": "Human",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "classic": "t",
+          "guild": "mLord",
+          "blizzard_post_count": "4031"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/24",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/153/25925273-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Uglyhaircut-whitemane",
+        "poster_alias": {
+          "alias": {
+            "name": "Uglyhaircut-whitemane",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/153/25925273-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": null,
+            "user_id": 3248293,
+            "id": 21867,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 248,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Whitemane"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/153/25925273-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Uglyhaircut-whitemane"
+              },
+              {
+                "name": "guild",
+                "value": "Marshals for Hire"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 4031,
+        "character": {
+          "name": "hokutoken",
+          "guild": "mLord",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Paladin",
+          "race": "Human",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28698539,
+        "name": "Leafsfan9329",
+        "username": "Leafsfan9329-3244416",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-28T13:48:48.748Z",
+        "cooked": "<p>I wouldn’t call mop a ghost town. It’s just easy to raid log in that version and play TBC anniversary.</p>",
+        "post_number": 25,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-01-28T13:48:48.748Z",
+        "reply_count": 0,
+        "reply_to_post_number": 19,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 43,
+        "readers_count": 42,
+        "score": 8.6,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "Leafsfan9329",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 30912,
+          "username": "Alyson-30912",
+          "name": "Alyson",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3244416,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "flux",
+          "level": "85",
+          "race": "Orc",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "classic": "t",
+          "achievement_points": "11425",
+          "blizzard_post_count": "3339"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/25",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/galakras/243/98930931-avatar.jpg?alt=/wow/static/images/2d/avatar/2-1.jpg",
+        "alias_username": "Veliveanna-galakras",
+        "poster_alias": {
+          "alias": {
+            "name": "Veliveanna-galakras",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/galakras/243/98930931-avatar.jpg?alt=/wow/static/images/2d/avatar/2-1.jpg",
+            "url": null,
+            "user_id": 3244416,
+            "id": 573979,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 221,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Galakras"
+              },
+              {
+                "name": "achievement_points",
+                "value": "11500"
+              },
+              {
+                "name": "level",
+                "value": "85"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic-us/character/galakras/243/98930931-avatar.jpg?alt=/wow/static/images/2d/avatar/2-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Veliveanna-galakras"
+              },
+              {
+                "name": "guild",
+                "value": "flux"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 390947,
+          "username": "Saltheril-dreamscythe",
+          "name": "Saltheril",
+          "avatar_template": "https://d15f34w2p8l1cc.cloudfront.net/discourse/4ee534312b1eeeb6fade3f629ccfef451be246a9cee8b3e8dfe67437216e5ac8.png"
+        },
+        "animated_avatar": null,
+        "user_post_count": 3339,
+        "character": {
+          "name": "Leafsfan9329",
+          "guild": "flux",
+          "achievement_points": "11425",
+          "level": "85",
+          "class": "Hunter",
+          "race": "Orc",
+          "player_class_enum": "HUNTER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28698598,
+        "name": "wership",
+        "username": "wership-68434",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-28T13:58:09.045Z",
+        "cooked": "<p>It’d be a waste of time and resources making a TBC era server.  The move to wrath is obvious and in no way would NOT happen on their anniversary run of classic.  Gonna have to deal with it OP.</p>",
+        "post_number": 26,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-01-28T13:58:09.045Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 41,
+        "readers_count": 40,
+        "score": 8.2,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "wership",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 68434,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Hordeocalypse",
+          "race": "Orc",
+          "class": "Warrior",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/blackrock/igorgos/",
+          "player_class_enum": "WARRIOR",
+          "level": "80",
+          "achievement_points": "19665",
+          "blizzard_post_count": "1473"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/26",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/blackrock/62/157988158-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "alias_username": "Igorgos-blackrock",
+        "poster_alias": {
+          "alias": {
+            "name": "Igorgos-blackrock",
+            "avatar": "https://render.worldofwarcraft.com/us/character/blackrock/62/157988158-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/blackrock/igorgos/",
+            "user_id": 68434,
+            "id": 373375,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1690,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/blackrock/igorgos/"
+              },
+              {
+                "name": "realm",
+                "value": "Blackrock"
+              },
+              {
+                "name": "achievement_points",
+                "value": "21175"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/blackrock/62/157988158-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Igorgos-blackrock"
+              },
+              {
+                "name": "guild",
+                "value": "Hordeocalypse"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 1473,
+        "character": {
+          "name": "wership",
+          "guild": "Hordeocalypse",
+          "achievement_points": "19665",
+          "level": "80",
+          "class": "Warrior",
+          "race": "Orc",
+          "player_class_enum": "WARRIOR",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28704982,
+        "name": "JStark",
+        "username": "JStark-1979297",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-28T23:07:51.941Z",
+        "cooked": "<p>stop at both!!!</p>",
+        "post_number": 27,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-06-22T18:54:31.440Z",
+        "reply_count": 0,
+        "reply_to_post_number": 12,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 38,
+        "readers_count": 37,
+        "score": 22.6,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "JStark",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 3315274,
+          "username": "Biqnoob-3315274",
+          "name": "Biqnoob",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1979297,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Troll",
+          "class": "Shaman",
+          "player_class_enum": "SHAMAN",
+          "guild": "Left For Dead",
+          "achievement_points": "0",
+          "classic": "t",
+          "level": "20",
+          "blizzard_post_count": "882"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/27",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/nightslayer/169/57377449-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "alias_username": "Tbcera",
+        "poster_alias": {
+          "alias": {
+            "name": "Tbcera",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/nightslayer/169/57377449-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": null,
+            "user_id": 1979297,
+            "id": 2451703,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 646,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Nightslayer"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "15"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 98957,
+          "username": "Lexilovegood-barthilas",
+          "name": "Lexilovegood",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/barthilas/24/174099736-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 882,
+        "character": {
+          "name": "JStark",
+          "guild": "Left For Dead",
+          "achievement_points": "0",
+          "level": "20",
+          "class": "Shaman",
+          "race": "Troll",
+          "player_class_enum": "SHAMAN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28707542,
+        "name": "AlphaSmoke",
+        "username": "AlphaSmoke-1998704",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-29T03:41:50.358Z",
+        "cooked": "<p>they shoulda announced this 1 year ago</p>",
+        "post_number": 28,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-01-29T03:41:50.358Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 35,
+        "readers_count": 34,
+        "score": 7.0,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "AlphaSmoke",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1998704,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": null,
+          "race": "Orc",
+          "class": "Rogue",
+          "player_class_enum": "ROGUE",
+          "achievement_points": "0",
+          "level": "60",
+          "classic": "t",
+          "guild": "Forever CIassic",
+          "blizzard_post_count": "722"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/28",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/arcanite-reaper/34/23478306-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "alias_username": "Alphasmoké-arcanite-reaper",
+        "poster_alias": {
+          "alias": {
+            "name": "Alphasmoké-arcanite-reaper",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/arcanite-reaper/34/23478306-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": null,
+            "user_id": 1998704,
+            "id": 134452,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 15,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Arcanite Reaper"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/arcanite-reaper/34/23478306-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Alphasmoké-arcanite-reaper"
+              },
+              {
+                "name": "guild",
+                "value": "Voodoo Cult"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 722,
+        "character": {
+          "name": "AlphaSmoke",
+          "guild": "Forever CIassic",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Rogue",
+          "race": "Orc",
+          "player_class_enum": "ROGUE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28709630,
+        "name": "A1R5N1P3R",
+        "username": "A1R5N1P3R-3292447",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-29T12:49:35.433Z",
+        "cooked": "<p>blizzard is still kidding themselves that players returning for classic and anniv will someday want to suffer thru the garbage that is retail. they are really actually high….</p>",
+        "post_number": 29,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-01-29T12:49:35.433Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 29,
+        "readers_count": 28,
+        "score": 45.8,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "A1R5N1P3R",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3292447,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "achievement_points": "0",
+          "level": "60",
+          "race": "Gnome",
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "classic": "t",
+          "blizzard_post_count": "140"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/29",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/nightslayer/113/59915377-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg",
+        "alias_username": "Feuergott-nightslayer",
+        "poster_alias": {
+          "alias": {
+            "name": "Feuergott-nightslayer",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/nightslayer/113/59915377-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg",
+            "url": null,
+            "user_id": 3292447,
+            "id": 187715,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 135,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Nightslayer"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/nightslayer/113/59915377-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Feuergott-nightslayer"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 140,
+        "character": {
+          "name": "A1R5N1P3R",
+          "guild": null,
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Mage",
+          "race": "Gnome",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28709854,
+        "name": "JStark",
+        "username": "JStark-1979297",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-29T13:33:23.542Z",
+        "cooked": "<p>facts perserve the original trilogy. thinking the og classic players will enjoy anything other than that is pure delusion</p>",
+        "post_number": 30,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-06-22T18:54:31.559Z",
+        "reply_count": 0,
+        "reply_to_post_number": 29,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 32,
+        "readers_count": 31,
+        "score": 21.4,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "JStark",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 3292447,
+          "username": "A1R5N1P3R-3292447",
+          "name": "A1R5N1P3R",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1979297,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Troll",
+          "class": "Shaman",
+          "player_class_enum": "SHAMAN",
+          "guild": "Left For Dead",
+          "achievement_points": "0",
+          "classic": "t",
+          "level": "20",
+          "blizzard_post_count": "882"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/30",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/nightslayer/169/57377449-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "alias_username": "Tbcera",
+        "poster_alias": {
+          "alias": {
+            "name": "Tbcera",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/nightslayer/169/57377449-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": null,
+            "user_id": 1979297,
+            "id": 2451703,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 646,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Nightslayer"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "15"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 187715,
+          "username": "Feuergott-nightslayer",
+          "name": "Feuergott",
+          "avatar_template": "https://render.worldofwarcraft.com/classic1x-us/character/nightslayer/113/59915377-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 882,
+        "character": {
+          "name": "JStark",
+          "guild": "Left For Dead",
+          "achievement_points": "0",
+          "level": "20",
+          "class": "Shaman",
+          "race": "Troll",
+          "player_class_enum": "SHAMAN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28709954,
+        "name": "Centaura",
+        "username": "Centaura-1633551",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-29T13:49:51.239Z",
+        "cooked": "<p>I think the thing that bothers me most is, they offered a paid service for TBC (boost &amp; premium editions, etc.), but those services are really only valid/worthwile while TBC is active. So not knowing how long that phase is, leaves no way to calculate the value proposition they are offering.  That seems shady.</p>",
+        "post_number": 31,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-01-29T13:49:51.239Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 33,
+        "readers_count": 32,
+        "score": 6.6,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "Centaura",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1633551,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/spinebreaker/turdiefergie/",
+          "guild": "Rotten Claw",
+          "race": "Orc",
+          "class": "Shaman",
+          "player_class_enum": "SHAMAN",
+          "classic": "t",
+          "level": "65",
+          "achievement_points": "15635",
+          "blizzard_post_count": "164"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/31",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/spinebreaker/33/207736097-avatar.jpg?alt=/wow/static/images/2d/avatar/2-1.jpg",
+        "alias_username": "Turdiefergie-spinebreaker",
+        "poster_alias": {
+          "alias": {
+            "name": "Turdiefergie-spinebreaker",
+            "avatar": "https://render.worldofwarcraft.com/us/character/spinebreaker/33/207736097-avatar.jpg?alt=/wow/static/images/2d/avatar/2-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/spinebreaker/turdiefergie/",
+            "user_id": 1633551,
+            "id": 609818,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 164,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/spinebreaker/turdiefergie/"
+              },
+              {
+                "name": "realm",
+                "value": "Spinebreaker"
+              },
+              {
+                "name": "achievement_points",
+                "value": "15995"
+              },
+              {
+                "name": "level",
+                "value": "65"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Shaman"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "SHAMAN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/spinebreaker/33/207736097-avatar.jpg?alt=/wow/static/images/2d/avatar/2-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Turdiefergie-spinebreaker"
+              },
+              {
+                "name": "guild",
+                "value": "Rotten Claw"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 164,
+        "character": {
+          "name": "Centaura",
+          "guild": "Rotten Claw",
+          "achievement_points": "15635",
+          "level": "65",
+          "class": "Shaman",
+          "race": "Orc",
+          "player_class_enum": "SHAMAN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28709975,
+        "name": "JedSed",
+        "username": "JedSed-3230386",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-29T13:53:48.228Z",
+        "cooked": "<p>“<strong><a href=\"https://us.forums.blizzard.com/en/wow/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209\">U better announce tbc era and wotlk era on the 29th</a>”  -</strong> Or what? You’ll threaten to quit wow, then 2mo later you will come back?</p>",
+        "post_number": 32,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-01-29T13:54:02.298Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 30,
+        "readers_count": 29,
+        "score": 26.0,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "JedSed",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3230386,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/illidan/bubblespasm/",
+          "race": "Mag'har Orc",
+          "class": "Priest",
+          "player_class_enum": "PRIEST",
+          "guild": "Knights of the Alliance",
+          "blizzard_post_count": "82",
+          "classic": "t",
+          "level": "90",
+          "achievement_points": "22155"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/32",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/illidan/183/229380535-avatar.jpg?alt=/wow/static/images/2d/avatar/36-0.jpg",
+        "alias_username": "Bubblespasm-illidan",
+        "poster_alias": {
+          "alias": {
+            "name": "Bubblespasm-illidan",
+            "avatar": "https://render.worldofwarcraft.com/us/character/illidan/183/229380535-avatar.jpg?alt=/wow/static/images/2d/avatar/36-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/illidan/bubblespasm/",
+            "user_id": 3230386,
+            "id": 592636,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 82,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/illidan/bubblespasm/"
+              },
+              {
+                "name": "realm",
+                "value": "Illidan"
+              },
+              {
+                "name": "achievement_points",
+                "value": "22275"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Mag'har Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Priest"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PRIEST"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/illidan/183/229380535-avatar.jpg?alt=/wow/static/images/2d/avatar/36-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Bubblespasm-illidan"
+              },
+              {
+                "name": "guild",
+                "value": "Knights of the Alliance"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 82,
+        "character": {
+          "name": "JedSed",
+          "guild": "Knights of the Alliance",
+          "achievement_points": "22155",
+          "level": "90",
+          "class": "Priest",
+          "race": "Mag'har Orc",
+          "player_class_enum": "PRIEST",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 28711556,
+        "name": "JStark",
+        "username": "JStark-1979297",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-01-29T16:59:25.965Z",
+        "cooked": "<p>no…. much worse hahahahahah</p>",
+        "post_number": 33,
+        "post_type": 1,
+        "posts_count": 33,
+        "updated_at": "2026-06-22T18:54:31.660Z",
+        "reply_count": 0,
+        "reply_to_post_number": 32,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 21,
+        "readers_count": 20,
+        "score": 9.2,
+        "yours": false,
+        "topic_id": 2239209,
+        "topic_slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+        "display_username": "JStark",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 3230386,
+          "username": "JedSed-3230386",
+          "name": "JedSed",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1979297,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Troll",
+          "class": "Shaman",
+          "player_class_enum": "SHAMAN",
+          "guild": "Left For Dead",
+          "achievement_points": "0",
+          "classic": "t",
+          "level": "20",
+          "blizzard_post_count": "882"
+        },
+        "post_url": "/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209/33",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/nightslayer/169/57377449-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "alias_username": "Tbcera",
+        "poster_alias": {
+          "alias": {
+            "name": "Tbcera",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/nightslayer/169/57377449-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": null,
+            "user_id": 1979297,
+            "id": 2451703,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 646,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Nightslayer"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "15"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 592636,
+          "username": "Bubblespasm-illidan",
+          "name": "Bubblespasm",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/illidan/183/229380535-avatar.jpg?alt=/wow/static/images/2d/avatar/36-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 882,
+        "character": {
+          "name": "JStark",
+          "guild": "Left For Dead",
+          "achievement_points": "0",
+          "level": "20",
+          "class": "Shaman",
+          "race": "Troll",
+          "player_class_enum": "SHAMAN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ],
+    "stream": [
+      28693965,
+      28694000,
+      28694045,
+      28694047,
+      28694134,
+      28694138,
+      28694178,
+      28694319,
+      28694359,
+      28694397,
+      28694422,
+      28694740,
+      28695063,
+      28695538,
+      28696565,
+      28696652,
+      28696729,
+      28696731,
+      28696741,
+      28696753,
+      28696845,
+      28696856,
+      28696921,
+      28697394,
+      28698539,
+      28698598,
+      28704982,
+      28707542,
+      28709630,
+      28709854,
+      28709954,
+      28709975,
+      28711556
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      221
+    ],
+    [
+      23,
+      220
+    ],
+    [
+      29,
+      219
+    ]
+  ],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "U better announce tbc era and wotlk era on the 29th",
+  "id": 2239209,
+  "title": "U better announce tbc era and wotlk era on the 29th",
+  "posts_count": 33,
+  "created_at": "2026-01-28T00:49:38.353Z",
+  "views": 740,
+  "reply_count": 18,
+  "like_count": 44,
+  "last_posted_at": "2026-01-29T16:59:25.965Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "u-better-announce-tbc-era-and-wotlk-era-on-the-29th",
+  "category_id": 335,
+  "word_count": 1254,
+  "deleted_at": null,
+  "user_id": 1979297,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_2239209",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 33,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 1001,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1002,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1003,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1004,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1005,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 11,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 3248293,
+        "username": "hokutoken-3248293",
+        "name": "hokutoken",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 6,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Uglyhaircut-whitemane",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/153/25925273-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": null,
+            "user_id": 3248293,
+            "id": 21867,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 248,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Whitemane"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/153/25925273-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Uglyhaircut-whitemane"
+              },
+              {
+                "name": "guild",
+                "value": "Marshals for Hire"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 1998704,
+        "username": "AlphaSmoke-1998704",
+        "name": "AlphaSmoke",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Alphasmoké-arcanite-reaper",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/arcanite-reaper/34/23478306-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": null,
+            "user_id": 1998704,
+            "id": 134452,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 15,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Arcanite Reaper"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/arcanite-reaper/34/23478306-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Alphasmoké-arcanite-reaper"
+              },
+              {
+                "name": "guild",
+                "value": "Voodoo Cult"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 3257523,
+        "username": "doritoloco-3257523",
+        "name": "doritoloco",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Slamholy-whitemane",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/74/51499338-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+            "url": null,
+            "user_id": 3257523,
+            "id": 182614,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 602,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Whitemane"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/74/51499338-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Slamholy-whitemane"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 3292447,
+        "username": "A1R5N1P3R-3292447",
+        "name": "A1R5N1P3R",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1,
+        "acting_alias": {
+          "alias": {
+            "name": "Feuergott-nightslayer",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/nightslayer/113/59915377-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg",
+            "url": null,
+            "user_id": 3292447,
+            "id": 187715,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 135,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Nightslayer"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/nightslayer/113/59915377-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Feuergott-nightslayer"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 68434,
+        "username": "wership-68434",
+        "name": "wership",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Igorgos-blackrock",
+            "avatar": "https://render.worldofwarcraft.com/us/character/blackrock/62/157988158-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/blackrock/igorgos/",
+            "user_id": 68434,
+            "id": 373375,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1690,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/blackrock/igorgos/"
+              },
+              {
+                "name": "realm",
+                "value": "Blackrock"
+              },
+              {
+                "name": "achievement_points",
+                "value": "21175"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/blackrock/62/157988158-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Igorgos-blackrock"
+              },
+              {
+                "name": "guild",
+                "value": "Hordeocalypse"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 13810,
+        "username": "Aryxymaraki-13810",
+        "name": "Aryxymaraki",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Aryxymaraki-earthen-ring",
+            "avatar": "https://render.worldofwarcraft.com/us/character/earthen-ring/189/4120253-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/earthen-ring/aryxymaraki/",
+            "user_id": 13810,
+            "id": 525816,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 4739,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/earthen-ring/aryxymaraki/"
+              },
+              {
+                "name": "realm",
+                "value": "Earthen Ring"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12540"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Shaman"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "SHAMAN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/earthen-ring/189/4120253-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Aryxymaraki-earthen-ring"
+              },
+              {
+                "name": "guild",
+                "value": "Lucid Nightmare"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 3244416,
+        "username": "Leafsfan9329-3244416",
+        "name": "Leafsfan9329",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Veliveanna-galakras",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/galakras/243/98930931-avatar.jpg?alt=/wow/static/images/2d/avatar/2-1.jpg",
+            "url": null,
+            "user_id": 3244416,
+            "id": 573979,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 221,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Galakras"
+              },
+              {
+                "name": "achievement_points",
+                "value": "11500"
+              },
+              {
+                "name": "level",
+                "value": "85"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic-us/character/galakras/243/98930931-avatar.jpg?alt=/wow/static/images/2d/avatar/2-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Veliveanna-galakras"
+              },
+              {
+                "name": "guild",
+                "value": "flux"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 3230386,
+        "username": "JedSed-3230386",
+        "name": "JedSed",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Bubblespasm-illidan",
+            "avatar": "https://render.worldofwarcraft.com/us/character/illidan/183/229380535-avatar.jpg?alt=/wow/static/images/2d/avatar/36-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/illidan/bubblespasm/",
+            "user_id": 3230386,
+            "id": 592636,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 82,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/illidan/bubblespasm/"
+              },
+              {
+                "name": "realm",
+                "value": "Illidan"
+              },
+              {
+                "name": "achievement_points",
+                "value": "22275"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Mag'har Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Priest"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PRIEST"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/illidan/183/229380535-avatar.jpg?alt=/wow/static/images/2d/avatar/36-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Bubblespasm-illidan"
+              },
+              {
+                "name": "guild",
+                "value": "Knights of the Alliance"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 1633551,
+        "username": "Centaura-1633551",
+        "name": "Centaura",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Turdiefergie-spinebreaker",
+            "avatar": "https://render.worldofwarcraft.com/us/character/spinebreaker/33/207736097-avatar.jpg?alt=/wow/static/images/2d/avatar/2-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/spinebreaker/turdiefergie/",
+            "user_id": 1633551,
+            "id": 609818,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 164,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/spinebreaker/turdiefergie/"
+              },
+              {
+                "name": "realm",
+                "value": "Spinebreaker"
+              },
+              {
+                "name": "achievement_points",
+                "value": "15995"
+              },
+              {
+                "name": "level",
+                "value": "65"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Shaman"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "SHAMAN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/spinebreaker/33/207736097-avatar.jpg?alt=/wow/static/images/2d/avatar/2-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Turdiefergie-spinebreaker"
+              },
+              {
+                "name": "guild",
+                "value": "Rotten Claw"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 3308645,
+        "username": "ChromeJoker-3308645",
+        "name": "ChromeJoker",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1,
+        "acting_alias": {
+          "alias": {
+            "name": "Tneetiny-whitemane",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/whitemane/189/54388413-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": null,
+            "user_id": 3308645,
+            "id": 761817,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 15,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Whitemane"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 2072621,
+        "username": "SteezyKO-2072621",
+        "name": "SteezyKO",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Ogsteez-bleeding-hollow",
+            "avatar": "https://render.worldofwarcraft.com/us/character/bleeding-hollow/82/247912786-avatar.jpg?alt=/wow/static/images/2d/avatar/2-1.jpg",
+            "url": null,
+            "user_id": 2072621,
+            "id": 44918,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 80,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/bleeding-hollow/ogsteez/"
+              },
+              {
+                "name": "realm",
+                "value": "Bleeding Hollow"
+              },
+              {
+                "name": "achievement_points",
+                "value": "9655"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Shaman"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "SHAMAN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/bleeding-hollow/82/247912786-avatar.jpg?alt=/wow/static/images/2d/avatar/2-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Ogsteez-bleeding-hollow"
+              },
+              {
+                "name": "guild",
+                "value": "rats and apes"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      }
+    ],
+    "created_by": {
+      "id": 1979297,
+      "username": "JStark-1979297",
+      "name": "JStark",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    },
+    "last_poster": {
+      "id": 1979297,
+      "username": "JStark-1979297",
+      "name": "JStark",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    }
+  },
+  "bookmarks": [],
+  "jogo": "World of Warcraft",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Blizzard",
+  "url_fonte": "https://us.forums.blizzard.com/en/wow/t/u-better-announce-tbc-era-and-wotlk-era-on-the-29th/2239209"
+}

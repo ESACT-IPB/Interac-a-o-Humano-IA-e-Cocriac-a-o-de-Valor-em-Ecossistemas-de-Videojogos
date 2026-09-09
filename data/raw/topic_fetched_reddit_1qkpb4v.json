@@ -1,0 +1,122 @@
+{
+  "id": "reddit_1qkpb4v",
+  "title": "i hate it",
+  "slug": "i_hate_it",
+  "posts_count": 9,
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1,
+        "username": "Still_Position2544",
+        "cooked": "<p>always hated having to deal with interface stuff and now i have to do it all over again atleast every specc got neutered wait i hate that too shit company shit game</p>",
+        "created_at": "2026-01-23T12:19:11.871000+0000",
+        "post_number": 1,
+        "reply_to_post_number": null,
+        "reply_count": 8,
+        "like_count": 0,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 2,
+        "username": "Still_Position2544",
+        "cooked": "<p>thanks for trying maybe i will have a look but it wont fix the other problems</p>",
+        "created_at": "2026-01-23T13:42:17.399000+0000",
+        "post_number": 2,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": -1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 3,
+        "username": "Still_Position2544",
+        "cooked": "<p>i hope they will</p>",
+        "created_at": "2026-01-23T12:23:21.810000+0000",
+        "post_number": 3,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": -9,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 4,
+        "username": "Still_Position2544",
+        "cooked": "<p>haha you get my upvote a nice subtle funny insult because i wrote likte an idiot. game still shit tho</p>",
+        "created_at": "2026-01-23T15:03:55.949000+0000",
+        "post_number": 4,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 5,
+        "username": "jack-whitman",
+        "cooked": "<p>I also used to use a lot of add-ons, the new changes are all absolutely positive imo, game feels cleaner and less clunky. My favorite spec no longer requires a rotation helper to play. I use Cooldown Manager as my replacement for weakauras and it works pretty good.</p>",
+        "created_at": "2026-01-23T14:35:02.331000+0000",
+        "post_number": 5,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 6,
+        "username": "thogor",
+        "cooked": "<p>Congratulations, instead of wasting your own money on things you don't even enjoy, you waste someone elses money. Great argument.</p>",
+        "created_at": "2026-01-23T13:31:14.856000+0000",
+        "post_number": 6,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 0,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 7,
+        "username": "ghostcrawler_real",
+        "cooked": "<p>this sub is filled with people that don't play the game what are you talking about lol</p>",
+        "created_at": "2026-01-23T15:17:03.418000+0000",
+        "post_number": 7,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 8,
+        "username": "thogor",
+        "cooked": "<p>Browsing and participating in the sub usually means you're invested in the game and want things fixed so you can enjoy playing it more. I don't mind people being critical of reworks like this, feedback is important. I do mind people dramatically saying they won't buy or play this expac when almost all of them do. It invalidates the important criticism by overloading it with emotional drama.</p>",
+        "created_at": "2026-01-23T13:28:43.559000+0000",
+        "post_number": 8,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 9,
+        "username": "Still_Position2544",
+        "cooked": "<p>what a strawman</p>",
+        "created_at": "2026-01-23T12:27:45.588000+0000",
+        "post_number": 9,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": -8,
+        "version": 1,
+        "trust_level": 1
+      }
+    ]
+  },
+  "jogo": "World of Warcraft",
+  "fonte": "Reddit",
+  "seccao": "r/wow",
+  "url_fonte": "https://www.reddit.com/r/wow/comments/1qkpb4v/i_hate_it/"
+}

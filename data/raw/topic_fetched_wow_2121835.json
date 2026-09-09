@@ -1,0 +1,3749 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 27121872,
+        "name": "LKPickAChu",
+        "username": "LKPickAChu-30481",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-06-23T05:23:30.002Z",
+        "cooked": "<p>I recently purchased the War Within expansion Epic Edition. The purchased has completed and the payment has been processed. Yet I’m unable to log into the live game. I can login and play the WoW1 trial edition and the PTR 11.2 just fine so there are no network issues or corrupt files for that matter and my system is working as expected and nothing it blocking me from logging into the game across the board. It’s just my live account which I have not played for 2 - 3 years, which i bought hte new expansion on, is the one that I’m unable to to log in to the game with.</p>\n<p>I’ve opened a support ticket regarding this matter and the 2 responses I have recieved are just copy pasted boilerplate responses from the support articles. The reason why anyone would reach out via a support ticket is because the boilerplate standard messages that are on the website aren’t solving their problem. instead of responding to the ticket like a human who can read, understand, assess and troubleshoot the actual issue promptly, the support team seems to just copy and paste boilerplate text just so that they can tick off a ticket and meet their daily quota rather than being helpful. This is ridiculous and frankly unacceptable from a game that charges for the time that we get to play the game.</p>\n<p>I’m still not able to log in and I still don’t even have a sense of confirmation that the support personnel are even bothered to even read what i have written in the support ticket let alone resolving my issue. This is not acceptable behaviour from a company like Blizzard.</p>\n<p>I need my issuee fixed asap or my moeny back if you all are incompetent. I’ve played wow for almost 20 years and spend hours and hours playing WoW in my younger days so I keep coming back to WoW to enjoy the nostalgia. But if you can’t make it as easy and painless for a returning player to come back to WoW, then to hell with nostalgia. I have better things to spend my time and money on.</p>\n<p>PS:</p>\n<p>Happy to report that upon so many complaints, I finally got connected to a competent GM.</p>\n<p>Below is the reponse. i will report back if this fixes the issue.</p>\n<blockquote>\n<p>I’ve personally refreshed both your World of Warcraft and Battle.net account entitlements to ensure the game time and expansion are recognized as intended.</p>\n<p>Here’s what I’d hmbly ask you to do next:</p>\n<ul>\n<li>\n<p>Completely exit both the World of Warcraft client and the Battle.net app.</p>\n</li>\n<li>\n<p>Restart your PC or console (whichever you’re using to play).</p>\n</li>\n<li>\n<p>Re-launch the Battle.net app and attempt to log in again.</p>\n</li>\n</ul>\n<p>If the issue persists even after these steps, it’s possible that the session data needs a further nudge. In that case, I recommend resetting your Battle.net password here: <code>https://account.battle.net/recovery/</code></p>\n<p>This can help reauthorize your session from a fresh state.</p>\n<p>Know that your time is valued—every minute of game time counts, and it’s my mission to ensure none of it slips away due to technical shadows. You’re absolutely right to expect timely and intelligent assistance, and I’m here to deliver exactly that.</p>\n</blockquote>\n<p><strong>Solution: Connect via a VPN. Works like a charm! honestly, This should have been a simple easy suggestion by the CS person given how common this issue seems to be.</strong></p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 18,
+        "updated_at": "2025-06-23T13:38:57.498Z",
+        "reply_count": 3,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 86,
+        "reads": 78,
+        "readers_count": 77,
+        "score": 460.6,
+        "yours": false,
+        "topic_id": 2121835,
+        "topic_slug": "cannot-log-into-the-game-need-help",
+        "display_username": "LKPickAChu",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 3,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 30481,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Night Elf",
+          "class": "Druid",
+          "blizzard_post_count": "9",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/saurfang/randre/",
+          "player_class_enum": "DRUID",
+          "level": "80",
+          "achievement_points": "12855",
+          "guild": "RISE"
+        },
+        "post_url": "/t/cannot-log-into-the-game-need-help/2121835/1",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/saurfang/34/197024034-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Randre-saurfang",
+        "poster_alias": {
+          "alias": {
+            "name": "Randre-saurfang",
+            "avatar": "https://render.worldofwarcraft.com/us/character/saurfang/34/197024034-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/saurfang/randre/",
+            "user_id": 30481,
+            "id": 840665,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 9,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/saurfang/randre/"
+              },
+              {
+                "name": "realm",
+                "value": "Saurfang"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12855"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "guild",
+                "value": "RISE"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 9,
+        "character": {
+          "name": "LKPickAChu",
+          "guild": "RISE",
+          "achievement_points": "12855",
+          "level": "80",
+          "class": "Druid",
+          "race": "Night Elf",
+          "player_class_enum": "DRUID",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_vote": false
+      },
+      {
+        "id": 27121941,
+        "name": "Thallia",
+        "username": "Thallia-2277436",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-06-23T05:41:34.148Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Randre-saurfang\" data-post=\"1\" data-topic=\"2121835\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/saurfang/34/197024034-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg\" class=\"avatar\"> LKPickAChu:</div>\n<blockquote>\n<p>I can login and play the WoW1 trial edition and the PTR 11.2 just fine</p>\n</blockquote>\n</aside>\n<p>So what exactly happens if you try to log into the account that says “The War Within” on it?</p>\n<p>Also: how long ago was the purchase and have you restarted your computer and Bnet since the issue began?  If it’s been days, then I’m sure you have, but I wanted to ask, just in case.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 18,
+        "updated_at": "2025-06-23T05:43:36.404Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 1,
+        "incoming_link_count": 5,
+        "reads": 66,
+        "readers_count": 65,
+        "score": 88.2,
+        "yours": false,
+        "topic_id": 2121835,
+        "topic_slug": "cannot-log-into-the-game-need-help",
+        "display_username": "Thallia",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2277436,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/sentinels/sendryn/",
+          "guild": "Convocation",
+          "race": "Dracthyr",
+          "class": "Evoker",
+          "player_class_enum": "EVOKER",
+          "classic": "t",
+          "level": "80",
+          "achievement_points": "28055",
+          "blizzard_post_count": "137299"
+        },
+        "post_url": "/t/cannot-log-into-the-game-need-help/2121835/2",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/sentinels/184/224379832-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg",
+        "alias_username": "Sendryn-sentinels",
+        "poster_alias": {
+          "alias": {
+            "name": "Sendryn-sentinels",
+            "avatar": "https://render.worldofwarcraft.com/us/character/sentinels/184/224379832-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/sentinels/sendryn/",
+            "user_id": 2277436,
+            "id": 437998,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 59626,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/sentinels/sendryn/"
+              },
+              {
+                "name": "realm",
+                "value": "Sentinels"
+              },
+              {
+                "name": "achievement_points",
+                "value": "30230"
+              },
+              {
+                "name": "level",
+                "value": "89"
+              },
+              {
+                "name": "race",
+                "value": "Dracthyr"
+              },
+              {
+                "name": "player_class",
+                "value": "Evoker"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "EVOKER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/sentinels/184/224379832-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Sendryn-sentinels"
+              },
+              {
+                "name": "guild",
+                "value": "Convocation"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 137299,
+        "character": {
+          "name": "Thallia",
+          "guild": "Convocation",
+          "achievement_points": "28055",
+          "level": "80",
+          "class": "Evoker",
+          "race": "Dracthyr",
+          "player_class_enum": "EVOKER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true
+      },
+      {
+        "id": 27122023,
+        "name": "Moi",
+        "username": "Moi-185858",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-06-23T06:09:22.793Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Randre-saurfang\" data-post=\"1\" data-topic=\"2121835\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/saurfang/34/197024034-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg\" class=\"avatar\"> LKPickAChu:</div>\n<blockquote>\n<p>instead of responding to the ticket like a human who can read, understand, assess and troubleshoot the actual issue promptly, the support team seems to just copy and paste boilerplate text just so that they can tick off a ticket and meet their daily quota rather than being helpful.</p>\n</blockquote>\n</aside>\n<p>This is a whole lot of hyperbole - and insulting to boot.  Not a great idea when you’re reaching out for assistance.</p>\n<aside class=\"quote no-group\" data-username=\"Randre-saurfang\" data-post=\"1\" data-topic=\"2121835\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/saurfang/34/197024034-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg\" class=\"avatar\"> LKPickAChu:</div>\n<blockquote>\n<p>I’ve opened a support ticket regarding this matter</p>\n</blockquote>\n</aside>\n<p>Now, back to this part.  First, be sure to ensure you’re logging into the proper account and doing a complete reboot of your game (or computer entirely) as Sendryn above me mentioned.</p>\n<p>If neither of those work?  It sounds like you may be submitting a ticket in the wrong place.  What ticket path someone uses has a great deal of bearing in how they’re responded to.  Certain paths go to certain specialized GMs.</p>\n<p>If you have not been, be sure to submit your ticket under “Purchase Failure.”</p>\n<p><a href=\"https://us.support.blizzard.com/en/help/contact/167/ticket\" class=\"onebox\" target=\"_blank\" rel=\"noopener\">https://us.support.blizzard.com/en/help/contact/167/ticket</a></p>\n<p>If for some reason you get a templated response, just hit the button towards the button to the tune of “I still need further assistance.”  That will kick it up to be looked into directly.</p>\n<p>Also?  It’s best to keep to your thread.  Often times sounding off in other threads just gets those posts removed.</p>\n<p>Good luck to you.</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 18,
+        "updated_at": "2025-06-23T06:09:22.793Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 1,
+        "incoming_link_count": 1,
+        "reads": 65,
+        "readers_count": 64,
+        "score": 53.0,
+        "yours": false,
+        "topic_id": 2121835,
+        "topic_slug": "cannot-log-into-the-game-need-help",
+        "display_username": "Moi",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://us.support.blizzard.com/en/help/contact/167/ticket",
+            "internal": false,
+            "reflection": false,
+            "title": "Get Help - Blizzard Support",
+            "clicks": 0
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 185858,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Night Elf",
+          "class": "Monk",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/moon-guard/leilleath/",
+          "player_class_enum": "MONK",
+          "guild": "Ten Ton Hammer",
+          "blizzard_post_count": "7868",
+          "level": "70",
+          "achievement_points": "24705"
+        },
+        "post_url": "/t/cannot-log-into-the-game-need-help/2121835/3",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/moon-guard/191/125900991-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Leilleath-moon-guard",
+        "poster_alias": {
+          "alias": {
+            "name": "Leilleath-moon-guard",
+            "avatar": "https://render.worldofwarcraft.com/us/character/moon-guard/191/125900991-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/moon-guard/leilleath/",
+            "user_id": 185858,
+            "id": 427202,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 7888,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/moon-guard/leilleath/"
+              },
+              {
+                "name": "realm",
+                "value": "Moon Guard"
+              },
+              {
+                "name": "achievement_points",
+                "value": "25005"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Monk"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MONK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/moon-guard/191/125900991-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Leilleath-moon-guard"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 7868,
+        "character": {
+          "name": "Moi",
+          "guild": "Ten Ton Hammer",
+          "achievement_points": "24705",
+          "level": "70",
+          "class": "Monk",
+          "race": "Night Elf",
+          "player_class_enum": "MONK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true
+      },
+      {
+        "id": 27122188,
+        "name": "LKPickAChu",
+        "username": "LKPickAChu-30481",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-06-23T07:02:41.532Z",
+        "cooked": "<p>Hyperbole? Don;t you think that the fundamental primary task of a customer support rep “GM” is to read what is described in the support ticket before copy pasting an irrelevant response from a knowledgebase article? If you go to a shop and as for a bottle of water, but the cashier keeps on telling you to take the band-aid they are selling you, instead of giving you a bottle of water, what do you think your response should be? Do you think that’s competency in the base role that they are suppose to fulfill? How can you even be apologetical to incompetency in such basic role of listening to the complaining customer as a customer support personnel?</p>\n<p>Sorry for being harsh and let me be clear its not intended at you. My frustration is with the specific ‘GM’ and Blizzard itself for first of all, not having a bug free process for letting their customers use what was purchased from them without friction and not having a proper training / screening process for such a fundamental function like customer support.</p>\n<p>thank you for trying to help me with my issue. I have actaully done a full restart, a network reset and all that jazz in cluding completely logging out clearing cache systemwide for good measure and logging back in. I’ve restarted the router, reconfigured the router on a differnt subnet to make the network itself completely fresh as well. I’m not incompetant to not select the correct account or not arrogant to not check if I have mistakely selected the wrong account. As mentioned, the starter edition allows me to loginto the game server and play without issues (hence I don’t see an issue with corrupt files on the retail WoW) and i can login and play PTR 11.2 without any issues (hence no possible errors with corrupt files on PTR WoW which wouldn’t even be relevant for the retail WoW live account anyway but i checked it and also mentioned in my ticket just so that the issue can be pinpointed to the account which I have the issue with). When i have done the whole shibang of troubleshoot on my end (including verifying the payment with the credit card company, confirming with the bank, providing the screenshots of ‘status = complete’ in the transaction history, providing screenshots of the account itself showing that i have a 1 Month of gametime left with a screenshot), i don’t think I need to accept a negligent customer support worker ignoring all that provided information to just tell me something I’ve known since 2009 (when i saterted playing WoW for the first time.)</p>\n<aside class=\"quote no-group\" data-username=\"Leilleath-moon-guard\" data-post=\"3\" data-topic=\"2121835\" data-full=\"true\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/moon-guard/191/125900991-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg\" class=\"avatar\"> Leilleath:</div>\n<blockquote>\n<p>If for some reason you get a templated response, just hit the button towards the button to the tune of “I still need further assistance.”  That will kick it up to be looked into directly.</p>\n</blockquote>\n</aside>\n<p>The first “GM” marked the ticket as answered after giving me a boilerplate reply (granted relevent to the issue I’m having and they had a couple of line personally written giving me hope that at least to some extent, my complaint is being heard and will get processed adequately). Then since they closed the ticket/ marked it answered, without actually solving my problem, I used the button you mentioned and that’s when i got the completely irrelevant boilerplat response from a different “GM”. Honestly, AI agents that i build from my clients for customer support can do better job than these so called \"GM\"s who seem to be more bothered about ticking off tickets closed over issues solved.  As long as the player community tolerate these kind of negligence, Blizzard doesn’t have an incentive to improve these aspects at all.</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 18,
+        "updated_at": "2025-06-23T07:02:41.532Z",
+        "reply_count": 2,
+        "reply_to_post_number": 3,
+        "quote_count": 1,
+        "incoming_link_count": 1,
+        "reads": 61,
+        "readers_count": 60,
+        "score": 27.2,
+        "yours": false,
+        "topic_id": 2121835,
+        "topic_slug": "cannot-log-into-the-game-need-help",
+        "display_username": "LKPickAChu",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 30481,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Night Elf",
+          "class": "Druid",
+          "blizzard_post_count": "9",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/saurfang/randre/",
+          "player_class_enum": "DRUID",
+          "level": "80",
+          "achievement_points": "12855",
+          "guild": "RISE"
+        },
+        "post_url": "/t/cannot-log-into-the-game-need-help/2121835/4",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/saurfang/34/197024034-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Randre-saurfang",
+        "poster_alias": {
+          "alias": {
+            "name": "Randre-saurfang",
+            "avatar": "https://render.worldofwarcraft.com/us/character/saurfang/34/197024034-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/saurfang/randre/",
+            "user_id": 30481,
+            "id": 840665,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 9,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/saurfang/randre/"
+              },
+              {
+                "name": "realm",
+                "value": "Saurfang"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12855"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "guild",
+                "value": "RISE"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 9,
+        "character": {
+          "name": "LKPickAChu",
+          "guild": "RISE",
+          "achievement_points": "12855",
+          "level": "80",
+          "class": "Druid",
+          "race": "Night Elf",
+          "player_class_enum": "DRUID",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true
+      },
+      {
+        "id": 27122199,
+        "name": "Darthwraith",
+        "username": "Darthwraith-4607",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-06-23T07:06:41.089Z",
+        "cooked": "<p>What ticket category did u use purchase failure mightve goten u a different answer.</p>",
+        "post_number": 5,
+        "post_type": 1,
+        "posts_count": 18,
+        "updated_at": "2025-06-23T07:06:41.089Z",
+        "reply_count": 0,
+        "reply_to_post_number": 4,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 57,
+        "readers_count": 56,
+        "score": 11.4,
+        "yours": false,
+        "topic_id": 2121835,
+        "topic_slug": "cannot-log-into-the-game-need-help",
+        "display_username": "Darthwraith",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 30481,
+          "username": "LKPickAChu-30481",
+          "name": "LKPickAChu",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4607,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Tauren",
+          "class": "Druid",
+          "player_class_enum": "DRUID",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/blackhand/darthwraith/",
+          "guild": "Enlightened Dark",
+          "blizzard_post_count": "22535",
+          "level": "80",
+          "achievement_points": "26240"
+        },
+        "post_url": "/t/cannot-log-into-the-game-need-help/2121835/5",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/blackhand/57/133879097-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+        "alias_username": "Darthwraith-blackhand",
+        "poster_alias": {
+          "alias": {
+            "name": "Darthwraith-blackhand",
+            "avatar": "https://render.worldofwarcraft.com/us/character/blackhand/57/133879097-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/blackhand/darthwraith/",
+            "user_id": 4607,
+            "id": 436067,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 21166,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/blackhand/darthwraith/"
+              },
+              {
+                "name": "realm",
+                "value": "Blackhand"
+              },
+              {
+                "name": "achievement_points",
+                "value": "26610"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/blackhand/57/133879097-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Darthwraith-blackhand"
+              },
+              {
+                "name": "guild",
+                "value": "Enlightened Dark"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 840665,
+          "username": "Randre-saurfang",
+          "name": "Randre",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/saurfang/34/197024034-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 22535,
+        "character": {
+          "name": "Darthwraith",
+          "guild": "Enlightened Dark",
+          "achievement_points": "26240",
+          "level": "80",
+          "class": "Druid",
+          "race": "Tauren",
+          "player_class_enum": "DRUID",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true
+      },
+      {
+        "id": 27122237,
+        "name": "LKPickAChu",
+        "username": "LKPickAChu-30481",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-06-23T07:23:54.146Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Sendryn-sentinels\" data-post=\"2\" data-topic=\"2121835\" data-full=\"true\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/sentinels/184/224379832-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg\" class=\"avatar\"> Sendryn:</div>\n<blockquote>\n<p>So what exactly happens if you try to log into the account that says “The War Within” on it?</p>\n</blockquote>\n</aside>\n<p>Goes through all the way upto ‘Logging in to game server’ then gives an error that says ‘You have been disconnected. (WOW51900328)’. I have followed the online guides to reset the router, reset dns, add wow and blizzard into the Firewall’s allowed list and the whole lot yet no luck connecting to the game. It is definitely not protocol configuration issue nor a firewall issue nor a router issue anyway because the Trial and the PTR both are working without any errors. Unless the Retail Paid is using a different network protocol thant the Retail Trial and PTR, it can’t be a network issue as the error code suggests. So I needed the Blizzard support to help me troubleshoot the actual issue rather than giving me link to online resources which I have already exhausted and mentioned in the ticket the fact that they weren’t of any use.</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "posts_count": 18,
+        "updated_at": "2025-06-23T07:23:54.146Z",
+        "reply_count": 2,
+        "reply_to_post_number": 2,
+        "quote_count": 1,
+        "incoming_link_count": 1,
+        "reads": 56,
+        "readers_count": 55,
+        "score": 26.2,
+        "yours": false,
+        "topic_id": 2121835,
+        "topic_slug": "cannot-log-into-the-game-need-help",
+        "display_username": "LKPickAChu",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 30481,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Night Elf",
+          "class": "Druid",
+          "blizzard_post_count": "9",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/saurfang/randre/",
+          "player_class_enum": "DRUID",
+          "level": "80",
+          "achievement_points": "12855",
+          "guild": "RISE"
+        },
+        "post_url": "/t/cannot-log-into-the-game-need-help/2121835/6",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/saurfang/34/197024034-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Randre-saurfang",
+        "poster_alias": {
+          "alias": {
+            "name": "Randre-saurfang",
+            "avatar": "https://render.worldofwarcraft.com/us/character/saurfang/34/197024034-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/saurfang/randre/",
+            "user_id": 30481,
+            "id": 840665,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 9,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/saurfang/randre/"
+              },
+              {
+                "name": "realm",
+                "value": "Saurfang"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12855"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "guild",
+                "value": "RISE"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 9,
+        "character": {
+          "name": "LKPickAChu",
+          "guild": "RISE",
+          "achievement_points": "12855",
+          "level": "80",
+          "class": "Druid",
+          "race": "Night Elf",
+          "player_class_enum": "DRUID",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true
+      },
+      {
+        "id": 27122269,
+        "name": "Teufelgott",
+        "username": "Teufelgott-4726",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-06-23T07:42:03.836Z",
+        "cooked": "<p>Have you restarted your computer?<br>\nHave you run the scan and repair tool for that specific game client?<br>\nHave you tried counting to ten and taking some deep breaths, then maybe adopting an attitude that makes people more likely to want to help you?</p>",
+        "post_number": 7,
+        "post_type": 1,
+        "posts_count": 18,
+        "updated_at": "2025-06-23T07:42:03.836Z",
+        "reply_count": 0,
+        "reply_to_post_number": 6,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 56,
+        "readers_count": 55,
+        "score": 16.2,
+        "yours": false,
+        "topic_id": 2121835,
+        "topic_slug": "cannot-log-into-the-game-need-help",
+        "display_username": "Teufelgott",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 30481,
+          "username": "LKPickAChu-30481",
+          "name": "LKPickAChu",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4726,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Undead",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/shadowsong/teufelgott/",
+          "classic": "t",
+          "level": "80",
+          "achievement_points": "20520",
+          "blizzard_post_count": "10849"
+        },
+        "post_url": "/t/cannot-log-into-the-game-need-help/2121835/7",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/shadowsong/73/164719433-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+        "alias_username": "Teufelgott-shadowsong",
+        "poster_alias": {
+          "alias": {
+            "name": "Teufelgott-shadowsong",
+            "avatar": "https://render.worldofwarcraft.com/us/character/shadowsong/73/164719433-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/shadowsong/teufelgott/",
+            "user_id": 4726,
+            "id": 433081,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 10332,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/shadowsong/teufelgott/"
+              },
+              {
+                "name": "realm",
+                "value": "Shadowsong"
+              },
+              {
+                "name": "achievement_points",
+                "value": "21030"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Undead"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/shadowsong/73/164719433-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Teufelgott-shadowsong"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 840665,
+          "username": "Randre-saurfang",
+          "name": "Randre",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/saurfang/34/197024034-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 10849,
+        "character": {
+          "name": "Teufelgott",
+          "guild": null,
+          "achievement_points": "20520",
+          "level": "80",
+          "class": "Warlock",
+          "race": "Undead",
+          "player_class_enum": "WARLOCK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true
+      },
+      {
+        "id": 27122303,
+        "name": "Nephe",
+        "username": "Nephe-4676",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-06-23T07:58:03.928Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Randre-saurfang\" data-post=\"4\" data-topic=\"2121835\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/saurfang/34/197024034-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg\" class=\"avatar\"> LKPickAChu:</div>\n<blockquote>\n<p>AI agents that i build from my clients for customer support can do better job than these so called \"GM\"s</p>\n</blockquote>\n</aside>\n<p>Yes keep throwing shade at Blizzard employees for simply being human, like you’ve never made mistakes yourself.</p>\n<aside class=\"quote no-group\" data-username=\"Randre-saurfang\" data-post=\"4\" data-topic=\"2121835\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/saurfang/34/197024034-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg\" class=\"avatar\"> LKPickAChu:</div>\n<blockquote>\n<p>As long as the player community tolerate these kind of negligence</p>\n</blockquote>\n</aside>\n<p>Here’s an idea.</p>\n<p>Are you tickets written the same as what you’re written on the forum? - walls of text that are, sincerely, not easy to read.</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "posts_count": 18,
+        "updated_at": "2025-06-23T07:58:03.928Z",
+        "reply_count": 0,
+        "reply_to_post_number": 4,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 57,
+        "readers_count": 56,
+        "score": 56.4,
+        "yours": false,
+        "topic_id": 2121835,
+        "topic_slug": "cannot-log-into-the-game-need-help",
+        "display_username": "Nephe",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4676,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Dark Haven",
+          "race": "Void Elf",
+          "class": "Mage",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/caelestrasz/nephe/",
+          "player_class_enum": "MAGE",
+          "classic": "t",
+          "level": "80",
+          "achievement_points": "20915",
+          "blizzard_post_count": "4171"
+        },
+        "post_url": "/t/cannot-log-into-the-game-need-help/2121835/9",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/caelestrasz/213/129683925-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
+        "alias_username": "Nephe-caelestrasz",
+        "poster_alias": {
+          "alias": {
+            "name": "Nephe-caelestrasz",
+            "avatar": "https://render.worldofwarcraft.com/us/character/caelestrasz/213/129683925-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/caelestrasz/nephe/",
+            "user_id": 4676,
+            "id": 419046,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 4187,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/caelestrasz/nephe/"
+              },
+              {
+                "name": "realm",
+                "value": "Caelestrasz"
+              },
+              {
+                "name": "achievement_points",
+                "value": "21000"
+              },
+              {
+                "name": "level",
+                "value": "83"
+              },
+              {
+                "name": "race",
+                "value": "Void Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/caelestrasz/213/129683925-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Nephe-caelestrasz"
+              },
+              {
+                "name": "guild",
+                "value": "Dark Haven"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 4171,
+        "character": {
+          "name": "Nephe",
+          "guild": "Dark Haven",
+          "achievement_points": "20915",
+          "level": "80",
+          "class": "Mage",
+          "race": "Void Elf",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true
+      },
+      {
+        "id": 27122372,
+        "name": "Nephe",
+        "username": "Nephe-4676",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-06-23T08:26:11.254Z",
+        "cooked": "<p>Thank you for proving my point. Have a good night, and err good luck. Hope you get the issue sorted out.</p>\n<p>Maybe you could program an AI to submit a concise ticket for you if you’re unable or unwilling to keep it simple. Just a thought. Good night!</p>",
+        "post_number": 11,
+        "post_type": 1,
+        "posts_count": 18,
+        "updated_at": "2025-06-23T08:26:43.009Z",
+        "reply_count": 0,
+        "reply_to_post_number": 10,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 57,
+        "readers_count": 56,
+        "score": 116.4,
+        "yours": false,
+        "topic_id": 2121835,
+        "topic_slug": "cannot-log-into-the-game-need-help",
+        "display_username": "Nephe",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 30481,
+          "username": "LKPickAChu-30481",
+          "name": "LKPickAChu",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 6
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4676,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Dark Haven",
+          "race": "Void Elf",
+          "class": "Mage",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/caelestrasz/nephe/",
+          "player_class_enum": "MAGE",
+          "classic": "t",
+          "level": "80",
+          "achievement_points": "20915",
+          "blizzard_post_count": "4171"
+        },
+        "post_url": "/t/cannot-log-into-the-game-need-help/2121835/11",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/caelestrasz/213/129683925-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
+        "alias_username": "Nephe-caelestrasz",
+        "poster_alias": {
+          "alias": {
+            "name": "Nephe-caelestrasz",
+            "avatar": "https://render.worldofwarcraft.com/us/character/caelestrasz/213/129683925-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/caelestrasz/nephe/",
+            "user_id": 4676,
+            "id": 419046,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 4187,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/caelestrasz/nephe/"
+              },
+              {
+                "name": "realm",
+                "value": "Caelestrasz"
+              },
+              {
+                "name": "achievement_points",
+                "value": "21000"
+              },
+              {
+                "name": "level",
+                "value": "83"
+              },
+              {
+                "name": "race",
+                "value": "Void Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/caelestrasz/213/129683925-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Nephe-caelestrasz"
+              },
+              {
+                "name": "guild",
+                "value": "Dark Haven"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 4171,
+        "character": {
+          "name": "Nephe",
+          "guild": "Dark Haven",
+          "achievement_points": "20915",
+          "level": "80",
+          "class": "Mage",
+          "race": "Void Elf",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true
+      },
+      {
+        "id": 27122541,
+        "name": "Moi",
+        "username": "Moi-185858",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-06-23T10:10:41.821Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Randre-saurfang\" data-post=\"8\" data-topic=\"2121835\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/saurfang/34/197024034-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg\" class=\"avatar\"> LKPickAChu:</div>\n<blockquote>\n<p>i went with the other/ not mentioned category because the purchase has gone through from the bank’s end and the transaction history shows that the transaction was completed. So the purchase has not technically failed but I will try this route as well. Hopefully, as you mentioned, the response might be different (for the better)</p>\n</blockquote>\n</aside>\n<p>I’m disregarding the rest because it’s not worth the back and the forth - but yeah.  This is pretty much what I thought from what you eluded to in the responses you’ve been given.</p>\n<p>Even though the purchase went through both your bank and showing up as completed in your account info here, you still cannot make use of the expansion.  That does count as purchase failure, at least under Blizzard’s purview.</p>\n<p>It is best, in tickets, to keep it short, sweet and to the point.  <strong>This</strong> is the issue.  You’ve done <strong>x, y</strong> and <strong>z</strong> in attempts to remedy the situation.  If you feel like information in your previous ticket(s) needs to be added to the conversation, then just reference those ticket numbers.  They can glean what they want from those.</p>\n<p>Again, good luck getting your issue resolved.</p>",
+        "post_number": 12,
+        "post_type": 1,
+        "posts_count": 18,
+        "updated_at": "2025-06-23T10:10:41.821Z",
+        "reply_count": 0,
+        "reply_to_post_number": 8,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 56,
+        "readers_count": 55,
+        "score": 56.2,
+        "yours": false,
+        "topic_id": 2121835,
+        "topic_slug": "cannot-log-into-the-game-need-help",
+        "display_username": "Moi",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 185858,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Night Elf",
+          "class": "Monk",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/moon-guard/leilleath/",
+          "player_class_enum": "MONK",
+          "guild": "Ten Ton Hammer",
+          "blizzard_post_count": "7868",
+          "level": "70",
+          "achievement_points": "24705"
+        },
+        "post_url": "/t/cannot-log-into-the-game-need-help/2121835/12",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/moon-guard/191/125900991-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Leilleath-moon-guard",
+        "poster_alias": {
+          "alias": {
+            "name": "Leilleath-moon-guard",
+            "avatar": "https://render.worldofwarcraft.com/us/character/moon-guard/191/125900991-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/moon-guard/leilleath/",
+            "user_id": 185858,
+            "id": 427202,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 7888,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/moon-guard/leilleath/"
+              },
+              {
+                "name": "realm",
+                "value": "Moon Guard"
+              },
+              {
+                "name": "achievement_points",
+                "value": "25005"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Monk"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MONK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/moon-guard/191/125900991-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Leilleath-moon-guard"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 7868,
+        "character": {
+          "name": "Moi",
+          "guild": "Ten Ton Hammer",
+          "achievement_points": "24705",
+          "level": "70",
+          "class": "Monk",
+          "race": "Night Elf",
+          "player_class_enum": "MONK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true
+      },
+      {
+        "id": 27122893,
+        "name": "Mirasol",
+        "username": "MissCheetah-20268",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-06-23T12:35:34.161Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Randre-saurfang\" data-post=\"6\" data-topic=\"2121835\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/saurfang/34/197024034-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg\" class=\"avatar\"> LKPickAChu:</div>\n<blockquote>\n<p>Goes through all the way upto ‘Logging in to game server’ then gives an error that says ‘You have been disconnected.</p>\n</blockquote>\n</aside>\n<p>Ok, THIS IS not an issue with your purchase or account. That is usually an issue with your connection to the game, or the “state” of the character.</p>\n<aside class=\"quote no-group\" data-username=\"Randre-saurfang\" data-post=\"1\" data-topic=\"2121835\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/saurfang/34/197024034-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg\" class=\"avatar\"> LKPickAChu:</div>\n<blockquote>\n<p>I can login and play the WoW1 trial edition and the PTR 11.2 just fine so there are no network issues or corrupt files for that matter and my system is working as expected and nothing it blocking me from logging into the game across the board.</p>\n</blockquote>\n</aside>\n<p>This does not actually indicate there are no connection issues. The servers for those, and the files for the PTR, are not the same as the game servers - they can be geographically very different places. Your connection does have to route through a very long chain of physical servers to get anywhere.</p>\n<p>Really though, this sounds more like your character you are trying to log into is “stuck”, or that you have addons that are causing it to crash on load.</p>\n<ol>\n<li>Just to rule out any addons or UI files - esp when there was just a major patch that impacted those. Do a full UI reset, not just disabling addons. Use the option to rename or move the files so you can put them back if the rest does not help.  <a href=\"https://us.support.blizzard.com/en/article/7549\">https://us.support.blizzard.com/en/article/7549</a></li>\n<li>If that does not help, the character may be “stuck”. Try the self help STUCK tool, if that does not work your char may need to be manually moved.</li>\n<li>Another option, as odd as it seems, is trying a VPN if you are not using one, or trying a different internet connection or even device. That changes your routing and security measures and can sometimes help.</li>\n</ol>",
+        "post_number": 13,
+        "post_type": 1,
+        "posts_count": 18,
+        "updated_at": "2025-06-23T12:35:34.161Z",
+        "reply_count": 0,
+        "reply_to_post_number": 6,
+        "quote_count": 2,
+        "incoming_link_count": 1,
+        "reads": 54,
+        "readers_count": 53,
+        "score": 75.8,
+        "yours": false,
+        "topic_id": 2121835,
+        "topic_slug": "cannot-log-into-the-game-need-help",
+        "display_username": "Mirasol",
+        "primary_group_name": "cs-mvp",
+        "flair_name": "cs-mvp",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 48,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://us.support.blizzard.com/en/article/7549",
+            "internal": false,
+            "reflection": false,
+            "title": "Resetting the WoW User Interface - Blizzard Support",
+            "clicks": 0
+          }
+        ],
+        "read": true,
+        "user_title": "MVP",
+        "title_is_group": true,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 4
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 20268,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Flying Doom Bunnies",
+          "race": "Human",
+          "class": "Mage",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/mannoroth/mirasol/",
+          "player_class_enum": "MAGE",
+          "classic": "t",
+          "level": "26",
+          "achievement_points": "21970",
+          "blizzard_post_count": "16856"
+        },
+        "post_url": "/t/cannot-log-into-the-game-need-help/2121835/13",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/mannoroth/56/219012920-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+        "alias_username": "Mirasol-mannoroth",
+        "poster_alias": {
+          "alias": {
+            "name": "Mirasol-mannoroth",
+            "avatar": "https://render.worldofwarcraft.com/us/character/mannoroth/56/219012920-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/mannoroth/mirasol/",
+            "user_id": 20268,
+            "id": 123,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 19269,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/mannoroth/mirasol/"
+              },
+              {
+                "name": "realm",
+                "value": "Mannoroth"
+              },
+              {
+                "name": "achievement_points",
+                "value": "24830"
+              },
+              {
+                "name": "level",
+                "value": "29"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/mannoroth/56/219012920-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Mirasol-mannoroth"
+              },
+              {
+                "name": "guild",
+                "value": "Flying Doom Bunnies"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 16856,
+        "character": {
+          "name": "MissCheetah",
+          "guild": "Flying Doom Bunnies",
+          "achievement_points": "21970",
+          "level": "26",
+          "class": "Mage",
+          "race": "Human",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "next_tracked_post": {
+          "group": "cs-mvp",
+          "post_number": 15
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true
+      },
+      {
+        "id": 27123007,
+        "name": "Mirasol",
+        "username": "MissCheetah-20268",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-06-23T13:12:10.883Z",
+        "cooked": "<p>Did you read anything I wrote?</p>\n<p>Blizzard does not really offer Tech Support anymore which is what your issue likely is.</p>\n<p>EITHER it is a connection and routing issue to the Live servers OR it is an issue with addons or the character state in game.</p>\n<p>I gave you some options for both to try.</p>\n<p>This is NOT an issue with your payment going through, or the flagging on your account. You would not be able to hit the button to log in to War Within if your account was not recognizing that you bought it.</p>",
+        "post_number": 15,
+        "post_type": 1,
+        "posts_count": 18,
+        "updated_at": "2025-06-23T13:12:10.883Z",
+        "reply_count": 1,
+        "reply_to_post_number": 14,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 51,
+        "readers_count": 50,
+        "score": 150.2,
+        "yours": false,
+        "topic_id": 2121835,
+        "topic_slug": "cannot-log-into-the-game-need-help",
+        "display_username": "Mirasol",
+        "primary_group_name": "cs-mvp",
+        "flair_name": "cs-mvp",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 48,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "MVP",
+        "title_is_group": true,
+        "reply_to_user": {
+          "id": 30481,
+          "username": "LKPickAChu-30481",
+          "name": "LKPickAChu",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 9
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 20268,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Flying Doom Bunnies",
+          "race": "Human",
+          "class": "Mage",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/mannoroth/mirasol/",
+          "player_class_enum": "MAGE",
+          "classic": "t",
+          "level": "26",
+          "achievement_points": "21970",
+          "blizzard_post_count": "16856"
+        },
+        "post_url": "/t/cannot-log-into-the-game-need-help/2121835/15",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/mannoroth/56/219012920-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+        "alias_username": "Mirasol-mannoroth",
+        "poster_alias": {
+          "alias": {
+            "name": "Mirasol-mannoroth",
+            "avatar": "https://render.worldofwarcraft.com/us/character/mannoroth/56/219012920-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/mannoroth/mirasol/",
+            "user_id": 20268,
+            "id": 123,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 19269,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/mannoroth/mirasol/"
+              },
+              {
+                "name": "realm",
+                "value": "Mannoroth"
+              },
+              {
+                "name": "achievement_points",
+                "value": "24830"
+              },
+              {
+                "name": "level",
+                "value": "29"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/mannoroth/56/219012920-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Mirasol-mannoroth"
+              },
+              {
+                "name": "guild",
+                "value": "Flying Doom Bunnies"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 16856,
+        "character": {
+          "name": "MissCheetah",
+          "guild": "Flying Doom Bunnies",
+          "achievement_points": "21970",
+          "level": "26",
+          "class": "Mage",
+          "race": "Human",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "next_tracked_post": {
+          "group": "cs-mvp",
+          "post_number": 18
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": true,
+        "topic_accepted_answer": true
+      },
+      {
+        "id": 27123026,
+        "name": "LKPickAChu",
+        "username": "LKPickAChu-30481",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-06-23T13:17:22.997Z",
+        "cooked": "<p>Let me try your suggestions.</p>\n<p>See, your response honestly is the furthest anyone has gone into trying to figure out the actual issue so far.</p>\n<p>Makes sense about the login button. Any idea about how to find the game servers for a ping? Back in the days i remeber there were some routing server IPs that we could ping to check the connection.</p>\n<p>Let me try the VPN approach as well and the tool you mentioned. I’ll report back the progress.</p>\n<p>I hope this works.</p>\n<p>PS: Also the Addon folder is completely empty. didn’t install a signle addon on the retail. Only have DBM and Details on the PTR</p>",
+        "post_number": 16,
+        "post_type": 1,
+        "posts_count": 18,
+        "updated_at": "2025-06-23T13:19:40.745Z",
+        "reply_count": 2,
+        "reply_to_post_number": 15,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 51,
+        "readers_count": 50,
+        "score": 35.2,
+        "yours": false,
+        "topic_id": 2121835,
+        "topic_slug": "cannot-log-into-the-game-need-help",
+        "display_username": "LKPickAChu",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 20268,
+          "username": "MissCheetah-20268",
+          "name": "Mirasol",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 30481,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Night Elf",
+          "class": "Druid",
+          "blizzard_post_count": "9",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/saurfang/randre/",
+          "player_class_enum": "DRUID",
+          "level": "80",
+          "achievement_points": "12855",
+          "guild": "RISE"
+        },
+        "post_url": "/t/cannot-log-into-the-game-need-help/2121835/16",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/saurfang/34/197024034-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Randre-saurfang",
+        "poster_alias": {
+          "alias": {
+            "name": "Randre-saurfang",
+            "avatar": "https://render.worldofwarcraft.com/us/character/saurfang/34/197024034-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/saurfang/randre/",
+            "user_id": 30481,
+            "id": 840665,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 9,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/saurfang/randre/"
+              },
+              {
+                "name": "realm",
+                "value": "Saurfang"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12855"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "guild",
+                "value": "RISE"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 123,
+          "username": "Mirasol-mannoroth",
+          "name": "Mirasol",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/mannoroth/56/219012920-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 9,
+        "character": {
+          "name": "LKPickAChu",
+          "guild": "RISE",
+          "achievement_points": "12855",
+          "level": "80",
+          "class": "Druid",
+          "race": "Night Elf",
+          "player_class_enum": "DRUID",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true
+      },
+      {
+        "id": 27123118,
+        "name": "Leounity",
+        "username": "Leounity-2252891",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-06-23T13:36:19.162Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Randre-saurfang\" data-post=\"16\" data-topic=\"2121835\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/saurfang/34/197024034-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg\" class=\"avatar\"> LKPickAChu:</div>\n<blockquote>\n<p>Any idea about how to find the game servers for a ping? Back in the days i remeber there were some routing server IPs that we could ping to check the connection.</p>\n</blockquote>\n</aside>\n<p>Those aren’t publicly available anymore and haven’t been for some time. Any ones you find listed online are old and not functional for tests.</p>",
+        "post_number": 17,
+        "post_type": 1,
+        "posts_count": 18,
+        "updated_at": "2025-06-23T13:36:19.162Z",
+        "reply_count": 0,
+        "reply_to_post_number": 16,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 53,
+        "readers_count": 52,
+        "score": 25.6,
+        "yours": false,
+        "topic_id": 2121835,
+        "topic_slug": "cannot-log-into-the-game-need-help",
+        "display_username": "Leounity",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2252891,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/wyrmrest-accord/jeysca/",
+          "guild": "Seerows Kindness",
+          "class": "Druid",
+          "player_class_enum": "DRUID",
+          "race": "Worgen",
+          "level": "80",
+          "blizzard_post_count": "4813",
+          "achievement_points": "39345"
+        },
+        "post_url": "/t/cannot-log-into-the-game-need-help/2121835/17",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/8/179368200-avatar.jpg?alt=/wow/static/images/2d/avatar/22-1.jpg",
+        "alias_username": "Jeysca-wyrmrest-accord",
+        "poster_alias": {
+          "alias": {
+            "name": "Jeysca-wyrmrest-accord",
+            "avatar": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/8/179368200-avatar.jpg?alt=/wow/static/images/2d/avatar/22-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/wyrmrest-accord/jeysca/",
+            "user_id": 2252891,
+            "id": 417532,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 4402,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/wyrmrest-accord/jeysca/"
+              },
+              {
+                "name": "realm",
+                "value": "Wyrmrest Accord"
+              },
+              {
+                "name": "achievement_points",
+                "value": "42645"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Worgen"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/8/179368200-avatar.jpg?alt=/wow/static/images/2d/avatar/22-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Jeysca-wyrmrest-accord"
+              },
+              {
+                "name": "guild",
+                "value": "Seerows Kindness"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 4813,
+        "character": {
+          "name": "Leounity",
+          "guild": "Seerows Kindness",
+          "achievement_points": "39345",
+          "level": "80",
+          "class": "Druid",
+          "race": "Worgen",
+          "player_class_enum": "DRUID",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true
+      },
+      {
+        "id": 27123129,
+        "name": "Mirasol",
+        "username": "MissCheetah-20268",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-06-23T13:38:44.856Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Randre-saurfang\" data-post=\"16\" data-topic=\"2121835\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/saurfang/34/197024034-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg\" class=\"avatar\"> LKPickAChu:</div>\n<blockquote>\n<p>Any idea about how to find the game servers for a ping? Back in the days i remeber there were some routing server IPs that we could ping to check the connection.</p>\n</blockquote>\n</aside>\n<p>Sadly no. When they stopped doing Tech Support and laid off those folks, they removed the IP addresses and related support articles. A WinMTR is honestly the best tool because it shows both latency and packet loss for each hop in a physical route to a server. Without an IP address though you can’t really use it.</p>\n<p>Try the connection troubleshooting steps - and then try the Character Stuck Self help option.</p>\n<p>Also you really want to do this with a fresh set of Cache, Interface, and WTF folders like the UI reset article says. It honestly is a troubleshooting step that is super basic, but rules a lot of things out. Again, you can just rename them or move them. The game creates fresh ones when you start up if it does not “see” the old ones there.</p>\n<p>Wipe it anyway, even the Blizzard files that are default can get corrupted.</p>\n<p>IF that fails a Blue here may be able to move your char for you and see if that helps.</p>",
+        "post_number": 18,
+        "post_type": 1,
+        "posts_count": 18,
+        "updated_at": "2025-06-23T13:39:24.105Z",
+        "reply_count": 1,
+        "reply_to_post_number": 16,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 53,
+        "readers_count": 52,
+        "score": 75.6,
+        "yours": false,
+        "topic_id": 2121835,
+        "topic_slug": "cannot-log-into-the-game-need-help",
+        "display_username": "Mirasol",
+        "primary_group_name": "cs-mvp",
+        "flair_name": "cs-mvp",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 48,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "MVP",
+        "title_is_group": true,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 4
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 20268,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Flying Doom Bunnies",
+          "race": "Human",
+          "class": "Mage",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/mannoroth/mirasol/",
+          "player_class_enum": "MAGE",
+          "classic": "t",
+          "level": "26",
+          "achievement_points": "21970",
+          "blizzard_post_count": "16856"
+        },
+        "post_url": "/t/cannot-log-into-the-game-need-help/2121835/18",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/mannoroth/56/219012920-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+        "alias_username": "Mirasol-mannoroth",
+        "poster_alias": {
+          "alias": {
+            "name": "Mirasol-mannoroth",
+            "avatar": "https://render.worldofwarcraft.com/us/character/mannoroth/56/219012920-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/mannoroth/mirasol/",
+            "user_id": 20268,
+            "id": 123,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 19269,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/mannoroth/mirasol/"
+              },
+              {
+                "name": "realm",
+                "value": "Mannoroth"
+              },
+              {
+                "name": "achievement_points",
+                "value": "24830"
+              },
+              {
+                "name": "level",
+                "value": "29"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/mannoroth/56/219012920-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Mirasol-mannoroth"
+              },
+              {
+                "name": "guild",
+                "value": "Flying Doom Bunnies"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 16856,
+        "character": {
+          "name": "MissCheetah",
+          "guild": "Flying Doom Bunnies",
+          "achievement_points": "21970",
+          "level": "26",
+          "class": "Mage",
+          "race": "Human",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "next_tracked_post": {
+          "group": "cs-mvp",
+          "post_number": 20
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true
+      },
+      {
+        "id": 27123297,
+        "name": "LKPickAChu",
+        "username": "LKPickAChu-30481",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-06-23T14:19:34.389Z",
+        "cooked": "<p>VPN!!!</p>\n<p>Such a simple solution! It works finally.</p>\n<p>Thank you so much fo actually being more helpful than the official helping people.</p>",
+        "post_number": 19,
+        "post_type": 1,
+        "posts_count": 18,
+        "updated_at": "2025-06-23T14:19:34.389Z",
+        "reply_count": 1,
+        "reply_to_post_number": 18,
+        "quote_count": 0,
+        "incoming_link_count": 3,
+        "reads": 52,
+        "readers_count": 51,
+        "score": 45.4,
+        "yours": false,
+        "topic_id": 2121835,
+        "topic_slug": "cannot-log-into-the-game-need-help",
+        "display_username": "LKPickAChu",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 20268,
+          "username": "MissCheetah-20268",
+          "name": "Mirasol",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 30481,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Night Elf",
+          "class": "Druid",
+          "blizzard_post_count": "9",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/saurfang/randre/",
+          "player_class_enum": "DRUID",
+          "level": "80",
+          "achievement_points": "12855",
+          "guild": "RISE"
+        },
+        "post_url": "/t/cannot-log-into-the-game-need-help/2121835/19",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/saurfang/34/197024034-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Randre-saurfang",
+        "poster_alias": {
+          "alias": {
+            "name": "Randre-saurfang",
+            "avatar": "https://render.worldofwarcraft.com/us/character/saurfang/34/197024034-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/saurfang/randre/",
+            "user_id": 30481,
+            "id": 840665,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 9,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/saurfang/randre/"
+              },
+              {
+                "name": "realm",
+                "value": "Saurfang"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12855"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "guild",
+                "value": "RISE"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 123,
+          "username": "Mirasol-mannoroth",
+          "name": "Mirasol",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/mannoroth/56/219012920-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 9,
+        "character": {
+          "name": "LKPickAChu",
+          "guild": "RISE",
+          "achievement_points": "12855",
+          "level": "80",
+          "class": "Druid",
+          "race": "Night Elf",
+          "player_class_enum": "DRUID",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true
+      },
+      {
+        "id": 27123325,
+        "name": "Mirasol",
+        "username": "MissCheetah-20268",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-06-23T14:25:48.735Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Randre-saurfang\" data-post=\"19\" data-topic=\"2121835\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/saurfang/34/197024034-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg\" class=\"avatar\"> LKPickAChu:</div>\n<blockquote>\n<p>VPN!!!</p>\n<p>Such a simple solution! It works finally.</p>\n</blockquote>\n</aside>\n<p>YAY!!!</p>\n<p>Ok, that means something along the path between you and the Live Retail server realm is having issues. Using a VPN takes your data around that point on a different ISP backbone. I don’t have any idea what might be going on to cause that, but it is like a traffic jam.</p>\n<p>Glad that worked. Just don’t jump around from VPN to VPN like crazy or the game may think your account is compromised and lock it. Speed of light travel is not a thing yet. Stick one one VPN and always use that one when you do and it should see a consistent pattern.</p>\n<p>Enjoy War Within! It does have some really fun features.</p>",
+        "post_number": 20,
+        "post_type": 1,
+        "posts_count": 18,
+        "updated_at": "2025-06-23T14:25:48.735Z",
+        "reply_count": 0,
+        "reply_to_post_number": 19,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 51,
+        "readers_count": 50,
+        "score": 40.2,
+        "yours": false,
+        "topic_id": 2121835,
+        "topic_slug": "cannot-log-into-the-game-need-help",
+        "display_username": "Mirasol",
+        "primary_group_name": "cs-mvp",
+        "flair_name": "cs-mvp",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 48,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "MVP",
+        "title_is_group": true,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 20268,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Flying Doom Bunnies",
+          "race": "Human",
+          "class": "Mage",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/mannoroth/mirasol/",
+          "player_class_enum": "MAGE",
+          "classic": "t",
+          "level": "26",
+          "achievement_points": "21970",
+          "blizzard_post_count": "16856"
+        },
+        "post_url": "/t/cannot-log-into-the-game-need-help/2121835/20",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/mannoroth/56/219012920-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+        "alias_username": "Mirasol-mannoroth",
+        "poster_alias": {
+          "alias": {
+            "name": "Mirasol-mannoroth",
+            "avatar": "https://render.worldofwarcraft.com/us/character/mannoroth/56/219012920-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/mannoroth/mirasol/",
+            "user_id": 20268,
+            "id": 123,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 19269,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/mannoroth/mirasol/"
+              },
+              {
+                "name": "realm",
+                "value": "Mannoroth"
+              },
+              {
+                "name": "achievement_points",
+                "value": "24830"
+              },
+              {
+                "name": "level",
+                "value": "29"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/mannoroth/56/219012920-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Mirasol-mannoroth"
+              },
+              {
+                "name": "guild",
+                "value": "Flying Doom Bunnies"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 16856,
+        "character": {
+          "name": "MissCheetah",
+          "guild": "Flying Doom Bunnies",
+          "achievement_points": "21970",
+          "level": "26",
+          "class": "Mage",
+          "race": "Human",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true
+      },
+      {
+        "id": 27560488,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-08-22T14:26:14.120Z",
+        "cooked": "<p>This topic was automatically closed 60 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 21,
+        "post_type": 3,
+        "posts_count": 18,
+        "updated_at": "2025-08-22T14:26:14.120Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 2121835,
+        "topic_slug": "cannot-log-into-the-game-need-help",
+        "display_username": "system",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/cannot-log-into-the-game-need-help/2121835/21",
+        "alias_username": null,
+        "poster_alias": null,
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 3016,
+        "character": {
+          "name": "system",
+          "guild": null,
+          "achievement_points": null,
+          "level": null,
+          "class": null,
+          "race": null,
+          "player_class_enum": null,
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true
+      }
+    ],
+    "stream": [
+      27121872,
+      27121941,
+      27122023,
+      27122188,
+      27122199,
+      27122237,
+      27122269,
+      27122303,
+      27122372,
+      27122541,
+      27122893,
+      27123007,
+      27123026,
+      27123118,
+      27123129,
+      27123297,
+      27123325,
+      27560488
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      440
+    ],
+    [
+      4,
+      439
+    ],
+    [
+      18,
+      379
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "fancy_title": "Finished Ula&rsquo;Tek on normal and won loot but never received it",
+      "id": 2342411,
+      "title": "Finished Ula'Tek on normal and won loot but never received it",
+      "slug": "finished-ulatek-on-normal-and-won-loot-but-never-received-it",
+      "posts_count": 6,
+      "reply_count": 2,
+      "highest_post_number": 6,
+      "image_url": null,
+      "created_at": "2026-08-29T02:36:21.508Z",
+      "last_posted_at": "2026-08-29T04:32:24.910Z",
+      "bumped": true,
+      "bumped_at": "2026-08-29T04:32:24.910Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Just what the title says,  I completed the raid on normal, won the Venomkeeper’s Horrific Cowl and the Slumbering Coil Curio. I received the head piece but I have not received the curio. The cowl came via the postmaster &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 9,
+      "views": 151,
+      "category_id": 13,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 3443163,
+            "username": "aerich-3443163",
+            "name": "aerich",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 0,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 4607,
+            "username": "Darthwraith-4607",
+            "name": "Darthwraith",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 77768,
+            "username": "ForTheHorde-77768",
+            "name": "ForTheHorde",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 4738,
+            "username": "Amaelalin-4738",
+            "name": "Amaelalin",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Character Transfer Error",
+      "id": 2343212,
+      "title": "Character Transfer Error",
+      "slug": "character-transfer-error",
+      "posts_count": 12,
+      "reply_count": 9,
+      "highest_post_number": 12,
+      "image_url": null,
+      "created_at": "2026-08-31T21:47:13.707Z",
+      "last_posted_at": "2026-08-31T22:14:01.814Z",
+      "bumped": true,
+      "bumped_at": "2026-08-31T22:14:01.814Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Hello, I am trying to transfer a character between wow accounts and it says “An error was encountered. Please come back later.” May I ask, is there an issue in game with the character that I’m trying to transfer? \nCharac&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 23,
+      "views": 105,
+      "category_id": 13,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 2065123,
+            "username": "rollmymovie-2065123",
+            "name": "rollmymovie",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 3184,
+            "username": "sakera-3184",
+            "name": "Kyzera",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "primary_group_name": "cs-mvp",
+            "flair_name": "cs-mvp",
+            "flair_group_id": 48,
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Can I do this? Symlink for multiple accounts?",
+      "id": 2339647,
+      "title": "Can I do this? Symlink for multiple accounts?",
+      "slug": "can-i-do-this-symlink-for-multiple-accounts",
+      "posts_count": 6,
+      "reply_count": 1,
+      "highest_post_number": 6,
+      "image_url": null,
+      "created_at": "2026-08-21T16:46:23.483Z",
+      "last_posted_at": "2026-08-22T22:32:18.644Z",
+      "bumped": true,
+      "bumped_at": "2026-08-22T22:32:18.644Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Can I do this?   To share inventory across your 3 active accounts using Baganator, you must use a Windows Symlink. This forces the game clients to save and read inventory data from one single, shared folder.",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 28,
+      "views": 275,
+      "category_id": 13,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3025790,
+            "username": "Tilemaster-3025790",
+            "name": "Tilemaster",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 4607,
+            "username": "Darthwraith-4607",
+            "name": "Darthwraith",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 29979,
+            "username": "Glindaril-29979",
+            "name": "Glindaril",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1892651,
+            "username": "Dauntless-1892651",
+            "name": "Dauntless",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 207881,
+            "username": "HashberryOTG-207881",
+            "name": "HashberryOTG",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "What counts for &ldquo;World Activities&rdquo; now?",
+      "id": 2338429,
+      "title": "What counts for \"World Activities\" now?",
+      "slug": "what-counts-for-world-activities-now",
+      "posts_count": 4,
+      "reply_count": 1,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2026-08-18T23:06:59.658Z",
+      "last_posted_at": "2026-08-19T10:57:31.816Z",
+      "bumped": true,
+      "bumped_at": "2026-08-19T10:57:31.816Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Or am I missing something?  Just completed “Fortify the Runestones” and “Lost Treasures of Haranir” weeklies; did not receive any great vault progress for either.   Same thing after patch last week. \nSpecial Assignment i&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 5,
+      "views": 257,
+      "category_id": 13,
+      "featured_link": null,
+      "op_like_count": 1,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 123715,
+            "username": "Theoden-123715",
+            "name": "Theoden",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2994559,
+            "username": "TranceMTL-2994559",
+            "name": "TranceMTL",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 77768,
+            "username": "ForTheHorde-77768",
+            "name": "ForTheHorde",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Character Name Update",
+      "id": 2343284,
+      "title": "Character Name Update",
+      "slug": "character-name-update",
+      "posts_count": 5,
+      "reply_count": 1,
+      "highest_post_number": 5,
+      "image_url": null,
+      "created_at": "2026-09-01T02:32:23.533Z",
+      "last_posted_at": "2026-09-01T06:50:03.395Z",
+      "bumped": true,
+      "bumped_at": "2026-09-01T06:50:03.395Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "I changed this character name some time ago, but it still shows the old name and old transmog on the forum ???",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 9,
+      "views": 149,
+      "category_id": 13,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 229395,
+            "username": "Wombatpwns-229395",
+            "name": "Wombatpwns",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 4608,
+            "username": "No1UKnow-4608",
+            "name": "No1UKnow",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2172279,
+            "username": "Midnyte-2172279",
+            "name": "Midnyte",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 2687972,
+            "username": "lorethon-2687972",
+            "name": "lorethon",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    }
+  ],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "Cannot Log into the Game - Need help",
+  "id": 2121835,
+  "title": "Cannot Log into the Game - Need help",
+  "posts_count": 18,
+  "created_at": "2025-06-23T05:23:29.273Z",
+  "views": 276,
+  "reply_count": 17,
+  "like_count": 39,
+  "last_posted_at": "2025-08-22T14:26:14.120Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "cannot-log-into-the-game-need-help",
+  "category_id": 13,
+  "word_count": 3158,
+  "deleted_at": null,
+  "user_id": 30481,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_2121835",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 21,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 1001,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1002,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1003,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1004,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1005,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 8,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "first_tracked_post": {
+    "group": "cs-mvp",
+    "post_number": 13,
+    "jump_target": 13
+  },
+  "tracked_posts": [
+    {
+      "group": "cs-mvp",
+      "post_number": 13,
+      "jump_target": 13
+    },
+    {
+      "group": "cs-mvp",
+      "post_number": 15
+    },
+    {
+      "group": "cs-mvp",
+      "post_number": 18
+    },
+    {
+      "group": "cs-mvp",
+      "post_number": 20
+    }
+  ],
+  "accepted_answer": {
+    "post_number": 15,
+    "username": "MissCheetah-20268",
+    "name": "Mirasol",
+    "excerpt": "<p>Did you read anything I wrote?</p>\n<p>Blizzard does not really offer Tech Support anymore which is what your issue likely is.</p>\n<p>EITHER it is a connection and routing issue to the Live servers OR it is an issue with addons or the character state in game.</p>\n<p>I gave you some options for both to try.</p>\n<p>This is NOT an issue with your payment going through, or the flagging on your account. You would not be able to hit the button to log in to War Within if your account was not recognizing that you bought it.</p>"
+  },
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 30481,
+        "username": "LKPickAChu-30481",
+        "name": "LKPickAChu",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 5,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1,
+        "acting_alias": {
+          "alias": {
+            "name": "Randre-saurfang",
+            "avatar": "https://render.worldofwarcraft.com/us/character/saurfang/34/197024034-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/saurfang/randre/",
+            "user_id": 30481,
+            "id": 840665,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 9,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/saurfang/randre/"
+              },
+              {
+                "name": "realm",
+                "value": "Saurfang"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12855"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "guild",
+                "value": "RISE"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 20268,
+        "username": "MissCheetah-20268",
+        "name": "Mirasol",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 4,
+        "primary_group_name": "cs-mvp",
+        "flair_name": "cs-mvp",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 48,
+        "trust_level": 3,
+        "acting_alias": {
+          "alias": {
+            "name": "Mirasol-mannoroth",
+            "avatar": "https://render.worldofwarcraft.com/us/character/mannoroth/56/219012920-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/mannoroth/mirasol/",
+            "user_id": 20268,
+            "id": 123,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 19269,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/mannoroth/mirasol/"
+              },
+              {
+                "name": "realm",
+                "value": "Mannoroth"
+              },
+              {
+                "name": "achievement_points",
+                "value": "24830"
+              },
+              {
+                "name": "level",
+                "value": "29"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/mannoroth/56/219012920-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Mirasol-mannoroth"
+              },
+              {
+                "name": "guild",
+                "value": "Flying Doom Bunnies"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 4676,
+        "username": "Nephe-4676",
+        "name": "Nephe",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Nephe-caelestrasz",
+            "avatar": "https://render.worldofwarcraft.com/us/character/caelestrasz/213/129683925-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/caelestrasz/nephe/",
+            "user_id": 4676,
+            "id": 419046,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 4187,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/caelestrasz/nephe/"
+              },
+              {
+                "name": "realm",
+                "value": "Caelestrasz"
+              },
+              {
+                "name": "achievement_points",
+                "value": "21000"
+              },
+              {
+                "name": "level",
+                "value": "83"
+              },
+              {
+                "name": "race",
+                "value": "Void Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/caelestrasz/213/129683925-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Nephe-caelestrasz"
+              },
+              {
+                "name": "guild",
+                "value": "Dark Haven"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 185858,
+        "username": "Moi-185858",
+        "name": "Moi",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 3,
+        "acting_alias": {
+          "alias": {
+            "name": "Leilleath-moon-guard",
+            "avatar": "https://render.worldofwarcraft.com/us/character/moon-guard/191/125900991-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/moon-guard/leilleath/",
+            "user_id": 185858,
+            "id": 427202,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 7888,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/moon-guard/leilleath/"
+              },
+              {
+                "name": "realm",
+                "value": "Moon Guard"
+              },
+              {
+                "name": "achievement_points",
+                "value": "25005"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Monk"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MONK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/moon-guard/191/125900991-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Leilleath-moon-guard"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 4726,
+        "username": "Teufelgott-4726",
+        "name": "Teufelgott",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 3,
+        "acting_alias": {
+          "alias": {
+            "name": "Teufelgott-shadowsong",
+            "avatar": "https://render.worldofwarcraft.com/us/character/shadowsong/73/164719433-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/shadowsong/teufelgott/",
+            "user_id": 4726,
+            "id": 433081,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 10332,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/shadowsong/teufelgott/"
+              },
+              {
+                "name": "realm",
+                "value": "Shadowsong"
+              },
+              {
+                "name": "achievement_points",
+                "value": "21030"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Undead"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/shadowsong/73/164719433-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Teufelgott-shadowsong"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 4607,
+        "username": "Darthwraith-4607",
+        "name": "Darthwraith",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Darthwraith-blackhand",
+            "avatar": "https://render.worldofwarcraft.com/us/character/blackhand/57/133879097-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/blackhand/darthwraith/",
+            "user_id": 4607,
+            "id": 436067,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 21166,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/blackhand/darthwraith/"
+              },
+              {
+                "name": "realm",
+                "value": "Blackhand"
+              },
+              {
+                "name": "achievement_points",
+                "value": "26610"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/blackhand/57/133879097-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Darthwraith-blackhand"
+              },
+              {
+                "name": "guild",
+                "value": "Enlightened Dark"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 2277436,
+        "username": "Thallia-2277436",
+        "name": "Thallia",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 3,
+        "acting_alias": {
+          "alias": {
+            "name": "Sendryn-sentinels",
+            "avatar": "https://render.worldofwarcraft.com/us/character/sentinels/184/224379832-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/sentinels/sendryn/",
+            "user_id": 2277436,
+            "id": 437998,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 59626,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/sentinels/sendryn/"
+              },
+              {
+                "name": "realm",
+                "value": "Sentinels"
+              },
+              {
+                "name": "achievement_points",
+                "value": "30230"
+              },
+              {
+                "name": "level",
+                "value": "89"
+              },
+              {
+                "name": "race",
+                "value": "Dracthyr"
+              },
+              {
+                "name": "player_class",
+                "value": "Evoker"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "EVOKER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/sentinels/184/224379832-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Sendryn-sentinels"
+              },
+              {
+                "name": "guild",
+                "value": "Convocation"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 2252891,
+        "username": "Leounity-2252891",
+        "name": "Leounity",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Jeysca-wyrmrest-accord",
+            "avatar": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/8/179368200-avatar.jpg?alt=/wow/static/images/2d/avatar/22-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/wyrmrest-accord/jeysca/",
+            "user_id": 2252891,
+            "id": 417532,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 4402,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/wyrmrest-accord/jeysca/"
+              },
+              {
+                "name": "realm",
+                "value": "Wyrmrest Accord"
+              },
+              {
+                "name": "achievement_points",
+                "value": "42645"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Worgen"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/8/179368200-avatar.jpg?alt=/wow/static/images/2d/avatar/22-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Jeysca-wyrmrest-accord"
+              },
+              {
+                "name": "guild",
+                "value": "Seerows Kindness"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      }
+    ],
+    "created_by": {
+      "id": 30481,
+      "username": "LKPickAChu-30481",
+      "name": "LKPickAChu",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    },
+    "last_poster": {
+      "id": -1,
+      "username": "system",
+      "name": "system",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    }
+  },
+  "bookmarks": [],
+  "jogo": "World of Warcraft",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Blizzard",
+  "url_fonte": "https://us.forums.blizzard.com/en/wow/t/cannot-log-into-the-game-need-help/2121835"
+}

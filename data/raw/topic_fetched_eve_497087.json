@@ -1,0 +1,713 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 2771352,
+        "name": "Chonuss",
+        "username": "Chonuss",
+        "avatar_template": "/user_avatar/forums.eveonline.com/chonuss/{size}/472644_2.png",
+        "created_at": "2025-09-05T12:11:59.759Z",
+        "cooked": "<p>Greetings, Fellow Capsuleers!</p>\n<p>I have created an Model Content Protocol (MCP) tool for the Eve Swagger Interface API.</p>\n<p>It definitely will need some love, but it should be able to add multiple characters and perform actions based on authenticated characters, without any manual insertion. Everything is performed via MCP tool calling.</p>\n<aside class=\"onebox githubrepo\" data-onebox-src=\"https://github.com/unclemusclez/EveOnlineMCP\">\n  <header class=\"source\">\n\n      <a href=\"https://github.com/unclemusclez/EveOnlineMCP\" target=\"_blank\" rel=\"noopener nofollow ugc\">github.com</a>\n  </header>\n\n  <article class=\"onebox-body\">\n    <div class=\"github-row\" data-github-private-repo=\"false\">\n  <span class=\"broken-image\" title=\"This image is broken\"><svg class=\"fa d-icon d-icon-link-slash svg-icon\" aria-hidden=\"true\"><use href=\"#link-slash\"></use></svg></span>\n\n  <h3><a href=\"https://github.com/unclemusclez/EveOnlineMCP\" target=\"_blank\" rel=\"noopener nofollow ugc\">GitHub - unclemusclez/EveOnlineMCP:  A local MCP server for accessing the EVE Online...</a></h3>\n\n    <p><span class=\"github-repo-description\"> A local MCP server for accessing the EVE Online ESI API</span></p>\n</div>\n\n  </article>\n\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n\n  <div style=\"clear: both\"></div>\n</aside>\n",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 2,
+        "updated_at": "2025-09-05T12:11:59.759Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 413,
+        "reads": 54,
+        "readers_count": 53,
+        "score": 2065.8,
+        "yours": false,
+        "topic_id": 497087,
+        "topic_slug": "eve-online-esi-mcp-tool",
+        "display_username": "Chonuss",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://github.com/unclemusclez/EveOnlineMCP",
+            "internal": false,
+            "reflection": false,
+            "title": "GitHub - unclemusclez/EveOnlineMCP: A local MCP server for accessing the EVE Online ESI API",
+            "clicks": 139
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 216699,
+        "hidden": false,
+        "trust_level": 0,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/eve-online-esi-mcp-tool/497087/1",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 2777111,
+        "name": "Peter Powers",
+        "username": "Peter_Powers",
+        "avatar_template": "/user_avatar/forums.eveonline.com/peter_powers/{size}/483239_2.png",
+        "created_at": "2025-09-22T08:00:07.871Z",
+        "cooked": "<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"eeOANluSqAE\" data-video-title=\"Your API is not an MCP | DEMFP786\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=eeOANluSqAE\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener nofollow ugc\">\n    <img class=\"youtube-thumbnail\" src=\"https://global.discourse-cdn.com/eveonline/original/4X/b/2/c/b2c59c39db876175e72c9444362a1b2c0568192d.jpeg\" title=\"Your API is not an MCP | DEMFP786\" data-dominant-color=\"41224C\" width=\"690\" height=\"388\">\n  </a>\n</div>\n",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 2,
+        "updated_at": "2025-09-22T08:00:07.871Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 3,
+        "reads": 38,
+        "readers_count": 37,
+        "score": 37.6,
+        "yours": false,
+        "topic_id": 497087,
+        "topic_slug": "eve-online-esi-mcp-tool",
+        "display_username": "Peter Powers",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://www.youtube.com/watch?v=eeOANluSqAE",
+            "internal": false,
+            "reflection": false,
+            "clicks": 4
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 54892,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/eve-online-esi-mcp-tool/497087/2",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2817499,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "https://global.discourse-cdn.com/eveonline/original/3X/4/1/41ec4921cbaca7a6f9ea556e7cc20018461eae5e.png",
+        "created_at": "2025-12-21T08:00:43.133Z",
+        "cooked": "<p>This topic was automatically closed 90 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 3,
+        "post_type": 3,
+        "posts_count": 2,
+        "updated_at": "2025-12-21T08:00:43.133Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 10,
+        "readers_count": 9,
+        "score": 12.0,
+        "yours": false,
+        "topic_id": 497087,
+        "topic_slug": "eve-online-esi-mcp-tool",
+        "display_username": "system",
+        "primary_group_name": "system",
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/eve-online-esi-mcp-tool/497087/3",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ],
+    "stream": [
+      2771352,
+      2777111,
+      2817499
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      368
+    ],
+    [
+      2,
+      352
+    ],
+    [
+      3,
+      262
+    ]
+  ],
+  "suggested_topics": [],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "Eve Online ESI MCP Tool",
+  "id": 497087,
+  "title": "Eve Online ESI MCP Tool",
+  "posts_count": 2,
+  "created_at": "2025-09-05T12:11:59.702Z",
+  "views": 477,
+  "reply_count": 0,
+  "like_count": 2,
+  "last_posted_at": "2025-09-22T08:00:07.871Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "eve-online-esi-mcp-tool",
+  "category_id": 76,
+  "word_count": 63,
+  "deleted_at": null,
+  "user_id": 216699,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_497087",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 3,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 2,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "tags_disable_ads": false,
+  "related_topics": [
+    {
+      "fancy_title": "EVE MCP Server — quering ESI from Claude, Copilot and other AI assistants",
+      "id": 516433,
+      "title": "EVE MCP Server — quering ESI from Claude, Copilot and other AI assistants",
+      "slug": "eve-mcp-server-quering-esi-from-claude-copilot-and-other-ai-assistants",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2026-08-15T15:31:38.682Z",
+      "last_posted_at": "2026-08-15T15:31:38.798Z",
+      "bumped": true,
+      "bumped_at": "2026-08-15T15:31:38.798Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 91,
+          "name": "api",
+          "slug": "api"
+        },
+        {
+          "id": 90,
+          "name": "esi",
+          "slug": "esi"
+        },
+        {
+          "id": 93,
+          "name": "tool",
+          "slug": "tool"
+        }
+      ],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 79,
+      "category_id": 76,
+      "featured_link": null,
+      "op_like_count": 1,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 61371,
+            "username": "Skototounta",
+            "name": "Skototounta",
+            "avatar_template": "/user_avatar/forums.eveonline.com/skototounta/{size}/387661_2.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Eve-mentor-mcp — open-source MCP server that turns Claude into a new-player mentor",
+      "id": 513384,
+      "title": "Eve-mentor-mcp — open-source MCP server that turns Claude into a new-player mentor",
+      "slug": "eve-mentor-mcp-open-source-mcp-server-that-turns-claude-into-a-new-player-mentor",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2026-06-14T22:38:23.752Z",
+      "last_posted_at": "2026-06-15T11:49:14.638Z",
+      "bumped": true,
+      "bumped_at": "2026-06-15T11:49:14.638Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 2,
+      "views": 110,
+      "category_id": 76,
+      "featured_link": null,
+      "op_like_count": 2,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 227272,
+            "username": "Ruby_Q",
+            "name": "Ruby Q",
+            "avatar_template": "/user_avatar/forums.eveonline.com/ruby_q/{size}/502271_2.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 1612,
+            "username": "DeMichael_Crimson",
+            "name": "DeMichael Crimson",
+            "avatar_template": "/user_avatar/forums.eveonline.com/demichael_crimson/{size}/507884_2.png",
+            "trust_level": 3
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "[SERVICE TOOL] Your custom EVE Software - with API, Server, User management or whatever you want",
+      "id": 316103,
+      "title": "[SERVICE TOOL] Your custom EVE Software - with API, Server, User management or whatever you want",
+      "slug": "service-tool-your-custom-eve-software-with-api-server-user-management-or-whatever-you-want",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": "https://global.discourse-cdn.com/eveonline/optimized/4X/c/c/1/cc1c35da36b72e551c68c0ffe106311e88a0b273_2_1024x597.png",
+      "created_at": "2021-06-13T13:48:05.774Z",
+      "last_posted_at": "2021-06-13T13:48:05.882Z",
+      "bumped": true,
+      "bumped_at": "2021-06-13T13:48:05.882Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 688,
+      "category_id": 61,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 146056,
+            "username": "Le_Fist",
+            "name": "Le Fist",
+            "avatar_template": "/user_avatar/forums.eveonline.com/le_fist/{size}/372288_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "https://global.discourse-cdn.com/eveonline/original/3X/4/1/41ec4921cbaca7a6f9ea556e7cc20018461eae5e.png",
+            "primary_group_name": "system",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "[SERVICE] Third Party/Custom Tool Development",
+      "id": 448839,
+      "title": "[SERVICE] Third Party/Custom Tool Development",
+      "slug": "service-third-party-custom-tool-development",
+      "posts_count": 6,
+      "reply_count": 0,
+      "highest_post_number": 6,
+      "image_url": "https://global.discourse-cdn.com/eveonline/optimized/4X/a/4/0/a40c9f80ec38ba8491f761ade38b042fb74f89fc_2_1023x645.png",
+      "created_at": "2024-05-10T15:32:05.910Z",
+      "last_posted_at": "2024-06-24T18:23:14.791Z",
+      "bumped": true,
+      "bumped_at": "2024-06-24T18:23:14.791Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 346,
+      "category_id": 61,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 121097,
+            "username": "Contrum_Inkunen",
+            "name": "Contrum Inkunen",
+            "avatar_template": "/user_avatar/forums.eveonline.com/contrum_inkunen/{size}/452715_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "https://global.discourse-cdn.com/eveonline/original/3X/4/1/41ec4921cbaca7a6f9ea556e7cc20018461eae5e.png",
+            "primary_group_name": "system",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "OpenClaw Skill: EVE ESI Integration for Account Management – Open Source",
+      "id": 506398,
+      "title": "OpenClaw Skill: EVE ESI Integration for Account Management – Open Source",
+      "slug": "openclaw-skill-eve-esi-integration-for-account-management-open-source",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2026-02-10T14:30:01.441Z",
+      "last_posted_at": "2026-02-21T02:15:35.243Z",
+      "bumped": true,
+      "bumped_at": "2026-02-21T02:15:35.243Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 240,
+      "category_id": 76,
+      "featured_link": null,
+      "op_like_count": 1,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 223084,
+            "username": "Das_Biertier",
+            "name": "Das Biertier",
+            "avatar_template": "/user_avatar/forums.eveonline.com/das_biertier/{size}/490706_2.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "https://global.discourse-cdn.com/eveonline/original/3X/4/1/41ec4921cbaca7a6f9ea556e7cc20018461eae5e.png",
+            "primary_group_name": "system",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 208,
+            "username": "Cormorant_Fell",
+            "name": "Cormorant Fell",
+            "avatar_template": "/user_avatar/forums.eveonline.com/cormorant_fell/{size}/429069_2.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "has_cached_summary": false,
+  "valid_reactions": [
+    "heart",
+    "+1",
+    "laughing",
+    "open_mouth",
+    "clap",
+    "confetti_ball",
+    "hugs"
+  ],
+  "has_accepted_answer": false,
+  "can_create_shared_issue": false,
+  "shared_issue_visible": false,
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 216699,
+        "username": "Chonuss",
+        "name": "Chonuss",
+        "avatar_template": "/user_avatar/forums.eveonline.com/chonuss/{size}/472644_2.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 0
+      },
+      {
+        "id": 54892,
+        "username": "Peter_Powers",
+        "name": "Peter Powers",
+        "avatar_template": "/user_avatar/forums.eveonline.com/peter_powers/{size}/483239_2.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      }
+    ],
+    "created_by": {
+      "id": 216699,
+      "username": "Chonuss",
+      "name": "Chonuss",
+      "avatar_template": "/user_avatar/forums.eveonline.com/chonuss/{size}/472644_2.png"
+    },
+    "last_poster": {
+      "id": 54892,
+      "username": "Peter_Powers",
+      "name": "Peter Powers",
+      "avatar_template": "/user_avatar/forums.eveonline.com/peter_powers/{size}/483239_2.png"
+    },
+    "links": [
+      {
+        "url": "https://github.com/unclemusclez/EveOnlineMCP",
+        "title": "GitHub - unclemusclez/EveOnlineMCP: A local MCP server for accessing the EVE Online ESI API",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 139,
+        "user_id": 216699,
+        "domain": "github.com",
+        "root_domain": "github.com"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=eeOANluSqAE",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 4,
+        "user_id": 54892,
+        "domain": "www.youtube.com",
+        "root_domain": "youtube.com"
+      }
+    ]
+  },
+  "bookmarks": [],
+  "jogo": "EVE Online",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum CCP EVE",
+  "url_fonte": "https://forums.eveonline.com/t/eve-online-esi-mcp-tool/497087"
+}

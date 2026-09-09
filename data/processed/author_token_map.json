@@ -1,0 +1,16 @@
+{
+  "map": {
+    "Ishtar_King": "Player_001",
+    "Bot_Hunter_99": "Player_002",
+    "PirateLordX": "Player_003",
+    "Carebear_Steve": "Player_004",
+    "Incursus_Master": "Player_005",
+    "CCP_Fanboy42": "Player_006",
+    "Warlock_Pet": "Player_007",
+    "DK_Unholy": "Player_008",
+    "Rogue_Stab": "Player_009",
+    "OrcSmash": "Player_010",
+    "MagePortalGuy": "Player_011"
+  },
+  "next_token": 12
+}

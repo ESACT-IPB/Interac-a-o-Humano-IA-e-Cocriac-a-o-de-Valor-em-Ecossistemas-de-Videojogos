@@ -1,0 +1,170 @@
+{
+  "id": "reddit_1p35s8x",
+  "title": "I will miss WeakAuras and other addons",
+  "slug": "i_will_miss_weakauras_and_other_addons",
+  "posts_count": 13,
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1,
+        "username": "Andy_Dee",
+        "cooked": "<p>I've been thinking about this ever since I saw my friend playing Remix using only the Blizz UI. I decided to wait and see what we can expect from the dev team in the latest alpha and the first beta builds. I thought maybe something would radically change the UI and we'd get something really cool that could replace the UI we have now, not completely, but maybe about half of it. Now I've seen the whole alpha cycle and the first two weeks of beta. You've already heard about upcoming changes and addon restrictions so you know that it's going to affect big addons such as WeakAuras, ElvUI, Plater, Details, unit frame addons like VuhDo/Cell/Grid2 and others. These changes are not only about \"ban weakauras\" or \"ban combat addons\". It's about banning the huge customization possibilities we have. WeakAuras is too powerful. WeakAuras isn't the addon that \"solves mechanics\" for you, although it can do that if the Blizz devs want it to. It's an addon that can help you customize existing UI elements or create new ones. It fixes issues the devs can't fix or don't want to. This addon doesn't give you advantages over other players, but it helps you make your disadvantages disappear. It's a huge framework that helps you create small addons even if you don't know how to. I have many auras that make my life much easier. An aura that makes an additional sound when I receive a whisper, because there is no separate slider for that in-game. An aura that makes sound and prints text when someone dies, because I just don't notice it otherwise if someone dies and I need to res them. A soulstone reminder with a cute picture. An MC timer reminder. An aura for \"Current expansion only\" filter on auction house. An aura that makes sound when specific debuff on the boss is expiring. And an aura for talent swap, because Blizzard doesn't want to fix hero talent bug for the entire expansion. None of these auras give me any meaningful advantage over any player, they help me fix my or the game problems. WeakAuras can solve raid mechanics for players to the point that you just can't raid without it. Yes and no. Certainly there are some encounters where you can't beat the boss without WA, but in most cases WA is just some sort of reminder. Depending on the combat timer, the phase or the boss's ability it tells you \"dodge\", \"soak\" or other things. It gives you advantage if you don't know what abilities do. If you know the fight, have read or watched guides, then it's not essential. Let's take a look at all raids in this expansion and see which bosses you definitely need WA to \"solve\" the fight. Nerub-ar Palace: only two bosses. Technically just one, but let's say we include the second one as well. First boss is Ovinax (mythic only). Breaking eggs without an assignment is kinda hard, because you need to assign 8 players in a short time. Second boss is Court (mythic only). Technically you don't need WA here, because the colors of the groups are pre-assigned and the groups use pre-assigned patterns to move through the whole fight. You want WA here because it shows you what is your next move. As I said, there's almost no random and you can memorize all movement patterns, it's easier to have a reminder, but it can be done via MRT or TimelineReminders as well. You don't need WA for Kyveza, Rashanan, or Ansurek. Though there's a WA on Ansurek for kick assignment, but you have plenty of time to communicate using voice. Liberation of Undermine: two bosses. Lockenstock (mythic only). Quick assignment for bombs. It can be solved manually, but there's a chance you pick a slow player for the farthest bomb. Mug'zee (p3 mythic only). Assignment for gaols. Don't need WA for OAB, because on heroic and mythic there's pre-assigned coin order. Yet you have \"Kill this\" nameplate WA, but raid leader can mark or ping targets to kill. Gally's a joke. Manaforge Omega: two bosses. Again. I'll start from the last one. Dimensius (mythic only). You want WA for the orbs assignment on p1, and probably p2. But since WA calls for backup for every player, it works partially in terms of \"solving mechanics\". For example, we used discord to call for backup. For p2 you kinda want WA for range/healer soak assignment, though it's not necessary. Fractillus (mythic only). Yes. You need it here. But this boss was created with WA in mind. In some interview devs said they didn't expect that. They're either lying or just pressing random buttons when creating bosses. You don't need WA for Araz or DHs, because you pass debuffs on timer. You don't even need a WA for Salhadaar, which proves devs can design cool bosses without WA in mind. So, you need WA only for 6 bosses out of 24. It's more than 0, but the average player won't easily reach the 5th mythic boss of a raid. What is common for these bosses? Raid difficulty and time. You don't need any \"solving\" WA for heroic raid. You don't need those WAs for the first 4 mythic bosses. But what you need is time. You have few seconds to make a whole-raid decision on who moves where. The devs expect the average person to process and announce to 19 players what each of them should do specifically while playing their own character in just 5 seconds. But look at p3 on Salhadaar with his stars. You have like 8+ seconds to assign 6 people. You got plenty of time for that, that's why you don't need any WA for that fight, and it still feels dynamic. Another example is Neltharion from Aberrus. It was a pain with map for assignment, but devs eventually increased timer to take your position and voilà, you can do it without WA. I don't like fights where you really need WA such as Ovinax or Neltharion. Not because of the fights, but because you need every raid day or every reset to update an aura and be sure other raiders did that. In my raid, we spent like 30 minutes every day when we were progressing Neltharion, because not every raider knew how to update WA or how to fix it. And I'm glad we won't face this problem anymore. But as I said, WeakAuras is more than \"solve mechanics\" addon. But we have addons at home. Let's see. Cooldown manager. Tourist-class aura analogue. I'm not saying it's bad, but it's bad. When I want to hop on some class I don't play much, I just install some \"N class every spec\" aura like Afenar's or Luxthos'. They're well-made general-purpose auras that show you almost everything you need. Sometimes they might miss some season-specific stuff or essential-only-for-that-spec-trinket buff, but they're the best option for everyone who just started to play on some class. Cooldown manager looks kinda like this, but worse. After some time you want to adjust something in your weakaura: change order of spells, move some buff somewhere, add your own or tweak it somehow like adding sound or glow. Cooldown manager can do only a fraction of that. If your aura's missing some tierset or trinket buff, you just add it. If CDM misses, you have to wait until some dev wakes up. Adding more groups? Nope. \"Wrong stance\" or \"missing pet\"? Denied. If I had three characters of the same class, I had to export/import changes across all of them. And CDM is just not designed for some classes, like enhancement shaman. Nameplates. I don't want to talk much about them, because Jundies and Xephyris did that already: Nameplates in Midnight . In general, the plates are a mess. Unitframes. We got an update this week, hooray. They still look mid. And this big ass eye icon just for what? Healers thought it will be LoS indicator, but it's just out-of-range blatant indicator. We already have opacity setting for that and it's working just fine. Debuff and raid size settings are nonsense. I really feel sorry for healers. Bossframes. Don't exist. Damage meter. Worse than Recount. Different windows for dps and damage are funny. I'd say Blizzard UI is fine if you like the game's aesthetic or you just don't care. I used it throughout DF and TWW in raids, because I had a shitty PC. But I got some auras too, because it still lacks something I want. Though first raid test streams and posts on twitter show that many raiders are still using addons, because Blizz UI sucks. If you say we don't need addons to play a raid, why are you so sad about it? You don't need addons, that's right. And I mean every other addon but bossmod, which we have in Midnight. Only for a few bosses, and only in mythic. But other bosses, heroic raid, even mythic plus - you don't need them at all. It's nice to see party cds, interrupts and CCs, but most players just don't use this information even if they have all addons and auras for that. The only information you need, I think, is to see party personals as a healer. But I want my addons because of the customization. Because I need some fixes. Right now devs say: \"Poor hearing? Get good. Bad eyesight? Get good. Short attention span? Get good. We forgot to fix something? Get good.\" I don't care if we can't use communication addons in raid, you can take it. But I want to be in charge of what I see and how I see my character's stuff. But new players, downloading addons, being competitive, access, yada yada. The only addon a new player needs is a bossmod. Again. We're speaking about NEW players and their experience. In their terms to be competitive isn't to clear mythic raid and get into HoF, not to get r1 keys, not to get gladiator. For heroic raids and +15 keys you don't need anything but bossmod. Addons CAN make your experience better, but they're not necessary for said goals for average person. For class auras they have CD Manager. It's not great, but it's working and okay-ish. With Midnight we have our own bossmod, a bit better manager and even slightly better nameplates. And yet, what do we have now? A bunch of addons just to fix the look and some features of shitty default UI again. Relax, it's just an alpha... I mean, beta... I mean, pre-patch... I mean, just the first season... Yeah, I played this game before. I played it for 11 years now and have 1.9k days /played in total. I know how it works. They'll fix visible major parts, we'll get used to this, they'll add one thing we wanted really bad, we're happy, they're happy. Although these addons so raw, Gordon Ramsay could've take LUA courses and make them better in the same 3 months devs have. I'm tired of \"oh, you mean the new N feature that even aren't finished yet?\". It's beta already. Beta is when you polish things, not release them in an alpha state. I think it's cool when game has QoL features out of the box. The thing is, I don't trust Blizzard. They didn't fix UI bugs from DF, they didn't fix hero talent bugs from the start of TWW, they lie in their statements. These lay-offs, AI CS, bugged patches don't really convince me. And this decision to rush with UI changes is just an absurd, especially when they added \"we can't make it in time\". I don't want to see bluepost contains \"Cooldown Manager has been updated to track new buffs, debuffs, and player auras.\" every reset. Like, what are the new buffs, debuffs, auras? Can you be more specific or just give me back ability to make that work for you? They could find another solution to that: make all raid auras private or just cut down the addons' communication channel during active encounter. Yet they decided to gut a big part of the game. And I find it very ridiculous when I see posts about Midnight UI like \"we managed to skin CDM\" or \"we can texture nameplates now\" or \"we can remove player model from the frame\" from AddOn devs. Yeah, that's cool no joke, because these guys are trying to fix what Blizzard did to our UI. But in 2025 we're happy about things that were in vanilla, tbc or wotlk. That's insanely funny. I know that this post won't change anything, but I'm pretty sad about upcoming changes. I can't stop thinking about what Ion said in one of the interviews this year. I can't quote it, but it was something like \"if we give players something cool and then had to nerf it, players will be sad; but if we give players something bad and then buff it, players will be happy\". That's a right thing in terms of psychology. But I'm just tired of the fact that we have to be sad, mad, angry, when we get a new feature, just to get a little bit of sugar on top of it after countless posts and messages. Like, these transmog prices. They made them warband, they will nerf prices eventually, but right now we have only half of the playerbase is happy. Or housing with these crazy old expacs resource prices or flying back and forth across the whole Azeroth, just because I forgot to buy an additional chair or candle. Can we get something good from the beginning without future nerfs, so everyone could be happy from the start and to the end? As for me, Midnight isn't about housing, it's about AddOn removal. I won't unsubscribe at least for the first season. I'm gonna spend days and weeks making my own house. But I don't see a nice and cozy couch when fighting a boss, or an enemy player, or doing quests and delves. I see my cozy UI that I can adjust however I want. And now it's gone.</p>",
+        "created_at": "2025-11-21T18:07:35.925000+0000",
+        "post_number": 1,
+        "reply_to_post_number": null,
+        "reply_count": 12,
+        "like_count": 0,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 2,
+        "username": "trollied",
+        "cooked": "<p>ChatGPT will miss addons. Ok.</p>",
+        "created_at": "2025-11-21T18:24:28.290000+0000",
+        "post_number": 2,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 13,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 3,
+        "username": "Andy_Dee",
+        "cooked": "<p>Yeah, because everyone is using Details. Then Skada. Then Recount. And Blizzard's damage meter is worse than the worst of that three. By boss frames you mean that nonsence frames that can be used only by healers and non-dot dps players, because they don't care? And yeah, I'm not native english speaker, so I used translator and AI to fix mistakes, yet it was still pretty bad.</p>",
+        "created_at": "2025-11-22T07:37:18.098000+0000",
+        "post_number": 3,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 4,
+        "username": "Hashtag00FF96",
+        "cooked": "<p>You don't even need those. Just spend 10~15 minutes on setting up mouseover and conditional macros and you're set.</p>",
+        "created_at": "2025-11-21T18:57:16.512000+0000",
+        "post_number": 4,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 0,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 5,
+        "username": "RegalBeagleKegels",
+        "cooked": "<p>I'm more concerned with simplifying and removing stuff. Not allowing truncated names on nameplates is a garbage decision, for example</p>",
+        "created_at": "2025-11-21T20:04:29.131000+0000",
+        "post_number": 5,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 6,
+        "username": "Andy_Dee",
+        "cooked": "<p>We'll get used to this for sure, I learned that from irl experience. Raids aren't that hard even right now, except some bosses I mentioned in the post. I'm not sure about big disabilities though, like that deaf guild.</p>",
+        "created_at": "2025-11-22T07:51:06.620000+0000",
+        "post_number": 6,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 7,
+        "username": "Worldly-Oil-4463",
+        "cooked": "<p>You're complicating it for yourself</p>",
+        "created_at": "2025-11-21T18:10:17.786000+0000",
+        "post_number": 7,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 9,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 8,
+        "username": "MansSearchForMeming",
+        "cooked": "<p>The addon ecosystem is a big reason why WoW was so successful. Blizz didn't have to worry too much about their UI because the users would just fix it for them. It's going to be sad when everyone's UI looks exactly the same. Custumized UIs are one of the best parts of the game. This is a nightmare for healers. Setting up your unit frames to see what you want to see is a vital part of healing. The unit frame addons have been refined over decades to solve this problem.</p>",
+        "created_at": "2025-11-22T04:23:24.887000+0000",
+        "post_number": 8,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 5,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 9,
+        "username": "Kylroy3507",
+        "cooked": "<p>I'm aware that cosmetic UIs are being kept - though the beta is currently hashing out just what is \"cosmetic\" or not. My point is that I suspect they are rushing to shut down \"encounter solving\" addons before Midnight because they've been designing new encounters to be beaten without those add-ons. So reversing course now would have a bunch of knock-on effects most players don't seem to be aware of.</p>",
+        "created_at": "2025-11-21T19:10:10.204000+0000",
+        "post_number": 9,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 0,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 10,
+        "username": "shinHardc0re",
+        "cooked": "<p>Person that needs a bot to post their opinions will miss bot notifications telling them how to play the game</p>",
+        "created_at": "2025-11-24T23:20:37.972000+0000",
+        "post_number": 10,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 11,
+        "username": "LibraryOrdinary7428",
+        "cooked": "<p>I don't</p>",
+        "created_at": "2025-11-21T18:29:51.155000+0000",
+        "post_number": 11,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 12,
+        "username": "Abitou",
+        "cooked": "<p>The people who complain about WAs don’t even use it and never had to deal with their most annoying facet - setting it up in some mythic bosses</p>",
+        "created_at": "2025-11-21T20:13:42.457000+0000",
+        "post_number": 12,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 0,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 13,
+        "username": "Geminilasers",
+        "cooked": "<p>I will not miss Weak Auras. But I hope their new combat designs make sure I don't miss it. That being said, I'm not some 1% pusher. I doubt this will affect me at all.</p>",
+        "created_at": "2025-11-21T18:32:35.152000+0000",
+        "post_number": 13,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": -2,
+        "version": 1,
+        "trust_level": 1
+      }
+    ]
+  },
+  "jogo": "World of Warcraft",
+  "fonte": "Reddit",
+  "seccao": "r/wow",
+  "url_fonte": "https://www.reddit.com/r/wow/comments/1p35s8x/i_will_miss_weakauras_and_other_addons/"
+}

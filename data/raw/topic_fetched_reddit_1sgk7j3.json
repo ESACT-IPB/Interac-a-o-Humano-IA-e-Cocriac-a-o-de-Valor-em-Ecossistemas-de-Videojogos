@@ -1,0 +1,98 @@
+{
+  "id": "reddit_1sgk7j3",
+  "title": "slow wow for years, still havent been able to fix.",
+  "slug": "slow_wow_for_years_still_havent_been_able_to_fix",
+  "posts_count": 7,
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1,
+        "username": "DarkKnightRasil",
+        "cooked": "<p>Can't seem to fix the lag issue in wow. In big raids screen freezes to the point where I can't even check what mechanics appear. Small raids still unable to really participate fully. Ive cleaed cache file and WTF, even removed addons and lowered visuals and still get lag low FPS. In raids it will typically drop to 10 FPS and even 1 FPS. Idle in lower population zones I can sit at 60 fps. PC build: CPU: Intel Core I9 10900K 3.70 GHz CPU cooler: ROG RYUJIN III 360 ARGB Extreme (AIO) Motherboard: ROG Maximus XII Hero Ram: DDR4 64GB (2 sticks 32x2) *UPGRADED) SSD/HDD: SSD EVO M.3 900 2TB *UPGRADED( GPU: NVIDIA GeForce RTX 3080 PSU: CORSAIR RM1000X (3 years old) Chassis: Thermaltake View 71 4-Sided Tempered Glass Vertical GPU Modular SPCC E-ATX Gaming Full Tower Computer Case with 2 Blue LED Ring Fan Pre-installed CA-1I7-00F1WN-00 OS: Windows 11 Monitor: x2 - Dell P2714H IPS 27-Inch Screen LED-Lit Monitor - Dell Professional P2717H 27\" Screen LED-Lit Monitor,Black</p>",
+        "created_at": "2026-04-09T08:54:10.577000+0000",
+        "post_number": 1,
+        "reply_to_post_number": null,
+        "reply_count": 6,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 2,
+        "username": "mtamburelli",
+        "cooked": "<p>I would check temperatures and check if the rtx is set as gpu to be used in the WoW settings. If everything's fine, I would do a fresh Win install + WoW install, drivers and everything and try. I had a 3070 and performance were ok.</p>",
+        "created_at": "2026-04-09T08:59:14.313000+0000",
+        "post_number": 2,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 3,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 3,
+        "username": "Money-Tutor-5847",
+        "cooked": "<p>TO EVERYONE WHO HAS LOW FPS, DO THIS: CTRL + S TURN THE SOUND OFF, it is bugged it seems.. it gives 80+ fps boost... I know playing without sounds is weird but it does work.. Thank god blizzard is a small indy company we got to be patient on this f2p game.</p>",
+        "created_at": "2026-04-09T12:18:31.218000+0000",
+        "post_number": 3,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 4,
+        "username": "legendarylink1",
+        "cooked": "<p>I know exactly what's wrong with it and it's related to the 3xxx series. They for what ever reason get the GPU clock speed locked to idle levels. The best way to fix this is to use something like msi afterburner or similar app and just set default clock speed. I noticed this mostly happened after a driver update.</p>",
+        "created_at": "2026-04-09T09:07:02.531000+0000",
+        "post_number": 4,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 5,
+        "username": "MrWiemann",
+        "cooked": "<p>First off, i would adjust your gpu settings in something like msi afterburner. I used this guys tutorial to adjust settings for my 3070ti, did a bunch for my gpus overall performance https://youtu.be/3OhT_nAgJ2I?is=QM7gGTalZ1IKA-jC Secondly, try to set you audio channels to 32, something has gone wrong with audio files in midnight. This gave a slight boost to my fps. Thirdly, adjust your ingame graphics settings. Look up some of quazis old optimization videos perhaps. For my 3070ti, it helped a lot to turn off vsync and triple buffering, as well as using the fidelityX setting paired with setting rendering scale to 0.999 (/console set renderscale 0.999 i think?)</p>",
+        "created_at": "2026-04-09T16:43:30.097000+0000",
+        "post_number": 5,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 6,
+        "username": "madmax2433",
+        "cooked": "<p>I know that the sound one is a big major bug that I heard about. You could try that. I would also take a look and see if you have any Ray tracing active on your graphic settings. I was getting major lag in Silvermoon. I found that my Graphics had Ray traced Shadows on extremely high and when I turn that off I got a huge performance boost.</p>",
+        "created_at": "2026-04-09T20:39:12.320000+0000",
+        "post_number": 6,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 7,
+        "username": "stevee303",
+        "cooked": "<p>I loaded my pc specs into Grok (or ChatGPT, I can't recall) and asked it to optimise my pc and WOW game settings for the best performance. Then followed the list and did everything I understood. It was a huge improvement.</p>",
+        "created_at": "2026-04-09T09:28:28.499000+0000",
+        "post_number": 7,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      }
+    ]
+  },
+  "jogo": "World of Warcraft",
+  "fonte": "Reddit",
+  "seccao": "r/wow",
+  "url_fonte": "https://www.reddit.com/r/wow/comments/1sgk7j3/slow_wow_for_years_still_havent_been_able_to_fix/"
+}

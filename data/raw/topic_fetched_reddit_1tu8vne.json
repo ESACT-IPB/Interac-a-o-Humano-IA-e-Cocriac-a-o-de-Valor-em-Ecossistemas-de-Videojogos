@@ -1,0 +1,182 @@
+{
+  "id": "reddit_1tu8vne",
+  "title": "The \"thematic bloat\" of Hunters and a concept of how to solve it.",
+  "slug": "the_thematic_bloat_of_hunters_and_a_concept_of",
+  "posts_count": 14,
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1,
+        "username": "Destinum",
+        "cooked": "<p>I've seen a lot of people express sentiment that Hunter is currently thematically unsatisfying: The Hero Talents feel super out-of-character unless you want to be an elf or specifically Rexxar, Marksmanship doesn't know if it wants to be a sniper or a machine gun, and Survival is really into gunpowder despite being a melee spec. Essentially, because Hunter is the only class that uses ranged weapons, Blizzard tries to cram in every character fantasy related to this into the class, and the way it's currently structured simply doesn't support it. A lot of people have suggested a new class to \"offload\" part of the burden on, but I don't necessarily think that's needed. Rather, the best solution I could come up with was a \"reorganisation\" of the class, as follows: Specs Gadgeteering (new spec replacing Beast Mastery): Ranged spec with a focus on rapid shots, explosives and traps. Obviously a gun is the most thematically fitting weapon, but can still use bows and crossbows to not be unnecessarily limiting. Marksmanship: Essentially a sniper, leaning into the increased range from its mastery and the fact that Aimed Shot is its most central ability. Survival: A melee fighter with a pet. While there can (and probably should) be more to the theme than that, it should nevertheless be the core of the spec since it's what makes it unique in the game as a whole (only other spec that's similar is Unholy Death Knight). Hero Talents (completely overhauled) Beastmaster (Gadgeteering/Survival): Pet focused stuff, obviously, more or less recycling stuff from the current Beast Master and Pack Leader. One example I have in mind could be a version of the current Animal Companion/Solitary Companion talent, where the Solitary Companion part is also what allows you to tame/use Exotic Pets. Ranger (Marksmanship/Survival): Magic stuff, possibly stealth too as a more prominent thing. Has a lot of \"Choose One\" talents for things like damage types, so you can aim for a specific aesthetic like the current Dark Ranger and Sentinel. Lone Wolf (Gadgeteering/Marksmanship): For anyone who wants to use a ranged weapon but not a pet.</p>",
+        "created_at": "2026-06-01T23:00:29.191000+0000",
+        "post_number": 1,
+        "reply_to_post_number": null,
+        "reply_count": 13,
+        "like_count": 0,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 2,
+        "username": "SocialistScissors",
+        "cooked": "<p>I feel like every time I see a \"let's fix hunter's identity\" post, they always suggest removing BM even though it is the one hunter subclass that should have absolutely zero changes. Like, id remove both survival and marksman before I even think about removing BM.</p>",
+        "created_at": "2026-06-02T06:36:04.488000+0000",
+        "post_number": 2,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 5,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 3,
+        "username": "xUndeadJesterx",
+        "cooked": "<p>I'm just giving you a hard time. Beast mastery has 0 soul in Midnight so I'd take it.</p>",
+        "created_at": "2026-06-01T23:39:02.086000+0000",
+        "post_number": 3,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 4,
+        "username": "sleppeb",
+        "cooked": "<p>Better idea: give the single pet focus that SV stole back to BM and replace SV with gadgeteering because a) that actually matches the spec's roots and b) melee Hunter is nonsense.</p>",
+        "created_at": "2026-06-08T02:06:56.479000+0000",
+        "post_number": 4,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 5,
+        "username": "fox112",
+        "cooked": "<p>asking chatgpt how to make a video game is not the answer lol</p>",
+        "created_at": "2026-06-01T23:01:56.696000+0000",
+        "post_number": 5,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 15,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 6,
+        "username": "Laomanse",
+        "cooked": "<p>So basically: no devilsaur until you’re 80? No thanks.</p>",
+        "created_at": "2026-06-01T23:06:25.791000+0000",
+        "post_number": 6,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 7,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 7,
+        "username": "Glocktor44",
+        "cooked": "<p>No thanks 👍</p>",
+        "created_at": "2026-06-01T23:14:13.322000+0000",
+        "post_number": 7,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 5,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 8,
+        "username": "pvshabba",
+        "cooked": "<p>Just add tinker as a new class, or a fourth spec for hunters. Make survival more of a shadowhunter with a return to spears, poisons (serpent sting), and a greater emphasis on nature rather than guns/explosives. Replacing beast mastery is an insane idea for a fix…</p>",
+        "created_at": "2026-06-01T23:18:58.820000+0000",
+        "post_number": 8,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 5,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 9,
+        "username": "sleppeb",
+        "cooked": "<p>Survival Hunter hands wrote this post.</p>",
+        "created_at": "2026-06-08T02:04:12.489000+0000",
+        "post_number": 9,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 10,
+        "username": "Milf-Whisperer",
+        "cooked": "<p>Most hunters are just archers at this point.</p>",
+        "created_at": "2026-06-01T23:13:07.290000+0000",
+        "post_number": 10,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 11,
+        "username": "KingEsoteric",
+        "cooked": "<p>Swap Beastmaster and Gadgeteering. Call Gadgeteering something with a trapper connotation. Honestly, Survival should become a tank.</p>",
+        "created_at": "2026-06-02T00:53:02.090000+0000",
+        "post_number": 11,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 12,
+        "username": "sleppeb",
+        "cooked": "<p>Why should BM, the most popular Hunter spec, be replaced? We already had a spec that had that gadgeteering focus, and that was Survival before it got mutilated into a melee spec. But obviously Survival Hunter hands wrote this post so evidently it has to be BM that gets deleted. The actual dead weight of the Hunter class (Survival) is obvious to everyone with eyes and without bias.</p>",
+        "created_at": "2026-06-08T02:05:52.903000+0000",
+        "post_number": 12,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 13,
+        "username": "cryssHappy",
+        "cooked": "<p>So squishy mage and loc fight up close and personal? Let me tap the big, bad NPC with my wand .. take that.</p>",
+        "created_at": "2026-06-01T23:24:08.773000+0000",
+        "post_number": 13,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 14,
+        "username": "sYnce",
+        "cooked": "<p>You are summoning your primary pets out of thin air as well? You have a bag that can hold hundreds or thousands of items. Not that far fetched that you also have some dimensional stable with a ton of pets to summon from.</p>",
+        "created_at": "2026-06-02T06:02:43.382000+0000",
+        "post_number": 14,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      }
+    ]
+  },
+  "jogo": "World of Warcraft",
+  "fonte": "Reddit",
+  "seccao": "r/wow",
+  "url_fonte": "https://www.reddit.com/r/wow/comments/1tu8vne/the_thematic_bloat_of_hunters_and_a_concept_of/"
+}

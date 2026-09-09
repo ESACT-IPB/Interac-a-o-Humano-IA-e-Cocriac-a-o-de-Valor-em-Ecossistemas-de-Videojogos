@@ -1,0 +1,38 @@
+{
+  "id": "reddit_1tvlpnw",
+  "title": "Sick of spam and bots ruining our game? Here's an addon that uses machine learning to quarantine and block spammers in trade and services chat!",
+  "slug": "sick_of_spam_and_bots_ruining_our_game_heres_an",
+  "posts_count": 2,
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1,
+        "username": "OSiRiS-NZ",
+        "cooked": "<p>(Reddit post): Sick of spam and bots ruining our game? Here's an addon that uses machine learning to quarantine and block spammers in trade and services chat!</p>",
+        "created_at": "2026-06-03T10:50:33.083000+0000",
+        "post_number": 1,
+        "reply_to_post_number": null,
+        "reply_count": 1,
+        "like_count": 0,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 2,
+        "username": "AzerothianLorecraft",
+        "cooked": "<p>I had an add-on during BFA or maybe it was a WA I can't actually remember all I had to do was Mouse over a bot and click them with the hotkey Pressed and it would bring up the report window and fill in the box with their coordinates a timestamp and the reason for report botting then just press enter. ( it quit working after BFA ended and I've not found a replacement yet.)</p>",
+        "created_at": "2026-06-04T00:19:27.535000+0000",
+        "post_number": 2,
+        "reply_to_post_number": 1,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      }
+    ]
+  },
+  "jogo": "World of Warcraft",
+  "fonte": "Reddit",
+  "seccao": "r/wow",
+  "url_fonte": "https://www.reddit.com/r/wow/comments/1tvlpnw/sick_of_spam_and_bots_ruining_our_game_heres_an/"
+}
