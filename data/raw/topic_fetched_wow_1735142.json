@@ -1,0 +1,870 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 22179158,
+        "name": "Knoland",
+        "username": "Knoland-3051697",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-12-07T20:45:14.966Z",
+        "cooked": "<p>The Season of Discovery in World of Warcraft Classic brings a refreshing and enjoyable experience to players. Here are some reasons why this seasonal classic game is so much fun:</p>\n<ol>\n<li><strong>Nostalgic Journey:</strong> Season of Discovery allows players to relive the classic World of Warcraft experience with its original content, creating a nostalgic journey for those who enjoyed the game in its early days. It’s a blast from the past that brings back fond memories.</li>\n<li><strong>Fresh Challenges:</strong> The seasonal format introduces new challenges and goals, keeping the gameplay dynamic. This freshness is particularly appealing to veteran players who may have mastered the original content and are looking for a renewed sense of adventure.</li>\n<li><strong>Community Engagement:</strong> World of Warcraft has always been about the community, and the Season of Discovery emphasizes this aspect. Players collaborate on quests, dungeons, and raids, fostering a sense of camaraderie that is crucial to the game’s social fabric.</li>\n<li><strong>Evolving Meta:</strong> With each season, the game’s meta evolves as players discover and optimize strategies. This constant evolution keeps the gameplay exciting and ensures that even seasoned players face new and interesting challenges.</li>\n<li><strong>Limited-Time Rewards:</strong> Exclusive rewards and achievements tied to the seasonal content act as powerful incentives. These limited-time rewards encourage players to participate actively during the season, adding an extra layer of excitement and competition.</li>\n<li><strong>Balancing Act:</strong> The Season of Discovery often brings adjustments to game balance, addressing player feedback and ensuring a more enjoyable experience. This commitment to refining the game contributes to a better overall gaming environment.</li>\n<li><strong>Seasonal Events:</strong> Special in-game events and activities, unique to each season, add an extra layer of entertainment. From festivals to special boss encounters, these events break the routine and inject a festive spirit into the game.</li>\n<li><strong>Character Progression:</strong> The seasonal structure allows for a fresh start in terms of character progression. Players can create new characters and explore different classes, experimenting with varied playstyles and strategies.</li>\n<li><strong>Accessibility:</strong> For new players or those who may have missed the original World of Warcraft era, the Season of Discovery provides an accessible entry point. It allows them to experience the classic content without feeling overwhelmed by years of accumulated changes.</li>\n<li><strong>Developer Interaction:</strong> The seasonal format enables developers to actively engage with the player base, gathering feedback and implementing changes based on community input. This direct interaction contributes to a sense of partnership between players and developers.</li>\n</ol>\n<p>In conclusion, the Season of Discovery in World of Warcraft Classic offers a delightful blend of nostalgia, fresh challenges, and community engagement. With its evolving meta, limited-time rewards, and special events, it creates a compelling and dynamic gaming experience that captivates both new and returning players.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 2,
+        "updated_at": "2026-07-02T03:28:35.558Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 58,
+        "reads": 40,
+        "readers_count": 39,
+        "score": 293.0,
+        "yours": false,
+        "topic_id": 1735142,
+        "topic_slug": "i-asked-chatgpt-to-explain-why-sod-is-fun%E2%80%A6",
+        "display_username": "Knoland",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3051697,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/stormrage/knolånd/",
+          "guild": "F R I E N D S",
+          "achievement_points": "0",
+          "race": "Human",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "classic": "t",
+          "level": "60",
+          "blizzard_post_count": "6529"
+        },
+        "post_url": "/t/i-asked-chatgpt-to-explain-why-sod-is-fun%E2%80%A6/1735142/1",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/crusader-strike/202/43968714-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Knoland-crusader-strike",
+        "poster_alias": {
+          "alias": {
+            "name": "Knoland-crusader-strike",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/crusader-strike/202/43968714-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": null,
+            "user_id": 3051697,
+            "id": 2061563,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 501,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Crusader Strike"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "50"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/crusader-strike/202/43968714-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Knoland-crusader-strike"
+              },
+              {
+                "name": "guild",
+                "value": "Dark Knights"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 6529,
+        "character": {
+          "name": "Knoland",
+          "guild": "F R I E N D S",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Warrior",
+          "race": "Human",
+          "player_class_enum": "WARRIOR",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 22179172,
+        "name": "Streeturchin",
+        "username": "Streeturchin-426764",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-12-07T20:46:47.799Z",
+        "cooked": "<p>Just flag ChatGPT posts as spam everyone.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 2,
+        "updated_at": "2023-12-07T20:46:47.799Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 25,
+        "readers_count": 24,
+        "score": 25.0,
+        "yours": false,
+        "topic_id": 1735142,
+        "topic_slug": "i-asked-chatgpt-to-explain-why-sod-is-fun%E2%80%A6",
+        "display_username": "Streeturchin",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 426764,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/emerald-dream/bilk/",
+          "race": "Goblin",
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "classic": "t",
+          "guild": "Murder Row Cutthroat",
+          "blizzard_post_count": "2278",
+          "level": "50",
+          "achievement_points": "3370"
+        },
+        "post_url": "/t/i-asked-chatgpt-to-explain-why-sod-is-fun%E2%80%A6/1735142/2",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/emerald-dream/102/117188454-avatar.jpg?alt=/wow/static/images/2d/avatar/9-0.jpg",
+        "alias_username": "Bilk-emerald-dream",
+        "poster_alias": {
+          "alias": {
+            "name": "Bilk-emerald-dream",
+            "avatar": "https://render.worldofwarcraft.com/us/character/emerald-dream/102/117188454-avatar.jpg?alt=/wow/static/images/2d/avatar/9-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/emerald-dream/bilk/",
+            "user_id": 426764,
+            "id": 374690,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 986,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/emerald-dream/bilk/"
+              },
+              {
+                "name": "realm",
+                "value": "Emerald Dream"
+              },
+              {
+                "name": "achievement_points",
+                "value": "3370"
+              },
+              {
+                "name": "level",
+                "value": "50"
+              },
+              {
+                "name": "race",
+                "value": "Goblin"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/emerald-dream/102/117188454-avatar.jpg?alt=/wow/static/images/2d/avatar/9-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Bilk-emerald-dream"
+              },
+              {
+                "name": "guild",
+                "value": "Murder Row Cutthroat"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 2278,
+        "character": {
+          "name": "Streeturchin",
+          "guild": "Murder Row Cutthroat",
+          "achievement_points": "3370",
+          "level": "50",
+          "class": "Mage",
+          "race": "Goblin",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ],
+    "stream": [
+      22179158,
+      22179172
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      1007
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "fancy_title": "XP will not turn back on",
+      "id": 2341102,
+      "title": "XP will not turn back on",
+      "slug": "xp-will-not-turn-back-on",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2026-08-25T21:37:18.098Z",
+      "last_posted_at": "2026-08-25T21:37:18.247Z",
+      "bumped": true,
+      "bumped_at": "2026-08-25T21:37:18.247Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Exactly as the title states. I go to the Rune Broker to turn on experience gains, I click the button, nothing happens but the dialogue options ending. I have been to all of the Rune Brokers at the starting zones as well &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 64,
+      "category_id": 302,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 3296572,
+            "username": "Scogginator-3296572",
+            "name": "Scogginator",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 1,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Looking for a guild",
+      "id": 2345231,
+      "title": "Looking for a guild",
+      "slug": "looking-for-a-guild",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2026-09-05T23:47:12.583Z",
+      "last_posted_at": "2026-09-05T23:47:12.729Z",
+      "bumped": true,
+      "bumped_at": "2026-09-05T23:47:12.729Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "I’m  lvl 52 shadow priest but once i reach 60 ill be transitioning to be full time healer.  in-game name in Nathonin on wild growth",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 35,
+      "category_id": 302,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 2401047,
+            "username": "devilsixx-2401047",
+            "name": "devilsixx",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 1,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Is SoD still pretty active?",
+      "id": 2345994,
+      "title": "Is SoD still pretty active?",
+      "slug": "is-sod-still-pretty-active",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2026-09-08T18:04:31.838Z",
+      "last_posted_at": "2026-09-08T18:04:31.946Z",
+      "bumped": true,
+      "bumped_at": "2026-09-08T18:04:31.946Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Been getting the itch to try SoD again after I played it at launch; is the community pretty active?",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 33,
+      "category_id": 302,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 1045812,
+            "username": "Bloodseer-1045812",
+            "name": "Bloodseer",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Name issue",
+      "id": 2343849,
+      "title": "Name issue",
+      "slug": "name-issue",
+      "posts_count": 4,
+      "reply_count": 0,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2026-09-02T08:03:11.226Z",
+      "last_posted_at": "2026-09-02T08:41:10.938Z",
+      "bumped": true,
+      "bumped_at": "2026-09-02T08:41:10.938Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "So I have a character on alliance side that I wanna restore but the game won’t let me because I have a horde toon now with the same name. Is there a way to get rid of the horde toon so I can get back on the ally or am I &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 27,
+      "category_id": 302,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3228210,
+            "username": "Jaxdad-3228210",
+            "name": "Jaxdad",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2021159,
+            "username": "Uglemor-2021159",
+            "name": "Uglemor",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 4726,
+            "username": "Teufelgott-4726",
+            "name": "Teufelgott",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 2922180,
+            "username": "HolyTemplar-2922180",
+            "name": "HolyTemplar",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Scarlet Paladin Weapon Transmog",
+      "id": 2344887,
+      "title": "Scarlet Paladin Weapon Transmog",
+      "slug": "scarlet-paladin-weapon-transmog",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2026-09-04T23:44:43.271Z",
+      "last_posted_at": "2026-09-06T09:10:25.740Z",
+      "bumped": true,
+      "bumped_at": "2026-09-06T09:10:25.740Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Old man Paladin here.  I love the simple “Field Plate” set.  The modern Scarlet Shield matches well, but I am looking for opinion on 1H weaps, and 2H for when I run Ret.  Currently Using Fel Iron Greatsword for Ret, and &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 162,
+      "category_id": 181,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3139183,
+            "username": "Darkblade-3139183",
+            "name": "Darkblade",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 1,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 68434,
+            "username": "wership-68434",
+            "name": "wership",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 2447251,
+            "username": "SKW-2447251",
+            "name": "SKW",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    }
+  ],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "I asked CHATGPT to explain why SoD is fun…",
+  "id": 1735142,
+  "title": "I asked CHATGPT to explain why SoD is fun…",
+  "posts_count": 2,
+  "created_at": "2023-12-07T20:45:14.757Z",
+  "views": 248,
+  "reply_count": 0,
+  "like_count": 1,
+  "last_posted_at": "2023-12-07T20:46:47.799Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "i-asked-chatgpt-to-explain-why-sod-is-fun%E2%80%A6",
+  "category_id": 302,
+  "word_count": 465,
+  "deleted_at": null,
+  "user_id": 3051697,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_1735142",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 2,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 1001,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1002,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1003,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1004,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1005,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 2,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 426764,
+        "username": "Streeturchin-426764",
+        "name": "Streeturchin",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Bilk-emerald-dream",
+            "avatar": "https://render.worldofwarcraft.com/us/character/emerald-dream/102/117188454-avatar.jpg?alt=/wow/static/images/2d/avatar/9-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/emerald-dream/bilk/",
+            "user_id": 426764,
+            "id": 374690,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 986,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/emerald-dream/bilk/"
+              },
+              {
+                "name": "realm",
+                "value": "Emerald Dream"
+              },
+              {
+                "name": "achievement_points",
+                "value": "3370"
+              },
+              {
+                "name": "level",
+                "value": "50"
+              },
+              {
+                "name": "race",
+                "value": "Goblin"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/emerald-dream/102/117188454-avatar.jpg?alt=/wow/static/images/2d/avatar/9-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Bilk-emerald-dream"
+              },
+              {
+                "name": "guild",
+                "value": "Murder Row Cutthroat"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 3051697,
+        "username": "Knoland-3051697",
+        "name": "Knoland",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Knoland-crusader-strike",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/crusader-strike/202/43968714-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": null,
+            "user_id": 3051697,
+            "id": 2061563,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 501,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Crusader Strike"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "50"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/crusader-strike/202/43968714-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Knoland-crusader-strike"
+              },
+              {
+                "name": "guild",
+                "value": "Dark Knights"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      }
+    ],
+    "created_by": {
+      "id": 3051697,
+      "username": "Knoland-3051697",
+      "name": "Knoland",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    },
+    "last_poster": {
+      "id": 426764,
+      "username": "Streeturchin-426764",
+      "name": "Streeturchin",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    }
+  },
+  "bookmarks": [],
+  "jogo": "World of Warcraft",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Oficial Blizzard",
+  "url_fonte": "https://us.forums.blizzard.com/en/wow/t/i-asked-chatgpt-to-explain-why-sod-is-fun%E2%80%A6/1735142",
+  "canonical_url": "https://us.forums.blizzard.com/en/wow/t/i-asked-chatgpt-to-explain-why-sod-is-fun%E2%80%A6/1735142"
+}

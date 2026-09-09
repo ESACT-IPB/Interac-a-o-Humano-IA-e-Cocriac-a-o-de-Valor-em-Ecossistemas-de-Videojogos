@@ -1,0 +1,121 @@
+{
+  "id": "1uroo6b",
+  "title": "One Page To Check If Esi Zkill Janice Dotlan",
+  "jogo": "EVE Online",
+  "fonte": "Reddit",
+  "seccao": "r/Eve",
+  "url_fonte": "https://www.reddit.com/r/Eve/comments/1uroo6b/one_page_to_check_if_esi_zkill_janice_dotlan",
+  "canonical_url": "https://www.reddit.com/r/Eve/comments/1uroo6b/one_page_to_check_if_esi_zkill_janice_dotlan",
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1,
+        "username": "bamasmith",
+        "cooked": "<p>nice</p>",
+        "created_at": "2026-07-09T12:24:02Z",
+        "post_number": 1,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 2,
+        "username": "Andropofken",
+        "cooked": "<p>nice</p>",
+        "created_at": "2026-07-09T12:31:10Z",
+        "post_number": 2,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 3,
+        "username": "Triple_Double_Eve",
+        "cooked": "<p>  \nnice\n\n![gif](giphy|9r75ILTJtiDACKOKoY)\n\n  \nVibe coding and Claude make magic become reality!</p>",
+        "created_at": "2026-07-09T19:51:32Z",
+        "post_number": 3,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 0,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 4,
+        "username": "z4nr34l",
+        "cooked": "<p>Vibe coding don't use PPR to make perfectly aligned suspense shells, but yeah, can agree :D</p>",
+        "created_at": "2026-07-09T20:42:38Z",
+        "post_number": 4,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 5,
+        "username": "illuminatedcorp",
+        "cooked": "<p>Where’s the source code </p>",
+        "created_at": "2026-07-10T16:34:20Z",
+        "post_number": 5,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 6,
+        "username": "z4nr34l",
+        "cooked": "<p>GitHub, gonna public it when I’m finished with work I planned :)</p>",
+        "created_at": "2026-07-11T10:42:11Z",
+        "post_number": 6,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 7,
+        "username": "z4nr34l",
+        "cooked": "<p>Here you go!\n\n[https://github.com/zanreal-labs/eve-tools-status](https://github.com/zanreal-labs/eve-tools-status)\n\nAlso added link in page footer ;)</p>",
+        "created_at": "2026-07-11T11:54:06Z",
+        "post_number": 7,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 8,
+        "username": "Severe_Principle_491",
+        "cooked": "<p>Now I need a tool to check if this tool is down...</p>",
+        "created_at": "2026-07-12T14:36:27Z",
+        "post_number": 8,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 9,
+        "username": "z4nr34l",
+        "cooked": "<p>IMO still easier to check one place than use VPNs/Cellular to check if it’s not only your ISP</p>",
+        "created_at": "2026-07-12T15:23:31Z",
+        "post_number": 9,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      }
+    ]
+  }
+}

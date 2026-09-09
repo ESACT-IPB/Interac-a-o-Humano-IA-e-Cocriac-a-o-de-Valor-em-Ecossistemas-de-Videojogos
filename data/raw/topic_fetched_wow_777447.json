@@ -1,0 +1,1366 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 11221995,
+        "name": "extraneous",
+        "username": "extraneous-112120",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2020-12-15T15:29:00.197Z",
+        "cooked": "<p>Free ideas for blizz to try.</p>\n<p>Blizzard is a business which invests significantly, whether it appears so or not, in beta testing of this game. They have devs, testers, designers, etc who are all trying to create a pleasant experience and retain, if not grow, the playerbase. Having a poor game experience while over-investing in development resources, who use stale analytics techniques to balance the game in the modern era, are both bad for business.</p>\n<p>From a business perspective, there is valuable business data being created daily by arena matches at all levels. This data could be analyzed the old way, humans or data scientists looking at simple rating charts (% of rogues over 2200 for example) and turning knobs based on high level inputs, or it could be actually put into modern machine learning models to remove the human aspect, and their bias, from the analysis.</p>\n<p>For example to balance 3v3s blizzard could build a predictive/regressive model that would take the classes as inputs as well as the individual performance of each player each match (number of kicks landed, cc chain duration, damage mitigated by defensive cds, etc), and outputs a prediction of which team will win. They have ample data to train this model against, and if they are able to produce a model that’s even 90% accurate (which is very low by today’s AI standards), they would actually have a tool to use when they decide ‘hey let’s nerf this by 50%’ or something.</p>\n<p>In that case, they would simulate the nerf, run that class change through the model 100k times (or some large number), and determine if they have overtuned or undertuned with their proposed change.</p>\n<p>This may seem complicated and very foreign, but this is truly not revolutionary, and blizzard is one of the businesses that truly has access to all the data they could ever want to perform tuning with, and if they are not using machine learning to tune their game in 2020, they are squandering a great opportunity.</p>\n<p>signed,</p>\n<p>a computer scientist.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 5,
+        "updated_at": "2020-12-15T15:30:37.078Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 355,
+        "reads": 51,
+        "readers_count": 50,
+        "score": 1825.2,
+        "yours": false,
+        "topic_id": 777447,
+        "topic_slug": "using-machine-learning-to-balance-arena",
+        "display_username": "extraneous",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 112120,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Orc",
+          "class": "Shaman",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/skullcrusher/plebzgosplat/",
+          "player_class_enum": "SHAMAN",
+          "guild": "Fat Kids Only",
+          "level": "70",
+          "blizzard_post_count": "24",
+          "achievement_points": "8990"
+        },
+        "post_url": "/t/using-machine-learning-to-balance-arena/777447/1",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/skullcrusher/248/213980920-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "alias_username": "Plebzgosplat-skullcrusher",
+        "poster_alias": {
+          "alias": {
+            "name": "Plebzgosplat-skullcrusher",
+            "avatar": "https://render.worldofwarcraft.com/us/character/skullcrusher/248/213980920-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/skullcrusher/plebzgosplat/",
+            "user_id": 112120,
+            "id": 715579,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 24,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/skullcrusher/plebzgosplat/"
+              },
+              {
+                "name": "realm",
+                "value": "Skullcrusher"
+              },
+              {
+                "name": "achievement_points",
+                "value": "8990"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Shaman"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "SHAMAN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "guild",
+                "value": "Fat Kids Only"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 24,
+        "character": {
+          "name": "extraneous",
+          "guild": "Fat Kids Only",
+          "achievement_points": "8990",
+          "level": "70",
+          "class": "Shaman",
+          "race": "Orc",
+          "player_class_enum": "SHAMAN",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 11222620,
+        "name": "Vykuu",
+        "username": "Vykuu-3133423",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2020-12-15T15:47:19.363Z",
+        "cooked": "<ol>\n<li>\n<p>“Simulate the nerf” is the actual hard part of doing this. You would need to simulate actual 3v3 combat, not just throw classes as labels into some simple model.</p>\n</li>\n<li>\n<p>100k/year+ for an ML researcher to build a complex model of a type that took openAI/Deepmind years to perfect and relied on saved replay data (and in Deepmind’s case Blizzard explicitly making a research binary for faster training). Add in a few more team members plus the physical cost of training a complex model, and it’s definitely not free.</p>\n</li>\n<li>\n<p>Human players who play things like the beta naturally explore the changed regions of the feature space. You can’t take a pre-trained model, throw it a new bone, and expect it to use that bone optimally. This would mean that such a model could only ever be provably useful for predicting number tuning balance changes as opposed to reworks. Unless transfer learning makes some large leaps you’re going to have to retrain the model from a baseline each time there’s a significant class/item change (like at least every patch).</p>\n</li>\n</ol>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 5,
+        "updated_at": "2026-06-28T10:26:06.559Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 32,
+        "readers_count": 31,
+        "score": 41.4,
+        "yours": false,
+        "topic_id": 777447,
+        "topic_slug": "using-machine-learning-to-balance-arena",
+        "display_username": "Vykuu",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3133423,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/kelthuzad/spelunky/",
+          "guild": "Basement Wizards",
+          "achievement_points": "19435",
+          "level": "80",
+          "race": "Dracthyr",
+          "class": "Evoker",
+          "player_class_enum": "EVOKER",
+          "blizzard_post_count": "789"
+        },
+        "post_url": "/t/using-machine-learning-to-balance-arena/777447/2",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/kelthuzad/207/219590095-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+        "alias_username": "Akeu-kelthuzad",
+        "poster_alias": {
+          "alias": {
+            "name": "Akeu-kelthuzad",
+            "avatar": "https://render.worldofwarcraft.com/us/character/kelthuzad/207/219590095-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/kelthuzad/akeu/",
+            "user_id": 3133423,
+            "id": 48984,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 479,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/kelthuzad/akeu/"
+              },
+              {
+                "name": "realm",
+                "value": "Kel'Thuzad"
+              },
+              {
+                "name": "achievement_points",
+                "value": "20230"
+              },
+              {
+                "name": "level",
+                "value": "63"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/kelthuzad/207/219590095-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Akeu-kelthuzad"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 789,
+        "character": {
+          "name": "Vykuu",
+          "guild": "Basement Wizards",
+          "achievement_points": "19435",
+          "level": "80",
+          "class": "Evoker",
+          "race": "Dracthyr",
+          "player_class_enum": "EVOKER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 11222877,
+        "name": null,
+        "username": "Acerola-darkspear",
+        "avatar_template": "https://render.worldofwarcraft.com/us/character/darkspear/75/144648779-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "created_at": "2020-12-15T15:54:34.938Z",
+        "cooked": "<p>Dont blizz cooperate with google before? for the star craft AI or some thing, sorry i dont really remanber what it is.</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 5,
+        "updated_at": "2020-12-15T15:54:34.938Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 3,
+        "reads": 23,
+        "readers_count": 22,
+        "score": 24.6,
+        "yours": false,
+        "topic_id": 777447,
+        "topic_slug": "using-machine-learning-to-balance-arena",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1236467,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/darkspear/acerola/",
+          "guild": "Azeroth Liberation Army",
+          "class": "Death Knight",
+          "player_class_enum": "DEATHKNIGHT",
+          "race": "Human",
+          "blizzard_post_count": "41",
+          "achievement_points": "15240",
+          "level": "60"
+        },
+        "post_url": "/t/using-machine-learning-to-balance-arena/777447/3",
+        "alias_avatar": null,
+        "alias_username": null,
+        "poster_alias": null,
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 41,
+        "character": {
+          "name": "Acerola",
+          "guild": "Azeroth Liberation Army",
+          "achievement_points": "15240",
+          "level": "60",
+          "class": "Death Knight",
+          "race": "Human",
+          "player_class_enum": "DEATHKNIGHT",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 11223138,
+        "name": "Corrupt",
+        "username": "Corrupt-442438",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2020-12-15T16:02:02.914Z",
+        "cooked": "<p>Cool idea, would be nice to see them try to quantify and list all the elements that go into arena. Kinda fun thought experiment.</p>\n<p>I guess ‘positive’ traits in the arena would be things like:</p>\n<ul>\n<li>CC landed * difficulty of CC to land (super hard in itself)</li>\n<li>Defensive CD’s used during opponents offensive CD’s</li>\n<li>CC landed on target with CD’s up</li>\n<li>Enemy casts made to fail due to line of sight or interrupted by one of your abilities</li>\n<li>Impactful buffs purged</li>\n<li>Dispels ranked by value of what is being dispelled</li>\n<li>HPS</li>\n<li>DPS</li>\n<li>Damage landed while target stunned or while enemy healer is CC’d</li>\n</ul>\n<p>I mean I’m pretty sure you could eventually make a comprehensive ruleset for your AI to follow, it’s not unthinkable.</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 5,
+        "updated_at": "2020-12-15T16:25:35.667Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 18,
+        "readers_count": 17,
+        "score": 13.6,
+        "yours": false,
+        "topic_id": 777447,
+        "topic_slug": "using-machine-learning-to-balance-arena",
+        "display_username": "Corrupt",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 442438,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/frostmourne/angryjuice/",
+          "race": "Human",
+          "class": "Death Knight",
+          "player_class_enum": "DEATHKNIGHT",
+          "blizzard_post_count": "30",
+          "guild": "Nefarious",
+          "achievement_points": "18455",
+          "level": "80"
+        },
+        "post_url": "/t/using-machine-learning-to-balance-arena/777447/4",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/frostmourne/147/174539411-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Angryjuice-frostmourne",
+        "poster_alias": {
+          "alias": {
+            "name": "Angryjuice-frostmourne",
+            "avatar": "https://render.worldofwarcraft.com/us/character/frostmourne/147/174539411-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/frostmourne/angryjuice/",
+            "user_id": 442438,
+            "id": 631132,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 27,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/frostmourne/angryjuice/"
+              },
+              {
+                "name": "realm",
+                "value": "Frostmourne"
+              },
+              {
+                "name": "achievement_points",
+                "value": "21745"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/frostmourne/147/174539411-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Angryjuice-frostmourne"
+              },
+              {
+                "name": "guild",
+                "value": "The Daily Bugle"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 30,
+        "character": {
+          "name": "Corrupt",
+          "guild": "Nefarious",
+          "achievement_points": "18455",
+          "level": "80",
+          "class": "Death Knight",
+          "race": "Human",
+          "player_class_enum": "DEATHKNIGHT",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 11223240,
+        "name": "Vykuu",
+        "username": "Vykuu-3133423",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2020-12-15T16:04:55.653Z",
+        "cooked": "<p>Yeah Deepmind was acquired by google some time ago. AlphaStar (Deepmind’s Starcraft AI) was developed with some help from Blizzard in making a version of the game efficient to train on. The AlphaStar team ran into trouble where they needed their trained models to behave “like humans”, but you can see the AI doing wacky things even on SC2 ladder games.</p>\n<p>That being said, deepmind is focused on solving more important problems than WoW arena balance. The SCII was just a proof of concept for them. Here’s their summary of the project if you want to read more about it: <a href=\"https://deepmind.com/blog/article/alphastar-mastering-real-time-strategy-game-starcraft-ii\" rel=\"noopener nofollow ugc\">https://deepmind.com/blog/article/alphastar-mastering-real-time-strategy-game-starcraft-ii</a></p>",
+        "post_number": 5,
+        "post_type": 1,
+        "posts_count": 5,
+        "updated_at": "2026-06-28T10:26:06.661Z",
+        "reply_count": 0,
+        "reply_to_post_number": 3,
+        "quote_count": 0,
+        "incoming_link_count": 3,
+        "reads": 11,
+        "readers_count": 10,
+        "score": 32.2,
+        "yours": false,
+        "topic_id": 777447,
+        "topic_slug": "using-machine-learning-to-balance-arena",
+        "display_username": "Vykuu",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://deepmind.com/blog/article/alphastar-mastering-real-time-strategy-game-starcraft-ii",
+            "internal": false,
+            "reflection": false,
+            "title": "AlphaStar: Mastering the Real-Time Strategy Game StarCraft II | DeepMind",
+            "clicks": 5
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 1236467,
+          "username": "Acerola-darkspear",
+          "name": null,
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/darkspear/75/144648779-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3133423,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/kelthuzad/spelunky/",
+          "guild": "Basement Wizards",
+          "achievement_points": "19435",
+          "level": "80",
+          "race": "Dracthyr",
+          "class": "Evoker",
+          "player_class_enum": "EVOKER",
+          "blizzard_post_count": "789"
+        },
+        "post_url": "/t/using-machine-learning-to-balance-arena/777447/5",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/kelthuzad/207/219590095-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+        "alias_username": "Akeu-kelthuzad",
+        "poster_alias": {
+          "alias": {
+            "name": "Akeu-kelthuzad",
+            "avatar": "https://render.worldofwarcraft.com/us/character/kelthuzad/207/219590095-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/kelthuzad/akeu/",
+            "user_id": 3133423,
+            "id": 48984,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 479,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/kelthuzad/akeu/"
+              },
+              {
+                "name": "realm",
+                "value": "Kel'Thuzad"
+              },
+              {
+                "name": "achievement_points",
+                "value": "20230"
+              },
+              {
+                "name": "level",
+                "value": "63"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/kelthuzad/207/219590095-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Akeu-kelthuzad"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 789,
+        "character": {
+          "name": "Vykuu",
+          "guild": "Basement Wizards",
+          "achievement_points": "19435",
+          "level": "80",
+          "class": "Evoker",
+          "race": "Dracthyr",
+          "player_class_enum": "EVOKER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ],
+    "stream": [
+      11221995,
+      11222620,
+      11222877,
+      11223138,
+      11223240
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      2094
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "fancy_title": "No blades edge?",
+      "id": 2344158,
+      "title": "No blades edge?",
+      "slug": "no-blades-edge",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2026-09-03T00:30:57.174Z",
+      "last_posted_at": "2026-09-03T16:18:18.053Z",
+      "bumped": true,
+      "bumped_at": "2026-09-03T16:18:18.053Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Wasn’t it supposed to come back?",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 9,
+      "views": 142,
+      "category_id": 21,
+      "featured_link": null,
+      "op_like_count": 3,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 151894,
+            "username": "Koop-151894",
+            "name": "Koop",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3137331,
+            "username": "CardinalFang-3137331",
+            "name": "CardinalFang",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 901174,
+            "username": "Yavek-901174",
+            "name": "Yavek",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "[Week 3 of 3: Interrupts and Dispels]",
+      "id": 2344226,
+      "title": "[Week 3 of 3: Interrupts and Dispels]",
+      "slug": "week-3-of-3-interrupts-and-dispels",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2026-09-03T04:02:58.427Z",
+      "last_posted_at": "2026-09-03T05:38:37.925Z",
+      "bumped": true,
+      "bumped_at": "2026-09-03T05:38:37.925Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "So i tried completing this quest on all 13 classes. \nWent well at first, until I hit a road block on my lock. \nInitially I was demo, did a couple games, used axe toss on couple casts, never got credit for Interrupt as pa&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 2,
+      "views": 173,
+      "category_id": 21,
+      "featured_link": null,
+      "op_like_count": 2,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3106888,
+            "username": "Gakusee-3106888",
+            "name": "Gakusee",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 3121090,
+            "username": "Superderpy89-3121090",
+            "name": "Superderpy89",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "I love this game",
+      "id": 2341050,
+      "title": "I love this game",
+      "slug": "i-love-this-game",
+      "posts_count": 34,
+      "reply_count": 16,
+      "highest_post_number": 34,
+      "image_url": null,
+      "created_at": "2026-08-25T19:37:56.679Z",
+      "last_posted_at": "2026-09-08T17:29:10.385Z",
+      "bumped": true,
+      "bumped_at": "2026-09-08T17:29:10.385Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "I LOVE sitting there for 3 seconds trying to get 1 50k damage aimed shot off while the enemy teams evoker does more damage than it in 1 instant cast button, the aff lock and spriest on the other team doing unhealable ins&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 60,
+      "views": 595,
+      "category_id": 21,
+      "featured_link": null,
+      "op_like_count": 1,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3417024,
+            "username": "whysky-3417024",
+            "name": "whysky",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 197124,
+            "username": "Grimshady-197124",
+            "name": "Grimshady",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3029864,
+            "username": "Pawsies-3029864",
+            "name": "Pawsies",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1775936,
+            "username": "Swole-1775936",
+            "name": "Swole",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 901174,
+            "username": "Yavek-901174",
+            "name": "Yavek",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Building 3v3 team",
+      "id": 2343881,
+      "title": "Building 3v3 team",
+      "slug": "building-3v3-team",
+      "posts_count": 4,
+      "reply_count": 2,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2026-09-02T12:39:02.850Z",
+      "last_posted_at": "2026-09-02T15:34:06.971Z",
+      "bumped": true,
+      "bumped_at": "2026-09-02T15:34:06.971Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Looking for a Ret Paladin or Feral Druid + Disc Priest or Pres Evoker to push consistently. \nCurrent CR: 1700 | Exp: 2.6k+ \nLooking for chill, competitive players who want to build a consistent team, communicate, and imp&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 73,
+      "category_id": 21,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3406945,
+            "username": "jalen-3406945",
+            "name": "jalen",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 0,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2878255,
+            "username": "Bust-2878255",
+            "name": "Bust",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 3422818,
+            "username": "StephenJacob-3422818",
+            "name": "StephenJacob",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "When blink removes a stun, trinket/blink stun removal needs to go on cd for 2 minutes",
+      "id": 2345199,
+      "title": "When blink removes a stun, trinket/blink stun removal needs to go on cd for 2 minutes",
+      "slug": "when-blink-removes-a-stun-trinketblink-stun-removal-needs-to-go-on-cd-for-2-minutes",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2026-09-05T20:52:23.799Z",
+      "last_posted_at": "2026-09-05T20:52:23.939Z",
+      "bumped": true,
+      "bumped_at": "2026-09-05T20:52:23.939Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "daily reminder \nprobably easier from a coding PoV to just remove it from the game tbh",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 75,
+      "category_id": 21,
+      "featured_link": null,
+      "op_like_count": 1,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 1421234,
+            "username": "Doots-1421234",
+            "name": "Doots",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    }
+  ],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "Using machine learning to balance arena",
+  "id": 777447,
+  "title": "Using machine learning to balance arena",
+  "posts_count": 5,
+  "created_at": "2020-12-15T15:29:00.061Z",
+  "views": 812,
+  "reply_count": 1,
+  "like_count": 6,
+  "last_posted_at": "2020-12-15T16:04:55.653Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "using-machine-learning-to-balance-arena",
+  "category_id": 21,
+  "word_count": 798,
+  "deleted_at": null,
+  "user_id": 112120,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_777447",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 5,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 1001,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1002,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1003,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1004,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1005,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 3,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 3133423,
+        "username": "Vykuu-3133423",
+        "name": "Vykuu",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Akeu-kelthuzad",
+            "avatar": "https://render.worldofwarcraft.com/us/character/kelthuzad/207/219590095-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/kelthuzad/akeu/",
+            "user_id": 3133423,
+            "id": 48984,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 479,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/kelthuzad/akeu/"
+              },
+              {
+                "name": "realm",
+                "value": "Kel'Thuzad"
+              },
+              {
+                "name": "achievement_points",
+                "value": "20230"
+              },
+              {
+                "name": "level",
+                "value": "63"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/kelthuzad/207/219590095-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Akeu-kelthuzad"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 442438,
+        "username": "Corrupt-442438",
+        "name": "Corrupt",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Angryjuice-frostmourne",
+            "avatar": "https://render.worldofwarcraft.com/us/character/frostmourne/147/174539411-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/frostmourne/angryjuice/",
+            "user_id": 442438,
+            "id": 631132,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 27,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/frostmourne/angryjuice/"
+              },
+              {
+                "name": "realm",
+                "value": "Frostmourne"
+              },
+              {
+                "name": "achievement_points",
+                "value": "21745"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/frostmourne/147/174539411-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Angryjuice-frostmourne"
+              },
+              {
+                "name": "guild",
+                "value": "The Daily Bugle"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 112120,
+        "username": "extraneous-112120",
+        "name": "extraneous",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Plebzgosplat-skullcrusher",
+            "avatar": "https://render.worldofwarcraft.com/us/character/skullcrusher/248/213980920-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/skullcrusher/plebzgosplat/",
+            "user_id": 112120,
+            "id": 715579,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 24,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/skullcrusher/plebzgosplat/"
+              },
+              {
+                "name": "realm",
+                "value": "Skullcrusher"
+              },
+              {
+                "name": "achievement_points",
+                "value": "8990"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Shaman"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "SHAMAN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "guild",
+                "value": "Fat Kids Only"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      }
+    ],
+    "created_by": {
+      "id": 112120,
+      "username": "extraneous-112120",
+      "name": "extraneous",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    },
+    "last_poster": {
+      "id": 3133423,
+      "username": "Vykuu-3133423",
+      "name": "Vykuu",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    },
+    "links": [
+      {
+        "url": "https://deepmind.com/blog/article/alphastar-mastering-real-time-strategy-game-starcraft-ii",
+        "title": "AlphaStar: Mastering the Real-Time Strategy Game StarCraft II | DeepMind",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 5,
+        "user_id": 3133423,
+        "domain": "deepmind.com",
+        "root_domain": "deepmind.com"
+      }
+    ]
+  },
+  "bookmarks": [],
+  "jogo": "World of Warcraft",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Oficial Blizzard",
+  "url_fonte": "https://us.forums.blizzard.com/en/wow/t/using-machine-learning-to-balance-arena/777447",
+  "canonical_url": "https://us.forums.blizzard.com/en/wow/t/using-machine-learning-to-balance-arena/777447"
+}

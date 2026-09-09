@@ -1,0 +1,4656 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 25347311,
+        "name": "Evani",
+        "username": "Evani-3031585",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-23T08:58:48.436Z",
+        "cooked": "<p>Won’t be doing that again unless you give something worth the time.</p>\n<p>Bit boring that is.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 20,
+        "updated_at": "2026-06-20T15:40:38.927Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1274,
+        "reads": 317,
+        "readers_count": 316,
+        "score": 6613.4,
+        "yours": false,
+        "topic_id": 1990956,
+        "topic_slug": "codex-of-chromie",
+        "display_username": "Evani",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 12
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3031585,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Caffeine",
+          "achievement_points": "0",
+          "level": "60",
+          "race": "Dwarf",
+          "class": "Rogue",
+          "player_class_enum": "ROGUE",
+          "classic": "t",
+          "blizzard_post_count": "10",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/frostmourne/evani/"
+        },
+        "post_url": "/t/codex-of-chromie/1990956/1",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/arugal/172/164524-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+        "alias_username": "Evani-arugal",
+        "poster_alias": {
+          "alias": {
+            "name": "Evani-arugal",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/arugal/172/164524-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+            "url": null,
+            "user_id": 3031585,
+            "id": 1716100,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 677,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Arugal"
+              },
+              {
+                "name": "achievement_points",
+                "value": "4320"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Undead"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic-us/character/arugal/172/164524-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Evani-arugal"
+              },
+              {
+                "name": "guild",
+                "value": "Ravage"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 10,
+        "character": {
+          "name": "Evani",
+          "guild": "Caffeine",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Rogue",
+          "race": "Dwarf",
+          "player_class_enum": "ROGUE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 25347332,
+        "name": "citadel",
+        "username": "citadel-2916096",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-23T09:06:26.610Z",
+        "cooked": "<p>sir you’re “celebrating” twenty years of rich WoW heritage! show some enthusiasm!</p>\n<p>what do you mean you aren’t enjoying the world’s most tepid and cynical grind dressed up as some joyous celebration of WoW history??</p>\n<p>are you implying that this wonderful event is actually just some incredibly half baked slop designed to keep addicts picking away at the maggot-ridden corpse of an antiquated game that hasn’t had a good idea in over a decade??</p>\n<p>SIR.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 20,
+        "updated_at": "2024-10-23T09:06:26.610Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 4,
+        "reads": 317,
+        "readers_count": 316,
+        "score": 433.4,
+        "yours": false,
+        "topic_id": 1990956,
+        "topic_slug": "codex-of-chromie",
+        "display_username": "citadel",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 23
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2916096,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/thorium-brotherhood/citadel/",
+          "guild": "Valkyries",
+          "level": "80",
+          "race": "Kul Tiran",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "blizzard_post_count": "316",
+          "achievement_points": "21160"
+        },
+        "post_url": "/t/codex-of-chromie/1990956/2",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/thorium-brotherhood/149/242346901-avatar.jpg?alt=/wow/static/images/2d/avatar/32-0.jpg",
+        "alias_username": "Citadel-thorium-brotherhood",
+        "poster_alias": {
+          "alias": {
+            "name": "Citadel-thorium-brotherhood",
+            "avatar": "https://render.worldofwarcraft.com/us/character/thorium-brotherhood/149/242346901-avatar.jpg?alt=/wow/static/images/2d/avatar/32-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/thorium-brotherhood/citadel/",
+            "user_id": 2916096,
+            "id": 538726,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 316,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/thorium-brotherhood/citadel/"
+              },
+              {
+                "name": "realm",
+                "value": "Thorium Brotherhood"
+              },
+              {
+                "name": "achievement_points",
+                "value": "21160"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Kul Tiran"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "guild",
+                "value": "Valkyries"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 316,
+        "character": {
+          "name": "citadel",
+          "guild": "Valkyries",
+          "achievement_points": "21160",
+          "level": "80",
+          "class": "Warrior",
+          "race": "Kul Tiran",
+          "player_class_enum": "WARRIOR",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25347400,
+        "name": "qaccy",
+        "username": "qaccy-17071",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-23T09:29:19.966Z",
+        "cooked": "<p>Pretty sure the weekly quest is the ‘something worth the time’ for completing it. That assuming you can complete it, at least. The scenario seems to like randomly kicking everyone offline and resetting itself. lol</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 20,
+        "updated_at": "2024-10-23T09:29:19.966Z",
+        "reply_count": 2,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 279,
+        "readers_count": 278,
+        "score": 85.8,
+        "yours": false,
+        "topic_id": 1990956,
+        "topic_slug": "codex-of-chromie",
+        "display_username": "qaccy",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 17071,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Pandaren",
+          "class": "Priest",
+          "player_class_enum": "PRIEST",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/baelgun/qaccy/",
+          "guild": "The Red Shirts",
+          "level": "90",
+          "achievement_points": "43655",
+          "blizzard_post_count": "8730"
+        },
+        "post_url": "/t/codex-of-chromie/1990956/3",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/baelgun/199/162433735-avatar.jpg?alt=/wow/static/images/2d/avatar/25-1.jpg",
+        "alias_username": "Qaccy-baelgun",
+        "poster_alias": {
+          "alias": {
+            "name": "Qaccy-baelgun",
+            "avatar": "https://render.worldofwarcraft.com/us/character/baelgun/199/162433735-avatar.jpg?alt=/wow/static/images/2d/avatar/25-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/baelgun/qaccy/",
+            "user_id": 17071,
+            "id": 429301,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 8813,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/baelgun/qaccy/"
+              },
+              {
+                "name": "realm",
+                "value": "Baelgun"
+              },
+              {
+                "name": "achievement_points",
+                "value": "46810"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Pandaren"
+              },
+              {
+                "name": "player_class",
+                "value": "Priest"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PRIEST"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/baelgun/199/162433735-avatar.jpg?alt=/wow/static/images/2d/avatar/25-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Qaccy-baelgun"
+              },
+              {
+                "name": "guild",
+                "value": "The Red Shirts"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 8730,
+        "character": {
+          "name": "qaccy",
+          "guild": "The Red Shirts",
+          "achievement_points": "43655",
+          "level": "90",
+          "class": "Priest",
+          "race": "Pandaren",
+          "player_class_enum": "PRIEST",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25347423,
+        "name": "MrCute512",
+        "username": "MrCute512-6800",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-23T09:37:05.541Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Evani-arugal\" data-post=\"1\" data-topic=\"1990956\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/classic-us/character/arugal/172/164524-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg\" class=\"avatar\"> Evani:</div>\n<blockquote>\n<p>Bit boring that is.</p>\n</blockquote>\n</aside>\n<p>You do you.  Will do mine.  Queueing for it is easy for me.  I was doing my weeklies in TWW while waiting for the queue to pop out.  And when it is out, I just follow what the group does.  It is not that bad.</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 20,
+        "updated_at": "2024-10-23T09:37:05.541Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 1,
+        "incoming_link_count": 2,
+        "reads": 255,
+        "readers_count": 254,
+        "score": 66.0,
+        "yours": false,
+        "topic_id": 1990956,
+        "topic_slug": "codex-of-chromie",
+        "display_username": "MrCute512",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 6800,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "ACME Camping Supply",
+          "race": "Pandaren",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/bronzebeard/jhannae/",
+          "classic": "t",
+          "level": "90",
+          "achievement_points": "20770",
+          "blizzard_post_count": "11607"
+        },
+        "post_url": "/t/codex-of-chromie/1990956/4",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/bronzebeard/55/93721655-avatar.jpg?alt=/wow/static/images/2d/avatar/25-1.jpg",
+        "alias_username": "Jhannae-bronzebeard",
+        "poster_alias": {
+          "alias": {
+            "name": "Jhannae-bronzebeard",
+            "avatar": "https://render.worldofwarcraft.com/us/character/bronzebeard/55/93721655-avatar.jpg?alt=/wow/static/images/2d/avatar/25-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/bronzebeard/jhannae/",
+            "user_id": 6800,
+            "id": 431157,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 10351,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/bronzebeard/jhannae/"
+              },
+              {
+                "name": "realm",
+                "value": "Bronzebeard"
+              },
+              {
+                "name": "achievement_points",
+                "value": "22445"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Pandaren"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/bronzebeard/55/93721655-avatar.jpg?alt=/wow/static/images/2d/avatar/25-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Jhannae-bronzebeard"
+              },
+              {
+                "name": "guild",
+                "value": "ACME Camping Supply"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 11607,
+        "character": {
+          "name": "MrCute512",
+          "guild": "ACME Camping Supply",
+          "achievement_points": "20770",
+          "level": "90",
+          "class": "Hunter",
+          "race": "Pandaren",
+          "player_class_enum": "HUNTER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25347427,
+        "name": "Fence",
+        "username": "Fence-1382739",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-23T09:37:54.863Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Qaccy-baelgun\" data-post=\"3\" data-topic=\"1990956\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/baelgun/199/162433735-avatar.jpg?alt=/wow/static/images/2d/avatar/25-1.jpg\" class=\"avatar\"> qaccy:</div>\n<blockquote>\n<p>The scenario seems to like randomly kicking everyone offline and resetting itself. lol</p>\n</blockquote>\n</aside>\n<p>Yeah.  Happened to me twice yesterday before I gave up.</p>",
+        "post_number": 5,
+        "post_type": 1,
+        "posts_count": 20,
+        "updated_at": "2024-10-23T09:37:54.863Z",
+        "reply_count": 0,
+        "reply_to_post_number": 3,
+        "quote_count": 1,
+        "incoming_link_count": 4,
+        "reads": 231,
+        "readers_count": 230,
+        "score": 66.2,
+        "yours": false,
+        "topic_id": 1990956,
+        "topic_slug": "codex-of-chromie",
+        "display_username": "Fence",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1382739,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/proudmoore/nikolo/",
+          "class": "Monk",
+          "player_class_enum": "MONK",
+          "level": "80",
+          "race": "Void Elf",
+          "achievement_points": "28620",
+          "guild": "Castle Wolfeton",
+          "blizzard_post_count": "19231"
+        },
+        "post_url": "/t/codex-of-chromie/1990956/5",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/proudmoore/193/196851137-avatar.jpg?alt=/wow/static/images/2d/avatar/29-0.jpg",
+        "alias_username": "Nikolo-proudmoore",
+        "poster_alias": {
+          "alias": {
+            "name": "Nikolo-proudmoore",
+            "avatar": "https://render.worldofwarcraft.com/us/character/proudmoore/193/196851137-avatar.jpg?alt=/wow/static/images/2d/avatar/29-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/proudmoore/nikolo/",
+            "user_id": 1382739,
+            "id": 436041,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 19287,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/proudmoore/nikolo/"
+              },
+              {
+                "name": "realm",
+                "value": "Proudmoore"
+              },
+              {
+                "name": "achievement_points",
+                "value": "30190"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Void Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Monk"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MONK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/proudmoore/193/196851137-avatar.jpg?alt=/wow/static/images/2d/avatar/29-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Nikolo-proudmoore"
+              },
+              {
+                "name": "guild",
+                "value": "Castle Wolfeton"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 19231,
+        "character": {
+          "name": "Fence",
+          "guild": "Castle Wolfeton",
+          "achievement_points": "28620",
+          "level": "80",
+          "class": "Monk",
+          "race": "Void Elf",
+          "player_class_enum": "MONK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25347459,
+        "name": "Tyinath",
+        "username": "Tyinath-2858627",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-23T09:47:28.248Z",
+        "cooked": "<p>Not bashing anyone that put in the time to make what we have happen, but it did leave me with a sense of “this is it?”. Was really expecting more fanfare and a more clearly celebratory venue. This looks more like random assets cobbled together in the middle of nowhere.</p>\n<p>You’d also think that maybe you’d see photos of employees celebrating the occasion together at work, wouldn’t you..? 20 years isn’t something a lot of games can claim, and it’s a well established IP that many of us grew up with. I feel like in the past, this would have been something you’d see customers and employees alike having fun with and being social over.</p>\n<p>I guess in short, it doesn’t feel like this event really captures any kind of excitement, it just feels like another project someone had to do. That said, I do still want the DK mog.</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "posts_count": 20,
+        "updated_at": "2026-02-13T11:39:43.726Z",
+        "reply_count": 1,
+        "reply_to_post_number": 2,
+        "quote_count": 0,
+        "incoming_link_count": 10,
+        "reads": 193,
+        "readers_count": 192,
+        "score": 273.6,
+        "yours": false,
+        "topic_id": 1990956,
+        "topic_slug": "codex-of-chromie",
+        "display_username": "Tyinath",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2916096,
+          "username": "citadel-2916096",
+          "name": "citadel",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 12
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2858627,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/moonrunner/arturroth/",
+          "race": "Human",
+          "class": "Death Knight",
+          "player_class_enum": "DEATHKNIGHT",
+          "level": "80",
+          "guild": "Kick Back Gaming",
+          "achievement_points": "8160",
+          "blizzard_post_count": "1671"
+        },
+        "post_url": "/t/codex-of-chromie/1990956/6",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/moonrunner/126/261223294-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg",
+        "alias_username": "Arkennoth-moonrunner",
+        "poster_alias": {
+          "alias": {
+            "name": "Arkennoth-moonrunner",
+            "avatar": "https://render.worldofwarcraft.com/us/character/moonrunner/126/261223294-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/moonrunner/arkennoth/",
+            "user_id": 2858627,
+            "id": 381642,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 39,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/moonrunner/arkennoth/"
+              },
+              {
+                "name": "realm",
+                "value": "Moonrunner"
+              },
+              {
+                "name": "achievement_points",
+                "value": "9380"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Draenei"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/moonrunner/126/261223294-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Arkennoth-moonrunner"
+              },
+              {
+                "name": "guild",
+                "value": "Kick Back Gaming"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 538726,
+          "username": "Citadel-thorium-brotherhood",
+          "name": "Citadel",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/thorium-brotherhood/149/242346901-avatar.jpg?alt=/wow/static/images/2d/avatar/32-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 1671,
+        "character": {
+          "name": "Tyinath",
+          "guild": "Kick Back Gaming",
+          "achievement_points": "8160",
+          "level": "80",
+          "class": "Death Knight",
+          "race": "Human",
+          "player_class_enum": "DEATHKNIGHT",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25349312,
+        "name": "Phane",
+        "username": "Phane-19059",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-23T15:04:17.796Z",
+        "cooked": "<p>It appears those of us who dont have TWW can queue for it and join the group, but cannot port to the instance <img src=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/fda21e81a4a6fa8c9f5e972d2b019b17c1c1ae23.png?v=12\" title=\":dracthyr_crylaugh:\" class=\"emoji emoji-custom\" alt=\":dracthyr_crylaugh:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+        "post_number": 7,
+        "post_type": 1,
+        "posts_count": 20,
+        "updated_at": "2024-10-23T15:04:17.796Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 140,
+        "readers_count": 139,
+        "score": 58.0,
+        "yours": false,
+        "topic_id": 1990956,
+        "topic_slug": "codex-of-chromie",
+        "display_username": "Phane",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 19059,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Atonement",
+          "race": "Night Elf",
+          "class": "Druid",
+          "player_class_enum": "DRUID",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/uther/jerauld/",
+          "level": "90",
+          "achievement_points": "21370",
+          "blizzard_post_count": "15894"
+        },
+        "post_url": "/t/codex-of-chromie/1990956/7",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/uther/76/112560972-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
+        "alias_username": "Jerauld-uther",
+        "poster_alias": {
+          "alias": {
+            "name": "Jerauld-uther",
+            "avatar": "https://render.worldofwarcraft.com/us/character/uther/76/112560972-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/uther/jerauld/",
+            "user_id": 19059,
+            "id": 526173,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 15837,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/uther/jerauld/"
+              },
+              {
+                "name": "realm",
+                "value": "Uther"
+              },
+              {
+                "name": "achievement_points",
+                "value": "23455"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/uther/76/112560972-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Jerauld-uther"
+              },
+              {
+                "name": "guild",
+                "value": "Atonement"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 15894,
+        "character": {
+          "name": "Phane",
+          "guild": "Atonement",
+          "achievement_points": "21370",
+          "level": "90",
+          "class": "Druid",
+          "race": "Night Elf",
+          "player_class_enum": "DRUID",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25349334,
+        "name": "Proffit",
+        "username": "Proffit-1608115",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-23T15:06:47.108Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Arkennoth-moonrunner\" data-post=\"6\" data-topic=\"1990956\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/moonrunner/126/261223294-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg\" class=\"avatar\"> Arkennoth:</div>\n<blockquote>\n<p>Not bashing anyone that put in the time to make what we have happen, but it did leave me with a sense of “this is it?”. Was really expecting more fanfare and a more clearly celebratory venue.</p>\n</blockquote>\n</aside>\n<p>It’s about on par with brewfest or darkmoon faire but has timewalking tacked on. Nothing much to really report home about.</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "posts_count": 20,
+        "updated_at": "2024-10-23T15:06:47.108Z",
+        "reply_count": 0,
+        "reply_to_post_number": 6,
+        "quote_count": 1,
+        "incoming_link_count": 1,
+        "reads": 128,
+        "readers_count": 127,
+        "score": 45.6,
+        "yours": false,
+        "topic_id": 1990956,
+        "topic_slug": "codex-of-chromie",
+        "display_username": "Proffit",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1608115,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/myzrym/",
+          "race": "Nightborne",
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "level": "51",
+          "guild": "Lowborne",
+          "achievement_points": "16500",
+          "blizzard_post_count": "28097"
+        },
+        "post_url": "/t/codex-of-chromie/1990956/8",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/area-52/254/167225086-avatar.jpg?alt=/wow/static/images/2d/avatar/27-0.jpg",
+        "alias_username": "Myzrym-area-52",
+        "poster_alias": {
+          "alias": {
+            "name": "Myzrym-area-52",
+            "avatar": "https://render.worldofwarcraft.com/us/character/area-52/254/167225086-avatar.jpg?alt=/wow/static/images/2d/avatar/27-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/area-52/myzrym/",
+            "user_id": 1608115,
+            "id": 437263,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 26649,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/area-52/myzrym/"
+              },
+              {
+                "name": "realm",
+                "value": "Area 52"
+              },
+              {
+                "name": "achievement_points",
+                "value": "17725"
+              },
+              {
+                "name": "level",
+                "value": "51"
+              },
+              {
+                "name": "race",
+                "value": "Nightborne"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/area-52/254/167225086-avatar.jpg?alt=/wow/static/images/2d/avatar/27-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Myzrym-area-52"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 28097,
+        "character": {
+          "name": "Proffit",
+          "guild": "Lowborne",
+          "achievement_points": "16500",
+          "level": "51",
+          "class": "Mage",
+          "race": "Nightborne",
+          "player_class_enum": "MAGE",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25349394,
+        "name": "Evani",
+        "username": "Evani-3031585",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-23T15:13:38.518Z",
+        "cooked": "<p>I know how it works i said its boring.</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "posts_count": 20,
+        "updated_at": "2026-06-20T15:40:39.067Z",
+        "reply_count": 0,
+        "reply_to_post_number": 4,
+        "quote_count": 0,
+        "incoming_link_count": 4,
+        "reads": 120,
+        "readers_count": 119,
+        "score": 59.0,
+        "yours": false,
+        "topic_id": 1990956,
+        "topic_slug": "codex-of-chromie",
+        "display_username": "Evani",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 6800,
+          "username": "MrCute512-6800",
+          "name": "MrCute512",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3031585,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Caffeine",
+          "achievement_points": "0",
+          "level": "60",
+          "race": "Dwarf",
+          "class": "Rogue",
+          "player_class_enum": "ROGUE",
+          "classic": "t",
+          "blizzard_post_count": "10",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/frostmourne/evani/"
+        },
+        "post_url": "/t/codex-of-chromie/1990956/9",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/arugal/172/164524-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+        "alias_username": "Evani-arugal",
+        "poster_alias": {
+          "alias": {
+            "name": "Evani-arugal",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/arugal/172/164524-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+            "url": null,
+            "user_id": 3031585,
+            "id": 1716100,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 677,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Arugal"
+              },
+              {
+                "name": "achievement_points",
+                "value": "4320"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Undead"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic-us/character/arugal/172/164524-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Evani-arugal"
+              },
+              {
+                "name": "guild",
+                "value": "Ravage"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 431157,
+          "username": "Jhannae-bronzebeard",
+          "name": "Jhannae",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/bronzebeard/55/93721655-avatar.jpg?alt=/wow/static/images/2d/avatar/25-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 10,
+        "character": {
+          "name": "Evani",
+          "guild": "Caffeine",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Rogue",
+          "race": "Dwarf",
+          "player_class_enum": "ROGUE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25349412,
+        "name": "cptnr0n",
+        "username": "cptnr0n-2291687",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-23T15:15:19.984Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Qaccy-baelgun\" data-post=\"3\" data-topic=\"1990956\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/baelgun/199/162433735-avatar.jpg?alt=/wow/static/images/2d/avatar/25-1.jpg\" class=\"avatar\"> qaccy:</div>\n<blockquote>\n<p>The scenario seems to like randomly kicking everyone offline and resetting itself. lol</p>\n</blockquote>\n</aside>\n<p>Yeah and idk why but when queued as a group the queue never popped, even with a tank. Had to abandon my friends to do it solo just to get disconnected</p>",
+        "post_number": 10,
+        "post_type": 1,
+        "posts_count": 20,
+        "updated_at": "2026-02-16T08:12:14.428Z",
+        "reply_count": 1,
+        "reply_to_post_number": 3,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 117,
+        "readers_count": 116,
+        "score": 28.4,
+        "yours": false,
+        "topic_id": 1990956,
+        "topic_slug": "codex-of-chromie",
+        "display_username": "cptnr0n",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2291687,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/maximorben/",
+          "guild": "The Implications",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "race": "Orc",
+          "level": "80",
+          "achievement_points": "13390",
+          "classic": "t",
+          "blizzard_post_count": "5598"
+        },
+        "post_url": "/t/codex-of-chromie/1990956/10",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/area-52/85/250321749-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
+        "alias_username": "Jarlton-area-52",
+        "poster_alias": {
+          "alias": {
+            "name": "Jarlton-area-52",
+            "avatar": "https://render.worldofwarcraft.com/us/character/area-52/85/250321749-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/area-52/jarlton/",
+            "user_id": 2291687,
+            "id": 399798,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 1802,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/area-52/jarlton/"
+              },
+              {
+                "name": "realm",
+                "value": "Area 52"
+              },
+              {
+                "name": "achievement_points",
+                "value": "15710"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Dwarf"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/area-52/85/250321749-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Jarlton-area-52"
+              },
+              {
+                "name": "guild",
+                "value": "The Implications"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 5598,
+        "character": {
+          "name": "cptnr0n",
+          "guild": "The Implications",
+          "achievement_points": "13390",
+          "level": "80",
+          "class": "Hunter",
+          "race": "Orc",
+          "player_class_enum": "HUNTER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25351102,
+        "name": "ChaosBlade",
+        "username": "ChaosBlade-1006311",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-23T18:06:22.502Z",
+        "cooked": "<p>This explains things. Me and the GF sat in queue for this thing last night for 35 minutes, group never formed. Guildy queued for it alone and got in.</p>",
+        "post_number": 11,
+        "post_type": 1,
+        "posts_count": 20,
+        "updated_at": "2024-10-23T18:06:22.502Z",
+        "reply_count": 0,
+        "reply_to_post_number": 10,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 96,
+        "readers_count": 95,
+        "score": 39.2,
+        "yours": false,
+        "topic_id": 1990956,
+        "topic_slug": "codex-of-chromie",
+        "display_username": "ChaosBlade",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2291687,
+          "username": "cptnr0n-2291687",
+          "name": "cptnr0n",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1006311,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/uldum/yoroichi/",
+          "guild": "Endless Insanity",
+          "race": "Blood Elf",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "level": "80",
+          "achievement_points": "34215",
+          "blizzard_post_count": "1349"
+        },
+        "post_url": "/t/codex-of-chromie/1990956/11",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/uldum/96/159960416-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+        "alias_username": "Yoroichi-uldum",
+        "poster_alias": {
+          "alias": {
+            "name": "Yoroichi-uldum",
+            "avatar": "https://render.worldofwarcraft.com/us/character/uldum/96/159960416-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/uldum/yoroichi/",
+            "user_id": 1006311,
+            "id": 4324,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1403,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/uldum/yoroichi/"
+              },
+              {
+                "name": "realm",
+                "value": "Uldum"
+              },
+              {
+                "name": "achievement_points",
+                "value": "36900"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/uldum/96/159960416-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Yoroichi-uldum"
+              },
+              {
+                "name": "guild",
+                "value": "Endless Insanity"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 399798,
+          "username": "Jarlton-area-52",
+          "name": "Jarlton",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/area-52/85/250321749-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 1349,
+        "character": {
+          "name": "ChaosBlade",
+          "guild": "Endless Insanity",
+          "achievement_points": "34215",
+          "level": "80",
+          "class": "Paladin",
+          "race": "Blood Elf",
+          "player_class_enum": "PALADIN",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25351136,
+        "name": "Mrwario52",
+        "username": "Mrwario52-2683893",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-23T18:08:54.591Z",
+        "cooked": "<p>571 gear for a instance that is boring and nothing good drops I agree</p>",
+        "post_number": 12,
+        "post_type": 1,
+        "posts_count": 20,
+        "updated_at": "2024-10-23T18:08:54.591Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 88,
+        "readers_count": 87,
+        "score": 32.6,
+        "yours": false,
+        "topic_id": 1990956,
+        "topic_slug": "codex-of-chromie",
+        "display_username": "Mrwario52",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2683893,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/wårio/",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "level": "80",
+          "guild": "The Unified",
+          "classic": "t",
+          "race": "Tauren",
+          "achievement_points": "39935",
+          "blizzard_post_count": "10847"
+        },
+        "post_url": "/t/codex-of-chromie/1990956/12",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/area-52/33/233217825-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+        "alias_username": "Wårio-area-52",
+        "poster_alias": {
+          "alias": {
+            "name": "Wårio-area-52",
+            "avatar": "https://render.worldofwarcraft.com/us/character/area-52/33/233217825-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/area-52/wårio/",
+            "user_id": 2683893,
+            "id": 427477,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 7451,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/area-52/wårio/"
+              },
+              {
+                "name": "realm",
+                "value": "Area 52"
+              },
+              {
+                "name": "achievement_points",
+                "value": "42720"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/area-52/33/233217825-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Wårio-area-52"
+              },
+              {
+                "name": "guild",
+                "value": "The Unified"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 10847,
+        "character": {
+          "name": "Mrwario52",
+          "guild": "The Unified",
+          "achievement_points": "39935",
+          "level": "80",
+          "class": "Warrior",
+          "race": "Tauren",
+          "player_class_enum": "WARRIOR",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25351925,
+        "name": "prizm",
+        "username": "prizm-2606508",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-23T19:37:33.311Z",
+        "cooked": "<p>i figure by the time i level a few more chars up via the timwealking there will be a brd tuning pass and hopefully the bugs like on this scenario will be fixed</p>",
+        "post_number": 13,
+        "post_type": 1,
+        "posts_count": 20,
+        "updated_at": "2024-10-23T19:37:33.311Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 74,
+        "readers_count": 73,
+        "score": 24.8,
+        "yours": false,
+        "topic_id": 1990956,
+        "topic_slug": "codex-of-chromie",
+        "display_username": "prizm",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2606508,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/moon-guard/talichya/",
+          "race": "Void Elf",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "level": "80",
+          "guild": "Midday Oblivion",
+          "achievement_points": "19630",
+          "blizzard_post_count": "4105"
+        },
+        "post_url": "/t/codex-of-chromie/1990956/13",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/moon-guard/216/177619416-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
+        "alias_username": "Talichya-moon-guard",
+        "poster_alias": {
+          "alias": {
+            "name": "Talichya-moon-guard",
+            "avatar": "https://render.worldofwarcraft.com/us/character/moon-guard/216/177619416-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/moon-guard/talichya/",
+            "user_id": 2606508,
+            "id": 377606,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 1043,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/moon-guard/talichya/"
+              },
+              {
+                "name": "realm",
+                "value": "Moon Guard"
+              },
+              {
+                "name": "achievement_points",
+                "value": "21235"
+              },
+              {
+                "name": "level",
+                "value": "83"
+              },
+              {
+                "name": "race",
+                "value": "Void Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/moon-guard/216/177619416-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Talichya-moon-guard"
+              },
+              {
+                "name": "guild",
+                "value": "Midday Oblivion"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 4105,
+        "character": {
+          "name": "prizm",
+          "guild": "Midday Oblivion",
+          "achievement_points": "19630",
+          "level": "80",
+          "class": "Warlock",
+          "race": "Void Elf",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25357514,
+        "name": "KOHELET",
+        "username": "KOHELET-2451353",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-24T05:18:29.722Z",
+        "cooked": "<p>You know blizz, when I said something like “Hey, you should bring back the Scepter of Shifting Sands Questline, but take out the rewards, so folk who never experienced it can.” I didn’t mean to throw chromie in, and emphasize the ending and GONG!</p>",
+        "post_number": 14,
+        "post_type": 1,
+        "posts_count": 20,
+        "updated_at": "2024-10-24T05:18:29.722Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 48,
+        "readers_count": 47,
+        "score": 24.6,
+        "yours": false,
+        "topic_id": 1990956,
+        "topic_slug": "codex-of-chromie",
+        "display_username": "KOHELET",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2451353,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/stormrage/lendoranah/",
+          "race": "Human",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "guild": "The Old Gods",
+          "level": "80",
+          "achievement_points": "21495",
+          "blizzard_post_count": "2854"
+        },
+        "post_url": "/t/codex-of-chromie/1990956/14",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/stormrage/5/253456901-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+        "alias_username": "Lendoranah-stormrage",
+        "poster_alias": {
+          "alias": {
+            "name": "Lendoranah-stormrage",
+            "avatar": "https://render.worldofwarcraft.com/us/character/stormrage/5/253456901-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/stormrage/lendoranah/",
+            "user_id": 2451353,
+            "id": 403936,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1870,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/stormrage/lendoranah/"
+              },
+              {
+                "name": "realm",
+                "value": "Stormrage"
+              },
+              {
+                "name": "achievement_points",
+                "value": "22480"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/stormrage/5/253456901-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Lendoranah-stormrage"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 2854,
+        "character": {
+          "name": "KOHELET",
+          "guild": "The Old Gods",
+          "achievement_points": "21495",
+          "level": "80",
+          "class": "Warlock",
+          "race": "Human",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25357531,
+        "name": "MikeTheGamer",
+        "username": "MikeTheGamer-1498717",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-24T05:20:29.053Z",
+        "cooked": "<p>Not to mention not a single clue what to do when those circles with teh npcs start spawning. Only one dude in teh group knew what to do. Even then, I was having trouble identifying who was the warrior and who wasn’t. The whole thing is poorly executed.</p>",
+        "post_number": 15,
+        "post_type": 1,
+        "posts_count": 20,
+        "updated_at": "2024-10-24T05:20:29.053Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 46,
+        "readers_count": 45,
+        "score": 14.2,
+        "yours": false,
+        "topic_id": 1990956,
+        "topic_slug": "codex-of-chromie",
+        "display_username": "MikeTheGamer",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1498717,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/fenris/forthepoor/",
+          "guild": "Howlin Hurricane",
+          "race": "Human",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "level": "80",
+          "achievement_points": "20045",
+          "blizzard_post_count": "1348"
+        },
+        "post_url": "/t/codex-of-chromie/1990956/15",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/fenris/165/95661221-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+        "alias_username": "Forthepoor-fenris",
+        "poster_alias": {
+          "alias": {
+            "name": "Forthepoor-fenris",
+            "avatar": "https://render.worldofwarcraft.com/us/character/fenris/165/95661221-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/fenris/forthepoor/",
+            "user_id": 1498717,
+            "id": 378323,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 1024,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/fenris/forthepoor/"
+              },
+              {
+                "name": "realm",
+                "value": "Fenris"
+              },
+              {
+                "name": "achievement_points",
+                "value": "20335"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/fenris/165/95661221-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Forthepoor-fenris"
+              },
+              {
+                "name": "guild",
+                "value": "Howlin Hurricane"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 1348,
+        "character": {
+          "name": "MikeTheGamer",
+          "guild": "Howlin Hurricane",
+          "achievement_points": "20045",
+          "level": "80",
+          "class": "Warrior",
+          "race": "Human",
+          "player_class_enum": "WARRIOR",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25357586,
+        "name": "neoneons",
+        "username": "neoneons-1401520",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-24T05:29:45.533Z",
+        "cooked": "<p>No no guys you don’t get it you’re all clearly wrong. I was assured several times on these very forums that this patch is HUGE! There’s a ridiculous amount of new great content in this patch, and that’s why it took so long to implement and make sure everything works correctly with the longer maintenance. Surely you aren’t telling me the forums were wrong?!?! I refuse to hear it.</p>",
+        "post_number": 16,
+        "post_type": 1,
+        "posts_count": 20,
+        "updated_at": "2024-10-24T05:29:45.533Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 42,
+        "readers_count": 41,
+        "score": 18.4,
+        "yours": false,
+        "topic_id": 1990956,
+        "topic_slug": "codex-of-chromie",
+        "display_username": "neoneons",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1401520,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/tichondrius/animekiller/",
+          "race": "Blood Elf",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "level": "64",
+          "achievement_points": "15020",
+          "blizzard_post_count": "985"
+        },
+        "post_url": "/t/codex-of-chromie/1990956/16",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/tichondrius/222/198283486-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+        "alias_username": "Animekiller-tichondrius",
+        "poster_alias": {
+          "alias": {
+            "name": "Animekiller-tichondrius",
+            "avatar": "https://render.worldofwarcraft.com/us/character/tichondrius/222/198283486-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/tichondrius/animekiller/",
+            "user_id": 1401520,
+            "id": 35572,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1069,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/tichondrius/animekiller/"
+              },
+              {
+                "name": "realm",
+                "value": "Tichondrius"
+              },
+              {
+                "name": "achievement_points",
+                "value": "15020"
+              },
+              {
+                "name": "level",
+                "value": "64"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/tichondrius/222/198283486-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Animekiller-tichondrius"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 985,
+        "character": {
+          "name": "neoneons",
+          "guild": null,
+          "achievement_points": "15020",
+          "level": "64",
+          "class": "Paladin",
+          "race": "Blood Elf",
+          "player_class_enum": "PALADIN",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25357612,
+        "name": "Vailnite",
+        "username": "Vailnite-64890",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-24T05:34:07.929Z",
+        "cooked": "<p>WHY is this even a scenario? Why not just port people to AQ and have them follow chromie around?</p>\n<p>I have a friend who did not buy tww, but they resubbed to do the anniversary event stuff.  They have completed all the achievements for the mount-- EXCEPT THIS ONE.</p>\n<p>For god knows what reason, this scenario is locked to TWW.  No reason for it ether as everything else, BRD included, scale all the way down to level 20.  And the worst part, this nonsense isn’t even hard.  It’s a snooze-fest.</p>",
+        "post_number": 17,
+        "post_type": 1,
+        "posts_count": 20,
+        "updated_at": "2024-10-24T05:34:07.929Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 40,
+        "readers_count": 39,
+        "score": 38.0,
+        "yours": false,
+        "topic_id": 1990956,
+        "topic_slug": "codex-of-chromie",
+        "display_username": "Vailnite",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 64890,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "class": "Death Knight",
+          "player_class_enum": "DEATHKNIGHT",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/kelthuzad/vailnite/",
+          "race": "Gnome",
+          "level": "17",
+          "guild": "Anti Instrumental",
+          "achievement_points": "35280",
+          "blizzard_post_count": "1980"
+        },
+        "post_url": "/t/codex-of-chromie/1990956/17",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/kelthuzad/101/236993637-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+        "alias_username": "Vailnite-kelthuzad",
+        "poster_alias": {
+          "alias": {
+            "name": "Vailnite-kelthuzad",
+            "avatar": "https://render.worldofwarcraft.com/us/character/kelthuzad/101/236993637-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/kelthuzad/vailnite/",
+            "user_id": 64890,
+            "id": 382384,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1880,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/kelthuzad/vailnite/"
+              },
+              {
+                "name": "realm",
+                "value": "Kel'Thuzad"
+              },
+              {
+                "name": "achievement_points",
+                "value": "35280"
+              },
+              {
+                "name": "level",
+                "value": "17"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/kelthuzad/101/236993637-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Vailnite-kelthuzad"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 1980,
+        "character": {
+          "name": "Vailnite",
+          "guild": "Anti Instrumental",
+          "achievement_points": "35280",
+          "level": "17",
+          "class": "Death Knight",
+          "race": "Gnome",
+          "player_class_enum": "DEATHKNIGHT",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25357661,
+        "name": "MouseD",
+        "username": "MouseD-21275",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-24T05:42:58.893Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Wårio-area-52\" data-post=\"12\" data-topic=\"1990956\" data-full=\"true\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/area-52/33/233217825-avatar.jpg?alt=/wow/static/images/2d/avatar/9-0.jpg\" class=\"avatar\"> Wårio:</div>\n<blockquote>\n<p>571 gear for a instance that is boring and nothing good drops I agree</p>\n</blockquote>\n</aside>\n<p>I got 587 boots …me thinks it goes by your item level going in …the boots were an upgrade for me…I don’t raid or do dungeons …</p>",
+        "post_number": 18,
+        "post_type": 1,
+        "posts_count": 20,
+        "updated_at": "2024-10-24T05:42:58.893Z",
+        "reply_count": 1,
+        "reply_to_post_number": 12,
+        "quote_count": 1,
+        "incoming_link_count": 1,
+        "reads": 31,
+        "readers_count": 30,
+        "score": 16.2,
+        "yours": false,
+        "topic_id": 1990956,
+        "topic_slug": "codex-of-chromie",
+        "display_username": "MouseD",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 21275,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Dark Nemesis",
+          "race": "Dwarf",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/cairne/moused/",
+          "classic": "t",
+          "level": "80",
+          "achievement_points": "32935",
+          "blizzard_post_count": "12925"
+        },
+        "post_url": "/t/codex-of-chromie/1990956/18",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/cairne/158/155841438-avatar.jpg?alt=/wow/static/images/2d/avatar/3-1.jpg",
+        "alias_username": "Moused-cairne",
+        "poster_alias": {
+          "alias": {
+            "name": "Moused-cairne",
+            "avatar": "https://render.worldofwarcraft.com/us/character/cairne/158/155841438-avatar.jpg?alt=/wow/static/images/2d/avatar/3-1.jpg",
+            "url": null,
+            "user_id": 21275,
+            "id": 434101,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 12925,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/cairne/moused/"
+              },
+              {
+                "name": "realm",
+                "value": "Cairne"
+              },
+              {
+                "name": "achievement_points",
+                "value": "32935"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Dwarf"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "guild",
+                "value": "Dark Nemesis"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 12925,
+        "character": {
+          "name": "MouseD",
+          "guild": "Dark Nemesis",
+          "achievement_points": "32935",
+          "level": "80",
+          "class": "Hunter",
+          "race": "Dwarf",
+          "player_class_enum": "HUNTER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25357753,
+        "name": "MikeTheGamer",
+        "username": "MikeTheGamer-1498717",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-24T06:03:28.994Z",
+        "cooked": "<p>Only upgrade I got was from the rewards for the weeklies there. My belt prior to that upgrade was from BT TW last month.</p>",
+        "post_number": 19,
+        "post_type": 1,
+        "posts_count": 20,
+        "updated_at": "2024-10-24T06:03:28.994Z",
+        "reply_count": 1,
+        "reply_to_post_number": 18,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 31,
+        "readers_count": 30,
+        "score": 16.2,
+        "yours": false,
+        "topic_id": 1990956,
+        "topic_slug": "codex-of-chromie",
+        "display_username": "MikeTheGamer",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 21275,
+          "username": "MouseD-21275",
+          "name": "MouseD",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1498717,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/fenris/forthepoor/",
+          "guild": "Howlin Hurricane",
+          "race": "Human",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "level": "80",
+          "achievement_points": "20045",
+          "blizzard_post_count": "1348"
+        },
+        "post_url": "/t/codex-of-chromie/1990956/19",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/fenris/165/95661221-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+        "alias_username": "Forthepoor-fenris",
+        "poster_alias": {
+          "alias": {
+            "name": "Forthepoor-fenris",
+            "avatar": "https://render.worldofwarcraft.com/us/character/fenris/165/95661221-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/fenris/forthepoor/",
+            "user_id": 1498717,
+            "id": 378323,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 1024,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/fenris/forthepoor/"
+              },
+              {
+                "name": "realm",
+                "value": "Fenris"
+              },
+              {
+                "name": "achievement_points",
+                "value": "20335"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/fenris/165/95661221-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Forthepoor-fenris"
+              },
+              {
+                "name": "guild",
+                "value": "Howlin Hurricane"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 434101,
+          "username": "Moused-cairne",
+          "name": "Moused",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/cairne/158/155841438-avatar.jpg?alt=/wow/static/images/2d/avatar/3-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 1348,
+        "character": {
+          "name": "MikeTheGamer",
+          "guild": "Howlin Hurricane",
+          "achievement_points": "20045",
+          "level": "80",
+          "class": "Warrior",
+          "race": "Human",
+          "player_class_enum": "WARRIOR",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25358081,
+        "name": "MouseD",
+        "username": "MouseD-21275",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-24T07:11:18.122Z",
+        "cooked": "<p>I have gotten a few upgrades for my main and few of my alts…I don’t do TW dungeons …or any dungeons or raids really,  outside of ones in this event…way too may psycho players out there and no my guild doesn’t have enough to make our own group besides most of my guild mates work and by the time they get home I am about ready to power down anymore now dealing with my pain and all…can’t do those 16 hr play days anymore…</p>",
+        "post_number": 20,
+        "post_type": 1,
+        "posts_count": 20,
+        "updated_at": "2024-10-24T07:11:18.122Z",
+        "reply_count": 0,
+        "reply_to_post_number": 19,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 24,
+        "readers_count": 23,
+        "score": 9.8,
+        "yours": false,
+        "topic_id": 1990956,
+        "topic_slug": "codex-of-chromie",
+        "display_username": "MouseD",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 1498717,
+          "username": "MikeTheGamer-1498717",
+          "name": "MikeTheGamer",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 21275,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Dark Nemesis",
+          "race": "Dwarf",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/cairne/moused/",
+          "classic": "t",
+          "level": "80",
+          "achievement_points": "32935",
+          "blizzard_post_count": "12925"
+        },
+        "post_url": "/t/codex-of-chromie/1990956/20",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/cairne/158/155841438-avatar.jpg?alt=/wow/static/images/2d/avatar/3-1.jpg",
+        "alias_username": "Moused-cairne",
+        "poster_alias": {
+          "alias": {
+            "name": "Moused-cairne",
+            "avatar": "https://render.worldofwarcraft.com/us/character/cairne/158/155841438-avatar.jpg?alt=/wow/static/images/2d/avatar/3-1.jpg",
+            "url": null,
+            "user_id": 21275,
+            "id": 434101,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 12925,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/cairne/moused/"
+              },
+              {
+                "name": "realm",
+                "value": "Cairne"
+              },
+              {
+                "name": "achievement_points",
+                "value": "32935"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Dwarf"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "guild",
+                "value": "Dark Nemesis"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 378323,
+          "username": "Forthepoor-fenris",
+          "name": "Forthepoor",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/fenris/165/95661221-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 12925,
+        "character": {
+          "name": "MouseD",
+          "guild": "Dark Nemesis",
+          "achievement_points": "32935",
+          "level": "80",
+          "class": "Hunter",
+          "race": "Dwarf",
+          "player_class_enum": "HUNTER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ],
+    "stream": [
+      25347311,
+      25347332,
+      25347400,
+      25347423,
+      25347427,
+      25347459,
+      25349312,
+      25349334,
+      25349394,
+      25349412,
+      25351102,
+      25351136,
+      25351925,
+      25357514,
+      25357531,
+      25357586,
+      25357612,
+      25357661,
+      25357753,
+      25358081
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      686
+    ],
+    [
+      14,
+      685
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "fancy_title": "Why are there so many different variants of &ldquo;stunned&rdquo;?",
+      "id": 2340055,
+      "title": "Why are there so many different variants of \"stunned\"?",
+      "slug": "why-are-there-so-many-different-variants-of-stunned",
+      "posts_count": 5,
+      "reply_count": 1,
+      "highest_post_number": 5,
+      "image_url": null,
+      "created_at": "2026-08-22T21:20:57.745Z",
+      "last_posted_at": "2026-08-22T22:44:47.505Z",
+      "bumped": true,
+      "bumped_at": "2026-08-22T22:44:47.505Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Sometimes it’s also a root or snare so you can immune it with certain things, sometimes you can get rid of it because of that, but not always, and sometimes it’s just impossible to do anything against it…",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 76,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 2918678,
+            "username": "Linaori-2918678",
+            "name": "Linaori",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1068980,
+            "username": "Orlando11-1068980",
+            "name": "Orlando11",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 14847,
+            "username": "Paladina-14847",
+            "name": "Paladina",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3001906,
+            "username": "CandyFlip-3001906",
+            "name": "CandyFlip",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 19887,
+            "username": "Karat-19887",
+            "name": "Karat",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Addon problem being addressed",
+      "id": 2341543,
+      "title": "Addon problem being addressed",
+      "slug": "addon-problem-being-addressed",
+      "posts_count": 4,
+      "reply_count": 1,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2026-08-27T02:17:18.931Z",
+      "last_posted_at": "2026-08-27T03:53:47.857Z",
+      "bumped": true,
+      "bumped_at": "2026-08-27T03:53:47.857Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Very recent dev interview. What was interesting to me was “Addons should not solve problems for you, and should not give you information that people who aren’t using addons don’t have access to.” This is what the WoW c&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 12,
+      "views": 90,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 4,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 1080719,
+            "username": "Daliar-1080719",
+            "name": "Daliar",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3001906,
+            "username": "CandyFlip-3001906",
+            "name": "CandyFlip",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2943593,
+            "username": "Sepaaru-2943593",
+            "name": "Sepaaru",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 31895,
+            "username": "TheeQuixote-31895",
+            "name": "TheeQuixote",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "The Tettles Interview was Interesting",
+      "id": 2341654,
+      "title": "The Tettles Interview was Interesting",
+      "slug": "the-tettles-interview-was-interesting",
+      "posts_count": 9,
+      "reply_count": 4,
+      "highest_post_number": 9,
+      "image_url": null,
+      "created_at": "2026-08-27T13:53:04.500Z",
+      "last_posted_at": "2026-08-28T05:17:12.358Z",
+      "bumped": true,
+      "bumped_at": "2026-08-28T05:17:12.358Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Tettles did an interview with Ion Hazzikostas and Paul Kubit, and a few things piqued my interest, and I just wanted to share my own thoughts on their answers and yap. \nFirst, I just want to say thank you to Ion and Paul&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 4,
+      "views": 295,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 2,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 3222973,
+            "username": "Morayeden-3222973",
+            "name": "Morayeden",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 703243,
+            "username": "daxypoo1971-703243",
+            "name": "daxypoo1971",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 22882,
+            "username": "Maplestone-22882",
+            "name": "Maplestone",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 478196,
+            "username": "Mayana-478196",
+            "name": "Mayana",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17431,
+            "username": "Saithis-17431",
+            "name": "Saithis",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "What do you guys think of this?",
+      "id": 2342081,
+      "title": "What do you guys think of this?",
+      "slug": "what-do-you-guys-think-of-this",
+      "posts_count": 6,
+      "reply_count": 0,
+      "highest_post_number": 6,
+      "image_url": null,
+      "created_at": "2026-08-28T09:00:55.088Z",
+      "last_posted_at": "2026-08-28T10:50:40.882Z",
+      "bumped": true,
+      "bumped_at": "2026-08-28T10:50:40.882Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "So over the years I’ve noticed a huge trend with class design in wow. Every single dps spec is some form of builder spender now either rage or energy flavor. You can make it look diff or call it something else, but end o&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 94,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 92355,
+            "username": "Greenlee-92355",
+            "name": "Greenlee",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 21538,
+            "username": "Awkward-21538",
+            "name": "Awkward",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 20738,
+            "username": "Chief-20738",
+            "name": "Chief",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 19746,
+            "username": "Greatbobbo-19746",
+            "name": "Greatbobbo",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 18584,
+            "username": "BrightHammer-18584",
+            "name": "BrightHammer",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "To the people in that mythic plus group I just totally bricked",
+      "id": 2339508,
+      "title": "To the people in that mythic plus group I just totally bricked",
+      "slug": "to-the-people-in-that-mythic-plus-group-i-just-totally-bricked",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2026-08-21T09:19:01.622Z",
+      "last_posted_at": "2026-08-21T09:44:53.431Z",
+      "bumped": true,
+      "bumped_at": "2026-08-21T09:44:53.431Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "None of them will ever read and I have no idea who they are but… man, it is 3am and my internet decided to cut out right at the beginning of that +12 key. \nI never have internet problems. I feel so bad. \nSorry. \nCan you &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 2,
+      "views": 85,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 2,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 1196748,
+            "username": "OURA-1196748",
+            "name": "OURA",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2788137,
+            "username": "Gingr-2788137",
+            "name": "Gingr",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 20949,
+            "username": "Galabris-20949",
+            "name": "Galabris",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    }
+  ],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "Codex of Chromie",
+  "id": 1990956,
+  "title": "Codex of Chromie",
+  "posts_count": 20,
+  "created_at": "2024-10-23T08:58:48.359Z",
+  "views": 1725,
+  "reply_count": 9,
+  "like_count": 56,
+  "last_posted_at": "2024-10-24T07:11:18.122Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "codex-of-chromie",
+  "category_id": 171,
+  "word_count": 1037,
+  "deleted_at": null,
+  "user_id": 3031585,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_1990956",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 20,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 1001,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1002,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1003,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1004,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1005,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 16,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 1498717,
+        "username": "MikeTheGamer-1498717",
+        "name": "MikeTheGamer",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Forthepoor-fenris",
+            "avatar": "https://render.worldofwarcraft.com/us/character/fenris/165/95661221-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/fenris/forthepoor/",
+            "user_id": 1498717,
+            "id": 378323,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 1024,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/fenris/forthepoor/"
+              },
+              {
+                "name": "realm",
+                "value": "Fenris"
+              },
+              {
+                "name": "achievement_points",
+                "value": "20335"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/fenris/165/95661221-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Forthepoor-fenris"
+              },
+              {
+                "name": "guild",
+                "value": "Howlin Hurricane"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 21275,
+        "username": "MouseD-21275",
+        "name": "MouseD",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Moused-cairne",
+            "avatar": "https://render.worldofwarcraft.com/us/character/cairne/158/155841438-avatar.jpg?alt=/wow/static/images/2d/avatar/3-1.jpg",
+            "url": null,
+            "user_id": 21275,
+            "id": 434101,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 12925,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/cairne/moused/"
+              },
+              {
+                "name": "realm",
+                "value": "Cairne"
+              },
+              {
+                "name": "achievement_points",
+                "value": "32935"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Dwarf"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "guild",
+                "value": "Dark Nemesis"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 2858627,
+        "username": "Tyinath-2858627",
+        "name": "Tyinath",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Arkennoth-moonrunner",
+            "avatar": "https://render.worldofwarcraft.com/us/character/moonrunner/126/261223294-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/moonrunner/arkennoth/",
+            "user_id": 2858627,
+            "id": 381642,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 39,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/moonrunner/arkennoth/"
+              },
+              {
+                "name": "realm",
+                "value": "Moonrunner"
+              },
+              {
+                "name": "achievement_points",
+                "value": "9380"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Draenei"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/moonrunner/126/261223294-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Arkennoth-moonrunner"
+              },
+              {
+                "name": "guild",
+                "value": "Kick Back Gaming"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 64890,
+        "username": "Vailnite-64890",
+        "name": "Vailnite",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Vailnite-kelthuzad",
+            "avatar": "https://render.worldofwarcraft.com/us/character/kelthuzad/101/236993637-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/kelthuzad/vailnite/",
+            "user_id": 64890,
+            "id": 382384,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1880,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/kelthuzad/vailnite/"
+              },
+              {
+                "name": "realm",
+                "value": "Kel'Thuzad"
+              },
+              {
+                "name": "achievement_points",
+                "value": "35280"
+              },
+              {
+                "name": "level",
+                "value": "17"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/kelthuzad/101/236993637-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Vailnite-kelthuzad"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 2291687,
+        "username": "cptnr0n-2291687",
+        "name": "cptnr0n",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Jarlton-area-52",
+            "avatar": "https://render.worldofwarcraft.com/us/character/area-52/85/250321749-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/area-52/jarlton/",
+            "user_id": 2291687,
+            "id": 399798,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 1802,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/area-52/jarlton/"
+              },
+              {
+                "name": "realm",
+                "value": "Area 52"
+              },
+              {
+                "name": "achievement_points",
+                "value": "15710"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Dwarf"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/area-52/85/250321749-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Jarlton-area-52"
+              },
+              {
+                "name": "guild",
+                "value": "The Implications"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 2451353,
+        "username": "KOHELET-2451353",
+        "name": "KOHELET",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Lendoranah-stormrage",
+            "avatar": "https://render.worldofwarcraft.com/us/character/stormrage/5/253456901-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/stormrage/lendoranah/",
+            "user_id": 2451353,
+            "id": 403936,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1870,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/stormrage/lendoranah/"
+              },
+              {
+                "name": "realm",
+                "value": "Stormrage"
+              },
+              {
+                "name": "achievement_points",
+                "value": "22480"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/stormrage/5/253456901-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Lendoranah-stormrage"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 1006311,
+        "username": "ChaosBlade-1006311",
+        "name": "ChaosBlade",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Yoroichi-uldum",
+            "avatar": "https://render.worldofwarcraft.com/us/character/uldum/96/159960416-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/uldum/yoroichi/",
+            "user_id": 1006311,
+            "id": 4324,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1403,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/uldum/yoroichi/"
+              },
+              {
+                "name": "realm",
+                "value": "Uldum"
+              },
+              {
+                "name": "achievement_points",
+                "value": "36900"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/uldum/96/159960416-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Yoroichi-uldum"
+              },
+              {
+                "name": "guild",
+                "value": "Endless Insanity"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 17071,
+        "username": "qaccy-17071",
+        "name": "qaccy",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Qaccy-baelgun",
+            "avatar": "https://render.worldofwarcraft.com/us/character/baelgun/199/162433735-avatar.jpg?alt=/wow/static/images/2d/avatar/25-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/baelgun/qaccy/",
+            "user_id": 17071,
+            "id": 429301,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 8813,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/baelgun/qaccy/"
+              },
+              {
+                "name": "realm",
+                "value": "Baelgun"
+              },
+              {
+                "name": "achievement_points",
+                "value": "46810"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Pandaren"
+              },
+              {
+                "name": "player_class",
+                "value": "Priest"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PRIEST"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/baelgun/199/162433735-avatar.jpg?alt=/wow/static/images/2d/avatar/25-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Qaccy-baelgun"
+              },
+              {
+                "name": "guild",
+                "value": "The Red Shirts"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 6800,
+        "username": "MrCute512-6800",
+        "name": "MrCute512",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Jhannae-bronzebeard",
+            "avatar": "https://render.worldofwarcraft.com/us/character/bronzebeard/55/93721655-avatar.jpg?alt=/wow/static/images/2d/avatar/25-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/bronzebeard/jhannae/",
+            "user_id": 6800,
+            "id": 431157,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 10351,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/bronzebeard/jhannae/"
+              },
+              {
+                "name": "realm",
+                "value": "Bronzebeard"
+              },
+              {
+                "name": "achievement_points",
+                "value": "22445"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Pandaren"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/bronzebeard/55/93721655-avatar.jpg?alt=/wow/static/images/2d/avatar/25-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Jhannae-bronzebeard"
+              },
+              {
+                "name": "guild",
+                "value": "ACME Camping Supply"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 1382739,
+        "username": "Fence-1382739",
+        "name": "Fence",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Nikolo-proudmoore",
+            "avatar": "https://render.worldofwarcraft.com/us/character/proudmoore/193/196851137-avatar.jpg?alt=/wow/static/images/2d/avatar/29-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/proudmoore/nikolo/",
+            "user_id": 1382739,
+            "id": 436041,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 19287,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/proudmoore/nikolo/"
+              },
+              {
+                "name": "realm",
+                "value": "Proudmoore"
+              },
+              {
+                "name": "achievement_points",
+                "value": "30190"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Void Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Monk"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MONK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/proudmoore/193/196851137-avatar.jpg?alt=/wow/static/images/2d/avatar/29-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Nikolo-proudmoore"
+              },
+              {
+                "name": "guild",
+                "value": "Castle Wolfeton"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 1608115,
+        "username": "Proffit-1608115",
+        "name": "Proffit",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 3,
+        "acting_alias": {
+          "alias": {
+            "name": "Myzrym-area-52",
+            "avatar": "https://render.worldofwarcraft.com/us/character/area-52/254/167225086-avatar.jpg?alt=/wow/static/images/2d/avatar/27-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/area-52/myzrym/",
+            "user_id": 1608115,
+            "id": 437263,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 26649,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/area-52/myzrym/"
+              },
+              {
+                "name": "realm",
+                "value": "Area 52"
+              },
+              {
+                "name": "achievement_points",
+                "value": "17725"
+              },
+              {
+                "name": "level",
+                "value": "51"
+              },
+              {
+                "name": "race",
+                "value": "Nightborne"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/area-52/254/167225086-avatar.jpg?alt=/wow/static/images/2d/avatar/27-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Myzrym-area-52"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 19059,
+        "username": "Phane-19059",
+        "name": "Phane",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Jerauld-uther",
+            "avatar": "https://render.worldofwarcraft.com/us/character/uther/76/112560972-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/uther/jerauld/",
+            "user_id": 19059,
+            "id": 526173,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 15837,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/uther/jerauld/"
+              },
+              {
+                "name": "realm",
+                "value": "Uther"
+              },
+              {
+                "name": "achievement_points",
+                "value": "23455"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/uther/76/112560972-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Jerauld-uther"
+              },
+              {
+                "name": "guild",
+                "value": "Atonement"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 2916096,
+        "username": "citadel-2916096",
+        "name": "citadel",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Citadel-thorium-brotherhood",
+            "avatar": "https://render.worldofwarcraft.com/us/character/thorium-brotherhood/149/242346901-avatar.jpg?alt=/wow/static/images/2d/avatar/32-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/thorium-brotherhood/citadel/",
+            "user_id": 2916096,
+            "id": 538726,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 316,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/thorium-brotherhood/citadel/"
+              },
+              {
+                "name": "realm",
+                "value": "Thorium Brotherhood"
+              },
+              {
+                "name": "achievement_points",
+                "value": "21160"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Kul Tiran"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "guild",
+                "value": "Valkyries"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 2683893,
+        "username": "Mrwario52-2683893",
+        "name": "Mrwario52",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Wårio-area-52",
+            "avatar": "https://render.worldofwarcraft.com/us/character/area-52/33/233217825-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/area-52/wårio/",
+            "user_id": 2683893,
+            "id": 427477,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 7451,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/area-52/wårio/"
+              },
+              {
+                "name": "realm",
+                "value": "Area 52"
+              },
+              {
+                "name": "achievement_points",
+                "value": "42720"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/area-52/33/233217825-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Wårio-area-52"
+              },
+              {
+                "name": "guild",
+                "value": "The Unified"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 1401520,
+        "username": "neoneons-1401520",
+        "name": "neoneons",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Animekiller-tichondrius",
+            "avatar": "https://render.worldofwarcraft.com/us/character/tichondrius/222/198283486-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/tichondrius/animekiller/",
+            "user_id": 1401520,
+            "id": 35572,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1069,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/tichondrius/animekiller/"
+              },
+              {
+                "name": "realm",
+                "value": "Tichondrius"
+              },
+              {
+                "name": "achievement_points",
+                "value": "15020"
+              },
+              {
+                "name": "level",
+                "value": "64"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/tichondrius/222/198283486-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Animekiller-tichondrius"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 2606508,
+        "username": "prizm-2606508",
+        "name": "prizm",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Talichya-moon-guard",
+            "avatar": "https://render.worldofwarcraft.com/us/character/moon-guard/216/177619416-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/moon-guard/talichya/",
+            "user_id": 2606508,
+            "id": 377606,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 1043,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/moon-guard/talichya/"
+              },
+              {
+                "name": "realm",
+                "value": "Moon Guard"
+              },
+              {
+                "name": "achievement_points",
+                "value": "21235"
+              },
+              {
+                "name": "level",
+                "value": "83"
+              },
+              {
+                "name": "race",
+                "value": "Void Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/moon-guard/216/177619416-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Talichya-moon-guard"
+              },
+              {
+                "name": "guild",
+                "value": "Midday Oblivion"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      }
+    ],
+    "created_by": {
+      "id": 3031585,
+      "username": "Evani-3031585",
+      "name": "Evani",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    },
+    "last_poster": {
+      "id": 21275,
+      "username": "MouseD-21275",
+      "name": "MouseD",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    }
+  },
+  "bookmarks": [],
+  "jogo": "World of Warcraft",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Oficial Blizzard",
+  "url_fonte": "https://us.forums.blizzard.com/en/wow/t/codex-of-chromie/1990956",
+  "canonical_url": "https://us.forums.blizzard.com/en/wow/t/codex-of-chromie/1990956"
+}

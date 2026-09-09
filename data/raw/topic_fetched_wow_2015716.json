@@ -1,0 +1,740 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 25669223,
+        "name": "Kaiba",
+        "username": "Kaiba-2781868",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-11-23T01:28:33.890Z",
+        "cooked": "<p>So I asked ChatGPT how they would make Havoc DH better, these are my findings:</p>\n<p><strong>WARNING - Do not take these changes as an official class rework, this is simply me putting parameters that the community is looking for into ChatGPT, and this what it spat out. Some of the grammar or ability description might be off, it is an AI tool.</strong></p>\n<p><strong>UPDATE - I haave asked Chat GPT to clean up some… Errors in its original post, cleaning up things like Fel Damage being mistaken as its Chaos Damage. I have corrected it to say that Demon’s Bite and Demons Blade, are almost the exact same talent as well as Chaos Strike and Annihilation being misinterpreted as 2 separate abilities when its in fact, just one.</strong></p>\n<h3><a name=\"p-25669223-enhancing-havoc-demon-hunter-for-the-war-within-1\" class=\"anchor\" href=\"#p-25669223-enhancing-havoc-demon-hunter-for-the-war-within-1\" aria-label=\"Heading link\"></a>Enhancing Havoc Demon Hunter for <em>The War Within</em></h3>\n<p>To ensure the Havoc Demon Hunter remains competitive and engaging in the upcoming expansion <em>The War Within</em>, here are some proposed updates aimed at enhancing their performance while preserving their thematic identity and gameplay style.</p>\n<hr>\n<h3><a name=\"p-25669223-h-1-improved-survivability-2\" class=\"anchor\" href=\"#p-25669223-h-1-improved-survivability-2\" aria-label=\"Heading link\"></a><strong>1. Improved Survivability</strong></h3>\n<p>Havoc Demon Hunters are often perceived as high-risk, high-reward damage dealers with limited durability. Enhancing their self-healing and defensive options would provide more staying power in challenging encounters.</p>\n<ul>\n<li><strong>New Passive Talent: “Demonic Resilience”</strong><br>\nIncreases healing from Leech effects, especially during Metamorphosis. This would help them sustain through intense damage phases.<br>\n<em>Alternative Option</em>: Add a defensive cooldown like <strong>Demon Spikes</strong> (already part of the Vengeance toolkit) to provide brief but significant damage reduction.</li>\n<li><strong>New Active Talent: “Demon’s Kiss”</strong><br>\nConverts a percentage of damage dealt into healing over a short duration, offering additional self-sustain during prolonged fights.</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-h-2-increased-utility-in-groups-3\" class=\"anchor\" href=\"#p-25669223-h-2-increased-utility-in-groups-3\" aria-label=\"Heading link\"></a><strong>2. Increased Utility in Groups</strong></h3>\n<p>While Chaos Brand offers raid utility, Havoc Demon Hunters often lack unique contributions to group content. Adding more utility would make them a valuable choice in diverse team compositions.</p>\n<ul>\n<li><strong>New Group Buff: “Eye of the Legion”</strong><br>\nGrants nearby allies increased Critical Strike or Haste for a short duration. This aligns with the Demon Hunter’s predatory and empowering fantasy.</li>\n<li><strong>Enhanced “Chaos Brand”</strong><br>\nExpand its effects to reduce the target’s resistance to all magic types, making Demon Hunters versatile allies in teams with multiple casters.</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-h-3-engaging-aoe-and-single-target-damage-scaling-4\" class=\"anchor\" href=\"#p-25669223-h-3-engaging-aoe-and-single-target-damage-scaling-4\" aria-label=\"Heading link\"></a><strong>3. Engaging AoE and Single-Target Damage Scaling</strong></h3>\n<p>Havoc excels at burst damage but struggles with sustained AoE and scaling in longer encounters. Improvements to their AoE toolkit and ability synergies could smooth out this disparity.</p>\n<ul>\n<li><strong>New Talent: “Infernal Barrage”</strong><br>\nEmpowers Chaos Strike (or Annihilation during Metamorphosis) to trigger a small AoE explosion when striking multiple targets, rewarding precise target management.</li>\n<li><strong>Scaling Adjustments to “Blade Dance” and “Eye Beam”</strong><br>\nAllow these abilities to scale more effectively with primary stats, or introduce talents that reward resource management—such as extending Eye Beam’s duration based on Chaos damage dealt within a short window.</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-h-4-new-mechanic-demonic-empowerment-5\" class=\"anchor\" href=\"#p-25669223-h-4-new-mechanic-demonic-empowerment-5\" aria-label=\"Heading link\"></a><strong>4. New Mechanic: “Demonic Empowerment”</strong></h3>\n<p>Introduce a new dynamic mechanic to reinforce their lore and add strategic depth to their gameplay.</p>\n<ul>\n<li><strong>“Demonic Empowerment” Mechanic</strong><br>\nBuild stacks of Empowerment through ability usage or damage dealt. At maximum stacks, gain a temporary buff that significantly boosts damage and survivability. This would encourage proactive resource management and create exciting power spikes during combat.</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-h-5-visual-and-thematic-enhancements-6\" class=\"anchor\" href=\"#p-25669223-h-5-visual-and-thematic-enhancements-6\" aria-label=\"Heading link\"></a><strong>5. Visual and Thematic Enhancements</strong></h3>\n<p>To fully embody their destructive nature and demonic heritage, the Havoc Demon Hunter’s visual design could be refreshed.</p>\n<ul>\n<li><strong>New Metamorphosis Variations</strong><br>\nIntroduce alternate appearances for Metamorphosis based on talents or spec choices, such as Fel-infused or Arcane-themed variants.</li>\n<li><strong>Updated Chaos Visuals</strong><br>\nRevamp animations for abilities like Eye Beam and Chaos Strike (or Annihilation) to emphasize their destructive energy and make their power feel more visceral.</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-h-6-quality-of-life-improvements-7\" class=\"anchor\" href=\"#p-25669223-h-6-quality-of-life-improvements-7\" aria-label=\"Heading link\"></a><strong>6. Quality of Life Improvements</strong></h3>\n<p>Streamlining the Havoc rotation and improving mobility would make gameplay feel smoother and more satisfying.</p>\n<ul>\n<li><strong>Reduced GCD Clamps</strong><br>\nAllowing key abilities to function with shorter or more forgiving global cooldowns would improve rotation fluidity, especially in high-pressure scenarios.</li>\n<li><strong>Enhanced Mobility</strong><br>\nIntroduce a talent or ability that interacts with the environment—such as leaping to terrain or allies—to highlight their unparalleled agility in both PvE and PvP content.</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-conclusion-8\" class=\"anchor\" href=\"#p-25669223-conclusion-8\" aria-label=\"Heading link\"></a><strong>Conclusion</strong></h3>\n<p>These changes aim to balance survivability, utility, and damage potential while deepening the Havoc Demon Hunter’s identity as chaotic, agile warriors. By addressing current weaknesses and refining gameplay mechanics, these updates would ensure Havoc Demon Hunters remain an exciting and powerful choice in <em>The War Within</em>.</p>\n<hr>\n<h3><a name=\"p-25669223-new-demon-hunter-specialization-sentinel-9\" class=\"anchor\" href=\"#p-25669223-new-demon-hunter-specialization-sentinel-9\" aria-label=\"Heading link\"></a><strong>New Demon Hunter Specialization: Sentinel</strong></h3>\n<p><strong>Role:</strong> Ranged DPS<br>\n<strong>Armor Type:</strong> Leather<br>\n<strong>Primary Resource:</strong> Focus (similar to Fury/Pain, but designed for ranged gameplay)<br>\n<strong>Combat Style:</strong> Agile ranged DPS focusing on precise strikes, shadowy constructs, and battlefield control inspired by Wardens.</p>\n<hr>\n<h3><a name=\"p-25669223-overview-10\" class=\"anchor\" href=\"#p-25669223-overview-10\" aria-label=\"Heading link\"></a><strong>Overview</strong></h3>\n<p>The <strong>Sentinel Demon Hunter</strong> draws inspiration from the <strong>Wardens</strong>, elite night elf fighters known for their ranged glaive attacks, stealth, and shadowy magic. This spec introduces a unique ranged playstyle to the Demon Hunter class, offering a balance of <strong>high mobility</strong>, <strong>sustained damage</strong>, and <strong>crowd control</strong>.</p>\n<hr>\n<h3><a name=\"p-25669223-core-themes-11\" class=\"anchor\" href=\"#p-25669223-core-themes-11\" aria-label=\"Heading link\"></a><strong>Core Themes</strong></h3>\n<ul>\n<li><strong>Ranged Glaive Combat:</strong> Utilize ranged glaive throws, ricochets, and shadowy constructs to deal damage.</li>\n<li><strong>Shadow Manipulation:</strong> Create shadowy zones, traps, and constructs for damage and control.</li>\n<li><strong>Mobility and Precision:</strong> Maintain high movement while delivering precise, high-damage abilities.</li>\n<li><strong>Warden-Like Tools:</strong> Incorporate abilities inspired by Wardens, such as ranged glaive throws, stealth, and magical traps.</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-resource-focus-12\" class=\"anchor\" href=\"#p-25669223-resource-focus-12\" aria-label=\"Heading link\"></a><strong>Resource: Focus</strong></h3>\n<ul>\n<li>Generated through abilities like <em>Shadow Toss</em> and <em>Glaive Barrage</em>.</li>\n<li>Spent on high-impact abilities like <em>Shadowstorm Glaive</em> and <em>Sentinel Strike</em>.</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-core-abilities-13\" class=\"anchor\" href=\"#p-25669223-core-abilities-13\" aria-label=\"Heading link\"></a><strong>Core Abilities</strong></h3>\n<h4><a name=\"p-25669223-h-1-shadow-toss-generator-14\" class=\"anchor\" href=\"#p-25669223-h-1-shadow-toss-generator-14\" aria-label=\"Heading link\"></a><strong>1. Shadow Toss</strong> <em>(Generator)</em></h4>\n<ul>\n<li>Throw a glaive infused with shadow magic at the target, dealing damage and generating <strong>15 Focus</strong>.</li>\n<li><strong>Passive:</strong> If the glaive hits an additional enemy (via talents or positioning), generate an extra <strong>5 Focus</strong>.</li>\n<li><strong>Rationale:</strong> A core builder that rewards precision and positioning.</li>\n</ul>\n<hr>\n<h4><a name=\"p-25669223-h-2-glaive-barrage-aoe-generator-15\" class=\"anchor\" href=\"#p-25669223-h-2-glaive-barrage-aoe-generator-15\" aria-label=\"Heading link\"></a><strong>2. Glaive Barrage</strong> <em>(AoE Generator)</em></h4>\n<ul>\n<li>Hurl a barrage of glaives in a cone, dealing damage to all enemies in the area and generating <strong>10 Focus</strong> per enemy hit (up to 3 enemies).</li>\n<li><strong>Rationale:</strong> Provides AoE generation and synergizes with cleave encounters.</li>\n</ul>\n<hr>\n<h4><a name=\"p-25669223-h-3-shadowstorm-glaive-focus-spender-16\" class=\"anchor\" href=\"#p-25669223-h-3-shadowstorm-glaive-focus-spender-16\" aria-label=\"Heading link\"></a><strong>3. Shadowstorm Glaive</strong> <em>(Focus Spender)</em></h4>\n<ul>\n<li>Launch a shadowy glaive that ricochets between up to 5 enemies, dealing <strong>increased damage with each bounce</strong>. Consumes <strong>30 Focus</strong>.</li>\n<li><strong>Rationale:</strong> Signature ranged attack with powerful AoE capabilities.</li>\n</ul>\n<hr>\n<h4><a name=\"p-25669223-h-4-sentinel-strike-focus-spender-17\" class=\"anchor\" href=\"#p-25669223-h-4-sentinel-strike-focus-spender-17\" aria-label=\"Heading link\"></a><strong>4. Sentinel Strike</strong> <em>(Focus Spender)</em></h4>\n<ul>\n<li>Unleash a powerful, charged glaive at your target, dealing <strong>massive shadow damage</strong>. Costs <strong>50 Focus</strong>.</li>\n<li><strong>Effect:</strong> Leaves a shadowy zone on impact, dealing additional damage over 5 seconds to all enemies within the zone.</li>\n<li><strong>Rationale:</strong> A high-impact single-target ability with strategic AoE potential.</li>\n</ul>\n<hr>\n<h4><a name=\"p-25669223-h-5-wardens-shroud-utility-18\" class=\"anchor\" href=\"#p-25669223-h-5-wardens-shroud-utility-18\" aria-label=\"Heading link\"></a><strong>5. Warden’s Shroud</strong> <em>(Utility)</em></h4>\n<ul>\n<li>Envelop yourself in shadows, granting stealth for 8 seconds. Your next <em>Shadow Toss</em> deals <strong>double damage</strong> and reduces its target’s movement speed by <strong>50%</strong> for 4 seconds.</li>\n<li><strong>Rationale:</strong> Provides a nod to the Wardens’ stealthy nature and a utility tool for disengaging or initiating combat.</li>\n</ul>\n<hr>\n<h4><a name=\"p-25669223-h-6-shadow-traps-utility-and-control-19\" class=\"anchor\" href=\"#p-25669223-h-6-shadow-traps-utility-and-control-19\" aria-label=\"Heading link\"></a><strong>6. Shadow Traps</strong> <em>(Utility and Control)</em></h4>\n<ul>\n<li>Place up to 3 traps on the ground. Traps trigger when enemies step on them, dealing shadow damage and rooting them for 3 seconds.</li>\n<li><strong>Rationale:</strong> Adds battlefield control and complements the Sentinel’s ranged playstyle.</li>\n</ul>\n<hr>\n<h4><a name=\"p-25669223-h-7-vengeance-veil-defensive-cooldown-20\" class=\"anchor\" href=\"#p-25669223-h-7-vengeance-veil-defensive-cooldown-20\" aria-label=\"Heading link\"></a><strong>7. Vengeance Veil</strong> <em>(Defensive Cooldown)</em></h4>\n<ul>\n<li>Surround yourself with shadow magic, reducing all damage taken by <strong>30%</strong> for 10 seconds and granting immunity to crowd control effects.</li>\n<li><strong>Rationale:</strong> Provides a reliable defensive cooldown for survival.</li>\n</ul>\n<hr>\n<h4><a name=\"p-25669223-h-8-mark-of-the-warden-cooldown-ability-21\" class=\"anchor\" href=\"#p-25669223-h-8-mark-of-the-warden-cooldown-ability-21\" aria-label=\"Heading link\"></a><strong>8. Mark of the Warden</strong> <em>(Cooldown Ability)</em></h4>\n<ul>\n<li>Mark your target with a sigil of shadow, increasing your damage to that target by <strong>20%</strong> for 10 seconds.</li>\n<li><strong>Rationale:</strong> Adds a burst damage cooldown for priority targets.</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-talents-and-synergies-22\" class=\"anchor\" href=\"#p-25669223-talents-and-synergies-22\" aria-label=\"Heading link\"></a><strong>Talents and Synergies</strong></h3>\n<h4><a name=\"p-25669223-h-1-ricochet-mastery-passive-talent-23\" class=\"anchor\" href=\"#p-25669223-h-1-ricochet-mastery-passive-talent-23\" aria-label=\"Heading link\"></a><strong>1. Ricochet Mastery</strong> <em>(Passive Talent)</em></h4>\n<ul>\n<li>All glaive-based abilities have a <strong>30% chance to hit one additional target</strong> for reduced damage.</li>\n</ul>\n<h4><a name=\"p-25669223-h-2-shadow-construct-new-ability-talent-24\" class=\"anchor\" href=\"#p-25669223-h-2-shadow-construct-new-ability-talent-24\" aria-label=\"Heading link\"></a><strong>2. Shadow Construct</strong> <em>(New Ability Talent)</em></h4>\n<ul>\n<li>Summon a shadowy copy of yourself to fight for 8 seconds, mimicking 50% of your glaive attacks.</li>\n</ul>\n<h4><a name=\"p-25669223-h-3-wardens-fury-passive-talent-25\" class=\"anchor\" href=\"#p-25669223-h-3-wardens-fury-passive-talent-25\" aria-label=\"Heading link\"></a><strong>3. Warden’s Fury</strong> <em>(Passive Talent)</em></h4>\n<ul>\n<li>Your critical strikes reduce the cooldown of <em>Sentinel Strike</em> by <strong>1 second</strong> and increase its damage by <strong>10%</strong>, stacking up to 3 times.</li>\n</ul>\n<h4><a name=\"p-25669223-h-4-cloak-of-nightfall-defensive-talent-26\" class=\"anchor\" href=\"#p-25669223-h-4-cloak-of-nightfall-defensive-talent-26\" aria-label=\"Heading link\"></a><strong>4. Cloak of Nightfall</strong> <em>(Defensive Talent)</em></h4>\n<ul>\n<li>While <em>Warden’s Shroud</em> is active, you take <strong>15% less damage</strong>, and your movement speed is increased by <strong>20%</strong>.</li>\n</ul>\n<h4><a name=\"p-25669223-h-5-shadow-barricade-utility-talent-27\" class=\"anchor\" href=\"#p-25669223-h-5-shadow-barricade-utility-talent-27\" aria-label=\"Heading link\"></a><strong>5. Shadow Barricade</strong> <em>(Utility Talent)</em></h4>\n<ul>\n<li>Placing a <em>Shadow Trap</em> also grants you a shadowy shield, absorbing damage equal to <strong>10% of your maximum health</strong> for 6 seconds.</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-gameplay-style-28\" class=\"anchor\" href=\"#p-25669223-gameplay-style-28\" aria-label=\"Heading link\"></a><strong>Gameplay Style</strong></h3>\n<ul>\n<li><strong>Single-Target Priority:</strong> Build Focus with <em>Shadow Toss</em> and unleash devastating <em>Sentinel Strikes</em>.</li>\n<li><strong>AoE Dominance:</strong> Utilize <em>Glaive Barrage</em> and <em>Shadowstorm Glaive</em> to handle multiple targets effectively.</li>\n<li><strong>Control and Utility:</strong> Use <em>Shadow Traps</em> and <em>Warden’s Shroud</em> to maintain control over the battlefield and reposition as needed.</li>\n<li><strong>High Mobility:</strong> Mobility and precise positioning are key to maximizing glaive ricochets and maintaining optimal damage.</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-conclusion-29\" class=\"anchor\" href=\"#p-25669223-conclusion-29\" aria-label=\"Heading link\"></a><strong>Conclusion</strong></h3>\n<p>The <strong>Sentinel specialization</strong> introduces a fresh and engaging playstyle to Demon Hunters, embracing a <strong>ranged DPS role</strong> while staying true to the class’s identity. With a blend of <strong>shadowy magic</strong>, <strong>ranged glaive techniques</strong>, and <strong>Warden-inspired abilities</strong>, Sentinels are agile and strategic, excelling in both <strong>damage output</strong> and <strong>battlefield control</strong>. This spec is perfect for players who enjoy precise, high-mobility ranged combat with a touch of mysticism and utility.</p>\n<hr>\n<p>Creating a brand-new hero talent tree adjacent to the <em>Aldrachi Reaver</em> talent tree for the Havoc Demon Hunter would focus on expanding the demon hunter’s identity by incorporating themes from the Legion’s burning crusades, ancient demonic power, and mastery over chaos magic. This new talent tree would give players additional playstyle options while providing fresh abilities and mechanics that would synergize with their already existing abilities.</p>\n<p>Let’s call this new talent tree <strong>“Infernal Vanguard”</strong>—a path focused on embracing the demonic forces of destruction, command over fel magic, and greater resilience in battle. The focus here is on damage, defensive power, and empowering the Demon Hunter’s mastery of destruction.</p>\n<hr>\n<h3><a name=\"p-25669223-infernal-vanguard-expanding-the-havoc-demon-hunter-fantasy-30\" class=\"anchor\" href=\"#p-25669223-infernal-vanguard-expanding-the-havoc-demon-hunter-fantasy-30\" aria-label=\"Heading link\"></a><strong>Infernal Vanguard: Expanding the Havoc Demon Hunter Fantasy</strong></h3>\n<p>The <strong>Infernal Vanguard</strong> talent tree is an exciting addition to the Havoc Demon Hunter’s toolkit, channeling the chaotic essence of the Legion and emphasizing destruction, resilience, and command over fel forces. Here’s a cleaned-up and focused presentation of the concept.</p>\n<hr>\n<h3><a name=\"p-25669223-talent-tree-overview-31\" class=\"anchor\" href=\"#p-25669223-talent-tree-overview-31\" aria-label=\"Heading link\"></a><strong>Talent Tree Overview</strong></h3>\n<ul>\n<li><strong>Core Theme</strong>: Harness the chaotic and destructive powers of the Burning Legion, empowering the Demon Hunter with devastating AoE abilities, increased survivability, and utility through mastery of chaos magic.</li>\n<li><strong>Key Focus</strong>:\n<ul>\n<li>Amplify Chaos damage and synergy with existing abilities.</li>\n<li>Enhance AoE and crowd control capabilities.</li>\n<li>Strengthen survivability through self-healing and defensive mechanics.</li>\n<li>Introduce demonic allies and field domination as part of the Demon Hunter’s toolkit.</li>\n</ul>\n</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-core-talents-and-mechanics-32\" class=\"anchor\" href=\"#p-25669223-core-talents-and-mechanics-32\" aria-label=\"Heading link\"></a><strong>Core Talents and Mechanics</strong></h3>\n<h4><a name=\"p-25669223-tier-1-foundations-of-chaos-33\" class=\"anchor\" href=\"#p-25669223-tier-1-foundations-of-chaos-33\" aria-label=\"Heading link\"></a><strong>Tier 1 - Foundations of Chaos</strong></h4>\n<ol>\n<li><strong>Demonflame (Passive)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Chaos Strike (or Annihilation during Metamorphosis) deals an additional 10% Chaos damage over 4 seconds.</li>\n<li><strong>Flavor</strong>: Unleash fel flames with every strike, burning enemies long after the initial blow.</li>\n</ul>\n<ol start=\"2\">\n<li><strong>Infernal Barrage (Active, 30s Cooldown)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Unleash a barrage of chaotic projectiles, dealing AoE Chaos damage around the primary target.</li>\n<li><strong>Flavor</strong>: Call upon the infernal artillery of the Legion to devastate your foes.</li>\n</ul>\n<h4><a name=\"p-25669223-tier-2-sharpened-reflexes-34\" class=\"anchor\" href=\"#p-25669223-tier-2-sharpened-reflexes-34\" aria-label=\"Heading link\"></a><strong>Tier 2 - Sharpened Reflexes</strong></h4>\n<ol start=\"3\">\n<li><strong>Fel-Infused Reflexes (Passive)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Increases dodge chance by 10%, and Demon’s Bite and Demon Blades has a 20% chance to trigger a secondary AoE strike, dealing Chaos damage.</li>\n<li><strong>Flavor</strong>: Reflexes enhanced by fel energy make you faster and deadlier.</li>\n</ul>\n<ol start=\"4\">\n<li><strong>Hellfire Resilience (Passive)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Increases Demon Spikes’ damage reduction by 10% and causes it to heal you for a small amount whenever you block an attack.</li>\n<li><strong>Flavor</strong>: Demonic flames bolster your defenses, granting resilience in the face of chaos.</li>\n</ul>\n<h4><a name=\"p-25669223-tier-3-advanced-chaos-mastery-35\" class=\"anchor\" href=\"#p-25669223-tier-3-advanced-chaos-mastery-35\" aria-label=\"Heading link\"></a><strong>Tier 3 - Advanced Chaos Mastery</strong></h4>\n<ol start=\"5\">\n<li><strong>Empowered Metamorphosis (Passive)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: While in Metamorphosis, Chaos damage is increased by 20%, and Chaos Strike creates a shockwave that stuns nearby enemies for 2 seconds.</li>\n<li><strong>Flavor</strong>: Tap into the raw power of the Legion for overwhelming strength.</li>\n</ul>\n<ol start=\"6\">\n<li><strong>Fel Overload (Passive)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: After Fel Rush, your next Chaos Strike strikes all enemies within 6 yards, dealing additional Chaos damage.</li>\n<li><strong>Flavor</strong>: Harness excess fel energy to amplify your next attack.</li>\n</ul>\n<h4><a name=\"p-25669223-tier-4-chaos-synergy-36\" class=\"anchor\" href=\"#p-25669223-tier-4-chaos-synergy-36\" aria-label=\"Heading link\"></a><strong>Tier 4 - Chaos Synergy</strong></h4>\n<ol start=\"7\">\n<li><strong>Chaos Conduit (Passive)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Chaos damage builds 5% Chaos Power per hit. At 100%, unleash <strong>Infernal Torrent</strong>, causing the next Chaos Strike to deal 100% more damage in a large AoE explosion.</li>\n<li><strong>Flavor</strong>: Channel the chaotic energies of the Twisting Nether into concentrated bursts of destruction.</li>\n</ul>\n<ol start=\"8\">\n<li><strong>Infernal Servant (Active, 3-Minute Cooldown)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Summon a demonic servant for 15 seconds to attack enemies, increasing your Chaos damage by 10% while active.</li>\n<li><strong>Flavor</strong>: Command a servant of the Legion to aid you in battle, turning the tide of destruction in your favor.</li>\n</ul>\n<h4><a name=\"p-25669223-tier-5-survival-and-control-37\" class=\"anchor\" href=\"#p-25669223-tier-5-survival-and-control-37\" aria-label=\"Heading link\"></a><strong>Tier 5 - Survival and Control</strong></h4>\n<ol start=\"9\">\n<li><strong>Demonic Rebirth (Passive, 3-Minute Cooldown)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Upon dropping below 30% health, instantly restore 50% health and gain 10% damage reduction for 15 seconds.</li>\n<li><strong>Flavor</strong>: The infernal power within regenerates your form, allowing you to fight on.</li>\n</ul>\n<ol start=\"10\">\n<li><strong>Rising Chaos (Passive)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Blade Dance generates 10% more Fury and applies a debuff that increases Chaos damage taken by 5% for 8 seconds.</li>\n<li><strong>Flavor</strong>: Every strike leaves enemies vulnerable to the searing chaos of your attacks.</li>\n</ul>\n<h4><a name=\"p-25669223-tier-6-ultimate-destruction-38\" class=\"anchor\" href=\"#p-25669223-tier-6-ultimate-destruction-38\" aria-label=\"Heading link\"></a><strong>Tier 6 - Ultimate Destruction</strong></h4>\n<ol start=\"11\">\n<li><strong>Wrath of the Legion (Active, 1-Minute Cooldown)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Summon an infernal that crashes down, dealing massive AoE damage and pulsing Chaos damage in a smaller radius for 10 seconds.</li>\n<li><strong>Flavor</strong>: Call forth the Legion’s might to unleash chaos on the battlefield.</li>\n</ul>\n<ol start=\"12\">\n<li><strong>Demonic Storm (Active, 2-Minute Cooldown)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Create a whirlwind of fel energy around you, dealing heavy AoE Chaos damage and pulling enemies inward.</li>\n<li><strong>Flavor</strong>: Embody the eye of a storm, dragging enemies into their inevitable demise.</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-key-playstyle-highlights-39\" class=\"anchor\" href=\"#p-25669223-key-playstyle-highlights-39\" aria-label=\"Heading link\"></a><strong>Key Playstyle Highlights</strong></h3>\n<ol>\n<li><strong>AoE Supremacy</strong>: Talents like <em>Wrath of the Legion</em>, <em>Infernal Barrage</em>, and <em>Fel Overload</em> ensure strong AoE capabilities, turning the Demon Hunter into a chaotic force in group content.</li>\n<li><strong>Chaos Synergy</strong>: Abilities like <em>Chaos Conduit</em> and <em>Rising Chaos</em> reward players for skillful Chaos damage application, adding layers of strategy and rewarding optimal play.</li>\n<li><strong>Survivability Tools</strong>: <em>Demonic Rebirth</em> and <em>Hellfire Resilience</em> provide powerful self-sustain and defensive options, ensuring the Demon Hunter can endure high-damage encounters.</li>\n<li><strong>Demonic Allies</strong>: Summons like <em>Infernal Servant</em> and <em>Wrath of the Legion</em> enhance the thematic fantasy of commanding the Burning Legion’s forces.</li>\n</ol>\n<hr>\n<p>The <em>Infernal Vanguard</em> talent tree deepens the Havoc Demon Hunter’s chaotic identity while expanding playstyle options, making it both more versatile and thematically aligned with their destructive origins. Whether players seek overwhelming AoE destruction, heightened survivability, or demonic synergy, this tree offers powerful new choices that enrich the Havoc experience.</p>\n<hr>\n<h3><a name=\"p-25669223-fel-striker-a-hybrid-specialization-for-demon-hunters-40\" class=\"anchor\" href=\"#p-25669223-fel-striker-a-hybrid-specialization-for-demon-hunters-40\" aria-label=\"Heading link\"></a><strong>Fel Striker: A Hybrid Specialization for Demon Hunters</strong></h3>\n<p>The <strong>Fel Striker</strong> specialization is designed to embrace versatility, balancing precise single-target strikes and explosive AoE abilities. It introduces dynamic decision-making through <strong>Fel Empowerment</strong>, a unique resource that allows players to tailor their damage output to the needs of the encounter.</p>\n<hr>\n<h3><a name=\"p-25669223-core-design-features-41\" class=\"anchor\" href=\"#p-25669223-core-design-features-41\" aria-label=\"Heading link\"></a><strong>Core Design Features</strong></h3>\n<p><strong>Theme</strong>: A dual-focus warrior of chaos who thrives in both single-target precision and battlefield-wide destruction, adapting seamlessly to changing combat scenarios.</p>\n<p><strong>Core Mechanic</strong>:</p>\n<ul>\n<li><strong>Fel Empowerment</strong>: A resource generated by core abilities like <em>Chaos Strike</em>, <em>Blade Dance</em>, and <em>Eye Beam</em>.\n<ul>\n<li>Spend <strong>Fel Empowerment</strong> to enhance <strong>Single-Target Abilities</strong> for precision strikes or <strong>AoE Abilities</strong> for devastating area damage.</li>\n<li><strong>Dynamic Interaction</strong>: The more stacks consumed, the greater the effect of the chosen ability.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Playstyle Goals</strong>:</p>\n<ol>\n<li>Versatile damage-dealing tools that feel cohesive across all encounter types.</li>\n<li>High mobility and chaos magic amplification with a hybrid focus on precision and destruction.</li>\n<li>Reactive and proactive decision-making to maximize damage efficiency in different scenarios.</li>\n</ol>\n<hr>\n<h3><a name=\"p-25669223-talent-tree-breakdown-42\" class=\"anchor\" href=\"#p-25669223-talent-tree-breakdown-42\" aria-label=\"Heading link\"></a><strong>Talent Tree Breakdown</strong></h3>\n<h4><a name=\"p-25669223-tier-1-building-momentum-43\" class=\"anchor\" href=\"#p-25669223-tier-1-building-momentum-43\" aria-label=\"Heading link\"></a><strong>Tier 1: Building Momentum</strong></h4>\n<ol>\n<li><strong>Fel Infusion (Passive)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Chaos Strike generates 20% more Fel Empowerment, and its critical hits generate an additional stack.</li>\n<li><strong>Flavor</strong>: Chaos flows through you with every precise strike, accelerating your destructive potential.</li>\n</ul>\n<ol start=\"2\">\n<li><strong>Blade Storm (Active, 40s Cooldown)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Perform a spinning slash that deals AoE Chaos damage. Consumes Fel Empowerment to extend its duration and amplify its damage.</li>\n<li><strong>Flavor</strong>: You unleash a controlled whirlwind of chaos, striking all who dare approach.</li>\n</ul>\n<ol start=\"3\">\n<li><strong>Chaotic Precision (Passive)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Spending Fel Empowerment on single-target abilities increases your critical strike chance by 5% for 8 seconds.</li>\n<li><strong>Flavor</strong>: Focused chaos sharpens your instincts, enhancing your precision in combat.</li>\n</ul>\n<h4><a name=\"p-25669223-tier-2-balance-in-chaos-44\" class=\"anchor\" href=\"#p-25669223-tier-2-balance-in-chaos-44\" aria-label=\"Heading link\"></a><strong>Tier 2: Balance in Chaos</strong></h4>\n<ol start=\"4\">\n<li><strong>Fel Barrage (Active, 30s Cooldown)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Fires a torrent of fel missiles at your target, dealing AoE damage. Each target hit generates Fel Empowerment.</li>\n<li><strong>Flavor</strong>: Unleash the power of the Legion in a devastating barrage.</li>\n</ul>\n<ol start=\"5\">\n<li><strong>Fel Momentum (Passive)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Fel Empowerment is generated passively every 5 seconds, increasing with each ability cast (up to 3 stacks).</li>\n<li><strong>Flavor</strong>: Your connection to chaos grows with every movement, ensuring a steady buildup of destructive power.</li>\n</ul>\n<ol start=\"6\">\n<li><strong>Infernal Focus (Passive)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Spending Fel Empowerment on AoE abilities increases the damage of your next single-target ability by 15%.</li>\n<li><strong>Flavor</strong>: Harness the chaos of the battlefield, channeling it into precise strikes.</li>\n</ul>\n<h4><a name=\"p-25669223-tier-3-amplifying-chaos-45\" class=\"anchor\" href=\"#p-25669223-tier-3-amplifying-chaos-45\" aria-label=\"Heading link\"></a><strong>Tier 3: Amplifying Chaos</strong></h4>\n<ol start=\"7\">\n<li><strong>Metamorphic Fury (Passive)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: While in Metamorphosis, all abilities generate 30% more Fel Empowerment and consume 20% less when spent.</li>\n<li><strong>Flavor</strong>: Your demonic form elevates your mastery of chaos, making every action more efficient and powerful.</li>\n</ul>\n<ol start=\"8\">\n<li><strong>Whirlwind of Chaos (Active, 1-Minute Cooldown)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Perform a wide-reaching Blade Dance that pulls enemies closer and deals AoE Chaos damage. Consumes Fel Empowerment for greater pull radius and damage.</li>\n<li><strong>Flavor</strong>: Become the eye of a destructive storm, drawing enemies into the heart of chaos.</li>\n</ul>\n<ol start=\"9\">\n<li><strong>Fel Nova (Active, 2-Minute Cooldown)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Spend 100% of Fel Empowerment to detonate a massive explosion of fel energy around you. Damage and radius scale with the amount spent.</li>\n<li><strong>Flavor</strong>: Release your accumulated chaos in an overwhelming blast that engulfs the battlefield.</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-synergies-and-customization-46\" class=\"anchor\" href=\"#p-25669223-synergies-and-customization-46\" aria-label=\"Heading link\"></a><strong>Synergies and Customization</strong></h3>\n<ul>\n<li><strong>Single-Target Focus</strong>: Talents like <em>Chaotic Precision</em> and <em>Infernal Focus</em> reward players who prioritize sharp, calculated strikes, increasing the power of abilities like <em>Chaos Strike</em> and <em>Annihilation</em>.</li>\n<li><strong>AoE Domination</strong>: Talents such as <em>Fel Barrage</em> and <em>Whirlwind of Chaos</em> offer devastating AoE tools for dungeons and multi-target raid encounters.</li>\n<li><strong>Dynamic Combat</strong>: The interplay of single-target and AoE synergies allows players to adapt on the fly, ensuring seamless transitions between encounter types.</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-core-abilities-47\" class=\"anchor\" href=\"#p-25669223-core-abilities-47\" aria-label=\"Heading link\"></a><strong>Core Abilities</strong></h3>\n<ol>\n<li><strong>Fel Empowerment (Resource)</strong>:</li>\n</ol>\n<ul>\n<li>Gained passively and through damaging abilities.</li>\n<li>Spent on single-target and AoE abilities for tailored effects.</li>\n</ul>\n<ol start=\"2\">\n<li><strong>Chaos Strike (Baseline)</strong>:</li>\n</ol>\n<ul>\n<li>Generates Fel Empowerment.</li>\n<li>Enhanced by single-target Fel Empowerment spending.</li>\n</ul>\n<ol start=\"3\">\n<li><strong>Blade Dance (Baseline)</strong>:</li>\n</ol>\n<ul>\n<li>Generates Fel Empowerment.</li>\n<li>Enhanced by AoE Fel Empowerment spending.</li>\n</ul>\n<ol start=\"4\">\n<li><strong>Fel Barrage</strong> (Active):</li>\n</ol>\n<ul>\n<li>AoE burst with stacking synergy based on targets hit.</li>\n</ul>\n<ol start=\"5\">\n<li><strong>Fel Nova</strong> (Active):</li>\n</ol>\n<ul>\n<li>Massive AoE finisher, scaling with Fel Empowerment spent.</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-playstyle-summary-48\" class=\"anchor\" href=\"#p-25669223-playstyle-summary-48\" aria-label=\"Heading link\"></a><strong>Playstyle Summary</strong></h3>\n<ul>\n<li><strong>Fluid Resource Management</strong>: Players must balance the generation and spending of Fel Empowerment, deciding when to enhance single-target abilities for boss damage or AoE abilities for group encounters.</li>\n<li><strong>Adaptability</strong>: Fel Striker thrives in any scenario, with talent synergies that reward strategic gameplay and quick decision-making.</li>\n<li><strong>Chaos Amplification</strong>: The spec’s talents and abilities reflect the core identity of the Demon Hunter as a chaotic, destructive force, while offering flexible options for every encounter type.</li>\n</ul>\n<p>The <strong>Fel Striker</strong> specialization empowers Demon Hunters to be the ultimate hybrid combatant, seamlessly weaving between devastating AoE destruction and precise single-target dominance.</p>\n<hr>\n<h3><a name=\"p-25669223-havoc-demon-hunter-rework-doom-bringer-49\" class=\"anchor\" href=\"#p-25669223-havoc-demon-hunter-rework-doom-bringer-49\" aria-label=\"Heading link\"></a><strong>Havoc Demon Hunter Rework: Doom Bringer</strong></h3>\n<p>The <strong>Doom Bringer</strong> specialization builds on the raw fury of Havoc Demon Hunters, optimizing both <em>Demon’s Bite</em> and <em>Demon Blades</em> as Fury generators to suit diverse playstyles. Whether favoring active Fury generation or passive procs, <strong>Doom Bringer</strong> offers a cohesive toolkit for single-target precision, rewarding mastery of timing and resource management.</p>\n<hr>\n<h3><a name=\"p-25669223-core-changes-and-mechanics-50\" class=\"anchor\" href=\"#p-25669223-core-changes-and-mechanics-50\" aria-label=\"Heading link\"></a><strong>Core Changes and Mechanics</strong></h3>\n<p><strong>Theme</strong>: Harness chaos for devastating single-target destruction with a playstyle adaptable to both <em>Demon’s Bite</em> and <em>Demon Blades</em>.</p>\n<p><strong>Core Mechanic</strong>: <strong>Chaos Precision</strong></p>\n<ul>\n<li>Each use of <em>Chaos Strike</em> or <em>Annihilation</em> grants a stack of <strong>Chaos Precision</strong>, increasing the damage of your next Chaos ability by 5% (stacking up to 5).</li>\n<li>Spending all stacks enhances key abilities, creating opportunities for massive burst damage.</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-doom-bringer-talent-tree-51\" class=\"anchor\" href=\"#p-25669223-doom-bringer-talent-tree-51\" aria-label=\"Heading link\"></a><strong>Doom Bringer Talent Tree</strong></h3>\n<h4><a name=\"p-25669223-tier-1-foundations-of-chaos-52\" class=\"anchor\" href=\"#p-25669223-tier-1-foundations-of-chaos-52\" aria-label=\"Heading link\"></a><strong>Tier 1: Foundations of Chaos</strong></h4>\n<ol>\n<li><strong>Unyielding Fury (Passive)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: <em>Chaos Strike</em> generates 20% more Fury on critical hits.</li>\n<li><strong>Flavor</strong>: The strength of your strikes feeds your insatiable desire for destruction.</li>\n</ul>\n<ol start=\"2\">\n<li><strong>Relentless Assault (Passive)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Each <em>Chaos Strike</em> reduces the cooldown of <em>Eye Beam</em> by 1 second.</li>\n<li><strong>Flavor</strong>: Your rapid strikes fuel your next devastating attack.</li>\n</ul>\n<ol start=\"3\">\n<li><strong>Adaptable Fury (Passive)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Increases Fury generated by <em>Demon’s Bite</em> by 10% and Fury gained from <em>Demon Blades</em> by 5%.</li>\n<li><strong>Flavor</strong>: Whether channeling your strikes or letting chaos flow passively, your Fury generation is unparalleled.</li>\n</ul>\n<hr>\n<h4><a name=\"p-25669223-tier-2-building-precision-53\" class=\"anchor\" href=\"#p-25669223-tier-2-building-precision-53\" aria-label=\"Heading link\"></a><strong>Tier 2: Building Precision</strong></h4>\n<ol start=\"4\">\n<li><strong>Critical Carnage (Passive)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Critical hits from <em>Chaos Strike</em> increase the damage of your next <em>Annihilation</em> by 10%.</li>\n<li><strong>Flavor</strong>: Precise strikes empower your deadliest attacks.</li>\n</ul>\n<ol start=\"5\">\n<li><strong>Chaos Synergy (Passive)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Spending Fury increases your critical strike chance by 1% for 8 seconds, stacking up to 5 times.</li>\n<li><strong>Flavor</strong>: Each expenditure of fury brings you closer to the perfect strike.</li>\n</ul>\n<ol start=\"6\">\n<li><strong>Fel Eruption (Active, 30s Cooldown)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Unleashes a blast of fel energy that stuns the target for 2 seconds and deals heavy Chaos damage.</li>\n<li><strong>Flavor</strong>: Your chaos surges outward, briefly incapacitating your enemy with destructive force.</li>\n</ul>\n<hr>\n<h4><a name=\"p-25669223-tier-3-mid-tier-abilities-and-enhancements-54\" class=\"anchor\" href=\"#p-25669223-tier-3-mid-tier-abilities-and-enhancements-54\" aria-label=\"Heading link\"></a><strong>Tier 3: Mid-Tier Abilities and Enhancements</strong></h4>\n<ol start=\"7\">\n<li><strong>Demonic Surge (Cooldown: 1 Minute)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Consumes all stacks of <strong>Chaos Precision</strong> to increase the damage of <em>Annihilation</em> by 50% and refund 50% of Fury spent.</li>\n<li><strong>Flavor</strong>: Channel all your precision into a single devastating strike.</li>\n</ul>\n<ol start=\"8\">\n<li><strong>Chaos Wounds (Passive)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Critical hits with <em>Chaos Strike</em> or <em>Annihilation</em> leave a Chaos burn, dealing 20% of the damage dealt over 8 seconds.</li>\n<li><strong>Flavor</strong>: Your attacks leave lingering wounds of pure Chaos energy.</li>\n</ul>\n<ol start=\"9\">\n<li><strong>Demonic Feedback (Passive)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Every <em>Demon’s Bite</em> or Fury gain from <em>Demon Blades</em> increases the damage of your next <em>Chaos Strike</em> by 5%. Stacks up to 3 times.</li>\n<li><strong>Flavor</strong>: The energy generated by your strikes reverberates into your chaos-fueled attacks.</li>\n</ul>\n<hr>\n<h4><a name=\"p-25669223-tier-4-enhancing-metamorphosis-and-sustained-damage-55\" class=\"anchor\" href=\"#p-25669223-tier-4-enhancing-metamorphosis-and-sustained-damage-55\" aria-label=\"Heading link\"></a><strong>Tier 4: Enhancing Metamorphosis and Sustained Damage</strong></h4>\n<ol start=\"10\">\n<li><strong>Demonic Onslaught (Passive)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: While in <em>Metamorphosis</em>, your <em>Chaos Strike</em> refunds 50% of Fury spent.</li>\n<li><strong>Flavor</strong>: The transformation amplifies your efficiency, letting you unleash unrelenting chaos.</li>\n</ul>\n<ol start=\"11\">\n<li><strong>Infernal Blade (Active, 1-Minute Cooldown)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: A powerful melee attack that deals Chaos damage and doubles the effects of <strong>Chaos Precision</strong> for 8 seconds.</li>\n<li><strong>Flavor</strong>: Harness the raw power of the Nether to amplify your precision and devastation.</li>\n</ul>\n<ol start=\"12\">\n<li><strong>Fel Eruption Mastery (Passive)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Reduces the cooldown of <em>Fel Eruption</em> by 10 seconds and increases its damage by 25%.</li>\n<li><strong>Flavor</strong>: Your mastery over Chaos allows for frequent, devastating eruptions.</li>\n</ul>\n<hr>\n<h4><a name=\"p-25669223-tier-5-ultimate-talents-56\" class=\"anchor\" href=\"#p-25669223-tier-5-ultimate-talents-56\" aria-label=\"Heading link\"></a><strong>Tier 5: Ultimate Talents</strong></h4>\n<ol start=\"13\">\n<li><strong>Chaos Unleashed (Cooldown: 2 Minutes)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Consume all Fury and <strong>Chaos Precision</strong> stacks to unleash a massive wave of Chaos damage at your target, scaling with the resources spent.</li>\n<li><strong>Flavor</strong>: You channel all of your energy into a final, apocalyptic blow.</li>\n</ul>\n<ol start=\"14\">\n<li><strong>Demonic Supremacy (Passive)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: <em>Metamorphosis</em> now lasts 5 seconds longer and increases your damage by an additional 20%.</li>\n<li><strong>Flavor</strong>: Your empowered form reaches new levels of devastation.</li>\n</ul>\n<ol start=\"15\">\n<li><strong>Doom Caller (Cooldown: 3 Minutes)</strong></li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Instantly grants 5 stacks of <strong>Chaos Precision</strong>, fully restores Fury, and increases critical strike chance by 50% for 10 seconds.</li>\n<li><strong>Flavor</strong>: You become a harbinger of doom, striking with unrivaled precision and power.</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-playstyle-considerations-demons-bite-vs-demon-blades-57\" class=\"anchor\" href=\"#p-25669223-playstyle-considerations-demons-bite-vs-demon-blades-57\" aria-label=\"Heading link\"></a><strong>Playstyle Considerations: Demon’s Bite vs. Demon Blades</strong></h3>\n<h4><a name=\"p-25669223-demons-bite-build-58\" class=\"anchor\" href=\"#p-25669223-demons-bite-build-58\" aria-label=\"Heading link\"></a><strong>Demon’s Bite Build</strong></h4>\n<ul>\n<li>Active Fury generation fits players who prefer control.</li>\n<li>Synergizes with <em>Demonic Feedback</em> to consistently boost <em>Chaos Strike</em>.</li>\n<li>More predictable rotation, ensuring constant uptime of <strong>Chaos Precision</strong> stacks.</li>\n</ul>\n<h4><a name=\"p-25669223-demon-blades-build-59\" class=\"anchor\" href=\"#p-25669223-demon-blades-build-59\" aria-label=\"Heading link\"></a><strong>Demon Blades Build</strong></h4>\n<ul>\n<li>Passive Fury generation fits players who prefer a proc-heavy style.</li>\n<li>Benefits from talents like <em>Adaptable Fury</em> and <em>Chaos Synergy</em> for improved Fury flow.</li>\n<li>Balances a less consistent rotation with bursts of higher Fury gains during procs.</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-doom-bringer-playstyle-summary-60\" class=\"anchor\" href=\"#p-25669223-doom-bringer-playstyle-summary-60\" aria-label=\"Heading link\"></a><strong>Doom Bringer Playstyle Summary</strong></h3>\n<p><strong>Core Rotation</strong>:</p>\n<ul>\n<li>Build Fury using <em>Demon’s Bite</em> or <em>Demon Blades</em>.</li>\n<li>Generate and stack <strong>Chaos Precision</strong> with <em>Chaos Strike</em>.</li>\n<li>Unleash Fury and stacks with <em>Annihilation</em>, <em>Demonic Surge</em>, and <em>Chaos Unleashed</em>.</li>\n</ul>\n<p><strong>Utility and Sustained Damage</strong>:</p>\n<ul>\n<li><em>Fel Eruption</em> adds control and burst, while <em>Chaos Wounds</em> provides additional sustained damage over time.</li>\n<li>Adaptive talents ensure both active and passive Fury generation methods are equally viable, depending on player preference.</li>\n</ul>\n<p><strong>Burst Damage</strong>:</p>\n<ul>\n<li>Leverage <em>Infernal Blade</em>, <em>Chaos Surge</em>, and <em>Doom Caller</em> for devastating burst during critical windows.</li>\n<li>Talents like <em>Critical Carnage</em> and <em>Demonic Feedback</em> amplify your damage output by chaining abilities effectively.</li>\n</ul>\n<hr>\n<p>The <strong>Doom Bringer</strong> rework offers flexibility, allowing both <em>Demon’s Bite</em> and <em>Demon Blades</em> to shine. Players can choose their preferred Fury generation style without sacrificing effectiveness, ensuring adaptability and depth while retaining the Havoc Demon Hunter’s signature chaos-fueled gameplay.</p>\n<hr>\n<h3><a name=\"p-25669223-aldrachi-reaver-hero-talent-tree-detailed-and-refined-61\" class=\"anchor\" href=\"#p-25669223-aldrachi-reaver-hero-talent-tree-detailed-and-refined-61\" aria-label=\"Heading link\"></a><strong>Aldrachi Reaver: Hero Talent Tree (Detailed and Refined)</strong></h3>\n<hr>\n<h4><a name=\"p-25669223-core-resource-aldrachi-energy-62\" class=\"anchor\" href=\"#p-25669223-core-resource-aldrachi-energy-62\" aria-label=\"Heading link\"></a><strong>Core Resource: Aldrachi Energy</strong></h4>\n<ul>\n<li><strong>Generation</strong>: Aldrachi Energy is generated through active combat:\n<ul>\n<li><em>Basic Attacks</em> (via Demon’s Bite or Demon Blades): Generate <strong>10 Aldrachi Energy</strong> per attack.</li>\n<li><em>Fel Rush</em>, <em>Chaos Strike</em>, and <em>Fel Blade</em>: Each generates <strong>15 Aldrachi Energy</strong> on use.</li>\n<li>Passive regeneration: <strong>5 Aldrachi Energy</strong> per second during combat.</li>\n</ul>\n</li>\n<li><strong>Spending</strong>: Aldrachi Energy fuels powerful abilities and activates <strong>Fel Fury</strong> or <strong>Shadow Veil</strong>, empowering the Demon Hunter based on the phase they enter.</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-talent-tree-details-63\" class=\"anchor\" href=\"#p-25669223-talent-tree-details-63\" aria-label=\"Heading link\"></a><strong>Talent Tree Details</strong></h3>\n<h4><a name=\"p-25669223-h-1-tier-1-foundations-of-aldrachi-power-64\" class=\"anchor\" href=\"#p-25669223-h-1-tier-1-foundations-of-aldrachi-power-64\" aria-label=\"Heading link\"></a><strong>1. Tier 1: Foundations of Aldrachi Power</strong></h4>\n<ol>\n<li><strong>Fel Frenzy (Passive)</strong></li>\n</ol>\n<ul>\n<li><em>Effect</em>: Each critical hit with <em>Chaos Strike</em> or <em>Fel Blade</em> generates an additional <strong>5 Aldrachi Energy</strong>.</li>\n<li><em>Synergy</em>: Pairs well with <em>Fury of the Aldrachi</em> (Tier 3) to accelerate <strong>Fel Fury</strong> activation.</li>\n</ul>\n<ol start=\"2\">\n<li><strong>Aldrachi Fury</strong></li>\n</ol>\n<ul>\n<li><em>Effect</em>: Your <em>Fel Rush</em> increases all damage dealt by <strong>5%</strong> for <strong>8 seconds</strong>, stacking up to <strong>3 times</strong>.</li>\n<li><em>Playstyle Tip</em>: Encourages mobility and aggressive positioning.</li>\n</ul>\n<ol start=\"3\">\n<li><strong>Infernal Plunge (Active Ability)</strong></li>\n</ol>\n<ul>\n<li><em>Cost</em>: 50 Aldrachi Energy</li>\n<li><em>Effect</em>: Leap into the air and crash down on your target, dealing <strong>X Fel damage</strong> and stunning enemies in a <strong>6-yard radius</strong> for <strong>3 seconds</strong>.</li>\n<li><em>Cooldown</em>: 20 seconds</li>\n<li><em>Synergy</em>: Combos with <em>Chaos Vanguard</em> (Tier 4) to maximize burst windows.</li>\n</ul>\n<hr>\n<h4><a name=\"p-25669223-h-2-tier-2-building-synergies-65\" class=\"anchor\" href=\"#p-25669223-h-2-tier-2-building-synergies-65\" aria-label=\"Heading link\"></a><strong>2. Tier 2: Building Synergies</strong></h4>\n<ol>\n<li><strong>Fel-Chained Blade</strong></li>\n</ol>\n<ul>\n<li><em>Effect</em>: <em>Chaos Strike</em> chains to nearby enemies, dealing <strong>50% reduced damage</strong> to up to <strong>2 additional targets</strong>.</li>\n<li><em>Synergy</em>: Useful for light AoE scenarios without diluting single-target focus.</li>\n</ul>\n<ol start=\"2\">\n<li><strong>Aldrachi Resilience</strong></li>\n</ol>\n<ul>\n<li><em>Effect</em>: While in <em>Fel Fury</em>, you take <strong>10% less damage</strong>.</li>\n<li><em>Playstyle Tip</em>: Balances offensive and defensive play during burst phases.</li>\n</ul>\n<ol start=\"3\">\n<li><strong>Eclipse of Darkness</strong></li>\n</ol>\n<ul>\n<li><em>Effect</em>: Activating <em>Shadow Veil</em> causes your next <strong>3 Chaos Strikes</strong> to deal an additional <strong>50% of their damage as Shadow damage</strong>.</li>\n<li><em>Synergy</em>: Combines with <em>Shadowborn Reaver</em> (Tier 5) for enhanced burst potential.</li>\n</ul>\n<hr>\n<h4><a name=\"p-25669223-h-3-tier-3-mastery-of-aldrachi-energy-66\" class=\"anchor\" href=\"#p-25669223-h-3-tier-3-mastery-of-aldrachi-energy-66\" aria-label=\"Heading link\"></a><strong>3. Tier 3: Mastery of Aldrachi Energy</strong></h4>\n<ol>\n<li><strong>Aldrachi Surge (Active Ability)</strong></li>\n</ol>\n<ul>\n<li><em>Cost</em>: 100 Aldrachi Energy</li>\n<li><em>Effect</em>: Unleashes a pulse of Fel and Shadow energy, dealing <strong>X damage</strong> to enemies within <strong>15 yards</strong> and reducing their damage dealt by <strong>15% for 6 seconds</strong>.</li>\n<li><em>Cooldown</em>: 90 seconds</li>\n<li><em>Synergy</em>: Amplifies group survivability in high-pressure situations.</li>\n</ul>\n<ol start=\"2\">\n<li><strong>Fury of the Aldrachi (Passive)</strong></li>\n</ol>\n<ul>\n<li><em>Effect</em>: While in <em>Fel Fury</em>, your critical strike chance is increased by <strong>10%</strong>, and <em>Chaos Strike</em> deals <strong>20% more damage</strong>.</li>\n<li><em>Playstyle Tip</em>: Focuses on maximizing damage during burst windows.</li>\n</ul>\n<ol start=\"3\">\n<li><strong>Dark Convergence</strong></li>\n</ol>\n<ul>\n<li><em>Effect</em>: <em>Shadow Veil</em> reduces the cooldown of all crowd-control abilities (e.g., <em>Imprison</em>, <em>Chaos Nova</em>) by <strong>50%</strong> during its duration.</li>\n<li><em>Synergy</em>: Enables frequent utility for control-heavy encounters.</li>\n</ul>\n<hr>\n<h4><a name=\"p-25669223-h-4-tier-4-reavers-dominion-67\" class=\"anchor\" href=\"#p-25669223-h-4-tier-4-reavers-dominion-67\" aria-label=\"Heading link\"></a><strong>4. Tier 4: Reaver’s Dominion</strong></h4>\n<ol>\n<li><strong>Aldrachi Warbringer (Passive)</strong></li>\n</ol>\n<ul>\n<li><em>Effect</em>: Each <em>Fel Rush</em> generates <strong>10% more Aldrachi Energy</strong>, and every <em>Annihilation</em> increases your damage dealt by <strong>5% for 6 seconds</strong>, stacking up to <strong>3 times</strong>.</li>\n<li><em>Playstyle Tip</em>: Encourages aggressive rotations to maintain high damage buffs.</li>\n</ul>\n<ol start=\"2\">\n<li><strong>Chaos Vanguard</strong></li>\n</ol>\n<ul>\n<li><em>Effect</em>: While in <em>Fel Fury</em>, your <em>Fel Rush</em> and <em>Chaos Strike</em> reduce their cooldown by <strong>1 second</strong> for every critical hit you land.</li>\n<li><em>Synergy</em>: Pairs well with <em>Fel Frenzy</em> (Tier 1) for seamless rotation during burst windows.</li>\n</ul>\n<ol start=\"3\">\n<li><strong>Veil of Shadows (Active Ability)</strong></li>\n</ol>\n<ul>\n<li><em>Cost</em>: 40 Aldrachi Energy</li>\n<li><em>Effect</em>: Cloak yourself in shadows, becoming immune to crowd control for <strong>5 seconds</strong> and increasing all damage dealt by <strong>25%</strong>.</li>\n<li><em>Cooldown</em>: 60 seconds</li>\n<li><em>Synergy</em>: Use in tandem with <em>Eclipse of Darkness</em> for empowered strikes during <em>Shadow Veil</em>.</li>\n</ul>\n<hr>\n<h4><a name=\"p-25669223-h-5-tier-5-aldrachis-wrath-68\" class=\"anchor\" href=\"#p-25669223-h-5-tier-5-aldrachis-wrath-68\" aria-label=\"Heading link\"></a><strong>5. Tier 5: Aldrachi’s Wrath</strong></h4>\n<ol>\n<li><strong>Soulrend</strong></li>\n</ol>\n<ul>\n<li><em>Effect</em>: <em>Chaos Strike</em> causes the target to bleed for <strong>8% of its damage over 6 seconds</strong>. This effect increases by <strong>2%</strong> for every <strong>10 Aldrachi Energy</strong> consumed.</li>\n<li><em>Playstyle Tip</em>: Rewards players for consistent resource management.</li>\n</ul>\n<ol start=\"2\">\n<li><strong>Aldrachi Cataclysm</strong></li>\n</ol>\n<ul>\n<li><em>Effect</em>: After activating <em>Fel Fury</em>, your next <em>Fel Rush</em> or <em>Fel Blade</em> deals <strong>200% more damage</strong> and reduces the target’s damage output by <strong>15% for 6 seconds</strong>.</li>\n<li><em>Synergy</em>: Ideal for initiating or capitalizing on burst phases.</li>\n</ul>\n<ol start=\"3\">\n<li><strong>Shadowborn Reaver (Passive)</strong></li>\n</ol>\n<ul>\n<li><em>Effect</em>: While in <em>Shadow Veil</em>, your movement speed increases by <strong>100%</strong>, and <em>Chaos Strike</em> deals <strong>15% more damage</strong> to enemies affected by your <em>Shadow Veil</em> debuffs.</li>\n<li><em>Playstyle Tip</em>: Encourages proactive debuffing and positioning for high damage during <em>Shadow Veil</em>.</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-aldrachi-reaver-playstyle-enhancements-69\" class=\"anchor\" href=\"#p-25669223-aldrachi-reaver-playstyle-enhancements-69\" aria-label=\"Heading link\"></a><strong>Aldrachi Reaver Playstyle Enhancements</strong></h3>\n<ol>\n<li><strong>Dynamic Resource Management</strong>: The interplay of <strong>Aldrachi Energy</strong>, <strong>Fel Fury</strong>, and <strong>Shadow Veil</strong> phases demands strategic planning and execution. Players must balance when to generate resources and how to spend them for maximum impact.</li>\n<li><strong>High Burst Windows</strong>: With talents like <em>Fury of the Aldrachi</em> and <em>Aldrachi Cataclysm</em>, burst damage potential is immense during <em>Fel Fury</em>.</li>\n<li><strong>Utility and Control</strong>: Abilities like <em>Dark Convergence</em> and <em>Veil of Shadows</em> provide strong crowd control and survivability tools, making the spec adaptable for PvE and PvP scenarios.</li>\n<li><strong>Single-Target and Cleave Synergy</strong>: Abilities like <em>Fel-Chained Blade</em> and <em>Soulrend</em> ensure competitive single-target damage, with limited cleave for hybrid situations.</li>\n</ol>\n<hr>\n<h3><a name=\"p-25669223-quality-of-life-improvements-for-the-demon-hunter-class-talent-tree-highlights-and-summary-70\" class=\"anchor\" href=\"#p-25669223-quality-of-life-improvements-for-the-demon-hunter-class-talent-tree-highlights-and-summary-70\" aria-label=\"Heading link\"></a>Quality of Life Improvements for the Demon Hunter Class Talent Tree: Highlights and Summary</h3>\n<p>These improvements not only focus on <strong>streamlining gameplay</strong> but also enhance <strong>mobility, survivability, and combat flow</strong>, ensuring Demon Hunters retain their hallmark fast-paced and dynamic playstyle. Below is a concise version emphasizing key changes:</p>\n<hr>\n<h3><a name=\"p-25669223-h-1-core-abilities-with-integrated-passives-71\" class=\"anchor\" href=\"#p-25669223-h-1-core-abilities-with-integrated-passives-71\" aria-label=\"Heading link\"></a><strong>1. Core Abilities with Integrated Passives</strong></h3>\n<ul>\n<li><strong>Fel Rush / Fel Blade</strong>: Grant <strong>10 Aldrachi Energy per enemy hit</strong>, rewarding optimal positioning and encouraging use in AoE situations.</li>\n<li><strong>Demon’s Bite / Shear</strong>: Add <strong>10% sustained resource regeneration</strong> over 3 seconds, creating smoother Fury/Pain generation.</li>\n<li><strong>Metamorphosis / Demon Form</strong>: Add a <strong>30% movement speed boost</strong> and reduce the cooldown of <strong>Fel Rush</strong> by 50% during its duration, further amplifying mobility and fluidity.</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-h-2-enhanced-resource-management-72\" class=\"anchor\" href=\"#p-25669223-h-2-enhanced-resource-management-72\" aria-label=\"Heading link\"></a><strong>2. Enhanced Resource Management</strong></h3>\n<ul>\n<li><strong>Chaos Strike</strong>: Gains a <strong>20% chance to refund Fury</strong>, smoothing out resource expenditure during high-intensity damage phases.</li>\n<li><strong>Immolation Aura</strong>: Adds a <strong>10% Haste buff for 6 seconds</strong>, improving synergy with subsequent abilities.</li>\n<li><strong>Eye Beam</strong>: Provides a <strong>5% stacking crit buff (up to 3)</strong> after channeling, promoting burst window setups.</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-h-3-synergistic-and-utility-enhancements-73\" class=\"anchor\" href=\"#p-25669223-h-3-synergistic-and-utility-enhancements-73\" aria-label=\"Heading link\"></a><strong>3. Synergistic and Utility Enhancements</strong></h3>\n<ul>\n<li><strong>Throw Glaive</strong>: Gains a <strong>20% chance to reduce Fel Rush’s cooldown by 1 second per target hit</strong>, rewarding strategic use in AoE.</li>\n<li><strong>Imprison</strong>: Reduces imprisoned enemies’ damage by <strong>10%</strong>, adding value in PvE and PvP for controlling dangerous foes.</li>\n<li><strong>Chaos Nova</strong>: Grants <strong>20% bonus damage for 6 seconds</strong> after stunning enemies, encouraging offensive timing for AoE control.</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-h-4-additional-mobility-and-survivability-74\" class=\"anchor\" href=\"#p-25669223-h-4-additional-mobility-and-survivability-74\" aria-label=\"Heading link\"></a><strong>4. Additional Mobility and Survivability</strong></h3>\n<ul>\n<li><strong>Fel Rush</strong>: Removes <strong>movement-impairing effects</strong> on activation, enabling more flexible responses in high-movement fights.</li>\n<li><strong>Evasion</strong>: Increases Fury generation by <strong>15%</strong> while active, making defensive phases feel rewarding offensively.</li>\n<li><strong>Post-Metamorphosis Buff</strong>: Adds <strong>20% increased Fury/Pain regeneration</strong> for 10 seconds after the ability ends, smoothing downtime transitions.</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-h-5-fluid-combat-flow-75\" class=\"anchor\" href=\"#p-25669223-h-5-fluid-combat-flow-75\" aria-label=\"Heading link\"></a><strong>5. Fluid Combat Flow</strong></h3>\n<p>The changes reward Demon Hunters for mastering their <strong>high mobility</strong> and <strong>burst potential</strong>, while reducing the punishment of mistakes. Abilities like <strong>Fel Rush</strong>, <strong>Blade Dance</strong>, and <strong>Throw Glaive</strong> gain extra utility and synergy, ensuring combat feels consistently engaging without sacrificing skill expression.</p>\n<hr>\n<h3><a name=\"p-25669223-blade-dance-reworked-enhancement-76\" class=\"anchor\" href=\"#p-25669223-blade-dance-reworked-enhancement-76\" aria-label=\"Heading link\"></a><strong>Blade Dance – Reworked Enhancement</strong></h3>\n<h4><a name=\"p-25669223-current-functionality-77\" class=\"anchor\" href=\"#p-25669223-current-functionality-77\" aria-label=\"Heading link\"></a><strong>Current Functionality</strong>:</h4>\n<ul>\n<li>Blade Dance is a high-damage AoE ability.</li>\n</ul>\n<h4><a name=\"p-25669223-proposed-improvement-78\" class=\"anchor\" href=\"#p-25669223-proposed-improvement-78\" aria-label=\"Heading link\"></a><strong>Proposed Improvement</strong>:</h4>\n<p><strong>Blade Dance</strong> now has the following enhancements:</p>\n<h4><a name=\"p-25669223-proposed-changes-79\" class=\"anchor\" href=\"#p-25669223-proposed-changes-79\" aria-label=\"Heading link\"></a><strong>Proposed Changes</strong>:</h4>\n<ol>\n<li><strong>Dancing Steel</strong> (Passive):</li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: <strong>Blade Dance</strong>’s final hit now deals <strong>50% additional damage</strong> for each enemy struck. This bonus damage is doubled against targets with less than 30% health.</li>\n<li><strong>Flavor</strong>: The more enemies you strike, the more deadly your blade becomes, culminating in devastating damage for weaker targets.</li>\n</ul>\n<ol start=\"2\">\n<li><strong>Blade Surge</strong> (Passive):</li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Every <strong>Blade Dance</strong> increases your <strong>Chaos Strike</strong> damage by <strong>5% for 6 seconds</strong>, stacking up to 3 times. This effect resets if <strong>Blade Dance</strong> is not used within 6 seconds.</li>\n<li><strong>Flavor</strong>: The rapid tempo of <strong>Blade Dance</strong> fuels the <strong>Reaver’s</strong> aggression, preparing your <strong>Chaos Strikes</strong> to land with greater force.</li>\n</ul>\n<ol start=\"3\">\n<li><strong>Unyielding Dance</strong> (Active Ability):</li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: When you hit 5 or more enemies with <strong>Blade Dance</strong>, you activate <strong>Unyielding Dance</strong> for 3 seconds. During this time, <strong>Blade Dance</strong>’s damage is increased by <strong>15%</strong>, and its cooldown is reduced by <strong>5 seconds</strong>.</li>\n<li><strong>Flavor</strong>: Unleashing the power of the Aldrachi, you enter a flow where your blades cut faster, dealing more damage with each subsequent strike.</li>\n</ul>\n<ol start=\"4\">\n<li><strong>Blade Twister</strong> (New Passive):</li>\n</ol>\n<ul>\n<li><strong>Effect</strong>: Each time <strong>Blade Dance</strong> hits 4 or more enemies, your next <strong>Throw Glaive</strong> deals <strong>20% more damage</strong> and <strong>hits 2 additional targets</strong>. Additionally, <strong>Throw Glaive</strong>’s cooldown is reduced by <strong>1 second</strong> per target hit by <strong>Blade Dance</strong>.</li>\n<li><strong>Flavor</strong>: The chaotic dance of blades sparks the potential for greater ranged strikes, ensuring that even from a distance, your enemies feel the wrath of the <strong>Aldrachi</strong>.</li>\n</ul>\n<h4><a name=\"p-25669223-damage-scaling-mindful-of-tier-set-concept-80\" class=\"anchor\" href=\"#p-25669223-damage-scaling-mindful-of-tier-set-concept-80\" aria-label=\"Heading link\"></a><strong>Damage Scaling</strong> (Mindful of Tier Set Concept):</h4>\n<ul>\n<li><strong>Blade Dance Scaling</strong>: As you hit more enemies, <strong>Blade Dance</strong> damage ramps up, rewarding you for high-density combat situations. This mechanic mimics the <strong>Dragonflight Season 3 tier set</strong> concept, where each hit scales your damage in a meaningful way.\n<ul>\n<li>This scaling would feel fluid as <strong>Blade Dance</strong> hits more enemies, gradually amplifying its potency with additional targets, much like the <strong>Season 3 tier set</strong>, where damage increased based on the number of enemies hit.</li>\n</ul>\n</li>\n<li><strong>Sustained Damage</strong>: By adding <strong>Unyielding Dance</strong>, we also reward <strong>sustained AoE damage</strong> over time, turning <strong>Blade Dance</strong> into not just a burst tool but also an ongoing source of ramp-up damage during dense phases of combat. This would be a direct nod to the <strong>Season 3 tier set</strong>, where sustained damage output was key to maximizing damage during AoE rotations.</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-why-this-works-81\" class=\"anchor\" href=\"#p-25669223-why-this-works-81\" aria-label=\"Heading link\"></a><strong>Why This Works</strong>:</h3>\n<ul>\n<li><strong>Dynamic Scaling</strong>: The more enemies you hit, the more powerful <strong>Blade Dance</strong> becomes. This introduces a gameplay element where players feel their damage potential ramp up the longer they stay in a high-density AoE situation, mimicking the <strong>Season 3 tier set’s</strong> focus on scaling with target count.</li>\n<li><strong>Synergy with Core Abilities</strong>: <strong>Blade Dance</strong> enhances <strong>Chaos Strike</strong> with <strong>Blade Surge</strong>, making <strong>Blade Dance</strong> not just an AoE tool but also a way to buff your primary single-target abilities. This synergy builds a seamless connection between <strong>AoE</strong> and <strong>single-target</strong> damage, encouraging players to weave <strong>Blade Dance</strong> into their rotation as an impactful cooldown.</li>\n<li><strong>Aoe Fluidity</strong>: The addition of <strong>Blade Twister</strong> means <strong>Throw Glaive</strong> becomes more potent after <strong>Blade Dance</strong>, rewarding tactical use of both abilities and increasing overall AoE throughput. This brings a sense of <strong>strategic planning</strong> to how you deal with larger packs of enemies, creating synergy between melee and ranged options.</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-comparison-to-dragonflight-season-3-tier-set-82\" class=\"anchor\" href=\"#p-25669223-comparison-to-dragonflight-season-3-tier-set-82\" aria-label=\"Heading link\"></a><strong>Comparison to Dragonflight Season 3 Tier Set</strong>:</h3>\n<p>In <strong>Season 3</strong>, the <strong>Blade Dance</strong> tier set gave a scaling bonus for each target hit, making <strong>Blade Dance</strong> more powerful in AoE situations. We’ve carried this forward with <strong>Dancing Steel</strong>, where the damage increases based on the number of targets hit, and <strong>Unyielding Dance</strong> brings back the idea of burst potential that rewards players for positioning well in high-damage, multi-target phases.</p>\n<hr>\n<hr>\n<h3><a name=\"p-25669223-vengeance-demon-hunter-rework-concept-83\" class=\"anchor\" href=\"#p-25669223-vengeance-demon-hunter-rework-concept-83\" aria-label=\"Heading link\"></a><strong>Vengeance Demon Hunter Rework Concept</strong></h3>\n<p>The <strong>Vengeance Demon Hunter rework</strong> aims to improve <strong>resource management</strong>, enhance <strong>survivability</strong>, and make <strong>damage-dealing abilities</strong> feel more impactful while retaining the class’s core identity: a tank with offensive flair. This rework streamlines <strong>Vengeance’s rotation</strong> to feel more fluid and rewarding while maintaining its unique playstyle.</p>\n<hr>\n<h3><a name=\"p-25669223-h-1-resource-management-improvements-84\" class=\"anchor\" href=\"#p-25669223-h-1-resource-management-improvements-84\" aria-label=\"Heading link\"></a><strong>1. Resource Management Improvements</strong></h3>\n<h4><a name=\"p-25669223-pain-generation-consumption-85\" class=\"anchor\" href=\"#p-25669223-pain-generation-consumption-85\" aria-label=\"Heading link\"></a><strong>Pain Generation &amp; Consumption</strong></h4>\n<ul>\n<li><strong>Shear</strong>\n<ul>\n<li><strong>Rework</strong>: Generates <strong>10 Pain per enemy hit</strong>.</li>\n<li><strong>Rationale</strong>: Enhances Pain generation for both single-target and AoE encounters, ensuring consistency across combat scenarios.</li>\n</ul>\n</li>\n<li><strong>Burning Hatred</strong> <em>(Passive)</em>\n<ul>\n<li><strong>Rework</strong>: Increases <strong>maximum Pain by 10%</strong> for every <strong>5 seconds spent in Demon Form</strong>.</li>\n<li><strong>Rationale</strong>: Encourages uptime in <em>Demon Form</em>, rewarding players for engaging with the spec’s iconic transformation.</li>\n</ul>\n</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-h-2-core-ability-adjustments-86\" class=\"anchor\" href=\"#p-25669223-h-2-core-ability-adjustments-86\" aria-label=\"Heading link\"></a><strong>2. Core Ability Adjustments</strong></h3>\n<h4><a name=\"p-25669223-soul-cleave-87\" class=\"anchor\" href=\"#p-25669223-soul-cleave-87\" aria-label=\"Heading link\"></a><strong>Soul Cleave</strong></h4>\n<ul>\n<li><strong>Rework</strong>: Healing increases based on Pain spent, with <strong>up to 20% bonus healing</strong> when used at maximum Pain.</li>\n<li><strong>Rationale</strong>: Rewards resource management by making <em>Soul Cleave</em> a stronger self-heal when used strategically.</li>\n</ul>\n<h4><a name=\"p-25669223-shear-88\" class=\"anchor\" href=\"#p-25669223-shear-88\" aria-label=\"Heading link\"></a><strong>Shear</strong></h4>\n<ul>\n<li><strong>Rework</strong>: Gains a <strong>20% chance to generate an additional Soul Fragment</strong> on each hit.</li>\n<li><strong>Rationale</strong>: Enhances <em>Shear</em> as a key ability for survivability and Pain generation, improving synergy with <em>Soul Cleave</em>.</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-h-3-cooldown-and-mobility-updates-89\" class=\"anchor\" href=\"#p-25669223-h-3-cooldown-and-mobility-updates-89\" aria-label=\"Heading link\"></a><strong>3. Cooldown and Mobility Updates</strong></h3>\n<h4><a name=\"p-25669223-demon-spikes-90\" class=\"anchor\" href=\"#p-25669223-demon-spikes-90\" aria-label=\"Heading link\"></a><strong>Demon Spikes</strong></h4>\n<ul>\n<li><strong>Rework</strong>: Cooldown reduced to <strong>30 seconds</strong>. Duration extended by <strong>2 seconds for every 100 Pain spent</strong> during its active time.</li>\n<li><strong>Rationale</strong>: Encourages efficient Pain usage to increase defensive uptime, offering flexibility in mitigation.</li>\n</ul>\n<h4><a name=\"p-25669223-infernal-strike-91\" class=\"anchor\" href=\"#p-25669223-infernal-strike-91\" aria-label=\"Heading link\"></a><strong>Infernal Strike</strong></h4>\n<ul>\n<li><strong>Rework</strong>: Generates <strong>5% of maximum Pain</strong> on a successful hit.</li>\n<li><strong>Rationale</strong>: Improves resource generation during movement-heavy encounters, ensuring mobility remains a tactical tool.</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-h-4-damage-and-aggro-enhancements-92\" class=\"anchor\" href=\"#p-25669223-h-4-damage-and-aggro-enhancements-92\" aria-label=\"Heading link\"></a><strong>4. Damage and Aggro Enhancements</strong></h3>\n<h4><a name=\"p-25669223-fiery-brand-93\" class=\"anchor\" href=\"#p-25669223-fiery-brand-93\" aria-label=\"Heading link\"></a><strong>Fiery Brand</strong></h4>\n<ul>\n<li><strong>Rework</strong>: Deals bonus damage based on the <strong>Pain spent in the last 5 seconds</strong>, up to a <strong>25% damage increase</strong>. Cooldown reduced by <strong>2 seconds each time the Demon Hunter takes damage</strong>.</li>\n<li><strong>Rationale</strong>: Introduces a skill-based component to maximize <em>Fiery Brand’s</em> damage output while improving its uptime for threat and mitigation.</li>\n</ul>\n<h4><a name=\"p-25669223-soul-barrier-94\" class=\"anchor\" href=\"#p-25669223-soul-barrier-94\" aria-label=\"Heading link\"></a><strong>Soul Barrier</strong></h4>\n<ul>\n<li><strong>Rework</strong>: Grants a <strong>10% bonus to damage</strong> for 10 seconds after activation.</li>\n<li><strong>Rationale</strong>: Enhances <em>Soul Barrier</em> as both a defensive and offensive tool, aligning with the class’s hybrid playstyle.</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-h-5-new-talents-and-synergies-95\" class=\"anchor\" href=\"#p-25669223-h-5-new-talents-and-synergies-95\" aria-label=\"Heading link\"></a><strong>5. New Talents and Synergies</strong></h3>\n<h4><a name=\"p-25669223-wings-of-vengeance-new-talent-96\" class=\"anchor\" href=\"#p-25669223-wings-of-vengeance-new-talent-96\" aria-label=\"Heading link\"></a><strong>Wings of Vengeance</strong> <em>(New Talent)</em></h4>\n<ul>\n<li><strong>Effect</strong>: When <em>Metamorphosis</em> ends, your Pain generation increases by <strong>50%</strong> for 10 seconds, and all Pain-spending abilities heal for <strong>5% of your maximum health</strong> per target hit.</li>\n<li><strong>Rationale</strong>: Boosts post-<em>Demon Form</em> transitions, offering healing and resource generation synergy.</li>\n</ul>\n<h4><a name=\"p-25669223-ember-of-the-fallen-new-talent-97\" class=\"anchor\" href=\"#p-25669223-ember-of-the-fallen-new-talent-97\" aria-label=\"Heading link\"></a><strong>Ember of the Fallen</strong> <em>(New Talent)</em></h4>\n<ul>\n<li><strong>Effect</strong>: <em>Fiery Brand</em> reduces all damage taken by <strong>15%</strong> for its duration. <em>Soul Cleave</em> has a <strong>10% chance to refresh Fiery Brand’s cooldown</strong> when hitting 5 or more enemies.</li>\n<li><strong>Rationale</strong>: Improves <em>Fiery Brand</em> as a defensive and aggro tool, increasing uptime and synergy with AoE abilities.</li>\n</ul>\n<hr>\n<h3><a name=\"p-25669223-conclusion-98\" class=\"anchor\" href=\"#p-25669223-conclusion-98\" aria-label=\"Heading link\"></a><strong>Conclusion</strong></h3>\n<p>This <strong>Vengeance Demon Hunter rework</strong> enhances the spec by refining <strong>resource management</strong>, strengthening <strong>survivability</strong>, and making <strong>damage output</strong> more rewarding. These changes create a smoother gameplay loop that emphasizes tactical decision-making, blending offensive and defensive capabilities seamlessly. Players will enjoy improved <strong>Pain generation</strong>, more impactful <strong>self-healing</strong>, better <strong>mobility</strong>, and a refined balance of power in both <strong>single-target and AoE scenarios</strong>.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 1,
+        "updated_at": "2024-11-24T22:36:29.847Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 148,
+        "reads": 54,
+        "readers_count": 53,
+        "score": 805.8,
+        "yours": false,
+        "topic_id": 2015716,
+        "topic_slug": "i-hired-chatgpt-as-a-dev",
+        "display_username": "Kaiba",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 12,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 4
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2781868,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/tichondrius/káiba/",
+          "class": "Demon Hunter",
+          "player_class_enum": "DEMONHUNTER",
+          "level": "80",
+          "guild": "uWu Mafia",
+          "race": "Void Elf",
+          "achievement_points": "23525",
+          "blizzard_post_count": "2658"
+        },
+        "post_url": "/t/i-hired-chatgpt-as-a-dev/2015716/1",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/tichondrius/57/245043513-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
+        "alias_username": "Káiba-tichondrius",
+        "poster_alias": {
+          "alias": {
+            "name": "Káiba-tichondrius",
+            "avatar": "https://render.worldofwarcraft.com/us/character/tichondrius/57/245043513-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
+            "url": null,
+            "user_id": 2781868,
+            "id": 114474,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 469,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/tichondrius/káiba/"
+              },
+              {
+                "name": "realm",
+                "value": "Tichondrius"
+              },
+              {
+                "name": "achievement_points",
+                "value": "23525"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Void Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Demon Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEMONHUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/tichondrius/57/245043513-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Káiba-tichondrius"
+              },
+              {
+                "name": "guild",
+                "value": "uWu Mafia"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 2658,
+        "character": {
+          "name": "Kaiba",
+          "guild": "uWu Mafia",
+          "achievement_points": "23525",
+          "level": "80",
+          "class": "Demon Hunter",
+          "race": "Void Elf",
+          "player_class_enum": "DEMONHUNTER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      }
+    ],
+    "stream": [
+      25669223
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      656
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "fancy_title": "Collapsing Star should insta end VoidMeta for VS",
+      "id": 2343168,
+      "title": "Collapsing Star should insta end VoidMeta for VS",
+      "slug": "collapsing-star-should-insta-end-voidmeta-for-vs",
+      "posts_count": 16,
+      "reply_count": 13,
+      "highest_post_number": 16,
+      "image_url": null,
+      "created_at": "2026-08-31T18:10:50.008Z",
+      "last_posted_at": "2026-09-07T16:58:42.262Z",
+      "bumped": true,
+      "bumped_at": "2026-09-07T16:58:42.262Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "And each Voidscar stack should count as an Impending Apocalypse stack. Easy band-aid fix while they figure out what to do",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 5,
+      "views": 471,
+      "category_id": 176,
+      "featured_link": null,
+      "op_like_count": 1,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 1382093,
+            "username": "kronos-1382093",
+            "name": "kronos",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2327581,
+            "username": "Nightingale-2327581",
+            "name": "Nightingale",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2041850,
+            "username": "Shiro-2041850",
+            "name": "Shiro",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2231848,
+            "username": "Visions-2231848",
+            "name": "Visions",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 1402364,
+            "username": "osiozzy-1402364",
+            "name": "osiozzy",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Havoc/tier feels bad this patch",
+      "id": 2343750,
+      "title": "Havoc/tier feels bad this patch",
+      "slug": "havoctier-feels-bad-this-patch",
+      "posts_count": 8,
+      "reply_count": 5,
+      "highest_post_number": 8,
+      "image_url": null,
+      "created_at": "2026-09-02T01:16:17.747Z",
+      "last_posted_at": "2026-09-06T17:04:29.771Z",
+      "bumped": true,
+      "bumped_at": "2026-09-06T17:04:29.771Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "being forced to use a talent like essence break feels bad, devourer always being higher than the veteran dps spec feels worse. \nif we are forced to use their tier can we get a change \nvengeful retreat baseline down to 19&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 2,
+      "views": 374,
+      "category_id": 176,
+      "featured_link": null,
+      "op_like_count": 1,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 2258892,
+            "username": "hermgoddess-2258892",
+            "name": "hermgoddess",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 942567,
+            "username": "Amethyst-942567",
+            "name": "Amethyst",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1885117,
+            "username": "Rembourrage-1885117",
+            "name": "Rembourrage",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17881,
+            "username": "Averax-17881",
+            "name": "Averax",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 1402364,
+            "username": "osiozzy-1402364",
+            "name": "osiozzy",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Welp guess that&rsquo;s it then. So long Annihilator. It was a short run but it was fun for a time",
+      "id": 2342367,
+      "title": "Welp guess that's it then. So long Annihilator. It was a short run but it was fun for a time",
+      "slug": "welp-guess-thats-it-then-so-long-annihilator-it-was-a-short-run-but-it-was-fun-for-a-time",
+      "posts_count": 6,
+      "reply_count": 1,
+      "highest_post_number": 6,
+      "image_url": null,
+      "created_at": "2026-08-29T00:05:43.791Z",
+      "last_posted_at": "2026-08-29T20:22:00.055Z",
+      "bumped": true,
+      "bumped_at": "2026-08-29T20:22:00.055Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "With this being the third week and blizz saying there would be class changes each week for the first 3 weeks I guess that’s it then. An awfully designed tier 4 set bonus with the nerfs and a spec that is literally played&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 4,
+      "views": 355,
+      "category_id": 176,
+      "featured_link": null,
+      "op_like_count": 2,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 2903254,
+            "username": "Nommnommz-2903254",
+            "name": "Nommnommz",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 1,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2798808,
+            "username": "Fizban-2798808",
+            "name": "Fizban",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1402364,
+            "username": "osiozzy-1402364",
+            "name": "osiozzy",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2041850,
+            "username": "Shiro-2041850",
+            "name": "Shiro",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 3025361,
+            "username": "Xastral01-3025361",
+            "name": "Xastral01",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Game breaking bug",
+      "id": 2340615,
+      "title": "Game breaking bug",
+      "slug": "game-breaking-bug",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2026-08-24T16:57:00.269Z",
+      "last_posted_at": "2026-08-25T13:15:52.140Z",
+      "bumped": true,
+      "bumped_at": "2026-08-25T13:15:52.140Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "I’m an annihilator devourer enjoyer (I know, shoot myself in the foot). Multiple instances this week in both dungeons and raid I’ve encountered a bug where I get stuck at 99/100 Fury and CANNOT reach enough fury to void &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 158,
+      "category_id": 176,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3385414,
+            "username": "Quack-3385414",
+            "name": "Quack",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1467972,
+            "username": "Bob1013-1467972",
+            "name": "Bob1013",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 3307300,
+            "username": "nyxx-3307300",
+            "name": "nyxx",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Collapsing Star fixed for Void-Scarred?",
+      "id": 2344434,
+      "title": "Collapsing Star fixed for Void-Scarred?",
+      "slug": "collapsing-star-fixed-for-void-scarred",
+      "posts_count": 29,
+      "reply_count": 17,
+      "highest_post_number": 29,
+      "image_url": null,
+      "created_at": "2026-09-03T17:58:36.599Z",
+      "last_posted_at": "2026-09-09T13:16:18.207Z",
+      "bumped": true,
+      "bumped_at": "2026-09-09T13:16:18.207Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "12.1.5 notes added this, alongside other changes for CS: \nVoid-Scarred \n\nDemonic Intensity now causes Collapsing Star to reset the cooldown of The Hunt.",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 20,
+      "views": 559,
+      "category_id": 176,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3204663,
+            "username": "Raven-3204663",
+            "name": "Raven",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1467972,
+            "username": "Bob1013-1467972",
+            "name": "Bob1013",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1854455,
+            "username": "Nrv-1854455",
+            "name": "Nrv",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1402364,
+            "username": "osiozzy-1402364",
+            "name": "osiozzy",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 17881,
+            "username": "Averax-17881",
+            "name": "Averax",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    }
+  ],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "I hired ChatGPT as a Dev",
+  "id": 2015716,
+  "title": "I hired ChatGPT as a Dev",
+  "posts_count": 1,
+  "created_at": "2024-11-23T01:28:33.710Z",
+  "views": 330,
+  "reply_count": 0,
+  "like_count": 4,
+  "last_posted_at": "2024-11-23T01:28:33.890Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "i-hired-chatgpt-as-a-dev",
+  "category_id": 176,
+  "word_count": 6323,
+  "deleted_at": null,
+  "user_id": 2781868,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_2015716",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 1,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 1001,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1002,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1003,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1004,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1005,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 0,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [],
+    "created_by": {
+      "id": 2781868,
+      "username": "Kaiba-2781868",
+      "name": "Kaiba",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    },
+    "last_poster": {
+      "id": 2781868,
+      "username": "Kaiba-2781868",
+      "name": "Kaiba",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    }
+  },
+  "bookmarks": [],
+  "jogo": "World of Warcraft",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Oficial Blizzard",
+  "url_fonte": "https://us.forums.blizzard.com/en/wow/t/i-hired-chatgpt-as-a-dev/2015716",
+  "canonical_url": "https://us.forums.blizzard.com/en/wow/t/i-hired-chatgpt-as-a-dev/2015716"
+}

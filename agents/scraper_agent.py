@@ -21,9 +21,27 @@ class ScraperAgent:
     def __init__(self):
         self.raw_dir = config.DATA_RAW_DIR
         self.interim_dir = config.DATA_INTERIM_DIR
+        self.corpus_file = os.path.join(config.BASE_DIR, "data", "target_corpus_303.json")
+        self.target_topic_ids = set()
+        self.target_urls = set()
+        
+        if os.path.exists(self.corpus_file):
+            try:
+                with open(self.corpus_file, "r", encoding="utf-8") as f:
+                    corpus = json.load(f)
+                    for item in corpus:
+                        tid = str(item.get("topic_id") or "").strip()
+                        if tid and tid != "None":
+                            self.target_topic_ids.add(tid)
+                        u = item.get("canonical_url", "").strip()
+                        if u:
+                            self.target_urls.add(u)
+                logger.info(f"Loaded target corpus: {len(self.target_topic_ids)} topic IDs, {len(self.target_urls)} canonical URLs.")
+            except Exception as e:
+                logger.error(f"Error loading target corpus: {e}")
         
     def run(self):
-        logger.info("ScraperAgent starting...")
+        logger.info(f"ScraperAgent starting with temporal boundary >= {config.POST_MIN_DATE}...")
         
         # Look for JSON files in the raw folder
         raw_files = [f for f in os.listdir(self.raw_dir) if f.endswith(".json")]
@@ -34,9 +52,12 @@ class ScraperAgent:
         logger.info(f"Found {len(raw_files)} raw topic files. Beginning extraction...")
         
         normalized_posts = []
+        skipped_pre_2024 = 0
+        skipped_short = 0
+        skipped_non_target = 0
+
         for file_name in raw_files:
             file_path = os.path.join(self.raw_dir, file_name)
-            logger.info(f"Loading raw topic file: {file_path}")
             try:
                 with open(file_path, "r", encoding="utf-8") as f:
                     topic = json.load(f)
@@ -44,27 +65,46 @@ class ScraperAgent:
                 logger.error(f"Error reading file {file_path}: {e}")
                 continue
                 
-            topic_id = topic.get("id")
+            topic_id = str(topic.get("id") or topic.get("topic_id") or "")
             title = topic.get("title", "Sem Título")
             slug = topic.get("slug", "")
             game = topic.get("jogo", "Desconhecido")
             source = topic.get("fonte", "Desconhecido")
             section = topic.get("seccao", "Geral")
-            url_fonte = topic.get("url_fonte", "")
+            url_fonte = topic.get("url_fonte") or topic.get("canonical_url") or ""
+            
+            # Check if topic belongs to target corpus
+            is_target = False
+            if self.target_topic_ids:
+                if topic_id in self.target_topic_ids:
+                    is_target = True
+                elif any(tid in file_name for tid in self.target_topic_ids):
+                    is_target = True
+                elif url_fonte and any(tu in url_fonte or url_fonte in tu for tu in self.target_urls):
+                    is_target = True
+            else:
+                is_target = True
+
+            if not is_target:
+                skipped_non_target += 1
+                continue
             
             posts = topic.get("post_stream", {}).get("posts", [])
             for post in posts:
                 post_stream_id = post.get("id")
                 post_id = f"{topic_id}_{post_stream_id}"
                 
-                logger.info(f"Processing post {post_id}... (Simulating {config.IO_DELAY_SECONDS}s I/O delay)")
-                time.sleep(config.IO_DELAY_SECONDS)
+                # STRICT TEMPORAL FILTER: created_at >= POST_MIN_DATE (2024-01-01)
+                post_created_at = post.get("created_at") or ""
+                if post_created_at < config.POST_MIN_DATE:
+                    skipped_pre_2024 += 1
+                    continue
                 
                 cooked_content = post.get("cooked", "")
                 clean_body = strip_html_tags(cooked_content)
                 
                 if len(clean_body) < config.MIN_BODY_LENGTH:
-                    logger.warning(f"Post {post_id} filtered out: body length is {len(clean_body)} (< {config.MIN_BODY_LENGTH} chars).")
+                    skipped_short += 1
                     continue
                     
                 # Determine platform
@@ -124,6 +164,12 @@ class ScraperAgent:
                 logger.info(f"Post {post_id} normalized successfully (keywords: {len(keywords_triggered)}).")
 
             
+        logger.info(
+            f"Extraction metrics: {len(normalized_posts)} posts retained (>= {config.POST_MIN_DATE}). "
+            f"Filtered out: {skipped_pre_2024} pre-2024 posts, {skipped_short} short posts (< {config.MIN_BODY_LENGTH} chars), "
+            f"{skipped_non_target} non-target topic files."
+        )
+
         # Write to interim directory
         output_file = os.path.join(self.interim_dir, "scraped_posts.json")
         try:

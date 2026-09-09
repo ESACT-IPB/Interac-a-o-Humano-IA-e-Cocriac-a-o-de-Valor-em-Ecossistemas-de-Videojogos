@@ -1,0 +1,109 @@
+{
+  "id": "1u3zmk5",
+  "title": "Using The Agent Finder To Target A Specific",
+  "jogo": "EVE Online",
+  "fonte": "Reddit",
+  "seccao": "r/Eve",
+  "url_fonte": "https://www.reddit.com/r/Eve/comments/1u3zmk5/using_the_agent_finder_to_target_a_specific",
+  "canonical_url": "https://www.reddit.com/r/Eve/comments/1u3zmk5/using_the_agent_finder_to_target_a_specific",
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1,
+        "username": "EuropoBob",
+        "cooked": "<p>Targeting particular people can get you banned for harassment. Don't be that guy. </p>",
+        "created_at": "2026-06-12T16:17:51Z",
+        "post_number": 1,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": -6,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 2,
+        "username": "Friendlyfanatic",
+        "cooked": "<p>He is talking about agents my guy </p>",
+        "created_at": "2026-06-12T16:54:20Z",
+        "post_number": 2,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 4,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 3,
+        "username": "OptimalPatience5199",
+        "cooked": "<p>Can you elaborate what you mean?</p>",
+        "created_at": "2026-06-12T16:58:05Z",
+        "post_number": 3,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 0,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 4,
+        "username": "Archophob",
+        "cooked": "<p>Agents are NPCs?</p>",
+        "created_at": "2026-06-12T17:20:15Z",
+        "post_number": 4,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 5,
+        "username": "OptimalPatience5199",
+        "cooked": "<p>yes, and I tried to post into this guide into r/Eve, the MMO game it relates to.</p>",
+        "created_at": "2026-06-12T17:32:32Z",
+        "post_number": 5,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 6,
+        "username": "EuropoBob",
+        "cooked": "<p>I was just making a joke based on your title. </p>",
+        "created_at": "2026-06-12T17:43:41Z",
+        "post_number": 6,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 0,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 7,
+        "username": "paladinrpg",
+        "cooked": "<p>Yep, been using this method for ages. One of those quirks of the 20+ year old system that comes in handy now and then.</p>",
+        "created_at": "2026-06-12T19:40:42Z",
+        "post_number": 7,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 8,
+        "username": "Done25v2",
+        "cooked": "<p>Thank you for this.</p>",
+        "created_at": "2026-08-24T17:55:22Z",
+        "post_number": 8,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      }
+    ]
+  }
+}

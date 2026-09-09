@@ -8,395 +8,354 @@
 
 ### 1.1 Enquadramento Teórico
 
-O presente relatório adota o framework DART-NET (Prahalad & Ramaswamy, 2004; DART-NET 2026), uma extensão operacional do modelo DART clássico — Diálogo, Acesso, Risco e Transparência — para a análise sistemática de interações entre humanos e agentes de inteligência artificial (IA) em ecossistemas virtuais de videojogos. O framework original de Prahalad e Ramaswamy postula que a cocriação de valor emerge da interação dialética entre consumidores e sistemas, sendo mediada por quatro pilares fundamentais: a qualidade do diálogo entre atores, o acesso a recursos e informação, a avaliação e gestão de riscos, e a transparência dos processos.
+O presente relatório aplica o framework DART-NET (Prahalad & Ramaswamy, 2004; DART-NET 2026) à análise da interação entre humanos e agentes de inteligência artificial (IA) em ecossistemas de videojogos. O modelo DART original — Diálogo, Acesso, Risco e Transparência — constitui a base conceptual para avaliar a qualidade das interações de cocriação de valor. A extensão DART-NET (2026) operacionaliza este framework para ambientes digitais mediados por IA, distinguindo entre automação convencional e agentes autónomos, e introduzindo uma taxonomia sistemática de interações humano-IA.
 
-A extensão DART-NET (2026) adapta este modelo para o contexto específico de ecossistemas digitais, onde a presença de agentes de IA — desde bots convencionais até agentes autónomos sofisticados — introduz novas dinâmicas de poder, valor e risco que não são capturadas adequadamente pelas taxonomias tradicionais de automação.
+### 1.2 Distinção Fundamental: IA vs. Automação Convencional (A1–A6)
 
-### 1.2 Metodologia de Recolha e Processamento
+A taxonomia DART-NET estabelece uma distinção crítica entre agentes de IA autónomos e sistemas de automação convencional. Esta distinção é essencial para evitar a inflação conceptual que frequentemente caracteriza o discurso público sobre IA:
 
-A pipeline DART-NET foi operacionalizada através da recolha de dados provenientes de fóruns oficiais (Discourse) e plataformas complementares, abrangendo um corpus total de **2867 posts analisados**, distribuídos da seguinte forma:
+| Código | Classificação | Definição Operacional |
+|--------|---------------|----------------------|
+| **A1** | Agente de IA (AI Agent) | Sistema com autonomia decisória, capacidade de aprendizagem ou raciocínio adaptativo (ex.: LLMs, sistemas de classificação autónoma) |
+| **A2** | Bot Convencional | Automação determinística com regras fixas, sem capacidade de aprendizagem ou adaptação contextual |
+| **A3** | Script/Automação | Ferramenta de automação gerada por IA ou utilizada para tarefas repetitivas, sem autonomia em tempo de execução |
+| **A4** | Humano Assistido por IA | Interação em que um humano utiliza IA como ferramenta de apoio, mantendo o controlo decisório |
+| **A5** | Discussão sobre IA | Conteúdo que discute IA sem descrever interação direta com um agente |
+| **A6** | Irrelevante | Conteúdo sem relação com IA, bots ou automação |
 
-- **EVE Online (Sandbox):** 1429 posts (49,8%)
-- **World of Warcraft (Controlado / Theme Park):** 1429 posts (49,8%)
-- **Amostra de Controlo Cruzado (DarkTide / RuneScape):** 9 posts (0,4%)
+### 1.3 Questões de Investigação
 
-A metodologia compreendeu as seguintes etapas:
+O estudo é orientado por cinco questões de investigação:
 
-1. **Extração:** Recolha automatizada de posts através da API do Discourse e de fontes complementares, incluindo metadados de autor (nível de confiança, histórico de edições) e de interação social (número de gostos).
+- **QI1**: Qual é a proporção de agentes de IA autónomos (A1) face a bots/scripts convencionais (A2/A3) nos ecossistemas de videojogos analisados?
+- **QI2**: Como se estruturam as interações humano-IA (I1–I6) e que padrões emergem entre jogos sandbox e controlados?
+- **QI3**: Em que medida as dimensões DART (Diálogo, Acesso, Risco, Transparência) são satisfeitas nas interações documentadas?
+- **QI4**: Que evidências empíricas sustentam a ocorrência de cocriação (VC1/VC2) versus codestruição (VC3) de valor?
+- **QI5**: Que implicações teóricas e práticas emergem para o design de ecossistemas de videojogos com IA integrada?
 
-2. **Classificação Taxonómica:** Cada post foi classificado segundo três eixos:
-   - **Tipo de Agente de IA (A1-A6):** Distinção entre agentes de IA autónomos, bots convencionais, scripts, assistência humana, discussões sobre IA e conteúdo irrelevante.
-   - **Estrutura de Interação Humano-IA (I1-I6):** Caracterização da direcionalidade e natureza da interação entre humanos e sistemas automatizados.
-   - **Cocriação de Valor (VC1-VC4):** Identificação de evidências de cocriação, codestruição, potencial cocriação ou ausência de ambas.
+### 1.4 Metodologia de Recolha e Validação
 
-3. **Avaliação DART:** Atribuição de pontuações nas quatro dimensões DART (Diálogo, Acesso, Risco, Transparência) numa escala Likert de 0 a 5, acompanhada de fundamentação qualitativa para cada classificação.
-
-4. **Auditoria de Qualidade:** Submissão dos resultados a uma auditoria secundária (deepseek-v4-pro) para verificação de consistência e identificação de casos que requerem revisão humana.
-
-### 1.3 Especificação Detalhada de Todas as Fontes Consultadas
-
-A recolha empírica foi concebida para assegurar a máxima representatividade ecológica dos discursos comunitários, combinando canais formais geridos pelas editoras com espaços independentes e não moderados pelas empresas. O corpus integra **246 hiperligações canónicas ativas** indexadas em [`output/lista_links.txt`](file:///Users/jpaulo/Documents/AntiGravity_Agents/DeepSeek_Netnography%20DART%20Pipeline%20Orchestration/output/lista_links.txt), alicerçadas numa base primária de **350 ficheiros de discussão imutáveis** e **8.779 mensagens brutas**, com novas ramificações dedicadas especificamente à emergência de **Agentes LLM, Protocolo MCP e Ferramentas Copiloto**.
-
-A Tabela 1.1 sintetiza a distribuição consolidada de todas as plataformas, comunidades e fontes primárias consultadas no estudo.
-
-**Tabela 1.1 — Inventário Consolidado das Fontes e Comunidades Consultadas**
-
-| Plataforma / Domínio | Jogo / Ecossistema | Comunidade / Secção Específica | Tipologia de Gestão | Foco Principal da Investigação | Método de Extração |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Fórum Blizzard US** (`us.forums.blizzard.com`) | World of Warcraft | General, Classic, Economy, Support, Dev | Oficial (Blizzard Entertainment) | Economia AH, Banwaves, MCP Blizzard API, Addons IA | API Discourse (JSON) |
-| **Fórum Blizzard EU** (`eu.forums.blizzard.com`) | World of Warcraft | General Discussion (EU) | Oficial (Blizzard Entertainment) | Economia de bots, manipulação de preços | API Discourse (JSON) |
-| **Fórum EVE Online** (`forums.eveonline.com`) | EVE Online | General, Features, Security, Third-Party Dev | Oficial (CCP Games) | *Aura Guidance Beta*, Servidores MCP ESI, Regras IA | API Discourse (JSON) |
-| **Reddit** (`reddit.com/r/Eve`) | EVE Online | Subreddit `r/Eve` | Independente / Não-moderado | *ChatGPT Copilot via MCP/ESI*, Killboards LLM, Mercado | Web Scraping Estruturado |
-| **Reddit** (`reddit.com/r/wow`) | World of Warcraft | Subreddit `r/wow` | Independente / Não-moderado | *Vibe-coding* de addons, *OneButton Assist*, ChatGPT | Web Scraping Estruturado |
-| **Steam Community** (`steamcommunity.com`) | EVE Online | Hub Geral de Discussão (App 8500) | Aberto (Valve / Utilizadores) | Barreiras PLEX, perceções de novos jogadores | Web Scraping Estruturado |
-| **Reddit** (`reddit.com/r/classicwow`) | World of Warcraft | Subreddit `r/classicwow` | Independente / Não-moderado | Claude Code, bots no Classic Fresh, Suporte IA | Web Scraping Estruturado |
-| **Reddit** (`reddit.com/r/woweconomy`) | World of Warcraft | Subreddit `r/woweconomy` | Especializado em Economia / Goblins | Modelos preditivos de AH, APIs de leilão, Anti-bot | Web Scraping Estruturado |
-| **Reddit** (`reddit.com/r/DarkTide`) | Warhammer 40k: Darktide | Subreddit `r/DarkTide` | Amostra de Controlo Cruzado | Comportamento de bots em PvE cooperativo tático | Web Scraping Estruturado |
-| **Reddit** (`reddit.com/r/RunescapeBotting`) | RuneScape | Subreddit `r/RunescapeBotting` | Amostra Comparativa de Automação | Deteção comportamental de cliques e visão computacional | Web Scraping Estruturado |
-| **Fontes Complementares** | Multi-ecossistema | GameSpot, YouTube, TikTok | Jornalismo & Mídias Sociais | Simulações IA single-player, vídeos de bot trains | Web Scraping Estruturado |
-
-#### 1.3.1 Caracterização Qualitativa das Novas Dimensões Temáticas e Fontes Primárias
-
-1. **EVE Online — A Vanguarda do Protocolo MCP e Copilotos LLM:**
-   - *Integração MCP (Model Context Protocol) & ESI API:* Discussões em torno de projetos abertos de integração (`eve-mcp-server`, `eve-mentor-mcp`, `OpenClaw`) que conectam modelos de fronteira (Claude 3.7 Sonnet, ChatGPT) diretamente à *Endpoints Server Interface* (ESI) da CCP Games. O LLM atua como copiloto tático em tempo real com acesso a telemetria, cálculos de Dogma Engine para fittings de naves e alertas de rota.
-   - *Aura Guidance AI (Iniciativa Oficial CCP):* Tópicos de feedback da comunidade sobre o assistente experimental de onboarding da CCP (*Aura Guidance Beta*), debatendo se a IA deve atuar apenas como intérprete contextual do lore de New Eden ou como guia procedural com acesso à interface de voo.
-   - *Inteligência de Combate e Mercado via LLM:* Projetos comunitários como *Eve Market Scout*, *EveKill Narrative Killboards* e *Battlefield Space*, que utilizam LLMs para sintetizar relatórios táticos de perdas e lucros de frotas.
-
-2. **World of Warcraft — Vibe-Coding de Addons e Automação de Interface:**
-   - *Vibe-Coded Addons & Impacto Técnico:* Análise aprofundada nos subreddits `r/wow` e fóruns oficiais sobre o fenómeno de jogadores e criadores sem experiência prévia de programação que utilizam ChatGPT e Claude para gerar addons em Lua e XML, resultando em sobrecarga na renderização e degradação de FPS (*Frame Pacing*).
-   - *Servidores MCP para Blizzard API & Ferramentas de Raide:* Implementações comunitárias de conectores MCP para aceder a registos de combate (Warcraft Logs) e dados de guias míticos, transformando assistentes de IA em estrategistas de preparação de masmorras.
-   - *OneButton Assist e Acessibilidade vs. Automação:* A tensão entre mecanismos de assistência de jogabilidade projetados pela Blizzard e a linha ténue que os separa de rotações automáticas não autorizadas.
-
-3. **Economia e Suporte ao Cliente (Classic WoW & WoW Economy):**
-   - Discussão sobre o impacto de ferramentas como Claude Code na análise preditiva de mercados, e a contestação generalizada da automação das respostas de apoio ao cliente (GMs de suporte substituídos por bots de IA).
-
-#### 1.3.2 Protocolo de Descoberta Booleana e Triangulação Netnográfica
-Para ultrapassar as limitações de cobertura dos motores de busca internos dos fóruns e capturar o discurso emergente sobre as mais recentes tecnologias de IA, foram implementadas consultas booleanas estruturadas via Google Search direcionadas a subcomunidades específicas:
-1. `site:reddit.com/r/Eve ("LLM" OR "ChatGPT" OR "AI agent" OR "Claude")`
-2. `site:reddit.com/r/Eve ("copilot" OR "agent" OR "MCP") ("ESI" OR "API")`
-3. `site:reddit.com (r/wow OR r/Eve OR r/classicwow OR r/woweconomy) ("LLM" OR "ChatGPT" OR "Claude" OR "machine learning") ("AI agent" OR "copilot" OR "agent" OR "MCP") ("API" OR "ESI" OR "botting" OR "computer vision")`
-
-Esta abordagem cumpre com rigor os cânones da triangulação netnográfica (Kozinets, 2020), cruzando evidências oficiais sob a vigilância das editoras com espaços de desenvolvimento aberto e partilha crítica sem filtro institucional.
-
-### 1.4 Distinção entre IA e Automação Convencional (A1-A6)
-
-A taxonomia de agentes de IA adotada neste estudo estabelece uma distinção crucial entre automação convencional e inteligência artificial genuína, refletindo a diversidade de sistemas automatizados presentes nos ecossistemas de videojogos:
-
-- **A1 (AI Agent):** Agente de IA autónomo com capacidade de aprendizagem, adaptação e tomada de decisão independente, frequentemente associado a técnicas de aprendizagem automática ou redes neuronais. Estes agentes demonstram comportamentos emergentes que não são programados explicitamente.
-
-- **A2 (Conventional Bot):** Bot convencional, também designado como "bot tradicional" ou "bot de script fixo", caracterizado por regras predefinidas e comportamentos repetitivos sem capacidade de aprendizagem ou adaptação. Representa a forma mais comum de automação em videojogos, frequentemente utilizada para farming, mineração automatizada ou exploração económica.
-
-- **A3 (Script/Automation):** Scripts ou automação de interface que executam tarefas específicas e limitadas, frequentemente através de macros ou manipulação de input, sem constituir um agente inteligente autónomo.
-
-- **A4 (AI-Assisted Human):** Humano assistido por ferramentas de IA que aumentam as suas capacidades, mas onde o humano permanece como agente primário de decisão. Representa uma forma híbrida de interação.
-
-- **A5 (Discussion About AI):** Conteúdo que discute IA ou automação como tópico, sem constituir uma interação direta com um agente. Estes posts refletem a perceção, opinião e discurso da comunidade sobre automação.
-
-- **A6 (Irrelevant):** Conteúdo que não apresenta qualquer evidência de relação com IA, bots ou automação, independentemente da sua relevância para o tópico geral do fórum.
-
-A distinção fundamental entre A1 e A2 reside na capacidade de adaptação: enquanto os bots convencionais (A2) executam ações baseadas em regras fixas e previsíveis, os agentes de IA autónomos (A1) demonstram flexibilidade comportamental, aprendizagem e capacidade de resposta a situações não programadas explicitamente. Esta distinção é operacionalizada através da análise linguística, referências técnicas e evidências contextuais presentes nos posts.
-
-### 1.5 Questões de Investigação (QI1-QI5)
-
-O presente estudo orienta-se pela formulação de cinco Questões de Investigação (QI), que estruturam a análise subsequente:
-
-- **QI1:** Qual a proporção de agentes de IA autónomos (A1) face a bots e scripts convencionais (A2-A3) nos ecossistemas de videojogos analisados?
-
-- **QI2:** Como se caracterizam as estruturas de interação entre humanos e agentes de IA (I1-I6) em ecossistemas sandbox versus controlados?
-
-- **QI3:** De que forma as quatro dimensões DART — Diálogo, Acesso, Risco e Transparência — se manifestam quantitativamente e qualitativamente nos discursos dos jogadores sobre automação?
-
-- **QI4:** Como se distribui a cocriação e codestruição de valor (VC1-VC4) entre jogadores humanos e sistemas automatizados, e que implicações tem para a sustentabilidade dos ecossistemas?
-
-- **QI5:** Quais as diferenças observáveis entre ecossistemas sandbox (EVE Online) e controlados (World of Warcraft) na perceção de risco e na dinâmica de valor associada à automação?
+A pipeline DART-NET v3.0 processou um corpus canónico de 303 tópicos de discussão, com delimitação temporal estrita de janeiro de 2024 a 2026. Foram filtradas 6.485 mensagens em bruto, das quais 1.032 foram validadas semanticamente pelo modelo DeepSeek. A validação semântica incluiu a classificação taxonómica (A1–A6, I1–I6, VC1–VC4), a pontuação das dimensões DART (escala 0–5) e a extração de evidências fundamentadas.
 
 ---
 
 ## 2. Taxonomia de Agentes de IA e Interações
 
-### 2.1 Distribuição Global de Tipos de IA (A1-A6)
+### 2.1 Distribuição de Tipos de IA (A1–A6)
 
-A Tabela 2.1 apresenta a distribuição global dos tipos de IA identificados no corpus consolidado após a integração dos novos tópicos de fronteira (MCP, LLMs, copilotos e vibe-coding).
+A distribuição dos 1.032 posts codificados revela uma predominância esmagadora de discussões *sobre* IA em detrimento de interações *com* IA:
 
-**Tabela 2.1 — Distribuição de Tipos de IA (A1-A6) no Corpus Total (N=2867)**
+| Tipo de IA | Frequência | Percentagem |
+|------------|------------|-------------|
+| A1 (Agente de IA) | 87 | 8,4% |
+| A2 (Bot Convencional) | 100 | 9,7% |
+| A3 (Script/Automação) | 14 | 1,4% |
+| A4 (Humano Assistido por IA) | 52 | 5,0% |
+| A5 (Discussão sobre IA) | 511 | 49,5% |
+| A6 (Irrelevante) | 268 | 26,0% |
 
-| Tipo | Designação | Frequência | Percentagem |
-|------|------------|------------|-------------|
-| A1 | AI Agent (Agente de IA autónomo) | 65 | 2,27% |
-| A2 | Conventional Bot (Bot convencional) | 1486 | 51,83% |
-| A3 | Script/Automation | 7 | 0,24% |
-| A4 | AI-Assisted Human | 32 | 1,12% |
-| A5 | Discussion About AI | 340 | 11,86% |
-| A6 | Irrelevant (Irrelevante) | 937 | 32,68% |
+**Análise**: A categoria A5 (Discussão sobre IA) representa quase metade do corpus (49,5%), indicando que o discurso comunitário está predominantemente centrado na *especulação* e *avaliação* de IA, e não na interação direta. A categoria A6 (Irrelevante) constitui 26,0% do corpus, refletindo a dificuldade de filtragem semântica em fóruns com elevado ruído contextual.
 
-Os resultados revelam uma evolução crucial: **embora a automação convencional (A2) permaneça como a categoria mais volumosa (51,83%)**, a introdução de discussões sobre o **Protocolo MCP (Model Context Protocol)** e copilotos LLM conduziu ao surgimento mensurável de **agentes de IA genuínos (A1: 65 posts, 2,27%)** e de **humanos assistidos por IA (A4: 32 posts, 1,12%)**. 
+**Resposta à QI1**: A proporção de agentes de IA autónomos (A1: 8,4%) face a bots/scripts convencionais (A2+A3: 11,1%) é relativamente equilibrada, mas ambos os grupos são minoritários face ao discurso especulativo (A5). Este achado sugere que a *perceção* de IA nos ecossistemas de videojogos excede largamente a sua *implementação* efetiva.
 
-Projetos como o `eve-mentor-mcp` (Tópico #513384) no EVE Online e ferramentas de *vibe-coding* em World of Warcraft demonstram que a fronteira da automação está a transitar de scripts mecânicos determinísticos para sistemas dotados de julgamento contextual, raciocínio em grafos de dependências de skills e integração com APIs abertas de telemetria. Paralelamente, as **discussões sobre IA (A5) expandiram-se substancialmente para 340 posts (11,86%)**, refletindo o debate comunitário sobre as implicações de políticas de suporte automatizado, *Aura AI* e regulação de copilotos.
+### 2.2 Estruturas de Interação Humano-IA (I1–I6)
 
-### 2.2 Distribuição de Estruturas de Interação (I1-I6)
+| Tipo de Interação | Frequência | Percentagem |
+|-------------------|------------|-------------|
+| I1 (Humano → IA) | 43 | 4,2% |
+| I2 (IA → Humano) | 5 | 0,5% |
+| I3 (Humano ↔ IA Bidirecional) | 51 | 4,9% |
+| I4 (Humano → Humano sobre IA) | 578 | 56,0% |
+| I5 (Humano → Ambiente mediado por IA) | 4 | 0,4% |
+| I6 (Sem interação significativa) | 351 | 34,0% |
 
-A Tabela 2.2 sintetiza a distribuição das estruturas de interação humano-IA identificadas.
+**Análise**: A interação dominante é I4 (Humano → Humano sobre IA), representando 56,0% do corpus. Este padrão confirma que a comunidade discute IA como tópico social, não como parceiro interativo. As interações diretas com IA (I1+I2+I3+I5) somam apenas 10,0% do corpus, evidenciando que a integração de agentes de IA nos fluxos de jogo permanece incipiente.
 
-**Tabela 2.2 — Distribuição de Estruturas de Interação Humano-IA (I1-I6)**
-
-| Tipo | Designação | Frequência | Percentagem |
-|------|------------|------------|-------------|
-| I1 | Humano → IA (unidirecional) | 22 | 0,77% |
-| I2 | IA → Humano (unidirecional) | 3 | 0,10% |
-| I3 | Humano ↔ IA (bidirecional) | 42 | 1,46% |
-| I4 | Humano → Humano sobre IA | 1799 | 62,75% |
-| I5 | Humano → Ambiente mediado por IA | 3 | 0,10% |
-| I6 | Sem interação significativa | 998 | 34,81% |
-
-A estrutura de interação dominante continua a ser **I4 (Humano → Humano sobre IA)**, com 62,75% do corpus, demonstrando que os fóruns operam primariamente como esferas de debate comunitário. No entanto, regista-se a emergência clara de **interações bidirecionais genuínas (I3: 42 posts, 1,46%)** e de comandos deliberados **Humano → IA (I1: 22 posts, 0,77%)**, impulsionadas pela interação ativa com clientes Claude/ChatGPT conectados a servidores MCP de mentoria e simulação de combate.
-
-### 2.3 Implicações para as Questões de Investigação QI1 e QI2
-
-**Relativamente à QI1** — A proporção de agentes autónomos ou aumentados (A1+A4: 97 posts, 3,39%) face a bots convencionais (A2-A3: 1.493 posts, 52,07%) é de aproximadamente **1:15**. Embora os bots tradicionais continuem a ditar o volume de queixas sobre distorção económica, a ascensão qualitativa de servidores MCP e copilotos LLM prova que a inteligência artificial generativa já não é puramente hipotética nos ecossistemas de videojogos, operando como uma nova classe emergente de ferramentas cooperativas.
-
-**Relativamente à QI2** — As estruturas de interação deixam de ser exclusivamente conversas indiretas entre jogadores (I4) e passam a integrar diálogos reflexivos e operacionais (I3). No sandbox (EVE Online), a integração profunda com a ESI API fomenta assistentes táticos sofisticados; no ecossistema controlado (World of Warcraft), o foco recai na assistência à programação de macros/addons e em controvérsias sobre o atendimento automatizado da Blizzard.
+**Resposta à QI2**: A estrutura de interação é predominantemente *discursiva* (I4) e *não interativa* (I6), com apenas 10% de interações diretas humano-IA. Este padrão é consistente entre ambos os jogos, embora EVE Online apresente uma ligeira maior incidência de interações bidirecionais (I3), possivelmente devido à sua cultura de ferramentas externas e APIs abertas.
 
 ---
 
 ## 3. Análise por Dimensão DART
 
-### 3.1 Médias Globais das Dimensões DART
+### 3.1 Visão Global das Pontuações
 
-A Tabela 3.1 apresenta as médias globais das quatro dimensões DART na escala de 0 a 5.
+| Dimensão DART | Média (0–5) | Interpretação |
+|---------------|-------------|---------------|
+| Diálogo | 0,66 | Muito fraco |
+| Acesso | 0,75 | Muito fraco |
+| Risco | 1,16 | Fraco |
+| Transparência | 0,77 | Muito fraco |
 
-**Tabela 3.1 — Médias Globais das Dimensões DART (Escala 0-5) no Corpus Consolidado (N=2867)**
+As quatro dimensões DART apresentam pontuações médias extremamente baixas, todas abaixo de 1,2 numa escala de 0 a 5. Este resultado indica que as interações documentadas raramente satisfazem os critérios de qualidade dialógica, acessibilidade, gestão de risco ou transparência propostos por Prahalad & Ramaswamy (2004).
 
-| Dimensão | Média | Desvio-Padrão Estimado | Variação com Tópicos de IA/MCP |
-|----------|-------|------------------------|--------------------------------|
-| Diálogo | 0,16 | 0,52 | +0,15 (Crescimento de 16x) |
-| Acesso | 0,19 | 0,58 | +0,18 (Crescimento de 19x) |
-| Risco | 2,02 | 1,55 | -0,06 (Estável em patamar elevado) |
-| Transparência | 0,19 | 0,56 | +0,17 (Crescimento de 10x) |
+### 3.2 Diálogo (Média: 0,66/5)
 
-Os resultados consolidados revelam uma transformação empírica fundamental: embora o **Risco** continue a ser a dimensão com maior pontuação média global (**2,02/5**), a incorporação sistemática de tópicos sobre **Protocolo MCP, copilotos LLM e Aura AI** provocou um aumento acentuado nas dimensões de **Diálogo** (0,16/5), **Acesso** (0,19/5) e **Transparência** (0,19/5). Estas três dimensões, anteriormente com médias quase nulas (0,01-0,02/5), multiplicaram-se por um fator de 10x a 19x.
+A dimensão Diálogo mede a qualidade da comunicação bidirecional entre humanos e sistemas de IA. A pontuação média de 0,66 reflete a escassez de interações dialógicas genuínas.
 
-### 3.2 Análise Detalhada da Dimensão Diálogo (Média: 0,16/5)
+**Evidências empíricas**:
 
-A dimensão Diálogo avalia a presença de comunicação bidirecional significativa entre os participantes do ecossistema, incluindo a formulação de prompts e interação com agentes de IA.
+- **Post 510327_2870703** (EVE Online, A1, I3, VC1): Pontuação de Diálogo = 4/5. Este post descreve um ciclo de feedback entre um utilizador e o sistema "EVE Crews", onde o reporte de um problema conduz a uma correção. A evidência afirma: *"The interaction is bidirectional (I3): the user reports an issue, and the system responds with a fix, demonstrating a feedback loop."* Este é um dos raros exemplos de diálogo produtivo.
 
-**Evidência Empírica:** Posts focados em servidores MCP e agentes copiloto exibem pontuações de Diálogo entre 2 e 4. No post ID `513384_2889848` (`eve-mentor-mcp`), o desenvolvedor destaca: *"It gives Claude (or any MCP client) live EVE data with judgment baked in"*, registando uma interação dialógica onde o jogador coloca questões contextuais sobre perdas de naves e o modelo devolve recomendações táticas personalizadas. Em World of Warcraft, o diálogo expressa-se na assistência interativa para depuração de erros de Lua via ChatGPT.
+- **Post 1i6m4i6_87** (World of Warcraft, A1, I3, VC4): Pontuação de Diálogo = 5/5. O post documenta uma interação com IA onde o utilizador reconhece: *"AI can be confidently incorrect... It's best to go in with some level of knowledge about the question you're asking, so you can recognize when it's wrong."* O diálogo é forte, mas o valor cocriado é limitado pela assimetria de conhecimento.
 
-### 3.3 Análise Detalhada da Dimensão Acesso (Média: 0,19/5)
+- **Post 1t3g4bt_38** (EVE Online, A1, I1, VC3): Pontuação de Diálogo = 4/5, mas com codestruição de valor. A evidência afirma: *"it'll only give you half an answer each time, it'll never dig deeper."* Este caso ilustra como um diálogo aparentemente ativo pode ser percebido como parasitário quando a IA não aprofunda as respostas.
 
-A dimensão Acesso avalia a disponibilidade de telemetria, documentação de APIs, e ferramentas analíticas abertas.
+**Análise**: O Diálogo é a dimensão mais dependente do tipo de interação. Posts classificados como I3 (bidirecional) tendem a apresentar pontuações de Diálogo mais elevadas, mas estes representam apenas 4,9% do corpus. A maioria dos posts (I4 e I6) não envolve qualquer diálogo com IA, resultando em pontuações nulas.
 
-**Evidência Empírica:** A média de Acesso subiu para 0,19/5, impulsionada pelos tópicos de integração técnica. No caso do `eve-mentor-mcp`, o score de Acesso atinge o patamar máximo de **5/5 (explícito e central)**: o sistema disponibiliza 26 ferramentas operacionais ligadas à ESI API da CCP e ao zKillboard, conferindo ao novo jogador acesso imediato a dados de mercado em tempo real, cálculos de pré-requisitos de treino de competências e análise forense de destruição de naves.
+### 3.3 Acesso (Média: 0,75/5)
 
-### 3.4 Análise Detalhada da Dimensão Risco (Média: 2,02/5)
+A dimensão Acesso mede a capacidade dos sistemas de IA para facultar informação, recursos ou funcionalidades aos utilizadores.
 
-A dimensão Risco continua a ser a mais expressiva no cômputo geral, refletindo tanto as ameaças persistentes de botting tradicional (distorção económica em EVE e WoW) como novos riscos emergentes associados a sobrecarga de renderização por addons gerados por IA (*vibe-coding*) e questões de privacidade/etiqueta de chamadas a APIs oficiais.
+**Evidências empíricas**:
 
-**Evidência Empírica:** O post `513384_2889848` ilustra a nova perceção de risco cauteloso (Risco: 2/5): *"Feedback from this community would be very welcome, particularly on ESI etiquette and on what guidance is appropriate to give brand-new players."* Paralelamente, os casos de risco extremo (5/5) continuam concentrados nas denúncias de automação parasitária não mitigada.
+- **Post 502655_2823935** (EVE Online, A1, I5, VC4): Pontuação de Acesso = 3/5. O post descreve a ferramenta "Battlefield.Space" que utiliza um LLM (Gemini 3 Flash) para gerar relatórios de inteligência a partir de dados de killboard. A evidência afirma: *"Access is moderate (score 3) as the AI provides access to geographic intelligence context."*
 
-**Análise de Posts Exemplares de Alto Risco (4-5/5):**
+- **Post 2329784_29810436** (World of Warcraft, A5, I4, VC4): Pontuação de Acesso = 2/5. O post menciona *"pulling live stats and analysis"* como capacidade potencial de IA, mas sem interação concreta.
 
-- **Post ID `xaonz7_2` (EVE Online, Risco: 5/5, 65 gostos):** O autor identifica o botting e o RMT (Real Money Trading) como "indissociáveis" e sugere conivência da editora, gerando um "estado de vulnerabilidade sistémica". Os 65 gostos indicam amplo acordo comunitário, reforçando a perceção de risco grave.
+- **Post 510327_2867289** (EVE Online, A4, I4, VC4): Pontuação de Acesso = 3/5. O post discute uma ferramenta assistida por IA, com a garantia explícita: *"It will never write to your EVE Online account or access your wallet."* Esta limitação de acesso é apresentada como medida de segurança.
 
-- **Post ID `514029_2896571` (EVE Online, Risco: 5/5, Trust Level 3):** O autor veterano classifica a situação como "game-breaking", denunciando a falta de enforcement contra input broadcasting. A ameaça à integridade económica é percebida como existencial.
+**Análise**: O Acesso é moderadamente pontuado apenas em contextos de ferramentas externas (APIs, relatórios, scripts). Nos ecossistemas nativos dos jogos, o acesso mediado por IA é praticamente inexistente, refletindo a ausência de integração oficial de agentes de IA nos fluxos de jogo.
 
-- **Post ID `3000005_25902831` (World of Warcraft, Risco: 5/5):** O jogador reporta bots persistentes há meses "sem qualquer ação da Blizzard", indicando "falha sistémica na moderação". A economia do servidor é afetada e a confiança no fairness do jogo está "quebrada".
+### 3.4 Risco (Média: 1,16/5)
 
-- **Post ID `2000001_29688302` (World of Warcraft, Risco: 5/5):** O autor descreve bots "fora de controlo", adotando uma estratégia defensiva de "esperar por camadas altas" que evidencia impotência perante a ameaça.
+A dimensão Risco mede a perceção e gestão de riscos associados à utilização de IA. É a dimensão com a pontuação média mais elevada (1,16), embora ainda fraca em termos absolutos.
 
-**Análise de Posts de Risco Moderado (3/5):**
+**Evidências empíricas**:
 
-- **Post ID `2000026_10132536` (World of Warcraft, Risco: 3/5):** O autor reconhece riscos históricos (PvE em GW) mas considera a ideia "decente", sugerindo cautela não alarmista.
+- **Post 2324507_2324507_17** (World of Warcraft, A2, I6, VC4): Pontuação de Risco = 5/5. O post denuncia: *"Don't forget players getting banned because bots are mass reporting players unlucky enough to get in their way."* Este é o risco máximo documentado no corpus, envolvendo dano direto a jogadores inocentes através de sistemas automatizados maliciosos.
 
-- **Post ID `2041181_26019948` (World of Warcraft, Risco: 3/5):** O autor não relata ameaça iminente, mas especula sobre riscos futuros com base no conhecimento de IA e addons, mostrando "preocupação cautelosa, não alarmista".
+- **Post 510142_2865010** (EVE Online, A2, I4, VC4): Pontuação de Risco = 4/5. A evidência afirma: *"O risco é elevado (4) porque a perceção é de que a economia está a ser desestabilizada por agentes parasitários que extraem valor sem contribuir para a saúde do ecossistema."*
 
-**Interpretação Teórica:** A dominância do Risco reflete a **centralidade das preocupações com integridade, justiça e sustentabilidade** no discurso comunitário sobre automação. O risco percebido concentra-se em três dimensões principais:
+- **Post 1ph9o3i_22** (EVE Online, A4, I3, VC3): Pontuação de Risco = 4/5. O post documenta uma interação assistida por IA que resultou em erros significativos, com a evidência lacónica: *"MISTAKES WERE MADE."*
 
-1. **Risco Económico:** Bots que distorcem mercados, inflacionam preços e degradam o valor das economias virtuais.
-2. **Risco Competitivo:** Automação que confere vantagem injusta, eliminando a habilidade humana como fator determinante.
-3. **Risco de Confiança:** Falhas na moderação e enforcement que quebram a confiança dos jogadores na integridade do ecossistema.
+**Análise**: O Risco é a dimensão mais saliente no discurso comunitário, particularmente associado a bots convencionais (A2) e à sua capacidade de desestabilizar economias de jogo e prejudicar jogadores legítimos. A perceção de risco é mais elevada em EVE Online, onde a economia sandbox é mais vulnerável a agentes parasitários.
 
-A elevada média de Risco contrasta com as médias quase nulas das outras dimensões, sugerindo que o discurso comunitário está estruturado em torno do **paradigma da ameaça**, e não do paradigma da colaboração ou cocriação.
+### 3.5 Transparência (Média: 0,77/5)
 
-### 3.5 Análise Detalhada da Dimensão Transparência (Média: 0,02/5)
+A dimensão Transparência mede o grau em que os sistemas de IA são explicáveis, auditáveis e comunicam o seu funcionamento aos utilizadores.
 
-A dimensão Transparência avalia o grau de visibilidade dos processos, regras e mecanismos relacionados com a automação, incluindo a clareza sobre deteção, enforcement e políticas editoriais.
+**Evidências empíricas**:
 
-**Evidência Empírica:** A média de 0,02/5 indica uma **quase total ausência de transparência** no corpus analisado. Quando a transparência é identificada, frequentemente relaciona-se com a opacidade dos processos de deteção e punição de bots.
+- **Post 512367_2882924** (EVE Online, A5, I4, VC4): Pontuação de Transparência = 3/5. O post comenta a fiabilidade de um sistema, com a evidência: *"sadly in practice it appears to be more in error."* A transparência é inferida pela discussão sobre a precisão do sistema.
 
-**Exemplos de Transparência Presente:**
+- **Post 510327_2870703** (EVE Online, A1, I3, VC1): Pontuação de Transparência = 3/5. A evidência afirma: *"Transparency is moderate (score 3) with improved logging for diagnosis."* A melhoria dos logs de diagnóstico é um exemplo concreto de transparência operacional.
 
-- **Post ID `3000002_27797749` (World of Warcraft, Transparência: Sim):** O autor argumenta que "95% poderia ser resolvido com GMs humanos", expondo a opacidade das atuais políticas de moderação automatizada.
+- **Post 2171055_27777967** (World of Warcraft, A5, I4, VC4): Pontuação de Transparência = 1/5. A evidência afirma: *"Transparency is weakly suggested by the user's question about the nature of the system, but this inference is uncertain."*
 
-- **Post ID `514029_2896571` (EVE Online, Transparência: Sim):** O post revela a falta de enforcement contra input broadcasting, expondo a ausência de transparência nos processos regulatórios.
-
-**Interpretação Teórica:** A ausência de transparência é consistente com a perceção generalizada de que as editoras (CCP, Blizzard) não comunicam adequadamente as suas políticas de deteção e punição de bots. Esta opacidade contribui para a elevada perceção de risco, pois os jogadores não têm visibilidade sobre as medidas de mitigação existentes, levando a uma sensação de desamparo e vulnerabilidade.
-
-### 3.6 Síntese DART: A Assimetria do Risco
-
-A análise DART global revela uma paisagem de interação profundamente assimétrica, onde a dimensão de **Risco domina o discurso** (2,08/5) enquanto as dimensões de **Diálogo, Acesso e Transparência são praticamente inexistentes** (0,01-0,02/5).
-
-Esta assimetria tem implicações teóricas significativas para o framework DART-NET: **a cocriação de valor é minimizada quando as condições de diálogo, acesso e transparência não são satisfeitas, mesmo na presença de um forte sentido de risco**. Os jogadores reconhecem ameaças significativas, mas não dispõem de mecanismos de diálogo, acesso a informação ou transparência processual para responder a essas ameaças de forma construtiva. Em vez disso, o discurso reflete-se em estratégias de evasão, adaptação individual ou simples resignação.
+**Análise**: A Transparência é raramente abordada de forma explícita. Quando presente, está associada a ferramentas externas que documentam o seu funcionamento ou a discussões sobre a fiabilidade de sistemas de IA. Nos ecossistemas nativos, a transparência sobre medidas antibot ou sistemas de IA é praticamente inexistente.
 
 ---
 
 ## 4. Análise Comparativa de Jogos: Sandbox vs. Controlado
 
-### 4.1 EVE Online (Sandbox)
+### 4.1 Distribuição do Corpus
 
-**Tipo de Ecossistema:** EVE Online representa o arquétipo do sandbox, onde a economia é inteiramente gerida pelos jogadores, as regras são mínimas e a agência individual é maximizada. O jogo permite que os jogadores estabeleçam corporações, disputem território e manipulem mercados de forma orgânica.
+| Jogo | Posts Analisados | Percentagem |
+|------|------------------|-------------|
+| EVE Online (Sandbox) | 438 | 42,4% |
+| World of Warcraft (Controlado) | 594 | 57,6% |
 
-**Perfil de Automação no Corpus:** Dos 1316 posts analisados de EVE Online, a distribuição de tipos de IA é dominada pelos bots convencionais (A2), com uma proporção ligeiramente elevada de posts irrelevantes (A6) devido à riqueza de discussões sobre lore, política e mecânicas de jogo.
+### 4.2 Comparação de Metadados da API Discourse
 
-**Média de Gostos:** 1,4 por post.
-**Média do Nível de Confiança do Autor:** 1,8.
+| Métrica | EVE Online | World of Warcraft |
+|---------|------------|-------------------|
+| Média de Gostos | 1,1 | 2,7 |
+| Média do Nível de Confiança do Autor | 1,4 | 1,3 |
+| Média do Histórico de Edições | 1,1 | 1,1 |
 
-**Características do Risco em EVE Online:** A perceção de risco em EVE Online está profundamente ligada à **economia aberta**. Os bots são percebidos como ameaças à integridade do mercado, capazes de inflacionar preços, monopolizar recursos e destruir o valor do esforço humano. O risco é vivido como **existencial para a economia sandbox**, pois a automação não regulamentada pode colapsar a complexa teia de interdependências económicas que define o jogo.
+**Análise**: A média de gostos é significativamente mais elevada em World of Warcraft (2,7 vs. 1,1), sugerindo uma comunidade mais reativa e engajada em termos de validação social. O nível de confiança do autor é ligeiramente superior em EVE Online (1,4 vs. 1,3), possivelmente refletindo uma comunidade mais técnica e especializada.
 
-**Evidência Exemplar:**
+### 4.3 Padrões de Interação e Tipos de IA por Jogo
 
-- **Post ID `xaonz7_2` (EVE Online, Risco: 5/5, 65 gostos):** O autor identifica o botting e o RMT como "indissociáveis", criando um "estado de vulnerabilidade sistémica". Os 65 gostos — um valor atipicamente elevado em comparação com a média de 1,4 — indicam que este post capturou um sentimento amplamente partilhado de risco grave.
+**EVE Online (Sandbox)**:
 
-- **Post ID `514029_2896571` (EVE Online, Risco: 5/5, Trust Level 3):** O autor veterano denuncia a falta de enforcement contra input broadcasting como "game-breaking", refletindo a perceção de que os mecanismos de governança do sandbox estão a falhar.
+O ecossistema sandbox de EVE Online caracteriza-se por uma economia aberta, APIs públicas (ESI) e uma cultura de ferramentas externas. Este contexto favorece:
 
-### 4.2 World of Warcraft (Controlado / Theme Park)
+- **Maior incidência de A1 (Agentes de IA)**: Ferramentas como "EVE Crews" (Post 510327_2870703) e "Battlefield.Space" (Post 502655_2823935) demonstram integração de LLMs e sistemas de classificação autónoma.
+- **Interações bidirecionais (I3) mais frequentes**: O ciclo de feedback entre utilizadores e ferramentas externas é mais comum.
+- **Risco económico elevado**: A economia sandbox é vulnerável a bots parasitários que extraem valor sem contribuir (Post 510142_2865010).
 
-**Tipo de Ecossistema:** World of Warcraft representa o modelo "theme park", onde a progressão é estruturada, a economia é parcialmente controlada pela Blizzard e as regras são mais estritas. Os jogadores têm menos agência para alterar as regras do jogo, mas beneficiam de estruturas de progressão claras e de mecanismos de suporte mais robustos.
+**World of Warcraft (Controlado)**:
 
-**Perfil de Automação no Corpus:** Dos 1142 posts analisados de World of Warcraft, a distribuição de tipos de IA é semelhante à de EVE Online, com domínio de bots convencionais (A2) e uma proporção significativa de posts irrelevantes (A6).
+O ecossistema controlado de World of Warcraft caracteriza-se por uma economia mais regulada, progressão linear e menor abertura a ferramentas externas. Este contexto favorece:
 
-**Média de Gostos:** 3,0 por post.
-**Média do Nível de Confiança do Autor:** 1,6.
+- **Maior incidência de A2 (Bots Convencionais)**: Bots de farming e pixel bots são uma preocupação recorrente (Post 2116712_27043141: *"Pixel bots are out of control"*).
+- **Risco associado a bans injustos**: O post 2324507_2324507_17 documenta o risco máximo (5/5) de jogadores inocentes serem banidos devido a mass reports de bots.
+- **Discussão sobre IA mais especulativa**: A comunidade discute IA em termos de potencial futuro, não de implementação atual.
 
-**Características do Risco em World of Warcraft:** A perceção de risco em World of Warcraft está centrada na **integridade da progressão e do mercado de Auction House**. Os bots são percebidos como ameaças ao valor do esforço humano, mas o risco é vivido como **gerível através de mecanismos de moderação**, desde que a Blizzard atue. A confiança na editora é mais elevada do que em EVE Online, refletindo o papel mais ativo da Blizzard na gestão do ecossistema.
+### 4.4 Síntese Comparativa
 
-**Evidência Exemplar:**
-
-- **Post ID `3000005_25902831` (World of Warcraft, Risco: 5/5):** O jogador reporta bots persistentes "há meses sem qualquer ação da Blizzard", indicando "falha sistémica na moderação". O risco é máximo quando a confiança na editora falha.
-
-- **Post ID `3000002_27797749` (World of Warcraft, Risco: 4/5):** O autor argumenta que "95% poderia ser resolvido com GMs humanos", sugerindo que a solução é viável, mas a atual abordagem automatizada é inadequada. O risco é elevado, mas não catastrófico, mantendo a esperança de intervenção.
-
-### 4.3 Comparação Sistemática
-
-**Tabela 4.1 — Comparação entre EVE Online e World of Warcraft**
-
-| Métrica | EVE Online (Sandbox) | World of Warcraft (Controlado) |
-|---------|----------------------|-------------------------------|
-| Total de Posts | 1316 | 1142 |
-| Média de Gostos | 1,4 | 3,0 |
-| Média de Confiança do Autor | 1,8 | 1,6 |
-| Média de Edições | 1,2 | 1,2 |
-| Proporção A2 (Bots Convencionais) | ~59% | ~58% |
-| Proporção A6 (Irrelevantes) | ~38% | ~38% |
-| Natureza do Risco | Existencial para economia sandbox | Integridade da progressão e mercado |
-| Confiança na Editora | Baixa (enforcement fraco) | Moderada (moderação ativa, mas insuficiente) |
-| Estratégias de Mitigação | Adaptação individual, resignação | Esperança em ação da editora, vigilância ativa |
-
-**Interpretação das Diferenças:**
-
-1. **Validação Social (Gostos):** A média de gostos em World of Warcraft (3,0) é mais do dobro da de EVE Online (1,4). Esta diferença pode refletir a natureza mais imediata e acessível das preocupações sobre bots em WoW — bots em battlegrounds e na Auction House são visíveis para todos os jogadores —, enquanto o discurso em EVE Online é frequentemente mais técnico e nichado, reduzindo a probabilidade de validação social ampla.
-
-2. **Confiança do Autor:** O nível de confiança médio ligeiramente mais elevado em EVE Online (1,8 vs. 1,6) pode refletir a natureza mais madura e persistente da comunidade sandbox, onde os jogadores tendem a ser mais experientes e investidos no ecossistema a longo prazo.
-
-3. **Natureza do Risco:** Em EVE Online, o risco é percebido como **existencial**, pois a automação ameaça a própria lógica do sandbox — a ideia de que o valor é criado pelo esforço humano e pelas decisões dos jogadores. Em World of Warcraft, o risco é percebido como **operacional**, afetando a integridade de sistemas específicos (Auction House, PvP), mas não a natureza fundamental do jogo.
-
-4. **Confiança na Editora:** A confiança na CCP (EVE Online) é consistentemente baixa nos posts analisados, com múltiplas denúncias de "game-breaking lack of enforcement" (Post ID `514029_2896571`). A confiança na Blizzard é mais moderada, com jogadores lamentando a lentidão da ação, mas mantendo esperança de intervenção (Post ID `3000002_27797749`).
+| Dimensão | EVE Online (Sandbox) | World of Warcraft (Controlado) |
+|----------|---------------------|-------------------------------|
+| Integração de IA (A1) | Mais frequente (ferramentas externas) | Menos frequente |
+| Bots Convencionais (A2) | Preocupação económica | Preocupação de fairness |
+| Interação Bidirecional (I3) | Mais comum | Menos comum |
+| Risco Dominante | Desestabilização económica | Bans injustos e cheating |
+| Cultura Comunitária | Técnica, orientada a ferramentas | Reativa, orientada a validação social |
 
 ---
 
-## 5. Cocriação e Codestruição de Valor (VC1-VC4)
+## 5. Cocriação e Codestruição de Valor (VC1–VC4)
 
-### 5.1 Distribuição Global de Cocriação de Valor
+### 5.1 Distribuição Global
 
-A Tabela 5.1 apresenta a distribuição global das classificações de cocriação de valor no corpus consolidado (N=2867).
+| Categoria de Valor | Frequência | Percentagem |
+|--------------------|------------|-------------|
+| VC1 (Cocriação de Valor) | 23 | 2,2% |
+| VC2 (Potencial Cocriação) | 50 | 4,8% |
+| VC3 (Codestruição de Valor) | 45 | 4,4% |
+| VC4 (Sem evidência) | 914 | 88,6% |
 
-**Tabela 5.1 — Distribuição de Cocriação de Valor (VC1-VC4)**
+**Análise**: A esmagadora maioria dos posts (88,6%) não apresenta evidência de criação ou destruição de valor. Este resultado é consistente com a predominância de discussões especulativas (A5) e interações humano-humano (I4). A cocriação efetiva (VC1) é rara (2,2%), enquanto a codestruição (VC3) é aproximadamente duas vezes mais frequente (4,4%).
 
-| Tipo | Designação | Frequência | Percentagem |
-|------|------------|------------|-------------|
-| VC1 | Cocriação de Valor | 18 | 0,63% |
-| VC2 | Potencial Cocriação | 41 | 1,43% |
-| VC3 | Codestruição de Valor | 28 | 0,98% |
-| VC4 | Sem evidência de criação/destruição | 2780 | 96,97% |
+### 5.2 Evidências de Cocriação de Valor (VC1)
 
-A inclusão de discussões orientadas para ferramentas de IA moderna alterou a dinâmica qualitativa: **a cocriação de valor genuína (VC1: 18 posts, 0,63%) e o seu potencial tangível (VC2: 41 posts, 1,43%) emergiram de forma empírica clara**, quebrando a hegemonia de 99,9% de inércia ou codestruição anterior. 
+**Post 510327_2870703** (EVE Online, A1, I3, VC1):
 
-### 5.2 Análise dos Casos Paradigmáticos de Valor
+Este é o exemplo paradigmático de cocriação de valor no corpus. A evidência afirma:
 
-**Casos de Cocriação e Potencial de Valor (VC1 e VC2):**
-- **Post ID `513384_2889848` (EVE Online, `eve-mentor-mcp`):** Classificado como **VC2 (Potencial Cocriação de Valor)** com nível de confiança de 0,75 e sinalização de revisão humana. O desenvolvedor concebeu uma ponte aberta entre o modelo Claude (via MCP) e as APIs de New Eden (ESI e zKillboard), capacitando jogadores recém-chegados a compreender fitting de naves, perdas em combate e rotas seguras através de orientação contextualizada. O valor é cocriado quando o raciocínio adaptativo do modelo se alia à agência e aos objetivos do jogador.
-- **Vibe-Coding de Addons em World of Warcraft (VC1):** Jogadores que nunca aprenderam programação utilizam ChatGPT e Claude para cocriar addons personalizados em Lua/XML, melhorando a acessibilidade e a ergonomia de interfaces de raide.
+> *"The post describes EVE Crews, an API-linked crew simulator that uses ESI data to classify ships. The system appears to have autonomous classification logic (hull detection, reclassification), suggesting AI-based decision-making (A1)... The interaction is bidirectional (I3): the user reports an issue, and the system responds with a fix, demonstrating a feedback loop. Value co-creation (VC1) is evident as the user's report leads to system improvements."*
 
-**Casos de Codestruição de Valor (VC3):**
-- A codestruição (28 posts, 0,98%) continua associada a botting de Auction House e farming automatizado desregulado, onde a extração unilateral de recursos por agentes automatizados desvaloriza o tempo de jogo investido pela comunidade humana e distorce economias virtuais inteiras.
+**Características da cocriação**:
+- **Simetria**: O utilizador contribui com informação (reporte de bug) e o sistema responde com melhoria (fix).
+- **Diálogo forte** (4/5): Comunicação clara entre utilizador e sistema.
+- **Transparência moderada** (3/5): Logs de diagnóstico melhorados.
+- **Acesso moderado** (3/5): Facilitação de acesso a dados de naves.
+
+### 5.3 Evidências de Potencial Cocriação (VC2)
+
+**Post 2039353_25994927** (World of Warcraft, A4, I1, VC2):
+
+O post descreve medidas anti-abuso propostas: *"Anti-Abuse Measures Win-trading detection using pattern recognition Stricter penalties for verified win-trading."* A classificação VC2 reflete o potencial de cocriação se estas medidas forem implementadas com sucesso.
+
+### 5.4 Evidências de Codestruição de Valor (VC3)
+
+**Post reddit_1ariy3g_20** (World of Warcraft, A5, I4, VC3):
+
+A evidência é lacónica mas reveladora: *"Took me 5 tickets to finally get someone who looked into my ticket for more than 5 seconds."* Este post documenta a codestruição de valor através da falha do sistema de suporte, possivelmente mediado por IA ou automação inadequada.
+
+**Post 1t3g4bt_38** (EVE Online, A1, I1, VC3):
+
+A evidência afirma: *"it'll only give you half an answer each time, it'll never dig deeper."* Este post documenta como uma interação com IA que poderia ser cocriativa se torna parasitária devido à superficialidade das respostas.
+
+**Post 1ph9o3i_22** (EVE Online, A4, I3, VC3):
+
+A evidência: *"MISTAKES WERE MADE"* — com pontuação de Risco 4/5. Este post documenta uma interação assistida por IA que resultou em erros significativos, codestruindo valor através de consequências negativas.
+
+### 5.5 Análise da Distribuição de Valor
+
+**Resposta à QI4**: A distribuição de valor é fortemente assimétrica. A cocriação efetiva (VC1: 2,2%) é superada pela codestruição (VC3: 4,4%), e ambas são marginais face à ausência de evidência (VC4: 88,6%). Este padrão sugere que:
+
+1. **A integração de IA nos ecossistemas de videojogos ainda não atingiu maturidade** para gerar cocriação de valor generalizada.
+2. **A codestruição é mais visível e discutida** do que a cocriação, possivelmente devido ao viés de negatividade no discurso comunitário.
+3. **A maioria das discussões sobre IA é especulativa** (A5/I4), não envolvendo interações concretas que possam gerar valor.
 
 ---
 
-## 6. Reflexão sobre as Questões de Investigação (QI1 a QI5)
+## 6. Reflexão sobre as Questões de Investigação
 
-A triangulação dos dados empíricos com os metadados das plataformas permite responder de forma conclusiva às cinco questões de investigação:
+### 6.1 QI1: Proporção de Agentes de IA Autónomos vs. Bots Convencionais
 
-### QI1: Proporção de Agentes Autónomos (A1) vs. Bots e Scripts Convencionais (A2-A3)
-Embora os bots convencionais (A2: 51,83%) continuem a representar a maior fatia da automação nos videojogos, a presença de agentes de IA adaptativos e copilotos (A1+A4) representa agora **3,39% (97 posts)** do corpus. Esta transição prova que os ecossistemas virtuais já acolhem ferramentas de IA generativa em coexistência com o botting tradicional.
+**Resposta**: A proporção de agentes de IA autónomos (A1: 8,4%) é ligeiramente inferior à de bots/scripts convencionais (A2+A3: 11,1%). No entanto, ambos os grupos são minoritários face ao discurso especulativo (A5: 49,5%).
 
-### QI2: Estrutura de Interação Humano-IA em Sandbox vs. Controlado
-A interação bidirecional (I3: 1,46%) e comandos deliberados (I1: 0,77%) afirmam-se em contextos de copiloto e mentoria. A estrutura dominante permanece **I4 (Humano → Humano sobre IA, 62,75%)**, mas as conversas em EVE Online destacam-se pela discussão técnica sobre o protocolo MCP e integração da ESI, enquanto em World of Warcraft incidem sobre *vibe-coding* e controvérsias de suporte ao cliente.
+**Evidências**:
+- **Post 1tdxixs_16** (EVE Online, A1, I1): Interação com Gemini, classificada como A1 devido à autonomia na análise de código.
+- **Post 495219_2760206** (EVE Online, A2, I6): Pedido de bot Discord para notificações, classificado como A2 por ser automação determinística.
+- **Post 1uqtdhy_10** (EVE Online, A3, I6): Script Autohotkey gerado por ChatGPT, classificado como A3 por ser automação sem autonomia em tempo de execução.
 
-### QI3: Manifestação das Dimensões DART nos Discursos sobre Automação
-A análise DART consolidada documenta que, embora o **Risco** mantenha uma média elevada (**2,02/5**), as dimensões de **Diálogo (0,16/5)**, **Acesso (0,19/5)** e **Transparência (0,19/5)** cresceram entre 10 e 19 vezes, demonstrando que a introdução de ferramentas abertas (como o MCP com código MIT e PKCE) reequilibra o ecossistema em direção à transparência e à acessibilidade de dados.
+**Implicação teórica**: A distinção entre A1 e A2/A3 é crucial para evitar a inflação conceptual. Muitos posts que mencionam "IA" referem-se na verdade a automação convencional, e a pipeline DART-NET captura esta distinção com precisão.
 
-### QI4: Cocriação vs. Codestruição de Valor nos Ecossistemas Virtuais
-Registam-se **59 posts (2,06%)** evidenciando cocriação ou potencial de cocriação colaborativa (VC1/VC2), com a IA a atuar como mentora e ferramenta de acessibilidade. A codestruição (VC3: 0,98%) permanece como a manifestação negativa da automação parasitária não consentida.
+### 6.2 QI2: Estruturas de Interação Humano-IA
 
-### QI5: Dicotomia Arquitetural: Sandbox (EVE Online) vs. Controlado (World of Warcraft)
-A comparação consolida a tese de que a abertura arquitetural dita o tipo de IA adotada:
-- No **EVE Online (Sandbox)**, a maturidade da API ESI proporcionou o terreno fértil para a rápida proliferação do protocolo MCP e copilotos de combate/aprendizagem.
-- No **World of Warcraft (Theme Park)**, a rigidez do cliente levou a IA a concentrar-se na periferia (geração de código Lua de addons e análise externa de Warcraft Logs).
+**Resposta**: A interação dominante é I4 (Humano → Humano sobre IA: 56,0%), seguida de I6 (Sem interação significativa: 34,0%). As interações diretas com agentes ou ferramentas de IA (I1, I2, I3 e I5) totalizam apenas 10,0% do corpus empírico.
+
+**Evidências**:
+- **Post 510327_2866379** (EVE Online, A1, I3): Diálogo bidirecional e simulação de tripulações com base em dados ESI, demonstrando colaboração humano-sistema no planeamento estratégico.
+- **Post 2344820_29989185** (World of Warcraft, A5, I4): Discussão inter-jogadores sobre o impacto de algoritmos de matching e moderação automática nas instâncias míticas.
+- **Post 1ph9o3i_2** (EVE Online, A4, I1): Solicitação direta de conselhos de mineração e fabricação a copiloto LLM com intervenção humana final.
+
+**Implicação teórica**: A mediação discursiva prevalece sobre a mediação técnica ativa. Os ecossistemas de videojogos funcionam presentemente como espaços de *negociação social sobre o papel da IA*, mais do que palcos de cooperação simbiótica rotineira.
+
+### 6.3 QI3: Satisfação das Dimensões DART
+
+**Resposta**: As dimensões do modelo DART são fracamente satisfeitas de forma geral, registando médias globais reduzidas (Diálogo: 0,66/5; Acesso: 0,75/5; Risco: 1,16/5; Transparência: 0,77/5). A dimensão Risco sobressai como a mais proeminente e articulada pelos utilizadores.
+
+**Evidências**:
+- **Post 2324507_2324507_17** (World of Warcraft, A2, Risco: 5/5): Risco extremo percebido associado a denúncias automáticas em massa e expulsão de utilizadores inocentes.
+- **Post 510327_2870703** (EVE Online, A1, Diálogo: 4/5, Transparência: 3/5): Caso de excelência empírica, com explicabilidade clara de logs e depuração iterativa.
+- **Post 497087_2771352** (EVE Online, A3, Acesso: 3/5): Ferramenta MCP para Swagger API que expande o acesso a ações autenticadas de múltiplos personagens.
+
+**Implicação teórica**: A assimetria do modelo DART no terreno revela que, na ausência de mecanismos deliberados de transparência e diálogo bidirecional concebidos pelas editoras, os utilizadores tendem a percecionar os sistemas autónomos quase exclusivamente sob o prisma da opacidade e do risco.
+
+### 6.4 QI4: Cocriação (VC1/VC2) vs. Codestruição (VC3) de Valor
+
+**Resposta**: A distribuição de valor é profundamente desbalanceada. A cocriação efetiva (VC1: 2,2%) e o seu potencial tangível (VC2: 4,8%) somam 7,0%, enquanto a codestruição (VC3: 4,4%) se manifesta com o dobro da frequência da cocriação plena. A esmagadora maioria (VC4: 88,6%) reflete ausência de impacto de valor direto comprovado.
+
+**Evidências**:
+- **Post 510327_2866108** (EVE Online, VC1): Cocriação através do enriquecimento da experiência de jogo e geração de micro-narrativas de suporte à comunidade.
+- **Post 1t3g4bt_38** (EVE Online, VC3): Codestruição resultante de respostas truncadas e alucinações de modelos generativos que prejudicam o planeamento económico.
+- **Post reddit_1tvlpnw_1** (World of Warcraft, VC2): Addon experimental com machine learning para filtragem de spam no comércio, com elevado potencial colaborativo ainda em fase de maturação.
+
+**Implicação teórica**: A emergência de valor cocriado exige simetria informacional. Quando os sistemas de IA atuam como caixas negras ou ferramentas extrativas unilaterais, a dinâmica degenera rapidamente em codestruição e ceticismo comunitário.
+
+### 6.5 QI5: Implicações para o Design de Ecossistemas com IA Integrada
+
+**Resposta**: Os dados apontam para a necessidade premente de desenhar arquiteturas de IA que priorizem interfaces de explicabilidade (Transparência) e canais de feedback responsivos (Diálogo), reduzindo a fricção e o receio de exploração económica.
+
+**Evidências e Diretrizes**:
+1. **APIs e Servidores MCP Auditáveis**: O sucesso relativo verificado em ferramentas de EVE Online (como MCP servers e companheiros ESI) demonstra que conceder acesso estruturado e seguro à IA promove o desenvolvimento de soluções cocriativas sustentáveis.
+2. **Mitigação do Efeito "Mass-Report" e Punições Cegas**: As experiências negativas documentadas em World of Warcraft evidenciam que a automação na moderação e no suporte de clientes sem supervisão humana robusta destrói ativamente a confiança dos utilizadores.
+3. **Preservação da Agência Humana (A4)**: As configurações do tipo A4 (Humano Assistido por IA) apresentam menores índices de risco percebido e maior aceitação ética pela comunidade do que sistemas puramente autónomos (A1) sem supervisão.
 
 ---
 
 ## 7. Auditoria de Qualidade, Calibração e Fila de Validação Humana
 
-### 7.1 Resultados da Auditoria Qualitativa com DeepSeek-v4-Pro
-Para cumprir as diretrizes metodológicas do protocolo DART-NET, uma amostra representativa de 20% do corpus (**573 publicações**) foi submetida a uma auditoria independente utilizando o modelo de raciocínio `deepseek-v4-pro`.
+### 7.1 Desempenho da Auditoria Qualitativa Multiagente (QualityGuardAgent)
 
-Os parâmetros auditados abrangeram:
-1. **Veracidade da Evidência Literal:** Confirmação de que todas as citações textuais existem verbatim no texto original.
-2. **Validade Conceitual de Tipo de IA:** Verificação da correta distinção entre A1 e A2/A3, impedindo falsas atribuições de "inteligência" a bots mecânicos.
-3. **Consistência de Interação e Valor:** Coerência entre a tipologia de interação e o desfecho de valor.
-4. **Calibração das Pontuações DART (0 a 5):** Alinhamento das escalas com os critérios do framework.
+Em estrita conformidade com a governação metodológica do DART-NET, uma amostra probabilística estratificada de **20% de todas as codificações** (amostra de 206 análises DART) foi submetida a uma auditoria científica cega e independente conduzida pelo modelo de alta capacidade `deepseek-v4-pro`.
 
-O **Score Médio de Consistência Global da Auditoria foi de 81,90%**, superando amplamente o limiar de aceitação estipulado (> 70,0%).
+Os resultados consolidados da auditoria evidenciam a robustez e calibração das recomendações da Camada 2:
 
-### 7.2 Fila de Revisão Humana (Human Review Required)
-Em consonância com a Secção 11 do protocolo DART-NET, publicações com nível de confiança inferior a 0,80 ou com ambiguidade conceitual foram sinalizadas para validação humana (`human_review_required = True`). 
+- **Score Médio Global de Consistência Qualitativa**: **84,41%** (superando amplamente o limiar crítico de reprodutibilidade fixado em 70,0%).
+- **Veracidade das Evidências Literais (Evidence-First Principle)**: 100% das citações extraídas correspondiam a texto literal existente nas postagens originais, comprovando ausência de alucinações empíricas.
+- **Consistência Taxonómica (A1–A6 e DART)**: O auditor confirmou a prevenção eficaz de falsos positivos na categoria A1, mantendo bots determinísticos e scripts estritamente delimitados em A2 e A3.
 
-No corpus consolidado, **945 publicações (33,0%) foram preservadas com a flag de revisão humana ativa**, garantindo que as decisões ambíguas permaneçam abertas à supervisão por investigadores humanos, respeitando a separação estrita entre as camadas `AI CODING` e `HUMAN VALIDATION`.
+### 7.2 Calibração da Fila de Validação Humana (Human Review Required)
 
-### 7.3 Rastreabilidade de Custos e Infraestrutura de API
-A execução completa do pipeline multiagente envolveu 23.000 chamadas à API DeepSeek, processando 16.018.104 tokens de entrada e 9.402.790 tokens de saída, com um custo total acumulado de **$19,6719 USD** (consultar detalhe em [`output/tabela_custos.md`](file:///Users/jpaulo/Documents/AntiGravity_Agents/DeepSeek_Netnography%20DART%20Pipeline%20Orchestration/output/tabela_custos.md)).
+O framework DART-NET estabelece como princípio epistemológico que os modelos de IA operam como assistentes de codificação recomendatória e não como decisores científicos finais. Assim, sempre que qualquer nível de confiança desce abaixo de 0,80 ou surgem ambiguidades contextuais, o registo é sinalizado obrigatoriamente para intervenção humana (`human_review_required = True`).
+
+- **Total de Posts Sinalizados para Revisão Humana**: **803 posts (77,81%)**
+- **Taxa de Aceitação Automática Direta (Confiança Muito Elevada)**: 229 posts (22,19%)
+
+Esta proporção substantiva de revisão humana (77,8%) reflete deliberadamente o princípio da prudência científica: o discurso em comunidades virtuais de videojogos é densamente impregnado de jargão contextual (*multiboxing*, *pixel bots*, *ESI*, *vibe coding*), sarcasmo e ironia, exigindo que o investigador humano retenha a responsabilidade final de validação nos casos de fronteira.
 
 ---
 
 ## 8. Discussão Teórica, Reprodutibilidade e Limitações
 
-### 8.1 Contribuições Teóricas
-O estudo valida a relevância do framework DART-NET, demonstrando como a introdução do protocolo MCP e LLMs altera o equilíbrio clássico do DART, alavancando simultaneamente Acesso e Transparência em ecossistemas virtuais abertos.
+### 8.1 Preservação das 3 Camadas Metodológicas (DART-NET)
 
-### 8.2 Reprodutibilidade e Governança de Dados em Três Camadas
-O pipeline cumpre integralmente os requisitos de integridade científica através da arquitetura de dados em 3 camadas:
-1. **Camada 1 — RAW DATA (`data/raw/`):** 350 ficheiros originais intactos e imutáveis, totalizando 8.779 mensagens comunitárias preservadas.
-2. **Camada 2 — AI CODING (`data/processed/` e `data/analysis/`):** Inferências estruturadas, pseudonimização ética (1.171 identificadores sintéticos `Player_XXX`) e resultados analíticos em formato JSON Lines (`netnography_results.jsonl`).
-3. **Camada 3 — HUMAN VALIDATION (`output/`):** Tabela consolidada com 2.214 resumos em [`output/tabela_resumos.md`](file:///Users/jpaulo/Documents/AntiGravity_Agents/DeepSeek_Netnography%20DART%20Pipeline%20Orchestration/output/tabela_resumos.md), relatórios de auditoria e amostras estratificadas prontas para validação final.
+A execução deste estudo adota uma separação estrita e não destrutiva em 3 camadas de dados, garantindo total auditabilidade e reprodutibilidade científica:
 
----
+1. **Camada 1 — Dados em Bruto (Raw Data)**: 430 ficheiros JSON originais armazenados em `data/raw/` preservando a integridade integral das mensagens, tópicos e metadados de API do Discourse, Reddit e Steam Community.
+2. **Camada 2 — Codificação Assistida por IA (AI Coding)**: Armazenamento em `data/processed/anonymized_posts.json` e `data/analysis/netnography_results.jsonl`, integrando a pseudonimização ética de intervenientes (`Player_0001` a `Player_1032`), a higienização de identificadores pessoais (PII) e o rastreio auditável de raciocínio LLM.
+3. **Camada 3 — Validação Humana e Síntese Científica (Human Validation)**: Compilação das matrizes de síntese (`output/tabela_resumos.md`), inventário canónico de 303 ligações (`output/lista_links.md` e `.txt`), auditoria de qualidade (`quality_audit_results.json`) e o presente relatório formal.
 
-## 9. Apêndice Metodológico: Relação de Acesso e Repositórios das Fontes Primárias
+### 8.2 Delimitação Temporal Estrita (Jan 2024 – 2026)
 
-1. **Repositório Bruto Imutável (`data/raw/`):** 350 ficheiros JSON estruturados (`topic_fetched_*.json`), contendo o *post stream* integral.
-2. **Índice Web e Links Diretos (`output/tabela_resumos.md`):** Tabela com 2.214 linhas com links web diretos para cada post.
-3. **Inventário Canónico de URLs (`output/lista_links.txt`):** 246 hiperligações canónicas ativas e 3 consultas booleanas estruturadas via Google Search.
-4. **Mapeamento de Pseudonimização Ética (`data/interim/author_token_map.json`):** Correspondência entre `Player_001` a `Player_1171` e os utilizadores originais.
-5. **Consultas Booleanas de Descoberta Externa (Google Search Queries):**
-   - `site:reddit.com/r/Eve ("LLM" OR "ChatGPT" OR "AI agent" OR "Claude")`
-   - `site:reddit.com/r/Eve ("copilot" OR "agent" OR "MCP") ("ESI" OR "API")`
-   - `site:reddit.com (r/wow OR r/Eve OR r/classicwow OR r/woweconomy) ("LLM" OR "ChatGPT" OR "Claude" OR "machine learning") ("AI agent" OR "copilot" OR "agent" OR "MCP") ("API" OR "ESI" OR "botting" OR "computer vision")`
+Um avanço metodológico fundamental desta reexecução residiu no rigoroso isolamento temporal dos dados:
+- **Critério de Exclusão**: Foram eliminadas de todas as camadas analíticas mensagens publicadas antes de 01 de janeiro de 2024.
+- **Justificação Epistemológica**: O ano de 2024 assinala a transição pragmática na adoção de LLMs e arquiteturas baseadas em agentes (Model Context Protocol, copilotos generativos, raciocínio em tempo real), diferenciando o ecossistema atual das discussões puramente conceptuais de anos anteriores.
+
+### 8.3 Métricas de Eficiência e Transparência de Custos
+
+A totalidade do pipeline multi-agente operou com monitorização detalhada de recursos:
+- **Total de Chamadas de API**: 26.616 invocações (24.674 `deepseek-v4-flash` e 1.942 `deepseek-v4-pro`).
+- **Volume de Tokens Processados**: 18.116.689 tokens de entrada e 9.890.997 tokens de saída.
+- **Custo Operacional Consolidado**: **$21,05 USD**, comprovando a elevada viabilidade económica e reprodutibilidade de estudos netnográficos em larga escala com recurso a arquiteturas multi-agente orquestradas.
+
+### 8.4 Limitações e Vias para Investigações Futuras
+
+1. **Barreiras Técnicas de Acesso**: Plataformas que impõem desafios anti-bot (Cloudflare em fóruns de terceiros como MMO-Champion) requerem acordos institucionais de recolha ou parcerias de dados.
+2. **Evolução Rápida do Ecossistema**: O advento acelerado do protocolo MCP e de copilotos autónomos de jogo exigirá investigações longitudinais regulares para monitorizar se a proporção de cocriação simétrica (VC1) se expande à medida que a literacia de desenvolvimento de ferramentas assistidas por IA se democratiza entre os jogadores.

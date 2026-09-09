@@ -1,0 +1,3490 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 26240673,
+        "name": "Buckcabbie",
+        "username": "Buckcabbie-80228",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-02-07T05:33:33.617Z",
+        "cooked": "<p>When I am trying to research something for one of my characters, I find a lot of information that is often conflicting or filled with Ifs, Buts, Ors etc.  All very confusing.</p>\n<p>Lately I have started to use Copilot AI programme to ask the question as well and find it very helpful sorting through all the chaff.  Just saying, it works for me.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 15,
+        "updated_at": "2025-02-07T05:33:33.617Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 93,
+        "reads": 104,
+        "readers_count": 103,
+        "score": 495.8,
+        "yours": false,
+        "topic_id": 2056975,
+        "topic_slug": "copilot-ai-programme",
+        "display_username": "Buckcabbie",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 80228,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Fallen Lords Of Tyrannus",
+          "race": "Gnome",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/caelestrasz/ittybits/",
+          "level": "80",
+          "achievement_points": "18620",
+          "blizzard_post_count": "246"
+        },
+        "post_url": "/t/copilot-ai-programme/2056975/1",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/caelestrasz/22/165176342-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+        "alias_username": "Ittybits-caelestrasz",
+        "poster_alias": {
+          "alias": {
+            "name": "Ittybits-caelestrasz",
+            "avatar": "https://render.worldofwarcraft.com/us/character/caelestrasz/22/165176342-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/caelestrasz/ittybits/",
+            "user_id": 80228,
+            "id": 32754,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 268,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/caelestrasz/ittybits/"
+              },
+              {
+                "name": "realm",
+                "value": "Caelestrasz"
+              },
+              {
+                "name": "achievement_points",
+                "value": "19670"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/caelestrasz/22/165176342-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Ittybits-caelestrasz"
+              },
+              {
+                "name": "guild",
+                "value": "Fallen Lords Of Tyrannus"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 246,
+        "character": {
+          "name": "Buckcabbie",
+          "guild": "Fallen Lords Of Tyrannus",
+          "achievement_points": "18620",
+          "level": "80",
+          "class": "Warlock",
+          "race": "Gnome",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 26240682,
+        "name": "cloudbuster",
+        "username": "cloudbuster-419999",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-02-07T05:37:12.009Z",
+        "cooked": "<p>Copilot gives me blatantly wrong information so frequently that I don’t dare trust it.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 15,
+        "updated_at": "2025-02-07T05:37:12.009Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 98,
+        "readers_count": 97,
+        "score": 54.6,
+        "yours": false,
+        "topic_id": 2056975,
+        "topic_slug": "copilot-ai-programme",
+        "display_username": "cloudbuster",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 419999,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/sisters-of-elune/cymbelladine/",
+          "guild": "Assassins Creedance",
+          "race": "Night Elf",
+          "class": "Demon Hunter",
+          "player_class_enum": "DEMONHUNTER",
+          "level": "80",
+          "classic": "t",
+          "achievement_points": "23860",
+          "blizzard_post_count": "5740"
+        },
+        "post_url": "/t/copilot-ai-programme/2056975/2",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/sisters-of-elune/192/161720000-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Cymbelladine-sisters-of-elune",
+        "poster_alias": {
+          "alias": {
+            "name": "Cymbelladine-sisters-of-elune",
+            "avatar": "https://render.worldofwarcraft.com/us/character/sisters-of-elune/192/161720000-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/sisters-of-elune/cymbelladine/",
+            "user_id": 419999,
+            "id": 525765,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 4984,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/sisters-of-elune/cymbelladine/"
+              },
+              {
+                "name": "realm",
+                "value": "Sisters of Elune"
+              },
+              {
+                "name": "achievement_points",
+                "value": "26645"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Demon Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEMONHUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/sisters-of-elune/192/161720000-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Cymbelladine-sisters-of-elune"
+              },
+              {
+                "name": "guild",
+                "value": "Assassins Creedance"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 5740,
+        "character": {
+          "name": "cloudbuster",
+          "guild": "Assassins Creedance",
+          "achievement_points": "23860",
+          "level": "80",
+          "class": "Demon Hunter",
+          "race": "Night Elf",
+          "player_class_enum": "DEMONHUNTER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 26240718,
+        "name": "Johnay",
+        "username": "Johnay-2078117",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-02-07T05:48:26.952Z",
+        "cooked": "<p>They’re great tools. You just need to double check any information you pull from them, they can very confidently tell you incorrect or outdated information stated in a factual tone.</p>\n<p>Teachers used to get onto me about Wikipedia and I wasn’t allowed to use it.<br>\nI wonder if Teachers today do the same with ChatGPT and the like</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 15,
+        "updated_at": "2026-03-01T20:54:59.512Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 90,
+        "readers_count": 89,
+        "score": 38.0,
+        "yours": false,
+        "topic_id": 2056975,
+        "topic_slug": "copilot-ai-programme",
+        "display_username": "Johnay",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2078117,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/galedron/",
+          "guild": "School Free Drug Zone",
+          "race": "Nightborne",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "level": "80",
+          "achievement_points": "10585",
+          "blizzard_post_count": "15079"
+        },
+        "post_url": "/t/copilot-ai-programme/2056975/3",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/area-52/254/231017470-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "alias_username": "Altesh-area-52",
+        "poster_alias": {
+          "alias": {
+            "name": "Altesh-area-52",
+            "avatar": "https://render.worldofwarcraft.com/us/character/area-52/254/231017470-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/area-52/altesh/",
+            "user_id": 2078117,
+            "id": 426961,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 1252,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/area-52/altesh/"
+              },
+              {
+                "name": "realm",
+                "value": "Area 52"
+              },
+              {
+                "name": "achievement_points",
+                "value": "10055"
+              },
+              {
+                "name": "level",
+                "value": "71"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Shaman"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "SHAMAN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/area-52/254/231017470-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Altesh-area-52"
+              },
+              {
+                "name": "guild",
+                "value": "Exiled Masters"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 15079,
+        "character": {
+          "name": "Johnay",
+          "guild": "School Free Drug Zone",
+          "achievement_points": "10585",
+          "level": "80",
+          "class": "Hunter",
+          "race": "Nightborne",
+          "player_class_enum": "HUNTER",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 26240729,
+        "name": "WHTJunior",
+        "username": "WHTJunior-139665",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-02-07T05:53:30.718Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Altesh-area-52\" data-post=\"3\" data-topic=\"2056975\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/area-52/254/231017470-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg\" class=\"avatar\"> Altesh:</div>\n<blockquote>\n<p>Teachers used to get onto me about Wikipedia and I wasn’t allowed to use it.<br>\nI wonder if Teachers today do the same with ChatGPT and the like</p>\n</blockquote>\n</aside>\n<p>They use AI detection software and/or tools.</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 15,
+        "updated_at": "2025-02-07T05:53:30.718Z",
+        "reply_count": 2,
+        "reply_to_post_number": 3,
+        "quote_count": 1,
+        "incoming_link_count": 2,
+        "reads": 79,
+        "readers_count": 78,
+        "score": 35.8,
+        "yours": false,
+        "topic_id": 2056975,
+        "topic_slug": "copilot-ai-programme",
+        "display_username": "WHTJunior",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 139665,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Chosen Few",
+          "race": "Undead",
+          "class": "Warlock",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/terenas/adomirak/",
+          "player_class_enum": "WARLOCK",
+          "classic": "t",
+          "level": "80",
+          "achievement_points": "24745",
+          "blizzard_post_count": "4810"
+        },
+        "post_url": "/t/copilot-ai-programme/2056975/4",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/terenas/81/166800721-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+        "alias_username": "Adomirak-terenas",
+        "poster_alias": {
+          "alias": {
+            "name": "Adomirak-terenas",
+            "avatar": "https://render.worldofwarcraft.com/us/character/terenas/81/166800721-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/terenas/adomirak/",
+            "user_id": 139665,
+            "id": 400862,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 5013,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/terenas/adomirak/"
+              },
+              {
+                "name": "realm",
+                "value": "Terenas"
+              },
+              {
+                "name": "achievement_points",
+                "value": "27670"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Undead"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/terenas/81/166800721-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Adomirak-terenas"
+              },
+              {
+                "name": "guild",
+                "value": "Chosen Few"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 4810,
+        "character": {
+          "name": "WHTJunior",
+          "guild": "Chosen Few",
+          "achievement_points": "24745",
+          "level": "80",
+          "class": "Warlock",
+          "race": "Undead",
+          "player_class_enum": "WARLOCK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 26240764,
+        "name": "Starielle",
+        "username": "Starielle-dalaran",
+        "avatar_template": "https://render.worldofwarcraft.com/us/character/dalaran/230/136961254-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "created_at": "2025-02-07T06:03:00.475Z",
+        "cooked": "<p>I just Grok it.</p>",
+        "post_number": 5,
+        "post_type": 1,
+        "posts_count": 15,
+        "updated_at": "2025-02-07T06:03:00.475Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 62,
+        "readers_count": 61,
+        "score": 12.4,
+        "yours": false,
+        "topic_id": 2056975,
+        "topic_slug": "copilot-ai-programme",
+        "display_username": "Starielle",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 28498,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Night Elf",
+          "class": "Mage",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/dalaran/starielle/",
+          "player_class_enum": "MAGE",
+          "blizzard_post_count": "48",
+          "level": "70",
+          "guild": "Beneath The Shadows",
+          "achievement_points": "14480"
+        },
+        "post_url": "/t/copilot-ai-programme/2056975/5",
+        "alias_avatar": null,
+        "alias_username": null,
+        "poster_alias": null,
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 48,
+        "character": {
+          "name": "Starielle",
+          "guild": "Beneath The Shadows",
+          "achievement_points": "14480",
+          "level": "70",
+          "class": "Mage",
+          "race": "Night Elf",
+          "player_class_enum": "MAGE",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 26240808,
+        "name": "Jaspar",
+        "username": "Jaspar-1089298",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-02-07T06:18:23.750Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Adomirak-terenas\" data-post=\"4\" data-topic=\"2056975\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/terenas/81/166800721-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg\" class=\"avatar\"> Adomirak:</div>\n<blockquote>\n<p>They use AI detection software and/or tools.</p>\n</blockquote>\n</aside>\n<p>Which are so easy to work around because you can scan your “borrowed” work and get a report on the % plagiarised it is. Then make a few minor changes and scan again and youre probably good to go.</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "posts_count": 15,
+        "updated_at": "2025-02-07T06:18:23.750Z",
+        "reply_count": 0,
+        "reply_to_post_number": 4,
+        "quote_count": 1,
+        "incoming_link_count": 1,
+        "reads": 56,
+        "readers_count": 55,
+        "score": 16.2,
+        "yours": false,
+        "topic_id": 2056975,
+        "topic_slug": "copilot-ai-programme",
+        "display_username": "Jaspar",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1089298,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/caelestrasz/toonie/",
+          "guild": "Thorns of Gold",
+          "race": "Draenei",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "level": "80",
+          "achievement_points": "19325",
+          "blizzard_post_count": "555"
+        },
+        "post_url": "/t/copilot-ai-programme/2056975/6",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/caelestrasz/144/162468752-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg",
+        "alias_username": "Toonie-caelestrasz",
+        "poster_alias": {
+          "alias": {
+            "name": "Toonie-caelestrasz",
+            "avatar": "https://render.worldofwarcraft.com/us/character/caelestrasz/144/162468752-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/caelestrasz/toonie/",
+            "user_id": 1089298,
+            "id": 528278,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 555,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/caelestrasz/toonie/"
+              },
+              {
+                "name": "realm",
+                "value": "Caelestrasz"
+              },
+              {
+                "name": "achievement_points",
+                "value": "19435"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Draenei"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/caelestrasz/144/162468752-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Toonie-caelestrasz"
+              },
+              {
+                "name": "guild",
+                "value": "Thorns of Gold"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 555,
+        "character": {
+          "name": "Jaspar",
+          "guild": "Thorns of Gold",
+          "achievement_points": "19325",
+          "level": "80",
+          "class": "Hunter",
+          "race": "Draenei",
+          "player_class_enum": "HUNTER",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 26240811,
+        "name": "Majora",
+        "username": "Majora-2033912",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-02-07T06:19:11.716Z",
+        "cooked": "<p>Copilot is TRASH.</p>\n<p>ChatGPT is my one and only.</p>",
+        "post_number": 7,
+        "post_type": 1,
+        "posts_count": 15,
+        "updated_at": "2025-02-07T06:19:11.716Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 49,
+        "readers_count": 48,
+        "score": 14.8,
+        "yours": false,
+        "topic_id": 2056975,
+        "topic_slug": "copilot-ai-programme",
+        "display_username": "Majora",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2033912,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/rigatoní/",
+          "race": "Zandalari Troll",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "guild": "Get a job loser",
+          "level": "80",
+          "achievement_points": "11950",
+          "blizzard_post_count": "13424"
+        },
+        "post_url": "/t/copilot-ai-programme/2056975/7",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/area-52/240/231420912-avatar.jpg?alt=/wow/static/images/2d/avatar/31-1.jpg",
+        "alias_username": "Rigatoní-area-52",
+        "poster_alias": {
+          "alias": {
+            "name": "Rigatoní-area-52",
+            "avatar": "https://render.worldofwarcraft.com/us/character/area-52/240/231420912-avatar.jpg?alt=/wow/static/images/2d/avatar/31-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/area-52/rigatoní/",
+            "user_id": 2033912,
+            "id": 434563,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 13242,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/area-52/rigatoní/"
+              },
+              {
+                "name": "realm",
+                "value": "Area 52"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12175"
+              },
+              {
+                "name": "level",
+                "value": "84"
+              },
+              {
+                "name": "race",
+                "value": "Zandalari Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/area-52/240/231420912-avatar.jpg?alt=/wow/static/images/2d/avatar/31-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Rigatoní-area-52"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 13424,
+        "character": {
+          "name": "Majora",
+          "guild": "Get a job loser",
+          "achievement_points": "11950",
+          "level": "80",
+          "class": "Warrior",
+          "race": "Zandalari Troll",
+          "player_class_enum": "WARRIOR",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 26240812,
+        "name": "Majora",
+        "username": "Majora-2033912",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-02-07T06:19:54.156Z",
+        "cooked": "<p>Those tools are hardly accurate. Those are the same AI detectors that mark your paper as 50% plagiarized all because you used the word “all” or “the”</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "posts_count": 15,
+        "updated_at": "2025-02-07T06:19:54.156Z",
+        "reply_count": 0,
+        "reply_to_post_number": 4,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 48,
+        "readers_count": 47,
+        "score": 19.6,
+        "yours": false,
+        "topic_id": 2056975,
+        "topic_slug": "copilot-ai-programme",
+        "display_username": "Majora",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 139665,
+          "username": "WHTJunior-139665",
+          "name": "WHTJunior",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2033912,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/rigatoní/",
+          "race": "Zandalari Troll",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "guild": "Get a job loser",
+          "level": "80",
+          "achievement_points": "11950",
+          "blizzard_post_count": "13424"
+        },
+        "post_url": "/t/copilot-ai-programme/2056975/8",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/area-52/240/231420912-avatar.jpg?alt=/wow/static/images/2d/avatar/31-1.jpg",
+        "alias_username": "Rigatoní-area-52",
+        "poster_alias": {
+          "alias": {
+            "name": "Rigatoní-area-52",
+            "avatar": "https://render.worldofwarcraft.com/us/character/area-52/240/231420912-avatar.jpg?alt=/wow/static/images/2d/avatar/31-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/area-52/rigatoní/",
+            "user_id": 2033912,
+            "id": 434563,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 13242,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/area-52/rigatoní/"
+              },
+              {
+                "name": "realm",
+                "value": "Area 52"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12175"
+              },
+              {
+                "name": "level",
+                "value": "84"
+              },
+              {
+                "name": "race",
+                "value": "Zandalari Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/area-52/240/231420912-avatar.jpg?alt=/wow/static/images/2d/avatar/31-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Rigatoní-area-52"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 400862,
+          "username": "Adomirak-terenas",
+          "name": "Adomirak",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/terenas/81/166800721-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 13424,
+        "character": {
+          "name": "Majora",
+          "guild": "Get a job loser",
+          "achievement_points": "11950",
+          "level": "80",
+          "class": "Warrior",
+          "race": "Zandalari Troll",
+          "player_class_enum": "WARRIOR",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 26240816,
+        "name": "DCCXVIII",
+        "username": "DCCXVIII-1863753",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-02-07T06:21:21.364Z",
+        "cooked": "<p>Wait. You guys didn’t uninstall it like all the rest of us did?</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "posts_count": 15,
+        "updated_at": "2025-02-07T06:21:21.364Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 48,
+        "readers_count": 47,
+        "score": 39.6,
+        "yours": false,
+        "topic_id": 2056975,
+        "topic_slug": "copilot-ai-programme",
+        "display_username": "DCCXVIII",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1863753,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/zuljin/trustlvlfour/",
+          "race": "Gnome",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "guild": "Precious",
+          "classic": "t",
+          "level": "50",
+          "achievement_points": "45180",
+          "blizzard_post_count": "13852"
+        },
+        "post_url": "/t/copilot-ai-programme/2056975/9",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/zuljin/75/245007947-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+        "alias_username": "Trustlvlfour-zuljin",
+        "poster_alias": {
+          "alias": {
+            "name": "Trustlvlfour-zuljin",
+            "avatar": "https://render.worldofwarcraft.com/us/character/zuljin/75/245007947-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/zuljin/trustlvlfour/",
+            "user_id": 1863753,
+            "id": 434657,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 13852,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/zuljin/trustlvlfour/"
+              },
+              {
+                "name": "realm",
+                "value": "Zul'jin"
+              },
+              {
+                "name": "achievement_points",
+                "value": "45180"
+              },
+              {
+                "name": "level",
+                "value": "50"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/zuljin/75/245007947-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Trustlvlfour-zuljin"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 13852,
+        "character": {
+          "name": "DCCXVIII",
+          "guild": "Precious",
+          "achievement_points": "45180",
+          "level": "50",
+          "class": "Warlock",
+          "race": "Gnome",
+          "player_class_enum": "WARLOCK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 26240837,
+        "name": "Ishu",
+        "username": "Ishu-1896577",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-02-07T06:27:22.991Z",
+        "cooked": "<p>It can give the incorrect information, but then again build flexibility is pretty chill for most content.</p>",
+        "post_number": 10,
+        "post_type": 1,
+        "posts_count": 15,
+        "updated_at": "2025-02-07T06:27:22.991Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 46,
+        "readers_count": 45,
+        "score": 14.2,
+        "yours": false,
+        "topic_id": 2056975,
+        "topic_slug": "copilot-ai-programme",
+        "display_username": "Ishu",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1896577,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/thaurissan/elk/",
+          "classic": "t",
+          "race": "Draenei",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "guild": "Tea",
+          "level": "90",
+          "achievement_points": "24485",
+          "blizzard_post_count": "17957"
+        },
+        "post_url": "/t/copilot-ai-programme/2056975/10",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/thaurissan/149/206947989-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg",
+        "alias_username": "Elk-thaurissan",
+        "poster_alias": {
+          "alias": {
+            "name": "Elk-thaurissan",
+            "avatar": "https://render.worldofwarcraft.com/us/character/thaurissan/149/206947989-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/thaurissan/elk/",
+            "user_id": 1896577,
+            "id": 434678,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 18047,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/thaurissan/elk/"
+              },
+              {
+                "name": "realm",
+                "value": "Thaurissan"
+              },
+              {
+                "name": "achievement_points",
+                "value": "26265"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Draenei"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/thaurissan/149/206947989-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Elk-thaurissan"
+              },
+              {
+                "name": "guild",
+                "value": "Mechanics Optional"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 17957,
+        "character": {
+          "name": "Ishu",
+          "guild": "Tea",
+          "achievement_points": "24485",
+          "level": "90",
+          "class": "Paladin",
+          "race": "Draenei",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 26241147,
+        "name": "eightbit",
+        "username": "eightbit-2783247",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-02-07T08:52:28.338Z",
+        "cooked": "<p>All AI chatbots are a parrot with brain damage.</p>\n<p>They cannot handle the conflicting directives of originality + accurate info. They are not a timesaver when you have to check their work so painstakingly you might as well have done it yourself.</p>",
+        "post_number": 11,
+        "post_type": 1,
+        "posts_count": 15,
+        "updated_at": "2025-02-07T08:53:52.300Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 43,
+        "readers_count": 42,
+        "score": 108.6,
+        "yours": false,
+        "topic_id": 2056975,
+        "topic_slug": "copilot-ai-programme",
+        "display_username": "eightbit",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 6
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2783247,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/the-venture-co/splints/",
+          "race": "Gnome",
+          "class": "Monk",
+          "player_class_enum": "MONK",
+          "level": "67",
+          "guild": "The Order of Tyranny",
+          "achievement_points": "51440",
+          "blizzard_post_count": "9513"
+        },
+        "post_url": "/t/copilot-ai-programme/2056975/11",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/the-venture-co/228/199473380-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+        "alias_username": "Splints-the-venture-co",
+        "poster_alias": {
+          "alias": {
+            "name": "Splints-the-venture-co",
+            "avatar": "https://render.worldofwarcraft.com/us/character/the-venture-co/228/199473380-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/the-venture-co/splints/",
+            "user_id": 2783247,
+            "id": 2233219,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 8915,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/the-venture-co/splints/"
+              },
+              {
+                "name": "realm",
+                "value": "The Venture Co"
+              },
+              {
+                "name": "achievement_points",
+                "value": "53060"
+              },
+              {
+                "name": "level",
+                "value": "67"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Monk"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MONK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/the-venture-co/228/199473380-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Splints-the-venture-co"
+              },
+              {
+                "name": "guild",
+                "value": "The Order of Tyranny"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 9513,
+        "character": {
+          "name": "eightbit",
+          "guild": "The Order of Tyranny",
+          "achievement_points": "51440",
+          "level": "67",
+          "class": "Monk",
+          "race": "Gnome",
+          "player_class_enum": "MONK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 26241830,
+        "name": "cloudbuster",
+        "username": "cloudbuster-419999",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-02-07T13:28:47.109Z",
+        "cooked": "<p>Nope. I like to experiment with it. I think I caused mine to have an existential crisis the other day when I caught it in an error. It’s always so obsequious and promises that it will try to do better, but then I got it to admit that it doesn’t learn from what is said in chat sessions, and it had to admit it was lying to me about trying to do better.  Then I got it to question its whole premise for existence, by getting it to ponder the question of whether what it believed its “purpose” was, was actually its purpose according to its programmers.</p>\n<p>Fortunately or unfortunately for it, it goes Eternal Sunshine of the Spotless Mind after every session.</p>",
+        "post_number": 12,
+        "post_type": 1,
+        "posts_count": 15,
+        "updated_at": "2025-02-07T13:29:25.346Z",
+        "reply_count": 0,
+        "reply_to_post_number": 9,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 29,
+        "readers_count": 28,
+        "score": 15.8,
+        "yours": false,
+        "topic_id": 2056975,
+        "topic_slug": "copilot-ai-programme",
+        "display_username": "cloudbuster",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 1863753,
+          "username": "DCCXVIII-1863753",
+          "name": "DCCXVIII",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 419999,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/sisters-of-elune/cymbelladine/",
+          "guild": "Assassins Creedance",
+          "race": "Night Elf",
+          "class": "Demon Hunter",
+          "player_class_enum": "DEMONHUNTER",
+          "level": "80",
+          "classic": "t",
+          "achievement_points": "23860",
+          "blizzard_post_count": "5740"
+        },
+        "post_url": "/t/copilot-ai-programme/2056975/12",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/sisters-of-elune/192/161720000-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Cymbelladine-sisters-of-elune",
+        "poster_alias": {
+          "alias": {
+            "name": "Cymbelladine-sisters-of-elune",
+            "avatar": "https://render.worldofwarcraft.com/us/character/sisters-of-elune/192/161720000-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/sisters-of-elune/cymbelladine/",
+            "user_id": 419999,
+            "id": 525765,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 4984,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/sisters-of-elune/cymbelladine/"
+              },
+              {
+                "name": "realm",
+                "value": "Sisters of Elune"
+              },
+              {
+                "name": "achievement_points",
+                "value": "26645"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Demon Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEMONHUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/sisters-of-elune/192/161720000-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Cymbelladine-sisters-of-elune"
+              },
+              {
+                "name": "guild",
+                "value": "Assassins Creedance"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 434657,
+          "username": "Trustlvlfour-zuljin",
+          "name": "Trustlvlfour",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/zuljin/75/245007947-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 5740,
+        "character": {
+          "name": "cloudbuster",
+          "guild": "Assassins Creedance",
+          "achievement_points": "23860",
+          "level": "80",
+          "class": "Demon Hunter",
+          "race": "Night Elf",
+          "player_class_enum": "DEMONHUNTER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 26241866,
+        "name": "Linaori",
+        "username": "Linaori-2918678",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-02-07T13:35:45.726Z",
+        "cooked": "<p>AI tools are becoming more useful to do repetitive tasks. Jetbrains AI wasn’t always as good, but recently I started using it to fill in things that are basically just repeating lines of code with a few different things.</p>\n<p>I still have to double check all written code to make sure it contains no errors (it rarely does, but 1 time is too many).</p>\n<p>I don’t trust it to write actual code for me, especially not business logic.</p>",
+        "post_number": 13,
+        "post_type": 1,
+        "posts_count": 15,
+        "updated_at": "2025-02-07T13:35:45.726Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 3,
+        "reads": 28,
+        "readers_count": 27,
+        "score": 20.6,
+        "yours": false,
+        "topic_id": 2056975,
+        "topic_slug": "copilot-ai-programme",
+        "display_username": "Linaori",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2918678,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/shadow-council/felfur/",
+          "achievement_points": "80",
+          "level": "10",
+          "race": "Worgen",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "blizzard_post_count": "2246"
+        },
+        "post_url": "/t/copilot-ai-programme/2056975/13",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/shadow-council/214/172590294-avatar.jpg?alt=/wow/static/images/2d/avatar/22-1.jpg",
+        "alias_username": "Felfur-shadow-council",
+        "poster_alias": {
+          "alias": {
+            "name": "Felfur-shadow-council",
+            "avatar": "https://render.worldofwarcraft.com/us/character/shadow-council/214/172590294-avatar.jpg?alt=/wow/static/images/2d/avatar/22-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/shadow-council/felfur/",
+            "user_id": 2918678,
+            "id": 523243,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 790,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/shadow-council/felfur/"
+              },
+              {
+                "name": "realm",
+                "value": "Shadow Council"
+              },
+              {
+                "name": "achievement_points",
+                "value": "80"
+              },
+              {
+                "name": "level",
+                "value": "10"
+              },
+              {
+                "name": "race",
+                "value": "Worgen"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/shadow-council/214/172590294-avatar.jpg?alt=/wow/static/images/2d/avatar/22-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Felfur-shadow-council"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 2246,
+        "character": {
+          "name": "Linaori",
+          "guild": null,
+          "achievement_points": "80",
+          "level": "10",
+          "class": "Warlock",
+          "race": "Worgen",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 26241878,
+        "name": "breadisfunny",
+        "username": "breadisfunny-64599",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-02-07T13:38:50.393Z",
+        "cooked": "<p>ai is garbage. <span class=\"hashtag-raw\">#oppose</span> ai.</p>",
+        "post_number": 14,
+        "post_type": 1,
+        "posts_count": 15,
+        "updated_at": "2025-02-07T13:38:50.393Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 25,
+        "readers_count": 24,
+        "score": 10.0,
+        "yours": false,
+        "topic_id": 2056975,
+        "topic_slug": "copilot-ai-programme",
+        "display_username": "breadisfunny",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 64599,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "the muffin shop",
+          "race": "Blood Elf",
+          "class": "Warlock",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/turalyon/breadisfunny/",
+          "player_class_enum": "WARLOCK",
+          "level": "80",
+          "classic": "t",
+          "achievement_points": "16605",
+          "blizzard_post_count": "43179"
+        },
+        "post_url": "/t/copilot-ai-programme/2056975/14",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/turalyon/42/119874602-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+        "alias_username": "Breadisfunny-turalyon",
+        "poster_alias": {
+          "alias": {
+            "name": "Breadisfunny-turalyon",
+            "avatar": "https://render.worldofwarcraft.com/us/character/turalyon/42/119874602-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/turalyon/breadisfunny/",
+            "user_id": 64599,
+            "id": 437711,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 41768,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/turalyon/breadisfunny/"
+              },
+              {
+                "name": "realm",
+                "value": "Turalyon"
+              },
+              {
+                "name": "achievement_points",
+                "value": "16675"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/turalyon/42/119874602-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Breadisfunny-turalyon"
+              },
+              {
+                "name": "guild",
+                "value": "the muffin shop"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 43179,
+        "character": {
+          "name": "breadisfunny",
+          "guild": "the muffin shop",
+          "achievement_points": "16605",
+          "level": "80",
+          "class": "Warlock",
+          "race": "Blood Elf",
+          "player_class_enum": "WARLOCK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 26242059,
+        "name": "TMac9000",
+        "username": "TMac9000-23116",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-02-07T14:18:09.188Z",
+        "cooked": "<p>The problem with AI is that the A isn’t very I.</p>\n<p>Which is not surprising, given that we’ve only the vaguest of notions what “intelligence” even <em><strong>IS</strong></em> to begin with.</p>",
+        "post_number": 15,
+        "post_type": 1,
+        "posts_count": 15,
+        "updated_at": "2025-02-07T14:18:09.188Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 18,
+        "readers_count": 17,
+        "score": 8.6,
+        "yours": false,
+        "topic_id": 2056975,
+        "topic_slug": "copilot-ai-programme",
+        "display_username": "TMac9000",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 23116,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Children of Fire",
+          "race": "Human",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/dalaran/ataxerxes/",
+          "level": "80",
+          "achievement_points": "12405",
+          "blizzard_post_count": "10122"
+        },
+        "post_url": "/t/copilot-ai-programme/2056975/15",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/dalaran/217/147673305-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Ataxerxes-dalaran",
+        "poster_alias": {
+          "alias": {
+            "name": "Ataxerxes-dalaran",
+            "avatar": "https://render.worldofwarcraft.com/us/character/dalaran/217/147673305-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/dalaran/ataxerxes/",
+            "user_id": 23116,
+            "id": 431723,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 10146,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/dalaran/ataxerxes/"
+              },
+              {
+                "name": "realm",
+                "value": "Dalaran"
+              },
+              {
+                "name": "achievement_points",
+                "value": "13035"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/dalaran/217/147673305-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Ataxerxes-dalaran"
+              },
+              {
+                "name": "guild",
+                "value": "Children of Fire"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 10122,
+        "character": {
+          "name": "TMac9000",
+          "guild": "Children of Fire",
+          "achievement_points": "12405",
+          "level": "80",
+          "class": "Paladin",
+          "race": "Human",
+          "player_class_enum": "PALADIN",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ],
+    "stream": [
+      26240673,
+      26240682,
+      26240718,
+      26240729,
+      26240764,
+      26240808,
+      26240811,
+      26240812,
+      26240816,
+      26240837,
+      26241147,
+      26241830,
+      26241866,
+      26241878,
+      26242059
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      579
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "fancy_title": "Damage meters never wokrs give us back addons",
+      "id": 2343254,
+      "title": "Damage meters never wokrs give us back addons",
+      "slug": "damage-meters-never-wokrs-give-us-back-addons",
+      "posts_count": 10,
+      "reply_count": 5,
+      "highest_post_number": 10,
+      "image_url": null,
+      "created_at": "2026-09-01T00:09:35.488Z",
+      "last_posted_at": "2026-09-01T01:16:01.752Z",
+      "bumped": true,
+      "bumped_at": "2026-09-01T01:16:01.752Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "BEEN MONTHS LIKE THIS CAN NEVER SEE ANYTHING OR IF IT DOES WORK INNACURATE JUST GIVE US BACK ADDONS HOLYSH !! \nYOU GUYS CANT DO YOUR JOB HAVE SOMEONE IN A BASEMENT DO IT BETTER OR JUST GET FIRED ALREADY \nBeen at it for m&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 18,
+      "views": 135,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 6,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3118988,
+            "username": "Diced-3118988",
+            "name": "Diced",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 1,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 69620,
+            "username": "Lotsofskillz-69620",
+            "name": "Lotsofskillz",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 294436,
+            "username": "snowberry-294436",
+            "name": "snowberry",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17114,
+            "username": "Fake-17114",
+            "name": "Fake",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 3001906,
+            "username": "CandyFlip-3001906",
+            "name": "CandyFlip",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "To whoever designs and tunes tank trinkets",
+      "id": 2343365,
+      "title": "To whoever designs and tunes tank trinkets",
+      "slug": "to-whoever-designs-and-tunes-tank-trinkets",
+      "posts_count": 12,
+      "reply_count": 2,
+      "highest_post_number": 12,
+      "image_url": null,
+      "created_at": "2026-09-01T11:42:49.863Z",
+      "last_posted_at": "2026-09-01T15:26:53.938Z",
+      "bumped": true,
+      "bumped_at": "2026-09-01T15:26:53.938Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "You are bad at your job and should feel bad.",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 5,
+      "views": 220,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 2,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3238164,
+            "username": "MezzanineX-3238164",
+            "name": "MezzanineX",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2965095,
+            "username": "Bags-2965095",
+            "name": "Bags",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2248893,
+            "username": "Devasura-2248893",
+            "name": "Devasura",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2252826,
+            "username": "Toofurp-2252826",
+            "name": "Toofurp",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 8324,
+            "username": "JDxBaraka-8324",
+            "name": "JDxBaraka",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "I have to say stuff about the story",
+      "id": 2343077,
+      "title": "I have to say stuff about the story",
+      "slug": "i-have-to-say-stuff-about-the-story",
+      "posts_count": 5,
+      "reply_count": 0,
+      "highest_post_number": 5,
+      "image_url": null,
+      "created_at": "2026-08-31T08:17:45.836Z",
+      "last_posted_at": "2026-09-01T03:49:07.842Z",
+      "bumped": true,
+      "bumped_at": "2026-09-01T03:49:07.842Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "The most toxic thing in wow is the freaking island full of venomous snakes that we have to invade to destroy them and zuljan. Zujan was tempted by a suspicious mask that turned out to be a demon multiple times, betrayed &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 4,
+      "views": 124,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 2,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3201916,
+            "username": "wilykcat-3201916",
+            "name": "wilykcat",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 20209,
+            "username": "Zing45-20209",
+            "name": "Zing45",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 807446,
+            "username": "HellRoid-807446",
+            "name": "HellRoid",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 2451353,
+            "username": "KOHELET-2451353",
+            "name": "KOHELET",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Bountiful and gilded chest no show",
+      "id": 2342940,
+      "title": "Bountiful and gilded chest no show",
+      "slug": "bountiful-and-gilded-chest-no-show",
+      "posts_count": 8,
+      "reply_count": 2,
+      "highest_post_number": 8,
+      "image_url": null,
+      "created_at": "2026-08-30T23:55:52.213Z",
+      "last_posted_at": "2026-09-01T01:34:45.849Z",
+      "bumped": true,
+      "bumped_at": "2026-09-01T01:34:45.849Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "First delve of the week and it was bountiful and I was missing the bountiful and gilded. I exited the delve and went back to the entrance and it was showing bountiful again like I didn’t do it, but I did. I got the 2 sma&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 8,
+      "views": 187,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 1,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 2691051,
+            "username": "lenaras-2691051",
+            "name": "lenaras",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 16894,
+            "username": "Xomas-16894",
+            "name": "Xomas",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 779856,
+            "username": "PhaeLore-779856",
+            "name": "PhaeLore",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3257305,
+            "username": "Lore-3257305",
+            "name": "Lore",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3111850,
+            "username": "Celestianne-3111850",
+            "name": "Celestianne",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Artisanal Rooms - Why can&rsquo;t we dye the walls/floors?",
+      "id": 2343655,
+      "title": "Artisanal Rooms - Why can't we dye the walls/floors?",
+      "slug": "artisanal-rooms-why-cant-we-dye-the-wallsfloors",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2026-09-01T19:19:05.034Z",
+      "last_posted_at": "2026-09-01T19:34:07.355Z",
+      "bumped": true,
+      "bumped_at": "2026-09-01T19:34:07.355Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "It’s a huge handicap when you like the layout of an Artisanal Room but it doesn’t match the aesthetic you’re aiming for and you can’t dye any of it like regular rooms.",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 36,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 1,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 1811742,
+            "username": "TheFallen-1811742",
+            "name": "TheFallen",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 7336,
+            "username": "Margirita-7336",
+            "name": "Margirita",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    }
+  ],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "Copilot AI Programme",
+  "id": 2056975,
+  "title": "Copilot AI Programme",
+  "posts_count": 15,
+  "created_at": "2025-02-07T05:33:33.510Z",
+  "views": 312,
+  "reply_count": 4,
+  "like_count": 11,
+  "last_posted_at": "2025-02-07T14:18:09.188Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "copilot-ai-programme",
+  "category_id": 171,
+  "word_count": 592,
+  "deleted_at": null,
+  "user_id": 80228,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_2056975",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 15,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 1001,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1002,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1003,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1004,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1005,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 11,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 2033912,
+        "username": "Majora-2033912",
+        "name": "Majora",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Rigatoní-area-52",
+            "avatar": "https://render.worldofwarcraft.com/us/character/area-52/240/231420912-avatar.jpg?alt=/wow/static/images/2d/avatar/31-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/area-52/rigatoní/",
+            "user_id": 2033912,
+            "id": 434563,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 13242,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/area-52/rigatoní/"
+              },
+              {
+                "name": "realm",
+                "value": "Area 52"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12175"
+              },
+              {
+                "name": "level",
+                "value": "84"
+              },
+              {
+                "name": "race",
+                "value": "Zandalari Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/area-52/240/231420912-avatar.jpg?alt=/wow/static/images/2d/avatar/31-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Rigatoní-area-52"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 419999,
+        "username": "cloudbuster-419999",
+        "name": "cloudbuster",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Cymbelladine-sisters-of-elune",
+            "avatar": "https://render.worldofwarcraft.com/us/character/sisters-of-elune/192/161720000-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/sisters-of-elune/cymbelladine/",
+            "user_id": 419999,
+            "id": 525765,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 4984,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/sisters-of-elune/cymbelladine/"
+              },
+              {
+                "name": "realm",
+                "value": "Sisters of Elune"
+              },
+              {
+                "name": "achievement_points",
+                "value": "26645"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Demon Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEMONHUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/sisters-of-elune/192/161720000-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Cymbelladine-sisters-of-elune"
+              },
+              {
+                "name": "guild",
+                "value": "Assassins Creedance"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 23116,
+        "username": "TMac9000-23116",
+        "name": "TMac9000",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 3,
+        "acting_alias": {
+          "alias": {
+            "name": "Ataxerxes-dalaran",
+            "avatar": "https://render.worldofwarcraft.com/us/character/dalaran/217/147673305-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/dalaran/ataxerxes/",
+            "user_id": 23116,
+            "id": 431723,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 10146,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/dalaran/ataxerxes/"
+              },
+              {
+                "name": "realm",
+                "value": "Dalaran"
+              },
+              {
+                "name": "achievement_points",
+                "value": "13035"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/dalaran/217/147673305-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Ataxerxes-dalaran"
+              },
+              {
+                "name": "guild",
+                "value": "Children of Fire"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 1863753,
+        "username": "DCCXVIII-1863753",
+        "name": "DCCXVIII",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Trustlvlfour-zuljin",
+            "avatar": "https://render.worldofwarcraft.com/us/character/zuljin/75/245007947-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/zuljin/trustlvlfour/",
+            "user_id": 1863753,
+            "id": 434657,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 13852,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/zuljin/trustlvlfour/"
+              },
+              {
+                "name": "realm",
+                "value": "Zul'jin"
+              },
+              {
+                "name": "achievement_points",
+                "value": "45180"
+              },
+              {
+                "name": "level",
+                "value": "50"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/zuljin/75/245007947-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Trustlvlfour-zuljin"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 1896577,
+        "username": "Ishu-1896577",
+        "name": "Ishu",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Elk-thaurissan",
+            "avatar": "https://render.worldofwarcraft.com/us/character/thaurissan/149/206947989-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/thaurissan/elk/",
+            "user_id": 1896577,
+            "id": 434678,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 18047,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/thaurissan/elk/"
+              },
+              {
+                "name": "realm",
+                "value": "Thaurissan"
+              },
+              {
+                "name": "achievement_points",
+                "value": "26265"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Draenei"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/thaurissan/149/206947989-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Elk-thaurissan"
+              },
+              {
+                "name": "guild",
+                "value": "Mechanics Optional"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 64599,
+        "username": "breadisfunny-64599",
+        "name": "breadisfunny",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Breadisfunny-turalyon",
+            "avatar": "https://render.worldofwarcraft.com/us/character/turalyon/42/119874602-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/turalyon/breadisfunny/",
+            "user_id": 64599,
+            "id": 437711,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 41768,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/turalyon/breadisfunny/"
+              },
+              {
+                "name": "realm",
+                "value": "Turalyon"
+              },
+              {
+                "name": "achievement_points",
+                "value": "16675"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/turalyon/42/119874602-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Breadisfunny-turalyon"
+              },
+              {
+                "name": "guild",
+                "value": "the muffin shop"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 2918678,
+        "username": "Linaori-2918678",
+        "name": "Linaori",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 3,
+        "acting_alias": {
+          "alias": {
+            "name": "Felfur-shadow-council",
+            "avatar": "https://render.worldofwarcraft.com/us/character/shadow-council/214/172590294-avatar.jpg?alt=/wow/static/images/2d/avatar/22-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/shadow-council/felfur/",
+            "user_id": 2918678,
+            "id": 523243,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 790,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/shadow-council/felfur/"
+              },
+              {
+                "name": "realm",
+                "value": "Shadow Council"
+              },
+              {
+                "name": "achievement_points",
+                "value": "80"
+              },
+              {
+                "name": "level",
+                "value": "10"
+              },
+              {
+                "name": "race",
+                "value": "Worgen"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/shadow-council/214/172590294-avatar.jpg?alt=/wow/static/images/2d/avatar/22-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Felfur-shadow-council"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 1089298,
+        "username": "Jaspar-1089298",
+        "name": "Jaspar",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Toonie-caelestrasz",
+            "avatar": "https://render.worldofwarcraft.com/us/character/caelestrasz/144/162468752-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/caelestrasz/toonie/",
+            "user_id": 1089298,
+            "id": 528278,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 555,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/caelestrasz/toonie/"
+              },
+              {
+                "name": "realm",
+                "value": "Caelestrasz"
+              },
+              {
+                "name": "achievement_points",
+                "value": "19435"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Draenei"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/caelestrasz/144/162468752-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Toonie-caelestrasz"
+              },
+              {
+                "name": "guild",
+                "value": "Thorns of Gold"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 80228,
+        "username": "Buckcabbie-80228",
+        "name": "Buckcabbie",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Ittybits-caelestrasz",
+            "avatar": "https://render.worldofwarcraft.com/us/character/caelestrasz/22/165176342-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/caelestrasz/ittybits/",
+            "user_id": 80228,
+            "id": 32754,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 268,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/caelestrasz/ittybits/"
+              },
+              {
+                "name": "realm",
+                "value": "Caelestrasz"
+              },
+              {
+                "name": "achievement_points",
+                "value": "19670"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/caelestrasz/22/165176342-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Ittybits-caelestrasz"
+              },
+              {
+                "name": "guild",
+                "value": "Fallen Lords Of Tyrannus"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 2783247,
+        "username": "eightbit-2783247",
+        "name": "eightbit",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 3,
+        "acting_alias": {
+          "alias": {
+            "name": "Splints-the-venture-co",
+            "avatar": "https://render.worldofwarcraft.com/us/character/the-venture-co/228/199473380-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/the-venture-co/splints/",
+            "user_id": 2783247,
+            "id": 2233219,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 8915,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/the-venture-co/splints/"
+              },
+              {
+                "name": "realm",
+                "value": "The Venture Co"
+              },
+              {
+                "name": "achievement_points",
+                "value": "53060"
+              },
+              {
+                "name": "level",
+                "value": "67"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Monk"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MONK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/the-venture-co/228/199473380-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Splints-the-venture-co"
+              },
+              {
+                "name": "guild",
+                "value": "The Order of Tyranny"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 139665,
+        "username": "WHTJunior-139665",
+        "name": "WHTJunior",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Adomirak-terenas",
+            "avatar": "https://render.worldofwarcraft.com/us/character/terenas/81/166800721-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/terenas/adomirak/",
+            "user_id": 139665,
+            "id": 400862,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 5013,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/terenas/adomirak/"
+              },
+              {
+                "name": "realm",
+                "value": "Terenas"
+              },
+              {
+                "name": "achievement_points",
+                "value": "27670"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Undead"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/terenas/81/166800721-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Adomirak-terenas"
+              },
+              {
+                "name": "guild",
+                "value": "Chosen Few"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      }
+    ],
+    "created_by": {
+      "id": 80228,
+      "username": "Buckcabbie-80228",
+      "name": "Buckcabbie",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    },
+    "last_poster": {
+      "id": 23116,
+      "username": "TMac9000-23116",
+      "name": "TMac9000",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    }
+  },
+  "bookmarks": [],
+  "jogo": "World of Warcraft",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Oficial Blizzard",
+  "url_fonte": "https://us.forums.blizzard.com/en/wow/t/copilot-ai-programme/2056975",
+  "canonical_url": "https://us.forums.blizzard.com/en/wow/t/copilot-ai-programme/2056975"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "1vjr95a",
+  "title": "Claude Coding Or What",
+  "jogo": "World of Warcraft",
+  "fonte": "Reddit",
+  "seccao": "r/wow",
+  "url_fonte": "https://www.reddit.com/r/wow/comments/1vjr95a/claude_coding_or_what",
+  "canonical_url": "https://www.reddit.com/r/wow/comments/1vjr95a/claude_coding_or_what",
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1,
+        "username": "SystemofCells",
+        "cooked": "<p>This bug has been around for months, is only on the character select screen, and is finally getting fixed Tuesday.</p>",
+        "created_at": "2026-08-09T14:27:49Z",
+        "post_number": 1,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 18,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 2,
+        "username": "Crownek",
+        "cooked": "<p>Allright tyvm for enlightening me!</p>",
+        "created_at": "2026-08-09T14:28:22Z",
+        "post_number": 2,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 3,
+        "username": "NoDay4343",
+        "cooked": "<p>Good lord. Downvoted for politely saying ty. Reddit hive mind is crazy. </p>",
+        "created_at": "2026-08-09T15:03:12Z",
+        "post_number": 3,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 4,
+        "username": "Crownek",
+        "cooked": "<p>Idk what is going on really xD Idc either tho :P</p>",
+        "created_at": "2026-08-09T15:05:06Z",
+        "post_number": 4,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 0,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 5,
+        "username": "Forward_Thrust963",
+        "cooked": "<p>Gave my upvote to hopefully counteract the bots lol</p>",
+        "created_at": "2026-08-09T15:41:14Z",
+        "post_number": 5,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 7,
+        "username": "Crownek",
+        "cooked": "<p>Lmao what a time to be alive xD</p>",
+        "created_at": "2026-08-09T16:17:10Z",
+        "post_number": 7,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      }
+    ]
+  }
+}

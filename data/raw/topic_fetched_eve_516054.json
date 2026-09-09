@@ -1,0 +1,729 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 2910464,
+        "name": "Marq Aideron",
+        "username": "Marq_Aideron",
+        "avatar_template": "/user_avatar/forums.eveonline.com/marq_aideron/{size}/423243_2.png",
+        "created_at": "2026-08-07T22:16:53.413Z",
+        "cooked": "<p>I’ve had a vision in my head for well over a decade at this point but never have I been able to get far enough for it to matter until now.  So, with the rise of LLM’s and their usefulness in generating code (poopoo them all you want… they’re genuinely handy tools) I’ve been working with the likes of Claude, glm, deepseek, kimi, gpt and attempts at smaller qwen models locally to generate my vision of managing industry amongst friends.  The model is geared towards single boxers and getting many involved instead of managing your own industry lines amongst your army of alts.  So the target audience here is an actual corp that wants to take some actual risks and get fellow spai’s involved in their industry adventures.</p>\n<p>Back in the day we had the likes of LMeve which I drew inspiration from and there were a couple of others that were <em>ok</em> but did their one thing great.  No one seemed able to get to a comprehensive suite to help manage the life cycle.  Finding profitable items, investigating their volume, assigning to a corp mate, purchasing materials, tracking sales, dividing the loot.  These are the things we aim to provide with mop.  It’s not done yet but it has enough in it that I felt I’d see about interest.  The app is fully open source although I’m not really taking much feedback as I still have a slew of functionality planned.  It’s not graphically appealing, just a simple business app that gets the job done.</p>\n<p>It’s key features:<br>\n1: Calculates every possible blueprint in the sde (even unbuildable ones…) and publishes the results</p>\n<p>2: Filterable opportunity list</p>\n<p>3: Easy assignment with skill checked blocks to keep from assigning something to someone without the skills</p>\n<p>4: 2 Phase assignment so you can keep your builders at bay while you make final preparations</p>\n<p>5: Opportunities are narrowed by actually owned blueprints (except t2 which shows everything)… I may change this as it just bit me in the butt this month</p>\n<p>6: Estimated costs locked in after the task is finished (this will change to actual prices in a future milestone)</p>\n<p>7: Encrypted tokens at rest - we take token security very serious and only decrypt your tokens when we need to use them.</p>\n<p>8: Fully open source with k8s manifests for 2 environments (more deployment options coming soon)</p>\n<p>This is the core of what I’ve been trialing with my corp for the past 3 months.  I’ve gotten some generally good reviews of the slop and I’m fully open about the fact that I didn’t write this thing… r3r4um did… I just guided it.</p>\n<p>Cons:</p>\n<p>1: The deployment model is way way too enterprisey <img src=\"https://emoji.discourse-cdn.com/twitter/stuck_out_tongue.png?v=15\" title=\":stuck_out_tongue:\" class=\"emoji\" alt=\":stuck_out_tongue:\" loading=\"lazy\" width=\"20\" height=\"20\"> but I was putting the LLM’s to the test</p>\n<p>2: It’s got some sharp edges</p>\n<p>3: You’ll see <img src=\"https://emoji.discourse-cdn.com/twitter/smiley.png?v=15\" title=\":smiley:\" class=\"emoji\" alt=\":smiley:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n<p>I don’t have an instance up that I’m willing to share, maybe later… but you can check out the branch behind this pr: <a href=\"https://git.r3r4um.online/vapor-sea/mop/pulls/400\" class=\"inline-onebox\" rel=\"noopener nofollow ugc\">#400 - feat: add non-Kubernetes deployment support - mop - r3r4um</a> and try the systemd or docker methods therein… let me know how far you get as I haven’t had time to test it (hence it not being merged).</p>\n<p>I try to keep develop and master branches deployable and fairly bug free, other branches that spawn off are not guaranteed to work right but you’re welcome to investigate.  The apps generated site is here: <a href=\"https://mop.vapor-sea.space\" rel=\"noopener nofollow ugc\">https://mop.vapor-sea.space</a> enjoy… or not, no skin off my back <img src=\"https://emoji.discourse-cdn.com/twitter/smiley.png?v=15\" title=\":smiley:\" class=\"emoji\" alt=\":smiley:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 2,
+        "updated_at": "2026-08-07T22:16:53.413Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 10,
+        "reads": 30,
+        "readers_count": 29,
+        "score": 76.0,
+        "yours": false,
+        "topic_id": 516054,
+        "topic_slug": "mop-market-opportunity-planner-maor-ai-slop-d",
+        "display_username": "Marq Aideron",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://mop.vapor-sea.space",
+            "internal": false,
+            "reflection": false,
+            "title": "MOP — Market Opportunity Planner by Vapor Sea",
+            "clicks": 9
+          },
+          {
+            "url": "https://git.r3r4um.online/vapor-sea/mop/pulls/400",
+            "internal": false,
+            "reflection": false,
+            "title": "#400 - feat: add non-Kubernetes deployment support - mop - r3r4um",
+            "clicks": 1
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 48776,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/mop-market-opportunity-planner-maor-ai-slop-d/516054/1",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 2
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 2,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 2920647,
+        "name": "Marq Aideron",
+        "username": "Marq_Aideron",
+        "avatar_template": "/user_avatar/forums.eveonline.com/marq_aideron/{size}/423243_2.png",
+        "created_at": "2026-08-31T14:11:05.974Z",
+        "cooked": "<p>v2.4.1 is released.  This was a quick hotfix ontop of v2.4.0 which brought about sales tracking and profit distribution with a versioned policy manager.  I also included a way to build out ‘paychecks’ for your members using this data with backend validation once the money transfer actually happens.</p>\n<p>We’re currently rethinking the assignment workflow and priorities keep shifting as we use the app.  I believe the next step is rethinking the profit distribution to be a bit more fair in payouts.  Our first cycle of 2.4.1 turned out to pay people quite disproportionately as I had figured would happen but I didn’t think it would be this bad.  The next iteration will take all builder profits and put them in a pool then distribute equally amongst the builders.  Still a work in progress and maybe we keep it so that both paths are viable with a switch control in the policy builder.</p>\n<p>More to come as I find time and energy to put into it but at this stage its mostly feature complete for what we want/need.  As I play with the data and ask my AI questions I’ll slowly build out more features and admin functions for monitoring the state of the industry underneath.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 2,
+        "updated_at": "2026-08-31T14:11:05.974Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 516054,
+        "topic_slug": "mop-market-opportunity-planner-maor-ai-slop-d",
+        "display_username": "Marq Aideron",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 48776,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/mop-market-opportunity-planner-maor-ai-slop-d/516054/2",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ],
+    "stream": [
+      2910464,
+      2920647
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      33
+    ],
+    [
+      2,
+      9
+    ]
+  ],
+  "suggested_topics": [],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "MOP - Market Opportunity Planner - MAOR AI SLOP :D",
+  "id": 516054,
+  "title": "MOP - Market Opportunity Planner - MAOR AI SLOP :D",
+  "posts_count": 2,
+  "created_at": "2026-08-07T22:16:53.309Z",
+  "views": 98,
+  "reply_count": 0,
+  "like_count": 2,
+  "last_posted_at": "2026-08-31T14:11:05.974Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "mop-market-opportunity-planner-maor-ai-slop-d",
+  "category_id": 49,
+  "word_count": 816,
+  "deleted_at": null,
+  "user_id": 48776,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_516054",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 2,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": {
+    "id": 136509,
+    "execute_at": "2026-11-29T14:11:05.974Z",
+    "duration_minutes": 129600,
+    "based_on_last_post": true,
+    "status_type": "close",
+    "category_id": null
+  },
+  "message_bus_last_id": 0,
+  "participant_count": 1,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "tags_disable_ads": false,
+  "related_topics": [
+    {
+      "fancy_title": "[SERVICE] [TOOL] Industreaux - New Industry Build &amp; Profit planning and tracking",
+      "id": 504621,
+      "title": "[SERVICE] [TOOL] Industreaux - New Industry Build & Profit planning and tracking",
+      "slug": "service-tool-industreaux-new-industry-build-profit-planning-and-tracking",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2026-01-09T18:10:23.918Z",
+      "last_posted_at": "2026-02-26T14:37:43.614Z",
+      "bumped": true,
+      "bumped_at": "2026-02-26T14:37:43.614Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 3,
+      "views": 305,
+      "category_id": 61,
+      "featured_link": null,
+      "op_like_count": 2,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 221693,
+            "username": "Drack_en_Industreaux",
+            "name": "Drack en Industreaux",
+            "avatar_template": "/user_avatar/forums.eveonline.com/drack_en_industreaux/{size}/487374_2.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "https://global.discourse-cdn.com/eveonline/original/3X/4/1/41ec4921cbaca7a6f9ea556e7cc20018461eae5e.png",
+            "primary_group_name": "system",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 142302,
+            "username": "Jaddax",
+            "name": "Jaddax",
+            "avatar_template": "/user_avatar/forums.eveonline.com/jaddax/{size}/492148_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "JitaStocks platform for trade and industry",
+      "id": 501902,
+      "title": "JitaStocks platform for trade and industry",
+      "slug": "jitastocks-platform-for-trade-and-industry",
+      "posts_count": 4,
+      "reply_count": 0,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2025-11-28T08:55:59.697Z",
+      "last_posted_at": "2026-01-21T08:42:18.559Z",
+      "bumped": true,
+      "bumped_at": "2026-01-21T08:42:18.559Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 320,
+      "category_id": 76,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 162133,
+            "username": "Inmor_Froststone",
+            "name": "Inmor Froststone",
+            "avatar_template": "/user_avatar/forums.eveonline.com/inmor_froststone/{size}/481936_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "https://global.discourse-cdn.com/eveonline/original/3X/4/1/41ec4921cbaca7a6f9ea556e7cc20018461eae5e.png",
+            "primary_group_name": "system",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Eve Industry Planner - Industry Job Management Application - v0.8.0 - Resource Reprocessing",
+      "id": 347562,
+      "title": "Eve Industry Planner - Industry Job Management Application - v0.8.0 - Resource Reprocessing",
+      "slug": "eve-industry-planner-industry-job-management-application-v0-8-0-resource-reprocessing",
+      "posts_count": 31,
+      "reply_count": 12,
+      "highest_post_number": 33,
+      "image_url": null,
+      "created_at": "2022-01-28T03:18:11.817Z",
+      "last_posted_at": "2025-09-17T00:33:57.191Z",
+      "bumped": true,
+      "bumped_at": "2025-09-17T00:33:57.191Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 121,
+          "name": "industrial",
+          "slug": "industrial"
+        },
+        {
+          "id": 93,
+          "name": "tool",
+          "slug": "tool"
+        }
+      ],
+      "tags_descriptions": {},
+      "like_count": 5,
+      "views": 9453,
+      "category_id": 49,
+      "featured_link": null,
+      "op_like_count": 1,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 155789,
+            "username": "Oswold_Saraki",
+            "name": "Oswold Saraki",
+            "avatar_template": "/user_avatar/forums.eveonline.com/oswold_saraki/{size}/406518_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 141822,
+            "username": "Galac_Sticott",
+            "name": "Galac Sticott",
+            "avatar_template": "/user_avatar/forums.eveonline.com/galac_sticott/{size}/418116_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 167996,
+            "username": "Eduardo_Severasse",
+            "name": "Eduardo Severasse",
+            "avatar_template": "/user_avatar/forums.eveonline.com/eduardo_severasse/{size}/328730_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Recent Poster",
+          "user": {
+            "id": 159252,
+            "username": "ISD_Traindriver",
+            "name": "ISD Traindriver",
+            "avatar_template": "/user_avatar/forums.eveonline.com/isd_traindriver/{size}/373313_2.png",
+            "flair_name": "ISD",
+            "flair_group_id": 43,
+            "primary_group_name": "ISD",
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": null,
+          "description": "Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "https://global.discourse-cdn.com/eveonline/original/3X/4/1/41ec4921cbaca7a6f9ea556e7cc20018461eae5e.png",
+            "primary_group_name": "system",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "LazyBlacksmith [khon.space] - A tool for lazy industrialists",
+      "id": 41482,
+      "title": "LazyBlacksmith [khon.space] - A tool for lazy industrialists",
+      "slug": "lazyblacksmith-khon-space-a-tool-for-lazy-industrialists",
+      "posts_count": 4,
+      "reply_count": 1,
+      "highest_post_number": 4,
+      "image_url": "https://global.discourse-cdn.com/eveonline/original/3X/f/8/f89e59cd6e8eeeb13e046d8973b23276ca8c1906.png",
+      "created_at": "2017-11-24T14:47:52.165Z",
+      "last_posted_at": "2018-01-27T02:38:54.038Z",
+      "bumped": true,
+      "bumped_at": "2018-01-27T02:38:54.038Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 90,
+          "name": "esi",
+          "slug": "esi"
+        },
+        {
+          "id": 121,
+          "name": "industrial",
+          "slug": "industrial"
+        },
+        {
+          "id": 93,
+          "name": "tool",
+          "slug": "tool"
+        }
+      ],
+      "tags_descriptions": {},
+      "like_count": 4,
+      "views": 2165,
+      "category_id": 76,
+      "featured_link": null,
+      "op_like_count": 4,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 113,
+            "username": "Althalus_Stenory",
+            "name": "Althalus Stenory",
+            "avatar_template": "/user_avatar/forums.eveonline.com/althalus_stenory/{size}/429792_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 19882,
+            "username": "Garruk_Brinalle",
+            "name": "Garruk Brinalle",
+            "avatar_template": "/user_avatar/forums.eveonline.com/garruk_brinalle/{size}/170084_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "https://global.discourse-cdn.com/eveonline/original/3X/4/1/41ec4921cbaca7a6f9ea556e7cc20018461eae5e.png",
+            "primary_group_name": "system",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": null,
+          "description": "Recent Poster",
+          "user": {
+            "id": 33942,
+            "username": "Doctor_Aeva",
+            "name": "Doctor Aeva",
+            "avatar_template": "/user_avatar/forums.eveonline.com/doctor_aeva/{size}/51272_2.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "EVE Retroindustry - a free industry tool that runs on your own machine",
+      "id": 517016,
+      "title": "EVE Retroindustry - a free industry tool that runs on your own machine",
+      "slug": "eve-retroindustry-a-free-industry-tool-that-runs-on-your-own-machine",
+      "posts_count": 3,
+      "reply_count": 1,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2026-08-24T20:20:56.055Z",
+      "last_posted_at": "2026-08-26T13:37:24.038Z",
+      "bumped": true,
+      "bumped_at": "2026-08-26T13:37:24.038Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 90,
+          "name": "esi",
+          "slug": "esi"
+        },
+        {
+          "id": 182,
+          "name": "industry",
+          "slug": "industry"
+        },
+        {
+          "id": 93,
+          "name": "tool",
+          "slug": "tool"
+        }
+      ],
+      "tags_descriptions": {},
+      "like_count": 3,
+      "views": 127,
+      "category_id": 76,
+      "featured_link": null,
+      "op_like_count": 3,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 229399,
+            "username": "Retrovisor",
+            "name": "Retrovisor",
+            "avatar_template": "/user_avatar/forums.eveonline.com/retrovisor/{size}/508825_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Recent Poster",
+          "user": {
+            "id": 188195,
+            "username": "Nishino_Beermaiden",
+            "name": "Nishino Beermaiden",
+            "avatar_template": "/user_avatar/forums.eveonline.com/nishino_beermaiden/{size}/481093_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "has_cached_summary": false,
+  "valid_reactions": [
+    "heart",
+    "+1",
+    "laughing",
+    "open_mouth",
+    "clap",
+    "confetti_ball",
+    "hugs"
+  ],
+  "has_accepted_answer": false,
+  "can_create_shared_issue": false,
+  "shared_issue_visible": false,
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 48776,
+        "username": "Marq_Aideron",
+        "name": "Marq Aideron",
+        "avatar_template": "/user_avatar/forums.eveonline.com/marq_aideron/{size}/423243_2.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      }
+    ],
+    "created_by": {
+      "id": 48776,
+      "username": "Marq_Aideron",
+      "name": "Marq Aideron",
+      "avatar_template": "/user_avatar/forums.eveonline.com/marq_aideron/{size}/423243_2.png"
+    },
+    "last_poster": {
+      "id": 48776,
+      "username": "Marq_Aideron",
+      "name": "Marq Aideron",
+      "avatar_template": "/user_avatar/forums.eveonline.com/marq_aideron/{size}/423243_2.png"
+    },
+    "links": [
+      {
+        "url": "https://mop.vapor-sea.space",
+        "title": "MOP — Market Opportunity Planner by Vapor Sea",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 9,
+        "user_id": 48776,
+        "domain": "mop.vapor-sea.space",
+        "root_domain": "vapor-sea.space"
+      },
+      {
+        "url": "https://git.r3r4um.online/vapor-sea/mop/pulls/400",
+        "title": "#400 - feat: add non-Kubernetes deployment support - mop - r3r4um",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 48776,
+        "domain": "git.r3r4um.online",
+        "root_domain": "r3r4um.online"
+      }
+    ]
+  },
+  "bookmarks": [],
+  "jogo": "EVE Online",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Oficial EVE",
+  "url_fonte": "https://forums.eveonline.com/t/mop-market-opportunity-planner-maor-ai-slop-d/516054",
+  "canonical_url": "https://forums.eveonline.com/t/mop-market-opportunity-planner-maor-ai-slop-d/516054"
+}

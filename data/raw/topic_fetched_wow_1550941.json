@@ -1,0 +1,1453 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 20169451,
+        "name": "Deadbeattdad",
+        "username": "Deadbeattdad-2202011",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-03-22T15:57:13.419Z",
+        "cooked": "<p>I asked it to write a story:</p>\n<p>Write a scary story about a sadistic spider monkey that flies around the planet on a magic pet banana with blood stained satanic symbols engraved on its peel looking to eat freshly buried human corpses in the hopes of becoming an undead human / monkey hybrid.</p>\n<p>ChatGPT kept telling me it won’t write inappropriate stories. Is there any  A.I. service out there for adults who don’t want the restrictions?</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 7,
+        "updated_at": "2026-06-27T13:16:00.450Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 372,
+        "reads": 46,
+        "readers_count": 45,
+        "score": 1869.2,
+        "yours": false,
+        "topic_id": 1550941,
+        "topic_slug": "why-wont-chatgpt-write-my-story",
+        "display_username": "Deadbeattdad",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 3,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2202011,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": null,
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/bedroombuddy/",
+          "class": "Priest",
+          "player_class_enum": "PRIEST",
+          "level": "70",
+          "race": "Orc",
+          "achievement_points": "10865",
+          "blizzard_post_count": "1261"
+        },
+        "post_url": "/t/why-wont-chatgpt-write-my-story/1550941/1",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/bleeding-hollow/227/251454179-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+        "alias_username": "Faildrugtest",
+        "poster_alias": {
+          "alias": {
+            "name": "Faildrugtest",
+            "avatar": "https://render.worldofwarcraft.com/us/character/bleeding-hollow/227/251454179-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/bleeding-hollow/faildrugtest/",
+            "user_id": 2202011,
+            "id": 2495070,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 392,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/bleeding-hollow/faildrugtest/"
+              },
+              {
+                "name": "realm",
+                "value": "Bleeding Hollow"
+              },
+              {
+                "name": "achievement_points",
+                "value": "9885"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Priest"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PRIEST"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 1261,
+        "character": {
+          "name": "Deadbeattdad",
+          "guild": null,
+          "achievement_points": "10865",
+          "level": "70",
+          "class": "Priest",
+          "race": "Orc",
+          "player_class_enum": "PRIEST",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 20169476,
+        "name": "plutosaurus",
+        "username": "plutosaurus-453540",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-03-22T15:59:56.351Z",
+        "cooked": "<p>Nice try AI</p>\n<p>Maybe you should create a TaskRabbit to get a human to do it for you</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 7,
+        "updated_at": "2026-06-12T09:18:03.241Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 42,
+        "readers_count": 41,
+        "score": 13.4,
+        "yours": false,
+        "topic_id": 1550941,
+        "topic_slug": "why-wont-chatgpt-write-my-story",
+        "display_username": "plutosaurus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 453540,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/feathermoon/salhezra/",
+          "race": "Void Elf",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "guild": "Delusions of Adequacy",
+          "level": "70",
+          "achievement_points": "16930",
+          "blizzard_post_count": "3291"
+        },
+        "post_url": "/t/why-wont-chatgpt-write-my-story/1550941/2",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/feathermoon/231/76060135-avatar.jpg?alt=/wow/static/images/2d/avatar/22-0.jpg",
+        "alias_username": "Salhezar",
+        "poster_alias": {
+          "alias": {
+            "name": "Salhezar",
+            "avatar": "https://render.worldofwarcraft.com/us/character/feathermoon/231/76060135-avatar.jpg?alt=/wow/static/images/2d/avatar/22-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/feathermoon/salhezar/",
+            "user_id": 453540,
+            "id": 2329874,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 2477,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/feathermoon/salhezar/"
+              },
+              {
+                "name": "realm",
+                "value": "Feathermoon"
+              },
+              {
+                "name": "achievement_points",
+                "value": "14425"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Worgen"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              },
+              {
+                "name": "guild",
+                "value": "The Fel Watch"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 3291,
+        "character": {
+          "name": "plutosaurus",
+          "guild": "Delusions of Adequacy",
+          "achievement_points": "16930",
+          "level": "70",
+          "class": "Warlock",
+          "race": "Void Elf",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20169575,
+        "name": "Deadbeattdad",
+        "username": "Deadbeattdad-2202011",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-03-22T16:09:21.320Z",
+        "cooked": "<p>Eventually we will get those unrestricted A.I. services.</p>\n<p>There’s no reason to restrict my story. It’s not political. It’s not really violent. It’s not sexual. Sure, it’s disgusting… but is that grounds for such a severe restriction?</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 7,
+        "updated_at": "2026-06-27T13:16:00.630Z",
+        "reply_count": 0,
+        "reply_to_post_number": 2,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 38,
+        "readers_count": 37,
+        "score": 12.6,
+        "yours": false,
+        "topic_id": 1550941,
+        "topic_slug": "why-wont-chatgpt-write-my-story",
+        "display_username": "Deadbeattdad",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 453540,
+          "username": "plutosaurus-453540",
+          "name": "plutosaurus",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2202011,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": null,
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/bedroombuddy/",
+          "class": "Priest",
+          "player_class_enum": "PRIEST",
+          "level": "70",
+          "race": "Orc",
+          "achievement_points": "10865",
+          "blizzard_post_count": "1261"
+        },
+        "post_url": "/t/why-wont-chatgpt-write-my-story/1550941/3",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/bleeding-hollow/227/251454179-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+        "alias_username": "Faildrugtest",
+        "poster_alias": {
+          "alias": {
+            "name": "Faildrugtest",
+            "avatar": "https://render.worldofwarcraft.com/us/character/bleeding-hollow/227/251454179-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/bleeding-hollow/faildrugtest/",
+            "user_id": 2202011,
+            "id": 2495070,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 392,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/bleeding-hollow/faildrugtest/"
+              },
+              {
+                "name": "realm",
+                "value": "Bleeding Hollow"
+              },
+              {
+                "name": "achievement_points",
+                "value": "9885"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Priest"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PRIEST"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2329874,
+          "username": "Salhezar",
+          "name": "Salhezar",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/feathermoon/231/76060135-avatar.jpg?alt=/wow/static/images/2d/avatar/22-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 1261,
+        "character": {
+          "name": "Deadbeattdad",
+          "guild": null,
+          "achievement_points": "10865",
+          "level": "70",
+          "class": "Priest",
+          "race": "Orc",
+          "player_class_enum": "PRIEST",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20189447,
+        "name": null,
+        "username": "anon52141385",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-03-24T11:48:47.685Z",
+        "cooked": "<p>I think you’re misinterpreting the AI.</p>\n<p>I think it realized it couldn’t improve on perfection, but because a substantial chunk of its algorithm is based on websites and social media, it didn’t have the means to humble itself gracefully before your literary genius.</p>\n<p>So, it did the next logical thing (according to its algorithm) and it tried to “flag” you.</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 7,
+        "updated_at": "2023-03-24T11:48:47.685Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 4,
+        "reads": 34,
+        "readers_count": 33,
+        "score": 46.8,
+        "yours": false,
+        "topic_id": 1550941,
+        "topic_slug": "why-wont-chatgpt-write-my-story",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 342021,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "blizzard_post_count": "331"
+        },
+        "post_url": "/t/why-wont-chatgpt-write-my-story/1550941/4",
+        "alias_avatar": null,
+        "alias_username": null,
+        "poster_alias": null,
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 331,
+        "character": {
+          "name": "anon52141385",
+          "guild": null,
+          "achievement_points": null,
+          "level": null,
+          "class": null,
+          "race": null,
+          "player_class_enum": null,
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20195195,
+        "name": "Deadbeattdad",
+        "username": "Deadbeattdad-2202011",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-03-24T21:45:47.525Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"anon52141385\" data-post=\"4\" data-topic=\"1550941\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png\" class=\"avatar\"> anon52141385:</div>\n<blockquote>\n<p>it didn’t have the means to humble itself gracefully before your literary genius.</p>\n</blockquote>\n</aside>\n<p>So everything written must be of genius quality? I can’t create things I find strange and entertaining?</p>\n<p>And even though I said “story,” this was meant to be a short animation. Right now, A.I. doesn’t create animations so I had to settle on a basic story.</p>\n<p>The story idea came from one of my other ideas about a gang of mutated bananas getting revenge on a struggling immigrant father who yanked a batch of young bananas from a tree to feed his family.</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "posts_count": 7,
+        "updated_at": "2026-06-27T13:16:00.728Z",
+        "reply_count": 0,
+        "reply_to_post_number": 4,
+        "quote_count": 1,
+        "incoming_link_count": 1,
+        "reads": 21,
+        "readers_count": 20,
+        "score": 9.2,
+        "yours": false,
+        "topic_id": 1550941,
+        "topic_slug": "why-wont-chatgpt-write-my-story",
+        "display_username": "Deadbeattdad",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2202011,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": null,
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/bedroombuddy/",
+          "class": "Priest",
+          "player_class_enum": "PRIEST",
+          "level": "70",
+          "race": "Orc",
+          "achievement_points": "10865",
+          "blizzard_post_count": "1261"
+        },
+        "post_url": "/t/why-wont-chatgpt-write-my-story/1550941/6",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/bleeding-hollow/227/251454179-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+        "alias_username": "Faildrugtest",
+        "poster_alias": {
+          "alias": {
+            "name": "Faildrugtest",
+            "avatar": "https://render.worldofwarcraft.com/us/character/bleeding-hollow/227/251454179-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/bleeding-hollow/faildrugtest/",
+            "user_id": 2202011,
+            "id": 2495070,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 392,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/bleeding-hollow/faildrugtest/"
+              },
+              {
+                "name": "realm",
+                "value": "Bleeding Hollow"
+              },
+              {
+                "name": "achievement_points",
+                "value": "9885"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Priest"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PRIEST"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 1261,
+        "character": {
+          "name": "Deadbeattdad",
+          "guild": null,
+          "achievement_points": "10865",
+          "level": "70",
+          "class": "Priest",
+          "race": "Orc",
+          "player_class_enum": "PRIEST",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20340614,
+        "name": "Baridorielor",
+        "username": "Baridorielor-22024",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-04-10T19:50:35.372Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Faildrugtest-bleeding-hollow\" data-post=\"1\" data-topic=\"1550941\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/bleeding-hollow/227/251454179-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg\" class=\"avatar\"> Faildrugtest:</div>\n<blockquote>\n<p>blood stained satanic symbols</p>\n</blockquote>\n</aside>\n<aside class=\"quote no-group\" data-username=\"Faildrugtest-bleeding-hollow\" data-post=\"1\" data-topic=\"1550941\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/bleeding-hollow/227/251454179-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg\" class=\"avatar\"> Faildrugtest:</div>\n<blockquote>\n<p>ChatGPT kept telling me it won’t write inappropriate stories.</p>\n</blockquote>\n</aside>\n<p>Maybe the AI is Christian.</p>\n<p>16 day Necro. <img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/skull.png?v=12\" title=\":skull:\" class=\"emoji\" alt=\":skull:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+        "post_number": 7,
+        "post_type": 1,
+        "posts_count": 7,
+        "updated_at": "2023-04-10T19:54:24.679Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 1,
+        "incoming_link_count": 2,
+        "reads": 15,
+        "readers_count": 14,
+        "score": 13.0,
+        "yours": false,
+        "topic_id": 1550941,
+        "topic_slug": "why-wont-chatgpt-write-my-story",
+        "display_username": "Baridorielor",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 22024,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "shadow clan",
+          "race": "Night Elf",
+          "class": "Rogue",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/malfurion/baridorielor/",
+          "player_class_enum": "ROGUE",
+          "classic": "t",
+          "level": "80",
+          "achievement_points": "23070",
+          "blizzard_post_count": "21862"
+        },
+        "post_url": "/t/why-wont-chatgpt-write-my-story/1550941/7",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/malfurion/244/154851316-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
+        "alias_username": "Baridorielor-malfurion",
+        "poster_alias": {
+          "alias": {
+            "name": "Baridorielor-malfurion",
+            "avatar": "https://render.worldofwarcraft.com/us/character/malfurion/244/154851316-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/malfurion/baridorielor/",
+            "user_id": 22024,
+            "id": 402772,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 27953,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/malfurion/baridorielor/"
+              },
+              {
+                "name": "realm",
+                "value": "Malfurion"
+              },
+              {
+                "name": "achievement_points",
+                "value": "23275"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/malfurion/244/154851316-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Baridorielor-malfurion"
+              },
+              {
+                "name": "guild",
+                "value": "shadow clan"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 21862,
+        "character": {
+          "name": "Baridorielor",
+          "guild": "shadow clan",
+          "achievement_points": "23070",
+          "level": "80",
+          "class": "Rogue",
+          "race": "Night Elf",
+          "player_class_enum": "ROGUE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 20342514,
+        "name": "Vyolation",
+        "username": "Vyolation-140031",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-04-10T23:23:31.107Z",
+        "cooked": "<p>I read about this other GPT named FreedomGPT, that’s supposed to be uncensored but still being ethical. I haven’t tried it. You can give that one a shot.</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "posts_count": 7,
+        "updated_at": "2023-04-10T23:23:31.107Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 12,
+        "readers_count": 11,
+        "score": 12.4,
+        "yours": false,
+        "topic_id": 1550941,
+        "topic_slug": "why-wont-chatgpt-write-my-story",
+        "display_username": "Vyolation",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 140031,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Snakes and Arrows",
+          "race": "Blood Elf",
+          "class": "Monk",
+          "player_class_enum": "MONK",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/moon-guard/xelphina/",
+          "classic": "t",
+          "level": "50",
+          "blizzard_post_count": "907",
+          "achievement_points": "18065"
+        },
+        "post_url": "/t/why-wont-chatgpt-write-my-story/1550941/8",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/moon-guard/79/115516239-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+        "alias_username": "Xelphina-moon-guard",
+        "poster_alias": {
+          "alias": {
+            "name": "Xelphina-moon-guard",
+            "avatar": "https://render.worldofwarcraft.com/us/character/moon-guard/79/115516239-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/moon-guard/xelphina/",
+            "user_id": 140031,
+            "id": 517725,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 907,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/moon-guard/xelphina/"
+              },
+              {
+                "name": "realm",
+                "value": "Moon Guard"
+              },
+              {
+                "name": "achievement_points",
+                "value": "18065"
+              },
+              {
+                "name": "level",
+                "value": "50"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Monk"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MONK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "guild",
+                "value": "Snakes and Arrows"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 907,
+        "character": {
+          "name": "Vyolation",
+          "guild": "Snakes and Arrows",
+          "achievement_points": "18065",
+          "level": "50",
+          "class": "Monk",
+          "race": "Blood Elf",
+          "player_class_enum": "MONK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ],
+    "stream": [
+      20169451,
+      20169476,
+      20169575,
+      20189447,
+      20195195,
+      20340614,
+      20342514
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      1267
+    ],
+    [
+      4,
+      1265
+    ],
+    [
+      6,
+      1248
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "fancy_title": "Riot pulling the plug on 2XKO",
+      "id": 2339322,
+      "title": "Riot pulling the plug on 2XKO",
+      "slug": "riot-pulling-the-plug-on-2xko",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2026-08-20T21:41:31.724Z",
+      "last_posted_at": "2026-08-21T04:37:59.282Z",
+      "bumped": true,
+      "bumped_at": "2026-08-21T04:37:59.282Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "- Active development will end in December. \n\nThe final content patch goes live in October.\nServers stay online.\nIn-game purchases made before August 20 will be refunded.\n\nreally sucks cuz i was hoping they add more chara&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 50,
+      "category_id": 51,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 15839,
+            "username": "DarkZeroUnit-15839",
+            "name": "DarkZeroUnit",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2835686,
+            "username": "NerdlyKnight-2835686",
+            "name": "NerdlyKnight",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Haven&rsquo;t used my Quest VR in 6 months",
+      "id": 2340047,
+      "title": "Haven't used my Quest VR in 6 months",
+      "slug": "havent-used-my-quest-vr-in-6-months",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2026-08-22T20:58:09.661Z",
+      "last_posted_at": "2026-08-27T13:31:55.290Z",
+      "bumped": true,
+      "bumped_at": "2026-08-27T13:31:55.290Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Do you guys think there is still a charge on it? \nAlso I am afraid of any major changes for any GUI updates. \nAny new cool programs on it?   I usually just used it to enter channels for debates and watch 3D movies.",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 38,
+      "category_id": 51,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3046195,
+            "username": "sdsd-3046195",
+            "name": "sdsd",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 15754,
+            "username": "Lethal-15754",
+            "name": "Lethal",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 15839,
+            "username": "DarkZeroUnit-15839",
+            "name": "DarkZeroUnit",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Pax Autocratica is the future of Starcraft",
+      "id": 2340151,
+      "title": "Pax Autocratica is the future of Starcraft",
+      "slug": "pax-autocratica-is-the-future-of-starcraft",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2026-08-23T04:31:03.237Z",
+      "last_posted_at": "2026-08-23T04:31:03.339Z",
+      "bumped": true,
+      "bumped_at": "2026-08-23T04:31:03.339Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "So.. last 4 days, ive played 45 hours of Pax Autocratica… (IT IS THAT GOOD)….. \nYET, i cannot stop shaking this feeling that, it should be an Starcraft game.. \nThats the direction blizzard should be taking Starcraft in.. &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 24,
+      "category_id": 51,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 2343117,
+            "username": "Hector-2343117",
+            "name": "Hector",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Mortal Shell 2",
+      "id": 2339666,
+      "title": "Mortal Shell 2",
+      "slug": "mortal-shell-2",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2026-08-21T17:43:23.602Z",
+      "last_posted_at": "2026-08-21T17:43:23.690Z",
+      "bumped": true,
+      "bumped_at": "2026-08-21T17:43:23.690Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "In between WoW runs I have been playing Mortal Shell 2 on my PS5. Really cool looking game, like a fever dream on some kind of psychedelic. Different enough from Dark Souls or Elden Ring to stand out, but not too much.",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 22,
+      "category_id": 51,
+      "featured_link": null,
+      "op_like_count": 1,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 201580,
+            "username": "Eurynomos-201580",
+            "name": "Eurynomos",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "The dnd wow bundles",
+      "id": 2341091,
+      "title": "The dnd wow bundles",
+      "slug": "the-dnd-wow-bundles",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2026-08-25T21:10:17.282Z",
+      "last_posted_at": "2026-08-26T22:13:51.122Z",
+      "bumped": true,
+      "bumped_at": "2026-08-26T22:13:51.122Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "i’m contemplating getting the new dnd wow set, but would like to know which bundle includes Everything being offered.  is it D&amp;D: World of Warcraft Collector’s Edition Ultimate Bundle? or would i have to buy multiple bun&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 49,
+      "category_id": 51,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3122138,
+            "username": "ahtizMatr0n-3122138",
+            "name": "ahtizMatr0n",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 2835686,
+            "username": "NerdlyKnight-2835686",
+            "name": "NerdlyKnight",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    }
+  ],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "Why won&rsquo;t chatGPT write my story?",
+  "id": 1550941,
+  "title": "Why won't chatGPT write my story?",
+  "posts_count": 7,
+  "created_at": "2023-03-22T15:57:13.331Z",
+  "views": 783,
+  "reply_count": 2,
+  "like_count": 1,
+  "last_posted_at": "2023-04-10T23:23:31.107Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "why-wont-chatgpt-write-my-story",
+  "category_id": 51,
+  "word_count": 380,
+  "deleted_at": null,
+  "user_id": 2202011,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_1550941",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 8,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 1001,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1002,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1003,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1004,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1005,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 2,
+  "participant_count": 2,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 22024,
+        "username": "Baridorielor-22024",
+        "name": "Baridorielor",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Baridorielor-malfurion",
+            "avatar": "https://render.worldofwarcraft.com/us/character/malfurion/244/154851316-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/malfurion/baridorielor/",
+            "user_id": 22024,
+            "id": 402772,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 27953,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/malfurion/baridorielor/"
+              },
+              {
+                "name": "realm",
+                "value": "Malfurion"
+              },
+              {
+                "name": "achievement_points",
+                "value": "23275"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/malfurion/244/154851316-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Baridorielor-malfurion"
+              },
+              {
+                "name": "guild",
+                "value": "shadow clan"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 140031,
+        "username": "Vyolation-140031",
+        "name": "Vyolation",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Xelphina-moon-guard",
+            "avatar": "https://render.worldofwarcraft.com/us/character/moon-guard/79/115516239-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/moon-guard/xelphina/",
+            "user_id": 140031,
+            "id": 517725,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 907,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/moon-guard/xelphina/"
+              },
+              {
+                "name": "realm",
+                "value": "Moon Guard"
+              },
+              {
+                "name": "achievement_points",
+                "value": "18065"
+              },
+              {
+                "name": "level",
+                "value": "50"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Monk"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MONK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "guild",
+                "value": "Snakes and Arrows"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      }
+    ],
+    "created_by": {
+      "id": 2202011,
+      "username": "Deadbeattdad-2202011",
+      "name": "Deadbeattdad",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    },
+    "last_poster": {
+      "id": 140031,
+      "username": "Vyolation-140031",
+      "name": "Vyolation",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    }
+  },
+  "bookmarks": [],
+  "jogo": "World of Warcraft",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Oficial Blizzard",
+  "url_fonte": "https://us.forums.blizzard.com/en/wow/t/why-wont-chatgpt-write-my-story/1550941",
+  "canonical_url": "https://us.forums.blizzard.com/en/wow/t/why-wont-chatgpt-write-my-story/1550941"
+}

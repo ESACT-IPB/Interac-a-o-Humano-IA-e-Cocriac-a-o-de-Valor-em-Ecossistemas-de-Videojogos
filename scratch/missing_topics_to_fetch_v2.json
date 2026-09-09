@@ -1,0 +1,929 @@
+[
+  {
+    "canonical_url": "https://forums.eveonline.com/tag/tool/93",
+    "domain": "forums.eveonline.com",
+    "platform": "Discourse",
+    "game": "EVE Online",
+    "community": "F\u00f3rum Oficial EVE",
+    "topic_id": null,
+    "slug": ""
+  },
+  {
+    "canonical_url": "https://steamcommunity.com/app/8500/discussions/0/2962768085008797349",
+    "domain": "steamcommunity.com",
+    "platform": "Steam Community",
+    "game": "EVE Online",
+    "community": "Steam Discussions (EVE)",
+    "topic_id": "2962768085008797349",
+    "slug": ""
+  },
+  {
+    "canonical_url": "https://steamcommunity.com/app/8500/discussions/0/350542683192730957",
+    "domain": "steamcommunity.com",
+    "platform": "Steam Community",
+    "game": "EVE Online",
+    "community": "Steam Discussions (EVE)",
+    "topic_id": "350542683192730957",
+    "slug": ""
+  },
+  {
+    "canonical_url": "https://steamcommunity.com/app/8500/discussions/0/616188473188386662",
+    "domain": "steamcommunity.com",
+    "platform": "Steam Community",
+    "game": "EVE Online",
+    "community": "Steam Discussions (EVE)",
+    "topic_id": "616188473188386662",
+    "slug": ""
+  },
+  {
+    "canonical_url": "https://steamcommunity.com/app/8500/discussions/0/6717729343881667899",
+    "domain": "steamcommunity.com",
+    "platform": "Steam Community",
+    "game": "EVE Online",
+    "community": "Steam Discussions (EVE)",
+    "topic_id": "6717729343881667899",
+    "slug": ""
+  },
+  {
+    "canonical_url": "https://steamcommunity.com/app/8500/discussions/0/764058062403177759",
+    "domain": "steamcommunity.com",
+    "platform": "Steam Community",
+    "game": "EVE Online",
+    "community": "Steam Discussions (EVE)",
+    "topic_id": "764058062403177759",
+    "slug": ""
+  },
+  {
+    "canonical_url": "https://steamcommunity.com/app/8500/discussions/0/764058062403225972",
+    "domain": "steamcommunity.com",
+    "platform": "Steam Community",
+    "game": "EVE Online",
+    "community": "Steam Discussions (EVE)",
+    "topic_id": "764058062403225972",
+    "slug": ""
+  },
+  {
+    "canonical_url": "https://www.mmo-champion.com/threads/2630723-Midnight-12-X-Patches-amp-World-Soul-Saga-Speculation-Thread/page6873",
+    "domain": "www.mmo-champion.com",
+    "platform": "vBulletin",
+    "game": "World of Warcraft",
+    "community": "MMO-Champion",
+    "topic_id": "2630723",
+    "slug": "Midnight-12-X-Patches-amp-World-Soul-Saga-Speculation-Thread"
+  },
+  {
+    "canonical_url": "https://www.mmo-champion.com/threads/2630723-Midnight-12-X-Patches-amp-World-Soul-Saga-Speculation-Thread/page7623",
+    "domain": "www.mmo-champion.com",
+    "platform": "vBulletin",
+    "game": "World of Warcraft",
+    "community": "MMO-Champion",
+    "topic_id": "2630723",
+    "slug": "Midnight-12-X-Patches-amp-World-Soul-Saga-Speculation-Thread"
+  },
+  {
+    "canonical_url": "https://www.mmo-champion.com/threads/2630723-Midnight-12-X-Patches-amp-World-Soul-Saga-Speculation-Thread/page7668",
+    "domain": "www.mmo-champion.com",
+    "platform": "vBulletin",
+    "game": "World of Warcraft",
+    "community": "MMO-Champion",
+    "topic_id": "2630723",
+    "slug": "Midnight-12-X-Patches-amp-World-Soul-Saga-Speculation-Thread"
+  },
+  {
+    "canonical_url": "https://www.mmo-champion.com/threads/2659818-Bard-Class-Concept-2025",
+    "domain": "www.mmo-champion.com",
+    "platform": "vBulletin",
+    "game": "World of Warcraft",
+    "community": "MMO-Champion",
+    "topic_id": "2659818",
+    "slug": "Bard-Class-Concept-2025"
+  },
+  {
+    "canonical_url": "https://www.mmo-champion.com/threads/2661838-Forum-bots-and-AI",
+    "domain": "www.mmo-champion.com",
+    "platform": "vBulletin",
+    "game": "World of Warcraft",
+    "community": "MMO-Champion",
+    "topic_id": "2661838",
+    "slug": "Forum-bots-and-AI"
+  },
+  {
+    "canonical_url": "https://www.mmo-champion.com/threads/2662026-What-should-I-look-for-in-a-GPU",
+    "domain": "www.mmo-champion.com",
+    "platform": "vBulletin",
+    "game": "World of Warcraft",
+    "community": "MMO-Champion",
+    "topic_id": "2662026",
+    "slug": "What-should-I-look-for-in-a-GPU"
+  },
+  {
+    "canonical_url": "https://www.mmo-champion.com/threads/2664846-Spoilers-Midnight-Beta-Lore-Tidbits/page4",
+    "domain": "www.mmo-champion.com",
+    "platform": "vBulletin",
+    "game": "World of Warcraft",
+    "community": "MMO-Champion",
+    "topic_id": "2664846",
+    "slug": "Spoilers-Midnight-Beta-Lore-Tidbits"
+  },
+  {
+    "canonical_url": "https://www.mmo-champion.com/threads/2666609-Addon-that-reliably-shows-spec-icon-on-enemy-nameplates",
+    "domain": "www.mmo-champion.com",
+    "platform": "vBulletin",
+    "game": "World of Warcraft",
+    "community": "MMO-Champion",
+    "topic_id": "2666609",
+    "slug": "Addon-that-reliably-shows-spec-icon-on-enemy-nameplates"
+  },
+  {
+    "canonical_url": "https://www.mmo-champion.com/threads/2668812-WoW-Camelot-Leaks",
+    "domain": "www.mmo-champion.com",
+    "platform": "vBulletin",
+    "game": "World of Warcraft",
+    "community": "MMO-Champion",
+    "topic_id": "2668812",
+    "slug": "WoW-Camelot-Leaks"
+  },
+  {
+    "canonical_url": "https://www.mmo-champion.com/threads/2668856-Theory-Project-Camelot-will-introduce-the-next-Warcraft-Saga-before-Worldsoul-s-End",
+    "domain": "www.mmo-champion.com",
+    "platform": "vBulletin",
+    "game": "World of Warcraft",
+    "community": "MMO-Champion",
+    "topic_id": "2668856",
+    "slug": "Theory-Project-Camelot-will-introduce-the-next-Warcraft-Saga-before-Worldsoul-s-End"
+  },
+  {
+    "canonical_url": "https://www.mmo-champion.com/threads/2668907-Blizzard-Responds-to-Reports-of-Game-Master-Intervention-in-Mythic-Key/page3",
+    "domain": "www.mmo-champion.com",
+    "platform": "vBulletin",
+    "game": "World of Warcraft",
+    "community": "MMO-Champion",
+    "topic_id": "2668907",
+    "slug": "Blizzard-Responds-to-Reports-of-Game-Master-Intervention-in-Mythic-Key"
+  },
+  {
+    "canonical_url": "https://www.mmo-champion.com/threads/2668942-Spoilers!-Unexpected-leak-NOT-related-to-patch-or-expansion",
+    "domain": "www.mmo-champion.com",
+    "platform": "vBulletin",
+    "game": "World of Warcraft",
+    "community": "MMO-Champion",
+    "topic_id": "2668942",
+    "slug": "Spoilers!-Unexpected-leak-NOT-related-to-patch-or-expansion"
+  },
+  {
+    "canonical_url": "https://www.mmo-champion.com/threads/2669064-What-you-should-know-about-Camelot",
+    "domain": "www.mmo-champion.com",
+    "platform": "vBulletin",
+    "game": "World of Warcraft",
+    "community": "MMO-Champion",
+    "topic_id": "2669064",
+    "slug": "What-you-should-know-about-Camelot"
+  },
+  {
+    "canonical_url": "https://www.mmo-champion.com/threads/2669344-Should-AI-replace-the-writers-team-for-Warcraft/page8",
+    "domain": "www.mmo-champion.com",
+    "platform": "vBulletin",
+    "game": "World of Warcraft",
+    "community": "MMO-Champion",
+    "topic_id": "2669344",
+    "slug": "Should-AI-replace-the-writers-team-for-Warcraft"
+  },
+  {
+    "canonical_url": "https://www.mmo-champion.com/threads/2669447-Trading-Post-Rewards-September-2026/page2",
+    "domain": "www.mmo-champion.com",
+    "platform": "vBulletin",
+    "game": "World of Warcraft",
+    "community": "MMO-Champion",
+    "topic_id": "2669447",
+    "slug": "Trading-Post-Rewards-September-2026"
+  },
+  {
+    "canonical_url": "https://www.mmo-champion.com/threads/2669646-SPOILER-Lady-Liadrin-PTR-speculation/page2",
+    "domain": "www.mmo-champion.com",
+    "platform": "vBulletin",
+    "game": "World of Warcraft",
+    "community": "MMO-Champion",
+    "topic_id": "2669646",
+    "slug": "SPOILER-Lady-Liadrin-PTR-speculation"
+  },
+  {
+    "canonical_url": "https://www.mmo-champion.com/threads/2669679-The-Last-Titan-Full-story-and-features",
+    "domain": "www.mmo-champion.com",
+    "platform": "vBulletin",
+    "game": "World of Warcraft",
+    "community": "MMO-Champion",
+    "topic_id": "2669679",
+    "slug": "The-Last-Titan-Full-story-and-features"
+  },
+  {
+    "canonical_url": "https://www.mmo-champion.com/threads/2669679-The-Last-Titan-Full-story-and-features/page2",
+    "domain": "www.mmo-champion.com",
+    "platform": "vBulletin",
+    "game": "World of Warcraft",
+    "community": "MMO-Champion",
+    "topic_id": "2669679",
+    "slug": "The-Last-Titan-Full-story-and-features"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/106lc61/is_chatgpt_a_good_source_of_knowledge_for_eve",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "106lc61",
+    "slug": "is_chatgpt_a_good_source_of_knowledge_for_eve"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/10nz7t0/chatgpt_best_fit_for_pvp_atron",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "10nz7t0",
+    "slug": "chatgpt_best_fit_for_pvp_atron"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/110lstx/rf_chatgpt_cute_advertisement_for_a_pretend",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "110lstx",
+    "slug": "rf_chatgpt_cute_advertisement_for_a_pretend"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/115nekt/chatgpt_is_a_perfectly_balanced_ai_language_model",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "115nekt",
+    "slug": "chatgpt_is_a_perfectly_balanced_ai_language_model"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/11x743u/ive_asked_chatgpt_to_write_an_eve_online_alliance",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "11x743u",
+    "slug": "ive_asked_chatgpt_to_write_an_eve_online_alliance"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/146gzbv/eve_and_chatgpt",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "146gzbv",
+    "slug": "eve_and_chatgpt"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/148eupt/oh_the_irony",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "148eupt",
+    "slug": "oh_the_irony"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1647uww/botting_to_report_intel_gooseflocks_streets_are",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1647uww",
+    "slug": "botting_to_report_intel_gooseflocks_streets_are"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/165r8ve/new_player_that_joined_goose_and_now_has_questions",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "165r8ve",
+    "slug": "new_player_that_joined_goose_and_now_has_questions"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/169h378/chatgpt_is_becoming_the_new_evewiki",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "169h378",
+    "slug": "chatgpt_is_becoming_the_new_evewiki"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/17watkt/when_will_aurora_be_driven_by_chatgpt",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "17watkt",
+    "slug": "when_will_aurora_be_driven_by_chatgpt"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1cthufg/my_new_copilot",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1cthufg",
+    "slug": "my_new_copilot"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1dx2eko/fallen_copilot",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1dx2eko",
+    "slug": "fallen_copilot"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1i4edye/ccp_id_love_to_see_mcp_multi_character_play",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1i4edye",
+    "slug": "ccp_id_love_to_see_mcp_multi_character_play"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1jcker8/eve_online_gemini_2003_cdrom",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1jcker8",
+    "slug": "eve_online_gemini_2003_cdrom"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1jo3fqp/t3c_vs_marauder_pvp_vs_pve_fit",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1jo3fqp",
+    "slug": "t3c_vs_marauder_pvp_vs_pve_fit"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1jukb0x/psa_for_the_new_bros_dont_ask_chatgpt_about_eve",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1jukb0x",
+    "slug": "psa_for_the_new_bros_dont_ask_chatgpt_about_eve"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1kfdpmv/fw_rant_i_know_coding_is_hard_so_i_had_chatgpt_do",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1kfdpmv",
+    "slug": "fw_rant_i_know_coding_is_hard_so_i_had_chatgpt_do"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1kh1a1v/has_anyone_llm_trained_with_eve_data",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1kh1a1v",
+    "slug": "has_anyone_llm_trained_with_eve_data"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1lcwrpl/motd_cheatsheet_for_colors_symbols_made_with",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1lcwrpl",
+    "slug": "motd_cheatsheet_for_colors_symbols_made_with"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1mctiz6/i_just_used_google_gemini_to_brainstorm_an",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1mctiz6",
+    "slug": "i_just_used_google_gemini_to_brainstorm_an"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1mn2tfx/chatgpt_doing_gods_codes_work",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1mn2tfx",
+    "slug": "chatgpt_doing_gods_codes_work"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1ofu78l/stuck_in_nullsec",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1ofu78l",
+    "slug": "stuck_in_nullsec"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1oq9poa/newbie_miner_question_i_can_only_play_on_1",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1oq9poa",
+    "slug": "newbie_miner_question_i_can_only_play_on_1"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1ph9o3i/should_you_use_ai_in_eve_online",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1ph9o3i",
+    "slug": "should_you_use_ai_in_eve_online"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1rjcpxj/switch_to_directx11",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1rjcpxj",
+    "slug": "switch_to_directx11"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1rmfr5h/ccplease_stop_vibecoding_ffs",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1rmfr5h",
+    "slug": "ccplease_stop_vibecoding_ffs"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1t01k13/some_concerns_about_eve_onlines_new_owners",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1t01k13",
+    "slug": "some_concerns_about_eve_onlines_new_owners"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1t3g4bt/true_unprobeable_ships_are_gone_but_how_difficult",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1t3g4bt",
+    "slug": "true_unprobeable_ships_are_gone_but_how_difficult"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1tdxixs/so_can_anyone_tell_me_what_did_hilmar_and",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1tdxixs",
+    "slug": "so_can_anyone_tell_me_what_did_hilmar_and"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1thkxzu/war_declarations_and_factional_warfare_combat_are",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1thkxzu",
+    "slug": "war_declarations_and_factional_warfare_combat_are"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1twaq1l/reve_succumbs_to_ai_bot",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1twaq1l",
+    "slug": "reve_succumbs_to_ai_bot"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1ty9qyd/so_who_actually_won_the_imperiumwinterco_war_i",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1ty9qyd",
+    "slug": "so_who_actually_won_the_imperiumwinterco_war_i"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1tyovbz/evekillcom_fits_battles_and_touching_grass",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1tyovbz",
+    "slug": "evekillcom_fits_battles_and_touching_grass"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1u3zmk5/using_the_agent_finder_to_target_a_specific",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1u3zmk5",
+    "slug": "using_the_agent_finder_to_target_a_specific"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1u53a3p/evemon_alternative_for_linux_that_isnt_vibecoded",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1u53a3p",
+    "slug": "evemon_alternative_for_linux_that_isnt_vibecoded"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1udu43k/eve_chat_translator_tool_for_multilingual",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1udu43k",
+    "slug": "eve_chat_translator_tool_for_multilingual"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1umcuvg/update_zs_overview_customiser_2026732159_citadels",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1umcuvg",
+    "slug": "update_zs_overview_customiser_2026732159_citadels"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1upzjbr/eve_vanguard_playtest_is_live_what_are_your",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1upzjbr",
+    "slug": "eve_vanguard_playtest_is_live_what_are_your"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1uq5daf/reward_track_reward_im_most_exited_about_rn",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1uq5daf",
+    "slug": "reward_track_reward_im_most_exited_about_rn"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1uqtdhy/multiboxing_eve_on_oled",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1uqtdhy",
+    "slug": "multiboxing_eve_on_oled"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1uroo6b/one_page_to_check_if_esi_zkill_janice_dotlan",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1uroo6b",
+    "slug": "one_page_to_check_if_esi_zkill_janice_dotlan"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1uy69rl/blender_plugins_for_finding_and_loading_eve_models",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1uy69rl",
+    "slug": "blender_plugins_for_finding_and_loading_eve_models"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1v18nfp/ccp_was_it_really_that_hard_to_ask_chatgpt_what",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1v18nfp",
+    "slug": "ccp_was_it_really_that_hard_to_ask_chatgpt_what"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1v3drrh/new_minmatar_command_carrier_dropped",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1v3drrh",
+    "slug": "new_minmatar_command_carrier_dropped"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1v5bwl0/izzylab_now_tracks_your_industry_jobs_and",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1v5bwl0",
+    "slug": "izzylab_now_tracks_your_industry_jobs_and"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1w2gv7r/unable_to_play_dropped_connection",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1w2gv7r",
+    "slug": "unable_to_play_dropped_connection"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1w4y0sn/i_tried_playing_with_one_account",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1w4y0sn",
+    "slug": "i_tried_playing_with_one_account"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1w57ml5/visiting_reykjavik_iceland_for_a_day_before",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1w57ml5",
+    "slug": "visiting_reykjavik_iceland_for_a_day_before"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1w856xc/slide_victorious_minmil_dunked",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1w856xc",
+    "slug": "slide_victorious_minmil_dunked"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1waqgod/lets_theorycraft_what_can_someone_do_by_knowing",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1waqgod",
+    "slug": "lets_theorycraft_what_can_someone_do_by_knowing"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/1waw1qa/where_is_my_weekly_free_sp",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "1waw1qa",
+    "slug": "where_is_my_weekly_free_sp"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/e986pu/gemini_moa_3d_prints_new_and_old_models",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "e986pu",
+    "slug": "gemini_moa_3d_prints_new_and_old_models"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/Eve/comments/gxtfaa/shoutout_to_my_copilot_he_always_forgives_me_when",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "EVE Online",
+    "community": "r/Eve",
+    "topic_id": "gxtfaa",
+    "slug": "shoutout_to_my_copilot_he_always_forgives_me_when"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/wow/comments/11331z0/its_only_a_matter_of_time_before_gms_are_replaced",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "World of Warcraft",
+    "community": "r/wow",
+    "topic_id": "11331z0",
+    "slug": "its_only_a_matter_of_time_before_gms_are_replaced"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/wow/comments/116y6lt/i_asked_chatgpt_to_write_the_next_wow_expansion",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "World of Warcraft",
+    "community": "r/wow",
+    "topic_id": "116y6lt",
+    "slug": "i_asked_chatgpt_to_write_the_next_wow_expansion"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/wow/comments/17vrgqd/is_it_me_or_does_some_of_the_new_quest_text_read",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "World of Warcraft",
+    "community": "r/wow",
+    "topic_id": "17vrgqd",
+    "slug": "is_it_me_or_does_some_of_the_new_quest_text_read"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/wow/comments/18spxhj/chat_gbt_helping_me_with_macro",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "World of Warcraft",
+    "community": "r/wow",
+    "topic_id": "18spxhj",
+    "slug": "chat_gbt_helping_me_with_macro"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/wow/comments/1cw23ze/i_asked_chatgpt_how_my_partner_and_i_could_use",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "World of Warcraft",
+    "community": "r/wow",
+    "topic_id": "1cw23ze",
+    "slug": "i_asked_chatgpt_how_my_partner_and_i_could_use"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/wow/comments/1em2a0x/using_ai_to_analyze_wow_for_fun",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "World of Warcraft",
+    "community": "r/wow",
+    "topic_id": "1em2a0x",
+    "slug": "using_ai_to_analyze_wow_for_fun"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/wow/comments/1eoyf2u/wow_could_benefit_from_llmaichatgpt",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "World of Warcraft",
+    "community": "r/wow",
+    "topic_id": "1eoyf2u",
+    "slug": "wow_could_benefit_from_llmaichatgpt"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/wow/comments/1gebstj/my_name_is_not_joshua_and_this_is_peak_chatgpt",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "World of Warcraft",
+    "community": "r/wow",
+    "topic_id": "1gebstj",
+    "slug": "my_name_is_not_joshua_and_this_is_peak_chatgpt"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/wow/comments/1hlv8xy/can_i_use_chat_gpt_to_make_macros",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "World of Warcraft",
+    "community": "r/wow",
+    "topic_id": "1hlv8xy",
+    "slug": "can_i_use_chat_gpt_to_make_macros"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/wow/comments/1i6m4i6/ai_is_gonna_revolutionize_the_world",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "World of Warcraft",
+    "community": "r/wow",
+    "topic_id": "1i6m4i6",
+    "slug": "ai_is_gonna_revolutionize_the_world"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/wow/comments/1k02pt8/i_asked_chatgpt_to_make_a_picture_of_my_shaman",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "World of Warcraft",
+    "community": "r/wow",
+    "topic_id": "1k02pt8",
+    "slug": "i_asked_chatgpt_to_make_a_picture_of_my_shaman"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/wow/comments/1mwoeow/is_this_blizzard_support_or_just_an_chatgpt_chat",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "World of Warcraft",
+    "community": "r/wow",
+    "topic_id": "1mwoeow",
+    "slug": "is_this_blizzard_support_or_just_an_chatgpt_chat"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/wow/comments/1s9et4k/im_a_silly_goose_and_i_always_forget_about",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "World of Warcraft",
+    "community": "r/wow",
+    "topic_id": "1s9et4k",
+    "slug": "im_a_silly_goose_and_i_always_forget_about"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/wow/comments/1sv241g/blizzard_temporaily_disabling_void_assault",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "World of Warcraft",
+    "community": "r/wow",
+    "topic_id": "1sv241g",
+    "slug": "blizzard_temporaily_disabling_void_assault"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/wow/comments/1t3n564/i_made_a_free_tool_that_ranks_all_8_m_dungeons_by",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "World of Warcraft",
+    "community": "r/wow",
+    "topic_id": "1t3n564",
+    "slug": "i_made_a_free_tool_that_ranks_all_8_m_dungeons_by"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/wow/comments/1tkscsd/looking_for_feedback_on_my_first_wow_addon",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "World of Warcraft",
+    "community": "r/wow",
+    "topic_id": "1tkscsd",
+    "slug": "looking_for_feedback_on_my_first_wow_addon"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/wow/comments/1uqhpra/can_someone_please_update_the_fishing_buddy_addon",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "World of Warcraft",
+    "community": "r/wow",
+    "topic_id": "1uqhpra",
+    "slug": "can_someone_please_update_the_fishing_buddy_addon"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/wow/comments/1vjr95a/claude_coding_or_what",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "World of Warcraft",
+    "community": "r/wow",
+    "topic_id": "1vjr95a",
+    "slug": "claude_coding_or_what"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/wow/comments/1vt5t85/why_are_we_suddenly_adding_steps_to_dungeonraid",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "World of Warcraft",
+    "community": "r/wow",
+    "topic_id": "1vt5t85",
+    "slug": "why_are_we_suddenly_adding_steps_to_dungeonraid"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/wow/comments/1vz7klg/keyboard_locking_up_triggering_random_windows",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "World of Warcraft",
+    "community": "r/wow",
+    "topic_id": "1vz7klg",
+    "slug": "keyboard_locking_up_triggering_random_windows"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/wow/comments/1w6ixol/liquid_won_world_first_by_26_minutes_echo_was",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "World of Warcraft",
+    "community": "r/wow",
+    "topic_id": "1w6ixol",
+    "slug": "liquid_won_world_first_by_26_minutes_echo_was"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/wow/comments/1w882it/ulatek_campaign_skip",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "World of Warcraft",
+    "community": "r/wow",
+    "topic_id": "1w882it",
+    "slug": "ulatek_campaign_skip"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/wow/comments/1w94bxa/we_should_lose_stormwind_and_orgrimmar_at_the_end",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "World of Warcraft",
+    "community": "r/wow",
+    "topic_id": "1w94bxa",
+    "slug": "we_should_lose_stormwind_and_orgrimmar_at_the_end"
+  },
+  {
+    "canonical_url": "https://www.reddit.com/r/wow/comments/acqhph/i_estimated_subscriber_numbers_using_google_trend",
+    "domain": "www.reddit.com",
+    "platform": "Reddit",
+    "game": "World of Warcraft",
+    "community": "r/wow",
+    "topic_id": "acqhph",
+    "slug": "i_estimated_subscriber_numbers_using_google_trend"
+  }
+]

@@ -1,0 +1,1036 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1217188,
+        "name": "Rebecca Chran",
+        "username": "Rebecca_Chran",
+        "avatar_template": "/user_avatar/forums.eveonline.com/rebecca_chran/{size}/174594_2.png",
+        "created_at": "2019-12-11T06:31:58.673Z",
+        "cooked": "<p>I’ve been crawling through all the EVE related data and I came upon this dev blog from way back:</p>\n<aside class=\"onebox whitelistedgeneric\">\n  <header class=\"source\">\n      <a href=\"https://www.eveonline.com/article/building-a-balanced-universe\" target=\"_blank\" title=\"04:19PM - 03 December 2013\" rel=\"nofollow noopener\">EVE Online – 3 Dec 13</a>\n  </header>\n  <article class=\"onebox-body\">\n    <div class=\"aspect-image\" style=\"--aspect-ratio:600/388;\"><img src=\"https://global.discourse-cdn.com/eveonline/original/3X/8/b/8b3a181a4510ddc661ff97f9fa7a846bd66b1d35.png\" class=\"thumbnail\"></div>\n\n<h3><a href=\"https://www.eveonline.com/article/building-a-balanced-universe\" target=\"_blank\" rel=\"nofollow noopener\">Building a Balanced Universe | EVE Online</a></h3>\n\n<p>Building a Balanced Universe Hello everybody, my name is CCP Prism X and I am a Libra! This summer we saw a welcome influx of players with the release of EVE Online: Odyssey. On occasions as such we usually celebrate our great success by pulling out...</p>\n\n\n  </article>\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n  <div style=\"clear: both\"></div>\n</aside>\n\n<p>I noticed this is a problem ideally suited for some ML tinkering (<a href=\"https://en.wikipedia.org/wiki/Simulated_annealing\" rel=\"nofollow noopener\">https://en.wikipedia.org/wiki/Simulated_annealing</a> + some clustering algorithm for example). Have any of you devs implemented anything along those lines yet or does this sound like a good approach?</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 4,
+        "updated_at": "2019-12-11T06:32:59.853Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 41,
+        "reads": 33,
+        "readers_count": 32,
+        "score": 206.6,
+        "yours": false,
+        "topic_id": 205801,
+        "topic_slug": "using-machine-learning-for-load-balancing",
+        "display_username": "Rebecca Chran",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://www.eveonline.com/article/building-a-balanced-universe",
+            "internal": false,
+            "reflection": false,
+            "title": "Building a Balanced Universe | EVE Online",
+            "clicks": 5
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Simulated_annealing",
+            "internal": false,
+            "reflection": false,
+            "title": "Simulated annealing - Wikipedia",
+            "clicks": 2
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 103258,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/using-machine-learning-for-load-balancing/205801/1",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 1223754,
+        "name": "Solstice Projekt",
+        "username": "Solstice_Projekt",
+        "avatar_template": "/user_avatar/forums.eveonline.com/solstice_projekt/{size}/503293_2.png",
+        "created_at": "2019-12-16T15:10:45.283Z",
+        "cooked": "<p>Why apply overkill when it’s not necessary?</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 4,
+        "updated_at": "2019-12-16T15:10:45.283Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 17,
+        "readers_count": 16,
+        "score": 8.4,
+        "yours": false,
+        "topic_id": 205801,
+        "topic_slug": "using-machine-learning-for-load-balancing",
+        "display_username": "Solstice Projekt",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 38754,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/using-machine-learning-for-load-balancing/205801/2",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 1224314,
+        "name": "Salt Foambreaker",
+        "username": "Salt_Foambreaker",
+        "avatar_template": "/user_avatar/forums.eveonline.com/salt_foambreaker/{size}/280119_2.png",
+        "created_at": "2019-12-17T02:24:04.105Z",
+        "cooked": "<p>Feeds techie egos, kills companies but so what, looks awesome on resumes!</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 4,
+        "updated_at": "2019-12-17T02:24:04.105Z",
+        "reply_count": 0,
+        "reply_to_post_number": 2,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 11,
+        "readers_count": 10,
+        "score": 17.2,
+        "yours": false,
+        "topic_id": 205801,
+        "topic_slug": "using-machine-learning-for-load-balancing",
+        "display_username": "Salt Foambreaker",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 38754,
+          "username": "Solstice_Projekt",
+          "name": "Solstice Projekt",
+          "avatar_template": "/user_avatar/forums.eveonline.com/solstice_projekt/{size}/503293_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 32580,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/using-machine-learning-for-load-balancing/205801/3",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 1224513,
+        "name": "Terak Romaller",
+        "username": "Terak_Romaller",
+        "avatar_template": "/user_avatar/forums.eveonline.com/terak_romaller/{size}/374271_2.png",
+        "created_at": "2019-12-17T07:31:40.538Z",
+        "cooked": "<p>I find that in general where the answer is “use current in vogue buzz words” that the problem has been poorly understood and that the solution isn’t being driven by the question, but by the interests of the Answerer.</p>\n<p>Machine Learning is about pattern detection and categorisation. It has several weakness. It matches based on reinforcement based on training data, with all the weaknesses inherent in that data set - critically biases and low probability targets. Also there is no determinable reason for a decision made by the system. You can’t ask “for what reason was this categorisation decision made for this item/case?” and that’s a real nightmare.</p>\n<p>Yes, new technologies and ideas are interesting and exciting. But interesting and exciting doesn’t mean they are suddenly the right tool for a job. Having a wider range of knowledge and approaches to tackling problems is always better (and why experience matters).</p>\n<p>Remember: If you only have a hammer then not everything is a nail.</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 4,
+        "updated_at": "2019-12-17T07:31:40.538Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 9,
+        "readers_count": 8,
+        "score": 16.8,
+        "yours": false,
+        "topic_id": 205801,
+        "topic_slug": "using-machine-learning-for-load-balancing",
+        "display_username": "Terak Romaller",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 28069,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/using-machine-learning-for-load-balancing/205801/4",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 1333617,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "https://global.discourse-cdn.com/eveonline/original/3X/4/1/41ec4921cbaca7a6f9ea556e7cc20018461eae5e.png",
+        "created_at": "2020-03-16T07:31:55.665Z",
+        "cooked": "<p>This topic was automatically closed 90 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 5,
+        "post_type": 3,
+        "posts_count": 4,
+        "updated_at": "2020-03-16T07:31:55.665Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 205801,
+        "topic_slug": "using-machine-learning-for-load-balancing",
+        "display_username": "system",
+        "primary_group_name": "system",
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/using-machine-learning-for-load-balancing/205801/5",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ],
+    "stream": [
+      1217188,
+      1223754,
+      1224314,
+      1224513,
+      1333617
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      2464
+    ],
+    [
+      2,
+      2459
+    ],
+    [
+      4,
+      2458
+    ],
+    [
+      5,
+      2368
+    ]
+  ],
+  "suggested_topics": [],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "Using machine learning for load balancing",
+  "id": 205801,
+  "title": "Using machine learning for load balancing",
+  "posts_count": 4,
+  "created_at": "2019-12-11T06:31:58.415Z",
+  "views": 434,
+  "reply_count": 1,
+  "like_count": 2,
+  "last_posted_at": "2019-12-17T07:31:40.538Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "using-machine-learning-for-load-balancing",
+  "category_id": 74,
+  "word_count": 258,
+  "deleted_at": null,
+  "user_id": 103258,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": "https://global.discourse-cdn.com/eveonline/original/3X/8/b/8b3a181a4510ddc661ff97f9fa7a846bd66b1d35.png",
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_205801",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 5,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 4,
+  "show_read_indicator": false,
+  "thumbnails": [
+    {
+      "max_width": null,
+      "max_height": null,
+      "width": 600,
+      "height": 388,
+      "url": "https://global.discourse-cdn.com/eveonline/original/3X/8/b/8b3a181a4510ddc661ff97f9fa7a846bd66b1d35.png"
+    }
+  ],
+  "slow_mode_enabled_until": null,
+  "tags_disable_ads": false,
+  "related_topics": [
+    {
+      "fancy_title": "Predictions",
+      "id": 342254,
+      "title": "Predictions",
+      "slug": "predictions",
+      "posts_count": 4,
+      "reply_count": 1,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2021-12-18T13:26:17.258Z",
+      "last_posted_at": "2021-12-18T14:29:37.888Z",
+      "bumped": true,
+      "bumped_at": "2021-12-18T14:29:37.888Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 3,
+      "views": 356,
+      "category_id": 83,
+      "featured_link": null,
+      "op_like_count": 1,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 16272,
+            "username": "Snowflake_Tem",
+            "name": "Snowflake Tem",
+            "avatar_template": "/user_avatar/forums.eveonline.com/snowflake_tem/{size}/432971_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 21616,
+            "username": "Shipwreck_Jones",
+            "name": "Shipwreck Jones",
+            "avatar_template": "/user_avatar/forums.eveonline.com/shipwreck_jones/{size}/274382_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "https://global.discourse-cdn.com/eveonline/original/3X/4/1/41ec4921cbaca7a6f9ea556e7cc20018461eae5e.png",
+            "primary_group_name": "system",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 21067,
+            "username": "Ramona_McCandless",
+            "name": "Ramona McCandless",
+            "avatar_template": "/user_avatar/forums.eveonline.com/ramona_mccandless/{size}/468438_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Evolutionary Balancing in Eve",
+      "id": 26070,
+      "title": "Evolutionary Balancing in Eve",
+      "slug": "evolutionary-balancing-in-eve",
+      "posts_count": 23,
+      "reply_count": 15,
+      "highest_post_number": 23,
+      "image_url": null,
+      "created_at": "2017-09-21T03:44:01.147Z",
+      "last_posted_at": "2017-09-23T08:40:38.830Z",
+      "bumped": true,
+      "bumped_at": "2017-09-23T08:40:38.830Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 9,
+      "views": 1211,
+      "category_id": 83,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 9240,
+            "username": "Cardinal_War-Richte",
+            "name": "Cardinal War-Richte",
+            "avatar_template": "/user_avatar/forums.eveonline.com/cardinal_war-richte/{size}/15638_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3746,
+            "username": "Cade_Windstalker",
+            "name": "Cade Windstalker",
+            "avatar_template": "/user_avatar/forums.eveonline.com/cade_windstalker/{size}/221037_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 8815,
+            "username": "Arcanith_Lionheart",
+            "name": "Arcanith Lionheart",
+            "avatar_template": "/user_avatar/forums.eveonline.com/arcanith_lionheart/{size}/218531_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "https://global.discourse-cdn.com/eveonline/original/3X/4/1/41ec4921cbaca7a6f9ea556e7cc20018461eae5e.png",
+            "primary_group_name": "system",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 973,
+            "username": "Salvos_Rhoska",
+            "name": "Salvos Rhoska",
+            "avatar_template": "/user_avatar/forums.eveonline.com/salvos_rhoska/{size}/14128_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Practical options for EVE performance issues",
+      "id": 53132,
+      "title": "Practical options for EVE performance issues",
+      "slug": "practical-options-for-eve-performance-issues",
+      "posts_count": 36,
+      "reply_count": 19,
+      "highest_post_number": 37,
+      "image_url": null,
+      "created_at": "2018-01-24T19:27:36.112Z",
+      "last_posted_at": "2018-04-21T15:57:02.452Z",
+      "bumped": true,
+      "bumped_at": "2018-04-21T15:57:02.452Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 29,
+      "views": 2275,
+      "category_id": 83,
+      "featured_link": null,
+      "op_like_count": 1,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 33697,
+            "username": "Nano_Ive",
+            "name": "Nano Ive",
+            "avatar_template": "/user_avatar/forums.eveonline.com/nano_ive/{size}/50936_2.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 903,
+            "username": "Rin_Vocaloid2",
+            "name": "Rin Vocaloid2",
+            "avatar_template": "/user_avatar/forums.eveonline.com/rin_vocaloid2/{size}/90543_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 778,
+            "username": "Ima_Wreckyou",
+            "name": "Ima Wreckyou",
+            "avatar_template": "/user_avatar/forums.eveonline.com/ima_wreckyou/{size}/235531_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "https://global.discourse-cdn.com/eveonline/original/3X/4/1/41ec4921cbaca7a6f9ea556e7cc20018461eae5e.png",
+            "primary_group_name": "system",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 7182,
+            "username": "Cypherous",
+            "name": "Cypherous",
+            "avatar_template": "/user_avatar/forums.eveonline.com/cypherous/{size}/499883_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Imbalance ships or why I play money for? And few more problems",
+      "id": 232020,
+      "title": "Imbalance ships or why I play money for? And few more problems",
+      "slug": "imbalance-ships-or-why-i-play-money-for-and-few-more-problems",
+      "posts_count": 47,
+      "reply_count": 38,
+      "highest_post_number": 48,
+      "image_url": null,
+      "created_at": "2020-04-12T19:48:08.252Z",
+      "last_posted_at": "2020-04-13T08:32:49.472Z",
+      "bumped": true,
+      "bumped_at": "2020-04-13T09:04:46.227Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 110,
+          "name": "pve",
+          "slug": "pve"
+        },
+        {
+          "id": 67,
+          "name": "pvp",
+          "slug": "pvp"
+        }
+      ],
+      "tags_descriptions": {},
+      "like_count": 45,
+      "views": 1813,
+      "category_id": 83,
+      "featured_link": null,
+      "op_like_count": 1,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 112772,
+            "username": "Madzuko_Aretama",
+            "name": "Madzuko Aretama",
+            "avatar_template": "/user_avatar/forums.eveonline.com/madzuko_aretama/{size}/424732_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 862,
+            "username": "Solonius_Rex",
+            "name": "Solonius Rex",
+            "avatar_template": "/user_avatar/forums.eveonline.com/solonius_rex/{size}/388172_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 21616,
+            "username": "Shipwreck_Jones",
+            "name": "Shipwreck Jones",
+            "avatar_template": "/user_avatar/forums.eveonline.com/shipwreck_jones/{size}/274382_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "https://global.discourse-cdn.com/eveonline/original/3X/4/1/41ec4921cbaca7a6f9ea556e7cc20018461eae5e.png",
+            "primary_group_name": "system",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 1700,
+            "username": "Wanda_Fayne",
+            "name": "Wanda Fayne",
+            "avatar_template": "/user_avatar/forums.eveonline.com/wanda_fayne/{size}/377654_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Remember the &ldquo;dedicated balance team&rdquo; ccp promised last summer? CSM member reveals ccp ***canned it",
+      "id": 53522,
+      "title": "Remember the \"dedicated balance team\" ccp promised last summer? CSM member reveals ccp ***canned it",
+      "slug": "remember-the-dedicated-balance-team-ccp-promised-last-summer-csm-member-reveals-ccp-canned-it",
+      "posts_count": 580,
+      "reply_count": 507,
+      "highest_post_number": 587,
+      "image_url": null,
+      "created_at": "2018-01-26T16:11:41.469Z",
+      "last_posted_at": "2018-02-14T00:01:58.559Z",
+      "bumped": true,
+      "bumped_at": "2018-02-14T00:01:58.559Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 840,
+      "views": 14659,
+      "category_id": 83,
+      "featured_link": null,
+      "op_like_count": 6,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 7368,
+            "username": "Shailagh_R",
+            "name": "Shailagh R",
+            "avatar_template": "/user_avatar/forums.eveonline.com/shailagh_r/{size}/12296_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 325,
+            "username": "Nana_Skalski",
+            "name": "Nana Skalski",
+            "avatar_template": "/user_avatar/forums.eveonline.com/nana_skalski/{size}/489985_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 707,
+            "username": "Yiole_Gionglao",
+            "name": "Yiole Gionglao",
+            "avatar_template": "/user_avatar/forums.eveonline.com/yiole_gionglao/{size}/374866_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "https://global.discourse-cdn.com/eveonline/original/3X/4/1/41ec4921cbaca7a6f9ea556e7cc20018461eae5e.png",
+            "primary_group_name": "system",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 904,
+            "username": "Frostys_Virpio",
+            "name": "Frostys Virpio",
+            "avatar_template": "/user_avatar/forums.eveonline.com/frostys_virpio/{size}/12703_2.png",
+            "trust_level": 2
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "has_cached_summary": false,
+  "valid_reactions": [
+    "heart",
+    "+1",
+    "laughing",
+    "open_mouth",
+    "clap",
+    "confetti_ball",
+    "hugs"
+  ],
+  "has_accepted_answer": false,
+  "can_create_shared_issue": false,
+  "shared_issue_visible": false,
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 32580,
+        "username": "Salt_Foambreaker",
+        "name": "Salt Foambreaker",
+        "avatar_template": "/user_avatar/forums.eveonline.com/salt_foambreaker/{size}/280119_2.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      },
+      {
+        "id": 103258,
+        "username": "Rebecca_Chran",
+        "name": "Rebecca Chran",
+        "avatar_template": "/user_avatar/forums.eveonline.com/rebecca_chran/{size}/174594_2.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 28069,
+        "username": "Terak_Romaller",
+        "name": "Terak Romaller",
+        "avatar_template": "/user_avatar/forums.eveonline.com/terak_romaller/{size}/374271_2.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      },
+      {
+        "id": 38754,
+        "username": "Solstice_Projekt",
+        "name": "Solstice Projekt",
+        "avatar_template": "/user_avatar/forums.eveonline.com/solstice_projekt/{size}/503293_2.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      }
+    ],
+    "created_by": {
+      "id": 103258,
+      "username": "Rebecca_Chran",
+      "name": "Rebecca Chran",
+      "avatar_template": "/user_avatar/forums.eveonline.com/rebecca_chran/{size}/174594_2.png"
+    },
+    "last_poster": {
+      "id": 28069,
+      "username": "Terak_Romaller",
+      "name": "Terak Romaller",
+      "avatar_template": "/user_avatar/forums.eveonline.com/terak_romaller/{size}/374271_2.png"
+    },
+    "links": [
+      {
+        "url": "https://www.eveonline.com/article/building-a-balanced-universe",
+        "title": "Building a Balanced Universe | EVE Online",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 5,
+        "user_id": 103258,
+        "domain": "www.eveonline.com",
+        "root_domain": "eveonline.com"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Simulated_annealing",
+        "title": "Simulated annealing - Wikipedia",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 2,
+        "user_id": 103258,
+        "domain": "en.wikipedia.org",
+        "root_domain": "wikipedia.org"
+      }
+    ]
+  },
+  "bookmarks": [],
+  "jogo": "EVE Online",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Oficial EVE",
+  "url_fonte": "https://forums.eveonline.com/t/using-machine-learning-for-load-balancing/205801",
+  "canonical_url": "https://forums.eveonline.com/t/using-machine-learning-for-load-balancing/205801"
+}

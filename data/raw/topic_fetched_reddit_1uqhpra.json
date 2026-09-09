@@ -1,0 +1,61 @@
+{
+  "id": "1uqhpra",
+  "title": "Can Someone Please Update The Fishing Buddy Addon",
+  "jogo": "World of Warcraft",
+  "fonte": "Reddit",
+  "seccao": "r/wow",
+  "url_fonte": "https://www.reddit.com/r/wow/comments/1uqhpra/can_someone_please_update_the_fishing_buddy_addon",
+  "canonical_url": "https://www.reddit.com/r/wow/comments/1uqhpra/can_someone_please_update_the_fishing_buddy_addon",
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1,
+        "username": "zENKcss",
+        "cooked": "<p>Try the forked version I saw someone post in the comments https://github.com/Coffiner666/FishingBuddy/releases/tag/v1.26.8</p>",
+        "created_at": "2026-07-08T04:19:58Z",
+        "post_number": 1,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 3,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 2,
+        "username": "Far-Chemical-707",
+        "cooked": "<p>You are my favorite person on all of Reddit <3 </p>",
+        "created_at": "2026-07-08T15:14:29Z",
+        "post_number": 2,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 3,
+        "username": "Far-Chemical-707",
+        "cooked": "<p>It looks like that version has been updated to work with Midnight but not with the current patch. The fish tracker is still broken.</p>",
+        "created_at": "2026-07-08T18:08:12Z",
+        "post_number": 3,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 4,
+        "username": "FrostWoW_",
+        "cooked": "<p>If you havent found a replacement yet, I made one its a little basic but does the trick.  \n[https://www.curseforge.com/wow/addons/fishkeeper](https://www.curseforge.com/wow/addons/fishkeeper)</p>",
+        "created_at": "2026-09-06T19:31:47Z",
+        "post_number": 4,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      }
+    ]
+  }
+}

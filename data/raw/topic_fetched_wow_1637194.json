@@ -1,0 +1,3226 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 21128579,
+        "name": "Saer",
+        "username": "Saer-2253979",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-07-22T16:57:10.965Z",
+        "cooked": "<p>With the Warlock changes to customization, it would be nice for those of us who unlocked Codex of Xerrath to be able to have a toggle option like with the new demon customizations to have the effects go in without having to repeat the questline.</p>\n<p>I know u can buy it off of AH, but u still end up having to do the whole instance run on old content where ur just one shotting mobs but still have some things in it that are timegated.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 15,
+        "updated_at": "2023-07-30T21:10:55.673Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 442,
+        "reads": 108,
+        "readers_count": 107,
+        "score": 2286.6,
+        "yours": false,
+        "topic_id": 1637194,
+        "topic_slug": "please-make-codex-of-xerrath-account-wide",
+        "display_username": "Saer",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 3,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 4
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2253979,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/kiljaeden/saeshal/",
+          "race": "Vulpera",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "level": "70",
+          "guild": "Commit Alpha",
+          "achievement_points": "19650",
+          "blizzard_post_count": "889"
+        },
+        "post_url": "/t/please-make-codex-of-xerrath-account-wide/1637194/1",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/kiljaeden/184/238868664-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg",
+        "alias_username": "Saeshal-kiljaeden",
+        "poster_alias": {
+          "alias": {
+            "name": "Saeshal-kiljaeden",
+            "avatar": "https://render.worldofwarcraft.com/us/character/kiljaeden/184/238868664-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/kiljaeden/saeshal/",
+            "user_id": 2253979,
+            "id": 139641,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 517,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/kiljaeden/saeshal/"
+              },
+              {
+                "name": "realm",
+                "value": "Kil'jaeden"
+              },
+              {
+                "name": "achievement_points",
+                "value": "20385"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Vulpera"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/kiljaeden/184/238868664-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Saeshal-kiljaeden"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 889,
+        "character": {
+          "name": "Saer",
+          "guild": "Commit Alpha",
+          "achievement_points": "19650",
+          "level": "70",
+          "class": "Warlock",
+          "race": "Vulpera",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 21128587,
+        "name": "Dragula",
+        "username": "Dragula-1855052",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-07-22T16:59:00.239Z",
+        "cooked": "<p>And sometimes that old instance bugs out too.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 15,
+        "updated_at": "2023-07-22T16:59:00.239Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 108,
+        "readers_count": 107,
+        "score": 36.6,
+        "yours": false,
+        "topic_id": 1637194,
+        "topic_slug": "please-make-codex-of-xerrath-account-wide",
+        "display_username": "Dragula",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1855052,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/zuljin/fuzzbutt/",
+          "race": "Vulpera",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "guild": "Fuzzy Wuzzy UwU",
+          "classic": "t",
+          "level": "80",
+          "achievement_points": "31495",
+          "blizzard_post_count": "30526"
+        },
+        "post_url": "/t/please-make-codex-of-xerrath-account-wide/1637194/2",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/zuljin/205/199646413-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg",
+        "alias_username": "Fuzzbutt-zuljin",
+        "poster_alias": {
+          "alias": {
+            "name": "Fuzzbutt-zuljin",
+            "avatar": "https://render.worldofwarcraft.com/us/character/zuljin/205/199646413-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/zuljin/fuzzbutt/",
+            "user_id": 1855052,
+            "id": 426187,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 25571,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/zuljin/fuzzbutt/"
+              },
+              {
+                "name": "realm",
+                "value": "Zul'jin"
+              },
+              {
+                "name": "achievement_points",
+                "value": "31545"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Vulpera"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/zuljin/205/199646413-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Fuzzbutt-zuljin"
+              },
+              {
+                "name": "guild",
+                "value": "Fuzzy Wuzzy UwU"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 30526,
+        "character": {
+          "name": "Dragula",
+          "guild": "Fuzzy Wuzzy UwU",
+          "achievement_points": "31495",
+          "level": "80",
+          "class": "Warlock",
+          "race": "Vulpera",
+          "player_class_enum": "WARLOCK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 21128592,
+        "name": "Saer",
+        "username": "Saer-2253979",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-07-22T17:00:03.307Z",
+        "cooked": "<p>Like… if I didn’t have to run through that first field where it’s just a long stealth mission and then the instance where ur just looting old gray items for like 10 minutes, I wouldn’t have as much of an issue.</p>\n<p>But it just takes up time that doesn’t need to be done or just needs to be done once.</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 15,
+        "updated_at": "2023-07-22T17:00:03.307Z",
+        "reply_count": 1,
+        "reply_to_post_number": 2,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 104,
+        "readers_count": 103,
+        "score": 65.8,
+        "yours": false,
+        "topic_id": 1637194,
+        "topic_slug": "please-make-codex-of-xerrath-account-wide",
+        "display_username": "Saer",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 1855052,
+          "username": "Dragula-1855052",
+          "name": "Dragula",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2253979,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/kiljaeden/saeshal/",
+          "race": "Vulpera",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "level": "70",
+          "guild": "Commit Alpha",
+          "achievement_points": "19650",
+          "blizzard_post_count": "889"
+        },
+        "post_url": "/t/please-make-codex-of-xerrath-account-wide/1637194/3",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/kiljaeden/184/238868664-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg",
+        "alias_username": "Saeshal-kiljaeden",
+        "poster_alias": {
+          "alias": {
+            "name": "Saeshal-kiljaeden",
+            "avatar": "https://render.worldofwarcraft.com/us/character/kiljaeden/184/238868664-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/kiljaeden/saeshal/",
+            "user_id": 2253979,
+            "id": 139641,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 517,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/kiljaeden/saeshal/"
+              },
+              {
+                "name": "realm",
+                "value": "Kil'jaeden"
+              },
+              {
+                "name": "achievement_points",
+                "value": "20385"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Vulpera"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/kiljaeden/184/238868664-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Saeshal-kiljaeden"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 426187,
+          "username": "Fuzzbutt-zuljin",
+          "name": "Fuzzbutt",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/zuljin/205/199646413-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 889,
+        "character": {
+          "name": "Saer",
+          "guild": "Commit Alpha",
+          "achievement_points": "19650",
+          "level": "70",
+          "class": "Warlock",
+          "race": "Vulpera",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 21128807,
+        "name": "Baal531",
+        "username": "Baal531-57913",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-07-22T17:41:05.050Z",
+        "cooked": "<p>IMHO questline should still be playable for the Black Harvest title</p>\n<p>as one of the Black Harvest title havers, I really don’t mind/care that other people could get it nowadays, even if it’s not a challenge anymore</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 15,
+        "updated_at": "2023-07-22T17:41:05.050Z",
+        "reply_count": 2,
+        "reply_to_post_number": 3,
+        "quote_count": 0,
+        "incoming_link_count": 8,
+        "reads": 93,
+        "readers_count": 92,
+        "score": 143.6,
+        "yours": false,
+        "topic_id": 1637194,
+        "topic_slug": "please-make-codex-of-xerrath-account-wide",
+        "display_username": "Baal531",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2253979,
+          "username": "Saer-2253979",
+          "name": "Saer",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 5
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 57913,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Skulls and Krossbones",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/turalyon/baalsamael/",
+          "race": "Zandalari Troll",
+          "level": "80",
+          "achievement_points": "30520",
+          "blizzard_post_count": "13293"
+        },
+        "post_url": "/t/please-make-codex-of-xerrath-account-wide/1637194/4",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/turalyon/23/118004503-avatar.jpg?alt=/wow/static/images/2d/avatar/31-0.jpg",
+        "alias_username": "Baalsamael-turalyon",
+        "poster_alias": {
+          "alias": {
+            "name": "Baalsamael-turalyon",
+            "avatar": "https://render.worldofwarcraft.com/us/character/turalyon/23/118004503-avatar.jpg?alt=/wow/static/images/2d/avatar/31-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/turalyon/baalsamael/",
+            "user_id": 57913,
+            "id": 433571,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 13299,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/turalyon/baalsamael/"
+              },
+              {
+                "name": "realm",
+                "value": "Turalyon"
+              },
+              {
+                "name": "achievement_points",
+                "value": "33100"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Zandalari Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/turalyon/23/118004503-avatar.jpg?alt=/wow/static/images/2d/avatar/31-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Baalsamael-turalyon"
+              },
+              {
+                "name": "guild",
+                "value": "Skulls and Krossbones"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 139641,
+          "username": "Saeshal-kiljaeden",
+          "name": "Saeshal",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/kiljaeden/184/238868664-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 13293,
+        "character": {
+          "name": "Baal531",
+          "guild": "Skulls and Krossbones",
+          "achievement_points": "30520",
+          "level": "80",
+          "class": "Warlock",
+          "race": "Zandalari Troll",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 21128846,
+        "name": "Saer",
+        "username": "Saer-2253979",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-07-22T17:50:44.431Z",
+        "cooked": "<p>And that’s completely fine with me since titles are even less cosmetic than shooting green fire.</p>\n<p>It could potentially even open up the possibility for like having ur spells be randomized in terms of coloring, too.</p>\n<p>Like equal chance ur next fire visual spell will either be green or red.</p>",
+        "post_number": 5,
+        "post_type": 1,
+        "posts_count": 15,
+        "updated_at": "2023-07-22T17:50:44.431Z",
+        "reply_count": 1,
+        "reply_to_post_number": 4,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 82,
+        "readers_count": 81,
+        "score": 41.4,
+        "yours": false,
+        "topic_id": 1637194,
+        "topic_slug": "please-make-codex-of-xerrath-account-wide",
+        "display_username": "Saer",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 57913,
+          "username": "Baal531-57913",
+          "name": "Baal531",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2253979,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/kiljaeden/saeshal/",
+          "race": "Vulpera",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "level": "70",
+          "guild": "Commit Alpha",
+          "achievement_points": "19650",
+          "blizzard_post_count": "889"
+        },
+        "post_url": "/t/please-make-codex-of-xerrath-account-wide/1637194/5",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/kiljaeden/184/238868664-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg",
+        "alias_username": "Saeshal-kiljaeden",
+        "poster_alias": {
+          "alias": {
+            "name": "Saeshal-kiljaeden",
+            "avatar": "https://render.worldofwarcraft.com/us/character/kiljaeden/184/238868664-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/kiljaeden/saeshal/",
+            "user_id": 2253979,
+            "id": 139641,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 517,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/kiljaeden/saeshal/"
+              },
+              {
+                "name": "realm",
+                "value": "Kil'jaeden"
+              },
+              {
+                "name": "achievement_points",
+                "value": "20385"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Vulpera"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/kiljaeden/184/238868664-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Saeshal-kiljaeden"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 433571,
+          "username": "Baalsamael-turalyon",
+          "name": "Baalsamael",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/turalyon/23/118004503-avatar.jpg?alt=/wow/static/images/2d/avatar/31-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 889,
+        "character": {
+          "name": "Saer",
+          "guild": "Commit Alpha",
+          "achievement_points": "19650",
+          "level": "70",
+          "class": "Warlock",
+          "race": "Vulpera",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 21128855,
+        "name": "Baal531",
+        "username": "Baal531-57913",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-07-22T17:52:05.492Z",
+        "cooked": "<p>Or other follow up questlines for other colors <img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/smiley.png?v=12\" title=\":smiley:\" class=\"emoji\" alt=\":smiley:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n<p>Purple (shadow), blue (death), another shade of green (necromantic)</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "posts_count": 15,
+        "updated_at": "2023-07-22T17:52:05.492Z",
+        "reply_count": 1,
+        "reply_to_post_number": 5,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 75,
+        "readers_count": 74,
+        "score": 35.0,
+        "yours": false,
+        "topic_id": 1637194,
+        "topic_slug": "please-make-codex-of-xerrath-account-wide",
+        "display_username": "Baal531",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2253979,
+          "username": "Saer-2253979",
+          "name": "Saer",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 57913,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Skulls and Krossbones",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/turalyon/baalsamael/",
+          "race": "Zandalari Troll",
+          "level": "80",
+          "achievement_points": "30520",
+          "blizzard_post_count": "13293"
+        },
+        "post_url": "/t/please-make-codex-of-xerrath-account-wide/1637194/6",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/turalyon/23/118004503-avatar.jpg?alt=/wow/static/images/2d/avatar/31-0.jpg",
+        "alias_username": "Baalsamael-turalyon",
+        "poster_alias": {
+          "alias": {
+            "name": "Baalsamael-turalyon",
+            "avatar": "https://render.worldofwarcraft.com/us/character/turalyon/23/118004503-avatar.jpg?alt=/wow/static/images/2d/avatar/31-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/turalyon/baalsamael/",
+            "user_id": 57913,
+            "id": 433571,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 13299,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/turalyon/baalsamael/"
+              },
+              {
+                "name": "realm",
+                "value": "Turalyon"
+              },
+              {
+                "name": "achievement_points",
+                "value": "33100"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Zandalari Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/turalyon/23/118004503-avatar.jpg?alt=/wow/static/images/2d/avatar/31-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Baalsamael-turalyon"
+              },
+              {
+                "name": "guild",
+                "value": "Skulls and Krossbones"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 139641,
+          "username": "Saeshal-kiljaeden",
+          "name": "Saeshal",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/kiljaeden/184/238868664-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 13293,
+        "character": {
+          "name": "Baal531",
+          "guild": "Skulls and Krossbones",
+          "achievement_points": "30520",
+          "level": "80",
+          "class": "Warlock",
+          "race": "Zandalari Troll",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 21128859,
+        "name": "Saer",
+        "username": "Saer-2253979",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-07-22T17:52:51.902Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Baalsamael-turalyon\" data-post=\"6\" data-topic=\"1637194\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/turalyon/23/118004503-avatar.jpg?alt=/wow/static/images/2d/avatar/31-0.jpg\" class=\"avatar\"> Baal531:</div>\n<blockquote>\n<p>Purple (shadow), blue (death), another shade of green (necromantic)</p>\n</blockquote>\n</aside>\n<p>Don’t tease me lol. Blue fire would be awesome</p>",
+        "post_number": 7,
+        "post_type": 1,
+        "posts_count": 15,
+        "updated_at": "2023-07-22T17:52:51.902Z",
+        "reply_count": 1,
+        "reply_to_post_number": 6,
+        "quote_count": 1,
+        "incoming_link_count": 2,
+        "reads": 71,
+        "readers_count": 70,
+        "score": 74.2,
+        "yours": false,
+        "topic_id": 1637194,
+        "topic_slug": "please-make-codex-of-xerrath-account-wide",
+        "display_username": "Saer",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2253979,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/kiljaeden/saeshal/",
+          "race": "Vulpera",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "level": "70",
+          "guild": "Commit Alpha",
+          "achievement_points": "19650",
+          "blizzard_post_count": "889"
+        },
+        "post_url": "/t/please-make-codex-of-xerrath-account-wide/1637194/7",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/kiljaeden/184/238868664-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg",
+        "alias_username": "Saeshal-kiljaeden",
+        "poster_alias": {
+          "alias": {
+            "name": "Saeshal-kiljaeden",
+            "avatar": "https://render.worldofwarcraft.com/us/character/kiljaeden/184/238868664-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/kiljaeden/saeshal/",
+            "user_id": 2253979,
+            "id": 139641,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 517,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/kiljaeden/saeshal/"
+              },
+              {
+                "name": "realm",
+                "value": "Kil'jaeden"
+              },
+              {
+                "name": "achievement_points",
+                "value": "20385"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Vulpera"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/kiljaeden/184/238868664-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Saeshal-kiljaeden"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 889,
+        "character": {
+          "name": "Saer",
+          "guild": "Commit Alpha",
+          "achievement_points": "19650",
+          "level": "70",
+          "class": "Warlock",
+          "race": "Vulpera",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 21158204,
+        "name": "Gorbachev",
+        "username": "Gorbachev-1507857",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-07-26T14:16:18.566Z",
+        "cooked": "<p>Hard disagree on that, for the simple fact that there’s a lot of other things which, narratively, should be still able to be accomplished yet are locked for people who weren’t playing at the time, including the rewards.</p>\n<p>Trivializing an accomplishment that most people of a class didn’t do because of its difficulty (or simply not knowing about it/not caring about it) serves no purpose. The title is a sign of distinction for factors that are no longer at play. If you could guarantee those factors, then I’d be amenable, but if you can trivialize content that was specifically designed to be difficult <em>even at the time</em>, the specific reward provided should be trivialized as well.</p>\n<p>For example, I think Death’s Demise and The Immortal/The Undying are two of the coolest titles in the game, and even though I played OG Wrath, I didn’t get them. It sucks, but I just couldn’t accomplish what needed to be accomplished at the time. It happens. But if I wanted to do those things, I had WoW Classic available. I just don’t/didn’t care enough to go back even when given the opportunity to do so.</p>\n<p>So, unless they can stringently timewalk the questline (which they aren’t going to do), or we make it to Classic Mists, don’t bring back the title unless they do it for all of the other rewards that are no longer available. Sometimes current content <em>should remain</em> current content.</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "posts_count": 15,
+        "updated_at": "2023-07-26T14:16:18.566Z",
+        "reply_count": 2,
+        "reply_to_post_number": 4,
+        "quote_count": 0,
+        "incoming_link_count": 3,
+        "reads": 59,
+        "readers_count": 58,
+        "score": 66.8,
+        "yours": false,
+        "topic_id": 1637194,
+        "topic_slug": "please-make-codex-of-xerrath-account-wide",
+        "display_username": "Gorbachev",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 57913,
+          "username": "Baal531-57913",
+          "name": "Baal531",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1507857,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/kaelthas/gorbachev/",
+          "race": "Human",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "guild": "Guardians of Eternity",
+          "level": "80",
+          "achievement_points": "22590",
+          "blizzard_post_count": "157"
+        },
+        "post_url": "/t/please-make-codex-of-xerrath-account-wide/1637194/8",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/kaelthas/151/232699031-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Gorbachev-kaelthas",
+        "poster_alias": {
+          "alias": {
+            "name": "Gorbachev-kaelthas",
+            "avatar": "https://render.worldofwarcraft.com/us/character/kaelthas/151/232699031-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/kaelthas/gorbachev/",
+            "user_id": 1507857,
+            "id": 579661,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 157,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/kaelthas/gorbachev/"
+              },
+              {
+                "name": "realm",
+                "value": "Kael'thas"
+              },
+              {
+                "name": "achievement_points",
+                "value": "23920"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/kaelthas/151/232699031-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Gorbachev-kaelthas"
+              },
+              {
+                "name": "guild",
+                "value": "Guardians of Eternity"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 433571,
+          "username": "Baalsamael-turalyon",
+          "name": "Baalsamael",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/turalyon/23/118004503-avatar.jpg?alt=/wow/static/images/2d/avatar/31-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 157,
+        "character": {
+          "name": "Gorbachev",
+          "guild": "Guardians of Eternity",
+          "achievement_points": "22590",
+          "level": "80",
+          "class": "Warlock",
+          "race": "Human",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 21158459,
+        "name": "Baal531",
+        "username": "Baal531-57913",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-07-26T14:36:40.114Z",
+        "cooked": "<p>I do not give a single flying fortified flip lmao</p>\n<p>That mentality is stupid</p>\n<p>One day WoW will die and all your pretentious posturing will be worthless, like sand in water and ash to the wind</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "posts_count": 15,
+        "updated_at": "2023-07-26T14:36:40.114Z",
+        "reply_count": 0,
+        "reply_to_post_number": 8,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 52,
+        "readers_count": 51,
+        "score": 80.4,
+        "yours": false,
+        "topic_id": 1637194,
+        "topic_slug": "please-make-codex-of-xerrath-account-wide",
+        "display_username": "Baal531",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 1507857,
+          "username": "Gorbachev-1507857",
+          "name": "Gorbachev",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 4
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 57913,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Skulls and Krossbones",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/turalyon/baalsamael/",
+          "race": "Zandalari Troll",
+          "level": "80",
+          "achievement_points": "30520",
+          "blizzard_post_count": "13293"
+        },
+        "post_url": "/t/please-make-codex-of-xerrath-account-wide/1637194/9",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/turalyon/23/118004503-avatar.jpg?alt=/wow/static/images/2d/avatar/31-0.jpg",
+        "alias_username": "Baalsamael-turalyon",
+        "poster_alias": {
+          "alias": {
+            "name": "Baalsamael-turalyon",
+            "avatar": "https://render.worldofwarcraft.com/us/character/turalyon/23/118004503-avatar.jpg?alt=/wow/static/images/2d/avatar/31-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/turalyon/baalsamael/",
+            "user_id": 57913,
+            "id": 433571,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 13299,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/turalyon/baalsamael/"
+              },
+              {
+                "name": "realm",
+                "value": "Turalyon"
+              },
+              {
+                "name": "achievement_points",
+                "value": "33100"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Zandalari Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/turalyon/23/118004503-avatar.jpg?alt=/wow/static/images/2d/avatar/31-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Baalsamael-turalyon"
+              },
+              {
+                "name": "guild",
+                "value": "Skulls and Krossbones"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 579661,
+          "username": "Gorbachev-kaelthas",
+          "name": "Gorbachev",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/kaelthas/151/232699031-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 13293,
+        "character": {
+          "name": "Baal531",
+          "guild": "Skulls and Krossbones",
+          "achievement_points": "30520",
+          "level": "80",
+          "class": "Warlock",
+          "race": "Zandalari Troll",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 21159188,
+        "name": "Zer0ofTime",
+        "username": "Zer0ofTime-309864",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-07-26T15:50:45.280Z",
+        "cooked": "<p>NO, don’t touch it, cause knowing blizz they will remove it from those who already have it and force them to get it again.</p>",
+        "post_number": 10,
+        "post_type": 1,
+        "posts_count": 15,
+        "updated_at": "2023-07-26T15:50:45.280Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 46,
+        "readers_count": 45,
+        "score": 19.2,
+        "yours": false,
+        "topic_id": 1637194,
+        "topic_slug": "please-make-codex-of-xerrath-account-wide",
+        "display_username": "Zer0ofTime",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 309864,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Dragonfly",
+          "race": "Undead",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/wyrmrest-accord/finraziell/",
+          "classic": "t",
+          "level": "90",
+          "achievement_points": "28750",
+          "blizzard_post_count": "2424"
+        },
+        "post_url": "/t/please-make-codex-of-xerrath-account-wide/1637194/10",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/250/140976122-avatar.jpg?alt=/wow/static/images/2d/avatar/5-1.jpg",
+        "alias_username": "Finraziell-wyrmrest-accord",
+        "poster_alias": {
+          "alias": {
+            "name": "Finraziell-wyrmrest-accord",
+            "avatar": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/250/140976122-avatar.jpg?alt=/wow/static/images/2d/avatar/5-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/wyrmrest-accord/finraziell/",
+            "user_id": 309864,
+            "id": 429633,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 2172,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/wyrmrest-accord/finraziell/"
+              },
+              {
+                "name": "realm",
+                "value": "Wyrmrest Accord"
+              },
+              {
+                "name": "achievement_points",
+                "value": "31880"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Undead"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/250/140976122-avatar.jpg?alt=/wow/static/images/2d/avatar/5-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Finraziell-wyrmrest-accord"
+              },
+              {
+                "name": "guild",
+                "value": "Dragonfly"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 2424,
+        "character": {
+          "name": "Zer0ofTime",
+          "guild": "Dragonfly",
+          "achievement_points": "28750",
+          "level": "90",
+          "class": "Warlock",
+          "race": "Undead",
+          "player_class_enum": "WARLOCK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 21159676,
+        "name": "Baal531",
+        "username": "Baal531-57913",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-07-26T16:32:39.543Z",
+        "cooked": "<p>Again with your irrational conspiracy theories</p>",
+        "post_number": 11,
+        "post_type": 1,
+        "posts_count": 15,
+        "updated_at": "2023-07-26T16:32:39.543Z",
+        "reply_count": 1,
+        "reply_to_post_number": 10,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 45,
+        "readers_count": 44,
+        "score": 14.0,
+        "yours": false,
+        "topic_id": 1637194,
+        "topic_slug": "please-make-codex-of-xerrath-account-wide",
+        "display_username": "Baal531",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 309864,
+          "username": "Zer0ofTime-309864",
+          "name": "Zer0ofTime",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 57913,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Skulls and Krossbones",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/turalyon/baalsamael/",
+          "race": "Zandalari Troll",
+          "level": "80",
+          "achievement_points": "30520",
+          "blizzard_post_count": "13293"
+        },
+        "post_url": "/t/please-make-codex-of-xerrath-account-wide/1637194/11",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/turalyon/23/118004503-avatar.jpg?alt=/wow/static/images/2d/avatar/31-0.jpg",
+        "alias_username": "Baalsamael-turalyon",
+        "poster_alias": {
+          "alias": {
+            "name": "Baalsamael-turalyon",
+            "avatar": "https://render.worldofwarcraft.com/us/character/turalyon/23/118004503-avatar.jpg?alt=/wow/static/images/2d/avatar/31-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/turalyon/baalsamael/",
+            "user_id": 57913,
+            "id": 433571,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 13299,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/turalyon/baalsamael/"
+              },
+              {
+                "name": "realm",
+                "value": "Turalyon"
+              },
+              {
+                "name": "achievement_points",
+                "value": "33100"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Zandalari Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/turalyon/23/118004503-avatar.jpg?alt=/wow/static/images/2d/avatar/31-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Baalsamael-turalyon"
+              },
+              {
+                "name": "guild",
+                "value": "Skulls and Krossbones"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 429633,
+          "username": "Finraziell-wyrmrest-accord",
+          "name": "Finraziell",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/250/140976122-avatar.jpg?alt=/wow/static/images/2d/avatar/5-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 13293,
+        "character": {
+          "name": "Baal531",
+          "guild": "Skulls and Krossbones",
+          "achievement_points": "30520",
+          "level": "80",
+          "class": "Warlock",
+          "race": "Zandalari Troll",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 21160623,
+        "name": "Zer0ofTime",
+        "username": "Zer0ofTime-309864",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-07-26T18:19:31.732Z",
+        "cooked": "<p>Proven theories, or how quickly you forget what productive locks have gone through this patch already?</p>",
+        "post_number": 12,
+        "post_type": 1,
+        "posts_count": 15,
+        "updated_at": "2023-07-26T18:19:31.732Z",
+        "reply_count": 0,
+        "reply_to_post_number": 11,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 44,
+        "readers_count": 43,
+        "score": 8.8,
+        "yours": false,
+        "topic_id": 1637194,
+        "topic_slug": "please-make-codex-of-xerrath-account-wide",
+        "display_username": "Zer0ofTime",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 57913,
+          "username": "Baal531-57913",
+          "name": "Baal531",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 309864,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Dragonfly",
+          "race": "Undead",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/wyrmrest-accord/finraziell/",
+          "classic": "t",
+          "level": "90",
+          "achievement_points": "28750",
+          "blizzard_post_count": "2424"
+        },
+        "post_url": "/t/please-make-codex-of-xerrath-account-wide/1637194/12",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/250/140976122-avatar.jpg?alt=/wow/static/images/2d/avatar/5-1.jpg",
+        "alias_username": "Finraziell-wyrmrest-accord",
+        "poster_alias": {
+          "alias": {
+            "name": "Finraziell-wyrmrest-accord",
+            "avatar": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/250/140976122-avatar.jpg?alt=/wow/static/images/2d/avatar/5-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/wyrmrest-accord/finraziell/",
+            "user_id": 309864,
+            "id": 429633,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 2172,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/wyrmrest-accord/finraziell/"
+              },
+              {
+                "name": "realm",
+                "value": "Wyrmrest Accord"
+              },
+              {
+                "name": "achievement_points",
+                "value": "31880"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Undead"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/250/140976122-avatar.jpg?alt=/wow/static/images/2d/avatar/5-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Finraziell-wyrmrest-accord"
+              },
+              {
+                "name": "guild",
+                "value": "Dragonfly"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 433571,
+          "username": "Baalsamael-turalyon",
+          "name": "Baalsamael",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/turalyon/23/118004503-avatar.jpg?alt=/wow/static/images/2d/avatar/31-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 2424,
+        "character": {
+          "name": "Zer0ofTime",
+          "guild": "Dragonfly",
+          "achievement_points": "28750",
+          "level": "90",
+          "class": "Warlock",
+          "race": "Undead",
+          "player_class_enum": "WARLOCK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 21172418,
+        "name": "Saer",
+        "username": "Saer-2253979",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-07-28T04:52:47.743Z",
+        "cooked": "<p>There is a difference between “making something trivial” and letting people use a <em><strong>cosmetic feature</strong></em> that has been unique to those who unlocked for ~15 years.</p>",
+        "post_number": 13,
+        "post_type": 1,
+        "posts_count": 15,
+        "updated_at": "2023-07-28T04:52:47.743Z",
+        "reply_count": 0,
+        "reply_to_post_number": 8,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 40,
+        "readers_count": 39,
+        "score": 13.0,
+        "yours": false,
+        "topic_id": 1637194,
+        "topic_slug": "please-make-codex-of-xerrath-account-wide",
+        "display_username": "Saer",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 1507857,
+          "username": "Gorbachev-1507857",
+          "name": "Gorbachev",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2253979,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/kiljaeden/saeshal/",
+          "race": "Vulpera",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "level": "70",
+          "guild": "Commit Alpha",
+          "achievement_points": "19650",
+          "blizzard_post_count": "889"
+        },
+        "post_url": "/t/please-make-codex-of-xerrath-account-wide/1637194/13",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/kiljaeden/184/238868664-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg",
+        "alias_username": "Saeshal-kiljaeden",
+        "poster_alias": {
+          "alias": {
+            "name": "Saeshal-kiljaeden",
+            "avatar": "https://render.worldofwarcraft.com/us/character/kiljaeden/184/238868664-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/kiljaeden/saeshal/",
+            "user_id": 2253979,
+            "id": 139641,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 517,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/kiljaeden/saeshal/"
+              },
+              {
+                "name": "realm",
+                "value": "Kil'jaeden"
+              },
+              {
+                "name": "achievement_points",
+                "value": "20385"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Vulpera"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/kiljaeden/184/238868664-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Saeshal-kiljaeden"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 579661,
+          "username": "Gorbachev-kaelthas",
+          "name": "Gorbachev",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/kaelthas/151/232699031-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 889,
+        "character": {
+          "name": "Saer",
+          "guild": "Commit Alpha",
+          "achievement_points": "19650",
+          "level": "70",
+          "class": "Warlock",
+          "race": "Vulpera",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 21174891,
+        "name": "Springfoot",
+        "username": "Springfoot-68810",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-07-28T16:37:28.998Z",
+        "cooked": "<p>Not looking forward to doing the whole instance thing on my new warlock, but eh, might be kinda fun.</p>\n<p>At least she still gets the Black Harvest title, regardless.</p>",
+        "post_number": 14,
+        "post_type": 1,
+        "posts_count": 15,
+        "updated_at": "2023-07-28T16:37:28.998Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 5,
+        "reads": 35,
+        "readers_count": 34,
+        "score": 32.0,
+        "yours": false,
+        "topic_id": 1637194,
+        "topic_slug": "please-make-codex-of-xerrath-account-wide",
+        "display_username": "Springfoot",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 68810,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "The Man",
+          "race": "Undead",
+          "class": "Warrior",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/emerald-dream/dan/",
+          "player_class_enum": "WARRIOR",
+          "blizzard_post_count": "7550",
+          "level": "67",
+          "achievement_points": "24650"
+        },
+        "post_url": "/t/please-make-codex-of-xerrath-account-wide/1637194/14",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/emerald-dream/194/83932610-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+        "alias_username": "Dan-emerald-dream",
+        "poster_alias": {
+          "alias": {
+            "name": "Dan-emerald-dream",
+            "avatar": "https://render.worldofwarcraft.com/us/character/emerald-dream/194/83932610-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+            "url": null,
+            "user_id": 68810,
+            "id": 426413,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 7550,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/emerald-dream/dan/"
+              },
+              {
+                "name": "realm",
+                "value": "Emerald Dream"
+              },
+              {
+                "name": "achievement_points",
+                "value": "24650"
+              },
+              {
+                "name": "level",
+                "value": "67"
+              },
+              {
+                "name": "race",
+                "value": "Undead"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/emerald-dream/194/83932610-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Dan-emerald-dream"
+              },
+              {
+                "name": "guild",
+                "value": "The Man"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 7550,
+        "character": {
+          "name": "Springfoot",
+          "guild": "The Man",
+          "achievement_points": "24650",
+          "level": "67",
+          "class": "Warrior",
+          "race": "Undead",
+          "player_class_enum": "WARRIOR",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 21246642,
+        "name": "Thorium232",
+        "username": "Thorium232-2863671",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2023-08-07T16:29:10.673Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Saeshal-kiljaeden\" data-post=\"7\" data-topic=\"1637194\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/us/character/kiljaeden/184/238868664-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg\" class=\"avatar\"> Saeshal:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>Blue fire would be awesome</p>\n</blockquote>\n</aside>\n<p>Yeah, that infernal customization looks pretty sweet. I’m still mad they took permanent infernals from us after Legion.</p>",
+        "post_number": 16,
+        "post_type": 1,
+        "posts_count": 15,
+        "updated_at": "2026-07-03T20:01:19.669Z",
+        "reply_count": 0,
+        "reply_to_post_number": 7,
+        "quote_count": 1,
+        "incoming_link_count": 2,
+        "reads": 25,
+        "readers_count": 24,
+        "score": 15.0,
+        "yours": false,
+        "topic_id": 1637194,
+        "topic_slug": "please-make-codex-of-xerrath-account-wide",
+        "display_username": "Thorium232",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2863671,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/earthen-ring/xalibeth/",
+          "guild": "Dharma Initiatïve",
+          "race": "Blood Elf",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "level": "80",
+          "blizzard_post_count": "31",
+          "achievement_points": "15375"
+        },
+        "post_url": "/t/please-make-codex-of-xerrath-account-wide/1637194/16",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/thorium-brotherhood/72/240806728-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Kaethleah-thorium-brotherhood",
+        "poster_alias": {
+          "alias": {
+            "name": "Kaethleah-thorium-brotherhood",
+            "avatar": "https://render.worldofwarcraft.com/us/character/thorium-brotherhood/72/240806728-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/thorium-brotherhood/kaethleah/",
+            "user_id": 2863671,
+            "id": 697299,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 615,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/thorium-brotherhood/kaethleah/"
+              },
+              {
+                "name": "realm",
+                "value": "Thorium Brotherhood"
+              },
+              {
+                "name": "achievement_points",
+                "value": "15345"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/thorium-brotherhood/72/240806728-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Kaethleah-thorium-brotherhood"
+              },
+              {
+                "name": "guild",
+                "value": "Exsanguinate Brotherhood"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 31,
+        "character": {
+          "name": "Thorium232",
+          "guild": "Dharma Initiatïve",
+          "achievement_points": "15375",
+          "level": "80",
+          "class": "Warlock",
+          "race": "Blood Elf",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ],
+    "stream": [
+      21128579,
+      21128587,
+      21128592,
+      21128807,
+      21128846,
+      21128855,
+      21128859,
+      21158204,
+      21158459,
+      21159188,
+      21159676,
+      21160623,
+      21172418,
+      21174891,
+      21246642
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      1145
+    ],
+    [
+      8,
+      1141
+    ],
+    [
+      13,
+      1139
+    ],
+    [
+      15,
+      1129
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "fancy_title": "Haunt cooldown reset and target swapping are unreliable in Mythic+",
+      "id": 2342072,
+      "title": "Haunt cooldown reset and target swapping are unreliable in Mythic+",
+      "slug": "haunt-cooldown-reset-and-target-swapping-are-unreliable-in-mythic",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2026-08-28T07:15:59.614Z",
+      "last_posted_at": "2026-08-28T07:15:59.774Z",
+      "bumped": true,
+      "bumped_at": "2026-08-28T07:15:59.774Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Haunt cooldown reset and target swapping are unreliable in Mythic+\nWhere we are\nHaunt is a core rotational spell that identifies Affliction’s priority target. \nIn the current 12.1 build: \n\nHaunt has a 15-second cooldown &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 92,
+      "category_id": 185,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 3397538,
+            "username": "Gowu-3397538",
+            "name": "Gowu",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Aff DMG Much Too Low",
+      "id": 2339677,
+      "title": "Aff DMG Much Too Low",
+      "slug": "aff-dmg-much-too-low",
+      "posts_count": 5,
+      "reply_count": 3,
+      "highest_post_number": 5,
+      "image_url": null,
+      "created_at": "2026-08-21T18:07:38.881Z",
+      "last_posted_at": "2026-08-22T08:55:09.758Z",
+      "bumped": true,
+      "bumped_at": "2026-08-22T08:55:09.758Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Affliction DMG is considerably lower than other classes. We need tuning bad.  Please dont foget us",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 9,
+      "views": 419,
+      "category_id": 185,
+      "featured_link": null,
+      "op_like_count": 6,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 2965018,
+            "username": "Nixor-2965018",
+            "name": "Nixor",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 15754,
+            "username": "Lethal-15754",
+            "name": "Lethal",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 43430,
+            "username": "Auss-43430",
+            "name": "Auss",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Are you guys like the Midnight UA change?",
+      "id": 2339252,
+      "title": "Are you guys like the Midnight UA change?",
+      "slug": "are-you-guys-like-the-midnight-ua-change",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2026-08-20T17:47:28.449Z",
+      "last_posted_at": "2026-08-20T17:47:28.549Z",
+      "bumped": true,
+      "bumped_at": "2026-08-20T17:47:28.549Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Ive made my way through my alts to my warlock and im leveling her up. Are you guys happy with the UA changes this expansion? \nI feel like im constantly using UA, and to that end, it doesn’t feel like a DoT spec because o&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 142,
+      "category_id": 185,
+      "featured_link": null,
+      "op_like_count": 1,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 493997,
+            "username": "FoxandLion-493997",
+            "name": "FoxandLion",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Revert the affliciton Nightfall fail change",
+      "id": 2340618,
+      "title": "Revert the affliciton Nightfall fail change",
+      "slug": "revert-the-affliciton-nightfall-fail-change",
+      "posts_count": 3,
+      "reply_count": 1,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2026-08-24T17:01:19.869Z",
+      "last_posted_at": "2026-08-25T00:50:14.248Z",
+      "bumped": true,
+      "bumped_at": "2026-08-25T00:50:14.248Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Affliction felt so much better before \nnow the flow feels awful",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 151,
+      "category_id": 185,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 2376167,
+            "username": "Augdog-bleeding-hollow",
+            "name": null,
+            "avatar_template": "https://render.worldofwarcraft.com/us/character/bleeding-hollow/233/253211369-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+            "trust_level": 1,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2299587,
+            "username": "Helgraves-2299587",
+            "name": "Helgraves",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 43430,
+            "username": "Auss-43430",
+            "name": "Auss",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "How is Soul Link still broken after all these xpacs and patches?",
+      "id": 2342245,
+      "title": "How is Soul Link still broken after all these xpacs and patches?",
+      "slug": "how-is-soul-link-still-broken-after-all-these-xpacs-and-patches",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2026-08-28T19:34:20.362Z",
+      "last_posted_at": "2026-08-29T02:50:23.886Z",
+      "bumped": true,
+      "bumped_at": "2026-08-29T02:50:23.886Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Can you please get anything right?",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 151,
+      "category_id": 185,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 309864,
+            "username": "Zer0ofTime-309864",
+            "name": "Zer0ofTime",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 271638,
+            "username": "Wurmfuud-271638",
+            "name": "Wurmfuud",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 3271109,
+            "username": "Bobertj-3271109",
+            "name": "Bobertj",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    }
+  ],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "Please make Codex of Xerrath Account-Wide",
+  "id": 1637194,
+  "title": "Please make Codex of Xerrath Account-Wide",
+  "posts_count": 15,
+  "created_at": "2023-07-22T16:57:10.887Z",
+  "views": 954,
+  "reply_count": 11,
+  "like_count": 22,
+  "last_posted_at": "2023-08-07T16:29:10.673Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "please-make-codex-of-xerrath-account-wide",
+  "category_id": 185,
+  "word_count": 719,
+  "deleted_at": null,
+  "user_id": 2253979,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_1637194",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 16,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 1001,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1002,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1003,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1004,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1005,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 7,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 2253979,
+        "username": "Saer-2253979",
+        "name": "Saer",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 5,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Saeshal-kiljaeden",
+            "avatar": "https://render.worldofwarcraft.com/us/character/kiljaeden/184/238868664-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/kiljaeden/saeshal/",
+            "user_id": 2253979,
+            "id": 139641,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 517,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/kiljaeden/saeshal/"
+              },
+              {
+                "name": "realm",
+                "value": "Kil'jaeden"
+              },
+              {
+                "name": "achievement_points",
+                "value": "20385"
+              },
+              {
+                "name": "level",
+                "value": "70"
+              },
+              {
+                "name": "race",
+                "value": "Vulpera"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/kiljaeden/184/238868664-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Saeshal-kiljaeden"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 57913,
+        "username": "Baal531-57913",
+        "name": "Baal531",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 4,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Baalsamael-turalyon",
+            "avatar": "https://render.worldofwarcraft.com/us/character/turalyon/23/118004503-avatar.jpg?alt=/wow/static/images/2d/avatar/31-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/turalyon/baalsamael/",
+            "user_id": 57913,
+            "id": 433571,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 13299,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/turalyon/baalsamael/"
+              },
+              {
+                "name": "realm",
+                "value": "Turalyon"
+              },
+              {
+                "name": "achievement_points",
+                "value": "33100"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Zandalari Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/turalyon/23/118004503-avatar.jpg?alt=/wow/static/images/2d/avatar/31-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Baalsamael-turalyon"
+              },
+              {
+                "name": "guild",
+                "value": "Skulls and Krossbones"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 309864,
+        "username": "Zer0ofTime-309864",
+        "name": "Zer0ofTime",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Finraziell-wyrmrest-accord",
+            "avatar": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/250/140976122-avatar.jpg?alt=/wow/static/images/2d/avatar/5-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/wyrmrest-accord/finraziell/",
+            "user_id": 309864,
+            "id": 429633,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 2172,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/wyrmrest-accord/finraziell/"
+              },
+              {
+                "name": "realm",
+                "value": "Wyrmrest Accord"
+              },
+              {
+                "name": "achievement_points",
+                "value": "31880"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Undead"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/250/140976122-avatar.jpg?alt=/wow/static/images/2d/avatar/5-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Finraziell-wyrmrest-accord"
+              },
+              {
+                "name": "guild",
+                "value": "Dragonfly"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 68810,
+        "username": "Springfoot-68810",
+        "name": "Springfoot",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Dan-emerald-dream",
+            "avatar": "https://render.worldofwarcraft.com/us/character/emerald-dream/194/83932610-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+            "url": null,
+            "user_id": 68810,
+            "id": 426413,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 7550,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/emerald-dream/dan/"
+              },
+              {
+                "name": "realm",
+                "value": "Emerald Dream"
+              },
+              {
+                "name": "achievement_points",
+                "value": "24650"
+              },
+              {
+                "name": "level",
+                "value": "67"
+              },
+              {
+                "name": "race",
+                "value": "Undead"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/emerald-dream/194/83932610-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Dan-emerald-dream"
+              },
+              {
+                "name": "guild",
+                "value": "The Man"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 1855052,
+        "username": "Dragula-1855052",
+        "name": "Dragula",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Fuzzbutt-zuljin",
+            "avatar": "https://render.worldofwarcraft.com/us/character/zuljin/205/199646413-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/zuljin/fuzzbutt/",
+            "user_id": 1855052,
+            "id": 426187,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 25571,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/zuljin/fuzzbutt/"
+              },
+              {
+                "name": "realm",
+                "value": "Zul'jin"
+              },
+              {
+                "name": "achievement_points",
+                "value": "31545"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Vulpera"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/zuljin/205/199646413-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Fuzzbutt-zuljin"
+              },
+              {
+                "name": "guild",
+                "value": "Fuzzy Wuzzy UwU"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 1507857,
+        "username": "Gorbachev-1507857",
+        "name": "Gorbachev",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Gorbachev-kaelthas",
+            "avatar": "https://render.worldofwarcraft.com/us/character/kaelthas/151/232699031-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/kaelthas/gorbachev/",
+            "user_id": 1507857,
+            "id": 579661,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 157,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/kaelthas/gorbachev/"
+              },
+              {
+                "name": "realm",
+                "value": "Kael'thas"
+              },
+              {
+                "name": "achievement_points",
+                "value": "23920"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/kaelthas/151/232699031-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Gorbachev-kaelthas"
+              },
+              {
+                "name": "guild",
+                "value": "Guardians of Eternity"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 2863671,
+        "username": "Thorium232-2863671",
+        "name": "Thorium232",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Kaethleah-thorium-brotherhood",
+            "avatar": "https://render.worldofwarcraft.com/us/character/thorium-brotherhood/72/240806728-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/thorium-brotherhood/kaethleah/",
+            "user_id": 2863671,
+            "id": 697299,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 615,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/thorium-brotherhood/kaethleah/"
+              },
+              {
+                "name": "realm",
+                "value": "Thorium Brotherhood"
+              },
+              {
+                "name": "achievement_points",
+                "value": "15345"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/thorium-brotherhood/72/240806728-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Kaethleah-thorium-brotherhood"
+              },
+              {
+                "name": "guild",
+                "value": "Exsanguinate Brotherhood"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      }
+    ],
+    "created_by": {
+      "id": 2253979,
+      "username": "Saer-2253979",
+      "name": "Saer",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    },
+    "last_poster": {
+      "id": 2863671,
+      "username": "Thorium232-2863671",
+      "name": "Thorium232",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    }
+  },
+  "bookmarks": [],
+  "jogo": "World of Warcraft",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Oficial Blizzard",
+  "url_fonte": "https://us.forums.blizzard.com/en/wow/t/please-make-codex-of-xerrath-account-wide/1637194",
+  "canonical_url": "https://us.forums.blizzard.com/en/wow/t/please-make-codex-of-xerrath-account-wide/1637194"
+}

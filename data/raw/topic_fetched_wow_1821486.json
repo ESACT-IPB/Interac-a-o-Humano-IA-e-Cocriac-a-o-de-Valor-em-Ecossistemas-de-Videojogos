@@ -1,0 +1,1417 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 23275450,
+        "name": null,
+        "username": "anon63184095",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-04-02T18:12:50.513Z",
+        "cooked": "<p>Mr. Hight,<br>\nI just saw an article where you mentioned that machine learning is used in WoW to help reduce busy work. That’s awesome to see Blizzard taking a pro-active stance on new technology.</p>\n<p>Do you think that machine learning could be used to stop moving players to other shards when they are in the middle of a multi-step zone event?</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 5,
+        "updated_at": "2024-04-02T18:12:50.513Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 19,
+        "reads": 29,
+        "readers_count": 28,
+        "score": 115.8,
+        "yours": false,
+        "topic_id": 1821486,
+        "topic_slug": "mr-hight-re-machine-learning",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2741335,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "blizzard_post_count": "0"
+        },
+        "post_url": "/t/mr-hight-re-machine-learning/1821486/1",
+        "alias_avatar": null,
+        "alias_username": null,
+        "poster_alias": null,
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 0,
+        "character": {
+          "name": "anon63184095",
+          "guild": null,
+          "achievement_points": null,
+          "level": null,
+          "class": null,
+          "race": null,
+          "player_class_enum": null,
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 23275487,
+        "name": "Atomicpanda",
+        "username": "Atomicpanda-18098",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-04-02T18:15:09.361Z",
+        "cooked": "<p>Funny how now that they’re using AI all new content is a buggy mess.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 5,
+        "updated_at": "2024-04-02T18:15:09.361Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 28,
+        "readers_count": 27,
+        "score": 30.6,
+        "yours": false,
+        "topic_id": 1821486,
+        "topic_slug": "mr-hight-re-machine-learning",
+        "display_username": "Atomicpanda",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 18098,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Invaders of the Pass",
+          "race": "Nightborne",
+          "class": "Monk",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/eldrethalas/peppermint/",
+          "player_class_enum": "MONK",
+          "level": "80",
+          "achievement_points": "24050",
+          "blizzard_post_count": "12016"
+        },
+        "post_url": "/t/mr-hight-re-machine-learning/1821486/2",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/eldrethalas/253/157610493-avatar.jpg?alt=/wow/static/images/2d/avatar/27-1.jpg",
+        "alias_username": "Peppermint-eldrethalas",
+        "poster_alias": {
+          "alias": {
+            "name": "Peppermint-eldrethalas",
+            "avatar": "https://render.worldofwarcraft.com/us/character/eldrethalas/253/157610493-avatar.jpg?alt=/wow/static/images/2d/avatar/27-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/eldrethalas/peppermint/",
+            "user_id": 18098,
+            "id": 433443,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 11460,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/eldrethalas/peppermint/"
+              },
+              {
+                "name": "realm",
+                "value": "Eldre'Thalas"
+              },
+              {
+                "name": "achievement_points",
+                "value": "25965"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Nightborne"
+              },
+              {
+                "name": "player_class",
+                "value": "Monk"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MONK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/eldrethalas/253/157610493-avatar.jpg?alt=/wow/static/images/2d/avatar/27-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Peppermint-eldrethalas"
+              },
+              {
+                "name": "guild",
+                "value": "Invaders of the Pass"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 12016,
+        "character": {
+          "name": "Atomicpanda",
+          "guild": "Invaders of the Pass",
+          "achievement_points": "24050",
+          "level": "80",
+          "class": "Monk",
+          "race": "Nightborne",
+          "player_class_enum": "MONK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 23275522,
+        "name": "Johnay",
+        "username": "Johnay-2078117",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-04-02T18:17:47.690Z",
+        "cooked": "<p>Yeah. WoW content being buggy is a new development.</p>\n<p><img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/slight_smile.png?v=12\" title=\":slight_smile:\" class=\"emoji only-emoji\" alt=\":slight_smile:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 5,
+        "updated_at": "2024-04-02T18:17:47.690Z",
+        "reply_count": 0,
+        "reply_to_post_number": 2,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 26,
+        "readers_count": 25,
+        "score": 20.2,
+        "yours": false,
+        "topic_id": 1821486,
+        "topic_slug": "mr-hight-re-machine-learning",
+        "display_username": "Johnay",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 18098,
+          "username": "Atomicpanda-18098",
+          "name": "Atomicpanda",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2078117,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/galedron/",
+          "guild": "School Free Drug Zone",
+          "race": "Nightborne",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "level": "80",
+          "achievement_points": "10585",
+          "blizzard_post_count": "15079"
+        },
+        "post_url": "/t/mr-hight-re-machine-learning/1821486/3",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/area-52/129/231372929-avatar.jpg?alt=/wow/static/images/2d/avatar/27-0.jpg",
+        "alias_username": "Galedron-area-52",
+        "poster_alias": {
+          "alias": {
+            "name": "Galedron-area-52",
+            "avatar": "https://render.worldofwarcraft.com/us/character/area-52/129/231372929-avatar.jpg?alt=/wow/static/images/2d/avatar/27-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/area-52/galedron/",
+            "user_id": 2078117,
+            "id": 426960,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 6891,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/area-52/galedron/"
+              },
+              {
+                "name": "realm",
+                "value": "Area 52"
+              },
+              {
+                "name": "achievement_points",
+                "value": "11885"
+              },
+              {
+                "name": "level",
+                "value": "81"
+              },
+              {
+                "name": "race",
+                "value": "Nightborne"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/area-52/129/231372929-avatar.jpg?alt=/wow/static/images/2d/avatar/27-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Galedron-area-52"
+              },
+              {
+                "name": "guild",
+                "value": "School Free Drug Zone"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 433443,
+          "username": "Peppermint-eldrethalas",
+          "name": "Peppermint",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/eldrethalas/253/157610493-avatar.jpg?alt=/wow/static/images/2d/avatar/27-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 15079,
+        "character": {
+          "name": "Johnay",
+          "guild": "School Free Drug Zone",
+          "achievement_points": "10585",
+          "level": "80",
+          "class": "Hunter",
+          "race": "Nightborne",
+          "player_class_enum": "HUNTER",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 23275631,
+        "name": "CutiePi",
+        "username": "CutiePi-2727634",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-04-02T18:27:45.297Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"anon63184095\" data-post=\"1\" data-topic=\"1821486\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png\" class=\"avatar\"> anon63184095:</div>\n<blockquote>\n<p>Do you think that machine learning could be used to stop moving players to other shards when they are in the middle of a multi-step zone event?</p>\n</blockquote>\n</aside>\n<p>I think maybe a simple if statement could do that. If(scenario mode not active){do sharding method or whatever it is}</p>\n<p>Machine learning is often overkill, if you can do it yourself with 100% accuracy, there’s no need to create and train a model with possibly lower accuracy.</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 5,
+        "updated_at": "2026-06-19T04:39:15.442Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 18,
+        "readers_count": 17,
+        "score": 18.6,
+        "yours": false,
+        "topic_id": 1821486,
+        "topic_slug": "mr-hight-re-machine-learning",
+        "display_username": "CutiePi",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2727634,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/elmisha/",
+          "race": "Dracthyr",
+          "class": "Evoker",
+          "player_class_enum": "EVOKER",
+          "guild": "Loves Gold",
+          "achievement_points": "26515",
+          "level": "73",
+          "blizzard_post_count": "48571"
+        },
+        "post_url": "/t/mr-hight-re-machine-learning/1821486/4",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/velen/101/136113765-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+        "alias_username": "Rita",
+        "poster_alias": {
+          "alias": {
+            "name": "Rita",
+            "avatar": "https://render.worldofwarcraft.com/us/character/velen/101/136113765-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/velen/rita/",
+            "user_id": 2727634,
+            "id": 2418128,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 21087,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/velen/rita/"
+              },
+              {
+                "name": "realm",
+                "value": "Velen"
+              },
+              {
+                "name": "achievement_points",
+                "value": "26330"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Priest"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PRIEST"
+              },
+              {
+                "name": "guild",
+                "value": "Loves Gold"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 48571,
+        "character": {
+          "name": "CutiePi",
+          "guild": "Loves Gold",
+          "achievement_points": "26515",
+          "level": "73",
+          "class": "Evoker",
+          "race": "Dracthyr",
+          "player_class_enum": "EVOKER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 23275945,
+        "name": "eightbit",
+        "username": "eightbit-2783247",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-04-02T18:50:44.164Z",
+        "cooked": "<p>AI could help with up-rezzing some of the ancient pixelated textures.</p>\n<p>And could be handy to add voice lines for races/NPCs when the original VA is dead or sounds very different 15 years later. Like a tauren DH would need a generated “not enough fury” error speech because that was never recorded back in the day.</p>\n<p>For writing or things that I suspect he means are “busy work”? Hellll no. AI has two settings: boring and accurate, or bafflingly wrong.</p>",
+        "post_number": 5,
+        "post_type": 1,
+        "posts_count": 5,
+        "updated_at": "2026-06-28T18:46:21.989Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 12,
+        "readers_count": 11,
+        "score": 7.4,
+        "yours": false,
+        "topic_id": 1821486,
+        "topic_slug": "mr-hight-re-machine-learning",
+        "display_username": "eightbit",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2783247,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/the-venture-co/splints/",
+          "race": "Gnome",
+          "class": "Monk",
+          "player_class_enum": "MONK",
+          "level": "67",
+          "guild": "The Order of Tyranny",
+          "achievement_points": "51440",
+          "blizzard_post_count": "9513"
+        },
+        "post_url": "/t/mr-hight-re-machine-learning/1821486/5",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/azuresong/206/53598158-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg",
+        "alias_username": "Iribel",
+        "poster_alias": {
+          "alias": {
+            "name": "Iribel",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/azuresong/206/53598158-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg",
+            "url": null,
+            "user_id": 2783247,
+            "id": 2504446,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 580,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Azuresong"
+              },
+              {
+                "name": "achievement_points",
+                "value": "100"
+              },
+              {
+                "name": "level",
+                "value": "59"
+              },
+              {
+                "name": "race",
+                "value": "Draenei"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 9513,
+        "character": {
+          "name": "eightbit",
+          "guild": "The Order of Tyranny",
+          "achievement_points": "51440",
+          "level": "67",
+          "class": "Monk",
+          "race": "Gnome",
+          "player_class_enum": "MONK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ],
+    "stream": [
+      23275450,
+      23275487,
+      23275522,
+      23275631,
+      23275945
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      890
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "fancy_title": "What is the point of kicking someone at the last boss?",
+      "id": 2342686,
+      "title": "What is the point of kicking someone at the last boss?",
+      "slug": "what-is-the-point-of-kicking-someone-at-the-last-boss",
+      "posts_count": 88,
+      "reply_count": 53,
+      "highest_post_number": 91,
+      "image_url": null,
+      "created_at": "2026-08-29T23:36:18.540Z",
+      "last_posted_at": "2026-09-01T01:00:10.093Z",
+      "bumped": true,
+      "bumped_at": "2026-09-01T01:00:10.093Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "I don’t understand this…. \nWhy wait until the last boss to kick a player? \nObviously it has happened to me multiple times - so that means it happens a lot in game to others. But why? What is the point?",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 91,
+      "views": 997,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 3,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3239207,
+            "username": "JBBabalou-3239207",
+            "name": "JBBabalou",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3059015,
+            "username": "MrHoliday-3059015",
+            "name": "MrHoliday",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1608115,
+            "username": "Proffit-1608115",
+            "name": "Proffit",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 294436,
+            "username": "snowberry-294436",
+            "name": "snowberry",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 2943403,
+            "username": "Vini-2943403",
+            "name": "Vini",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "What tank gives the healer the least stress?",
+      "id": 2340007,
+      "title": "What tank gives the healer the least stress?",
+      "slug": "what-tank-gives-the-healer-the-least-stress",
+      "posts_count": 37,
+      "reply_count": 16,
+      "highest_post_number": 37,
+      "image_url": null,
+      "created_at": "2026-08-22T18:13:46.565Z",
+      "last_posted_at": "2026-08-24T21:57:30.393Z",
+      "bumped": true,
+      "bumped_at": "2026-08-24T21:57:30.393Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Coming back after a long time of not playing (Around BFAish) and was wanting to go tank. the thing is I’m completely torn on what tank to play, since they’ve all got their good points and bad. I really don’t care for wha&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 27,
+      "views": 627,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 700104,
+            "username": "Silverline-700104",
+            "name": "Silverline",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 1,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2984122,
+            "username": "emessdoss-2984122",
+            "name": "emessdoss",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2467272,
+            "username": "Tenkae-2467272",
+            "name": "Tenkae",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 271638,
+            "username": "Wurmfuud-271638",
+            "name": "Wurmfuud",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 2408247,
+            "username": "Moksha-2408247",
+            "name": "Moksha",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "I don’t get why delves are so popular",
+      "id": 2339792,
+      "title": "I don’t get why delves are so popular",
+      "slug": "i-don%E2%80%99t-get-why-delves-are-so-popular",
+      "posts_count": 211,
+      "reply_count": 104,
+      "highest_post_number": 214,
+      "image_url": null,
+      "created_at": "2026-08-22T00:03:04.391Z",
+      "last_posted_at": "2026-09-01T19:25:38.166Z",
+      "bumped": true,
+      "bumped_at": "2026-09-01T19:25:38.166Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "They are mind numbing easy and give gear better than normal raids. So you do the normal raid and you already out gear it. Great job?",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "visibility_reason_id": 1,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 880,
+      "views": 2961,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 6,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3205519,
+            "username": "Baelish-3205519",
+            "name": "Baelish",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2687947,
+            "username": "Eccentric909-2687947",
+            "name": "Eccentric909",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2008824,
+            "username": "Ordaine-2008824",
+            "name": "Ordaine",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17567,
+            "username": "Agni-17567",
+            "name": "Agni",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 3138165,
+            "username": "Saevas-3138165",
+            "name": "Saevas",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Whats there to do that last?",
+      "id": 2342329,
+      "title": "Whats there to do that last?",
+      "slug": "whats-there-to-do-that-last",
+      "posts_count": 25,
+      "reply_count": 15,
+      "highest_post_number": 25,
+      "image_url": null,
+      "created_at": "2026-08-28T22:23:27.013Z",
+      "last_posted_at": "2026-08-29T00:06:17.875Z",
+      "bumped": true,
+      "bumped_at": "2026-08-29T00:06:17.875Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "So i come from GW2 where progression means something so like i played wow a few times throughout the years and found myself always having to start over each season so is there any activities that last in wow and im not w&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 10,
+      "views": 169,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 2354556,
+            "username": "NME-2354556",
+            "name": "NME",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 0,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3169329,
+            "username": "Diffracted-3169329",
+            "name": "Diffracted",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2277436,
+            "username": "Thallia-2277436",
+            "name": "Thallia",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1044637,
+            "username": "josephxp-1044637",
+            "name": "josephxp",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2863880,
+            "username": "Lena-2863880",
+            "name": "Lena",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Damage Meters Have Done More Harm Than Good",
+      "id": 2343946,
+      "title": "Damage Meters Have Done More Harm Than Good",
+      "slug": "damage-meters-have-done-more-harm-than-good",
+      "posts_count": 37,
+      "reply_count": 12,
+      "highest_post_number": 37,
+      "image_url": null,
+      "created_at": "2026-09-02T16:58:06.251Z",
+      "last_posted_at": "2026-09-02T22:23:21.377Z",
+      "bumped": true,
+      "bumped_at": "2026-09-02T22:23:21.377Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Damage meters have completely poisoned how people judge performance in WoW. \nPlayers will ignore interrupts, dispels, crowd control, defensives and mechanics as long as their name is near the top of Details. Someone can &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 21,
+      "views": 353,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 1,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 1028570,
+            "username": "Frissburger-1028570",
+            "name": "Frissburger",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 837933,
+            "username": "Akston-837933",
+            "name": "Akston",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 423072,
+            "username": "Aendri-423072",
+            "name": "Aendri",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1531283,
+            "username": "ultimagus-1531283",
+            "name": "ultimagus",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 2257575,
+            "username": "Stuper-2257575",
+            "name": "Stuper",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    }
+  ],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "Mr. Hight re: machine learning",
+  "id": 1821486,
+  "title": "Mr. Hight re: machine learning",
+  "posts_count": 5,
+  "created_at": "2024-04-02T18:12:50.420Z",
+  "views": 134,
+  "reply_count": 1,
+  "like_count": 4,
+  "last_posted_at": "2024-04-02T18:50:44.164Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "mr-hight-re-machine-learning",
+  "category_id": 171,
+  "word_count": 255,
+  "deleted_at": null,
+  "user_id": 2741335,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_1821486",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 5,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 1001,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1002,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1003,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1004,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1005,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 2,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 2078117,
+        "username": "Johnay-2078117",
+        "name": "Johnay",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Galedron-area-52",
+            "avatar": "https://render.worldofwarcraft.com/us/character/area-52/129/231372929-avatar.jpg?alt=/wow/static/images/2d/avatar/27-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/area-52/galedron/",
+            "user_id": 2078117,
+            "id": 426960,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 6891,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/area-52/galedron/"
+              },
+              {
+                "name": "realm",
+                "value": "Area 52"
+              },
+              {
+                "name": "achievement_points",
+                "value": "11885"
+              },
+              {
+                "name": "level",
+                "value": "81"
+              },
+              {
+                "name": "race",
+                "value": "Nightborne"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/area-52/129/231372929-avatar.jpg?alt=/wow/static/images/2d/avatar/27-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Galedron-area-52"
+              },
+              {
+                "name": "guild",
+                "value": "School Free Drug Zone"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 18098,
+        "username": "Atomicpanda-18098",
+        "name": "Atomicpanda",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Peppermint-eldrethalas",
+            "avatar": "https://render.worldofwarcraft.com/us/character/eldrethalas/253/157610493-avatar.jpg?alt=/wow/static/images/2d/avatar/27-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/eldrethalas/peppermint/",
+            "user_id": 18098,
+            "id": 433443,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 11460,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/eldrethalas/peppermint/"
+              },
+              {
+                "name": "realm",
+                "value": "Eldre'Thalas"
+              },
+              {
+                "name": "achievement_points",
+                "value": "25965"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Nightborne"
+              },
+              {
+                "name": "player_class",
+                "value": "Monk"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MONK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/eldrethalas/253/157610493-avatar.jpg?alt=/wow/static/images/2d/avatar/27-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Peppermint-eldrethalas"
+              },
+              {
+                "name": "guild",
+                "value": "Invaders of the Pass"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      }
+    ],
+    "created_by": {
+      "id": 2741335,
+      "username": "anon63184095",
+      "name": null,
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    },
+    "last_poster": {
+      "id": 2783247,
+      "username": "eightbit-2783247",
+      "name": "eightbit",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    }
+  },
+  "bookmarks": [],
+  "jogo": "World of Warcraft",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Oficial Blizzard",
+  "url_fonte": "https://us.forums.blizzard.com/en/wow/t/mr-hight-re-machine-learning/1821486",
+  "canonical_url": "https://us.forums.blizzard.com/en/wow/t/mr-hight-re-machine-learning/1821486"
+}

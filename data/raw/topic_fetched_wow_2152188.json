@@ -1,0 +1,487 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 27512171,
+        "name": null,
+        "username": "Tisuri-mankrik",
+        "avatar_template": "https://render.worldofwarcraft.com/classic-us/character/mankrik/116/96486516-avatar.jpg?alt=/wow/static/images/2d/avatar/5-1.jpg",
+        "created_at": "2025-08-18T17:18:47.157Z",
+        "cooked": "<p>I was having trouble with my Ghostclaw Lynx’s action bar. The cat’s skills (Dash, Heart of the Phoenix  Growl, Rabid, Claw, Prowl, Roar of Courage, etc) would vanish off the bar whenever I would mount up, unmount, phase, summon, dismiss. Which is a big deal because I need to be able to use Prowl properly without opening the spell book and manually toggling it or having to drag it onto my bar all the time that it resets. The game wouldn’t save my pet’s skill placements.</p>\n<p>This is when I opened a ticket.</p>\n<p>I explained my issue and got a quick and very terse ‘your pet will vanish when you mount up’ Ok. Dismissive; but it was snarky enough that a human wrote it; without any of the usual roleplay fluff that you get from opening a ticket or reporting a bug.</p>\n<p>I restated my issue with more detail and clearer language and waited 2 days. All of my previous tickets I was able to interact with the GM and have a back and forth and properly explain my issue. But this time it went right to ‘You have a message’ instead of giving me any interaction. And when I opened the ticket; I got a very… unusual response from what was clearly ChatGPT.</p>\n<p>I’ve been playing with LLM’s since AI Dungeon 2; so I have a lot of experiences with the quirks and writing slop. The GM’s post was riddled with M-Dashes (These — things) and even weirder was a multiple links that lead to nowhere and forum topics that don’t exist. That’s when I knew 100% that I was no longer talking to a person.</p>\n<p>I did eventually just abandon my pet and had to tame a new one in order to have normal pet functionality.</p>\n<p>I don’t know if I can reproduce it or if the bug was fixed but I can’t recommend any Ghostclaw Lynx pets. I don’t know how to reproduce the ChatGPT Game Master because I currently don’t have a ticket open and I’m not going to go bug hunting to get a canned response.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 1,
+        "updated_at": "2025-08-18T17:18:47.157Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 22,
+        "reads": 16,
+        "readers_count": 15,
+        "score": 123.2,
+        "yours": false,
+        "topic_id": 2152188,
+        "topic_slug": "mop-bug-with-cat-pets-chatgpt-gm",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3184906,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Perseus",
+          "achievement_points": "4895",
+          "level": "90",
+          "race": "Undead",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "classic": "t",
+          "blizzard_post_count": "1"
+        },
+        "post_url": "/t/mop-bug-with-cat-pets-chatgpt-gm/2152188/1",
+        "alias_avatar": null,
+        "alias_username": null,
+        "poster_alias": null,
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 1,
+        "character": {
+          "name": "Tisuri",
+          "guild": "Perseus",
+          "achievement_points": "4895",
+          "level": "90",
+          "class": "Hunter",
+          "race": "Undead",
+          "player_class_enum": "HUNTER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      }
+    ],
+    "stream": [
+      27512171
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      387
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "fancy_title": "TBC Classic Anniversary: Locked SSC ID with no bosses dead",
+      "id": 2342637,
+      "title": "TBC Classic Anniversary: Locked SSC ID with no bosses dead",
+      "slug": "tbc-classic-anniversary-locked-ssc-id-with-no-bosses-dead",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2026-08-29T19:37:54.911Z",
+      "last_posted_at": "2026-08-29T19:37:55.021Z",
+      "bumped": true,
+      "bumped_at": "2026-08-29T19:37:55.021Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Game Version: TBC Classic Anniversary edition \nIssue: I was in a group for SSC, we went straight to Fathom-lord, after some failed attempts the raid disbanded with no bosses dead. However I’m locked to raid ID: 140251594 &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 31,
+      "category_id": 199,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 3443366,
+            "username": "thebamson-3443366",
+            "name": "thebamson",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 0,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Raid Frame - Target Swap Lagging [TBC Anniversary]",
+      "id": 2342980,
+      "title": "Raid Frame - Target Swap Lagging [TBC Anniversary]",
+      "slug": "raid-frame-target-swap-lagging-tbc-anniversary",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2026-08-31T02:03:45.419Z",
+      "last_posted_at": "2026-08-31T02:03:45.510Z",
+      "bumped": true,
+      "bumped_at": "2026-08-31T02:03:45.510Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Healer here - I am experiencing frequent lag when swapping targets. That is, I chose a new target and they are clearly my target and I cast a spell (CoH, Flash heal, renew, etc.) and my heal does not heal my target but m&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 2,
+      "views": 25,
+      "category_id": 199,
+      "featured_link": null,
+      "op_like_count": 2,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 2987299,
+            "username": "Nems-2987299",
+            "name": "Nems",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Duke Of Cynders Bug!",
+      "id": 2340780,
+      "title": "Duke Of Cynders Bug!",
+      "slug": "duke-of-cynders-bug",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2026-08-25T02:29:16.975Z",
+      "last_posted_at": "2026-08-26T11:36:38.508Z",
+      "bumped": true,
+      "bumped_at": "2026-08-26T11:36:38.508Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Hello My Character Name is HotDogWater on realm Windseeker for WoW Classic ERA. I was attempting to complete my tier .5 quest “The Three Kings Of Flame” and I ran into a glitch that cost me over 600 gold……..I bought the &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 30,
+      "category_id": 199,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3326724,
+            "username": "GhostDragon-3326724",
+            "name": "GhostDragon",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 0,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 2746164,
+            "username": "Yajin-2746164",
+            "name": "Yajin",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Omg nerf shamman",
+      "id": 2339543,
+      "title": "Omg nerf shamman",
+      "slug": "omg-nerf-shamman",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2026-08-21T13:40:26.561Z",
+      "last_posted_at": "2026-08-21T13:40:26.703Z",
+      "bumped": true,
+      "bumped_at": "2026-08-21T13:40:26.703Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "it is so broke the disparity’s in their damage to mine… you know what. i think ill quit.",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 35,
+      "category_id": 199,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 3319000,
+            "username": "NutterScout-3319000",
+            "name": "NutterScout",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "MOP Classic Lockout Extension",
+      "id": 2343775,
+      "title": "MOP Classic Lockout Extension",
+      "slug": "mop-classic-lockout-extension",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2026-09-02T02:36:05.431Z",
+      "last_posted_at": "2026-09-03T19:01:06.871Z",
+      "bumped": true,
+      "bumped_at": "2026-09-03T19:01:06.871Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "We decided to extend our Heroic Siege of Orgrimmar raid lockout this week. We started on Heroic Spoils and progressed all the way to Garrosh. He wasn’t spawned in. We tried resetting the instance, switching to normal (he&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 63,
+      "category_id": 199,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 826023,
+            "username": "Taylorswipe-stormrage",
+            "name": null,
+            "avatar_template": "https://render.worldofwarcraft.com/us/character/stormrage/161/267157665-avatar.jpg?alt=/wow/static/images/2d/avatar/22-0.jpg",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 1692592,
+            "username": "Mattitude-1692592",
+            "name": "Mattitude",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    }
+  ],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "[MoP] bug with cat pets. ChatGPT GM",
+  "id": 2152188,
+  "title": "[MoP] bug with cat pets. ChatGPT GM",
+  "posts_count": 1,
+  "created_at": "2025-08-18T17:18:47.041Z",
+  "views": 55,
+  "reply_count": 0,
+  "like_count": 1,
+  "last_posted_at": "2025-08-18T17:18:47.157Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "mop-bug-with-cat-pets-chatgpt-gm",
+  "category_id": 199,
+  "word_count": 365,
+  "deleted_at": null,
+  "user_id": 3184906,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_2152188",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 1,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 1001,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1002,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1003,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1004,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1005,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 0,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "created_by": {
+      "id": 3184906,
+      "username": "Tisuri-mankrik",
+      "name": null,
+      "avatar_template": "https://render.worldofwarcraft.com/classic-us/character/mankrik/116/96486516-avatar.jpg?alt=/wow/static/images/2d/avatar/5-1.jpg",
+      "animated_avatar": null
+    },
+    "last_poster": {
+      "id": 3184906,
+      "username": "Tisuri-mankrik",
+      "name": null,
+      "avatar_template": "https://render.worldofwarcraft.com/classic-us/character/mankrik/116/96486516-avatar.jpg?alt=/wow/static/images/2d/avatar/5-1.jpg",
+      "animated_avatar": null
+    }
+  },
+  "bookmarks": [],
+  "jogo": "World of Warcraft",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Oficial Blizzard",
+  "url_fonte": "https://us.forums.blizzard.com/en/wow/t/mop-bug-with-cat-pets-chatgpt-gm/2152188",
+  "canonical_url": "https://us.forums.blizzard.com/en/wow/t/mop-bug-with-cat-pets-chatgpt-gm/2152188"
+}

@@ -1,0 +1,1073 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 7914150,
+        "name": null,
+        "username": "Tulgron-area-52",
+        "avatar_template": "https://render-us.worldofwarcraft.com/character/area-52/16/180973584-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "created_at": "2020-05-10T14:07:08.939Z",
+        "cooked": "<p>I can’t continue the quest chain to obtain green fire for my warlock. I had started the quest and had done the first part of combining with a healthstone and talking to my demons. The next quest was to go to my capital city and talk to one of the warlock trainers. Before that, i had used a level 120 boost on this character forgettig that doing so removes your current quest objectives. now when i try to reobtain the quest by clicking on the Codex again, it is saying that i had already completed the quest. So if i can’t redo the first quest, how am i suppose to continue or am i out of luck?</p>\n<p>Also i have already made a ticket for this issue and i have tried all the options that i was given from it.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 4,
+        "updated_at": "2020-05-13T09:04:29.269Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1180,
+        "reads": 73,
+        "readers_count": 72,
+        "score": 5864.6,
+        "yours": false,
+        "topic_id": 522520,
+        "topic_slug": "the-codex-of-xerrath-bugged-solved",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 988256,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/tulgron/",
+          "guild": "My Own Revolutions",
+          "achievement_points": "13400",
+          "level": "120",
+          "race": "Orc",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "blizzard_post_count": "0"
+        },
+        "post_url": "/t/the-codex-of-xerrath-bugged-solved/522520/1",
+        "alias_avatar": null,
+        "alias_username": null,
+        "poster_alias": null,
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 0,
+        "character": {
+          "name": "Tulgron",
+          "guild": "My Own Revolutions",
+          "achievement_points": "13400",
+          "level": "120",
+          "class": "Warlock",
+          "race": "Orc",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 11929302,
+        "name": "GhostPants",
+        "username": "GhostPants-1603637",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2021-01-24T22:55:32.730Z",
+        "cooked": "<p>How was it solved?</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 4,
+        "updated_at": "2021-01-24T22:55:32.730Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 11,
+        "reads": 56,
+        "readers_count": 55,
+        "score": 81.2,
+        "yours": false,
+        "topic_id": 522520,
+        "topic_slug": "the-codex-of-xerrath-bugged-solved",
+        "display_username": "GhostPants",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1603637,
+        "hidden": false,
+        "trust_level": 0,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/daggerspine/eatdots/",
+          "guild": "Just Freakin Started",
+          "achievement_points": "2965",
+          "level": "60",
+          "race": "Human",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "blizzard_post_count": "1"
+        },
+        "post_url": "/t/the-codex-of-xerrath-bugged-solved/522520/2",
+        "alias_avatar": "https://render-us.worldofwarcraft.com/character/daggerspine/17/100864529-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Eatdots-daggerspine",
+        "poster_alias": {
+          "alias": {
+            "name": "Eatdots-daggerspine",
+            "avatar": "https://render-us.worldofwarcraft.com/character/daggerspine/17/100864529-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/daggerspine/eatdots/",
+            "user_id": 1603637,
+            "id": 1939708,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/daggerspine/eatdots/"
+              },
+              {
+                "name": "realm",
+                "value": "Daggerspine"
+              },
+              {
+                "name": "achievement_points",
+                "value": "2965"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "guild",
+                "value": "Just Freakin Started"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 1,
+        "character": {
+          "name": "GhostPants",
+          "guild": "Just Freakin Started",
+          "achievement_points": "2965",
+          "level": "60",
+          "class": "Warlock",
+          "race": "Human",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 24705697,
+        "name": "IsekaiMePls",
+        "username": "IsekaiMePls-1980999",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-08-30T19:29:47.448Z",
+        "cooked": "<p>i am also curious how this was resolved… im in a similar situation on this toon…</p>\n<p>i have green flames on my alliance one but this one is stuck at the same spot described above…</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 4,
+        "updated_at": "2024-08-30T19:30:53.739Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 10,
+        "reads": 32,
+        "readers_count": 31,
+        "score": 56.4,
+        "yours": false,
+        "topic_id": 522520,
+        "topic_slug": "the-codex-of-xerrath-bugged-solved",
+        "display_username": "IsekaiMePls",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1980999,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/area-52/barusu/",
+          "race": "Vulpera",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "guild": "WarsongReavers",
+          "level": "70",
+          "blizzard_post_count": "7",
+          "achievement_points": "15490"
+        },
+        "post_url": "/t/the-codex-of-xerrath-bugged-solved/522520/3",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/area-52/129/225382529-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg",
+        "alias_username": "Barusu-area-52",
+        "poster_alias": {
+          "alias": {
+            "name": "Barusu-area-52",
+            "avatar": "https://render.worldofwarcraft.com/us/character/area-52/129/225382529-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/area-52/barusu/",
+            "user_id": 1980999,
+            "id": 1015827,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 7,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/area-52/barusu/"
+              },
+              {
+                "name": "realm",
+                "value": "Area 52"
+              },
+              {
+                "name": "achievement_points",
+                "value": "16995"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Vulpera"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/area-52/129/225382529-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Barusu-area-52"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 7,
+        "character": {
+          "name": "IsekaiMePls",
+          "guild": "WarsongReavers",
+          "achievement_points": "15490",
+          "level": "70",
+          "class": "Warlock",
+          "race": "Vulpera",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 26177686,
+        "name": "Hurlz",
+        "username": "Hurlz-2978851",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-01-28T18:07:17.732Z",
+        "cooked": "<p>Hi guys!</p>\n<p>You’re able to fix it by going to your class trainer for your faction.  He will have a quest telling you to speak to a class trainer which will be him. lol  Hope this helps!</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 4,
+        "updated_at": "2025-01-28T18:07:17.732Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 11,
+        "reads": 25,
+        "readers_count": 24,
+        "score": 60.0,
+        "yours": false,
+        "topic_id": 522520,
+        "topic_slug": "the-codex-of-xerrath-bugged-solved",
+        "display_username": "Hurlz",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2978851,
+        "hidden": false,
+        "trust_level": 0,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "achievement_points": "0",
+          "level": "24",
+          "race": "Undead",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "classic": "t",
+          "blizzard_post_count": "1",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/illidan/hurlz/",
+          "guild": "Chaos Evolved"
+        },
+        "post_url": "/t/the-codex-of-xerrath-bugged-solved/522520/4",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/crusader-strike/61/52567869-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+        "alias_username": "Brawr-crusader-strike",
+        "poster_alias": {
+          "alias": {
+            "name": "Brawr-crusader-strike",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/crusader-strike/61/52567869-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+            "url": null,
+            "user_id": 2978851,
+            "id": 1909330,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 1,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Crusader Strike"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "24"
+              },
+              {
+                "name": "race",
+                "value": "Undead"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 1,
+        "character": {
+          "name": "Hurlz",
+          "guild": "Chaos Evolved",
+          "achievement_points": "0",
+          "level": "24",
+          "class": "Warrior",
+          "race": "Undead",
+          "player_class_enum": "WARRIOR",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ],
+    "stream": [
+      7914150,
+      11929302,
+      24705697,
+      26177686
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      2313
+    ],
+    [
+      2,
+      2054
+    ],
+    [
+      3,
+      740
+    ],
+    [
+      4,
+      589
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "fancy_title": "Blizzard just dont care about wow anymore",
+      "id": 2345657,
+      "title": "Blizzard just dont care about wow anymore",
+      "slug": "blizzard-just-dont-care-about-wow-anymore",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2026-09-07T13:14:06.798Z",
+      "last_posted_at": "2026-09-07T13:14:06.916Z",
+      "bumped": true,
+      "bumped_at": "2026-09-07T13:14:06.916Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "ive been reporting players who are very clearly cheating and ive done so multiple times and blizzard sends me a nice little message in the mail saying they did some about the report then i get to see those same players s&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 9,
+      "category_id": 55,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 2932,
+            "username": "Voidcaller-eefe9",
+            "name": "Voidcaller",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 1,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Missing Archaeology",
+      "id": 2340192,
+      "title": "Missing Archaeology",
+      "slug": "missing-archaeology",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2026-08-23T11:52:24.967Z",
+      "last_posted_at": "2026-08-23T11:52:25.100Z",
+      "bumped": true,
+      "bumped_at": "2026-08-23T11:52:25.100Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Anyone else wish this retired profession was warband enabled?",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 16,
+      "category_id": 55,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 898853,
+            "username": "Tallic-898853",
+            "name": "Tallic",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Best solo class Retail 2026?",
+      "id": 2340036,
+      "title": "Best solo class Retail 2026?",
+      "slug": "best-solo-class-retail-2026",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2026-08-22T20:19:56.323Z",
+      "last_posted_at": "2026-08-22T20:19:56.462Z",
+      "bumped": true,
+      "bumped_at": "2026-08-22T20:19:56.462Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Hello! I saw many changes have been made to WoW retail in the past year/months, so I’m here to ask what the best solo class in 2026 or at least the “most fun&quot; is in your opinion. I already tried hunter but… is still bori&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 50,
+      "category_id": 55,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 3441089,
+            "username": "Exilio-3441089",
+            "name": "Exilio",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 0,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Holy Pally lf raid guild",
+      "id": 2341444,
+      "title": "Holy Pally lf raid guild",
+      "slug": "holy-pally-lf-raid-guild",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2026-08-26T19:55:27.166Z",
+      "last_posted_at": "2026-08-26T19:55:27.276Z",
+      "bumped": true,
+      "bumped_at": "2026-08-26T19:55:27.276Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Hello, \nLooking to join a group for raids. Preferably heroic guild that plans to work on first few mythic bosses with times within 8p-12 est. Currently playing HPally but willing to gear RDruid if needed. \nThank you,",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 13,
+      "category_id": 55,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 2759281,
+            "username": "BlackbearFPS-2759281",
+            "name": "BlackbearFPS",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 1,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Keep getting disconnected",
+      "id": 2345793,
+      "title": "Keep getting disconnected",
+      "slug": "keep-getting-disconnected",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2026-09-08T00:47:41.885Z",
+      "last_posted_at": "2026-09-08T00:47:42.017Z",
+      "bumped": true,
+      "bumped_at": "2026-09-08T00:47:42.017Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "I keep getting disconnected with the code blz51914400  i restarted both wow and battle net ive gone into task manager and reset both ive restarted computer i did the scan and repair twice it worked once for about 30sec t&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 4,
+      "category_id": 55,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 3446107,
+            "username": "gotmyspecs-3446107",
+            "name": "gotmyspecs",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 0,
+            "animated_avatar": null
+          }
+        }
+      ]
+    }
+  ],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "The Codex of Xerrath bugged (Solved)",
+  "id": 522520,
+  "title": "The Codex of Xerrath bugged (Solved)",
+  "posts_count": 4,
+  "created_at": "2020-05-10T14:07:08.867Z",
+  "views": 1419,
+  "reply_count": 0,
+  "like_count": 1,
+  "last_posted_at": "2025-01-28T18:07:17.732Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "the-codex-of-xerrath-bugged-solved",
+  "category_id": 55,
+  "word_count": 219,
+  "deleted_at": null,
+  "user_id": 988256,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_522520",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 4,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 1001,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1002,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1003,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1004,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1005,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 3,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 1980999,
+        "username": "IsekaiMePls-1980999",
+        "name": "IsekaiMePls",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1,
+        "acting_alias": {
+          "alias": {
+            "name": "Barusu-area-52",
+            "avatar": "https://render.worldofwarcraft.com/us/character/area-52/129/225382529-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/area-52/barusu/",
+            "user_id": 1980999,
+            "id": 1015827,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 7,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/area-52/barusu/"
+              },
+              {
+                "name": "realm",
+                "value": "Area 52"
+              },
+              {
+                "name": "achievement_points",
+                "value": "16995"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Vulpera"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/area-52/129/225382529-avatar.jpg?alt=/wow/static/images/2d/avatar/35-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Barusu-area-52"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 2978851,
+        "username": "Hurlz-2978851",
+        "name": "Hurlz",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 0,
+        "acting_alias": {
+          "alias": {
+            "name": "Brawr-crusader-strike",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/crusader-strike/61/52567869-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+            "url": null,
+            "user_id": 2978851,
+            "id": 1909330,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 1,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Crusader Strike"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "24"
+              },
+              {
+                "name": "race",
+                "value": "Undead"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 1603637,
+        "username": "GhostPants-1603637",
+        "name": "GhostPants",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 0,
+        "acting_alias": {
+          "alias": {
+            "name": "Eatdots-daggerspine",
+            "avatar": "https://render-us.worldofwarcraft.com/character/daggerspine/17/100864529-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/daggerspine/eatdots/",
+            "user_id": 1603637,
+            "id": 1939708,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/daggerspine/eatdots/"
+              },
+              {
+                "name": "realm",
+                "value": "Daggerspine"
+              },
+              {
+                "name": "achievement_points",
+                "value": "2965"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "guild",
+                "value": "Just Freakin Started"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      }
+    ],
+    "created_by": {
+      "id": 988256,
+      "username": "Tulgron-area-52",
+      "name": null,
+      "avatar_template": "https://render-us.worldofwarcraft.com/character/area-52/16/180973584-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+      "animated_avatar": null
+    },
+    "last_poster": {
+      "id": 2978851,
+      "username": "Hurlz-2978851",
+      "name": "Hurlz",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    }
+  },
+  "bookmarks": [],
+  "jogo": "World of Warcraft",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Oficial Blizzard",
+  "url_fonte": "https://us.forums.blizzard.com/en/wow/t/the-codex-of-xerrath-bugged-solved/522520",
+  "canonical_url": "https://us.forums.blizzard.com/en/wow/t/the-codex-of-xerrath-bugged-solved/522520"
+}

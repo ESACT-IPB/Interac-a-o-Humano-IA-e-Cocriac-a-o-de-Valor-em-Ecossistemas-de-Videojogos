@@ -1,0 +1,1897 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 2906301,
+        "name": "Plunder Skol",
+        "username": "Plunder_Skol",
+        "avatar_template": "/user_avatar/forums.eveonline.com/plunder_skol/{size}/473618_2.png",
+        "created_at": "2026-07-28T09:33:53.065Z",
+        "cooked": "<p>Hello everyone, PEA evolved to the point where I decided to rename it <strong>PEARL</strong> and establish it as a stable hub for the tools I use most while playing EVE Online.</p>\n<p>PEARL is an open-source Windows desktop application designed mainly for players who buy, manage and run EVE Online escalations at scale.</p>\n<p>Main features include:</p>\n<ul>\n<li>Monitoring configured market chatlogs and detecting escalation offers.</li>\n<li>Custom sound alerts for market offers, hostile intel and expiring escalations.</li>\n<li>Active escalation timers, purchase prices, expenses, loot and total profit tracking.</li>\n<li>Interactive regional maps with Intel, zKill activity, Danger Zones and character locations.</li>\n<li>Stargate, jump-drive and hybrid route planning with Ansiblex support and fuel estimates.</li>\n<li>ESI character tracking, waypoint delivery and EVE Mail import/export packages.</li>\n<li>Integrated multibox client previews, configurable hotkeys, hotswap order and support for external windows.</li>\n<li>Cyno, jump route and accessible Pharolux assistance.</li>\n<li>Integrated Pathfinder directly with PEARL, allowing both tools to cross-reference information</li>\n<li>tax and reimbursement information in automatic EVE Mail receipts.</li>\n<li>Added recursive Manufacturing and Reaction planning down to base resources.</li>\n<li>Mining planner for asteroids, Ice, gas and Moons (this one omg its great)</li>\n</ul>\n<p>PEARL was inspired by SMT and EVE-O Preview, but was developed with tools tailored to my own more specific needs.</p>\n<p>SMT is a much broader and more established mapping, Intel and navigation tool. PEARL takes inspiration from it, but focuses primarily on the complete escalation workflow: detecting offers, purchasing them, managing timers, planning routes and tracking investment and profit.</p>\n<p>EVE-O Preview is a specialized and mature client preview/window switcher. PEARL includes a preview system inside the same application, but combines it with escalation management, maps, Intel, routing and financial tracking.</p>\n<h3><a name=\"p-2906301-credits-1\" class=\"anchor\" href=\"#p-2906301-credits-1\" aria-label=\"Heading link\"></a>Credits</h3>\n<p>A special thank you to <strong>Slazanger</strong>, creator of SMT, and to the EVE-O Preview team: <strong>StinkRay, Devilen, Dal Shooth, Izakbar, Aura Asuna, Phrynohyas Tig-Rah, Makari Aeron and CCP FoxFour</strong>.</p>\n<p>PEARL was only possible because these projects demonstrated what community-made EVE tools could achieve.</p>\n<p>The application is portable and open source. The executable is currently unsigned, so Windows may display a SmartScreen or Defender warning.</p>\n<p><strong>Repository:</strong> <a href=\"https://github.com/Uncode7/Plunder-s-Escalation-Alert---PEA/releases\" class=\"inline-onebox\" rel=\"noopener nofollow ugc\">Releases · Uncode7/Plunder-s-Escalation-Alert---PEA · GitHub</a></p>\n<p>Pearls stable releases on top.</p>\n<p>Fly safe! o7</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2026-08-14T22:47:03.910Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 30,
+        "reads": 39,
+        "readers_count": 38,
+        "score": 167.8,
+        "yours": false,
+        "topic_id": 515483,
+        "topic_slug": "tool-pearl-escalation-management-intel-map-and-multibox-tools",
+        "display_username": "Plunder Skol",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 9,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://github.com/Uncode7/Plunder-s-Escalation-Alert---PEA/releases",
+            "internal": false,
+            "reflection": false,
+            "title": "Releases · Uncode7/Plunder-s-Escalation-Alert---PEA · GitHub",
+            "clicks": 19
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 217120,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/tool-pearl-escalation-management-intel-map-and-multibox-tools/515483/1",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 2
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 2,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 2906598,
+        "name": "Plunder Skol",
+        "username": "Plunder_Skol",
+        "avatar_template": "/user_avatar/forums.eveonline.com/plunder_skol/{size}/473618_2.png",
+        "created_at": "2026-07-29T06:18:49.498Z",
+        "cooked": "<p>I have noticed when you open the game it will detect the MOTD of the market channel as a escalation, an easy fix is to add “MOTD” on the “filter out” panel and save it on the button below the “filters” and done</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2026-07-29T06:18:49.498Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 25,
+        "readers_count": 24,
+        "score": 20.0,
+        "yours": false,
+        "topic_id": 515483,
+        "topic_slug": "tool-pearl-escalation-management-intel-map-and-multibox-tools",
+        "display_username": "Plunder Skol",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 217120,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/tool-pearl-escalation-management-intel-map-and-multibox-tools/515483/2",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2907647,
+        "name": "Plunder Skol",
+        "username": "Plunder_Skol",
+        "avatar_template": "/user_avatar/forums.eveonline.com/plunder_skol/{size}/473618_2.png",
+        "created_at": "2026-07-31T18:46:35.074Z",
+        "cooked": "<p>Just added a new release, this one is HUGE, new tools for manage your escalations, full tutorial on youtube soon!</p>\n<p>Pea version 0.5.0 is stable for now! I want your feedback!</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2026-07-31T18:46:35.074Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 15,
+        "readers_count": 14,
+        "score": 18.0,
+        "yours": false,
+        "topic_id": 515483,
+        "topic_slug": "tool-pearl-escalation-management-intel-map-and-multibox-tools",
+        "display_username": "Plunder Skol",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 217120,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/tool-pearl-escalation-management-intel-map-and-multibox-tools/515483/3",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2908070,
+        "name": "Plunder Skol",
+        "username": "Plunder_Skol",
+        "avatar_template": "/user_avatar/forums.eveonline.com/plunder_skol/{size}/473618_2.png",
+        "created_at": "2026-08-01T20:54:27.355Z",
+        "cooked": "<p><strong>PEA 0.5.3 is now available!</strong></p>\n<p>This update focuses on quality of life, performance and reliability.</p>\n<p><strong>What’s new:</strong></p>\n<ul>\n<li>\n<p>Added EVE Mail export/import, making it easy to back up and share your escalation database between characters.</p>\n</li>\n<li>\n<p>Improved route planning and fuel calculations.</p>\n</li>\n<li>\n<p>Better UI responsiveness and general performance optimizations.</p>\n</li>\n<li>\n<p>Multiple bug fixes and stability improvements.</p>\n</li>\n<li>\n<p>Various usability tweaks based on community feedback.</p>\n</li>\n</ul>\n<p>Thanks to everyone who has been testing the app and sending suggestions. Keep the feedback coming, it has been extremely helpful and continues to shape the project.<br>\nI will modify the main download link to guide to the releases instead the version and delete the source code link, all source.zip are now added to the latest version released</p>\n<p>Fly safe! o7<br>\n(I will try to create a english legend, I swear)</p><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"idXHXECiD9w\" data-video-title=\"Plunder's Escalation Alert - PEA ! Organizador de mercado, rotas e lucro pro Eve Online.\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=idXHXECiD9w\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener nofollow ugc\">\n    <img class=\"youtube-thumbnail\" src=\"https://global.discourse-cdn.com/eveonline/original/4X/2/1/5/2153fc93b83e31a6ffd224ad5f04e6786b4fefe4.jpeg\" title=\"Plunder's Escalation Alert - PEA ! Organizador de mercado, rotas e lucro pro Eve Online.\" data-dominant-color=\"22231A\" width=\"690\" height=\"388\">\n  </a>\n</div>\n",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2026-08-02T02:40:23.956Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 12,
+        "readers_count": 11,
+        "score": 22.4,
+        "yours": false,
+        "topic_id": 515483,
+        "topic_slug": "tool-pearl-escalation-management-intel-map-and-multibox-tools",
+        "display_username": "Plunder Skol",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://www.youtube.com/watch?v=idXHXECiD9w",
+            "internal": false,
+            "reflection": false,
+            "clicks": 2
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 217120,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/tool-pearl-escalation-management-intel-map-and-multibox-tools/515483/4",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2909844,
+        "name": "Plunder Skol",
+        "username": "Plunder_Skol",
+        "avatar_template": "/user_avatar/forums.eveonline.com/plunder_skol/{size}/473618_2.png",
+        "created_at": "2026-08-06T13:29:27.013Z",
+        "cooked": "<p>I have created a hub of tools inside PEARL, news additions soon but the PEARL 0.5.3 is full stable for now, consider giving me some feedback 7o</p>",
+        "post_number": 5,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2026-08-06T13:29:27.013Z",
+        "reply_count": 1,
+        "reply_to_post_number": 4,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 11,
+        "readers_count": 10,
+        "score": 22.2,
+        "yours": false,
+        "topic_id": 515483,
+        "topic_slug": "tool-pearl-escalation-management-intel-map-and-multibox-tools",
+        "display_username": "Plunder Skol",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 217120,
+          "username": "Plunder_Skol",
+          "name": "Plunder Skol",
+          "avatar_template": "/user_avatar/forums.eveonline.com/plunder_skol/{size}/473618_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 217120,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/tool-pearl-escalation-management-intel-map-and-multibox-tools/515483/5",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2910307,
+        "name": "Slazanger",
+        "username": "Slazanger",
+        "avatar_template": "/user_avatar/forums.eveonline.com/slazanger/{size}/421343_2.png",
+        "created_at": "2026-08-07T16:04:12.935Z",
+        "cooked": "<p>Looks good!</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2026-08-07T16:04:12.935Z",
+        "reply_count": 1,
+        "reply_to_post_number": 5,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 10,
+        "readers_count": 9,
+        "score": 22.0,
+        "yours": false,
+        "topic_id": 515483,
+        "topic_slug": "tool-pearl-escalation-management-intel-map-and-multibox-tools",
+        "display_username": "Slazanger",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 217120,
+          "username": "Plunder_Skol",
+          "name": "Plunder Skol",
+          "avatar_template": "/user_avatar/forums.eveonline.com/plunder_skol/{size}/473618_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 185,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/tool-pearl-escalation-management-intel-map-and-multibox-tools/515483/6",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2910962,
+        "name": "Plunder Skol",
+        "username": "Plunder_Skol",
+        "avatar_template": "/user_avatar/forums.eveonline.com/plunder_skol/{size}/473618_2.png",
+        "created_at": "2026-08-08T23:47:09.767Z",
+        "cooked": "<p>ITS THE LEGEND OMG ! I added credits to you in the new version I made :&gt;</p>",
+        "post_number": 7,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2026-08-08T23:47:09.767Z",
+        "reply_count": 0,
+        "reply_to_post_number": 6,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 9,
+        "readers_count": 8,
+        "score": 16.8,
+        "yours": false,
+        "topic_id": 515483,
+        "topic_slug": "tool-pearl-escalation-management-intel-map-and-multibox-tools",
+        "display_username": "Plunder Skol",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 185,
+          "username": "Slazanger",
+          "name": "Slazanger",
+          "avatar_template": "/user_avatar/forums.eveonline.com/slazanger/{size}/421343_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 217120,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/tool-pearl-escalation-management-intel-map-and-multibox-tools/515483/7",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2911260,
+        "name": "Plunder Skol",
+        "username": "Plunder_Skol",
+        "avatar_template": "/user_avatar/forums.eveonline.com/plunder_skol/{size}/473618_2.png",
+        "created_at": "2026-08-09T21:22:42.449Z",
+        "cooked": "<p>Just added pathfinder inside pearl and now they can share information and use the pearl map, new lite mode for low spec PC and a lot of unused stuff removed from build -10mb~</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2026-08-09T21:22:42.449Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 7,
+        "readers_count": 6,
+        "score": 16.4,
+        "yours": false,
+        "topic_id": 515483,
+        "topic_slug": "tool-pearl-escalation-management-intel-map-and-multibox-tools",
+        "display_username": "Plunder Skol",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 217120,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/tool-pearl-escalation-management-intel-map-and-multibox-tools/515483/8",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2911461,
+        "name": "Plunder Skol",
+        "username": "Plunder_Skol",
+        "avatar_template": "/user_avatar/forums.eveonline.com/plunder_skol/{size}/473618_2.png",
+        "created_at": "2026-08-10T14:56:14.693Z",
+        "cooked": "<p>Just added a new tax and reimbursement information in automatic EVE Mail receipts in 0.8.6.</p>\n<p>I think the Pearl is stable for now, just some small fixes probaly.</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2026-08-10T14:56:14.693Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 6,
+        "readers_count": 5,
+        "score": 16.2,
+        "yours": false,
+        "topic_id": 515483,
+        "topic_slug": "tool-pearl-escalation-management-intel-map-and-multibox-tools",
+        "display_username": "Plunder Skol",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 217120,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/tool-pearl-escalation-management-intel-map-and-multibox-tools/515483/9",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2911485,
+        "name": "Plunder Skol",
+        "username": "Plunder_Skol",
+        "avatar_template": "/user_avatar/forums.eveonline.com/plunder_skol/{size}/473618_2.png",
+        "created_at": "2026-08-10T16:43:37.947Z",
+        "cooked": "<p>Just fixed a glitch on 0.8.2+ tha made clicking on miniatures or using hotkeys to change windows unable, its ok now on 0.8.8 latest release, I think NOW it is stable.. maybe? too many releases in a short time but NOW it is good</p>",
+        "post_number": 10,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2026-08-10T16:43:37.947Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 5,
+        "readers_count": 4,
+        "score": 16.0,
+        "yours": false,
+        "topic_id": 515483,
+        "topic_slug": "tool-pearl-escalation-management-intel-map-and-multibox-tools",
+        "display_username": "Plunder Skol",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 217120,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/tool-pearl-escalation-management-intel-map-and-multibox-tools/515483/10",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2912508,
+        "name": "Plunder Skol",
+        "username": "Plunder_Skol",
+        "avatar_template": "/user_avatar/forums.eveonline.com/plunder_skol/{size}/473618_2.png",
+        "created_at": "2026-08-13T13:14:20.530Z",
+        "cooked": "<p>just found some issues with rapid window changes for miniatures and it is way better now, but I will delay this release as it is not a huge change, routes has been improved and some small changes on route planning, now you can use it on manual mode for origin and send the routes for a cyno character of yours.</p>\n<p>I will also add a new route option “regional jump gates”,  some of these gates go waaaay longer than normal and jumps without then might be reduced from 5 jumps to 2 (jumping a regional its very dangerous of course, so its a optional choose)</p>\n<p>I will add it on 0.9.0 soon, on this weekend probaly, I am using it and trying to find any more issues before uploading now</p>",
+        "post_number": 11,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2026-08-13T13:14:20.530Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 6,
+        "readers_count": 5,
+        "score": 16.2,
+        "yours": false,
+        "topic_id": 515483,
+        "topic_slug": "tool-pearl-escalation-management-intel-map-and-multibox-tools",
+        "display_username": "Plunder Skol",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 217120,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/tool-pearl-escalation-management-intel-map-and-multibox-tools/515483/11",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2912820,
+        "name": "Plunder Skol",
+        "username": "Plunder_Skol",
+        "avatar_template": "/user_avatar/forums.eveonline.com/plunder_skol/{size}/473618_2.png",
+        "created_at": "2026-08-14T11:38:45.970Z",
+        "cooked": "<p>I just added an industry manager in update 0.9.4, because why not?</p>\n<p>I’m going to ask some of my corp mates to test it because I’m definitely not a hardcore industry guy. I mostly build Typhoons and other simple stuff, but I’ll do my best to turn this into a solid industry calculator.</p>\n<p>It can already break production down into the base materials you need, including reaction materials, asteroid minerals, PI, and other raw resources. Right now I’m improving the manufacturing side for modules, components, and intermediate parts.</p>\n<p>It’s already good enough for a small-scale industry guy like me, but I’m really excited about where this can go, so I’ll keep working on it and try to make it a genuinely useful industry tool.</p>",
+        "post_number": 12,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2026-08-14T11:38:45.970Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 4,
+        "readers_count": 3,
+        "score": 15.8,
+        "yours": false,
+        "topic_id": 515483,
+        "topic_slug": "tool-pearl-escalation-management-intel-map-and-multibox-tools",
+        "display_username": "Plunder Skol",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 217120,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/tool-pearl-escalation-management-intel-map-and-multibox-tools/515483/12",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2913081,
+        "name": "Plunder Skol",
+        "username": "Plunder_Skol",
+        "avatar_template": "/user_avatar/forums.eveonline.com/plunder_skol/{size}/473618_2.png",
+        "created_at": "2026-08-14T23:00:55.490Z",
+        "cooked": "<p>new v0.9.9 update adds a industrial calculator for itens production, I dont know if it really works with 100% precision but it can get a very close result, almost sure it works.</p>\n<p>select an item&gt;choose your stations&gt;edit your profiles for sotiyos/tataras/etc for precise rigs/select your item</p>\n<p>it will break the production chain from rock to item</p>",
+        "post_number": 13,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2026-08-14T23:00:55.490Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 4,
+        "readers_count": 3,
+        "score": 15.8,
+        "yours": false,
+        "topic_id": 515483,
+        "topic_slug": "tool-pearl-escalation-management-intel-map-and-multibox-tools",
+        "display_username": "Plunder Skol",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 217120,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/tool-pearl-escalation-management-intel-map-and-multibox-tools/515483/13",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2914089,
+        "name": "Plunder Skol",
+        "username": "Plunder_Skol",
+        "avatar_template": "/user_avatar/forums.eveonline.com/plunder_skol/{size}/473618_2.png",
+        "created_at": "2026-08-17T12:08:07.905Z",
+        "cooked": "<p>PEARL 1.0.6 focuses primarily on improving the stability and reliability of the Preview/Multibox system.</p>\n<p>The Preview window switching system was extensively audited after detecting cases where Windows foreground activation could stall for several seconds and temporarily interfere with normal mouse and keyboard input.</p>",
+        "post_number": 14,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2026-08-17T12:08:07.905Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 4,
+        "readers_count": 3,
+        "score": 15.8,
+        "yours": false,
+        "topic_id": 515483,
+        "topic_slug": "tool-pearl-escalation-management-intel-map-and-multibox-tools",
+        "display_username": "Plunder Skol",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 217120,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/tool-pearl-escalation-management-intel-map-and-multibox-tools/515483/14",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2919400,
+        "name": "Plunder Skol",
+        "username": "Plunder_Skol",
+        "avatar_template": "/user_avatar/forums.eveonline.com/plunder_skol/{size}/473618_2.png",
+        "created_at": "2026-08-28T14:47:00.442Z",
+        "cooked": "<p>just found a small visual glitch when the main app is minimized the miniatures gets closed some times.. kinda a headache but not a big problem, I will try to solve it soon</p>",
+        "post_number": 15,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2026-08-28T14:47:00.442Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 15.6,
+        "yours": false,
+        "topic_id": 515483,
+        "topic_slug": "tool-pearl-escalation-management-intel-map-and-multibox-tools",
+        "display_username": "Plunder Skol",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 217120,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/tool-pearl-escalation-management-intel-map-and-multibox-tools/515483/15",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 2919625,
+        "name": "DeMichael Crimson",
+        "username": "DeMichael_Crimson",
+        "avatar_template": "/user_avatar/forums.eveonline.com/demichael_crimson/{size}/507884_2.png",
+        "created_at": "2026-08-29T00:59:58.240Z",
+        "cooked": "<p>Nice, always good to have an app available to help play Eve…</p>\n<p>Thank you very much for sharing it with the community…</p>\n<p>DMC<br>\no7</p>",
+        "post_number": 16,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2026-08-29T00:59:58.240Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 15.6,
+        "yours": false,
+        "topic_id": 515483,
+        "topic_slug": "tool-pearl-escalation-management-intel-map-and-multibox-tools",
+        "display_username": "DeMichael Crimson",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Veteran",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1612,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/tool-pearl-escalation-management-intel-map-and-multibox-tools/515483/16",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ],
+    "stream": [
+      2906301,
+      2906598,
+      2907647,
+      2908070,
+      2909844,
+      2910307,
+      2910962,
+      2911260,
+      2911461,
+      2911485,
+      2912508,
+      2912820,
+      2913081,
+      2914089,
+      2919400,
+      2919625
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      43
+    ],
+    [
+      2,
+      42
+    ],
+    [
+      3,
+      40
+    ],
+    [
+      4,
+      39
+    ],
+    [
+      5,
+      34
+    ],
+    [
+      6,
+      33
+    ],
+    [
+      7,
+      32
+    ],
+    [
+      8,
+      31
+    ],
+    [
+      9,
+      30
+    ],
+    [
+      11,
+      27
+    ],
+    [
+      12,
+      26
+    ],
+    [
+      14,
+      23
+    ],
+    [
+      15,
+      12
+    ]
+  ],
+  "suggested_topics": [],
+  "tags": [
+    {
+      "id": 156,
+      "name": "chat-issues",
+      "slug": "chat-issues"
+    },
+    {
+      "id": 74,
+      "name": "community",
+      "slug": "community"
+    },
+    {
+      "id": 110,
+      "name": "pve",
+      "slug": "pve"
+    }
+  ],
+  "tags_descriptions": {},
+  "fancy_title": "[Tool] PEARL – Escalation Management, Intel Map and Multibox Tools",
+  "id": 515483,
+  "title": "[Tool] PEARL – Escalation Management, Intel Map and Multibox Tools",
+  "posts_count": 16,
+  "created_at": "2026-07-28T09:33:52.965Z",
+  "views": 326,
+  "reply_count": 3,
+  "like_count": 17,
+  "last_posted_at": "2026-08-29T00:59:58.240Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "tool-pearl-escalation-management-intel-map-and-multibox-tools",
+  "category_id": 76,
+  "word_count": 1171,
+  "deleted_at": null,
+  "user_id": 217120,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_515483",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 16,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": {
+    "id": 136259,
+    "execute_at": "2026-11-27T00:59:58.240Z",
+    "duration_minutes": 129600,
+    "based_on_last_post": true,
+    "status_type": "close",
+    "category_id": null
+  },
+  "message_bus_last_id": 47,
+  "participant_count": 3,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "tags_disable_ads": false,
+  "related_topics": [
+    {
+      "fancy_title": "Capsuleers.app - All you need in one website! The EVE Online EHUB",
+      "id": 517303,
+      "title": "Capsuleers.app - All you need in one website! The EVE Online EHUB",
+      "slug": "capsuleers-app-all-you-need-in-one-website-the-eve-online-ehub",
+      "posts_count": 5,
+      "reply_count": 1,
+      "highest_post_number": 5,
+      "image_url": "https://global.discourse-cdn.com/eveonline/optimized/4X/c/9/3/c9309157c152113a0309e963bc74f978c411bc2c_2_1024x537.png",
+      "created_at": "2026-08-29T01:57:34.564Z",
+      "last_posted_at": "2026-09-07T10:57:52.638Z",
+      "bumped": true,
+      "bumped_at": "2026-09-07T10:57:52.638Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 74,
+          "name": "community",
+          "slug": "community"
+        },
+        {
+          "id": 110,
+          "name": "pve",
+          "slug": "pve"
+        },
+        {
+          "id": 67,
+          "name": "pvp",
+          "slug": "pvp"
+        }
+      ],
+      "tags_descriptions": {},
+      "like_count": 10,
+      "views": 101,
+      "category_id": 76,
+      "featured_link": null,
+      "op_like_count": 6,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 216811,
+            "username": "TremalJack",
+            "name": "TremalJack",
+            "avatar_template": "/user_avatar/forums.eveonline.com/tremaljack/{size}/472938_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 229582,
+            "username": "Ali5ha",
+            "name": "Ali5ha",
+            "avatar_template": "/user_avatar/forums.eveonline.com/ali5ha/{size}/509339_2.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Recent Poster",
+          "user": {
+            "id": 6084,
+            "username": "DeadDuck",
+            "name": "DeadDuck",
+            "avatar_template": "/user_avatar/forums.eveonline.com/deadduck/{size}/407563_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 229493,
+            "username": "LukeFlank",
+            "name": "LukeFlank",
+            "avatar_template": "/user_avatar/forums.eveonline.com/lukeflank/{size}/509098_2.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "EVE ONE APP - LIVE!",
+      "id": 507378,
+      "title": "EVE ONE APP - LIVE!",
+      "slug": "eve-one-app-live",
+      "posts_count": 15,
+      "reply_count": 8,
+      "highest_post_number": 17,
+      "image_url": "https://global.discourse-cdn.com/eveonline/optimized/4X/3/c/3/3c3dd411e33b3d4f76fafedf2b46ca8329fdf964_2_1024x718.jpeg",
+      "created_at": "2026-02-26T15:07:58.534Z",
+      "last_posted_at": "2026-04-15T01:53:01.409Z",
+      "bumped": true,
+      "bumped_at": "2026-04-15T01:53:01.409Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "visibility_reason_id": 1,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 12,
+      "views": 680,
+      "category_id": 76,
+      "featured_link": null,
+      "op_like_count": 1,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 223615,
+            "username": "IIBankII",
+            "name": "IIBankII",
+            "avatar_template": "/user_avatar/forums.eveonline.com/iibankii/{size}/491932_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 112049,
+            "username": "Fumaster",
+            "name": "Fumaster",
+            "avatar_template": "/user_avatar/forums.eveonline.com/fumaster/{size}/491120_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 180772,
+            "username": "Pyrux_Gallentis",
+            "name": "Pyrux Gallentis",
+            "avatar_template": "/user_avatar/forums.eveonline.com/pyrux_gallentis/{size}/410910_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "https://global.discourse-cdn.com/eveonline/original/3X/4/1/41ec4921cbaca7a6f9ea556e7cc20018461eae5e.png",
+            "primary_group_name": "system",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 1612,
+            "username": "DeMichael_Crimson",
+            "name": "DeMichael Crimson",
+            "avatar_template": "/user_avatar/forums.eveonline.com/demichael_crimson/{size}/507884_2.png",
+            "trust_level": 3
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "EVE ONE - Your all in one management portal",
+      "id": 507123,
+      "title": "EVE ONE - Your all in one management portal",
+      "slug": "eve-one-your-all-in-one-management-portal",
+      "posts_count": 31,
+      "reply_count": 19,
+      "highest_post_number": 31,
+      "image_url": null,
+      "created_at": "2026-02-22T06:29:13.927Z",
+      "last_posted_at": "2026-04-14T17:20:21.053Z",
+      "bumped": true,
+      "bumped_at": "2026-04-14T17:20:21.053Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 31,
+      "views": 1088,
+      "category_id": 16,
+      "featured_link": null,
+      "op_like_count": 2,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 223615,
+            "username": "IIBankII",
+            "name": "IIBankII",
+            "avatar_template": "/user_avatar/forums.eveonline.com/iibankii/{size}/491932_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 114671,
+            "username": "Syzygium",
+            "name": "Syzygium",
+            "avatar_template": "/user_avatar/forums.eveonline.com/syzygium/{size}/510263_2.png",
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 223906,
+            "username": "Anarquista_who_what",
+            "name": "Anarquista who what",
+            "avatar_template": "/user_avatar/forums.eveonline.com/anarquista_who_what/{size}/493399_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "https://global.discourse-cdn.com/eveonline/original/3X/4/1/41ec4921cbaca7a6f9ea556e7cc20018461eae5e.png",
+            "primary_group_name": "system",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": null,
+          "description": "Recent Poster",
+          "user": {
+            "id": 1612,
+            "username": "DeMichael_Crimson",
+            "name": "DeMichael Crimson",
+            "avatar_template": "/user_avatar/forums.eveonline.com/demichael_crimson/{size}/507884_2.png",
+            "trust_level": 3
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "EVE orchestra - mining &amp; industry tool",
+      "id": 241514,
+      "title": "EVE orchestra - mining & industry tool",
+      "slug": "eve-orchestra-mining-industry-tool",
+      "posts_count": 52,
+      "reply_count": 17,
+      "highest_post_number": 56,
+      "image_url": "https://global.discourse-cdn.com/eveonline/optimized/3X/e/1/e1a058f5848a8a079882351f39787ca52216bbda_2_1024x524.png",
+      "created_at": "2020-05-16T09:00:03.226Z",
+      "last_posted_at": "2024-04-07T08:03:17.732Z",
+      "bumped": true,
+      "bumped_at": "2024-04-07T08:03:17.732Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 90,
+          "name": "esi",
+          "slug": "esi"
+        },
+        {
+          "id": 121,
+          "name": "industrial",
+          "slug": "industrial"
+        },
+        {
+          "id": 93,
+          "name": "tool",
+          "slug": "tool"
+        }
+      ],
+      "tags_descriptions": {},
+      "like_count": 23,
+      "views": 11521,
+      "category_id": 76,
+      "featured_link": null,
+      "op_like_count": 8,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 118257,
+            "username": "A_Drian_Torres",
+            "name": "A'Drian Torres",
+            "avatar_template": "/user_avatar/forums.eveonline.com/a_drian_torres/{size}/261632_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2181,
+            "username": "Mu_ad_Diib",
+            "name": "Mu'ad Diib",
+            "avatar_template": "/user_avatar/forums.eveonline.com/mu_ad_diib/{size}/389247_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 54784,
+            "username": "Lester_Loutte",
+            "name": "Lester Loutte",
+            "avatar_template": "/user_avatar/forums.eveonline.com/lester_loutte/{size}/423202_2.png",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Recent Poster",
+          "user": {
+            "id": 136612,
+            "username": "Kaldeer",
+            "name": "Kaldeer",
+            "avatar_template": "/user_avatar/forums.eveonline.com/kaldeer/{size}/407406_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 173294,
+            "username": "Crest_Lorlan",
+            "name": "Crest Lorlan",
+            "avatar_template": "/user_avatar/forums.eveonline.com/crest_lorlan/{size}/416946_2.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "EVE Miner Hub — A Complete Overview of the Mining Tracker for EVE Online",
+      "id": 509265,
+      "title": "EVE Miner Hub — A Complete Overview of the Mining Tracker for EVE Online",
+      "slug": "eve-miner-hub-a-complete-overview-of-the-mining-tracker-for-eve-online",
+      "posts_count": 7,
+      "reply_count": 3,
+      "highest_post_number": 7,
+      "image_url": "https://global.discourse-cdn.com/eveonline/optimized/4X/1/a/7/1a7363a9ea7b20b12863fdc056e21e4650440ef1_2_1024x646.jpeg",
+      "created_at": "2026-04-03T10:24:51.805Z",
+      "last_posted_at": "2026-08-25T19:17:43.149Z",
+      "bumped": true,
+      "bumped_at": "2026-08-25T19:17:43.149Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 110,
+          "name": "pve",
+          "slug": "pve"
+        }
+      ],
+      "tags_descriptions": {},
+      "like_count": 7,
+      "views": 762,
+      "category_id": 76,
+      "featured_link": null,
+      "op_like_count": 1,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 180224,
+            "username": "Yuriy_Prudnikov",
+            "name": "Yuriy Prudnikov",
+            "avatar_template": "/user_avatar/forums.eveonline.com/yuriy_prudnikov/{size}/495243_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Recent Poster",
+          "user": {
+            "id": 1612,
+            "username": "DeMichael_Crimson",
+            "name": "DeMichael Crimson",
+            "avatar_template": "/user_avatar/forums.eveonline.com/demichael_crimson/{size}/507884_2.png",
+            "trust_level": 3
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "has_cached_summary": false,
+  "valid_reactions": [
+    "heart",
+    "+1",
+    "laughing",
+    "open_mouth",
+    "clap",
+    "confetti_ball",
+    "hugs"
+  ],
+  "has_accepted_answer": false,
+  "can_create_shared_issue": false,
+  "shared_issue_visible": false,
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 217120,
+        "username": "Plunder_Skol",
+        "name": "Plunder Skol",
+        "avatar_template": "/user_avatar/forums.eveonline.com/plunder_skol/{size}/473618_2.png",
+        "post_count": 14,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 1612,
+        "username": "DeMichael_Crimson",
+        "name": "DeMichael Crimson",
+        "avatar_template": "/user_avatar/forums.eveonline.com/demichael_crimson/{size}/507884_2.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 3
+      },
+      {
+        "id": 185,
+        "username": "Slazanger",
+        "name": "Slazanger",
+        "avatar_template": "/user_avatar/forums.eveonline.com/slazanger/{size}/421343_2.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2
+      }
+    ],
+    "created_by": {
+      "id": 217120,
+      "username": "Plunder_Skol",
+      "name": "Plunder Skol",
+      "avatar_template": "/user_avatar/forums.eveonline.com/plunder_skol/{size}/473618_2.png"
+    },
+    "last_poster": {
+      "id": 1612,
+      "username": "DeMichael_Crimson",
+      "name": "DeMichael Crimson",
+      "avatar_template": "/user_avatar/forums.eveonline.com/demichael_crimson/{size}/507884_2.png"
+    },
+    "links": [
+      {
+        "url": "https://github.com/Uncode7/Plunder-s-Escalation-Alert---PEA/releases",
+        "title": "Releases · Uncode7/Plunder-s-Escalation-Alert---PEA · GitHub",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 19,
+        "user_id": 217120,
+        "domain": "github.com",
+        "root_domain": "github.com"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=idXHXECiD9w",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 2,
+        "user_id": 217120,
+        "domain": "www.youtube.com",
+        "root_domain": "youtube.com"
+      }
+    ]
+  },
+  "bookmarks": [],
+  "jogo": "EVE Online",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Oficial EVE",
+  "url_fonte": "https://forums.eveonline.com/t/tool-pearl-escalation-management-intel-map-and-multibox-tools/515483",
+  "canonical_url": "https://forums.eveonline.com/t/tool-pearl-escalation-management-intel-map-and-multibox-tools/515483"
+}

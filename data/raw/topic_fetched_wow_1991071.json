@@ -1,0 +1,3072 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 25349365,
+        "name": "Anonymouse",
+        "username": "Anonymouse-2502969",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-23T15:10:23.562Z",
+        "cooked": "<p>I do not want to spend forever in que just to get dc’d and group kicked when loading in or continue to play instance to get dc’d and reset half way through. I see no comments anywhere on it.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 14,
+        "updated_at": "2024-10-23T15:10:23.562Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 655,
+        "reads": 189,
+        "readers_count": 188,
+        "score": 3307.8,
+        "yours": false,
+        "topic_id": 1991071,
+        "topic_slug": "did-they-fix-codex-of-chromie",
+        "display_username": "Anonymouse",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2502969,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/proudmoore/litharinari/",
+          "race": "Void Elf",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "level": "80",
+          "guild": "The Zodiac Society",
+          "achievement_points": "18475",
+          "blizzard_post_count": "1023"
+        },
+        "post_url": "/t/did-they-fix-codex-of-chromie/1991071/1",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/proudmoore/211/237915859-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
+        "alias_username": "Litharinari-proudmoore",
+        "poster_alias": {
+          "alias": {
+            "name": "Litharinari-proudmoore",
+            "avatar": "https://render.worldofwarcraft.com/us/character/proudmoore/211/237915859-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/proudmoore/litharinari/",
+            "user_id": 2502969,
+            "id": 113018,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1119,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/proudmoore/litharinari/"
+              },
+              {
+                "name": "realm",
+                "value": "Proudmoore"
+              },
+              {
+                "name": "achievement_points",
+                "value": "20945"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Void Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/proudmoore/211/237915859-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Litharinari-proudmoore"
+              },
+              {
+                "name": "guild",
+                "value": "The Zodiac Society"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 1023,
+        "character": {
+          "name": "Anonymouse",
+          "guild": "The Zodiac Society",
+          "achievement_points": "18475",
+          "level": "80",
+          "class": "Warlock",
+          "race": "Void Elf",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 25349373,
+        "name": "Sumwun",
+        "username": "Sumwun-1851299",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-23T15:11:04.672Z",
+        "cooked": "<p>Chromie is a mess. Two weeks ago she sent me to the Flintstones.</p>\n<p>They had no idea how to handle me.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 14,
+        "updated_at": "2024-10-23T15:11:04.672Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 187,
+        "readers_count": 186,
+        "score": 107.4,
+        "yours": false,
+        "topic_id": 1991071,
+        "topic_slug": "did-they-fix-codex-of-chromie",
+        "display_username": "Sumwun",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 4
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1851299,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/tichondrius/sumwun/",
+          "guild": "Cartoon Violence",
+          "race": "Undead",
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "classic": "t",
+          "level": "62",
+          "achievement_points": "21170",
+          "blizzard_post_count": "19462"
+        },
+        "post_url": "/t/did-they-fix-codex-of-chromie/1991071/2",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/tichondrius/108/236694380-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+        "alias_username": "Sumwun-tichondrius",
+        "poster_alias": {
+          "alias": {
+            "name": "Sumwun-tichondrius",
+            "avatar": "https://render.worldofwarcraft.com/us/character/tichondrius/108/236694380-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/tichondrius/sumwun/",
+            "user_id": 1851299,
+            "id": 434924,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 19574,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/tichondrius/sumwun/"
+              },
+              {
+                "name": "realm",
+                "value": "Tichondrius"
+              },
+              {
+                "name": "achievement_points",
+                "value": "23740"
+              },
+              {
+                "name": "level",
+                "value": "62"
+              },
+              {
+                "name": "race",
+                "value": "Undead"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/tichondrius/108/236694380-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Sumwun-tichondrius"
+              },
+              {
+                "name": "guild",
+                "value": "Cartoon Violence"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 19462,
+        "character": {
+          "name": "Sumwun",
+          "guild": "Cartoon Violence",
+          "achievement_points": "21170",
+          "level": "62",
+          "class": "Mage",
+          "race": "Undead",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25349403,
+        "name": "Thallia",
+        "username": "Thallia-2277436",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-23T15:14:31.055Z",
+        "cooked": "<p>This is the hotfix that was posted. I don’t know anything about disconnects, though, sorry. Did you check Bug Reports? Just in case. Also, I always suggest exiting the game and deleting the cache folder. It oftentimes fixes the oddest things you don’t think it would fix. Not saying it’ll fix this, but worth a shot!</p>\n<aside class=\"quote group-community-manager\" data-username=\"Kaivax\" data-post=\"1\" data-topic=\"1990854\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/user_avatar/us.forums.blizzard.com/kaivax/48/948_2.png\" class=\"avatar\"><a href=\"https://us.forums.blizzard.com/en/wow/t/the-war-within-hotfixes-february-13/1990854/1\">The War Within Hotfixes - February 13</a></div>\n<blockquote>\n<p><strong>WoW’s 20th Anniversary</strong></p>\n<ul>\n<li>Enemies will now despawn after completing The Codex of Chromie step “Up and Away”.</li>\n</ul>\n</blockquote>\n</aside>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 14,
+        "updated_at": "2024-10-23T15:14:31.055Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 17,
+        "reads": 169,
+        "readers_count": 168,
+        "score": 123.8,
+        "yours": false,
+        "topic_id": 1991071,
+        "topic_slug": "did-they-fix-codex-of-chromie",
+        "display_username": "Thallia",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://us.forums.blizzard.com/en/wow/t/the-war-within-hotfixes-february-13/1990854",
+            "internal": true,
+            "reflection": false,
+            "title": "The War Within Hotfixes - February 13",
+            "clicks": 0
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2277436,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/sentinels/sendryn/",
+          "guild": "Convocation",
+          "race": "Dracthyr",
+          "class": "Evoker",
+          "player_class_enum": "EVOKER",
+          "classic": "t",
+          "level": "80",
+          "achievement_points": "28055",
+          "blizzard_post_count": "137449"
+        },
+        "post_url": "/t/did-they-fix-codex-of-chromie/1991071/3",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/sentinels/184/224379832-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg",
+        "alias_username": "Sendryn-sentinels",
+        "poster_alias": {
+          "alias": {
+            "name": "Sendryn-sentinels",
+            "avatar": "https://render.worldofwarcraft.com/us/character/sentinels/184/224379832-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/sentinels/sendryn/",
+            "user_id": 2277436,
+            "id": 437998,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 59626,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/sentinels/sendryn/"
+              },
+              {
+                "name": "realm",
+                "value": "Sentinels"
+              },
+              {
+                "name": "achievement_points",
+                "value": "30230"
+              },
+              {
+                "name": "level",
+                "value": "89"
+              },
+              {
+                "name": "race",
+                "value": "Dracthyr"
+              },
+              {
+                "name": "player_class",
+                "value": "Evoker"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "EVOKER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/sentinels/184/224379832-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Sendryn-sentinels"
+              },
+              {
+                "name": "guild",
+                "value": "Convocation"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 137449,
+        "character": {
+          "name": "Thallia",
+          "guild": "Convocation",
+          "achievement_points": "28055",
+          "level": "80",
+          "class": "Evoker",
+          "race": "Dracthyr",
+          "player_class_enum": "EVOKER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25349430,
+        "name": "Anonymouse",
+        "username": "Anonymouse-2502969",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-23T15:17:16.916Z",
+        "cooked": "<p>It was unplayable last night. It was doing it to everyone. EVeryone in my two groups were dc’d and kicked from the group. chat was all invite requests. then it happened twice while trying to continue it and progress reset.</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 14,
+        "updated_at": "2024-10-23T15:17:16.916Z",
+        "reply_count": 1,
+        "reply_to_post_number": 3,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 154,
+        "readers_count": 153,
+        "score": 75.8,
+        "yours": false,
+        "topic_id": 1991071,
+        "topic_slug": "did-they-fix-codex-of-chromie",
+        "display_username": "Anonymouse",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2277436,
+          "username": "Thallia-2277436",
+          "name": "Thallia",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2502969,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/proudmoore/litharinari/",
+          "race": "Void Elf",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "level": "80",
+          "guild": "The Zodiac Society",
+          "achievement_points": "18475",
+          "blizzard_post_count": "1023"
+        },
+        "post_url": "/t/did-they-fix-codex-of-chromie/1991071/4",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/proudmoore/211/237915859-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
+        "alias_username": "Litharinari-proudmoore",
+        "poster_alias": {
+          "alias": {
+            "name": "Litharinari-proudmoore",
+            "avatar": "https://render.worldofwarcraft.com/us/character/proudmoore/211/237915859-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/proudmoore/litharinari/",
+            "user_id": 2502969,
+            "id": 113018,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1119,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/proudmoore/litharinari/"
+              },
+              {
+                "name": "realm",
+                "value": "Proudmoore"
+              },
+              {
+                "name": "achievement_points",
+                "value": "20945"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Void Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/proudmoore/211/237915859-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Litharinari-proudmoore"
+              },
+              {
+                "name": "guild",
+                "value": "The Zodiac Society"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 437998,
+          "username": "Sendryn-sentinels",
+          "name": "Sendryn",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/sentinels/184/224379832-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 1023,
+        "character": {
+          "name": "Anonymouse",
+          "guild": "The Zodiac Society",
+          "achievement_points": "18475",
+          "level": "80",
+          "class": "Warlock",
+          "race": "Void Elf",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25349447,
+        "name": "Thallia",
+        "username": "Thallia-2277436",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-23T15:18:22.733Z",
+        "cooked": "<p>Ah… so that’s why no one I knew ran it. LOL</p>\n<p>Well that sucks! I haven’t tried it, so I don’t know if it’s fixed yet.</p>\n<p>I hope so. That’s one heck of a mess.</p>",
+        "post_number": 5,
+        "post_type": 1,
+        "posts_count": 14,
+        "updated_at": "2024-10-23T15:18:22.733Z",
+        "reply_count": 1,
+        "reply_to_post_number": 4,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 134,
+        "readers_count": 133,
+        "score": 36.8,
+        "yours": false,
+        "topic_id": 1991071,
+        "topic_slug": "did-they-fix-codex-of-chromie",
+        "display_username": "Thallia",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2502969,
+          "username": "Anonymouse-2502969",
+          "name": "Anonymouse",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2277436,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/sentinels/sendryn/",
+          "guild": "Convocation",
+          "race": "Dracthyr",
+          "class": "Evoker",
+          "player_class_enum": "EVOKER",
+          "classic": "t",
+          "level": "80",
+          "achievement_points": "28055",
+          "blizzard_post_count": "137449"
+        },
+        "post_url": "/t/did-they-fix-codex-of-chromie/1991071/5",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/sentinels/184/224379832-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg",
+        "alias_username": "Sendryn-sentinels",
+        "poster_alias": {
+          "alias": {
+            "name": "Sendryn-sentinels",
+            "avatar": "https://render.worldofwarcraft.com/us/character/sentinels/184/224379832-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/sentinels/sendryn/",
+            "user_id": 2277436,
+            "id": 437998,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 59626,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/sentinels/sendryn/"
+              },
+              {
+                "name": "realm",
+                "value": "Sentinels"
+              },
+              {
+                "name": "achievement_points",
+                "value": "30230"
+              },
+              {
+                "name": "level",
+                "value": "89"
+              },
+              {
+                "name": "race",
+                "value": "Dracthyr"
+              },
+              {
+                "name": "player_class",
+                "value": "Evoker"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "EVOKER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/sentinels/184/224379832-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Sendryn-sentinels"
+              },
+              {
+                "name": "guild",
+                "value": "Convocation"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 113018,
+          "username": "Litharinari-proudmoore",
+          "name": "Litharinari",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/proudmoore/211/237915859-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 137449,
+        "character": {
+          "name": "Thallia",
+          "guild": "Convocation",
+          "achievement_points": "28055",
+          "level": "80",
+          "class": "Evoker",
+          "race": "Dracthyr",
+          "player_class_enum": "EVOKER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25349687,
+        "name": "Anonymouse",
+        "username": "Anonymouse-2502969",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-23T15:43:24.937Z",
+        "cooked": "<p>I would love to see what it is about, hey I may never do it again after that, but I like to try all content if i can.</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "posts_count": 14,
+        "updated_at": "2024-10-23T15:43:24.937Z",
+        "reply_count": 0,
+        "reply_to_post_number": 5,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 118,
+        "readers_count": 117,
+        "score": 48.6,
+        "yours": false,
+        "topic_id": 1991071,
+        "topic_slug": "did-they-fix-codex-of-chromie",
+        "display_username": "Anonymouse",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2277436,
+          "username": "Thallia-2277436",
+          "name": "Thallia",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2502969,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/proudmoore/litharinari/",
+          "race": "Void Elf",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "level": "80",
+          "guild": "The Zodiac Society",
+          "achievement_points": "18475",
+          "blizzard_post_count": "1023"
+        },
+        "post_url": "/t/did-they-fix-codex-of-chromie/1991071/6",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/proudmoore/211/237915859-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
+        "alias_username": "Litharinari-proudmoore",
+        "poster_alias": {
+          "alias": {
+            "name": "Litharinari-proudmoore",
+            "avatar": "https://render.worldofwarcraft.com/us/character/proudmoore/211/237915859-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/proudmoore/litharinari/",
+            "user_id": 2502969,
+            "id": 113018,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1119,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/proudmoore/litharinari/"
+              },
+              {
+                "name": "realm",
+                "value": "Proudmoore"
+              },
+              {
+                "name": "achievement_points",
+                "value": "20945"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Void Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/proudmoore/211/237915859-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Litharinari-proudmoore"
+              },
+              {
+                "name": "guild",
+                "value": "The Zodiac Society"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 437998,
+          "username": "Sendryn-sentinels",
+          "name": "Sendryn",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/sentinels/184/224379832-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 1023,
+        "character": {
+          "name": "Anonymouse",
+          "guild": "The Zodiac Society",
+          "achievement_points": "18475",
+          "level": "80",
+          "class": "Warlock",
+          "race": "Void Elf",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25349706,
+        "name": "MackDye",
+        "username": "MackDye-3076635",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-23T15:44:44.325Z",
+        "cooked": "<p>So this is a YOU problem because I did it just fine last night about 2 hours after server launch.</p>",
+        "post_number": 7,
+        "post_type": 1,
+        "posts_count": 14,
+        "updated_at": "2026-06-21T15:41:57.795Z",
+        "reply_count": 2,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 108,
+        "readers_count": 107,
+        "score": 31.6,
+        "yours": false,
+        "topic_id": 1991071,
+        "topic_slug": "did-they-fix-codex-of-chromie",
+        "display_username": "MackDye",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3076635,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/shuhalo/ironhorde/",
+          "guild": "Dungeons and Dracthyr",
+          "race": "Tauren",
+          "class": "Druid",
+          "player_class_enum": "DRUID",
+          "classic": "t",
+          "blizzard_post_count": "11",
+          "level": "87",
+          "achievement_points": "2350"
+        },
+        "post_url": "/t/did-they-fix-codex-of-chromie/1991071/7",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/mankrik/82/72294738-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "alias_username": "Deathdye",
+        "poster_alias": {
+          "alias": {
+            "name": "Deathdye",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/mankrik/82/72294738-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": null,
+            "user_id": 3076635,
+            "id": 2441455,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 162,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Mankrik"
+              },
+              {
+                "name": "achievement_points",
+                "value": "200"
+              },
+              {
+                "name": "level",
+                "value": "68"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 11,
+        "character": {
+          "name": "MackDye",
+          "guild": "Dungeons and Dracthyr",
+          "achievement_points": "2350",
+          "level": "87",
+          "class": "Druid",
+          "race": "Tauren",
+          "player_class_enum": "DRUID",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25349729,
+        "name": "Anonymouse",
+        "username": "Anonymouse-2502969",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-23T15:47:50.434Z",
+        "cooked": "<p>It was not just me <a href=\"https://us.forums.blizzard.com/en/wow/t/codex-of-chromie/1990697\" class=\"inline-onebox\">Codex of Chromie</a></p>\n<p>Just an example. But again must me a problem because it happened to everyone in my two groups. Sorry everyone I will stay out of groups so they can play.</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "posts_count": 14,
+        "updated_at": "2024-10-23T15:47:50.434Z",
+        "reply_count": 1,
+        "reply_to_post_number": 7,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 93,
+        "readers_count": 92,
+        "score": 88.6,
+        "yours": false,
+        "topic_id": 1991071,
+        "topic_slug": "did-they-fix-codex-of-chromie",
+        "display_username": "Anonymouse",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://us.forums.blizzard.com/en/wow/t/codex-of-chromie/1990697",
+            "internal": true,
+            "reflection": false,
+            "title": "Codex of Chromie",
+            "clicks": 21
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 3076635,
+          "username": "MackDye-3076635",
+          "name": "MackDye",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 4
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2502969,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/proudmoore/litharinari/",
+          "race": "Void Elf",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "level": "80",
+          "guild": "The Zodiac Society",
+          "achievement_points": "18475",
+          "blizzard_post_count": "1023"
+        },
+        "post_url": "/t/did-they-fix-codex-of-chromie/1991071/8",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/proudmoore/211/237915859-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
+        "alias_username": "Litharinari-proudmoore",
+        "poster_alias": {
+          "alias": {
+            "name": "Litharinari-proudmoore",
+            "avatar": "https://render.worldofwarcraft.com/us/character/proudmoore/211/237915859-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/proudmoore/litharinari/",
+            "user_id": 2502969,
+            "id": 113018,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1119,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/proudmoore/litharinari/"
+              },
+              {
+                "name": "realm",
+                "value": "Proudmoore"
+              },
+              {
+                "name": "achievement_points",
+                "value": "20945"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Void Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/proudmoore/211/237915859-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Litharinari-proudmoore"
+              },
+              {
+                "name": "guild",
+                "value": "The Zodiac Society"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2441455,
+          "username": "Deathdye",
+          "name": "Deathdye",
+          "avatar_template": "https://render.worldofwarcraft.com/classic-us/character/mankrik/82/72294738-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 1023,
+        "character": {
+          "name": "Anonymouse",
+          "guild": "The Zodiac Society",
+          "achievement_points": "18475",
+          "level": "80",
+          "class": "Warlock",
+          "race": "Void Elf",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25349844,
+        "name": "Nissa",
+        "username": "Nissa-401665",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-23T15:59:02.076Z",
+        "cooked": "<p>Did it successfully this morning before resets.</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "posts_count": 14,
+        "updated_at": "2024-10-23T15:59:02.076Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 79,
+        "readers_count": 78,
+        "score": 35.8,
+        "yours": false,
+        "topic_id": 1991071,
+        "topic_slug": "did-they-fix-codex-of-chromie",
+        "display_username": "Nissa",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 401665,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/stormrage/cazadori/",
+          "guild": "Vigil of the Forgotten",
+          "race": "Draenei",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "level": "80",
+          "blizzard_post_count": "5174",
+          "achievement_points": "32470"
+        },
+        "post_url": "/t/did-they-fix-codex-of-chromie/1991071/9",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/stormrage/17/127098129-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg",
+        "alias_username": "Cazadori-stormrage",
+        "poster_alias": {
+          "alias": {
+            "name": "Cazadori-stormrage",
+            "avatar": "https://render.worldofwarcraft.com/us/character/stormrage/17/127098129-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/stormrage/cazadori/",
+            "user_id": 401665,
+            "id": 422536,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 5174,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/stormrage/cazadori/"
+              },
+              {
+                "name": "realm",
+                "value": "Stormrage"
+              },
+              {
+                "name": "achievement_points",
+                "value": "36655"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Draenei"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/stormrage/17/127098129-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Cazadori-stormrage"
+              },
+              {
+                "name": "guild",
+                "value": "Vigil of the Forgotten"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 5174,
+        "character": {
+          "name": "Nissa",
+          "guild": "Vigil of the Forgotten",
+          "achievement_points": "32470",
+          "level": "80",
+          "class": "Hunter",
+          "race": "Draenei",
+          "player_class_enum": "HUNTER",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25349893,
+        "name": "Thallia",
+        "username": "Thallia-2277436",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-23T16:04:05.337Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Litharinari-proudmoore\" data-post=\"8\" data-topic=\"1991071\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/us/character/proudmoore/211/237915859-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg\" class=\"avatar\"> Litharinari:</div>\n<blockquote>\n<p>It was not just me</p>\n</blockquote>\n</aside>\n<p>No it wasn’t just you. I chatted with some people who had the same issues yesterday. But they haven’t tried today.</p>",
+        "post_number": 10,
+        "post_type": 1,
+        "posts_count": 14,
+        "updated_at": "2024-10-23T16:04:05.337Z",
+        "reply_count": 0,
+        "reply_to_post_number": 8,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 66,
+        "readers_count": 65,
+        "score": 43.2,
+        "yours": false,
+        "topic_id": 1991071,
+        "topic_slug": "did-they-fix-codex-of-chromie",
+        "display_username": "Thallia",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2277436,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/sentinels/sendryn/",
+          "guild": "Convocation",
+          "race": "Dracthyr",
+          "class": "Evoker",
+          "player_class_enum": "EVOKER",
+          "classic": "t",
+          "level": "80",
+          "achievement_points": "28055",
+          "blizzard_post_count": "137449"
+        },
+        "post_url": "/t/did-they-fix-codex-of-chromie/1991071/10",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/sentinels/184/224379832-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg",
+        "alias_username": "Sendryn-sentinels",
+        "poster_alias": {
+          "alias": {
+            "name": "Sendryn-sentinels",
+            "avatar": "https://render.worldofwarcraft.com/us/character/sentinels/184/224379832-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/sentinels/sendryn/",
+            "user_id": 2277436,
+            "id": 437998,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 59626,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/sentinels/sendryn/"
+              },
+              {
+                "name": "realm",
+                "value": "Sentinels"
+              },
+              {
+                "name": "achievement_points",
+                "value": "30230"
+              },
+              {
+                "name": "level",
+                "value": "89"
+              },
+              {
+                "name": "race",
+                "value": "Dracthyr"
+              },
+              {
+                "name": "player_class",
+                "value": "Evoker"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "EVOKER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/sentinels/184/224379832-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Sendryn-sentinels"
+              },
+              {
+                "name": "guild",
+                "value": "Convocation"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 137449,
+        "character": {
+          "name": "Thallia",
+          "guild": "Convocation",
+          "achievement_points": "28055",
+          "level": "80",
+          "class": "Evoker",
+          "race": "Dracthyr",
+          "player_class_enum": "EVOKER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25350208,
+        "name": null,
+        "username": "Jêstêr-aerie-peak",
+        "avatar_template": "https://render.worldofwarcraft.com/us/character/aerie-peak/212/244485332-avatar.jpg?alt=/wow/static/images/2d/avatar/84-0.jpg",
+        "created_at": "2024-10-23T16:34:20.229Z",
+        "cooked": "<p>I have yet to even have a que pop at all. It just sits there. It seems when I que for it and also the timewalking, neither pop.</p>",
+        "post_number": 11,
+        "post_type": 1,
+        "posts_count": 14,
+        "updated_at": "2024-10-23T16:34:20.229Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 55,
+        "readers_count": 54,
+        "score": 26.0,
+        "yours": false,
+        "topic_id": 1991071,
+        "topic_slug": "did-they-fix-codex-of-chromie",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2925355,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/aerie-peak/jêstêr/",
+          "guild": "Death Rattle",
+          "level": "80",
+          "race": "Earthen",
+          "class": "Rogue",
+          "player_class_enum": "ROGUE",
+          "blizzard_post_count": "6",
+          "achievement_points": "17675"
+        },
+        "post_url": "/t/did-they-fix-codex-of-chromie/1991071/11",
+        "alias_avatar": null,
+        "alias_username": null,
+        "poster_alias": null,
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 6,
+        "character": {
+          "name": "Jêstêr",
+          "guild": "Death Rattle",
+          "achievement_points": "17675",
+          "level": "80",
+          "class": "Rogue",
+          "race": "Earthen",
+          "player_class_enum": "ROGUE",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25350242,
+        "name": "Gxy",
+        "username": "Gxy-2371346",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-23T16:38:52.655Z",
+        "cooked": "<p>Cant say if its fixed or not, just that it doesnt always break.  The first time i tried it yesterday, it dc’d at the final part and everyone in the run got booted.  The second time i tried it yesterday, it completed just fine…</p>",
+        "post_number": 12,
+        "post_type": 1,
+        "posts_count": 14,
+        "updated_at": "2026-07-16T17:18:34.501Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 53,
+        "readers_count": 52,
+        "score": 15.6,
+        "yours": false,
+        "topic_id": 1991071,
+        "topic_slug": "did-they-fix-codex-of-chromie",
+        "display_username": "Gxy",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2371346,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/lightbringer/lawkie/",
+          "race": "Void Elf",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "guild": "Silverdragon Claw",
+          "level": "80",
+          "achievement_points": "31090",
+          "blizzard_post_count": "602"
+        },
+        "post_url": "/t/did-they-fix-codex-of-chromie/1991071/12",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/lightbringer/236/178759404-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+        "alias_username": "Jaena-lightbringer",
+        "poster_alias": {
+          "alias": {
+            "name": "Jaena-lightbringer",
+            "avatar": "https://render.worldofwarcraft.com/us/character/lightbringer/236/178759404-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+            "url": null,
+            "user_id": 2371346,
+            "id": 110710,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 51,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/lightbringer/jaena/"
+              },
+              {
+                "name": "realm",
+                "value": "Lightbringer"
+              },
+              {
+                "name": "achievement_points",
+                "value": "32020"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/lightbringer/236/178759404-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Jaena-lightbringer"
+              },
+              {
+                "name": "guild",
+                "value": "Casual Garbage"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 602,
+        "character": {
+          "name": "Gxy",
+          "guild": "Silverdragon Claw",
+          "achievement_points": "31090",
+          "level": "80",
+          "class": "Warlock",
+          "race": "Void Elf",
+          "player_class_enum": "WARLOCK",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25350378,
+        "name": "Torque",
+        "username": "Torque-2369948",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-23T16:56:48.409Z",
+        "cooked": "<p>yea, I got DCed on the final part too… I tried to requeue for it afterwards but it gave me an estimated 77 minute queue time… gave up and went to sleep</p>",
+        "post_number": 13,
+        "post_type": 1,
+        "posts_count": 14,
+        "updated_at": "2024-10-23T16:56:48.409Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 42,
+        "readers_count": 41,
+        "score": 13.4,
+        "yours": false,
+        "topic_id": 1991071,
+        "topic_slug": "did-they-fix-codex-of-chromie",
+        "display_username": "Torque",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2369948,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/tichondrius/stupïd/",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "level": "80",
+          "race": "Human",
+          "achievement_points": "26210",
+          "guild": "BSG",
+          "blizzard_post_count": "237"
+        },
+        "post_url": "/t/did-they-fix-codex-of-chromie/1991071/13",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/tichondrius/233/242242025-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Stupïd-tichondrius",
+        "poster_alias": {
+          "alias": {
+            "name": "Stupïd-tichondrius",
+            "avatar": "https://render.worldofwarcraft.com/us/character/tichondrius/233/242242025-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/tichondrius/stupïd/",
+            "user_id": 2369948,
+            "id": 553786,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 224,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/tichondrius/stupïd/"
+              },
+              {
+                "name": "realm",
+                "value": "Tichondrius"
+              },
+              {
+                "name": "achievement_points",
+                "value": "27660"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/tichondrius/233/242242025-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Stupïd-tichondrius"
+              },
+              {
+                "name": "guild",
+                "value": "BSG"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 237,
+        "character": {
+          "name": "Torque",
+          "guild": "BSG",
+          "achievement_points": "26210",
+          "level": "80",
+          "class": "Hunter",
+          "race": "Human",
+          "player_class_enum": "HUNTER",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 25350613,
+        "name": "carini",
+        "username": "carini-3124572",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2024-10-23T17:17:12.394Z",
+        "cooked": "<p>Definitely not a them problem. Happened to me also. Entire raid dcd about 3 min in and we logged back in and we were at the start again. Thought it was a one off til it happened again so i left it for now lol</p>",
+        "post_number": 14,
+        "post_type": 1,
+        "posts_count": 14,
+        "updated_at": "2026-03-01T08:43:33.466Z",
+        "reply_count": 0,
+        "reply_to_post_number": 7,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 31,
+        "readers_count": 30,
+        "score": 26.2,
+        "yours": false,
+        "topic_id": 1991071,
+        "topic_slug": "did-they-fix-codex-of-chromie",
+        "display_username": "carini",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 3076635,
+          "username": "MackDye-3076635",
+          "name": "MackDye",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3124572,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/proudmoore/atrophy/",
+          "race": "Void Elf",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "level": "80",
+          "guild": "tagless",
+          "achievement_points": "20775",
+          "blizzard_post_count": "5920"
+        },
+        "post_url": "/t/did-they-fix-codex-of-chromie/1991071/14",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/illidan/217/231848153-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+        "alias_username": "Çarini-illidan",
+        "poster_alias": {
+          "alias": {
+            "name": "Çarini-illidan",
+            "avatar": "https://render.worldofwarcraft.com/us/character/illidan/217/231848153-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/illidan/çarini/",
+            "user_id": 3124572,
+            "id": 424450,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 1399,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/illidan/çarini/"
+              },
+              {
+                "name": "realm",
+                "value": "Illidan"
+              },
+              {
+                "name": "achievement_points",
+                "value": "20745"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Demon Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEMONHUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/illidan/217/231848153-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Çarini-illidan"
+              },
+              {
+                "name": "guild",
+                "value": "Epic Quality"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2441455,
+          "username": "Deathdye",
+          "name": "Deathdye",
+          "avatar_template": "https://render.worldofwarcraft.com/classic-us/character/mankrik/82/72294738-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 5920,
+        "character": {
+          "name": "carini",
+          "guild": "tagless",
+          "achievement_points": "20775",
+          "level": "80",
+          "class": "Warlock",
+          "race": "Void Elf",
+          "player_class_enum": "WARLOCK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ],
+    "stream": [
+      25349365,
+      25349373,
+      25349403,
+      25349430,
+      25349447,
+      25349687,
+      25349706,
+      25349729,
+      25349844,
+      25349893,
+      25350208,
+      25350242,
+      25350378,
+      25350613
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      686
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "fancy_title": "Transmog not saving properly?",
+      "id": 2342845,
+      "title": "Transmog not saving properly?",
+      "slug": "transmog-not-saving-properly",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2026-08-30T15:16:29.097Z",
+      "last_posted_at": "2026-08-30T15:47:16.739Z",
+      "bumped": true,
+      "bumped_at": "2026-08-30T15:47:16.739Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "is anyone else having issues with transmogs not being saved correctly, different pieces of gear  just randomly change and the weapon. \nis there a setting that I need to change? or whats going on",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 47,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3042228,
+            "username": "Dreaded-3042228",
+            "name": "Dreaded",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 1,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 287181,
+            "username": "FrodoBggns-287181",
+            "name": "FrodoBggns",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 23393,
+            "username": "Lathwellen-23393",
+            "name": "Lathwellen",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Petrified root",
+      "id": 2340061,
+      "title": "Petrified root",
+      "slug": "petrified-root",
+      "posts_count": 191,
+      "reply_count": 111,
+      "highest_post_number": 192,
+      "image_url": null,
+      "created_at": "2026-08-22T21:59:06.130Z",
+      "last_posted_at": "2026-09-02T17:53:33.155Z",
+      "bumped": true,
+      "bumped_at": "2026-09-02T17:53:33.155Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "I have done dozens of delves in season two and have yet to loot a single petrified root. Also noticed a drop in arcanoweave and sunfire silk. I tried farming plant protein in my regular spots  and only got a few over 10 &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 191,
+      "views": 3585,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 11,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 64882,
+            "username": "exorkismo-64882",
+            "name": "exorkismo",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2687947,
+            "username": "Eccentric909-2687947",
+            "name": "Eccentric909",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 31895,
+            "username": "TheeQuixote-31895",
+            "name": "TheeQuixote",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2840931,
+            "username": "Havlock-2840931",
+            "name": "Havlock",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 1006311,
+            "username": "ChaosBlade-1006311",
+            "name": "ChaosBlade",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Witcher 3 is now on the Battle.net Launcher",
+      "id": 2341277,
+      "title": "Witcher 3 is now on the Battle.net Launcher",
+      "slug": "witcher-3-is-now-on-the-battlenet-launcher",
+      "posts_count": 31,
+      "reply_count": 17,
+      "highest_post_number": 31,
+      "image_url": null,
+      "created_at": "2026-08-26T08:20:16.773Z",
+      "last_posted_at": "2026-08-26T16:06:30.476Z",
+      "bumped": true,
+      "bumped_at": "2026-08-26T16:06:30.476Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "I… just… what? \n\n\nhttps://us.shop.battle.net/en-us/product/the-witcher-3-wild-hunt-remastered \nI just… this is more so a Battle.net topic but, still… \nYou can now use your gold to buy the Witcher 3, and play it on the la&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 20,
+      "views": 865,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 1,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 2010746,
+            "username": "ArgentumEMP-2010746",
+            "name": "ArgentumEMP",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2277436,
+            "username": "Thallia-2277436",
+            "name": "Thallia",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3486,
+            "username": "Dextructive-3486",
+            "name": "Dextructive",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 20209,
+            "username": "Zing45-20209",
+            "name": "Zing45",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 7726,
+            "username": "Brand-7726",
+            "name": "Brand",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Prey hunt narrative",
+      "id": 2339350,
+      "title": "Prey hunt narrative",
+      "slug": "prey-hunt-narrative",
+      "posts_count": 5,
+      "reply_count": 2,
+      "highest_post_number": 5,
+      "image_url": null,
+      "created_at": "2026-08-20T23:14:40.839Z",
+      "last_posted_at": "2026-08-20T23:33:24.451Z",
+      "bumped": true,
+      "bumped_at": "2026-08-20T23:33:24.451Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "How about the Prey Hunt narrative change to us going after surviving prisoners of Dalaran? Ijs their prison was destroyed along with the city but considering they were beings of no small power you can expect some of them&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 3,
+      "views": 53,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 1608929,
+            "username": "Brownhornet-1608929",
+            "name": "Brownhornet",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 52014,
+            "username": "Kaioon-52014",
+            "name": "Kaioon",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3183564,
+            "username": "Reimmi-3183564",
+            "name": "Reimmi",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2943984,
+            "username": "Baby-2943984",
+            "name": "Baby",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Why do you not like having a heroic week?",
+      "id": 2343017,
+      "title": "Why do you not like having a heroic week?",
+      "slug": "why-do-you-not-like-having-a-heroic-week",
+      "posts_count": 9,
+      "reply_count": 2,
+      "highest_post_number": 10,
+      "image_url": null,
+      "created_at": "2026-08-31T04:50:05.642Z",
+      "last_posted_at": "2026-09-02T00:11:08.589Z",
+      "bumped": true,
+      "bumped_at": "2026-09-02T00:11:08.589Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "What is your personal qualms with not having heroic week?  is it just the lack of content for 2 weeks then? \nI personally was okay with the 2 week easing period but thats just me plus it seemed it smoothes out the raid m&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 160,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 990203,
+            "username": "Jetto-990203",
+            "name": "Jetto",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2770886,
+            "username": "Sclague83-2770886",
+            "name": "Sclague83",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2809,
+            "username": "Robokapp-2809",
+            "name": "Robokapp",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2419537,
+            "username": "Faith-2419537",
+            "name": "Faith",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 785647,
+            "username": "Nayvarn-785647",
+            "name": "Nayvarn",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    }
+  ],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "Did they fix Codex of Chromie?",
+  "id": 1991071,
+  "title": "Did they fix Codex of Chromie?",
+  "posts_count": 14,
+  "created_at": "2024-10-23T15:10:23.459Z",
+  "views": 951,
+  "reply_count": 6,
+  "like_count": 16,
+  "last_posted_at": "2024-10-23T17:17:12.394Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "did-they-fix-codex-of-chromie",
+  "category_id": 171,
+  "word_count": 517,
+  "deleted_at": null,
+  "user_id": 2502969,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_1991071",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 14,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 1001,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1002,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1003,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1004,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1005,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 6,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 2502969,
+        "username": "Anonymouse-2502969",
+        "name": "Anonymouse",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 4,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Litharinari-proudmoore",
+            "avatar": "https://render.worldofwarcraft.com/us/character/proudmoore/211/237915859-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/proudmoore/litharinari/",
+            "user_id": 2502969,
+            "id": 113018,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 1119,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/proudmoore/litharinari/"
+              },
+              {
+                "name": "realm",
+                "value": "Proudmoore"
+              },
+              {
+                "name": "achievement_points",
+                "value": "20945"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Void Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/proudmoore/211/237915859-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Litharinari-proudmoore"
+              },
+              {
+                "name": "guild",
+                "value": "The Zodiac Society"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 2277436,
+        "username": "Thallia-2277436",
+        "name": "Thallia",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 3,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 3,
+        "acting_alias": {
+          "alias": {
+            "name": "Sendryn-sentinels",
+            "avatar": "https://render.worldofwarcraft.com/us/character/sentinels/184/224379832-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/sentinels/sendryn/",
+            "user_id": 2277436,
+            "id": 437998,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 59626,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/sentinels/sendryn/"
+              },
+              {
+                "name": "realm",
+                "value": "Sentinels"
+              },
+              {
+                "name": "achievement_points",
+                "value": "30230"
+              },
+              {
+                "name": "level",
+                "value": "89"
+              },
+              {
+                "name": "race",
+                "value": "Dracthyr"
+              },
+              {
+                "name": "player_class",
+                "value": "Evoker"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "EVOKER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/sentinels/184/224379832-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Sendryn-sentinels"
+              },
+              {
+                "name": "guild",
+                "value": "Convocation"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 3124572,
+        "username": "carini-3124572",
+        "name": "carini",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Çarini-illidan",
+            "avatar": "https://render.worldofwarcraft.com/us/character/illidan/217/231848153-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/illidan/çarini/",
+            "user_id": 3124572,
+            "id": 424450,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 1399,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/illidan/çarini/"
+              },
+              {
+                "name": "realm",
+                "value": "Illidan"
+              },
+              {
+                "name": "achievement_points",
+                "value": "20745"
+              },
+              {
+                "name": "level",
+                "value": "80"
+              },
+              {
+                "name": "race",
+                "value": "Blood Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Demon Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEMONHUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/illidan/217/231848153-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Çarini-illidan"
+              },
+              {
+                "name": "guild",
+                "value": "Epic Quality"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 1851299,
+        "username": "Sumwun-1851299",
+        "name": "Sumwun",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Sumwun-tichondrius",
+            "avatar": "https://render.worldofwarcraft.com/us/character/tichondrius/108/236694380-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/tichondrius/sumwun/",
+            "user_id": 1851299,
+            "id": 434924,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 19574,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/tichondrius/sumwun/"
+              },
+              {
+                "name": "realm",
+                "value": "Tichondrius"
+              },
+              {
+                "name": "achievement_points",
+                "value": "23740"
+              },
+              {
+                "name": "level",
+                "value": "62"
+              },
+              {
+                "name": "race",
+                "value": "Undead"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/tichondrius/108/236694380-avatar.jpg?alt=/wow/static/images/2d/avatar/5-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Sumwun-tichondrius"
+              },
+              {
+                "name": "guild",
+                "value": "Cartoon Violence"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 2369948,
+        "username": "Torque-2369948",
+        "name": "Torque",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Stupïd-tichondrius",
+            "avatar": "https://render.worldofwarcraft.com/us/character/tichondrius/233/242242025-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/tichondrius/stupïd/",
+            "user_id": 2369948,
+            "id": 553786,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 224,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/tichondrius/stupïd/"
+              },
+              {
+                "name": "realm",
+                "value": "Tichondrius"
+              },
+              {
+                "name": "achievement_points",
+                "value": "27660"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/tichondrius/233/242242025-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Stupïd-tichondrius"
+              },
+              {
+                "name": "guild",
+                "value": "BSG"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 401665,
+        "username": "Nissa-401665",
+        "name": "Nissa",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Cazadori-stormrage",
+            "avatar": "https://render.worldofwarcraft.com/us/character/stormrage/17/127098129-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/stormrage/cazadori/",
+            "user_id": 401665,
+            "id": 422536,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 5174,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/stormrage/cazadori/"
+              },
+              {
+                "name": "realm",
+                "value": "Stormrage"
+              },
+              {
+                "name": "achievement_points",
+                "value": "36655"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Draenei"
+              },
+              {
+                "name": "player_class",
+                "value": "Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "HUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/stormrage/17/127098129-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Cazadori-stormrage"
+              },
+              {
+                "name": "guild",
+                "value": "Vigil of the Forgotten"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      }
+    ],
+    "created_by": {
+      "id": 2502969,
+      "username": "Anonymouse-2502969",
+      "name": "Anonymouse",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    },
+    "last_poster": {
+      "id": 3124572,
+      "username": "carini-3124572",
+      "name": "carini",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    },
+    "links": [
+      {
+        "url": "https://us.forums.blizzard.com/en/wow/t/codex-of-chromie/1990697",
+        "title": "Codex of Chromie",
+        "internal": true,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 21,
+        "user_id": 2502969,
+        "domain": "us.forums.blizzard.com",
+        "root_domain": "blizzard.com"
+      }
+    ]
+  },
+  "bookmarks": [],
+  "jogo": "World of Warcraft",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Oficial Blizzard",
+  "url_fonte": "https://us.forums.blizzard.com/en/wow/t/did-they-fix-codex-of-chromie/1991071",
+  "canonical_url": "https://us.forums.blizzard.com/en/wow/t/did-they-fix-codex-of-chromie/1991071"
+}

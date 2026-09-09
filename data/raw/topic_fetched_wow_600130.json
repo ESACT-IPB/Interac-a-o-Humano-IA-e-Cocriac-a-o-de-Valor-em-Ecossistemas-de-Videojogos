@@ -1,0 +1,3140 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 9041704,
+        "name": "Roronoa",
+        "username": "Roronoa-1574710",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2020-08-02T05:49:48.626Z",
+        "cooked": "<p>Couldn’t a fury warrior stack a bunch of MCP and use them for the buff and then swap to his other weps and do crazy damage? How come ppl don’t do this?</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 21,
+        "updated_at": "2026-03-30T18:47:17.409Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 272,
+        "reads": 136,
+        "readers_count": 135,
+        "score": 1382.2,
+        "yours": false,
+        "topic_id": 600130,
+        "topic_slug": "mcp-and-other-classes",
+        "display_username": "Roronoa",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1574710,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "classic": "t",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/nesingwary/kinsella/",
+          "race": "Human",
+          "class": "Hunter",
+          "player_class_enum": "HUNTER",
+          "blizzard_post_count": "4",
+          "guild": "One Shot",
+          "achievement_points": "4925",
+          "level": "60"
+        },
+        "post_url": "/t/mcp-and-other-classes/600130/1",
+        "alias_avatar": "https://render-classic-us.worldofwarcraft.com/character/atiesh/63/22539583-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Cogidubnus-atiesh",
+        "poster_alias": {
+          "alias": {
+            "name": "Cogidubnus-atiesh",
+            "avatar": "https://render-classic-us.worldofwarcraft.com/character/atiesh/63/22539583-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": null,
+            "user_id": 1574710,
+            "id": 909892,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 0,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Atiesh"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "40"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 4,
+        "character": {
+          "name": "Roronoa",
+          "guild": "One Shot",
+          "achievement_points": "4925",
+          "level": "60",
+          "class": "Hunter",
+          "race": "Human",
+          "player_class_enum": "HUNTER",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 9041758,
+        "name": "Cheat2Win",
+        "username": "Cheat2Win-645565",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2020-08-02T05:57:21.619Z",
+        "cooked": "<p>Because the buff only stays on as long as you have the weapon equipped. Switch, and it is immediately removed.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 21,
+        "updated_at": "2020-08-02T05:57:34.317Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 133,
+        "readers_count": 132,
+        "score": 41.6,
+        "yours": false,
+        "topic_id": 600130,
+        "topic_slug": "mcp-and-other-classes",
+        "display_username": "Cheat2Win",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 645565,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Gnome",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "guild": "Singularity",
+          "blizzard_post_count": "7601",
+          "achievement_points": "0",
+          "level": "60",
+          "classic": "t"
+        },
+        "post_url": "/t/mcp-and-other-classes/600130/2",
+        "alias_avatar": "https://render-classic-us.worldofwarcraft.com/character/grobbulus/90/6778458-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+        "alias_username": "Döt-grobbulus",
+        "poster_alias": {
+          "alias": {
+            "name": "Döt-grobbulus",
+            "avatar": "https://render-classic-us.worldofwarcraft.com/character/grobbulus/90/6778458-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+            "url": null,
+            "user_id": 645565,
+            "id": 426940,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 7601,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Grobbulus"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "Singularity"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 7601,
+        "character": {
+          "name": "Cheat2Win",
+          "guild": "Singularity",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Warlock",
+          "race": "Gnome",
+          "player_class_enum": "WARLOCK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 9041812,
+        "name": "Zura",
+        "username": "Zura-1100520",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2020-08-02T06:03:37.359Z",
+        "cooked": "<p>Because in druid feral form weapons dont do anything aside from being stat sticks<br>\nDruids can equip MCP for an incredible buff without the downside of having a terrible weapon.<br>\nAll they lose out on is a few stats they would have had on the slot otherwise</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 21,
+        "updated_at": "2026-07-02T22:28:03.539Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 3,
+        "reads": 130,
+        "readers_count": 129,
+        "score": 41.0,
+        "yours": false,
+        "topic_id": 600130,
+        "topic_slug": "mcp-and-other-classes",
+        "display_username": "Zura",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1100520,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": null,
+          "guild": "Impervious",
+          "race": "Orc",
+          "class": "Warlock",
+          "player_class_enum": "WARLOCK",
+          "blizzard_post_count": "284",
+          "achievement_points": "0",
+          "level": "20",
+          "classic": "t"
+        },
+        "post_url": "/t/mcp-and-other-classes/600130/3",
+        "alias_avatar": "https://render-classic-us.worldofwarcraft.com/character/earthfury/183/19124919-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+        "alias_username": "Brainpalace",
+        "poster_alias": {
+          "alias": {
+            "name": "Brainpalace",
+            "avatar": "https://render-classic-us.worldofwarcraft.com/character/earthfury/183/19124919-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+            "url": null,
+            "user_id": 1100520,
+            "id": 2544018,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 613,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Earthfury"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "Impervious"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 284,
+        "character": {
+          "name": "Zura",
+          "guild": "Impervious",
+          "achievement_points": "0",
+          "level": "20",
+          "class": "Warlock",
+          "race": "Orc",
+          "player_class_enum": "WARLOCK",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 9042511,
+        "name": "Dmitry",
+        "username": "Dmitry-885491",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2020-08-02T08:27:10.423Z",
+        "cooked": "<p>mcp has 29 dps. An unstoppable force is 61.45 dps. This difference is around 32.45 dps, which is an equivelent of if pummeller had 227.15 strength. This is a lot of strength. Furthermore, 2.0 speed is really bad for abilities that “immediatly trigger an attack”, which scale better with slower weapons, since doing 7.6 seconds of damage in one global is strong.</p>\n<p>on second thought, pummeller speeds you up by 50%, so 113.575 strength, but thats assuming you only autoattack, it doesn’t make your ability cooldowns go any faster.</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 21,
+        "updated_at": "2026-06-20T18:54:01.875Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 5,
+        "reads": 104,
+        "readers_count": 103,
+        "score": 45.8,
+        "yours": false,
+        "topic_id": 600130,
+        "topic_slug": "mcp-and-other-classes",
+        "display_username": "Dmitry",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 3,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 885491,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Troll",
+          "class": "Shaman",
+          "player_class_enum": "SHAMAN",
+          "blizzard_post_count": "808",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/eredar/rofladin/",
+          "guild": null,
+          "achievement_points": "0",
+          "level": "60",
+          "classic": "t"
+        },
+        "post_url": "/t/mcp-and-other-classes/600130/4",
+        "alias_avatar": "https://render-us.worldofwarcraft.com/character/illidan/61/197442365-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+        "alias_username": "Thingummywut",
+        "poster_alias": {
+          "alias": {
+            "name": "Thingummywut",
+            "avatar": "https://render-us.worldofwarcraft.com/character/illidan/61/197442365-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/illidan/thingummywut/",
+            "user_id": 885491,
+            "id": 2433303,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 201,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/illidan/thingummywut/"
+              },
+              {
+                "name": "realm",
+                "value": "Illidan"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12565"
+              },
+              {
+                "name": "level",
+                "value": "50"
+              },
+              {
+                "name": "race",
+                "value": "Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "guild",
+                "value": "dokwodjq"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 808,
+        "character": {
+          "name": "Dmitry",
+          "guild": null,
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Shaman",
+          "race": "Troll",
+          "player_class_enum": "SHAMAN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 9042520,
+        "name": "ZouEnsign",
+        "username": "ZouEnsign-636304",
+        "avatar_template": "https://render-classic-us.worldofwarcraft.com/character/bloodsail-buccaneers/240/7045872-avatar.jpg?alt=/wow/static/images/2d/avatar/5-1.jpg",
+        "created_at": "2020-08-02T08:28:41.587Z",
+        "cooked": "<p>As a mage, I fully understand all of this! <img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/smiley.png?v=15\" title=\":smiley:\" class=\"emoji\" alt=\":smiley:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+        "post_number": 5,
+        "post_type": 1,
+        "posts_count": 21,
+        "updated_at": "2026-06-25T13:43:56.038Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 95,
+        "readers_count": 94,
+        "score": 24.0,
+        "yours": false,
+        "topic_id": 600130,
+        "topic_slug": "mcp-and-other-classes",
+        "display_username": "ZouEnsign",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 636304,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Undead",
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "blizzard_post_count": "1012",
+          "profile_url": null,
+          "guild": null,
+          "achievement_points": "0",
+          "level": "60",
+          "classic": "t"
+        },
+        "post_url": "/t/mcp-and-other-classes/600130/5",
+        "alias_avatar": "https://render-classic-us.worldofwarcraft.com/character/old-blanchy/44/17994028-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+        "alias_username": "Gnowayjose",
+        "poster_alias": {
+          "alias": {
+            "name": "Gnowayjose",
+            "avatar": "https://render-classic-us.worldofwarcraft.com/character/old-blanchy/44/17994028-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+            "url": null,
+            "user_id": 636304,
+            "id": 2479726,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 788,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Old Blanchy"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 1012,
+        "character": {
+          "name": "ZouEnsign",
+          "guild": null,
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Mage",
+          "race": "Undead",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 9042522,
+        "name": "Dmitry",
+        "username": "Dmitry-885491",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2020-08-02T08:29:08.235Z",
+        "cooked": "<p>mages can autoattack too.</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "posts_count": 21,
+        "updated_at": "2026-06-20T18:54:01.958Z",
+        "reply_count": 2,
+        "reply_to_post_number": 5,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 93,
+        "readers_count": 92,
+        "score": 28.6,
+        "yours": false,
+        "topic_id": 600130,
+        "topic_slug": "mcp-and-other-classes",
+        "display_username": "Dmitry",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 636304,
+          "username": "ZouEnsign-636304",
+          "name": "ZouEnsign",
+          "avatar_template": "https://render-classic-us.worldofwarcraft.com/character/bloodsail-buccaneers/240/7045872-avatar.jpg?alt=/wow/static/images/2d/avatar/5-1.jpg"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 885491,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Troll",
+          "class": "Shaman",
+          "player_class_enum": "SHAMAN",
+          "blizzard_post_count": "808",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/eredar/rofladin/",
+          "guild": null,
+          "achievement_points": "0",
+          "level": "60",
+          "classic": "t"
+        },
+        "post_url": "/t/mcp-and-other-classes/600130/6",
+        "alias_avatar": "https://render-us.worldofwarcraft.com/character/illidan/61/197442365-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+        "alias_username": "Thingummywut",
+        "poster_alias": {
+          "alias": {
+            "name": "Thingummywut",
+            "avatar": "https://render-us.worldofwarcraft.com/character/illidan/61/197442365-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/illidan/thingummywut/",
+            "user_id": 885491,
+            "id": 2433303,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 201,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/illidan/thingummywut/"
+              },
+              {
+                "name": "realm",
+                "value": "Illidan"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12565"
+              },
+              {
+                "name": "level",
+                "value": "50"
+              },
+              {
+                "name": "race",
+                "value": "Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "guild",
+                "value": "dokwodjq"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2479726,
+          "username": "Gnowayjose",
+          "name": "Gnowayjose",
+          "avatar_template": "https://render-classic-us.worldofwarcraft.com/character/old-blanchy/44/17994028-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 808,
+        "character": {
+          "name": "Dmitry",
+          "guild": null,
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Shaman",
+          "race": "Troll",
+          "player_class_enum": "SHAMAN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 9042741,
+        "name": "ZouEnsign",
+        "username": "ZouEnsign-636304",
+        "avatar_template": "https://render-classic-us.worldofwarcraft.com/character/bloodsail-buccaneers/240/7045872-avatar.jpg?alt=/wow/static/images/2d/avatar/5-1.jpg",
+        "created_at": "2020-08-02T09:15:34.257Z",
+        "cooked": "<p>You just blew my mind.</p>",
+        "post_number": 7,
+        "post_type": 1,
+        "posts_count": 21,
+        "updated_at": "2026-06-25T13:43:56.151Z",
+        "reply_count": 0,
+        "reply_to_post_number": 6,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 88,
+        "readers_count": 87,
+        "score": 52.6,
+        "yours": false,
+        "topic_id": 600130,
+        "topic_slug": "mcp-and-other-classes",
+        "display_username": "ZouEnsign",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 885491,
+          "username": "Dmitry-885491",
+          "name": "Dmitry",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 636304,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Undead",
+          "class": "Mage",
+          "player_class_enum": "MAGE",
+          "blizzard_post_count": "1012",
+          "profile_url": null,
+          "guild": null,
+          "achievement_points": "0",
+          "level": "60",
+          "classic": "t"
+        },
+        "post_url": "/t/mcp-and-other-classes/600130/7",
+        "alias_avatar": "https://render-classic-us.worldofwarcraft.com/character/old-blanchy/44/17994028-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+        "alias_username": "Gnowayjose",
+        "poster_alias": {
+          "alias": {
+            "name": "Gnowayjose",
+            "avatar": "https://render-classic-us.worldofwarcraft.com/character/old-blanchy/44/17994028-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+            "url": null,
+            "user_id": 636304,
+            "id": 2479726,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 788,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Old Blanchy"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Mage"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "MAGE"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2433303,
+          "username": "Thingummywut",
+          "name": "Thingummywut",
+          "avatar_template": "https://render-us.worldofwarcraft.com/character/illidan/61/197442365-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 1012,
+        "character": {
+          "name": "ZouEnsign",
+          "guild": null,
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Mage",
+          "race": "Undead",
+          "player_class_enum": "MAGE",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 9042824,
+        "name": "Eekamouse",
+        "username": "Eekamouse-52708",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2020-08-02T09:34:23.243Z",
+        "cooked": "<p>I’ve heard of ret pallies using MCP on private servers in a SoR build that had a ton of different procs.  I don’t know how great it was, but I got the impression that it did decent damage, but was also gimmicky and extremely reliant on buffs/consumables.  I think they talked about it on one of the paladin episodes of the Countdown to Classic podcast.</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "posts_count": 21,
+        "updated_at": "2026-03-03T05:11:10.836Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 77,
+        "readers_count": 76,
+        "score": 20.4,
+        "yours": false,
+        "topic_id": 600130,
+        "topic_slug": "mcp-and-other-classes",
+        "display_username": "Eekamouse",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 52708,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "guild": "Silverwing Elite",
+          "race": "Night Elf",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/sentinels/eekamouse/",
+          "classic": "t",
+          "level": "80",
+          "achievement_points": "13270",
+          "blizzard_post_count": "1638"
+        },
+        "post_url": "/t/mcp-and-other-classes/600130/8",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/windseeker/34/17923618-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
+        "alias_username": "Eekamouse-windseeker",
+        "poster_alias": {
+          "alias": {
+            "name": "Eekamouse-windseeker",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/windseeker/34/17923618-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
+            "url": null,
+            "user_id": 52708,
+            "id": 429203,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 809,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Windseeker"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/windseeker/34/17923618-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Eekamouse-windseeker"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 1638,
+        "character": {
+          "name": "Eekamouse",
+          "guild": "Silverwing Elite",
+          "achievement_points": "13270",
+          "level": "80",
+          "class": "Warrior",
+          "race": "Night Elf",
+          "player_class_enum": "WARRIOR",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 9044258,
+        "name": "Smeet",
+        "username": "Smeet-1786441",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2020-08-02T14:32:53.725Z",
+        "cooked": "<p>Even for the non spell damage stacking paladins, MCP is the best 2h in game. Our DPS is almost entirely auto attack related, and it has the highest auto attack DPS.</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "posts_count": 21,
+        "updated_at": "2026-07-06T14:15:01.755Z",
+        "reply_count": 1,
+        "reply_to_post_number": 8,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 55,
+        "readers_count": 54,
+        "score": 31.0,
+        "yours": false,
+        "topic_id": 600130,
+        "topic_slug": "mcp-and-other-classes",
+        "display_username": "Smeet",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 52708,
+          "username": "Eekamouse-52708",
+          "name": "Eekamouse",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1786441,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": null,
+          "race": "Human",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "guild": "Society of Benevolence",
+          "blizzard_post_count": "1584",
+          "level": "80",
+          "classic": "t",
+          "achievement_points": "5170"
+        },
+        "post_url": "/t/mcp-and-other-classes/600130/9",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/sulfuras/0/12112896-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Smeet",
+        "poster_alias": {
+          "alias": {
+            "name": "Smeet",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/sulfuras/0/12112896-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": null,
+            "user_id": 1786441,
+            "id": 2568789,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 699,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Sulfuras"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "65"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "Society of Benevolence"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 429203,
+          "username": "Eekamouse-windseeker",
+          "name": "Eekamouse",
+          "avatar_template": "https://render.worldofwarcraft.com/classic1x-us/character/windseeker/34/17923618-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 1584,
+        "character": {
+          "name": "Smeet",
+          "guild": "Society of Benevolence",
+          "achievement_points": "5170",
+          "level": "80",
+          "class": "Paladin",
+          "race": "Human",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 9044291,
+        "name": "Dmitry",
+        "username": "Dmitry-885491",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2020-08-02T14:38:39.639Z",
+        "cooked": "<p>doesn’t seal of command benefit from slower weapons better? Or does the increased attack speed-crits make up for it? Ret does gain additional damage on crit, but wouldn’t you just hit the ppm on it too fast? I can’t imagine pummeller beating a slow weapons(unstoppable force+) with seal of command on top of seal of crusader.</p>",
+        "post_number": 10,
+        "post_type": 1,
+        "posts_count": 21,
+        "updated_at": "2026-06-20T18:54:02.055Z",
+        "reply_count": 2,
+        "reply_to_post_number": 9,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 51,
+        "readers_count": 50,
+        "score": 20.2,
+        "yours": false,
+        "topic_id": 600130,
+        "topic_slug": "mcp-and-other-classes",
+        "display_username": "Dmitry",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 1786441,
+          "username": "Smeet-1786441",
+          "name": "Smeet",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 885491,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Troll",
+          "class": "Shaman",
+          "player_class_enum": "SHAMAN",
+          "blizzard_post_count": "808",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/eredar/rofladin/",
+          "guild": null,
+          "achievement_points": "0",
+          "level": "60",
+          "classic": "t"
+        },
+        "post_url": "/t/mcp-and-other-classes/600130/10",
+        "alias_avatar": "https://render-us.worldofwarcraft.com/character/illidan/61/197442365-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+        "alias_username": "Thingummywut",
+        "poster_alias": {
+          "alias": {
+            "name": "Thingummywut",
+            "avatar": "https://render-us.worldofwarcraft.com/character/illidan/61/197442365-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/illidan/thingummywut/",
+            "user_id": 885491,
+            "id": 2433303,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 201,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/illidan/thingummywut/"
+              },
+              {
+                "name": "realm",
+                "value": "Illidan"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12565"
+              },
+              {
+                "name": "level",
+                "value": "50"
+              },
+              {
+                "name": "race",
+                "value": "Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "guild",
+                "value": "dokwodjq"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2568789,
+          "username": "Smeet",
+          "name": "Smeet",
+          "avatar_template": "https://render.worldofwarcraft.com/classic-us/character/sulfuras/0/12112896-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 808,
+        "character": {
+          "name": "Dmitry",
+          "guild": null,
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Shaman",
+          "race": "Troll",
+          "player_class_enum": "SHAMAN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 9044350,
+        "name": "MysticCow",
+        "username": "MysticCow-3104025",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2020-08-02T14:47:27.476Z",
+        "cooked": "<p>Paladin seal damage is based on the original speed of the MCP, not the haste buffed speed of it.</p>",
+        "post_number": 11,
+        "post_type": 1,
+        "posts_count": 21,
+        "updated_at": "2026-06-11T05:32:39.429Z",
+        "reply_count": 1,
+        "reply_to_post_number": 10,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 46,
+        "readers_count": 45,
+        "score": 19.2,
+        "yours": false,
+        "topic_id": 600130,
+        "topic_slug": "mcp-and-other-classes",
+        "display_username": "MysticCow",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 885491,
+          "username": "Dmitry-885491",
+          "name": "Dmitry",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3104025,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/echo-isles/nermal/",
+          "guild": "Aeternus Millitarum",
+          "achievement_points": "0",
+          "race": "Human",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "classic": "t",
+          "level": "60",
+          "blizzard_post_count": "1631"
+        },
+        "post_url": "/t/mcp-and-other-classes/600130/11",
+        "alias_avatar": "https://render-classic-us.worldofwarcraft.com/character/azuresong/32/18591008-avatar.jpg?alt=/wow/static/images/2d/avatar/3-1.jpg",
+        "alias_username": "Beautia",
+        "poster_alias": {
+          "alias": {
+            "name": "Beautia",
+            "avatar": "https://render-classic-us.worldofwarcraft.com/character/azuresong/32/18591008-avatar.jpg?alt=/wow/static/images/2d/avatar/3-1.jpg",
+            "url": null,
+            "user_id": 3104025,
+            "id": 2323910,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 1270,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Azuresong"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Dwarf"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "Classic Heros"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2433303,
+          "username": "Thingummywut",
+          "name": "Thingummywut",
+          "avatar_template": "https://render-us.worldofwarcraft.com/character/illidan/61/197442365-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 1631,
+        "character": {
+          "name": "MysticCow",
+          "guild": "Aeternus Millitarum",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Paladin",
+          "race": "Human",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 9044361,
+        "name": "Dmitry",
+        "username": "Dmitry-885491",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2020-08-02T14:49:13.059Z",
+        "cooked": "<p>Yeah but original speed is 2.0. Unstoppable force(low end weapon) is 3.8. The seal procs will do double the damage.  with 44% proc per swing, 7 procs per minute, shouldn’t the slower weapon just deal more damage? doesn’t most of ret damage comes from seal of command amplified by seal of crusader.</p>",
+        "post_number": 12,
+        "post_type": 1,
+        "posts_count": 21,
+        "updated_at": "2026-06-20T18:54:02.204Z",
+        "reply_count": 2,
+        "reply_to_post_number": 11,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 47,
+        "readers_count": 46,
+        "score": 29.4,
+        "yours": false,
+        "topic_id": 600130,
+        "topic_slug": "mcp-and-other-classes",
+        "display_username": "Dmitry",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 3104025,
+          "username": "MysticCow-3104025",
+          "name": "MysticCow",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 885491,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Troll",
+          "class": "Shaman",
+          "player_class_enum": "SHAMAN",
+          "blizzard_post_count": "808",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/eredar/rofladin/",
+          "guild": null,
+          "achievement_points": "0",
+          "level": "60",
+          "classic": "t"
+        },
+        "post_url": "/t/mcp-and-other-classes/600130/12",
+        "alias_avatar": "https://render-us.worldofwarcraft.com/character/illidan/61/197442365-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+        "alias_username": "Thingummywut",
+        "poster_alias": {
+          "alias": {
+            "name": "Thingummywut",
+            "avatar": "https://render-us.worldofwarcraft.com/character/illidan/61/197442365-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/illidan/thingummywut/",
+            "user_id": 885491,
+            "id": 2433303,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 201,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/illidan/thingummywut/"
+              },
+              {
+                "name": "realm",
+                "value": "Illidan"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12565"
+              },
+              {
+                "name": "level",
+                "value": "50"
+              },
+              {
+                "name": "race",
+                "value": "Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "guild",
+                "value": "dokwodjq"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2323910,
+          "username": "Beautia",
+          "name": "Beautia",
+          "avatar_template": "https://render-classic-us.worldofwarcraft.com/character/azuresong/32/18591008-avatar.jpg?alt=/wow/static/images/2d/avatar/3-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 808,
+        "character": {
+          "name": "Dmitry",
+          "guild": null,
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Shaman",
+          "race": "Troll",
+          "player_class_enum": "SHAMAN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 9044434,
+        "name": "MysticCow",
+        "username": "MysticCow-3104025",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2020-08-02T15:00:56.149Z",
+        "cooked": "<p>The haste makes up for the smaller seal damage, because you’re getting more SoR hits from the hasted weapon that procs like it’s 2.0 instead of 1.0.  And it’s for 90 seconds if you use all charges.</p>\n<p>You don’t use Command (save for Judgement time) with a MCP.  You use the guaranteed proc of Righteousness with a wacky proc weapon like MCP or Flurry Axe.</p>\n<p>MCP makes up for the other problems this way.</p>",
+        "post_number": 13,
+        "post_type": 1,
+        "posts_count": 21,
+        "updated_at": "2026-06-11T05:32:40.006Z",
+        "reply_count": 2,
+        "reply_to_post_number": 12,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 44,
+        "readers_count": 43,
+        "score": 23.8,
+        "yours": false,
+        "topic_id": 600130,
+        "topic_slug": "mcp-and-other-classes",
+        "display_username": "MysticCow",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 885491,
+          "username": "Dmitry-885491",
+          "name": "Dmitry",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3104025,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/echo-isles/nermal/",
+          "guild": "Aeternus Millitarum",
+          "achievement_points": "0",
+          "race": "Human",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "classic": "t",
+          "level": "60",
+          "blizzard_post_count": "1631"
+        },
+        "post_url": "/t/mcp-and-other-classes/600130/13",
+        "alias_avatar": "https://render-classic-us.worldofwarcraft.com/character/azuresong/32/18591008-avatar.jpg?alt=/wow/static/images/2d/avatar/3-1.jpg",
+        "alias_username": "Beautia",
+        "poster_alias": {
+          "alias": {
+            "name": "Beautia",
+            "avatar": "https://render-classic-us.worldofwarcraft.com/character/azuresong/32/18591008-avatar.jpg?alt=/wow/static/images/2d/avatar/3-1.jpg",
+            "url": null,
+            "user_id": 3104025,
+            "id": 2323910,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 1270,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Azuresong"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Dwarf"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "Classic Heros"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2433303,
+          "username": "Thingummywut",
+          "name": "Thingummywut",
+          "avatar_template": "https://render-us.worldofwarcraft.com/character/illidan/61/197442365-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 1631,
+        "character": {
+          "name": "MysticCow",
+          "guild": "Aeternus Millitarum",
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Paladin",
+          "race": "Human",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 9044454,
+        "name": "Dmitry",
+        "username": "Dmitry-885491",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2020-08-02T15:03:24.337Z",
+        "cooked": "<p>i guess that makes sense.</p>",
+        "post_number": 14,
+        "post_type": 1,
+        "posts_count": 21,
+        "updated_at": "2026-06-20T18:54:02.310Z",
+        "reply_count": 0,
+        "reply_to_post_number": 13,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 35,
+        "readers_count": 34,
+        "score": 7.0,
+        "yours": false,
+        "topic_id": 600130,
+        "topic_slug": "mcp-and-other-classes",
+        "display_username": "Dmitry",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 3104025,
+          "username": "MysticCow-3104025",
+          "name": "MysticCow",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 885491,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Troll",
+          "class": "Shaman",
+          "player_class_enum": "SHAMAN",
+          "blizzard_post_count": "808",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/eredar/rofladin/",
+          "guild": null,
+          "achievement_points": "0",
+          "level": "60",
+          "classic": "t"
+        },
+        "post_url": "/t/mcp-and-other-classes/600130/14",
+        "alias_avatar": "https://render-us.worldofwarcraft.com/character/illidan/61/197442365-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+        "alias_username": "Thingummywut",
+        "poster_alias": {
+          "alias": {
+            "name": "Thingummywut",
+            "avatar": "https://render-us.worldofwarcraft.com/character/illidan/61/197442365-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/illidan/thingummywut/",
+            "user_id": 885491,
+            "id": 2433303,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 201,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/illidan/thingummywut/"
+              },
+              {
+                "name": "realm",
+                "value": "Illidan"
+              },
+              {
+                "name": "achievement_points",
+                "value": "12565"
+              },
+              {
+                "name": "level",
+                "value": "50"
+              },
+              {
+                "name": "race",
+                "value": "Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "guild",
+                "value": "dokwodjq"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 2323910,
+          "username": "Beautia",
+          "name": "Beautia",
+          "avatar_template": "https://render-classic-us.worldofwarcraft.com/character/azuresong/32/18591008-avatar.jpg?alt=/wow/static/images/2d/avatar/3-1.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 808,
+        "character": {
+          "name": "Dmitry",
+          "guild": null,
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Shaman",
+          "race": "Troll",
+          "player_class_enum": "SHAMAN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 9044729,
+        "name": "Smeet",
+        "username": "Smeet-1786441",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2020-08-02T15:38:16.466Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Thingummywut-illidan\" data-post=\"10\" data-topic=\"600130\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n Thingummywut:</div>\n<blockquote>\n<p>doesn’t seal of command benefit from slower weapons better? Or does the increased attack speed-crits make up for it? Ret does gain additional damage on crit, but wouldn’t you just hit the ppm on it too fast?</p>\n</blockquote>\n</aside>\n<p>SoC is definitely stronger on slower weapons, but the 50% attack speed boost causes you to get more SoC hits as well. (There is no limit to how many SoC hits you can get in a minute, the PPM just sets the chance to proc on MCP at around 23% per hit)</p>\n<p>Because of that, it very quickly outpaces every other 2h in average damage per second as your stats improve.</p>\n<p>By best in slot gear and full world buffs it deals more DPS than Might of Menethil on average for the 90 seconds it is active.</p>",
+        "post_number": 15,
+        "post_type": 1,
+        "posts_count": 21,
+        "updated_at": "2026-07-06T14:15:01.922Z",
+        "reply_count": 0,
+        "reply_to_post_number": 10,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 27,
+        "readers_count": 26,
+        "score": 20.4,
+        "yours": false,
+        "topic_id": 600130,
+        "topic_slug": "mcp-and-other-classes",
+        "display_username": "Smeet",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1786441,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": null,
+          "race": "Human",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "guild": "Society of Benevolence",
+          "blizzard_post_count": "1584",
+          "level": "80",
+          "classic": "t",
+          "achievement_points": "5170"
+        },
+        "post_url": "/t/mcp-and-other-classes/600130/15",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/sulfuras/0/12112896-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Smeet",
+        "poster_alias": {
+          "alias": {
+            "name": "Smeet",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/sulfuras/0/12112896-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": null,
+            "user_id": 1786441,
+            "id": 2568789,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 699,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Sulfuras"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "65"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "Society of Benevolence"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 1584,
+        "character": {
+          "name": "Smeet",
+          "guild": "Society of Benevolence",
+          "achievement_points": "5170",
+          "level": "80",
+          "class": "Paladin",
+          "race": "Human",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 9044824,
+        "name": "Caliban",
+        "username": "Caliban-477568",
+        "avatar_template": "https://render-us.worldofwarcraft.com/character/maelstrom/175/3764655-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
+        "created_at": "2020-08-02T15:54:08.586Z",
+        "cooked": "<p>I just want to see how fast it swings with seal of crusader up</p>",
+        "post_number": 16,
+        "post_type": 1,
+        "posts_count": 21,
+        "updated_at": "2020-08-02T15:54:08.586Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 21,
+        "readers_count": 20,
+        "score": 14.2,
+        "yours": false,
+        "topic_id": 600130,
+        "topic_slug": "mcp-and-other-classes",
+        "display_username": "Caliban",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 477568,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/maelstrom/caliban/",
+          "guild": "Dârk Covenânt",
+          "race": "Night Elf",
+          "class": "Rogue",
+          "player_class_enum": "ROGUE",
+          "blizzard_post_count": "344",
+          "achievement_points": "2575",
+          "level": "27"
+        },
+        "post_url": "/t/mcp-and-other-classes/600130/16",
+        "alias_avatar": "https://render-us.worldofwarcraft.com/character/maelstrom/175/3764655-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
+        "alias_username": "Caliban",
+        "poster_alias": {
+          "alias": {
+            "name": "Caliban",
+            "avatar": "https://render-us.worldofwarcraft.com/character/maelstrom/175/3764655-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/maelstrom/caliban/",
+            "user_id": 477568,
+            "id": 2469068,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 344,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/maelstrom/caliban/"
+              },
+              {
+                "name": "realm",
+                "value": "Maelstrom"
+              },
+              {
+                "name": "achievement_points",
+                "value": "2575"
+              },
+              {
+                "name": "level",
+                "value": "27"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "guild",
+                "value": "Dârk Covenânt"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 344,
+        "character": {
+          "name": "Caliban",
+          "guild": "Dârk Covenânt",
+          "achievement_points": "2575",
+          "level": "27",
+          "class": "Rogue",
+          "race": "Night Elf",
+          "player_class_enum": "ROGUE",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 9044836,
+        "name": "Lesable",
+        "username": "Lesable-1755273",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2020-08-02T15:56:41.705Z",
+        "cooked": "<p>Mar-co-polo?</p>",
+        "post_number": 17,
+        "post_type": 1,
+        "posts_count": 21,
+        "updated_at": "2026-07-04T02:39:34.253Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 21,
+        "readers_count": 20,
+        "score": 14.2,
+        "yours": false,
+        "topic_id": 600130,
+        "topic_slug": "mcp-and-other-classes",
+        "display_username": "Lesable",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1755273,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/magtheridon/lesable/",
+          "race": "Tauren",
+          "class": "Druid",
+          "player_class_enum": "DRUID",
+          "blizzard_post_count": "141",
+          "guild": "Frères de Sang",
+          "achievement_points": "0",
+          "level": "70",
+          "classic": "t"
+        },
+        "post_url": "/t/mcp-and-other-classes/600130/17",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/earthfury/113/17855089-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+        "alias_username": "Boeuff",
+        "poster_alias": {
+          "alias": {
+            "name": "Boeuff",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/earthfury/113/17855089-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+            "url": null,
+            "user_id": 1755273,
+            "id": 2553658,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 992,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Earthfury"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "Forever Classic"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 141,
+        "character": {
+          "name": "Lesable",
+          "guild": "Frères de Sang",
+          "achievement_points": "0",
+          "level": "70",
+          "class": "Druid",
+          "race": "Tauren",
+          "player_class_enum": "DRUID",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 9044857,
+        "name": "Lesable",
+        "username": "Lesable-1755273",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2020-08-02T15:58:41.083Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Thingummywut-illidan\" data-post=\"6\" data-topic=\"600130\" data-full=\"true\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n Thingummywut:</div>\n<blockquote>\n<p>mages can autoattack too.</p>\n</blockquote>\n</aside>\n<p>You should writhe a book name : things you already know!</p>\n<p>am sure the internet would pick it up and you would end up making a lot of money</p>",
+        "post_number": 18,
+        "post_type": 1,
+        "posts_count": 21,
+        "updated_at": "2026-07-04T02:39:34.645Z",
+        "reply_count": 0,
+        "reply_to_post_number": 6,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 21,
+        "readers_count": 20,
+        "score": 4.2,
+        "yours": false,
+        "topic_id": 600130,
+        "topic_slug": "mcp-and-other-classes",
+        "display_username": "Lesable",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1755273,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/magtheridon/lesable/",
+          "race": "Tauren",
+          "class": "Druid",
+          "player_class_enum": "DRUID",
+          "blizzard_post_count": "141",
+          "guild": "Frères de Sang",
+          "achievement_points": "0",
+          "level": "70",
+          "classic": "t"
+        },
+        "post_url": "/t/mcp-and-other-classes/600130/18",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic1x-us/character/earthfury/113/17855089-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+        "alias_username": "Boeuff",
+        "poster_alias": {
+          "alias": {
+            "name": "Boeuff",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/earthfury/113/17855089-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+            "url": null,
+            "user_id": 1755273,
+            "id": 2553658,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 992,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Earthfury"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Tauren"
+              },
+              {
+                "name": "player_class",
+                "value": "Druid"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DRUID"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "Forever Classic"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 141,
+        "character": {
+          "name": "Lesable",
+          "guild": "Frères de Sang",
+          "achievement_points": "0",
+          "level": "70",
+          "class": "Druid",
+          "race": "Tauren",
+          "player_class_enum": "DRUID",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 9044874,
+        "name": "Caliban",
+        "username": "Caliban-477568",
+        "avatar_template": "https://render-us.worldofwarcraft.com/character/maelstrom/175/3764655-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
+        "created_at": "2020-08-02T16:00:12.750Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Boeuff-earthfury\" data-post=\"17\" data-topic=\"600130\" data-full=\"true\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/classic1x-us/character/earthfury/113/17855089-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg\" class=\"avatar\"> Boeuff:</div>\n<blockquote>\n<p>Mar-co-polo?</p>\n</blockquote>\n</aside>\n<p>No dude, we’re talking about the Master Control Program. Try to keep up.</p>\n<p>End of line</p>",
+        "post_number": 19,
+        "post_type": 1,
+        "posts_count": 21,
+        "updated_at": "2020-08-02T16:01:16.177Z",
+        "reply_count": 0,
+        "reply_to_post_number": 17,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 17,
+        "readers_count": 16,
+        "score": 3.4,
+        "yours": false,
+        "topic_id": 600130,
+        "topic_slug": "mcp-and-other-classes",
+        "display_username": "Caliban",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 477568,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/maelstrom/caliban/",
+          "guild": "Dârk Covenânt",
+          "race": "Night Elf",
+          "class": "Rogue",
+          "player_class_enum": "ROGUE",
+          "blizzard_post_count": "344",
+          "achievement_points": "2575",
+          "level": "27"
+        },
+        "post_url": "/t/mcp-and-other-classes/600130/19",
+        "alias_avatar": "https://render-us.worldofwarcraft.com/character/maelstrom/175/3764655-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
+        "alias_username": "Caliban",
+        "poster_alias": {
+          "alias": {
+            "name": "Caliban",
+            "avatar": "https://render-us.worldofwarcraft.com/character/maelstrom/175/3764655-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/maelstrom/caliban/",
+            "user_id": 477568,
+            "id": 2469068,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 344,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/maelstrom/caliban/"
+              },
+              {
+                "name": "realm",
+                "value": "Maelstrom"
+              },
+              {
+                "name": "achievement_points",
+                "value": "2575"
+              },
+              {
+                "name": "level",
+                "value": "27"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Rogue"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "ROGUE"
+              },
+              {
+                "name": "guild",
+                "value": "Dârk Covenânt"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 344,
+        "character": {
+          "name": "Caliban",
+          "guild": "Dârk Covenânt",
+          "achievement_points": "2575",
+          "level": "27",
+          "class": "Rogue",
+          "race": "Night Elf",
+          "player_class_enum": "ROGUE",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 9044898,
+        "name": null,
+        "username": "Redfall-myzrael",
+        "avatar_template": "https://render.worldofwarcraft.com/classic1x-us/character/myzrael/148/18328724-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "created_at": "2020-08-02T16:03:58.647Z",
+        "cooked": "<p>MCP is subpar for ret paladins. Feel free to research WCL and wonder why none of the best rets in the world are using it. Also, spell ret dps output is significantly lower than AP ret, it’s just easier to gear for if you’re in a guild that’s giving the gear to warriors.</p>",
+        "post_number": 20,
+        "post_type": 1,
+        "posts_count": 21,
+        "updated_at": "2020-08-02T16:03:58.647Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 18,
+        "readers_count": 17,
+        "score": 8.6,
+        "yours": false,
+        "topic_id": 600130,
+        "topic_slug": "mcp-and-other-classes",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 667496,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": null,
+          "race": "Human",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "blizzard_post_count": "27",
+          "guild": null,
+          "achievement_points": "0",
+          "level": "60",
+          "classic": "t"
+        },
+        "post_url": "/t/mcp-and-other-classes/600130/20",
+        "alias_avatar": null,
+        "alias_username": null,
+        "poster_alias": null,
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 27,
+        "character": {
+          "name": "Redfall",
+          "guild": null,
+          "achievement_points": "0",
+          "level": "60",
+          "class": "Warrior",
+          "race": "Human",
+          "player_class_enum": "WARRIOR",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 9045118,
+        "name": "Smeet",
+        "username": "Smeet-1786441",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2020-08-02T16:33:25.905Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"Redfall-myzrael\" data-post=\"20\" data-topic=\"600130\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://render.worldofwarcraft.com/classic1x-us/character/myzrael/148/18328724-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg\" class=\"avatar\"> Redfall:</div>\n<blockquote>\n<p>MCP is subpar for ret paladins. Feel free to research WCL and wonder why none of the best rets in the world are using it</p>\n</blockquote>\n</aside>\n<p>Because hand of rag getting lucky and Criting 60+% of the time on a 10 swing fight is a higher spike than MCP, which has the higher average.</p>\n<p>Top logs are usually just examples of good luck more than anything else (especially on rets, since their special attacks are also RNG based).</p>\n<p>MCP = highest average<br>\nAshkandi / Hand of Rag = potential for higher individual parses if the fights are short.</p>\n<p>The “top rets” are typically more concerned with hitting that <span class=\"hashtag-raw\">#1</span> parse than using the setup that works best on average (plus pretty much all of us loathe the idea of farming the thing)</p>\n<aside class=\"quote no-group\" data-username=\"Beautia-azuresong\" data-post=\"13\" data-topic=\"600130\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n Beautia:</div>\n<blockquote>\n<p>You don’t use Command (save for Judgement time) with a MCP.</p>\n</blockquote>\n</aside>\n<p>If you are running a more standard gearing with MCP (not stacking SP), SoC is much stronger than SoR, even on MCP.</p>\n<aside class=\"quote no-group\" data-username=\"Thingummywut-illidan\" data-post=\"12\" data-topic=\"600130\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n Thingummywut:</div>\n<blockquote>\n<p>doesn’t most of ret damage comes from seal of command amplified by seal of crusader.</p>\n</blockquote>\n</aside>\n<p>No, most ret DPS comes from auto attacks. Seal of Command is the second largest source of damage, and on average an MCP will get 10.5 procs per minute due to the haste, which offsets the lower damage hits.</p>\n<p>Judgment of the Crusader is a fairly minor dps buff unless you are running spelladin.</p>\n<aside class=\"quote no-group\" data-username=\"Caliban-maelstrom\" data-post=\"16\" data-topic=\"600130\" data-full=\"true\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n Caliban:</div>\n<blockquote>\n<p>I just want to see how fast it swings with seal of crusader up</p>\n</blockquote>\n</aside>\n<p>MCP + SotC swings once every .95 seconds, although it is a very weak seal.</p>",
+        "post_number": 21,
+        "post_type": 1,
+        "posts_count": 21,
+        "updated_at": "2026-07-06T14:15:02.530Z",
+        "reply_count": 0,
+        "reply_to_post_number": 20,
+        "quote_count": 4,
+        "incoming_link_count": 2,
+        "reads": 18,
+        "readers_count": 17,
+        "score": 28.6,
+        "yours": false,
+        "topic_id": 600130,
+        "topic_slug": "mcp-and-other-classes",
+        "display_username": "Smeet",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1786441,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Ownership transferred",
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": null,
+          "race": "Human",
+          "class": "Paladin",
+          "player_class_enum": "PALADIN",
+          "guild": "Society of Benevolence",
+          "blizzard_post_count": "1584",
+          "level": "80",
+          "classic": "t",
+          "achievement_points": "5170"
+        },
+        "post_url": "/t/mcp-and-other-classes/600130/21",
+        "alias_avatar": "https://render.worldofwarcraft.com/classic-us/character/sulfuras/0/12112896-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+        "alias_username": "Smeet",
+        "poster_alias": {
+          "alias": {
+            "name": "Smeet",
+            "avatar": "https://render.worldofwarcraft.com/classic-us/character/sulfuras/0/12112896-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": null,
+            "user_id": 1786441,
+            "id": 2568789,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 699,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Sulfuras"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "65"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Paladin"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "PALADIN"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "Society of Benevolence"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 1584,
+        "character": {
+          "name": "Smeet",
+          "guild": "Society of Benevolence",
+          "achievement_points": "5170",
+          "level": "80",
+          "class": "Paladin",
+          "race": "Human",
+          "player_class_enum": "PALADIN",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ],
+    "stream": [
+      9041704,
+      9041758,
+      9041812,
+      9042511,
+      9042520,
+      9042522,
+      9042741,
+      9042824,
+      9044258,
+      9044291,
+      9044350,
+      9044361,
+      9044434,
+      9044454,
+      9044729,
+      9044824,
+      9044836,
+      9044857,
+      9044874,
+      9044898,
+      9045118
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      2229
+    ]
+  ],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "MCP and other classes?",
+  "id": 600130,
+  "title": "MCP and other classes?",
+  "posts_count": 21,
+  "created_at": "2020-08-02T05:49:48.525Z",
+  "views": 1404,
+  "reply_count": 12,
+  "like_count": 6,
+  "last_posted_at": "2020-08-02T16:33:25.905Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "mcp-and-other-classes",
+  "category_id": 172,
+  "word_count": 1132,
+  "deleted_at": null,
+  "user_id": 1574710,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_600130",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 21,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 1001,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1002,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1003,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1004,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1005,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 3,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 52708,
+        "username": "Eekamouse-52708",
+        "name": "Eekamouse",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Eekamouse-windseeker",
+            "avatar": "https://render.worldofwarcraft.com/classic1x-us/character/windseeker/34/17923618-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
+            "url": null,
+            "user_id": 52708,
+            "id": 429203,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 809,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Windseeker"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/classic1x-us/character/windseeker/34/17923618-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Eekamouse-windseeker"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 1574710,
+        "username": "Roronoa-1574710",
+        "name": "Roronoa",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1,
+        "acting_alias": {
+          "alias": {
+            "name": "Cogidubnus-atiesh",
+            "avatar": "https://render-classic-us.worldofwarcraft.com/character/atiesh/63/22539583-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
+            "url": null,
+            "user_id": 1574710,
+            "id": 909892,
+            "selected": false,
+            "selected_user_badge_id": null,
+            "post_count": 0,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Atiesh"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "40"
+              },
+              {
+                "name": "race",
+                "value": "Human"
+              },
+              {
+                "name": "player_class",
+                "value": "Warrior"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARRIOR"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 645565,
+        "username": "Cheat2Win-645565",
+        "name": "Cheat2Win",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Döt-grobbulus",
+            "avatar": "https://render-classic-us.worldofwarcraft.com/character/grobbulus/90/6778458-avatar.jpg?alt=/wow/static/images/2d/avatar/7-1.jpg",
+            "url": null,
+            "user_id": 645565,
+            "id": 426940,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 7601,
+            "alias_custom_fields": [
+              {
+                "name": "realm",
+                "value": "Grobbulus"
+              },
+              {
+                "name": "achievement_points",
+                "value": "0"
+              },
+              {
+                "name": "level",
+                "value": "60"
+              },
+              {
+                "name": "race",
+                "value": "Gnome"
+              },
+              {
+                "name": "player_class",
+                "value": "Warlock"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "WARLOCK"
+              },
+              {
+                "name": "classic",
+                "value": "t"
+              },
+              {
+                "name": "guild",
+                "value": "Singularity"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      }
+    ],
+    "created_by": {
+      "id": 1574710,
+      "username": "Roronoa-1574710",
+      "name": "Roronoa",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    },
+    "last_poster": {
+      "id": 1786441,
+      "username": "Smeet-1786441",
+      "name": "Smeet",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    }
+  },
+  "bookmarks": [],
+  "jogo": "World of Warcraft",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Oficial Blizzard",
+  "url_fonte": "https://us.forums.blizzard.com/en/wow/t/mcp-and-other-classes/600130",
+  "canonical_url": "https://us.forums.blizzard.com/en/wow/t/mcp-and-other-classes/600130"
+}

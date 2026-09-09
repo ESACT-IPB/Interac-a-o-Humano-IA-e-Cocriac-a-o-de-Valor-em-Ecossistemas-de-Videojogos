@@ -1,0 +1,1121 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 27714230,
+        "name": null,
+        "username": "Warboi-uther",
+        "avatar_template": "https://render.worldofwarcraft.com/us/character/uther/130/148667010-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+        "created_at": "2025-09-09T23:50:43.531Z",
+        "cooked": "<p>This trinket is not even on peoples radar in S3. 1.3M Damage DR Cap. We get hit for 1 mil and chunked way more than that in under 0.1 seconds.</p>\n<p>Am i crazy or does this trinket need some love! Please increase DR cap or something.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 3,
+        "updated_at": "2025-09-09T23:50:43.531Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 325,
+        "reads": 28,
+        "readers_count": 27,
+        "score": 1630.6,
+        "yours": false,
+        "topic_id": 2166640,
+        "topic_slug": "buff-codex-of-the-first-technique",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3013043,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/uther/warboi/",
+          "guild": "Bloodbath and Beyond",
+          "level": "80",
+          "class": "Warrior",
+          "player_class_enum": "WARRIOR",
+          "blizzard_post_count": "4",
+          "race": "Blood Elf",
+          "achievement_points": "13780"
+        },
+        "post_url": "/t/buff-codex-of-the-first-technique/2166640/1",
+        "alias_avatar": null,
+        "alias_username": null,
+        "poster_alias": null,
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 4,
+        "character": {
+          "name": "Warboi",
+          "guild": "Bloodbath and Beyond",
+          "achievement_points": "13780",
+          "level": "80",
+          "class": "Warrior",
+          "race": "Blood Elf",
+          "player_class_enum": "WARRIOR",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 27714236,
+        "name": "Waifu4Laifu",
+        "username": "Waifu4Laifu-709176",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-09-09T23:51:39.235Z",
+        "cooked": "<p>It was garbage in SL, and its somehow even worse now</p>\n<p>Wild they never tried to make it even useable once</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 3,
+        "updated_at": "2025-09-09T23:51:39.235Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 28,
+        "readers_count": 27,
+        "score": 15.6,
+        "yours": false,
+        "topic_id": 2166640,
+        "topic_slug": "buff-codex-of-the-first-technique",
+        "display_username": "Waifu4Laifu",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 709176,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/zuljin/malgorok/",
+          "class": "Death Knight",
+          "player_class_enum": "DEATHKNIGHT",
+          "level": "80",
+          "guild": "Glorious Purpose",
+          "race": "Mag'har Orc",
+          "classic": "t",
+          "achievement_points": "40445",
+          "blizzard_post_count": "32826"
+        },
+        "post_url": "/t/buff-codex-of-the-first-technique/2166640/2",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/zuljin/227/262572259-avatar.jpg?alt=/wow/static/images/2d/avatar/36-0.jpg",
+        "alias_username": "Malgorok-zuljin",
+        "poster_alias": {
+          "alias": {
+            "name": "Malgorok-zuljin",
+            "avatar": "https://render.worldofwarcraft.com/us/character/zuljin/227/262572259-avatar.jpg?alt=/wow/static/images/2d/avatar/36-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/zuljin/malgorok/",
+            "user_id": 709176,
+            "id": 437536,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 32898,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/zuljin/malgorok/"
+              },
+              {
+                "name": "realm",
+                "value": "Zul'jin"
+              },
+              {
+                "name": "achievement_points",
+                "value": "43320"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Mag'har Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/zuljin/227/262572259-avatar.jpg?alt=/wow/static/images/2d/avatar/36-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Malgorok-zuljin"
+              },
+              {
+                "name": "guild",
+                "value": "Glorious Purpose"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 32826,
+        "character": {
+          "name": "Waifu4Laifu",
+          "guild": "Glorious Purpose",
+          "achievement_points": "40445",
+          "level": "80",
+          "class": "Death Knight",
+          "race": "Mag'har Orc",
+          "player_class_enum": "DEATHKNIGHT",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 27716840,
+        "name": "iRawb",
+        "username": "iRawb-2563876",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2025-09-10T13:19:32.551Z",
+        "cooked": "<p>The trinket is absolutely Garbo and doesn’t belong dropping in my vault unless they improve it. Waste of space.</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 3,
+        "updated_at": "2025-09-10T13:19:32.551Z",
+        "reply_count": 0,
+        "reply_to_post_number": 2,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 20,
+        "readers_count": 19,
+        "score": 4.0,
+        "yours": false,
+        "topic_id": 2166640,
+        "topic_slug": "buff-codex-of-the-first-technique",
+        "display_username": "iRawb",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 709176,
+          "username": "Waifu4Laifu-709176",
+          "name": "Waifu4Laifu",
+          "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2563876,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/uther/randyll/",
+          "class": "Demon Hunter",
+          "player_class_enum": "DEMONHUNTER",
+          "race": "Night Elf",
+          "level": "80",
+          "guild": "Bloodbath and Beyond",
+          "achievement_points": "14710",
+          "blizzard_post_count": "67"
+        },
+        "post_url": "/t/buff-codex-of-the-first-technique/2166640/3",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/uther/250/158827770-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+        "alias_username": "Randyll-uther",
+        "poster_alias": {
+          "alias": {
+            "name": "Randyll-uther",
+            "avatar": "https://render.worldofwarcraft.com/us/character/uther/250/158827770-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/uther/randyll/",
+            "user_id": 2563876,
+            "id": 613140,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 74,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/uther/randyll/"
+              },
+              {
+                "name": "realm",
+                "value": "Uther"
+              },
+              {
+                "name": "achievement_points",
+                "value": "16150"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Demon Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEMONHUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/uther/250/158827770-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Randyll-uther"
+              },
+              {
+                "name": "guild",
+                "value": "Ring of Valor"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": {
+          "id": 437536,
+          "username": "Malgorok-zuljin",
+          "name": "Malgorok",
+          "avatar_template": "https://render.worldofwarcraft.com/us/character/zuljin/227/262572259-avatar.jpg?alt=/wow/static/images/2d/avatar/36-0.jpg"
+        },
+        "animated_avatar": null,
+        "user_post_count": 67,
+        "character": {
+          "name": "iRawb",
+          "guild": "Bloodbath and Beyond",
+          "achievement_points": "14710",
+          "level": "80",
+          "class": "Demon Hunter",
+          "race": "Night Elf",
+          "player_class_enum": "DEMONHUNTER",
+          "classic": false
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ],
+    "stream": [
+      27714230,
+      27714236,
+      27716840
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      365
+    ],
+    [
+      3,
+      364
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "fancy_title": "Housing question",
+      "id": 2341860,
+      "title": "Housing question",
+      "slug": "housing-question",
+      "posts_count": 11,
+      "reply_count": 5,
+      "highest_post_number": 11,
+      "image_url": null,
+      "created_at": "2026-08-27T19:59:47.669Z",
+      "last_posted_at": "2026-08-27T20:32:08.016Z",
+      "bumped": true,
+      "bumped_at": "2026-08-27T20:32:08.016Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "so we got fencing, hay bails, troughs…are there any animals…sheep or pigs or whatever…that we can get for a ‘farm’ kind of layout that wander around the yard?",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 7,
+      "views": 79,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 294436,
+            "username": "snowberry-294436",
+            "name": "snowberry",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3257305,
+            "username": "Lore-3257305",
+            "name": "Lore",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2728590,
+            "username": "GrumpyMonk-2728590",
+            "name": "GrumpyMonk",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3431031,
+            "username": "OnyxPrinny-3431031",
+            "name": "OnyxPrinny",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3373858,
+            "username": "DeadlyKitten-3373858",
+            "name": "DeadlyKitten",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Takingt FP to new zone LOL",
+      "id": 2340323,
+      "title": "Takingt FP to new zone LOL",
+      "slug": "takingt-fp-to-new-zone-lol",
+      "posts_count": 41,
+      "reply_count": 28,
+      "highest_post_number": 41,
+      "image_url": null,
+      "created_at": "2026-08-23T21:00:14.461Z",
+      "last_posted_at": "2026-08-28T14:22:04.425Z",
+      "bumped": true,
+      "bumped_at": "2026-08-28T14:22:04.425Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Lets see go to FM take taxi , Go to store get back from store still on taxi . Why it has to take the longest route I have no Idea thought blizz was done with that when they remade most like it .",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 64,
+      "views": 563,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 3,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 2575382,
+            "username": "speedenbull-2575382",
+            "name": "speedenbull",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 721456,
+            "username": "Macfly-721456",
+            "name": "Macfly",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2277436,
+            "username": "Thallia-2277436",
+            "name": "Thallia",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 43430,
+            "username": "Auss-43430",
+            "name": "Auss",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2804887,
+            "username": "Aarku-2804887",
+            "name": "Aarku",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Quick look at this",
+      "id": 2341424,
+      "title": "Quick look at this",
+      "slug": "quick-look-at-this",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2026-08-26T18:54:39.500Z",
+      "last_posted_at": "2026-08-26T19:50:50.727Z",
+      "bumped": true,
+      "bumped_at": "2026-08-26T19:50:50.727Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "so at my player housing i cant use medal of conquest. have a look. is this an unintentional oversight? if not can i have a reasonable answer without getting flammed as to why i cant? \nwhat if my pvp gang want to buff up &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 53,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 2768845,
+            "username": "Ifrit-2768845",
+            "name": "Ifrit",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 2188910,
+            "username": "Mal-2188910",
+            "name": "Mal",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Best In Class",
+      "id": 2339976,
+      "title": "Best In Class",
+      "slug": "best-in-class",
+      "posts_count": 7,
+      "reply_count": 1,
+      "highest_post_number": 8,
+      "image_url": null,
+      "created_at": "2026-08-22T16:40:33.432Z",
+      "last_posted_at": "2026-08-23T13:02:10.163Z",
+      "bumped": true,
+      "bumped_at": "2026-08-23T13:02:10.163Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "What in your opinion is the best in class of each of the following Wow Archetypes: \nTank \nHealer \nDps",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 158,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 1921012,
+            "username": "Wolf-1921012",
+            "name": "Wolf",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 829503,
+            "username": "Ventorath-829503",
+            "name": "Ventorath",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 271638,
+            "username": "Wurmfuud-271638",
+            "name": "Wurmfuud",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2572758,
+            "username": "SpaceCowboy-2572758",
+            "name": "SpaceCowboy",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 22312,
+            "username": "Cyaneyed-22312",
+            "name": "Cyaneyed",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "BlizzCon 2026, Midnight 12.1.5, and More in This Week’s WoW Weekly",
+      "id": 2344793,
+      "title": "BlizzCon 2026, Midnight 12.1.5, and More in This Week’s WoW Weekly",
+      "slug": "blizzcon-2026-midnight-1215-and-more-in-this-week%E2%80%99s-wow-weekly",
+      "posts_count": 15,
+      "reply_count": 8,
+      "highest_post_number": 16,
+      "image_url": null,
+      "created_at": "2026-09-04T17:00:08.513Z",
+      "last_posted_at": "2026-09-08T15:20:24.702Z",
+      "bumped": true,
+      "bumped_at": "2026-09-08T15:20:24.702Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "This week’s WoW Weekly roundup spotlights BlizzCon 2026, including livestream festivities, in-game rewards, and the return of the AWC and MDI Grand Finals, alongside new Midnight adventures, Raid Finder updates, and the&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 35,
+      "views": 648,
+      "category_id": 171,
+      "featured_link": null,
+      "op_like_count": 1,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 520262,
+            "username": "BlizzardEntertainment",
+            "name": "Blizzard Entertainment",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "primary_group_name": "api_users",
+            "moderator": true,
+            "trust_level": 4,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2008824,
+            "username": "Ordaine-2008824",
+            "name": "Ordaine",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 70527,
+            "username": "Greatbrae-70527",
+            "name": "Greatbrae",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2060211,
+            "username": "Rubberduckee-2060211",
+            "name": "Rubberduckee",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 2,
+            "animated_avatar": null
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 3192190,
+            "username": "Madmartigan-3192190",
+            "name": "Madmartigan",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "trust_level": 1,
+            "animated_avatar": null
+          }
+        }
+      ]
+    }
+  ],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "Buff - Codex of the first technique",
+  "id": 2166640,
+  "title": "Buff - Codex of the first technique",
+  "posts_count": 3,
+  "created_at": "2025-09-09T23:50:43.417Z",
+  "views": 257,
+  "reply_count": 1,
+  "like_count": 1,
+  "last_posted_at": "2025-09-10T13:19:32.551Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "buff-codex-of-the-first-technique",
+  "category_id": 171,
+  "word_count": 89,
+  "deleted_at": null,
+  "user_id": 3013043,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_2166640",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 3,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 1001,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1002,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1003,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1004,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1005,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 2,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 709176,
+        "username": "Waifu4Laifu-709176",
+        "name": "Waifu4Laifu",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Malgorok-zuljin",
+            "avatar": "https://render.worldofwarcraft.com/us/character/zuljin/227/262572259-avatar.jpg?alt=/wow/static/images/2d/avatar/36-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/zuljin/malgorok/",
+            "user_id": 709176,
+            "id": 437536,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 32898,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/zuljin/malgorok/"
+              },
+              {
+                "name": "realm",
+                "value": "Zul'jin"
+              },
+              {
+                "name": "achievement_points",
+                "value": "43320"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Mag'har Orc"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/zuljin/227/262572259-avatar.jpg?alt=/wow/static/images/2d/avatar/36-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Malgorok-zuljin"
+              },
+              {
+                "name": "guild",
+                "value": "Glorious Purpose"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      },
+      {
+        "id": 2563876,
+        "username": "iRawb-2563876",
+        "name": "iRawb",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 2,
+        "acting_alias": {
+          "alias": {
+            "name": "Randyll-uther",
+            "avatar": "https://render.worldofwarcraft.com/us/character/uther/250/158827770-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/uther/randyll/",
+            "user_id": 2563876,
+            "id": 613140,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 74,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/uther/randyll/"
+              },
+              {
+                "name": "realm",
+                "value": "Uther"
+              },
+              {
+                "name": "achievement_points",
+                "value": "16150"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Night Elf"
+              },
+              {
+                "name": "player_class",
+                "value": "Demon Hunter"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEMONHUNTER"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/uther/250/158827770-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Randyll-uther"
+              },
+              {
+                "name": "guild",
+                "value": "Ring of Valor"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      }
+    ],
+    "created_by": {
+      "id": 3013043,
+      "username": "Warboi-uther",
+      "name": null,
+      "avatar_template": "https://render.worldofwarcraft.com/us/character/uther/130/148667010-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
+      "animated_avatar": null
+    },
+    "last_poster": {
+      "id": 2563876,
+      "username": "iRawb-2563876",
+      "name": "iRawb",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    }
+  },
+  "bookmarks": [],
+  "jogo": "World of Warcraft",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Oficial Blizzard",
+  "url_fonte": "https://us.forums.blizzard.com/en/wow/t/buff-codex-of-the-first-technique/2166640",
+  "canonical_url": "https://us.forums.blizzard.com/en/wow/t/buff-codex-of-the-first-technique/2166640"
+}

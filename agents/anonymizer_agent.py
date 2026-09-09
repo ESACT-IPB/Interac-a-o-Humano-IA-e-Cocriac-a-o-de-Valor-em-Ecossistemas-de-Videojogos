@@ -151,43 +151,16 @@ class AnonymizerAgent:
         self._save_author_map()
         
         processed_file = os.path.join(self.processed_dir, "anonymized_posts.json")
-        existing_anon_posts = []
-        if os.path.exists(processed_file):
-            try:
-                with open(processed_file, "r", encoding="utf-8") as f:
-                    existing_anon_posts = json.load(f)
-            except Exception:
-                pass
-                
-        # Merge by unique ID: newly anonymized posts take precedence over older records
+        
+        # In DART-NET redo with strict temporal constraint, ensure:
+        # 1. We only output posts with timestamp >= config.POST_MIN_DATE
+        # 2. De-duplicate anonymized_posts by unique post ID
         merged_map = {}
-        for p in existing_anon_posts:
-            pid = str(p.get("post_id") or p.get("id"))
-            # Normalize legacy fields if missing
-            if "game" not in p:
-                p["game"] = p.get("jogo", "Desconhecido")
-            if "platform" not in p:
-                src = (p.get("fonte", "") + p.get("url_fonte", "")).lower()
-                if "reddit" in src:
-                    p["platform"] = "Reddit"
-                elif "steam" in src:
-                    p["platform"] = "Steam Community"
-                else:
-                    p["platform"] = "Discourse"
-            if "title" not in p:
-                p["title"] = p.get("titulo", "")
-            if "text" not in p:
-                p["text"] = p.get("corpo", "")
-            if "author_id" not in p:
-                p["author_id"] = p.get("autor", "Player_Anonymous")
-            if "relevance" not in p:
-                p["relevance"] = "RELEVANT"
-            if "relevance_confidence" not in p:
-                p["relevance_confidence"] = 0.90
-            merged_map[pid] = p
-
         for p in anonymized_posts:
             pid = str(p.get("post_id") or p.get("id"))
+            ts = p.get("timestamp") or p.get("created_at") or p.get("data") or ""
+            if ts and ts < config.POST_MIN_DATE:
+                continue
             merged_map[pid] = p
 
         merged_posts = list(merged_map.values())
@@ -195,7 +168,7 @@ class AnonymizerAgent:
         try:
             with open(processed_file, "w", encoding="utf-8") as f:
                 json.dump(merged_posts, f, indent=2, ensure_ascii=False)
-            logger.info(f"AnonymizerAgent saved {len(merged_posts)} total merged anonymized posts to {processed_file}.")
+            logger.info(f"AnonymizerAgent saved {len(merged_posts)} strictly >= {config.POST_MIN_DATE} anonymized posts to {processed_file}.")
         except Exception as e:
             logger.error(f"Failed to save anonymized posts: {e}")
             raise e

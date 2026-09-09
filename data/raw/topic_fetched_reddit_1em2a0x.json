@@ -1,0 +1,61 @@
+{
+  "id": "1em2a0x",
+  "title": "Using Ai To Analyze Wow For Fun",
+  "jogo": "World of Warcraft",
+  "fonte": "Reddit",
+  "seccao": "r/wow",
+  "url_fonte": "https://www.reddit.com/r/wow/comments/1em2a0x/using_ai_to_analyze_wow_for_fun",
+  "canonical_url": "https://www.reddit.com/r/wow/comments/1em2a0x/using_ai_to_analyze_wow_for_fun",
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1,
+        "username": "aelmian",
+        "cooked": "<p>Everything about this is nonsense\n\n- Specs with high rotation complexity and difficult resource management are given a high 'ease of play' score by both models\n\n- Mobility, Survivability, Utility, Burst, Sustain and AOE are largely dependent on talent choices</p>",
+        "created_at": "2024-08-07T05:33:05Z",
+        "post_number": 1,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 7,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 2,
+        "username": "zeero88",
+        "cooked": "<p>lol guy posts AI slop and thinks it's valuable in any way</p>",
+        "created_at": "2024-08-07T06:24:37Z",
+        "post_number": 2,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 6,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 3,
+        "username": "InvisibleOne439",
+        "cooked": "<p>assassination rogue is a spec that is ALL about managing Ressources, using abilitys on CD is often a dmg down because its such a integrital part of the gameplay\n\n\nthe list gave it a 7 in \"Ressource managment\", sublety a 8(which has no resource managment cus its dmg windows fill them up anyway) and outlaw a 6 (a spec that literally ignores energy and the entire energy bar could be removed and nothing would change)\n\n\nlmao</p>",
+        "created_at": "2024-08-07T10:27:50Z",
+        "post_number": 3,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 4,
+        "username": "mathefff",
+        "cooked": "<p>That’s very cool. Thanks for sharing.</p>",
+        "created_at": "2024-08-07T12:46:37Z",
+        "post_number": 4,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": -2,
+        "version": 1,
+        "trust_level": 1
+      }
+    ]
+  }
+}

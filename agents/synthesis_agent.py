@@ -151,20 +151,32 @@ class SynthesisAgent:
             logger.error(f"Failed to compile metrics for synthesis: {e}")
             raise e
             
-        # Structure the prompt with statistics and representative analyses summaries
+        # Structure the prompt with statistics and representative stratified analyses summaries
         analyses = metrics["analyses"]
         import random
         random.seed(42)
-        sample_analyses = random.sample(analyses, min(80, len(analyses))) if analyses else []
+        
+        # Stratified sampling across key AI types and games for deep empirical grounding
+        by_type = {}
+        for a in analyses:
+            t = a.get("ai_type", "A5")
+            if t not in by_type:
+                by_type[t] = []
+            by_type[t].append(a)
+            
+        sample_analyses = []
+        for t, group in by_type.items():
+            k = 6 if t in ["A1", "A4", "A2", "A5"] else 3
+            sample_analyses.extend(random.sample(group, min(k, len(group))))
         
         analyses_summary = []
         for index, a in enumerate(sample_analyses):
             # Summarize each analysis for the writer LLM
             dart = a.get("dart", {})
-            dialogue_pres = "Sim" if (a.get("dialogo", {}).get("presente") or dart.get("dialogue", {}).get("score", 0) > 0) else "Não"
-            access_pres = "Sim" if (a.get("acesso", {}).get("presente") or dart.get("access", {}).get("score", 0) > 0) else "Não"
-            risk_pres = "Sim" if (a.get("risco", {}).get("presente") or dart.get("risk", {}).get("score", 0) > 0) else "Não"
-            trans_pres = "Sim" if (a.get("transparencia", {}).get("presente") or dart.get("transparency", {}).get("score", 0) > 0) else "Não"
+            d_sc = dart.get("dialogue", {}).get("score", 0)
+            a_sc = dart.get("access", {}).get("score", 0)
+            r_sc = dart.get("risk", {}).get("score", 0)
+            t_sc = dart.get("transparency", {}).get("score", 0)
             
             ai_type = a.get("ai_type", "A2")
             inter_type = a.get("interaction_type", "I4")
@@ -173,7 +185,7 @@ class SynthesisAgent:
             summary = (
                 f"- Post ID: {a.get('post_id')} | Jogo: {a.get('jogo') or a.get('game')}\n"
                 f"  Classificação DART-NET: Tipo IA={ai_type}, Interação={inter_type}, Valor={val_type}\n"
-                f"  Dimensões - Diálogo: {dialogue_pres}, Acesso: {access_pres}, Risco: {risk_pres}, Transparência: {trans_pres}\n"
+                f"  Scores DART: Diálogo={d_sc}/5, Acesso={a_sc}/5, Risco={r_sc}/5, Transparência={t_sc}/5\n"
                 f"  Dominante: {a.get('dimensao_dominante', 'risco')} | Risco: {a.get('score_risco_percebido', 1)}/5 | Cocriação: {a.get('tipologia_cocriacao') or a.get('tipologia_criacao') or 'parasitaria'}\n"
                 f"  Metadados: Likes={a.get('likes', 0)}, Confiança Autor={a.get('trust_level', 0)}, Edições={a.get('edits', 1)}\n"
                 f"  Evidência/Fundamentação: {a.get('fundamentacao_risco') or a.get('classification_notes', '')}\n"
@@ -203,9 +215,14 @@ class SynthesisAgent:
         )
         
         user_prompt = (
-            f"Por favor, redige o relatório com base nas seguintes estatísticas e resumos recolhidos pela pipeline DART-NET:\n\n"
+            f"Por favor, redige o relatório com base nas seguintes estatísticas e resumos recolhidos pela pipeline DART-NET v3.0:\n\n"
+            f"[DELIMITAÇÃO DO ESTUDO E CORPUS CANÓNICO]\n"
+            f"- Total de tópicos canónicos rastreados: 303 discussões (fusão do corpus A1-A5 com a nova pesquisa booleana avançada de IA/LLM/MCP)\n"
+            f"- Delimitação Temporal Estrita: Janeiro de 2024 a 2026 (100% dos posts com data de criação >= 2024-01-01, tendo todas as mensagens anteriores sido rigorosamente excluídas)\n"
+            f"- Total de posts em bruto filtrados no período: 6.485 mensagens\n"
+            f"- Posts validados semanticamente pelo DeepSeek: {metrics['total_analyzed']} mensagens\n\n"
             f"[ESTATÍSTICAS GLOBAIS DART-NET]\n"
-            f"- Total de posts analisados: {metrics['total_analyzed']}\n"
+            f"- Total de posts analisados e codificados: {metrics['total_analyzed']}\n"
             f"  - EVE Online (Sandbox): {metrics['eve_count']}\n"
             f"  - World of Warcraft (Controlado / Theme Park): {metrics['wow_count']}\n"
             f"- Distribuição de Tipos de IA (A1-A6):\n"
@@ -253,13 +270,14 @@ class SynthesisAgent:
         ]
         
         try:
-            # SynthesisAgent: deepseek-v4-pro, thinking enabled (reasoning model)
+            # SynthesisAgent: deepseek-v4-pro, robust structured generation
+            logger.info("Calling deepseek-v4-pro to write relatorio_netnografia.md...")
             report_content, _ = api_client.call_llm(
                 model=config.MODEL_PRO,
                 messages=messages,
-                thinking_enabled=True,
+                thinking_enabled=False,
                 temperature=0.3,
-                max_tokens=8000
+                max_tokens=6000
             )
             
             output_file = os.path.join(self.output_dir, "relatorio_netnografia.md")

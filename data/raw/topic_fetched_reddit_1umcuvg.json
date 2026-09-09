@@ -1,0 +1,109 @@
+{
+  "id": "1umcuvg",
+  "title": "Update Zs Overview Customiser 2026732159 Citadels",
+  "jogo": "EVE Online",
+  "fonte": "Reddit",
+  "seccao": "r/Eve",
+  "url_fonte": "https://www.reddit.com/r/Eve/comments/1umcuvg/update_zs_overview_customiser_2026732159_citadels",
+  "canonical_url": "https://www.reddit.com/r/Eve/comments/1umcuvg/update_zs_overview_customiser_2026732159_citadels",
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1,
+        "username": "KixSix",
+        "cooked": "<p>sweet</p>",
+        "created_at": "2026-07-03T12:48:07Z",
+        "post_number": 1,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 6,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 2,
+        "username": "ozzy_og_kush",
+        "cooked": "<p>![gif](giphy|i272SXwOwuGgE)</p>",
+        "created_at": "2026-07-03T16:30:49Z",
+        "post_number": 2,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 4,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 3,
+        "username": "skinny_matryoshka",
+        "cooked": "<p>commenting as a reminder for myself to try this</p>",
+        "created_at": "2026-07-04T11:11:51Z",
+        "post_number": 3,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 3,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 4,
+        "username": "Zirio",
+        "cooked": "<p>Comment after you try it if you find any issues or would like more features! \n\nI'm already working on some stuff. </p>",
+        "created_at": "2026-07-04T11:26:33Z",
+        "post_number": 4,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 5,
+        "username": "Doodidan",
+        "cooked": "<p>Thanks for your great tool and presets!\n\nQuestion: just recently I looked for a way to change order of \"exceptions\" in \"filter\" tab; it seems it's impossible even by editing game config files. Any chances you have a way to change it? (Not colortag/background but filters)</p>",
+        "created_at": "2026-07-04T11:36:35Z",
+        "post_number": 5,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 2,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 6,
+        "username": "Zirio",
+        "cooked": "<p>Glad you like it!\n\n  \nAs far as I remember, the order is alphabetical or similar.\n\nThe best way is to change the prefix names or icons and check their repositioning in the game.</p>",
+        "created_at": "2026-07-05T06:57:08Z",
+        "post_number": 6,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 7,
+        "username": "Doodidan",
+        "cooked": "<p>Thx for checking this!</p>",
+        "created_at": "2026-07-07T05:03:22Z",
+        "post_number": 7,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      },
+      {
+        "id": 8,
+        "username": "Pin-Lui",
+        "cooked": "<p>Why not click on save?</p>",
+        "created_at": "2026-07-09T12:47:21Z",
+        "post_number": 8,
+        "reply_to_post_number": null,
+        "reply_count": 0,
+        "like_count": 1,
+        "version": 1,
+        "trust_level": 1
+      }
+    ]
+  }
+}

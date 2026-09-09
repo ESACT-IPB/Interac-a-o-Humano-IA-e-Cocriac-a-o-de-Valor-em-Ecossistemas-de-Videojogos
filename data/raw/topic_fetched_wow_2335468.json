@@ -1,0 +1,760 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 29882214,
+        "name": "ZeWinter",
+        "username": "ZeWinter-15783",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-08-12T10:44:12.325Z",
+        "cooked": "<p>It was a bit surprising to find that the Corrosive Codex, which offers the power ups in world content, isn’t account wide while the Altar of Corrosion which is specific to the Vault of Ulathek is when both of those are in the same place. It is even more surprising when Corrosive Souls are Warbound. Which means I could technically try to simply farm the Corrosive Souls on alts to further only one character, not saying this in a power issue situation but really a consistency issue on all the line.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 2,
+        "updated_at": "2026-08-13T01:45:04.714Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2253,
+        "reads": 153,
+        "readers_count": 152,
+        "score": 11014.4,
+        "yours": false,
+        "topic_id": 2335468,
+        "topic_slug": "corrosive-codex-isnt-shared-for-alts-fixed",
+        "display_username": "ZeWinter",
+        "primary_group_name": "CommunityCouncil",
+        "flair_name": "CommunityCouncil",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 68,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "WoW Community Council",
+        "title_is_group": true,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 5
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 15783,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Troll",
+          "class": "Death Knight",
+          "player_class_enum": "DEATHKNIGHT",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/zuljin/zoumz/",
+          "guild": "Grimoire",
+          "classic": "t",
+          "level": "90",
+          "achievement_points": "43700",
+          "blizzard_post_count": "21406"
+        },
+        "post_url": "/t/corrosive-codex-isnt-shared-for-alts-fixed/2335468/1",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/zuljin/190/187329470-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+        "alias_username": "Zoumz-zuljin",
+        "poster_alias": {
+          "alias": {
+            "name": "Zoumz-zuljin",
+            "avatar": "https://render.worldofwarcraft.com/us/character/zuljin/190/187329470-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/zuljin/zoumz/",
+            "user_id": 15783,
+            "id": 435817,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 21542,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/zuljin/zoumz/"
+              },
+              {
+                "name": "realm",
+                "value": "Zul'jin"
+              },
+              {
+                "name": "achievement_points",
+                "value": "46590"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/zuljin/190/187329470-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Zoumz-zuljin"
+              },
+              {
+                "name": "guild",
+                "value": "Something Clever"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 21406,
+        "character": {
+          "name": "ZeWinter",
+          "guild": "Grimoire",
+          "achievement_points": "43700",
+          "level": "90",
+          "class": "Death Knight",
+          "race": "Troll",
+          "player_class_enum": "DEATHKNIGHT",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 29886417,
+        "name": "ZeWinter",
+        "username": "ZeWinter-15783",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "created_at": "2026-08-13T01:44:53.135Z",
+        "cooked": "<p>It seems to have been somewhat fixed. At least on my alt by buying a new power it has updated the codex and shows powers I have previously unlocked on my main.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 2,
+        "updated_at": "2026-08-13T01:44:53.135Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 6,
+        "reads": 129,
+        "readers_count": 128,
+        "score": 54.6,
+        "yours": false,
+        "topic_id": 2335468,
+        "topic_slug": "corrosive-codex-isnt-shared-for-alts-fixed",
+        "display_username": "ZeWinter",
+        "primary_group_name": "CommunityCouncil",
+        "flair_name": "CommunityCouncil",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 68,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": true,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "WoW Community Council",
+        "title_is_group": true,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 15783,
+        "hidden": false,
+        "trust_level": 3,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "user_custom_fields": {
+          "race": "Troll",
+          "class": "Death Knight",
+          "player_class_enum": "DEATHKNIGHT",
+          "profile_url": "https://worldofwarcraft.com/en-us/character/us/zuljin/zoumz/",
+          "guild": "Grimoire",
+          "classic": "t",
+          "level": "90",
+          "achievement_points": "43700",
+          "blizzard_post_count": "21406"
+        },
+        "post_url": "/t/corrosive-codex-isnt-shared-for-alts-fixed/2335468/2",
+        "alias_avatar": "https://render.worldofwarcraft.com/us/character/zuljin/190/187329470-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+        "alias_username": "Zoumz-zuljin",
+        "poster_alias": {
+          "alias": {
+            "name": "Zoumz-zuljin",
+            "avatar": "https://render.worldofwarcraft.com/us/character/zuljin/190/187329470-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/zuljin/zoumz/",
+            "user_id": 15783,
+            "id": 435817,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 21542,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/zuljin/zoumz/"
+              },
+              {
+                "name": "realm",
+                "value": "Zul'jin"
+              },
+              {
+                "name": "achievement_points",
+                "value": "46590"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/zuljin/190/187329470-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Zoumz-zuljin"
+              },
+              {
+                "name": "guild",
+                "value": "Something Clever"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "reply_to_alias": null,
+        "animated_avatar": null,
+        "user_post_count": 21406,
+        "character": {
+          "name": "ZeWinter",
+          "guild": "Grimoire",
+          "achievement_points": "43700",
+          "level": "90",
+          "class": "Death Knight",
+          "race": "Troll",
+          "player_class_enum": "DEATHKNIGHT",
+          "classic": true
+        },
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ],
+    "stream": [
+      29882214,
+      29886417
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      28
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "fancy_title": "Cannot trade any loot at end of M+ dungeon",
+      "id": 2344851,
+      "title": "Cannot trade any loot at end of M+ dungeon",
+      "slug": "cannot-trade-any-loot-at-end-of-m-dungeon",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2026-09-04T20:38:14.865Z",
+      "last_posted_at": "2026-09-04T20:38:15.001Z",
+      "bumped": true,
+      "bumped_at": "2026-09-04T20:38:15.001Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "We have a guild member who heals in our M+ group. Since last tier she has been unable to trade any loot she receives from the chest at the end of the M+ dungeon, with anyone. We have had her: \n\nDisable all addons\nRename &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 35,
+      "category_id": 261,
+      "featured_link": null,
+      "op_like_count": 1,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 2084332,
+            "username": "Stormwarning-2084332",
+            "name": "Stormwarning",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "primary_group_name": "CommunityCouncil",
+            "flair_name": "CommunityCouncil",
+            "flair_group_id": 68,
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Unholy dks got it rought (bugs/balance/fight design)",
+      "id": 2341282,
+      "title": "Unholy dks got it rought (bugs/balance/fight design)",
+      "slug": "unholy-dks-got-it-rought-bugsbalancefight-design",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2026-08-26T09:10:24.146Z",
+      "last_posted_at": "2026-08-29T21:08:04.231Z",
+      "bumped": true,
+      "bumped_at": "2026-08-29T21:08:04.231Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Bugs after bugs unholy dk dps go up and down. One bug get fix another pop. This is becoming very irritating and maybe some better solutions should be done so this doesn’t happen as easily. Maybe there’s too many modifier&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 105,
+      "category_id": 261,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 15783,
+            "username": "ZeWinter-15783",
+            "name": "ZeWinter",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "primary_group_name": "CommunityCouncil",
+            "flair_name": "CommunityCouncil",
+            "flair_group_id": 68,
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Ulatek heroic raid boss feedback",
+      "id": 2341645,
+      "title": "Ulatek heroic raid boss feedback",
+      "slug": "ulatek-heroic-raid-boss-feedback",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2026-08-27T12:29:24.609Z",
+      "last_posted_at": "2026-09-07T03:34:33.751Z",
+      "bumped": true,
+      "bumped_at": "2026-09-07T03:34:33.751Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "Currently Doomscale Warden can be cheesed by being brought over to the stairs making it so they don’t cast Grasp of Fang as soon as it reset their cast sequence. Making it so if you meet the dps check there’s simply no m&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 128,
+      "category_id": 261,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 15783,
+            "username": "ZeWinter-15783",
+            "name": "ZeWinter",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "primary_group_name": "CommunityCouncil",
+            "flair_name": "CommunityCouncil",
+            "flair_group_id": 68,
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "12.1 good or&hellip;?",
+      "id": 2341373,
+      "title": "12.1 good or...?",
+      "slug": "121-good-or",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2026-08-26T17:02:30.030Z",
+      "last_posted_at": "2026-08-26T17:02:30.332Z",
+      "bumped": true,
+      "bumped_at": "2026-08-26T17:02:30.332Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "I have to speak my mind cause I do feel it as a responsibility towards my favorite game. \nThis patch for my taste is one of the worse patches/tiers, if not the worst, ever. \nWhat I do hate about it: \n\nDesign, as always a&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 103,
+      "category_id": 261,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 2333384,
+            "username": "Athlios-2333384",
+            "name": "Athlios",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "primary_group_name": "CommunityCouncil",
+            "flair_name": "CommunityCouncil",
+            "flair_group_id": 68,
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "12.1 Mythic raiding bosses design feedback",
+      "id": 2345031,
+      "title": "12.1 Mythic raiding bosses design feedback",
+      "slug": "121-mythic-raiding-bosses-design-feedback",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2026-09-05T11:34:04.666Z",
+      "last_posted_at": "2026-09-05T11:34:04.796Z",
+      "bumped": true,
+      "bumped_at": "2026-09-05T11:34:04.796Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "excerpt": "First I’ll talk about Tidebound Grotto, currently the strategy is to use immunities to soak orbs because the dot damage on an individual is simply that high. I feel for a boss this early in a tier “requiring” immunities &hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 50,
+      "category_id": 261,
+      "featured_link": null,
+      "op_like_count": 0,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster,Most Recent Poster",
+          "user": {
+            "id": 15783,
+            "username": "ZeWinter-15783",
+            "name": "ZeWinter",
+            "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+            "primary_group_name": "CommunityCouncil",
+            "flair_name": "CommunityCouncil",
+            "flair_group_id": 68,
+            "trust_level": 3,
+            "animated_avatar": null
+          }
+        }
+      ]
+    }
+  ],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "Corrosive Codex isn&rsquo;t shared for alts - Fixed*",
+  "id": 2335468,
+  "title": "Corrosive Codex isn't shared for alts - Fixed*",
+  "posts_count": 2,
+  "created_at": "2026-08-12T10:44:12.163Z",
+  "views": 1531,
+  "reply_count": 0,
+  "like_count": 5,
+  "last_posted_at": "2026-08-13T01:44:53.135Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "corrosive-codex-isnt-shared-for-alts-fixed",
+  "category_id": 261,
+  "word_count": 124,
+  "deleted_at": null,
+  "user_id": 15783,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_2335468",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 2,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 1001,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1002,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1003,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1004,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 1005,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 6,
+  "participant_count": 1,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 15783,
+        "username": "ZeWinter-15783",
+        "name": "ZeWinter",
+        "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+        "post_count": 2,
+        "primary_group_name": "CommunityCouncil",
+        "flair_name": "CommunityCouncil",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 68,
+        "trust_level": 3,
+        "acting_alias": {
+          "alias": {
+            "name": "Zoumz-zuljin",
+            "avatar": "https://render.worldofwarcraft.com/us/character/zuljin/190/187329470-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
+            "url": "https://worldofwarcraft.com/en-us/character/us/zuljin/zoumz/",
+            "user_id": 15783,
+            "id": 435817,
+            "selected": true,
+            "selected_user_badge_id": null,
+            "post_count": 21542,
+            "alias_custom_fields": [
+              {
+                "name": "profile_url",
+                "value": "https://worldofwarcraft.com/en-us/character/us/zuljin/zoumz/"
+              },
+              {
+                "name": "realm",
+                "value": "Zul'jin"
+              },
+              {
+                "name": "achievement_points",
+                "value": "46590"
+              },
+              {
+                "name": "level",
+                "value": "90"
+              },
+              {
+                "name": "race",
+                "value": "Troll"
+              },
+              {
+                "name": "player_class",
+                "value": "Death Knight"
+              },
+              {
+                "name": "player_class_enum",
+                "value": "DEATHKNIGHT"
+              },
+              {
+                "name": "classic",
+                "value": "f"
+              },
+              {
+                "name": "avatar",
+                "value": "https://render.worldofwarcraft.com/us/character/zuljin/190/187329470-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg"
+              },
+              {
+                "name": "name",
+                "value": "Zoumz-zuljin"
+              },
+              {
+                "name": "guild",
+                "value": "Something Clever"
+              }
+            ],
+            "user_badges": [],
+            "selected_user_badge": null
+          }
+        },
+        "animated_avatar": null
+      }
+    ],
+    "created_by": {
+      "id": 15783,
+      "username": "ZeWinter-15783",
+      "name": "ZeWinter",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    },
+    "last_poster": {
+      "id": 15783,
+      "username": "ZeWinter-15783",
+      "name": "ZeWinter",
+      "avatar_template": "/en/wow/plugins/discourse-blizzard-plugin/images/avatars/wow/default.png",
+      "animated_avatar": null
+    }
+  },
+  "bookmarks": [],
+  "jogo": "World of Warcraft",
+  "fonte": "Fórum Oficial",
+  "seccao": "Fórum Oficial Blizzard",
+  "url_fonte": "https://us.forums.blizzard.com/en/wow/t/corrosive-codex-isnt-shared-for-alts-fixed/2335468",
+  "canonical_url": "https://us.forums.blizzard.com/en/wow/t/corrosive-codex-isnt-shared-for-alts-fixed/2335468"
+}
