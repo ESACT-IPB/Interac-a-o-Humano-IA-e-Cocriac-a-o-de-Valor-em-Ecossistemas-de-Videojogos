@@ -11,9 +11,10 @@ __pycache__/
 .Spotlight-V100
 .Trashes
 
-# Environments
+# Environments and Secrets
 .env
 .env.*
+config.py
 venv/
 .venv/
 env/
