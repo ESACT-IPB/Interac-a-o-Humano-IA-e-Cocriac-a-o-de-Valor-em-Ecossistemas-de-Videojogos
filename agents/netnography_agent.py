@@ -11,6 +11,47 @@ from sanitizer import sanitize_text
 
 logger = logging.getLogger("pipeline.netnography_agent")
 
+def extract_and_repair_json(text):
+    """Extracts and repairs JSON output from LLM responses, handling code blocks, trailing commas, and formatting."""
+    if not text:
+        raise ValueError("Empty response from LLM")
+    
+    cleaned = text.strip()
+    if "```" in cleaned:
+        match = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", cleaned, re.DOTALL)
+        if match:
+            cleaned = match.group(1).strip()
+        else:
+            cleaned = re.sub(r"^```(?:json)?", "", cleaned).strip()
+            cleaned = re.sub(r"```$", "", cleaned).strip()
+
+    start_idx = cleaned.find("{")
+    end_idx = cleaned.rfind("}")
+    if start_idx != -1 and end_idx != -1 and end_idx > start_idx:
+        cleaned = cleaned[start_idx:end_idx + 1]
+
+    # Attempt 1: Standard load
+    try:
+        return json.loads(cleaned)
+    except Exception:
+        pass
+
+    # Attempt 2: Trailing commas removal
+    try:
+        repaired = re.sub(r",\s*([\]}])", r"\1", cleaned)
+        return json.loads(repaired)
+    except Exception:
+        pass
+
+    # Attempt 3: Line-by-line sanitize
+    try:
+        lines = [line.rstrip() for line in cleaned.splitlines()]
+        repaired = "\n".join(lines)
+        repaired = re.sub(r",\s*([\]}])", r"\1", repaired)
+        return json.loads(repaired)
+    except Exception as e:
+        raise ValueError(f"Failed to parse JSON: {e} | Snippet: {cleaned[:120]}")
+
 STATIC_DART_INSTRUCTIONS = """
 You are an AI research agent responsible for screening, classifying and coding online community data for a scientific study investigating human–AI agent interactions and value co-creation in video game ecosystems (Framework: DART-NET).
 
@@ -84,7 +125,7 @@ Respond STRICTLY with a single valid JSON object following this exact schema:
   "timestamp": "ISO timestamp",
   "author_id": "Author identifier",
   "title": "Topic title",
-  "text": "Post text",
+  "text": "Post text excerpt",
   "ai_type": "A1" | "A2" | "A3" | "A4" | "A5" | "A6",
   "ai_type_confidence": 0.0 to 1.0,
   "interaction_type": "I1" | "I2" | "I3" | "I4" | "I5" | "I6",
@@ -160,6 +201,12 @@ class NetnographyAgent:
         
         logger.info(f"Analyzing post {post_id} under DART-NET Framework...")
         
+        sanitized_post_text = sanitize_text(text)
+        if len(sanitized_post_text) > 8000:
+            prompt_text = sanitized_post_text[:8000] + "\n...[text truncated for analysis]..."
+        else:
+            prompt_text = sanitized_post_text
+        
         user_content = (
             f"PLATFORM: {platform}\n"
             f"GAME: {game}\n"
@@ -170,7 +217,7 @@ class NetnographyAgent:
             f"TIMESTAMP: {timestamp}\n"
             f"AUTHOR ID: {author_id}\n"
             f"TITLE: {sanitize_text(title)}\n"
-            f"POST TEXT:\n{sanitize_text(text)}\n\n"
+            f"POST TEXT:\n{prompt_text}\n\n"
             f"QUANTITATIVE METADATA:\n"
             f"- Likes: {post.get('likes', 0)}\n"
             f"- Author Trust Level: {post.get('trust_level', 0)}\n"
@@ -192,12 +239,8 @@ class NetnographyAgent:
                 max_tokens=4000
             )
             
-            # Parse the JSON output
-            json_match = re.search(r"\{.*\}", content, re.DOTALL)
-            if json_match:
-                parsed_json = json.loads(json_match.group(0))
-            else:
-                parsed_json = json.loads(content)
+            # Parse the JSON output with robust repair
+            parsed_json = extract_and_repair_json(content)
                 
             # Guarantee Section 13 schema integrity
             parsed_json["platform"] = platform

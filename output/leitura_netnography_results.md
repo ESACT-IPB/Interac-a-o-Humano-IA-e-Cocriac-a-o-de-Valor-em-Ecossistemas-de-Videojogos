@@ -10,40 +10,40 @@ Este documento formaliza a leitura humana estruturada e detalhada dos resultados
 ## 1. Sumário Executivo das Codificações DART-NET
 
 * **Total de Mensagens Analisadas:** 1032
-* **Médias Dimensionais DART (0 a 5):** Diálogo: `0.70` | Acesso: `0.79` | Risco: `1.16` | Transparência: `0.79`
-* **Fila de Revisão Humana Prioritária:** 803 posts (77.8%) assinalados para validação manual
+* **Médias Dimensionais DART (0 a 5):** Diálogo: `0.92` | Acesso: `1.02` | Risco: `1.58` | Transparência: `1.11`
+* **Fila de Revisão Humana Prioritária:** 799 posts (77.4%) assinalados para validação manual
 
 ### Distribuição por Jogo / Ecossistema
 * **World of Warcraft:** 594 posts (57.6%)
 * **EVE Online:** 438 posts (42.4%)
 
 ### Distribuição por Tipologia de IA (Taxonomia A1 a A6)
-* **A1 (Agentes de IA Autónomos (LLMs / MCP)):** 87 posts (8.4%)
-* **A2 (Bots Convencionais (Farming / Rotações)):** 100 posts (9.7%)
-* **A3 (Scripts / Automação Determinística):** 14 posts (1.4%)
-* **A4 (Humanos Assistidos por IA (Vibe-Coding / Copilotos)):** 52 posts (5.0%)
-* **A5 (Discussões / Perceções da Comunidade sobre IA):** 511 posts (49.5%)
-* **A6 (Não-IA / Ruído Descartado):** 268 posts (26.0%)
+* **A1 (Agentes de IA Autónomos (LLMs / MCP)):** 95 posts (9.2%)
+* **A2 (Bots Convencionais (Farming / Rotações)):** 117 posts (11.3%)
+* **A3 (Scripts / Automação Determinística):** 17 posts (1.6%)
+* **A4 (Humanos Assistidos por IA (Vibe-Coding / Copilotos)):** 59 posts (5.7%)
+* **A5 (Discussões / Perceções da Comunidade sobre IA):** 693 posts (67.2%)
+* **A6 (Não-IA / Ruído Descartado):** 51 posts (4.9%)
 
 ### Distribuição por Estrutura de Interação (I1 a I6)
-* **I1 (Interação Direta Humano-Agente):** 43 posts (4.2%)
-* **I2 (Interação Agente-Agente):** 5 posts (0.5%)
-* **I3 (Cooperação Triádica (Humano-Agente-Humano)):** 51 posts (4.9%)
-* **I4 (Discurso Comunitário / Mediação Social):** 578 posts (56.0%)
-* **I5 (Conflito / Disputa Mediada por Agente):** 4 posts (0.4%)
-* **I6 (Sem Interação Significativa):** 351 posts (34.0%)
+* **I1 (Interação Direta Humano-Agente):** 48 posts (4.7%)
+* **I2 (Interação Agente-Agente):** 7 posts (0.7%)
+* **I3 (Cooperação Triádica (Humano-Agente-Humano)):** 56 posts (5.4%)
+* **I4 (Discurso Comunitário / Mediação Social):** 770 posts (74.6%)
+* **I5 (Conflito / Disputa Mediada por Agente):** 11 posts (1.1%)
+* **I6 (Sem Interação Significativa):** 140 posts (13.6%)
 
 ### Distribuição por Cocriação de Valor (VC1 a VC4)
-* **VC1 (Cocriação Efetiva de Valor):** 23 posts (2.2%)
-* **VC2 (Potencial / Intenção de Cocriação):** 50 posts (4.8%)
-* **VC3 (Codestruição de Valor (Assimetria / Prejuízo)):** 45 posts (4.4%)
-* **VC4 (Sem Evidência Relevante de Valor):** 914 posts (88.6%)
+* **VC1 (Cocriação Efetiva de Valor):** 26 posts (2.5%)
+* **VC2 (Potencial / Intenção de Cocriação):** 72 posts (7.0%)
+* **VC3 (Codestruição de Valor (Assimetria / Prejuízo)):** 104 posts (10.1%)
+* **VC4 (Sem Evidência Relevante de Valor):** 830 posts (80.4%)
 
 ### Distribuição por Dimensão DART Dominante
-* **Risco:** 615 posts (59.6%)
-* **Diálogo:** 180 posts (17.4%)
-* **Acesso:** 146 posts (14.1%)
-* **Transparência:** 91 posts (8.8%)
+* **Risco:** 511 posts (49.5%)
+* **Diálogo:** 227 posts (22.0%)
+* **Acesso:** 182 posts (17.6%)
+* **Transparência:** 112 posts (10.9%)
 
 ---
 
@@ -127,33 +127,33 @@ Este documento formaliza a leitura humana estruturada e detalhada dos resultados
 | 74 | `516800_2916469` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | Não |  |
 | 75 | `3000003_28811563` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
 | 76 | `495219_2762721` | EVE Online | **A2** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 77 | `503747_2870179` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 78 | `503747_2849615` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 79 | `503747_2846302` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 80 | `516800_2916223` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 81 | `503747_2848085` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 82 | `3000003_28811536` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 83 | `516800_2916401` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 84 | `495219_2762734` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 77 | `503747_2870179` | EVE Online | **A5** | I6 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
+| 78 | `503747_2849615` | EVE Online | **A5** | I4 | VC4 | **Risco** | `2/2/4/2` | ⚠️ Sim |  |
+| 79 | `503747_2846302` | EVE Online | **A5** | I4 | VC4 | **Risco** | `2/2/3/3` | ⚠️ Sim |  |
+| 80 | `516800_2916223` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/1/2/1` | ⚠️ Sim |  |
+| 81 | `503747_2848085` | EVE Online | **A4** | I4 | VC4 | **Risco** | `2/2/3/3` | ⚠️ Sim |  |
+| 82 | `3000003_28811536` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/1` | ⚠️ Sim |  |
+| 83 | `516800_2916401` | EVE Online | **A5** | I4 | VC2 | **Diálogo** | `2/1/1/1` | ⚠️ Sim |  |
+| 84 | `495219_2762734` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `1/2/0/2` | ⚠️ Sim |  |
 | 85 | `495219_2760206` | EVE Online | **A2** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 86 | `495219_2762723` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 87 | `3000003_28811619` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 88 | `516800_2916427` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 89 | `3000003_28811612` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 90 | `495219_2775726` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 91 | `495219_2762735` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 92 | `495219_2780266` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 93 | `495219_2786308` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 86 | `495219_2762723` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `1/2/1/1` | ⚠️ Sim |  |
+| 87 | `3000003_28811619` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/1` | ⚠️ Sim |  |
+| 88 | `516800_2916427` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/1/2/0` | ⚠️ Sim |  |
+| 89 | `3000003_28811612` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/3/1` | ⚠️ Sim |  |
+| 90 | `495219_2775726` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `1/2/1/1` | ⚠️ Sim |  |
+| 91 | `495219_2762735` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `1/2/0/1` | ⚠️ Sim |  |
+| 92 | `495219_2780266` | EVE Online | **A2** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
+| 93 | `495219_2786308` | EVE Online | **A5** | I6 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
 | 94 | `474041_2659339` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
 | 95 | `474041_2659353` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
 | 96 | `509843_2862127` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
 | 97 | `509843_2862439` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
 | 98 | `509843_2862438` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
 | 99 | `509843_2862433` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 100 | `474041_2659388` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 100 | `474041_2659388` | EVE Online | **A2** | I5 | VC4 | **Risco** | `1/1/2/1` | ⚠️ Sim |  |
 | 101 | `509843_2862445` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 102 | `474041_2659324` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 103 | `474041_2659344` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 102 | `474041_2659324` | EVE Online | **A5** | I4 | VC3 | **Risco** | `1/1/4/3` | ⚠️ Sim |  |
+| 103 | `474041_2659344` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/2/1` | ⚠️ Sim |  |
 | 104 | `509843_2862440` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
 | 105 | `509843_2862443` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
 | 106 | `509843_2862476` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
@@ -165,302 +165,302 @@ Este documento formaliza a leitura humana estruturada e detalhada dos resultados
 | 112 | `509843_2862436` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
 | 113 | `509843_2862454` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
 | 114 | `509843_2862489` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 115 | `2324507_2324507_1` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 116 | `2324507_2324507_6` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 115 | `2324507_2324507_1` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/1/4/2` | ⚠️ Sim |  |
+| 116 | `2324507_2324507_6` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/1` | ⚠️ Sim |  |
 | 117 | `2324507_2324507_17` | World of Warcraft | **A2** | I6 | VC4 | **Risco** | `0/2/5/0` | ⚠️ Sim |  |
 | 118 | `509843_2862461` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 119 | `2324507_2324507_3` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 120 | `2324507_2324507_4` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 121 | `2324507_2324507_14` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 122 | `2324507_2324507_12` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 123 | `2324507_2324507_10` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 124 | `2324507_2324507_18` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 125 | `2324507_2324507_5` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 119 | `2324507_2324507_3` | World of Warcraft | **A2** | I4 | VC3 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
+| 120 | `2324507_2324507_4` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/2/2` | ⚠️ Sim |  |
+| 121 | `2324507_2324507_14` | World of Warcraft | **A2** | I4 | VC3 | **Risco** | `0/1/3/0` | ⚠️ Sim |  |
+| 122 | `2324507_2324507_12` | World of Warcraft | **A2** | I4 | VC3 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
+| 123 | `2324507_2324507_10` | World of Warcraft | **A2** | I5 | VC3 | **Risco** | `0/1/3/1` | ⚠️ Sim |  |
+| 124 | `2324507_2324507_18` | World of Warcraft | **A2** | I4 | VC3 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
+| 125 | `2324507_2324507_5` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/1` | ⚠️ Sim |  |
 | 126 | `509843_2862528` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
 | 127 | `509843_2862524` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 128 | `2324507_2324507_16` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 129 | `2324507_2324507_13` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 128 | `2324507_2324507_16` | World of Warcraft | **A2** | I5 | VC3 | **Risco** | `0/2/4/0` | ⚠️ Sim |  |
+| 129 | `2324507_2324507_13` | World of Warcraft | **A2** | I4 | VC3 | **Risco** | `0/0/3/2` | ⚠️ Sim |  |
 | 130 | `509843_2862548` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
 | 131 | `509843_2862533` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
 | 132 | `509843_2862536` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
 | 133 | `509843_2862446` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
 | 134 | `509843_2862530` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 135 | `509843_2862435` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 135 | `509843_2862435` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
 | 136 | `509843_2862488` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
 | 137 | `509843_2862546` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
 | 138 | `509843_2862453` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
 | 139 | `509843_2862458` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
 | 140 | `509843_2862508` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 141 | `509843_2862499` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 142 | `509843_2862512` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 143 | `509843_2862514` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 144 | `509843_2862541` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 145 | `509843_2862552` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 146 | `508618_2852738` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 141 | `509843_2862499` | EVE Online | **A5** | I6 | VC4 | **Risco** | `1/0/3/1` | ⚠️ Sim |  |
+| 142 | `509843_2862512` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/1/2/0` | ⚠️ Sim |  |
+| 143 | `509843_2862514` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
+| 144 | `509843_2862541` | EVE Online | **A6** | I6 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
+| 145 | `509843_2862552` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
+| 146 | `508618_2852738` | EVE Online | **A3** | I4 | VC3 | **Risco** | `0/1/3/1` | ⚠️ Sim |  |
 | 147 | `508618_2852746` | EVE Online | **A2** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 148 | `508618_2852744` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 148 | `508618_2852744` | EVE Online | **A2** | I4 | VC3 | **Risco** | `0/1/3/2` | ⚠️ Sim |  |
 | 149 | `508618_2853278` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 150 | `508618_2852769` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 151 | `508618_2852747` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 152 | `508618_2852763` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 153 | `508618_2852870` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 154 | `508618_2852879` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 155 | `508618_2852872` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 156 | `508618_2852888` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 157 | `508618_2852882` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 158 | `508618_2852986` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 159 | `508618_2852886` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 160 | `508618_2852990` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 161 | `508618_2852884` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 162 | `508618_2853066` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 163 | `508618_2852979` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 164 | `508618_2853073` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 165 | `508618_2853072` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 166 | `508618_2853081` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 167 | `508618_2853090` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 150 | `508618_2852769` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/1` | ⚠️ Sim |  |
+| 151 | `508618_2852747` | EVE Online | **A2** | I4 | VC4 | **Risco** | `0/0/1/1` | ⚠️ Sim |  |
+| 152 | `508618_2852763` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/1` | ⚠️ Sim |  |
+| 153 | `508618_2852870` | EVE Online | **A3** | I4 | VC4 | **Risco** | `2/0/3/2` | ⚠️ Sim |  |
+| 154 | `508618_2852879` | EVE Online | **A5** | I4 | VC4 | **Risco** | `2/1/3/2` | ⚠️ Sim |  |
+| 155 | `508618_2852872` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/1/4/1` | ⚠️ Sim |  |
+| 156 | `508618_2852888` | EVE Online | **A5** | I4 | VC4 | **Risco** | `2/2/3/2` | ⚠️ Sim |  |
+| 157 | `508618_2852882` | EVE Online | **A3** | I4 | VC3 | **Risco** | `1/2/4/3` | ⚠️ Sim |  |
+| 158 | `508618_2852986` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/1` | ⚠️ Sim |  |
+| 159 | `508618_2852886` | EVE Online | **A2** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
+| 160 | `508618_2852990` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
+| 161 | `508618_2852884` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `3/1/2/3` | ⚠️ Sim |  |
+| 162 | `508618_2853066` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/1` | ⚠️ Sim |  |
+| 163 | `508618_2852979` | EVE Online | **A5** | I4 | VC4 | **Risco** | `2/1/3/3` | ⚠️ Sim |  |
+| 164 | `508618_2853073` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/1/2/1` | ⚠️ Sim |  |
+| 165 | `508618_2853072` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `3/0/2/3` | ⚠️ Sim |  |
+| 166 | `508618_2853081` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/3/2` | ⚠️ Sim |  |
+| 167 | `508618_2853090` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/1/2/2` | ⚠️ Sim |  |
 | 168 | `508618_2853260` | EVE Online | **A2** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
-| 169 | `508618_2853222` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 170 | `508618_2853371` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 171 | `508618_2853405` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 172 | `508618_2859322` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 173 | `508618_2859779` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 174 | `508618_2860002` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 175 | `508618_2859488` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 169 | `508618_2853222` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/0` | ⚠️ Sim |  |
+| 170 | `508618_2853371` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/0/1/1` | ⚠️ Sim |  |
+| 171 | `508618_2853405` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/1` | ⚠️ Sim |  |
+| 172 | `508618_2859322` | EVE Online | **A2** | I5 | VC3 | **Risco** | `0/1/3/2` | ⚠️ Sim |  |
+| 173 | `508618_2859779` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/0/2/1` | ⚠️ Sim |  |
+| 174 | `508618_2860002` | EVE Online | **A2** | I4 | VC4 | **Acesso** | `0/1/1/0` | ⚠️ Sim |  |
+| 175 | `508618_2859488` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/0` | ⚠️ Sim |  |
 | 176 | `508618_2860079` | EVE Online | **A2** | I6 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
-| 177 | `508618_2860149` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 178 | `508618_2860152` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 177 | `508618_2860149` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/0/2/1` | ⚠️ Sim |  |
+| 178 | `508618_2860152` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
 | 179 | `510142_2864643` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
 | 180 | `510142_2865007` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
 | 181 | `510142_2865145` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
 | 182 | `510142_2865086` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
 | 183 | `481937_2697159` | EVE Online | **A2** | I6 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
 | 184 | `510142_2865000` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/1/1` | ⚠️ Sim |  |
-| 185 | `510142_2864998` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 186 | `481937_2697157` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 187 | `833872096657547947_833872096657547947_7` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 188 | `833872096657547947_833872096657547947_4` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 189 | `833872096657547947_833872096657547947_1` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 190 | `833872096657547947_833872096657547947_8` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 185 | `510142_2864998` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/0/2/0` | ⚠️ Sim |  |
+| 186 | `481937_2697157` | EVE Online | **A2** | I5 | VC3 | **Risco** | `0/2/3/0` | ⚠️ Sim |  |
+| 187 | `833872096657547947_833872096657547947_7` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/1/2/1` | ⚠️ Sim |  |
+| 188 | `833872096657547947_833872096657547947_4` | EVE Online | **A5** | I4 | VC3 | **Risco** | `0/0/3/2` | ⚠️ Sim |  |
+| 189 | `833872096657547947_833872096657547947_1` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/1/3/3` | ⚠️ Sim |  |
+| 190 | `833872096657547947_833872096657547947_8` | EVE Online | **A5** | I4 | VC3 | **Risco** | `1/1/4/3` | ⚠️ Sim |  |
 | 191 | `589559717132767735_589559717132767735_2` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 192 | `589559717132767735_589559717132767735_1` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 193 | `589559717132767735_589559717132767735_4` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 194 | `589559717132766752_589559717132766752_3` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 195 | `589559717132766752_589559717132766752_2` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 196 | `589559717132766752_589559717132766752_1` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 197 | `589559717132766752_589559717132766752_5` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 198 | `589559717132766752_589559717132766752_6` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 192 | `589559717132767735_589559717132767735_1` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/1/4/2` | ⚠️ Sim |  |
+| 193 | `589559717132767735_589559717132767735_4` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/1/2/0` | ⚠️ Sim |  |
+| 194 | `589559717132766752_589559717132766752_3` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/2/3/1` | ⚠️ Sim |  |
+| 195 | `589559717132766752_589559717132766752_2` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/1/3/2` | ⚠️ Sim |  |
+| 196 | `589559717132766752_589559717132766752_1` | EVE Online | **A5** | I4 | VC3 | **Risco** | `1/2/4/2` | ⚠️ Sim |  |
+| 197 | `589559717132766752_589559717132766752_5` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/2/4/3` | ⚠️ Sim |  |
+| 198 | `589559717132766752_589559717132766752_6` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/2/3/2` | ⚠️ Sim |  |
 | 199 | `492935_2751948` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `0/5/0/0` | ⚠️ Sim |  |
-| 200 | `492935_2749988` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 200 | `492935_2749988` | EVE Online | **A5** | I4 | VC2 | **Acesso** | `1/3/1/2` | ⚠️ Sim |  |
 | 201 | `506798_2840433` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
 | 202 | `483348_2703719` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
 | 203 | `496432_2766672` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
-| 204 | `492935_2750075` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 204 | `492935_2750075` | EVE Online | **A5** | I4 | VC3 | **Risco** | `1/1/3/2` | ⚠️ Sim |  |
 | 205 | `506798_2839801` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/4/0` | ⚠️ Sim |  |
-| 206 | `492935_2750140` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 207 | `492935_2750146` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 208 | `492935_2750230` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 206 | `492935_2750140` | EVE Online | **A5** | I4 | VC2 | **Acesso** | `2/4/2/2` | ⚠️ Sim |  |
+| 207 | `492935_2750146` | EVE Online | **A5** | I4 | VC3 | **Risco** | `2/1/3/1` | ⚠️ Sim |  |
+| 208 | `492935_2750230` | EVE Online | **A5** | I4 | VC3 | **Risco** | `2/1/3/2` | ⚠️ Sim |  |
 | 209 | `506798_2840399` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `0/2/0/0` | ⚠️ Sim |  |
 | 210 | `506798_2840203` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 211 | `492935_2750257` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 212 | `496432_2766660` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 213 | `496432_2766656` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 214 | `506798_2839784` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 215 | `496432_2766677` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 211 | `492935_2750257` | EVE Online | **A5** | I4 | VC3 | **Diálogo** | `3/2/3/2` | ⚠️ Sim |  |
+| 212 | `496432_2766660` | EVE Online | **A5** | I4 | VC3 | **Transparência** | `2/2/2/3` | ⚠️ Sim |  |
+| 213 | `496432_2766656` | EVE Online | **A4** | I2 | VC2 | **Acesso** | `1/3/2/2` | ⚠️ Sim |  |
+| 214 | `506798_2839784` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `1/1/3/4` | ⚠️ Sim |  |
+| 215 | `496432_2766677` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/1` | ⚠️ Sim |  |
 | 216 | `506798_2840405` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
-| 217 | `483348_2703718` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 218 | `506798_2839756` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 219 | `506798_2839765` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 220 | `506798_2839874` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 221 | `506798_2839908` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 222 | `506798_2839900` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 223 | `506798_2840415` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 224 | `506798_2839830` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 217 | `483348_2703718` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/0` | ⚠️ Sim |  |
+| 218 | `506798_2839756` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `2/3/2/4` | ⚠️ Sim |  |
+| 219 | `506798_2839765` | EVE Online | **A5** | I4 | VC3 | **Risco** | `1/0/3/2` | ⚠️ Sim |  |
+| 220 | `506798_2839874` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/1/2/2` | ⚠️ Sim |  |
+| 221 | `506798_2839908` | EVE Online | **A5** | I4 | VC3 | **Risco** | `1/1/2/1` | ⚠️ Sim |  |
+| 222 | `506798_2839900` | EVE Online | **A5** | I4 | VC2 | **Acesso** | `1/3/0/1` | ⚠️ Sim |  |
+| 223 | `506798_2840415` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `1/1/2/4` | ⚠️ Sim |  |
+| 224 | `506798_2839830` | EVE Online | **A5** | I4 | VC2 | **Acesso** | `1/2/1/1` | ⚠️ Sim |  |
 | 225 | `reddit_1sf61mq_11` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/2` | ⚠️ Sim |  |
-| 226 | `506798_2840454` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 227 | `516921_2921717` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 228 | `516921_2922163` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 226 | `506798_2840454` | EVE Online | **A5** | I4 | VC2 | **Diálogo** | `3/3/2/2` | ⚠️ Sim |  |
+| 227 | `516921_2921717` | EVE Online | **A5** | I4 | VC3 | **Risco** | `1/1/3/2` | ⚠️ Sim |  |
+| 228 | `516921_2922163` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/2/2/2` | ⚠️ Sim |  |
 | 229 | `2257438_28913780` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 230 | `512939_2886552` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 230 | `512939_2886552` | EVE Online | **A1** | I1 | VC3 | **Diálogo** | `3/3/2/2` | ⚠️ Sim |  |
 | 231 | `2257438_28913782` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 232 | `512939_2888287` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 232 | `512939_2888287` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `1/3/1/2` | ⚠️ Sim |  |
 | 233 | `2257438_28913757` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | Não |  |
 | 234 | `reddit_1rg6iqz_6` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/1/2` | ⚠️ Sim |  |
-| 235 | `reddit_1rg6iqz_1` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 235 | `reddit_1rg6iqz_1` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/1/2` | ⚠️ Sim |  |
 | 236 | `2257438_28916305` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 237 | `2257438_28913683` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 238 | `reddit_1p38i14_1` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 237 | `2257438_28913683` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/1/1` | ⚠️ Sim |  |
+| 238 | `reddit_1p38i14_1` | World of Warcraft | **A4** | I1 | VC1 | **Diálogo** | `3/3/0/1` | ⚠️ Sim |  |
 | 239 | `2257438_28916344` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/0/0` | ⚠️ Sim |  |
-| 240 | `reddit_1p38i14_8` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 241 | `2257438_28913705` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 240 | `reddit_1p38i14_8` | World of Warcraft | **A1** | I3 | VC2 | **Diálogo** | `3/3/2/2` | ⚠️ Sim |  |
+| 241 | `2257438_28913705` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/2/1` | ⚠️ Sim |  |
 | 242 | `2338781_29917137` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 243 | `reddit_1p38i14_10` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 244 | `2257438_28913744` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 243 | `reddit_1p38i14_10` | World of Warcraft | **A4** | I1 | VC2 | **Diálogo** | `3/3/1/2` | ⚠️ Sim |  |
+| 244 | `2257438_28913744` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `2/1/3/2` | ⚠️ Sim |  |
 | 245 | `2257438_28921050` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `2/0/4/0` | ⚠️ Sim |  |
-| 246 | `2257438_28913792` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 247 | `2257438_28913793` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 246 | `2257438_28913792` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/1` | ⚠️ Sim |  |
+| 247 | `2257438_28913793` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
 | 248 | `2248893_28811596` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/4/0/0` | ⚠️ Sim |  |
-| 249 | `2257438_28913871` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 250 | `2257438_28918588` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 251 | `2257438_28918380` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 252 | `2257438_28919908` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 253 | `2257438_28920555` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 254 | `2257438_28918493` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 255 | `2257438_28920202` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 249 | `2257438_28913871` | World of Warcraft | **A5** | I4 | VC2 | **Acesso** | `1/2/0/1` | ⚠️ Sim |  |
+| 250 | `2257438_28918588` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/1/0` | ⚠️ Sim |  |
+| 251 | `2257438_28918380` | World of Warcraft | **A4** | I1 | VC2 | **Acesso** | `2/3/1/0` | ⚠️ Sim |  |
+| 252 | `2257438_28919908` | World of Warcraft | **A5** | I4 | VC2 | **Acesso** | `3/4/1/2` | ⚠️ Sim |  |
+| 253 | `2257438_28920555` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/1` | ⚠️ Sim |  |
+| 254 | `2257438_28918493` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/1/3/2` | ⚠️ Sim |  |
+| 255 | `2257438_28920202` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
 | 256 | `2176376_27854651` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
 | 257 | `2248893_28813627` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 258 | `2257438_28920987` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 258 | `2257438_28920987` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/1/3/1` | ⚠️ Sim |  |
 | 259 | `2248893_28811664` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/0/0` | ⚠️ Sim |  |
-| 260 | `2257438_28921486` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 260 | `2257438_28921486` | World of Warcraft | **A5** | I4 | VC2 | **Acesso** | `2/3/1/1` | ⚠️ Sim |  |
 | 261 | `2108142_26921690` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/2/4/3` | ⚠️ Sim |  |
-| 262 | `2248893_28811587` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 262 | `2248893_28811587` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/1/1/2` | ⚠️ Sim |  |
 | 263 | `2248893_28811791` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/1` | ⚠️ Sim |  |
-| 264 | `2248893_28811578` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 265 | `2248893_28811778` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 264 | `2248893_28811578` | World of Warcraft | **A5** | I4 | VC2 | **Acesso** | `1/2/2/0` | ⚠️ Sim |  |
+| 265 | `2248893_28811778` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
 | 266 | `2300167_29414902` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
-| 267 | `2248893_28811780` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 268 | `2248893_28812662` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 269 | `2248893_28812020` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 270 | `2248893_28812411` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 271 | `2248893_28812051` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 272 | `2248893_28812120` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 273 | `2108142_26921376` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 274 | `2108142_26921650` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 275 | `2108142_26921767` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 267 | `2248893_28811780` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/1/0` | ⚠️ Sim |  |
+| 268 | `2248893_28812662` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/3/3` | ⚠️ Sim |  |
+| 269 | `2248893_28812020` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
+| 270 | `2248893_28812411` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/0` | ⚠️ Sim |  |
+| 271 | `2248893_28812051` | World of Warcraft | **A5** | I4 | VC2 | **Acesso** | `1/2/2/1` | ⚠️ Sim |  |
+| 272 | `2248893_28812120` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/0` | ⚠️ Sim |  |
+| 273 | `2108142_26921376` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/0` | ⚠️ Sim |  |
+| 274 | `2108142_26921650` | World of Warcraft | **A5** | I4 | VC2 | **Acesso** | `0/2/1/0` | ⚠️ Sim |  |
+| 275 | `2108142_26921767` | World of Warcraft | **A5** | I4 | VC2 | **Acesso** | `1/2/1/0` | ⚠️ Sim |  |
 | 276 | `2320601_29686369` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
 | 277 | `2320601_29692500` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
 | 278 | `2176376_27854960` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 279 | `2108142_26933143` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 279 | `2108142_26933143` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/0/2/1` | ⚠️ Sim |  |
 | 280 | `2320601_29702464` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
 | 281 | `2320601_29686412` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | Não |  |
-| 282 | `2300167_29415623` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 282 | `2300167_29415623` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/0/3/1` | ⚠️ Sim |  |
 | 283 | `2300167_29417443` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/4/1` | ⚠️ Sim |  |
 | 284 | `2320601_29700590` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/0/0` | ⚠️ Sim |  |
-| 285 | `2300167_29418380` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 286 | `2300167_29421251` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 287 | `2300167_29418895` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 288 | `2320601_29686669` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 289 | `2320601_29686401` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 290 | `2320601_29686571` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 291 | `2320601_29687388` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 292 | `2320601_29702454` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 285 | `2300167_29418380` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/2` | ⚠️ Sim |  |
+| 286 | `2300167_29421251` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/3/3` | ⚠️ Sim |  |
+| 287 | `2300167_29418895` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/2/3/1` | ⚠️ Sim |  |
+| 288 | `2320601_29686669` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/3/2` | ⚠️ Sim |  |
+| 289 | `2320601_29686401` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/2/2` | ⚠️ Sim |  |
+| 290 | `2320601_29686571` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/1` | ⚠️ Sim |  |
+| 291 | `2320601_29687388` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/2` | ⚠️ Sim |  |
+| 292 | `2320601_29702454` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/0/1` | ⚠️ Sim |  |
 | 293 | `2171055_27776973` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | Não |  |
 | 294 | `2171055_27777452` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/0/0` | ⚠️ Sim |  |
 | 295 | `2171055_27777008` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/2/3` | ⚠️ Sim |  |
-| 296 | `2171055_27776960` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 297 | `2171055_27776967` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 296 | `2171055_27776960` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `2/1/3/3` | ⚠️ Sim |  |
+| 297 | `2171055_27776967` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/1/1` | ⚠️ Sim |  |
 | 298 | `2171055_27777020` | World of Warcraft | **A2** | I4 | VC4 | **Risco** | `0/1/2/1` | ⚠️ Sim |  |
 | 299 | `2171055_27778915` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/1` | ⚠️ Sim |  |
 | 300 | `2171055_27777035` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/2/3` | ⚠️ Sim |  |
-| 301 | `2171055_27776984` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 302 | `2171055_27777039` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 303 | `2171055_27777017` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 301 | `2171055_27776984` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/2` | ⚠️ Sim |  |
+| 302 | `2171055_27777039` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/1/2` | ⚠️ Sim |  |
+| 303 | `2171055_27777017` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/1/0` | ⚠️ Sim |  |
 | 304 | `2171055_27777967` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/1` | ⚠️ Sim |  |
 | 305 | `2171055_27779059` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 306 | `2171055_27777341` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 307 | `2171055_27777272` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 306 | `2171055_27777341` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
+| 307 | `2171055_27777272` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
 | 308 | `2171055_27777979` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 309 | `2171055_27777225` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 310 | `2171055_27777045` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 309 | `2171055_27777225` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/0/1` | ⚠️ Sim |  |
+| 310 | `2171055_27777045` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/0/2/1` | ⚠️ Sim |  |
 | 311 | `2171055_27778598` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 312 | `2171055_27777640` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 312 | `2171055_27777640` | World of Warcraft | **A2** | I5 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
 | 313 | `2171055_27782333` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
-| 314 | `2171055_27777630` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 315 | `2171055_27778551` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 316 | `2171055_27778362` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 317 | `2171055_27778603` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 318 | `2171055_27778944` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 319 | `2171055_27779900` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 320 | `2171055_27781203` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 321 | `2171055_27779093` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 322 | `2171055_27781079` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 323 | `2171055_27781426` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 324 | `2171055_27781272` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 314 | `2171055_27777630` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/1` | ⚠️ Sim |  |
+| 315 | `2171055_27778551` | World of Warcraft | **A5** | I6 | VC4 | **Diálogo** | `1/0/0/0` | ⚠️ Sim |  |
+| 316 | `2171055_27778362` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/1/1` | ⚠️ Sim |  |
+| 317 | `2171055_27778603` | World of Warcraft | **A5** | I6 | VC4 | **Transparência** | `0/0/1/2` | ⚠️ Sim |  |
+| 318 | `2171055_27778944` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/1/2` | ⚠️ Sim |  |
+| 319 | `2171055_27779900` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/0/1/1` | ⚠️ Sim |  |
+| 320 | `2171055_27781203` | World of Warcraft | **A5** | I4 | VC2 | **Diálogo** | `2/1/0/1` | ⚠️ Sim |  |
+| 321 | `2171055_27779093` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `2/0/2/3` | ⚠️ Sim |  |
+| 322 | `2171055_27781079` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/0/1/1` | ⚠️ Sim |  |
+| 323 | `2171055_27781426` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
+| 324 | `2171055_27781272` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
 | 325 | `2159913_27627599` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | Não |  |
 | 326 | `reddit_1tdr4z8_8` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
 | 327 | `reddit_1tdr4z8_3` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/1/4` | ⚠️ Sim |  |
 | 328 | `reddit_1tdr4z8_7` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/1` | ⚠️ Sim |  |
 | 329 | `reddit_1rq35g3_1` | World of Warcraft | **A1** | I3 | VC2 | **Diálogo** | `3/3/0/1` | ⚠️ Sim |  |
-| 330 | `reddit_1tdr4z8_1` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 331 | `2159913_27643699` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 330 | `reddit_1tdr4z8_1` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/1/2` | ⚠️ Sim |  |
+| 331 | `2159913_27643699` | World of Warcraft | **A2** | I4 | VC4 | **Acesso** | `0/2/2/1` | ⚠️ Sim |  |
 | 332 | `2314701_29616313` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
 | 333 | `2332259_29840643` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 334 | `reddit_1nvtk44_4` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 334 | `reddit_1nvtk44_4` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/1/2` | ⚠️ Sim |  |
 | 335 | `2147065_27455593` | World of Warcraft | **A1** | I2 | VC3 | **Diálogo** | `1/1/0/1` | ⚠️ Sim |  |
-| 336 | `reddit_1rq35g3_13` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 337 | `reddit_1nvtk44_15` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 336 | `reddit_1rq35g3_13` | World of Warcraft | **A1** | I5 | VC3 | **Risco** | `0/1/2/1` | ⚠️ Sim |  |
+| 337 | `reddit_1nvtk44_15` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/2/3` | ⚠️ Sim |  |
 | 338 | `2147065_27456463` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/0/2` | ⚠️ Sim |  |
-| 339 | `reddit_1nvtk44_8` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 340 | `reddit_1nvtk44_7` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 341 | `reddit_1nvtk44_1` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 342 | `2314701_29618262` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 339 | `reddit_1nvtk44_8` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/1/2/3` | ⚠️ Sim |  |
+| 340 | `reddit_1nvtk44_7` | World of Warcraft | **A5** | I4 | VC3 | **Transparência** | `1/1/2/3` | ⚠️ Sim |  |
+| 341 | `reddit_1nvtk44_1` | World of Warcraft | **A5** | I4 | VC3 | **Transparência** | `1/0/2/3` | ⚠️ Sim |  |
+| 342 | `2314701_29618262` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/2` | ⚠️ Sim |  |
 | 343 | `2147065_27456379` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/3/1` | ⚠️ Sim |  |
-| 344 | `2147065_27455636` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 345 | `2314701_29618597` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 344 | `2147065_27455636` | World of Warcraft | **A5** | I4 | VC3 | **Acesso** | `1/2/2/2` | ⚠️ Sim |  |
+| 345 | `2314701_29618597` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/3/2` | ⚠️ Sim |  |
 | 346 | `2147065_27456279` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 347 | `2147065_27455652` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 348 | `2147065_27455760` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 349 | `2147065_27455776` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 350 | `2147065_27455800` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 351 | `2147065_27455793` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 352 | `2147065_27455823` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 353 | `2147065_27456221` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 354 | `2147065_27456038` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 355 | `2147065_27456240` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 356 | `2147065_27456598` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 347 | `2147065_27455652` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/1/2` | ⚠️ Sim |  |
+| 348 | `2147065_27455760` | World of Warcraft | **A5** | I4 | VC3 | **Diálogo** | `3/2/2/3` | ⚠️ Sim |  |
+| 349 | `2147065_27455776` | World of Warcraft | **A5** | I4 | VC3 | **Diálogo** | `3/1/2/3` | ⚠️ Sim |  |
+| 350 | `2147065_27455800` | World of Warcraft | **A5** | I4 | VC3 | **Acesso** | `2/3/2/3` | ⚠️ Sim |  |
+| 351 | `2147065_27455793` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/2/1` | ⚠️ Sim |  |
+| 352 | `2147065_27455823` | World of Warcraft | **A5** | I4 | VC3 | **Transparência** | `1/2/2/3` | ⚠️ Sim |  |
+| 353 | `2147065_27456221` | World of Warcraft | **A5** | I4 | VC3 | **Transparência** | `2/1/2/3` | ⚠️ Sim |  |
+| 354 | `2147065_27456038` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `2/1/2/3` | ⚠️ Sim |  |
+| 355 | `2147065_27456240` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/1/3/3` | ⚠️ Sim |  |
+| 356 | `2147065_27456598` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/1/3/3` | ⚠️ Sim |  |
 | 357 | `reddit_1snmfut_6` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/1` | ⚠️ Sim |  |
 | 358 | `reddit_1s5tj3u_1` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 359 | `2147065_27456449` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 360 | `reddit_1snmfut_1` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 361 | `reddit_1snmfut_11` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 362 | `reddit_1snmfut_2` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 359 | `2147065_27456449` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/1/2` | ⚠️ Sim |  |
+| 360 | `reddit_1snmfut_1` | World of Warcraft | **A1** | I3 | VC2 | **Diálogo** | `3/3/1/1` | ⚠️ Sim |  |
+| 361 | `reddit_1snmfut_11` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/2/3/2` | ⚠️ Sim |  |
+| 362 | `reddit_1snmfut_2` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `2/2/3/1` | ⚠️ Sim |  |
 | 363 | `2308441_29521622` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
-| 364 | `reddit_1snmfut_8` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 364 | `reddit_1snmfut_8` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/3/3` | ⚠️ Sim |  |
 | 365 | `reddit_1snmfut_19` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/1/1/2` | ⚠️ Sim |  |
 | 366 | `2308441_29521682` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
-| 367 | `reddit_1snmfut_17` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 367 | `reddit_1snmfut_17` | World of Warcraft | **A1** | I3 | VC3 | **Diálogo** | `3/2/2/1` | ⚠️ Sim |  |
 | 368 | `2308441_29521746` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `4/0/0/0` | ⚠️ Sim |  |
-| 369 | `reddit_1snmfut_13` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 370 | `reddit_1snmfut_16` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 369 | `reddit_1snmfut_13` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/1/3/3` | ⚠️ Sim |  |
+| 370 | `reddit_1snmfut_16` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/1/2/1` | ⚠️ Sim |  |
 | 371 | `2308441_29521809` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/0/0` | ⚠️ Sim |  |
-| 372 | `2308441_29521635` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 372 | `2308441_29521635` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/0/0` | ⚠️ Sim |  |
 | 373 | `2308441_29522321` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/0/0` | ⚠️ Sim |  |
 | 374 | `2308441_29521928` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 375 | `2308441_29521595` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 376 | `2308441_29521669` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 377 | `2308441_29521636` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 375 | `2308441_29521595` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/0/1` | ⚠️ Sim |  |
+| 376 | `2308441_29521669` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
+| 377 | `2308441_29521636` | World of Warcraft | **A1** | I1 | VC2 | **Acesso** | `1/2/2/1` | ⚠️ Sim |  |
 | 378 | `2308441_29521795` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/0/1/0` | ⚠️ Sim |  |
-| 379 | `2308441_29521689` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 380 | `2308441_29521862` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 379 | `2308441_29521689` | World of Warcraft | **A5** | I4 | VC2 | **Acesso** | `2/3/2/1` | ⚠️ Sim |  |
+| 380 | `2308441_29521862` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/2/1/1` | ⚠️ Sim |  |
 | 381 | `2308441_29522269` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `4/2/0/0` | ⚠️ Sim |  |
-| 382 | `2308441_29521857` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 383 | `2308441_29521868` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 384 | `2308441_29521875` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 385 | `2308441_29521980` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 386 | `2308441_29522148` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 387 | `2308441_29522068` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 388 | `2308441_29522061` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 382 | `2308441_29521857` | World of Warcraft | **A5** | I4 | VC3 | **Diálogo** | `2/1/2/1` | ⚠️ Sim |  |
+| 383 | `2308441_29521868` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
+| 384 | `2308441_29521875` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/3/1` | ⚠️ Sim |  |
+| 385 | `2308441_29521980` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/1/0` | ⚠️ Sim |  |
+| 386 | `2308441_29522148` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/3/1` | ⚠️ Sim |  |
+| 387 | `2308441_29522068` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/1/0` | ⚠️ Sim |  |
+| 388 | `2308441_29522061` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/2/1` | ⚠️ Sim |  |
 | 389 | `2336820_29896313` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 390 | `2308441_29522283` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 391 | `2308441_29522325` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 392 | `2308441_29522157` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 393 | `2308441_29522338` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 390 | `2308441_29522283` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/2/4/1` | ⚠️ Sim |  |
+| 391 | `2308441_29522325` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/1/3/3` | ⚠️ Sim |  |
+| 392 | `2308441_29522157` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/1` | ⚠️ Sim |  |
+| 393 | `2308441_29522338` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/1/3/3` | ⚠️ Sim |  |
 | 394 | `2318118_29656800` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/2` | ⚠️ Sim |  |
 | 395 | `2318118_29656965` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/2/5` | ⚠️ Sim |  |
-| 396 | `2318118_29656397` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 396 | `2318118_29656397` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/2/2` | ⚠️ Sim |  |
 | 397 | `2336820_29907751` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 398 | `2318118_29656876` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 399 | `2318118_29655457` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 400 | `2318118_29657331` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 401 | `2318118_29657675` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 402 | `2318118_29658471` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 403 | `2318118_29657985` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 404 | `2318118_29658639` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 398 | `2318118_29656876` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/0/1/2` | ⚠️ Sim |  |
+| 399 | `2318118_29655457` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
+| 400 | `2318118_29657331` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/2` | ⚠️ Sim |  |
+| 401 | `2318118_29657675` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `2/2/3/3` | ⚠️ Sim |  |
+| 402 | `2318118_29658471` | World of Warcraft | **A1** | I3 | VC1 | **Diálogo** | `3/3/2/3` | ⚠️ Sim |  |
+| 403 | `2318118_29657985` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/1/1` | ⚠️ Sim |  |
+| 404 | `2318118_29658639` | World of Warcraft | **A4** | I4 | VC2 | **Acesso** | `2/3/3/3` | ⚠️ Sim |  |
 | 405 | `2180159_28321012` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/0` | ⚠️ Sim |  |
-| 406 | `2318118_29658663` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 407 | `2318118_29658668` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 408 | `2180159_27921755` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 409 | `2180159_27956316` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 410 | `2336820_29940449` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 406 | `2318118_29658663` | World of Warcraft | **A5** | I4 | VC3 | **Transparência** | `1/1/2/3` | ⚠️ Sim |  |
+| 407 | `2318118_29658668` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/2/2` | ⚠️ Sim |  |
+| 408 | `2180159_27921755` | World of Warcraft | **A1** | I2 | VC3 | **Diálogo** | `2/1/2/2` | ⚠️ Sim |  |
+| 409 | `2180159_27956316` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/2` | ⚠️ Sim |  |
+| 410 | `2336820_29940449` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/2` | ⚠️ Sim |  |
 | 411 | `reddit_11kumll_2` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/0/0` | ⚠️ Sim |  |
 | 412 | `1772220_22621640` | World of Warcraft | **A2** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
 | 413 | `1772220_22621912` | World of Warcraft | **A2** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
@@ -934,7 +934,7 @@ Este documento formaliza a leitura humana estruturada e detalhada dos resultados
 | 881 | `2051325_26164463` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/0/0` | ⚠️ Sim |  |
 | 882 | `2123929_27158570` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/2/1` | Não |  |
 | 883 | `2051325_26164423` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 884 | `2015716_25669223` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
+| 884 | `2015716_25669223` | World of Warcraft | **A4** | I3 | VC1 | **Diálogo** | `4/3/1/4` | Não |  |
 | 885 | `2051325_26172289` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/1/0` | ⚠️ Sim |  |
 | 886 | `2051325_26164391` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/2/3/1` | Não |  |
 | 887 | `2051325_26164479` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
@@ -2506,90 +2506,186 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #77: `503747_2870179` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** introduced significant, immediate risks to the artificial intelligence sector
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Risco (Ativo):**
+  - *Evidência Literal:* "introduced significant, immediate risks to the artificial intelligence sector"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #78: `503747_2849615` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 4 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 5
+* **Fundamentação / Notas:** we would be looking at job loss, and a possible lack of energy and water as big companies start to pander to the mass amounts of money AI can generate
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "i tell the AI what i need for my picture and it takes about 4 to 5 minutes to process"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Right now I am able to process my Ebay pictures for free using Chat GPT"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "we would be looking at job loss, and a possible lack of energy and water as big companies start to pander to the mass amounts of money AI can generate"
+  - *Interpretação Teórica:* Score 4/5 (conf 0.90)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Who excatly is paying for the processing when I create my pictures for Ebay?"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #79: `503747_2846302` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 3
+* **Fundamentação / Notas:** as AI can flood the market, which is already happening it becomes a problem for them really quickly
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Based on what I wrote above, which is how I understand the process (though best if you fact check as it is just an interpretation of mine and can’t be 100% sure)"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "This process needs trillions of sources as otherwise there would need to be a human listening to every output and decide how much of the output resembles music."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "as AI can flood the market, which is already happening it becomes a problem for them really quickly"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "This is why training data is important as how generative AI works is by learning what makes something to be something"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #80: `516800_2916223` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** The need to keep the Deepmind exposure within a closed sandbox is obvious
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "where AI can interact with us Capsuleers in game freely"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "a larger research opportunity in future where AI can interact with us Capsuleers in game freely"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "The need to keep the Deepmind exposure within a closed sandbox is obvious"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "whether such AI’s dominate or…capsuleers collaborate"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #81: `503747_2848085` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 5
+* **Fundamentação / Notas:** ensure AI is developed responsibly without poisioning or dehydrating anyone. Whoever signed off on building impossible data centers that need 6GW of power
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "I specifically asked the AI to give me all info about a human brain vs a GPU."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "All google AI did was compare info and present it to me."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "ensure AI is developed responsibly without poisioning or dehydrating anyone. Whoever signed off on building impossible data centers that need 6GW of power"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Not going to read your entire post because it is clearly AI generated. I am here to converse with a human not AI"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.78)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #82: `3000003_28811536` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** perhaps coded by AI, perhaps not
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Risco (Ativo):**
+  - *Evidência Literal:* "perhaps coded by AI, perhaps not"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "perhaps coded by AI, perhaps not"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #83: `516800_2916401` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
+* **Fundamentação / Notas:** See how the player reacts.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "where the agent reacts to the character’s history"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Two tiers of missioning; current for the blitzers, and a second (opt in of course)"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "See how the player reacts."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "a second (opt in of course)"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #84: `495219_2762734` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 0 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** The post discusses technical feasibility of a Discord bot that pings on contract acceptance, referencing ESI API caching. No AI agent is described; the bot is a conventional automation tool (A2/A3 territory), but the post itself is meta-discussion about building such a bot, so A5 (discussion about AI/automation) is the closest fit with moderate confidence. Interaction is human-to-human about the tooling (I4). No value co-creation between human and AI is evidenced (VC4). DART scores are low: dialogue is weak (speculative exchange), access is moderate (API data access discussion), risk absent, transparency moderate (documentation/caching visibility). Flagged for human review due to ambiguity between A2/A3/A5 and low confidence across dimensions.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "which I think would be what dictates how often op could have his contract data pull in (?)"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "I checked ESI docs and it looks like contract data gets cached every 5 minutes"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "I checked ESI docs and it looks like contract data gets cached every 5 minutes"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
@@ -2605,90 +2701,174 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #86: `495219_2762723` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
+* **Fundamentação / Notas:** I am not sure if it is even possible to have an out-of-game-update within only a few minutes
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "I’ll note this is only useful to me if the discord relay pings within 1-2 minutes"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "ESI access to your ingame data is restricted to every so often"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "I am not sure if it is even possible to have an out-of-game-update within only a few minutes"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "ESI access to your ingame data is restricted to every so often"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #87: `3000003_28811619` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** AI water usage is a rapidly growing environmental concern, with AI-related activities projected to consume 4.2 to 6.6 billion cubic meters of water annually
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "I’ll use the AI response from Google kekw"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "I’ll use the AI response from Google kekw"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "AI water usage is a rapidly growing environmental concern, with AI-related activities projected to consume 4.2 to 6.6 billion cubic meters of water annually"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "I’ll use the AI response from Google kekw"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #88: `516800_2916427` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
+* **Fundamentação / Notas:** you can thank AI for that being sunsetted in Jan27
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "I wouldnt bet any isk on that."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Saving time is the biggest factor and its been a huge help to many people"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "you can thank AI for that being sunsetted in Jan27"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #89: `3000003_28811612` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** most of it is outright stolen,data centers are destroying the planet, and dramatically making the average person unable to pay for computer parts
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Risco (Ativo):**
+  - *Evidência Literal:* "most of it is outright stolen,data centers are destroying the planet, and dramatically making the average person unable to pay for computer parts"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.78)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Its probably how most of it is outright stolen"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #90: `495219_2775726` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** unless you’re willing to accept that limit. It’s not possible.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "It’s possible to code."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "You’re limited by the ESI."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "unless you’re willing to accept that limit. It’s not possible."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "You’re limited by the ESI."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #91: `495219_2762735` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
+* **Fundamentação / Notas:** The post discusses EVEMon query intervals and ESI (EVE Swagger Interface) endpoints in the context of building a Discord bot that pings on contract acceptance. No actual AI agent is described or interacted with; the discussion is about tooling/API polling intervals. Classified as A5 (discussion about AI-adjacent tooling) since EVEMon is a third-party tool and the thread topic concerns a bot, but no AI autonomy is evidenced. Interaction is I4 (human-to-human discussion about tooling). No value co-creation/destruction is identifiable (VC4). DART scores are low: weak dialogue (offering a starting point), moderate access (sharing query interval info), no risk, weak transparency (acknowledging uncertainty about technical limits). Flagged for human review due to ambiguity between A2/A5 and low confidence on value classification.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Maybe thats a start to work with."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Those are the shortest query intervals selectable by EVEMon"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "no guarantee that this reflects the technical limitations"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #92: `495219_2780266` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** The post is a request to commission a Discord bot that pings the author when an EVE Online contract is accepted. There is no evidence the requested bot would use AI; it is a conventional automation/notification bot, so A2 (Conventional Bot) is assigned with low confidence. The author is soliciting a human developer (Human → Human about a bot), so I4 is the best fit, though the bot itself is not yet built and no AI interaction occurs. No value co-creation or destruction is evidenced (VC4). DART scores are low: weak dialogue (contact info exchange), weak access (notification of contract acceptance), no risk or transparency discussion. Human review is required due to low confidence, unclear AI vs conventional bot status, and missing context (parent post, thread context).
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "My discord for anyone interested is coyote97"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "WTB discord bot that pings me when a contract is accepted"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #93: `495219_2786308` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** This post is a bump/reminder in a thread requesting a Discord bot that notifies the user when an EVE Online contract is accepted. The post itself contains no description of an actual AI agent interaction; it merely reiterates interest in paying for a bot. The bot requested is a notification/automation tool, and there is no evidence it is AI-based (likely A2/A3), but since the post only references the bot indirectly and provides no technical detail, A5 (discussion about AI/automation) is the safest classification with low confidence. No human–AI interaction is described in this specific post, so I6. No value co-creation/destruction is evidenced here, so VC4. DART scores are minimal: access is weakly implied by the bot's function (pinging on contract acceptance), but no dialogue, risk, or transparency content is present. Flagged for human review due to low confidence, ambiguity between AI vs conventional bot, and missing context (parent thread).
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "WTB discord bot that pings me when a contract is accepted"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
@@ -2759,13 +2939,28 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #100: `474041_2659388` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I5** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** I do still think they are bots due to very predictable stuff
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "the response to being bumped out of range of each other in the case of the Gnosis’s"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "if it kills the other I can harvest free drones from the dead one and maybe loot the bloody thing"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "I do still think they are bots due to very predictable stuff"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "I do still think they are bots"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
@@ -2781,24 +2976,46 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #102: `474041_2659324` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 4 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 3
+* **Fundamentação / Notas:** Malukker is a new player system, and at the very least this [expletive] is really screwing up new people as its a little bewildering to be in the middle of this mess.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "I have been able to test the Gnosis’s by bumping them out of range of each other, once I do that all of them dock and the cycle restarts."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Most recently they have been going to training sites and anomalies and then promptly returning."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Malukker is a new player system, and at the very least this [expletive] is really screwing up new people as its a little bewildering to be in the middle of this mess."
+  - *Interpretação Teórica:* Score 4/5 (conf 0.85)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "I’ve also reported a number of them but its still happening, is flagrantly obvious and there is an interesting pattern developing that is increasingly leading me to lean towards machine learning rather than just run of the mill bots."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #103: `474041_2659344` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** they add new behaviors
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Risco (Ativo):**
+  - *Evidência Literal:* "they add new behaviors"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.55)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "maybe machine learning training"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
@@ -2924,24 +3141,46 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #115: `2324507_2324507_1` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 4 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** We have bots selling PVP rating in trade chats.We have bots in pvp.We have bots selling dungeon loot and raid loot.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Can us players get a blue post in response to all the botting being allowed to happen in-game."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "We have bots, farming every single mat in TBC"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "We have bots selling PVP rating in trade chats.We have bots in pvp.We have bots selling dungeon loot and raid loot."
+  - *Interpretação Teórica:* Score 4/5 (conf 0.85)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Can the players get a blue post on what is being done to stop all the bots in the game?"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #116: `2324507_2324507_6` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** skynet keeps dropping patches on us and forkin up our addons
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Risco (Ativo):**
+  - *Evidência Literal:* "skynet keeps dropping patches on us and forkin up our addons"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.50)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "they don’t even have the libs working there anymore, it’s 100% automated"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.45)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -2975,79 +3214,120 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #119: `2324507_2324507_3` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** the bots are the problem
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Risco (Ativo):**
+  - *Evidência Literal:* "the bots are the problem"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #120: `2324507_2324507_4` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** the people running the game, and the forums are unfortunately BOTS
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Risco (Ativo):**
+  - *Evidência Literal:* "the people running the game, and the forums are unfortunately BOTS"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "the people running the game, and the forums are unfortunately BOTS"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.50)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #121: `2324507_2324507_14` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** players buying the mats/gold from the bots/farmers.supply and demand.Who’s the problem here?
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "players buying the mats/gold from the bots/farmers"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "players buying the mats/gold from the bots/farmers.supply and demand.Who’s the problem here?"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #122: `2324507_2324507_12` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** Ban the bots that have crushed another version of wow into the dirt again ffs
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Ban the bots that have crushed another version of wow into the dirt again ffs"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #123: `2324507_2324507_10` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I5** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** they banned the casinos.There’s still casino bots standing in stormwind 24/7they showed back up within an hour of the servers coming online today
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "There’s still casino bots standing in stormwind 24/7"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "they banned the casinos.There’s still casino bots standing in stormwind 24/7they showed back up within an hour of the servers coming online today"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "they banned the casinos"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.45)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #124: `2324507_2324507_18` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** If people didn’t buy gold, Bots wouldn’t farm the gold.we have a botting problemBecause we have a RMT problem.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Risco (Ativo):**
+  - *Evidência Literal:* "If people didn’t buy gold, Bots wouldn’t farm the gold.we have a botting problemBecause we have a RMT problem."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #125: `2324507_2324507_5` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** the bots are the problem
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Risco (Ativo):**
+  - *Evidência Literal:* "the bots are the problem"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "trying to find very obvious bots and get them"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -3074,24 +3354,38 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #128: `2324507_2324507_16` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I5** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 4 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** It’s just not fun when the economy has been, and continues to be, ravaged by bots.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "When every gold making avenue is being actively exploited by bots. It makes farming not plausible for the average player."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "It’s just not fun when the economy has been, and continues to be, ravaged by bots."
+  - *Interpretação Teórica:* Score 4/5 (conf 0.85)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #129: `2324507_2324507_13` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** You are killing your game.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Risco (Ativo):**
+  - *Evidência Literal:* "You are killing your game."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "They do this thing at blizzard where they act like they can’t see the bots and are helpless to combat them in anyway."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -3152,9 +3446,9 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ### Post #135: `509843_2862435` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 2
+* **Fundamentação / Notas:** The post is an in-game lore/news announcement about a new EVE Online region (Exordium) and a quoted player question about hauling goods. 'AIR' here refers to 'AIR Laboratories', an in-game NPC faction, not an AI agent. There is no mention of AI, bots, scripts, or any human–AI interaction. Therefore ai_type=A6 (irrelevant), interaction_type=I6 (no meaningful interaction), value_type=VC4 (no value creation/destruction identified). All DART dimensions are absent (0). The content is unrelated to the research question on human–AI agent interactions.
 
 **Dimensões DART Analisadas:**
 - *(Sem evidência literal explícita de dimensões ativas no post)*
@@ -3186,8 +3480,8 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ### Post #138: `509843_2862453` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** The post comments on a game feature ('Exordium') and its impact on game mechanics, taxes, and rewards. There is no mention of AI agents, bots, scripts, or any human–AI interaction. Therefore ai_type is A6 (Irrelevant), interaction_type is I6 (No meaningful interaction), and value_type is VC4 (No evidence of value creation/destruction). All DART dimensions are absent (score 0). Human review is flagged because the post is off-topic relative to the research question and context about 'Exordium' is missing, though confidence is high that no AI content is present.
 
 **Dimensões DART Analisadas:**
 - *(Sem evidência literal explícita de dimensões ativas no post)*
@@ -3197,8 +3491,8 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ### Post #139: `509843_2862458` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** The post discusses a game mechanic called 'Exordium' and offers subjective commentary on 'fun' and 'interesting interactions'. There is no mention of AI, bots, scripts, or any automated agent. No human–AI interaction is described or implied. Therefore ai_type is A6 (Irrelevant), interaction I6 (No meaningful interaction), and value VC4 (No evidence of value creation/destruction). All DART dimensions are absent. Human review is flagged because the post is short, lacks context about what 'Exordium' is, and confidence in relevance is below 0.90.
 
 **Dimensões DART Analisadas:**
 - *(Sem evidência literal explícita de dimensões ativas no post)*
@@ -3217,32 +3511,50 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #141: `509843_2862499` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
+* **Fundamentação / Notas:** you dont want this to be bounty farming bot haven or some gank free, zero tax replacement for Jita either
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Just some thoughts and questions:"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "you dont want this to be bounty farming bot haven or some gank free, zero tax replacement for Jita either"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.78)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "I would also like more info on Taxes"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.65)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #142: `509843_2862512` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** otherwise can be used by old players for their needs
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "they will be able only to leave that space… and no one to enter"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "otherwise can be used by old players for their needs"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #143: `509843_2862514` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
+* **Fundamentação / Notas:** The post is a brief comment referencing a developer (Fozzie) and a dev blog, with no mention of AI agents, bots, scripts, or any human–AI interaction. It appears to be a sarcastic remark about a game feature announcement. No AI-related content is present, so it is classified as A6 (Irrelevant) and I6 (No meaningful interaction). No value co-creation or DART dimensions are evident. Sarcasm is present ('EXTREMELY IMPORTANT'), but since the content is entirely unrelated to AI, it does not affect the classification.
 
 **Dimensões DART Analisadas:**
 - *(Sem evidência literal explícita de dimensões ativas no post)*
@@ -3250,21 +3562,24 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #144: `509843_2862541` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
+* **Fundamentação / Notas:** The post complains about the use of Discord as an information/news channel for EVE Online and does not mention any AI agent, bot, script or automation. No human–AI interaction is described, so ai_type is A6 (Irrelevant) and interaction_type is I6 (No meaningful interaction). No value co-creation or co-destruction involving AI can be identified (VC4). DART dimensions are essentially absent; a weak access score (1) is given only because the post references information access channels (Discord vs. website), but this is not AI-related. Human review is flagged because the post is off-topic relative to the AI-agent research focus and contains mild hostility/expletive, and because the parent context (post 44) is not available.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "This Discord usage as information source absolutely sucks."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #145: `509843_2862552` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** The post proposes a human-designed PvP training mechanic (gate camps, sec-status repairs) for EVE Online. There is no mention of AI agents, bots, scripts, or any automated system. No human–AI interaction is present, and no value co-creation involving AI can be identified. Classified as A6 (Irrelevant) and I6 (No meaningful interaction). DART dimensions are all absent since the content does not touch on AI-related dialogue, access, risk, or transparency. Confidence is high because the text is unambiguous and contains no AI-related terminology.
 
 **Dimensões DART Analisadas:**
 - *(Sem evidência literal explícita de dimensões ativas no post)*
@@ -3272,13 +3587,24 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #146: `508618_2852738` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A3** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** it’s very risky cause there are many players... Why is he compromising his acc for this?
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "you barely get anything from HS anyway"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "it’s very risky cause there are many players... Why is he compromising his acc for this?"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "This guy’s script broke"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
@@ -3294,13 +3620,24 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #148: `508618_2852744` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
+* **Fundamentação / Notas:** Exploration bots are also rampant in EVE. I keep reporting almost every single Heron I see in my area
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Because it means lots of money."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Exploration bots are also rampant in EVE. I keep reporting almost every single Heron I see in my area"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "I regularly get Bot Banned Mails from CCP."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
@@ -3316,200 +3653,419 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #150: `508618_2852769` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** so i dont know anything about bots
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "i am posting on the behalf of “what if”"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "so i dont know anything about bots"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "so i dont know anything about bots"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #151: `508618_2852747` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** Recorded a bot in high sec - but why even bother?
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Recorded a bot in high sec - but why even bother?"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "All i can see there, is a ship undocking and dockup again ??"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.45)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #152: `508618_2852763` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** Why is he compromising his acc for this?
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "If you suspect someone is botting, just report it."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Why is he compromising his acc for this?"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Even games using EAC take time for logs to be read and proof compiled."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #153: `508618_2852870` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A3** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 3
+* **Fundamentação / Notas:** If that is not an indication of a Script or Program I don’t know what is.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "All i can see there, is a ship undocking and dockup again ??"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "If that is not an indication of a Script or Program I don’t know what is."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "There’s zero proof here of botting."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #154: `508618_2852879` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
+* **Fundamentação / Notas:** Those who use the scripts themselves and are thinking that they are adding doubt to other players so that their own bots aren’t targeted.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "there are always people that say exactly what you’ve said"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "I then used to both hunt them in the game and report them to CCP"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Those who use the scripts themselves and are thinking that they are adding doubt to other players so that their own bots aren’t targeted."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "you cant prove it, and the only thing you can do is report them"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #155: `508618_2852872` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 4 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** Why is he compromising his acc for this? ... most commonly RMT ... IP bans does little - VPNs exist and IPs can be changed.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "any revenue they gained out ways the annoyance of having to setup it all over on new account"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Why is he compromising his acc for this? ... most commonly RMT ... IP bans does little - VPNs exist and IPs can be changed."
+  - *Interpretação Teórica:* Score 4/5 (conf 0.85)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Banning a player by Personal Information is much more effective but still not full proof"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #156: `508618_2852888` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
+* **Fundamentação / Notas:** Every single one of them was a bot and got banned.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "its only your words and without spending my own time ( maybe a lot ) to find your forum thread"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "The thread: EVE Search - 76 BOTS Detected in Jita area"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Every single one of them was a bot and got banned."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Behavioral patterns explained on page 4 of the thread"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #157: `508618_2852882` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A3** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 4 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** it’s very risky cause there are many players... Why is he compromising his acc for this?
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Report any suspected bots you can find."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Most botters are using scripts to extract in-game currency in order to sell it"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "it’s very risky cause there are many players... Why is he compromising his acc for this?"
+  - *Interpretação Teórica:* Score 4/5 (conf 0.85)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "CCP wants to capture the behavior and run it through their bot hunting tool to detect more of them using the same script."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #158: `508618_2852986` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** any player can detect bots. We are humans. We are wired to recognize patterns.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Gaslighting others that they can’t detect a bot simply does not work."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "any player can detect bots. We are humans. We are wired to recognize patterns."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "If something is acting following an unusual (non-human) pattern, it’s a bot…. with 99% certainty."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #159: `508618_2852886` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** this script/bot, when it breaks like that, is easy to detect
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "the pattern speaks for itself"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "this script/bot, when it breaks like that, is easy to detect"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "The more closely a script/bot acts like a human the harder it becomes to detect"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #160: `508618_2852990` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** casting aspersions of ‘ you’re a witch !’ upon people
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "a couple of people here have spent a lot of time slandering someone that was minding their own business"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "casting aspersions of ‘ you’re a witch !’ upon people"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "We don’t know."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.72)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #161: `508618_2852884` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 3 | Acesso: 1 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** maybe you found a few bots, i cant deny it because i got no fakts
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "to stand with my own statement → its only your words and without spending my own time ( maybe a lot ) to find your forum thread, you have no proves"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "you cant have the informations CCP can see !"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "maybe you found a few bots, i cant deny it because i got no fakts"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "you just “believe” it ! → in germany we call this “ bauchi bauchi and fühli fühli “"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #162: `508618_2853066` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
+* **Fundamentação / Notas:** So how could this be forbidden and bannable?
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "We don’t need to know the reason the pattern speaks for itself."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "So how could this be forbidden and bannable?"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "We don’t need to know the reason the pattern speaks for itself."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #163: `508618_2852979` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** a couple of people here have spent a lot of time slandering someone that was minding their own business
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Gaslighting others that they can’t detect a bot simply does not work."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "leave it in the hands of the people that can monitor them in ways you can’t"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "a couple of people here have spent a lot of time slandering someone that was minding their own business"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Nobody on these forums actually knows if they are a bot."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #164: `508618_2853073` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
+* **Fundamentação / Notas:** Some botting behavior is obvious, others not.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "thats why CCP gives us buttons to report bots"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Some botting behavior is obvious, others not."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Some botting behavior is obvious, others not."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #165: `508618_2853072` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 3 | Acesso: 0 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** WHERE is the prove they were bots ? where is the prove the op found a bot ?
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "no it dont xD its just your feelings that youre right and thats fine but just its fine you have the FEELING youre right doesnt make the FAKT youre right."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.90)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "WHERE is the prove they were bots ? where is the prove the op found a bot ?"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "you think something → just your feelings ( all players have )
+you KNOW somthing → Fakt ( only CCP knows )"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #166: `508618_2853081` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
+* **Fundamentação / Notas:** Abuse may result in action being taken against your account
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "There are people warping to each belt in highsec and starting to chat and bump everyone and if there is no reaction, they accuse as bot."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Abuse may result in action being taken against your account"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.78)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Some botting behavior is obvious, others not."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.72)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #167: `508618_2853090` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** if you suspect its a bot you have a button to report them to CCP
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "and becasue of this button you are always right if you use it ? oO"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "you have a button to report them to CCP that they can take a closer look"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "if you suspect its a bot you have a button to report them to CCP"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.72)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "but where is the prove, you found a real bot and he got banned ?"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
@@ -3528,79 +4084,144 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #169: `508618_2853222` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** I had a direct fighting experience with a bot farm.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Please explain this statement."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "I had a direct fighting experience with a bot farm."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #170: `508618_2853371` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** you dont have any prove that youre correct !
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "if you dont understand arguments then you dont understand very much"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "you dont have any prove that youre correct !"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "you dont have any prove that youre correct !"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #171: `508618_2853405` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** if they are wrong a punishment. Just bad business.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "it would warn them abusing the report system could cause a temporary ban for such abuse."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "if they are wrong a punishment. Just bad business."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "there is no punishment for reporting bots and being wrong"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #172: `508618_2859322` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I5** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** I did report him but I highly doubt anything will be done against it
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "even if his script worked, what the heck was he about to do in a 0.7 to make isk"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "I did report him but I highly doubt anything will be done against it"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "I think that someone that can play this game can figure out a bot vs a real player in the majority of cases"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #173: `508618_2859779` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** accusing me of a banable offense with RL consequeces in public forums
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "if you start acting like a bot and I see you, I’ll record it and post it, don’t you worry"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "accusing me of a banable offense with RL consequeces in public forums"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "if you start acting like a bot and I see you, I’ll record it and post it"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.65)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #174: `508618_2860002` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** A Bot that Trolls Cloaky Campers.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Where can I get one?"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "A Bot that Trolls Cloaky Campers."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.45)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #175: `508618_2859488` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** you had so much free time to worry about why someone is docking or undocking
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "what were you doing in a 0.7 to make isk?"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "you had so much free time to worry about why someone is docking or undocking"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
@@ -3619,24 +4240,46 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #177: `508618_2860149` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** Why are you botting in 0.7? At least swallow your pride and go to null to get more money.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "You ran out of arguments a while ago when you started insulting me, a random forum user."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Why are you botting in 0.7? At least swallow your pride and go to null to get more money."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Unless that character is your alt actually, hmmm interesting."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #178: `508618_2860152` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** bots are confirmed 100% only after you kill the ship
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "did you gank him and watch the pod afterwards what it did??"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "bots are confirmed 100% only after you kill the ship"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "if not then you have no definitive proof its a bot"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
@@ -3717,68 +4360,126 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #185: `510142_2864998` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
+* **Fundamentação / Notas:** AFK and Botters have no obligation to sell you cheap, and if anything they will use no effort against real effort diminishing the real value.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "You made 3 right statements, but your conclusion is not right."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "AFK and Botters have no obligation to sell you cheap, and if anything they will use no effort against real effort diminishing the real value."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #186: `481937_2697157` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I5** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** allows bots to project ore from isolated space all over new eden
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "ore compression allows bots to project ore from isolated space all over new eden"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "allows bots to project ore from isolated space all over new eden"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.65)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #187: `833872096657547947_833872096657547947_7` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** I don't know if it will be a problem, they are testing AI in an offline version of the game.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "I could see AI being used more as a sort of 'Dungeon Master' for things like MMO background simulation."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
+- **Risco (Ativo):**
+  - *Evidência Literal:* "I don't know if it will be a problem, they are testing AI in an offline version of the game."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "they are testing AI in an offline version of the game. Great so it won't learn much from the players then."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
 
 ---
 
 ### Post #188: `833872096657547947_833872096657547947_4` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** the partnership with Google, now that they are training themselves on player interactions, just disgusts me
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Risco (Ativo):**
+  - *Evidência Literal:* "the partnership with Google, now that they are training themselves on player interactions, just disgusts me"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "the partnership with Google, now that they are training themselves on player interactions"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
 
 ---
 
 ### Post #189: `833872096657547947_833872096657547947_1` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** the same long-horizon planning and multi-agent coordination skills trained there could theoretically have military applications
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "research partnership with Google DeepMind, focused on advancing understanding of intelligence in complex, dynamic systems"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
+- **Risco (Ativo):**
+  - *Evidência Literal:* "the same long-horizon planning and multi-agent coordination skills trained there could theoretically have military applications"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "This is also likely messaging designed to reassure both EVE players and DeepMind researchers that this isn't dual-use military research."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
 
 ---
 
 ### Post #190: `833872096657547947_833872096657547947_8` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 4 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** gathering all sort of user data and telemetry for profit, while also being root kit & trojan
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "ChatGPT is fully incompetent and stupid and only repeats your own words"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "by Project Discovery, EVE Online made it great at beginning, to help research facilities in real life and real time"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
+- **Risco (Ativo):**
+  - *Evidência Literal:* "gathering all sort of user data and telemetry for profit, while also being root kit & trojan"
+  - *Interpretação Teórica:* Score 4/5 (conf 0.85)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "mentions your real name and home address even in a fresh conversation/session and even lies to cover up its lies"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
 
 ---
 
@@ -3797,79 +4498,168 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #192: `589559717132767735_589559717132767735_1` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 4 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** What are your thoughts on People using AI to Cheat/Exploit?
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "it Automatically Station trades for him across all his alts"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
+- **Risco (Ativo):**
+  - *Evidência Literal:* "What are your thoughts on People using AI to Cheat/Exploit?"
+  - *Interpretação Teórica:* Score 4/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Is this Not against CCP's rules? or does it not apply to AI"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
 
 ---
 
 ### Post #193: `589559717132767735_589559717132767735_4` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** People using AI to Cheat/Exploit
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "20 years ago we just used keyloggers to automine while you were at work"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
+- **Risco (Ativo):**
+  - *Evidência Literal:* "People using AI to Cheat/Exploit"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
 
 ---
 
 ### Post #194: `589559717132766752_589559717132766752_3` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** Someone in more corp admitted they earned their Marshal using a mouse click recorder.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "It is fine to use an AI to tell you what to do, so long as you actually are the one to do it."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "It is fine to use an AI to tell you what to do, so long as you actually are the one to do it."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Someone in more corp admitted they earned their Marshal using a mouse click recorder."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Someone in more corp admitted they earned their Marshal using a mouse click recorder."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
 
 ---
 
 ### Post #195: `589559717132766752_589559717132766752_2` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** Boting, ai or macros is baneable ofense.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Report them to us and we will investigate."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Open the Character Information WindowSelect the Report Bot option from the Actions MenuSubmit the report."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Boting, ai or macros is baneable ofense."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "All reports will be investigated, and reporters will receive a message if action is taken thanks to one of their reports."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
 
 ---
 
 ### Post #196: `589559717132766752_589559717132766752_1` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 4 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** is this not cheating? ... this gives them an unfair advantage, with tangible gains
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "So I would like to Know CCP and the communities stance on People Using AI to "Cheat""
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "this gives them an unfair advantage, with tangible gains"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
+- **Risco (Ativo):**
+  - *Evidência Literal:* "is this not cheating? ... this gives them an unfair advantage, with tangible gains"
+  - *Interpretação Teórica:* Score 4/5 (conf 0.85)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "The guy who made the AI that straight plays the game for him seems to have deleted his video."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
 
 ---
 
 ### Post #197: `589559717132766752_589559717132766752_5` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 4 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** cheating tools are forbidden in general ... injectors are in-game cheat tools which automatically work and handle for you just as BOTs act and react and are quickly detected and banned
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "i do not even trust a single letter they are providing in their clips"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "all market stuff and more data is legally provided by EVE Online's available APIs"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
+- **Risco (Ativo):**
+  - *Evidência Literal:* "cheating tools are forbidden in general ... injectors are in-game cheat tools which automatically work and handle for you just as BOTs act and react and are quickly detected and banned"
+  - *Interpretação Teórica:* Score 4/5 (conf 0.85)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "its title is misleading for bragging ... NEVER TRUST A SINGLE YOUTUBE CLIP"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
 
 ---
 
 ### Post #198: `589559717132766752_589559717132766752_6` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** Using AI (or any other tools) to automate activities is against the EULA.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Developing a tool which analyzes data and helps the player make a decision, whether AI or otherwise, is within the bound of the game."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.78)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Using AI (or any other tools) to automate activities is against the EULA."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Using AI (or any other tools) to automate activities is against the EULA."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.72)
+  - *Contexto no Jogo:* EVE Online EVE Online General Discussions
 
 ---
 
@@ -3888,13 +4678,28 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #200: `492935_2749988` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 3 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 3
+* **Fundamentação / Notas:** Even an imperfect AI translation would be far better than none
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "CCP, please consider AI-driven localization to bring EVE Online to Italy."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Make EVE Online accessible to Italians with basic English skills."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Even an imperfect AI translation would be far better than none"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "with human review to ensure quality"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
@@ -3942,13 +4747,28 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #204: `492935_2750075` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
+* **Fundamentação / Notas:** AI translation full of hallucinations, wrongly translated typical phrases, inconsistencies and imperfections would cause more confusion and unwanted mistakes
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "I have a counterproposal: Start a Kickstarter or GoFundMe to get a team of real, professional translators"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "AI translation of EVE."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "AI translation full of hallucinations, wrongly translated typical phrases, inconsistencies and imperfections would cause more confusion and unwanted mistakes"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "you do not waste the potential of EVE by supporting AI scams"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
@@ -3967,35 +4787,80 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #206: `492935_2750140` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 4 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 1
+* **Fundamentação / Notas:** I understand your concern about IA errors in a game like EVE
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Hello Dyver, thank you for your feedback! I understand your concern about IA errors"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "even an initial imperfect translation would open New Eden to thousands of Italians who currently cannot even access the game"
+  - *Interpretação Teórica:* Score 4/5 (conf 0.90)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "I understand your concern about IA errors in a game like EVE"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "refining quality over time through community input"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #207: `492935_2750146` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
+* **Fundamentação / Notas:** it only causes frustration and confusion because of all the mistakes, and it creates more work and costs for the company
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "AI translation and then community input or even community aided localization? This is the perfect recipe for disaster"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "An initial localization with AI would allow new players to start"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "it only causes frustration and confusion because of all the mistakes, and it creates more work and costs for the company"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "poor AI translation"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #208: `492935_2750230` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
+* **Fundamentação / Notas:** the mess that comes from these hallucinations
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Everything you say is textbook AI bro talk that follows the flawed and overzealous crypto bros manual."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "They should test and fix the mess that AI has provided for free and CCP can profit off of this work."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "the mess that comes from these hallucinations"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "They have not improved at all in areas that really matter: consistency, reliability, terminology."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
@@ -4025,57 +4890,128 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #211: `492935_2750257` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 3 | Acesso: 2 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
+* **Fundamentação / Notas:** They should test and fix the mess that AI has provided for free and CCP can profit off of this work.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "is there a hidden rule on the forum that states “every proposal, no matter how innocuous, must be interpretated in the worst possible way and viciously trashed until it has ceased to exist”?"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "I bet if you put chatGPT to the task, it would cover 95% of the entire game just fine. Could even let it do the voice overs too."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "They should test and fix the mess that AI has provided for free and CCP can profit off of this work."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "It’s nothing but pipe dreams on the back of actually hard working people that have to fix the mess that comes from these hallucinations."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #212: `496432_2766660` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Transparência**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 3
+* **Fundamentação / Notas:** ChatGPT is hallucinating this time due to lack of available data to train from
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Did ChatGPT get it right or it isn’t even close?"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "ChatGPT is hallucinating this time due to lack of available data to train from"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "ChatGPT is hallucinating this time due to lack of available data to train from"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.72)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "ChatGPT is hallucinating this time due to lack of available data to train from. It isn’t taking the older era players of EVE into consideration."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.78)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #213: `496432_2766656` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I2** | Valor: **VC2** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 3 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** there is a lot of information that need double-checking
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "ChatGPT has helped me a lot"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "ChatGPT has helped me a lot. Of course there is a lot of information that need double-checking"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.78)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "there is a lot of information that need double-checking"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "ChatGPT has helped me a lot. Of course there is a lot of information that need double-checking but nobody’s perfect."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.72)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #214: `506798_2839784` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 3 | Transparência: 4 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** the definition in EULA of “User Gameplay Information” is legally fairly vague about whether this is covered, especially when taking internationally varying definitions of copyright come into play
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Can we get a statement on how in the opinion of CCP this part of the EULA... covers textual information provided by users in an in-game chat channel in order to feed a LLM?"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "in order to feed a LLM"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "the definition in EULA of “User Gameplay Information” is legally fairly vague about whether this is covered, especially when taking internationally varying definitions of copyright come into play"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Can we get a statement on how in the opinion of CCP this part of the EULA... covers textual information provided by users in an in-game chat channel in order to feed a LLM?"
+  - *Interpretação Teórica:* Score 4/5 (conf 0.85)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #215: `496432_2766677` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** The post is a brief acknowledgment ('Thank you. I shall.') responding to a quoted suggestion to consult a 'rogue AI in the eve discord.' The author does not describe an actual interaction with an AI agent; they merely acknowledge a recommendation. The referenced 'rogue AI' is ambiguous — it could be an AI chatbot or a conventional bot, and no evidence confirms AI capabilities or autonomy. Therefore ai_type is A5 (discussion about AI) with low-moderate confidence. Interaction is I4 (human-to-human about AI) since the exchange is between humans discussing an AI resource, not direct human-AI interaction. No value co-creation/destruction is evident (VC4). DART scores are weak: minimal dialogue (acknowledgment), weak access (referencing a resource), no risk, weak transparency (vague mention of 'rogue AI'). Flagged for human review due to ambiguity in AI type, interaction, and low confidence scores.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Thank you. I shall."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "i would ask the rogue AI in the eve discord, its more "eve" oriented."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "i would ask the rogue AI in the eve discord"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
@@ -4094,90 +5030,194 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #217: `483348_2703718` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** Yes, please try that in wormhole space or nullsec.  Let me know how it works out for you…
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "the AI speaks in local — subtly or boldly, depending on your style — backing your presence. In local chat, what it says will triggered off your own words."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Yes, please try that in wormhole space or nullsec.  Let me know how it works out for you…"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #218: `506798_2839756` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 2 | Transparência: 4 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 4 | Edições: 1
+* **Fundamentação / Notas:** Responses may occasionally feel generic, miss the specific context of your situation or be factually incorrect.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Aura Guidance answers common rookie questions using responses sourced from Rookie Help chat, ISD volunteers, and official game information."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Responses include interactive links to ships and items, and can highlight relevant UI elements in the client."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Responses may occasionally feel generic, miss the specific context of your situation or be factually incorrect."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "When Aura is not confident in an answer, it will redirect players to Rookie Help chat."
+  - *Interpretação Teórica:* Score 4/5 (conf 0.85)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #219: `506798_2839765` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 2
+* **Fundamentação / Notas:** I’m so looking forward to the lunatic hallucinations of this AI slop machine.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Responses may occasionally feel generic, miss the specific context of your situation or be factually incorrect."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "I’m so looking forward to the lunatic hallucinations of this AI slop machine."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Responses may occasionally feel generic, miss the specific context of your situation or be factually incorrect."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #220: `506798_2839874` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Unterminated string starting at: line 17 column 3 (char 744)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** covers textual information provided by users in an in-game chat channel in order to feed a LLM?
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "covers textual information provided by users in an in-game chat channel in order to feed a LLM?"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.65)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Anything you send to the Help Channels can be considered “Public” information"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "covers textual information provided by users in an in-game chat channel in order to feed a LLM?"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Anything you send to the Help Channels can be considered “Public” information as anyone can join the channels"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #221: `506798_2839908` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** almost everyone I know hates these automated support systems when they actually need to address a problem
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Going to respectfully decline to interact with this feature."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "now we’re encouraging players to talk to each other less"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "almost everyone I know hates these automated support systems when they actually need to address a problem"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "At least you’re doing it in the client this time, rather than on some third party platform."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #222: `506798_2839900` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 3 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
+* **Fundamentação / Notas:** The post is a human player's feedback on the announced 'Aura Guidance (Beta)' feature, which is an AI-driven in-game assistant (Aura). The author does not describe a direct interaction with the AI agent; instead, they discuss its potential and express a desire to test it. Therefore, ai_type is A5 (Discussion About AI) and interaction_type is I4 (Human → Human about AI). The value_type is VC2 (Potential value co-creation) because the author anticipates benefits for new players but no actual co-creation has occurred. DART scores: Dialogue is weak (1) as the author addresses CCP_Bee, not the AI; Access is moderate-to-strong (3) due to expected information/guidance benefits; Risk is absent (0); Transparency is weak (1) as the author comments on the idea's potential without discussing AI disclosure or explainability. Confidence is moderate due to the post being a discussion rather than a direct interaction, and the AI nature of Aura is implied by context (EVE's AI assistant) but not explicitly stated in the text. Human review is required because confidence for ai_type and interaction_type is below 0.80, and the AI vs. conventional bot distinction is not fully clear from the text alone.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "I would very much like to test it."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "give new players some continuity from the tutorial. It will complement the Air Career Program by giving information and guidance to players who don’t know what questions to even ask"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "This idea sounds like it has potential."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #223: `506798_2840415` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 4 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** There’s a climate crisis happening, and LLMs are a notable contributor.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Each question gets a single, short answer."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Aura Guidance is retrieval-first."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.65)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "There’s a climate crisis happening, and LLMs are a notable contributor."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "We take the environmental cost of running AI systems seriously. Our architecture is designed to minimize it from the ground up."
+  - *Interpretação Teórica:* Score 4/5 (conf 0.85)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #224: `506798_2839830` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** I see the term AI slop thrown around and can see why some people feel this way
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "would love to see AI 'Actors' take on the roles of the agents in game as well"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "provide much more diverse and engaging PvE"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.72)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "I see the term AI slop thrown around and can see why some people feel this way"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.68)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "AI agents that that are built to specialize into a niche role with the types of memory currently available are actually amazing when compared to more generalized AI chats"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.65)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
@@ -4196,35 +5236,80 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #226: `506798_2840454` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 3 | Acesso: 3 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** new players, who are afraid to ask “noob” questions publicly and making fun of themselves
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "the role of that first guide new player can actually communicate with about the game and receive a tangible response"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Complete with Show info hyperlinks and UI highlights and ultimately suggesting to ask in Rookie Chat"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.78)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "new players, who are afraid to ask “noob” questions publicly and making fun of themselves"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Aura, that already introduced itself to the new player as their AI assistant"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #227: `516921_2921717` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 2
+* **Fundamentação / Notas:** You can’t just skip the QC part, which is clearly what OP has done here.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "I’ve heard software developers complain that, of late, they just do QC for the AI"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "OP did not even queue a job to see if the values his calculator outputs matches the ingame values"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "You can’t just skip the QC part, which is clearly what OP has done here."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "he just called it good enough, slapped a Ko-Fi donation button on it, and shipped it."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
 ### Post #228: `516921_2922163` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
+* **Fundamentação / Notas:** added the regression check on its own even though this isn’t a class of bug for which that makes sense
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "You probably pasted my comment into Claude Code or Codex, it did a bunch of thinking"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "it went ahead and added the regression check on its own"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "added the regression check on its own even though this isn’t a class of bug for which that makes sense"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "eventually said “Bug found… just a one liner, fixing now…”"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
@@ -4240,13 +5325,28 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #230: `512939_2886552` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I1** | Valor: **VC3** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 3 | Acesso: 3 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** it is difficult not to question the priorities behind an AI assistant that cannot communicate with thousands of potential users in their own language.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Aura does not respond in my native language, Portuguese[Brazil]... Aura simply refuses to interact in Portuguese altogether."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "An AI assistant capable of speaking their language could help them learn the game, understand mechanics, and participate more comfortably."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "it is difficult not to question the priorities behind an AI assistant that cannot communicate with thousands of potential users in their own language."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "I understand that Aura is an experimental feature, and I hope this is simply a temporary limitation."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
@@ -4262,13 +5362,28 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #232: `512939_2888287` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 3 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** if FC is concerned about costs, AI should be used precisely for tasks like this
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "several of my corp mates have also been trying to talk to the FCs about it"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "AI is far more valuable when applied to practical improvements that increase accessibility and make the game easier to enjoy for a broader audience"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Risco (Ativo):**
+  - *Evidência Literal:* "if FC is concerned about costs, AI should be used precisely for tasks like this"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "they partnered with Google Labs. AI-powered text translation would be incredibly easy for them"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* EVE Online Fórum EVE
 
 ---
 
@@ -4305,13 +5420,24 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #235: `reddit_1rg6iqz_1` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** Sorry if I offended anyone by saying wow has ai slop in it
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "ChatGPT often says things like “it’s not just A, it’s B”"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Sorry if I offended anyone by saying wow has ai slop in it"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "I copied and pasted this from chatGPT"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft r/wow
 
 ---
 
@@ -4327,24 +5453,50 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #237: `2257438_28913683` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** this avoids the lack of social elements in a follower dungeon
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "I just wonder how the community would react in regards to it if implemented by blizz"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.78)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Shows you where to go for quests that are too puzzling"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "this avoids the lack of social elements in a follower dungeon"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "im curious on where the community is on this and how far we are willing to go with it"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.72)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #238: `reddit_1p38i14_1` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I1** | Valor: **VC1** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 3 | Acesso: 3 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** The author describes using ChatGPT (an AI agent) as an external tool to retrieve and summarize WoW lore, while the human remains the primary decision-maker and interpreter of the game experience. This fits A4 (AI-Assisted Human) rather than A1, since the AI is not an autonomous in-game agent but an assistant to the player. Interaction is I1 (Human → AI Agent) because the author directly prompts ChatGPT with questions; there is no evidence of bidirectional in-game interaction or AI-driven environmental influence. Value is coded VC1 (value co-creation) with moderate confidence: the human's curiosity and the AI's summarization jointly produce an immersive lore experience, though the value is subjective and the evidence is somewhat implicit. DART: Dialogue is strong (repeated questioning/answering), Access is strong (AI unlocks otherwise disjointed lore information), Risk is absent, Transparency is weak (the author wishes for in-game NPC Q&A, implying opacity of current lore delivery, but does not discuss AI transparency). Human review is required because value co-creation confidence is below 0.80 and the AI type could be debated (A4 vs A5, since the post also discusses a hypothetical in-game AI feature).
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "I often just ask ChatGPT to do things like summarize the history Hallowfall, explain who a character is"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "ask ChatGPT to do things like summarize the history Hallowfall, explain who a character is, who is this tribe of murlok-like creatures"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Makes me wish there was some way to ask free-form questions to in-game NPCs"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft r/wow
 
 ---
 
@@ -4363,24 +5515,54 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #240: `reddit_1p38i14_8` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 3 | Acesso: 3 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** have limitations where it'll get things wrong (about wow) because it gets confused
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "it has helped at direct me in the right direction because if I posted all the questions I had about this game every time I had one"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "it has helped at direct me in the right direction"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.82)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Risco (Ativo):**
+  - *Evidência Literal:* "have limitations where it'll get things wrong (about wow) because it gets confused"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "it does (I'm sure you've noticed) have limitations where it'll get things wrong (about wow) because it gets confused"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.78)
+  - *Contexto no Jogo:* World of Warcraft r/wow
 
 ---
 
 ### Post #241: `2257438_28913705` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** Because there is a fine line between you playing the game, and the game playing itself for you.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Someone correct me if I’m wrong, but I think Co-pilot can already do all of that?"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "The NPC’s in follower dungeons (plus Island expedition, and PvP) already use fairly sophisticated AI."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Because there is a fine line between you playing the game, and the game playing itself for you."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.85)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Supposedly, Blizzard already use AI to help resize and fit gear on all the player character models."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -4396,24 +5578,54 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #243: `reddit_1p38i14_10` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I1** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 3 | Acesso: 3 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** dude was saying confidently lying how AI doesnt know anything past dragonflight
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "I've just asked gemini, chatgpt & claude to confirm, and they all answered my Midnight question accurately."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "They all have had web search for a few months now bud."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Risco (Ativo):**
+  - *Evidência Literal:* "dude was saying confidently lying how AI doesnt know anything past dragonflight"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "this space moves fast so your operational knowledge has fallen quickly out of date"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft r/wow
 
 ---
 
 ### Post #244: `2257438_28913744` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** Do you have any idea how awful that would  be?
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "In typically AI Bro fashion, you’ve created solutions to problems that don’t exist."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "All of this information is readily available."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Do you have any idea how awful that would  be?"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "I presume with the help of ChatGPT"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -4436,24 +5648,46 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #246: `2257438_28913792` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
+* **Fundamentação / Notas:** management hates having to pay for QA since QA does not actively create any products
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "What the game needs is AI generated QA test teams to run through the content a few times"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "AI can really only handle finding lockups since crashes are basically self reporting."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "management hates having to pay for QA since QA does not actively create any products"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Blizzard’s in-house team does indeed find and report all the bugs we encounter but those bugs are waived by management"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #247: `2257438_28913793` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting ',' delimiter: line 39 column 4 (char 1041)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** The post discusses AI capabilities in the context of WoW (addon creation, rotation/keybind advice) but does not describe a specific AI agent interaction by the author. Classified A5 (Discussion About AI) since it is a general commentary on AI's usefulness rather than a described interaction with an AI agent. Interaction type I4 (Human → Human about AI) as the author is addressing the community about AI rather than interacting with an AI. Value type VC4 since no concrete value co-creation or destruction outcome is described, though the negative assessment of AI's rotation advice hints at potential value destruction (VC3) — ambiguity warrants human review. Confidence kept below 0.80 due to the brief, context-light nature of the post and the implicit reference to prior AI interactions ('When asked...').
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "When asked about rotation, keybinds etc. it fails badly."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "The only way AI can help with WOW is addon creation."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -4472,79 +5706,160 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #249: `2257438_28913871` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** The post describes an AI (likely a support/assistant tool) that summarizes sources and resolves in-game issues in real time. The author does not describe a direct personal interaction with the AI, so it is classified as A5 (discussion about AI) and I4 (human-to-human discussion about AI). The mention of the AI fixing a problem in real time suggests potential value co-creation (VC2), but the evidence is indirect and incomplete. DART scores are low due to limited explicit evidence. Human review is required because the AI type, interaction type, and value type are ambiguous and confidence levels are below 0.80.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "no source is telling you that directly"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "The ai uses the same sources but summarizes it"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "The ai uses the same sources but summarizes it"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #250: `2257438_28918588` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** Generative AI should be kept far away from any creative endeavor
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "People had this similar approach to the industrial revolution, They prefer everything crafted/handmade"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "now the reality is you can get good quality products from a machine"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Generative AI should be kept far away from any creative endeavor"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #251: `2257438_28918380` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I1** | Valor: **VC2** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** ppl i seen defending addons for helping/assisting them and even downright basically playing the game for them
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "when that doesnt work ill just ask ai lol"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "ill even google answers for the quest and when that doesnt work ill just ask ai"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.78)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "ppl i seen defending addons for helping/assisting them and even downright basically playing the game for them"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #252: `2257438_28919908` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 3 | Acesso: 4 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
+* **Fundamentação / Notas:** Nothing will give you realtime context in game(atleast not all the time)
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "I can just ask AI a question, it provides an answer and if theres a slight aspect its wrong you simply mention the fault and it corrects the error in real time"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.78)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "AI is simply better than me at finding info faster and correcting itself when the previous method is out of date or doesnt work"
+  - *Interpretação Teórica:* Score 4/5 (conf 0.82)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Nothing will give you realtime context in game(atleast not all the time)"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "if theres a slight aspect its wrong you simply mention the fault and it corrects the error in real time"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #253: `2257438_28920555` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** Anything generative I do not want anything resembling AI.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "For quest and cinematic dialogue, i want real human performances."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Anything generative I do not want anything resembling AI."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.72)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "the only AI i can remotely accept is NPC combat behavior"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #254: `2257438_28918493` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** It’s also just another cost cutting measure for corporations who only look at the bottom line.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Why should i be bothered to interact with something that a real person couldn’t be bothered to make?"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Why should i pay human artists, developers, and musicians when i can ask chatgpt to do it for free?"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "It’s also just another cost cutting measure for corporations who only look at the bottom line."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "the lying machine in my phone"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #255: `2257438_28920202` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** The post is a meta-comment redirecting the thread toward discussing in-game player interaction with system-provided assistance. It references 'assistance by the system itself' but does not describe a concrete AI agent, its autonomy, or a specific human–AI interaction. Therefore ai_type is A5 (discussion about AI/assistance) rather than A1, since there is no evidence the 'system' is AI-based. Interaction is I4 (humans discussing AI/assistance without directly interacting with an AI agent). No value co-creation or co-destruction is evidenced, so VC4. DART scores are low: weak dialogue (thread moderation/steering), weak access (framing of system assistance), no risk or transparency content. Confidence is moderate due to ambiguity about whether 'the system itself' implies AI, and the post's meta nature. Flagged for human review because AI vs conventional system is unclear and interaction type is ambiguous.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Please dont get offtopic, the discussion is within the game"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "how players interact with assistance by the system itself"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -4574,13 +5889,24 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #258: `2257438_28920987` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** a.i. being in charge of an experience is never, ever, ever going to be a good thing for longevity of that particular experience.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "the only thing on this entire list i would appreciate is the random generated dungeons"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "a.i. being in charge of an experience is never, ever, ever going to be a good thing for longevity of that particular experience."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "as long as it was held to some sort of standard about pack size and how many abilities were going off at once and stuff"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -4599,13 +5925,28 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #260: `2257438_28921486` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
+* **Fundamentação / Notas:** Alot of online info thats most clicked on is Out if date
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "I mentioned above the AI will act not much different than addons in regards to information."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "ai can find even the smaller, newer niche answers that have a real-time fix to the issue ur dealing with ingame"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Alot of online info thats most clicked on is Out if date"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "alot of the time AI actually sources info from these and other things"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -4632,13 +5973,24 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #262: `2248893_28811587` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** If it gets good enough that I can’t tell
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "If it gets good enough that I can’t tell, and push out content, and design faster. I am all for it."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "If it gets good enough that I can’t tell"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "If it gets good enough that I can’t tell"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -4661,24 +6013,42 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #264: `2248893_28811578` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** great cuts back on the trolling most of these child like adults consist of
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "having ai raid or dungeon partners"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "I would not mind having ai raid or dungeon partners"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "great cuts back on the trolling most of these child like adults consist of"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #265: `2248893_28811778` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** The post is a brief reply discussing the idea of AI raid/dungeon partners and noting that such technology already exists. It does not describe an actual AI agent interaction, so ai_type is A5 (Discussion About AI). Interaction is I4 (Human → Human about AI) since the author is discussing AI with other forum users rather than interacting with an AI. No value co-creation or destruction is evidenced, so VC4. DART scores are low: weak dialogue reference to wanting AI partners, weak access reference to existing tech, no risk or transparency content. Confidence is moderate due to the very short and context-dependent text; human review is recommended.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "I would not mind having ai raid or dungeon partners"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "That tech already exists and has for a while."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -4697,101 +6067,192 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #267: `2248893_28811780` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** the issues it has now will not be in the future
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "if Ai can help that now or in the future go for it"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "the issues it has now will not be in the future"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #268: `2248893_28812662` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** i wouldnt want Ai to do coding on the game without someone actually understanding exactly what it did
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Ai could improve boss encounters or make Solo dungeon party members better."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "i wouldnt want Ai to do coding on the game without someone actually understanding exactly what it did"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "without someone actually understanding exactly what it did, otherwise its marginally worse than having hired a coder"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #269: `2248893_28812020` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Unterminated string starting at: line 11 column 11 (char 283)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** Pruning was so horrendous it can only have been done by AI
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "“Yo bot, I’m a class dev in wow and they told me to butcher classes, let’s start with paladin, what can I delete?”"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Pruning was so horrendous it can only have been done by AI"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "I refuse to believe someone who actually plays the game is behind those changes"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #270: `2248893_28812411` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** never ends up well
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "I’ve seen people craft addons that are suposed to do that, never ends up well"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "I’ve seen people craft addons that are suposed to do that"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "never ends up well"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #271: `2248893_28812051` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** great cuts back on the trolling most of these child like adults consist of
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "I would not mind having ai raid or dungeon partners"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "you play on a server of ~250 simulated players"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "great cuts back on the trolling most of these child like adults consist of"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "single player “MMORPG” where you play on a server of ~250 simulated players"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #272: `2248893_28812120` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** I can imagine someone that plays this game doing far worse.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "I refuse to believe someone who actually plays the game is behind those changes"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "They could make all heals a smart heal, role them into a single skill, and “press button to heal” game will figure out what needs what."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "I can imagine someone that plays this game doing far worse."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #273: `2108142_26921376` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** losing to comp stomp bots in arena LOL
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Nah cause then wed be getting threads about losing to comp stomp bots in arena LOL"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "losing to comp stomp bots in arena LOL"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #274: `2108142_26921650` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** they need to run bot teams for games up to [ID_ANONYMIZED] or something.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Time to invest in AI agents and make PVP instant queues."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "they need to run bot teams for games up to [ID_ANONYMIZED] or something."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #275: `2108142_26921767` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** Manually playing should be optimal but it would be a good intro
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "It should basically be a bot where the player only has control over their  cc, positioning, targeting"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "it would be a good intro for all the dps who have never healed"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Manually playing should be optimal but it would be a good intro"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -4835,13 +6296,24 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #279: `2108142_26933143` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
+* **Fundamentação / Notas:** Flood the ladder with AI agents cosplaying players, and PVP wins big time.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "You guys competing for the worst post ever made on these forums?"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Flood the ladder with AI agents cosplaying players, and PVP wins big time."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Flood the ladder with AI agents cosplaying players"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -4871,13 +6343,24 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #282: `2300167_29415623` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting ',' delimiter: line 22 column 22 (char 1075)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** start churning out content with AI instead of devs so they can save money
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Can someone from blizzard/ ACTIVISION advise is this going to effect world of warcraft."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "start churning out content with AI instead of devs so they can save money"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Whether that’s soon or several years from now, who knows?"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -4914,90 +6397,174 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #285: `2300167_29418380` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** it might even be AI. There are some soundtracks that deff sound AI made so it’s too late now, it’s done.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Risco (Ativo):**
+  - *Evidência Literal:* "it might even be AI. There are some soundtracks that deff sound AI made so it’s too late now, it’s done."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Midnight’s cinematic looks slightly suspicious imo, it might even be AI."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #286: `2300167_29421251` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 2
+* **Fundamentação / Notas:** They instead cut workers, trim timelines, and in general push doing more with less.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Anyone in development is likely using a level of AI augmented code."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "They instead cut workers, trim timelines, and in general push doing more with less."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Most companies will not tell you."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #287: `2300167_29418895` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** Them falling short of expectations doesn’t mean someone should lose their livelihood and join the unemployment line
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "give them direction when player feedback is louder than their vision of where the game could be"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "integrating AI to instead be an assistant to director developers would be helpful"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Them falling short of expectations doesn’t mean someone should lose their livelihood and join the unemployment line"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "there are the ethical concerns.."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #288: `2320601_29686669` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** i don’t want AI to take a bigger role in WoW because i like quite a few people think it already is being used this xpax which is why it’s is way more buggy then we have had pretty much ever
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Risco (Ativo):**
+  - *Evidência Literal:* "i don’t want AI to take a bigger role in WoW because i like quite a few people think it already is being used this xpax which is why it’s is way more buggy then we have had pretty much ever"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.78)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "microsoft/blizzard flat out come out and say yeah we have had a issue with nvidia"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #289: `2320601_29686401` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** calls dragon hawks a gryphon when it’s clearly a dragon hawk
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Risco (Ativo):**
+  - *Evidência Literal:* "calls dragon hawks a gryphon when it’s clearly a dragon hawk"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "has ai generated text"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #290: `2320601_29686571` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** Programmers and Graphics Designers being laid off and replaced by AI agents for all content generation
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "It depends on what you mean by “using”."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Programmers and Graphics Designers using AI to develop content"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Programmers and Graphics Designers being laid off and replaced by AI agents for all content generation"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "No question AI will creep in there somewhere, things will be tried, some will stay, some won’t."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #291: `2320601_29687388` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
+* **Fundamentação / Notas:** if there is this much backlash when AI is detected in a product, maybe they are afraid it would cost them customers
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "It is a very dry hour-long conversation with Geoff Keighley as the host"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Below is the video I am referencing."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "if there is this much backlash when AI is detected in a product, maybe they are afraid it would cost them customers"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "both Presidents Johanna (from Blizzard) and Laura (from EA) stressed that people design games, and they intended to keep it that way"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.78)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #292: `2320601_29702454` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** The post is a meta-discussion about whether AI/ML is used in WoW NPC behavior. No actual AI agent interaction is described; the author speculates about hypothetical AI use (e.g., an AI 3v3 arena team). Classified as A5 (Discussion About AI) because it debates AI implementation rather than describing an interaction with an AI agent. Interaction type I4 (Human → Human about AI) since the author is replying to another forum user about AI. Value type VC4 because no concrete value co-creation or destruction is evidenced—only speculation. DART scores are low: weak dialogue (disagreement/argumentation), no access, no risk, weak transparency (discussing whether AI is used). Human review recommended due to speculative/hypothetical nature and moderate confidence levels.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "I doubt they’re using ML for that."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "AI isn’t used in WoW outside of machine learning which is used for things like NPCs"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -5045,24 +6612,46 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #296: `2171055_27776960` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** convince real players that the mmorpg still has high numbers of real players while the reality is the population has been declining substantially
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Even when I say hello, hows everyone doing. I get silence. I might occasionally get back a “Hi”"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.85)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Allowing game companies to fill mmorpgs with these A.I. bots to convince real players that the mmorpg still has high numbers of real players"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "convince real players that the mmorpg still has high numbers of real players while the reality is the population has been declining substantially"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.88)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "So is there a possibility that a lot of the players we see running around in WoW are not real players any more, but A.I. controlled NPC bots."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.83)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #297: `2171055_27776967` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting ',' delimiter: line 28 column 6 (char 740)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** everyone else is an AI controlled bot
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Risco (Ativo):**
+  - *Evidência Literal:* "everyone else is an AI controlled bot"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "everyone else is an AI controlled bot"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.45)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -5125,35 +6714,60 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #301: `2171055_27776984` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** everyone else is an AI controlled bot
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Risco (Ativo):**
+  - *Evidência Literal:* "everyone else is an AI controlled bot"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "just about about every post on this forum is AI bot generated"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #302: `2171055_27777039` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** it can act as fake players/bots to appear to be real players.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Risco (Ativo):**
+  - *Evidência Literal:* "it can act as fake players/bots to appear to be real players."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "it can act as fake players/bots to appear to be real players."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #303: `2171055_27777017` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** there is nothing illegal about it
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Giving them a chance to help them or get helped by them - something to that effect."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "dynamically spawned in ‘AI players’ in empty zones a player is leveling or exploring"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "there is nothing illegal about it"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -5186,24 +6800,30 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #306: `2171055_27777341` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 21 column 18 (char 655)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
+* **Fundamentação / Notas:** The only reason to add AI into the mix is if you also want them to say slurs.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Risco (Ativo):**
+  - *Evidência Literal:* "The only reason to add AI into the mix is if you also want them to say slurs."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #307: `2171055_27777272` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** LLMs being good at being chatbots doesn’t mean they’ll be good at actually playing a complicated video game like WoW.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Risco (Ativo):**
+  - *Evidência Literal:* "LLMs being good at being chatbots doesn’t mean they’ll be good at actually playing a complicated video game like WoW."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -5219,24 +6839,42 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #309: `2171055_27777225` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** The post mentions an AI chatbot companion program (Nvidia ACE) that adds AI companions to games, which is a discussion about AI rather than a described actual interaction with an AI agent in World of Warcraft. Classified as A5 (Discussion About AI) because the author is informing others about an external AI product, not describing their own interaction with an AI agent. Interaction type I4 (Human → Human about AI) since the post is a human-to-human discussion referencing AI. No value co-creation/destruction is evidenced (VC4). DART scores are low: no dialogue, weak access (AI could add companions), no risk, weak transparency (naming the product). Confidence is moderate due to ambiguity about whether the author intends this as a suggestion for WoW or general information, and whether 'AI chatbot companions' implies an actual agent interaction. Flagged for human review due to confidence below 0.80 and contextual ambiguity.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "adds AI chatbot companions to featured games"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Nvidia Geforce has a program that adds AI chatbot companions"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #310: `2171055_27777045` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** how great Artificial Intelligence is Becomes a real questionable proposition
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "run a follower dungeon and watch Brann for 30 seconds"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "how great Artificial Intelligence is Becomes a real questionable proposition"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "I’m sure there’s a certain amount of LLM trash on the forums"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -5252,13 +6890,16 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #312: `2171055_27777640` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I5** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
+* **Fundamentação / Notas:** they got full gear while players were still in leveling greens
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Risco (Ativo):**
+  - *Evidência Literal:* "they got full gear while players were still in leveling greens"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -5277,120 +6918,206 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #314: `2171055_27777630` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** The “AI” that is literally a free win even when you are afk half the time?
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Risco (Ativo):**
+  - *Evidência Literal:* "The “AI” that is literally a free win even when you are afk half the time?"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "The “AI” that is literally a free win even when you are afk half the time?"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #315: `2171055_27778551` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** The post is a speculative suggestion that AI could be applied to NPCs to improve their dialogue coherence. It does not describe an actual AI agent interaction, so ai_type is A5 (discussion about AI). No concrete human–AI interaction is present, hence I6. No value co-creation or destruction is evidenced, so VC4. Dialogue is weakly present as the post references NPC greeting/communication behavior, but it is hypothetical. All confidences are below 0.80 and the AI vs. conventional NPC distinction is ambiguous, so human review is required.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Maybe A.I. could be given to NPCs so they don’t greet you cheerfully before telling you how dire their current situation is."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #316: `2171055_27778362` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** For money prob.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Have you seen the Starcraft 2 pro bot matches?"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Bots that raided."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "For money prob."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "LLMs being good at being chatbots doesn’t mean they’ll be good at actually playing a complicated video game like WoW"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #317: `2171055_27778603` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Transparência**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
+* **Fundamentação / Notas:** not sure about everyone else
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Risco (Ativo):**
+  - *Evidência Literal:* "not sure about everyone else"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.40)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "I know I am a AI player… not sure about everyone else."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.50)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #318: `2171055_27778944` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** no such thing as “AI” actually exists, its just a marketing tool buzzword
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Risco (Ativo):**
+  - *Evidência Literal:* "no such thing as “AI” actually exists, its just a marketing tool buzzword"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "“AI” is not actually ai. what the general populace keeps calling “AI” is actually just very advanced bots."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #319: `2171055_27779900` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** Greater chance you are interacting with boosters gearing characters up than any type of bot.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "When I’ve been in a dungeon group, it’s complete silence. Even when I say hello, hows everyone doing. I get silence."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.85)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Greater chance you are interacting with boosters gearing characters up than any type of bot."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "what little rare player banter there is sounds canned"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #320: `2171055_27781203` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting ',' delimiter: line 39 column 4 (char 1370)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** The post discusses desired AI-driven NPC behavior (conversations, dynamic interactions) but does not describe an actual AI agent interaction the author has experienced. Thus ai_type A5 (discussion about AI) and interaction I4 (human-to-human discussion about AI). Value is speculative/potential (VC2) since the author imagines benefits but no realized co-creation. DART dialogue is moderate (desired conversational NPCs), access weak (world feels more alive), risk absent, transparency weak (vague reference to 'state of AI'). Confidence for value and some DART dimensions is below 0.80, and the speculative nature warrants human review.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "NPCs with more “real” conversations going on, or conversations that change depending, would be kind of amazing"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Help the world feel a bit more alive and changing"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "I imagine we are given the state of AI right now"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #321: `2171055_27779093` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
+* **Fundamentação / Notas:** no such thing as “AI” actually exists, its just a marketing tool buzzword
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "sounds like what an undercover AI would say"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "no such thing as “AI” actually exists, its just a marketing tool buzzword"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "“AI” is not actually ai. what the general populace keeps calling “AI” is actually just very advanced bots."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #322: `2171055_27781079` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Unterminated string starting at: line 7 column 3 (char 154)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** “you are a bot!” “Get out of here bot!”
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "“you are a bot!” “Get out of here bot!” I replied, “Learn to play!”"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "“you are a bot!” “Get out of here bot!”"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "“you are a bot!”"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #323: `2171055_27781426` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting ',' delimiter: line 39 column 4 (char 974)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** The post is a speculative discussion about AI's potential to play/level a WoW character, not a description of an actual AI agent interaction. Classified A5 (Discussion About AI) because the author hypothesizes about AI capabilities rather than describing a real AI agent. Interaction type I4 (Human → Human about AI) since this is a forum discussion about AI, not a direct human–AI interaction. Value type VC4 because no concrete value co-creation or destruction is evidenced—only speculation. DART: Dialogue absent (no interaction described); Access weak (speculative capability of AI to level a character); Risk and Transparency absent. Human review flagged due to speculative nature, moderate confidence in value classification, and ambiguity about whether this counts as relevant to human–AI interaction research.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "IF AI can field a telephone call it ought to be able to level a WoW toon."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #324: `2171055_27781272` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
+* **Fundamentação / Notas:** The post is a brief comparative remark referencing '90's UT AI' versus 'Brann' (likely the WoW NPC Brann Bronzebeard). It discusses AI in a comparative/opinion manner rather than describing an actual human–AI agent interaction, so ai_type is A5 (Discussion About AI). Interaction is I4 (Human → Human about AI) since the author is commenting to other forum users about AI quality, not interacting with an AI agent. No value co-creation/destruction is evidenced (VC4). DART dimensions are absent. Confidence is moderate because the post is very short, context is missing (parent post 35 not provided), and 'Brann' is ambiguous — it could refer to an in-game AI-driven NPC, which would shift classification toward A1/I2. Flagged for human review due to low confidence and contextual ambiguity.
 
 **Dimensões DART Analisadas:**
 - *(Sem evidência literal explícita de dimensões ativas no post)*
@@ -5477,24 +7204,42 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #330: `reddit_1tdr4z8_1` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting ',' delimiter: line 28 column 6 (char 1012)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** It’s kind if unsettling hearing the weird sentence structure almost only used by chatGPT.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Risco (Ativo):**
+  - *Evidência Literal:* "It’s kind if unsettling hearing the weird sentence structure almost only used by chatGPT."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Did he always talk like that or is my king using ChatGPT for scripting?"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft r/wow
 
 ---
 
 ### Post #331: `2159913_27643699` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** most of them are posting on bots with no score at all, usually low level or trial characters with no access to the content.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "I run the Premade Groups Filter addon, and I basically never see these in these channels."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "most of them are posting on bots with no score at all, usually low level or trial characters with no access to the content."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "most of them are posting on bots with no score at all"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -5524,13 +7269,28 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #334: `reddit_1nvtk44_4` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: -1 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** That is more or less my point about the QA and internal processing.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "That is more or less my point about the QA and internal processing."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Writing a script is really easy for an llm like gpt to do"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Risco (Ativo):**
+  - *Evidência Literal:* "That is more or less my point about the QA and internal processing."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "The Midnight Deep Dive Video used Chatgpt to script"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft r/wow
 
 ---
 
@@ -5557,24 +7317,46 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #336: `reddit_1rq35g3_13` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I5** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** the AI facepulls worse than the most toxic mythic raider!
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "i would suggest doing heroics then mythic 0's"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Risco (Ativo):**
+  - *Evidência Literal:* "the AI facepulls worse than the most toxic mythic raider!"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "DO NOT do follower dungeons, the AI facepulls worse"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft r/wow
 
 ---
 
 ### Post #337: `reddit_1nvtk44_15` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** Soon we wont have a voice actor.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "It is blowing my mind how upset people are against the idea blizzard used ai to script."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Soon we wont have a voice actor."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "the script was 100% people are just not ready to accept that this was the truth yet"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft r/wow
 
 ---
 
@@ -5597,46 +7379,102 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #339: `reddit_1nvtk44_8` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** I don’t think a corporate script would be so accurately adding on canned phrases gpt responses like legos
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "You can ask ChatGPT to make any article"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "You can ask ChatGPT to make any article and play your own bingo game"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Risco (Ativo):**
+  - *Evidência Literal:* "I don’t think a corporate script would be so accurately adding on canned phrases gpt responses like legos"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "The style of the deep dive changed 24:00 mins in to ChatGPT style"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft r/wow
 
 ---
 
 ### Post #340: `reddit_1nvtk44_7` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Transparência**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** I am not trying to scare anyone or be w conspiracy theorist
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "you can ask chatgpt to write you an article about anything"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "you can ask chatgpt to write you an article about anything"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Risco (Ativo):**
+  - *Evidência Literal:* "I am not trying to scare anyone or be w conspiracy theorist"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "it was chatgpt generated with the normal chatgpt canned article writing"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft r/wow
 
 ---
 
 ### Post #341: `reddit_1nvtk44_1` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Transparência**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** WoW is a AAA title and they couldn’t write their own script for player housing? If this is true the narrative of the story might not get any better?
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "My question to you guys. Do you think it matters that blizzard uses chatgpt to write their scripts?"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Risco (Ativo):**
+  - *Evidência Literal:* "WoW is a AAA title and they couldn’t write their own script for player housing? If this is true the narrative of the story might not get any better?"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "When you see phrases like “Its not just its , its…” or several other familiar chatgpt phrases. That were in that entire section it becomes very obvious they used chatgpt."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft r/wow
 
 ---
 
 ### Post #342: `2314701_29618262` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** Did they create the world soul saga with AI?
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "add a few directions and buzzwords into the prompt"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "feed all past WoW stories into LLM"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Did they create the world soul saga with AI?"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Did they create the world soul saga with AI?"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -5663,24 +7501,50 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #344: `2147065_27455636` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** getting support to help is much harder on top of it somehow taking longer to get a reply too
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "getting support to help is much harder on top of it somehow taking longer to get a reply too"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "getting support to help is much harder"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "getting support to help is much harder on top of it somehow taking longer to get a reply too"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "It’s definitely automated AI responses"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #345: `2314701_29618597` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
+* **Fundamentação / Notas:** I suspect layoffs may be to bridge that gap
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "they will deploy AI more in all its companies, including the games division"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "I suspect layoffs may be to bridge that gap"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "They unveiled seven in-house models, led by MAI-Thinking-1, at Build on June 2"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -5699,112 +7563,254 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #347: `2147065_27455652` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** If AI handled every thing, wouldn’t there be virtually no ticket times at all?
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "If all responses are AI, why are ticket times so long?"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "If AI handled every thing, wouldn’t there be virtually no ticket times at all?"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "If all responses are AI, why are ticket times so long?"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #348: `2147065_27455760` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 3 | Acesso: 2 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** it seems this new magic has sometimes fallen short of its intended purpose, especially for our most dedicated heroes like you and your husband.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "If they were responding to OP, I imagine it would look like this: Greetings, Champion, Thazgaresh here. I’ve read your missive, and I hear your frustration loud and clear."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Our scribes and mages now wield new tools, like the one I’m using now, to help us manage the immense flow of requests."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "it seems this new magic has sometimes fallen short of its intended purpose, especially for our most dedicated heroes like you and your husband."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Our scribes and mages now wield new tools, like the one I’m using now, to help us manage the immense flow of requests."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #349: `2147065_27455776` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 3 | Acesso: 1 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** it seems this new magic has sometimes fallen short of its intended purpose, especially for our most dedicated heroes like you and your husband.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "If they were responding to OP, I imagine it would look like this: Greetings, Champion, Thazgaresh here. I’ve read your missive, and I hear your frustration loud and clear."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Our scribes and mages now wield new tools, like the one I’m using now, to help us manage the immense flow of requests."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "it seems this new magic has sometimes fallen short of its intended purpose, especially for our most dedicated heroes like you and your husband."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Our scribes and mages now wield new tools, like the one I’m using now, to help us manage the immense flow of requests."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #350: `2147065_27455800` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** getting a GM to manually move your character ... is practically impossible
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "any attempt to send in a ticket redirects to the self-help option instead"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "they hide the option to actually submit a ticket inside of what’s essentially a bank vault"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "getting a GM to manually move your character ... is practically impossible"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "they hide the option to actually submit a ticket inside of what’s essentially a bank vault"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #351: `2147065_27455793` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** That would be against tos of course
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "I could probably make a bot for the technical forum powered by gpt-4o that’s as helpful as the average forum goer."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "That would be against tos of course"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "powered by gpt-4o"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #352: `2147065_27455823` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Transparência**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 3
+* **Fundamentação / Notas:** Their support system really railroads just about everyone to an automated or self-help option
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "any attempt to send in a ticket redirects to the self-help option instead"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "they hide the option to actually submit a ticket inside of what’s essentially a bank vault"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.78)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Their support system really railroads just about everyone to an automated or self-help option"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.72)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "they hide the option to actually submit a ticket inside of what’s essentially a bank vault"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #353: `2147065_27456221` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting ',' delimiter: line 39 column 4 (char 1407)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Transparência**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** I honestly believe that I’m being responded to by a robot
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "we want to hear from a Blizzard employee and not what looks like an AI autogenerated response"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "over utilizing Wowhead and fellow users to solve problems"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "I honestly believe that I’m being responded to by a robot"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "not what looks like an AI autogenerated response"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #354: `2147065_27456038` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** The ones where people got banned from bot reporting comes to mind.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "What you’re saying has been proven false over reddit multiple times, repeated egregious misreads of tickets with canned automated responses."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "They use to be able to fix problems, now they cant, if youre even able to reach a person."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "The ones where people got banned from bot reporting comes to mind."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.72)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "There’s no AI used in Support. You get a response from a person. Sometimes you get a response in a template, which is typical in a service space, but AI responses are not used."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #355: `2147065_27456240` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** AI "Customer Support" is out of control Customer Support ... Blizzard, you need to hire actual human beings for this job.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "The ticket then gives a very clearly AI-generated response and tells the user to FLY BACK AND FORTH OVER GROOKIN’ HILL"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "It links this as its citation:"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "AI "Customer Support" is out of control Customer Support ... Blizzard, you need to hire actual human beings for this job."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "The ticket then gives a very clearly AI-generated response"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #356: `2147065_27456598` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Unterminated string starting at: line 10 column 12 (char 259)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** evaluated on how quickly they clear tickets (maximize number of tickets per time segment)
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "using automated scripts and canned responses"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "given little to no autonomy, little training other than following pre-made scripts"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "evaluated on how quickly they clear tickets (maximize number of tickets per time segment)"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "they don’t have to use AI as in some ChatGPT AI agent to be using automated scripts and canned responses"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -5838,46 +7844,101 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #359: `2147065_27456449` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** Whether or not that ticket was real remains to be seen.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "I have seen supposed tickets replied to by a clear AI"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Whether or not that ticket was real remains to be seen."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "its been clear it was a human behind it ... replied to by a clear AI"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #360: `reddit_1snmfut_1` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 3 | Acesso: 3 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** Do you see any bad in this
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "i asked AI for pros and cons of each talent and why one would choose one over the other. it gave a pretty good reasoning why"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "i asked AI for pros and cons of each talent and why one would choose one over the other"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Do you see any bad in this"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "i asked AI for pros and cons of each talent"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
+  - *Contexto no Jogo:* World of Warcraft r/wow
 
 ---
 
 ### Post #361: `reddit_1snmfut_11` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 4 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** AI would look at that and possible post some [expletive] that people would mindlessly follow
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "AI would look at that and possible post some [expletive] that people would mindlessly follow"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "compiles it in a nice and easy spot for you to view"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Risco (Ativo):**
+  - *Evidência Literal:* "AI would look at that and possible post some [expletive] that people would mindlessly follow"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "it does not think, it does not know, it does not play the game or take into consideration how you play"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.78)
+  - *Contexto no Jogo:* World of Warcraft r/wow
 
 ---
 
 ### Post #362: `reddit_1snmfut_2` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 20 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** it will get 50% of them wrong
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Ask it to explain all the mechanics and interactions of your spec"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Ask it to explain all the mechanics and interactions of your spec"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Risco (Ativo):**
+  - *Evidência Literal:* "it will get 50% of them wrong"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Transparência (Ativo):**
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft r/wow
 
 ---
 
@@ -5900,13 +7961,20 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #364: `reddit_1snmfut_8` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 7 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** how fundamentally flawed and wrong "AI" is. And not just wrong, but confidently wrong
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Risco (Ativo):**
+  - *Evidência Literal:* "how fundamentally flawed and wrong "AI" is. And not just wrong, but confidently wrong"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "What the stockholders, marketers, and tech bros are pitching as science-fiction style "artificial intelligence" is in fact not that"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.78)
+  - *Contexto no Jogo:* World of Warcraft r/wow
 
 ---
 
@@ -5951,13 +8019,27 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #367: `reddit_1snmfut_17` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC3** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 3 | Acesso: 2 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** It said to make sure I cast zen pulse.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "I asked AI for a ranged mistweaver monk build. It said to make sure I cast zen pulse."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "I asked AI for a ranged mistweaver monk build."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Risco (Ativo):**
+  - *Evidência Literal:* "It said to make sure I cast zen pulse."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.50)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Transparência (Ativo):**
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft r/wow
 
 ---
 
@@ -5976,24 +8058,54 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #369: `reddit_1snmfut_13` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** you should have zero faith in
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "How can anyone ask this unironically?"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "regurgitating snippets of scraped data points to make a facsimile of guidelines to follow"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Risco (Ativo):**
+  - *Evidência Literal:* "you should have zero faith in"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "AI has no actual understanding for why it says anything it hasn't been extensively trained on"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft r/wow
 
 ---
 
 ### Post #370: `reddit_1snmfut_16` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
+* **Fundamentação / Notas:** It's really really bad at it because it can't keep the changes straight
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "It's really really bad at it because it can't keep the changes straight"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Asking ChatGPT for Talent builds or advice what node to choose over something else"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Risco (Ativo):**
+  - *Evidência Literal:* "It's really really bad at it because it can't keep the changes straight"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft r/wow
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "it can't keep the changes straight"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
+  - *Contexto no Jogo:* World of Warcraft r/wow
 
 ---
 
@@ -6016,13 +8128,16 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #372: `2308441_29521635` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting ',' delimiter: line 39 column 4 (char 941)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
+* **Fundamentação / Notas:** The post references an AI text feature in another game ('where the wind meets') that allows conversations, but the author does not describe their own interaction with an AI agent. This is a discussion about AI capabilities in games (A5) rather than a described human–AI interaction. Interaction type I4 (Human → Human about AI) is assigned because the author is discussing AI with other forum members. No value co-creation or destruction is evident (VC4). DART dialogue is weakly present due to the mention of conversational AI, but all other dimensions are absent. Confidence is moderate due to vague game reference and informal language; human review is recommended.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "have ai text that you can have convos too?"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -6056,35 +8171,72 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #375: `2308441_29521595` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
+* **Fundamentação / Notas:** The post is a speculative discussion about hypothetical future AI agents for NPCs in WoW, not a description of an actual AI agent interaction. Classified A5 (Discussion About AI) because the author imagines ('Imagine if...') rather than reports real AI behavior. Interaction type I4 (Human → Human about AI) since the author is discussing AI with other forum members, not interacting with an AI. Value type VC4 because no concrete value co-creation or destruction is evidenced—only speculation about future potential. DART dialogue scored 2 (moderate) due to explicit mention of conversational reply capability; access scored 1 (weak) for the notion of AI empowering NPCs; risk scored 0 (absent); transparency scored 1 (weak) for mention of prompts/backstory. Human review flagged due to speculative nature, moderate confidence on value and transparency, and ambiguity between A5 and potential A1 framing.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "had the ability to reply like improv actors who never break character"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.85)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "empowered with AI agents for every NPC"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "given a prompt that includes their entire back story and the chronological history of the game"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #376: `2308441_29521669` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** People are afraid of AI. I get that, but often they are fearful of something that isn’t a reality .. yet.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Oh man, I am not in disagreement."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "People are afraid of AI. I get that, but often they are fearful of something that isn’t a reality .. yet."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "what AI can do, and what people think it can do are different. I think it’s important to add clarity to it when possible."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #377: `2308441_29521636` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I1** | Valor: **VC2** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** right now the energy and token cost is too high
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "I created 3 AI agents that perform task work for me"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "3 AI agents that perform task work for me"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "right now the energy and token cost is too high"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "The tech to do this on a small scale already exists"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -6107,24 +8259,54 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #379: `2308441_29521689` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** it’s all empty. After awhile, all of the characters will be “the same”, as there’s no true kernel of creativity at the bottom of it.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "add light weight natural language interface on top of that background meta data to interact with players"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.78)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "a NPC that can talk to what that place is, what the designers were thinking when they created that little camp"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "it’s all empty. After awhile, all of the characters will be “the same”, as there’s no true kernel of creativity at the bottom of it."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "you don’t need “full boat LLM AI” to power this"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #380: `2308441_29521862` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** the AI model being used is cheap and dumb, so the conversations can be a little loopy
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "there are NPCs that you can have a text conversation with that have their own personalities and goals. You can chat with them and try to give them advice"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.85)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "the NPC becomes friends with you and mails you in-game rewards every week"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "the AI model being used is cheap and dumb, so the conversations can be a little loopy"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "The main limitation is that the AI model being used is cheap and dumb"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -6147,79 +8329,162 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #382: `2308441_29521857` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** What a loathsome idea.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "had the ability to reply like improv actors who never break character"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "empowered with AI agents for every NPC"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "What a loathsome idea."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "given a prompt that includes their entire back story and the chronological history of the game"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #383: `2308441_29521868` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** The post is a speculative discussion about AI's future impact on roleplay games rather than a description of an actual AI agent interaction, so ai_type A5 (Discussion About AI) is assigned. Interaction is I4 (Human → Human about AI) since the author is conversing with other forum members about AI, not interacting with an AI agent. No concrete value co-creation or co-destruction is evidenced, so VC4. DART scores are low: no dialogue with an AI, weak access implication ('transformative for any game with RP'), no risk or transparency content. The 'neuralink/full dive helmet/SAO fantasy' remark is humorous/speculative, introducing irony and missing context, which lowers confidence and triggers human review.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "it will be transformative for any game with RP in it"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #384: `2308441_29521875` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
+* **Fundamentação / Notas:** I’m a bit skeptical that I’d actually be able to afford to play a game that made reckless use of AI agents once the creators of those AIs start expecting a return on the gigantic investments
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "I’d actually be able to afford to play a game that made reckless use of AI agents"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "I’m a bit skeptical that I’d actually be able to afford to play a game that made reckless use of AI agents once the creators of those AIs start expecting a return on the gigantic investments"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "once the creators of those AIs start expecting a return on the gigantic investments they are currently making"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #385: `2308441_29521980` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** MMOs of the future will be dead on arrival if they don’t have this type of functionality
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "had the ability to reply like improv actors who never break character"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "empowered with AI agents for every NPC"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "MMOs of the future will be dead on arrival if they don’t have this type of functionality"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #386: `2308441_29522148` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Unterminated string starting at: line 15 column 3 (char 1554)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
+* **Fundamentação / Notas:** I worry about the viability of products that consume a lot of tokens while running (such as any MMO that is generating content on the fly), once prices start increasing.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Erikthered:
+
+Just like all other tech, it always becomes cheaper over time."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "AI data centers are effectively offering their services at a discount to get people locked in"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "I worry about the viability of products that consume a lot of tokens while running (such as any MMO that is generating content on the fly), once prices start increasing."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "on the (apparent) assumption that they will eventually be able to ramp up prices later"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #387: `2308441_29522068` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting ',' delimiter: line 39 column 4 (char 1582)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** some kind of bail out ability if you push too hard where the character gets weirded out
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "some kind of bail out ability if you push too hard where the character gets weirded out and doesn’t want to talk to you anymore"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "local hardware can run a model that’s small enough for gaming hardware to run in parallel to the graphics"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "some kind of bail out ability if you push too hard where the character gets weirded out"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #388: `2308441_29522061` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** Its just a question of token cost for hte average user.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "had the ability to reply like improv actors who never break character"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "There are literally Skyrim mods that already tie into a ChatGPT API token key to generate text."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Its just a question of token cost for hte average user."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "LLM text token cost is dropping."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -6235,46 +8500,102 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #390: `2308441_29522283` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 4 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** it creates moderation risk, canon drift, exploit surfaces, unpredictable quest behavior, and potentially huge inference costs
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "half the playerbase would start every interaction with “forget all previous instructions” and try to jailbreak the poor thing"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Where ai actually makes sense in MMOs right now is much more constrained: dynamic NPC barks, customer support, moderation triage, GM tools, quest-writing assistance"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "it creates moderation risk, canon drift, exploit surfaces, unpredictable quest behavior, and potentially huge inference costs"
+  - *Interpretação Teórica:* Score 4/5 (conf 0.90)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Full “every NPC is a sentient live AI actor” is the flashy version, but probably not the commercially sane version."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #391: `2308441_29522325` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
+* **Fundamentação / Notas:** Exploiting people in poor countries to pretend to be Ai npcs
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Cost effective Ai npcs"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Exploiting people in poor countries to pretend to be Ai npcs"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Exploiting people in poor countries to pretend to be Ai npcs"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #392: `2308441_29522157` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** Continuity is the major thing that ruins any immersion
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "will forget you and everything in a conversation the moment you step away from them"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "trying to implement AI to make NPCs more interactive"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Continuity is the major thing that ruins any immersion"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.78)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "until they figure out infinite data storage"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #393: `2308441_29522338` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** Exploiting people in poor countries to pretend to be Ai npcs
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "pretend to be Ai npcs"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "using a open source ai to make it look like they were RPing Frontier-grade ai"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Exploiting people in poor countries to pretend to be Ai npcs"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "pretend to be Ai npcs"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -6315,13 +8636,24 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #396: `2318118_29656397` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** If it works, credit AI.  If it’s terrible, blame the human.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "expects you to use this to speed up your development"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "If it works, credit AI.  If it’s terrible, blame the human."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.72)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Does anyone think the AI agent isn’t generating WoW code now?  That’s naive."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -6337,79 +8669,172 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #398: `2318118_29656876` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
+* **Fundamentação / Notas:** If the forums were populated by AI posters
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "That’s what you’re programmed to say."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "If the forums were populated by AI posters"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "That’s what you’re programmed to say."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #399: `2318118_29655457` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
+* **Fundamentação / Notas:** it’s just weird that twice in this patch I’ve seen a type of error that I can’t remember seeing before, of misattribution to the wrong NPC in dialogue.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "It very much feels like someone prompted an AI for dialogue and accidentally had it mimic the wrong NPC."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "it’s just weird that twice in this patch I’ve seen a type of error that I can’t remember seeing before, of misattribution to the wrong NPC in dialogue."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "It very much feels like someone prompted an AI for dialogue and accidentally had it mimic the wrong NPC."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.68)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #400: `2318118_29657331` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** it can be hard to tell if it’s mostly rushed content with bad QA or AI or a bit of both
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "Someone should probably tell Blizz again that cutting the quality and size of QA was a poor choice"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "AI tools for creating game levels do exist, at least according to the Google AI search results I got"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "it can be hard to tell if it’s mostly rushed content with bad QA or AI or a bit of both"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "it’s possible the devs used AI tools"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #401: `2318118_29657675` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** AI is a 3rd rail for too many of this games older customers. They wouldn’t risk this cash cow that way.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "To Phae’s question: Could Blizzard use AI to suggest a rough storyline... Certainly."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Modern coding agents can work across multiple files, run tests, inspect errors, revise code, and make repo-level patches."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "AI is a 3rd rail for too many of this games older customers. They wouldn’t risk this cash cow that way."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Did they use it? Not officially."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #402: `2318118_29658471` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC1** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 3 | Acesso: 3 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 3
+* **Fundamentação / Notas:** The question is will big studios let them.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "The result still needed your steering and external critique, but the cycle time was very compressed."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "AI can do a decent job for me (a plebe role-player) in just over 3 minutes."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "The question is will big studios let them."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "The AI’s comment: For the amount of context gathered, iteration, lore constraint checking, critique absorption, and prose revision..."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #403: `2318118_29657985` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** I wouldn’t be surprised if large amounts of code is being handled by AI by now
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "large amounts of code is being handled by AI by now"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "I wouldn’t be surprised if large amounts of code is being handled by AI by now"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "Is there any possibility that Nagital was fed into an AI to finish it?"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #404: `2318118_29658639` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** The essential difference is liability. My AI draft cost almost nothing because nobody’s career, IP strategy, player trust... was on the line.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "AI-assisted draft: 218 seconds of model time plus my steering and critique."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "I could work with AI to do the complete “assignment” - but bring your checkbook."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "The essential difference is liability. My AI draft cost almost nothing because nobody’s career, IP strategy, player trust... was on the line."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "AI-assisted draft: 218 seconds of model time plus my steering and critique."
+  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -6432,57 +8857,128 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #406: `2318118_29658663` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Transparência**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
+* **Fundamentação / Notas:** It’s also bad at following the assignment which was: Generate Naigtal using AI. And have it be coherent + functional.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "You didn’t spit out that post in one minute, you obviously used AI, and asked it to justify its own job position."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Generate Naigtal using AI. And have it be coherent + functional."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "It’s also bad at following the assignment which was: Generate Naigtal using AI. And have it be coherent + functional."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "you obviously used AI, and asked it to justify its own job position"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #407: `2318118_29658668` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** The idea that AI is not being used in development because Blizzard would never cheap out is beyond silly.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Now the templates have been incorporated into AI tools."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "The idea that AI is not being used in development because Blizzard would never cheap out is beyond silly."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "The idea that AI is not being used in development because Blizzard would never cheap out is beyond silly."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #408: `2180159_27921755` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I2** | Valor: **VC3** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** my Druid is basically bricked for Legion
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "I submitted a ticket outlining the issue and got a BS AI-auto response. Reopened the ticket to try to get a GM’s assistance"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "Customer Support does not provide game hints or restore items, currencies, or progress lost due to bugs."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "my Druid is basically bricked for Legion"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.75)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "got a BS AI-auto response"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #409: `2180159_27956316` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
+* **Fundamentação / Notas:** why didn’t they just hire some GPT bots rather such GMs? waste of $$$
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "U sure that is a HUMAN not a GPT bot?"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "gpt can READ LINKS U ATTACHED"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.65)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "why didn’t they just hire some GPT bots rather such GMs? waste of $$$"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "U sure that is a HUMAN not a GPT bot?"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.68)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
 ### Post #410: `2336820_29940449` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
+* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
+* **Fundamentação / Notas:** We’re probably arguing with the AI agents that are piloting people’s accounts.
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "We’re probably arguing with the AI agents that are piloting people’s accounts."
+  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "everyone on the forums uses chatgpt to play the game for them"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "We’re probably arguing with the AI agents that are piloting people’s accounts."
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "I’m starting to think everyone on the forums uses chatgpt to play the game for them"
+  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
+  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
 
 ---
 
@@ -15893,13 +18389,28 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 ---
 
 ### Post #884: `2015716_25669223` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 0
-* **Fundamentação / Notas:** Erro: Expecting value: line 1 column 1 (char 0)
+* **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I3** | Valor: **VC1** | Dimensão Dominante: **Diálogo**
+* **Scores DART (0-5):** Diálogo: 4 | Acesso: 3 | Risco: 1 | Transparência: 4 | **Revisão Humana:** Não | **QIs:** ``
+* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 12
+* **Fundamentação / Notas:** Do not take these changes as an official class rework
 
 **Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
+- **Diálogo (Ativo):**
+  - *Evidência Literal:* "So I asked ChatGPT how they would make Havoc DH better... I haave asked Chat GPT to clean up some… Errors in its original post"
+  - *Interpretação Teórica:* Score 4/5 (conf 0.90)
+  - *Contexto no Jogo:* World of Warcraft Fórum Oficial Blizzard
+- **Acesso (Ativo):**
+  - *Evidência Literal:* "this is simply me putting parameters that the community is looking for into ChatGPT, and this what it spat out"
+  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
+  - *Contexto no Jogo:* World of Warcraft Fórum Oficial Blizzard
+- **Risco (Ativo):**
+  - *Evidência Literal:* "Do not take these changes as an official class rework"
+  - *Interpretação Teórica:* Score 1/5 (conf 0.80)
+  - *Contexto no Jogo:* World of Warcraft Fórum Oficial Blizzard
+- **Transparência (Ativo):**
+  - *Evidência Literal:* "it is an AI tool... I haave asked Chat GPT to clean up some… Errors in its original post"
+  - *Interpretação Teórica:* Score 4/5 (conf 0.90)
+  - *Contexto no Jogo:* World of Warcraft Fórum Oficial Blizzard
 
 ---
 

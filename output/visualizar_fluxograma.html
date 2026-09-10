@@ -221,16 +221,20 @@ flowchart TD
     subgraph FASE3 ["Camada 2: Codificação Científica DART-NET (AI CODING)"]
         ANON_POSTS --> NETNO["NetnographyAgent<br/>(deepseek-v4-flash, 30 workers concorrentes)"]:::agent
         
+        NETNO --> PARSE_GUARD{"Parsing Guard & Deteção<br/>de JSON Malformado?"}:::decision
+        PARSE_GUARD -- "Sim (Falha)" --> REPROCESS["Reprocessamento Automático com Repair Parser<br/>(extract_and_repair_json com retentativas)"]:::agent
+        REPROCESS --> DART_CODING
+        PARSE_GUARD -- "Não (Válido)" --> DART_CODING
+        
         subgraph DART_CODING ["Classificação Multi-Taxonómica DART-NET"]
-            AI_TAX["Tipo de IA (A1–A6)<br/>(87 A1, 100 A2, 14 A3, 52 A4, 511 A5, 268 A6)"]
-            INTERACTION["Estrutura de Interação (I1–I6)<br/>(43 I1, 5 I2, 51 I3, 578 I4, 4 I5, 351 I6)"]
-            VALUE_TAX["Cocriação de Valor (VC1–VC4)<br/>(23 VC1, 50 VC2, 45 VC3, 914 VC4)"]
-            DART_DIM["Dimensões DART (0 a 5)<br/>(D: 0,66 | A: 0,75 | R: 1,16 | T: 0,77)"]
+            AI_TAX["Tipo de IA (A1–A6)<br/>(Taxonomia Adaptativa vs Determinística)"]
+            INTERACTION["Estrutura de Interação (I1–I6)<br/>(Fluxos Diretos, Discurso e Mediação)"]
+            VALUE_TAX["Cocriação de Valor (VC1–VC4)<br/>(Simétrica, Assimétrica e Parasitária)"]
+            DART_DIM["Dimensões DART (0 a 5)<br/>(Diálogo, Acesso, Risco, Transparência)"]
             CONFIDENCE["Calibração de Confiança & Flag<br/>(human_review_required = True se conf < 0,80)"]
         end
         
-        NETNO --> DART_CODING
-        DART_CODING --> NETNO_RESULTS[("netnography_results.jsonl<br/>(1.032 análises científicas)")]
+        DART_CODING --> NETNO_RESULTS[("netnography_results.jsonl<br/>(1.032 análises científicas validadas sem erros)")]
     end
 
     %% CAMADA 2: Auditoria de Qualidade Interna

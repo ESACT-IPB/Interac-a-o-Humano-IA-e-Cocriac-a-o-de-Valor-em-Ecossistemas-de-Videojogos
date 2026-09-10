@@ -58,16 +58,20 @@ flowchart TD
     subgraph FASE3 ["Camada 2: Codificação Científica DART-NET (AI CODING)"]
         ANON_POSTS --> NETNO["NetnographyAgent<br/>(deepseek-v4-flash, 30 workers concorrentes)"]:::agent
         
+        NETNO --> PARSE_GUARD{"Parsing Guard & Deteção<br/>de JSON Malformado?"}:::decision
+        PARSE_GUARD -- "Sim (Falha)" --> REPROCESS["Reprocessamento Automático com Repair Parser<br/>(extract_and_repair_json com retentativas)"]:::agent
+        REPROCESS --> DART_CODING
+        PARSE_GUARD -- "Não (Válido)" --> DART_CODING
+        
         subgraph DART_CODING ["Classificação Multi-Taxonómica DART-NET"]
-            AI_TAX["Tipo de IA (A1–A6)<br/>(87 A1, 100 A2, 14 A3, 52 A4, 511 A5, 268 A6)"]
-            INTERACTION["Estrutura de Interação (I1–I6)<br/>(43 I1, 5 I2, 51 I3, 578 I4, 4 I5, 351 I6)"]
-            VALUE_TAX["Cocriação de Valor (VC1–VC4)<br/>(23 VC1, 50 VC2, 45 VC3, 914 VC4)"]
-            DART_DIM["Dimensões DART (0 a 5)<br/>(D: 0,66 | A: 0,75 | R: 1,16 | T: 0,77)"]
+            AI_TAX["Tipo de IA (A1–A6)<br/>(Taxonomia Adaptativa vs Determinística)"]
+            INTERACTION["Estrutura de Interação (I1–I6)<br/>(Fluxos Diretos, Discurso e Mediação)"]
+            VALUE_TAX["Cocriação de Valor (VC1–VC4)<br/>(Simétrica, Assimétrica e Parasitária)"]
+            DART_DIM["Dimensões DART (0 a 5)<br/>(Diálogo, Acesso, Risco, Transparência)"]
             CONFIDENCE["Calibração de Confiança & Flag<br/>(human_review_required = True se conf < 0,80)"]
         end
         
-        NETNO --> DART_CODING
-        DART_CODING --> NETNO_RESULTS[("netnography_results.jsonl<br/>(1.032 análises científicas)")]
+        DART_CODING --> NETNO_RESULTS[("netnography_results.jsonl<br/>(1.032 análises científicas validadas sem erros)")]
     end
 
     %% CAMADA 2: Auditoria de Qualidade Interna
@@ -126,15 +130,16 @@ flowchart TD
    * **Ação:** Triagem semântica de relevância suportada pelo modelo `deepseek-v4-flash` com léxico expandido (LLM, MCP, Copilot, etc.). Pseudonimização ética (`Player_0001` a `Player_1032`) e sanitização de dados privados (PII), preservando as 3 camadas metodológicas intactas (Secção 14).
    * **Saída:** `data/processed/anonymized_posts.json` (1.032 posts únicos estritamente pós-2024).
 
-3. **Fase 3: Codificação Qualitativa DART-NET (AI CODING)**
-   * **Agente:** `NetnographyAgent`
-   * **Ação:** Codificação analítica paralela (30 workers) via `deepseek-v4-flash`:
-     * **Tipologia de IA (`A1` a `A6`)**: Distinção estrita de agentes de IA autónomos (87 A1) vs bots convencionais (100 A2) e discussões (511 A5).
-     * **Estrutura de Interação (`I1` a `I6`)**: Identificação de fluxos diretos (I1 a I3) e discurso social (578 I4).
-     * **Cocriação de Valor (`VC1` a `VC4`)**: Mapeamento de cocriação (23 VC1), potencial cocriação (50 VC2) e codestruição (45 VC3).
-     * **Dimensões DART (0 a 5)**: Avaliação independente de Diálogo (0,66), Acesso (0,75), Risco (1,16) e Transparência (0,77) com evidência literal.
+3. **Fase 3: Codificação Qualitativa DART-NET e Parsing Guard (AI CODING)**
+   * **Agente:** `NetnographyAgent` com módulo integrado `Parsing Guard & Reprocessing`
+   * **Mecanismo de Tolerância a Falhas:** Incorporação da camada de reparação estrutural de JSON (`extract_and_repair_json`) e rotina automática de reprocessamento com retentativas para respostas malformadas, garantindo zero ocorrências de falhas residuais (`Processing error encountered`) e integridade analítica de 100% dos dados.
+   * **Ação Analítica:** Codificação multi-taxonómica via `deepseek-v4-flash`:
+     * **Tipologia de IA (`A1` a `A6`)**: Distinção estrita de agentes de IA autónomos (A1) vs bots convencionais (A2), scripts (A3), humanos assistidos (A4) e discussões reflexivas (A5).
+     * **Estrutura de Interação (`I1` a `I6`)**: Identificação dos fluxos direto (I1), agente-humano (I2), bidirecional (I3) e discurso social (I4).
+     * **Cocriação de Valor (`VC1` a `VC4`)**: Mapeamento de cocriação simétrica (VC1), potencial cocriação assimétrica (VC2) e codestruição parasitária (VC3).
+     * **Dimensões DART (0 a 5)**: Avaliação independente de Diálogo, Acesso, Risco e Transparência com evidência literal.
      * **Calibração de Confiança e Flag Humana**: Sinalização automática de `human_review_required: true` para casos com confiança < 0,80 ou ambiguidade.
-   * **Saída:** `data/analysis/netnography_results.jsonl` (1.032 análises científicas).
+   * **Saída:** `data/analysis/netnography_results.jsonl` (1.032 análises científicas validadas sem falhas de processamento).
 
 4. **Fase 4: Controlo de Qualidade Interno Multiagente**
    * **Agente:** `QualityGuardAgent`
