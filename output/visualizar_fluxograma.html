@@ -155,7 +155,7 @@
     <div class="header-info">
       <span class="badge">DART-NET v3.0 | Jan 2024 – 2026</span>
       <h1>Interação Humano-IA e Cocriação de Valor em Ecossistemas de Videojogos</h1>
-      <p>Fluxograma Metodológico Multiagente (303 Tópicos Canónicos, 1.032 Posts Validados, Auditoria 84,41%)</p>
+      <p>Fluxograma Metodológico Multiagente (303 Tópicos Canónicos, 1.032 Posts Validados, Auditoria 91,20%)</p>
     </div>
 
     <div class="toolbar">
@@ -221,10 +221,10 @@ flowchart TD
     subgraph FASE3 ["Camada 2: Codificação Científica DART-NET (AI CODING)"]
         ANON_POSTS --> NETNO["NetnographyAgent<br/>(deepseek-v4-flash, 30 workers concorrentes)"]:::agent
         
-        NETNO --> PARSE_GUARD{"Parsing Guard & Deteção<br/>de JSON Malformado?"}:::decision
-        PARSE_GUARD -- "Sim (Falha)" --> REPROCESS["Reprocessamento Automático com Repair Parser<br/>(extract_and_repair_json com retentativas)"]:::agent
-        REPROCESS --> DART_CODING
-        PARSE_GUARD -- "Não (Válido)" --> DART_CODING
+        NETNO --> PARSE_GUARD{"Validação Sintática & Guardião JSON<br/>(Deteta JSON malformado / truncado)?"}:::decision
+        PARSE_GUARD -- "Erro de Delimitador / Truncamento" --> REPROCESS["Parsing Guard & Reprocessamento<br/>(extract_and_repair_json + controlo de payload)"]:::agent
+        REPROCESS -. "Ciclo de Auto-Reparação" .-> NETNO
+        PARSE_GUARD -- "Sintaxe Válida" --> DART_CODING
         
         subgraph DART_CODING ["Classificação Multi-Taxonómica DART-NET"]
             AI_TAX["Tipo de IA (A1–A6)<br/>(Taxonomia Adaptativa vs Determinística)"]
@@ -245,7 +245,7 @@ flowchart TD
         QUALITY_CHECK{"Índice de Concordância<br/>Global >= 70%?"}:::decision
         QUALITY_GUARD --> QUALITY_CHECK
         QUALITY_CHECK -- "Não" --> ABORT["Abortar Pipeline"]
-        QUALITY_CHECK -- "Aprovado: 84,41%" --> AUDIT_REPORT[("quality_audit_results.json<br/>(Score 84,41% | 100% citações literais)")]
+        QUALITY_CHECK -- "Aprovado: 91,20%" --> AUDIT_REPORT[("quality_audit_results.json<br/>(Score 91,20% | 100% citações literais | 12 alertas)")]
     end
 
     %% CAMADA 2 & 3: Síntese e Entregáveis Finais
@@ -260,12 +260,12 @@ flowchart TD
         TABLE_GEN --> TABLE_RESUMOS["tabela_resumos.md<br/>(1.032 posts com DART, resumos e links diretos)"]:::output
         
         CORPUS --> LISTA_LINKS_MD["lista_links.md / lista_links.txt<br/>(Catálogo das 303 URLs Canónicas)"]:::output
-        COST_LOG["Registo de Tokens<br/>(26.616 chamadas API)"] --> TABELA_CUSTOS["tabela_custos.md<br/>(Auditoria de Custos: $21,05 USD)"]:::output
+        COST_LOG["Registo de Tokens<br/>(~27.000 chamadas API)"] --> TABELA_CUSTOS["tabela_custos.md<br/>(Auditoria de Custos: ~$21,50 USD)"]:::output
     end
 
     %% CAMADA 3: Validação Metodológica Externa
     subgraph FASE6 ["Camada 3: Validação Humana e Reprodutibilidade (HUMAN VALIDATION)"]
-        NETNO_RESULTS --> HUMAN_QUEUE["Fila de Validação Humana Prioritária<br/>(803 posts com '⚠️ Sim' em Rev. Humana)"]:::validation
+        NETNO_RESULTS --> HUMAN_QUEUE["Fila de Validação Humana Prioritária<br/>(799 posts com '⚠️ Sim' em Rev. Humana)"]:::validation
         
         NETNO_RESULTS --> KAPPA_SAMPLE["Amostragem para Revisão Humana"]:::agent
         KAPPA_SAMPLE --> CSV_HUMAN["amostra_codificacao_humana.csv<br/>(Amostra para teste cego)"]:::validation
