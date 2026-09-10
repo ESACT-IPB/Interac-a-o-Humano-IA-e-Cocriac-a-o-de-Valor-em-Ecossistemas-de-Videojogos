@@ -3,47 +3,46 @@
 Este documento formaliza a leitura humana estruturada e detalhada dos resultados da codificação netnográfica multiagente baseada no framework **DART-NET** (Prahalad & Ramaswamy, 2004; DART-NET 2026), processados pelo modelo `deepseek-v4-flash` a partir de `data/analysis/netnography_results.jsonl`.
 
 > [!IMPORTANT]
-> **Filtro Temporal Estrito (Jan 2024 – 2026):** Todos os 1.032 posts aqui apresentados satisfazem a restrição metodológica `created_at >= '2024-01-01T00:00:00Z'`, cobrindo discussões empíricas dos ecossistemas de *World of Warcraft* e *EVE Online*.
+> **Filtro Temporal Estrito (Jan 2024 – 2026):** Todos os 825 posts aqui apresentados satisfazem a restrição metodológica `created_at >= '2024-01-01T00:00:00Z'`, cobrindo discussões empíricas dos ecossistemas de *World of Warcraft* e *EVE Online*.
 
 ---
 
 ## 1. Sumário Executivo das Codificações DART-NET
 
-* **Total de Mensagens Analisadas:** 1032
-* **Médias Dimensionais DART (0 a 5):** Diálogo: `0.92` | Acesso: `1.02` | Risco: `1.58` | Transparência: `1.11`
-* **Fila de Revisão Humana Prioritária:** 799 posts (77.4%) assinalados para validação manual
+* **Total de Mensagens Analisadas:** 825
+* **Médias Dimensionais DART (0 a 5):** Diálogo: `1.09` | Acesso: `1.20` | Risco: `1.61` | Transparência: `1.34`
+* **Fila de Revisão Humana Prioritária:** 708 posts (85.8%) assinalados para validação manual
 
 ### Distribuição por Jogo / Ecossistema
-* **World of Warcraft:** 594 posts (57.6%)
-* **EVE Online:** 438 posts (42.4%)
+* **World of Warcraft:** 521 posts (63.2%)
+* **EVE Online:** 304 posts (36.8%)
 
 ### Distribuição por Tipologia de IA (Taxonomia A1 a A6)
-* **A1 (Agentes de IA Autónomos (LLMs / MCP)):** 95 posts (9.2%)
-* **A2 (Bots Convencionais (Farming / Rotações)):** 117 posts (11.3%)
-* **A3 (Scripts / Automação Determinística):** 17 posts (1.6%)
-* **A4 (Humanos Assistidos por IA (Vibe-Coding / Copilotos)):** 59 posts (5.7%)
-* **A5 (Discussões / Perceções da Comunidade sobre IA):** 693 posts (67.2%)
-* **A6 (Não-IA / Ruído Descartado):** 51 posts (4.9%)
+* **A1 (Agentes de IA Autónomos (LLMs / MCP)):** 95 posts (11.5%)
+* **A2 (Bots Convencionais (Farming / Rotações)):** 17 posts (2.1%)
+* **A3 (Scripts / Automação Determinística):** 17 posts (2.1%)
+* **A4 (Humanos Assistidos por IA (Vibe-Coding / Copilotos)):** 59 posts (7.2%)
+* **A5 (Discussões / Perceções da Comunidade sobre IA):** 637 posts (77.2%)
 
 ### Distribuição por Estrutura de Interação (I1 a I6)
-* **I1 (Interação Direta Humano-Agente):** 48 posts (4.7%)
-* **I2 (Interação Agente-Agente):** 7 posts (0.7%)
-* **I3 (Cooperação Triádica (Humano-Agente-Humano)):** 56 posts (5.4%)
-* **I4 (Discurso Comunitário / Mediação Social):** 770 posts (74.6%)
-* **I5 (Conflito / Disputa Mediada por Agente):** 11 posts (1.1%)
-* **I6 (Sem Interação Significativa):** 140 posts (13.6%)
+* **I1 (Interação Direta Humano-Agente):** 48 posts (5.8%)
+* **I2 (Interação Agente-Agente):** 7 posts (0.8%)
+* **I3 (Cooperação Triádica (Humano-Agente-Humano)):** 56 posts (6.8%)
+* **I4 (Discurso Comunitário / Mediação Social):** 641 posts (77.7%)
+* **I5 (Conflito / Disputa Mediada por Agente):** 6 posts (0.7%)
+* **I6 (Sem Interação Significativa):** 67 posts (8.1%)
 
 ### Distribuição por Cocriação de Valor (VC1 a VC4)
-* **VC1 (Cocriação Efetiva de Valor):** 26 posts (2.5%)
-* **VC2 (Potencial / Intenção de Cocriação):** 72 posts (7.0%)
-* **VC3 (Codestruição de Valor (Assimetria / Prejuízo)):** 104 posts (10.1%)
-* **VC4 (Sem Evidência Relevante de Valor):** 830 posts (80.4%)
+* **VC1 (Cocriação Efetiva de Valor):** 26 posts (3.2%)
+* **VC2 (Potencial / Intenção de Cocriação):** 72 posts (8.7%)
+* **VC3 (Codestruição de Valor (Assimetria / Prejuízo)):** 90 posts (10.9%)
+* **VC4 (Sem Evidência Relevante de Valor):** 637 posts (77.2%)
 
 ### Distribuição por Dimensão DART Dominante
-* **Risco:** 511 posts (49.5%)
-* **Diálogo:** 227 posts (22.0%)
-* **Acesso:** 182 posts (17.6%)
-* **Transparência:** 112 posts (10.9%)
+* **Risco:** 337 posts (40.8%)
+* **Diálogo:** 213 posts (25.8%)
+* **Acesso:** 169 posts (20.5%)
+* **Transparência:** 106 posts (12.8%)
 
 ---
 
@@ -51,2382 +50,837 @@ Este documento formaliza a leitura humana estruturada e detalhada dos resultados
 
 | # | ID do Post | Jogo | Tipo IA | Interação | Valor | Dimensão Dominante | DART (D/A/R/T) | Rev. Humana | QIs Mapeadas |
 | :--- | :--- | :--- | :---: | :---: | :---: | :--- | :---: | :---: | :--- |
-| 1 | `509113_2857261` | EVE Online | **A2** | I4 | VC4 | **Acesso** | `0/1/1/0` | Não | QI2, QI5 |
-| 2 | `483348_2703711` | EVE Online | **A2** | I4 | VC4 | **Acesso** | `1/1/2/1` | Não | QI1, QI2, QI3, QI4, QI5 |
-| 3 | `3000003_28811508` | World of Warcraft | **A2** | I4 | VC4 | **Transparência** | `1/0/2/1` | Não | QI1, QI4, QI5 |
-| 4 | `3000003_28811485` | World of Warcraft | **A2** | I4 | VC4 | **Transparência** | `0/0/3/1` | Não | QI3, QI4, QI5 |
-| 5 | `3000003_28811479` | World of Warcraft | **A2** | I4 | VC4 | **Risco** | `0/0/2/0` | Não | QI3, QI5 |
-| 6 | `3000003_28811611` | World of Warcraft | **A2** | I4 | VC4 | **Risco** | `0/0/3/0` | Não | QI3, QI5 |
-| 7 | `3000003_28811459` | World of Warcraft | **A2** | I4 | VC4 | **Transparência** | `0/0/3/1` | Não | QI3, QI4 |
-| 8 | `3000003_28811542` | World of Warcraft | **A2** | I4 | VC4 | **Diálogo** | `1/0/1/0` | Não | QI1, QI5 |
-| 9 | `3000003_28811610` | World of Warcraft | **A2** | I4 | VC4 | **Transparência** | `1/0/1/1` | Não | QI1, QI4 |
-| 10 | `3000003_28811596` | World of Warcraft | **A2** | I4 | VC4 | **Diálogo** | `1/0/1/0` | Não | QI1, QI2, QI5 |
-| 11 | `3000003_28811578` | World of Warcraft | **A2** | I4 | VC4 | **Acesso** | `1/1/1/0` | Não | QI1, QI2, QI3, QI5 |
-| 12 | `3000003_28811529` | World of Warcraft | **A2** | I4 | VC4 | **Acesso** | `0/1/1/0` | Não | QI2, QI5 |
-| 13 | `509843_2862535` | EVE Online | **A2** | I4 | VC4 | **Acesso** | `1/1/1/0` | Não | QI2, QI5 |
-| 14 | `509843_2862526` | EVE Online | **A2** | I4 | VC4 | **Diálogo** | `0/0/1/0` | Não | QI5 |
-| 15 | `509843_2862449` | EVE Online | **A2** | I4 | VC4 | **Risco** | `0/1/4/0` | Não | QI2, QI3, QI4 |
-| 16 | `509843_2862527` | EVE Online | **A2** | I4 | VC4 | **Acesso** | `1/1/4/0` | Não | QI2, QI3, QI5 |
-| 17 | `509843_2862434` | EVE Online | **A2** | I4 | VC4 | **Diálogo** | `1/1/3/1` | Não | QI1, QI2, QI3, QI4, QI5 |
-| 18 | `509843_2862470` | EVE Online | **A2** | I4 | VC4 | **Transparência** | `0/1/4/1` | Não | QI3, QI4, QI5 |
-| 19 | `509843_2862478` | EVE Online | **A2** | I4 | VC4 | **Diálogo** | `1/0/2/0` | Não | QI1, QI3, QI5 |
-| 20 | `509843_2862511` | EVE Online | **A2** | I4 | VC4 | **Risco** | `0/1/3/0` | Não | QI2, QI3 |
-| 21 | `509843_2862538` | EVE Online | **A2** | I4 | VC4 | **Risco** | `1/1/4/1` | Não | QI1, QI2, QI3, QI4, QI5 |
-| 22 | `509843_2862462` | EVE Online | **A2** | I4 | VC4 | **Risco** | `1/1/4/1` | Não | QI2, QI3, QI4, QI5 |
-| 23 | `509843_2862521` | EVE Online | **A2** | I4 | VC4 | **Risco** | `1/1/4/1` | Não | QI1, QI2, QI3, QI4, QI5 |
-| 24 | `509843_2862442` | EVE Online | **A2** | I4 | VC4 | **Risco** | `1/1/4/1` | Não | QI1, QI2, QI3, QI4, QI5 |
-| 25 | `510142_2864731` | EVE Online | **A2** | I4 | VC4 | **Risco** | `0/0/3/0` | Não | QI3 |
-| 26 | `510142_2865010` | EVE Online | **A2** | I4 | VC4 | **Risco** | `0/0/4/0` | Não | QI3, QI5 |
-| 27 | `510142_2864663` | EVE Online | **A2** | I4 | VC4 | **Acesso** | `1/1/3/0` | Não | QI1, QI2, QI3, QI5 |
-| 28 | `510142_2864765` | EVE Online | **A2** | I4 | VC4 | **Risco** | `1/1/4/0` | Não | QI2, QI3, QI5 |
-| 29 | `510142_2864760` | EVE Online | **A2** | I4 | VC4 | **Risco** | `1/1/4/0` | Não | QI1, QI2, QI3, QI5 |
-| 30 | `510142_2864627` | EVE Online | **A2** | I4 | VC4 | **Risco** | `1/1/5/1` | Não | QI1, QI2, QI3, QI4, QI5 |
-| 31 | `510142_2864828` | EVE Online | **A2** | I4 | VC4 | **Acesso** | `0/1/3/0` | Não | QI2, QI3, QI5 |
-| 32 | `510142_2864990` | EVE Online | **A2** | I4 | VC4 | **Diálogo** | `1/0/4/0` | Não | QI1, QI3, QI5 |
-| 33 | `510142_2864639` | EVE Online | **A2** | I4 | VC4 | **Risco** | `1/1/4/0` | Não | QI1, QI2, QI3, QI5 |
-| 34 | `510142_2864793` | EVE Online | **A2** | I4 | VC4 | **Risco** | `1/0/3/0` | Não | QI1, QI3, QI5 |
-| 35 | `510142_2864984` | EVE Online | **A2** | I4 | VC4 | **Risco** | `1/1/4/0` | Não | QI2, QI3, QI5 |
-| 36 | `510142_2864742` | EVE Online | **A2** | I4 | VC4 | **Risco** | `1/0/4/0` | Não | QI1, QI3, QI5 |
-| 37 | `510142_2865083` | EVE Online | **A2** | I4 | VC4 | **Risco** | `0/0/3/0` | Não | QI3, QI5 |
-| 38 | `510142_2864986` | EVE Online | **A2** | I4 | VC4 | **Risco** | `1/0/3/0` | Não | QI1, QI3, QI5 |
-| 39 | `510142_2865126` | EVE Online | **A2** | I4 | VC4 | **Diálogo** | `1/0/1/0` | Não | QI1, QI5 |
-| 40 | `510142_2865026` | EVE Online | **A2** | I4 | VC4 | **Acesso** | `0/1/3/1` | Não | QI2, QI3, QI4, QI5 |
-| 41 | `510142_2865070` | EVE Online | **A2** | I4 | VC4 | **Risco** | `0/1/4/0` | Não | QI2, QI3, QI5 |
-| 42 | `510142_2865097` | EVE Online | **A2** | I4 | VC4 | **Risco** | `0/1/3/0` | Não | QI2, QI3 |
-| 43 | `510142_2865148` | EVE Online | **A2** | I4 | VC4 | **Diálogo** | `1/1/2/1` | Não | QI1, QI2, QI4 |
-| 44 | `510142_2864988` | EVE Online | **A2** | I4 | VC4 | **Diálogo** | `1/1/2/0` | Não | QI1, QI2, QI3, QI5 |
-| 45 | `510142_2865154` | EVE Online | **A2** | I4 | VC4 | **Risco** | `1/0/4/1` | Não | QI1, QI3, QI4, QI5 |
-| 46 | `510142_2865044` | EVE Online | **A2** | I4 | VC4 | **Diálogo** | `1/1/2/1` | Não | QI1, QI2, QI3, QI4, QI5 |
-| 47 | `510142_2865117` | EVE Online | **A2** | I4 | VC4 | **Risco** | `0/0/3/0` | Não | QI3, QI5 |
-| 48 | `510142_2865068` | EVE Online | **A2** | I4 | VC4 | **Acesso** | `1/1/3/1` | Não | QI1, QI2, QI3, QI4, QI5 |
-| 49 | `510142_2865155` | EVE Online | **A2** | I4 | VC4 | **Diálogo** | `1/0/3/0` | Não | QI1, QI3, QI5 |
-| 50 | `510142_2865096` | EVE Online | **A2** | I4 | VC4 | **Risco** | `1/1/5/0` | Não | QI2, QI3, QI5 |
-| 51 | `510142_2865107` | EVE Online | **A2** | I4 | VC4 | **Diálogo** | `1/0/3/1` | Não | QI1, QI3, QI4, QI5 |
-| 52 | `510142_2865151` | EVE Online | **A2** | I4 | VC4 | **Transparência** | `1/0/3/1` | Não | QI1, QI4, QI5 |
-| 53 | `510142_2865228` | EVE Online | **A2** | I4 | VC4 | **Risco** | `1/0/4/0` | Não | QI1, QI3, QI5 |
-| 54 | `510142_2865195` | EVE Online | **A2** | I4 | VC4 | **Risco** | `1/0/4/0` | Não | QI1, QI3, QI5 |
-| 55 | `510142_2865024` | EVE Online | **A2** | I4 | VC4 | **Diálogo** | `1/1/2/1` | Não | QI1, QI2, QI3, QI4, QI5 |
-| 56 | `510142_2865257` | EVE Online | **A2** | I4 | VC4 | **Risco** | `0/1/5/0` | Não | QI2, QI3, QI5 |
-| 57 | `510142_2865258` | EVE Online | **A2** | I4 | VC4 | **Risco** | `0/1/5/0` | Não | QI3, QI5 |
-| 58 | `510142_2865200` | EVE Online | **A2** | I4 | VC4 | **Risco** | `1/0/3/0` | Não | QI1, QI3, QI5 |
-| 59 | `510142_2865275` | EVE Online | **A2** | I4 | VC4 | **Risco** | `1/1/4/0` | Não | QI2, QI3, QI5 |
-| 60 | `510142_2865276` | EVE Online | **A2** | I4 | VC4 | **Risco** | `1/1/3/0` | Não | QI2, QI3, QI5 |
-| 61 | `510142_2865267` | EVE Online | **A2** | I4 | VC4 | **Acesso** | `1/1/3/0` | Não | QI1, QI2, QI3, QI5 |
-| 62 | `510142_2865277` | EVE Online | **A2** | I4 | VC4 | **Diálogo** | `1/0/2/0` | Não | QI1, QI3 |
-| 63 | `510142_2865238` | EVE Online | **A2** | I4 | VC4 | **Risco** | `1/1/4/0` | Não | QI1, QI2, QI3, QI5 |
-| 64 | `510142_2865138` | EVE Online | **A2** | I4 | VC4 | **Risco** | `0/0/3/0` | Não | QI3, QI5 |
-| 65 | `510142_2865271` | EVE Online | **A2** | I4 | VC4 | **Risco** | `1/1/5/1` | Não | QI1, QI2, QI3, QI4, QI5 |
-| 66 | `516800_2916241` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 67 | `516800_2916277` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 68 | `516800_2916358` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 69 | `3000003_28811555` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 70 | `516800_2916439` | EVE Online | **A5** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 71 | `3000003_28811597` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
-| 72 | `3000003_28811513` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 73 | `3000003_28811587` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/0/1` | ⚠️ Sim |  |
-| 74 | `516800_2916469` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 75 | `3000003_28811563` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
-| 76 | `495219_2762721` | EVE Online | **A2** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 77 | `503747_2870179` | EVE Online | **A5** | I6 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
-| 78 | `503747_2849615` | EVE Online | **A5** | I4 | VC4 | **Risco** | `2/2/4/2` | ⚠️ Sim |  |
-| 79 | `503747_2846302` | EVE Online | **A5** | I4 | VC4 | **Risco** | `2/2/3/3` | ⚠️ Sim |  |
-| 80 | `516800_2916223` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/1/2/1` | ⚠️ Sim |  |
-| 81 | `503747_2848085` | EVE Online | **A4** | I4 | VC4 | **Risco** | `2/2/3/3` | ⚠️ Sim |  |
-| 82 | `3000003_28811536` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/1` | ⚠️ Sim |  |
-| 83 | `516800_2916401` | EVE Online | **A5** | I4 | VC2 | **Diálogo** | `2/1/1/1` | ⚠️ Sim |  |
-| 84 | `495219_2762734` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `1/2/0/2` | ⚠️ Sim |  |
-| 85 | `495219_2760206` | EVE Online | **A2** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 86 | `495219_2762723` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `1/2/1/1` | ⚠️ Sim |  |
-| 87 | `3000003_28811619` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/1` | ⚠️ Sim |  |
-| 88 | `516800_2916427` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/1/2/0` | ⚠️ Sim |  |
-| 89 | `3000003_28811612` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/3/1` | ⚠️ Sim |  |
-| 90 | `495219_2775726` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `1/2/1/1` | ⚠️ Sim |  |
-| 91 | `495219_2762735` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `1/2/0/1` | ⚠️ Sim |  |
-| 92 | `495219_2780266` | EVE Online | **A2** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
-| 93 | `495219_2786308` | EVE Online | **A5** | I6 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
-| 94 | `474041_2659339` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 95 | `474041_2659353` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 96 | `509843_2862127` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 97 | `509843_2862439` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 98 | `509843_2862438` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 99 | `509843_2862433` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 100 | `474041_2659388` | EVE Online | **A2** | I5 | VC4 | **Risco** | `1/1/2/1` | ⚠️ Sim |  |
-| 101 | `509843_2862445` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 102 | `474041_2659324` | EVE Online | **A5** | I4 | VC3 | **Risco** | `1/1/4/3` | ⚠️ Sim |  |
-| 103 | `474041_2659344` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/2/1` | ⚠️ Sim |  |
-| 104 | `509843_2862440` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 105 | `509843_2862443` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 106 | `509843_2862476` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 107 | `509843_2862452` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 108 | `509843_2862444` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 109 | `509843_2862472` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 110 | `509843_2862447` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 111 | `509843_2862500` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 112 | `509843_2862436` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 113 | `509843_2862454` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 114 | `509843_2862489` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 115 | `2324507_2324507_1` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/1/4/2` | ⚠️ Sim |  |
-| 116 | `2324507_2324507_6` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/1` | ⚠️ Sim |  |
-| 117 | `2324507_2324507_17` | World of Warcraft | **A2** | I6 | VC4 | **Risco** | `0/2/5/0` | ⚠️ Sim |  |
-| 118 | `509843_2862461` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 119 | `2324507_2324507_3` | World of Warcraft | **A2** | I4 | VC3 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
-| 120 | `2324507_2324507_4` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/2/2` | ⚠️ Sim |  |
-| 121 | `2324507_2324507_14` | World of Warcraft | **A2** | I4 | VC3 | **Risco** | `0/1/3/0` | ⚠️ Sim |  |
-| 122 | `2324507_2324507_12` | World of Warcraft | **A2** | I4 | VC3 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
-| 123 | `2324507_2324507_10` | World of Warcraft | **A2** | I5 | VC3 | **Risco** | `0/1/3/1` | ⚠️ Sim |  |
-| 124 | `2324507_2324507_18` | World of Warcraft | **A2** | I4 | VC3 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
-| 125 | `2324507_2324507_5` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/1` | ⚠️ Sim |  |
-| 126 | `509843_2862528` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 127 | `509843_2862524` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 128 | `2324507_2324507_16` | World of Warcraft | **A2** | I5 | VC3 | **Risco** | `0/2/4/0` | ⚠️ Sim |  |
-| 129 | `2324507_2324507_13` | World of Warcraft | **A2** | I4 | VC3 | **Risco** | `0/0/3/2` | ⚠️ Sim |  |
-| 130 | `509843_2862548` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 131 | `509843_2862533` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 132 | `509843_2862536` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 133 | `509843_2862446` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 134 | `509843_2862530` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 135 | `509843_2862435` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 136 | `509843_2862488` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 137 | `509843_2862546` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 138 | `509843_2862453` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 139 | `509843_2862458` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 140 | `509843_2862508` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 141 | `509843_2862499` | EVE Online | **A5** | I6 | VC4 | **Risco** | `1/0/3/1` | ⚠️ Sim |  |
-| 142 | `509843_2862512` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/1/2/0` | ⚠️ Sim |  |
-| 143 | `509843_2862514` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 144 | `509843_2862541` | EVE Online | **A6** | I6 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
-| 145 | `509843_2862552` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 146 | `508618_2852738` | EVE Online | **A3** | I4 | VC3 | **Risco** | `0/1/3/1` | ⚠️ Sim |  |
-| 147 | `508618_2852746` | EVE Online | **A2** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 148 | `508618_2852744` | EVE Online | **A2** | I4 | VC3 | **Risco** | `0/1/3/2` | ⚠️ Sim |  |
-| 149 | `508618_2853278` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 150 | `508618_2852769` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/1` | ⚠️ Sim |  |
-| 151 | `508618_2852747` | EVE Online | **A2** | I4 | VC4 | **Risco** | `0/0/1/1` | ⚠️ Sim |  |
-| 152 | `508618_2852763` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/1` | ⚠️ Sim |  |
-| 153 | `508618_2852870` | EVE Online | **A3** | I4 | VC4 | **Risco** | `2/0/3/2` | ⚠️ Sim |  |
-| 154 | `508618_2852879` | EVE Online | **A5** | I4 | VC4 | **Risco** | `2/1/3/2` | ⚠️ Sim |  |
-| 155 | `508618_2852872` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/1/4/1` | ⚠️ Sim |  |
-| 156 | `508618_2852888` | EVE Online | **A5** | I4 | VC4 | **Risco** | `2/2/3/2` | ⚠️ Sim |  |
-| 157 | `508618_2852882` | EVE Online | **A3** | I4 | VC3 | **Risco** | `1/2/4/3` | ⚠️ Sim |  |
-| 158 | `508618_2852986` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/1` | ⚠️ Sim |  |
-| 159 | `508618_2852886` | EVE Online | **A2** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
-| 160 | `508618_2852990` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
-| 161 | `508618_2852884` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `3/1/2/3` | ⚠️ Sim |  |
-| 162 | `508618_2853066` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/1` | ⚠️ Sim |  |
-| 163 | `508618_2852979` | EVE Online | **A5** | I4 | VC4 | **Risco** | `2/1/3/3` | ⚠️ Sim |  |
-| 164 | `508618_2853073` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/1/2/1` | ⚠️ Sim |  |
-| 165 | `508618_2853072` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `3/0/2/3` | ⚠️ Sim |  |
-| 166 | `508618_2853081` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/3/2` | ⚠️ Sim |  |
-| 167 | `508618_2853090` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/1/2/2` | ⚠️ Sim |  |
-| 168 | `508618_2853260` | EVE Online | **A2** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
-| 169 | `508618_2853222` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/0` | ⚠️ Sim |  |
-| 170 | `508618_2853371` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/0/1/1` | ⚠️ Sim |  |
-| 171 | `508618_2853405` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/1` | ⚠️ Sim |  |
-| 172 | `508618_2859322` | EVE Online | **A2** | I5 | VC3 | **Risco** | `0/1/3/2` | ⚠️ Sim |  |
-| 173 | `508618_2859779` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/0/2/1` | ⚠️ Sim |  |
-| 174 | `508618_2860002` | EVE Online | **A2** | I4 | VC4 | **Acesso** | `0/1/1/0` | ⚠️ Sim |  |
-| 175 | `508618_2859488` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/0` | ⚠️ Sim |  |
-| 176 | `508618_2860079` | EVE Online | **A2** | I6 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
-| 177 | `508618_2860149` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/0/2/1` | ⚠️ Sim |  |
-| 178 | `508618_2860152` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
-| 179 | `510142_2864643` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 180 | `510142_2865007` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 181 | `510142_2865145` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 182 | `510142_2865086` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 183 | `481937_2697159` | EVE Online | **A2** | I6 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 184 | `510142_2865000` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/1/1` | ⚠️ Sim |  |
-| 185 | `510142_2864998` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/0/2/0` | ⚠️ Sim |  |
-| 186 | `481937_2697157` | EVE Online | **A2** | I5 | VC3 | **Risco** | `0/2/3/0` | ⚠️ Sim |  |
-| 187 | `833872096657547947_833872096657547947_7` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/1/2/1` | ⚠️ Sim |  |
-| 188 | `833872096657547947_833872096657547947_4` | EVE Online | **A5** | I4 | VC3 | **Risco** | `0/0/3/2` | ⚠️ Sim |  |
-| 189 | `833872096657547947_833872096657547947_1` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/1/3/3` | ⚠️ Sim |  |
-| 190 | `833872096657547947_833872096657547947_8` | EVE Online | **A5** | I4 | VC3 | **Risco** | `1/1/4/3` | ⚠️ Sim |  |
-| 191 | `589559717132767735_589559717132767735_2` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 192 | `589559717132767735_589559717132767735_1` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/1/4/2` | ⚠️ Sim |  |
-| 193 | `589559717132767735_589559717132767735_4` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/1/2/0` | ⚠️ Sim |  |
-| 194 | `589559717132766752_589559717132766752_3` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/2/3/1` | ⚠️ Sim |  |
-| 195 | `589559717132766752_589559717132766752_2` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/1/3/2` | ⚠️ Sim |  |
-| 196 | `589559717132766752_589559717132766752_1` | EVE Online | **A5** | I4 | VC3 | **Risco** | `1/2/4/2` | ⚠️ Sim |  |
-| 197 | `589559717132766752_589559717132766752_5` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/2/4/3` | ⚠️ Sim |  |
-| 198 | `589559717132766752_589559717132766752_6` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/2/3/2` | ⚠️ Sim |  |
-| 199 | `492935_2751948` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `0/5/0/0` | ⚠️ Sim |  |
-| 200 | `492935_2749988` | EVE Online | **A5** | I4 | VC2 | **Acesso** | `1/3/1/2` | ⚠️ Sim |  |
-| 201 | `506798_2840433` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 202 | `483348_2703719` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 203 | `496432_2766672` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
-| 204 | `492935_2750075` | EVE Online | **A5** | I4 | VC3 | **Risco** | `1/1/3/2` | ⚠️ Sim |  |
-| 205 | `506798_2839801` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/4/0` | ⚠️ Sim |  |
-| 206 | `492935_2750140` | EVE Online | **A5** | I4 | VC2 | **Acesso** | `2/4/2/2` | ⚠️ Sim |  |
-| 207 | `492935_2750146` | EVE Online | **A5** | I4 | VC3 | **Risco** | `2/1/3/1` | ⚠️ Sim |  |
-| 208 | `492935_2750230` | EVE Online | **A5** | I4 | VC3 | **Risco** | `2/1/3/2` | ⚠️ Sim |  |
-| 209 | `506798_2840399` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `0/2/0/0` | ⚠️ Sim |  |
-| 210 | `506798_2840203` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 211 | `492935_2750257` | EVE Online | **A5** | I4 | VC3 | **Diálogo** | `3/2/3/2` | ⚠️ Sim |  |
-| 212 | `496432_2766660` | EVE Online | **A5** | I4 | VC3 | **Transparência** | `2/2/2/3` | ⚠️ Sim |  |
-| 213 | `496432_2766656` | EVE Online | **A4** | I2 | VC2 | **Acesso** | `1/3/2/2` | ⚠️ Sim |  |
-| 214 | `506798_2839784` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `1/1/3/4` | ⚠️ Sim |  |
-| 215 | `496432_2766677` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/1` | ⚠️ Sim |  |
-| 216 | `506798_2840405` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
-| 217 | `483348_2703718` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/0` | ⚠️ Sim |  |
-| 218 | `506798_2839756` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `2/3/2/4` | ⚠️ Sim |  |
-| 219 | `506798_2839765` | EVE Online | **A5** | I4 | VC3 | **Risco** | `1/0/3/2` | ⚠️ Sim |  |
-| 220 | `506798_2839874` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/1/2/2` | ⚠️ Sim |  |
-| 221 | `506798_2839908` | EVE Online | **A5** | I4 | VC3 | **Risco** | `1/1/2/1` | ⚠️ Sim |  |
-| 222 | `506798_2839900` | EVE Online | **A5** | I4 | VC2 | **Acesso** | `1/3/0/1` | ⚠️ Sim |  |
-| 223 | `506798_2840415` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `1/1/2/4` | ⚠️ Sim |  |
-| 224 | `506798_2839830` | EVE Online | **A5** | I4 | VC2 | **Acesso** | `1/2/1/1` | ⚠️ Sim |  |
-| 225 | `reddit_1sf61mq_11` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/2` | ⚠️ Sim |  |
-| 226 | `506798_2840454` | EVE Online | **A5** | I4 | VC2 | **Diálogo** | `3/3/2/2` | ⚠️ Sim |  |
-| 227 | `516921_2921717` | EVE Online | **A5** | I4 | VC3 | **Risco** | `1/1/3/2` | ⚠️ Sim |  |
-| 228 | `516921_2922163` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/2/2/2` | ⚠️ Sim |  |
-| 229 | `2257438_28913780` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 230 | `512939_2886552` | EVE Online | **A1** | I1 | VC3 | **Diálogo** | `3/3/2/2` | ⚠️ Sim |  |
-| 231 | `2257438_28913782` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 232 | `512939_2888287` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `1/3/1/2` | ⚠️ Sim |  |
-| 233 | `2257438_28913757` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | Não |  |
-| 234 | `reddit_1rg6iqz_6` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/1/2` | ⚠️ Sim |  |
-| 235 | `reddit_1rg6iqz_1` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/1/2` | ⚠️ Sim |  |
-| 236 | `2257438_28916305` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 237 | `2257438_28913683` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/1/1` | ⚠️ Sim |  |
-| 238 | `reddit_1p38i14_1` | World of Warcraft | **A4** | I1 | VC1 | **Diálogo** | `3/3/0/1` | ⚠️ Sim |  |
-| 239 | `2257438_28916344` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/0/0` | ⚠️ Sim |  |
-| 240 | `reddit_1p38i14_8` | World of Warcraft | **A1** | I3 | VC2 | **Diálogo** | `3/3/2/2` | ⚠️ Sim |  |
-| 241 | `2257438_28913705` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/2/1` | ⚠️ Sim |  |
-| 242 | `2338781_29917137` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 243 | `reddit_1p38i14_10` | World of Warcraft | **A4** | I1 | VC2 | **Diálogo** | `3/3/1/2` | ⚠️ Sim |  |
-| 244 | `2257438_28913744` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `2/1/3/2` | ⚠️ Sim |  |
-| 245 | `2257438_28921050` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `2/0/4/0` | ⚠️ Sim |  |
-| 246 | `2257438_28913792` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/1` | ⚠️ Sim |  |
-| 247 | `2257438_28913793` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
-| 248 | `2248893_28811596` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/4/0/0` | ⚠️ Sim |  |
-| 249 | `2257438_28913871` | World of Warcraft | **A5** | I4 | VC2 | **Acesso** | `1/2/0/1` | ⚠️ Sim |  |
-| 250 | `2257438_28918588` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/1/0` | ⚠️ Sim |  |
-| 251 | `2257438_28918380` | World of Warcraft | **A4** | I1 | VC2 | **Acesso** | `2/3/1/0` | ⚠️ Sim |  |
-| 252 | `2257438_28919908` | World of Warcraft | **A5** | I4 | VC2 | **Acesso** | `3/4/1/2` | ⚠️ Sim |  |
-| 253 | `2257438_28920555` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/1` | ⚠️ Sim |  |
-| 254 | `2257438_28918493` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/1/3/2` | ⚠️ Sim |  |
-| 255 | `2257438_28920202` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
-| 256 | `2176376_27854651` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
-| 257 | `2248893_28813627` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 258 | `2257438_28920987` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/1/3/1` | ⚠️ Sim |  |
-| 259 | `2248893_28811664` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/0/0` | ⚠️ Sim |  |
-| 260 | `2257438_28921486` | World of Warcraft | **A5** | I4 | VC2 | **Acesso** | `2/3/1/1` | ⚠️ Sim |  |
-| 261 | `2108142_26921690` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/2/4/3` | ⚠️ Sim |  |
-| 262 | `2248893_28811587` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/1/1/2` | ⚠️ Sim |  |
-| 263 | `2248893_28811791` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/1` | ⚠️ Sim |  |
-| 264 | `2248893_28811578` | World of Warcraft | **A5** | I4 | VC2 | **Acesso** | `1/2/2/0` | ⚠️ Sim |  |
-| 265 | `2248893_28811778` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
-| 266 | `2300167_29414902` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
-| 267 | `2248893_28811780` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/1/0` | ⚠️ Sim |  |
-| 268 | `2248893_28812662` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/3/3` | ⚠️ Sim |  |
-| 269 | `2248893_28812020` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
-| 270 | `2248893_28812411` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/0` | ⚠️ Sim |  |
-| 271 | `2248893_28812051` | World of Warcraft | **A5** | I4 | VC2 | **Acesso** | `1/2/2/1` | ⚠️ Sim |  |
-| 272 | `2248893_28812120` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/0` | ⚠️ Sim |  |
-| 273 | `2108142_26921376` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/0` | ⚠️ Sim |  |
-| 274 | `2108142_26921650` | World of Warcraft | **A5** | I4 | VC2 | **Acesso** | `0/2/1/0` | ⚠️ Sim |  |
-| 275 | `2108142_26921767` | World of Warcraft | **A5** | I4 | VC2 | **Acesso** | `1/2/1/0` | ⚠️ Sim |  |
-| 276 | `2320601_29686369` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 277 | `2320601_29692500` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 278 | `2176376_27854960` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 279 | `2108142_26933143` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/0/2/1` | ⚠️ Sim |  |
-| 280 | `2320601_29702464` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 281 | `2320601_29686412` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | Não |  |
-| 282 | `2300167_29415623` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/0/3/1` | ⚠️ Sim |  |
-| 283 | `2300167_29417443` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/4/1` | ⚠️ Sim |  |
-| 284 | `2320601_29700590` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/0/0` | ⚠️ Sim |  |
-| 285 | `2300167_29418380` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/2` | ⚠️ Sim |  |
-| 286 | `2300167_29421251` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/3/3` | ⚠️ Sim |  |
-| 287 | `2300167_29418895` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/2/3/1` | ⚠️ Sim |  |
-| 288 | `2320601_29686669` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/3/2` | ⚠️ Sim |  |
-| 289 | `2320601_29686401` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/2/2` | ⚠️ Sim |  |
-| 290 | `2320601_29686571` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/1` | ⚠️ Sim |  |
-| 291 | `2320601_29687388` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/2` | ⚠️ Sim |  |
-| 292 | `2320601_29702454` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/0/1` | ⚠️ Sim |  |
-| 293 | `2171055_27776973` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 294 | `2171055_27777452` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/0/0` | ⚠️ Sim |  |
-| 295 | `2171055_27777008` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/2/3` | ⚠️ Sim |  |
-| 296 | `2171055_27776960` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `2/1/3/3` | ⚠️ Sim |  |
-| 297 | `2171055_27776967` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/1/1` | ⚠️ Sim |  |
-| 298 | `2171055_27777020` | World of Warcraft | **A2** | I4 | VC4 | **Risco** | `0/1/2/1` | ⚠️ Sim |  |
-| 299 | `2171055_27778915` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/1` | ⚠️ Sim |  |
-| 300 | `2171055_27777035` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/2/3` | ⚠️ Sim |  |
-| 301 | `2171055_27776984` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/2` | ⚠️ Sim |  |
-| 302 | `2171055_27777039` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/1/2` | ⚠️ Sim |  |
-| 303 | `2171055_27777017` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/1/0` | ⚠️ Sim |  |
-| 304 | `2171055_27777967` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/1` | ⚠️ Sim |  |
-| 305 | `2171055_27779059` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 306 | `2171055_27777341` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
-| 307 | `2171055_27777272` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 308 | `2171055_27777979` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 309 | `2171055_27777225` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/0/1` | ⚠️ Sim |  |
-| 310 | `2171055_27777045` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/0/2/1` | ⚠️ Sim |  |
-| 311 | `2171055_27778598` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 312 | `2171055_27777640` | World of Warcraft | **A2** | I5 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 313 | `2171055_27782333` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
-| 314 | `2171055_27777630` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/1` | ⚠️ Sim |  |
-| 315 | `2171055_27778551` | World of Warcraft | **A5** | I6 | VC4 | **Diálogo** | `1/0/0/0` | ⚠️ Sim |  |
-| 316 | `2171055_27778362` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/1/1` | ⚠️ Sim |  |
-| 317 | `2171055_27778603` | World of Warcraft | **A5** | I6 | VC4 | **Transparência** | `0/0/1/2` | ⚠️ Sim |  |
-| 318 | `2171055_27778944` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/1/2` | ⚠️ Sim |  |
-| 319 | `2171055_27779900` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/0/1/1` | ⚠️ Sim |  |
-| 320 | `2171055_27781203` | World of Warcraft | **A5** | I4 | VC2 | **Diálogo** | `2/1/0/1` | ⚠️ Sim |  |
-| 321 | `2171055_27779093` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `2/0/2/3` | ⚠️ Sim |  |
-| 322 | `2171055_27781079` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/0/1/1` | ⚠️ Sim |  |
-| 323 | `2171055_27781426` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
-| 324 | `2171055_27781272` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 325 | `2159913_27627599` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | Não |  |
-| 326 | `reddit_1tdr4z8_8` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 327 | `reddit_1tdr4z8_3` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/1/4` | ⚠️ Sim |  |
-| 328 | `reddit_1tdr4z8_7` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/1` | ⚠️ Sim |  |
-| 329 | `reddit_1rq35g3_1` | World of Warcraft | **A1** | I3 | VC2 | **Diálogo** | `3/3/0/1` | ⚠️ Sim |  |
-| 330 | `reddit_1tdr4z8_1` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/1/2` | ⚠️ Sim |  |
-| 331 | `2159913_27643699` | World of Warcraft | **A2** | I4 | VC4 | **Acesso** | `0/2/2/1` | ⚠️ Sim |  |
-| 332 | `2314701_29616313` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 333 | `2332259_29840643` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 334 | `reddit_1nvtk44_4` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/1/2` | ⚠️ Sim |  |
-| 335 | `2147065_27455593` | World of Warcraft | **A1** | I2 | VC3 | **Diálogo** | `1/1/0/1` | ⚠️ Sim |  |
-| 336 | `reddit_1rq35g3_13` | World of Warcraft | **A1** | I5 | VC3 | **Risco** | `0/1/2/1` | ⚠️ Sim |  |
-| 337 | `reddit_1nvtk44_15` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/2/3` | ⚠️ Sim |  |
-| 338 | `2147065_27456463` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/0/2` | ⚠️ Sim |  |
-| 339 | `reddit_1nvtk44_8` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/1/2/3` | ⚠️ Sim |  |
-| 340 | `reddit_1nvtk44_7` | World of Warcraft | **A5** | I4 | VC3 | **Transparência** | `1/1/2/3` | ⚠️ Sim |  |
-| 341 | `reddit_1nvtk44_1` | World of Warcraft | **A5** | I4 | VC3 | **Transparência** | `1/0/2/3` | ⚠️ Sim |  |
-| 342 | `2314701_29618262` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/2` | ⚠️ Sim |  |
-| 343 | `2147065_27456379` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/3/1` | ⚠️ Sim |  |
-| 344 | `2147065_27455636` | World of Warcraft | **A5** | I4 | VC3 | **Acesso** | `1/2/2/2` | ⚠️ Sim |  |
-| 345 | `2314701_29618597` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/3/2` | ⚠️ Sim |  |
-| 346 | `2147065_27456279` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 347 | `2147065_27455652` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/1/2` | ⚠️ Sim |  |
-| 348 | `2147065_27455760` | World of Warcraft | **A5** | I4 | VC3 | **Diálogo** | `3/2/2/3` | ⚠️ Sim |  |
-| 349 | `2147065_27455776` | World of Warcraft | **A5** | I4 | VC3 | **Diálogo** | `3/1/2/3` | ⚠️ Sim |  |
-| 350 | `2147065_27455800` | World of Warcraft | **A5** | I4 | VC3 | **Acesso** | `2/3/2/3` | ⚠️ Sim |  |
-| 351 | `2147065_27455793` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/2/1` | ⚠️ Sim |  |
-| 352 | `2147065_27455823` | World of Warcraft | **A5** | I4 | VC3 | **Transparência** | `1/2/2/3` | ⚠️ Sim |  |
-| 353 | `2147065_27456221` | World of Warcraft | **A5** | I4 | VC3 | **Transparência** | `2/1/2/3` | ⚠️ Sim |  |
-| 354 | `2147065_27456038` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `2/1/2/3` | ⚠️ Sim |  |
-| 355 | `2147065_27456240` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/1/3/3` | ⚠️ Sim |  |
-| 356 | `2147065_27456598` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/1/3/3` | ⚠️ Sim |  |
-| 357 | `reddit_1snmfut_6` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/1` | ⚠️ Sim |  |
-| 358 | `reddit_1s5tj3u_1` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 359 | `2147065_27456449` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/1/2` | ⚠️ Sim |  |
-| 360 | `reddit_1snmfut_1` | World of Warcraft | **A1** | I3 | VC2 | **Diálogo** | `3/3/1/1` | ⚠️ Sim |  |
-| 361 | `reddit_1snmfut_11` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/2/3/2` | ⚠️ Sim |  |
-| 362 | `reddit_1snmfut_2` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `2/2/3/1` | ⚠️ Sim |  |
-| 363 | `2308441_29521622` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
-| 364 | `reddit_1snmfut_8` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/3/3` | ⚠️ Sim |  |
-| 365 | `reddit_1snmfut_19` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/1/1/2` | ⚠️ Sim |  |
-| 366 | `2308441_29521682` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
-| 367 | `reddit_1snmfut_17` | World of Warcraft | **A1** | I3 | VC3 | **Diálogo** | `3/2/2/1` | ⚠️ Sim |  |
-| 368 | `2308441_29521746` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `4/0/0/0` | ⚠️ Sim |  |
-| 369 | `reddit_1snmfut_13` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/1/3/3` | ⚠️ Sim |  |
-| 370 | `reddit_1snmfut_16` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/1/2/1` | ⚠️ Sim |  |
-| 371 | `2308441_29521809` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/0/0` | ⚠️ Sim |  |
-| 372 | `2308441_29521635` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/0/0` | ⚠️ Sim |  |
-| 373 | `2308441_29522321` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/0/0` | ⚠️ Sim |  |
-| 374 | `2308441_29521928` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 375 | `2308441_29521595` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/0/1` | ⚠️ Sim |  |
-| 376 | `2308441_29521669` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
-| 377 | `2308441_29521636` | World of Warcraft | **A1** | I1 | VC2 | **Acesso** | `1/2/2/1` | ⚠️ Sim |  |
-| 378 | `2308441_29521795` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/0/1/0` | ⚠️ Sim |  |
-| 379 | `2308441_29521689` | World of Warcraft | **A5** | I4 | VC2 | **Acesso** | `2/3/2/1` | ⚠️ Sim |  |
-| 380 | `2308441_29521862` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/2/1/1` | ⚠️ Sim |  |
-| 381 | `2308441_29522269` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `4/2/0/0` | ⚠️ Sim |  |
-| 382 | `2308441_29521857` | World of Warcraft | **A5** | I4 | VC3 | **Diálogo** | `2/1/2/1` | ⚠️ Sim |  |
-| 383 | `2308441_29521868` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
-| 384 | `2308441_29521875` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/3/1` | ⚠️ Sim |  |
-| 385 | `2308441_29521980` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/1/0` | ⚠️ Sim |  |
-| 386 | `2308441_29522148` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/3/1` | ⚠️ Sim |  |
-| 387 | `2308441_29522068` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/1/0` | ⚠️ Sim |  |
-| 388 | `2308441_29522061` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/2/1` | ⚠️ Sim |  |
-| 389 | `2336820_29896313` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 390 | `2308441_29522283` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/2/4/1` | ⚠️ Sim |  |
-| 391 | `2308441_29522325` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/1/3/3` | ⚠️ Sim |  |
-| 392 | `2308441_29522157` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/1` | ⚠️ Sim |  |
-| 393 | `2308441_29522338` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/1/3/3` | ⚠️ Sim |  |
-| 394 | `2318118_29656800` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/2` | ⚠️ Sim |  |
-| 395 | `2318118_29656965` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/2/5` | ⚠️ Sim |  |
-| 396 | `2318118_29656397` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/2/2` | ⚠️ Sim |  |
-| 397 | `2336820_29907751` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 398 | `2318118_29656876` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/0/1/2` | ⚠️ Sim |  |
-| 399 | `2318118_29655457` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
-| 400 | `2318118_29657331` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/2` | ⚠️ Sim |  |
-| 401 | `2318118_29657675` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `2/2/3/3` | ⚠️ Sim |  |
-| 402 | `2318118_29658471` | World of Warcraft | **A1** | I3 | VC1 | **Diálogo** | `3/3/2/3` | ⚠️ Sim |  |
-| 403 | `2318118_29657985` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/1/1` | ⚠️ Sim |  |
-| 404 | `2318118_29658639` | World of Warcraft | **A4** | I4 | VC2 | **Acesso** | `2/3/3/3` | ⚠️ Sim |  |
-| 405 | `2180159_28321012` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/0` | ⚠️ Sim |  |
-| 406 | `2318118_29658663` | World of Warcraft | **A5** | I4 | VC3 | **Transparência** | `1/1/2/3` | ⚠️ Sim |  |
-| 407 | `2318118_29658668` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/2/2` | ⚠️ Sim |  |
-| 408 | `2180159_27921755` | World of Warcraft | **A1** | I2 | VC3 | **Diálogo** | `2/1/2/2` | ⚠️ Sim |  |
-| 409 | `2180159_27956316` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/2` | ⚠️ Sim |  |
-| 410 | `2336820_29940449` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/2` | ⚠️ Sim |  |
-| 411 | `reddit_11kumll_2` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/0/0` | ⚠️ Sim |  |
-| 412 | `1772220_22621640` | World of Warcraft | **A2** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
-| 413 | `1772220_22621912` | World of Warcraft | **A2** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
-| 414 | `1772220_22621705` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
-| 415 | `1772220_22621864` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/3/2` | ⚠️ Sim |  |
-| 416 | `1772220_22621672` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
-| 417 | `1772220_22622376` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/3/0` | ⚠️ Sim |  |
-| 418 | `1772220_22621656` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/0` | ⚠️ Sim |  |
-| 419 | `1772220_22621631` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/3/0` | ⚠️ Sim |  |
-| 420 | `reddit_1tvlpnw_1` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/2/1` | ⚠️ Sim |  |
-| 421 | `1772220_22621720` | World of Warcraft | **A2** | I6 | VC4 | **Risco** | `0/0/4/0` | ⚠️ Sim |  |
-| 422 | `1772220_22621666` | World of Warcraft | **A2** | I4 | VC4 | **Risco** | `1/0/3/1` | ⚠️ Sim |  |
-| 423 | `497087_2771352` | EVE Online | **A3** | I4 | VC4 | **Acesso** | `0/3/1/2` | ⚠️ Sim |  |
-| 424 | `reddit_1tvlpnw_2` | World of Warcraft | **A3** | I4 | VC4 | **Acesso** | `0/2/1/0` | ⚠️ Sim |  |
-| 425 | `510327_2866434` | EVE Online | **A1** | I4 | VC2 | **Diálogo** | `3/2/0/2` | ⚠️ Sim |  |
-| 426 | `510327_2870703` | EVE Online | **A1** | I3 | VC1 | **Diálogo** | `4/3/1/3` | ⚠️ Sim |  |
-| 427 | `510327_2870225` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 428 | `510327_2868880` | EVE Online | **A1** | I3 | VC2 | **Acesso** | `3/4/1/2` | ⚠️ Sim |  |
-| 429 | `1772220_22622499` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/5/0` | ⚠️ Sim |  |
-| 430 | `510327_2867490` | EVE Online | **A1** | I3 | VC3 | **Diálogo** | `3/2/2/2` | ⚠️ Sim |  |
-| 431 | `510327_2871002` | EVE Online | **A1** | I3 | VC2 | **Diálogo** | `4/3/1/3` | ⚠️ Sim |  |
-| 432 | `510327_2870508` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `3/2/1/1` | ⚠️ Sim |  |
-| 433 | `510327_2866456` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/2/1/0` | ⚠️ Sim |  |
-| 434 | `510327_2866379` | EVE Online | **A1** | I3 | VC2 | **Transparência** | `4/3/0/5` | ⚠️ Sim |  |
-| 435 | `510327_2867289` | EVE Online | **A4** | I4 | VC4 | **Acesso** | `2/3/3/3` | ⚠️ Sim |  |
-| 436 | `510327_2886529` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 437 | `510327_2903556` | EVE Online | **A1** | I4 | VC4 | **Acesso** | `0/2/0/1` | ⚠️ Sim |  |
-| 438 | `510327_2876670` | EVE Online | **A1** | I3 | VC2 | **Diálogo** | `4/3/1/2` | ⚠️ Sim |  |
-| 439 | `510327_2890391` | EVE Online | **A3** | I4 | VC4 | **Diálogo** | `2/2/1/1` | ⚠️ Sim |  |
-| 440 | `510327_2886776` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `3/1/0/1` | ⚠️ Sim |  |
-| 441 | `510327_2904642` | EVE Online | **A5** | I6 | VC4 | **Transparência** | `2/1/0/3` | ⚠️ Sim |  |
-| 442 | `510327_2904549` | EVE Online | **A4** | I4 | VC2 | **Diálogo** | `3/2/0/2` | ⚠️ Sim |  |
-| 443 | `510327_2881699` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/2/1/1` | ⚠️ Sim |  |
-| 444 | `510327_2866108` | EVE Online | **A5** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 445 | `510327_2885369` | EVE Online | **A1** | I3 | VC3 | **Diálogo** | `3/2/3/1` | ⚠️ Sim |  |
-| 446 | `510327_2888472` | EVE Online | **A1** | I3 | VC3 | **Risco** | `3/2/4/2` | ⚠️ Sim |  |
-| 447 | `510327_2884891` | EVE Online | **A1** | I3 | VC3 | **Diálogo** | `3/2/3/2` | ⚠️ Sim |  |
-| 448 | `510327_2889849` | EVE Online | **A1** | I3 | VC2 | **Acesso** | `3/4/1/2` | ⚠️ Sim |  |
-| 449 | `510327_2889240` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `2/3/2/4` | ⚠️ Sim |  |
-| 450 | `510327_2898315` | EVE Online | **A1** | I3 | VC2 | **Diálogo** | `4/3/1/3` | ⚠️ Sim |  |
-| 451 | `510327_2881498` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `3/2/1/2` | ⚠️ Sim |  |
-| 452 | `510327_2904666` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/0/0/0` | ⚠️ Sim |  |
-| 453 | `510327_2908560` | EVE Online | **A1** | I3 | VC2 | **Diálogo** | `4/2/0/3` | ⚠️ Sim |  |
-| 454 | `510327_2886340` | EVE Online | **A1** | I3 | VC3 | **Acesso** | `2/3/3/2` | ⚠️ Sim |  |
-| 455 | `510327_2909405` | EVE Online | **A1** | I3 | VC1 | **Diálogo** | `4/2/0/2` | ⚠️ Sim |  |
-| 456 | `510327_2890288` | EVE Online | **A2** | I1 | VC4 | **Acesso** | `1/2/2/1` | ⚠️ Sim |  |
-| 457 | `510327_2911276` | EVE Online | **A1** | I3 | VC2 | **Diálogo** | `4/3/1/4` | ⚠️ Sim |  |
-| 458 | `510327_2903732` | EVE Online | **A1** | I3 | VC2 | **Diálogo** | `4/4/2/3` | ⚠️ Sim |  |
-| 459 | `reddit_1t939or_6` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
-| 460 | `reddit_1t939or_1` | World of Warcraft | **A4** | I1 | VC4 | **Acesso** | `2/3/3/1` | ⚠️ Sim |  |
-| 461 | `reddit_1spdcd4_2` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/3/1/1` | ⚠️ Sim |  |
-| 462 | `reddit_1t939or_7` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
-| 463 | `reddit_1r77r09_3` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/2` | ⚠️ Sim |  |
-| 464 | `510327_2904437` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `2/3/1/3` | ⚠️ Sim |  |
-| 465 | `reddit_1t939or_2` | World of Warcraft | **A1** | I4 | VC4 | **Risco** | `0/3/4/2` | Não |  |
-| 466 | `reddit_1t939or_8` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/2/2/1` | ⚠️ Sim |  |
-| 467 | `reddit_1t939or_10` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
-| 468 | `reddit_1t939or_5` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | Não |  |
-| 469 | `510327_2913345` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `3/2/1/3` | ⚠️ Sim |  |
-| 470 | `reddit_1t939or_11` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/2/3/1` | ⚠️ Sim |  |
-| 471 | `reddit_1t939or_12` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/2/3/0` | ⚠️ Sim |  |
-| 472 | `510327_2913288` | EVE Online | **A1** | I3 | VC1 | **Diálogo** | `5/4/2/5` | ⚠️ Sim |  |
-| 473 | `reddit_1t939or_3` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/2/3/1` | ⚠️ Sim |  |
-| 474 | `2116712_27043000` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
-| 475 | `2116712_27043141` | World of Warcraft | **A2** | I4 | VC3 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
-| 476 | `510327_2901203` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `2/3/2/3` | ⚠️ Sim |  |
-| 477 | `2116712_27042883` | World of Warcraft | **A2** | I5 | VC3 | **Risco** | `0/0/5/1` | ⚠️ Sim |  |
-| 478 | `2116712_27043068` | World of Warcraft | **A2** | I4 | VC3 | **Risco** | `0/0/4/1` | ⚠️ Sim |  |
-| 479 | `510327_2913382` | EVE Online | **A3** | I6 | VC4 | **Transparência** | `0/1/0/2` | ⚠️ Sim |  |
-| 480 | `reddit_1r77s3x_2` | World of Warcraft | **A5** | I6 | VC4 | **Transparência** | `0/0/1/2` | ⚠️ Sim |  |
-| 481 | `510327_2920351` | EVE Online | **A1** | I3 | VC1 | **Diálogo** | `5/3/1/2` | ⚠️ Sim |  |
-| 482 | `510327_2913292` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `3/2/2/3` | ⚠️ Sim |  |
-| 483 | `2116712_27042848` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/3/5/1` | Não |  |
-| 484 | `502655_2829997` | EVE Online | **A1** | I2 | VC2 | **Acesso** | `1/3/0/2` | ⚠️ Sim |  |
-| 485 | `510327_2912893` | EVE Online | **A1** | I3 | VC2 | **Diálogo** | `5/4/2/5` | ⚠️ Sim |  |
-| 486 | `reddit_1r77s3x_20` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/3` | ⚠️ Sim |  |
-| 487 | `reddit_1r77s3x_10` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/1/3` | ⚠️ Sim |  |
-| 488 | `reddit_1r77s3x_8` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/3/0` | Não |  |
-| 489 | `reddit_1spdcd4_1` | World of Warcraft | **A5** | I6 | VC4 | **Acesso** | `0/2/1/2` | ⚠️ Sim |  |
-| 490 | `reddit_1r77s3x_23` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/2` | ⚠️ Sim |  |
-| 491 | `reddit_1r77s3x_3` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | Não |  |
-| 492 | `reddit_1r77s3x_21` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/2/3` | Não |  |
-| 493 | `reddit_1r77s3x_5` | World of Warcraft | **A5** | I4 | VC3 | **Transparência** | `0/0/3/4` | Não |  |
-| 494 | `502655_2823935` | EVE Online | **A1** | I5 | VC4 | **Acesso** | `0/3/0/2` | Não |  |
-| 495 | `reddit_1r77s3x_31` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 496 | `reddit_1r77s3x_27` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/2` | Não |  |
-| 497 | `reddit_1r77s3x_12` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | Não |  |
-| 498 | `reddit_1r77s3x_24` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/3/0` | Não |  |
-| 499 | `reddit_1r77s3x_25` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | Não |  |
-| 500 | `reddit_1r77s3x_30` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/3/3` | ⚠️ Sim |  |
-| 501 | `502655_2811315` | EVE Online | **A1** | I4 | VC2 | **Acesso** | `1/4/2/4` | ⚠️ Sim |  |
-| 502 | `reddit_1r77s3x_1` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/4/4` | Não |  |
-| 503 | `reddit_1kylpvy_8` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 504 | `reddit_1kylpvy_6` | World of Warcraft | **A1** | I3 | VC1 | **Diálogo** | `4/2/0/1` | ⚠️ Sim |  |
-| 505 | `reddit_1u0bxq6_12` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
-| 506 | `reddit_1kylpvy_1` | World of Warcraft | **A4** | I1 | VC2 | **Diálogo** | `3/3/0/1` | ⚠️ Sim |  |
-| 507 | `reddit_1u0bxq6_1` | World of Warcraft | **A1** | I1 | VC4 | **Diálogo** | `3/3/0/1` | ⚠️ Sim |  |
-| 508 | `reddit_1u0bxq6_5` | World of Warcraft | **A1** | I3 | VC4 | **Diálogo** | `5/3/0/2` | Não |  |
-| 509 | `reddit_1kylpvy_5` | World of Warcraft | **A5** | I6 | VC4 | **Acesso** | `0/2/0/0` | ⚠️ Sim |  |
-| 510 | `reddit_1kylpvy_2` | World of Warcraft | **A4** | I1 | VC2 | **Diálogo** | `4/3/1/2` | ⚠️ Sim |  |
-| 511 | `reddit_1u0bxq6_7` | World of Warcraft | **A2** | I1 | VC3 | **Diálogo** | `3/1/2/2` | ⚠️ Sim |  |
-| 512 | `reddit_1u0bxq6_13` | World of Warcraft | **A1** | I1 | VC4 | **Diálogo** | `3/3/1/0` | ⚠️ Sim |  |
-| 513 | `reddit_1kylpvy_7` | World of Warcraft | **A4** | I3 | VC1 | **Diálogo** | `4/4/1/2` | ⚠️ Sim |  |
-| 514 | `reddit_1kylpvy_4` | World of Warcraft | **A1** | I3 | VC2 | **Diálogo** | `5/4/2/4` | ⚠️ Sim |  |
-| 515 | `2203538_28248359` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/1/0` | ⚠️ Sim |  |
-| 516 | `507123_2841853` | EVE Online | **A1** | I4 | VC2 | **Acesso** | `1/4/1/2` | ⚠️ Sim |  |
-| 517 | `507123_2843984` | EVE Online | **A1** | I3 | VC2 | **Acesso** | `3/4/1/2` | ⚠️ Sim |  |
-| 518 | `507123_2844342` | EVE Online | **A5** | I6 | VC4 | **Acesso** | `0/2/0/1` | ⚠️ Sim |  |
-| 519 | `2203538_28248349` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/3/3/1` | ⚠️ Sim |  |
-| 520 | `507123_2843605` | EVE Online | **A1** | I4 | VC4 | **Acesso** | `1/4/0/3` | ⚠️ Sim |  |
-| 521 | `507123_2842254` | EVE Online | **A1** | I4 | VC2 | **Acesso** | `3/4/1/2` | ⚠️ Sim |  |
-| 522 | `reddit_1ormrc6_6` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 523 | `2203538_28253196` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 524 | `2203538_28248849` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/3/1` | ⚠️ Sim |  |
-| 525 | `2203538_28253154` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/1/0` | ⚠️ Sim |  |
-| 526 | `507123_2844191` | EVE Online | **A1** | I4 | VC4 | **Transparência** | `2/3/4/5` | ⚠️ Sim |  |
-| 527 | `2203538_28248868` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/1/1` | ⚠️ Sim |  |
-| 528 | `2203538_28252649` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/2/3/1` | ⚠️ Sim |  |
-| 529 | `2203538_28249198` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/3/2` | ⚠️ Sim |  |
-| 530 | `reddit_1ormrc6_9` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
-| 531 | `reddit_1ormrc6_2` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/2/1` | ⚠️ Sim |  |
-| 532 | `2203538_28252511` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/2/4/1` | Não |  |
-| 533 | `507123_2842763` | EVE Online | **A1** | I4 | VC2 | **Acesso** | `3/4/1/2` | ⚠️ Sim |  |
-| 534 | `2344742_29986092` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/0` | ⚠️ Sim |  |
-| 535 | `2344742_29986151` | World of Warcraft | **A2** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
-| 536 | `reddit_1ormrc6_12` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/2` | ⚠️ Sim |  |
-| 537 | `2344742_29989658` | World of Warcraft | **A2** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
-| 538 | `reddit_1ormrc6_14` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/3/1` | ⚠️ Sim |  |
-| 539 | `reddit_1ormrc6_1` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/2/5/2` | Não |  |
-| 540 | `2168234_27740125` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/4/2` | Não |  |
-| 541 | `2344742_29999312` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 542 | `reddit_1q7m0sl_1` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/1` | Não |  |
-| 543 | `reddit_1q7m0sl_7` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
-| 544 | `reddit_1q7m0sl_3` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/2/0` | Não |  |
-| 545 | `reddit_1q7m0sl_16` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/2/0/0` | ⚠️ Sim |  |
-| 546 | `reddit_1q7m0sl_22` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
-| 547 | `reddit_1q7m0sl_14` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
-| 548 | `reddit_1q7m0sl_12` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | Não |  |
-| 549 | `507123_2862728` | EVE Online | **A1** | I4 | VC4 | **Acesso** | `1/4/2/2` | ⚠️ Sim |  |
-| 550 | `reddit_1q7m0sl_29` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/0/0/1` | ⚠️ Sim |  |
-| 551 | `reddit_1q7m0sl_26` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/2/3/2` | Não |  |
-| 552 | `512367_2882363` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `1/3/2/2` | ⚠️ Sim |  |
-| 553 | `2168234_27980354` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/3/2` | ⚠️ Sim |  |
-| 554 | `reddit_1q7m0sl_5` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/1/4/2` | Não |  |
-| 555 | `507123_2853874` | EVE Online | **A1** | I4 | VC4 | **Acesso** | `1/4/2/2` | ⚠️ Sim |  |
-| 556 | `512367_2882924` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `1/1/2/3` | ⚠️ Sim |  |
-| 557 | `reddit_1q7m0sl_20` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/3/1` | ⚠️ Sim |  |
-| 558 | `reddit_1rhkho1_3` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/3` | ⚠️ Sim |  |
-| 559 | `512367_2882315` | EVE Online | **A5** | I4 | VC3 | **Risco** | `0/1/4/1` | Não |  |
-| 560 | `2168234_27739222` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/3/3` | Não |  |
-| 561 | `reddit_1rhkho1_4` | World of Warcraft | **A5** | I6 | VC4 | **Transparência** | `0/0/0/3` | ⚠️ Sim |  |
-| 562 | `reddit_1rhkho1_2` | World of Warcraft | **A5** | I4 | VC3 | **Transparência** | `0/0/3/4` | Não |  |
-| 563 | `reddit_1rhkho1_7` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/3` | ⚠️ Sim |  |
-| 564 | `reddit_1rhkho1_11` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/3` | ⚠️ Sim |  |
-| 565 | `reddit_1rhkho1_9` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/3` | ⚠️ Sim |  |
-| 566 | `reddit_1rhkho1_8` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/3` | ⚠️ Sim |  |
-| 567 | `reddit_1rhkho1_1` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/2/3` | Não |  |
-| 568 | `reddit_1rhkho1_5` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/3` | ⚠️ Sim |  |
-| 569 | `512367_2882298` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `2/3/2/3` | Não |  |
-| 570 | `reddit_1rhkho1_19` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/3` | Não |  |
-| 571 | `reddit_1rhkho1_16` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/3` | ⚠️ Sim |  |
-| 572 | `reddit_1rhkho1_12` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/4` | Não |  |
-| 573 | `reddit_1rhkho1_13` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/1/3` | ⚠️ Sim |  |
-| 574 | `2344742_29985695` | World of Warcraft | **A2** | I4 | VC3 | **Risco** | `0/2/4/1` | ⚠️ Sim |  |
-| 575 | `2329784_29803221` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
-| 576 | `2329784_29802930` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
-| 577 | `2329784_29803332` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/2/0` | ⚠️ Sim |  |
-| 578 | `472014_2648311` | EVE Online | **A5** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 579 | `2329784_29810436` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/0/1` | ⚠️ Sim |  |
-| 580 | `2329784_29801995` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/2/3/3` | Não |  |
-| 581 | `2329784_29802194` | World of Warcraft | **A4** | I4 | VC4 | **Acesso** | `2/3/2/1` | ⚠️ Sim |  |
-| 582 | `2329784_29803356` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
-| 583 | `2329784_29802023` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/2/0/1` | ⚠️ Sim |  |
-| 584 | `472014_2648389` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
-| 585 | `2329784_29802497` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/1/2` | Não |  |
-| 586 | `2329784_29801983` | World of Warcraft | **A4** | I1 | VC4 | **Acesso** | `2/3/0/1` | ⚠️ Sim |  |
-| 587 | `1880836_24040183` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 588 | `2329784_29802867` | World of Warcraft | **A4** | I4 | VC2 | **Acesso** | `1/4/0/2` | ⚠️ Sim |  |
-| 589 | `472014_2656258` | EVE Online | **A5** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 590 | `2329784_29802566` | World of Warcraft | **A1** | I3 | VC1 | **Diálogo** | `4/4/1/1` | ⚠️ Sim |  |
-| 591 | `2329784_29809924` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/1/3/2` | Não |  |
-| 592 | `2329784_29802019` | World of Warcraft | **A4** | I1 | VC2 | **Acesso** | `2/3/2/1` | ⚠️ Sim |  |
-| 593 | `2329784_29802602` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/2/3/2` | Não |  |
-| 594 | `472014_2649684` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `1/1/0/2` | ⚠️ Sim |  |
-| 595 | `472014_2648026` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/1/0/1` | ⚠️ Sim |  |
-| 596 | `1880836_24040501` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 597 | `2329784_29810515` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/0/0/0` | ⚠️ Sim |  |
-| 598 | `472014_2648559` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `1/2/2/0` | ⚠️ Sim |  |
-| 599 | `2329784_29803645` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/1/1` | Não |  |
-| 600 | `1880836_24060803` | World of Warcraft | **A4** | I4 | VC4 | **Acesso** | `0/2/1/0` | ⚠️ Sim |  |
-| 601 | `2329784_29809721` | World of Warcraft | **A4** | I4 | VC2 | **Acesso** | `1/4/1/2` | ⚠️ Sim |  |
-| 602 | `1880836_24079096` | World of Warcraft | **A4** | I1 | VC1 | **Diálogo** | `3/3/0/0` | ⚠️ Sim |  |
-| 603 | `reddit_1ql5f05_9` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/1/1` | ⚠️ Sim |  |
-| 604 | `1880836_24082938` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/1/0` | ⚠️ Sim |  |
-| 605 | `1880836_24134254` | World of Warcraft | **A4** | I1 | VC2 | **Acesso** | `2/3/0/2` | ⚠️ Sim |  |
-| 606 | `reddit_1ql5f05_1` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/4/4` | Não |  |
-| 607 | `reddit_1ql5f05_82` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/2/1` | ⚠️ Sim |  |
-| 608 | `reddit_1ql5f05_5` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/2/3/1` | ⚠️ Sim |  |
-| 609 | `reddit_1ql5f05_25` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/4/3` | Não |  |
-| 610 | `reddit_1ariy3g_6` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
-| 611 | `reddit_1ql5f05_44` | World of Warcraft | **A4** | I1 | VC4 | **Diálogo** | `3/3/1/1` | Não |  |
-| 612 | `reddit_1ariy3g_3` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/1` | ⚠️ Sim |  |
-| 613 | `reddit_1usj0hv_4` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
-| 614 | `reddit_1ariy3g_5` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/4/2` | ⚠️ Sim |  |
-| 615 | `reddit_1ql5f05_81` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/1/1` | ⚠️ Sim |  |
-| 616 | `reddit_1ql5f05_55` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
-| 617 | `reddit_1usj0hv_6` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
-| 618 | `reddit_1ariy3g_9` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
-| 619 | `reddit_1ql5f05_85` | World of Warcraft | **A4** | I3 | VC1 | **Transparência** | `4/4/1/5` | ⚠️ Sim |  |
-| 620 | `reddit_1ql5f05_28` | World of Warcraft | **A4** | I4 | VC4 | **Diálogo** | `2/2/1/0` | ⚠️ Sim |  |
-| 621 | `reddit_1ariy3g_26` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/1` | ⚠️ Sim |  |
-| 622 | `reddit_1ariy3g_20` | World of Warcraft | **A5** | I4 | VC3 | **Diálogo** | `2/0/2/1` | ⚠️ Sim |  |
-| 623 | `reddit_1usj0hv_11` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/1/0` | ⚠️ Sim |  |
-| 624 | `reddit_1ariy3g_29` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/2/1` | ⚠️ Sim |  |
-| 625 | `reddit_1usj0hv_18` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 626 | `reddit_1ariy3g_23` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
-| 627 | `reddit_1usj0hv_1` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/2/0` | ⚠️ Sim |  |
-| 628 | `reddit_1usj0hv_12` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/1/0` | ⚠️ Sim |  |
-| 629 | `516630_2919437` | EVE Online | **A5** | I6 | VC4 | **Diálogo** | `1/0/1/0` | Não |  |
-| 630 | `reddit_1ql5f05_84` | World of Warcraft | **A4** | I1 | VC4 | **Acesso** | `2/3/2/2` | ⚠️ Sim |  |
-| 631 | `reddit_1ariy3g_7` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
-| 632 | `reddit_1usj0hv_17` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 633 | `511854_2878256` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 634 | `516630_2921990` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/0/0/0` | ⚠️ Sim |  |
-| 635 | `513384_2890009` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/0/0/0` | ⚠️ Sim |  |
-| 636 | `516630_2922981` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
-| 637 | `516630_2923458` | EVE Online | **A2** | I4 | VC4 | **Diálogo** | `2/0/1/0` | ⚠️ Sim |  |
-| 638 | `516630_2923297` | EVE Online | **A2** | I6 | VC4 | **Risco** | `0/0/2/2` | ⚠️ Sim |  |
-| 639 | `reddit_1vdomcq_4` | World of Warcraft | **A4** | I1 | VC1 | **Acesso** | `3/4/2/1` | ⚠️ Sim |  |
-| 640 | `516630_2923305` | EVE Online | **A5** | I6 | VC4 | **Risco** | `0/0/2/1` | ⚠️ Sim |  |
-| 641 | `reddit_1vdomcq_6` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
-| 642 | `510765_2870135` | EVE Online | **A5** | I6 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
-| 643 | `reddit_1vdomcq_9` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/1/2/0` | ⚠️ Sim |  |
-| 644 | `516630_2923817` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/2/3/1` | Não |  |
-| 645 | `reddit_1vdomcq_1` | World of Warcraft | **A4** | I1 | VC2 | **Acesso** | `1/4/1/2` | ⚠️ Sim |  |
-| 646 | `510765_2870228` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
-| 647 | `511854_2877889` | EVE Online | **A5** | I6 | VC4 | **Transparência** | `0/1/0/2` | ⚠️ Sim |  |
-| 648 | `reddit_1vdomcq_11` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/3/1` | Não |  |
-| 649 | `reddit_1phwb0r_5` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/1/0` | ⚠️ Sim |  |
-| 650 | `510765_2869711` | EVE Online | **A5** | I6 | VC4 | **Acesso** | `0/2/1/0` | Não |  |
-| 651 | `508912_2857609` | EVE Online | **A5** | I4 | VC4 | **Risco** | `2/0/3/1` | ⚠️ Sim |  |
-| 652 | `reddit_1v3v2p2_1` | World of Warcraft | **A1** | I3 | VC1 | **Diálogo** | `5/4/1/1` | ⚠️ Sim |  |
-| 653 | `reddit_1pftbpi_9` | World of Warcraft | **A1** | I2 | VC2 | **Acesso** | `1/3/0/1` | ⚠️ Sim |  |
-| 654 | `486758_2719765` | EVE Online | **A5** | I6 | VC4 | **Transparência** | `0/0/2/3` | Não |  |
-| 655 | `513384_2889848` | EVE Online | **A1** | I4 | VC2 | **Acesso** | `2/5/2/4` | ⚠️ Sim |  |
-| 656 | `reddit_1pftbpi_12` | World of Warcraft | **A1** | I4 | VC3 | **Diálogo** | `2/1/2/1` | ⚠️ Sim |  |
-| 657 | `reddit_1pftbpi_14` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/1/3/1` | ⚠️ Sim |  |
-| 658 | `511854_2877894` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `1/2/1/3` | ⚠️ Sim |  |
-| 659 | `reddit_1pftbpi_19` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/0/0` | ⚠️ Sim |  |
-| 660 | `reddit_1pftbpi_25` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 661 | `reddit_1pftbpi_15` | World of Warcraft | **A1** | I3 | VC2 | **Diálogo** | `3/2/0/0` | ⚠️ Sim |  |
-| 662 | `reddit_1pftbpi_24` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 663 | `reddit_1pftbpi_22` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 664 | `reddit_1pftbpi_32` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 665 | `516433_2913324` | EVE Online | **A1** | I4 | VC4 | **Acesso** | `0/5/2/3` | Não |  |
-| 666 | `505326_2829928` | EVE Online | **A5** | I6 | VC4 | **Transparência** | `0/0/0/1` | ⚠️ Sim |  |
-| 667 | `505326_2829832` | EVE Online | **A4** | I1 | VC4 | **Acesso** | `2/3/0/1` | ⚠️ Sim |  |
-| 668 | `reddit_1pftbpi_29` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
-| 669 | `reddit_1pftbpi_35` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 670 | `reddit_1pftbpi_1` | World of Warcraft | **A1** | I3 | VC1 | **Diálogo** | `5/5/2/3` | Não |  |
-| 671 | `reddit_1phwb0r_1` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/3/1/3` | ⚠️ Sim |  |
-| 672 | `reddit_1d8nm29_1` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/0/0` | ⚠️ Sim |  |
-| 673 | `reddit_1d8nm29_4` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/1` | ⚠️ Sim |  |
-| 674 | `505326_2830182` | EVE Online | **A1** | I3 | VC3 | **Risco** | `3/3/4/1` | ⚠️ Sim |  |
-| 675 | `2255873_28894189` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/1` | ⚠️ Sim |  |
-| 676 | `2255873_28894198` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/1/1` | ⚠️ Sim |  |
-| 677 | `2255873_28894449` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/1/2/0` | ⚠️ Sim |  |
-| 678 | `2255873_28894436` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/3` | ⚠️ Sim |  |
-| 679 | `2255873_28894459` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `2/3/1/1` | ⚠️ Sim |  |
-| 680 | `reddit_1rnbqbh_7` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/1/3` | ⚠️ Sim |  |
-| 681 | `2255873_28894237` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/2/2/0` | ⚠️ Sim |  |
-| 682 | `2255873_28894283` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/2/3` | ⚠️ Sim |  |
-| 683 | `505326_2830189` | EVE Online | **A4** | I3 | VC1 | **Acesso** | `3/4/1/1` | ⚠️ Sim |  |
-| 684 | `reddit_1d8nm29_7` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/3/1/2` | ⚠️ Sim |  |
-| 685 | `2138224_27354342` | World of Warcraft | **A1** | I6 | VC4 | **Acesso** | `0/3/2/3` | ⚠️ Sim |  |
-| 686 | `2255873_28894248` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/0` | ⚠️ Sim |  |
-| 687 | `2255873_28894263` | World of Warcraft | **A5** | I6 | VC4 | **Transparência** | `0/0/1/2` | Não |  |
-| 688 | `reddit_1rnbqbh_1` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/3` | Não |  |
-| 689 | `2255873_28894152` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/4/2` | Não |  |
-| 690 | `498018_2777110` | EVE Online | **A1** | I4 | VC4 | **Acesso** | `1/3/1/2` | ⚠️ Sim |  |
-| 691 | `reddit_1d8nm29_15` | World of Warcraft | **A1** | I3 | VC1 | **Diálogo** | `5/4/1/2` | ⚠️ Sim |  |
-| 692 | `2255873_28894869` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/0` | ⚠️ Sim |  |
-| 693 | `2255873_28895951` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/3/0/0` | ⚠️ Sim |  |
-| 694 | `506398_2837103` | EVE Online | **A3** | I6 | VC4 | **Acesso** | `0/3/1/2` | ⚠️ Sim |  |
-| 695 | `2255873_28897187` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 696 | `2255873_28895085` | World of Warcraft | **A5** | I6 | VC4 | **Transparência** | `0/0/0/1` | ⚠️ Sim |  |
-| 697 | `505326_2830162` | EVE Online | **A4** | I1 | VC2 | **Acesso** | `2/3/0/1` | ⚠️ Sim |  |
-| 698 | `2255873_28897710` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/0/1` | ⚠️ Sim |  |
-| 699 | `2255873_28895612` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/1/1` | Não |  |
-| 700 | `2255873_28895765` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
-| 701 | `2255873_28897939` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/0` | ⚠️ Sim |  |
-| 702 | `reddit_1r1dd9i_32` | World of Warcraft | **A1** | I1 | VC2 | **Diálogo** | `3/2/0/0` | ⚠️ Sim |  |
-| 703 | `500312_2794004` | EVE Online | **A4** | I1 | VC1 | **Diálogo** | `4/4/0/3` | ⚠️ Sim |  |
-| 704 | `500312_2794216` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/1/1/1` | ⚠️ Sim |  |
-| 705 | `reddit_1r1dd9i_29` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/1` | ⚠️ Sim |  |
-| 706 | `reddit_1r1dd9i_11` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/2` | ⚠️ Sim |  |
-| 707 | `reddit_1r1dd9i_19` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/1` | Não |  |
-| 708 | `2345875_29999802` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/1` | Não |  |
-| 709 | `2345875_29999122` | World of Warcraft | **A4** | I1 | VC2 | **Acesso** | `3/4/2/0` | ⚠️ Sim |  |
-| 710 | `2345875_29999811` | World of Warcraft | **A4** | I3 | VC3 | **Diálogo** | `4/2/1/1` | ⚠️ Sim |  |
-| 711 | `2345875_29999728` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/1/2/3` | Não |  |
-| 712 | `2345875_29999699` | World of Warcraft | **A1** | I1 | VC4 | **Diálogo** | `3/3/1/1` | ⚠️ Sim |  |
-| 713 | `2345875_29999913` | World of Warcraft | **A4** | I6 | VC4 | **Acesso** | `0/2/0/0` | ⚠️ Sim |  |
-| 714 | `2345875_29999125` | World of Warcraft | **A4** | I5 | VC2 | **Acesso** | `0/3/2/1` | ⚠️ Sim |  |
-| 715 | `500312_2794186` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/2/1/1` | ⚠️ Sim |  |
-| 716 | `2345875_29999990` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/0` | ⚠️ Sim |  |
-| 717 | `2345875_30000018` | World of Warcraft | **A4** | I4 | VC4 | **Acesso** | `2/3/2/1` | ⚠️ Sim |  |
-| 718 | `reddit_1r3mzvw_17` | World of Warcraft | **A5** | I6 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
-| 719 | `2345875_30000674` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/3/3` | ⚠️ Sim |  |
-| 720 | `2345875_30000664` | World of Warcraft | **A1** | I1 | VC4 | **Diálogo** | `3/2/2/0` | Não |  |
-| 721 | `2345875_29999979` | World of Warcraft | **A1** | I3 | VC1 | **Diálogo** | `5/4/1/2` | ⚠️ Sim |  |
-| 722 | `reddit_1r1dd9i_28` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/2/1/1` | ⚠️ Sim |  |
-| 723 | `2345875_30000488` | World of Warcraft | **A1** | I3 | VC2 | **Diálogo** | `4/3/1/3` | ⚠️ Sim |  |
-| 724 | `2345875_30000040` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/3/3` | Não |  |
-| 725 | `2345875_30001123` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `2/2/3/0` | ⚠️ Sim |  |
-| 726 | `2345875_30000620` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/1/0` | ⚠️ Sim |  |
-| 727 | `2345875_30001954` | World of Warcraft | **A4** | I4 | VC4 | **Diálogo** | `2/2/0/1` | ⚠️ Sim |  |
-| 728 | `509113_2856632` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/0/2/1` | ⚠️ Sim |  |
-| 729 | `509113_2856688` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/3/1` | Não |  |
-| 730 | `509113_2857464` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/3/2` | Não |  |
-| 731 | `509113_2857475` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/3/1` | Não |  |
-| 732 | `509113_2856589` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/4/4` | Não |  |
-| 733 | `2053425_26196782` | World of Warcraft | **A2** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
-| 734 | `reddit_1sq7b1r_1` | World of Warcraft | **A4** | I4 | VC4 | **Acesso** | `3/4/4/2` | ⚠️ Sim |  |
-| 735 | `509113_2857598` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/3/3` | Não |  |
-| 736 | `2053425_26197101` | World of Warcraft | **A2** | I4 | VC4 | **Risco** | `1/1/2/0` | ⚠️ Sim |  |
-| 737 | `2053425_26196997` | World of Warcraft | **A2** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
-| 738 | `2345875_30000160` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/5/2` | ⚠️ Sim |  |
-| 739 | `2053425_26206512` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
-| 740 | `509113_2857750` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/3/2` | Não |  |
-| 741 | `2053425_26213064` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/1` | ⚠️ Sim |  |
-| 742 | `reddit_1vy3jwo_10` | World of Warcraft | **A1** | I3 | VC2 | **Acesso** | `2/3/1/2` | ⚠️ Sim |  |
-| 743 | `reddit_1vy3jwo_2` | World of Warcraft | **A1** | I4 | VC1 | **Acesso** | `2/3/1/0` | ⚠️ Sim |  |
-| 744 | `reddit_1vy3jwo_5` | World of Warcraft | **A1** | I4 | VC2 | **Acesso** | `2/3/0/1` | ⚠️ Sim |  |
-| 745 | `reddit_1vy3jwo_4` | World of Warcraft | **A1** | I3 | VC2 | **Acesso** | `3/4/1/3` | ⚠️ Sim |  |
-| 746 | `2345875_30001592` | World of Warcraft | **A4** | I4 | VC4 | **Acesso** | `0/3/2/2` | ⚠️ Sim |  |
-| 747 | `reddit_1vy3jwo_9` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/2/3/1` | ⚠️ Sim |  |
-| 748 | `reddit_1vy3jwo_1` | World of Warcraft | **A1** | I3 | VC1 | **Diálogo** | `5/5/4/3` | ⚠️ Sim |  |
-| 749 | `509113_2856608` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/2/4/4` | Não |  |
-| 750 | `2323925_29722533` | World of Warcraft | **A3** | I4 | VC4 | **Risco** | `0/0/4/0` | ⚠️ Sim |  |
-| 751 | `1eoyf2u_6` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 752 | `1w4y0sn_7` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 753 | `1uqtdhy_6` | EVE Online | **A4** | I4 | VC4 | **Acesso** | `0/2/0/0` | ⚠️ Sim |  |
-| 754 | `1upzjbr_17` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/1/0` | Não |  |
-| 755 | `1821486_23275487` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/2/1` | ⚠️ Sim |  |
-| 756 | `1s9et4k_52` | World of Warcraft | **A1** | I2 | VC4 | **Acesso** | `0/1/0/1` | ⚠️ Sim |  |
-| 757 | `1ofu78l_18` | EVE Online | **A1** | I3 | VC4 | **Diálogo** | `4/2/2/0` | ⚠️ Sim |  |
-| 758 | `1ofu78l_14` | EVE Online | **A4** | I4 | VC4 | **Risco** | `1/1/2/1` | ⚠️ Sim |  |
-| 759 | `1tyovbz_7` | EVE Online | **A5** | I6 | VC4 | **Risco** | `0/0/1/1` | ⚠️ Sim |  |
-| 760 | `1uqtdhy_10` | EVE Online | **A3** | I6 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
-| 761 | `1eoyf2u_1` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 762 | `2323925_29726168` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/3/1` | ⚠️ Sim |  |
-| 763 | `2323925_29725472` | World of Warcraft | **A2** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
-| 764 | `2323925_29722615` | World of Warcraft | **A3** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
-| 765 | `2323925_29725769` | World of Warcraft | **A3** | I4 | VC4 | **Risco** | `1/2/3/1` | Não |  |
-| 766 | `1eoyf2u_21` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/0/0` | Não |  |
-| 767 | `1861200_23769316` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
-| 768 | `1821486_23275450` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/1/1` | Não |  |
-| 769 | `1eoyf2u_20` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/0/1` | ⚠️ Sim |  |
-| 770 | `2056975_26240673` | World of Warcraft | **A4** | I1 | VC2 | **Diálogo** | `3/3/0/1` | ⚠️ Sim |  |
-| 771 | `1821486_23275945` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/1/0` | ⚠️ Sim |  |
-| 772 | `1861200_23769294` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/3/2/0` | ⚠️ Sim |  |
-| 773 | `2323925_29725096` | World of Warcraft | **A2** | I4 | VC4 | **Risco** | `1/2/4/1` | Não |  |
-| 774 | `2323925_29725916` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 775 | `1tyovbz_21` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/1/2/2` | ⚠️ Sim |  |
-| 776 | `471468_2644478` | EVE Online | **A1** | I1 | VC2 | **Diálogo** | `3/3/0/1` | ⚠️ Sim |  |
-| 777 | `1tyovbz_11` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `1/1/1/2` | ⚠️ Sim |  |
-| 778 | `1eoyf2u_17` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/2/1` | Não |  |
-| 779 | `486116_2716498` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `1/0/1/2` | ⚠️ Sim |  |
-| 780 | `1mctiz6_9` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 781 | `1i6m4i6_28` | World of Warcraft | **A1** | I3 | VC2 | **Diálogo** | `5/3/1/1` | ⚠️ Sim |  |
-| 782 | `1kh1a1v_9` | EVE Online | **A1** | I1 | VC4 | **Acesso** | `1/3/0/1` | Não |  |
-| 783 | `1kh1a1v_6` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `1/2/0/0` | ⚠️ Sim |  |
-| 784 | `1kh1a1v_5` | EVE Online | **A5** | I6 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
-| 785 | `1i6m4i6_90` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/1` | ⚠️ Sim |  |
-| 786 | `1mctiz6_21` | EVE Online | **A5** | I6 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 787 | `1kh1a1v_10` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
-| 788 | `2219273_28457651` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/3/3` | Não |  |
-| 789 | `1udu43k_5` | EVE Online | **A1** | I4 | VC4 | **Acesso** | `0/3/2/3` | ⚠️ Sim |  |
-| 790 | `453174_2547937` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `1/3/0/0` | Não |  |
-| 791 | `2219273_28486581` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/2` | ⚠️ Sim |  |
-| 792 | `1sv241g_31` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/2` | ⚠️ Sim |  |
-| 793 | `1t01k13_12` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
-| 794 | `1t01k13_23` | EVE Online | **A2** | I6 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
-| 795 | `1tkscsd_32` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 796 | `2219273_28457664` | World of Warcraft | **A4** | I4 | VC4 | **Diálogo** | `1/1/1/1` | ⚠️ Sim |  |
-| 797 | `1tkscsd_11` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/1/2` | ⚠️ Sim |  |
-| 798 | `1t01k13_19` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/1/3/0` | ⚠️ Sim |  |
-| 799 | `1t01k13_42` | EVE Online | **A2** | I6 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
-| 800 | `1t01k13_25` | EVE Online | **A2** | I6 | VC4 | **Risco** | `0/1/2/0` | ⚠️ Sim |  |
-| 801 | `764058062403225972_15` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 802 | `1twaq1l_11` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 803 | `2219273_28486448` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/0` | ⚠️ Sim |  |
-| 804 | `1t01k13_21` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/1/2/1` | ⚠️ Sim |  |
-| 805 | `1twaq1l_3` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `0/0/2/3` | ⚠️ Sim |  |
-| 806 | `1twaq1l_5` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/1` | ⚠️ Sim |  |
-| 807 | `1twaq1l_9` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 808 | `484953_2711799` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
-| 809 | `2152188_27512171` | World of Warcraft | **A1** | I1 | VC3 | **Transparência** | `3/2/2/4` | ⚠️ Sim |  |
-| 810 | `515483_2906301` | EVE Online | **A3** | I6 | VC4 | **Acesso** | `0/3/1/3` | ⚠️ Sim |  |
-| 811 | `453504_2553666` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/3/3` | ⚠️ Sim |  |
-| 812 | `1twaq1l_29` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/1/1` | ⚠️ Sim |  |
-| 813 | `1i6m4i6_87` | World of Warcraft | **A1** | I3 | VC4 | **Diálogo** | `5/3/1/2` | Não |  |
-| 814 | `1twaq1l_19` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `0/0/1/2` | ⚠️ Sim |  |
-| 815 | `1twaq1l_15` | EVE Online | **A4** | I4 | VC4 | **Diálogo** | `2/1/1/2` | ⚠️ Sim |  |
-| 816 | `484953_2711930` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `1/0/2/3` | Não |  |
-| 817 | `516054_2920647` | EVE Online | **A4** | I4 | VC4 | **Acesso** | `1/2/1/0` | ⚠️ Sim |  |
-| 818 | `1gebstj_28` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/1/2` | ⚠️ Sim |  |
-| 819 | `1gebstj_33` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/1` | ⚠️ Sim |  |
-| 820 | `1gebstj_18` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/3/2` | ⚠️ Sim |  |
-| 821 | `1gebstj_16` | World of Warcraft | **A1** | I1 | VC3 | **Diálogo** | `3/2/3/2` | ⚠️ Sim |  |
-| 822 | `1gebstj_30` | World of Warcraft | **A5** | I4 | VC3 | **Diálogo** | `1/0/1/1` | ⚠️ Sim |  |
-| 823 | `1gebstj_45` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/1` | ⚠️ Sim |  |
-| 824 | `516054_2910464` | EVE Online | **A4** | I4 | VC4 | **Acesso** | `0/3/2/3` | ⚠️ Sim |  |
-| 825 | `1gebstj_50` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/0/1` | ⚠️ Sim |  |
-| 826 | `1gebstj_36` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/3/1` | ⚠️ Sim |  |
-| 827 | `1gebstj_69` | World of Warcraft | **A2** | I1 | VC4 | **Diálogo** | `3/0/1/0` | ⚠️ Sim |  |
-| 828 | `1gebstj_37` | World of Warcraft | **A2** | I4 | VC4 | **Risco** | `0/1/2/2` | ⚠️ Sim |  |
-| 829 | `1gebstj_38` | World of Warcraft | **A2** | I1 | VC3 | **Diálogo** | `3/1/2/1` | ⚠️ Sim |  |
-| 830 | `1gebstj_49` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/0/2` | ⚠️ Sim |  |
-| 831 | `1gebstj_44` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `2/0/0/3` | ⚠️ Sim |  |
-| 832 | `1gebstj_51` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/5/0` | ⚠️ Sim |  |
-| 833 | `2093466_26720101` | World of Warcraft | **A3** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
-| 834 | `1gebstj_68` | World of Warcraft | **A5** | I4 | VC3 | **Diálogo** | `2/0/1/2` | ⚠️ Sim |  |
-| 835 | `1gebstj_71` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/1/2` | ⚠️ Sim |  |
-| 836 | `1gebstj_81` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/1` | ⚠️ Sim |  |
-| 837 | `2093466_26720858` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
-| 838 | `2093466_26720957` | World of Warcraft | **A3** | I4 | VC3 | **Risco** | `0/3/4/0` | ⚠️ Sim |  |
-| 839 | `2093466_26721327` | World of Warcraft | **A2** | I4 | VC4 | **Acesso** | `1/2/2/0` | ⚠️ Sim |  |
-| 840 | `483347_2704537` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
-| 841 | `2093466_26720969` | World of Warcraft | **A2** | I4 | VC4 | **Acesso** | `2/3/3/1` | ⚠️ Sim |  |
-| 842 | `513037_2887444` | EVE Online | **A5** | I6 | VC4 | **Transparência** | `0/0/0/1` | ⚠️ Sim |  |
-| 843 | `2093466_26721106` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
-| 844 | `2104695_26872743` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/2/0` | ⚠️ Sim |  |
-| 845 | `2093466_26721329` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/2/1` | ⚠️ Sim |  |
-| 846 | `2104695_26874113` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 847 | `2093466_26721190` | World of Warcraft | **A3** | I6 | VC4 | **Risco** | `0/1/2/1` | ⚠️ Sim |  |
-| 848 | `2093466_26721195` | World of Warcraft | **A3** | I4 | VC3 | **Risco** | `0/3/4/2` | ⚠️ Sim |  |
-| 849 | `2104695_26873703` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/1/0` | ⚠️ Sim |  |
-| 850 | `2093466_26721437` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/2/1` | ⚠️ Sim |  |
-| 851 | `2104695_26874114` | World of Warcraft | **A4** | I4 | VC2 | **Acesso** | `2/3/1/0` | ⚠️ Sim |  |
-| 852 | `2104695_26874539` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `2/1/3/2` | Não |  |
-| 853 | `2104695_26876734` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/0/0` | ⚠️ Sim |  |
-| 854 | `2104695_26879173` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 855 | `2104695_26882121` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/0/0/2` | ⚠️ Sim |  |
-| 856 | `483347_2703710` | EVE Online | **A5** | I6 | VC4 | **Acesso** | `2/3/2/1` | ⚠️ Sim |  |
-| 857 | `2104695_26876215` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/1/0` | ⚠️ Sim |  |
-| 858 | `2104695_26874617` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/2/1` | ⚠️ Sim |  |
-| 859 | `2104695_26879111` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/1/3` | ⚠️ Sim |  |
-| 860 | `2104695_26893160` | World of Warcraft | **A5** | I6 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
-| 861 | `2104695_26876152` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/2/2` | ⚠️ Sim |  |
-| 862 | `2104695_26874207` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/1/3` | ⚠️ Sim |  |
-| 863 | `2104695_26884570` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `3/0/0/3` | Não |  |
-| 864 | `2104695_26875205` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/2` | Não |  |
-| 865 | `2104695_26884502` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `3/0/0/2` | Não |  |
-| 866 | `2104695_26884205` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/1/0/2` | Não |  |
-| 867 | `1hlv8xy_6` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/0/0` | ⚠️ Sim |  |
-| 868 | `1hlv8xy_2` | World of Warcraft | **A4** | I4 | VC4 | **Acesso** | `0/2/1/0` | ⚠️ Sim |  |
-| 869 | `2104695_26894920` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/0/2` | ⚠️ Sim |  |
-| 870 | `1hlv8xy_3` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/0` | ⚠️ Sim |  |
-| 871 | `1t3g4bt_47` | EVE Online | **A4** | I1 | VC2 | **Diálogo** | `4/3/1/1` | ⚠️ Sim |  |
-| 872 | `1t3g4bt_25` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
-| 873 | `2104695_26884477` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `2/1/0/4` | ⚠️ Sim |  |
-| 874 | `2104695_26895318` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/1/2` | ⚠️ Sim |  |
-| 875 | `2051325_26164328` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/0/0` | ⚠️ Sim |  |
-| 876 | `2051325_26164394` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 877 | `1t3g4bt_38` | EVE Online | **A1** | I1 | VC3 | **Diálogo** | `4/2/2/1` | Não |  |
-| 878 | `2051325_26164076` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/2/2` | Não |  |
-| 879 | `2104695_26901262` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/4/3` | ⚠️ Sim |  |
-| 880 | `2051325_26164316` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/1/1` | Não |  |
-| 881 | `2051325_26164463` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/0/0` | ⚠️ Sim |  |
-| 882 | `2123929_27158570` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/2/1` | Não |  |
-| 883 | `2051325_26164423` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 884 | `2015716_25669223` | World of Warcraft | **A4** | I3 | VC1 | **Diálogo** | `4/3/1/4` | Não |  |
-| 885 | `2051325_26172289` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/1/0` | ⚠️ Sim |  |
-| 886 | `2051325_26164391` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/2/3/1` | Não |  |
-| 887 | `2051325_26164479` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 888 | `2051325_26164437` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/0/1` | Não |  |
-| 889 | `2051325_26164026` | World of Warcraft | **A4** | I1 | VC2 | **Diálogo** | `4/4/0/1` | ⚠️ Sim |  |
-| 890 | `2051325_26164496` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/2/3` | ⚠️ Sim |  |
-| 891 | `2051325_26172424` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
-| 892 | `1784181_22791140` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/0/2` | ⚠️ Sim |  |
-| 893 | `2051325_26172557` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/2/0/1` | ⚠️ Sim |  |
-| 894 | `2051325_26172541` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/3` | ⚠️ Sim |  |
-| 895 | `1784181_22791073` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/2/1/3` | Não |  |
-| 896 | `1784181_22791376` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/1` | ⚠️ Sim |  |
-| 897 | `1784181_22790668` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/1/1` | ⚠️ Sim |  |
-| 898 | `1784181_22791163` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 899 | `1784181_22791221` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
-| 900 | `1784181_22791100` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/2/1` | ⚠️ Sim |  |
-| 901 | `1784181_22793545` | World of Warcraft | **A5** | I6 | VC4 | **Transparência** | `0/0/0/1` | ⚠️ Sim |  |
-| 902 | `1784181_22791015` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/2` | ⚠️ Sim |  |
-| 903 | `1784181_22793257` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/3/2` | ⚠️ Sim |  |
-| 904 | `1vt5t85_39` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/1/2` | ⚠️ Sim |  |
-| 905 | `1784181_22795751` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/2` | ⚠️ Sim |  |
-| 906 | `1784181_22794635` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/2/2` | ⚠️ Sim |  |
-| 907 | `1784181_22791963` | World of Warcraft | **A4** | I3 | VC1 | **Diálogo** | `4/3/0/1` | Não |  |
-| 908 | `1rmfr5h_18` | EVE Online | **A5** | I6 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 909 | `1rmfr5h_10` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
-| 910 | `2295883_29363172` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/2/2` | ⚠️ Sim |  |
-| 911 | `1784181_22791956` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/2/3/1` | ⚠️ Sim |  |
-| 912 | `1rmfr5h_41` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/0` | ⚠️ Sim |  |
-| 913 | `1784181_22794140` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/3/1` | ⚠️ Sim |  |
-| 914 | `1ph9o3i_2` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 915 | `2295883_29363252` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/2` | ⚠️ Sim |  |
-| 916 | `1ph9o3i_7` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `0/2/0/0` | ⚠️ Sim |  |
-| 917 | `1ph9o3i_5` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/1/3/2` | Não |  |
-| 918 | `1ph9o3i_6` | EVE Online | **A1** | I2 | VC4 | **Diálogo** | `2/2/1/1` | ⚠️ Sim |  |
-| 919 | `2295883_29362891` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
-| 920 | `2123929_27155547` | World of Warcraft | **A1** | I1 | VC2 | **Diálogo** | `5/4/2/1` | ⚠️ Sim |  |
-| 921 | `1ph9o3i_11` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
-| 922 | `1ph9o3i_22` | EVE Online | **A4** | I3 | VC3 | **Risco** | `3/3/4/0` | ⚠️ Sim |  |
-| 923 | `1ph9o3i_19` | EVE Online | **A1** | I1 | VC4 | **Acesso** | `2/3/2/1` | ⚠️ Sim |  |
-| 924 | `1ph9o3i_13` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/1/2/2` | ⚠️ Sim |  |
-| 925 | `1ph9o3i_18` | EVE Online | **A4** | I3 | VC1 | **Acesso** | `3/4/1/1` | ⚠️ Sim |  |
-| 926 | `1ph9o3i_17` | EVE Online | **A4** | I4 | VC2 | **Acesso** | `3/4/1/0` | ⚠️ Sim |  |
-| 927 | `432317_2496667` | EVE Online | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 928 | `1ph9o3i_21` | EVE Online | **A4** | I1 | VC3 | **Diálogo** | `2/2/1/0` | ⚠️ Sim |  |
-| 929 | `1mwoeow_3` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/2/2` | ⚠️ Sim |  |
-| 930 | `1mwoeow_6` | World of Warcraft | **A1** | I5 | VC3 | **Risco** | `1/0/4/2` | ⚠️ Sim |  |
-| 931 | `1mwoeow_5` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
-| 932 | `1mwoeow_14` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/1/2` | ⚠️ Sim |  |
-| 933 | `1mwoeow_13` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/1/2` | ⚠️ Sim |  |
-| 934 | `1mwoeow_10` | World of Warcraft | **A5** | I4 | VC3 | **Transparência** | `2/1/3/4` | ⚠️ Sim |  |
-| 935 | `1mwoeow_15` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 936 | `2022909_25756274` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | Não |  |
-| 937 | `2022909_25756120` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 938 | `2022909_25758304` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 939 | `1mwoeow_8` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `2/0/1/3` | ⚠️ Sim |  |
-| 940 | `2039353_25997830` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | Não |  |
-| 941 | `1tdxixs_2` | EVE Online | **A5** | I4 | VC4 | **Risco** | `2/0/3/0` | ⚠️ Sim |  |
-| 942 | `1tdxixs_5` | EVE Online | **A5** | I6 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 943 | `1tdxixs_6` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `0/0/0/3` | Não |  |
-| 944 | `2022909_25756354` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
-| 945 | `1tdxixs_3` | EVE Online | **A5** | I6 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
-| 946 | `2022909_25756102` | World of Warcraft | **A5** | I6 | VC4 | **Acesso** | `0/2/0/0` | ⚠️ Sim |  |
-| 947 | `2039353_25993547` | World of Warcraft | **A1** | I1 | VC2 | **Diálogo** | `4/3/1/2` | ⚠️ Sim |  |
-| 948 | `1tdxixs_17` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 949 | `1tdxixs_8` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/1/2/2` | ⚠️ Sim |  |
-| 950 | `1tdxixs_16` | EVE Online | **A1** | I1 | VC4 | **Diálogo** | `3/2/1/1` | ⚠️ Sim |  |
-| 951 | `1tdxixs_32` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `0/0/0/2` | ⚠️ Sim |  |
-| 952 | `1tdxixs_21` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/3/1` | ⚠️ Sim |  |
-| 953 | `1tdxixs_48` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `0/0/2/3` | ⚠️ Sim |  |
-| 954 | `1tdxixs_38` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `0/1/0/2` | Não |  |
-| 955 | `456743_2566269` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 956 | `2039353_25998694` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/1/2/3` | Não |  |
-| 957 | `2344820_29989185` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 958 | `2101219_26826222` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
-| 959 | `1waqgod_41` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/1/3/2` | ⚠️ Sim |  |
-| 960 | `1jukb0x_5` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | Não |  |
-| 961 | `1v18nfp_19` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 962 | `1jukb0x_6` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/1` | ⚠️ Sim |  |
-| 963 | `1v18nfp_32` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `0/0/2/3` | Não |  |
-| 964 | `1jukb0x_8` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/2/1` | Não |  |
-| 965 | `1waqgod_6` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/2/4/1` | ⚠️ Sim |  |
-| 966 | `2344820_30002149` | World of Warcraft | **A6** | I6 | VC4 | **Risco** | `0/0/0/0` | Não |  |
-| 967 | `2101219_26825118` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/5/4` | Não |  |
-| 968 | `2039353_25994927` | World of Warcraft | **A4** | I1 | VC2 | **Diálogo** | `4/3/2/1` | ⚠️ Sim |  |
-| 969 | `2344820_29990276` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/3/1` | ⚠️ Sim |  |
-| 970 | `2101219_26825555` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/3` | ⚠️ Sim |  |
-| 971 | `1jukb0x_14` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `0/0/2/3` | ⚠️ Sim |  |
-| 972 | `1oq9poa_12` | EVE Online | **A4** | I4 | VC4 | **Acesso** | `1/2/0/1` | ⚠️ Sim |  |
-| 973 | `2101219_26827812` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/1` | Não |  |
-| 974 | `1jukb0x_11` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 975 | `1jukb0x_17` | EVE Online | **A5** | I6 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 976 | `2101219_26826888` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/3/4` | Não |  |
-| 977 | `1jukb0x_7` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/1/0/0` | ⚠️ Sim |  |
-| 978 | `1jukb0x_16` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `0/0/2/3` | Não |  |
-| 979 | `1jukb0x_10` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 980 | `1jukb0x_13` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/2/1/0` | Não |  |
-| 981 | `1jukb0x_24` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/2/0/0` | Não |  |
-| 982 | `1jukb0x_18` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/1` | ⚠️ Sim |  |
-| 983 | `1jukb0x_23` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/2/1/1` | ⚠️ Sim |  |
-| 984 | `1jukb0x_25` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/1/2/0` | ⚠️ Sim |  |
-| 985 | `1jukb0x_19` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/0` | Não |  |
-| 986 | `1jukb0x_34` | EVE Online | **A5** | I4 | VC3 | **Risco** | `0/2/3/0` | ⚠️ Sim |  |
-| 987 | `1jukb0x_29` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/1/2/1` | ⚠️ Sim |  |
-| 988 | `1jukb0x_27` | EVE Online | **A1** | I3 | VC4 | **Diálogo** | `4/3/1/2` | ⚠️ Sim |  |
-| 989 | `1jukb0x_28` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | Não |  |
-| 990 | `1jukb0x_35` | EVE Online | **A4** | I1 | VC1 | **Diálogo** | `4/4/1/0` | ⚠️ Sim |  |
-| 991 | `1jukb0x_36` | EVE Online | **A1** | I1 | VC1 | **Diálogo** | `4/4/0/0` | Não |  |
-| 992 | `1jukb0x_40` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/1/1/0` | ⚠️ Sim |  |
-| 993 | `1jukb0x_33` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/2/1/1` | ⚠️ Sim |  |
-| 994 | `1jukb0x_38` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/2/2/1` | ⚠️ Sim |  |
-| 995 | `1jukb0x_30` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `1/2/0/1` | ⚠️ Sim |  |
-| 996 | `1jukb0x_41` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
-| 997 | `1jukb0x_43` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 998 | `1jukb0x_48` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/1/2/2` | Não |  |
-| 999 | `1jukb0x_45` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/1/1/0` | ⚠️ Sim |  |
-| 1000 | `1jukb0x_53` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/2/2` | Não |  |
-| 1001 | `1jukb0x_50` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/1/3/2` | Não |  |
-| 1002 | `1jukb0x_56` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/2/2` | ⚠️ Sim |  |
-| 1003 | `1jukb0x_49` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/3/2` | Não |  |
-| 1004 | `1jukb0x_44` | EVE Online | **A1** | I3 | VC4 | **Diálogo** | `4/3/0/0` | Não |  |
-| 1005 | `1jukb0x_52` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/1` | ⚠️ Sim |  |
-| 1006 | `1jukb0x_59` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 1007 | `1jukb0x_62` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
-| 1008 | `1jukb0x_47` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/1/2/0` | ⚠️ Sim |  |
-| 1009 | `1jukb0x_55` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/1` | ⚠️ Sim |  |
-| 1010 | `1jukb0x_42` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | Não |  |
-| 1011 | `1jukb0x_60` | EVE Online | **A1** | I3 | VC4 | **Diálogo** | `4/2/1/1` | ⚠️ Sim |  |
-| 1012 | `1jukb0x_63` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `2/3/0/0` | ⚠️ Sim |  |
-| 1013 | `1jukb0x_64` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/1/2/2` | ⚠️ Sim |  |
-| 1014 | `1jukb0x_46` | EVE Online | **A1** | I3 | VC2 | **Diálogo** | `5/4/2/1` | ⚠️ Sim |  |
-| 1015 | `1jukb0x_65` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `1/3/0/2` | ⚠️ Sim |  |
-| 1016 | `1jukb0x_71` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/1/1` | ⚠️ Sim |  |
-| 1017 | `1jukb0x_68` | EVE Online | **A4** | I1 | VC2 | **Acesso** | `3/4/1/1` | ⚠️ Sim |  |
-| 1018 | `1jukb0x_84` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/1` | ⚠️ Sim |  |
-| 1019 | `1jukb0x_76` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `1/2/1/2` | ⚠️ Sim |  |
-| 1020 | `1jukb0x_73` | EVE Online | **A1** | I1 | VC4 | **Diálogo** | `3/1/0/1` | ⚠️ Sim |  |
-| 1021 | `1jukb0x_95` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | Não |  |
-| 1022 | `1jukb0x_86` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
-| 1023 | `1jukb0x_66` | EVE Online | **A1** | I3 | VC3 | **Diálogo** | `5/3/4/4` | Não |  |
-| 1024 | `1jukb0x_90` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/1/2/2` | Não |  |
-| 1025 | `1jukb0x_98` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 1026 | `1jukb0x_70` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/2/2/1` | Não |  |
-| 1027 | `1jukb0x_97` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/0/0` | ⚠️ Sim |  |
-| 1028 | `1jukb0x_75` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/1/3/2` | Não |  |
-| 1029 | `1jukb0x_92` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/0/1/1` | ⚠️ Sim |  |
-| 1030 | `1jukb0x_94` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `0/0/2/3` | ⚠️ Sim |  |
-| 1031 | `1jukb0x_80` | EVE Online | **A1** | I3 | VC1 | **Diálogo** | `5/4/2/3` | Não |  |
-| 1032 | `1jukb0x_87` | EVE Online | **A1** | I1 | VC4 | **Diálogo** | `3/3/2/1` | Não |  |
+| 1 | `3000003_28811597` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
+| 2 | `3000003_28811587` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/0/1` | ⚠️ Sim |  |
+| 3 | `3000003_28811563` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
+| 4 | `503747_2870179` | EVE Online | **A5** | I6 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
+| 5 | `503747_2849615` | EVE Online | **A5** | I4 | VC4 | **Risco** | `2/2/4/2` | ⚠️ Sim |  |
+| 6 | `503747_2846302` | EVE Online | **A5** | I4 | VC4 | **Risco** | `2/2/3/3` | ⚠️ Sim |  |
+| 7 | `516800_2916223` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/1/2/1` | ⚠️ Sim |  |
+| 8 | `503747_2848085` | EVE Online | **A4** | I4 | VC4 | **Risco** | `2/2/3/3` | ⚠️ Sim |  |
+| 9 | `3000003_28811536` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/1` | ⚠️ Sim |  |
+| 10 | `516800_2916401` | EVE Online | **A5** | I4 | VC2 | **Diálogo** | `2/1/1/1` | ⚠️ Sim |  |
+| 11 | `495219_2762734` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `1/2/0/2` | ⚠️ Sim |  |
+| 12 | `495219_2762723` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `1/2/1/1` | ⚠️ Sim |  |
+| 13 | `3000003_28811619` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/1` | ⚠️ Sim |  |
+| 14 | `516800_2916427` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/1/2/0` | ⚠️ Sim |  |
+| 15 | `3000003_28811612` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/3/1` | ⚠️ Sim |  |
+| 16 | `495219_2775726` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `1/2/1/1` | ⚠️ Sim |  |
+| 17 | `495219_2762735` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `1/2/0/1` | ⚠️ Sim |  |
+| 18 | `495219_2780266` | EVE Online | **A2** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
+| 19 | `495219_2786308` | EVE Online | **A5** | I6 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
+| 20 | `474041_2659388` | EVE Online | **A2** | I5 | VC4 | **Risco** | `1/1/2/1` | ⚠️ Sim |  |
+| 21 | `474041_2659324` | EVE Online | **A5** | I4 | VC3 | **Risco** | `1/1/4/3` | ⚠️ Sim |  |
+| 22 | `474041_2659344` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/2/1` | ⚠️ Sim |  |
+| 23 | `2324507_2324507_1` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/1/4/2` | ⚠️ Sim |  |
+| 24 | `2324507_2324507_6` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/1` | ⚠️ Sim |  |
+| 25 | `2324507_2324507_4` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/2/2` | ⚠️ Sim |  |
+| 26 | `2324507_2324507_5` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/1` | ⚠️ Sim |  |
+| 27 | `509843_2862499` | EVE Online | **A5** | I6 | VC4 | **Risco** | `1/0/3/1` | ⚠️ Sim |  |
+| 28 | `508618_2852738` | EVE Online | **A3** | I4 | VC3 | **Risco** | `0/1/3/1` | ⚠️ Sim |  |
+| 29 | `508618_2852769` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/1` | ⚠️ Sim |  |
+| 30 | `508618_2852763` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/1` | ⚠️ Sim |  |
+| 31 | `508618_2852870` | EVE Online | **A3** | I4 | VC4 | **Risco** | `2/0/3/2` | ⚠️ Sim |  |
+| 32 | `508618_2852879` | EVE Online | **A5** | I4 | VC4 | **Risco** | `2/1/3/2` | ⚠️ Sim |  |
+| 33 | `508618_2852872` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/1/4/1` | ⚠️ Sim |  |
+| 34 | `508618_2852888` | EVE Online | **A5** | I4 | VC4 | **Risco** | `2/2/3/2` | ⚠️ Sim |  |
+| 35 | `508618_2852882` | EVE Online | **A3** | I4 | VC3 | **Risco** | `1/2/4/3` | ⚠️ Sim |  |
+| 36 | `508618_2852986` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/1` | ⚠️ Sim |  |
+| 37 | `508618_2852990` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
+| 38 | `508618_2852884` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `3/1/2/3` | ⚠️ Sim |  |
+| 39 | `508618_2853066` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/1` | ⚠️ Sim |  |
+| 40 | `508618_2852979` | EVE Online | **A5** | I4 | VC4 | **Risco** | `2/1/3/3` | ⚠️ Sim |  |
+| 41 | `508618_2853073` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/1/2/1` | ⚠️ Sim |  |
+| 42 | `508618_2853072` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `3/0/2/3` | ⚠️ Sim |  |
+| 43 | `508618_2853081` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/3/2` | ⚠️ Sim |  |
+| 44 | `508618_2853090` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/1/2/2` | ⚠️ Sim |  |
+| 45 | `508618_2853222` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/0` | ⚠️ Sim |  |
+| 46 | `508618_2853371` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/0/1/1` | ⚠️ Sim |  |
+| 47 | `508618_2853405` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/1` | ⚠️ Sim |  |
+| 48 | `508618_2859779` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/0/2/1` | ⚠️ Sim |  |
+| 49 | `508618_2859488` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/0` | ⚠️ Sim |  |
+| 50 | `508618_2860149` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/0/2/1` | ⚠️ Sim |  |
+| 51 | `508618_2860152` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
+| 52 | `510142_2865000` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/1/1` | ⚠️ Sim |  |
+| 53 | `510142_2864998` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/0/2/0` | ⚠️ Sim |  |
+| 54 | `833872096657547947_833872096657547947_7` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/1/2/1` | ⚠️ Sim |  |
+| 55 | `833872096657547947_833872096657547947_4` | EVE Online | **A5** | I4 | VC3 | **Risco** | `0/0/3/2` | ⚠️ Sim |  |
+| 56 | `833872096657547947_833872096657547947_1` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/1/3/3` | ⚠️ Sim |  |
+| 57 | `833872096657547947_833872096657547947_8` | EVE Online | **A5** | I4 | VC3 | **Risco** | `1/1/4/3` | ⚠️ Sim |  |
+| 58 | `589559717132767735_589559717132767735_2` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
+| 59 | `589559717132767735_589559717132767735_1` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/1/4/2` | ⚠️ Sim |  |
+| 60 | `589559717132767735_589559717132767735_4` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/1/2/0` | ⚠️ Sim |  |
+| 61 | `589559717132766752_589559717132766752_3` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/2/3/1` | ⚠️ Sim |  |
+| 62 | `589559717132766752_589559717132766752_2` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/1/3/2` | ⚠️ Sim |  |
+| 63 | `589559717132766752_589559717132766752_1` | EVE Online | **A5** | I4 | VC3 | **Risco** | `1/2/4/2` | ⚠️ Sim |  |
+| 64 | `589559717132766752_589559717132766752_5` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/2/4/3` | ⚠️ Sim |  |
+| 65 | `589559717132766752_589559717132766752_6` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/2/3/2` | ⚠️ Sim |  |
+| 66 | `492935_2751948` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `0/5/0/0` | ⚠️ Sim |  |
+| 67 | `492935_2749988` | EVE Online | **A5** | I4 | VC2 | **Acesso** | `1/3/1/2` | ⚠️ Sim |  |
+| 68 | `506798_2840433` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
+| 69 | `496432_2766672` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
+| 70 | `492935_2750075` | EVE Online | **A5** | I4 | VC3 | **Risco** | `1/1/3/2` | ⚠️ Sim |  |
+| 71 | `506798_2839801` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/4/0` | ⚠️ Sim |  |
+| 72 | `492935_2750140` | EVE Online | **A5** | I4 | VC2 | **Acesso** | `2/4/2/2` | ⚠️ Sim |  |
+| 73 | `492935_2750146` | EVE Online | **A5** | I4 | VC3 | **Risco** | `2/1/3/1` | ⚠️ Sim |  |
+| 74 | `492935_2750230` | EVE Online | **A5** | I4 | VC3 | **Risco** | `2/1/3/2` | ⚠️ Sim |  |
+| 75 | `506798_2840399` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `0/2/0/0` | ⚠️ Sim |  |
+| 76 | `492935_2750257` | EVE Online | **A5** | I4 | VC3 | **Diálogo** | `3/2/3/2` | ⚠️ Sim |  |
+| 77 | `496432_2766660` | EVE Online | **A5** | I4 | VC3 | **Transparência** | `2/2/2/3` | ⚠️ Sim |  |
+| 78 | `496432_2766656` | EVE Online | **A4** | I2 | VC2 | **Acesso** | `1/3/2/2` | ⚠️ Sim |  |
+| 79 | `506798_2839784` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `1/1/3/4` | ⚠️ Sim |  |
+| 80 | `496432_2766677` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/1` | ⚠️ Sim |  |
+| 81 | `506798_2840405` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
+| 82 | `483348_2703718` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/0` | ⚠️ Sim |  |
+| 83 | `506798_2839756` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `2/3/2/4` | ⚠️ Sim |  |
+| 84 | `506798_2839765` | EVE Online | **A5** | I4 | VC3 | **Risco** | `1/0/3/2` | ⚠️ Sim |  |
+| 85 | `506798_2839874` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/1/2/2` | ⚠️ Sim |  |
+| 86 | `506798_2839908` | EVE Online | **A5** | I4 | VC3 | **Risco** | `1/1/2/1` | ⚠️ Sim |  |
+| 87 | `506798_2839900` | EVE Online | **A5** | I4 | VC2 | **Acesso** | `1/3/0/1` | ⚠️ Sim |  |
+| 88 | `506798_2840415` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `1/1/2/4` | ⚠️ Sim |  |
+| 89 | `506798_2839830` | EVE Online | **A5** | I4 | VC2 | **Acesso** | `1/2/1/1` | ⚠️ Sim |  |
+| 90 | `reddit_1sf61mq_11` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/2` | ⚠️ Sim |  |
+| 91 | `506798_2840454` | EVE Online | **A5** | I4 | VC2 | **Diálogo** | `3/3/2/2` | ⚠️ Sim |  |
+| 92 | `516921_2921717` | EVE Online | **A5** | I4 | VC3 | **Risco** | `1/1/3/2` | ⚠️ Sim |  |
+| 93 | `516921_2922163` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/2/2/2` | ⚠️ Sim |  |
+| 94 | `512939_2886552` | EVE Online | **A1** | I1 | VC3 | **Diálogo** | `3/3/2/2` | ⚠️ Sim |  |
+| 95 | `512939_2888287` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `1/3/1/2` | ⚠️ Sim |  |
+| 96 | `2257438_28913757` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | Não |  |
+| 97 | `reddit_1rg6iqz_6` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/1/2` | ⚠️ Sim |  |
+| 98 | `reddit_1rg6iqz_1` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/1/2` | ⚠️ Sim |  |
+| 99 | `2257438_28913683` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/1/1` | ⚠️ Sim |  |
+| 100 | `reddit_1p38i14_1` | World of Warcraft | **A4** | I1 | VC1 | **Diálogo** | `3/3/0/1` | ⚠️ Sim |  |
+| 101 | `2257438_28916344` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/0/0` | ⚠️ Sim |  |
+| 102 | `reddit_1p38i14_8` | World of Warcraft | **A1** | I3 | VC2 | **Diálogo** | `3/3/2/2` | ⚠️ Sim |  |
+| 103 | `2257438_28913705` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/2/1` | ⚠️ Sim |  |
+| 104 | `reddit_1p38i14_10` | World of Warcraft | **A4** | I1 | VC2 | **Diálogo** | `3/3/1/2` | ⚠️ Sim |  |
+| 105 | `2257438_28913744` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `2/1/3/2` | ⚠️ Sim |  |
+| 106 | `2257438_28921050` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `2/0/4/0` | ⚠️ Sim |  |
+| 107 | `2257438_28913792` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/1` | ⚠️ Sim |  |
+| 108 | `2257438_28913793` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
+| 109 | `2248893_28811596` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/4/0/0` | ⚠️ Sim |  |
+| 110 | `2257438_28913871` | World of Warcraft | **A5** | I4 | VC2 | **Acesso** | `1/2/0/1` | ⚠️ Sim |  |
+| 111 | `2257438_28918588` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/1/0` | ⚠️ Sim |  |
+| 112 | `2257438_28918380` | World of Warcraft | **A4** | I1 | VC2 | **Acesso** | `2/3/1/0` | ⚠️ Sim |  |
+| 113 | `2257438_28919908` | World of Warcraft | **A5** | I4 | VC2 | **Acesso** | `3/4/1/2` | ⚠️ Sim |  |
+| 114 | `2257438_28920555` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/1` | ⚠️ Sim |  |
+| 115 | `2257438_28918493` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/1/3/2` | ⚠️ Sim |  |
+| 116 | `2257438_28920202` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
+| 117 | `2176376_27854651` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
+| 118 | `2257438_28920987` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/1/3/1` | ⚠️ Sim |  |
+| 119 | `2248893_28811664` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/0/0` | ⚠️ Sim |  |
+| 120 | `2257438_28921486` | World of Warcraft | **A5** | I4 | VC2 | **Acesso** | `2/3/1/1` | ⚠️ Sim |  |
+| 121 | `2108142_26921690` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/2/4/3` | ⚠️ Sim |  |
+| 122 | `2248893_28811587` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/1/1/2` | ⚠️ Sim |  |
+| 123 | `2248893_28811791` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/1` | ⚠️ Sim |  |
+| 124 | `2248893_28811578` | World of Warcraft | **A5** | I4 | VC2 | **Acesso** | `1/2/2/0` | ⚠️ Sim |  |
+| 125 | `2248893_28811778` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
+| 126 | `2300167_29414902` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
+| 127 | `2248893_28811780` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/1/0` | ⚠️ Sim |  |
+| 128 | `2248893_28812662` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/3/3` | ⚠️ Sim |  |
+| 129 | `2248893_28812020` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
+| 130 | `2248893_28812411` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/0` | ⚠️ Sim |  |
+| 131 | `2248893_28812051` | World of Warcraft | **A5** | I4 | VC2 | **Acesso** | `1/2/2/1` | ⚠️ Sim |  |
+| 132 | `2248893_28812120` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/0` | ⚠️ Sim |  |
+| 133 | `2108142_26921376` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/0` | ⚠️ Sim |  |
+| 134 | `2108142_26921650` | World of Warcraft | **A5** | I4 | VC2 | **Acesso** | `0/2/1/0` | ⚠️ Sim |  |
+| 135 | `2108142_26921767` | World of Warcraft | **A5** | I4 | VC2 | **Acesso** | `1/2/1/0` | ⚠️ Sim |  |
+| 136 | `2320601_29686369` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
+| 137 | `2320601_29692500` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
+| 138 | `2108142_26933143` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/0/2/1` | ⚠️ Sim |  |
+| 139 | `2320601_29686412` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | Não |  |
+| 140 | `2300167_29415623` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/0/3/1` | ⚠️ Sim |  |
+| 141 | `2300167_29417443` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/4/1` | ⚠️ Sim |  |
+| 142 | `2320601_29700590` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/0/0` | ⚠️ Sim |  |
+| 143 | `2300167_29418380` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/2` | ⚠️ Sim |  |
+| 144 | `2300167_29421251` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/3/3` | ⚠️ Sim |  |
+| 145 | `2300167_29418895` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/2/3/1` | ⚠️ Sim |  |
+| 146 | `2320601_29686669` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/3/2` | ⚠️ Sim |  |
+| 147 | `2320601_29686401` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/2/2` | ⚠️ Sim |  |
+| 148 | `2320601_29686571` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/1` | ⚠️ Sim |  |
+| 149 | `2320601_29687388` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/2` | ⚠️ Sim |  |
+| 150 | `2320601_29702454` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/0/1` | ⚠️ Sim |  |
+| 151 | `2171055_27777452` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/0/0` | ⚠️ Sim |  |
+| 152 | `2171055_27777008` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/2/3` | ⚠️ Sim |  |
+| 153 | `2171055_27776960` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `2/1/3/3` | ⚠️ Sim |  |
+| 154 | `2171055_27776967` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/1/1` | ⚠️ Sim |  |
+| 155 | `2171055_27777020` | World of Warcraft | **A2** | I4 | VC4 | **Risco** | `0/1/2/1` | ⚠️ Sim |  |
+| 156 | `2171055_27778915` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/1` | ⚠️ Sim |  |
+| 157 | `2171055_27777035` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/2/3` | ⚠️ Sim |  |
+| 158 | `2171055_27776984` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/2` | ⚠️ Sim |  |
+| 159 | `2171055_27777039` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/1/2` | ⚠️ Sim |  |
+| 160 | `2171055_27777017` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/1/0` | ⚠️ Sim |  |
+| 161 | `2171055_27777967` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/1` | ⚠️ Sim |  |
+| 162 | `2171055_27779059` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
+| 163 | `2171055_27777341` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
+| 164 | `2171055_27777272` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
+| 165 | `2171055_27777225` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/0/1` | ⚠️ Sim |  |
+| 166 | `2171055_27777045` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/0/2/1` | ⚠️ Sim |  |
+| 167 | `2171055_27777640` | World of Warcraft | **A2** | I5 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
+| 168 | `2171055_27782333` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
+| 169 | `2171055_27777630` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/1` | ⚠️ Sim |  |
+| 170 | `2171055_27778551` | World of Warcraft | **A5** | I6 | VC4 | **Diálogo** | `1/0/0/0` | ⚠️ Sim |  |
+| 171 | `2171055_27778362` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/1/1` | ⚠️ Sim |  |
+| 172 | `2171055_27778603` | World of Warcraft | **A5** | I6 | VC4 | **Transparência** | `0/0/1/2` | ⚠️ Sim |  |
+| 173 | `2171055_27778944` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/1/2` | ⚠️ Sim |  |
+| 174 | `2171055_27779900` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/0/1/1` | ⚠️ Sim |  |
+| 175 | `2171055_27781203` | World of Warcraft | **A5** | I4 | VC2 | **Diálogo** | `2/1/0/1` | ⚠️ Sim |  |
+| 176 | `2171055_27779093` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `2/0/2/3` | ⚠️ Sim |  |
+| 177 | `2171055_27781079` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/0/1/1` | ⚠️ Sim |  |
+| 178 | `2171055_27781426` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
+| 179 | `2159913_27627599` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | Não |  |
+| 180 | `reddit_1tdr4z8_3` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/1/4` | ⚠️ Sim |  |
+| 181 | `reddit_1tdr4z8_7` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/1` | ⚠️ Sim |  |
+| 182 | `reddit_1rq35g3_1` | World of Warcraft | **A1** | I3 | VC2 | **Diálogo** | `3/3/0/1` | ⚠️ Sim |  |
+| 183 | `reddit_1tdr4z8_1` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/1/2` | ⚠️ Sim |  |
+| 184 | `2159913_27643699` | World of Warcraft | **A2** | I4 | VC4 | **Acesso** | `0/2/2/1` | ⚠️ Sim |  |
+| 185 | `2314701_29616313` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
+| 186 | `reddit_1nvtk44_4` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/1/2` | ⚠️ Sim |  |
+| 187 | `2147065_27455593` | World of Warcraft | **A1** | I2 | VC3 | **Diálogo** | `1/1/0/1` | ⚠️ Sim |  |
+| 188 | `reddit_1rq35g3_13` | World of Warcraft | **A1** | I5 | VC3 | **Risco** | `0/1/2/1` | ⚠️ Sim |  |
+| 189 | `reddit_1nvtk44_15` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/2/3` | ⚠️ Sim |  |
+| 190 | `2147065_27456463` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/0/2` | ⚠️ Sim |  |
+| 191 | `reddit_1nvtk44_8` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/1/2/3` | ⚠️ Sim |  |
+| 192 | `reddit_1nvtk44_7` | World of Warcraft | **A5** | I4 | VC3 | **Transparência** | `1/1/2/3` | ⚠️ Sim |  |
+| 193 | `reddit_1nvtk44_1` | World of Warcraft | **A5** | I4 | VC3 | **Transparência** | `1/0/2/3` | ⚠️ Sim |  |
+| 194 | `2314701_29618262` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/2` | ⚠️ Sim |  |
+| 195 | `2147065_27456379` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/3/1` | ⚠️ Sim |  |
+| 196 | `2147065_27455636` | World of Warcraft | **A5** | I4 | VC3 | **Acesso** | `1/2/2/2` | ⚠️ Sim |  |
+| 197 | `2314701_29618597` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/3/2` | ⚠️ Sim |  |
+| 198 | `2147065_27456279` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
+| 199 | `2147065_27455652` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/1/2` | ⚠️ Sim |  |
+| 200 | `2147065_27455760` | World of Warcraft | **A5** | I4 | VC3 | **Diálogo** | `3/2/2/3` | ⚠️ Sim |  |
+| 201 | `2147065_27455776` | World of Warcraft | **A5** | I4 | VC3 | **Diálogo** | `3/1/2/3` | ⚠️ Sim |  |
+| 202 | `2147065_27455800` | World of Warcraft | **A5** | I4 | VC3 | **Acesso** | `2/3/2/3` | ⚠️ Sim |  |
+| 203 | `2147065_27455793` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/2/1` | ⚠️ Sim |  |
+| 204 | `2147065_27455823` | World of Warcraft | **A5** | I4 | VC3 | **Transparência** | `1/2/2/3` | ⚠️ Sim |  |
+| 205 | `2147065_27456221` | World of Warcraft | **A5** | I4 | VC3 | **Transparência** | `2/1/2/3` | ⚠️ Sim |  |
+| 206 | `2147065_27456038` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `2/1/2/3` | ⚠️ Sim |  |
+| 207 | `2147065_27456240` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/1/3/3` | ⚠️ Sim |  |
+| 208 | `2147065_27456598` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/1/3/3` | ⚠️ Sim |  |
+| 209 | `reddit_1snmfut_6` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/1` | ⚠️ Sim |  |
+| 210 | `2147065_27456449` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/1/2` | ⚠️ Sim |  |
+| 211 | `reddit_1snmfut_1` | World of Warcraft | **A1** | I3 | VC2 | **Diálogo** | `3/3/1/1` | ⚠️ Sim |  |
+| 212 | `reddit_1snmfut_11` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/2/3/2` | ⚠️ Sim |  |
+| 213 | `reddit_1snmfut_2` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `2/2/3/1` | ⚠️ Sim |  |
+| 214 | `2308441_29521622` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
+| 215 | `reddit_1snmfut_8` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/3/3` | ⚠️ Sim |  |
+| 216 | `reddit_1snmfut_19` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/1/1/2` | ⚠️ Sim |  |
+| 217 | `2308441_29521682` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
+| 218 | `reddit_1snmfut_17` | World of Warcraft | **A1** | I3 | VC3 | **Diálogo** | `3/2/2/1` | ⚠️ Sim |  |
+| 219 | `2308441_29521746` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `4/0/0/0` | ⚠️ Sim |  |
+| 220 | `reddit_1snmfut_13` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/1/3/3` | ⚠️ Sim |  |
+| 221 | `reddit_1snmfut_16` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/1/2/1` | ⚠️ Sim |  |
+| 222 | `2308441_29521809` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/0/0` | ⚠️ Sim |  |
+| 223 | `2308441_29521635` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/0/0` | ⚠️ Sim |  |
+| 224 | `2308441_29522321` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/0/0` | ⚠️ Sim |  |
+| 225 | `2308441_29521595` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/0/1` | ⚠️ Sim |  |
+| 226 | `2308441_29521669` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
+| 227 | `2308441_29521636` | World of Warcraft | **A1** | I1 | VC2 | **Acesso** | `1/2/2/1` | ⚠️ Sim |  |
+| 228 | `2308441_29521795` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/0/1/0` | ⚠️ Sim |  |
+| 229 | `2308441_29521689` | World of Warcraft | **A5** | I4 | VC2 | **Acesso** | `2/3/2/1` | ⚠️ Sim |  |
+| 230 | `2308441_29521862` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/2/1/1` | ⚠️ Sim |  |
+| 231 | `2308441_29522269` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `4/2/0/0` | ⚠️ Sim |  |
+| 232 | `2308441_29521857` | World of Warcraft | **A5** | I4 | VC3 | **Diálogo** | `2/1/2/1` | ⚠️ Sim |  |
+| 233 | `2308441_29521868` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
+| 234 | `2308441_29521875` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/3/1` | ⚠️ Sim |  |
+| 235 | `2308441_29521980` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/1/0` | ⚠️ Sim |  |
+| 236 | `2308441_29522148` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/3/1` | ⚠️ Sim |  |
+| 237 | `2308441_29522068` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/1/0` | ⚠️ Sim |  |
+| 238 | `2308441_29522061` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/2/1` | ⚠️ Sim |  |
+| 239 | `2308441_29522283` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/2/4/1` | ⚠️ Sim |  |
+| 240 | `2308441_29522325` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/1/3/3` | ⚠️ Sim |  |
+| 241 | `2308441_29522157` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/1` | ⚠️ Sim |  |
+| 242 | `2308441_29522338` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/1/3/3` | ⚠️ Sim |  |
+| 243 | `2318118_29656800` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/2` | ⚠️ Sim |  |
+| 244 | `2318118_29656965` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/2/5` | ⚠️ Sim |  |
+| 245 | `2318118_29656397` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/2/2` | ⚠️ Sim |  |
+| 246 | `2318118_29656876` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/0/1/2` | ⚠️ Sim |  |
+| 247 | `2318118_29655457` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
+| 248 | `2318118_29657331` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/2` | ⚠️ Sim |  |
+| 249 | `2318118_29657675` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `2/2/3/3` | ⚠️ Sim |  |
+| 250 | `2318118_29658471` | World of Warcraft | **A1** | I3 | VC1 | **Diálogo** | `3/3/2/3` | ⚠️ Sim |  |
+| 251 | `2318118_29657985` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/1/1` | ⚠️ Sim |  |
+| 252 | `2318118_29658639` | World of Warcraft | **A4** | I4 | VC2 | **Acesso** | `2/3/3/3` | ⚠️ Sim |  |
+| 253 | `2180159_28321012` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/0` | ⚠️ Sim |  |
+| 254 | `2318118_29658663` | World of Warcraft | **A5** | I4 | VC3 | **Transparência** | `1/1/2/3` | ⚠️ Sim |  |
+| 255 | `2318118_29658668` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/2/2` | ⚠️ Sim |  |
+| 256 | `2180159_27921755` | World of Warcraft | **A1** | I2 | VC3 | **Diálogo** | `2/1/2/2` | ⚠️ Sim |  |
+| 257 | `2180159_27956316` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/2` | ⚠️ Sim |  |
+| 258 | `2336820_29940449` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/2` | ⚠️ Sim |  |
+| 259 | `reddit_11kumll_2` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/0/0` | ⚠️ Sim |  |
+| 260 | `1772220_22621705` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
+| 261 | `1772220_22621864` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/3/2` | ⚠️ Sim |  |
+| 262 | `1772220_22621672` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
+| 263 | `1772220_22622376` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/3/0` | ⚠️ Sim |  |
+| 264 | `1772220_22621656` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/0` | ⚠️ Sim |  |
+| 265 | `1772220_22621631` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/3/0` | ⚠️ Sim |  |
+| 266 | `reddit_1tvlpnw_1` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/2/1` | ⚠️ Sim |  |
+| 267 | `497087_2771352` | EVE Online | **A3** | I4 | VC4 | **Acesso** | `0/3/1/2` | ⚠️ Sim |  |
+| 268 | `reddit_1tvlpnw_2` | World of Warcraft | **A3** | I4 | VC4 | **Acesso** | `0/2/1/0` | ⚠️ Sim |  |
+| 269 | `510327_2866434` | EVE Online | **A1** | I4 | VC2 | **Diálogo** | `3/2/0/2` | ⚠️ Sim |  |
+| 270 | `510327_2870703` | EVE Online | **A1** | I3 | VC1 | **Diálogo** | `4/3/1/3` | ⚠️ Sim |  |
+| 271 | `510327_2868880` | EVE Online | **A1** | I3 | VC2 | **Acesso** | `3/4/1/2` | ⚠️ Sim |  |
+| 272 | `1772220_22622499` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/5/0` | ⚠️ Sim |  |
+| 273 | `510327_2867490` | EVE Online | **A1** | I3 | VC3 | **Diálogo** | `3/2/2/2` | ⚠️ Sim |  |
+| 274 | `510327_2871002` | EVE Online | **A1** | I3 | VC2 | **Diálogo** | `4/3/1/3` | ⚠️ Sim |  |
+| 275 | `510327_2870508` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `3/2/1/1` | ⚠️ Sim |  |
+| 276 | `510327_2866456` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/2/1/0` | ⚠️ Sim |  |
+| 277 | `510327_2866379` | EVE Online | **A1** | I3 | VC2 | **Transparência** | `4/3/0/5` | ⚠️ Sim |  |
+| 278 | `510327_2867289` | EVE Online | **A4** | I4 | VC4 | **Acesso** | `2/3/3/3` | ⚠️ Sim |  |
+| 279 | `510327_2903556` | EVE Online | **A1** | I4 | VC4 | **Acesso** | `0/2/0/1` | ⚠️ Sim |  |
+| 280 | `510327_2876670` | EVE Online | **A1** | I3 | VC2 | **Diálogo** | `4/3/1/2` | ⚠️ Sim |  |
+| 281 | `510327_2890391` | EVE Online | **A3** | I4 | VC4 | **Diálogo** | `2/2/1/1` | ⚠️ Sim |  |
+| 282 | `510327_2886776` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `3/1/0/1` | ⚠️ Sim |  |
+| 283 | `510327_2904642` | EVE Online | **A5** | I6 | VC4 | **Transparência** | `2/1/0/3` | ⚠️ Sim |  |
+| 284 | `510327_2904549` | EVE Online | **A4** | I4 | VC2 | **Diálogo** | `3/2/0/2` | ⚠️ Sim |  |
+| 285 | `510327_2881699` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/2/1/1` | ⚠️ Sim |  |
+| 286 | `510327_2885369` | EVE Online | **A1** | I3 | VC3 | **Diálogo** | `3/2/3/1` | ⚠️ Sim |  |
+| 287 | `510327_2888472` | EVE Online | **A1** | I3 | VC3 | **Risco** | `3/2/4/2` | ⚠️ Sim |  |
+| 288 | `510327_2884891` | EVE Online | **A1** | I3 | VC3 | **Diálogo** | `3/2/3/2` | ⚠️ Sim |  |
+| 289 | `510327_2889849` | EVE Online | **A1** | I3 | VC2 | **Acesso** | `3/4/1/2` | ⚠️ Sim |  |
+| 290 | `510327_2889240` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `2/3/2/4` | ⚠️ Sim |  |
+| 291 | `510327_2898315` | EVE Online | **A1** | I3 | VC2 | **Diálogo** | `4/3/1/3` | ⚠️ Sim |  |
+| 292 | `510327_2881498` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `3/2/1/2` | ⚠️ Sim |  |
+| 293 | `510327_2904666` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/0/0/0` | ⚠️ Sim |  |
+| 294 | `510327_2908560` | EVE Online | **A1** | I3 | VC2 | **Diálogo** | `4/2/0/3` | ⚠️ Sim |  |
+| 295 | `510327_2886340` | EVE Online | **A1** | I3 | VC3 | **Acesso** | `2/3/3/2` | ⚠️ Sim |  |
+| 296 | `510327_2909405` | EVE Online | **A1** | I3 | VC1 | **Diálogo** | `4/2/0/2` | ⚠️ Sim |  |
+| 297 | `510327_2890288` | EVE Online | **A2** | I1 | VC4 | **Acesso** | `1/2/2/1` | ⚠️ Sim |  |
+| 298 | `510327_2911276` | EVE Online | **A1** | I3 | VC2 | **Diálogo** | `4/3/1/4` | ⚠️ Sim |  |
+| 299 | `510327_2903732` | EVE Online | **A1** | I3 | VC2 | **Diálogo** | `4/4/2/3` | ⚠️ Sim |  |
+| 300 | `reddit_1t939or_6` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
+| 301 | `reddit_1t939or_1` | World of Warcraft | **A4** | I1 | VC4 | **Acesso** | `2/3/3/1` | ⚠️ Sim |  |
+| 302 | `reddit_1spdcd4_2` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/3/1/1` | ⚠️ Sim |  |
+| 303 | `reddit_1t939or_7` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
+| 304 | `reddit_1r77r09_3` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/2` | ⚠️ Sim |  |
+| 305 | `510327_2904437` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `2/3/1/3` | ⚠️ Sim |  |
+| 306 | `reddit_1t939or_2` | World of Warcraft | **A1** | I4 | VC4 | **Risco** | `0/3/4/2` | Não |  |
+| 307 | `reddit_1t939or_8` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/2/2/1` | ⚠️ Sim |  |
+| 308 | `reddit_1t939or_10` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
+| 309 | `reddit_1t939or_5` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | Não |  |
+| 310 | `510327_2913345` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `3/2/1/3` | ⚠️ Sim |  |
+| 311 | `reddit_1t939or_11` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/2/3/1` | ⚠️ Sim |  |
+| 312 | `reddit_1t939or_12` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/2/3/0` | ⚠️ Sim |  |
+| 313 | `510327_2913288` | EVE Online | **A1** | I3 | VC1 | **Diálogo** | `5/4/2/5` | ⚠️ Sim |  |
+| 314 | `reddit_1t939or_3` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/2/3/1` | ⚠️ Sim |  |
+| 315 | `2116712_27043000` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
+| 316 | `510327_2901203` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `2/3/2/3` | ⚠️ Sim |  |
+| 317 | `510327_2913382` | EVE Online | **A3** | I6 | VC4 | **Transparência** | `0/1/0/2` | ⚠️ Sim |  |
+| 318 | `reddit_1r77s3x_2` | World of Warcraft | **A5** | I6 | VC4 | **Transparência** | `0/0/1/2` | ⚠️ Sim |  |
+| 319 | `510327_2920351` | EVE Online | **A1** | I3 | VC1 | **Diálogo** | `5/3/1/2` | ⚠️ Sim |  |
+| 320 | `510327_2913292` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `3/2/2/3` | ⚠️ Sim |  |
+| 321 | `2116712_27042848` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/3/5/1` | Não |  |
+| 322 | `502655_2829997` | EVE Online | **A1** | I2 | VC2 | **Acesso** | `1/3/0/2` | ⚠️ Sim |  |
+| 323 | `510327_2912893` | EVE Online | **A1** | I3 | VC2 | **Diálogo** | `5/4/2/5` | ⚠️ Sim |  |
+| 324 | `reddit_1r77s3x_20` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/3` | ⚠️ Sim |  |
+| 325 | `reddit_1r77s3x_10` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/1/3` | ⚠️ Sim |  |
+| 326 | `reddit_1r77s3x_8` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/3/0` | Não |  |
+| 327 | `reddit_1spdcd4_1` | World of Warcraft | **A5** | I6 | VC4 | **Acesso** | `0/2/1/2` | ⚠️ Sim |  |
+| 328 | `reddit_1r77s3x_23` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/2` | ⚠️ Sim |  |
+| 329 | `reddit_1r77s3x_3` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | Não |  |
+| 330 | `reddit_1r77s3x_21` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/2/3` | Não |  |
+| 331 | `reddit_1r77s3x_5` | World of Warcraft | **A5** | I4 | VC3 | **Transparência** | `0/0/3/4` | Não |  |
+| 332 | `502655_2823935` | EVE Online | **A1** | I5 | VC4 | **Acesso** | `0/3/0/2` | Não |  |
+| 333 | `reddit_1r77s3x_31` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
+| 334 | `reddit_1r77s3x_27` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/2` | Não |  |
+| 335 | `reddit_1r77s3x_12` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | Não |  |
+| 336 | `reddit_1r77s3x_24` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/3/0` | Não |  |
+| 337 | `reddit_1r77s3x_25` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | Não |  |
+| 338 | `reddit_1r77s3x_30` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/3/3` | ⚠️ Sim |  |
+| 339 | `502655_2811315` | EVE Online | **A1** | I4 | VC2 | **Acesso** | `1/4/2/4` | ⚠️ Sim |  |
+| 340 | `reddit_1r77s3x_1` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/4/4` | Não |  |
+| 341 | `reddit_1kylpvy_6` | World of Warcraft | **A1** | I3 | VC1 | **Diálogo** | `4/2/0/1` | ⚠️ Sim |  |
+| 342 | `reddit_1u0bxq6_12` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
+| 343 | `reddit_1kylpvy_1` | World of Warcraft | **A4** | I1 | VC2 | **Diálogo** | `3/3/0/1` | ⚠️ Sim |  |
+| 344 | `reddit_1u0bxq6_1` | World of Warcraft | **A1** | I1 | VC4 | **Diálogo** | `3/3/0/1` | ⚠️ Sim |  |
+| 345 | `reddit_1u0bxq6_5` | World of Warcraft | **A1** | I3 | VC4 | **Diálogo** | `5/3/0/2` | Não |  |
+| 346 | `reddit_1kylpvy_5` | World of Warcraft | **A5** | I6 | VC4 | **Acesso** | `0/2/0/0` | ⚠️ Sim |  |
+| 347 | `reddit_1kylpvy_2` | World of Warcraft | **A4** | I1 | VC2 | **Diálogo** | `4/3/1/2` | ⚠️ Sim |  |
+| 348 | `reddit_1u0bxq6_7` | World of Warcraft | **A2** | I1 | VC3 | **Diálogo** | `3/1/2/2` | ⚠️ Sim |  |
+| 349 | `reddit_1u0bxq6_13` | World of Warcraft | **A1** | I1 | VC4 | **Diálogo** | `3/3/1/0` | ⚠️ Sim |  |
+| 350 | `reddit_1kylpvy_7` | World of Warcraft | **A4** | I3 | VC1 | **Diálogo** | `4/4/1/2` | ⚠️ Sim |  |
+| 351 | `reddit_1kylpvy_4` | World of Warcraft | **A1** | I3 | VC2 | **Diálogo** | `5/4/2/4` | ⚠️ Sim |  |
+| 352 | `2203538_28248359` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/1/0` | ⚠️ Sim |  |
+| 353 | `507123_2841853` | EVE Online | **A1** | I4 | VC2 | **Acesso** | `1/4/1/2` | ⚠️ Sim |  |
+| 354 | `507123_2843984` | EVE Online | **A1** | I3 | VC2 | **Acesso** | `3/4/1/2` | ⚠️ Sim |  |
+| 355 | `507123_2844342` | EVE Online | **A5** | I6 | VC4 | **Acesso** | `0/2/0/1` | ⚠️ Sim |  |
+| 356 | `2203538_28248349` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/3/3/1` | ⚠️ Sim |  |
+| 357 | `507123_2843605` | EVE Online | **A1** | I4 | VC4 | **Acesso** | `1/4/0/3` | ⚠️ Sim |  |
+| 358 | `507123_2842254` | EVE Online | **A1** | I4 | VC2 | **Acesso** | `3/4/1/2` | ⚠️ Sim |  |
+| 359 | `reddit_1ormrc6_6` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
+| 360 | `2203538_28253196` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
+| 361 | `2203538_28248849` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/3/1` | ⚠️ Sim |  |
+| 362 | `2203538_28253154` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/1/0` | ⚠️ Sim |  |
+| 363 | `507123_2844191` | EVE Online | **A1** | I4 | VC4 | **Transparência** | `2/3/4/5` | ⚠️ Sim |  |
+| 364 | `2203538_28248868` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/1/1` | ⚠️ Sim |  |
+| 365 | `2203538_28252649` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/2/3/1` | ⚠️ Sim |  |
+| 366 | `2203538_28249198` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/3/2` | ⚠️ Sim |  |
+| 367 | `reddit_1ormrc6_9` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
+| 368 | `reddit_1ormrc6_2` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/2/1` | ⚠️ Sim |  |
+| 369 | `2203538_28252511` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/2/4/1` | Não |  |
+| 370 | `507123_2842763` | EVE Online | **A1** | I4 | VC2 | **Acesso** | `3/4/1/2` | ⚠️ Sim |  |
+| 371 | `2344742_29986092` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/0` | ⚠️ Sim |  |
+| 372 | `reddit_1ormrc6_12` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/2` | ⚠️ Sim |  |
+| 373 | `reddit_1ormrc6_14` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/3/1` | ⚠️ Sim |  |
+| 374 | `reddit_1ormrc6_1` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/2/5/2` | Não |  |
+| 375 | `2168234_27740125` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/4/2` | Não |  |
+| 376 | `2344742_29999312` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
+| 377 | `reddit_1q7m0sl_1` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/1` | Não |  |
+| 378 | `reddit_1q7m0sl_7` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
+| 379 | `reddit_1q7m0sl_3` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/2/0` | Não |  |
+| 380 | `reddit_1q7m0sl_16` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/2/0/0` | ⚠️ Sim |  |
+| 381 | `reddit_1q7m0sl_22` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
+| 382 | `reddit_1q7m0sl_14` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
+| 383 | `reddit_1q7m0sl_12` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | Não |  |
+| 384 | `507123_2862728` | EVE Online | **A1** | I4 | VC4 | **Acesso** | `1/4/2/2` | ⚠️ Sim |  |
+| 385 | `reddit_1q7m0sl_29` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/0/0/1` | ⚠️ Sim |  |
+| 386 | `reddit_1q7m0sl_26` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/2/3/2` | Não |  |
+| 387 | `512367_2882363` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `1/3/2/2` | ⚠️ Sim |  |
+| 388 | `2168234_27980354` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/3/2` | ⚠️ Sim |  |
+| 389 | `reddit_1q7m0sl_5` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/1/4/2` | Não |  |
+| 390 | `507123_2853874` | EVE Online | **A1** | I4 | VC4 | **Acesso** | `1/4/2/2` | ⚠️ Sim |  |
+| 391 | `512367_2882924` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `1/1/2/3` | ⚠️ Sim |  |
+| 392 | `reddit_1q7m0sl_20` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/3/1` | ⚠️ Sim |  |
+| 393 | `reddit_1rhkho1_3` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/3` | ⚠️ Sim |  |
+| 394 | `512367_2882315` | EVE Online | **A5** | I4 | VC3 | **Risco** | `0/1/4/1` | Não |  |
+| 395 | `2168234_27739222` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/3/3` | Não |  |
+| 396 | `reddit_1rhkho1_4` | World of Warcraft | **A5** | I6 | VC4 | **Transparência** | `0/0/0/3` | ⚠️ Sim |  |
+| 397 | `reddit_1rhkho1_2` | World of Warcraft | **A5** | I4 | VC3 | **Transparência** | `0/0/3/4` | Não |  |
+| 398 | `reddit_1rhkho1_7` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/3` | ⚠️ Sim |  |
+| 399 | `reddit_1rhkho1_11` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/3` | ⚠️ Sim |  |
+| 400 | `reddit_1rhkho1_9` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/3` | ⚠️ Sim |  |
+| 401 | `reddit_1rhkho1_8` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/3` | ⚠️ Sim |  |
+| 402 | `reddit_1rhkho1_1` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/2/3` | Não |  |
+| 403 | `reddit_1rhkho1_5` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/3` | ⚠️ Sim |  |
+| 404 | `512367_2882298` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `2/3/2/3` | Não |  |
+| 405 | `reddit_1rhkho1_19` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/3` | Não |  |
+| 406 | `reddit_1rhkho1_16` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/3` | ⚠️ Sim |  |
+| 407 | `reddit_1rhkho1_12` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/4` | Não |  |
+| 408 | `reddit_1rhkho1_13` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/1/3` | ⚠️ Sim |  |
+| 409 | `2329784_29803221` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
+| 410 | `2329784_29802930` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
+| 411 | `2329784_29803332` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/2/0` | ⚠️ Sim |  |
+| 412 | `2329784_29810436` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/0/1` | ⚠️ Sim |  |
+| 413 | `2329784_29801995` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/2/3/3` | Não |  |
+| 414 | `2329784_29802194` | World of Warcraft | **A4** | I4 | VC4 | **Acesso** | `2/3/2/1` | ⚠️ Sim |  |
+| 415 | `2329784_29803356` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
+| 416 | `2329784_29802023` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/2/0/1` | ⚠️ Sim |  |
+| 417 | `472014_2648389` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
+| 418 | `2329784_29802497` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/1/2` | Não |  |
+| 419 | `2329784_29801983` | World of Warcraft | **A4** | I1 | VC4 | **Acesso** | `2/3/0/1` | ⚠️ Sim |  |
+| 420 | `2329784_29802867` | World of Warcraft | **A4** | I4 | VC2 | **Acesso** | `1/4/0/2` | ⚠️ Sim |  |
+| 421 | `2329784_29802566` | World of Warcraft | **A1** | I3 | VC1 | **Diálogo** | `4/4/1/1` | ⚠️ Sim |  |
+| 422 | `2329784_29809924` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/1/3/2` | Não |  |
+| 423 | `2329784_29802019` | World of Warcraft | **A4** | I1 | VC2 | **Acesso** | `2/3/2/1` | ⚠️ Sim |  |
+| 424 | `2329784_29802602` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/2/3/2` | Não |  |
+| 425 | `472014_2649684` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `1/1/0/2` | ⚠️ Sim |  |
+| 426 | `472014_2648026` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/1/0/1` | ⚠️ Sim |  |
+| 427 | `2329784_29810515` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/0/0/0` | ⚠️ Sim |  |
+| 428 | `472014_2648559` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `1/2/2/0` | ⚠️ Sim |  |
+| 429 | `2329784_29803645` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/1/1` | Não |  |
+| 430 | `1880836_24060803` | World of Warcraft | **A4** | I4 | VC4 | **Acesso** | `0/2/1/0` | ⚠️ Sim |  |
+| 431 | `2329784_29809721` | World of Warcraft | **A4** | I4 | VC2 | **Acesso** | `1/4/1/2` | ⚠️ Sim |  |
+| 432 | `1880836_24079096` | World of Warcraft | **A4** | I1 | VC1 | **Diálogo** | `3/3/0/0` | ⚠️ Sim |  |
+| 433 | `reddit_1ql5f05_9` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/1/1` | ⚠️ Sim |  |
+| 434 | `1880836_24082938` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/1/0` | ⚠️ Sim |  |
+| 435 | `1880836_24134254` | World of Warcraft | **A4** | I1 | VC2 | **Acesso** | `2/3/0/2` | ⚠️ Sim |  |
+| 436 | `reddit_1ql5f05_1` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/4/4` | Não |  |
+| 437 | `reddit_1ql5f05_82` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/2/1` | ⚠️ Sim |  |
+| 438 | `reddit_1ql5f05_5` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/2/3/1` | ⚠️ Sim |  |
+| 439 | `reddit_1ql5f05_25` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/4/3` | Não |  |
+| 440 | `reddit_1ariy3g_6` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
+| 441 | `reddit_1ql5f05_44` | World of Warcraft | **A4** | I1 | VC4 | **Diálogo** | `3/3/1/1` | Não |  |
+| 442 | `reddit_1ariy3g_3` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/1` | ⚠️ Sim |  |
+| 443 | `reddit_1usj0hv_4` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
+| 444 | `reddit_1ariy3g_5` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/4/2` | ⚠️ Sim |  |
+| 445 | `reddit_1ql5f05_81` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/1/1` | ⚠️ Sim |  |
+| 446 | `reddit_1ql5f05_55` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
+| 447 | `reddit_1usj0hv_6` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
+| 448 | `reddit_1ariy3g_9` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
+| 449 | `reddit_1ql5f05_85` | World of Warcraft | **A4** | I3 | VC1 | **Transparência** | `4/4/1/5` | ⚠️ Sim |  |
+| 450 | `reddit_1ql5f05_28` | World of Warcraft | **A4** | I4 | VC4 | **Diálogo** | `2/2/1/0` | ⚠️ Sim |  |
+| 451 | `reddit_1ariy3g_26` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/1` | ⚠️ Sim |  |
+| 452 | `reddit_1ariy3g_20` | World of Warcraft | **A5** | I4 | VC3 | **Diálogo** | `2/0/2/1` | ⚠️ Sim |  |
+| 453 | `reddit_1usj0hv_11` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/1/0` | ⚠️ Sim |  |
+| 454 | `reddit_1ariy3g_29` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/2/1` | ⚠️ Sim |  |
+| 455 | `reddit_1ariy3g_23` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
+| 456 | `reddit_1usj0hv_1` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/2/0` | ⚠️ Sim |  |
+| 457 | `reddit_1usj0hv_12` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/1/0` | ⚠️ Sim |  |
+| 458 | `516630_2919437` | EVE Online | **A5** | I6 | VC4 | **Diálogo** | `1/0/1/0` | Não |  |
+| 459 | `reddit_1ql5f05_84` | World of Warcraft | **A4** | I1 | VC4 | **Acesso** | `2/3/2/2` | ⚠️ Sim |  |
+| 460 | `reddit_1ariy3g_7` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
+| 461 | `516630_2921990` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/0/0/0` | ⚠️ Sim |  |
+| 462 | `513384_2890009` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/0/0/0` | ⚠️ Sim |  |
+| 463 | `516630_2922981` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
+| 464 | `516630_2923458` | EVE Online | **A2** | I4 | VC4 | **Diálogo** | `2/0/1/0` | ⚠️ Sim |  |
+| 465 | `516630_2923297` | EVE Online | **A2** | I6 | VC4 | **Risco** | `0/0/2/2` | ⚠️ Sim |  |
+| 466 | `reddit_1vdomcq_4` | World of Warcraft | **A4** | I1 | VC1 | **Acesso** | `3/4/2/1` | ⚠️ Sim |  |
+| 467 | `516630_2923305` | EVE Online | **A5** | I6 | VC4 | **Risco** | `0/0/2/1` | ⚠️ Sim |  |
+| 468 | `reddit_1vdomcq_6` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
+| 469 | `510765_2870135` | EVE Online | **A5** | I6 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
+| 470 | `reddit_1vdomcq_9` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/1/2/0` | ⚠️ Sim |  |
+| 471 | `516630_2923817` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/2/3/1` | Não |  |
+| 472 | `reddit_1vdomcq_1` | World of Warcraft | **A4** | I1 | VC2 | **Acesso** | `1/4/1/2` | ⚠️ Sim |  |
+| 473 | `510765_2870228` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
+| 474 | `511854_2877889` | EVE Online | **A5** | I6 | VC4 | **Transparência** | `0/1/0/2` | ⚠️ Sim |  |
+| 475 | `reddit_1vdomcq_11` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/3/1` | Não |  |
+| 476 | `reddit_1phwb0r_5` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/1/0` | ⚠️ Sim |  |
+| 477 | `510765_2869711` | EVE Online | **A5** | I6 | VC4 | **Acesso** | `0/2/1/0` | Não |  |
+| 478 | `508912_2857609` | EVE Online | **A5** | I4 | VC4 | **Risco** | `2/0/3/1` | ⚠️ Sim |  |
+| 479 | `reddit_1v3v2p2_1` | World of Warcraft | **A1** | I3 | VC1 | **Diálogo** | `5/4/1/1` | ⚠️ Sim |  |
+| 480 | `reddit_1pftbpi_9` | World of Warcraft | **A1** | I2 | VC2 | **Acesso** | `1/3/0/1` | ⚠️ Sim |  |
+| 481 | `486758_2719765` | EVE Online | **A5** | I6 | VC4 | **Transparência** | `0/0/2/3` | Não |  |
+| 482 | `513384_2889848` | EVE Online | **A1** | I4 | VC2 | **Acesso** | `2/5/2/4` | ⚠️ Sim |  |
+| 483 | `reddit_1pftbpi_12` | World of Warcraft | **A1** | I4 | VC3 | **Diálogo** | `2/1/2/1` | ⚠️ Sim |  |
+| 484 | `reddit_1pftbpi_14` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `1/1/3/1` | ⚠️ Sim |  |
+| 485 | `511854_2877894` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `1/2/1/3` | ⚠️ Sim |  |
+| 486 | `reddit_1pftbpi_19` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/0/0` | ⚠️ Sim |  |
+| 487 | `reddit_1pftbpi_15` | World of Warcraft | **A1** | I3 | VC2 | **Diálogo** | `3/2/0/0` | ⚠️ Sim |  |
+| 488 | `reddit_1pftbpi_24` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
+| 489 | `516433_2913324` | EVE Online | **A1** | I4 | VC4 | **Acesso** | `0/5/2/3` | Não |  |
+| 490 | `505326_2829928` | EVE Online | **A5** | I6 | VC4 | **Transparência** | `0/0/0/1` | ⚠️ Sim |  |
+| 491 | `505326_2829832` | EVE Online | **A4** | I1 | VC4 | **Acesso** | `2/3/0/1` | ⚠️ Sim |  |
+| 492 | `reddit_1pftbpi_29` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
+| 493 | `reddit_1pftbpi_1` | World of Warcraft | **A1** | I3 | VC1 | **Diálogo** | `5/5/2/3` | Não |  |
+| 494 | `reddit_1phwb0r_1` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/3/1/3` | ⚠️ Sim |  |
+| 495 | `reddit_1d8nm29_1` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/0/0` | ⚠️ Sim |  |
+| 496 | `reddit_1d8nm29_4` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/1` | ⚠️ Sim |  |
+| 497 | `505326_2830182` | EVE Online | **A1** | I3 | VC3 | **Risco** | `3/3/4/1` | ⚠️ Sim |  |
+| 498 | `2255873_28894189` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/1` | ⚠️ Sim |  |
+| 499 | `2255873_28894198` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/1/1` | ⚠️ Sim |  |
+| 500 | `2255873_28894449` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/1/2/0` | ⚠️ Sim |  |
+| 501 | `2255873_28894436` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/3` | ⚠️ Sim |  |
+| 502 | `2255873_28894459` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `2/3/1/1` | ⚠️ Sim |  |
+| 503 | `reddit_1rnbqbh_7` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/1/3` | ⚠️ Sim |  |
+| 504 | `2255873_28894237` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/2/2/0` | ⚠️ Sim |  |
+| 505 | `2255873_28894283` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/2/3` | ⚠️ Sim |  |
+| 506 | `505326_2830189` | EVE Online | **A4** | I3 | VC1 | **Acesso** | `3/4/1/1` | ⚠️ Sim |  |
+| 507 | `reddit_1d8nm29_7` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/3/1/2` | ⚠️ Sim |  |
+| 508 | `2138224_27354342` | World of Warcraft | **A1** | I6 | VC4 | **Acesso** | `0/3/2/3` | ⚠️ Sim |  |
+| 509 | `2255873_28894248` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/0` | ⚠️ Sim |  |
+| 510 | `2255873_28894263` | World of Warcraft | **A5** | I6 | VC4 | **Transparência** | `0/0/1/2` | Não |  |
+| 511 | `reddit_1rnbqbh_1` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/0/3` | Não |  |
+| 512 | `2255873_28894152` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/4/2` | Não |  |
+| 513 | `498018_2777110` | EVE Online | **A1** | I4 | VC4 | **Acesso** | `1/3/1/2` | ⚠️ Sim |  |
+| 514 | `reddit_1d8nm29_15` | World of Warcraft | **A1** | I3 | VC1 | **Diálogo** | `5/4/1/2` | ⚠️ Sim |  |
+| 515 | `2255873_28894869` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/0` | ⚠️ Sim |  |
+| 516 | `2255873_28895951` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/3/0/0` | ⚠️ Sim |  |
+| 517 | `506398_2837103` | EVE Online | **A3** | I6 | VC4 | **Acesso** | `0/3/1/2` | ⚠️ Sim |  |
+| 518 | `2255873_28895085` | World of Warcraft | **A5** | I6 | VC4 | **Transparência** | `0/0/0/1` | ⚠️ Sim |  |
+| 519 | `505326_2830162` | EVE Online | **A4** | I1 | VC2 | **Acesso** | `2/3/0/1` | ⚠️ Sim |  |
+| 520 | `2255873_28897710` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/1/0/1` | ⚠️ Sim |  |
+| 521 | `2255873_28895612` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/1/1` | Não |  |
+| 522 | `2255873_28895765` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
+| 523 | `2255873_28897939` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/0` | ⚠️ Sim |  |
+| 524 | `reddit_1r1dd9i_32` | World of Warcraft | **A1** | I1 | VC2 | **Diálogo** | `3/2/0/0` | ⚠️ Sim |  |
+| 525 | `500312_2794004` | EVE Online | **A4** | I1 | VC1 | **Diálogo** | `4/4/0/3` | ⚠️ Sim |  |
+| 526 | `500312_2794216` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/1/1/1` | ⚠️ Sim |  |
+| 527 | `reddit_1r1dd9i_29` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/1` | ⚠️ Sim |  |
+| 528 | `reddit_1r1dd9i_11` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/2` | ⚠️ Sim |  |
+| 529 | `reddit_1r1dd9i_19` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/1` | Não |  |
+| 530 | `2345875_29999802` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/1` | Não |  |
+| 531 | `2345875_29999122` | World of Warcraft | **A4** | I1 | VC2 | **Acesso** | `3/4/2/0` | ⚠️ Sim |  |
+| 532 | `2345875_29999811` | World of Warcraft | **A4** | I3 | VC3 | **Diálogo** | `4/2/1/1` | ⚠️ Sim |  |
+| 533 | `2345875_29999728` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/1/2/3` | Não |  |
+| 534 | `2345875_29999699` | World of Warcraft | **A1** | I1 | VC4 | **Diálogo** | `3/3/1/1` | ⚠️ Sim |  |
+| 535 | `2345875_29999913` | World of Warcraft | **A4** | I6 | VC4 | **Acesso** | `0/2/0/0` | ⚠️ Sim |  |
+| 536 | `2345875_29999125` | World of Warcraft | **A4** | I5 | VC2 | **Acesso** | `0/3/2/1` | ⚠️ Sim |  |
+| 537 | `500312_2794186` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/2/1/1` | ⚠️ Sim |  |
+| 538 | `2345875_29999990` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/0` | ⚠️ Sim |  |
+| 539 | `2345875_30000018` | World of Warcraft | **A4** | I4 | VC4 | **Acesso** | `2/3/2/1` | ⚠️ Sim |  |
+| 540 | `reddit_1r3mzvw_17` | World of Warcraft | **A5** | I6 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
+| 541 | `2345875_30000674` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/3/3` | ⚠️ Sim |  |
+| 542 | `2345875_30000664` | World of Warcraft | **A1** | I1 | VC4 | **Diálogo** | `3/2/2/0` | Não |  |
+| 543 | `2345875_29999979` | World of Warcraft | **A1** | I3 | VC1 | **Diálogo** | `5/4/1/2` | ⚠️ Sim |  |
+| 544 | `reddit_1r1dd9i_28` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/2/1/1` | ⚠️ Sim |  |
+| 545 | `2345875_30000488` | World of Warcraft | **A1** | I3 | VC2 | **Diálogo** | `4/3/1/3` | ⚠️ Sim |  |
+| 546 | `2345875_30000040` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/1/3/3` | Não |  |
+| 547 | `2345875_30001123` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `2/2/3/0` | ⚠️ Sim |  |
+| 548 | `2345875_30000620` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/1/0` | ⚠️ Sim |  |
+| 549 | `2345875_30001954` | World of Warcraft | **A4** | I4 | VC4 | **Diálogo** | `2/2/0/1` | ⚠️ Sim |  |
+| 550 | `509113_2856632` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/0/2/1` | ⚠️ Sim |  |
+| 551 | `509113_2856688` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/3/1` | Não |  |
+| 552 | `509113_2857464` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/3/2` | Não |  |
+| 553 | `509113_2857475` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/3/1` | Não |  |
+| 554 | `509113_2856589` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/4/4` | Não |  |
+| 555 | `reddit_1sq7b1r_1` | World of Warcraft | **A4** | I4 | VC4 | **Acesso** | `3/4/4/2` | ⚠️ Sim |  |
+| 556 | `509113_2857598` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/3/3` | Não |  |
+| 557 | `2345875_30000160` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/5/2` | ⚠️ Sim |  |
+| 558 | `2053425_26206512` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
+| 559 | `509113_2857750` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/3/2` | Não |  |
+| 560 | `2053425_26213064` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/1` | ⚠️ Sim |  |
+| 561 | `reddit_1vy3jwo_10` | World of Warcraft | **A1** | I3 | VC2 | **Acesso** | `2/3/1/2` | ⚠️ Sim |  |
+| 562 | `reddit_1vy3jwo_2` | World of Warcraft | **A1** | I4 | VC1 | **Acesso** | `2/3/1/0` | ⚠️ Sim |  |
+| 563 | `reddit_1vy3jwo_5` | World of Warcraft | **A1** | I4 | VC2 | **Acesso** | `2/3/0/1` | ⚠️ Sim |  |
+| 564 | `reddit_1vy3jwo_4` | World of Warcraft | **A1** | I3 | VC2 | **Acesso** | `3/4/1/3` | ⚠️ Sim |  |
+| 565 | `2345875_30001592` | World of Warcraft | **A4** | I4 | VC4 | **Acesso** | `0/3/2/2` | ⚠️ Sim |  |
+| 566 | `reddit_1vy3jwo_9` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/2/3/1` | ⚠️ Sim |  |
+| 567 | `reddit_1vy3jwo_1` | World of Warcraft | **A1** | I3 | VC1 | **Diálogo** | `5/5/4/3` | ⚠️ Sim |  |
+| 568 | `509113_2856608` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/2/4/4` | Não |  |
+| 569 | `2323925_29722533` | World of Warcraft | **A3** | I4 | VC4 | **Risco** | `0/0/4/0` | ⚠️ Sim |  |
+| 570 | `1uqtdhy_6` | EVE Online | **A4** | I4 | VC4 | **Acesso** | `0/2/0/0` | ⚠️ Sim |  |
+| 571 | `1821486_23275487` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/2/1` | ⚠️ Sim |  |
+| 572 | `1s9et4k_52` | World of Warcraft | **A1** | I2 | VC4 | **Acesso** | `0/1/0/1` | ⚠️ Sim |  |
+| 573 | `1ofu78l_18` | EVE Online | **A1** | I3 | VC4 | **Diálogo** | `4/2/2/0` | ⚠️ Sim |  |
+| 574 | `1ofu78l_14` | EVE Online | **A4** | I4 | VC4 | **Risco** | `1/1/2/1` | ⚠️ Sim |  |
+| 575 | `1tyovbz_7` | EVE Online | **A5** | I6 | VC4 | **Risco** | `0/0/1/1` | ⚠️ Sim |  |
+| 576 | `1uqtdhy_10` | EVE Online | **A3** | I6 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
+| 577 | `1eoyf2u_1` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
+| 578 | `2323925_29726168` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/3/1` | ⚠️ Sim |  |
+| 579 | `2323925_29722615` | World of Warcraft | **A3** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
+| 580 | `2323925_29725769` | World of Warcraft | **A3** | I4 | VC4 | **Risco** | `1/2/3/1` | Não |  |
+| 581 | `1eoyf2u_21` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/0/0` | Não |  |
+| 582 | `1861200_23769316` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
+| 583 | `1821486_23275450` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/1/1` | Não |  |
+| 584 | `1eoyf2u_20` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/0/1` | ⚠️ Sim |  |
+| 585 | `2056975_26240673` | World of Warcraft | **A4** | I1 | VC2 | **Diálogo** | `3/3/0/1` | ⚠️ Sim |  |
+| 586 | `1821486_23275945` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/1/0` | ⚠️ Sim |  |
+| 587 | `1861200_23769294` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/3/2/0` | ⚠️ Sim |  |
+| 588 | `1tyovbz_21` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/1/2/2` | ⚠️ Sim |  |
+| 589 | `471468_2644478` | EVE Online | **A1** | I1 | VC2 | **Diálogo** | `3/3/0/1` | ⚠️ Sim |  |
+| 590 | `1tyovbz_11` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `1/1/1/2` | ⚠️ Sim |  |
+| 591 | `1eoyf2u_17` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/2/1` | Não |  |
+| 592 | `486116_2716498` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `1/0/1/2` | ⚠️ Sim |  |
+| 593 | `1mctiz6_9` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
+| 594 | `1i6m4i6_28` | World of Warcraft | **A1** | I3 | VC2 | **Diálogo** | `5/3/1/1` | ⚠️ Sim |  |
+| 595 | `1kh1a1v_9` | EVE Online | **A1** | I1 | VC4 | **Acesso** | `1/3/0/1` | Não |  |
+| 596 | `1kh1a1v_6` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `1/2/0/0` | ⚠️ Sim |  |
+| 597 | `1kh1a1v_5` | EVE Online | **A5** | I6 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
+| 598 | `1i6m4i6_90` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/1` | ⚠️ Sim |  |
+| 599 | `1mctiz6_21` | EVE Online | **A5** | I6 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
+| 600 | `1kh1a1v_10` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
+| 601 | `2219273_28457651` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/3/3` | Não |  |
+| 602 | `1udu43k_5` | EVE Online | **A1** | I4 | VC4 | **Acesso** | `0/3/2/3` | ⚠️ Sim |  |
+| 603 | `453174_2547937` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `1/3/0/0` | Não |  |
+| 604 | `2219273_28486581` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/2` | ⚠️ Sim |  |
+| 605 | `1sv241g_31` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/2` | ⚠️ Sim |  |
+| 606 | `1t01k13_12` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
+| 607 | `1t01k13_23` | EVE Online | **A2** | I6 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
+| 608 | `2219273_28457664` | World of Warcraft | **A4** | I4 | VC4 | **Diálogo** | `1/1/1/1` | ⚠️ Sim |  |
+| 609 | `1tkscsd_11` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/1/2` | ⚠️ Sim |  |
+| 610 | `1t01k13_19` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/1/3/0` | ⚠️ Sim |  |
+| 611 | `1t01k13_42` | EVE Online | **A2** | I6 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
+| 612 | `1t01k13_25` | EVE Online | **A2** | I6 | VC4 | **Risco** | `0/1/2/0` | ⚠️ Sim |  |
+| 613 | `2219273_28486448` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/0` | ⚠️ Sim |  |
+| 614 | `1t01k13_21` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/1/2/1` | ⚠️ Sim |  |
+| 615 | `1twaq1l_3` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `0/0/2/3` | ⚠️ Sim |  |
+| 616 | `1twaq1l_5` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/1` | ⚠️ Sim |  |
+| 617 | `484953_2711799` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
+| 618 | `2152188_27512171` | World of Warcraft | **A1** | I1 | VC3 | **Transparência** | `3/2/2/4` | ⚠️ Sim |  |
+| 619 | `515483_2906301` | EVE Online | **A3** | I6 | VC4 | **Acesso** | `0/3/1/3` | ⚠️ Sim |  |
+| 620 | `453504_2553666` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/3/3` | ⚠️ Sim |  |
+| 621 | `1twaq1l_29` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/1/1` | ⚠️ Sim |  |
+| 622 | `1i6m4i6_87` | World of Warcraft | **A1** | I3 | VC4 | **Diálogo** | `5/3/1/2` | Não |  |
+| 623 | `1twaq1l_19` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `0/0/1/2` | ⚠️ Sim |  |
+| 624 | `1twaq1l_15` | EVE Online | **A4** | I4 | VC4 | **Diálogo** | `2/1/1/2` | ⚠️ Sim |  |
+| 625 | `484953_2711930` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `1/0/2/3` | Não |  |
+| 626 | `516054_2920647` | EVE Online | **A4** | I4 | VC4 | **Acesso** | `1/2/1/0` | ⚠️ Sim |  |
+| 627 | `1gebstj_28` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/1/2` | ⚠️ Sim |  |
+| 628 | `1gebstj_33` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/1` | ⚠️ Sim |  |
+| 629 | `1gebstj_18` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/3/2` | ⚠️ Sim |  |
+| 630 | `1gebstj_16` | World of Warcraft | **A1** | I1 | VC3 | **Diálogo** | `3/2/3/2` | ⚠️ Sim |  |
+| 631 | `1gebstj_30` | World of Warcraft | **A5** | I4 | VC3 | **Diálogo** | `1/0/1/1` | ⚠️ Sim |  |
+| 632 | `1gebstj_45` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/1` | ⚠️ Sim |  |
+| 633 | `516054_2910464` | EVE Online | **A4** | I4 | VC4 | **Acesso** | `0/3/2/3` | ⚠️ Sim |  |
+| 634 | `1gebstj_50` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/0/1` | ⚠️ Sim |  |
+| 635 | `1gebstj_36` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/3/1` | ⚠️ Sim |  |
+| 636 | `1gebstj_69` | World of Warcraft | **A2** | I1 | VC4 | **Diálogo** | `3/0/1/0` | ⚠️ Sim |  |
+| 637 | `1gebstj_37` | World of Warcraft | **A2** | I4 | VC4 | **Risco** | `0/1/2/2` | ⚠️ Sim |  |
+| 638 | `1gebstj_38` | World of Warcraft | **A2** | I1 | VC3 | **Diálogo** | `3/1/2/1` | ⚠️ Sim |  |
+| 639 | `1gebstj_49` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/0/2` | ⚠️ Sim |  |
+| 640 | `1gebstj_44` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `2/0/0/3` | ⚠️ Sim |  |
+| 641 | `1gebstj_51` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/5/0` | ⚠️ Sim |  |
+| 642 | `2093466_26720101` | World of Warcraft | **A3** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
+| 643 | `1gebstj_68` | World of Warcraft | **A5** | I4 | VC3 | **Diálogo** | `2/0/1/2` | ⚠️ Sim |  |
+| 644 | `1gebstj_71` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/1/2` | ⚠️ Sim |  |
+| 645 | `1gebstj_81` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/1` | ⚠️ Sim |  |
+| 646 | `2093466_26720858` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
+| 647 | `2093466_26720957` | World of Warcraft | **A3** | I4 | VC3 | **Risco** | `0/3/4/0` | ⚠️ Sim |  |
+| 648 | `2093466_26721327` | World of Warcraft | **A2** | I4 | VC4 | **Acesso** | `1/2/2/0` | ⚠️ Sim |  |
+| 649 | `483347_2704537` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
+| 650 | `2093466_26720969` | World of Warcraft | **A2** | I4 | VC4 | **Acesso** | `2/3/3/1` | ⚠️ Sim |  |
+| 651 | `513037_2887444` | EVE Online | **A5** | I6 | VC4 | **Transparência** | `0/0/0/1` | ⚠️ Sim |  |
+| 652 | `2093466_26721106` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
+| 653 | `2104695_26872743` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/2/0` | ⚠️ Sim |  |
+| 654 | `2093466_26721329` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/2/1` | ⚠️ Sim |  |
+| 655 | `2093466_26721190` | World of Warcraft | **A3** | I6 | VC4 | **Risco** | `0/1/2/1` | ⚠️ Sim |  |
+| 656 | `2093466_26721195` | World of Warcraft | **A3** | I4 | VC3 | **Risco** | `0/3/4/2` | ⚠️ Sim |  |
+| 657 | `2104695_26873703` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/1/0` | ⚠️ Sim |  |
+| 658 | `2093466_26721437` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/2/1` | ⚠️ Sim |  |
+| 659 | `2104695_26874114` | World of Warcraft | **A4** | I4 | VC2 | **Acesso** | `2/3/1/0` | ⚠️ Sim |  |
+| 660 | `2104695_26874539` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `2/1/3/2` | Não |  |
+| 661 | `2104695_26876734` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/0/0` | ⚠️ Sim |  |
+| 662 | `2104695_26879173` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
+| 663 | `2104695_26882121` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/0/0/2` | ⚠️ Sim |  |
+| 664 | `483347_2703710` | EVE Online | **A5** | I6 | VC4 | **Acesso** | `2/3/2/1` | ⚠️ Sim |  |
+| 665 | `2104695_26876215` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/1/0` | ⚠️ Sim |  |
+| 666 | `2104695_26874617` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/2/1` | ⚠️ Sim |  |
+| 667 | `2104695_26879111` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/1/3` | ⚠️ Sim |  |
+| 668 | `2104695_26893160` | World of Warcraft | **A5** | I6 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
+| 669 | `2104695_26876152` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/2/2` | ⚠️ Sim |  |
+| 670 | `2104695_26874207` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/1/3` | ⚠️ Sim |  |
+| 671 | `2104695_26884570` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `3/0/0/3` | Não |  |
+| 672 | `2104695_26875205` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/2` | Não |  |
+| 673 | `2104695_26884502` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `3/0/0/2` | Não |  |
+| 674 | `2104695_26884205` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/1/0/2` | Não |  |
+| 675 | `1hlv8xy_6` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/0/0` | ⚠️ Sim |  |
+| 676 | `1hlv8xy_2` | World of Warcraft | **A4** | I4 | VC4 | **Acesso** | `0/2/1/0` | ⚠️ Sim |  |
+| 677 | `2104695_26894920` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/0/2` | ⚠️ Sim |  |
+| 678 | `1hlv8xy_3` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/0` | ⚠️ Sim |  |
+| 679 | `1t3g4bt_47` | EVE Online | **A4** | I1 | VC2 | **Diálogo** | `4/3/1/1` | ⚠️ Sim |  |
+| 680 | `1t3g4bt_25` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
+| 681 | `2104695_26884477` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `2/1/0/4` | ⚠️ Sim |  |
+| 682 | `2104695_26895318` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/1/2` | ⚠️ Sim |  |
+| 683 | `2051325_26164328` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/0/0` | ⚠️ Sim |  |
+| 684 | `1t3g4bt_38` | EVE Online | **A1** | I1 | VC3 | **Diálogo** | `4/2/2/1` | Não |  |
+| 685 | `2051325_26164076` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/2/2` | Não |  |
+| 686 | `2104695_26901262` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/4/3` | ⚠️ Sim |  |
+| 687 | `2051325_26164316` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `1/2/1/1` | Não |  |
+| 688 | `2051325_26164463` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/0/0` | ⚠️ Sim |  |
+| 689 | `2123929_27158570` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/2/1` | Não |  |
+| 690 | `2015716_25669223` | World of Warcraft | **A4** | I3 | VC1 | **Diálogo** | `4/3/1/4` | Não |  |
+| 691 | `2051325_26172289` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/1/0` | ⚠️ Sim |  |
+| 692 | `2051325_26164391` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/2/3/1` | Não |  |
+| 693 | `2051325_26164437` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/0/1` | Não |  |
+| 694 | `2051325_26164026` | World of Warcraft | **A4** | I1 | VC2 | **Diálogo** | `4/4/0/1` | ⚠️ Sim |  |
+| 695 | `2051325_26164496` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/2/3` | ⚠️ Sim |  |
+| 696 | `2051325_26172424` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
+| 697 | `1784181_22791140` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/0/2` | ⚠️ Sim |  |
+| 698 | `2051325_26172557` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/2/0/1` | ⚠️ Sim |  |
+| 699 | `2051325_26172541` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/3` | ⚠️ Sim |  |
+| 700 | `1784181_22791073` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/2/1/3` | Não |  |
+| 701 | `1784181_22791376` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/1` | ⚠️ Sim |  |
+| 702 | `1784181_22790668` | World of Warcraft | **A5** | I4 | VC4 | **Acesso** | `0/2/1/1` | ⚠️ Sim |  |
+| 703 | `1784181_22791221` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
+| 704 | `1784181_22791100` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/2/1` | ⚠️ Sim |  |
+| 705 | `1784181_22793545` | World of Warcraft | **A5** | I6 | VC4 | **Transparência** | `0/0/0/1` | ⚠️ Sim |  |
+| 706 | `1784181_22791015` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/2` | ⚠️ Sim |  |
+| 707 | `1784181_22793257` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/3/2` | ⚠️ Sim |  |
+| 708 | `1vt5t85_39` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/1/2` | ⚠️ Sim |  |
+| 709 | `1784181_22795751` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/1/2/2` | ⚠️ Sim |  |
+| 710 | `1784181_22794635` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `2/1/2/2` | ⚠️ Sim |  |
+| 711 | `1784181_22791963` | World of Warcraft | **A4** | I3 | VC1 | **Diálogo** | `4/3/0/1` | Não |  |
+| 712 | `1rmfr5h_18` | EVE Online | **A5** | I6 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
+| 713 | `1rmfr5h_10` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
+| 714 | `2295883_29363172` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/2/2` | ⚠️ Sim |  |
+| 715 | `1784181_22791956` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/2/3/1` | ⚠️ Sim |  |
+| 716 | `1rmfr5h_41` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/0` | ⚠️ Sim |  |
+| 717 | `1784181_22794140` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/3/1` | ⚠️ Sim |  |
+| 718 | `1ph9o3i_2` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
+| 719 | `2295883_29363252` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/2` | ⚠️ Sim |  |
+| 720 | `1ph9o3i_7` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `0/2/0/0` | ⚠️ Sim |  |
+| 721 | `1ph9o3i_5` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/1/3/2` | Não |  |
+| 722 | `1ph9o3i_6` | EVE Online | **A1** | I2 | VC4 | **Diálogo** | `2/2/1/1` | ⚠️ Sim |  |
+| 723 | `2295883_29362891` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/2/2` | ⚠️ Sim |  |
+| 724 | `2123929_27155547` | World of Warcraft | **A1** | I1 | VC2 | **Diálogo** | `5/4/2/1` | ⚠️ Sim |  |
+| 725 | `1ph9o3i_11` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
+| 726 | `1ph9o3i_22` | EVE Online | **A4** | I3 | VC3 | **Risco** | `3/3/4/0` | ⚠️ Sim |  |
+| 727 | `1ph9o3i_19` | EVE Online | **A1** | I1 | VC4 | **Acesso** | `2/3/2/1` | ⚠️ Sim |  |
+| 728 | `1ph9o3i_13` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/1/2/2` | ⚠️ Sim |  |
+| 729 | `1ph9o3i_18` | EVE Online | **A4** | I3 | VC1 | **Acesso** | `3/4/1/1` | ⚠️ Sim |  |
+| 730 | `1ph9o3i_17` | EVE Online | **A4** | I4 | VC2 | **Acesso** | `3/4/1/0` | ⚠️ Sim |  |
+| 731 | `1ph9o3i_21` | EVE Online | **A4** | I1 | VC3 | **Diálogo** | `2/2/1/0` | ⚠️ Sim |  |
+| 732 | `1mwoeow_3` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/2/2` | ⚠️ Sim |  |
+| 733 | `1mwoeow_6` | World of Warcraft | **A1** | I5 | VC3 | **Risco** | `1/0/4/2` | ⚠️ Sim |  |
+| 734 | `1mwoeow_5` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
+| 735 | `1mwoeow_14` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/1/2` | ⚠️ Sim |  |
+| 736 | `1mwoeow_13` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/0/1/2` | ⚠️ Sim |  |
+| 737 | `1mwoeow_10` | World of Warcraft | **A5** | I4 | VC3 | **Transparência** | `2/1/3/4` | ⚠️ Sim |  |
+| 738 | `1mwoeow_15` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
+| 739 | `2022909_25756274` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | Não |  |
+| 740 | `2022909_25758304` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
+| 741 | `1mwoeow_8` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `2/0/1/3` | ⚠️ Sim |  |
+| 742 | `2039353_25997830` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | Não |  |
+| 743 | `1tdxixs_2` | EVE Online | **A5** | I4 | VC4 | **Risco** | `2/0/3/0` | ⚠️ Sim |  |
+| 744 | `1tdxixs_5` | EVE Online | **A5** | I6 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
+| 745 | `1tdxixs_6` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `0/0/0/3` | Não |  |
+| 746 | `2022909_25756354` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/3/0` | ⚠️ Sim |  |
+| 747 | `1tdxixs_3` | EVE Online | **A5** | I6 | VC4 | **Acesso** | `0/1/0/0` | ⚠️ Sim |  |
+| 748 | `2022909_25756102` | World of Warcraft | **A5** | I6 | VC4 | **Acesso** | `0/2/0/0` | ⚠️ Sim |  |
+| 749 | `2039353_25993547` | World of Warcraft | **A1** | I1 | VC2 | **Diálogo** | `4/3/1/2` | ⚠️ Sim |  |
+| 750 | `1tdxixs_8` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/1/2/2` | ⚠️ Sim |  |
+| 751 | `1tdxixs_16` | EVE Online | **A1** | I1 | VC4 | **Diálogo** | `3/2/1/1` | ⚠️ Sim |  |
+| 752 | `1tdxixs_32` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `0/0/0/2` | ⚠️ Sim |  |
+| 753 | `1tdxixs_21` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/3/1` | ⚠️ Sim |  |
+| 754 | `1tdxixs_48` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `0/0/2/3` | ⚠️ Sim |  |
+| 755 | `1tdxixs_38` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `0/1/0/2` | Não |  |
+| 756 | `2039353_25998694` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `1/1/2/3` | Não |  |
+| 757 | `2101219_26826222` | World of Warcraft | **A5** | I6 | VC4 | **Risco** | `0/0/2/0` | ⚠️ Sim |  |
+| 758 | `1waqgod_41` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/1/3/2` | ⚠️ Sim |  |
+| 759 | `1jukb0x_5` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | Não |  |
+| 760 | `1jukb0x_6` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/1` | ⚠️ Sim |  |
+| 761 | `1v18nfp_32` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `0/0/2/3` | Não |  |
+| 762 | `1jukb0x_8` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/2/1` | Não |  |
+| 763 | `1waqgod_6` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/2/4/1` | ⚠️ Sim |  |
+| 764 | `2101219_26825118` | World of Warcraft | **A5** | I4 | VC3 | **Risco** | `0/0/5/4` | Não |  |
+| 765 | `2039353_25994927` | World of Warcraft | **A4** | I1 | VC2 | **Diálogo** | `4/3/2/1` | ⚠️ Sim |  |
+| 766 | `2344820_29990276` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `1/0/3/1` | ⚠️ Sim |  |
+| 767 | `2101219_26825555` | World of Warcraft | **A5** | I4 | VC4 | **Risco** | `0/0/3/3` | ⚠️ Sim |  |
+| 768 | `1jukb0x_14` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `0/0/2/3` | ⚠️ Sim |  |
+| 769 | `1oq9poa_12` | EVE Online | **A4** | I4 | VC4 | **Acesso** | `1/2/0/1` | ⚠️ Sim |  |
+| 770 | `2101219_26827812` | World of Warcraft | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/1` | Não |  |
+| 771 | `1jukb0x_11` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
+| 772 | `2101219_26826888` | World of Warcraft | **A5** | I4 | VC4 | **Transparência** | `0/0/3/4` | Não |  |
+| 773 | `1jukb0x_7` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/1/0/0` | ⚠️ Sim |  |
+| 774 | `1jukb0x_16` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `0/0/2/3` | Não |  |
+| 775 | `1jukb0x_13` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/2/1/0` | Não |  |
+| 776 | `1jukb0x_24` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/2/0/0` | Não |  |
+| 777 | `1jukb0x_18` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/0/2/1` | ⚠️ Sim |  |
+| 778 | `1jukb0x_23` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/2/1/1` | ⚠️ Sim |  |
+| 779 | `1jukb0x_25` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/1/2/0` | ⚠️ Sim |  |
+| 780 | `1jukb0x_19` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/0` | Não |  |
+| 781 | `1jukb0x_34` | EVE Online | **A5** | I4 | VC3 | **Risco** | `0/2/3/0` | ⚠️ Sim |  |
+| 782 | `1jukb0x_29` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/1/2/1` | ⚠️ Sim |  |
+| 783 | `1jukb0x_27` | EVE Online | **A1** | I3 | VC4 | **Diálogo** | `4/3/1/2` | ⚠️ Sim |  |
+| 784 | `1jukb0x_28` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | Não |  |
+| 785 | `1jukb0x_35` | EVE Online | **A4** | I1 | VC1 | **Diálogo** | `4/4/1/0` | ⚠️ Sim |  |
+| 786 | `1jukb0x_36` | EVE Online | **A1** | I1 | VC1 | **Diálogo** | `4/4/0/0` | Não |  |
+| 787 | `1jukb0x_40` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/1/1/0` | ⚠️ Sim |  |
+| 788 | `1jukb0x_33` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/2/1/1` | ⚠️ Sim |  |
+| 789 | `1jukb0x_38` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/2/2/1` | ⚠️ Sim |  |
+| 790 | `1jukb0x_30` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `1/2/0/1` | ⚠️ Sim |  |
+| 791 | `1jukb0x_41` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
+| 792 | `1jukb0x_43` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
+| 793 | `1jukb0x_48` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/1/2/2` | Não |  |
+| 794 | `1jukb0x_45` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/1/1/0` | ⚠️ Sim |  |
+| 795 | `1jukb0x_53` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/2/2` | Não |  |
+| 796 | `1jukb0x_50` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/1/3/2` | Não |  |
+| 797 | `1jukb0x_56` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/2/2` | ⚠️ Sim |  |
+| 798 | `1jukb0x_49` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/3/2` | Não |  |
+| 799 | `1jukb0x_44` | EVE Online | **A1** | I3 | VC4 | **Diálogo** | `4/3/0/0` | Não |  |
+| 800 | `1jukb0x_52` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/1` | ⚠️ Sim |  |
+| 801 | `1jukb0x_59` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
+| 802 | `1jukb0x_62` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/0` | ⚠️ Sim |  |
+| 803 | `1jukb0x_47` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/1/2/0` | ⚠️ Sim |  |
+| 804 | `1jukb0x_55` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/1/0/1` | ⚠️ Sim |  |
+| 805 | `1jukb0x_42` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | Não |  |
+| 806 | `1jukb0x_60` | EVE Online | **A1** | I3 | VC4 | **Diálogo** | `4/2/1/1` | ⚠️ Sim |  |
+| 807 | `1jukb0x_63` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `2/3/0/0` | ⚠️ Sim |  |
+| 808 | `1jukb0x_64` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/1/2/2` | ⚠️ Sim |  |
+| 809 | `1jukb0x_46` | EVE Online | **A1** | I3 | VC2 | **Diálogo** | `5/4/2/1` | ⚠️ Sim |  |
+| 810 | `1jukb0x_65` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `1/3/0/2` | ⚠️ Sim |  |
+| 811 | `1jukb0x_71` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/1/1` | ⚠️ Sim |  |
+| 812 | `1jukb0x_68` | EVE Online | **A4** | I1 | VC2 | **Acesso** | `3/4/1/1` | ⚠️ Sim |  |
+| 813 | `1jukb0x_84` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `1/0/1/1` | ⚠️ Sim |  |
+| 814 | `1jukb0x_76` | EVE Online | **A5** | I4 | VC4 | **Acesso** | `1/2/1/2` | ⚠️ Sim |  |
+| 815 | `1jukb0x_73` | EVE Online | **A1** | I1 | VC4 | **Diálogo** | `3/1/0/1` | ⚠️ Sim |  |
+| 816 | `1jukb0x_95` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/2/0` | Não |  |
+| 817 | `1jukb0x_86` | EVE Online | **A5** | I4 | VC4 | **Risco** | `0/0/1/0` | ⚠️ Sim |  |
+| 818 | `1jukb0x_66` | EVE Online | **A1** | I3 | VC3 | **Diálogo** | `5/3/4/4` | Não |  |
+| 819 | `1jukb0x_90` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/1/2/2` | Não |  |
+| 820 | `1jukb0x_70` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/2/2/1` | Não |  |
+| 821 | `1jukb0x_75` | EVE Online | **A5** | I4 | VC4 | **Risco** | `1/1/3/2` | Não |  |
+| 822 | `1jukb0x_92` | EVE Online | **A5** | I4 | VC4 | **Diálogo** | `2/0/1/1` | ⚠️ Sim |  |
+| 823 | `1jukb0x_94` | EVE Online | **A5** | I4 | VC4 | **Transparência** | `0/0/2/3` | ⚠️ Sim |  |
+| 824 | `1jukb0x_80` | EVE Online | **A1** | I3 | VC1 | **Diálogo** | `5/4/2/3` | Não |  |
+| 825 | `1jukb0x_87` | EVE Online | **A1** | I1 | VC4 | **Diálogo** | `3/3/2/1` | Não |  |
 
 ---
 
 ## 3. Fichas Qualitativas Individuais (DART e Evidências)
 
-### Post #1: `509113_2857261` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 1 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI2, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O post é descritivo e analítico, sem expressar preocupações com riscos iminentes. O autor argumenta que remover highsec não mataria o comércio, mas sim o espalharia – isso é uma projeção teórica, não um risco percebido. Os metadados mostram 0 gostos, indicando que a comunidade não sinalizou alarme ou concordância com uma perceção de risco. Trust level 2 (utilizador regular) e versão única reforçam a neutralidade. Portanto, score 1 (risco mínimo).
-
-**Dimensões DART Analisadas:**
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "I draw your attention in particular to the lines Zarzakh, Huola, Alparena, and other low and null systems with more than ten units for sale."
-  - *Interpretação Teórica:* O acesso, no framework DART, refere-se à capacidade de obter informação e recursos que antes estavam restritos. O site evemarketbrowser.com permite que qualquer jogador consulte dados de mercado em tempo real, democratizando o conhecimento económico do jogo e reduzindo assimetrias de informação.
-  - *Contexto no Jogo:* Em EVE Online, ferramentas externas como este browser são vitais para identificar trade hubs emergentes em lowsec, um acesso que antes dependia de experiência individual ou scripts não partilhados. O baixo número de gostos (0) e trust level 2 sugerem que o autor não é uma fonte de alto impacto, mas a ferramenta em si expande o acesso a dados.
-
----
-
-### Post #2: `483348_2703711` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** `QI1, QI2, QI3, QI4, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
-* **Fundamentação / Notas:** O autor do post (trust level 2, 0 likes, 2 edições) apresenta a funcionalidade como segura e legal, minimizando riscos. Contudo, a ausência de validação social (0 gostos) e o historial de discussões sobre bots em EVE indicam que a comunidade pode perceber riscos mais elevados. A própria sugestão tenta mitigar riscos (limites EULA), o que sugere perceção moderada de risco pelo autor. Mantive score 2 por se tratar de um cenário controlado e proposto como extensão legítima, mas com potencial de escalada.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "The AI speaks in local — subtly or boldly... triggered off your own words."
-  - *Interpretação Teórica:* O post propõe um sistema onde o diálogo humano-IA é bidirecional e adaptativo, com a IA a responder ao estilo e conteúdo da fala do jogador, criando uma coconstrução de narrativa e interação social no jogo.
-  - *Contexto no Jogo:* Em EVE Online, o chat local é palco de interações sociais e roleplay; a sugestão insere a IA como um participante que evolui com o jogador, transformando o diálogo num processo co-criativo e imersivo.
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "assign AI behavior to one or more alts... User-Selectable AI Models — Tiered Options"
-  - *Interpretação Teórica:* O foco principal é democratizar o acesso a capacidades de automação multiconta, oferecendo perfis de IA modulares e graduados, permitindo que jogadores com diferentes recursos (PLEX, subscrição) usem ferramentas avançadas sem complexidade técnica.
-  - *Contexto no Jogo:* EVE Online é conhecido pela gestão intensiva de alts; a proposta visa facilitar o acesso a comportamentos automatizados (logística, combate, mercado) que antes exigiam habilidades avançadas de multiboxing, ampliando a participação.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "no automation abuse, just enhanced assistive behavior for alt accounts."
-  - *Interpretação Teórica:* O autor reconhece riscos de automação abusiva (bots ilegais) e tenta mitigá-los ao limitar as ações da IA a chamadas de API legais e dentro da EULA, mas a ausência de validação comunitária (0 likes) sugere que a perceção de risco pode ser maior entre outros jogadores.
-  - *Contexto no Jogo:* EVE Online tem políticas rigorosas contra bots; a sugestão de IA assistiva para alts enfrenta o risco de ser vista como uma porta de entrada para automação excessiva, potencialmente desestabilizando a economia e a equidade competitiva.
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "AI actions would remain bound to legal API calls and within EULA limits."
-  - *Interpretação Teórica:* A transparência é invocada como garantia de conformidade com as regras do jogo; o autor pretende que o sistema seja auditável e previsível, permitindo aos jogadores compreenderem os limites e a legitimidade das ações da IA.
-  - *Contexto no Jogo:* A transparência sobre os algoritmos de IA e a sua adesão às regras é crucial para evitar sanções; o post sugere que a CCP deve divulgar como a IA opera, assegurando que não ultrapassa os limites legais do ecossistema de EVE.
-
----
-
-### Post #3: `3000003_28811508` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** `QI1, QI4, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O risco percebido é baixo (2) porque o post não menciona ameaças concretas como banimentos ou colapso económico; centra-se na curiosidade e ceticismo sobre a autoria do código. A ausência de likes e o trust level moderado (2) indicam que a preocupação não é amplamente partilhada nem alarmante. O risco reside na potencial perda de confiança nos desenvolvedores se a transparência não for garantida, mas o tom é mais interrogativo do que alarmista.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "What percent of the prepatch do you think was coded by Ai? Why ask us, just ask AI"
-  - *Interpretação Teórica:* O post inicia um diálogo sobre a cocriação entre IA e desenvolvedores, questionando a comunidade sobre a percentagem de código gerado por IA. A sugestão 'just ask AI' reflete uma tentativa de redirecionar o diálogo para uma fonte direta (IA), revelando uma interação ativa mas incerta sobre o papel humano na comunicação.
-  - *Contexto no Jogo:* No fórum oficial de World of Warcraft, o jogador interpela a comunidade sobre a transparência do uso de IA no desenvolvimento do jogo, gerando um diálogo crítico sobre a origem do conteúdo.
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "What percent of the prepatch do you think was coded by Ai?"
-  - *Interpretação Teórica:* A pergunta direta sobre a percentagem de código gerado por IA revela uma procura por transparência sobre os processos de desenvolvimento. A ausência de likes (0) sugere que o tópico pode não ter ressonância imediata na comunidade, mas o utilizador com trust level 2 (membro estabelecido) levanta uma questão legítima sobre a visibilidade das ferramentas de IA.
-  - *Contexto no Jogo:* No contexto de World of Warcraft, a falta de comunicação oficial sobre o uso de IA no código da pré-patch leva os jogadores a especular e a pedir maior clareza por parte da Blizzard.
-
----
-
-### Post #4: `3000003_28811485` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** `QI3, QI4, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O post não expressa medo extremo, mas associa IA a bugs (risco operacional). A ausência de likes e o trust level 2 sugerem que o jogador não é considerado altamente confiável pela comunidade, mas a menção a um bug concreto eleva o risco percebido para moderado. Não há pânico generalizado, mas a falta de transparência amplifica a percepção de risco.
-
-**Dimensões DART Analisadas:**
-- **Risco (Ativo):**
-  - *Evidência Literal:* "that bug where the dorn portal teleported player targets."
-  - *Interpretação Teórica:* O jogador associa explicitamente a introdução de IA ao surgimento de bugs, percebendo um risco à integridade do jogo e à experiência do jogador. A ausência de likes e o trust level 2 (médio) indicam que o tópico não gerou consenso, mas o bug é apresentado como evidência de falha.
-  - *Contexto no Jogo:* Em World of Warcraft, bugs de teleporte podem causar frustração, perda de tempo ou até exploração não intencional, afetando a economia e a jogabilidade.
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "What percent of the prepatch do you think was coded by Ai"
-  - *Interpretação Teórica:* O jogador questiona a falta de clareza sobre o uso de IA no desenvolvimento, indicando uma demanda por transparência. O post reflete desconfiança em relação a decisões não divulgadas da Blizzard.
-  - *Contexto no Jogo:* No ecossistema de World of Warcraft, a Blizzard historicamente não divulga o uso de IA em patches, gerando especulação e incerteza entre a comunidade.
-
----
-
-### Post #5: `3000003_28811479` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O autor minimiza o risco ('obsessão com AI como boogyman') e não manifesta preocupação pessoal. A falta de likes (0) indica que a comunidade não validou nem reforçou essa perceção. O trust level 2 (utilizador intermédio) sugere alguma experiência, mas não autoridade. A ausência de edições (1 versão) denota um comentário impulsivo, sem ponderação profunda. Por isso, o risco percebido é baixo (2), embora a incerteza exista ('no way to prove').
-
-**Dimensões DART Analisadas:**
-- **Risco (Ativo):**
-  - *Evidência Literal:* "There’s no way to prove one way or the other. Still don’t understand this obsession with AI as a boogyman…"
-  - *Interpretação Teórica:* O autor reconhece uma perceção de risco na comunidade (AI como 'boogyman'), mas a descarta como obsessão. O risco percebido de IA prejudicar o jogo é baixo na visão do autor, embora exista incerteza (falta de prova).
-  - *Contexto no Jogo:* Em WoW, há receios históricos de automação (bots) afetarem a economia ou fair play. Aqui, a IA é vista como potencialmente benéfica (encurtando manutenção), contrariando o medo comum.
-
----
-
-### Post #6: `3000003_28811611` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O score 3 reflete um risco moderado. O autor (Trust Level 2) prevê um evento negativo, mas sem evidência de ocorrência real; a falta de gostos (0 likes) e versão única indicam baixa validação social e maturação do tópico. Contudo, a menção a um debuff de 30 minutos sugere perceção de penalidade desproporcional, o que eleva o risco percebido para além de um mero incómodo.
-
-**Dimensões DART Analisadas:**
-- **Risco (Ativo):**
-  - *Evidência Literal:* "AI vote kicks someone for a 30-min debuff"
-  - *Interpretação Teórica:* O post expressa antecipação de risco ligado a um sistema automatizado de votação que impõe sanções aos jogadores. No framework DART, risco envolve potenciais danos à integridade da conta, economia ou experiência de jogo; aqui, a ameaça de um kick injusto por um algoritmo opaco configura um risco sistémico de perda de agência e confiança do jogador.
-  - *Contexto no Jogo:* Em World of Warcraft, sistemas de voto automático (ex.: para expulsar jogadores em masmorras) existem como funcionalidades de conveniência, mas geram receio de kick indevido por IA sem apelo, especialmente com um debuff de 30 minutos que impede reentrada imediata.
-
----
-
-### Post #7: `3000003_28811459` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** `QI3, QI4`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The perceived risk is moderate; the player speculates on AI code quality impacting maintenance but does not report direct harm. The absence of likes (0) indicates limited community consensus, and trust level 2 suggests average user credibility, reducing the weight of the risk claim.
-
-**Dimensões DART Analisadas:**
-- **Risco (Ativo):**
-  - *Evidência Literal:* "maintenance is a result of that Ai code?"
-  - *Interpretação Teórica:* The player perceives a risk that using AI for game development leads to persistent maintenance issues, potentially undermining game quality and stability (Ramaswamy & Prahalad, 2004). This reflects a concern about the integrity of the gaming ecosystem.
-  - *Contexto no Jogo:* In World of Warcraft, maintenance periods are common; the player speculates that AI-generated code could be a cause, indicating a trust deficit regarding developer choices.
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "What percent of the prepatch do you think was coded by Ai?"
-  - *Interpretação Teórica:* The player is seeking transparency about the extent of AI involvement in game development, reflecting a desire for clear communication from the developer about automated tools (Prahalad & Ramaswamy, 2004). Lack of official information fuels speculation.
-  - *Contexto no Jogo:* Blizzard has not disclosed AI usage; this post exemplifies player demand for openness in the development process.
-
----
-
-### Post #8: `3000003_28811542` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI1, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O post não expressa qualquer perceção de risco para a integridade do ecossistema, segurança da conta ou economia do jogo. Pelo contrário, minimiza o poder da IA ao afirmar que nem esta conseguiria realizar a tarefa, indicando confiança na superioridade humana. O trust level 2 e a ausência de gostos sugerem que a afirmação não gera alarme na comunidade, sendo mais uma opinião técnica do que uma denúncia de ameaça.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "Not even Ai can do that…"
-  - *Interpretação Teórica:* O post constitui uma réplica a uma afirmação anterior implícita sobre as capacidades da IA, configurando uma interação dialógica assíncrona. No framework DART, o diálogo requer escuta ativa e comunicação bidirecional; aqui, o utilizador responde a um argumento não explícito, posicionando-se contra a supervalorização da IA. O baixo número de gostos (0) e o trust level 2 indicam uma participação moderada, sem validação social forte, mas a unicidade da versão sugere uma opinião firme e não refinada.
-  - *Contexto no Jogo:* No fórum oficial de World of Warcraft, o utilizador questiona a capacidade da IA de realizar uma tarefa técnica complexa (criar um SO dedicado ao jogo em assembly), defendendo a singularidade do esforço humano. Isto reflete uma tensão entre o valor do trabalho humano e as promessas da automação, comum em discussões sobre o impacto da IA em comunidades de jogadores.
-
----
-
-### Post #9: `3000003_28811610` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** `QI1, QI4`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O post não expressa qualquer risco concreto para a integridade da conta, economia do jogo ou segurança. O teor é cético mas neutro, e os metadados quantitativos (0 likes, trust level 2, 1 versão) corroboram uma perceção de risco muito baixa na comunidade: a discussão é académica e não alarmista. Por isso, o score é 1.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "Ya gonna need to link that article, because that’s interesting…"
-  - *Interpretação Teórica:* O jogador desafia uma afirmação sobre a obrigatoriedade do uso de IA, iniciando um diálogo de dupla via para clarificação e verificação de factos. Este pedido de evidência ilustra uma interação ativa que é central ao conceito de Diálogo no framework DART, onde a comunicação não é unidirecional mas sim uma troca construtiva entre partes.
-  - *Contexto no Jogo:* No fórum oficial de World of Warcraft, jogadores debatem políticas da empresa-mãe Microsoft, procurando fundamentar afirmações com fontes oficiais. A ausência de gostos (0 likes) sugere que a comunidade não validou forte ou rapidamente este pedido, e o trust level 2 indica um utilizador de confiança média, cuja intervenção é ponderada mas sem grande influência.
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "Ya gonna need to link that article, because that’s interesting…"
-  - *Interpretação Teórica:* O pedido explícito de uma fonte revela uma perceção de falta de transparência sobre a alegada política de IA da Microsoft. O utilizador exige visibilidade sobre a informação oficial, demonstrando o princípio de Transparência do DART: os jogadores desejam clareza sobre decisões e regras que afetam o ecossistema do jogo.
-  - *Contexto no Jogo:* A transparência é aqui invocada num contexto de especulação sobre a integração forçada de IA nos jogos da Blizzard. A única versão do post indica que o utilizador não sentiu necessidade de reformular a sua exigência, reforçando a assertividade do pedido.
-
----
-
-### Post #10: `3000003_28811596` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI1, QI2, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post does not discuss any risks associated with AI fillers. The perceived risk is minimal as the player focuses on solving a waiting issue. Metacognitively, no likes and a single version indicate low engagement and low community perception of risk.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "At least for LFG and LFR. Instead of hour long waits if the party/raid doesn’t fill say in 30mins then AI units are put in to fill it up."
-  - *Interpretação Teórica:* This post exemplifies a player-initiated dialogue within the DART framework, proposing a cocreative solution (AI filler units) to address a systemic issue (long queue times). It reflects the player's desire for active participation in game design, leveraging AI as a collaborative tool. The lack of likes and moderate trust level suggests limited community resonance, but the proposal itself is a form of dialogic engagement with developers.
-  - *Contexto no Jogo:* In World of Warcraft, LFG and LFR queues can be very long for DPS roles. The suggestion to use AI as fill-ins would alter the group formation experience, potentially reducing wait times but also raising questions about AI behavior and player trust.
-
----
-
-### Post #11: `3000003_28811578` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 1 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI1, QI2, QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O autor não expressa preocupação com riscos de segurança, banimento ou economia; o único risco citado é o trolling humano, que é externo e visto como solucionável pela IA. A ausência de likes (0) e o trust level 2 indicam que a comunidade não endossa a gravidade do risco, e o post não reflete ansiedade sistémica. Portanto, o risco percebido é baixo (1).
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "I would not mind having ai raid or dungeon partners, great cuts back on the trolling"
-  - *Interpretação Teórica:* O post constitui uma forma de diálogo indireto com os desenvolvedores, expressando uma preferência por funcionalidades de IA que mitigam a toxicidade social. Segundo Prahalad & Ramaswamy, o diálogo na cocriação requer interação bidirecional; aqui, o jogador emite um sinal de necessidade, mas sem feedback ou discussão ativa. A ausência de gostos (0 likes) e o trust level 2 sugerem que a proposta não gerou validação comunitária, indicando baixa ressonância dialógica.
-  - *Contexto no Jogo:* No fórum oficial de World of Warcraft, o jogador sugere a implementação de parceiros de IA para raids e masmorras, contrastando com o comportamento troll de jogadores humanos adultos.
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "Just want to log on, do dailys and sell some mats on the AH."
-  - *Interpretação Teórica:* O acesso é o eixo central do desejo do jogador: ter disponível uma ferramenta de IA que permita realizar conteúdo sem depender de outros jogadores. Acesso a automação recreativa (dailys, AH) sem a pressão de escalar poder ('No desire to climb the power ladder'). A dimensão acesso é dominante, pois viabiliza a experiência casual desejada.
-  - *Contexto no Jogo:* Em WoW, o acesso a parceiros de IA facilitaria atividades rotineiras (dailys, venda de materiais), reduzindo a dependência de grupos humanos e a toxicidade associada ao matchmaking.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "cuts back on the trolling most of these child like adults consist of."
-  - *Interpretação Teórica:* O risco percebido é de natureza social: a toxicidade de outros jogadores ('trolling') é identificada como uma ameaça à experiência de jogo. O autor não expressa receio quanto a riscos de segurança, banimento ou colapso económico. Pelo contrário, vê a IA como mitigadora. O score de risco é reduzido porque a perceção de ameaça é externa (humanos) e a solução proposta (IA) é considerada segura.
-  - *Contexto no Jogo:* No ecossistema de WoW, o trolling em grupos é um risco comum que leva jogadores a abandonar conteúdo em grupo, justificando a procura por alternativas de IA controladas.
-
----
-
-### Post #12: `3000003_28811529` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 1 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI2, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O post não discute riscos; apenas sugere que a IA poderia reduzir o tempo de manutenção, implicando uma expectativa positiva sem articular perigos potenciais para a integridade da conta, economia ou políticas de banimento. A ausência de discurso de risco, combinada com zero gostos e um nível de confiança médio (Trust Level 2), indica uma perceção de ameaça muito baixa.
-
-**Dimensões DART Analisadas:**
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "Wow always had long down times, even before ai… if ai would do maintenance it would be done in 10 mins"
-  - *Interpretação Teórica:* O jogador vê a IA como uma ferramenta que poderia reduzir o tempo de inatividade, melhorando assim o acesso ao ambiente do jogo. Isto alinha-se com a dimensão Acesso do modelo DART, que diz respeito à capacidade de interagir com sistemas de jogo e automação. No entanto, o jogador não está atualmente a aceder a ferramentas de IA, mas sim a defender a sua implementação.
-  - *Contexto no Jogo:* No World of Warcraft, as manutenções programadas resultam frequentemente em longos períodos de inatividade onde os jogadores não podem entrar. O jogador contrasta isto com um cenário hipotético onde a IA realiza a manutenção, sugerindo um processo mais eficiente e menos disruptivo.
-
----
-
-### Post #13: `509843_2862535` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 1 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI2, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** O post não expressa riscos (banimento, economia, segurança). O autor foca em ideias experimentais, sem alertas. 0 gostos e trust level 1 indicam falta de validação ou preocupação coletiva, resultando em score mínimo.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "Change Exordium for Exo-Sec."
-  - *Interpretação Teórica:* O autor propõe renomear uma zona, sugerindo um diálogo unidirecional com desenvolvedores. A falta de interação (0 gostos, trust level 1) indica baixa reciprocidade comunitária, alinhando-se ao conceito de diálogo como coconstrução limitada.
-  - *Contexto no Jogo:* Em EVE Online, sugestões como esta surgem em fóruns onde jogadores tentam influenciar o design, mas sem garantia de resposta dos devs, refletindo uma assimetria inicial na cocriação.
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "Anyone can access or leave Exordium but only with a special jump clones (no gates)."
-  - *Interpretação Teórica:* O acesso proposto é restrito e controlado por um item específico (jump clone), exemplificando como ferramentas limitam ou facilitam a entrada em novos espaços, conforme o conceito de Acesso no DART.
-  - *Contexto no Jogo:* Em EVE, o sistema de jump clones já existe, mas esta ideia adiciona barreiras e exclusividade, potenciando novas dinâmicas de entrada no jogo.
-
----
-
-### Post #14: `509843_2862526` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O post não expressa qualquer perceção de risco. O autor tem nível de confiança 2 (médio) e o post tem 0 gostos, indicando baixo impacto e nenhum alarme na comunidade. O histórico de edições (1) sugere reflexão mínima. Assim, o risco percebido é mínimo.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #15: `509843_2862449` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 4 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI2, QI3, QI4`
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** O autor, com trust level 3 (utilizador experiente) e 0 gostos (baixo consenso social imediato), identifica uma consequência não intencional que pode distorcer a economia do jogo. A ausência de edições (1 versão) sugere observação direta sem refinamento. O risco é elevado (4) porque rotas perfeitamente seguras minam o princípio central de EVE Online de risco/recompensa, podendo causar inflação, desigualdade e perda de confiança na economia, um risco crítico para um jogo sandbox.
-
-**Dimensões DART Analisadas:**
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "optimal trade routes can go through the shipcasters in this ‘perfect safety’ region."
-  - *Interpretação Teórica:* A manifestação de acesso refere-se à capacidade dos jogadores de utilizar rotas comerciais que atravessam uma zona de segurança absoluta criada por shipcasters, um benefício não intencional que permite exploração económica sem risco.
-  - *Contexto no Jogo:* Em EVE Online, shipcasters são dispositivos que permitem teleporte ou segurança; a rota comercial ótima através dessa região representa um acesso privilegiado a um corredor livre de perigos, distorcendo o equilíbrio de risco/recompensa do jogo.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "unintended consequence that some optimal trade routes can go through the shipcasters in this ‘perfect safety’ region."
-  - *Interpretação Teórica:* O risco percebido é de desestabilização económica e de quebra de integridade do ecossistema, pois rotas seguras não previstas pelos desenvolvedores podem concentrar riqueza sem contrapartida de perigo, gerando inflação e vantagem assimétrica.
-  - *Contexto no Jogo:* Em EVE Online, a economia é baseada em risco espacial; uma rota perfeitamente segura quebra esse princípio, ameaçando a dinâmica de comércio e a confiança na economia sandbox, especialmente com a introdução de Exordium.
-
----
-
-### Post #16: `509843_2862527` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 4 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI2, QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O score 4 justifica-se pela perceção clara de que a atividade parasitária dos character farmers impede o autor de obter recompensas essenciais (PLEX), comprometendo a sua progressão. A ausência de likes e a edição única (versão 1) sugerem que o post não gerou debate, mas a intensidade emocional ('ruin eve') e o tom sarcástico ('thanks CCP') revelam um nível elevado de frustração. O risco é percebido como sistémico e não mitigado pelos developers, embora o jogador não demonstre desistência total (score 5 seria abandono do jogo).
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "well given i’m not some loser character farmer this means sweet F……..All ... thanks CCP"
-  - *Interpretação Teórica:* O post constitui um feedback unidirecional e sarcástico direcionado aos developers, sem evidência de resposta ou interação bidirecional. Caracteriza-se como um desabafo que reflete insatisfação, mas não estabelece um diálogo construtivo ou de escuta ativa, conforme definido por Prahalad & Ramaswamy para cocriação autêntica.
-  - *Contexto no Jogo:* No fórum oficial de EVE Online, os jogadores frequentemente usam posts para expressar frustração com mecânicas ou eventos, mas a ausência de engajamento direto da CCP limita o diálogo a uma queixa isolada. O trust level 2 do autor sugere participação regular, mas sem validação social (0 likes), indicando baixa ressonância com a comunidade.
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "i need 3 more explorer event sites for 25 plex…….which i wont find because Character farmers ruin eve."
-  - *Interpretação Teórica:* O acesso a recursos do jogo (event sites e recompensas de PLEX) é bloqueado por atores parasitários (character farmers). Segundo DART, o acesso é uma dimensão crítica para cocriação – quando negado ou monopolizado, impede a participação equitativa dos jogadores legítimos.
-  - *Contexto no Jogo:* Em EVE Online, a economia aberta e a exploração de eventos sazonais são alvo de bots e farmers que saturam as instâncias, limitando o acesso de jogadores casuais. O autor afirma que não conseguirá completar o evento devido a este bloqueio, exemplificando a assimetria de acesso.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "Character farmers ruin eve."
-  - *Interpretação Teórica:* O jogador percebe um risco elevado para a integridade do ecossistema e para a sua própria experiência de jogo. A frase indica que a atividade parasitária dos farmers é vista como uma ameaça existencial à economia e à diversão do jogo, alinhando-se ao conceito de risco de perda de valor na cocriação.
-  - *Contexto no Jogo:* EVE Online possui uma economia de jogador complexa e sensível a abusos. A proliferação de character farmers (múltiplas contas para acumular recursos) é frequentemente denunciada como causa de inflação e desequilíbrio. O autor, com trust level 2 e sem likes, expressa uma perceção de risco individual que reflete um consenso implícito na comunidade.
-
----
-
-### Post #17: `509843_2862434` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 3 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** `QI1, QI2, QI3, QI4, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** O jogador (Trust Level 3) especula sobre a possibilidade de abuso, mas sem alarmismo. A ausência de likes (0) sugere que a comunidade ainda não validou a gravidade da ameaça. A pontuação 3 reflete um risco moderado, pois a preocupação existe mas não há evidência concreta de dano iminente, alinhado com a teorização de Prahalad & Ramaswamy sobre riscos percebidos em co-criação emergente.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "Can we have more information about the shipcasters?"
-  - *Interpretação Teórica:* O jogador inicia um pedido de esclarecimento, exemplificando a co-criação através do diálogo com os desenvolvedores, conforme Prahalad & Ramaswamy (2004) propõem como interação ativa para gerar valor conjunto.
-  - *Contexto no Jogo:* No fórum oficial de EVE Online, a comunidade busca engajamento direto com a CCP Games para obter detalhes sobre novas mecânicas (shipcasters e região Exordium), essencial para estratégias de jogo.
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "Could the Exordium region be (ab)used to haul goods more safely between trade hubs?"
-  - *Interpretação Teórica:* A pergunta revela a preocupação do jogador com o acesso a novas funcionalidades (transporte mais seguro) e, simultaneamente, o potencial de uso indevido, refletindo o conceito de Acesso no DART como capacidade de usufruir de recursos do ecossistema.
-  - *Contexto no Jogo:* Em EVE Online, rotas de transporte entre hubs comerciais são críticas; a região Exordium pode oferecer novas opções de acesso, mas o jogador questiona se isso será equilibrado ou explorado.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "Could the Exordium region be (ab)used to haul goods more safely"
-  - *Interpretação Teórica:* O termo 'ab(used)' explicita a perceção de risco de exploração da mecânica, alinhado com a dimensão Risco do DART, que avalia ameaças à integridade do ecossistema e à economia do jogo.
-  - *Contexto no Jogo:* Em EVE Online, a economia é sensível a rotas seguras; se Exordium for explorada para trânsito ilegal ou RMT, pode desestabilizar o mercado. O jogador (Trust Level 3) demonstra maturidade ao antecipar esse risco.
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "Can we have more information"
-  - *Interpretação Teórica:* O pedido explícito por mais informações indica uma lacuna na transparência, dimensão fundamental do DART que exige visibilidade sobre regras, algoritmos e decisões dos desenvolvedores para uma co-criação saudável.
-  - *Contexto no Jogo:* A CCP Games nem sempre detalha completamente novas funcionalidades; o jogador recorre ao fórum para suprir essa falta de transparência, típico de comunidades que exigem clareza sobre alterações no jogo.
-
----
-
-### Post #18: `509843_2862470` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 4 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** `QI3, QI4, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** Baseado num post de um jogador de confiança elevada (trust level 3), a perceção de risco é alta: a afirmação de que CCP intencionalmente desencoraja construção para vender ships por dinheiro real indica uma ameaça à integridade económica. A ausência de likes (0) sugere que é uma visão minoritária, mas o histórico de apenas uma edição denota convicção. O risco é classificado como 4 (elevado) pois afeta a base de novos jogadores e a confiança no desenvolvedor.
-
-**Dimensões DART Analisadas:**
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "high special taxes in there will make it unlucrative to build anything for sale."
-  - *Interpretação Teórica:* O acesso à atividade de construção para lucro é restringido por taxas elevadas, limitando a capacidade dos jogadores de participar na economia de produção.
-  - *Contexto no Jogo:* Em EVE Online, novas regiões como Exordium têm taxas que afetam a viabilidade económica; o post sugere que estas taxas desencorajam a construção para venda.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "sour the interest of newbies into those activities. Which might be part of the plan as CCP desperately wants to sell ships for cash"
-  - *Interpretação Teórica:* Risco de colapso da economia de produção e de desinteresse de novos jogadores, associado a uma perceção de extração de valor por parte do desenvolvedor em detrimento da experiência dos jogadores.
-  - *Contexto no Jogo:* A economia de EVE Online é sensível a alterações de taxas; a perceção de monetização agressiva ameaça a integridade do ecossistema e a retenção de novos jogadores.
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "Which might be part of the plan as CCP desperately wants to sell ships for cash, not for time mined."
-  - *Interpretação Teórica:* O jogador questiona a transparência das intenções da CCP, sugerindo que as taxas são uma estratégia oculta para impulsionar vendas reais em vez de recompensar o tempo de jogo.
-  - *Contexto no Jogo:* Em EVE Online, a falta de comunicação clara sobre mudanças económicas e monetização gera desconfiança; o post acusa implicitamente CCP de falta de transparência.
-
----
-
-### Post #19: `509843_2862478` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI1, QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** A proposta do jogador indica uma perceção de risco de exploração (shortcut) que pode afetar a economia e a experiência dos novatos. No entanto, o tom é calmo e construtivo, sem sinais de ansiedade ou urgência. O score 2 reflete um risco percebido como moderado, mas controlável com ajustes de design. A ausência de edições (versão=1) e de gostos (likes=0) sugere que o post é direto e sem grande validação social, o que não amplifica a perceção de risco.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "If they limit the ship types which can use the Shipcasters then this would prevent Rookieville being used as a hauling shortcut."
-  - *Interpretação Teórica:* O jogador propõe uma alteração ao design do jogo, demonstrando um diálogo ativo com os desenvolvedores. Segundo Prahalad & Ramaswamy, o diálogo é um elemento fundamental da cocriação de valor, permitindo que os consumidores contribuam com ideias para melhorar a experiência coletiva. A ausência de 'gostos' (likes=0) pode indicar baixa ressonância imediata, mas o nível de confiança 2 sugere um utilizador estabelecido cujo contributo merece consideração.
-  - *Contexto no Jogo:* No EVE Online, fóruns são o principal canal de diálogo entre jogadores e desenvolvedores (CCP Games). Este post insere-se num tópico sobre o novo sistema Exordium, onde o jogador oferece um parecer técnico para evitar abusos na navegação entre sistemas.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "prevent Rookieville being used as a hauling shortcut"
-  - *Interpretação Teórica:* O jogador identifica um risco potencial de exploração da mecânica de Shipcasters, que poderia desvirtuar a economia e o fluxo logístico de EVE Online. A perceção de risco é moderada, pois o tom é propositivo e não alarmista. Teoricamente, trata-se de um risco de integridade do ecossistema de jogo, classificado como médio-baixo, dado que a solução proposta é simples (limitação de tipos de nave).
-  - *Contexto no Jogo:* Rookieville é uma zona de iniciação, e usá-la como atalho para transporte (hauling) poderia prejudicar a progressão natural e a economia regional. O jogador sugere uma medida preventiva que mantém o equilíbrio do jogo.
-
----
-
-### Post #20: `509843_2862511` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI2, QI3`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O post tem 0 gostos (falta de validação comunitária), trust level 2 do autor (intermédio, sem autoridade consolidada) e apenas 1 versão (sem reflexão aprofundada). A referência a moeda externa e link suspeito indicam risco moderado de scam ou RMT, que pode comprometer contas e a economia do jogo.
-
-**Dimensões DART Analisadas:**
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "Aiko Danuja Water is PLEX! 1000L = [ID_ANONYMIZED] Isauni – isauniokatama.com"
-  - *Interpretação Teórica:* O post fornece um link externo que permite aos jogadores aceder a um mecanismo de troca de moeda não oficial, potencialmente automatizado ou gerido por um agente de IA, ampliando o acesso a ferramentas económicas paralelas.
-  - *Contexto no Jogo:* Em EVE Online, moedas criadas por jogadores e sites externos são usados para transacções além do mercado oficial, oferecendo acesso a liquidez alternativa mas também a riscos de fraude.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "When security (1.0) becomes a resource to be redistributed, we require a currency more stable than mere trust."
-  - *Interpretação Teórica:* O autor identifica um risco sistémico de instabilidade económica e de soberania quando a segurança é tratada como recurso transacionável, e a confiança é insuficiente para sustentar a economia, requerendo uma moeda mais estável.
-  - *Contexto no Jogo:* Em EVE Online, a economia e a soberania são geridas por jogadores; a introdução de moedas paralelas ameaça a integridade do ecossistema, podendo levar a colapsos económicos ou banimentos se violarem as regras.
-
----
-
-### Post #21: `509843_2862538` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 4 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** `QI1, QI2, QI3, QI4, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O jogador enumera riscos concretos (bumping, scams, perda de conteúdo) que ameaçam a integridade do ecossistema de EVE Online. O score 4 é justificado pela multiplicidade de ameaças identificadas (griefing, economia, UI, segurança) e pela gravidade potencial (quebra de mecânicas centrais). No entanto, o risco é alto, mas não máximo (5), pois ainda não há confirmação de implementação. A ausência de likes (0) reduz a validação social, mas o trust level 2 do autor confere alguma credibilidade à perceção de risco. O histórico de edições (1 versão) indica que o post não foi refinado, o que sugere uma reação imediata e possivelmente menos ponderada, mas consistente.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "How does CCP plan to address possible escalations, missions and other incidental content that may take a rookie out of Exordium?"
-  - *Interpretação Teórica:* O post constitui uma interação direta e crítica com os desenvolvedores, listando preocupações e solicitando esclarecimentos. Embora seja unidirecional neste momento, representa o início de um diálogo onde o jogador exige respostas, alinhando-se à dimensão de 'Diálogo' do DART, que enfatiza a comunicação de dupla via e a escuta ativa. A ausência de gostos (0 likes) sugere que a comunidade não validou imediatamente a mensagem, mas o trust level 2 indica um utilizador com alguma experiência, capaz de articular um diálogo fundamentado.
-  - *Contexto no Jogo:* No EVE Online, os jogadores frequentemente usam os fóruns oficiais para pressionar a CCP por transparência e mudanças. Este post, ao questionar planos específicos, insere-se nessa tradição de cocriação via feedback direto.
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "No yellow safety means no filaments for movement. 1.0 Security means no Abyssals. No PVP means no FW, and no Air Career Programme completion."
-  - *Interpretação Teórica:* O jogador analisa como as restrições propostas bloqueiam o acesso a mecânicas essenciais (filamentos, abissais, FW, career programme). No DART, 'Acesso' refere-se à capacidade de interagir com ferramentas do jogo; aqui o post denuncia limitações que impedem o uso de recursos de automação e conteúdo, criando um desequilíbrio na experiência do utilizador. A ausência de edições (1 versão) indica que o argumento foi apresentado de forma direta, sem refinamento iterativo.
-  - *Contexto no Jogo:* EVE Online é um sandbox onde o acesso a múltiplos sistemas (segurança, PVP, economia) define a liberdade do jogador. A crítica foca em como a nova zona Exordium pode sufocar essa liberdade, afetando a cocriação de valor.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "Bumping is back. Also hundreds of scam freelance jobs at cheaper offices slowing down the Opportunities UI to a snail’s pace."
-  - *Interpretação Teórica:* O autor identifica riscos concretos: retorno de griefing (bumping), exploração de scams na UI, e restrições que podem quebrar a economia (ex: sem estruturas para compressão). No DART, 'Risco' envolve ameaças à integridade do ecossistema, como banimentos, colapso económico ou perda de confiança. O score de risco percebido é 4, pois as ameaças são múltiplas e sistémicas, mas ainda não catastróficas. A ausência de likes pode indicar que a comunidade ainda não validou a gravidade, mas o trust level 2 sugere que o post é de um utilizador razoavelmente experiente.
-  - *Contexto no Jogo:* EVE Online tem uma economia complexa e jogadores investem tempo e dinheiro real; riscos de scams e griefing são especialmente danosos. O post alerta que Exordium pode reintroduzir comportamentos parasitários que a CCP tentou mitigar.
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "because we all know that you’ve barely ever addressed pathing issues regarding that when adding gate connections so far"
-  - *Interpretação Teórica:* O jogador acusa a CCP de falta de transparência histórica, referindo que problemas de pathing nunca foram resolvidos. No DART, 'Transparência' diz respeito à visibilidade sobre regras e algoritmos; aqui o autor critica a opacidade nos processos de desenvolvimento e a repetição de erros passados. A menção 'we all know' implica que a comunidade partilha essa perceção de falta de clareza. O trust level 2 (utilizador não-novato) dá peso a essa crítica.
-  - *Contexto no Jogo:* Em EVE, a CCP já foi criticada por implementar mudanças sem considerar efeitos secundários. O post pede maior transparência sobre como Exordium será integrado e moderado, especialmente em relação a opções esquecidas como 'allow friendly fire'.
-
----
-
-### Post #22: `509843_2862462` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 4 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** `QI2, QI3, QI4, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O score 4 reflete uma perceção elevada de risco, fundamentada na preocupação de que veteranos possam parasitar a economia de novatos em Exordium, destruindo o propósito de nurture da nova região. O framework DART associa este risco a uma cocriação parasitária, onde o benefício de uns (veteranos) ocorre à custa da experiência e retenção de outros (newbros). A ausência de gostos e o Trust Level 2 (regular, não veterano) indicam que o autor pode estar numa posição vulnerável, amplificando a perceção de ameaça. O risco é agravado pela ambiguidade sobre as regras de acesso (se veteranos serão permitidos) e pela falta de transparência sobre a necessidade do novo minério.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "will the sec.status changes effect abyss filaments? we can use them now everywhere in hi sec except in exordium?"
-  - *Interpretação Teórica:* O post constitui um apelo ao diálogo com os desenvolvedores, através de perguntas diretas sobre as mecânicas da nova região. Embora não haja resposta imediata, o jogador demonstra expectativa de escuta ativa e clarificação, alinhado com o conceito de 'Diálogo' de Prahalad & Ramaswamy como interação bidirecional que gera valor mútuo.
-  - *Contexto no Jogo:* No fórum oficial de EVE Online, este tipo de questionamento é uma forma comum de os jogadores iniciarem um diálogo com a CCP Games, esperando que as respostas orientem o design futuro e a comunicação oficial.
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "are homfronts in exordium easier to access if the rewards are lower? meaning more affordable fits, less dps required and so on?"
-  - *Interpretação Teórica:* O jogador questiona as condições de acesso à nova região (Exordium) e aos conteúdos (homefronts, asteroides), refletindo a dimensão 'Acesso' do framework DART, que se refere à capacidade de interagir com ferramentas e recursos do jogo. A pergunta sobre 'afordable fits' e 'less DPS' revela barreiras de entrada percebidas.
-  - *Contexto no Jogo:* Em EVE Online, o acesso a novas regiões e atividades é frequentemente limitado por requisitos de desempenho (fits, skills) e geografia (security status). O jogador quer saber se Exordium é mais inclusivo para novatos ou se repete as barreiras de acesso tradicionais.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "wont older industry players just mess up indi for newbros if they r allowed to visit? instead of nurturing a new generation of indy players wouldnt that just scare them off?"
-  - *Interpretação Teórica:* O risco central percebido é a possibilidade de veteranos explorarem a nova região para predar economicamente novatos, destruindo o incentivo à indústria emergente. Isto alinha-se com a dimensão 'Risco' de Prahalad & Ramaswamy, onde a cocriação pode ser prejudicial se uma parte extrai valor desproporcional, gerando desconfiança e fuga do ecossistema.
-  - *Contexto no Jogo:* EVE Online tem uma economia player-driven onde veteranos com capital e conhecimento podem dominar mercados. A preocupação é que Exordium, em vez de proteger novatos, se torne mais um campo de caça para industrialistas experientes, repetindo dinâmicas de exclusão.
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "was it rly necessary to introduce a new lower tier of ore? wont older industry players just mess up indi for newbros if they r allowed to visit?"
-  - *Interpretação Teórica:* O jogador questiona a lógica por detrás das decisões de design (nova camada de minério, permissão de veteranos na região), evidenciando falta de transparência percebida. A dimensão 'Transparência' do DART envolve a clareza das regras e intenções dos desenvolvedores; aqui, o jogador exige uma justificação racional para mudanças que aparentam contradizer o objetivo de nutrir novos jogadores.
-  - *Contexto no Jogo:* Na comunidade de EVE Online, a transparência da CCP Games é frequentemente debatida, especialmente sobre mudanças económicas. O autor assume que a introdução de um minério de tier inferior pode ser desnecessária, sugerindo que os motivos não foram comunicados de forma convincente.
-
----
-
-### Post #23: `509843_2862521` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 4 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** `QI1, QI2, QI3, QI4, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** O score 4 baseia-se na explicitação de múltiplos riscos sistémicos (monopolização de recursos, inflação por bounties, degradação da experiência de novos jogadores) combinada com a ausência de controlos de risco (AFK mining, zero risk). O autor, com Trust Level 3, é uma fonte experiente cuja perceção tem peso elevado, mesmo com 0 likes (possível falta de reação comunitária ainda). O risco é grave mas não total (score 5 exigiria cenário de colapso iminente e inevitável, enquanto aqui o autor questiona planos futuros, mantendo margem para mitigação).
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "What is CCP’s plan when all of the asteroid belts will inevitably see endless amounts of AFK Orcas mining all the grade 0 Veldspar all day with zero risk?"
-  - *Interpretação Teórica:* O post constitui um apelo direto ao diálogo com os desenvolvedores (CCP), característico de uma relação de cocriação onde o jogador, insatisfeito com a opacidade, exige explicações sobre as políticas futuras. A confiança elevada (Trust Level 3) do autor indica maturidade analítica, mas a ausência de gostos (0 likes) sugere que a comunidade ainda não validou ou debateu ativamente a questão, possivelmente por desconhecimento ou indiferença.
-  - *Contexto no Jogo:* Em EVE Online, os fóruns oficiais são um canal primário para jogadores veteranos questionarem as decisões da CCP, especialmente quando novas expansões (como Exordium) ameaçam desequilíbrios sistémicos. O autor, com Trust Level 3, representa um segmento experiente que tenta influenciar o rumo do jogo através da pressão por respostas transparentes.
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "all the asteroid belts will inevitably see endless amounts of AFK Orcas mining all the grade 0 Veldspar all day"
-  - *Interpretação Teórica:* O acesso aos recursos do jogo (asteroides e NPCs) é visto como potencialmente monopolizado por jogadores veteranos com equipamento superior (Orcas AFK, módulos roxos, AT ships). A dimensão Acesso, no DART, refere-se à capacidade de participar; aqui, o autor teme a exclusão dos novos jogadores devido à automação e à ausência de limites, criando uma barreira de entrada assimétrica.
-  - *Contexto no Jogo:* Em EVE, o acesso a mineração e PvE é nominalmente livre, mas a disparidade de poder entre recém-chegados e veteranos pode ser drasticamente amplificada por bots AFK e naves de torneio (AT), que poucos possuem. O post sugere que, sem limites explícitos, o acesso será de facto negado aos novos jogadores.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "people can kill rats at high rate using purple modules in AT ships this may impact the new player experience when all their rats (and asteroids) are stolen"
-  - *Interpretação Teórica:* O risco é o elemento central do post: risco de colapso da economia (saída excessiva de ISK por bounties), risco de exclusão social (new player experience degradada) e risco de perda de integridade do ecossistema (automação com risco zero). O autor projeta um cenário onde a cocriação se torna parasitária, com veteranos extraindo valor sem risco enquanto novatos são expulsos. A ausência de gostos (0 likes) pode indicar que a comunidade não perceciona o risco com a mesma gravidade, mas o Trust Level 3 confere credibilidade à análise.
-  - *Contexto no Jogo:* EVE Online tem um histórico de debates sobre inflação por bounties e mineração AFK. Exordium, sendo um novo sistema, reacende receios de que a CCP não implemente salvaguardas adequadas, repetindo erros anteriores. O risco é percebido como alto (score 4) porque ameaça diretamente a sustentabilidade da experiência para novos jogadores.
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "how does CCP plan to do the ISK payout for bounties there? Or will there be strict limits on the types of ships and goods that can enter through the gate in Yulai?"
-  - *Interpretação Teórica:* O autor exige transparência sobre as regras e algoritmos futuros (limites de naves, pagamentos de bounties). No DART, transparência reduz assimetrias de informação e permite cocriação simétrica. Aqui, a falta de transparência prévia (antes do lançamento) leva o jogador a questionar abertamente as intenções da CCP, tentando forçar uma clarificação pública.
-  - *Contexto no Jogo:* A CCP tradicionalmente revela detalhes gradualmente, gerando especulação e ansiedade. O post reflete o desejo de uma comunicação mais clara por parte dos desenvolvedores, especialmente sobre gate restrictions em Yulai, um ponto focal do novo conteúdo.
-
----
-
-### Post #24: `509843_2862442` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 4 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** `QI1, QI2, QI3, QI4, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** O post apresenta uma clara perceção de risco elevado (4/5), fundamentada na identificação de uma potencial exploração que impactaria a economia de hauling. O autor tem Trust Level 3 (utilizador experiente), o que confere peso à sua avaliação. A ausência de likes pode indicar que a comunidade ainda não validou o risco ou que o tópico é recente. O risco é classificado como alto porque, se confirmado, poderia desestabilizar um setor económico chave do jogo.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "Is it possible to travel to Yulai, enter the ‘no PvP zone’ in a hauler and get safely teleported to a faction trade hub of choice through one of these shipcasters?"
-  - *Interpretação Teórica:* O diálogo ocorre quando o utilizador faz uma pergunta direta aos developers sobre a mecânica do jogo, demonstrando uma interação bidirecional (Prahalad & Ramaswamy, 2004) em que o jogador busca clarificação para co-criar valor através do feedback.
-  - *Contexto no Jogo:* No fórum oficial de EVE Online, o jogador (Trust Level 3) inicia um diálogo crítico sobre uma nova funcionalidade, pedindo esclarecimentos sobre o seu funcionamento e potenciais consequências não intencionais.
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "allow one-way access to that faction’s sovereign territory"
-  - *Interpretação Teórica:* O acesso refere-se à capacidade dos jogadores de utilizar os shipcasters para entrar em territórios seguros sem risco de PvP, representando um novo ponto de entrada que pode ser explorado se as regras não forem claras (Prahalad & Ramaswamy, 2004).
-  - *Contexto no Jogo:* O shipcaster proporciona acesso unidirecional a zonas seguras, o que levanta questões sobre como esse acesso pode ser usado para transporte seguro de carga, alterando a economia de hauling em EVE.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "This could have high economic impact for both hauling speed and hauling safety to me."
-  - *Interpretação Teórica:* O utilizador identifica um risco sistémico de exploração económica, onde a combinação de segurança absoluta e teletransporte pode desequilibrar o mercado de transporte (risco de integridade económica). A avaliação de risco é amplificada pelo elevado nível de confiança do autor (Trust Level 3) e pela ausência de likes, sugerindo uma perceção individual mas fundamentada.
-  - *Contexto no Jogo:* Em EVE Online, a economia é altamente sensível a rotas seguras de transporte. O potencial de usar um hauler num 'no PvP zone' e ser teleportado para um hub comercial cria um atalho que pode tornar obsoletos os serviços de hauling tradicionais, representando um risco de colapso económico.
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "So, which way do the shipcasters send ships, and does this allow cargo too?"
-  - *Interpretação Teórica:* A transparência é exigida pelo jogador sobre as regras exatas da mecânica: direção do envio e permissão de carga. A falta de clareza sobre estes detalhes operacionais é um obstáculo à co-criação de valor equilibrada (Prahalad & Ramaswamy, 2004).
-  - *Contexto no Jogo:* Os developers ainda não divulgaram todos os pormenores dos shipcasters, levando o jogador a questionar abertamente a transparência do design, num fórum onde respostas oficiais podem influenciar a perceção da comunidade.
-
----
-
-### Post #25: `510142_2864731` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI3`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O post é curto e sarcástico, indicando consciência do risco, mas sem elevada urgência emocional. O autor tem trust level 2 (utilizador regular) e zero likes, sugerindo que a perceção pode não ser amplamente partilhada ou validada pela comunidade. No entanto, o tópico (mineração AFK) é reconhecido como um risco moderado na economia de EVE, justificando a classificação 3.
-
-**Dimensões DART Analisadas:**
-- **Risco (Ativo):**
-  - *Evidência Literal:* "Nerf AFK moon mining"
-  - *Interpretação Teórica:* No quadro DART, o risco é a avaliação de potenciais danos à integridade do ecossistema. O utilizador percebe a mineração AFK como uma ameaça à economia e à experiência de jogo legítima, exigindo intervenção dos desenvolvedores para mitigar o desequilíbrio.
-  - *Contexto no Jogo:* Em EVE Online, a mineração lunar é crucial para a produção industrial. A prática AFK (afastado do teclado) permite que jogadores acumulem recursos sem participação ativa, inflacionando a oferta e desvalorizando o esforço dos jogadores ativos, gerando um risco econômico percebido.
-
----
-
-### Post #26: `510142_2865010` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 4 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O post denuncia a ameaça de bots e jogadores AFK que vendem recursos obtidos de forma automatizada, sem restrições. A ausência de diálogo e transparência por parte dos desenvolvedores sobre medidas antibot é implícita. O risco é elevado (4) porque a perceção é de que a economia está a ser desestabilizada por agentes parasitários que extraem valor sem contribuir para a saúde do ecossistema. A falta de likes (0) indica que a comunidade pode não concordar com a intensidade do risco, mas o trust level 2 (médio) sugere uma opinião fundamentada.
-
-**Dimensões DART Analisadas:**
-- **Risco (Ativo):**
-  - *Evidência Literal:* "AFK and Botters have no obligation to sell. Who said they have an obligation? They sell regardless."
-  - *Interpretação Teórica:* O post reflete a perceção do jogador sobre a ameaça de bots e jogadores AFK à economia do jogo, que vendem recursos obtidos de forma automatizada, distorcendo os preços de mercado e reduzindo o valor do trabalho legítimo. O autor argumenta que esses agentes não têm incentivo para reter a oferta, agravando o risco de colapso económico. A ausência de gostos (0 likes) e o trust level 2 (utilizador médio) sugerem que a perceção do risco pode ser minoritária ou pouco apoiada, mas a maturidade do autor (versão única) indica uma opinião direta e não refletida sobre o tema.
-  - *Contexto no Jogo:* Em EVE Online, a mineração AFK e o uso de bots são práticas contestadas que permitem acumular recursos sem supervisão ativa. Isso inflaciona a oferta de minérios lunares (moon mining) e desvaloriza o esforço de jogadores regulares, podendo levar ao colapso de cadeias produtivas e à desmotivação da base de jogadores legítimos.
-
----
-
-### Post #27: `510142_2864663` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 3 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI1, QI2, QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** O nível de risco percebido é classificado como 3 (moderado) porque o autor identifica uma ameaça (AFK mining) que subverte a interação ativa, mas propõe uma solução equilibrada em vez de alarmista. A ausência de gostos e o trust level 3 sugerem que a perceção é experiente mas não amplamente endossada. O risco para os AFK miners é intencionalmente elevado (resistências a zero), mas o autor não expressa medo de colapso económico, apenas deseja corrigir um desequilíbrio.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "Add a special mid-slot ewar module that takes two minutes to cycle... any active player will see the beam... but an AFK miner will just happily sit there while his ship becomes a wide-open target."
-  - *Interpretação Teórica:* O post representa um diálogo iniciado pelo jogador (trust level 3, indicando experiência) com os desenvolvedores, propondo uma solução mecânica para um problema percebido. Embora sem gostos ou edições, a sugestão direta evidencia uma tentativa de comunicação bidirecional para cocriação do design do jogo.
-  - *Contexto no Jogo:* No fórum oficial de EVE Online, jogadores experientes frequentemente propõem mudanças ao meta-jogo, como este mecanismo anti-AFK, estabelecendo um canal de diálogo com a CCP Games.
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "Add a special mid-slot ewar module... reducing all resistances to zero. Any active player will see the beam from the module and know it’s time to warp out"
-  - *Interpretação Teórica:* A proposta expande o acesso dos jogadores a uma ferramenta ofensiva específica (módulo ewar) que permite interagir com minadores AFK. Isto aumenta a capacidade dos jogadores ativos de aceder e perturbar atividades automatizadas, alinhando-se com a dimensão 'Acesso' do DART – oferecer meios para participar na cocriação de valor.
-  - *Contexto no Jogo:* Em EVE, a adição de novos módulos de slot médio altera o acesso tático; aqui, o módulo proposto visa nivelar o campo de jogo entre jogadores ativos e AFK, dando a estes um meio de 'desligar' a inatividade alheia.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "any active player will see the beam... but an AFK miner will just happily sit there while his ship becomes a wide-open target."
-  - *Interpretação Teórica:* O autor perceciona um risco económico e de integridade do ecossistema devido à mineração AFK, propondo a introdução de um risco (morte da nave) para desincentivar o comportamento parasitário. O score de risco percebido é moderado porque, embora não haja pânico no post, a solução é drástica (resistências a zero), indicando que o autor considera o AFK mining uma ameaça séria.
-  - *Contexto no Jogo:* Na economia de EVE, a mineração AFK é controversa por inflacionar recursos sem supervisão; o módulo aumentaria o risco de perda de navios para esses jogadores, potencialmente reequilibrando a economia do jogo.
-
----
-
-### Post #28: `510142_2864765` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 4 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI2, QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O autor percebe um risco elevado (score 4) devido à menção explícita de 'nerf' associada a 'AFK moon mining', prática que compromete a justiça competitiva e a estabilidade económica. A ausência de gostos (0 likes) pode indicar que o post não gerou consenso, mas o trust level 2 (membro regular) sugere que o autor é um jogador com experiência suficiente para reconhecer o perigo. A inexistência de edições (versão 1) aponta para uma perceção imediata e não maturada, mas a gravidade do problema é amplamente reconhecida na comunidade EVE (e.g., inflação de minério, proliferação de bots).
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "I think they should take the mechanics from Deep Flow Rifts and apply something similar to mining."
-  - *Interpretação Teórica:* O post constitui uma proposta de diálogo unidirecional dos jogadores para os desenvolvedores, sugerindo uma mudança mecânica. Embora não haja interação bidirecional no post, a natureza de sugestão num fórum oficial insere-se no princípio de Diálogo (Prahalad & Ramaswamy, 2004), onde o jogador co-cria valor ao propor alterações baseadas na sua experiência. A ausência de gostos (0 likes) e o trust level 2 (membro regular) indicam uma participação individual, sem validação social imediata, mas ainda assim um contributo para o diálogo comunitário.
-  - *Contexto no Jogo:* Em EVE Online, os fóruns são um canal onde os jogadores propõem mudanças de balanceamento. O autor refere-se à mecânica 'Deep Flow Rifts' (atividade PvE ativa) como modelo alternativo para mineração, o que sugere que deseja um diálogo sobre o design atual do sistema de mineração lunar.
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "Nerf AFK moon mining"
-  - *Interpretação Teórica:* A referência a 'AFK moon mining' indica que os jogadores têm acesso facilitado a ferramentas de automação ou scripts que permitem mineração sem supervisão ativa. No quadro DART, o Acesso refere-se à capacidade de interagir com recursos automatizados; aqui, o post critica esse acesso excessivo e propõe restringi-lo. A ausência de edições (versão 1) sugere que a perceção do problema é imediata e não refletida.
-  - *Contexto no Jogo:* Em EVE Online, a mineração lunar AFK é uma prática onde jogadores utilizam bots ou macros para minerar enquanto estão ausentes, o que lhes confere acesso contínuo a recursos. O autor quer substituir esse acesso passivo por uma mecânica ativa como a das Deep Flow Rifts.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "Nerf AFK moon mining"
-  - *Interpretação Teórica:* O post identifica a mineração AFK como um risco para a integridade económica e competitiva do jogo. A mineração automatizada não supervisionada pode inflacionar recursos, desvalorizar o trabalho humano e facilitar atividades ilegais (RMT). O apelo a 'nerf' (enfraquecer) reflete a perceção de que este comportamento parasitário ameaça o equilíbrio do ecossistema. O score de risco percebido é elevado, apesar de o autor ter trust level 2 e 0 likes, porque a prática AFK é amplamente discutida na comunidade EVE como um problema sistémico.
-  - *Contexto no Jogo:* Em EVE Online, a mineração lunar AFK é frequentemente associada a bots que minam 24/7, gerando recursos infinitos e prejudicando a economia baseada em oferta e procura. O post propõe mitigar esse risco alterando as mecânicas para exigir participação ativa.
-
----
-
-### Post #29: `510142_2864760` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 4 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI1, QI2, QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** O autor (trust level 3, jogador experiente) manifesta uma preocupação elevada com a desvalorização da mineração ativa devido a práticas AFK. A ausência de gostos (0 likes) pode indicar que a perceção não é consensual, mas a argumentação lógica e a comparação de eficiência de cristais revelam um risco estrutural na economia do jogo. A ineficácia das contramedidas agrava o risco, justificando um score 4, pois ameaça a sustentabilidade de uma atividade central em EVE Online.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "I agree that AFK playstyles should not nearly be as rewarding as active playstyles, and that AFK mining devalues the activity of mining."
-  - *Interpretação Teórica:* O diálogo manifesta-se como uma discussão entre jogadores sobre o equilíbrio do jogo, refletindo uma interação indireta com as decisões dos desenvolvedores. Embora não haja resposta direta da CCP, o post insere-se num debate público que visa influenciar o design do jogo, caracterizando um diálogo comunitário que antecipa a cocriação de valor.
-  - *Contexto no Jogo:* Em EVE Online, o diálogo sobre AFK mining ocorre nos fóruns oficiais, onde jogadores experientes (trust level 3) propõem mudanças. A ausência de gostos (0 likes) sugere que a opinião não é amplamente partilhada, mas o autor usa a sua reputação para legitimar o argumento.
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "C-Type Mining their roids/ice blocks? Iirc these crystals were created specifically for this kind of hostile gameplay."
-  - *Interpretação Teórica:* O acesso refere-se à capacidade de utilizar ferramentas específicas (cristais Tipo C) para contrapor a mineração AFK. O autor questiona a eficácia destas ferramentas, evidenciando que o acesso a recursos de contramedida é limitado e ineficiente, criando um desequilíbrio no ecossistema.
-  - *Contexto no Jogo:* Em EVE, os cristais de mineração são itens consumíveis que afetam a taxa de extração. O autor compara a eficiência dos cristais Tipo C (50% mais rápidos que Tipo B) e argumenta que o acesso a estas ferramentas não permite um contra-ataque justo contra a mineração AFK, exigindo um esforço desproporcional.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "AFK mining devalues the activity of mining. ... That’s not a counter."
-  - *Interpretação Teórica:* O risco percebido centra-se na desvalorização económica da mineração ativa devido à mineração AFK, que permite obter recursos sem interação significativa. Isto ameaça a integridade da economia do jogo e a experiência dos jogadores legítimos, gerando um desincentivo à participação ativa.
-  - *Contexto no Jogo:* Em EVE Online, a mineração é uma atividade fundamental. A mineração AFK (muitas vezes associada a bots ou macros) reduz o valor do minério e torna a mineração ativa menos recompensadora. O autor alerta que as contramedidas existentes são ineficazes, ampliando o risco económico.
-
----
-
-### Post #30: `510142_2864627` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 5 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** `QI1, QI2, QI3, QI4, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 2
-* **Fundamentação / Notas:** O jogador percebe um risco extremo para a economia da mineração e a justiça, afirmando 'unfair to other miners, active players, and new players' sem contrajogo viável. O alto trust level (3) e a ausência de likes (0) indicam uma perspetiva informada mas de nicho; as duas edições mostram articulação ponderada. A pontuação reflete a ameaça sistémica à integridade do jogo.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "I would encourage CCP to take meaningful effort to ensure players are only rewarded for ACTIVE gameplay."
-  - *Interpretação Teórica:* Segundo Prahalad & Ramaswamy (2004), o diálogo envolve interação ativa e cocriação de significado. O jogador tenta iniciar um diálogo com a CCP e a comunidade, mas a falta de resposta eficaz da CCP mina a cocriação construtiva.
-  - *Contexto no Jogo:* No fórum oficial de EVE Online, este post representa uma tentativa frustrada de influenciar o design do jogo, um padrão comum de diálogo em MMOs onde os jogadores buscam mudanças.
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "Currently, and for the past few years, there has been a trend for Orcas to engage in mass AFK moon mining. Each system will generally have dozens of Orcas"
-  - *Interpretação Teórica:* O acesso refere-se à capacidade de usar recursos (Orcas, drones de mineração) de forma autónoma sem participação ativa. Os miners AFK exploram acesso fácil a ferramentas de alto valor, criando barreiras para novos jogadores.
-  - *Contexto no Jogo:* Em EVE Online, o Orca é um navio industrial capital que permite mineração remota. O acesso múltiplo a contas e Orcas possibilita rendimento passivo, enquanto novos jogadores não conseguem competir, evidenciando acesso desigual.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "It is unfair to other miners, who watch as the value of their ore drops because of continual AFK extraction."
-  - *Interpretação Teórica:* O risco é percebido como degradação económica e experiencial. O jogador identifica riscos sistémicos: desvalorização do minério, renda passiva injusta e falta de contrajogo. Prahalad & Ramaswamy destacam a importância de equilibrar riscos para manter a saúde do ecossistema.
-  - *Contexto no Jogo:* Em EVE Online, os preços do minério são definidos pelos jogadores. A mineração AFK inunda o mercado, baixando preços. O risco estende-se à retenção de jogadores e à integridade da profissão de mineiro.
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "I suppose most players aren’t aware this occurs (even gankers are surprised when I show them)."
-  - *Interpretação Teórica:* A transparência é deficiente, pois a CCP não reconhece nem aborda a mineração AFK generalizada, e a comunidade permanece desinformada. Prahalad & Ramaswamy enfatizam a transparência para a confiança; aqui, o secretismo sobre o comportamento AFK mina a confiança.
-  - *Contexto no Jogo:* As mecânicas complexas de EVE Online frequentemente escondem explorações. O post revela uma prática oculta; a negação da CCP agrava a falta de transparência.
-
----
-
-### Post #31: `510142_2864828` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI2, QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O autor reconhece riscos de desvalorização por bots (parasitária), mas também vê benefícios indiretos (conflitos baratos). A perceção de risco é moderada (3/5) porque não expressa medo de colapso ou banimento, mas sim uma aceitação pragmática do trade-off. O post não gerou gostos (0), indicando que a comunidade não endossa nem contesta fortemente esta visão, e o nível de confiança do autor (Trust Level 2) sugere um utilizador razoavelmente experiente, cuja opinião é ponderada mas não central.
-
-**Dimensões DART Analisadas:**
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "AFK and botters devalue product."
-  - *Interpretação Teórica:* O acesso a ferramentas de automação (AFK e bots) é o núcleo do argumento. No framework DART, o Acesso refere-se à capacidade de interagir com recursos automatizados. O autor reconhece que o uso generalizado de bots e AFK mining fornece acesso desregulado a recursos do jogo, permitindo extração passiva de valor.
-  - *Contexto no Jogo:* Em EVE Online, moon mining é uma atividade crítica. O acesso a scripts de automação (AFK) e bots permite que jogadores (ou terceiros) extraiam minério sem supervisão ativa, distorcendo a economia baseada em oferta e procura.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "AFK and botters devalue product. Cheap materials for production leads to more conflicts, which leads to more destruction, which leads to more farming and building."
-  - *Interpretação Teórica:* O autor identifica um risco de desvalorização económica (produto barato), mas também aponta um ciclo de destruição e reconstrução que pode ser benéfico. No DART, Risco envolve ameaças à integridade do ecossistema. Aqui, o risco é ambivalente: a automação parasítica desvaloriza o trabalho humano, mas também alimenta um ciclo de conflito que mantém o jogo ativo. O score 3 reflete um equilíbrio percebido entre perigo e oportunidade, sem alarmismo extremo.
-  - *Contexto no Jogo:* Em EVE Online, a economia é dinâmica. A desvalorização de materiais por bots pode levar a guerras mais baratas e maior destruição de naves, o que por sua vez gera procura por novos materiais e reaviva a farming. Este ciclo é frequentemente debatido na comunidade.
-
----
-
-### Post #32: `510142_2864990` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 4 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI1, QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O post expressa preocupação com o impacto negativo da mineração AFK, que pode facilitar bots e distorcer a economia. O risco é elevado (4) porque a prática mina a integridade competitiva do jogo e desincentiva a participação ativa. Embora o post não tenha recebido gostos (ausência de validação social), o autor tem nível de confiança 2 (membro experiente) e a sugestão é recorrente ao longo de anos, indicando um problema persistente e reconhecido na comunidade.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "A mining minigame is something that I’ve been suggesting for years to reduce or eliminate AFK mining."
-  - *Interpretação Teórica:* O post constitui uma proposta de diálogo ativo por parte do jogador, que procura influenciar o design do jogo. Embora não haja resposta direta dos desenvolvedores, a sugestão reiterada indica uma tentativa de comunicação bidirecional, alinhada com a dimensão 'Diálogo' do DART, onde os jogadores co-criam valor ao partilhar ideias para melhorar a experiência. Os metadados mostram baixa validação social (0 gostos), mas um nível de confiança 2 (membro ativo) sugere que o jogador tem alguma maturidade no fórum, reforçando a seriedade da sugestão.
-  - *Contexto no Jogo:* Em EVE Online, a mineração AFK é uma prática comum que afeta a economia. O jogador propõe um minigame que exigiria interação constante (rastreamento de veios), transformando a mineração numa atividade mais dinâmica e reduzindo a automatização indesejada.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "reduce or eliminate AFK mining."
-  - *Interpretação Teórica:* O jogador identifica a mineração AFK como um risco que precisa ser mitigado, associado a potenciais danos na economia do jogo (colapso de preços, vantagens injustas). Esta perceção de risco alinha-se com a dimensão 'Risco' do DART, onde a integridade do ecossistema é ameaçada por comportamentos parasitários. O score de 4 reflete a gravidade da ameaça percebida, mesmo sem likes de apoio, dado o contexto histórico de mineração AFK em EVE Online.
-  - *Contexto no Jogo:* Em EVE Online, a mineração AFK permite que jogadores acumulem recursos sem supervisão, podendo ser explorada por bots e RMT, o que prejudica a economia e a experiência de jogo. A sugestão visa combater esse risco através de mecânicas ativas.
-
----
-
-### Post #33: `510142_2864639` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 4 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI1, QI2, QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** O autor apresenta um claro sinal de alarme ao pedir um nerf, indicando que a prática de AFK moon mining constitui uma ameaça real ao equilíbrio do jogo. Embora o post não tenha gostos, o trust level 3 do utilizador valida a sua experiência e maturidade na comunidade. Em fóruns de EVE Online, jogadores de confiança elevada tendem a identificar riscos que refletem consensos latentes. O risco é avaliado como 4 (numa escala de 1 a 5) porque a mineração AFK impacta diretamente a economia e a experiência de jogo legítima, embora não haja ainda uma crise iminente.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "Nerf AFK moon mining. C-Type Mining their roids/ice blocks? Iirc these crystals were created specifically for this kind of hostile gameplay."
-  - *Interpretação Teórica:* O post constitui uma intervenção dialógica no fórum, onde o jogador expressa uma opinião e evoca conhecimento prévio sobre o design de itens do jogo, procurando influenciar a discussão pública e potencialmente as decisões dos desenvolvedores. Apesar de ter 0 gostos, o trust level 3 do autor confere credibilidade à mensagem, indicando que a comunidade (mesmo sem endossar) pode reconhecer a experiência do jogador. O diálogo é unidirecional neste post, mas insere-se num ecossistema de discussão contínua.
-  - *Contexto no Jogo:* No EVE Online, fóruns oficiais são um canal central para feedback dos jogadores sobre balanceamento. Este post refere-se especificamente à mineração AFK (automática) em luas, uma mecânica frequentemente associada a bots ou multiboxing, e sugere que certos cristais de mineração foram criados para gameplay hostil (PvP), não para mineração passiva.
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "Nerf AFK moon mining"
-  - *Interpretação Teórica:* O termo 'AFK mining' implica que os jogadores podem aceder a recursos (minérios de lua) sem interação ativa, muitas vezes através de automação ou scripts. O post critica esse acesso facilitado, sugerindo que a ferramenta de cristais foi mal utilizada. O acesso aqui é à mecânica de mineração passiva, que pode ser explorada de forma abusiva. O trust level 3 do autor sugere que a perceção do acesso indevido é fundamentada na experiência prolongada do jogo.
-  - *Contexto no Jogo:* Em EVE Online, a mineração AFK em luas é uma prática controversa porque permite acumular recursos sem supervisão, afetando a economia global do jogo. O jogador defende que os cristais C-Type (provavelmente cristais de mineração) foram concebidos para cenários hostis, não para exploração passiva, indicando que o acesso está a ser concedido a um grupo para o qual não foi desenhado.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "Nerf AFK moon mining"
-  - *Interpretação Teórica:* O apelo a um 'nerf' (enfraquecimento) revela a perceção de um risco elevado para a economia e a integridade do jogo. A mineração AFK pode desequilibrar a oferta de recursos, desvalorizar o trabalho manual e favorecer operações automatizadas. A ausência de gostos não diminui a seriedade; o trust level 3 indica que o autor é um membro experiente e a sua preocupação com risco é provavelmente partilhada em discussões correlatas. O risco é classificado como elevado porque afeta a experiência geral e a justiça competitiva.
-  - *Contexto no Jogo:* No ecossistema de EVE Online, a mineração AFK é frequentemente associada a bots ou contas multibox, o que gera inflação de recursos e degradação da economia baseada em jogadores. O post alerta para a necessidade de reequilibrar as mecânicas para evitar que a mineração hostil (PvP) seja substituída por extração passiva e sem riscos.
-
----
-
-### Post #34: `510142_2864793` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI1, QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O post tem 0 gostos e trust level 2 (membro), indicando baixa validação social imediata, mas o autor demonstra maturidade ao propor uma solução baseada noutra mecânica. O risco percebido é moderado porque o foco está no desequilíbrio económico causado por AFK mining, sem menção a bans ou perda de conta, e a sugestão de reforma é construtiva.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "I first envisioned a mech suit but I don’t want mining to become too fun"
-  - *Interpretação Teórica:* O jogador expressa uma visão irónica sobre a conceção de mineração, iniciando um diálogo criativo com a comunidade para sugerir alterações ao sistema. Isto reflete o conceito de Diálogo de Prahalad & Ramaswamy como troca ativa de ideias para cocriação.
-  - *Contexto no Jogo:* No fórum oficial do EVE Online, os jogadores debatem o equilíbrio da mineração, usando hipérbole para criticar a monotonia da atividade.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "Nerf AFK moon mining"
-  - *Interpretação Teórica:* A frase 'Nerf AFK moon mining' revela a perceção de que a mineração AFK (frequentemente automatizada) representa um risco para a economia do jogo e a equidade, alinhando-se com a dimensão Risco do DART sobre integridade do ecossistema.
-  - *Contexto no Jogo:* Em EVE Online, a mineração AFK é associada a bots e macros que distorcem o mercado de recursos e a experiência de jogo legítima.
-
----
-
-### Post #35: `510142_2864984` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 4 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI2, QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** O autor classifica a situação como de alto risco (4/5) devido ao efeito desestabilizador na economia e no meta do jogo. A evidência literal aponta para 'proliferation of disposable keepstars' e 'stagnant meta', indicando um colapso na qualidade do conteúdo. O trust level 3 do autor sugere experiência e maturidade, o que reforça a credibilidade da perceção de risco. A ausência de gostos pode indicar que a comunidade não partilha integralmente esta visão, mas o argumento é teoricamente sólido no contexto de RMT e inflação de recursos.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "Remi Lacroix: Cheap materials... I don’t think this is mathematically or economically correct."
-  - *Interpretação Teórica:* O autor responde diretamente a outro jogador (Remi Lacroix), estabelecendo um diálogo argumentativo. No framework DART, o diálogo implica interação ativa e escuta mútua; aqui, o autor refuta a afirmação anterior, demonstrando engajamento crítico na discussão sobre economia do jogo. A ausência de gostos (0 likes) sugere que o argumento não obteve validação social imediata, mas o nível de confiança 3 do autor (utilizador experiente) confere peso à sua perspectiva, indicando maturidade no debate.
-  - *Contexto no Jogo:* No fórum oficial de EVE Online, os jogadores debatem frequentemente o impacto das mecânicas de mineração AFK na economia. Este diálogo reflete a tensão entre diferentes visões sobre a abundância de recursos e seus efeitos no meta do jogo.
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "The injection of more resources... proliferation of disposable keepstars"
-  - *Interpretação Teórica:* O acesso é discutido indiretamente: a mineração AFK facilita o acesso fácil e barato a recursos (minérios da lua), que são depois usados para produção em massa. No DART, acesso refere-se à capacidade de interagir com ferramentas do jogo; aqui, os jogadores que usam bots ou AFK mining têm acesso privilegiado a materiais, distorcendo o equilíbrio económico. O post não menciona APIs ou automação explícita, mas a crítica ao excesso de oferta implica que o acesso desregulado a recursos é a causa do problema.
-  - *Contexto no Jogo:* Em EVE, a mineração AFK (incluindo uso de bots) permite acumular recursos sem esforço ativo, gerando uma vantagem para quem a pratica. Isto afeta diretamente a disponibilidade de materiais para construção de naves e estruturas, como os keepstars descartáveis mencionados.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "proliferation of disposable keepstars... leads to lower quality content... stagnant meta"
-  - *Interpretação Teórica:* O autor identifica riscos claros para a saúde do jogo: estagnação do meta (demasiadas naves grandes, poucas pequenas), desvalorização de conteúdo (keepstars descartáveis) e redução da diversidade de combates (falta de papel para naves menores). No DART, risco abrange ameaças à integridade do ecossistema. O utilizador (trust level 3) expressa uma perceção de risco elevada, fundamentada em análise económica. A ausência de likes pode indicar que a comunidade não concorda plenamente, mas o argumento é coerente com teorias de inflação de recursos em MMOs.
-  - *Contexto no Jogo:* O risco percebido é sistémico: a mineração AFK excessiva pode levar a um colapso do equilíbrio entre oferta e procura, desincentivando o uso de naves pequenas e baratas, que são cruciais para a variedade de conteúdo em EVE (ex.: frigate vs. titan).
-
----
-
-### Post #36: `510142_2864742` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 4 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI1, QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O jogador propõe uma mudança drástica na mecânica de mineração (foco na ação manual), indicando que percebe a mineração AFK como uma ameaça elevada ao equilíbrio do jogo. O risco é classificado como 4 (numa escala de 1 a 5) porque a sugestão visa eliminar completamente o comportamento passivo, o que sugere uma perceção de crise no ecossistema económico. A ausência de likes e o trust level 2, contudo, matizam essa perceção: não há validação social imediata, podendo indicar que o tópico é menos consensual ou que o autor é um jogador sem influência significativa. Ainda assim, a direção do post (nerf) reforça a seriedade do risco imputado.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "When mining, put the player into a first person mining simulation where they point the laser at rocks and mine them."
-  - *Interpretação Teórica:* O post constitui uma iniciativa de diálogo unidirecional do jogador para os desenvolvedores, propondo uma mudança nas mecânicas de jogo. Segundo Prahalad e Ramaswamy (2004), o diálogo envolve interação ativa e escuta mútua; aqui, o jogador tenta iniciar esse diálogo, mas a ausência de respostas ou gostos (0 likes) e o baixo nível de engajamento (trust level 2, sem edições) indicam que a interação não se concretiza plenamente, permanecendo como uma sugestão isolada.
-  - *Contexto no Jogo:* No EVE Online, fóruns são um canal oficial para feedback. Este post, apesar de ser um monólogo de curta duração, reflete a tentativa de cocriação ao sugerir uma alteração no moon mining, uma atividade frequentemente automatizada por bots, demonstrando a expectativa de que os desenvolvedores considerem a voz do jogador.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "Nerf AFK moon mining"
-  - *Interpretação Teórica:* A expressão 'Nerf AFK moon mining' revela a perceção do jogador de que a mineração passiva (AFK) representa um risco para a economia do jogo e para a integridade da experiência. Do ponto de vista do DART, o risco aqui é estrutural: permite que jogadores obtenham recursos sem esforço ativo, desequilibrando a economia. A sugestão de um minigame em primeira pessoa visa mitigar esse risco, mas a ausência de gostos (0) sugere que a comunidade pode não partilhar a mesma urgência ou que o post passou despercebido.
-  - *Contexto no Jogo:* Em EVE Online, o moon mining é uma atividade crucial para a produção de estruturas e módulos. A mineração AFK (com uso de bots ou macros) é um problema recorrente que pode desvalorizar o trabalho manual e inflacionar a oferta de recursos, sendo alvo frequente de discussões sobre a saúde da economia do jogo.
-
----
-
-### Post #37: `510142_2865083` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** O post apresenta uma perceção moderada de risco: o utilizador reconhece a ameaça da mineração AFK, mas propõe uma solução específica (buff aos cristais) em vez de alarmismo ou pedidos de banimento. A ausência de gostos (0 likes) pode indicar que a comunidade não valida fortemente este risco ou que o tópico é controverso. O trust level 3 confere credibilidade ao autor, sugerindo que a sua opinião reflete experiência real no jogo. O score 3 é adequado porque o risco é identificado e discutido, mas sem evidência de crise iminente.
-
-**Dimensões DART Analisadas:**
-- **Risco (Ativo):**
-  - *Evidência Literal:* "Nerf AFK moon mining. CCP could buff those crystals quite a bit. There’s no argument against it."
-  - *Interpretação Teórica:* O utilizador perceciona o risco de desequilíbrio económico e vantagem injusta decorrente da mineração AFK (afastado do teclado). Propõe uma solução (buff aos cristais) como forma de mitigar esse risco, mas a frase 'There’s no argument against it' sugere uma visão convicta e possivelmente reducionista do problema.
-  - *Contexto no Jogo:* Em EVE Online, a mineração AFK é uma prática controversa que pode inflacionar a oferta de recursos e desvalorizar o trabalho ativo dos jogadores. O utilizador, com trust level 3 (experiente), sinaliza que a economia do jogo está ameaçada e que a CCP deve intervir.
-
----
-
-### Post #38: `510142_2864986` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI1, QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O risco é moderado (3/5) porque o post alerta para um potencial efeito negativo (estagnação) decorrente de escassez, mas não apresenta evidências concretas nem quantifica o impacto. A falta de validação social (0 likes) e o trust level 2 sugerem que a perceção não é dominante, embora a temática seja economicamente relevante. A ausência de edições (1 versão) denota uma opinião imediata, sem reflexão aprofundada.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "I don’t think this is mathematically or economically correct"
-  - *Interpretação Teórica:* O post evidencia um diálogo crítico entre jogadores sobre as consequências económicas das alterações ao jogo, algo central na cocriação de valor segundo Prahalad & Ramaswamy, onde o diálogo implica interação e contestação de premissas. A ausência de likes (0) sugere baixa ressonância social imediata, mas o nível de confiança 2 indica um utilizador com experiência básica, capaz de contribuir para o debate.
-  - *Contexto no Jogo:* No EVE Online, o diálogo sobre o nerf da mineração AFK reflete discussões recorrentes na comunidade sobre equilíbrio económico e decisões dos developers, onde jogadores contestam argumentos matemáticos e económicos apresentados por outros.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "scarcity leading to a bit of stagnation"
-  - *Interpretação Teórica:* O utilizador identifica um risco económico associado à escassez de recursos, que pode levar à estagnação da atividade de jogo. No quadro DART, o risco é aqui percebido como ameaça à vitalidade do ecossistema, alinhado com a noção de cocriação onde riscos partilhados afetam a confiança e o envolvimento. A ausência de likes (0) indica que esta perceção de risco não é amplamente consensual, mas o nível de confiança 2 confere alguma credibilidade à observação.
-  - *Contexto no Jogo:* Em EVE Online, a mineração de luas é uma atividade económica chave; propostas de nerf geram preocupações sobre a escassez de minérios e subsequente estagnação do mercado, afetando jogadores que dependem destes recursos.
-
----
-
-### Post #39: `510142_2865126` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI1, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** O post não aborda riscos diretos ao ecossistema, economia ou segurança. Foca-se na descredibilização de um interlocutor sem mencionar baneamentos, bots ou colapso económico. O trust level 3 sugere experiência, mas o teor agressivo e a ausência de likes indicam que a comunidade não valida a perceção de risco. Score mínimo.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "most behaviour seen as malicious can simply be explained with incompetence"
-  - *Interpretação Teórica:* O diálogo é assimétrico e adversarial, sem escuta ativa ou benefício mútuo. O utilizador desqualifica o interlocutor, impedindo a cocriação equilibrada proposta por Prahalad & Ramaswamy.
-  - *Contexto no Jogo:* Discussão sobre moon mining no fórum de EVE Online, onde jogadores experientes (trust level 3) frequentemente desacreditam contas alternativas, polarizando o debate.
-
----
-
-### Post #40: `510142_2865026` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** `QI2, QI3, QI4, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** O autor (Trust Level 3, jogador experiente) considera o risco moderado: a penalidade é apenas ser desconectado, não há perda de conta ou economia, mas a interrupção frequente gera incómodo significativo. A falta de likes (0) sugere que a comunidade não valida fortemente este risco, talvez por ser um problema individual e não sistémico.
-
-**Dimensões DART Analisadas:**
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "kicks you off while you’re adjusting settings or scrolling the market looking for something or going through your inventory"
-  - *Interpretação Teórica:* O acesso aos recursos do jogo (mineração lunar) é limitado pelo temporizador AFK, que exige interação constante para manter a sessão ativa, restringindo a capacidade do jogador de realizar outras tarefas legítimas no jogo.
-  - *Contexto no Jogo:* Em EVE Online, a mineração AFK é uma prática comum, mas o temporizador automático desloga o jogador se não houver entrada ativa do teclado, o que conflita com atividades como navegar no mercado ou reorganizar o inventário.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "can it be like every suck ass afk timer in every other mmo that kicks you off"
-  - *Interpretação Teórica:* O jogador percebe o risco de ser penalizado (deslogado) por realizar ações consideradas 'não ativas' pelo sistema, causando perda de tempo e eficiência na mineração, mas não há ameaça à segurança da conta ou economia.
-  - *Contexto no Jogo:* O temporizador AFK é uma ferramenta anti-exploração, mas quando aplicado de forma restritiva, gera frustração e risco de interrupção de atividades legítimas, sem risco de banimento ou colapso económico.
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "trying to play the game isn't 'at the keyboard' enough for the stupid system?"
-  - *Interpretação Teórica:* O jogador questiona os critérios de 'actividade' do sistema, indicando falta de clareza sobre o que constitui interação suficiente para evitar o desligamento automático.
-  - *Contexto no Jogo:* Em EVE Online, a definição de 'AFK' é opaca; os jogadores não sabem exatamente quais ações contam como ativas, levando a frustração quando ações como cliques no mercado são ignoradas pelo sistema.
-
----
-
-### Post #41: `510142_2865070` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 4 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI2, QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O utilizador atribui um risco elevado à mineração AFK, considerando-a uma ameaça que exige uma resposta mecânica (nerf). A ausência de likes (0) reduz a validação social do risco, mas o trust level 2 (membro regular) e o tom assertivo indicam uma perceção individual forte. A metáfora de 'bump 50 Orcas' evidencia o custo humano de combater a automatização, o que sugere um risco sistémico para a economia e a experiência de jogo, justificando o score 4 numa escala de 1 (baixo) a 5 (extremo).
-
-**Dimensões DART Analisadas:**
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "Nerf AFK moon mining"
-  - *Interpretação Teórica:* O Acesso, no framework DART, refere-se à capacidade de utilizar ferramentas e recursos. O utilizador critica o acesso facilitado a mineração semi-automatizada (AFK), que permite a jogadores obterem recursos sem envolvimento ativo, gerando desequilíbrio.
-  - *Contexto no Jogo:* Em EVE Online, a mineração de lua AFK é uma prática onde jogadores utilizam scripts ou permanecem inativos para extrair minérios, o que o autor considera excessivamente vantajoso e digno de nerf.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "Nobody is so bored that they want to sit and bump 50 Orcas."
-  - *Interpretação Teórica:* O Risco percebido centra-se na degradação da experiência de jogo e na economia: a mineração AFK ameaça a integridade competitiva, forçando jogadores ativos a tarefas tediosas para a combater. A ausência de gostos (0 likes) sugere que a comunidade não valida fortemente esta perceção, mas o trust level 2 indica um utilizador médio com consciência dos riscos.
-  - *Contexto no Jogo:* No jogo, Orcas são navios de mineração frequentemente usados em operações AFK. 'Bump' refere-se à ação de empurrar manualmente estes navios para deslocá-los, uma tarefa repetitiva que o autor considera inviável em larga escala.
-
----
-
-### Post #42: `510142_2865097` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI2, QI3`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post conveys a moderate risk perception (score 3) because it questions the behavior of AFK miners without explicit fear or alarm. The phrase 'skittish or don't care' suggests a conditional risk: if miners are skittish, risk is low due to vigilance; if they don't care, risk is high due to negligence. The neutral tone, single edit, and zero likes indicate the author is not particularly alarmed, but the topic inherently involves potential loss of valuable ships. The trust level 2 user is likely a regular player with practical knowledge, reinforcing a balanced risk assessment. DART theory emphasizes that risk perception influences co-creation; here, the risk is tied to the asymmetric access to automation (AFK mining) and the social threat from other players, not from developers.
-
-**Dimensões DART Analisadas:**
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "are they skittish or don’t care who is in system with them?"
-  - *Interpretação Teórica:* The question implicitly references the ability to engage in AFK moon mining, which often relies on automated tools or scripts. This suggests players have access to such automation, yet the query focuses on the risk awareness of those using it. The lack of direct mention of APIs or tools limits the theoretical link to Prahalad & Ramaswamy's access dimension, but the underlying assumption of sustained unattended operation implies a form of automated access to resources.
-  - *Contexto no Jogo:* In EVE Online, moon mining is a core industrial activity; AFK mining refers to players leaving their ships unattended while mining automatically, often using third-party scripts or in-game commands. The post questions whether these miners are alert to threats (skittish) or oblivious, highlighting a tension between efficient resource extraction and situational awareness.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "are they skittish or don’t care who is in system with them?"
-  - *Interpretação Teórica:* The post directly addresses risk perception regarding player safety and asset integrity. The dichotomy 'skittish or don't care' reflects a binary of risk awareness versus negligence. AFK mining exposes ships to destruction by hostile players, and the question underscores the potential loss of assets. The low likes (0) suggest limited community endorsement of this risk framing, but the trust level 2 author indicates moderate experience, lending some weight to the observation.
-  - *Contexto no Jogo:* In EVE Online's nullsec or lowsec, players risk ganking (player-killing) if they mine unattended. The post implies a scenario where AFK miners either react to threats (skittish) or ignore them, both carrying different risk profiles. This aligns with the risk dimension of the DART framework, where value co-creation is threatened by security vulnerabilities.
-
----
-
-### Post #43: `510142_2865148` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** `QI1, QI2, QI4`
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** O post não expressa risco percebido; a discussão é técnica e factual. O score baixo (2) reflete a ausência de alarme ou preocupação, coerente com o tom neutro do utilizador (trust level 3) e a falta de likes, indicando ausência de consenso comunitário sobre ameaça.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "Sure they are. They are separate objects, targetable, destroyable, can remain on grid if the ship warps away."
-  - *Interpretação Teórica:* O post exemplifica um diálogo ativo e de dupla via, onde o jogador contesta uma afirmação anterior com argumentos baseados em mecânicas do jogo, promovendo uma troca construtiva que clarifica regras partilhadas.
-  - *Contexto no Jogo:* No fórum do EVE Online, jogadores debatem as diferenças entre drones e armas montadas no casco, usando terminologia do jogo ('launching', 'grid') para fundamentar a discussão sobre a natureza dos drones.
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "Process of deploying them to space is even the same as with all other deployables: 'launching'"
-  - *Interpretação Teórica:* O acesso aqui refere-se à capacidade de usar e interagir com drones como objetos separados, incluindo a ação de 'lançar' (launching), que é uma ferramenta de automatização e controlo tático.
-  - *Contexto no Jogo:* Em EVE Online, o acesso a drones como deployables permite aos jogadores controlar múltiplos objetos no espaço, com implicações para mineração AFK e combate, sendo este post uma defesa dessa funcionalidade mecânica.
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "Destroying them doesn't endanger the capsuleer. Process ... 'launching', which basically is the definition of not being part of the ship any more."
-  - *Interpretação Teórica:* O jogador recorre a definições claras do jogo (screenshots de 'launching') para evidenciar regras transparentes sobre o funcionamento dos drones, promovendo a visibilidade das mecânicas.
-  - *Contexto no Jogo:* A transparência manifesta-se na demonstração explícita de que os drones são tratados como objetos independentes, com consequências (destruição não afeta o piloto), reforçando a previsibilidade do sistema.
-
----
-
-### Post #44: `510142_2864988` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI1, QI2, QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** O autor (Trust Level 3, utilizador experiente) minimiza o risco de ignorar as queixas, classificando-as como 'manufactured outrage' – perceção de risco baixa (2). A ausência de gostos (0 likes) sugere que a comunidade não valida esta visão, apontando para um risco real de backlash ignorado pelo autor.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "Players threw a temper tantrum, but manufactured outrage is not real. CCP should have just ignored it"
-  - *Interpretação Teórica:* O diálogo entre jogadores e desenvolvedores é descrito como corrupto e não genuíno, com o autor a defender que a CCP deve ignorar as queixas, rompendo o princípio de cocriação bidirecional do DART.
-  - *Contexto no Jogo:* No EVE Online, a mineração AFK é um tema polémico; o autor critica a reação da comunidade como manipulada, sugerindo que um diálogo autêntico foi substituído por protestos oportunistas.
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "Nerf AFK moon mining"
-  - *Interpretação Teórica:* O acesso a ferramentas de automação (AFK mining) é central; o autor defende a sua restrição, alinhando-se com a ideia de que o acesso desregulado a recursos automatizados prejudica a experiência ativa dos jogadores.
-  - *Contexto no Jogo:* Em EVE Online, a mineração de luas é um pilar económico; a automação AFK permite acumular recursos sem envolvimento, gerando desequilíbrios que o autor quer ver corrigidos.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "Scarcity didn’t last long enough for the consequences to be visible."
-  - *Interpretação Teórica:* O risco percebido é de que a escassez (scarcity) foi interrompida cedo demais, impedindo que os efeitos positivos na economia do jogo se manifestassem, aumentando a instabilidade a longo prazo.
-  - *Contexto no Jogo:* No EVE Online, os períodos de escassez são deliberados para reequilibrar a economia; o autor julga que a pressão dos jogadores levou a CCP a recuar, gerando riscos de colapso económico e desvalorização do esforço humano.
-
----
-
-### Post #45: `510142_2865154` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 4 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** `QI1, QI3, QI4, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** O post combina uma denúncia de design defeituoso com uma acusação de manipulação semântica, indicando que o autor percebe riscos operacionais e de reputação. A ausência de likes (0) pode refletir baixo endosso, mas o trust level 3 do autor indica que é um jogador experiente, cuja perceção de risco é informada por anos de jogo. O risco é classificado como 4 porque o autor não menciona consequências imediatas (como banimento ou colapso económico), mas sugere um risco estrutural de perda de navios por falha de design.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "You guys need to step up, I’m not here to educate you all the time."
-  - *Interpretação Teórica:* O autor expressa frustração com a falta de escuta ativa dos desenvolvedores, indicando um diálogo assimétrico onde o jogador sente que precisa 'educar' a equipa, em vez de uma comunicação bidirecional construtiva. A metacomunicação sobre a manipulação semântica de outro jogador revela a complexidade dos debates na comunidade.
-  - *Contexto no Jogo:* No fórum de EVE Online, jogadores veteranos frequentemente debatem mecânicas de mineração AFK. O autor acusa um jogador de usar argumentos semânticos para desviar o foco do problema real, sugerindo que os desenvolvedores não respondem honestamente às preocupações.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "a large ship only has drones to defend against a frig pointing it. Due to the stellar intelligence from our game designers."
-  - *Interpretação Teórica:* O autor percebe um risco elevado de perda de navios devido a um design de mecânicas que considera defeituoso ('stellar intelligence' é sarcástico). Este risco afeta a integridade da experiência de jogo, especialmente para jogadores de mineração AFK que ficam vulneráveis a ataques.
-  - *Contexto no Jogo:* Em EVE Online, naves de mineração como Orcas têm defesas limitadas contra frigate tacleadores. A perceção de risco é agravada pela falta de transparência sobre as intenções dos designeres, levando a frustração e possíveis perdas económicas no jogo.
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "Due to the stellar intelligence from our game designers."
-  - *Interpretação Teórica:* A ironia evidencia que o autor desconfia das decisões dos desenvolvedores, considerando-as mal informadas ou intencionalmente prejudiciais. A falta de transparência sobre o rationale das mecânicas de combate e mineração gera desconfiança na comunidade.
-  - *Contexto no Jogo:* Os desenvolvedores de EVE Online raramente explicam detalhadamente as filosofias de design por trás de nerfs ou buffs, o que alimenta especulações e acusações de parcialidade. O autor sugere que os 'game designers' não são honestos sobre os trade-offs das mecânicas.
-
----
-
-### Post #46: `510142_2865044` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** `QI1, QI2, QI3, QI4, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O jogador considera baixo o risco de punição por AFK mining, pois afirma desconhecer proibições explícitas. A ausência de likes (0) e o nível de confiança moderado (2) indicam que a perceção pode não ser partilhada pela comunidade, mas o próprio jogador não demonstra preocupação com banimento ou danos à economia. O risco aceite é apenas a perda da nave, algo comum em EVE. O post não sofreu edições (1 versão), sugerindo opinião firme e não refletiva. Score 2 reflete uma perceção baixa, mas não nula.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "If you don’t want me being AFK for 50 minutes in my venture, then make it more fun. Don’t come to the forums being the fun police."
-  - *Interpretação Teórica:* O jogador apela ao diálogo com os desenvolvedores e a comunidade, pedindo que em vez de punir, tornem a atividade mais interativa. Segundo Prahalad & Ramaswamy, o diálogo autêntico requer envolvimento bidirecional e escuta ativa. Aqui, o jogador expressa frustração por sentir que o seu feedback não é considerado, sugerindo uma assimetria na comunicação.
-  - *Contexto no Jogo:* No fórum oficial de EVE Online, o jogador responde a propostas de 'nerf' (enfraquecimento) da mineração AFK, defendendo a sua abordagem e desafiando os decisores a melhorar o jogo em vez de restringir.
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "I AFK mine gas sites. It takes about 50 minutes for my venture to get a full tank of gas."
-  - *Interpretação Teórica:* O jogador descreve o acesso rotineiro a uma mecânica de jogo (mineração de gás) que permite a ausência prolongada. O acesso é à funcionalidade base do jogo, sem recurso a APIs ou ferramentas externas. Na perspetiva DART, o acesso aqui é passivo e não negociado com os desenvolvedores, sendo um uso unidirecional do sistema.
-  - *Contexto no Jogo:* Em EVE Online, a mineração AFK é uma prática comum com naves como a Venture, onde o jogador pode deixar a nave a minerar automaticamente enquanto se ausenta, correndo o risco de ser destruído por outros jogadores.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "I never read anything about AFK mining being against the terms of service or an exploit."
-  - *Interpretação Teórica:* O jogador minimiza o risco de sanções, afirmando desconhecer qualquer proibição explícita. Avalia apenas o risco de perda da nave ('blown up') como aceitável. Na perspetiva DART, a perceção de risco é baixa porque falta transparência sobre as regras. A ausência de 'likes' (0) sugere que a comunidade não valida esta visão, possivelmente por considerar o risco maior.
-  - *Contexto no Jogo:* Em EVE Online, a mineração AFK pode ser confundida com uso de bots, que é expressamente proibido. O jogador assume que a sua atividade não viola os Termos de Serviço, mas a falta de clarificação oficial gera incerteza.
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "I never read anything about AFK mining being against the terms of service or an exploit."
-  - *Interpretação Teórica:* O jogador revela falta de transparência por parte dos desenvolvedores quanto à legalidade da mineração AFK. A ausência de comunicação clara sobre o que constitui exploração ou violação leva o jogador a assumir que é permitido. Prahalad & Ramaswamy defendem que a transparência é crucial para a cocriação; aqui, a opacidade gera desconfiança e resistência a mudanças.
-  - *Contexto no Jogo:* No ecossistema de EVE Online, as regras sobre AFK e automação são frequentemente ambíguas, levando jogadores a interpretações divergentes. O pedido 'make it more fun' também exige transparência sobre a direção do design.
-
----
-
-### Post #47: `510142_2865117` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** O score 3 reflete um risco moderado, baseado na crítica ao desequilíbrio entre mineração AFK e a possibilidade de retaliar com drones. O autor (trust level 3) expressa descontentamento, mas sem alarme extremo. A ausência de likes indica baixa ressonância na comunidade, sugerindo que o risco não é consensualmente elevado. A única versão do post mostra convicção inicial.
-
-**Dimensões DART Analisadas:**
-- **Risco (Ativo):**
-  - *Evidência Literal:* "Liking the idea of shooting drones for suspect status like Player_038 did is no problem."
-  - *Interpretação Teórica:* A sugestão de atacar drones como atividade de risco (suspect status) reflete a perceção dos jogadores sobre as consequências de ações automatizadas. O post revela que a mecânica de risco é central para o equilíbrio do jogo, onde a perda de estatuto ou a exposição a consequências é vista como aceitável ou necessária.
-  - *Contexto no Jogo:* Em EVE Online, o suspect status é um estado de risco que permite que outros jogadores ataquem livremente. A discussão sobre atacar drones de mineração AFK ilustra como os jogadores avaliam os riscos associados à automação e à defesa de recursos.
-
----
-
-### Post #48: `510142_2865068` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 3 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** `QI1, QI2, QI3, QI4, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O nível de confiança 2 do utilizador indica experiência moderada, mas zero gostos sugerem baixo consenso comunitário sobre a gravidade do risco. O post pede um nerf para a mineração AFK, o que representa um risco moderado à justiça económica, sem evidência de ameaça iminente de colapso.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "Some Orca’s have names, perhaps it might be appropriate to distinguish between them that not all Orca’s afk while mining juicy goo!"
-  - *Interpretação Teórica:* O utilizador inicia um discurso com a comunidade e os desenvolvedores ao sugerir uma mudança na mecânica do jogo, refletindo o conceito de diálogo de Prahalad & Ramaswamy como um meio para cocriação de valor.
-  - *Contexto no Jogo:* No fórum oficial de EVE Online, o jogador propõe uma distinção entre Orcas com nomes e aquelas que mineiram AFK, tentando engajar a comunidade e os desenvolvedores num debate sobre mineração passiva.
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "Nerf AFK moon mining … not all Orca’s afk while mining juicy goo!"
-  - *Interpretação Teórica:* O post aborda a questão do acesso automatizado a recursos de mineração enquanto AFK, destacando a tensão entre acesso autorizado e não autorizado a sistemas do jogo, conforme a dimensão 'Acesso' do DART.
-  - *Contexto no Jogo:* Em EVE Online, a mineração de lua AFK é uma prática que permite extrair recursos sem interação ativa, levantando questões sobre acesso justo a ferramentas e permissões do jogo.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "Nerf AFK moon mining … not all Orca’s afk while mining juicy goo!"
-  - *Interpretação Teórica:* O utilizador percebe um risco para o equilíbrio do jogo devido à mineração AFK, que pode perturbar a economia e criar vantagens injustas, alinhando-se com a dimensão 'Risco' do DART.
-  - *Contexto no Jogo:* A mineração AFK em EVE Online é frequentemente vista como uma ameaça à integridade da economia de recursos e à competitividade justa, justificando pedidos de nerf por parte dos jogadores.
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "distinguish between them that not all Orca’s afk while mining juicy goo!"
-  - *Interpretação Teórica:* O pedido para distinguir jogadores ativos de AFK indica uma necessidade de transparência sobre o comportamento dos jogadores e as regras do sistema, conforme a dimensão 'Transparência' do DART.
-  - *Contexto no Jogo:* No EVE Online, a falta de visibilidade sobre quem está AFK durante a mineração leva os jogadores a exigirem mecanismos que tornem essas informações mais claras e acessíveis.
-
----
-
-### Post #49: `510142_2865155` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI1, QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 2
-* **Fundamentação / Notas:** O autor (trust level 3, utilizador experiente) reconhece a mineração AFK como um problema real, mas propõe uma solução que considera equilibrada. A ausência de likes (0) indica que a comunidade pode discordar da gravidade ou da solução, tornando o risco percebido moderado – nem ignorado nem alarmante. O histórico de duas edições sugere reflexão na formulação do argumento, o que reforça a seriedade da análise.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "Present some proof please. Just saying 'its wrong!' does't make it true. Now it’s your turn for bringing some arguments to the table."
-  - *Interpretação Teórica:* O diálogo é bidirecional e crítico: o autor desafia outro utilizador a fornecer evidências, promovendo uma troca argumentativa que visa refinar a proposta de mudança de regras. A cocriação de valor aqui surge através da deliberação pública entre pares, onde a escuta ativa e a contra-argumentação são centrais para alcançar consenso.
-  - *Contexto no Jogo:* No fórum oficial de EVE Online, este diálogo reflete a cultura de debate sobre mecânicas de jogo, onde jogadores experientes (trust level 3) propõem alterações e exigem justificações, influenciando potencialmente os desenvolvedores.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "helps to solve a problem, which is mass-afk mining. creates more options for player interactions in HS beyond just 'suicide gankig'."
-  - *Interpretação Teórica:* O autor identifica a mineração AFK em massa como um risco sistémico que degrada a economia e a interação social. A proposta de alinhar regras de suspeição entre drones e instalações visa mitigar esse risco, reequilibrando o ecossistema. A perceção de risco é moderada, pois o autor vê uma solução viável (win-win-win), mas a ausência de likes sugere controvérsia na comunidade quanto à gravidade.
-  - *Contexto no Jogo:* Em EVE Online, a mineração AFK (automática por bots ou scripts) é um problema crónico no espaço seguro (HS), afetando a integridade económica e reduzindo oportunidades de interação PvP legítima para além do 'suicide ganking'.
-
----
-
-### Post #50: `510142_2865096` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 5 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI2, QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** O utilizador (trust level 3) expressa, através de sarcasmo, uma perceção de risco extremo relativamente à mineração AFK. A ausência de likes sugere que a opinião pode não ser universal, mas a chamada explícita por 'nerf' indica que o autor considera a automação uma ameaça grave à experiência de jogo e à economia. A referência a 'smartbomb their augmented miners' como solução hipotética reforça a ideia de que o risco é tão elevado que justificaria medidas drásticas. A classificação 5 reflete a urgência e a gravidade atribuída pelo jogador.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "Yeah, let me hug their asteroid with my Mac and smartbomb their augmented miners with one good blast."
-  - *Interpretação Teórica:* O post é uma resposta sarcástica num fórum, constituindo um ato dialógico entre jogadores. No entanto, não é cooperativo; reflete um confronto sobre a automação, onde o autor expressa ironia ao sugerir uma solução violenta contra mineradores automatizados. Este diálogo assimétrico indica tensão na cocriação de valor entre jogadores humanos e sistemas de IA (bots de mineração).
-  - *Contexto no Jogo:* No fórum oficial de EVE Online, os jogadores debatem o equilíbrio da mineração AFK. Este post específico reage a uma proposta de nerf, mostrando uma postura cínica que critica a automação excessiva.
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "smartbomb their augmented miners"
-  - *Interpretação Teórica:* A referência a 'augmented miners' indica acesso a ferramentas de automação (mineradores aumentados) e a 'smartbomb' denota acesso a armas de área. Isto reflete a facilidade com que os jogadores podem obter e utilizar tanto meios de produção automatizados como contra-medidas, evidenciando um ecossistema de acesso duplo que pode gerar desequilíbrios.
-  - *Contexto no Jogo:* Em EVE Online, os 'augmented miners' são equipamentos que permitem mineração automatizada em luas, enquanto os smartbombs são módulos ofensivos. O post ilustra a tensão entre o acesso à automação e as ferramentas para a destruir.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "Nerf AFK moon mining"
-  - *Interpretação Teórica:* O título 'Nerf AFK moon mining' demonstra uma perceção aguda de risco: a mineração AFK (automatizada) ameaça a integridade da economia e a justiça competitiva. O utilizador, com trust level 3 (experiente), sinaliza que a automação parasita o valor do jogo, exigindo intervenção dos desenvolvedores. A ausência de gostos (0 likes) pode indicar que a opinião é minoritária ou controversa, mas o tom sarcástico reforça a gravidade percebida.
-  - *Contexto no Jogo:* Em EVE Online, a mineração AFK é um tópico polarizador. Muitos jogadores veem-na como uma prática que quebra a economia ao permitir acumulação passiva de recursos, enquanto outros a defendem. Este post alinha-se com a perceção de risco elevado, pedindo um nerf para restaurar equilíbrio.
-
----
-
-### Post #51: `510142_2865107` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 3 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** `QI1, QI3, QI4, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 2
-* **Fundamentação / Notas:** O autor percebe um risco moderado para o ecossistema: a prática de mineração AFK com Orcas é considerada exploratória e desequilibrada, mas a mudança proposta não é drástica. O trust level elevado (3) indica que a análise provém de um jogador com experiência, o que confere peso à avaliação. A ausência de likes pode refletir divisão na comunidade, mas a argumentação sugere que o risco atual de inação (não alterar a regra) é maior do que o risco da mudança. Por isso, classifica-se como 3, um risco mediano que merece atenção, mas não urgência crítica.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "I was thinking the same thing yesterday and I totally agree."
-  - *Interpretação Teórica:* O diálogo manifesta-se na concordância e elaboração de uma proposta previamente feita por outro jogador. O autor interage ativamente com a ideia, oferecendo justificações lógicas e considerações sobre o impacto no jogo. A presença de duas edições no histórico do post sugere reflexão e refinamento da argumentação, caracterizando um diálogo ponderado com a comunidade e os desenvolvedores.
-  - *Contexto no Jogo:* No fórum de EVE Online, os jogadores debatem mudanças nas regras de segurança do espaço high-sec. O post responde a uma sugestão sobre ataques a drones, mostrando uma troca de ideias típica da comunidade, onde propostas são avaliadas coletivamente antes de eventual implementação pelos desenvolvedores.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "Such a change impacts players who aren’t paying attention to the game much more than others."
-  - *Interpretação Teórica:* O risco é central na argumentação: atualmente, atacar drones em high-sec gera um timer criminal, o que desincentiva a ação. A mudança proposta reduziria o risco para o agressor (apenas suspeito) e aumentaria o risco para mineiros AFK, que dependem de drones não tripulados. O autor reconhece que a alteração penaliza a desatenção, equilibrando riscos entre diferentes estilos de jogo. Metadados como trust level 3 indicam que um jogador experiente avalia estes riscos com maturidade, embora a ausência de gostos sugira que a visão não é consensual.
-  - *Contexto no Jogo:* Em EVE Online, as regras de high-sec protegem jogadores passivos. A proposta altera o equilíbrio de risco para atividades como mineração com Orcas AFK, tornando-as mais vulneráveis, mas sem quebrar a segurança geral. Isto reflete um debate sobre a integridade da economia e a justiça das mecânicas de segurança.
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "Such a change is reasonable: you’re not attacking another player’s ship after all, only replaceable deployed objects."
-  - *Interpretação Teórica:* A transparência emerge na explicação lógica das regras: o argumento baseia-se na natureza dos drones como objetos substituíveis, não como extensão direta do jogador. O autor pede maior clareza na distinção entre atacar navios e atacar equipamentos, sugerindo que a regra atual não é transparente ou coerente. A discussão visa tornar as consequências das ações mais previsíveis e justificadas.
-  - *Contexto no Jogo:* No ecossistema de EVE Online, a transparência das regras de segurança é crucial para a confiança dos jogadores. Propostas como esta procuram alinhar o código penal do jogo com a perceção lógica de que drones não são navios, melhorando a compreensão das mecânicas.
-
----
-
-### Post #52: `510142_2865151` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 3 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** `QI1, QI4, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** O post recebeu 0 gostos, indicando baixa validação social imediata, mas o autor tem trust level 3 (experiente), o que confere peso à sua perceção. O risco não é técnico (banimento, economia), mas social: a manipulação narrativa pode fragmentar a comunidade e reduzir a qualidade do diálogo, levando jogadores a abandonar o fórum oficial. A ausência de edições (1 versão) sugere que a crítica foi direta e não refletida. Classificação 3 (moderado) porque, embora não ameace a integridade do jogo, compromete a cocriação colaborativa a longo prazo.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "he wants to make a link between deployables and drones to confuse noobs... he should be more honest about it."
-  - *Interpretação Teórica:* O diálogo aqui é assimétrico e manipulativo: o veterano usa uma falsa equivalência para influenciar a perceção dos recém-chegados, quebrando a comunicação genuína. O autor do post tenta restabelecer um diálogo honesto ao expor a desonestidade, mas a interação revela uma luta pelo controlo narrativo, prejudicando a cocriação colaborativa.
-  - *Contexto no Jogo:* Em EVE Online, o debate sobre moon mining e automação (AFK) frequentemente envolve jogadores experientes que moldam a opinião pública. O autor, com trust level 3, denuncia a manipulação discursiva de um veterano, revelando tensões na comunidade sobre a honestidade das propostas.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "Sometimes, for a little bit, I get why NSers went to Reddit… What a mess, 20y and we can’t have sane forums with decent conversations."
-  - *Interpretação Teórica:* O risco percebido é a degradação do espaço de diálogo comunitário, levando à fuga de jogadores para outras plataformas. Embora não haja risco direto à conta ou economia, o autor vê a falta de honestidade como ameaça à saúde do ecossistema social do jogo.
-  - *Contexto no Jogo:* Em EVE Online, a comunidade sempre foi central para a experiência. A referência a 'NSers' (Null Sec players) que foram para o Reddit indica que a toxicidade do fórum pode fragmentar a base de jogadores, enfraquecendo a cocriação de valor.
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "I’m against this well know veterans dishonest, they always manipulate the narrative to get their PoV. That link is wrong, he wants to make it ‘familiar’."
-  - *Interpretação Teórica:* A transparência é o cerne da crítica: o autor acusa o veterano de ocultar intenções e usar falsas analogias para enganar. A falta de transparência corrói a confiança necessária para uma cocriação justa entre membros da comunidade.
-  - *Contexto no Jogo:* Em fóruns de EVE, debates sobre mecânicas como moon mining exigem clareza. A desonestidade percebida mina a legitimidade das discussões, prejudicando a capacidade da comunidade de influenciar decisões dos desenvolvedores.
-
----
-
-### Post #53: `510142_2865228` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 4 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI1, QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O autor expressa forte frustração com a impossibilidade de defender ativos em hi-sec, revelando um risco elevado para a sua experiência de jogo e para o equilíbrio económico (mineração AFK desregulada). A ausência de likes (0) e o trust level 2 indicam que o post pode não ter ampla validação social, mas o conteúdo reflete uma perceção aguda de vulnerabilidade e desproteção. O risco é classificado como 4 porque ameaça a integridade do ecossistema e a agência do jogador, embora não envolva risco de banimento ou segurança de conta.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "this statement is more ridiculous than your original suggestion. it shows total disregard for other players."
-  - *Interpretação Teórica:* Diálogo entre jogadores (Player_662 e Syzygium) no fórum, representando uma interação ativa de discordância e crítica, mas sem envolvimento direto dos desenvolvedores. O utilizador apresenta argumentos baseados na mecânica do jogo para refutar a afirmação do outro.
-  - *Contexto no Jogo:* Discussão sobre a dificuldade de controlar a mineração AFK em hi-sec no EVE Online, onde o diálogo serve para expor diferenças de perceção entre jogadores sobre as regras do jogo e a proteção de Concord.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "concord is not protecting MY shiny toys , it’s protecting the ones that want to blow them up by preventing me from killing them first"
-  - *Interpretação Teórica:* Risco percebido de perda de controlo sobre ativos e economia, pois as mecânicas de segurança (Concord) protegem os agressores (mineradores AFK) em vez dos defensores. Isto gera um desequilíbrio que ameaça a integridade do ecossistema de jogo e a experiência de jogadores ativos.
-  - *Contexto no Jogo:* Em EVE Online, a mineração AFK em hi-sec é vista como uma atividade de baixo risco que prejudica a economia e a diversão dos jogadores que desejam interagir de forma dinâmica. O post denuncia a falha do sistema de proteção em defender os 'brinquedos' dos jogadores legítimos.
-
----
-
-### Post #54: `510142_2865195` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 4 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI1, QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O autor descreve uma situação de perda financeira significativa (100 milhões de ISK em harvesters) sem qualquer possibilidade de defesa ou retaliação, caracterizando o evento como griefing. O trust level 2 (utilizador experimentado) confere credibilidade à perceção. A ausência de likes sugere que a comunidade pode não validar a urgência, mas o detalhe técnico da proposta (solar wind random) indica procura ativa por mitigação. O risco é classificado como 4 (elevado) por envolver perda de ativos críticos e potencial dano à experiência de jogo, embora não atinja o nível máximo (5) por não ameaçar a conta ou economia sistémica de forma irreversível.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "WHO ARE YOU AND WHAT HAVE YOU DONE WITH AIKO ?? the real Princess would never use the “F” word !"
-  - *Interpretação Teórica:* O diálogo é confrontacional e sarcástico, evidenciando uma interação assimétrica onde o jogador desafia as alegações de outro sobre fair play, em vez de cooperar para cocriação de valor. Segundo Prahalad & Ramaswamy, o diálogo genuíno requer escuta ativa e respeito mútuo, o que aqui está ausente.
-  - *Contexto no Jogo:* No fórum de EVE Online, os jogadores debatem mecânicas de mineração lunar AFK e propostas de alteração, com tons de ironia e crítica pessoal, refletindo tensões entre diferentes estilos de jogo.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "someone drives-by and blaps my 100 mill harvies and i have no recourse , no time to recall drones , and they drop nothing so you don’t profit .. which btw fits a standard of griefing"
-  - *Interpretação Teórica:* O jogador percebe um risco elevado de perda irremediável de ativos de alto valor (drones de mineração) por ações de griefing, sem qualquer garantia de compensação ou punição ao agressor. Isto alinha-se com a dimensão Risco do DART, onde a falta de equilíbrio no risco desincentiva a participação e mina a confiança no ecossistema.
-  - *Contexto no Jogo:* Em EVE Online, a mineração lunar AFK com Orcas e drones caros expõe os jogadores a ataques inesperados no highsec. A ausência de timer de suspeito ou recurso legal amplifica o risco percebido, gerando frustração e pedidos de mudanças mecânicas.
-
----
-
-### Post #55: `510142_2865024` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** `QI1, QI2, QI3, QI4, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O score 2 reflete uma perceção de risco baixa a moderada. O utilizador não denuncia um risco iminente ou grave, mas sim uma situação de abuso potencial (AFK) que pode ser mitigada com uma solução simples e não punitiva. Os metadados quantitativos (0 gostos, Trust Level 2, 1 versão) indicam baixa validação social e maturidade intermédia, mas o tom construtivo e a proposta detalhada sugerem que o risco é encarado como gerível, não como ameaça sistémica. Ademais, a solução proposta (logoff após falta de resposta) é suave, o que reduz a perceção de urgência.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "AFK could be dealt with a simple dialogue box, say after 60min of suspected AFK there is a question box 'Are you still there'"
-  - *Interpretação Teórica:* O utilizador engaja num diálogo assíncrono com os desenvolvedores através do fórum, propondo uma funcionalidade interativa (diálogo ingame) para resolver o problema de AFK. Este ato de sugerir uma mecânica de deteção e resposta exemplifica a cocriação de valor via comunicação bidirecional, onde o feedback do jogador é integrado no design do jogo.
-  - *Contexto no Jogo:* Em EVE Online, a comunidade utiliza frequentemente os fóruns para debater mecânicas como a mineração AFK. A proposta de um diálogo ingame reflete o desejo de melhoria colaborativa e mostra que os jogadores esperam ser ouvidos pelos desenvolvedores.
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "I do the Project Discovery while mining, but Would not mind an alternative once in a while."
-  - *Interpretação Teórica:* O utilizador menciona o acesso atual ao Project Discovery (um minijogo acessível durante a mineração) e solicita uma alternativa para variar a experiência. Isto ilustra a dimensão Acesso como a capacidade de utilizar ferramentas complementares no jogo e a procura por mais opções de interação ativa.
-  - *Contexto no Jogo:* No ecossistema de EVE, o Project Discovery é uma atividade paralela que os jogadores podem aceder enquanto mineram, mas a falta de alternativas pode gerar monotonia. O post sugere que o acesso a múltiplas ferramentas de envolvimento é valorizado pelos jogadores.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "AFK could be dealt with a simple dialogue box … if not responded - Logoff."
-  - *Interpretação Teórica:* O utilizador reconhece o risco de comportamentos AFK (abuso de inatividade) e propõe uma mitigação baseada em deteção automática com logoff. Isto reflete uma perceção de risco moderado para a economia e justiça do jogo, mas a solução sugerida visa reduzir esse risco de forma controlada.
-  - *Contexto no Jogo:* A mineração AFK é um tema sensível em EVE Online, pois pode desequilibrar a economia e ser explorada por bots. A proposta de um diálogo com timeout é uma tentativa de aumentar o custo do AFK sem punir jogadores legítimos, equilibrando risco e recompensa.
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "after 60min of suspected AFK there is a question box 'Are you still there'"
-  - *Interpretação Teórica:* O utilizador defende um mecanismo transparente para detetar AFK, com um tempo claramente definido (60 min) e um pedido de confirmação visível. Isto alinha-se com a dimensão Transparência, pois os jogadores saberiam exatamente quando e como a deteção ocorre, eliminando a ambiguidade sobre as regras de banimento.
-  - *Contexto no Jogo:* Atualmente, os métodos de deteção de AFK em EVE não são completamente divulgados, gerando incerteza. A sugestão do post promove uma transparência que poderia aumentar a confiança dos jogadores no sistema anti-AFK.
-
----
-
-### Post #56: `510142_2865257` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 5 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI2, QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** O autor (trust level 3) descreve a prática como 'cancer for the game', indicando ameaça máxima à sustentabilidade do ecossistema. A mineração AFK em HS gera bilhões passivamente, distorcendo a economia e desincentivando interação social. A ausência de gostos (0 likes) pode refletir falta de consenso imediato, mas a força retórica e a experiência do autor elevam o score de risco. A cocriação parasitária extrai valor de forma destrutiva, justificando o score 5.
-
-**Dimensões DART Analisadas:**
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "grinding billions basically (semi)afk... under a magic CONCORD shield"
-  - *Interpretação Teórica:* O acesso a recursos de alto valor (moons) em espaço seguro (HS) é facilitado por automação semi-afk e pela proteção do CONCORD, eliminando barreiras de risco. Isto exemplifica o acesso assimétrico a ferramentas de mineração passiva, que permite acumulação massiva sem esforço ativo.
-  - *Contexto no Jogo:* Em EVE Online, a mineração AFK em HS permite que grandes grupos extraiam bilhões sem organizar segurança, contrastando com a necessidade de cooperação em áreas de risco. O autor critica este acesso como desequilibrado e prejudicial.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "THIS is pure cancer for the game... grinding billions basically (semi)afk"
-  - *Interpretação Teórica:* O autor percebe um risco existencial para a economia e integridade do jogo: a mineração AFK degrada o equilíbrio de esforço-recompensa, promove inflação e desincentiva interação social. O risco é classificado como elevado (score 5), pois ameaça a saúde do ecossistema e a experiência de outros jogadores.
-  - *Contexto no Jogo:* Em EVE Online, a economia é sensível a atividades passivas; a mineração AFK em HS gera riqueza ilimitada sem contrapartida de risco, o que pode colapsar o valor de itens e minérios, afetando todos os participantes. O trust level 3 do autor reforça a credibilidade desta perceção.
-
----
-
-### Post #57: `510142_2865258` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 5 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 2
-* **Fundamentação / Notas:** O autor (trust level 3, utilizador experiente e com 2 edições que refinam o argumento) aponta riscos estruturais: desvantagem para a maioria dos jogadores, estímulo ao botting e ausência de conteúdo significativo. A ausência de gostos (0) não invalida a gravidade, pois tópicos controversos podem não gerar consenso imediato. A classificação 5 reflete a perceção de que a prática ameaça a sustentabilidade económica e social do jogo, sendo um risco elevado e sistémico.
-
-**Dimensões DART Analisadas:**
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "AFK Venture is in danger, but these Orcas are not. Players should not be rewarded for AFKing in pure Highsec safety while doing nothing of substance."
-  - *Interpretação Teórica:* O acesso a ferramentas de automação (Orcas usadas para mineração AFK) é central na crítica. O post denuncia que a facilidade de acesso a essas ferramentas, combinada com a segurança do Highsec, permite uma extração de valor sem esforço, distorcendo a economia do jogo. No framework DART, o acesso desequilibrado a recursos de automação gera assimetria de valor.
-  - *Contexto no Jogo:* No EVE Online, Orcas são navios de suporte que podem ser configurados para mineração automatizada (AFK). A reclamação direciona-se à vantagem injusta que jogadores com acesso a esses navios e à segurança máxima têm sobre os demais, incentivando práticas parasitárias.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "It disadvantages every other player in the game, encourages botting, and does not lead to meaningful content of any kind."
-  - *Interpretação Teórica:* O risco é percebido como sistémico e elevado: desvantagem económica para todos os outros jogadores, proliferação de bots (automação ilegal) e degradação da experiência de jogo. A classificação 5 reflete a perceção de ameaça existencial à integridade do ecossistema, corroborada pela senioridade do autor (trust level 3) e pela maturação do post (2 edições).
-  - *Contexto no Jogo:* No EVE Online, a mineração AFK afeta diretamente a oferta de minérios e a viabilidade de atividades produtivas legítimas. O risco de banimento por botting é real, mas o autor argumenta que a mecânica em si já funciona como um incentivo a bots, minando a economia e o conteúdo gerado por jogadores.
-
----
-
-### Post #58: `510142_2865200` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI1, QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** O jogador percebe um risco moderado na situação atual: por um lado, reconhece que os mineiros AFK enfrentam perdas reais (equipamento caro), mas por outro lado normaliza essa perda como parte do design do jogo ('it isn’t CONCORDs job'). O facto de ter 0 gostos indica que a comunidade pode não partilhar totalmente esta percepção de risco, ou que a proposta é controversa. O trust level 3 confere credibilidade, mas o histórico de apenas 1 versão sugere que a posição é firme e não maturada por revisões. A classificação 3 reflete um equilíbrio entre a defesa da autonomia do jogador e a consciência das consequências económicas.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "Thats exactly why attacking them should only give suspect timer."
-  - *Interpretação Teórica:* O jogador participa num fórum de discussão, propondo uma alteração nas mecânicas de ataque a mineiros AFK, caracterizando um diálogo deliberativo entre jogadores (e, indiretamente, com os desenvolvedores) sobre o equilíbrio do jogo. A ausência de gostos (0 likes) e o nível de confiança 3 sugerem que, apesar da senioridade do autor, a sua proposta não obteve validação imediata da comunidade, indicando um diálogo ainda em fase de debate e não de consenso.
-  - *Contexto no Jogo:* No EVE Online, os fóruns oficiais são o principal canal para discussão de mecânicas e propostas de balanceamento. O utilizador com trust level 3 (membro experiente) usa a sua reputação para influenciar a perceção coletiva sobre o risco de mineração AFK e a adequação das respostas de segurança (CONCORD).
-- **Risco (Ativo):**
-  - *Evidência Literal:* "It isn’t CONCORDs job to protect your shiny toys, it’s yours."
-  - *Interpretação Teórica:* O jogador rejeita a proteção automática (CONCORD) e enfatiza a responsabilidade individual na gestão de riscos, refletindo uma perceção de que o risco de perda de equipamento caro (ex.: '100 mill harvies') deve ser mitigado pelo próprio, não pelo sistema de segurança do jogo. A proposta de alterar o timer de ataque para 'suspect' (menos punitivo) sugere uma avaliação de que o risco atual é demasiado elevado para os atacantes legítimos e beneficia indevidamente os mineiros passivos.
-  - *Contexto no Jogo:* Em EVE Online, CONCORD é a força de segurança que pune agressões em espaços de alta segurança (highsec). A distinção entre timers 'suspect' e 'criminal' determina a severidade da resposta. O autor defende que atacar mineiros AFK deve ser considerado crime menor, reequilibrando o risco entre mineiros e predadores.
-
----
-
-### Post #59: `510142_2865275` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 4 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI2, QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** O autor (Trust Level 3, utilizador experiente) apresenta um argumento claro sobre o risco económico da mineração AFK: ela desincentiva subscrições e prejudica mineradores ativos. A ausência de gostos sugere que o post pode ser controverso, mas o alto nível de confiança do autor confere credibilidade à perceção de risco. O risco é classificado como 4 (elevado) devido ao potencial de destabilização da economia do jogo e da base de assinantes.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "Nurse Nancy:
-
-Untrue - it encourages multiple spends on multiple accounts
-
-Untrue. AFK Orca miners are not incentivized to spend money."
-  - *Interpretação Teórica:* O diálogo ocorre entre jogadores no fórum, debatendo os efeitos económicos da mineração AFK. Reflete a coconstrução de perceções sobre o impacto de comportamentos automatizados, sem intervenção direta dos desenvolvedores.
-  - *Contexto no Jogo:* No fórum oficial de EVE Online, jogadores experientes (Trust Level 3) discutem políticas de jogo, evidenciando uma interação ativa mas assimétrica, onde o autor contesta a narrativa de que a mineração AFK incentiva gastos.
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "AFK Orca miners are not incentivized to spend money. They are selling ore, on the market, driving down the price"
-  - *Interpretação Teórica:* Acesso a ferramentas de automação (mineração AFK via Orca) permite a extração contínua de recursos sem participação ativa, distorcendo o acesso equitativo ao mercado e prejudicando jogadores manuais.
-  - *Contexto no Jogo:* Em EVE Online, a mineração AFK com Orca é uma forma de automatização que concede acesso privilegiado a recursos lunares, criando desequilíbrio na economia do jogo.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "driving down the price for active miners. They are disincentivizing subscriptions."
-  - *Interpretação Teórica:* O risco percebido é elevado: a mineração AFK desvaloriza o trabalho dos mineradores ativos e ameaça a receita de subscrições, podendo levar ao colapso económico e redução da base de jogadores.
-  - *Contexto no Jogo:* A economia de EVE Online depende de interações jogador-jogador; a mineração AFK parasita esse sistema ao inflacionar a oferta de minério, desincentivando o investimento em subscrições e mineração ativa.
-
----
-
-### Post #60: `510142_2865276` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 3 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI2, QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O risco é percebido como moderado (3) porque a alteração desincentiva subscrições da maioria, mas não elimina a viabilidade do jogo. O autor cita um efeito claro ('disincentivizing subscriptions'), mas sem evidência de crise iminente. O Trust Level 2 (membro regular) e a ausência de validação comunitária (Likes=0) sugerem que este risco é uma opinião minoritária ou pouco debatida, o que reduz a urgência.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "They are disincentivizing subscriptions. For me and you and most of the player base, yes. For the whales, no. This caters to them."
-  - *Interpretação Teórica:* O Diálogo é implícito: o jogador critica a falta de comunicação com a base maioritária, sugerindo que os desenvolvedores priorizam os 'whales' em detrimento do diálogo equilibrado. A ausência de gostos (Likes=0) indica que a comunidade não valida esta perceção, possivelmente por falta de consenso. O Trust Level 2 (membro regular) sugere uma opinião não especializada, mas ainda assim relevante.
-  - *Contexto no Jogo:* No EVE Online, as alterações à mineração AFK (automática) geram tensão entre jogadores regulares e os grandes capitalistas (whales), que têm mais influência sobre as decisões dos desenvolvedores. A reclamação reflete a perceção de que o diálogo é assimétrico.
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "Nerf AFK moon mining"
-  - *Interpretação Teórica:* O Acesso à automação (mineração AFK) é diretamente afetado pelo 'nerf', reduzindo a capacidade dos jogadores de obter rendimentos passivos. Isto enquadra-se na dimensão de Acesso do DART, onde a restrição de ferramentas de automatização altera a cocriação de valor. A ausência de edições (Versões=1) sugere que a crítica é inicial e não refinada.
-  - *Contexto no Jogo:* A mineração AFK é uma prática comum em EVE Online para gerar recursos sem interação constante. O 'nerf' limita este acesso, favorecendo os whales que podem compensar com outras formas de automação ou poder económico.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "They are disincentivizing subscriptions."
-  - *Interpretação Teórica:* O Risco percebido é o desincentivo às subscrições, o que ameaça a viabilidade económica do jogo e a experiência dos jogadores regulares. O score de risco (3) reflete uma ameaça moderada: a alteração pode reduzir a base de jogadores, mas não é um colapso imediato. A falta de gostos (Likes=0) pode indicar que a comunidade não partilha este risco ao mesmo nível.
-  - *Contexto no Jogo:* Em EVE Online, as subscrições são a principal fonte de receita. A perceção de que a mudança favorece os whales e afasta a base maioritária representa um risco de longo prazo para a saúde do ecossistema.
-
----
-
-### Post #61: `510142_2865267` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 3 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI1, QI2, QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O score 3 reflete um risco percebido moderado: o jogador teme uma alteração de mecânica que inviabilize o seu método AFK, mas não há ameaça imediata à conta ou economia. O trust level 2 sugere experiência intermédia, o que modera a perceção de alarme. A ausência de likes indica que a comunidade não corrobora a gravidade do risco. O histórico de edição (1 versão) mostra que o post não foi refinado, sinalizando baixa reflexividade sobre o risco.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "why not all drones? I afk mine with a mix of attack and mining drones so I don’t really have to do much if any at all intervention."
-  - *Interpretação Teórica:* O post constitui uma intervenção no fórum que visa influenciar decisões de design, configurando um diálogo unidirecional (do jogador para os desenvolvedores) dentro do espaço público do jogo. A ausência de gostos (0 likes) sugere baixa validação comunitária, enquanto o trust level 2 indica um utilizador com alguma experiência, mas sem autoridade plena para galvanizar discussão.
-  - *Contexto no Jogo:* No EVE Online, o fórum é um canal primário de comunicação entre jogadores e CCP Games. Este post critica especificamente a proposta de nerf ao AFK moon mining, sugerindo uma extensão (todos os drones) em vez de restrição, o que reflete uma tentativa de moldar a política de jogo.
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "I afk mine with a mix of attack and mining drones so I don’t really have to do much if any at all intervention. Huge cargo hold means I have to go hands on once…an hour?"
-  - *Interpretação Teórica:* O jogador descreve o acesso a ferramentas de automação (drones, compressor) que permitem mineração quase passiva. Este acesso é mediado por APIs e mecânicas do jogo (carga enorme, lock automático). A dimensão Acesso é central porque a reclamação visa precisamente a preservação deste acesso privilegiado a recursos automatizados.
-  - *Contexto no Jogo:* Em EVE, a mineração AFK com drones é uma prática comum mas controversa. O 'compressor' mencionado refere-se ao módulo 'Moon Mining Compression', que reduz a necessidade de intervenção manual. O jogador maximiza o acesso à automação para minimizar o input humano, explorando a arquitetura do jogo.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "Nerf AFK moon mining … buzz of a target lock goes off, but rarely do I have to do much more than that."
-  - *Interpretação Teórica:* O risco percebido é duplo: (a) risco de alteração de mecânicas (nerf) que eliminaria a vantagem adquirida, e (b) risco operacional de ser atacado enquanto AFK (target lock). O jogador minimiza o segundo ao confiar nos drones de ataque, mas o primeiro é o foco do post. A ausência de likes pode indicar que a comunidade não valida esta preocupação como grave.
-  - *Contexto no Jogo:* No ecossistema de EVE, nerfs a atividades AFK são frequentes (ex: nerf ao AFK ratting). Este jogador antecipa uma perda de eficiência que pode colapsar o seu modelo de jogo passivo. O risco é moderado (score 3) porque não envolve banimento ou economia sistémica, apenas perda de conforto individual.
-
----
-
-### Post #62: `510142_2865277` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI1, QI3`
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** O autor percebe o risco como baixo (score 2), pois afirma categoricamente que os whales não são incentivados pela mineração AFK, desconsiderando os potenciais impactos económicos e de integridade. A falta de likes e o tom assertivo indicam que esta visão pode ser minoritária ou controversa, mas o elevado Trust Level confere credibilidade à sua desvalorização do risco. Em termos teóricos, o autor adota uma postura de minimização de risco, típica de jogadores que defendem o status quo ou que confiam na autorregulação do mercado.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "I don’t think you understand what you are yapping about. You are just making things up."
-  - *Interpretação Teórica:* O diálogo aqui é unidirecional e confrontacional, indicando uma quebra na comunicação cooperativa. Embora haja interação, falta escuta ativa e troca construtiva, alinhada com a crítica de Prahalad & Ramaswamy sobre diálogo genuíno exigir respeito mútuo e abertura. A ausência de likes (0) sugere baixa validação social, e o Trust Level elevado (3) reforça que o autor é um membro experiente que recorre a um tom assertivo, possivelmente deslegitimando o interlocutor.
-  - *Contexto no Jogo:* No fórum oficial de EVE Online, debates sobre mineração AFK frequentemente geram tensão entre jogadores que defendem diferentes visões de equilíbrio económico. Este post é uma reação direta a uma proposta de nerf, refletindo a polarização típica da comunidade.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "Whales are not incentivized by AFK mining."
-  - *Interpretação Teórica:* O autor minimiza o risco de desequilíbrio económico associado à mineração AFK, argumentando que os 'whales' (jogadores de grande escala) não são motivados por ela. Esta perceção reduzida de risco contrasta com as preocupações comuns sobre automatização e distorção de mercado no ecossistema. A ausência de edições (versão 1) sugere que o posicionamento é firme e não reflexivo, e o Trust Level 3 indica que é uma opinião informada dentro da comunidade.
-  - *Contexto no Jogo:* Em EVE Online, a mineração AFK é frequentemente associada a bots e ao colapso da economia de minério. O autor nega que os grandes intervenientes (whales) sejam beneficiados por esta prática, contestando a narrativa de que o nerf é necessário para mitigar riscos sistémicos.
-
----
-
-### Post #63: `510142_2865238` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 4 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI1, QI2, QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** O autor, com trust level 3 (utilizador experiente), demonstra perceção elevada de risco (score 4) ao classificar o AFK mining como prejudicial e exigir nerfs. A ausência de likes (0) pode indicar falta de consenso, mas a senioridade do autor confere peso à sua avaliação de risco à saúde do jogo, focado em desequilíbrio económico e diminuição da cooperação ativa.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "Buggs LeRoach: how does one control hi-sec by force... You don’t, thats the point."
-  - *Interpretação Teórica:* O post constitui uma resposta direta a outro jogador, estabelecendo um diálogo de dupla via no fórum, onde o autor refuta a ideia de controlo forçado e defende a cooperação ativa, caracterizando uma troca argumentativa típica do Diálogo no framework DART.
-  - *Contexto no Jogo:* No EVE Online, fóruns são espaços de debate sobre mecânicas e estratégias; aqui o jogador contrapõe a visão do interlocutor, promovendo interação social como parte da cocriação de valor.
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "remote-repairing the drones... combat fits that can actually wreck an offender’s ship. Battle Orcas... Fleet of Exhumers with Combat Drones."
-  - *Interpretação Teórica:* O autor detalha ferramentas e mecânicas do jogo (drones, fits, navios) acessíveis aos jogadores, indicando que o acesso a estes recursos permite contrapor estratégias passivas, alinhando-se à dimensão de Acesso como capacidade de utilizar ferramentas para cocriação.
-  - *Contexto no Jogo:* Em EVE, o conhecimento e acesso a equipamentos específicos (ex.: Battle Orcas, Exhumers) determinam a eficácia em PvP e defesa de recursos, sendo central para a experiência de jogo.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "total disregard for lazy (semi-)afk game stiles. We need a lot less of those semi-passive drone based income and every nerf is a good thing."
-  - *Interpretação Teórica:* O autor percebe o AFK mining como um risco à integridade do jogo, argumentando que estilos passivos desequilibram a economia e desincentivam a cooperação ativa, representando uma avaliação de risco associada à degradação do ecossistema.
-  - *Contexto no Jogo:* No EVE, a mineração AFK é controversa por permitir ganhos passivos; o jogador defende nerfs para mitigar o risco de desvalorização do esforço ativo e da interação social.
-
----
-
-### Post #64: `510142_2865138` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** `QI3, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 2
-* **Fundamentação / Notas:** O autor, com trust level 3 (veterano) e duas edições que mostram maturação da ideia, propõe uma alteração que introduz riscos para quem abate drones (suspect status). A falta de gostos (0 likes) indica que a comunidade pode ver riscos significativos não mitigados. O risco é moderado (3) pois a mudança não é extrema, mas tem potencial para desequilibrar a economia de mineração e o PvP em HS.
-
-**Dimensões DART Analisadas:**
-- **Risco (Ativo):**
-  - *Evidência Literal:* "Are there good reasons against such a change?"
-  - *Interpretação Teórica:* O diálogo sobre a implementação de um novo status de suspeito para o abate de drones em HS envolve a avaliação dos riscos para o equilíbrio do jogo, segurança dos jogadores e economia. No framework DART, o risco emerge da incerteza sobre resultados da cocriação, onde os jogadores ponderam ganhos e perdas potenciais. A ausência de likes sugere que a comunidade não endossa plenamente a proposta, indicando riscos percebidos não resolvidos.
-  - *Contexto no Jogo:* No EVE Online, a proposta de tornar o abate de drones passível de status suspeito em espaço seguro (HS) alteraria os riscos para atacantes e mineiros AFK, afetando a dinâmica de conflito e proteção do sistema CONCORD.
-
----
-
-### Post #65: `510142_2865271` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 5 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** `QI1, QI2, QI3, QI4, QI5`
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** O utilizador enumera riscos severos: desvantagem para todos os outros jogadores, incentivo a bots (ilegais e prejudiciais), ausência de conteúdo significativo e dúvidas sobre a viabilidade futura dos eventos. Estes riscos ameaçam a integridade do ecossistema e a economia do jogo. Apesar do trust level 2 (experiência moderada) e de 0 gostos (falta de consenso imediato), a gravidade dos riscos apontados justifica a classificação máxima.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "Untrue - it encourages multiple spends on multiple accounts which means more out of game currency in CCCP’s pockets."
-  - *Interpretação Teórica:* O utilizador engaja num ato dialógico de refutação, contrariando uma afirmação anterior e oferecendo uma perspetiva alternativa. Isto ilustra o Diálogo como troca ativa de argumentos entre jogadores e, indiretamente, com os desenvolvedores, no âmbito da cocriação de valor.
-  - *Contexto no Jogo:* No fórum oficial do EVE Online, os jogadores debatem mecânicas de jogo. O trust level 2 do autor indica um membro experiente, mas a ausência de gostos sugere que o seu argumento não obteve validação imediata da comunidade, refletindo discordância ou indiferença.
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "encourages botting and multiple spends on multiple accounts"
-  - *Interpretação Teórica:* A mecânica de AFK moon mining permite acesso passivo a recursos, mas o utilizador critica o acesso facilitado a bots e contas múltiplas, que distorce a economia. Isto reflete a dimensão Acesso como capacidade de usar ferramentas de automação, embora de forma problemática.
-  - *Contexto no Jogo:* No EVE Online, a possibilidade de gerir múltiplas contas e utilizar bots (ilegais) é um tema recorrente. O post destaca como a mecânica incentiva esse acesso, criando um desequilíbrio entre jogadores que operam manualmente e os que automatizam.
-- **Risco (Ativo):**
-  - *Evidência Literal:* "disadvantages every other player, encourages botting, does not lead to meaningful content of any kind"
-  - *Interpretação Teórica:* O utilizador identifica riscos sistémicos: desvantagem para a maioria dos jogadores, proliferação de bots (ameaça à integridade do jogo) e ausência de conteúdo significativo. A pergunta retórica sobre os FanFest sugere risco à sustentabilidade do ecossistema.
-  - *Contexto no Jogo:* No EVE Online, a mineração AFK é controversa por gerar renda passiva sem interação, favorecendo bots e múltiplas contas. O utilizador percebe isto como um risco elevado à economia e à experiência de jogo, corroborado pela falta de likes (ausência de apoio comunitário imediato).
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "more out of game currency in CCCP’s pockets. How many more years... left in the yearly FanFest events?"
-  - *Interpretação Teórica:* O utilizador questiona a motivação dos desenvolvedores, sugerindo que a mecânica visa lucro em detrimento do bem-estar do jogo. Isto reflete uma perceção de falta de Transparência sobre as intenções e a sustentabilidade a longo prazo.
-  - *Contexto no Jogo:* CCP Games é conhecida por monetização através de subscrições múltiplas. O utilizador duvida da longevidade dos eventos comunitários, indicando ceticismo quanto à transparência das decisões de design. A ausência de edições (versão 1) sugere que o post é uma reação imediata, não ponderada.
-
----
-
-### Post #66: `516800_2916241` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post warns about increased botting and ganking and tells rookies to stay in Exordium, but it contains no reference to AI agents, AI-assisted play, or any actual human-AI interaction. 'Botting' is mentioned ambiguously as automated cheating behavior, not as AI. Without evidence of AI involvement, the post is classified as A6/I6 with no identifiable value co-creation or destruction. Low confidence due to lack of context and the possibility that the thread title refers to AI research, so human review is recommended.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #67: `516800_2916277` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post is a human-to-human discussion about hypothetical AI agents in EVE Online. The author quotes another user and then argues that humans will always dominate because AI lacks emotions, fear, and motivation. There is no evidence of an actual AI agent, interaction with an AI agent, or autonomous AI behavior; therefore ai_type is A5 (Discussion About AI). The author is communicating with another human about AI, not with an AI itself, so interaction_type is I4 (Human → Human about AI). No concrete value co-creation or co-destruction is described, only speculative opinion, so value_type is VC4. No DART dimension is present because the quoted text does not describe dialogue with AI, access changes, risk assessment, or transparency aspects in an actionable interaction.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #68: `516800_2916358` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post is a speculative discussion about AI behavior in EVE Online, referencing an 'AI psychopath' and arguing that human approach/avoidance responses could be coded into AI. There is no evidence of an actual AI agent, bot, or human-AI interaction occurring in the game; the text is conversational commentary between players about AI possibilities. Therefore ai_type is A5 (Discussion About AI) and interaction_type is I4 (Human → Human about AI). No value co-creation or co-destruction outcome can be identified, so VC4 is assigned. DART dimensions are scored 0 because the post does not describe an actual interaction with an AI agent that would enable assessment of dialogue, access, risk, or transparency. Human review is recommended because the discussion is speculative and lacks concrete context regarding an implemented AI system.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #69: `3000003_28811555` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post is a short, general opinion about AI as a corporate advantage ('increases profits while lowering lawsuits and drama') rather than a description of any specific WoW AI agent or human-AI interaction. There is no evidence of an actual AI agent, automated bot, or script in the game context. It is classified as A5 because it discusses AI in general terms, but no interaction occurs (I6). No value co-creation or co-destruction can be identified (VC4). DART dimensions are all scored 0 because the text does not reference dialogue, access, risk related to an AI interaction, or transparency. Human review is requested because the post may be sarcastic, trolling, or missing context from surrounding discussion.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #70: `516800_2916439` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** The post simply mentions that CCP had a job listing for an AI consultant. It does not describe any actual AI agent, bot, script, or human-AI interaction. The mention of 'AI' in the job listing indicates discussion about AI rather than evidence of an AI agent, so ai_type is A5. No direct or indirect interaction with an AI system occurs in the post; therefore interaction_type is I6. No value creation or destruction is evident, so value_type is VC4. DART dimensions are absent. Human review is flagged due to missing surrounding thread context that might clarify intent and due to the low interaction confidence.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #71: `3000003_28811597` (World of Warcraft)
+### Post #1: `3000003_28811597` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -2440,18 +894,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #72: `3000003_28811513` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post is short, sarcastic, and lacks context. It references 'the Ai rule' and 'Windows 11 patches' but does not describe any actual AI agent, bot, or human-AI interaction in World of Warcraft. The content appears unrelated to the game ecosystem and to the research question. Given the sarcastic tone and absence of supporting context, there is insufficient evidence to classify it as relevant or to identify a DART-dimension value consequence. Flagged for human review because the meaning of 'Ai rule' is ambiguous, tone is ironic, and relevance is uncertain.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #73: `3000003_28811587` (World of Warcraft)
+### Post #2: `3000003_28811587` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -2469,18 +912,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #74: `516800_2916469` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** ai_type: A5 — The post explicitly discusses AI ('I think we will see AI fully ( or partially ) implemented') but does not describe any actual interaction with an AI agent. The quoted text from another user may refer to an AI or bot, but no direct human-AI exchange is evidenced in this post. interaction_type: I4 — The author is responding to another player's comment (human-to-human) and offers an opinion about AI development and implementation timelines. This is discussion about AI, not interaction with an AI. value_type: VC4 — The post is speculative commentary about AI's developmental speed and time savings; no value co-creation or co-destruction outcome from any concrete interaction is described. DART: All dimensions absent because no actual human-AI interaction is present; the mention of time savings and 'alarming' speed is too vague and non-interactional to code as Access or Risk.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #75: `3000003_28811563` (World of Warcraft)
+### Post #3: `3000003_28811563` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -2494,18 +926,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #76: `495219_2762721` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** The post is a reply offering to write a Discord bot for another user. There is no evidence the bot uses AI; it is at most a conventional bot or automation, so A2 is tentative. No human-AI agent interaction is described: the text is a human-to-human commercial exchange about a possible bot. Therefore interaction type is I6 and value co-creation is not evident. DART dimensions are scored 0 because no actual AI interaction with dialogue, access, risk, or transparency implications is present in this post.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #77: `503747_2870179` (EVE Online)
+### Post #4: `503747_2870179` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -2519,7 +940,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #78: `503747_2849615` (EVE Online)
+### Post #5: `503747_2849615` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 4 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 5
@@ -2545,7 +966,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #79: `503747_2846302` (EVE Online)
+### Post #6: `503747_2846302` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 3
@@ -2571,7 +992,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #80: `516800_2916223` (EVE Online)
+### Post #7: `516800_2916223` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -2597,7 +1018,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #81: `503747_2848085` (EVE Online)
+### Post #8: `503747_2848085` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 5
@@ -2623,7 +1044,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #82: `3000003_28811536` (World of Warcraft)
+### Post #9: `3000003_28811536` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -2641,7 +1062,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #83: `516800_2916401` (EVE Online)
+### Post #10: `516800_2916401` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -2667,7 +1088,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #84: `495219_2762734` (EVE Online)
+### Post #11: `495219_2762734` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 0 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -2689,18 +1110,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #85: `495219_2760206` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** The post is a want-to-buy request for a Discord bot that performs simple event-driven notifications when an EVE contract is accepted. No explicit evidence of AI or ML-based decision-making; at most this is a conventional automation bot (A2), not an AI agent. No actual interaction with any agent is described, so interaction is coded I6. No value co-creation or co-destruction is evidenced (VC4). DART dimensions score 0 because no AI-mediated dialogue, access, risk, or transparency is demonstrated in the interaction. Flagged for human review because the nature of the requested bot is ambiguous and confidence is below 0.80.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #86: `495219_2762723` (EVE Online)
+### Post #12: `495219_2762723` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -2726,7 +1136,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #87: `3000003_28811619` (World of Warcraft)
+### Post #13: `3000003_28811619` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -2752,7 +1162,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #88: `516800_2916427` (EVE Online)
+### Post #14: `516800_2916427` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -2774,7 +1184,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #89: `3000003_28811612` (World of Warcraft)
+### Post #15: `3000003_28811612` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -2792,7 +1202,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #90: `495219_2775726` (EVE Online)
+### Post #16: `495219_2775726` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -2818,7 +1228,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #91: `495219_2762735` (EVE Online)
+### Post #17: `495219_2762735` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -2840,7 +1250,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #92: `495219_2780266` (EVE Online)
+### Post #18: `495219_2780266` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -2858,7 +1268,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #93: `495219_2786308` (EVE Online)
+### Post #19: `495219_2786308` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -2872,73 +1282,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #94: `474041_2659339` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post is a skeptical reply to the thread's suggestion of machine learning: the author questions why the behavior would be ML and interprets it as someone farming the career program for skill points. There is no evidence of an actual AI agent or direct human-AI interaction; it is better classified as A5 (discussion about AI) and I4 (human-to-human discussion about AI). No value co-creation or co-destruction is evident, so VC4. Confidence is moderate due to missing prior context, possible sarcasm, and ambiguity about whether the behavior discussed may still involve an automated/bot process; flagged for human review.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #95: `474041_2659353` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post discusses the possibility that observed bots may use machine learning/AI, but does not describe a direct interaction with an AI agent. It is speculative discussion among humans about bot behavior, so ai_type is A5 and interaction is I4. No value creation or destruction is evident. AI vs conventional bot remains unclear because the quoted text only says advanced behavior is 'possible'; no concrete evidence confirms the bots are AI-based.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #96: `509843_2862127` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 4 | Edições: 1
-* **Fundamentação / Notas:** The post is a developer/community announcement about an upcoming game region ('Exordium'), inviting player feedback. There is no mention of AI, bots, scripts, or any computational agent. No human-AI interaction is described, and no value co-creation with an AI system can be identified. Therefore classified as A6 (Irrelevant), I6 (No meaningful interaction), and VC4 (No evidence of value creation/destruction). All DART dimensions are absent.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #97: `509843_2862439` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post is a short gameplay question about Exordium systems and wormhole highsec statics. There is no mention of AI, bots, automation, or any human-AI interaction. Therefore ai_type is A6 (Irrelevant), interaction is I6 (No meaningful interaction), and no value co-creation or destruction can be identified (VC4). All DART dimensions are absent.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #98: `509843_2862438` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 3
-* **Fundamentação / Notas:** The post proposes a player-run gate camp event against new players in EVE Online. There is no mention of AI, bots, scripts, or automated systems, and no human-AI interaction or value co-creation is present. Therefore it is classified as A6 (Irrelevant), I6 (No meaningful interaction), VC4 (No evidence of value creation/destruction related to AI), and all DART dimensions are absent.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #99: `509843_2862433` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** The post discusses a proposed starter-space safety feature in EVE Online (Exordium) that prevents PvP and looting. There is no mention of AI, bots, scripts, or any computational agent. The content is a player opinion about game design and does not describe any human–AI interaction. Therefore, ai_type is A6 (irrelevant), interaction is I6 (no meaningful interaction), and there is no evidence of value co-creation/destruction in relation to AI (VC4). DART dimensions are all absent.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #100: `474041_2659388` (EVE Online)
+### Post #20: `474041_2659388` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I5** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -2964,18 +1308,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #101: `509843_2862445` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** The post contains only navigational gameplay commentary about entering a region through Yulai and route danger to high-security trade hubs. There is no mention or evidence of AI agents, bots, scripts, or any human-AI interaction. Therefore ai_type is A6 (Irrelevant), interaction_type is I6 (No meaningful interaction), and value_type is VC4 (No evidence of value creation/destruction). All DART dimensions are scored 0 due to absence of related content.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #102: `474041_2659324` (EVE Online)
+### Post #21: `474041_2659324` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 4 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 3
@@ -3001,7 +1334,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #103: `474041_2659344` (EVE Online)
+### Post #22: `474041_2659344` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -3019,128 +1352,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #104: `509843_2862440` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 2
-* **Fundamentação / Notas:** The post discusses EVE Online security status changes and asks a question to @CCP_Swift, presumably a human developer. There is no mention of or evidence for an AI agent, bot, script, or human-AI interaction. The tag @CCP_Swift indicates communication with a human, not an AI. Therefore the content is irrelevant to the research question about human-AI agent interactions and value co-creation.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #105: `509843_2862443` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** The post speculates about the directionality of 'shipcasters' as a game mechanic, noting they only send ships out of an area. There is no mention of AI, an AI agent, automation, or any human-AI interaction. The content is unrelated to the research question, so it is classified as irrelevant with no meaningful interaction or value implication.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #106: `509843_2862476` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** The post discusses a route to Jita and a gate at Yulai, with no mention or indication of AI, bots, scripts, or automation. It does not describe any human-AI interaction and contains no DART-relevant content. Confidence is high because AI is entirely absent, but human review is flagged because the parent context is unavailable and the thread title alone does not clarify relevance.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #107: `509843_2862452` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
-* **Fundamentação / Notas:** The post text does not mention AI, agents, bots, or any related interaction. It appears to be a sarcastic human-to-human remark about game behavior ('leave the safe zone', 'steal some loot from goonswarm'). Although the thread title refers to 'Exordium!', the post itself lacks evidence of any AI agent or human–AI interaction. Therefore, ai_type is A6 (Irrelevant), interaction is I6 (No meaningful interaction), and no value consequence is identifiable (VC4). Context is limited and the tone is sarcastic, so human review is requested.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #108: `509843_2862444` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** The post contains only questions about whether existing characters/accounts can visit or spawn in a new region referred to as 'Exordium'. There is no mention of AI, bots, scripts, automation, or any human-AI interaction. No value co-creation or DART-relevant behavior can be identified from the text. Therefore it is classified as A6/I6/VC4.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #109: `509843_2862472` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post contains no reference to AI, bots, scripts, automation, or any human–AI interaction. It briefly comments on travel mechanics and potential abuse of shipcasters, but this appears to be a gameplay mechanics discussion unrelated to AI agents. Therefore, ai_type = A6 (Irrelevant), interaction = I6 (No meaningful interaction), value = VC4 (No evidence of value creation/destruction), and all DART dimensions are absent.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #110: `509843_2862447` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 2
-* **Fundamentação / Notas:** The post text contains no reference to AI, bots, automation, scripts, or AI-mediated systems. It is a human comment about faction route safety in EVE Online. Therefore no AI agent is identifiable (A6), no meaningful human-AI interaction occurs (I6), and no value co-creation or co-destruction consequence is evidenced (VC4). DART dimensions are all scored 0 due to absence of AI-related evidence.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #111: `509843_2862500` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** The post quotes a developer and comments on gameplay balance mechanics ('shipcasters... once per character... to limit power projection issues'). No AI agent, bot, automation, or AI-mediated interaction is mentioned or implied. Therefore ai_type is A6 (irrelevant), interaction is I6 (no meaningful interaction), and value is VC4 (no evidence of value creation or destruction). DART dimensions are all absent.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #112: `509843_2862436` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 3
-* **Fundamentação / Notas:** The post contains no explicit or inferable reference to AI, an AI agent, bot, or automation. 'Exordium' appears from context to be an in-game new-player area with protected PVP status. The discussion concerns gameplay mechanics, new-player safety, a security level downgrade, and ganking risk. No human–AI interaction or value co-creation is identifiable. Possible irony and reliance on out-of-thread context justify human review.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #113: `509843_2862454` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** The post contains no explicit reference to an AI agent, bot, script, or AI-assisted activity. 'Bumping' refers to a player-driven ship collision mechanic in EVE Online. The surrounding thread context is not provided, and the tone may be sarcastic, so the post is flagged for human review, but based on available evidence it appears unrelated to human-AI interaction and value co-creation.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #114: `509843_2862489` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** The post text contains no mention or evidence of AI agents, bots, or automation. It speculates about CCP changing Yulai's security status in response to new players being hunted. No human-AI interaction or AI-related value co-creation is present. Therefore classified as irrelevant.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #115: `2324507_2324507_1` (World of Warcraft)
+### Post #23: `2324507_2324507_1` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 4 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -3166,7 +1378,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #116: `2324507_2324507_6` (World of Warcraft)
+### Post #24: `2324507_2324507_6` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -3184,50 +1396,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #117: `2324507_2324507_17` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 5 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** Don’t forget players getting banned because bots are mass reporting players unlucky enough to get in their way.
-
-**Dimensões DART Analisadas:**
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "Don’t forget players getting banned because bots are mass reporting players unlucky enough to get in their way."
-  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-- **Risco (Ativo):**
-  - *Evidência Literal:* "Don’t forget players getting banned because bots are mass reporting players unlucky enough to get in their way."
-  - *Interpretação Teórica:* Score 5/5 (conf 0.90)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-
----
-
-### Post #118: `509843_2862461` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post contains only clarifying questions about game mechanics in relation to an announced feature ('Exordium'): fate of career agents and the Sisters of Eve arc in starter systems, rookie griefing policy timing, and anchoring upwell structures. No AI agent, bot, script, automation, or AI-assisted human interaction is mentioned or evidenced. 'Career agents' are deterministic game NPC mission givers, not AI agents under the taxonomy. The questions appear directed at game developers, not at any AI system. Therefore ai_type = A6 (Irrelevant), interaction = I6 (no meaningful AI interaction), value = VC4 (no value consequence). DART dimensions are all absent (score 0). Flagged for human review only because the nature of the 'Exordium' feature referenced in the thread title is unknown from the post text alone; if Exordium itself were an AI-driven system, relevance could be reassessed, though this specific post still shows no human-AI interaction.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #119: `2324507_2324507_3` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** the bots are the problem
-
-**Dimensões DART Analisadas:**
-- **Risco (Ativo):**
-  - *Evidência Literal:* "the bots are the problem"
-  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-
----
-
-### Post #120: `2324507_2324507_4` (World of Warcraft)
+### Post #25: `2324507_2324507_4` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -3245,75 +1414,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #121: `2324507_2324507_14` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** players buying the mats/gold from the bots/farmers.supply and demand.Who’s the problem here?
-
-**Dimensões DART Analisadas:**
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "players buying the mats/gold from the bots/farmers"
-  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-- **Risco (Ativo):**
-  - *Evidência Literal:* "players buying the mats/gold from the bots/farmers.supply and demand.Who’s the problem here?"
-  - *Interpretação Teórica:* Score 3/5 (conf 0.70)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-
----
-
-### Post #122: `2324507_2324507_12` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** Ban the bots that have crushed another version of wow into the dirt again ffs
-
-**Dimensões DART Analisadas:**
-- **Risco (Ativo):**
-  - *Evidência Literal:* "Ban the bots that have crushed another version of wow into the dirt again ffs"
-  - *Interpretação Teórica:* Score 3/5 (conf 0.75)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-
----
-
-### Post #123: `2324507_2324507_10` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I5** | Valor: **VC3** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** they banned the casinos.There’s still casino bots standing in stormwind 24/7they showed back up within an hour of the servers coming online today
-
-**Dimensões DART Analisadas:**
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "There’s still casino bots standing in stormwind 24/7"
-  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-- **Risco (Ativo):**
-  - *Evidência Literal:* "they banned the casinos.There’s still casino bots standing in stormwind 24/7they showed back up within an hour of the servers coming online today"
-  - *Interpretação Teórica:* Score 3/5 (conf 0.70)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "they banned the casinos"
-  - *Interpretação Teórica:* Score 1/5 (conf 0.45)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-
----
-
-### Post #124: `2324507_2324507_18` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** If people didn’t buy gold, Bots wouldn’t farm the gold.we have a botting problemBecause we have a RMT problem.
-
-**Dimensões DART Analisadas:**
-- **Risco (Ativo):**
-  - *Evidência Literal:* "If people didn’t buy gold, Bots wouldn’t farm the gold.we have a botting problemBecause we have a RMT problem."
-  - *Interpretação Teórica:* Score 3/5 (conf 0.75)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-
----
-
-### Post #125: `2324507_2324507_5` (World of Warcraft)
+### Post #26: `2324507_2324507_5` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -3331,186 +1432,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #126: `509843_2862528` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** The post discusses player ganking concerns around a new in-game location (Yulai) and developer commentary on possible mitigation. No AI agent, bot, script, or human-AI interaction is mentioned or implied in the text. Therefore ai_type is A6 (Irrelevant), interaction is I6 (No meaningful interaction involving AI), and value is VC4 (No evidence of value creation/destruction related to AI). All DART dimensions are scored 0 because no AI-related dialogue, access, risk, or transparency content is present.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #127: `509843_2862524` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** The post refers to 'career agents' in EVE Online, which are NPC mission-givers, not AI agents. There is no discussion of AI systems, autonomous agents, or human-AI interaction. The author is responding to a design question about career agent missions and retention testing. Therefore ai_type is A6 (Irrelevant), interaction is I6 (No meaningful interaction), value is VC4 (No evidence of value creation/destruction), and all DART dimensions score 0.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #128: `2324507_2324507_16` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I5** | Valor: **VC3** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 4 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** It’s just not fun when the economy has been, and continues to be, ravaged by bots.
-
-**Dimensões DART Analisadas:**
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "When every gold making avenue is being actively exploited by bots. It makes farming not plausible for the average player."
-  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-- **Risco (Ativo):**
-  - *Evidência Literal:* "It’s just not fun when the economy has been, and continues to be, ravaged by bots."
-  - *Interpretação Teórica:* Score 4/5 (conf 0.85)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-
----
-
-### Post #129: `2324507_2324507_13` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** You are killing your game.
-
-**Dimensões DART Analisadas:**
-- **Risco (Ativo):**
-  - *Evidência Literal:* "You are killing your game."
-  - *Interpretação Teórica:* Score 3/5 (conf 0.75)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "They do this thing at blizzard where they act like they can’t see the bots and are helpless to combat them in anyway."
-  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-
----
-
-### Post #130: `509843_2862548` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** The post describes a human developer (Fozzie) answering questions and the author's frustration about relaying that information. There is no mention or evidence of an AI agent, automation, or human–AI interaction. The content is unrelated to the research question about human–AI value co-creation, so it is classified as A6/I6/VC4 with no DART dimensions present.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #131: `509843_2862533` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** The post is a short, context-dependent remark about Discord and formatting words in quotes. There is no reference to AI, bots, automation, or any human-AI interaction. The content appears unrelated to the research question. High confidence for irrelevance is assigned, but the post is flagged for human review because the surrounding context is missing and the intended meaning is ambiguous.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #132: `509843_2862536` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** The post text contains no mention of AI, automation, bots, or any human–AI interaction. It is a brief comment suggesting that the original author's ideas belong in a different game. Since no AI-related content is present, ai_type is A6 (Irrelevant), interaction is I6 (No meaningful interaction), and value is VC4 (No evidence of value creation/destruction). All DART dimensions are scored 0. Human review is flagged because the post is a short reply lacking surrounding context, which limits verification of whether any relevant AI-related meaning may exist in the parent post.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #133: `509843_2862446` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post is a short forum comment in a thread titled 'Introducing Exordium!'. It mentions a two-way jump gate and a hub dedicated to Exordium, but does not explicitly mention AI, an AI agent, or any human–AI interaction. Exordium itself cannot be confirmed as an AI from this isolated fragment. I tentatively classify it as discussion about an introduced feature (A5), since the thread context may concern an AI, and as human-to-human discussion (I4) rather than direct interaction with an AI. No value co-creation or co-destruction is evidenced, and DART dimensions are absent. Human review is required due to missing thread context and possible ambiguity between relevance/irrelevance.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #134: `509843_2862530` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** The post text contains no reference to any AI agent, bot, script, or AI-mediated environment. It appears to be a human-to-human rebuttal about CCP's authority and newbie ganking rules. Even though the thread title mentions 'Exordium!', the quoted content alone does not evidence any human-AI interaction or value co-creation. Because this is a reply fragment missing broader context, human review is recommended.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #135: `509843_2862435` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 2
-* **Fundamentação / Notas:** The post is an in-game lore/news announcement about a new EVE Online region (Exordium) and a quoted player question about hauling goods. 'AIR' here refers to 'AIR Laboratories', an in-game NPC faction, not an AI agent. There is no mention of AI, bots, scripts, or any human–AI interaction. Therefore ai_type=A6 (irrelevant), interaction_type=I6 (no meaningful interaction), value_type=VC4 (no value creation/destruction identified). All DART dimensions are absent (0). The content is unrelated to the research question on human–AI agent interactions.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #136: `509843_2862488` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** The post contains no explicit or implicit reference to an AI agent, bot, script, or automation. It discusses game-balance restrictions on using Shipcasters/Yulai Gate to Exordium and which ship classes should be allowed access. Without evidence of a human-AI interaction, the AI type is A6, interaction type is I6, and no value co-creation or co-destruction can be identified. Context regarding what Shipcasters are is missing, so the post is flagged for human review.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #137: `509843_2862546` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 3
-* **Fundamentação / Notas:** The post discusses the Exordium update, new player protection from scams, veteran access concerns, and criticism of the Equinox update. There is no mention or evidence of any AI agent, conventional bot, script, AI-assisted human, or discussion of AI. Therefore, ai_type is A6 (Irrelevant), interaction type is I6 (No meaningful interaction), and value type is VC4 (No evidence of value creation/destruction). DART dimensions are all scored 0 because no AI-related content is present.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #138: `509843_2862453` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post comments on a game feature ('Exordium') and its impact on game mechanics, taxes, and rewards. There is no mention of AI agents, bots, scripts, or any human–AI interaction. Therefore ai_type is A6 (Irrelevant), interaction_type is I6 (No meaningful interaction), and value_type is VC4 (No evidence of value creation/destruction). All DART dimensions are absent (score 0). Human review is flagged because the post is off-topic relative to the research question and context about 'Exordium' is missing, though confidence is high that no AI content is present.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #139: `509843_2862458` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post discusses a game mechanic called 'Exordium' and offers subjective commentary on 'fun' and 'interesting interactions'. There is no mention of AI, bots, scripts, or any automated agent. No human–AI interaction is described or implied. Therefore ai_type is A6 (Irrelevant), interaction I6 (No meaningful interaction), and value VC4 (No evidence of value creation/destruction). All DART dimensions are absent. Human review is flagged because the post is short, lacks context about what 'Exordium' is, and confidence in relevance is below 0.90.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #140: `509843_2862508` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post body contains no explicit reference to AI, an AI agent, a bot, automation, or a script. It appears to be a player's opinion about game design, specifically spatial access and security state in EVE Online ('Why not Uedama?', 'permanently green', 'prevent any activity'), rather than evidence of an actual human-AI interaction. Because the thread title 'Introducing Exordium!' provides missing context and Exordium could conceivably be an AI-related feature, the post is classified cautiously as A6/I6/VC4 with low-to-moderate confidence and flagged for human review.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #141: `509843_2862499` (EVE Online)
+### Post #27: `509843_2862499` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
@@ -3532,61 +1454,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #142: `509843_2862512` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** otherwise can be used by old players for their needs
-
-**Dimensões DART Analisadas:**
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "they will be able only to leave that space… and no one to enter"
-  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
-  - *Contexto no Jogo:* EVE Online Fórum EVE
-- **Risco (Ativo):**
-  - *Evidência Literal:* "otherwise can be used by old players for their needs"
-  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
-  - *Contexto no Jogo:* EVE Online Fórum EVE
-
----
-
-### Post #143: `509843_2862514` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** The post is a brief comment referencing a developer (Fozzie) and a dev blog, with no mention of AI agents, bots, scripts, or any human–AI interaction. It appears to be a sarcastic remark about a game feature announcement. No AI-related content is present, so it is classified as A6 (Irrelevant) and I6 (No meaningful interaction). No value co-creation or DART dimensions are evident. Sarcasm is present ('EXTREMELY IMPORTANT'), but since the content is entirely unrelated to AI, it does not affect the classification.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #144: `509843_2862541` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Acesso**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** The post complains about the use of Discord as an information/news channel for EVE Online and does not mention any AI agent, bot, script or automation. No human–AI interaction is described, so ai_type is A6 (Irrelevant) and interaction_type is I6 (No meaningful interaction). No value co-creation or co-destruction involving AI can be identified (VC4). DART dimensions are essentially absent; a weak access score (1) is given only because the post references information access channels (Discord vs. website), but this is not AI-related. Human review is flagged because the post is off-topic relative to the AI-agent research focus and contains mild hostility/expletive, and because the parent context (post 44) is not available.
-
-**Dimensões DART Analisadas:**
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "This Discord usage as information source absolutely sucks."
-  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
-  - *Contexto no Jogo:* EVE Online Fórum EVE
-
----
-
-### Post #145: `509843_2862552` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** The post proposes a human-designed PvP training mechanic (gate camps, sec-status repairs) for EVE Online. There is no mention of AI agents, bots, scripts, or any automated system. No human–AI interaction is present, and no value co-creation involving AI can be identified. Classified as A6 (Irrelevant) and I6 (No meaningful interaction). DART dimensions are all absent since the content does not touch on AI-related dialogue, access, risk, or transparency. Confidence is high because the text is unambiguous and contains no AI-related terminology.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #146: `508618_2852738` (EVE Online)
+### Post #28: `508618_2852738` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A3** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -3608,51 +1476,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #147: `508618_2852746` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post refers to a 'bot' recorded in high security space, but provides no information about whether the bot is AI-based; therefore it is coded as A2 (conventional bot) rather than A1. There is no described interaction between the author and the bot or any other AI agent; the comment only speculates about the bot's ship and site profitability, so the interaction type is coded as I6 (no meaningful interaction). No value co-creation or co-destruction is evident, so VC4 is assigned. All DART dimensions are scored 0 because no AI-related dialogue, access, risk, or transparency is present in the post text. Human review is requested because classification relies on insufficient context about the bot and the larger thread.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #148: `508618_2852744` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** Exploration bots are also rampant in EVE. I keep reporting almost every single Heron I see in my area
-
-**Dimensões DART Analisadas:**
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "Because it means lots of money."
-  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
-  - *Contexto no Jogo:* EVE Online Fórum EVE
-- **Risco (Ativo):**
-  - *Evidência Literal:* "Exploration bots are also rampant in EVE. I keep reporting almost every single Heron I see in my area"
-  - *Interpretação Teórica:* Score 3/5 (conf 0.75)
-  - *Contexto no Jogo:* EVE Online Fórum EVE
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "I regularly get Bot Banned Mails from CCP."
-  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
-  - *Contexto no Jogo:* EVE Online Fórum EVE
-
----
-
-### Post #149: `508618_2853278` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** The post criticizes a player who allegedly files false bot reports against normal players. There is no evidence of any AI agent, conventional bot, or automated system actually interacting with or affecting a human player. References to 'bot' are accusations made by one human about another player's supposed behavior, not actual AI-based automation. Therefore ai_type is A6 (irrelevant), interaction is I6 (no meaningful human-AI interaction), and value co-creation is VC4 (no value consequence identified). DART dimensions all score 0 because no AI-mediated dialogue, access change, risk, or transparency issue is present.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #150: `508618_2852769` (EVE Online)
+### Post #29: `508618_2852769` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -3674,25 +1498,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #151: `508618_2852747` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** Recorded a bot in high sec - but why even bother?
-
-**Dimensões DART Analisadas:**
-- **Risco (Ativo):**
-  - *Evidência Literal:* "Recorded a bot in high sec - but why even bother?"
-  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
-  - *Contexto no Jogo:* EVE Online Fórum EVE
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "All i can see there, is a ship undocking and dockup again ??"
-  - *Interpretação Teórica:* Score 1/5 (conf 0.45)
-  - *Contexto no Jogo:* EVE Online Fórum EVE
-
----
-
-### Post #152: `508618_2852763` (EVE Online)
+### Post #30: `508618_2852763` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -3714,7 +1520,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #153: `508618_2852870` (EVE Online)
+### Post #31: `508618_2852870` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A3** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 3
@@ -3736,7 +1542,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #154: `508618_2852879` (EVE Online)
+### Post #32: `508618_2852879` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
@@ -3762,7 +1568,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #155: `508618_2852872` (EVE Online)
+### Post #33: `508618_2852872` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 4 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -3784,7 +1590,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #156: `508618_2852888` (EVE Online)
+### Post #34: `508618_2852888` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
@@ -3810,7 +1616,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #157: `508618_2852882` (EVE Online)
+### Post #35: `508618_2852882` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A3** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 4 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -3836,7 +1642,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #158: `508618_2852986` (EVE Online)
+### Post #36: `508618_2852986` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -3858,29 +1664,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #159: `508618_2852886` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** this script/bot, when it breaks like that, is easy to detect
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "the pattern speaks for itself"
-  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
-  - *Contexto no Jogo:* EVE Online Fórum EVE
-- **Risco (Ativo):**
-  - *Evidência Literal:* "this script/bot, when it breaks like that, is easy to detect"
-  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
-  - *Contexto no Jogo:* EVE Online Fórum EVE
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "The more closely a script/bot acts like a human the harder it becomes to detect"
-  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
-  - *Contexto no Jogo:* EVE Online Fórum EVE
-
----
-
-### Post #160: `508618_2852990` (EVE Online)
+### Post #37: `508618_2852990` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -3902,7 +1686,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #161: `508618_2852884` (EVE Online)
+### Post #38: `508618_2852884` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 1 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -3928,7 +1712,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #162: `508618_2853066` (EVE Online)
+### Post #39: `508618_2853066` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -3950,7 +1734,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #163: `508618_2852979` (EVE Online)
+### Post #40: `508618_2852979` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -3976,7 +1760,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #164: `508618_2853073` (EVE Online)
+### Post #41: `508618_2853073` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -3998,7 +1782,7 @@ Untrue. AFK Orca miners are not incentivized to spend money."
 
 ---
 
-### Post #165: `508618_2853072` (EVE Online)
+### Post #42: `508618_2853072` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 0 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -4021,7 +1805,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #166: `508618_2853081` (EVE Online)
+### Post #43: `508618_2853081` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -4043,7 +1827,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #167: `508618_2853090` (EVE Online)
+### Post #44: `508618_2853090` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -4069,21 +1853,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #168: `508618_2853260` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** Doing this makes the drug dealer relocate and prevents or even thwarts an on going DEA operation to bring his ring down.
-
-**Dimensões DART Analisadas:**
-- **Risco (Ativo):**
-  - *Evidência Literal:* "Doing this makes the drug dealer relocate and prevents or even thwarts an on going DEA operation to bring his ring down."
-  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
-  - *Contexto no Jogo:* EVE Online Fórum EVE
-
----
-
-### Post #169: `508618_2853222` (EVE Online)
+### Post #45: `508618_2853222` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -4101,7 +1871,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #170: `508618_2853371` (EVE Online)
+### Post #46: `508618_2853371` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -4123,7 +1893,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #171: `508618_2853405` (EVE Online)
+### Post #47: `508618_2853405` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -4145,29 +1915,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #172: `508618_2859322` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I5** | Valor: **VC3** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** I did report him but I highly doubt anything will be done against it
-
-**Dimensões DART Analisadas:**
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "even if his script worked, what the heck was he about to do in a 0.7 to make isk"
-  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
-  - *Contexto no Jogo:* EVE Online Fórum EVE
-- **Risco (Ativo):**
-  - *Evidência Literal:* "I did report him but I highly doubt anything will be done against it"
-  - *Interpretação Teórica:* Score 3/5 (conf 0.80)
-  - *Contexto no Jogo:* EVE Online Fórum EVE
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "I think that someone that can play this game can figure out a bot vs a real player in the majority of cases"
-  - *Interpretação Teórica:* Score 2/5 (conf 0.65)
-  - *Contexto no Jogo:* EVE Online Fórum EVE
-
----
-
-### Post #173: `508618_2859779` (EVE Online)
+### Post #48: `508618_2859779` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -4189,25 +1937,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #174: `508618_2860002` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** A Bot that Trolls Cloaky Campers.
-
-**Dimensões DART Analisadas:**
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "Where can I get one?"
-  - *Interpretação Teórica:* Score 1/5 (conf 0.50)
-  - *Contexto no Jogo:* EVE Online Fórum EVE
-- **Risco (Ativo):**
-  - *Evidência Literal:* "A Bot that Trolls Cloaky Campers."
-  - *Interpretação Teórica:* Score 1/5 (conf 0.45)
-  - *Contexto no Jogo:* EVE Online Fórum EVE
-
----
-
-### Post #175: `508618_2859488` (EVE Online)
+### Post #49: `508618_2859488` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -4225,21 +1955,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #176: `508618_2860079` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** Because highsec is relatively safe and if you make pennies 24/7 eventually they add up. This probably isn’t even his main account.
-
-**Dimensões DART Analisadas:**
-- **Risco (Ativo):**
-  - *Evidência Literal:* "Because highsec is relatively safe and if you make pennies 24/7 eventually they add up. This probably isn’t even his main account."
-  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
-  - *Contexto no Jogo:* EVE Online Fórum EVE
-
----
-
-### Post #177: `508618_2860149` (EVE Online)
+### Post #50: `508618_2860149` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -4261,7 +1977,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #178: `508618_2860152` (EVE Online)
+### Post #51: `508618_2860152` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -4283,65 +1999,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #179: `510142_2864643` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** The post contains no mention of AI, bots, automation, or any relevant in-game interaction. It appears to be a dismissive reply refusing further discussion. Therefore it is classified as irrelevant (A6), with no meaningful interaction (I6) and no value co-creation/destruction evidence (VC4). All DART scores are 0 due to absence of relevant content.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #180: `510142_2865007` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** The post contains no reference to AI, bots, scripts, or any computational agent. It speculates about nullblocs manipulating CCP and discusses game design preferences (scarcity/blackout). There is no human-AI interaction and no evidence of value co-creation or destruction related to AI. Therefore classified as A6 (Irrelevant), I6 (No meaningful interaction), VC4 (No evidence of value creation/destruction), with all DART dimensions absent.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #181: `510142_2865145` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 2
-* **Fundamentação / Notas:** The post text contains no reference to AI, bots, automation, scripts, or human-AI interaction. It discusses in-game combat drones and Concord response mechanics in EVE Online. Despite the thread title mentioning AFK moon mining, this specific post only argues about drones as ship extensions, so no AI agent or related interaction can be identified. Therefore AI type is A6 (Irrelevant), interaction type is I6 (No meaningful interaction), and there is no evidence of value co-creation or destruction (VC4).
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #182: `510142_2865086` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** The post discusses game mechanics around attacking another player's drones and suspect timers in EVE Online. No AI agent, conventional bot, script, or automation is mentioned or implied. The word 'drones' refers to in-game deployable assets, but there is no evidence of an AI-based system or interaction with one. Therefore, ai_type is A6, interaction is I6, and there is no evidence of value co-creation or destruction in relation to AI.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #183: `481937_2697159` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** Not only bots, but real players too!
-
-**Dimensões DART Analisadas:**
-- **Risco (Ativo):**
-  - *Evidência Literal:* "Not only bots, but real players too!"
-  - *Interpretação Teórica:* Score 1/5 (conf 0.55)
-  - *Contexto no Jogo:* EVE Online Fórum EVE
-
----
-
-### Post #184: `510142_2865000` (EVE Online)
+### Post #52: `510142_2865000` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -4359,7 +2017,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #185: `510142_2864998` (EVE Online)
+### Post #53: `510142_2864998` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -4377,25 +2035,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #186: `481937_2697157` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I5** | Valor: **VC3** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** allows bots to project ore from isolated space all over new eden
-
-**Dimensões DART Analisadas:**
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "ore compression allows bots to project ore from isolated space all over new eden"
-  - *Interpretação Teórica:* Score 2/5 (conf 0.60)
-  - *Contexto no Jogo:* EVE Online Fórum EVE
-- **Risco (Ativo):**
-  - *Evidência Literal:* "allows bots to project ore from isolated space all over new eden"
-  - *Interpretação Teórica:* Score 3/5 (conf 0.65)
-  - *Contexto no Jogo:* EVE Online Fórum EVE
-
----
-
-### Post #187: `833872096657547947_833872096657547947_7` (EVE Online)
+### Post #54: `833872096657547947_833872096657547947_7` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -4417,7 +2057,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #188: `833872096657547947_833872096657547947_4` (EVE Online)
+### Post #55: `833872096657547947_833872096657547947_4` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -4435,7 +2075,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #189: `833872096657547947_833872096657547947_1` (EVE Online)
+### Post #56: `833872096657547947_833872096657547947_1` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -4457,7 +2097,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #190: `833872096657547947_833872096657547947_8` (EVE Online)
+### Post #57: `833872096657547947_833872096657547947_8` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 4 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -4483,7 +2123,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #191: `589559717132767735_589559717132767735_2` (EVE Online)
+### Post #58: `589559717132767735_589559717132767735_2` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -4497,7 +2137,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #192: `589559717132767735_589559717132767735_1` (EVE Online)
+### Post #59: `589559717132767735_589559717132767735_1` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 4 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -4519,7 +2159,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #193: `589559717132767735_589559717132767735_4` (EVE Online)
+### Post #60: `589559717132767735_589559717132767735_4` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -4537,7 +2177,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #194: `589559717132766752_589559717132766752_3` (EVE Online)
+### Post #61: `589559717132766752_589559717132766752_3` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -4563,7 +2203,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #195: `589559717132766752_589559717132766752_2` (EVE Online)
+### Post #62: `589559717132766752_589559717132766752_2` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -4589,7 +2229,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #196: `589559717132766752_589559717132766752_1` (EVE Online)
+### Post #63: `589559717132766752_589559717132766752_1` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 4 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -4615,7 +2255,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #197: `589559717132766752_589559717132766752_5` (EVE Online)
+### Post #64: `589559717132766752_589559717132766752_5` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 4 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -4641,7 +2281,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #198: `589559717132766752_589559717132766752_6` (EVE Online)
+### Post #65: `589559717132766752_589559717132766752_6` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -4663,7 +2303,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #199: `492935_2751948` (EVE Online)
+### Post #66: `492935_2751948` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 5 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 1
@@ -4677,7 +2317,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #200: `492935_2749988` (EVE Online)
+### Post #67: `492935_2749988` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 3 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 3
@@ -4703,7 +2343,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #201: `506798_2840433` (EVE Online)
+### Post #68: `506798_2840433` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -4717,18 +2357,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #202: `483348_2703719` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post is a skeptical forum reply to a suggestion about AI pilot companions. The author refers to the proposed concept as a bot and expresses that there are already enough bots. No actual AI agent interaction is described; the post is human-to-human discussion about an AI-related idea. Therefore ai_type is A5 (Discussion About AI), interaction type is I4 (Human → Human about AI). Since no actual human–AI value process is evidenced, value type is VC4. The post also suggests mild negative sentiment toward bots but does not describe a concrete risk event, so all DART dimensions remain 0. Flagged for human review because the full prior context is missing and 'bot' versus 'AI agent' terminology is ambiguous.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #203: `496432_2766672` (EVE Online)
+### Post #69: `496432_2766672` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -4746,7 +2375,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #204: `492935_2750075` (EVE Online)
+### Post #70: `492935_2750075` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -4772,7 +2401,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #205: `506798_2839801` (EVE Online)
+### Post #71: `506798_2839801` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 4 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -4786,7 +2415,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #206: `492935_2750140` (EVE Online)
+### Post #72: `492935_2750140` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 4 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 1
@@ -4812,7 +2441,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #207: `492935_2750146` (EVE Online)
+### Post #73: `492935_2750146` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -4838,7 +2467,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #208: `492935_2750230` (EVE Online)
+### Post #74: `492935_2750230` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -4864,7 +2493,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #209: `506798_2840399` (EVE Online)
+### Post #75: `506798_2840399` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -4878,18 +2507,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #210: `506798_2840203` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post only notes that the 'Aura Guidance (Beta)' feature is being tested on randomly selected newly created EVE accounts and shares a screenshot; no actual human–AI interaction is described. Since 'Aura' in EVE Online is commonly understood as an AI guide, I treat the post as human discussion about an AI-related feature (A5/I4) but with low confidence because the text itself provides no explicit evidence that the feature is AI or that any interaction occurred. No value outcome or DART-relevant content is evident, so value is VC4 and all DART dimensions are scored 0. Flagged for review because classification depends on external context about Aura and the screenshot content is unavailable.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #211: `492935_2750257` (EVE Online)
+### Post #76: `492935_2750257` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 2 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
@@ -4915,7 +2533,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #212: `496432_2766660` (EVE Online)
+### Post #77: `496432_2766660` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 3
@@ -4941,7 +2559,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #213: `496432_2766656` (EVE Online)
+### Post #78: `496432_2766656` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I2** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 3 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -4967,7 +2585,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #214: `506798_2839784` (EVE Online)
+### Post #79: `506798_2839784` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 3 | Transparência: 4 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -4993,7 +2611,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #215: `496432_2766677` (EVE Online)
+### Post #80: `496432_2766677` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -5015,7 +2633,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #216: `506798_2840405` (EVE Online)
+### Post #81: `506798_2840405` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -5029,7 +2647,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #217: `483348_2703718` (EVE Online)
+### Post #82: `483348_2703718` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -5047,7 +2665,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #218: `506798_2839756` (EVE Online)
+### Post #83: `506798_2839756` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 2 | Transparência: 4 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 4 | Edições: 1
@@ -5073,7 +2691,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #219: `506798_2839765` (EVE Online)
+### Post #84: `506798_2839765` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 2
@@ -5095,7 +2713,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #220: `506798_2839874` (EVE Online)
+### Post #85: `506798_2839874` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -5121,7 +2739,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #221: `506798_2839908` (EVE Online)
+### Post #86: `506798_2839908` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -5147,7 +2765,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #222: `506798_2839900` (EVE Online)
+### Post #87: `506798_2839900` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 3 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -5169,7 +2787,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #223: `506798_2840415` (EVE Online)
+### Post #88: `506798_2840415` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 4 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -5195,7 +2813,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #224: `506798_2839830` (EVE Online)
+### Post #89: `506798_2839830` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -5221,7 +2839,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #225: `reddit_1sf61mq_11` (World of Warcraft)
+### Post #90: `reddit_1sf61mq_11` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 3 | Nível de Confiança: 1 | Edições: 1
@@ -5235,7 +2853,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #226: `506798_2840454` (EVE Online)
+### Post #91: `506798_2840454` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 3 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -5261,7 +2879,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #227: `516921_2921717` (EVE Online)
+### Post #92: `516921_2921717` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 2
@@ -5287,7 +2905,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #228: `516921_2922163` (EVE Online)
+### Post #93: `516921_2922163` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -5313,18 +2931,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #229: `2257438_28913780` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post is an opinion/request about using 'AI generated QA test teams' to test game content before players experience it. No actual AI agent is described as interacting with a human player; it is a hypothetical suggestion about the use of AI in game development. Therefore ai_type is A5 (Discussion About AI) and interaction_type is I4 (Human to Human about AI), as the author discusses AI with the community rather than interacting with an AI. No value co-creation or co-destruction occurs because the proposed AI system is not implemented and no interaction outcome is observed: VC4. DART scores are all 0 because the post contains no evidence of dialogue, access facilitation, risk assessment, or transparency related to an AI agent interaction.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #230: `512939_2886552` (EVE Online)
+### Post #94: `512939_2886552` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I1** | Valor: **VC3** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 3 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -5350,18 +2957,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #231: `2257438_28913782` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post is a short, sarcastic/humorous opinion suggesting AI would outperform players in World of Warcraft. It does not describe any actual interaction with a specific AI agent, bot, or system, so I classify it as discussion about AI (A5) rather than an observed human-AI interaction. The interaction is human-to-human commentary about AI (I4), though I6 is also plausible because no concrete agent is referenced. No collaborative or destructive value outcome is identifiable, so VC4 is coded. DART dimensions are absent: there is no dialogue with an AI, no access change, no risk assessment, and no transparency discussion. Confidence is limited because the broader thread and parent post context are missing, and the tone is ambiguous.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #232: `512939_2888287` (EVE Online)
+### Post #95: `512939_2888287` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 3 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -5387,7 +2983,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #233: `2257438_28913757` (World of Warcraft)
+### Post #96: `2257438_28913757` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -5401,7 +2997,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #234: `reddit_1rg6iqz_6` (World of Warcraft)
+### Post #97: `reddit_1rg6iqz_6` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -5419,7 +3015,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #235: `reddit_1rg6iqz_1` (World of Warcraft)
+### Post #98: `reddit_1rg6iqz_1` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -5441,18 +3037,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #236: `2257438_28916305` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post reproduces another user's opinions about future AI in-game assistants and generative AI coding tools. There is no actual human–AI agent interaction described; it is a discussion about AI in gaming, not an example of interaction or co-creation. Therefore ai_type is A5 (discussion about AI), interaction type is I4 (human-to-human about AI), and no value consequence is observable, so value_type is VC4. DART dimensions are absent because the text provides no concrete dialogue, access, risk, or transparency evidence related to an actual human–AI interaction.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #237: `2257438_28913683` (World of Warcraft)
+### Post #99: `2257438_28913683` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -5478,7 +3063,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #238: `reddit_1p38i14_1` (World of Warcraft)
+### Post #100: `reddit_1p38i14_1` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I1** | Valor: **VC1** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 3 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -5500,7 +3085,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #239: `2257438_28916344` (World of Warcraft)
+### Post #101: `2257438_28916344` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -5514,7 +3099,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #240: `reddit_1p38i14_8` (World of Warcraft)
+### Post #102: `reddit_1p38i14_8` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 3 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -5540,7 +3125,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #241: `2257438_28913705` (World of Warcraft)
+### Post #103: `2257438_28913705` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -5566,18 +3151,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #242: `2338781_29917137` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post is a short, possibly sarcastic statement about an alleged AI feature (Smarterchild connected to Battle.net). There is no evidence of an actual interaction with an AI agent; the author is discussing the AI among human readers. Therefore ai_type=A5 (discussion about AI) and interaction_type=I4 (human-to-human about AI). No value outcome is described, so value_type=VC4. All DART dimensions are absent because the post does not describe dialogue, access changes, risks, or transparency of any actual AI system. Human review is required due to ambiguity/sarcasm and lack of context.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #243: `reddit_1p38i14_10` (World of Warcraft)
+### Post #104: `reddit_1p38i14_10` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I1** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 3 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -5603,7 +3177,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #244: `2257438_28913744` (World of Warcraft)
+### Post #105: `2257438_28913744` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -5629,7 +3203,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #245: `2257438_28921050` (World of Warcraft)
+### Post #106: `2257438_28921050` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 4 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -5647,7 +3221,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #246: `2257438_28913792` (World of Warcraft)
+### Post #107: `2257438_28913792` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
@@ -5673,7 +3247,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #247: `2257438_28913793` (World of Warcraft)
+### Post #108: `2257438_28913793` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -5691,7 +3265,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #248: `2248893_28811596` (World of Warcraft)
+### Post #109: `2248893_28811596` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 4 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -5705,7 +3279,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #249: `2257438_28913871` (World of Warcraft)
+### Post #110: `2257438_28913871` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -5727,7 +3301,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #250: `2257438_28918588` (World of Warcraft)
+### Post #111: `2257438_28918588` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -5749,7 +3323,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #251: `2257438_28918380` (World of Warcraft)
+### Post #112: `2257438_28918380` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I1** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -5771,7 +3345,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #252: `2257438_28919908` (World of Warcraft)
+### Post #113: `2257438_28919908` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 4 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
@@ -5797,7 +3371,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #253: `2257438_28920555` (World of Warcraft)
+### Post #114: `2257438_28920555` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -5819,7 +3393,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #254: `2257438_28918493` (World of Warcraft)
+### Post #115: `2257438_28918493` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -5845,7 +3419,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #255: `2257438_28920202` (World of Warcraft)
+### Post #116: `2257438_28920202` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -5863,7 +3437,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #256: `2176376_27854651` (World of Warcraft)
+### Post #117: `2176376_27854651` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -5877,18 +3451,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #257: `2248893_28813627` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post is a meta-commentary about forum staff deleting negative comments regarding AI ticket responses. It does not describe a direct interaction with an AI agent, so ai_type is A5 (discussion about AI). The interaction is best classified as I4 because humans are discussing AI without directly engaging with it. No value co-creation or co-destruction is evidenced, so value_type is VC4. DART dimensions are all scored 0 because the post lacks concrete detail about dialogue, access, risk, or transparency related to an AI interaction.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #258: `2257438_28920987` (World of Warcraft)
+### Post #118: `2257438_28920987` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -5910,7 +3473,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #259: `2248893_28811664` (World of Warcraft)
+### Post #119: `2248893_28811664` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -5924,7 +3487,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #260: `2257438_28921486` (World of Warcraft)
+### Post #120: `2257438_28921486` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
@@ -5950,7 +3513,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #261: `2108142_26921690` (World of Warcraft)
+### Post #121: `2108142_26921690` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 4 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -5972,7 +3535,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #262: `2248893_28811587` (World of Warcraft)
+### Post #122: `2248893_28811587` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -5994,7 +3557,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #263: `2248893_28811791` (World of Warcraft)
+### Post #123: `2248893_28811791` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6012,7 +3575,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #264: `2248893_28811578` (World of Warcraft)
+### Post #124: `2248893_28811578` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6034,7 +3597,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #265: `2248893_28811778` (World of Warcraft)
+### Post #125: `2248893_28811778` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6052,7 +3615,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #266: `2300167_29414902` (World of Warcraft)
+### Post #126: `2300167_29414902` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6066,7 +3629,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #267: `2248893_28811780` (World of Warcraft)
+### Post #127: `2248893_28811780` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6084,7 +3647,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #268: `2248893_28812662` (World of Warcraft)
+### Post #128: `2248893_28812662` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6106,7 +3669,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #269: `2248893_28812020` (World of Warcraft)
+### Post #129: `2248893_28812020` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6128,7 +3691,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #270: `2248893_28812411` (World of Warcraft)
+### Post #130: `2248893_28812411` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6150,7 +3713,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #271: `2248893_28812051` (World of Warcraft)
+### Post #131: `2248893_28812051` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6176,7 +3739,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #272: `2248893_28812120` (World of Warcraft)
+### Post #132: `2248893_28812120` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6198,7 +3761,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #273: `2108142_26921376` (World of Warcraft)
+### Post #133: `2108142_26921376` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6216,7 +3779,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #274: `2108142_26921650` (World of Warcraft)
+### Post #134: `2108142_26921650` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6234,7 +3797,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #275: `2108142_26921767` (World of Warcraft)
+### Post #135: `2108142_26921767` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6256,7 +3819,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #276: `2320601_29686369` (World of Warcraft)
+### Post #136: `2320601_29686369` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6270,7 +3833,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #277: `2320601_29692500` (World of Warcraft)
+### Post #137: `2320601_29692500` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6284,18 +3847,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #278: `2176376_27854960` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The author discusses the possibility of AI bot players on private servers and explicitly distinguishes them from current bot tech, but no actual AI agent is depicted or interacted with. This is a human-to-human discussion about AI, so A5/I4 is appropriate. No value co-creation or destruction can be identified because no AI interaction occurs. DART dimensions are absent since the text only speculates/corrects terminology rather than describing an actual human-AI interaction.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #279: `2108142_26933143` (World of Warcraft)
+### Post #138: `2108142_26933143` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
@@ -6317,18 +3869,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #280: `2320601_29702464` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post is a speculative reflection on AI NPCs in single-player RPGs, not a report of an actual interaction with an AI agent. Therefore ai_type is A5 (Discussion About AI). The author is addressing the forum audience, so interaction_type is I4 (Human → Human about AI). No concrete value co-creation or destruction is described, only a hypothetical feature, so value_type is VC4. DART dimensions are all scored 0 because the text provides no evidence of concrete dialogue, access, risk, or transparency dynamics. Human review is flagged because the post is very short, context from the thread is missing, and the relevance to the central research unit (actual human–AI interaction) is indirect.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #281: `2320601_29686412` (World of Warcraft)
+### Post #139: `2320601_29686412` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6342,7 +3883,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #282: `2300167_29415623` (World of Warcraft)
+### Post #140: `2300167_29415623` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6364,7 +3905,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #283: `2300167_29417443` (World of Warcraft)
+### Post #141: `2300167_29417443` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 4 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6382,7 +3923,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #284: `2320601_29700590` (World of Warcraft)
+### Post #142: `2320601_29700590` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -6396,7 +3937,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #285: `2300167_29418380` (World of Warcraft)
+### Post #143: `2300167_29418380` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6414,7 +3955,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #286: `2300167_29421251` (World of Warcraft)
+### Post #144: `2300167_29421251` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 2
@@ -6436,7 +3977,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #287: `2300167_29418895` (World of Warcraft)
+### Post #145: `2300167_29418895` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6462,7 +4003,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #288: `2320601_29686669` (World of Warcraft)
+### Post #146: `2320601_29686669` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6480,7 +4021,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #289: `2320601_29686401` (World of Warcraft)
+### Post #147: `2320601_29686401` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6498,7 +4039,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #290: `2320601_29686571` (World of Warcraft)
+### Post #148: `2320601_29686571` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6524,7 +4065,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #291: `2320601_29687388` (World of Warcraft)
+### Post #149: `2320601_29687388` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
@@ -6550,7 +4091,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #292: `2320601_29702454` (World of Warcraft)
+### Post #150: `2320601_29702454` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6568,18 +4109,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #293: `2171055_27776973` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post is a short speculative reply about whether AI simulated players exist in games, referencing suspicions in Call of Duty. It does not describe or provide evidence of an actual AI agent, a direct interaction, or a value co-creation/destruction event. Therefore, ai_type is A5 (Discussion About AI). The interaction is best classified as I4 (Human → Human about AI) because the author is commenting on a forum thread rather than interacting with an AI system. No financial, emotional, or functional value consequence is identifiable, so value_type is VC4. DART dimensions are all scored 0 because there is no concrete human-AI interaction context in the post.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #294: `2171055_27777452` (World of Warcraft)
+### Post #151: `2171055_27777452` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6593,7 +4123,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #295: `2171055_27777008` (World of Warcraft)
+### Post #152: `2171055_27777008` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6611,7 +4141,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #296: `2171055_27776960` (World of Warcraft)
+### Post #153: `2171055_27776960` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6637,7 +4167,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #297: `2171055_27776967` (World of Warcraft)
+### Post #154: `2171055_27776967` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6655,7 +4185,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #298: `2171055_27777020` (World of Warcraft)
+### Post #155: `2171055_27777020` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -6677,7 +4207,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #299: `2171055_27778915` (World of Warcraft)
+### Post #156: `2171055_27778915` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6691,7 +4221,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #300: `2171055_27777035` (World of Warcraft)
+### Post #157: `2171055_27777035` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -6713,7 +4243,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #301: `2171055_27776984` (World of Warcraft)
+### Post #158: `2171055_27776984` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6731,7 +4261,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #302: `2171055_27777039` (World of Warcraft)
+### Post #159: `2171055_27777039` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6749,7 +4279,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #303: `2171055_27777017` (World of Warcraft)
+### Post #160: `2171055_27777017` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6771,7 +4301,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #304: `2171055_27777967` (World of Warcraft)
+### Post #161: `2171055_27777967` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -6785,7 +4315,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #305: `2171055_27779059` (World of Warcraft)
+### Post #162: `2171055_27779059` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6799,7 +4329,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #306: `2171055_27777341` (World of Warcraft)
+### Post #163: `2171055_27777341` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -6813,7 +4343,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #307: `2171055_27777272` (World of Warcraft)
+### Post #164: `2171055_27777272` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6827,18 +4357,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #308: `2171055_27777979` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post is a human-to-human reply discussing AI-simulated or bot players: it references 'BOT players' and 'comp stomp' as comparable existing features, responding to another user ('Karkasy'). There is no evidence of an actual interaction with an AI agent in the text, only discussion about the concept. Therefore AI type is best labelled A5 (Discussion About AI). Since no direct human-AI interaction occurs, interaction type is I4. No value outcome is apparent, so VC4. DART dimensions are absent because the text contains no evidence of human-AI dialogue, AI-enabled access, risk assessment, or transparency concerns. Confidence is moderate/low because the intended context depends on the larger thread.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #309: `2171055_27777225` (World of Warcraft)
+### Post #165: `2171055_27777225` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6856,7 +4375,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #310: `2171055_27777045` (World of Warcraft)
+### Post #166: `2171055_27777045` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6878,18 +4397,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #311: `2171055_27778598` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post only mentions another game (Erenshor) described as containing 'hundreds of AI characters'; it does not describe any actual interaction between a human player and an AI agent. It is therefore classified as A5 (discussion about AI) and I4 (human-to-human discussion about AI). No value co-creation or co-destruction evidence is present, so VC4 is applied. DART dimensions are all scored 0 because no human-AI interaction or related DART evidence appears in the text. Relevance is POSSIBLY RELEVANT because the post signals community interest in AI-based simulated players but lacks a concrete interaction to analyze.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #312: `2171055_27777640` (World of Warcraft)
+### Post #167: `2171055_27777640` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I5** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -6903,7 +4411,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #313: `2171055_27782333` (World of Warcraft)
+### Post #168: `2171055_27782333` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6917,7 +4425,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #314: `2171055_27777630` (World of Warcraft)
+### Post #169: `2171055_27777630` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6935,7 +4443,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #315: `2171055_27778551` (World of Warcraft)
+### Post #170: `2171055_27778551` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6949,7 +4457,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #316: `2171055_27778362` (World of Warcraft)
+### Post #171: `2171055_27778362` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -6975,7 +4483,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #317: `2171055_27778603` (World of Warcraft)
+### Post #172: `2171055_27778603` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -6993,7 +4501,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #318: `2171055_27778944` (World of Warcraft)
+### Post #173: `2171055_27778944` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -7011,7 +4519,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #319: `2171055_27779900` (World of Warcraft)
+### Post #174: `2171055_27779900` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -7033,7 +4541,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #320: `2171055_27781203` (World of Warcraft)
+### Post #175: `2171055_27781203` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -7055,7 +4563,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #321: `2171055_27779093` (World of Warcraft)
+### Post #176: `2171055_27779093` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -7077,7 +4585,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #322: `2171055_27781079` (World of Warcraft)
+### Post #177: `2171055_27781079` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -7099,7 +4607,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #323: `2171055_27781426` (World of Warcraft)
+### Post #178: `2171055_27781426` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -7113,18 +4621,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #324: `2171055_27781272` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** The post is a brief comparative remark referencing '90's UT AI' versus 'Brann' (likely the WoW NPC Brann Bronzebeard). It discusses AI in a comparative/opinion manner rather than describing an actual human–AI agent interaction, so ai_type is A5 (Discussion About AI). Interaction is I4 (Human → Human about AI) since the author is commenting to other forum users about AI quality, not interacting with an AI agent. No value co-creation/destruction is evidenced (VC4). DART dimensions are absent. Confidence is moderate because the post is very short, context is missing (parent post 35 not provided), and 'Brann' is ambiguous — it could refer to an in-game AI-driven NPC, which would shift classification toward A1/I2. Flagged for human review due to low confidence and contextual ambiguity.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #325: `2159913_27627599` (World of Warcraft)
+### Post #179: `2159913_27627599` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 2
@@ -7138,18 +4635,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #326: `reddit_1tdr4z8_8` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** The post is a short reply defending the thread's original suspicion about a World of Warcraft streamer possibly using ChatGPT. It does not describe any direct interaction with an AI system; instead, it tells other humans to watch video content as evidence. Therefore ai_type is A5 (discussion about AI) and interaction_type is I4 (human-to-human about AI). No value co-creation or co-destruction is evident, so value_type is VC4. DART dimensions are coded 0 because the text contains no explicit evidence of dialogue with AI, access changes, risk assessment, or transparency claims about AI. Human review is flagged because the referent of 'the worst 10 in classic' is unclear and the text uses 'Paranoid' with quotes, suggesting incomplete context or possible irony.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #327: `reddit_1tdr4z8_3` (World of Warcraft)
+### Post #180: `reddit_1tdr4z8_3` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 4 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -7167,7 +4653,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #328: `reddit_1tdr4z8_7` (World of Warcraft)
+### Post #181: `reddit_1tdr4z8_7` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 5 | Nível de Confiança: 1 | Edições: 1
@@ -7181,7 +4667,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #329: `reddit_1rq35g3_1` (World of Warcraft)
+### Post #182: `reddit_1rq35g3_1` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 3 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -7203,7 +4689,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #330: `reddit_1tdr4z8_1` (World of Warcraft)
+### Post #183: `reddit_1tdr4z8_1` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -7221,7 +4707,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #331: `2159913_27643699` (World of Warcraft)
+### Post #184: `2159913_27643699` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -7243,7 +4729,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #332: `2314701_29616313` (World of Warcraft)
+### Post #185: `2314701_29616313` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -7257,18 +4743,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #333: `2332259_29840643` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** The post mentions AI and a hypothetical AI agent, but does not describe an actual interaction with an AI agent. It reads as ironic commentary about Blizzard’s lack of outage communication, so ai_type is classified as A5 (Discusion About AI). The interaction is I4 because the poster is talking about AI to other humans rather than interacting with an AI. No value co-creation or co-destruction outcome is present, so VC4. DART dimensions are all coded 0 because no actual AI interaction or concrete DART evidence is described. Human review is requested because the tone is sarcastic/facetious ('lol') and context about why 'replaced everything with AI' is missing.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #334: `reddit_1nvtk44_4` (World of Warcraft)
+### Post #186: `reddit_1nvtk44_4` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: -1 | Nível de Confiança: 1 | Edições: 1
@@ -7294,7 +4769,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #335: `2147065_27455593` (World of Warcraft)
+### Post #187: `2147065_27455593` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I2** | Valor: **VC3** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -7316,7 +4791,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #336: `reddit_1rq35g3_13` (World of Warcraft)
+### Post #188: `reddit_1rq35g3_13` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I5** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -7338,7 +4813,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #337: `reddit_1nvtk44_15` (World of Warcraft)
+### Post #189: `reddit_1nvtk44_15` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -7360,7 +4835,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #338: `2147065_27456463` (World of Warcraft)
+### Post #190: `2147065_27456463` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 0 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -7378,7 +4853,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #339: `reddit_1nvtk44_8` (World of Warcraft)
+### Post #191: `reddit_1nvtk44_8` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -7404,7 +4879,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #340: `reddit_1nvtk44_7` (World of Warcraft)
+### Post #192: `reddit_1nvtk44_7` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -7430,7 +4905,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #341: `reddit_1nvtk44_1` (World of Warcraft)
+### Post #193: `reddit_1nvtk44_1` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -7452,7 +4927,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #342: `2314701_29618262` (World of Warcraft)
+### Post #194: `2314701_29618262` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -7478,7 +4953,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #343: `2147065_27456379` (World of Warcraft)
+### Post #195: `2147065_27456379` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -7500,7 +4975,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #344: `2147065_27455636` (World of Warcraft)
+### Post #196: `2147065_27455636` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -7526,7 +5001,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #345: `2314701_29618597` (World of Warcraft)
+### Post #197: `2314701_29618597` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
@@ -7548,7 +5023,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #346: `2147065_27456279` (World of Warcraft)
+### Post #198: `2147065_27456279` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -7562,7 +5037,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #347: `2147065_27455652` (World of Warcraft)
+### Post #199: `2147065_27455652` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -7584,7 +5059,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #348: `2147065_27455760` (World of Warcraft)
+### Post #200: `2147065_27455760` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 2 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -7610,7 +5085,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #349: `2147065_27455776` (World of Warcraft)
+### Post #201: `2147065_27455776` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 1 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -7636,7 +5111,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #350: `2147065_27455800` (World of Warcraft)
+### Post #202: `2147065_27455800` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -7662,7 +5137,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #351: `2147065_27455793` (World of Warcraft)
+### Post #203: `2147065_27455793` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -7684,7 +5159,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #352: `2147065_27455823` (World of Warcraft)
+### Post #204: `2147065_27455823` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 3
@@ -7710,7 +5185,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #353: `2147065_27456221` (World of Warcraft)
+### Post #205: `2147065_27456221` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -7736,7 +5211,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #354: `2147065_27456038` (World of Warcraft)
+### Post #206: `2147065_27456038` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -7762,7 +5237,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #355: `2147065_27456240` (World of Warcraft)
+### Post #207: `2147065_27456240` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -7788,7 +5263,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #356: `2147065_27456598` (World of Warcraft)
+### Post #208: `2147065_27456598` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -7814,7 +5289,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #357: `reddit_1snmfut_6` (World of Warcraft)
+### Post #209: `reddit_1snmfut_6` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -7832,18 +5307,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #358: `reddit_1s5tj3u_1` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** The post consists only of a title and no substantive body text. The title compares a Community Manager response with a ChatGPT response regarding a Crest Bug in World of Warcraft. This indicates discussion about an AI-generated response rather than direct interaction with an AI agent in the game, so A5 and I4 are the most plausible classifications. However, the actual post content is missing, making the nature of the comparison unclear: it could describe a direct use of ChatGPT or merely critique it. No value co-creation or destruction can be assessed from the available text, so VC4 is assigned. All DART dimensions are scored 0 because no literal evidence is available. Human review is required due to insufficient context and low confidence.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #359: `2147065_27456449` (World of Warcraft)
+### Post #210: `2147065_27456449` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -7865,7 +5329,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #360: `reddit_1snmfut_1` (World of Warcraft)
+### Post #211: `reddit_1snmfut_1` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 3 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -7891,7 +5355,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #361: `reddit_1snmfut_11` (World of Warcraft)
+### Post #212: `reddit_1snmfut_11` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 4 | Nível de Confiança: 1 | Edições: 1
@@ -7917,7 +5381,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #362: `reddit_1snmfut_2` (World of Warcraft)
+### Post #213: `reddit_1snmfut_2` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 20 | Nível de Confiança: 1 | Edições: 1
@@ -7942,7 +5406,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #363: `2308441_29521622` (World of Warcraft)
+### Post #214: `2308441_29521622` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -7960,7 +5424,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #364: `reddit_1snmfut_8` (World of Warcraft)
+### Post #215: `reddit_1snmfut_8` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 7 | Nível de Confiança: 1 | Edições: 1
@@ -7978,7 +5442,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #365: `reddit_1snmfut_19` (World of Warcraft)
+### Post #216: `reddit_1snmfut_19` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 4 | Nível de Confiança: 1 | Edições: 1
@@ -8000,7 +5464,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #366: `2308441_29521682` (World of Warcraft)
+### Post #217: `2308441_29521682` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -8018,7 +5482,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #367: `reddit_1snmfut_17` (World of Warcraft)
+### Post #218: `reddit_1snmfut_17` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC3** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 2 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -8043,7 +5507,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #368: `2308441_29521746` (World of Warcraft)
+### Post #219: `2308441_29521746` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -8057,7 +5521,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #369: `reddit_1snmfut_13` (World of Warcraft)
+### Post #220: `reddit_1snmfut_13` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -8083,7 +5547,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #370: `reddit_1snmfut_16` (World of Warcraft)
+### Post #221: `reddit_1snmfut_16` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -8109,7 +5573,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #371: `2308441_29521809` (World of Warcraft)
+### Post #222: `2308441_29521809` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -8127,7 +5591,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #372: `2308441_29521635` (World of Warcraft)
+### Post #223: `2308441_29521635` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -8141,7 +5605,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #373: `2308441_29522321` (World of Warcraft)
+### Post #224: `2308441_29522321` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -8159,18 +5623,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #374: `2308441_29521928` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** The post is a speculative, forward-looking discussion about the future use of AI in MMORPGs. No actual AI agent appears in the text and no direct human-AI interaction is described, so ai_type is A5 (Discussion About AI). The author is addressing other human players about a hypothetical AI system, fitting I4 (Human → Human about AI). No value co-creation or co-destruction is evidenced because the described AI is only imagined and not operational, so value_type is VC4. DART dimensions are scored 0 because the post contains no evidence of actual or currently occurring dialogue, access changes, risk-related assessment, or transparency considerations tied to an implemented AI agent.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #375: `2308441_29521595` (World of Warcraft)
+### Post #225: `2308441_29521595` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
@@ -8192,7 +5645,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #376: `2308441_29521669` (World of Warcraft)
+### Post #226: `2308441_29521669` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -8214,7 +5667,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #377: `2308441_29521636` (World of Warcraft)
+### Post #227: `2308441_29521636` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I1** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -8240,7 +5693,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #378: `2308441_29521795` (World of Warcraft)
+### Post #228: `2308441_29521795` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -8258,7 +5711,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #379: `2308441_29521689` (World of Warcraft)
+### Post #229: `2308441_29521689` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -8284,7 +5737,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #380: `2308441_29521862` (World of Warcraft)
+### Post #230: `2308441_29521862` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -8310,7 +5763,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #381: `2308441_29522269` (World of Warcraft)
+### Post #231: `2308441_29522269` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 2 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -8328,7 +5781,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #382: `2308441_29521857` (World of Warcraft)
+### Post #232: `2308441_29521857` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -8354,7 +5807,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #383: `2308441_29521868` (World of Warcraft)
+### Post #233: `2308441_29521868` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -8368,7 +5821,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #384: `2308441_29521875` (World of Warcraft)
+### Post #234: `2308441_29521875` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -8390,7 +5843,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #385: `2308441_29521980` (World of Warcraft)
+### Post #235: `2308441_29521980` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -8412,7 +5865,7 @@ you KNOW somthing → Fakt ( only CCP knows )"
 
 ---
 
-### Post #386: `2308441_29522148` (World of Warcraft)
+### Post #236: `2308441_29522148` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -8440,7 +5893,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #387: `2308441_29522068` (World of Warcraft)
+### Post #237: `2308441_29522068` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -8462,7 +5915,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #388: `2308441_29522061` (World of Warcraft)
+### Post #238: `2308441_29522061` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -8488,18 +5941,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #389: `2336820_29896313` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post discusses player preference for a WoW priest specialization ('holy' vs 'discipline') and complains that discipline ('disc') now plays like 'a shield bot.' The term 'bot' here is colloquial and refers to a repetitive shield-based playstyle, not to an AI agent, conventional bot, or automation tool. There is no mention of AI, no human-agent interaction, and no value co-creation or destruction relevant to the research question.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #390: `2308441_29522283` (World of Warcraft)
+### Post #239: `2308441_29522283` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 4 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -8525,7 +5967,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #391: `2308441_29522325` (World of Warcraft)
+### Post #240: `2308441_29522325` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -8547,7 +5989,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #392: `2308441_29522157` (World of Warcraft)
+### Post #241: `2308441_29522157` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -8573,7 +6015,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #393: `2308441_29522338` (World of Warcraft)
+### Post #242: `2308441_29522338` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -8599,7 +6041,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #394: `2318118_29656800` (World of Warcraft)
+### Post #243: `2318118_29656800` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -8613,7 +6055,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #395: `2318118_29656965` (World of Warcraft)
+### Post #244: `2318118_29656965` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 5 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -8635,7 +6077,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #396: `2318118_29656397` (World of Warcraft)
+### Post #245: `2318118_29656397` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -8657,18 +6099,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #397: `2336820_29907751` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post speculates that Blizzard may be using AI to make game changes, but does not describe any actual interaction with an AI agent. Therefore ai_type is A5 (Discussion About AI). Since the author is discussing the possibility of AI use with other forum users rather than interacting with an AI system, interaction_type is I4 (Human → Human about AI). No value co-creation/destruction is evidenced, so value_type is VC4. DART dimensions are absent because no dialogue, access, risk assessment, or transparency content is present in the literal post text.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #398: `2318118_29656876` (World of Warcraft)
+### Post #246: `2318118_29656876` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -8690,7 +6121,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #399: `2318118_29655457` (World of Warcraft)
+### Post #247: `2318118_29655457` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -8712,7 +6143,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #400: `2318118_29657331` (World of Warcraft)
+### Post #248: `2318118_29657331` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -8738,7 +6169,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #401: `2318118_29657675` (World of Warcraft)
+### Post #249: `2318118_29657675` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -8764,7 +6195,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #402: `2318118_29658471` (World of Warcraft)
+### Post #250: `2318118_29658471` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC1** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 3 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 3
@@ -8790,7 +6221,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #403: `2318118_29657985` (World of Warcraft)
+### Post #251: `2318118_29657985` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -8812,7 +6243,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #404: `2318118_29658639` (World of Warcraft)
+### Post #252: `2318118_29658639` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -8838,7 +6269,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #405: `2180159_28321012` (World of Warcraft)
+### Post #253: `2180159_28321012` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -8856,7 +6287,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #406: `2318118_29658663` (World of Warcraft)
+### Post #254: `2318118_29658663` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -8882,7 +6313,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #407: `2318118_29658668` (World of Warcraft)
+### Post #255: `2318118_29658668` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -8904,7 +6335,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #408: `2180159_27921755` (World of Warcraft)
+### Post #256: `2180159_27921755` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I2** | Valor: **VC3** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -8930,7 +6361,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #409: `2180159_27956316` (World of Warcraft)
+### Post #257: `2180159_27956316` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -8956,7 +6387,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #410: `2336820_29940449` (World of Warcraft)
+### Post #258: `2336820_29940449` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -8982,7 +6413,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #411: `reddit_11kumll_2` (World of Warcraft)
+### Post #259: `reddit_11kumll_2` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -8996,35 +6427,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #412: `1772220_22621640` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The best way to get rid of bots is to BAN them BEFORE they become profitable.
-
-**Dimensões DART Analisadas:**
-- **Risco (Ativo):**
-  - *Evidência Literal:* "The best way to get rid of bots is to BAN them BEFORE they become profitable."
-  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-
----
-
-### Post #413: `1772220_22621912` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** if they ban a massive wave of bots (thousands?) the bot developers lose a massive chunk of change as many people cancel the charge on their credit card all at once
-
-**Dimensões DART Analisadas:**
-- **Risco (Ativo):**
-  - *Evidência Literal:* "if they ban a massive wave of bots (thousands?) the bot developers lose a massive chunk of change as many people cancel the charge on their credit card all at once"
-  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-
----
-
-### Post #414: `1772220_22621705` (World of Warcraft)
+### Post #260: `1772220_22621705` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -9038,7 +6441,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #415: `1772220_22621864` (World of Warcraft)
+### Post #261: `1772220_22621864` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -9060,7 +6463,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #416: `1772220_22621672` (World of Warcraft)
+### Post #262: `1772220_22621672` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -9074,7 +6477,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #417: `1772220_22622376` (World of Warcraft)
+### Post #263: `1772220_22622376` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -9092,7 +6495,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #418: `1772220_22621656` (World of Warcraft)
+### Post #264: `1772220_22621656` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -9110,7 +6513,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #419: `1772220_22621631` (World of Warcraft)
+### Post #265: `1772220_22621631` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -9128,7 +6531,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #420: `reddit_1tvlpnw_1` (World of Warcraft)
+### Post #266: `reddit_1tvlpnw_1` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -9150,43 +6553,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #421: `1772220_22621720` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 4 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** letting them ruin the economy for half a year at a time then ban-waving them
-
-**Dimensões DART Analisadas:**
-- **Risco (Ativo):**
-  - *Evidência Literal:* "letting them ruin the economy for half a year at a time then ban-waving them"
-  - *Interpretação Teórica:* Score 4/5 (conf 0.90)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-
----
-
-### Post #422: `1772220_22621666` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** They also run at kernel level since most use rootkits to inject themselves. Every process is vulnerable to these things, not just WoW.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "Are you talking about the LUA API?"
-  - *Interpretação Teórica:* Score 1/5 (conf 0.85)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-- **Risco (Ativo):**
-  - *Evidência Literal:* "They also run at kernel level since most use rootkits to inject themselves. Every process is vulnerable to these things, not just WoW."
-  - *Interpretação Teórica:* Score 3/5 (conf 0.90)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "Bots don’t need the API, a majority of them read memory directly, the API doesn’t expose information they need, it’s already secured."
-  - *Interpretação Teórica:* Score 1/5 (conf 0.80)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-
----
-
-### Post #423: `497087_2771352` (EVE Online)
+### Post #267: `497087_2771352` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A3** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 3 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 1
@@ -9208,7 +6575,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #424: `reddit_1tvlpnw_2` (World of Warcraft)
+### Post #268: `reddit_1tvlpnw_2` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A3** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -9226,7 +6593,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #425: `510327_2866434` (EVE Online)
+### Post #269: `510327_2866434` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 2 | Risco: 0 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 3
@@ -9248,7 +6615,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #426: `510327_2870703` (EVE Online)
+### Post #270: `510327_2870703` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC1** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 3 | Risco: 1 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -9273,18 +6640,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #427: `510327_2870225` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** The post is a reply discussing bug fixes in a game feature (EVE Crews) that appears to be an AI-driven crew simulator. The author describes fixing event-related errors (EVT048, EVT034) and explains the trigger conditions and decision outcomes for the Command Friction event. There is no direct interaction with an AI agent described in this post; the author is discussing the game's mechanics and bug fixes with another player. The AI type is classified as A5 (Discussion About AI) because the post discusses the game's AI-driven event system but does not describe an actual interaction with an AI agent. The interaction is I4 (Human → Human about AI) as the author is communicating with another human about the AI-driven game mechanics. No value co-creation or destruction is evident in this post, so VC4 is assigned. DART dimensions are all scored 0 as the post is purely descriptive of bug fixes and event mechanics without dialogue, access changes, risk assessment, or transparency discussion. Human review is flagged due to moderate confidence in relevance and the possibility that the game feature (EVE Crews) may or may not be AI-based.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #428: `510327_2868880` (EVE Online)
+### Post #271: `510327_2868880` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 4 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 2
@@ -9310,7 +6666,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #429: `1772220_22622499` (World of Warcraft)
+### Post #272: `1772220_22622499` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 5 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -9324,7 +6680,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #430: `510327_2867490` (EVE Online)
+### Post #273: `510327_2867490` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC3** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 2 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -9350,7 +6706,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #431: `510327_2871002` (EVE Online)
+### Post #274: `510327_2871002` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 3 | Risco: 1 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 2
@@ -9376,7 +6732,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #432: `510327_2870508` (EVE Online)
+### Post #275: `510327_2870508` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 2 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -9402,7 +6758,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #433: `510327_2866456` (EVE Online)
+### Post #276: `510327_2866456` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 2
@@ -9424,7 +6780,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #434: `510327_2866379` (EVE Online)
+### Post #277: `510327_2866379` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC2** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 3 | Risco: 0 | Transparência: 5 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 2
@@ -9446,7 +6802,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #435: `510327_2867289` (EVE Online)
+### Post #278: `510327_2867289` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -9472,18 +6828,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #436: `510327_2886529` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** The post is a developer's changelog/response to a bug report about a third-party tool ('EVE Crews'). It describes fixing software bugs (state rollback, browser save abort) and does not mention AI, bots, or any autonomous system. The interaction is between a developer and a user about software bugs, not a human-AI interaction. No AI agent is present, no value co-creation with AI, and no DART dimensions are relevant. Classified as A6/I6/VC4 and IRRELEVANT.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #437: `510327_2903556` (EVE Online)
+### Post #279: `510327_2903556` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -9501,7 +6846,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #438: `510327_2876670` (EVE Online)
+### Post #280: `510327_2876670` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 3 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 2
@@ -9527,7 +6872,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #439: `510327_2890391` (EVE Online)
+### Post #281: `510327_2890391` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A3** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -9553,7 +6898,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #440: `510327_2886776` (EVE Online)
+### Post #282: `510327_2886776` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 1 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 2
@@ -9575,7 +6920,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #441: `510327_2904642` (EVE Online)
+### Post #283: `510327_2904642` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 0 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -9597,7 +6942,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #442: `510327_2904549` (EVE Online)
+### Post #284: `510327_2904549` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 2 | Risco: 0 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -9619,7 +6964,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #443: `510327_2881699` (EVE Online)
+### Post #285: `510327_2881699` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -9645,18 +6990,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #444: `510327_2866108` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 12
-* **Fundamentação / Notas:** The post describes a companion tool (EVE Crews) built by a player using 'AI-assisted coding'. The tool itself generates narrative events and crew with procedurally generated traits, but there is no evidence of an AI agent interacting with the player in-game. The AI is mentioned as a development aid ('AI-assisted coding era'), not as an agent within the described system. The post is a feature announcement/description, not a report of an actual interaction with an AI agent. Therefore, ai_type is A5 (Discussion About AI) since the post discusses AI but does not describe an actual AI agent interaction. Interaction type is I6 (No meaningful interaction) as no human-AI interaction is described. Value co-creation is VC4 (No evidence) as no value consequence of an AI interaction is described. DART dimensions are all 0 as the post is descriptive and does not involve dialogue, access changes, risk, or transparency related to an AI agent. Human review is flagged due to moderate confidence in relevance and the possibility that the tool's procedural generation could be considered AI-based, though evidence is insufficient.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #445: `510327_2885369` (EVE Online)
+### Post #286: `510327_2885369` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC3** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 2 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 2
@@ -9682,7 +7016,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #446: `510327_2888472` (EVE Online)
+### Post #287: `510327_2888472` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 2 | Risco: 4 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 2
@@ -9708,7 +7042,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #447: `510327_2884891` (EVE Online)
+### Post #288: `510327_2884891` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC3** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 2 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 2
@@ -9734,7 +7068,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #448: `510327_2889849` (EVE Online)
+### Post #289: `510327_2889849` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 4 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 2
@@ -9760,7 +7094,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #449: `510327_2889240` (EVE Online)
+### Post #290: `510327_2889240` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 2 | Transparência: 4 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -9786,7 +7120,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #450: `510327_2898315` (EVE Online)
+### Post #291: `510327_2898315` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 3 | Risco: 1 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 2
@@ -9811,7 +7145,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #451: `510327_2881498` (EVE Online)
+### Post #292: `510327_2881498` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 2 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -9837,7 +7171,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #452: `510327_2904666` (EVE Online)
+### Post #293: `510327_2904666` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -9851,7 +7185,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #453: `510327_2908560` (EVE Online)
+### Post #294: `510327_2908560` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 2 | Risco: 0 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 2
@@ -9873,7 +7207,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #454: `510327_2886340` (EVE Online)
+### Post #295: `510327_2886340` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC3** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 3
@@ -9899,7 +7233,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #455: `510327_2909405` (EVE Online)
+### Post #296: `510327_2909405` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC1** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 2 | Risco: 0 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -9921,7 +7255,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #456: `510327_2890288` (EVE Online)
+### Post #297: `510327_2890288` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I1** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 3
@@ -9947,7 +7281,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #457: `510327_2911276` (EVE Online)
+### Post #298: `510327_2911276` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 3 | Risco: 1 | Transparência: 4 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 2
@@ -9973,7 +7307,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #458: `510327_2903732` (EVE Online)
+### Post #299: `510327_2903732` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 4 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 2
@@ -9999,7 +7333,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #459: `reddit_1t939or_6` (World of Warcraft)
+### Post #300: `reddit_1t939or_6` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -10013,7 +7347,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #460: `reddit_1t939or_1` (World of Warcraft)
+### Post #301: `reddit_1t939or_1` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I1** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -10038,7 +7372,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #461: `reddit_1spdcd4_2` (World of Warcraft)
+### Post #302: `reddit_1spdcd4_2` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 3 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 5 | Nível de Confiança: 1 | Edições: 1
@@ -10064,7 +7398,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #462: `reddit_1t939or_7` (World of Warcraft)
+### Post #303: `reddit_1t939or_7` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 10 | Nível de Confiança: 1 | Edições: 1
@@ -10078,7 +7412,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #463: `reddit_1r77r09_3` (World of Warcraft)
+### Post #304: `reddit_1r77r09_3` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 3 | Nível de Confiança: 1 | Edições: 1
@@ -10092,7 +7426,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #464: `510327_2904437` (EVE Online)
+### Post #305: `510327_2904437` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 1 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -10118,7 +7452,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #465: `reddit_1t939or_2` (World of Warcraft)
+### Post #306: `reddit_1t939or_2` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 3 | Risco: 4 | Transparência: 2 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -10140,7 +7474,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #466: `reddit_1t939or_8` (World of Warcraft)
+### Post #307: `reddit_1t939or_8` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -10166,7 +7500,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #467: `reddit_1t939or_10` (World of Warcraft)
+### Post #308: `reddit_1t939or_10` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 3 | Nível de Confiança: 1 | Edições: 1
@@ -10180,7 +7514,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #468: `reddit_1t939or_5` (World of Warcraft)
+### Post #309: `reddit_1t939or_5` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 4 | Nível de Confiança: 1 | Edições: 1
@@ -10194,7 +7528,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #469: `510327_2913345` (EVE Online)
+### Post #310: `510327_2913345` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 2 | Risco: 1 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -10220,7 +7554,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #470: `reddit_1t939or_11` (World of Warcraft)
+### Post #311: `reddit_1t939or_11` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -10242,7 +7576,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #471: `reddit_1t939or_12` (World of Warcraft)
+### Post #312: `reddit_1t939or_12` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -10264,7 +7598,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #472: `510327_2913288` (EVE Online)
+### Post #313: `510327_2913288` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC1** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 5 | Acesso: 4 | Risco: 2 | Transparência: 5 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -10290,7 +7624,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #473: `reddit_1t939or_3` (World of Warcraft)
+### Post #314: `reddit_1t939or_3` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 10 | Nível de Confiança: 1 | Edições: 1
@@ -10312,7 +7646,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #474: `2116712_27043000` (World of Warcraft)
+### Post #315: `2116712_27043000` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -10326,21 +7660,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #475: `2116712_27043141` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** Another layer of cheating, Pixel bots are out of control
-
-**Dimensões DART Analisadas:**
-- **Risco (Ativo):**
-  - *Evidência Literal:* "Another layer of cheating, Pixel bots are out of control"
-  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-
----
-
-### Post #476: `510327_2901203` (EVE Online)
+### Post #316: `510327_2901203` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -10366,43 +7686,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #477: `2116712_27042883` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I5** | Valor: **VC3** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 5 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** There are no punishments or proper anti-cheat system in place.
-
-**Dimensões DART Analisadas:**
-- **Risco (Ativo):**
-  - *Evidência Literal:* "There are no punishments or proper anti-cheat system in place."
-  - *Interpretação Teórica:* Score 5/5 (conf 0.95)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "what’s stopping someone from going into ChatGPT and making that pixel bot"
-  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-
----
-
-### Post #478: `2116712_27043068` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 4 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
-* **Fundamentação / Notas:** Prob not worth risking an account for if you care about it. ... I could link said bot but I don’t encourage cheating.
-
-**Dimensões DART Analisadas:**
-- **Risco (Ativo):**
-  - *Evidência Literal:* "Prob not worth risking an account for if you care about it. ... I could link said bot but I don’t encourage cheating."
-  - *Interpretação Teórica:* Score 4/5 (conf 0.85)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "At some point blizzard will catch and detect them and mass banwave it’s just cat and mouse."
-  - *Interpretação Teórica:* Score 1/5 (conf 0.70)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-
----
-
-### Post #479: `510327_2913382` (EVE Online)
+### Post #317: `510327_2913382` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A3** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 0 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 2
@@ -10420,7 +7704,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #480: `reddit_1r77s3x_2` (World of Warcraft)
+### Post #318: `reddit_1r77s3x_2` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -10438,7 +7722,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #481: `510327_2920351` (EVE Online)
+### Post #319: `510327_2920351` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC1** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 5 | Acesso: 3 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 3
@@ -10464,7 +7748,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #482: `510327_2913292` (EVE Online)
+### Post #320: `510327_2913292` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 2 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 3
@@ -10490,7 +7774,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #483: `2116712_27042848` (World of Warcraft)
+### Post #321: `2116712_27042848` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 3 | Risco: 5 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 3
@@ -10512,7 +7796,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #484: `502655_2829997` (EVE Online)
+### Post #322: `502655_2829997` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I2** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 3 | Risco: 0 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -10534,7 +7818,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #485: `510327_2912893` (EVE Online)
+### Post #323: `510327_2912893` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 5 | Acesso: 4 | Risco: 2 | Transparência: 5 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 2
@@ -10560,7 +7844,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #486: `reddit_1r77s3x_20` (World of Warcraft)
+### Post #324: `reddit_1r77s3x_20` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -10574,7 +7858,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #487: `reddit_1r77s3x_10` (World of Warcraft)
+### Post #325: `reddit_1r77s3x_10` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 3 | Nível de Confiança: 1 | Edições: 1
@@ -10592,7 +7876,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #488: `reddit_1r77s3x_8` (World of Warcraft)
+### Post #326: `reddit_1r77s3x_8` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -10606,7 +7890,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #489: `reddit_1spdcd4_1` (World of Warcraft)
+### Post #327: `reddit_1spdcd4_1` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 8 | Nível de Confiança: 1 | Edições: 1
@@ -10628,7 +7912,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #490: `reddit_1r77s3x_23` (World of Warcraft)
+### Post #328: `reddit_1r77s3x_23` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -10646,7 +7930,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #491: `reddit_1r77s3x_3` (World of Warcraft)
+### Post #329: `reddit_1r77s3x_3` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -10660,7 +7944,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #492: `reddit_1r77s3x_21` (World of Warcraft)
+### Post #330: `reddit_1r77s3x_21` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 3 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -10678,7 +7962,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #493: `reddit_1r77s3x_5` (World of Warcraft)
+### Post #331: `reddit_1r77s3x_5` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 4 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 3 | Nível de Confiança: 1 | Edições: 1
@@ -10696,7 +7980,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #494: `502655_2823935` (EVE Online)
+### Post #332: `502655_2823935` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I5** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 3 | Risco: 0 | Transparência: 2 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -10714,7 +7998,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #495: `reddit_1r77s3x_31` (World of Warcraft)
+### Post #333: `reddit_1r77s3x_31` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: -2 | Nível de Confiança: 1 | Edições: 1
@@ -10728,7 +8012,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #496: `reddit_1r77s3x_27` (World of Warcraft)
+### Post #334: `reddit_1r77s3x_27` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 2 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -10746,7 +8030,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #497: `reddit_1r77s3x_12` (World of Warcraft)
+### Post #335: `reddit_1r77s3x_12` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 3 | Nível de Confiança: 1 | Edições: 1
@@ -10760,7 +8044,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #498: `reddit_1r77s3x_24` (World of Warcraft)
+### Post #336: `reddit_1r77s3x_24` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -10778,7 +8062,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #499: `reddit_1r77s3x_25` (World of Warcraft)
+### Post #337: `reddit_1r77s3x_25` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -10792,7 +8076,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #500: `reddit_1r77s3x_30` (World of Warcraft)
+### Post #338: `reddit_1r77s3x_30` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: -1 | Nível de Confiança: 1 | Edições: 1
@@ -10814,7 +8098,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #501: `502655_2811315` (EVE Online)
+### Post #339: `502655_2811315` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 4 | Risco: 2 | Transparência: 4 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -10840,7 +8124,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #502: `reddit_1r77s3x_1` (World of Warcraft)
+### Post #340: `reddit_1r77s3x_1` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 4 | Transparência: 4 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -10862,18 +8146,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #503: `reddit_1kylpvy_8` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: -1 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** The post is a brief opinion on the hypothetical use of AI as a companion in WoW. It discusses AI in general terms ('wow specific ai', 'General ai like chatgpt') without describing an actual interaction with an AI agent. Therefore, it is classified as A5 (Discussion About AI). The interaction is between humans discussing AI (I4). No value co-creation or destruction is evident from this short opinion (VC4). DART dimensions are all absent as the post provides no substantive detail. Human review is flagged due to the brevity and hypothetical nature of the content, and moderate confidence in relevance.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #504: `reddit_1kylpvy_6` (World of Warcraft)
+### Post #341: `reddit_1kylpvy_6` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC1** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 2 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -10895,7 +8168,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #505: `reddit_1u0bxq6_12` (World of Warcraft)
+### Post #342: `reddit_1u0bxq6_12` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: -1 | Nível de Confiança: 1 | Edições: 1
@@ -10909,7 +8182,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #506: `reddit_1kylpvy_1` (World of Warcraft)
+### Post #343: `reddit_1kylpvy_1` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I1** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 3 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -10931,7 +8204,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #507: `reddit_1u0bxq6_1` (World of Warcraft)
+### Post #344: `reddit_1u0bxq6_1` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I1** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 3 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 28 | Nível de Confiança: 1 | Edições: 1
@@ -10953,7 +8226,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #508: `reddit_1u0bxq6_5` (World of Warcraft)
+### Post #345: `reddit_1u0bxq6_5` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 5 | Acesso: 3 | Risco: 0 | Transparência: 2 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 6 | Nível de Confiança: 1 | Edições: 1
@@ -10975,7 +8248,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #509: `reddit_1kylpvy_5` (World of Warcraft)
+### Post #346: `reddit_1kylpvy_5` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: -4 | Nível de Confiança: 1 | Edições: 1
@@ -10989,7 +8262,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #510: `reddit_1kylpvy_2` (World of Warcraft)
+### Post #347: `reddit_1kylpvy_2` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I1** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 3 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -11014,7 +8287,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #511: `reddit_1u0bxq6_7` (World of Warcraft)
+### Post #348: `reddit_1u0bxq6_7` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I1** | Valor: **VC3** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 6 | Nível de Confiança: 1 | Edições: 1
@@ -11040,7 +8313,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #512: `reddit_1u0bxq6_13` (World of Warcraft)
+### Post #349: `reddit_1u0bxq6_13` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I1** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 3 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 6 | Nível de Confiança: 1 | Edições: 1
@@ -11062,7 +8335,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #513: `reddit_1kylpvy_7` (World of Warcraft)
+### Post #350: `reddit_1kylpvy_7` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I3** | Valor: **VC1** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 4 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -11088,7 +8361,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #514: `reddit_1kylpvy_4` (World of Warcraft)
+### Post #351: `reddit_1kylpvy_4` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 5 | Acesso: 4 | Risco: 2 | Transparência: 4 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -11114,7 +8387,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #515: `2203538_28248359` (World of Warcraft)
+### Post #352: `2203538_28248359` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -11132,7 +8405,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #516: `507123_2841853` (EVE Online)
+### Post #353: `507123_2841853` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 4 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 2
@@ -11157,7 +8430,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #517: `507123_2843984` (EVE Online)
+### Post #354: `507123_2843984` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 4 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -11183,7 +8456,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #518: `507123_2844342` (EVE Online)
+### Post #355: `507123_2844342` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 2
@@ -11201,7 +8474,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #519: `2203538_28248349` (World of Warcraft)
+### Post #356: `2203538_28248349` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 3 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -11223,7 +8496,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #520: `507123_2843605` (EVE Online)
+### Post #357: `507123_2843605` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 4 | Risco: 0 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 2
@@ -11245,7 +8518,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #521: `507123_2842254` (EVE Online)
+### Post #358: `507123_2842254` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 4 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 3
@@ -11270,7 +8543,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #522: `reddit_1ormrc6_6` (World of Warcraft)
+### Post #359: `reddit_1ormrc6_6` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -11284,7 +8557,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #523: `2203538_28253196` (World of Warcraft)
+### Post #360: `2203538_28253196` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -11298,7 +8571,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #524: `2203538_28248849` (World of Warcraft)
+### Post #361: `2203538_28248849` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -11320,7 +8593,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #525: `2203538_28253154` (World of Warcraft)
+### Post #362: `2203538_28253154` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -11342,7 +8615,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #526: `507123_2844191` (EVE Online)
+### Post #363: `507123_2844191` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 4 | Transparência: 5 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -11368,7 +8641,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #527: `2203538_28248868` (World of Warcraft)
+### Post #364: `2203538_28248868` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -11394,7 +8667,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #528: `2203538_28252649` (World of Warcraft)
+### Post #365: `2203538_28252649` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
@@ -11420,7 +8693,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #529: `2203538_28249198` (World of Warcraft)
+### Post #366: `2203538_28249198` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -11442,7 +8715,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #530: `reddit_1ormrc6_9` (World of Warcraft)
+### Post #367: `reddit_1ormrc6_9` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 3 | Nível de Confiança: 1 | Edições: 1
@@ -11460,7 +8733,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #531: `reddit_1ormrc6_2` (World of Warcraft)
+### Post #368: `reddit_1ormrc6_2` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -11482,7 +8755,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #532: `2203538_28252511` (World of Warcraft)
+### Post #369: `2203538_28252511` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 4 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -11504,7 +8777,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #533: `507123_2842763` (EVE Online)
+### Post #370: `507123_2842763` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 4 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -11530,7 +8803,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #534: `2344742_29986092` (World of Warcraft)
+### Post #371: `2344742_29986092` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -11548,21 +8821,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #535: `2344742_29986151` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** they have the bot do whatever its programmed to do to make gold that they turn around and sell to other players
-
-**Dimensões DART Analisadas:**
-- **Risco (Ativo):**
-  - *Evidência Literal:* "they have the bot do whatever its programmed to do to make gold that they turn around and sell to other players"
-  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-
----
-
-### Post #536: `reddit_1ormrc6_12` (World of Warcraft)
+### Post #372: `reddit_1ormrc6_12` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: -3 | Nível de Confiança: 1 | Edições: 1
@@ -11580,21 +8839,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #537: `2344742_29989658` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** they have the bot do whatever its programmed to do to make gold that they turn around and sell to other players
-
-**Dimensões DART Analisadas:**
-- **Risco (Ativo):**
-  - *Evidência Literal:* "they have the bot do whatever its programmed to do to make gold that they turn around and sell to other players"
-  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-
----
-
-### Post #538: `reddit_1ormrc6_14` (World of Warcraft)
+### Post #373: `reddit_1ormrc6_14` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 4 | Nível de Confiança: 1 | Edições: 1
@@ -11616,7 +8861,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #539: `reddit_1ormrc6_1` (World of Warcraft)
+### Post #374: `reddit_1ormrc6_1` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 5 | Transparência: 2 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -11638,7 +8883,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #540: `2168234_27740125` (World of Warcraft)
+### Post #375: `2168234_27740125` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 4 | Transparência: 2 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -11656,7 +8901,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #541: `2344742_29999312` (World of Warcraft)
+### Post #376: `2344742_29999312` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -11670,7 +8915,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #542: `reddit_1q7m0sl_1` (World of Warcraft)
+### Post #377: `reddit_1q7m0sl_1` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 11 | Nível de Confiança: 1 | Edições: 1
@@ -11688,7 +8933,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #543: `reddit_1q7m0sl_7` (World of Warcraft)
+### Post #378: `reddit_1q7m0sl_7` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -11706,7 +8951,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #544: `reddit_1q7m0sl_3` (World of Warcraft)
+### Post #379: `reddit_1q7m0sl_3` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 2 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 8 | Nível de Confiança: 1 | Edições: 1
@@ -11724,7 +8969,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #545: `reddit_1q7m0sl_16` (World of Warcraft)
+### Post #380: `reddit_1q7m0sl_16` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -11742,7 +8987,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #546: `reddit_1q7m0sl_22` (World of Warcraft)
+### Post #381: `reddit_1q7m0sl_22` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 3 | Nível de Confiança: 1 | Edições: 1
@@ -11756,7 +9001,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #547: `reddit_1q7m0sl_14` (World of Warcraft)
+### Post #382: `reddit_1q7m0sl_14` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 9 | Nível de Confiança: 1 | Edições: 1
@@ -11770,7 +9015,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #548: `reddit_1q7m0sl_12` (World of Warcraft)
+### Post #383: `reddit_1q7m0sl_12` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 6 | Nível de Confiança: 1 | Edições: 1
@@ -11784,7 +9029,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #549: `507123_2862728` (EVE Online)
+### Post #384: `507123_2862728` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 4 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -11810,7 +9055,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #550: `reddit_1q7m0sl_29` (World of Warcraft)
+### Post #385: `reddit_1q7m0sl_29` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -11828,7 +9073,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #551: `reddit_1q7m0sl_26` (World of Warcraft)
+### Post #386: `reddit_1q7m0sl_26` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 3 | Transparência: 2 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -11850,7 +9095,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #552: `512367_2882363` (EVE Online)
+### Post #387: `512367_2882363` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 3 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -11876,7 +9121,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #553: `2168234_27980354` (World of Warcraft)
+### Post #388: `2168234_27980354` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 9
@@ -11894,7 +9139,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #554: `reddit_1q7m0sl_5` (World of Warcraft)
+### Post #389: `reddit_1q7m0sl_5` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 4 | Transparência: 2 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -11916,7 +9161,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #555: `507123_2853874` (EVE Online)
+### Post #390: `507123_2853874` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 4 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -11942,7 +9187,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #556: `512367_2882924` (EVE Online)
+### Post #391: `512367_2882924` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -11968,7 +9213,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #557: `reddit_1q7m0sl_20` (World of Warcraft)
+### Post #392: `reddit_1q7m0sl_20` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 3 | Nível de Confiança: 1 | Edições: 1
@@ -11986,7 +9231,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #558: `reddit_1rhkho1_3` (World of Warcraft)
+### Post #393: `reddit_1rhkho1_3` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 6 | Nível de Confiança: 1 | Edições: 1
@@ -12000,7 +9245,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #559: `512367_2882315` (EVE Online)
+### Post #394: `512367_2882315` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 4 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -12022,7 +9267,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #560: `2168234_27739222` (World of Warcraft)
+### Post #395: `2168234_27739222` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 3 | Transparência: 3 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -12048,7 +9293,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #561: `reddit_1rhkho1_4` (World of Warcraft)
+### Post #396: `reddit_1rhkho1_4` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 4 | Nível de Confiança: 1 | Edições: 1
@@ -12062,7 +9307,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #562: `reddit_1rhkho1_2` (World of Warcraft)
+### Post #397: `reddit_1rhkho1_2` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 4 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 5 | Nível de Confiança: 1 | Edições: 1
@@ -12080,7 +9325,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #563: `reddit_1rhkho1_7` (World of Warcraft)
+### Post #398: `reddit_1rhkho1_7` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 7 | Nível de Confiança: 1 | Edições: 1
@@ -12094,7 +9339,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #564: `reddit_1rhkho1_11` (World of Warcraft)
+### Post #399: `reddit_1rhkho1_11` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 6 | Nível de Confiança: 1 | Edições: 1
@@ -12108,7 +9353,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #565: `reddit_1rhkho1_9` (World of Warcraft)
+### Post #400: `reddit_1rhkho1_9` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -12122,7 +9367,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #566: `reddit_1rhkho1_8` (World of Warcraft)
+### Post #401: `reddit_1rhkho1_8` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -12136,7 +9381,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #567: `reddit_1rhkho1_1` (World of Warcraft)
+### Post #402: `reddit_1rhkho1_1` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 3 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -12154,7 +9399,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #568: `reddit_1rhkho1_5` (World of Warcraft)
+### Post #403: `reddit_1rhkho1_5` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 3 | Nível de Confiança: 1 | Edições: 1
@@ -12168,7 +9413,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #569: `512367_2882298` (EVE Online)
+### Post #404: `512367_2882298` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 2 | Transparência: 3 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -12194,7 +9439,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #570: `reddit_1rhkho1_19` (World of Warcraft)
+### Post #405: `reddit_1rhkho1_19` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 3 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -12208,7 +9453,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #571: `reddit_1rhkho1_16` (World of Warcraft)
+### Post #406: `reddit_1rhkho1_16` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 4 | Nível de Confiança: 1 | Edições: 1
@@ -12222,7 +9467,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #572: `reddit_1rhkho1_12` (World of Warcraft)
+### Post #407: `reddit_1rhkho1_12` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 4 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 7 | Nível de Confiança: 1 | Edições: 1
@@ -12236,7 +9481,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #573: `reddit_1rhkho1_13` (World of Warcraft)
+### Post #408: `reddit_1rhkho1_13` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 6 | Nível de Confiança: 1 | Edições: 1
@@ -12254,29 +9499,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #574: `2344742_29985695` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 4 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** bots running the games economy... preventing bots from ever entering in the first place will do better then detecting and banning them days, weeks, or months afterwards when the damage is already done
-
-**Dimensões DART Analisadas:**
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "bots have ruined the experience as part of the core gameplay is being automated, squeezed dry"
-  - *Interpretação Teórica:* Score 2/5 (conf 0.70)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-- **Risco (Ativo):**
-  - *Evidência Literal:* "bots running the games economy... preventing bots from ever entering in the first place will do better then detecting and banning them days, weeks, or months afterwards when the damage is already done"
-  - *Interpretação Teórica:* Score 4/5 (conf 0.85)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "code something into the game that can try to detect bots and kick them out"
-  - *Interpretação Teórica:* Score 1/5 (conf 0.60)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-
----
-
-### Post #575: `2329784_29803221` (World of Warcraft)
+### Post #409: `2329784_29803221` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -12290,7 +9513,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #576: `2329784_29802930` (World of Warcraft)
+### Post #410: `2329784_29802930` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -12304,7 +9527,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #577: `2329784_29803332` (World of Warcraft)
+### Post #411: `2329784_29803332` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -12322,18 +9545,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #578: `472014_2648311` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post is a brief, speculative statement about a potential AI feature ('An LLM that knows eve back to front would be a great idea'). It discusses AI (A5) but does not describe an actual interaction with an AI agent, hence I6. No value co-creation or destruction is evident (VC4). All DART dimensions are absent as the post is purely aspirational with no detail on dialogue, access, risk, or transparency.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #579: `2329784_29810436` (World of Warcraft)
+### Post #412: `2329784_29810436` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -12351,7 +9563,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #580: `2329784_29801995` (World of Warcraft)
+### Post #413: `2329784_29801995` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 3 | Transparência: 3 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -12377,7 +9589,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #581: `2329784_29802194` (World of Warcraft)
+### Post #414: `2329784_29802194` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -12403,7 +9615,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #582: `2329784_29803356` (World of Warcraft)
+### Post #415: `2329784_29803356` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -12417,7 +9629,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #583: `2329784_29802023` (World of Warcraft)
+### Post #416: `2329784_29802023` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -12439,7 +9651,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #584: `472014_2648389` (EVE Online)
+### Post #417: `472014_2648389` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -12457,7 +9669,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #585: `2329784_29802497` (World of Warcraft)
+### Post #418: `2329784_29802497` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 1 | Transparência: 2 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -12483,7 +9695,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #586: `2329784_29801983` (World of Warcraft)
+### Post #419: `2329784_29801983` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I1** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -12505,18 +9717,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #587: `1880836_24040183` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post is a question asking about the use of ChatGPT or Perplexity to help write addons. It discusses AI tools (A5) but does not describe an actual interaction with an AI agent. The interaction is human-to-human about AI (I4). No value co-creation or destruction is evident (VC4). DART dimensions are all absent as the post is a simple inquiry without substantive content.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #588: `2329784_29802867` (World of Warcraft)
+### Post #420: `2329784_29802867` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 4 | Risco: 0 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -12538,18 +9739,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #589: `472014_2656258` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post is a speculative suggestion about letting an AI roleplay as a Triglavian in EVE Online. It does not describe an actual interaction with an AI agent, but rather discusses a hypothetical AI implementation. Therefore, it is classified as A5 (Discussion About AI). Since no actual interaction occurs, it is I6 (No meaningful interaction). No value co-creation or destruction is evident, so VC4. The DART dimensions are all absent because the post is a brief suggestion without details on dialogue, access, risk, or transparency. Human review is flagged due to the speculative nature and lack of context.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #590: `2329784_29802566` (World of Warcraft)
+### Post #421: `2329784_29802566` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC1** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 4 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -12574,7 +9764,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #591: `2329784_29809924` (World of Warcraft)
+### Post #422: `2329784_29809924` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 2 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -12596,7 +9786,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #592: `2329784_29802019` (World of Warcraft)
+### Post #423: `2329784_29802019` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I1** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -12622,7 +9812,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #593: `2329784_29802602` (World of Warcraft)
+### Post #424: `2329784_29802602` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 3 | Transparência: 2 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -12644,7 +9834,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #594: `472014_2649684` (EVE Online)
+### Post #425: `472014_2649684` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 0 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -12666,7 +9856,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #595: `472014_2648026` (EVE Online)
+### Post #426: `472014_2648026` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -12688,18 +9878,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #596: `1880836_24040501` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post is a brief comment on a thread about using ChatGPT or Perplexity to write addons. The author states that samples from people who tried are 'terrible'. This is a discussion about AI (A5) rather than an actual interaction with an AI agent. The interaction is human-to-human about AI (I4). The comment expresses a negative evaluation of AI-generated addon code, but does not describe a specific value co-creation or co-destruction event, so VC4 is assigned. DART dimensions are all absent as the post provides no evidence of dialogue, access, risk, or transparency. Human review is flagged due to the brevity and lack of context, and the possibility of sarcasm or irony in the comment.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #597: `2329784_29810515` (World of Warcraft)
+### Post #427: `2329784_29810515` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
@@ -12713,7 +9892,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #598: `472014_2648559` (EVE Online)
+### Post #428: `472014_2648559` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -12735,7 +9914,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #599: `2329784_29803645` (World of Warcraft)
+### Post #429: `2329784_29803645` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 1 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -12761,7 +9940,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #600: `1880836_24060803` (World of Warcraft)
+### Post #430: `1880836_24060803` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -12779,7 +9958,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #601: `2329784_29809721` (World of Warcraft)
+### Post #431: `2329784_29809721` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 4 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -12805,7 +9984,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #602: `1880836_24079096` (World of Warcraft)
+### Post #432: `1880836_24079096` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I1** | Valor: **VC1** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 3 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -12823,7 +10002,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #603: `reddit_1ql5f05_9` (World of Warcraft)
+### Post #433: `reddit_1ql5f05_9` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 9 | Nível de Confiança: 1 | Edições: 1
@@ -12841,7 +10020,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #604: `1880836_24082938` (World of Warcraft)
+### Post #434: `1880836_24082938` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -12859,7 +10038,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #605: `1880836_24134254` (World of Warcraft)
+### Post #435: `1880836_24134254` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I1** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 0 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -12881,7 +10060,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #606: `reddit_1ql5f05_1` (World of Warcraft)
+### Post #436: `reddit_1ql5f05_1` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 4 | Transparência: 4 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 808 | Nível de Confiança: 1 | Edições: 1
@@ -12899,7 +10078,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #607: `reddit_1ql5f05_82` (World of Warcraft)
+### Post #437: `reddit_1ql5f05_82` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -12921,7 +10100,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #608: `reddit_1ql5f05_5` (World of Warcraft)
+### Post #438: `reddit_1ql5f05_5` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -12943,7 +10122,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #609: `reddit_1ql5f05_25` (World of Warcraft)
+### Post #439: `reddit_1ql5f05_25` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 4 | Transparência: 3 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 16 | Nível de Confiança: 1 | Edições: 1
@@ -12961,7 +10140,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #610: `reddit_1ariy3g_6` (World of Warcraft)
+### Post #440: `reddit_1ariy3g_6` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 71 | Nível de Confiança: 1 | Edições: 1
@@ -12975,7 +10154,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #611: `reddit_1ql5f05_44` (World of Warcraft)
+### Post #441: `reddit_1ql5f05_44` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I1** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 3 | Risco: 1 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 3 | Nível de Confiança: 1 | Edições: 1
@@ -13001,7 +10180,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #612: `reddit_1ariy3g_3` (World of Warcraft)
+### Post #442: `reddit_1ariy3g_3` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 19 | Nível de Confiança: 1 | Edições: 1
@@ -13019,7 +10198,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #613: `reddit_1usj0hv_4` (World of Warcraft)
+### Post #443: `reddit_1usj0hv_4` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -13033,7 +10212,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #614: `reddit_1ariy3g_5` (World of Warcraft)
+### Post #444: `reddit_1ariy3g_5` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 4 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -13051,7 +10230,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #615: `reddit_1ql5f05_81` (World of Warcraft)
+### Post #445: `reddit_1ql5f05_81` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -13073,7 +10252,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #616: `reddit_1ql5f05_55` (World of Warcraft)
+### Post #446: `reddit_1ql5f05_55` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 6 | Nível de Confiança: 1 | Edições: 1
@@ -13087,7 +10266,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #617: `reddit_1usj0hv_6` (World of Warcraft)
+### Post #447: `reddit_1usj0hv_6` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -13101,7 +10280,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #618: `reddit_1ariy3g_9` (World of Warcraft)
+### Post #448: `reddit_1ariy3g_9` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 40 | Nível de Confiança: 1 | Edições: 1
@@ -13123,7 +10302,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #619: `reddit_1ql5f05_85` (World of Warcraft)
+### Post #449: `reddit_1ql5f05_85` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I3** | Valor: **VC1** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 4 | Risco: 1 | Transparência: 5 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -13148,7 +10327,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #620: `reddit_1ql5f05_28` (World of Warcraft)
+### Post #450: `reddit_1ql5f05_28` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -13169,7 +10348,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #621: `reddit_1ariy3g_26` (World of Warcraft)
+### Post #451: `reddit_1ariy3g_26` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -13191,7 +10370,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #622: `reddit_1ariy3g_20` (World of Warcraft)
+### Post #452: `reddit_1ariy3g_20` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 7 | Nível de Confiança: 1 | Edições: 1
@@ -13213,7 +10392,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #623: `reddit_1usj0hv_11` (World of Warcraft)
+### Post #453: `reddit_1usj0hv_11` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -13231,7 +10410,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #624: `reddit_1ariy3g_29` (World of Warcraft)
+### Post #454: `reddit_1ariy3g_29` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -13257,18 +10436,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #625: `reddit_1usj0hv_18` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** The post is a brief comment agreeing with another user's point about AI labs and games as data sources. It discusses AI in a general, abstract sense (A5) but does not describe any actual interaction with an AI agent, bot, or script. There is no evidence of a human-AI interaction (I6), no value co-creation or destruction (VC4), and no DART dimensions are present. The content is tangential to the research question about human-AI interactions in the game ecosystem.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #626: `reddit_1ariy3g_23` (World of Warcraft)
+### Post #455: `reddit_1ariy3g_23` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -13290,7 +10458,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #627: `reddit_1usj0hv_1` (World of Warcraft)
+### Post #456: `reddit_1usj0hv_1` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -13308,7 +10476,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #628: `reddit_1usj0hv_12` (World of Warcraft)
+### Post #457: `reddit_1usj0hv_12` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -13330,7 +10498,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #629: `516630_2919437` (EVE Online)
+### Post #458: `516630_2919437` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -13348,7 +10516,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #630: `reddit_1ql5f05_84` (World of Warcraft)
+### Post #459: `reddit_1ql5f05_84` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I1** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -13374,7 +10542,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #631: `reddit_1ariy3g_7` (World of Warcraft)
+### Post #460: `reddit_1ariy3g_7` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 12 | Nível de Confiança: 1 | Edições: 1
@@ -13396,29 +10564,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #632: `reddit_1usj0hv_17` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** The post is a discussion about AI research using EVE Online as a testbed, not about World of Warcraft or any actual human-AI interaction in a game. The author discusses hypothetical AI agents and their training, but no actual interaction with an AI agent is described. Classified as A5 (Discussion About AI) because the post discusses AI concepts without describing an actual AI agent interaction. Interaction type is I6 (No meaningful interaction) as no human-AI interaction occurs. Value type is VC4 (No evidence of value creation/destruction) as the discussion is purely hypothetical and no value consequence is identified. All DART dimensions are scored 0 as the post contains no evidence of dialogue, access, risk, or transparency related to an actual interaction.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #633: `511854_2878256` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** The post text is a brief comment about multiboxed fleets in EVE Online, comparing current norms to those of 10+ years ago. It does not mention AI, bots, scripts, or any form of automation. The term 'multiboxed' refers to a player controlling multiple accounts simultaneously, which is a manual practice and not an AI agent. There is no evidence of any human-AI interaction, value co-creation, or DART dimensions. The content is unrelated to the research question about human-AI interactions.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #634: `516630_2921990` (EVE Online)
+### Post #461: `516630_2921990` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -13432,7 +10578,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #635: `513384_2890009` (EVE Online)
+### Post #462: `513384_2890009` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -13446,7 +10592,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #636: `516630_2922981` (EVE Online)
+### Post #463: `516630_2922981` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 4
@@ -13468,7 +10614,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #637: `516630_2923458` (EVE Online)
+### Post #464: `516630_2923458` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 2
@@ -13486,7 +10632,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #638: `516630_2923297` (EVE Online)
+### Post #465: `516630_2923297` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -13504,7 +10650,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #639: `reddit_1vdomcq_4` (World of Warcraft)
+### Post #466: `reddit_1vdomcq_4` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I1** | Valor: **VC1** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 4 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 3 | Nível de Confiança: 1 | Edições: 1
@@ -13529,7 +10675,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #640: `516630_2923305` (EVE Online)
+### Post #467: `516630_2923305` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -13547,7 +10693,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #641: `reddit_1vdomcq_6` (World of Warcraft)
+### Post #468: `reddit_1vdomcq_6` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -13561,7 +10707,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #642: `510765_2870135` (EVE Online)
+### Post #469: `510765_2870135` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -13575,7 +10721,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #643: `reddit_1vdomcq_9` (World of Warcraft)
+### Post #470: `reddit_1vdomcq_9` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -13593,7 +10739,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #644: `516630_2923817` (EVE Online)
+### Post #471: `516630_2923817` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 3 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -13615,7 +10761,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #645: `reddit_1vdomcq_1` (World of Warcraft)
+### Post #472: `reddit_1vdomcq_1` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I1** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 4 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -13641,7 +10787,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #646: `510765_2870228` (EVE Online)
+### Post #473: `510765_2870228` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -13659,7 +10805,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #647: `511854_2877889` (EVE Online)
+### Post #474: `511854_2877889` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 0 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -13677,7 +10823,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #648: `reddit_1vdomcq_11` (World of Warcraft)
+### Post #475: `reddit_1vdomcq_11` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 3 | Nível de Confiança: 1 | Edições: 1
@@ -13699,7 +10845,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #649: `reddit_1phwb0r_5` (World of Warcraft)
+### Post #476: `reddit_1phwb0r_5` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 3 | Nível de Confiança: 1 | Edições: 1
@@ -13717,7 +10863,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #650: `510765_2869711` (EVE Online)
+### Post #477: `510765_2869711` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 1 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -13735,7 +10881,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #651: `508912_2857609` (EVE Online)
+### Post #478: `508912_2857609` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -13757,7 +10903,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #652: `reddit_1v3v2p2_1` (World of Warcraft)
+### Post #479: `reddit_1v3v2p2_1` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC1** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 5 | Acesso: 4 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -13783,7 +10929,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #653: `reddit_1pftbpi_9` (World of Warcraft)
+### Post #480: `reddit_1pftbpi_9` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I2** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 3 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 4 | Nível de Confiança: 1 | Edições: 1
@@ -13805,7 +10951,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #654: `486758_2719765` (EVE Online)
+### Post #481: `486758_2719765` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 3 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -13823,7 +10969,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #655: `513384_2889848` (EVE Online)
+### Post #482: `513384_2889848` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 5 | Risco: 2 | Transparência: 4 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 3
@@ -13849,7 +10995,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #656: `reddit_1pftbpi_12` (World of Warcraft)
+### Post #483: `reddit_1pftbpi_12` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -13874,7 +11020,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #657: `reddit_1pftbpi_14` (World of Warcraft)
+### Post #484: `reddit_1pftbpi_14` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: -8 | Nível de Confiança: 1 | Edições: 1
@@ -13900,7 +11046,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #658: `511854_2877894` (EVE Online)
+### Post #485: `511854_2877894` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 1 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -13926,7 +11072,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #659: `reddit_1pftbpi_19` (World of Warcraft)
+### Post #486: `reddit_1pftbpi_19` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -13940,18 +11086,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #660: `reddit_1pftbpi_25` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 12 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** The post is a brief comment expressing interest in the thread's topic about an AI copilot. It does not describe any direct interaction with an AI agent, nor does it provide evidence of AI use or autonomy. The user is discussing the AI concept (A5) and engaging in human-to-human discussion about it (I4). No value co-creation or destruction is evident (VC4). DART dimensions are absent due to lack of substantive content. Confidence is moderate due to brevity and reliance on thread context; flagged for human review.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #661: `reddit_1pftbpi_15` (World of Warcraft)
+### Post #487: `reddit_1pftbpi_15` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 2 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -13969,7 +11104,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #662: `reddit_1pftbpi_24` (World of Warcraft)
+### Post #488: `reddit_1pftbpi_24` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 5 | Nível de Confiança: 1 | Edições: 1
@@ -13983,29 +11118,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #663: `reddit_1pftbpi_22` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 5 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** This post is a brief reply from the original author (Player_1182) to a comment on their thread about fine-tuning 'Aura' as an AI copilot. The text itself ('Happy you like it! Ill keep posting updates as it progresses :)') contains no direct evidence of an AI agent interaction, value co-creation, or DART dimensions. The classification relies on the thread context (title mentions AI copilot), but the post content is purely conversational and lacks substantive detail. AI type is inferred as A5 (Discussion About AI) because the post references the AI project but does not describe an actual interaction. Interaction is I6 (No meaningful interaction) as no interaction with the AI is described. Value is VC4 (No evidence) as no value consequence is identified. Human review is flagged due to low confidence in relevance and reliance on context rather than post text.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #664: `reddit_1pftbpi_32` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** The post is a comment on a thread about an AI copilot in WoW. The author expresses appreciation for AI experimentation and quotes a common saying about AI progress. There is no direct interaction with an AI agent described; the author is commenting on the general topic. Therefore, ai_type is A5 (Discussion About AI) and interaction_type is I4 (Human → Human about AI). No value co-creation or destruction is evident, so value_type is VC4. The DART dimensions are all absent as the comment contains no substantive engagement with dialogue, access, risk, or transparency. Human review is flagged due to moderate confidence in relevance and the brevity/context-dependence of the comment.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #665: `516433_2913324` (EVE Online)
+### Post #489: `516433_2913324` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 5 | Risco: 2 | Transparência: 3 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -14027,7 +11140,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #666: `505326_2829928` (EVE Online)
+### Post #490: `505326_2829928` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -14041,7 +11154,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #667: `505326_2829832` (EVE Online)
+### Post #491: `505326_2829832` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I1** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -14063,7 +11176,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #668: `reddit_1pftbpi_29` (World of Warcraft)
+### Post #492: `reddit_1pftbpi_29` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -14081,18 +11194,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #669: `reddit_1pftbpi_35` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: -1 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** The post is a comment on a thread about an AI copilot (Aura). The author praises the work and suggests CCP (likely a reference to a game developer, possibly confusing with Eve Online's CCP, but in context of WoW it's ambiguous) implement something similar. The author does not describe any direct interaction with an AI agent themselves; they are commenting on the concept. Therefore, ai_type is A5 (Discussion About AI) as the post discusses AI but does not describe an actual AI agent interaction by the author. Interaction is I4 (Human → Human about AI) as the author is communicating with another human about the AI. No value co-creation or destruction is evident from this brief comment, so VC4. DART dimensions are all absent as the comment does not engage with dialogue, access, risk, or transparency aspects. Human review is flagged due to moderate confidence in relevance and the ambiguity of the CCP reference.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #670: `reddit_1pftbpi_1` (World of Warcraft)
+### Post #493: `reddit_1pftbpi_1` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC1** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 5 | Acesso: 5 | Risco: 2 | Transparência: 3 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 49 | Nível de Confiança: 1 | Edições: 1
@@ -14118,7 +11220,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #671: `reddit_1phwb0r_1` (World of Warcraft)
+### Post #494: `reddit_1phwb0r_1` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 3 | Risco: 1 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -14144,7 +11246,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #672: `reddit_1d8nm29_1` (World of Warcraft)
+### Post #495: `reddit_1d8nm29_1` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 24 | Nível de Confiança: 1 | Edições: 1
@@ -14158,7 +11260,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #673: `reddit_1d8nm29_4` (World of Warcraft)
+### Post #496: `reddit_1d8nm29_4` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 27 | Nível de Confiança: 1 | Edições: 1
@@ -14176,7 +11278,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #674: `505326_2830182` (EVE Online)
+### Post #497: `505326_2830182` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 3 | Risco: 4 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -14201,7 +11303,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #675: `2255873_28894189` (World of Warcraft)
+### Post #498: `2255873_28894189` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -14219,7 +11321,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #676: `2255873_28894198` (World of Warcraft)
+### Post #499: `2255873_28894198` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -14243,7 +11345,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #677: `2255873_28894449` (World of Warcraft)
+### Post #500: `2255873_28894449` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -14261,7 +11363,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #678: `2255873_28894436` (World of Warcraft)
+### Post #501: `2255873_28894436` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -14279,7 +11381,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #679: `2255873_28894459` (World of Warcraft)
+### Post #502: `2255873_28894459` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -14303,7 +11405,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #680: `reddit_1rnbqbh_7` (World of Warcraft)
+### Post #503: `reddit_1rnbqbh_7` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: -2 | Nível de Confiança: 1 | Edições: 1
@@ -14321,7 +11423,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #681: `2255873_28894237` (World of Warcraft)
+### Post #504: `2255873_28894237` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -14343,7 +11445,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #682: `2255873_28894283` (World of Warcraft)
+### Post #505: `2255873_28894283` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -14365,7 +11467,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #683: `505326_2830189` (EVE Online)
+### Post #506: `505326_2830189` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I3** | Valor: **VC1** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 4 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -14389,7 +11491,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #684: `reddit_1d8nm29_7` (World of Warcraft)
+### Post #507: `reddit_1d8nm29_7` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 3 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 6 | Nível de Confiança: 1 | Edições: 1
@@ -14415,7 +11517,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #685: `2138224_27354342` (World of Warcraft)
+### Post #508: `2138224_27354342` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 3 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 1
@@ -14437,7 +11539,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #686: `2255873_28894248` (World of Warcraft)
+### Post #509: `2255873_28894248` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -14459,7 +11561,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #687: `2255873_28894263` (World of Warcraft)
+### Post #510: `2255873_28894263` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 2 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 2
@@ -14477,7 +11579,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #688: `reddit_1rnbqbh_1` (World of Warcraft)
+### Post #511: `reddit_1rnbqbh_1` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 3 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -14491,7 +11593,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #689: `2255873_28894152` (World of Warcraft)
+### Post #512: `2255873_28894152` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 4 | Transparência: 2 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -14513,7 +11615,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #690: `498018_2777110` (EVE Online)
+### Post #513: `498018_2777110` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 3 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -14539,7 +11641,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #691: `reddit_1d8nm29_15` (World of Warcraft)
+### Post #514: `reddit_1d8nm29_15` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC1** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 5 | Acesso: 4 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -14564,7 +11666,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #692: `2255873_28894869` (World of Warcraft)
+### Post #515: `2255873_28894869` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -14582,7 +11684,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #693: `2255873_28895951` (World of Warcraft)
+### Post #516: `2255873_28895951` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 3 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -14596,7 +11698,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #694: `506398_2837103` (EVE Online)
+### Post #517: `506398_2837103` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A3** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 3 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 1
@@ -14618,18 +11720,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #695: `2255873_28897187` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post is a speculative discussion about the potential introduction of AI (specifically CoPilot and general AI) into WoW through add-ons. It does not describe an actual interaction with an AI agent, nor does it present evidence of an existing AI system. Therefore, it is classified as A5 (Discussion About AI). No direct human-AI interaction is described, so interaction type is I6 (No meaningful interaction). No value co-creation or destruction is evident, so value type is VC4. The post is relevant to the broader topic of AI in WoW but does not describe an actual interaction, hence 'POSSIBLY RELEVANT'.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #696: `2255873_28895085` (World of Warcraft)
+### Post #518: `2255873_28895085` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -14643,7 +11734,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #697: `505326_2830162` (EVE Online)
+### Post #519: `505326_2830162` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I1** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -14665,7 +11756,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #698: `2255873_28897710` (World of Warcraft)
+### Post #520: `2255873_28897710` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -14683,7 +11774,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #699: `2255873_28895612` (World of Warcraft)
+### Post #521: `2255873_28895612` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -14701,7 +11792,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #700: `2255873_28895765` (World of Warcraft)
+### Post #522: `2255873_28895765` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -14723,7 +11814,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #701: `2255873_28897939` (World of Warcraft)
+### Post #523: `2255873_28897939` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -14741,7 +11832,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #702: `reddit_1r1dd9i_32` (World of Warcraft)
+### Post #524: `reddit_1r1dd9i_32` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I1** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 2 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: -34 | Nível de Confiança: 1 | Edições: 1
@@ -14759,7 +11850,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #703: `500312_2794004` (EVE Online)
+### Post #525: `500312_2794004` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I1** | Valor: **VC1** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 4 | Risco: 0 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -14781,7 +11872,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #704: `500312_2794216` (EVE Online)
+### Post #526: `500312_2794216` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -14807,7 +11898,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #705: `reddit_1r1dd9i_29` (World of Warcraft)
+### Post #527: `reddit_1r1dd9i_29` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 5 | Nível de Confiança: 1 | Edições: 1
@@ -14829,7 +11920,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #706: `reddit_1r1dd9i_11` (World of Warcraft)
+### Post #528: `reddit_1r1dd9i_11` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -14847,7 +11938,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #707: `reddit_1r1dd9i_19` (World of Warcraft)
+### Post #529: `reddit_1r1dd9i_19` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -14865,7 +11956,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #708: `2345875_29999802` (World of Warcraft)
+### Post #530: `2345875_29999802` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -14883,7 +11974,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #709: `2345875_29999122` (World of Warcraft)
+### Post #531: `2345875_29999122` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I1** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 4 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -14905,7 +11996,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #710: `2345875_29999811` (World of Warcraft)
+### Post #532: `2345875_29999811` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I3** | Valor: **VC3** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 2 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -14929,7 +12020,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #711: `2345875_29999728` (World of Warcraft)
+### Post #533: `2345875_29999728` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 2 | Transparência: 3 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -14951,7 +12042,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #712: `2345875_29999699` (World of Warcraft)
+### Post #534: `2345875_29999699` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I1** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 3 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -14977,7 +12068,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #713: `2345875_29999913` (World of Warcraft)
+### Post #535: `2345875_29999913` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -14991,7 +12082,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #714: `2345875_29999125` (World of Warcraft)
+### Post #536: `2345875_29999125` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I5** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 3 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -15013,7 +12104,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #715: `500312_2794186` (EVE Online)
+### Post #537: `500312_2794186` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -15039,7 +12130,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #716: `2345875_29999990` (World of Warcraft)
+### Post #538: `2345875_29999990` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -15057,7 +12148,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #717: `2345875_30000018` (World of Warcraft)
+### Post #539: `2345875_30000018` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -15082,7 +12173,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #718: `reddit_1r3mzvw_17` (World of Warcraft)
+### Post #540: `reddit_1r3mzvw_17` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -15096,7 +12187,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #719: `2345875_30000674` (World of Warcraft)
+### Post #541: `2345875_30000674` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -15114,7 +12205,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #720: `2345875_30000664` (World of Warcraft)
+### Post #542: `2345875_30000664` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I1** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 2 | Risco: 2 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -15136,7 +12227,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #721: `2345875_29999979` (World of Warcraft)
+### Post #543: `2345875_29999979` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC1** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 5 | Acesso: 4 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -15162,7 +12253,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #722: `reddit_1r1dd9i_28` (World of Warcraft)
+### Post #544: `reddit_1r1dd9i_28` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: -1 | Nível de Confiança: 1 | Edições: 1
@@ -15188,7 +12279,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #723: `2345875_30000488` (World of Warcraft)
+### Post #545: `2345875_30000488` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 3 | Risco: 1 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -15213,7 +12304,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #724: `2345875_30000040` (World of Warcraft)
+### Post #546: `2345875_30000040` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 3 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -15235,7 +12326,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #725: `2345875_30001123` (World of Warcraft)
+### Post #547: `2345875_30001123` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -15257,7 +12348,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #726: `2345875_30000620` (World of Warcraft)
+### Post #548: `2345875_30000620` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -15279,7 +12370,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #727: `2345875_30001954` (World of Warcraft)
+### Post #549: `2345875_30001954` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -15301,7 +12392,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #728: `509113_2856632` (EVE Online)
+### Post #550: `509113_2856632` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -15323,7 +12414,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #729: `509113_2856688` (EVE Online)
+### Post #551: `509113_2856688` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 3 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -15345,7 +12436,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #730: `509113_2857464` (EVE Online)
+### Post #552: `509113_2857464` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 3 | Transparência: 2 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -15367,7 +12458,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #731: `509113_2857475` (EVE Online)
+### Post #553: `509113_2857475` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -15385,7 +12476,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #732: `509113_2856589` (EVE Online)
+### Post #554: `509113_2856589` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 4 | Transparência: 4 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 2
@@ -15407,21 +12498,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #733: `2053425_26196782` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** Bots will list 1 item at a super low price and snipe people that list a ton for that price. Be careful.
-
-**Dimensões DART Analisadas:**
-- **Risco (Ativo):**
-  - *Evidência Literal:* "Bots will list 1 item at a super low price and snipe people that list a ton for that price. Be careful."
-  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-
----
-
-### Post #734: `reddit_1sq7b1r_1` (World of Warcraft)
+### Post #555: `reddit_1sq7b1r_1` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 4 | Risco: 4 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -15447,7 +12524,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #735: `509113_2857598` (EVE Online)
+### Post #556: `509113_2857598` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 3 | Transparência: 3 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 4
@@ -15469,43 +12546,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #736: `2053425_26197101` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** anyone who sees 1 item for much lower than the rest should report that person because 99% of the time it’s a bot
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "so like whats happeneing already?"
-  - *Interpretação Teórica:* Score 1/5 (conf 0.80)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "the new auction house doesn’t really change anything if you’re already using auctionator"
-  - *Interpretação Teórica:* Score 1/5 (conf 0.80)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-- **Risco (Ativo):**
-  - *Evidência Literal:* "anyone who sees 1 item for much lower than the rest should report that person because 99% of the time it’s a bot"
-  - *Interpretação Teórica:* Score 2/5 (conf 0.85)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-
----
-
-### Post #737: `2053425_26196997` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** Bots will list 1 item at a super low price and snipe people that list a ton for that price. Be careful.
-
-**Dimensões DART Analisadas:**
-- **Risco (Ativo):**
-  - *Evidência Literal:* "Bots will list 1 item at a super low price and snipe people that list a ton for that price. Be careful."
-  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
-  - *Contexto no Jogo:* World of Warcraft Fórum Blizzard
-
----
-
-### Post #738: `2345875_30000160` (World of Warcraft)
+### Post #557: `2345875_30000160` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 5 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -15527,7 +12568,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #739: `2053425_26206512` (World of Warcraft)
+### Post #558: `2053425_26206512` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -15549,7 +12590,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #740: `509113_2857750` (EVE Online)
+### Post #559: `509113_2857750` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 3 | Transparência: 2 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -15571,7 +12612,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #741: `2053425_26213064` (World of Warcraft)
+### Post #560: `2053425_26213064` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -15593,7 +12634,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #742: `reddit_1vy3jwo_10` (World of Warcraft)
+### Post #561: `reddit_1vy3jwo_10` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -15618,7 +12659,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #743: `reddit_1vy3jwo_2` (World of Warcraft)
+### Post #562: `reddit_1vy3jwo_2` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I4** | Valor: **VC1** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -15640,7 +12681,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #744: `reddit_1vy3jwo_5` (World of Warcraft)
+### Post #563: `reddit_1vy3jwo_5` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -15662,7 +12703,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #745: `reddit_1vy3jwo_4` (World of Warcraft)
+### Post #564: `reddit_1vy3jwo_4` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 4 | Risco: 1 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: -1 | Nível de Confiança: 1 | Edições: 1
@@ -15688,7 +12729,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #746: `2345875_30001592` (World of Warcraft)
+### Post #565: `2345875_30001592` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 3 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -15710,7 +12751,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #747: `reddit_1vy3jwo_9` (World of Warcraft)
+### Post #566: `reddit_1vy3jwo_9` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -15732,7 +12773,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #748: `reddit_1vy3jwo_1` (World of Warcraft)
+### Post #567: `reddit_1vy3jwo_1` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC1** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 5 | Acesso: 5 | Risco: 4 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -15758,7 +12799,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #749: `509113_2856608` (EVE Online)
+### Post #568: `509113_2856608` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 4 | Transparência: 4 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -15784,7 +12825,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #750: `2323925_29722533` (World of Warcraft)
+### Post #569: `2323925_29722533` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A3** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 4 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -15798,29 +12839,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #751: `1eoyf2u_6` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** The post title references 'Llmaichatgpt' (likely a typo for LLM/ChatGPT) and the text suggests adding 'interface interactions' in-game. This is a speculative suggestion about integrating AI into the game, not a description of an actual AI agent interaction. Therefore, it is classified as A5 (Discussion About AI). No direct human-AI interaction is described, so interaction type is I6 (No meaningful interaction). No value co-creation or destruction is evident, so VC4. DART dimensions are all absent. Human review is flagged due to the brevity and ambiguity of the post, and the unclear nature of the proposed AI integration.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #752: `1w4y0sn_7` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 3 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** The post discusses the pacing of EVE Online and compares it to another game (Frontier), mentioning multiboxing as a gameplay strategy. There is no mention of AI, bots, scripts, or any automated system. The term 'multiboxing' refers to a human player controlling multiple accounts simultaneously, which is not an AI agent interaction. Therefore, the content is classified as A6 (Irrelevant) with no meaningful interaction (I6) and no evidence of value co-creation or destruction (VC4). All DART dimensions are scored 0 as no relevant evidence exists.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #753: `1uqtdhy_6` (EVE Online)
+### Post #570: `1uqtdhy_6` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 4 | Nível de Confiança: 1 | Edições: 1
@@ -15834,21 +12853,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #754: `1upzjbr_17` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: -2 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** boxers will fill all slots in match to guarantee sweep all containers on map
-
-**Dimensões DART Analisadas:**
-- **Risco (Ativo):**
-  - *Evidência Literal:* "boxers will fill all slots in match to guarantee sweep all containers on map"
-  - *Interpretação Teórica:* Score 1/5 (conf 0.85)
-  - *Contexto no Jogo:* EVE Online r/Eve
-
----
-
-### Post #755: `1821486_23275487` (World of Warcraft)
+### Post #571: `1821486_23275487` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -15866,7 +12871,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #756: `1s9et4k_52` (World of Warcraft)
+### Post #572: `1s9et4k_52` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I2** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -15884,7 +12889,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #757: `1ofu78l_18` (EVE Online)
+### Post #573: `1ofu78l_18` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 2 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 5 | Nível de Confiança: 1 | Edições: 1
@@ -15906,7 +12911,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #758: `1ofu78l_14` (EVE Online)
+### Post #574: `1ofu78l_14` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 14 | Nível de Confiança: 1 | Edições: 1
@@ -15932,7 +12937,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #759: `1tyovbz_7` (EVE Online)
+### Post #575: `1tyovbz_7` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 4 | Nível de Confiança: 1 | Edições: 1
@@ -15950,7 +12955,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #760: `1uqtdhy_10` (EVE Online)
+### Post #576: `1uqtdhy_10` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A3** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 3 | Nível de Confiança: 1 | Edições: 1
@@ -15964,7 +12969,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #761: `1eoyf2u_1` (World of Warcraft)
+### Post #577: `1eoyf2u_1` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 10 | Nível de Confiança: 1 | Edições: 1
@@ -15978,7 +12983,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #762: `2323925_29726168` (World of Warcraft)
+### Post #578: `2323925_29726168` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -16000,21 +13005,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #763: `2323925_29725472` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** These are forbidden within wow.
-
-**Dimensões DART Analisadas:**
-- **Risco (Ativo):**
-  - *Evidência Literal:* "These are forbidden within wow."
-  - *Interpretação Teórica:* Score 3/5 (conf 0.85)
-  - *Contexto no Jogo:* World of Warcraft Fórum Oficial Blizzard
-
----
-
-### Post #764: `2323925_29722615` (World of Warcraft)
+### Post #579: `2323925_29722615` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A3** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -16028,7 +13019,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #765: `2323925_29725769` (World of Warcraft)
+### Post #580: `2323925_29725769` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A3** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 3 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -16054,7 +13045,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #766: `1eoyf2u_21` (World of Warcraft)
+### Post #581: `1eoyf2u_21` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -16068,7 +13059,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #767: `1861200_23769316` (World of Warcraft)
+### Post #582: `1861200_23769316` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -16082,7 +13073,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #768: `1821486_23275450` (World of Warcraft)
+### Post #583: `1821486_23275450` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 1 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -16108,7 +13099,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #769: `1eoyf2u_20` (World of Warcraft)
+### Post #584: `1eoyf2u_20` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -16130,7 +13121,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #770: `2056975_26240673` (World of Warcraft)
+### Post #585: `2056975_26240673` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I1** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 3 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -16152,7 +13143,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #771: `1821486_23275945` (World of Warcraft)
+### Post #586: `1821486_23275945` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -16170,7 +13161,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #772: `1861200_23769294` (World of Warcraft)
+### Post #587: `1861200_23769294` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 3 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -16192,44 +13183,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #773: `2323925_29725096` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 4 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** If the addon is doing step 2 for you, that’s automation and you are at risk of an account action.
-
-**Dimensões DART Analisadas:**
-- **Diálogo (Ativo):**
-  - *Evidência Literal:* "If the addon is doing step 2 for you, that’s automation and you are at risk of an account action."
-  - *Interpretação Teórica:* Score 1/5 (conf 0.85)
-  - *Contexto no Jogo:* World of Warcraft Fórum Oficial Blizzard
-- **Acesso (Ativo):**
-  - *Evidência Literal:* "Programs that allow you to reel in when the bobber bounces without the mouse pointer on the bobber would be circumventing the process."
-  - *Interpretação Teórica:* Score 2/5 (conf 0.85)
-  - *Contexto no Jogo:* World of Warcraft Fórum Oficial Blizzard
-- **Risco (Ativo):**
-  - *Evidência Literal:* "If the addon is doing step 2 for you, that’s automation and you are at risk of an account action."
-  - *Interpretação Teórica:* Score 4/5 (conf 0.90)
-  - *Contexto no Jogo:* World of Warcraft Fórum Oficial Blizzard
-- **Transparência (Ativo):**
-  - *Evidência Literal:* "Programs that allow you to reel in when the bobber bounces without the mouse pointer on the bobber would be circumventing the process."
-  - *Interpretação Teórica:* Score 1/5 (conf 0.80)
-  - *Contexto no Jogo:* World of Warcraft Fórum Oficial Blizzard
-
----
-
-### Post #774: `2323925_29725916` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** The post discusses the use of an in-game interact keybind and clarifies that no addons or macros are involved. The author explicitly states 'There are no addons or macros involved at all. Only basic game functions being used as intended.' The thread title mentions 'addon' but the content clarifies that the interaction is purely based on standard game functions, not an AI agent, conventional bot, or script. No AI agent is present or discussed, and no human-AI interaction occurs. Therefore, classified as A6 (Irrelevant) and I6 (No meaningful interaction). No value co-creation or destruction is evident (VC4). All DART dimensions are scored 0 as no relevant evidence exists.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #775: `1tyovbz_21` (EVE Online)
+### Post #588: `1tyovbz_21` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 4 | Nível de Confiança: 1 | Edições: 1
@@ -16251,7 +13205,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #776: `471468_2644478` (EVE Online)
+### Post #589: `471468_2644478` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I1** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 3 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -16273,7 +13227,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #777: `1tyovbz_11` (EVE Online)
+### Post #590: `1tyovbz_11` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 4 | Nível de Confiança: 1 | Edições: 1
@@ -16299,7 +13253,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #778: `1eoyf2u_17` (World of Warcraft)
+### Post #591: `1eoyf2u_17` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 2 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -16325,7 +13279,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #779: `486116_2716498` (EVE Online)
+### Post #592: `486116_2716498` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 4
@@ -16347,7 +13301,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #780: `1mctiz6_9` (EVE Online)
+### Post #593: `1mctiz6_9` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 5 | Nível de Confiança: 1 | Edições: 1
@@ -16361,7 +13315,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #781: `1i6m4i6_28` (World of Warcraft)
+### Post #594: `1i6m4i6_28` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 5 | Acesso: 3 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: -5 | Nível de Confiança: 1 | Edições: 1
@@ -16387,7 +13341,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #782: `1kh1a1v_9` (EVE Online)
+### Post #595: `1kh1a1v_9` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I1** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 3 | Risco: 0 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 11 | Nível de Confiança: 1 | Edições: 1
@@ -16409,7 +13363,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #783: `1kh1a1v_6` (EVE Online)
+### Post #596: `1kh1a1v_6` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -16427,7 +13381,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #784: `1kh1a1v_5` (EVE Online)
+### Post #597: `1kh1a1v_5` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -16441,7 +13395,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #785: `1i6m4i6_90` (World of Warcraft)
+### Post #598: `1i6m4i6_90` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -16463,7 +13417,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #786: `1mctiz6_21` (EVE Online)
+### Post #599: `1mctiz6_21` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -16477,7 +13431,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #787: `1kh1a1v_10` (EVE Online)
+### Post #600: `1kh1a1v_10` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -16491,7 +13445,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #788: `2219273_28457651` (World of Warcraft)
+### Post #601: `2219273_28457651` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 3 | Transparência: 3 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -16513,7 +13467,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #789: `1udu43k_5` (EVE Online)
+### Post #602: `1udu43k_5` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 3 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -16535,7 +13489,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #790: `453174_2547937` (EVE Online)
+### Post #603: `453174_2547937` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 3 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -16553,7 +13507,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #791: `2219273_28486581` (World of Warcraft)
+### Post #604: `2219273_28486581` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -16571,7 +13525,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #792: `1sv241g_31` (World of Warcraft)
+### Post #605: `1sv241g_31` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 8 | Nível de Confiança: 1 | Edições: 1
@@ -16589,7 +13543,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #793: `1t01k13_12` (EVE Online)
+### Post #606: `1t01k13_12` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 21 | Nível de Confiança: 1 | Edições: 1
@@ -16603,7 +13557,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #794: `1t01k13_23` (EVE Online)
+### Post #607: `1t01k13_23` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 4 | Nível de Confiança: 1 | Edições: 1
@@ -16617,18 +13571,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #795: `1tkscsd_32` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** The post mentions 'ai generated addons' but does not describe an actual interaction with an AI agent. The author is discussing AI-generated addons found in a gallery, which is a discussion about AI rather than a direct interaction. The URLs are anonymized and no further context is provided. The post is classified as A5 (Discussion About AI) because it references AI but lacks evidence of an actual AI agent interaction. Interaction is I4 (Human → Human about AI) as the author is sharing findings with other humans. No value co-creation or destruction is evident from the text alone, so VC4 is assigned. DART dimensions are all scored 0 due to lack of evidence in the text. Human review is required due to the anonymized URLs and lack of context, which limits confidence in the classification.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #796: `2219273_28457664` (World of Warcraft)
+### Post #608: `2219273_28457664` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -16654,7 +13597,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #797: `1tkscsd_11` (World of Warcraft)
+### Post #609: `1tkscsd_11` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 8 | Nível de Confiança: 1 | Edições: 1
@@ -16672,7 +13615,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #798: `1t01k13_19` (EVE Online)
+### Post #610: `1t01k13_19` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 7 | Nível de Confiança: 1 | Edições: 1
@@ -16690,7 +13633,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #799: `1t01k13_42` (EVE Online)
+### Post #611: `1t01k13_42` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 4 | Nível de Confiança: 1 | Edições: 1
@@ -16704,7 +13647,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #800: `1t01k13_25` (EVE Online)
+### Post #612: `1t01k13_25` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 10 | Nível de Confiança: 1 | Edições: 1
@@ -16722,29 +13665,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #801: `764058062403225972_15` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** The post discusses multi-accounting ('boxing') in EVE Online, focusing on manual gameplay mechanics, reaction delays, and the use of hotkeys or tools like Eve-O Preview to switch between accounts. It mentions 'input broadcasting' as a ToS-violating cheat but does not describe any AI agent, conventional bot, or script. The discussion is about human players managing multiple accounts manually, not about AI agents or human-AI interaction. Therefore, it is classified as A6 (Irrelevant) with no meaningful interaction (I6) and no value co-creation evidence (VC4).
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #802: `1twaq1l_11` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 8 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** The post text contains only an anonymized URL with no accessible content. The title mentions 'Ai Bot' but without the post body or linked content, there is insufficient evidence to classify the AI type, interaction, or value co-creation. All classifications are set to the lowest confidence and flagged for human review due to missing context.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #803: `2219273_28486448` (World of Warcraft)
+### Post #613: `2219273_28486448` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -16766,7 +13687,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #804: `1t01k13_21` (EVE Online)
+### Post #614: `1t01k13_21` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 15 | Nível de Confiança: 1 | Edições: 1
@@ -16792,7 +13713,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #805: `1twaq1l_3` (EVE Online)
+### Post #615: `1twaq1l_3` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 11 | Nível de Confiança: 1 | Edições: 1
@@ -16810,7 +13731,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #806: `1twaq1l_5` (EVE Online)
+### Post #616: `1twaq1l_5` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -16832,18 +13753,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #807: `1twaq1l_9` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 7 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** The post is a brief, sarcastic comment referencing 'clankers' (a derogatory term for AI/bots) and their training on Reddit. It discusses AI agents in a general sense but does not describe a specific interaction with an AI agent. The term 'clankers' and the reference to training suggest AI, but the comment is too vague to confirm an actual AI agent interaction. Therefore, it is classified as A5 (Discussion About AI) with moderate confidence. The interaction is I4 (Human → Human about AI) as the author is commenting to other humans about AI behavior. No value co-creation or destruction is evident, so VC4 is assigned. DART dimensions are all scored 0 as the comment lacks substantive content on dialogue, access, risk, or transparency. Human review is flagged due to the sarcastic tone and ambiguity regarding the specific AI context.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #808: `484953_2711799` (EVE Online)
+### Post #617: `484953_2711799` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -16865,7 +13775,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #809: `2152188_27512171` (World of Warcraft)
+### Post #618: `2152188_27512171` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I1** | Valor: **VC3** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 2 | Risco: 2 | Transparência: 4 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -16891,7 +13801,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #810: `515483_2906301` (EVE Online)
+### Post #619: `515483_2906301` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A3** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 3 | Risco: 1 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 9
@@ -16913,7 +13823,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #811: `453504_2553666` (EVE Online)
+### Post #620: `453504_2553666` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
@@ -16931,7 +13841,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #812: `1twaq1l_29` (EVE Online)
+### Post #621: `1twaq1l_29` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -16949,7 +13859,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #813: `1i6m4i6_87` (World of Warcraft)
+### Post #622: `1i6m4i6_87` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 5 | Acesso: 3 | Risco: 1 | Transparência: 2 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -16975,7 +13885,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #814: `1twaq1l_19` (EVE Online)
+### Post #623: `1twaq1l_19` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -16993,7 +13903,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #815: `1twaq1l_15` (EVE Online)
+### Post #624: `1twaq1l_15` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 14 | Nível de Confiança: 1 | Edições: 1
@@ -17019,7 +13929,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #816: `484953_2711930` (EVE Online)
+### Post #625: `484953_2711930` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 3 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 2
@@ -17041,7 +13951,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #817: `516054_2920647` (EVE Online)
+### Post #626: `516054_2920647` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -17063,7 +13973,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #818: `1gebstj_28` (World of Warcraft)
+### Post #627: `1gebstj_28` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -17085,7 +13995,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #819: `1gebstj_33` (World of Warcraft)
+### Post #628: `1gebstj_33` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -17103,7 +14013,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #820: `1gebstj_18` (World of Warcraft)
+### Post #629: `1gebstj_18` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 14 | Nível de Confiança: 1 | Edições: 1
@@ -17121,7 +14031,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #821: `1gebstj_16` (World of Warcraft)
+### Post #630: `1gebstj_16` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I1** | Valor: **VC3** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 2 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 60 | Nível de Confiança: 1 | Edições: 1
@@ -17147,7 +14057,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #822: `1gebstj_30` (World of Warcraft)
+### Post #631: `1gebstj_30` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 4 | Nível de Confiança: 1 | Edições: 1
@@ -17169,7 +14079,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #823: `1gebstj_45` (World of Warcraft)
+### Post #632: `1gebstj_45` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -17191,7 +14101,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #824: `516054_2910464` (EVE Online)
+### Post #633: `516054_2910464` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 3 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -17213,7 +14123,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #825: `1gebstj_50` (World of Warcraft)
+### Post #634: `1gebstj_50` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -17231,7 +14141,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #826: `1gebstj_36` (World of Warcraft)
+### Post #635: `1gebstj_36` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 36 | Nível de Confiança: 1 | Edições: 1
@@ -17253,7 +14163,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #827: `1gebstj_69` (World of Warcraft)
+### Post #636: `1gebstj_69` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I1** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 4 | Nível de Confiança: 1 | Edições: 1
@@ -17271,7 +14181,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #828: `1gebstj_37` (World of Warcraft)
+### Post #637: `1gebstj_37` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 12 | Nível de Confiança: 1 | Edições: 1
@@ -17293,7 +14203,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #829: `1gebstj_38` (World of Warcraft)
+### Post #638: `1gebstj_38` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I1** | Valor: **VC3** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 3 | Nível de Confiança: 1 | Edições: 1
@@ -17319,7 +14229,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #830: `1gebstj_49` (World of Warcraft)
+### Post #639: `1gebstj_49` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 0 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 5 | Nível de Confiança: 1 | Edições: 1
@@ -17337,7 +14247,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #831: `1gebstj_44` (World of Warcraft)
+### Post #640: `1gebstj_44` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 0 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -17355,7 +14265,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #832: `1gebstj_51` (World of Warcraft)
+### Post #641: `1gebstj_51` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 5 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 9 | Nível de Confiança: 1 | Edições: 1
@@ -17369,7 +14279,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #833: `2093466_26720101` (World of Warcraft)
+### Post #642: `2093466_26720101` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A3** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -17383,7 +14293,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #834: `1gebstj_68` (World of Warcraft)
+### Post #643: `1gebstj_68` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 35 | Nível de Confiança: 1 | Edições: 1
@@ -17405,7 +14315,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #835: `1gebstj_71` (World of Warcraft)
+### Post #644: `1gebstj_71` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -17427,7 +14337,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #836: `1gebstj_81` (World of Warcraft)
+### Post #645: `1gebstj_81` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 3 | Nível de Confiança: 1 | Edições: 1
@@ -17445,7 +14355,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #837: `2093466_26720858` (World of Warcraft)
+### Post #646: `2093466_26720858` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -17459,7 +14369,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #838: `2093466_26720957` (World of Warcraft)
+### Post #647: `2093466_26720957` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A3** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 3 | Risco: 4 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -17477,7 +14387,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #839: `2093466_26721327` (World of Warcraft)
+### Post #648: `2093466_26721327` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -17499,7 +14409,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #840: `483347_2704537` (EVE Online)
+### Post #649: `483347_2704537` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -17513,7 +14423,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #841: `2093466_26720969` (World of Warcraft)
+### Post #650: `2093466_26720969` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A2** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -17538,7 +14448,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #842: `513037_2887444` (EVE Online)
+### Post #651: `513037_2887444` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -17552,7 +14462,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #843: `2093466_26721106` (World of Warcraft)
+### Post #652: `2093466_26721106` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -17566,7 +14476,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #844: `2104695_26872743` (World of Warcraft)
+### Post #653: `2104695_26872743` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -17588,7 +14498,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #845: `2093466_26721329` (World of Warcraft)
+### Post #654: `2093466_26721329` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -17614,18 +14524,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #846: `2104695_26874113` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post discusses AI capabilities in gaming (Starcraft, board games) as illustrative examples, but does not describe any actual interaction between a human player and an AI agent within a game ecosystem. It is a general discussion about AI limitations, not an instance of human–AI interaction. Therefore, ai_type is A5 (Discussion About AI), interaction_type is I6 (No meaningful interaction), and value_type is VC4 (No evidence of value creation/destruction). All DART dimensions are scored 0 as no interaction or value-related activity is present.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #847: `2093466_26721190` (World of Warcraft)
+### Post #655: `2093466_26721190` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A3** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -17647,7 +14546,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #848: `2093466_26721195` (World of Warcraft)
+### Post #656: `2093466_26721195` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A3** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 3 | Risco: 4 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -17669,7 +14568,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #849: `2104695_26873703` (World of Warcraft)
+### Post #657: `2104695_26873703` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -17691,7 +14590,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #850: `2093466_26721437` (World of Warcraft)
+### Post #658: `2093466_26721437` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -17713,7 +14612,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #851: `2104695_26874114` (World of Warcraft)
+### Post #659: `2104695_26874114` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -17735,7 +14634,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #852: `2104695_26874539` (World of Warcraft)
+### Post #660: `2104695_26874539` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 3 | Transparência: 2 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -17761,7 +14660,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #853: `2104695_26876734` (World of Warcraft)
+### Post #661: `2104695_26876734` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -17779,7 +14678,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #854: `2104695_26879173` (World of Warcraft)
+### Post #662: `2104695_26879173` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -17793,7 +14692,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #855: `2104695_26882121` (World of Warcraft)
+### Post #663: `2104695_26882121` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 0 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -17811,7 +14710,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #856: `483347_2703710` (EVE Online)
+### Post #664: `483347_2703710` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -17837,7 +14736,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #857: `2104695_26876215` (World of Warcraft)
+### Post #665: `2104695_26876215` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 2
@@ -17859,7 +14758,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #858: `2104695_26874617` (World of Warcraft)
+### Post #666: `2104695_26874617` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
@@ -17881,7 +14780,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #859: `2104695_26879111` (World of Warcraft)
+### Post #667: `2104695_26879111` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -17903,7 +14802,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #860: `2104695_26893160` (World of Warcraft)
+### Post #668: `2104695_26893160` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -17917,7 +14816,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #861: `2104695_26876152` (World of Warcraft)
+### Post #669: `2104695_26876152` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -17943,7 +14842,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #862: `2104695_26874207` (World of Warcraft)
+### Post #670: `2104695_26874207` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
@@ -17965,7 +14864,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #863: `2104695_26884570` (World of Warcraft)
+### Post #671: `2104695_26884570` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 0 | Risco: 0 | Transparência: 3 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -17983,7 +14882,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #864: `2104695_26875205` (World of Warcraft)
+### Post #672: `2104695_26875205` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -18009,7 +14908,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #865: `2104695_26884502` (World of Warcraft)
+### Post #673: `2104695_26884502` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 0 | Risco: 0 | Transparência: 2 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -18027,7 +14926,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #866: `2104695_26884205` (World of Warcraft)
+### Post #674: `2104695_26884205` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 0 | Transparência: 2 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
@@ -18049,7 +14948,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #867: `1hlv8xy_6` (World of Warcraft)
+### Post #675: `1hlv8xy_6` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -18063,7 +14962,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #868: `1hlv8xy_2` (World of Warcraft)
+### Post #676: `1hlv8xy_2` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 4 | Nível de Confiança: 1 | Edições: 1
@@ -18081,7 +14980,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #869: `2104695_26894920` (World of Warcraft)
+### Post #677: `2104695_26894920` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 0 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -18103,7 +15002,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #870: `1hlv8xy_3` (World of Warcraft)
+### Post #678: `1hlv8xy_3` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 4 | Nível de Confiança: 1 | Edições: 1
@@ -18125,7 +15024,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #871: `1t3g4bt_47` (EVE Online)
+### Post #679: `1t3g4bt_47` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I1** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 3 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -18150,7 +15049,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #872: `1t3g4bt_25` (EVE Online)
+### Post #680: `1t3g4bt_25` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 4 | Nível de Confiança: 1 | Edições: 1
@@ -18172,7 +15071,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #873: `2104695_26884477` (World of Warcraft)
+### Post #681: `2104695_26884477` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 0 | Transparência: 4 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -18194,7 +15093,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #874: `2104695_26895318` (World of Warcraft)
+### Post #682: `2104695_26895318` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -18216,7 +15115,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #875: `2051325_26164328` (World of Warcraft)
+### Post #683: `2051325_26164328` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -18230,18 +15129,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #876: `2051325_26164394` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post is a reply in a thread about using Gemini (an AI) versus Wowhead. The text itself is a tangential, possibly sarcastic remark about Gemini's answers regarding cockroach etymology, not a direct interaction with the AI. It is classified as A5 (Discussion About AI) because it references the AI's output but does not describe an actual interaction. Interaction is I4 (Human → Human about AI) as it is a human comment about AI for other humans. No value co-creation or destruction is evident (VC4). DART dimensions are all absent in this specific post. Human review is flagged due to potential sarcasm and low relevance confidence.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #877: `1t3g4bt_38` (EVE Online)
+### Post #684: `1t3g4bt_38` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I1** | Valor: **VC3** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 2 | Risco: 2 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -18267,7 +15155,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #878: `2051325_26164076` (World of Warcraft)
+### Post #685: `2051325_26164076` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 2 | Transparência: 2 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -18293,7 +15181,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #879: `2104695_26901262` (World of Warcraft)
+### Post #686: `2104695_26901262` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 4 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -18315,7 +15203,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #880: `2051325_26164316` (World of Warcraft)
+### Post #687: `2051325_26164316` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 1 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -18341,7 +15229,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #881: `2051325_26164463` (World of Warcraft)
+### Post #688: `2051325_26164463` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -18355,7 +15243,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #882: `2123929_27158570` (World of Warcraft)
+### Post #689: `2123929_27158570` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 2 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -18377,18 +15265,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #883: `2051325_26164423` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post text is a quote from another user (Fuzzbutt) discussing the usefulness of Wowhead comment sections for solving in-game quests. The thread title mentions Gemini (an AI), but the quoted post text itself does not describe any interaction with an AI agent. The post is about human-to-human knowledge sharing via comments. The AI type is classified as A5 (Discussion About AI) because the thread title references Gemini, but the post text itself does not describe an actual AI interaction. The interaction is I4 (Human → Human about AI) as the quoted content discusses a human practice (using Wowhead comments) rather than direct AI interaction. No value co-creation or destruction is evident in the quoted text, hence VC4. DART dimensions are all absent in the quoted text. Human review is required because the post is a quote within a thread about AI, and the relevance to the research question is ambiguous without the broader thread context.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #884: `2015716_25669223` (World of Warcraft)
+### Post #690: `2015716_25669223` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I3** | Valor: **VC1** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 3 | Risco: 1 | Transparência: 4 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 12
@@ -18414,7 +15291,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #885: `2051325_26172289` (World of Warcraft)
+### Post #691: `2051325_26172289` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -18432,7 +15309,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #886: `2051325_26164391` (World of Warcraft)
+### Post #692: `2051325_26164391` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 3 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -18454,18 +15331,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #887: `2051325_26164479` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
-* **Fundamentação / Notas:** The post text is extremely brief and does not describe any actual interaction with an AI agent. It makes a general statement about AI ('AI is just getting started') and a pop-culture reference (John Conner from Terminator). The thread title mentions Gemini being better than Wowhead for answering questions, but this specific post does not provide evidence of a direct human-AI interaction. Classified as A5 (Discussion About AI) because the post discusses AI in general terms without describing an actual AI agent interaction. Interaction is I6 (No meaningful interaction) as no specific interaction is described. Value is VC4 (No evidence) since no value consequence is identified. DART dimensions are all 0 as the post content is too vague to support any coding. Human review is flagged due to low relevance confidence and the possibility that the post is part of a larger discussion about AI tools in the thread context.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #888: `2051325_26164437` (World of Warcraft)
+### Post #693: `2051325_26164437` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 0 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -18483,7 +15349,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #889: `2051325_26164026` (World of Warcraft)
+### Post #694: `2051325_26164026` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I1** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 4 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -18505,7 +15371,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #890: `2051325_26164496` (World of Warcraft)
+### Post #695: `2051325_26164496` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -18523,7 +15389,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #891: `2051325_26172424` (World of Warcraft)
+### Post #696: `2051325_26172424` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -18537,7 +15403,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #892: `1784181_22791140` (World of Warcraft)
+### Post #697: `1784181_22791140` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 0 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -18555,7 +15421,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #893: `2051325_26172557` (World of Warcraft)
+### Post #698: `2051325_26172557` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 2
@@ -18577,7 +15443,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #894: `2051325_26172541` (World of Warcraft)
+### Post #699: `2051325_26172541` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -18595,7 +15461,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #895: `1784181_22791073` (World of Warcraft)
+### Post #700: `1784181_22791073` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 1 | Transparência: 3 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -18621,7 +15487,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #896: `1784181_22791376` (World of Warcraft)
+### Post #701: `1784181_22791376` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 3 | Edições: 1
@@ -18643,7 +15509,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #897: `1784181_22790668` (World of Warcraft)
+### Post #702: `1784181_22790668` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -18665,18 +15531,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #898: `1784181_22791163` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post text is a quote attributed to Einstein, with no direct reference to AI, WoW, or any interaction. The thread title mentions ChatGPT and Perplexity as sources of WoW information, but the post content itself is a standalone quote. The AI type is classified as A5 (Discussion About AI) based on the thread context, but the post text itself provides no evidence of an actual AI interaction. Interaction type is I6 (No meaningful interaction) because the post does not describe any interaction with an AI. Value type is VC4 (No evidence) as no value consequence is identifiable. DART dimensions are all scored 0 due to absence of relevant content. Human review is flagged due to the mismatch between the thread title and the post content, and the lack of context.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #899: `1784181_22791221` (World of Warcraft)
+### Post #703: `1784181_22791221` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -18694,7 +15549,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #900: `1784181_22791100` (World of Warcraft)
+### Post #704: `1784181_22791100` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -18712,7 +15567,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #901: `1784181_22793545` (World of Warcraft)
+### Post #705: `1784181_22793545` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -18726,7 +15581,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #902: `1784181_22791015` (World of Warcraft)
+### Post #706: `1784181_22791015` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -18752,7 +15607,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #903: `1784181_22793257` (World of Warcraft)
+### Post #707: `1784181_22793257` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -18770,7 +15625,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #904: `1vt5t85_39` (World of Warcraft)
+### Post #708: `1vt5t85_39` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 3 | Nível de Confiança: 1 | Edições: 1
@@ -18788,7 +15643,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #905: `1784181_22795751` (World of Warcraft)
+### Post #709: `1784181_22795751` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -18814,7 +15669,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #906: `1784181_22794635` (World of Warcraft)
+### Post #710: `1784181_22794635` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -18840,7 +15695,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #907: `1784181_22791963` (World of Warcraft)
+### Post #711: `1784181_22791963` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I3** | Valor: **VC1** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 3 | Risco: 0 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -18862,7 +15717,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #908: `1rmfr5h_18` (EVE Online)
+### Post #712: `1rmfr5h_18` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 12 | Nível de Confiança: 1 | Edições: 1
@@ -18876,7 +15731,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #909: `1rmfr5h_10` (EVE Online)
+### Post #713: `1rmfr5h_10` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: -3 | Nível de Confiança: 1 | Edições: 1
@@ -18898,7 +15753,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #910: `2295883_29363172` (World of Warcraft)
+### Post #714: `2295883_29363172` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -18916,7 +15771,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #911: `1784181_22791956` (World of Warcraft)
+### Post #715: `1784181_22791956` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -18942,7 +15797,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #912: `1rmfr5h_41` (EVE Online)
+### Post #716: `1rmfr5h_41` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -18960,7 +15815,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #913: `1784181_22794140` (World of Warcraft)
+### Post #717: `1784181_22794140` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -18982,7 +15837,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #914: `1ph9o3i_2` (EVE Online)
+### Post #718: `1ph9o3i_2` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 10 | Nível de Confiança: 1 | Edições: 1
@@ -18996,7 +15851,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #915: `2295883_29363252` (World of Warcraft)
+### Post #719: `2295883_29363252` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -19014,7 +15869,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #916: `1ph9o3i_7` (EVE Online)
+### Post #720: `1ph9o3i_7` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -19028,7 +15883,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #917: `1ph9o3i_5` (EVE Online)
+### Post #721: `1ph9o3i_5` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 2 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 6 | Nível de Confiança: 1 | Edições: 1
@@ -19050,7 +15905,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #918: `1ph9o3i_6` (EVE Online)
+### Post #722: `1ph9o3i_6` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I2** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -19075,7 +15930,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #919: `2295883_29362891` (World of Warcraft)
+### Post #723: `2295883_29362891` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 0 | Edições: 1
@@ -19097,7 +15952,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #920: `2123929_27155547` (World of Warcraft)
+### Post #724: `2123929_27155547` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I1** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 5 | Acesso: 4 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -19123,7 +15978,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #921: `1ph9o3i_11` (EVE Online)
+### Post #725: `1ph9o3i_11` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -19137,7 +15992,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #922: `1ph9o3i_22` (EVE Online)
+### Post #726: `1ph9o3i_22` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I3** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 3 | Risco: 4 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -19159,7 +16014,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #923: `1ph9o3i_19` (EVE Online)
+### Post #727: `1ph9o3i_19` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I1** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -19184,7 +16039,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #924: `1ph9o3i_13` (EVE Online)
+### Post #728: `1ph9o3i_13` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -19210,7 +16065,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #925: `1ph9o3i_18` (EVE Online)
+### Post #729: `1ph9o3i_18` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I3** | Valor: **VC1** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 4 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -19236,7 +16091,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #926: `1ph9o3i_17` (EVE Online)
+### Post #730: `1ph9o3i_17` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I4** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 4 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -19257,18 +16112,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #927: `432317_2496667` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 4 | Edições: 1
-* **Fundamentação / Notas:** The post text is an automated system notification stating that the topic was closed. It contains no user-generated content, no discussion of AI, and no interaction. Therefore, it is classified as A6 (Irrelevant), I6 (No meaningful interaction), and VC4 (No evidence of value creation/destruction). All DART dimensions are scored 0 with no evidence.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #928: `1ph9o3i_21` (EVE Online)
+### Post #731: `1ph9o3i_21` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I1** | Valor: **VC3** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -19290,7 +16134,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #929: `1mwoeow_3` (World of Warcraft)
+### Post #732: `1mwoeow_3` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 4 | Nível de Confiança: 1 | Edições: 1
@@ -19308,7 +16152,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #930: `1mwoeow_6` (World of Warcraft)
+### Post #733: `1mwoeow_6` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I5** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 4 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -19330,7 +16174,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #931: `1mwoeow_5` (World of Warcraft)
+### Post #734: `1mwoeow_5` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 12 | Nível de Confiança: 1 | Edições: 1
@@ -19344,7 +16188,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #932: `1mwoeow_14` (World of Warcraft)
+### Post #735: `1mwoeow_14` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -19366,7 +16210,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #933: `1mwoeow_13` (World of Warcraft)
+### Post #736: `1mwoeow_13` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -19388,7 +16232,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #934: `1mwoeow_10` (World of Warcraft)
+### Post #737: `1mwoeow_10` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 3 | Transparência: 4 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -19414,7 +16258,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #935: `1mwoeow_15` (World of Warcraft)
+### Post #738: `1mwoeow_15` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -19428,7 +16272,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #936: `2022909_25756274` (World of Warcraft)
+### Post #739: `2022909_25756274` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -19446,18 +16290,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #937: `2022909_25756120` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post is a speculative discussion about the potential future integration of LLMs into MMORPGs, specifically for NPC interaction. It does not describe an actual interaction with an AI agent, nor does it discuss a specific AI system currently in use. Therefore, it is classified as A5 (Discussion About AI). Since there is no actual interaction described, it is I6 (No meaningful interaction). No value co-creation or destruction is evident, so it is VC4. The post is relevant to the broader topic of AI in gaming but does not describe a concrete human-AI interaction, hence 'POSSIBLY RELEVANT'.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #938: `2022909_25758304` (World of Warcraft)
+### Post #740: `2022909_25758304` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -19471,7 +16304,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #939: `1mwoeow_8` (World of Warcraft)
+### Post #741: `1mwoeow_8` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 1 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -19493,7 +16326,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #940: `2039353_25997830` (World of Warcraft)
+### Post #742: `2039353_25997830` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
@@ -19511,7 +16344,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #941: `1tdxixs_2` (EVE Online)
+### Post #743: `1tdxixs_2` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 20 | Nível de Confiança: 1 | Edições: 1
@@ -19529,7 +16362,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #942: `1tdxixs_5` (EVE Online)
+### Post #744: `1tdxixs_5` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 7 | Nível de Confiança: 1 | Edições: 1
@@ -19543,7 +16376,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #943: `1tdxixs_6` (EVE Online)
+### Post #745: `1tdxixs_6` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 3 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 18 | Nível de Confiança: 1 | Edições: 1
@@ -19557,7 +16390,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #944: `2022909_25756354` (World of Warcraft)
+### Post #746: `2022909_25756354` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -19571,7 +16404,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #945: `1tdxixs_3` (EVE Online)
+### Post #747: `1tdxixs_3` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 39 | Nível de Confiança: 1 | Edições: 1
@@ -19585,7 +16418,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #946: `2022909_25756102` (World of Warcraft)
+### Post #748: `2022909_25756102` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -19599,7 +16432,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #947: `2039353_25993547` (World of Warcraft)
+### Post #749: `2039353_25993547` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I1** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 3 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 2
@@ -19625,18 +16458,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #948: `1tdxixs_17` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 6 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** The post discusses AI in the context of game development (DeepMind's AI learning vintage games) and expresses a hope for better AI-driven NPCs in EVE Online. This is a discussion about AI (A5) rather than an actual interaction with an AI agent. The interaction is Human-to-Human about AI (I4), as the author is sharing thoughts with other players. No value co-creation or destruction is evident (VC4). DART dimensions are all absent as the post is speculative and does not describe a concrete interaction. Human review is flagged due to moderate confidence in relevance and the speculative nature of the content.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #949: `1tdxixs_8` (EVE Online)
+### Post #750: `1tdxixs_8` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 7 | Nível de Confiança: 1 | Edições: 1
@@ -19658,7 +16480,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #950: `1tdxixs_16` (EVE Online)
+### Post #751: `1tdxixs_16` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I1** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 2 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 20 | Nível de Confiança: 1 | Edições: 1
@@ -19682,7 +16504,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #951: `1tdxixs_32` (EVE Online)
+### Post #752: `1tdxixs_32` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -19696,7 +16518,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #952: `1tdxixs_21` (EVE Online)
+### Post #753: `1tdxixs_21` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 8 | Nível de Confiança: 1 | Edições: 1
@@ -19714,7 +16536,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #953: `1tdxixs_48` (EVE Online)
+### Post #754: `1tdxixs_48` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -19732,7 +16554,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #954: `1tdxixs_38` (EVE Online)
+### Post #755: `1tdxixs_38` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 0 | Transparência: 2 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 5 | Nível de Confiança: 1 | Edições: 1
@@ -19750,18 +16572,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #955: `456743_2566269` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post describes a hypothetical gameplay scenario involving 'copilots' managing ammo, movement, and drones. The term 'copilot' is ambiguous—it could refer to AI agents, human players, or a mix. There is no explicit mention of AI, autonomy, or actual interaction. The post is a speculative discussion about a potential game mechanic, not a description of an actual AI agent interaction. Therefore, it is classified as A5 (Discussion About AI) with moderate confidence, as the context suggests the discussion may be about AI-assisted or automated roles, but this is not explicit. The interaction is I4 (Human → Human about AI) since it is a discussion among humans about a hypothetical feature. No value co-creation or destruction is evident, so VC4. DART dimensions are all absent because the post is purely speculative with no concrete dialogue, access changes, risk assessment, or transparency discussion. Flagged for human review due to ambiguity in the term 'copilot' and the speculative nature of the content.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #956: `2039353_25998694` (World of Warcraft)
+### Post #756: `2039353_25998694` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 3 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -19787,18 +16598,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #957: `2344820_29989185` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
-* **Fundamentação / Notas:** The post discusses paid pilots and self-plays (human services) in WoW Arena, but makes no mention of AI agents, bots, scripts, or any AI-related technology. The content is about human players paying other humans for ranked play, which is unrelated to the research question on human-AI interactions. Therefore, classified as A6 (Irrelevant), I6 (No meaningful interaction), and VC4 (No evidence of value creation/destruction). All DART dimensions are scored 0 as no AI-related dialogue, access, risk, or transparency is discussed.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #958: `2101219_26826222` (World of Warcraft)
+### Post #757: `2101219_26826222` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -19812,7 +16612,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #959: `1waqgod_41` (EVE Online)
+### Post #758: `1waqgod_41` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 3 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -19834,7 +16634,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #960: `1jukb0x_5` (EVE Online)
+### Post #759: `1jukb0x_5` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -19852,18 +16652,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #961: `1v18nfp_19` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: -11 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** The post is a commentary on CCP's decision-making, referencing an 'AI bot' (likely ChatGPT) as a hypothetical alternative. The author does not describe an actual interaction with an AI agent, but rather discusses the idea of using one. This is classified as A5 (Discussion About AI) because the post discusses AI without describing a real interaction. The interaction is I4 (Human → Human about AI) as the author is communicating with other humans about AI. There is no evidence of value co-creation or co-destruction in the described scenario, so VC4 is assigned. The DART dimensions are all scored 0 because the post does not provide evidence of dialogue, access, risk, or transparency related to an actual AI interaction. Human review is flagged due to the ambiguity of the reference and the lack of context about the 'PPC' mistake.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #962: `1jukb0x_6` (EVE Online)
+### Post #760: `1jukb0x_6` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -19885,7 +16674,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #963: `1v18nfp_32` (EVE Online)
+### Post #761: `1v18nfp_32` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 3 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 4 | Nível de Confiança: 1 | Edições: 1
@@ -19903,7 +16692,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #964: `1jukb0x_8` (EVE Online)
+### Post #762: `1jukb0x_8` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 5 | Nível de Confiança: 1 | Edições: 1
@@ -19921,7 +16710,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #965: `1waqgod_6` (EVE Online)
+### Post #763: `1waqgod_6` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 4 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -19943,18 +16732,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #966: `2344820_30002149` (World of Warcraft)
-* **Classificação DART-NET:** Tipo IA: **A6** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
-* **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 4
-* **Fundamentação / Notas:** The post discusses boosting, wintrading, and gatekeeping in WoW arena ladders. No AI agent, bot, script, or automation is mentioned or implied. The content is about human players engaging in boosting services and ladder manipulation. Therefore, ai_type is A6 (Irrelevant), interaction_type is I6 (No meaningful interaction), and value_type is VC4 (No evidence of value creation/destruction related to AI). All DART dimensions are scored 0 as no AI-related dialogue, access, risk, or transparency is discussed.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #967: `2101219_26825118` (World of Warcraft)
+### Post #764: `2101219_26825118` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 5 | Transparência: 4 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -19972,7 +16750,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #968: `2039353_25994927` (World of Warcraft)
+### Post #765: `2039353_25994927` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I1** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 3 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -19998,7 +16776,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #969: `2344820_29990276` (World of Warcraft)
+### Post #766: `2344820_29990276` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 3 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -20020,7 +16798,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #970: `2101219_26825555` (World of Warcraft)
+### Post #767: `2101219_26825555` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -20038,7 +16816,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #971: `1jukb0x_14` (EVE Online)
+### Post #768: `1jukb0x_14` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 10 | Nível de Confiança: 1 | Edições: 1
@@ -20056,7 +16834,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #972: `1oq9poa_12` (EVE Online)
+### Post #769: `1oq9poa_12` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -20078,7 +16856,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #973: `2101219_26827812` (World of Warcraft)
+### Post #770: `2101219_26827812` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -20100,7 +16878,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #974: `1jukb0x_11` (EVE Online)
+### Post #771: `1jukb0x_11` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -20114,18 +16892,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #975: `1jukb0x_17` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I6** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 4 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** The post is a speculative idea about using ChatGPT to pick doctrine ships in a future war. It does not describe an actual interaction with an AI agent, but rather discusses a hypothetical use of AI. Therefore, it is classified as A5 (Discussion About AI). Since no actual interaction occurs, it is I6 (No meaningful interaction). No value co-creation or destruction is evident, so VC4. DART dimensions are all absent as the post is purely speculative with no dialogue, access, risk, or transparency elements. Human review is required due to the speculative nature and potential ambiguity in relevance.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #976: `2101219_26826888` (World of Warcraft)
+### Post #772: `2101219_26826888` (World of Warcraft)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 4 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 2 | Edições: 1
@@ -20143,7 +16910,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #977: `1jukb0x_7` (EVE Online)
+### Post #773: `1jukb0x_7` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 3 | Nível de Confiança: 1 | Edições: 1
@@ -20161,7 +16928,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #978: `1jukb0x_16` (EVE Online)
+### Post #774: `1jukb0x_16` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 3 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 22 | Nível de Confiança: 1 | Edições: 1
@@ -20179,18 +16946,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #979: `1jukb0x_10` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** The post is part of a thread titled 'Psa For The New Bros Dont Ask Chatgpt About Eve', but the quoted text focuses on a fantasy name generator website and its curator 'emily'. The post discusses the quality of a name generator tool, which may or may not be AI-based, but does not describe an actual interaction with an AI agent. The content is a discussion about a tool (possibly AI-related) rather than an interaction with an AI agent. Classified as A5 (Discussion About AI) with moderate confidence due to ambiguity about whether the tool is AI-based. Interaction is I4 (Human → Human about AI) as it is a human discussing a tool with other humans. No value co-creation or destruction is evident, so VC4. DART dimensions are all absent as the post does not address dialogue, access, risk, or transparency in a meaningful way. Flagged for human review due to moderate confidence and ambiguity about the nature of the tool discussed.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #980: `1jukb0x_13` (EVE Online)
+### Post #775: `1jukb0x_13` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 1 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: -1 | Nível de Confiança: 1 | Edições: 1
@@ -20212,7 +16968,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #981: `1jukb0x_24` (EVE Online)
+### Post #776: `1jukb0x_24` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: -2 | Nível de Confiança: 1 | Edições: 1
@@ -20230,7 +16986,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #982: `1jukb0x_18` (EVE Online)
+### Post #777: `1jukb0x_18` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -20252,7 +17008,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #983: `1jukb0x_23` (EVE Online)
+### Post #778: `1jukb0x_23` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -20278,7 +17034,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #984: `1jukb0x_25` (EVE Online)
+### Post #779: `1jukb0x_25` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 3 | Nível de Confiança: 1 | Edições: 1
@@ -20300,7 +17056,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #985: `1jukb0x_19` (EVE Online)
+### Post #780: `1jukb0x_19` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 12 | Nível de Confiança: 1 | Edições: 1
@@ -20318,7 +17074,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #986: `1jukb0x_34` (EVE Online)
+### Post #781: `1jukb0x_34` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC3** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 2 | Risco: 3 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -20336,7 +17092,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #987: `1jukb0x_29` (EVE Online)
+### Post #782: `1jukb0x_29` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -20362,7 +17118,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #988: `1jukb0x_27` (EVE Online)
+### Post #783: `1jukb0x_27` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 3 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -20387,7 +17143,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #989: `1jukb0x_28` (EVE Online)
+### Post #784: `1jukb0x_28` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -20401,7 +17157,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #990: `1jukb0x_35` (EVE Online)
+### Post #785: `1jukb0x_35` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I1** | Valor: **VC1** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 4 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -20423,7 +17179,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #991: `1jukb0x_36` (EVE Online)
+### Post #786: `1jukb0x_36` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I1** | Valor: **VC1** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 4 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -20441,7 +17197,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #992: `1jukb0x_40` (EVE Online)
+### Post #787: `1jukb0x_40` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -20463,7 +17219,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #993: `1jukb0x_33` (EVE Online)
+### Post #788: `1jukb0x_33` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -20487,7 +17243,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #994: `1jukb0x_38` (EVE Online)
+### Post #789: `1jukb0x_38` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -20513,7 +17269,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #995: `1jukb0x_30` (EVE Online)
+### Post #790: `1jukb0x_30` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -20535,7 +17291,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #996: `1jukb0x_41` (EVE Online)
+### Post #791: `1jukb0x_41` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -20553,7 +17309,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #997: `1jukb0x_43` (EVE Online)
+### Post #792: `1jukb0x_43` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -20567,7 +17323,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #998: `1jukb0x_48` (EVE Online)
+### Post #793: `1jukb0x_48` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 24 | Nível de Confiança: 1 | Edições: 1
@@ -20593,7 +17349,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #999: `1jukb0x_45` (EVE Online)
+### Post #794: `1jukb0x_45` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -20615,7 +17371,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1000: `1jukb0x_53` (EVE Online)
+### Post #795: `1jukb0x_53` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 3 | Nível de Confiança: 1 | Edições: 1
@@ -20633,7 +17389,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1001: `1jukb0x_50` (EVE Online)
+### Post #796: `1jukb0x_50` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 3 | Transparência: 2 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -20659,7 +17415,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1002: `1jukb0x_56` (EVE Online)
+### Post #797: `1jukb0x_56` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -20677,7 +17433,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1003: `1jukb0x_49` (EVE Online)
+### Post #798: `1jukb0x_49` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 3 | Transparência: 2 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -20695,7 +17451,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1004: `1jukb0x_44` (EVE Online)
+### Post #799: `1jukb0x_44` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 3 | Risco: 0 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -20713,7 +17469,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1005: `1jukb0x_52` (EVE Online)
+### Post #800: `1jukb0x_52` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -20735,7 +17491,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1006: `1jukb0x_59` (EVE Online)
+### Post #801: `1jukb0x_59` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
@@ -20749,7 +17505,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1007: `1jukb0x_62` (EVE Online)
+### Post #802: `1jukb0x_62` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -20767,7 +17523,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1008: `1jukb0x_47` (EVE Online)
+### Post #803: `1jukb0x_47` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -20789,7 +17545,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1009: `1jukb0x_55` (EVE Online)
+### Post #804: `1jukb0x_55` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -20811,7 +17567,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1010: `1jukb0x_42` (EVE Online)
+### Post #805: `1jukb0x_42` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -20825,7 +17581,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1011: `1jukb0x_60` (EVE Online)
+### Post #806: `1jukb0x_60` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 4 | Acesso: 2 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -20850,7 +17606,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1012: `1jukb0x_63` (EVE Online)
+### Post #807: `1jukb0x_63` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 3 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -20868,7 +17624,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1013: `1jukb0x_64` (EVE Online)
+### Post #808: `1jukb0x_64` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 3 | Nível de Confiança: 1 | Edições: 1
@@ -20890,7 +17646,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1014: `1jukb0x_46` (EVE Online)
+### Post #809: `1jukb0x_46` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC2** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 5 | Acesso: 4 | Risco: 2 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -20915,7 +17671,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1015: `1jukb0x_65` (EVE Online)
+### Post #810: `1jukb0x_65` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 3 | Risco: 0 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -20937,7 +17693,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1016: `1jukb0x_71` (EVE Online)
+### Post #811: `1jukb0x_71` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -20955,7 +17711,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1017: `1jukb0x_68` (EVE Online)
+### Post #812: `1jukb0x_68` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A4** | Interação: **I1** | Valor: **VC2** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 4 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -20981,7 +17737,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1018: `1jukb0x_84` (EVE Online)
+### Post #813: `1jukb0x_84` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -21003,7 +17759,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1019: `1jukb0x_76` (EVE Online)
+### Post #814: `1jukb0x_76` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Acesso**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 2 | Risco: 1 | Transparência: 2 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -21028,7 +17784,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1020: `1jukb0x_73` (EVE Online)
+### Post #815: `1jukb0x_73` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I1** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 1 | Risco: 0 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -21050,7 +17806,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1021: `1jukb0x_95` (EVE Online)
+### Post #816: `1jukb0x_95` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 0 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -21064,7 +17820,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1022: `1jukb0x_86` (EVE Online)
+### Post #817: `1jukb0x_86` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 1 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -21078,7 +17834,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1023: `1jukb0x_66` (EVE Online)
+### Post #818: `1jukb0x_66` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC3** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 5 | Acesso: 3 | Risco: 4 | Transparência: 4 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 6 | Nível de Confiança: 1 | Edições: 1
@@ -21104,7 +17860,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1024: `1jukb0x_90` (EVE Online)
+### Post #819: `1jukb0x_90` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 2 | Transparência: 2 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -21130,18 +17886,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1025: `1jukb0x_98` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 2 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** The post text is a fragment of a conversation about ChatGPT's output regarding EVE Online fittings. It references a comparison of fits ('substantially better but still pretty bad fit compared to what I got'), implying a discussion about AI-generated advice. The AI type is A5 (Discussion About AI) because the post discusses the quality of ChatGPT's output but does not describe a direct interaction with the AI in this specific post. The interaction type is I4 (Human → Human about AI) as the post appears to be a reply in a thread discussing ChatGPT's advice, not a direct interaction with the AI. Value type is VC4 (No evidence of value creation/destruction) because the post only comments on the quality of the fit without indicating a clear value outcome. DART dimensions are all scored 0 due to lack of explicit evidence in the text. Human review is required due to the fragmentary nature of the post and moderate confidence in relevance.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #1026: `1jukb0x_70` (EVE Online)
+### Post #820: `1jukb0x_70` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 2 | Risco: 2 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -21167,18 +17912,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1027: `1jukb0x_97` (EVE Online)
-* **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
-* **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 0 | Transparência: 0 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
-* **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
-* **Fundamentação / Notas:** The post is a reply within a thread titled 'Psa For The New Bros Dont Ask Chatgpt About Eve'. The text itself is a meta-commentary about the author's OPSEC (operational security) and does not describe any direct interaction with an AI agent. The AI type is classified as A5 (Discussion About AI) because the post is part of a discussion about ChatGPT, but the specific text does not describe an actual AI interaction. The interaction type is I4 (Human → Human about AI) as the post is a human-to-human comment within a discussion about AI. No value co-creation or destruction is evident in this specific post, so VC4 is assigned. DART dimensions are all scored 0 as the text contains no evidence of dialogue, access, risk, or transparency related to AI. Human review is flagged due to the low relevance confidence and the indirect nature of the AI discussion.
-
-**Dimensões DART Analisadas:**
-- *(Sem evidência literal explícita de dimensões ativas no post)*
-
----
-
-### Post #1028: `1jukb0x_75` (EVE Online)
+### Post #821: `1jukb0x_75` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Risco**
 * **Scores DART (0-5):** Diálogo: 1 | Acesso: 1 | Risco: 3 | Transparência: 2 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 3 | Nível de Confiança: 1 | Edições: 1
@@ -21204,7 +17938,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1029: `1jukb0x_92` (EVE Online)
+### Post #822: `1jukb0x_92` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 2 | Acesso: 0 | Risco: 1 | Transparência: 1 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -21226,7 +17960,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1030: `1jukb0x_94` (EVE Online)
+### Post #823: `1jukb0x_94` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A5** | Interação: **I4** | Valor: **VC4** | Dimensão Dominante: **Transparência**
 * **Scores DART (0-5):** Diálogo: 0 | Acesso: 0 | Risco: 2 | Transparência: 3 | **Revisão Humana:** ⚠️ Sim | **QIs:** ``
 * **Metadados:** Likes: 0 | Nível de Confiança: 1 | Edições: 1
@@ -21244,7 +17978,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1031: `1jukb0x_80` (EVE Online)
+### Post #824: `1jukb0x_80` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I3** | Valor: **VC1** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 5 | Acesso: 4 | Risco: 2 | Transparência: 3 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1
@@ -21270,7 +18004,7 @@ Just like all other tech, it always becomes cheaper over time."
 
 ---
 
-### Post #1032: `1jukb0x_87` (EVE Online)
+### Post #825: `1jukb0x_87` (EVE Online)
 * **Classificação DART-NET:** Tipo IA: **A1** | Interação: **I1** | Valor: **VC4** | Dimensão Dominante: **Diálogo**
 * **Scores DART (0-5):** Diálogo: 3 | Acesso: 3 | Risco: 2 | Transparência: 1 | **Revisão Humana:** Não | **QIs:** ``
 * **Metadados:** Likes: 1 | Nível de Confiança: 1 | Edições: 1

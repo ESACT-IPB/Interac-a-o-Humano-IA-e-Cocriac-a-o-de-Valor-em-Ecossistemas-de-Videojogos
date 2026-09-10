@@ -1,0 +1,3575 @@
+{
+  "total_original": 1032,
+  "total_excluded": 207,
+  "total_refined": 825,
+  "excluded_posts": [
+    {
+      "post_id": "509113_2857261",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "483348_2703711",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "3000003_28811508",
+      "thread_id": "",
+      "game": "World of Warcraft",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "3000003_28811485",
+      "thread_id": "",
+      "game": "World of Warcraft",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "3000003_28811479",
+      "thread_id": "",
+      "game": "World of Warcraft",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "3000003_28811611",
+      "thread_id": "",
+      "game": "World of Warcraft",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "3000003_28811459",
+      "thread_id": "",
+      "game": "World of Warcraft",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "3000003_28811542",
+      "thread_id": "",
+      "game": "World of Warcraft",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "3000003_28811610",
+      "thread_id": "",
+      "game": "World of Warcraft",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "3000003_28811596",
+      "thread_id": "",
+      "game": "World of Warcraft",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "3000003_28811578",
+      "thread_id": "",
+      "game": "World of Warcraft",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "3000003_28811529",
+      "thread_id": "",
+      "game": "World of Warcraft",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "509843_2862535",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "509843_2862526",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "509843_2862449",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "509843_2862527",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "509843_2862434",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "509843_2862470",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "509843_2862478",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "509843_2862511",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "509843_2862538",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "509843_2862462",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "509843_2862521",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "509843_2862442",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2864731",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2865010",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2864663",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2864765",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2864760",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2864627",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2864828",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2864990",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2864639",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2864793",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2864984",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2864742",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2865083",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2864986",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2865126",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2865026",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2865070",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2865097",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2865148",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2864988",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2865154",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2865044",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2865117",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2865068",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2865155",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2865096",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2865107",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2865151",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2865228",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2865195",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2865024",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2865257",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2865258",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2865200",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2865275",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2865276",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2865267",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2865277",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2865238",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2865138",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "510142_2865271",
+      "thread_id": "",
+      "game": "EVE Online",
+      "ai_type": null,
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "",
+      "text_snippet": ""
+    },
+    {
+      "post_id": "516800_2916241",
+      "thread_id": "516800",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "EVE Online and AI Research",
+      "text_snippet": "there is going to be alot more botting and quite possibly ganking in the forseeable future\nSTAY IN EXORDIUM IF YOU WANT TO LIVE ROOKIES!!!"
+    },
+    {
+      "post_id": "516800_2916277",
+      "thread_id": "516800",
+      "game": "EVE Online",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "EVE Online and AI Research",
+      "text_snippet": "Kuroda Toshio:\n\nCapsuleers in game freely…perhaps we can gain insight on whether such AI’s dominate or…capsuleers collaborate.\n\n\nCapsuleers will alway"
+    },
+    {
+      "post_id": "516800_2916358",
+      "thread_id": "516800",
+      "game": "EVE Online",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "EVE Online and AI Research",
+      "text_snippet": "Gloria Exercitus:\n\nAnd an AI psychopath ( effectively ) is simply not going to know the crazy way humans actually respond.\n\n\nActually I think this cou"
+    },
+    {
+      "post_id": "3000003_28811555",
+      "thread_id": "3000003",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Ai and WoW",
+      "text_snippet": "Ai is the future. It increases profits while lowering lawsuits and drama against a corporation.\nBow to it now"
+    },
+    {
+      "post_id": "516800_2916439",
+      "thread_id": "516800",
+      "game": "EVE Online",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "EVE Online and AI Research",
+      "text_snippet": "About a year ago, CCP had a job listing for an AI consultant."
+    },
+    {
+      "post_id": "3000003_28811513",
+      "thread_id": "3000003",
+      "game": "World of Warcraft",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Ai and WoW",
+      "text_snippet": "Everyone really has loved the Windows 11 patches since the Ai rule came down…right….right"
+    },
+    {
+      "post_id": "516800_2916469",
+      "thread_id": "516800",
+      "game": "EVE Online",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "EVE Online and AI Research",
+      "text_snippet": "Gloria Exercitus:\n\nwhich doesn’t take holidays, doesn’t get sick, and can’t ( yet ) sit there and ‘look busy\n\n\nAgreed.  This is what i mentioned in my"
+    },
+    {
+      "post_id": "495219_2762721",
+      "thread_id": "495219",
+      "game": "EVE Online",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "WTB discord bot that pings me when a contract is accepted",
+      "text_snippet": "Hello, I could probably write one for you, what did you have in mind for a price"
+    },
+    {
+      "post_id": "495219_2760206",
+      "thread_id": "495219",
+      "game": "EVE Online",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "WTB discord bot that pings me when a contract is accepted",
+      "text_snippet": "Hi! As title states, I’m looking for a bot that pings me anytime someone accepts a contract on any of my characters. I’ll note this is only useful to "
+    },
+    {
+      "post_id": "474041_2659339",
+      "thread_id": "474041",
+      "game": "EVE Online",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Bots / maybe machine learning training in Malukker",
+      "text_snippet": "looks like someone farming the air career program for skill points, why do think it is machine learning lol?"
+    },
+    {
+      "post_id": "474041_2659353",
+      "thread_id": "474041",
+      "game": "EVE Online",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Bots / maybe machine learning training in Malukker",
+      "text_snippet": "I’m not saying it IS that, what I am saying is that its possible. Bots have set’s of tings to do, and generally don’t change or advance, these do both"
+    },
+    {
+      "post_id": "509843_2862127",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "o7\nFollowing the latest devblog covering the upcoming Exordium region, we are curious to hear your feedback, answer questions, and address any concern"
+    },
+    {
+      "post_id": "509843_2862439",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "Will Exordium systems still be candidates for wormhole highsec statics?"
+    },
+    {
+      "post_id": "509843_2862438",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "We need big gate camp event for week or two in Yulai to the newbe area , kill any newb that comes out as in Welcome to EVE(HELL)!"
+    },
+    {
+      "post_id": "509843_2862433",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "Exordium will have a new “starter space” security tier that completely prevents PvP within its borders. While players are in Exordium, their safety wi"
+    },
+    {
+      "post_id": "509843_2862445",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "Yes, but you can enter the region through Yulai.\nThis means the trip to Yulai may be the only dangerous part of a route to any HS trade hub."
+    },
+    {
+      "post_id": "509843_2862440",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "This means that now systems that were 1.0 become less secure and more attractive to gankers at 0.9.\n@CCP_Swift will you adjust so that now 0.9 systems"
+    },
+    {
+      "post_id": "509843_2862443",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "Judging by the wording, these shipcasters only send ships out of that area, never in. Remains to be seen where they send you."
+    },
+    {
+      "post_id": "509843_2862476",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "yeah, nice quick route to Jita, if you can get in the Yulai gate without dying."
+    },
+    {
+      "post_id": "509843_2862452",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "then leave the safe zone as fast as possible u clown. try steal some loot from goonswarm or so. i m sure they welcome u kindly"
+    },
+    {
+      "post_id": "509843_2862444",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "Will existing characters be able to visit this new region?\nCan existing accounts create a new character and spawn in the new region?"
+    },
+    {
+      "post_id": "509843_2862472",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "agreed, well let s see how this plays out…\ngerard also brought up an interesting point about travel mechanics regarding shipcasters that screams abuse"
+    },
+    {
+      "post_id": "509843_2862447",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "Exactly. Caldari and Amarr are quite a bit shafted here because they only have dangerous access to Yulai, while Gallente and Minmatar have very safe r"
+    },
+    {
+      "post_id": "509843_2862500",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "CCP Fozzie : One other thing I’ll note because I realize it’s not mentioned in the blog: the shipcasters from this space can only be used once per cha"
+    },
+    {
+      "post_id": "509843_2862436",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "I welcome the clueless new newbies to EVE. They will have a very rude awakening when they leave Exordium. They’ll get ex’d instantly by the sheer diff"
+    },
+    {
+      "post_id": "509843_2862454",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "I think the only fun to be had in the new zone will be bumping."
+    },
+    {
+      "post_id": "509843_2862489",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "I fully expect CCP to turn Yulai into a 1.0 as well if too many newbs are being hunted at the Mindboggling gate."
+    },
+    {
+      "post_id": "2324507_2324507_17",
+      "thread_id": "2324507",
+      "game": "World of Warcraft",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 2,
+        "r": 5,
+        "t": 0
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "Bots, bots, bots, bots, bots TBC and bots",
+      "text_snippet": "Blizzard will never ban the botters, they’re subs, it’s money to them, if they really cared about the bots, they’d have dealt with the mana thistle/mi"
+    },
+    {
+      "post_id": "509843_2862461",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "What happens with career agents in current starter systems and the soe arc?\nWill the rookie griefing policy be lifted on patchdsy or some time after?\n"
+    },
+    {
+      "post_id": "2324507_2324507_3",
+      "thread_id": "2324507",
+      "game": "World of Warcraft",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 2,
+        "t": 0
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "Bots, bots, bots, bots, bots TBC and bots",
+      "text_snippet": "Kinda enjoying all the people who now realize the bots are the problem. Not the people who are having some fun gambling in SW. Lol"
+    },
+    {
+      "post_id": "2324507_2324507_14",
+      "thread_id": "2324507",
+      "game": "World of Warcraft",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 1,
+        "r": 3,
+        "t": 0
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "Bots, bots, bots, bots, bots TBC and bots",
+      "text_snippet": "we also have players buying the mats/gold from the bots/farmers.supply and demand.Who’s the problem here?"
+    },
+    {
+      "post_id": "2324507_2324507_12",
+      "thread_id": "2324507",
+      "game": "World of Warcraft",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 3,
+        "t": 0
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "Bots, bots, bots, bots, bots TBC and bots",
+      "text_snippet": "they showed back up within an hour of the servers coming online todayWhat server? Haven’t seen one on nightslayer alliance in almost a week now. But i"
+    },
+    {
+      "post_id": "2324507_2324507_10",
+      "thread_id": "2324507",
+      "game": "World of Warcraft",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 1,
+        "r": 3,
+        "t": 1
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "Bots, bots, bots, bots, bots TBC and bots",
+      "text_snippet": "Hey they banned the casinos.There’s still casino bots standing in stormwind 24/7they showed back up within an hour of the servers coming online today"
+    },
+    {
+      "post_id": "2324507_2324507_18",
+      "thread_id": "2324507",
+      "game": "World of Warcraft",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 3,
+        "t": 0
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "Bots, bots, bots, bots, bots TBC and bots",
+      "text_snippet": "We don’t have a RMT problemIf people didn’t buy gold, Bots wouldn’t farm the gold.we have a botting problemBecause we have a RMT problem.-[Home]([URL_"
+    },
+    {
+      "post_id": "509843_2862528",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "Vyktor Abyss:\n\nlike the changes but as previously said, Yulai (edit: and the Shipcaster pop-outs) appears like it will just became ganker central as i"
+    },
+    {
+      "post_id": "509843_2862524",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "On career agents being removed\nNo, because we don’t want to disrupt the flow for players who started right before the expansion, and we also want the "
+    },
+    {
+      "post_id": "2324507_2324507_16",
+      "thread_id": "2324507",
+      "game": "World of Warcraft",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 2,
+        "r": 4,
+        "t": 0
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "Bots, bots, bots, bots, bots TBC and bots",
+      "text_snippet": "obviously the bots are the problem dude. With no bots the price of RMT gold will be too high for most people to consider buying. We don’t have a RMT p"
+    },
+    {
+      "post_id": "2324507_2324507_13",
+      "thread_id": "2324507",
+      "game": "World of Warcraft",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 3,
+        "t": 2
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "Bots, bots, bots, bots, bots TBC and bots",
+      "text_snippet": "Once they figure this out it will inevitably be too late. They do this thing at blizzard where they act like they can’t see the bots and are helpless "
+    },
+    {
+      "post_id": "509843_2862548",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "Fozzie stopped in and started answering questions,  damn me for trying to relay that"
+    },
+    {
+      "post_id": "509843_2862533",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "Cool, discord. Then you might want to put then in quotes?"
+    },
+    {
+      "post_id": "509843_2862536",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "I think your ideas would be better incorporated into an entirely different game."
+    },
+    {
+      "post_id": "509843_2862446",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "but seems there will be the 2-way Jump Gate from “Yulai” System to “Manifest” System (dedicated Hub for Exordium\")."
+    },
+    {
+      "post_id": "509843_2862530",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "Since when do you talk for CCP?\nNewbie ganking is rare because such interactions are forbidden in specific system. If they leave these areas, they are"
+    },
+    {
+      "post_id": "509843_2862435",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "EVE Universe – 13 Apr 26\n  \n\n  \n    \n\nCONCORD and AIR Announce New Space Region\n\n  New AIR station under construction in Manifest, the central hub sys"
+    },
+    {
+      "post_id": "509843_2862488",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "This. Freighters and Orcas should definitely be blocked from using the Shipcasters. Or even the Yulai Gate to Exordium…\nHowever it can still be used a"
+    },
+    {
+      "post_id": "509843_2862546",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "It’s about time!  Probably one of the best well thought out (I hope)  updates we’ve had in a while.\nA few things.   We must protect new players from s"
+    },
+    {
+      "post_id": "509843_2862453",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "I think, overall a good step.\nI see a lot of potential with this, without damaging the core mechanics of New Eden (too much), although it definitely f"
+    },
+    {
+      "post_id": "509843_2862458",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "I think “fun” is rather subjective.\nI can see a lot of potential for interesting interactions based on the introduction of “Exordium”.\nIf anything, an"
+    },
+    {
+      "post_id": "509843_2862508",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "Why not Uedama? Uedama should have a gate to that space…! Also why permanently “green”…? This is sick… like walking on a street where everyone is pack"
+    },
+    {
+      "post_id": "509843_2862512",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 1,
+        "r": 2,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "I hope that this is only for new players… and they will be able only to leave that space… and no one to enter… then make sense .. otherwise can be use"
+    },
+    {
+      "post_id": "509843_2862514",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "Well, maybe Fozzie should add this EXTREMELY IMPORTANT bit to the dev blog."
+    },
+    {
+      "post_id": "509843_2862541",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 1,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "This Discord usage as information source absolutely sucks. They should focus on their own damn website to get their news on point."
+    },
+    {
+      "post_id": "509843_2862552",
+      "thread_id": "509843",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Introducing Exordium!",
+      "text_snippet": "I was thinking we could set up some real-life PvP training.\nAllow veteran players to set up gate camps, and reward them with sec-status repairs for ea"
+    },
+    {
+      "post_id": "508618_2852746",
+      "thread_id": "508618",
+      "game": "EVE Online",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART",
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "Recorded a bot in high sec - but why even bother?",
+      "text_snippet": "He’s in a Cerberus though… The combat sites don’t pay much in HS?"
+    },
+    {
+      "post_id": "508618_2852744",
+      "thread_id": "508618",
+      "game": "EVE Online",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 1,
+        "r": 3,
+        "t": 2
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "Recorded a bot in high sec - but why even bother?",
+      "text_snippet": "Because it means lots of money.\nExploration bots are also rampant in EVE. I keep reporting almost every single Heron I see in my area and I regularly "
+    },
+    {
+      "post_id": "508618_2853278",
+      "thread_id": "508618",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Recorded a bot in high sec - but why even bother?",
+      "text_snippet": "Nevertheless i find it amazing if not hilarious that people bring up perceived stuff like that Antrihrist guy who essentially flags and reports you as"
+    },
+    {
+      "post_id": "508618_2852747",
+      "thread_id": "508618",
+      "game": "EVE Online",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 1,
+        "t": 1
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "Recorded a bot in high sec - but why even bother?",
+      "text_snippet": "All i can see there, is a ship undocking and dockup again ??"
+    },
+    {
+      "post_id": "508618_2852886",
+      "thread_id": "508618",
+      "game": "EVE Online",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 1,
+        "a": 0,
+        "r": 2,
+        "t": 2
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "Recorded a bot in high sec - but why even bother?",
+      "text_snippet": "Vuhdo Rin:\n\nas we see in this YT video is just a dude who undock and dock backup again but we dont know the reason !\n\n\nWe don’t need to know the reaso"
+    },
+    {
+      "post_id": "508618_2853260",
+      "thread_id": "508618",
+      "game": "EVE Online",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 3,
+        "t": 0
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "Recorded a bot in high sec - but why even bother?",
+      "text_snippet": "You do realize by publicly telling all of us, he has either seen this by now or been told by others about his botting activities?  Information like th"
+    },
+    {
+      "post_id": "508618_2859322",
+      "thread_id": "508618",
+      "game": "EVE Online",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 1,
+        "r": 3,
+        "t": 2
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "Recorded a bot in high sec - but why even bother?",
+      "text_snippet": "I did report him but I highly doubt anything will be done against it. I know why bots exist in MMOs, I’ve played plenty of online games to figure it o"
+    },
+    {
+      "post_id": "508618_2860002",
+      "thread_id": "508618",
+      "game": "EVE Online",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 1,
+        "r": 1,
+        "t": 0
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "Recorded a bot in high sec - but why even bother?",
+      "text_snippet": "Cool…A Bot that Trolls Cloaky Campers.\nWhere can I get one?"
+    },
+    {
+      "post_id": "508618_2860079",
+      "thread_id": "508618",
+      "game": "EVE Online",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 2,
+        "t": 0
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "Recorded a bot in high sec - but why even bother?",
+      "text_snippet": "Because highsec is relatively safe and if you make pennies 24/7 eventually they add up. This probably isn’t even his main account."
+    },
+    {
+      "post_id": "510142_2864643",
+      "thread_id": "510142",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Nerf AFK moon mining",
+      "text_snippet": "I have no idea what you are talking about.\nPlease don’t explain."
+    },
+    {
+      "post_id": "510142_2865007",
+      "thread_id": "510142",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Nerf AFK moon mining",
+      "text_snippet": "No, I believe nullblocs caused stagnation, in order to manipulate CCP. CCP should stop listening to them and return to scarcity with blackout."
+    },
+    {
+      "post_id": "510142_2865145",
+      "thread_id": "510142",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Nerf AFK moon mining",
+      "text_snippet": "Drones are an extension of ones ship and therefore should get the same Concord response as targeting and blasting the hull. Drones are no different th"
+    },
+    {
+      "post_id": "510142_2865086",
+      "thread_id": "510142",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Nerf AFK moon mining",
+      "text_snippet": "Very simple fix:\nAttacking another players drones should only give suspect timer in HighSec. Drones are just a tool, basically a deployable asset like"
+    },
+    {
+      "post_id": "481937_2697159",
+      "thread_id": "481937",
+      "game": "EVE Online",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 1,
+        "t": 0
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "A win for bots?",
+      "text_snippet": "Not only bots, but real players too!\nIt’s a pretty useful feature for any hauler, miner and industrialist."
+    },
+    {
+      "post_id": "481937_2697157",
+      "thread_id": "481937",
+      "game": "EVE Online",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 2,
+        "r": 3,
+        "t": 0
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "A win for bots?",
+      "text_snippet": "It seems ore compression allows bots to project ore from isolated space all over new eden"
+    },
+    {
+      "post_id": "483348_2703719",
+      "thread_id": "483348",
+      "game": "EVE Online",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Feature Suggestion: AI Pilot Companions for Alt Characters — Powered by MCP",
+      "text_snippet": "Basically what you are wanting is a bot, and we have more than enough of those as it is…"
+    },
+    {
+      "post_id": "506798_2840203",
+      "thread_id": "506798",
+      "game": "EVE Online",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Aura Guidance (Beta) Feedback Thread",
+      "text_snippet": "Since the feature is available for test on randomly selected newly created EVE accounts, and existing chars won’t see it, here is a sample screen of i"
+    },
+    {
+      "post_id": "2257438_28913780",
+      "thread_id": "2257438",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Blizzard and AI",
+      "text_snippet": "What the game needs is AI generated QA test teams to run through the content a few times to clean it up a bit before actual players try to run it."
+    },
+    {
+      "post_id": "2257438_28913782",
+      "thread_id": "2257438",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Blizzard and AI",
+      "text_snippet": "Unironically I think AI would do a better job than the players xD"
+    },
+    {
+      "post_id": "2257438_28916305",
+      "thread_id": "2257438",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Blizzard and AI",
+      "text_snippet": "Morgohk:\n\nAI ingame assistant:\n\n\nI believe that any MMOs coming in the future will have to have AI assistants that can be your adventurer “friends” or"
+    },
+    {
+      "post_id": "2338781_29917137",
+      "thread_id": "2338781",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Waiting in Queue?",
+      "text_snippet": "They were implementing a new AI feature that connects AOL instant messenger Smarterchild AI to battlenet."
+    },
+    {
+      "post_id": "2248893_28813627",
+      "thread_id": "2248893",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Ai and WoW",
+      "text_snippet": "Forum staff removing negative comments about AI ticket responses, sorta laughing my tooshie off rn"
+    },
+    {
+      "post_id": "2176376_27854960",
+      "thread_id": "2176376",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "A server with everything released and whatever group needs to use AI",
+      "text_snippet": "Only via private servers using their bot player tech. It’s not AI, just bots. I’m sure some pserver will eventually come up with AI bot players as you"
+    },
+    {
+      "post_id": "2320601_29702464",
+      "thread_id": "2320601",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Microsoft, Xbox, And AI",
+      "text_snippet": "On single player RPG I can see it as a game change feature.\nImagine NPCs with AI, not a single playtime would be igual to the previous one."
+    },
+    {
+      "post_id": "2171055_27776973",
+      "thread_id": "2171055",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Artificial Intelligence Simulated Players",
+      "text_snippet": "I guess it could happen eventually. Maybe it already has who knows lolol\nThere have been suspicions in cod for years now…"
+    },
+    {
+      "post_id": "2171055_27777979",
+      "thread_id": "2171055",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Artificial Intelligence Simulated Players",
+      "text_snippet": "Karkasy:\n\nRemember when multiplayer games had the option to fight against BOT players?\n\n\nwe have comp stomp , same thing"
+    },
+    {
+      "post_id": "2171055_27778598",
+      "thread_id": "2171055",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Artificial Intelligence Simulated Players",
+      "text_snippet": "Yall heard of Erenshor? Literally designed to be a “single player MMO” with hundreds of AI characters"
+    },
+    {
+      "post_id": "2171055_27781272",
+      "thread_id": "2171055",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Artificial Intelligence Simulated Players",
+      "text_snippet": "Karkasy:\n\nUnreal Tournament\n\n\nJust think 90’s UT AI is still leaps and bounds ahead of Brann"
+    },
+    {
+      "post_id": "reddit_1tdr4z8_8",
+      "thread_id": "reddit_1tdr4z8",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Did Hirumaredx start using ChatGPT for scripting?",
+      "text_snippet": "Before you bash OP for being \"Paranoid\" go watch the worst 10 in classic and come back."
+    },
+    {
+      "post_id": "2332259_29840643",
+      "thread_id": "2332259",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "No News from Blizz on outing?",
+      "text_snippet": "You would think that, given that they have replaced everything with AI, they could add a simple AI agent to make some sot of placating announcement wh"
+    },
+    {
+      "post_id": "reddit_1s5tj3u_1",
+      "thread_id": "reddit_1s5tj3u",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "[Crest Bug] Community Manager vs ChatGPT response",
+      "text_snippet": "(Reddit post): [Crest Bug] Community Manager vs ChatGPT response"
+    },
+    {
+      "post_id": "2308441_29521928",
+      "thread_id": "2308441",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "AI and MMORPGsg",
+      "text_snippet": "I think it’s bound to happen at some point and might be the next step with mmos but current technology isn’t there yet. To me it’s a great match becau"
+    },
+    {
+      "post_id": "2336820_29896313",
+      "thread_id": "2336820",
+      "game": "World of Warcraft",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Class Tuning Incoming – August 18",
+      "text_snippet": "I agree. time to pull out holy. I love the dps style of disc and now its just a shield bot."
+    },
+    {
+      "post_id": "2336820_29907751",
+      "thread_id": "2336820",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Class Tuning Incoming – August 18",
+      "text_snippet": "There are two possibilities.\n\nNo the Devs no longer play the game, listen to players, or read the forums. They just look at analytics and make guesses"
+    },
+    {
+      "post_id": "1772220_22621640",
+      "thread_id": "1772220",
+      "game": "World of Warcraft",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 3,
+        "t": 0
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "All of these talks about bots",
+      "text_snippet": "The best way to get rid of bots is to BAN them BEFORE they become profitable. But if that happened people would actually stop botting, so Blizz doesn’"
+    },
+    {
+      "post_id": "1772220_22621912",
+      "thread_id": "1772220",
+      "game": "World of Warcraft",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 3,
+        "t": 0
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "All of these talks about bots",
+      "text_snippet": "Somehow the bot developers get paid for the software, and if they ban one by one, the devs only lose the revenue from those single instances. If they "
+    },
+    {
+      "post_id": "1772220_22621720",
+      "thread_id": "1772220",
+      "game": "World of Warcraft",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 4,
+        "t": 0
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "All of these talks about bots",
+      "text_snippet": "or, now.. or.. hear me out..\nPunish bots in real time instead of letting them ruin the economy for half a year at a time then ban-waving them.\nDo sill"
+    },
+    {
+      "post_id": "1772220_22621666",
+      "thread_id": "1772220",
+      "game": "World of Warcraft",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 1,
+        "a": 0,
+        "r": 3,
+        "t": 1
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "All of these talks about bots",
+      "text_snippet": "Are you talking about the LUA API?  Bots don’t need the API, a majority of them read memory directly, the API doesn’t expose information they need, it"
+    },
+    {
+      "post_id": "510327_2870225",
+      "thread_id": "510327",
+      "game": "EVE Online",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "EVE Crews: A lore-accurate* API-linked crew simulator",
+      "text_snippet": "I love that you’re doing a deep dive into running an monoculture crew, please keep me apprised of how it turns out.\nI did some analysis of the previou"
+    },
+    {
+      "post_id": "510327_2886529",
+      "thread_id": "510327",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "EVE Crews: A lore-accurate* API-linked crew simulator",
+      "text_snippet": "Hey DMC — v1.66.6 is live. Your reports nailed two real bugs.\nTDR Assessment was rolling back certain game state to a snapshot taken before the sessio"
+    },
+    {
+      "post_id": "510327_2866108",
+      "thread_id": "510327",
+      "game": "EVE Online",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "EVE Crews: A lore-accurate* API-linked crew simulator",
+      "text_snippet": "Hi all,\nEVE’s lore has always supported the concept of ship crews, but they’ve never been a gameplay feature. After years of writing about it, the AI-"
+    },
+    {
+      "post_id": "2116712_27043141",
+      "thread_id": "2116712",
+      "game": "World of Warcraft",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 2,
+        "t": 0
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "Another layer of cheating, Pixel bots are out of control",
+      "text_snippet": "Real\n[URL_ANONYMIZED]\n(Die by Sword immediately used at bomb)"
+    },
+    {
+      "post_id": "2116712_27042883",
+      "thread_id": "2116712",
+      "game": "World of Warcraft",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 5,
+        "t": 1
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "Another layer of cheating, Pixel bots are out of control",
+      "text_snippet": "One offs sure, but having healers that are impossible to kick on ranged like MM or BM in the [ID_ANONYMIZED] range? Yeah, sus. AWC level stop casts, a"
+    },
+    {
+      "post_id": "2116712_27043068",
+      "thread_id": "2116712",
+      "game": "World of Warcraft",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 4,
+        "t": 1
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "Another layer of cheating, Pixel bots are out of control",
+      "text_snippet": "There is a few bots already established with no big ban waves that do all that and more for $30 a month or less.\nAt some point blizzard will catch and"
+    },
+    {
+      "post_id": "reddit_1kylpvy_8",
+      "thread_id": "reddit_1kylpvy",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Ai as a wow companion?",
+      "text_snippet": "With a wow specific ai sure. With a General ai like chatgpt, no"
+    },
+    {
+      "post_id": "2344742_29986151",
+      "thread_id": "2344742",
+      "game": "World of Warcraft",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 3,
+        "t": 0
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "Mining Sucks",
+      "text_snippet": "the first mistake is thinking that the people with bots care about the game. they don’t care, to them this is a job, they have the bot do whatever its"
+    },
+    {
+      "post_id": "2344742_29989658",
+      "thread_id": "2344742",
+      "game": "World of Warcraft",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 3,
+        "t": 0
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "Mining Sucks",
+      "text_snippet": "Nemestrïnus:\n\nthe first mistake is thinking that the people with bots care about the game. they don’t care, to them this is a job, they have the bot d"
+    },
+    {
+      "post_id": "2344742_29985695",
+      "thread_id": "2344742",
+      "game": "World of Warcraft",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 2,
+        "r": 4,
+        "t": 1
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "Mining Sucks",
+      "text_snippet": "… As long as your not a bot.\nI don’t know where people get this idea that bots were ever a good idea in a video game, your telling a program to play a"
+    },
+    {
+      "post_id": "472014_2648311",
+      "thread_id": "472014",
+      "game": "EVE Online",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Aura AI",
+      "text_snippet": "An LLM that knows eve back to front would be a great idea."
+    },
+    {
+      "post_id": "1880836_24040183",
+      "thread_id": "1880836",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Using ChatGPT or Perplexity to help write addons",
+      "text_snippet": "Does anyone use ChatGPT or Perplexity to help write addons?\nIf so, how well do they work?"
+    },
+    {
+      "post_id": "472014_2656258",
+      "thread_id": "472014",
+      "game": "EVE Online",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Aura AI",
+      "text_snippet": "they should let an AI loose to roleplay as a triglavian.\nlet the AI decide what to do"
+    },
+    {
+      "post_id": "1880836_24040501",
+      "thread_id": "1880836",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Using ChatGPT or Perplexity to help write addons",
+      "text_snippet": "The samples I’ve seen on these forums from people who have tried are terrible."
+    },
+    {
+      "post_id": "reddit_1usj0hv_18",
+      "thread_id": "reddit_1usj0hv",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Do you think we will see AI corporations via Google DeepMind partnership?",
+      "text_snippet": "I’m with you. The big labs are out of passive sources of data. Games are data generators."
+    },
+    {
+      "post_id": "reddit_1usj0hv_17",
+      "thread_id": "reddit_1usj0hv",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Do you think we will see AI corporations via Google DeepMind partnership?",
+      "text_snippet": "monitoring an almost truly sandbox economy Per their own press release, no not quite. They are using a private offline fork of EVE Online to shotgun l"
+    },
+    {
+      "post_id": "511854_2878256",
+      "thread_id": "511854",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Vague Difficulty",
+      "text_snippet": "In fairness, 20+ multiboxed fleets weren’t the norm 10+ years ago either…"
+    },
+    {
+      "post_id": "reddit_1pftbpi_25",
+      "thread_id": "reddit_1pftbpi",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "I fine tuned Aura to act as a real AI copilot",
+      "text_snippet": "Seems like it has potential, definitely interested in following progress on this!"
+    },
+    {
+      "post_id": "reddit_1pftbpi_22",
+      "thread_id": "reddit_1pftbpi",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "I fine tuned Aura to act as a real AI copilot",
+      "text_snippet": "Happy you like it! Ill keep posting updates as it progresses :)"
+    },
+    {
+      "post_id": "reddit_1pftbpi_32",
+      "thread_id": "reddit_1pftbpi",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "I fine tuned Aura to act as a real AI copilot",
+      "text_snippet": "I like seeing folks push what can be done with AI. I always love the comment that 'AI is the worst, now, that it will ever be going forward.' m"
+    },
+    {
+      "post_id": "reddit_1pftbpi_35",
+      "thread_id": "reddit_1pftbpi",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "I fine tuned Aura to act as a real AI copilot",
+      "text_snippet": "Nice work! It would be great to see CCP implement something similar in game. Edit: might want to teach it about battle ventures though :)"
+    },
+    {
+      "post_id": "2255873_28897187",
+      "thread_id": "2255873",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Copilot coming to WoW?",
+      "text_snippet": "Who’s to say that AI isn’t introduced to WoW through an add-on? CoPilot is one thing, but general AI and specifically CoPilot are not the same exact t"
+    },
+    {
+      "post_id": "2053425_26196782",
+      "thread_id": "2053425",
+      "game": "World of Warcraft",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 3,
+        "t": 0
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "The AH changes coming in this next patch",
+      "text_snippet": "Yes thats how retail works.\nWhen you list, its at current lowest price.\nBots will list 1 item at a super low price and snipe people that list a ton fo"
+    },
+    {
+      "post_id": "2053425_26197101",
+      "thread_id": "2053425",
+      "game": "World of Warcraft",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 1,
+        "a": 1,
+        "r": 2,
+        "t": 0
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "The AH changes coming in this next patch",
+      "text_snippet": "so like whats happeneing already? btw anyone who sees 1 item for much lower than the rest should report that person because 99% of the time it’s a bot"
+    },
+    {
+      "post_id": "2053425_26196997",
+      "thread_id": "2053425",
+      "game": "World of Warcraft",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 3,
+        "t": 0
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "The AH changes coming in this next patch",
+      "text_snippet": "Ixiom:\n\nBots will list 1 item at a super low price and snipe people that list a ton for that price. Be careful.\n\n\nHowever, this will also prevent the "
+    },
+    {
+      "post_id": "1eoyf2u_6",
+      "thread_id": "1eoyf2u",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Wow Could Benefit From Llmaichatgpt",
+      "text_snippet": "in game with added interface interactions would be good"
+    },
+    {
+      "post_id": "1w4y0sn_7",
+      "thread_id": "1w4y0sn",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "I Tried Playing With One Account",
+      "text_snippet": "Yeah that’s the problem I had with Frontier. That game basically force you to play in single account. And I very soon realized without multiboxing Eve"
+    },
+    {
+      "post_id": "1upzjbr_17",
+      "thread_id": "1upzjbr",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 1,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA"
+      ],
+      "title": "Eve Vanguard Playtest Is Live What Are Your",
+      "text_snippet": "Waiting until it become multiboxable as hell and boxers will fill all slots in match to guarantee sweep all containers on map."
+    },
+    {
+      "post_id": "2323925_29725472",
+      "thread_id": "2323925",
+      "game": "World of Warcraft",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 3,
+        "t": 0
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "Can i get \"hacking\" ban for using an addon",
+      "text_snippet": "People that are claiming they were banned when using Better Fishing are probably most likely not really using Better Fishing.   There are several Fish"
+    },
+    {
+      "post_id": "2323925_29725096",
+      "thread_id": "2323925",
+      "game": "World of Warcraft",
+      "ai_type": "A2",
+      "dart_scores": {
+        "d": 1,
+        "a": 2,
+        "r": 4,
+        "t": 1
+      },
+      "reasons": [
+        "A2_FARMING_MECANICO_TRADICIONAL"
+      ],
+      "title": "Can i get \"hacking\" ban for using an addon",
+      "text_snippet": "Scrinshee:\n\npressing one key to cast and one key to reel,\n\n\nYou also have to mouse over the bobber.  Programs that allow you to reel in when the bobbe"
+    },
+    {
+      "post_id": "2323925_29725916",
+      "thread_id": "2323925",
+      "game": "World of Warcraft",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Can i get \"hacking\" ban for using an addon",
+      "text_snippet": "Mairek:\n\nThis is not needed, as you can reel in the fishing line using the interact keybind. The addon uses the same like a cast sequence, so with 1 b"
+    },
+    {
+      "post_id": "1tkscsd_32",
+      "thread_id": "1tkscsd",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Looking For Feedback On My First Wow Addon",
+      "text_snippet": "I'm not going to waste any more time on this, but this is what I could find in 10 minutes of ai generated addons that have the settings in the gallery"
+    },
+    {
+      "post_id": "764058062403225972_15",
+      "thread_id": "764058062403225972",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Is multi accounts at the same time meta in this game?",
+      "text_snippet": "Yes, assuming people aren't input broadcasting, there should be a delay between each account targeting and shooting a target.While you can use hotkeys"
+    },
+    {
+      "post_id": "1twaq1l_11",
+      "thread_id": "1twaq1l",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Reve Succumbs To Ai Bot",
+      "text_snippet": "[URL_ANONYMIZED]"
+    },
+    {
+      "post_id": "1twaq1l_9",
+      "thread_id": "1twaq1l",
+      "game": "EVE Online",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Reve Succumbs To Ai Bot",
+      "text_snippet": "It's a LITTLE funny that clankers do that cause they were trained on Reddit"
+    },
+    {
+      "post_id": "2104695_26874113",
+      "thread_id": "2104695",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "A software engineer taught AI to …",
+      "text_snippet": "I think a really good example that relates to gaming is how AI learned to play Starcraft. This was a few years ago so it’s probably better now but bas"
+    },
+    {
+      "post_id": "2051325_26164394",
+      "thread_id": "2051325",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Surprisingly, I find Gemini way better than Wowhead in answering most questions I have",
+      "text_snippet": "It uh… used to give interesting reasons for why cockroaches were named cockroaches."
+    },
+    {
+      "post_id": "2051325_26164423",
+      "thread_id": "2051325",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Surprisingly, I find Gemini way better than Wowhead in answering most questions I have",
+      "text_snippet": "Fuzzbutt:\n\nThe comment sections are the goat\n\n\nWhenever I’m “hard-stuck” on a vague/confusing quest or problem in-game (a decent number of quests don’"
+    },
+    {
+      "post_id": "2051325_26164479",
+      "thread_id": "2051325",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Surprisingly, I find Gemini way better than Wowhead in answering most questions I have",
+      "text_snippet": "AI is just getting started.\nJohn Conner giving us all some serious side eye about now."
+    },
+    {
+      "post_id": "1784181_22791163",
+      "thread_id": "1784181",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "ChatGPT and Perplexity, new sources of WoW information",
+      "text_snippet": "As Einstein said:\n\n\n“If you can’t explain it simply, you don’t understand it well enough.”"
+    },
+    {
+      "post_id": "432317_2496667",
+      "thread_id": "432317",
+      "game": "EVE Online",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "ChatGPT Algorythm To Lead Corporation/Empire",
+      "text_snippet": "This topic was automatically closed 90 days after the last reply. New replies are no longer allowed."
+    },
+    {
+      "post_id": "2022909_25756120",
+      "thread_id": "2022909",
+      "game": "World of Warcraft",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "AI/LLM integration when?",
+      "text_snippet": "LLMs are still pretty computationally expensive to employ in such a large scale fashion to the game.\nAs technology improves I could see an MMORPG even"
+    },
+    {
+      "post_id": "1tdxixs_17",
+      "thread_id": "1tdxixs",
+      "game": "EVE Online",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "So Can Anyone Tell Me What Did Hilmar And",
+      "text_snippet": "Last time I heard someone from deepmind (5-10y ago) they where into making AI learn to play old vintage games game from scratch. \n\nThey demonstrated i"
+    },
+    {
+      "post_id": "456743_2566269",
+      "thread_id": "456743",
+      "game": "EVE Online",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "A new way to teach players",
+      "text_snippet": "Ok, an example.  Main titan pilot has all options he has right now.  Copilot’s job is to manage which ammo to use against which frig/cruiser/BS, based"
+    },
+    {
+      "post_id": "2344820_29989185",
+      "thread_id": "2344820",
+      "game": "World of Warcraft",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Wow Arena and why i quit",
+      "text_snippet": "I understand where you’re coming from but tbh I would say that “alts” are probably 10-20% of the problem, the main problem you’d be encountering is th"
+    },
+    {
+      "post_id": "1v18nfp_19",
+      "thread_id": "1v18nfp",
+      "game": "EVE Online",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Ccp Was It Really That Hard To Ask Chatgpt What",
+      "text_snippet": "I figured that was more fun than just sitting back and accepting CCP big mistake. Its funny that a simple AI bot can come with like a more viable solu"
+    },
+    {
+      "post_id": "2344820_30002149",
+      "thread_id": "2344820",
+      "game": "World of Warcraft",
+      "ai_type": "A6",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "A6_RUIDO_NAO_IA",
+        "ZERO_DART"
+      ],
+      "title": "Wow Arena and why i quit",
+      "text_snippet": "I just wanna respond to this by reminding people that something like 10-15% of arena matches in shadowlands S1/S2 were being affected by boosters.* I "
+    },
+    {
+      "post_id": "1jukb0x_17",
+      "thread_id": "1jukb0x",
+      "game": "EVE Online",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Psa For The New Bros Dont Ask Chatgpt About Eve",
+      "text_snippet": "New war idea: chatGPT picks the doctrine ships for each side for every timer"
+    },
+    {
+      "post_id": "1jukb0x_10",
+      "thread_id": "1jukb0x",
+      "game": "EVE Online",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Psa For The New Bros Dont Ask Chatgpt About Eve",
+      "text_snippet": ">I havent had much luck with finding other good fantasy name generators, so… \\*shrug*\n\nThat wasn't a joke about fantasy name generators existing 😅\n\nFa"
+    },
+    {
+      "post_id": "1jukb0x_98",
+      "thread_id": "1jukb0x",
+      "game": "EVE Online",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Psa For The New Bros Dont Ask Chatgpt About Eve",
+      "text_snippet": "Well, thats a substantially better but still pretty bad fit compared to what I got"
+    },
+    {
+      "post_id": "1jukb0x_97",
+      "thread_id": "1jukb0x",
+      "game": "EVE Online",
+      "ai_type": "A5",
+      "dart_scores": {
+        "d": 0,
+        "a": 0,
+        "r": 0,
+        "t": 0
+      },
+      "reasons": [
+        "ZERO_DART"
+      ],
+      "title": "Psa For The New Bros Dont Ask Chatgpt About Eve",
+      "text_snippet": "Damn, you've got pretty good OPSEC on this account and I can't be arsed doing time-of-posting TZ analysis."
+    }
+  ]
+}

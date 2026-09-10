@@ -69,7 +69,7 @@ def convert_netnography_results():
     lines.append("Este documento formaliza a leitura humana estruturada e detalhada dos resultados da codificação netnográfica multiagente baseada no framework **DART-NET** (Prahalad & Ramaswamy, 2004; DART-NET 2026), processados pelo modelo `deepseek-v4-flash` a partir de `data/analysis/netnography_results.jsonl`.")
     lines.append("")
     lines.append("> [!IMPORTANT]")
-    lines.append("> **Filtro Temporal Estrito (Jan 2024 – 2026):** Todos os 1.032 posts aqui apresentados satisfazem a restrição metodológica `created_at >= '2024-01-01T00:00:00Z'`, cobrindo discussões empíricas dos ecossistemas de *World of Warcraft* e *EVE Online*.")
+    lines.append(f"> **Filtro Temporal Estrito (Jan 2024 – 2026):** Todos os {total} posts aqui apresentados satisfazem a restrição metodológica `created_at >= '2024-01-01T00:00:00Z'`, cobrindo discussões empíricas dos ecossistemas de *World of Warcraft* e *EVE Online*.")
     lines.append("")
     lines.append("---")
     lines.append("")
@@ -295,7 +295,7 @@ def convert_quality_audit_results():
     lines.append("")
     lines.append("---")
     lines.append("")
-    lines.append("## 3. Registo Detalhado da Amostra Auditada (206 auditorias)")
+    lines.append(f"## 3. Registo Detalhado da Amostra Auditada ({len(details)} auditorias)")
     lines.append("")
 
     for idx, d in enumerate(details, 1):

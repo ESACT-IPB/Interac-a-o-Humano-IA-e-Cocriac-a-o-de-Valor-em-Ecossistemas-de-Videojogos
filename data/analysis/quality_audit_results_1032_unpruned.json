@@ -1,13 +1,23 @@
 {
   "audited_at": "2026-09-10 15:40:30",
-  "total_analyses": 825,
-  "sample_size": 159,
-  "average_consistency_score": 91.30817610062893,
+  "total_analyses": 1032,
+  "sample_size": 206,
+  "average_consistency_score": 91.19902912621359,
   "failed_audits": [
     {
       "post_id": "reddit_1sq7b1r_1",
       "score": 82,
       "reason": "The coding demonstrates strong literal evidence veracity: all four DART evidence quotes (dialogue, access, risk, transparency) exist verbatim in the original post. The AI type classification as A4 (AI-Assisted Human) is valid—the author explicitly states using Claude Pro for coding over 200 discussions, with the human directing and making decisions, which correctly avoids false A1 classification. Interaction type I4 (Human-to-Human about AI) is appropriate since the post is a community announcement about an AI-coded tool rather than direct human-AI interaction. Value type VC4 (unclear) is defensible given the alpha-testing stage and no demonstrated co-creation outcome yet. DART calibration is generally sound: Dialogue=3 reflects the extensive Claude discussions; Access=4 reflects the tool's market data access; Risk=4 reflects the elaborate risk-flag system; Transparency=2 appropriately reflects the tension between offering code review and mentioning 'proprietary secret methods'. Human review was correctly flagged (true) given value_confidence of 0.75 (<0.80) and the complexity of the interaction. The primary defect is conceptual inconsistency: the post is about EVE Online (EVE Market Scout, Jita, ESI, EVE-specific items like Crane), yet the coding labels the game as 'World of Warcraft' and community as 'r/wow'. This is a significant misclassification of the game context that undermines the conceptual consistency of the coding despite the otherwise strong DART analysis. The 'jogo' field and 'contexto_jogo' fields repeat this error. This warrants a score reduction from what would otherwise be a 90+ coding."
+    },
+    {
+      "post_id": "510142_2865151",
+      "score": 72,
+      "reason": "A auditoria identificou que as evidências literais citadas para diálogo, risco e transparência existem verbatim no post original, cumprindo o critério de veracidade literal. A classificação de tipologia 'parasitária' é consistente com a interação descrita (manipulação narrativa por um veterano), e os scores DART estão razoavelmente calibrados: diálogo presente (3), acesso ausente (0), risco moderado (3) e transparência forte (4). No entanto, foram identificadas duas falhas críticas. Primeiro, o campo 'human_review_required' está ausente no JSON gerado, apesar de o próprio processo de pensamento do agente revelar ambiguidade significativa sobre a aplicabilidade do framework DART a interações humano-humano (não humano-IA), o que deveria ter acionado revisão humana. Segundo, há inconsistência conceitual: o framework DART-NET é projetado para cocriação humano-IA, mas o post não menciona nenhum agente de IA, bot ou sistema automatizado; o agente tentou contornar isso tratando o veterano como 'agente', o que viola a premissa do framework. A ausência de classificação A1-A6 explícita também é uma lacuna, embora a não classificação como agente de IA seja tecnicamente correta. O score de auditoria reflete a solidez da extração de evidências e calibração, mas penaliza a falta de sinalização de revisão humana e a inconsistência conceitual."
+    },
+    {
+      "post_id": "510142_2864765",
+      "score": 62,
+      "reason": "A auditoria identificou múltiplas inconsistências entre o texto original e a codificação DART-NET. Primeiro, a evidência literal citada para 'acesso' e 'risco' é apenas o título 'Nerf AFK moon mining', que existe verbatim no post, mas o corpo do post não menciona bots, macros, RMT, inflação ou automação. A interpretação de acesso e risco extrapola significativamente o conteúdo textual, atribuindo ao autor afirmações que não estão presentes. Segundo, a calibração do score de risco percebido em 4 (muito forte) é excessiva: o post é uma sugestão breve e vaga, sem elaboração de consequências económicas ou competitivas, e o próprio autor tem 0 likes e trust level 2, indicando baixa validação social. Um score de 2 (moderado) seria mais adequado. Terceiro, a tipologia 'parasitaria' é conceitualmente inconsistente: o post em si é uma proposta cooperativa de mudança de design, não uma descrição de comportamento parasitário do autor. A classificação deveria refletir a natureza da interação do post (sugestão construtiva), não o fenômeno que ele critica. Quarto, 'human_review_required' não foi sinalizado como true, apesar da ambiguidade evidente e da extrapolação interpretativa, o que viola o critério de revisão humana para casos ambíguos. A dimensão 'dialogo' está razoavelmente codificada, e a ausência de transparência está correta, mas as demais dimensões carecem de rigor evidencial."
     },
     {
       "post_id": "510327_2903732",
@@ -18,6 +28,11 @@
       "post_id": "510327_2867490",
       "score": 72,
       "reason": "A auditoria identificou uma falha crítica na classificação do tipo de IA (A1) e uma inconsistência conceitual associada. O post original descreve o 'EVE Crews engine' como um sistema que gera resoluções mecânicas e narrativas, atualiza strings de conselho e gerencia eventos. No entanto, não há evidência explícita de autonomia, aprendizado ou capacidade de agência independente que justifique a classificação como 'AI agent (A1)'. O texto descreve um sistema determinístico de regras (eventos pré-definidos como EVT010, strings de conselho com estados de prioridade, popups de relatório de baixas) que responde a gatilhos específicos (perda de navio, reconhecimento do relatório). Isso é mais consistente com um 'deterministic script (A3)' ou, no máximo, um 'conventional bot (A2)', não um agente de IA autônomo. A confiança de 0.85 para A1 é excessiva e não suportada pelo texto. A classificação correta deveria ser A3 (script determinístico) com confiança mais baixa, ou no mínimo exigir revisão humana com nota explícita de ambiguidade. As demais dimensões estão bem calibradas: as evidências literais para diálogo, acesso, risco e transparência existem verbatim no texto original; os scores DART (3, 2, 2, 2) são razoáveis e bem fundamentados; a interação I3 (bidirecional) e o valor VC3 (co-destruição) são suportados pelo relato de confusão e frustração do jogador. O human_review_required foi corretamente sinalizado como true, embora a justificativa nas notas de classificação mencione ambiguidade sobre a autonomia do agente, o que contradiz a confiança de 0.85 atribuída a A1. A inconsistência conceitual reside precisamente nessa contradição: reconhecer ambiguidade sobre autonomia e ainda assim classificar como A1 com confiança moderada-alta."
+    },
+    {
+      "post_id": "510142_2864639",
+      "score": 55,
+      "reason": "A auditoria identificou uma violação crítica do princípio de evidência literal. O campo 'dialogo.evidencia_literal' cita: 'Nerf AFK moon mining. C-Type Mining their roids/ice blocks? Iirc these crystals were created specifically for this kind of hostile gameplay.' No entanto, o post original contém apenas: 'C-Type Mining their roids/ice blocks? Iirc these crystals were created specifically for this kind of hostile gameplay.' O título 'Nerf AFK moon mining' não faz parte do corpo do post e foi indevidamente concatenado como evidência literal do diálogo. Esta fabricação parcial de citação viola o critério 1. Adicionalmente, a calibração do score de risco percebido (4/5) é excessiva. O post é extremamente curto, não apresenta justificação explícita do risco, não quantifica impacto económico, e tem 0 likes, indicando ausência de validação comunitária. Um score de 2 (moderado) ou 3 (forte) seria mais defensável; 4 (muito forte) não é suportado pelo texto. A classificação de tipologia como 'assimetrica' é plausível, mas a dimensão dominante 'risco' é questionável dado que o post é primariamente uma intervenção dialógica (pergunta retórica + evocação de conhecimento prévio). A ausência de transparência foi corretamente identificada. O campo 'human_review_required' não foi explicitamente fornecido no JSON, mas a presença de ambiguidade e a fabricação de evidência justificariam revisão humana; a omissão deste campo é uma falha de completude. A consistência conceitual é comprometida pela interpretação de 'AFK mining' como acesso automatizado sem evidência explícita de bots ou scripts no texto original; o termo 'AFK' pode referir-se a mineração passiva legítima (ex: multiboxing manual com supervisão mínima), não necessariamente automação. A classificação AI type não foi fornecida no JSON, impossibilitando avaliação completa do critério 2; assume-se consistente por omissão, mas a ausência do campo é uma lacuna metodológica."
     },
     {
       "post_id": "reddit_1t939or_2",
@@ -33,6 +48,11 @@
       "post_id": "reddit_1pftbpi_12",
       "score": 55,
       "reason": "A auditoria identificou falhas relevantes na classificação do tipo de IA e na calibração dos scores DART. Quanto à evidência literal, as citações usadas para dialogue, access e risk existem verbatim no post original, portanto o critério 1 é satisfeito. No entanto, a classificação A1 (AI agent) não é sustentada pelo texto: o post apenas descreve uma resposta incorreta de 'Aura', sem evidência explícita de autonomia, aprendizado ou capacidade agêntica. A menção a 'fine tuned' está no título do thread, não no corpo do post, e mesmo assim não comprova agência. A entidade poderia ser um bot convencional (A2) ou script determinístico (A3), e a confiança de 0.85 para A1 é excessiva. Isso viola o critério 2. A interação I4 e o valor VC3 são razoáveis: o autor descreve uma interação mediada por IA e expressa frustração com a resposta incorreta, indicando co-destruição de valor. O critério 3 é aceitável. A calibração DART apresenta problemas: o score de dialogue 2 é defensável, mas o score de access 1 é frágil, pois 'receives answer' não demonstra acesso a recursos ou informações de forma clara; o score de risk 2 é superestimado, pois a evidência citada é uma piada sarcástica, não uma indicação objetiva de risco; e o score de transparency 1 é inconsistente, pois não há evidência literal de transparência, e o campo 'presente' foi marcado como true apesar de 'evidencia_literal' estar vazio. Isso viola o critério 4. O human_review_required foi corretamente sinalizado como true, pois há confiança abaixo de 0.80 em value_type e ambiguidade no tom sarcástico, satisfazendo o critério 5. A consistência conceitual é comprometida pela classificação A1 sem suporte e pela inconsistência entre 'presente: true' e ausência de evidência em transparência. O score de auditoria reflete a presença de evidências literais corretas e sinalização adequada de revisão humana, mas penaliza a classificação de agente sem evidência e a calibração imprecisa dos scores DART."
+    },
+    {
+      "post_id": "2323925_29725916",
+      "score": 55,
+      "reason": "The coding correctly identifies that no AI agent, bot, or script is present in the post; the text explicitly states 'There are no addons or macros involved at all. Only basic game functions being used as intended.' Therefore, A6/I6/VC4 classifications are valid, and the empty evidence fields for DART dimensions are consistent with the absence of AI-related content. However, the DART scoring is miscalibrated: the post clearly discusses account risk ('you may be putting your account at risk') and transparency/legitimacy of game functions ('This is 100% ok and is built into the game on purpose'), which should warrant non-zero scores for risk and transparency under the DART-NET framework. The coding assigns 0 to all dimensions despite the presence of risk-related and transparency-related discourse. Additionally, human_review_required is set to false despite this conceptual inconsistency and the presence of risk/transparency content that was not captured. The confidence values are high (0.95), but the calibration error and missed risk/transparency evidence should have triggered human review. Overall, the coding is partially accurate but fails to capture relevant risk and transparency dimensions, resulting in a moderate audit score."
     },
     {
       "post_id": "507123_2843605",
@@ -53,9 +73,33 @@
       "calibracao_dart_scores": true,
       "human_review_corretamente_sinalizado": true,
       "consistencia_conceitual": true,
+      "score_auditoria": 98,
+      "justificacao_auditoria": "The coding is highly accurate. Literal evidence veracity: all DART evidence fields are empty, which is correct because the original post contains no dialogue, access, risk, or transparency content related to AI; no quotes were invented. AI agent classification validity: A6 (Irrelevant) is appropriate because the post is a developer/community announcement about an upcoming game region with no mention of AI, bots, scripts, or autonomous agents; there is no risk of falsely classifying a conventional bot or deterministic script as an AI agent. Interaction and value co-creation consistency: I6 (No meaningful interaction) and VC4 (No evidence of value creation/destruction) are supported by the text, which only invites human player feedback about a game update. DART scoring calibration: all scores of 0 are well-calibrated against the definitions, as the dimensions are entirely absent from the post. Human review calibration: human_review_required is false, which is correct because all confidence values are 0.95, exceeding the 0.80 threshold, and there is no ambiguity in the text. Minor note: the coding includes some redundant or non-standard fields (e.g., dimensao_dominante, score_risco_percebido, tipologia_cocriacao) that are not part of the core DART-NET schema and could introduce minor inconsistency if not standardized, but they do not affect the substantive classification.",
+      "post_id": "509843_2862127",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
       "score_auditoria": 92,
       "justificacao_auditoria": "The coding is largely well-calibrated. The only quoted evidence for Access ('It can take a screenshot of your current game and help you.') exists verbatim in the original post, satisfying the evidence-first principle. The classification of AI type as A5 (discussion about AI) is appropriate because the post describes Copilot's capability rather than demonstrating an actual human-AI interaction; this correctly avoids falsely classifying a conventional or hypothetical capability as an active AI agent (A1). Interaction type I4 (human-to-human about AI) and value type VC4 (no demonstrated value outcome) are consistent with the text, which only asserts potential help without evidence of realized co-creation or co-destruction. DART scores are well-calibrated: Dialogue 0 (no conversational exchange), Access 2 (moderate, because the text claims screenshot-based assistance but does not enact it), Risk 0, and Transparency 0. Human review was correctly required due to low confidence scores (0.65-0.75) and ambiguity around the missing referent for 'this'. Minor deductions reflect the inherent uncertainty in interpreting a very short, context-dependent post, but no substantive coding defects were identified.",
       "post_id": "2257438_28916344",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
+      "score_auditoria": 98,
+      "justificacao_auditoria": "The coding is highly consistent with the original post. The post text is exactly: 'I have no idea what you are talking about. Please don’t explain.' There are no quoted evidence strings for DART dimensions, so there is no risk of invented quotes; the empty evidence fields are appropriate because the post contains no substantive content about dialogue, access, risk, or transparency. The AI type classification as A6 (irrelevant/no AI agent) is valid: the post does not mention AI, bots, automation, or autonomous systems, and there is no evidence to support A1-A5. The interaction type I6 and value type VC4 are also consistent with a dismissive, non-substantive reply that neither creates nor destroys value. DART scores of 0 across all dimensions are well calibrated because the post lacks any relevant content for those constructs. Human review was correctly not required because confidence is 0.9, above the 0.80 threshold, and the classification is unambiguous. Minor deductions: the coding includes redundant fields such as 'dimensao_dominante', 'score_risco_percebido', 'tipologia_cocriacao', and duplicated DART sub-objects that are not part of the core DART-NET schema and could introduce inconsistency, but they do not affect the substantive accuracy of the classification.",
+      "post_id": "510142_2864643",
       "_thinking_process": ""
     },
     {
@@ -80,6 +124,18 @@
       "score_auditoria": 96,
       "justificacao_auditoria": "A auditoria confirma alta qualidade da codificação. 1) Evidência literal: as citações de acesso e transparência existem verbatim no post original; diálogo e risco corretamente sem evidência. 2) Classificação AI: A5 é apropriada, pois o post menciona 'Aura' e 'Intel Parser' como funcionalidades automatizadas, mas sem evidência explícita de autonomia, aprendizado ou IA generativa; evita-se falsamente classificar como A1. 3) Interação e valor: I6 e VC4 são consistentes, pois não há descrição de interação humano-agente nem resultado de cocriação/destruição de valor. 4) Calibração DART: Diálogo 0 (ausente), Acesso 2 (moderado, promessa de revolução no acesso a intel), Risco 0 (ausente), Transparência 1 (fraca, changelog revela correções de comportamento do sistema). 5) Revisão humana: corretamente sinalizada (true), pois as confianças de acesso/transparência (0.70) e a ambiguidade sobre Aura ser IA justificam revisão. Pequena ressalva: a confiança geral de 0.85 para A5/I6/VC4 é levemente otimista diante da ambiguidade, mas não compromete a validade.",
       "post_id": "507123_2844342",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
+      "score_auditoria": 98,
+      "justificacao_auditoria": "The coding is highly consistent with the original post. The post is a single-sentence suggestion about using AI-generated QA test teams, with no actual AI agent interaction described. The AI type classification as A5 (Discussion About AI) is valid because the author is proposing a hypothetical use of AI rather than interacting with an AI agent. The interaction type I4 (Human to Human about AI) is appropriate, as the author is addressing the community about AI. Value type VC4 is correct because no actual value co-creation or co-destruction is evidenced; the post only suggests potential future value. DART scores of 0 for dialogue, access, risk, and transparency are well-calibrated because the post contains no evidence of actual dialogue with an AI, no access facilitation, no risk assessment, and no transparency discussion. The evidence fields are empty, which is appropriate for zero scores, and no verbatim quotes are fabricated. Human review was correctly not required because all confidence scores are above 0.80 and there is no ambiguity in the classification. The only minor issue is that the post could arguably be considered 'POSSIBLY RELEVANT' rather than 'IRRELEVANT' because it discusses AI in the context of game development, but since the analytical unit is human-AI interaction and no interaction is described, the IRRELEVANT classification is defensible.",
+      "post_id": "2257438_28913780",
       "_thinking_process": ""
     },
     {
@@ -159,6 +215,18 @@
       "consistencia_ai_type": true,
       "consistencia_interacao_valor": true,
       "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
+      "score_auditoria": 92,
+      "justificacao_auditoria": "A codificação está majoritariamente correta e conservadora. As evidências literais estão vazias para todas as dimensões DART, o que é consistente com os escores 0 atribuídos, pois o texto original não contém diálogo, acesso mediado por IA, risco ou transparência. A classificação A5/I4 é defensável: o post menciona 'Aura Guidance (Beta)' e compartilha uma captura de tela, mas não descreve interação direta com IA; a baixa confiança (0.42/0.45) reflete corretamente a dependência de contexto externo. O valor VC4 é adequado, pois não há resultado de cocriação descrito. O human_review_required foi corretamente sinalizado como true, dado que a confiança está abaixo de 0.80 e há ambiguidade sobre a natureza exata da funcionalidade. Pequena ressalva: a nota de classificação menciona 'Aura' como comumente entendida como IA, o que é uma inferência externa, mas o codificador a trata com cautela e não a usa para inflar escores. A calibração dos escores DART em 0 é apropriada, pois o texto apenas anuncia disponibilidade de teste e não demonstra nenhuma dimensão do framework.",
+      "post_id": "506798_2840203",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
       "human_review_corretamente_sinalizado": false,
       "consistencia_conceitual": true,
       "score_auditoria": 88,
@@ -200,6 +268,42 @@
       "score_auditoria": 92,
       "justificacao_auditoria": "A auditoria confirma que as evidências citadas para risco e transparência existem literalmente no post original: 'it might even be AI. There are some soundtracks that deff sound AI made so it’s too late now, it’s done.' e 'Midnight’s cinematic looks slightly suspicious imo, it might even be AI.' estão presentes de forma verbatim. A classificação A5 (AI como tópico/suspeita, sem agente autônomo) é válida, pois o autor apenas especula sobre conteúdo possivelmente gerado por IA, sem descrever interação com um agente de IA; não há risco de falsa classificação como A1/A2. A interação I4 (sem interação humano-IA) e o valor VC4 (impacto negativo percebido/autenticidade) são consistentes com o texto, que expressa preocupação com qualidade e autenticidade. Os scores DART estão bem calibrados: diálogo e acesso ausentes (0), risco e transparência moderados (2), refletindo especulação sem evidência concreta. O human_review_required foi corretamente sinalizado como true, dado que as confianças de ai_type (0.72), interaction (0.70), value (0.60) e relevance (0.65) estão abaixo de 0.80, e há ambiguidade entre A5 e A1/A2. Pequena penalização na pontuação (92/100) decorre da confiança relativamente baixa em risco (0.65) e transparência (0.60), que poderia justificar uma nota 1 em vez de 2, mas a interpretação de 'moderado' é defensável pela presença de especulação explícita sobre IA.",
       "post_id": "2300167_29418380",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
+      "score_auditoria": 92,
+      "justificacao_auditoria": "A auditoria confirma que as evidências literais citadas para Acesso e Risco existem verbatim no post original ('AFK and botters devalue product.' e 'Cheap materials for production leads to more conflicts, which leads to more destruction, which leads to more farming and building.'). A classificação de ausência de Diálogo e Transparência é correta, pois o post é um monólogo sem menção a interações bidirecionais ou políticas de transparência. A consistência conceitual do framework DART é mantida: Acesso é interpretado como acesso a ferramentas de automação (AFK/bots), Risco como desvalorização econômica com trade-off percebido, e a tipologia 'parasitária' é coerente com a extração passiva de valor por bots. A calibração dos scores DART é adequada: Diálogo 0 (ausente), Acesso presente com evidência, Risco 3 (moderado, refletindo a visão ambivalente do autor), Transparência 0 (ausente). A dimensão dominante 'acesso' é justificada pelo foco central do post em AFK/bots. O campo 'human_review_required' não está explicitamente presente no JSON fornecido, mas a ausência de ambiguidade significativa e a confiança implícita alta (evidências claras, interpretações alinhadas) sugerem que não seria necessário sinalizar revisão humana. Pequena penalização (8 pontos) pela falta de explicitação do campo 'human_review_required' e pela interpretação ligeiramente especulativa no contexto_jogo sobre '0 gostos' como indicador de ausência de diálogo, que é uma inferência razoável mas não diretamente evidenciada no texto do post.",
+      "post_id": "510142_2864828",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": false,
+      "consistencia_conceitual": false,
+      "score_auditoria": 72,
+      "justificacao_auditoria": "A auditoria identificou que as evidências literais citadas para diálogo, risco e transparência existem verbatim no post original, cumprindo o critério de veracidade literal. A classificação de tipologia 'parasitária' é consistente com a interação descrita (manipulação narrativa por um veterano), e os scores DART estão razoavelmente calibrados: diálogo presente (3), acesso ausente (0), risco moderado (3) e transparência forte (4). No entanto, foram identificadas duas falhas críticas. Primeiro, o campo 'human_review_required' está ausente no JSON gerado, apesar de o próprio processo de pensamento do agente revelar ambiguidade significativa sobre a aplicabilidade do framework DART a interações humano-humano (não humano-IA), o que deveria ter acionado revisão humana. Segundo, há inconsistência conceitual: o framework DART-NET é projetado para cocriação humano-IA, mas o post não menciona nenhum agente de IA, bot ou sistema automatizado; o agente tentou contornar isso tratando o veterano como 'agente', o que viola a premissa do framework. A ausência de classificação A1-A6 explícita também é uma lacuna, embora a não classificação como agente de IA seja tecnicamente correta. O score de auditoria reflete a solidez da extração de evidências e calibração, mas penaliza a falta de sinalização de revisão humana e a inconsistência conceitual.",
+      "post_id": "510142_2865151",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": false,
+      "human_review_corretamente_sinalizado": false,
+      "consistencia_conceitual": false,
+      "score_auditoria": 62,
+      "justificacao_auditoria": "A auditoria identificou múltiplas inconsistências entre o texto original e a codificação DART-NET. Primeiro, a evidência literal citada para 'acesso' e 'risco' é apenas o título 'Nerf AFK moon mining', que existe verbatim no post, mas o corpo do post não menciona bots, macros, RMT, inflação ou automação. A interpretação de acesso e risco extrapola significativamente o conteúdo textual, atribuindo ao autor afirmações que não estão presentes. Segundo, a calibração do score de risco percebido em 4 (muito forte) é excessiva: o post é uma sugestão breve e vaga, sem elaboração de consequências económicas ou competitivas, e o próprio autor tem 0 likes e trust level 2, indicando baixa validação social. Um score de 2 (moderado) seria mais adequado. Terceiro, a tipologia 'parasitaria' é conceitualmente inconsistente: o post em si é uma proposta cooperativa de mudança de design, não uma descrição de comportamento parasitário do autor. A classificação deveria refletir a natureza da interação do post (sugestão construtiva), não o fenômeno que ele critica. Quarto, 'human_review_required' não foi sinalizado como true, apesar da ambiguidade evidente e da extrapolação interpretativa, o que viola o critério de revisão humana para casos ambíguos. A dimensão 'dialogo' está razoavelmente codificada, e a ausência de transparência está correta, mas as demais dimensões carecem de rigor evidencial.",
+      "post_id": "510142_2864765",
       "_thinking_process": ""
     },
     {
@@ -311,6 +415,18 @@
       "_thinking_process": ""
     },
     {
+      "evidencia_literal_existe": false,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": false,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": false,
+      "score_auditoria": 55,
+      "justificacao_auditoria": "A auditoria identificou uma violação crítica do princípio de evidência literal. O campo 'dialogo.evidencia_literal' cita: 'Nerf AFK moon mining. C-Type Mining their roids/ice blocks? Iirc these crystals were created specifically for this kind of hostile gameplay.' No entanto, o post original contém apenas: 'C-Type Mining their roids/ice blocks? Iirc these crystals were created specifically for this kind of hostile gameplay.' O título 'Nerf AFK moon mining' não faz parte do corpo do post e foi indevidamente concatenado como evidência literal do diálogo. Esta fabricação parcial de citação viola o critério 1. Adicionalmente, a calibração do score de risco percebido (4/5) é excessiva. O post é extremamente curto, não apresenta justificação explícita do risco, não quantifica impacto económico, e tem 0 likes, indicando ausência de validação comunitária. Um score de 2 (moderado) ou 3 (forte) seria mais defensável; 4 (muito forte) não é suportado pelo texto. A classificação de tipologia como 'assimetrica' é plausível, mas a dimensão dominante 'risco' é questionável dado que o post é primariamente uma intervenção dialógica (pergunta retórica + evocação de conhecimento prévio). A ausência de transparência foi corretamente identificada. O campo 'human_review_required' não foi explicitamente fornecido no JSON, mas a presença de ambiguidade e a fabricação de evidência justificariam revisão humana; a omissão deste campo é uma falha de completude. A consistência conceitual é comprometida pela interpretação de 'AFK mining' como acesso automatizado sem evidência explícita de bots ou scripts no texto original; o termo 'AFK' pode referir-se a mineração passiva legítima (ex: multiboxing manual com supervisão mínima), não necessariamente automação. A classificação AI type não foi fornecida no JSON, impossibilitando avaliação completa do critério 2; assume-se consistente por omissão, mas a ausência do campo é uma lacuna metodológica.",
+      "post_id": "510142_2864639",
+      "_thinking_process": ""
+    },
+    {
       "evidencia_literal_existe": true,
       "consistencia_ai_type": true,
       "consistencia_interacao_valor": true,
@@ -332,6 +448,30 @@
       "score_auditoria": 88,
       "justificacao_auditoria": "The coding demonstrates strong literal evidence veracity: all quoted evidence strings for dialogue, access, risk, and transparency appear verbatim in the original post, including the OP quote, RAG workaround, ROI/accuracy concern, and Google Search glue example. AI type classification as A5 (Discussion About AI) is valid because the post discusses LLM feasibility and hallucination without describing an actual autonomous AI agent interaction; no false A1 classification occurred. Interaction type I4 (human-human discussion about AI) and value type VC4 (no direct value co-creation/destruction) are consistent with the text. DART scores are reasonably calibrated: dialogue=1 reflects only a reference to the OP's point, access=2 reflects a theoretical RAG workaround, risk=2 reflects accuracy/ROI concerns, and transparency=1 reflects a single hallucination example. However, human_review_required was set to false despite several confidence values at or below 0.85 (relevance_confidence=0.85, value_confidence=0.85, dialogue confidence=0.85, access/risk/transparency confidence=0.80). Under the audit criterion that human review should be triggered if confidence < 0.80 or ambiguity is present, the 0.80 confidence values are borderline and the overall relevance is only 'POSSIBLY RELEVANT', indicating ambiguity. Therefore, human review should have been signaled as true. This is the primary defect preventing a higher score.",
       "post_id": "1eoyf2u_17",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": false,
+      "consistencia_conceitual": true,
+      "score_auditoria": 88,
+      "justificacao_auditoria": "The coding demonstrates strong literal evidence veracity: the quoted excerpts 'maintenance is a result of that Ai code?' and 'What percent of the prepatch do you think was coded by Ai?' exist verbatim in the original post. AI agent classification validity is consistent: the post does not reference any AI agent (A1-A6), and the coding correctly avoids inventing one. Interaction and value co-creation consistency is sound: the post is a monologic rhetorical question, correctly coded as no dialogue (I1 absent), and the asymmetric typology (VC2) is supported by the player's suspicion that Blizzard benefits from AI while players bear quality risks. DART scoring calibration is well-aligned: risk is scored 3 (moderate) because the post speculates on AI-caused maintenance issues without reporting direct harm, and transparency is the dominant dimension given the explicit demand for disclosure. However, human review calibration is defective: the coding does not include a 'human_review_required' field, despite the post's inherent ambiguity (speculative claims, no community engagement, trust level 2, and zero likes). Under the audit criteria, human review should have been flagged as true due to this ambiguity and the absence of a confidence score. Conceptually, the coding is consistent with the DART-NET framework, but the missing human review flag prevents a perfect score.",
+      "post_id": "3000003_28811459",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
+      "score_auditoria": 98,
+      "justificacao_auditoria": "The coding is highly consistent with the original post. Literal evidence veracity is satisfied: all DART evidence fields are empty, which is correct because the post contains no dialogue, access, risk, or transparency content; no quotes were invented. AI agent classification validity is correct: the post discusses 'shipcasters' as a game mechanic and contains no mention of AI, autonomy, or automation, so A6 (irrelevant) is appropriate rather than A1/A2/A3. Interaction and value co-creation consistency is also correct: I6 and VC4 are supported because there is no human-AI interaction or value co-creation described. DART scoring calibration is accurate: all four dimensions are scored 0/5, matching the absence of relevant content. Human review calibration is correct: confidence values are high (0.95) and there is no substantive ambiguity in the post text, so human_review_required=false is justified. The only minor limitation is that the post is part of a larger thread ('Introducing Exordium!') and could theoretically gain contextual meaning from surrounding posts, but based strictly on the provided text, the classification is sound.",
+      "post_id": "509843_2862443",
       "_thinking_process": ""
     },
     {
@@ -411,6 +551,18 @@
       "consistencia_ai_type": true,
       "consistencia_interacao_valor": true,
       "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
+      "score_auditoria": 92,
+      "justificacao_auditoria": "A codificação está majoritariamente consistente. A evidência literal citada para as dimensões DART é vazia, o que é correto, pois nenhuma dimensão está presente no texto; não há citações inventadas. A classificação A5 (discussão sobre IA) é adequada: o post é especulativo ('I'm not saying it IS that... its possible') e não descreve interação direta com um agente de IA, evitando falsamente classificar um bot convencional como agente de IA. A interação I4 (humano→humano sobre IA) e o valor VC4 (sem evidência) são suportados pelo texto. Os scores DART 0/5 estão bem calibrados, pois não há diálogo, acesso, risco ou transparência explícitos no post. O human_review_required foi corretamente sinalizado como true, dado que ai_type_confidence (0.72) está abaixo de 0.80 e há ambiguidade sobre se os bots são baseados em IA ou convencionais. Pequena inconsistência: o campo 'dimensao_dominante' indica 'risk' e 'score_risco_percebido' é 1, enquanto o DART 'risk' tem score 0; isso pode refletir uma interpretação contextual de risco implícito (bots em EVE são proibidos), mas não está diretamente evidenciado no texto, o que reduz levemente a consistência conceitual.",
+      "post_id": "474041_2659353",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
       "human_review_corretamente_sinalizado": false,
       "consistencia_conceitual": true,
       "score_auditoria": 88,
@@ -440,6 +592,18 @@
       "score_auditoria": 92,
       "justificacao_auditoria": "A auditoria confirma a alta qualidade da codificação. 1) Evidência literal: todas as citações de evidência para diálogo, acesso, risco e transparência existem verbatim no post original ('the response to being bumped out of range of each other in the case of the Gnosis’s', 'if it kills the other I can harvest free drones from the dead one and maybe loot the bloody thing', 'I do still think they are bots due to very predictable stuff', 'I do still think they are bots'). 2) Classificação AI: A2 (bot convencional) é correta e conservadora; o post menciona 'bots' e 'maybe machine learning training' apenas no título, sem evidência explícita de autonomia ou IA no corpo, evitando falsa classificação como A1. 3) Interação e valor: I5 (observação/manipulação indireta do ambiente) e VC4 (sem cocriação/destruição clara) são consistentes com o texto, que descreve observação de comportamento previsível e planos especulativos de teste/loot. 4) Calibração DART: scores baixos (1,1,2,1) são bem calibrados; diálogo fraco (responsividade previsível de bots), acesso fraco (potencial loot especulativo), risco moderado (framing de bots/injustiça) e transparência fraca (incerteza sobre natureza dos bots). 5) Human review: corretamente sinalizado como true, pois todas as confidências estão abaixo de 0.80 e há ambiguidade explícita entre bot e possível machine learning. Pequena penalidade (92/100) apenas pela confiança relativamente baixa em algumas dimensões, o que é apropriado, mas não constitui defeito metodológico.",
       "post_id": "474041_2659388",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": false,
+      "consistencia_conceitual": true,
+      "score_auditoria": 88,
+      "justificacao_auditoria": "A auditoria confirma que as evidências literais citadas para diálogo, risco e transparência existem verbatim no post original. A classificação de ausência de acesso é correta, pois não há menção explícita a barreiras de acesso. A consistência AI type é válida: o post não envolve bots ou scripts, portanto não há risco de falsa classificação A1. A interação e cocriação de valor são consistentes com uma tipologia assimétrica, refletindo frustração do jogador com desenvolvedores e outros jogadores. A calibração DART é adequada: diálogo presente mas fraco (não pontuado explicitamente, mas evidência de frustração), risco percebido 4 é justificado pela denúncia de design defeituoso e vulnerabilidade de naves, e transparência presente via sarcasmo. A dimensão dominante 'risco' é coerente. No entanto, o campo 'human_review_required' não foi incluído no JSON gerado, apesar de o _thinking_process indicar ambiguidade na análise (ex: 'Access: not clear', 'Tipologia: likely parasitic? Actually...'). A ausência desse campo viola o critério 5, pois a ambiguidade presente deveria ter sinalizado revisão humana. O score de auditoria é 88, refletindo alta qualidade geral, mas penalizando a omissão do sinalizador de revisão humana.",
+      "post_id": "510142_2865154",
       "_thinking_process": ""
     },
     {
@@ -593,6 +757,18 @@
       "calibracao_dart_scores": true,
       "human_review_corretamente_sinalizado": true,
       "consistencia_conceitual": true,
+      "score_auditoria": 92,
+      "justificacao_auditoria": "A auditoria confirma alta consistência geral. 1) Evidência literal: as citações de acesso ('When every gold making avenue is being actively exploited by bots. It makes farming not plausible for the average player.') e risco ('It’s just not fun when the economy has been, and continues to be, ravaged by bots.') existem verbatim no post original; diálogo e transparência corretamente sem evidência. 2) Classificação AI: A2 (bot convencional) é apropriada, pois o texto menciona 'bots' e 'botters' sem qualquer evidência de aprendizado, autonomia ou IA; a baixa confiança (0.55) reflete corretamente a ambiguidade e evita falsa classificação como A1. 3) Interação e valor: I5 (ambiente mediado por agente) é defensável, pois os bots alteram a economia e a experiência do jogador indiretamente; VC3 (co-destruição de valor) é suportado por 'ravaged economy', 'stopped playing' e 'farming not plausible'. 4) Calibração DART: diálogo 0 (ausente), acesso 2 (moderado, barreiras ao farming), risco 4 (muito forte, economia devastada, RMT, abandono do jogo) e transparência 0 (ausente) estão bem calibrados. 5) Revisão humana: corretamente sinalizada (true), pois as confianças de ai_type (0.55), interaction (0.5) e value (0.7) estão abaixo de 0.80 e há ambiguidade bot vs. IA. Pequena penalidade (92/100) apenas pela confiança de interação (0.5) e pela natureza esticada de I5, que poderia ser I1/I4 se interpretado como discussão sobre bots sem interação direta; contudo, a nota de classificação reconhece essa limitação.",
+      "post_id": "2324507_2324507_16",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
       "score_auditoria": 96,
       "justificacao_auditoria": "A auditoria confirma alta qualidade da codificação. 1) Evidência literal: todas as citações de evidência para diálogo, acesso, risco e transparência existem verbatim no post original, sem citações inventadas. 2) Classificação AI Type: A5 (Discussion About AI) é correta; o autor discute IA especulativamente e menciona trabalhar com IA, mas não descreve interação com um agente de IA autônomo em jogo, evitando falsa classificação como A1/A2/A3. 3) Interação e Valor: I4 (Human→Human about AI) e VC4 (debate de valor/risco sem episódio real de cocriação) são consistentes com o texto. 4) Calibração DART: Risk=4 é bem calibrado (lista explícita de riscos: moderação, canon drift, exploits, custos); Access=2 é adequado (menção de aplicações práticas como suporte, moderação, tutoriais); Dialogue=1 é correto (apenas hipotético jailbreak, sem diálogo real); Transparency=1 é aceitável (discussão de 'sentient AI' vs 'commercially sane', mas sem foco em explicabilidade/divulgação). 5) Human review: corretamente sinalizado como true, pois value_confidence=0.70 e transparency_confidence=0.65 estão abaixo de 0.80, além da natureza especulativa e sarcástica do post. Pequena penalidade de 4 pontos apenas pela leve imprecisão conceitual em 'tipologia_cocriacao: assimetrica' (o post não descreve cocriação assimétrica real, apenas debate), mas isso não compromete a validade geral.",
       "post_id": "2308441_29522283",
@@ -653,6 +829,18 @@
       "calibracao_dart_scores": true,
       "human_review_corretamente_sinalizado": true,
       "consistencia_conceitual": true,
+      "score_auditoria": 92,
+      "justificacao_auditoria": "A auditoria confirma que as evidências literais citadas estão vazias, o que é consistente com o texto original, pois o post não contém menções explícitas a diálogo, acesso, risco ou transparência relacionados a IA. A classificação A5 (Discussão sobre IA) é válida, pois o título da thread menciona Gemini, mas o corpo do post é uma citação de outro usuário sobre Wowhead, sem interação direta com IA. A interação I4 (Humano → Humano sobre IA) e o valor VC4 (sem co-criação/destruição evidente) são suportados pelo texto. Os scores DART 0/5 estão bem calibrados, pois as dimensões estão ausentes no texto citado. O human_review_required foi corretamente sinalizado como true, dado que a confiança de relevância é 0.7 (< 0.80) e há ambiguidade contextual. A única ressalva é que a confiança de AI type (0.85) e interação (0.85) poderia ser ligeiramente menor devido à natureza indireta da menção a Gemini, mas não compromete a validade geral.",
+      "post_id": "2051325_26164423",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
       "score_auditoria": 96,
       "justificacao_auditoria": "A auditoria confirma a alta qualidade da codificação. 1) Evidência literal: a citação usada para transparência existe verbatim no post original ('so many of these side quests have the m-dashes and have the \"It's not this - it's that\" sentence structure. It's blatant'), sem aspas inventadas. 2) Classificação AI: A5 (Discussão sobre IA) é correta, pois o autor discute a possibilidade de texto gerado por IA, sem descrever interação direta com um agente autônomo; não há falsa classificação como A1. 3) Interação e valor: I4 (Humano→Humano sobre IA) e VC4 (sem cocriação/destruição evidente) são consistentes com o texto, que é um comentário opinativo em fórum. 4) Calibração DART: Diálogo, Acesso e Risco recebem 0 (ausentes), o que é adequado; Transparência recebe 3 (forte), justificável porque o post identifica explicitamente marcadores estilísticos de IA (m-dashes, estrutura frasal) e os rotula como 'blatant', indicando percepção clara de envolvimento de IA no conteúdo. 5) Revisão humana: human_review_required=true está correto, pois relevance_confidence=0.7 (<0.80) e há ambiguidade quanto à relevância indireta para interação humano-IA. Pequena penalidade de 4 pontos apenas pela leve sobreposição entre 'relevance_confidence' (0.7) e a confiança relativamente alta em transparência (0.85), que poderia gerar leve tensão interpretativa, mas não constitui defeito material.",
       "post_id": "reddit_1rhkho1_8",
@@ -680,6 +868,18 @@
       "score_auditoria": 92,
       "justificacao_auditoria": "The coding is largely consistent with the original post. The quoted evidence for dialogue and access is verbatim from the post: 'The NPCs would assist with the role play by adding improv'. No invented quotes were used for risk or transparency, which were correctly left empty. The AI type classification as A5 is appropriate because the post discusses hypothetical NPCs without evidence of an actual AI agent or autonomous behavior; the coder explicitly avoided falsely classifying conventional NPCs as A1. Interaction type I4 and value type VC4 are supported by the text, as the post describes a human discussing AI-related behavior rather than an actual human-AI interaction or demonstrated value co-creation. DART scores are well-calibrated: dialogue is moderate (2) because role-play and improvisation imply conversational exchange, access is weak (1) because assistance suggests potential capability enhancement, and risk/transparency are absent (0) with no textual evidence. Human review was correctly flagged as true due to low confidence scores and ambiguity about whether the NPCs are AI-driven. Minor deductions reflect the inherent ambiguity of the short post and the use of the same evidence for multiple dimensions, but no substantive errors were found.",
       "post_id": "2308441_29521809",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
+      "score_auditoria": 92,
+      "justificacao_auditoria": "A codificação está bem calibrada para um post curto, sarcástico e ambíguo. As evidências literais estão vazias, o que é correto, pois o texto original não contém trechos que sustentem diálogo, acesso, risco ou transparência; portanto, não há citações inventadas. A classificação A6/I6/VC4 é consistente: o post menciona 'Ai rule' e 'Windows 11 patches', mas não descreve agente de IA, interação humano-IA ou criação/destruição de valor no ecossistema de World of Warcraft. Os escores DART 0/5 estão adequados às definições de ausência, e as confianças baixas refletem corretamente a incerteza. O human_review_required foi sinalizado como true, apropriado diante da ambiguidade, sarcasmo e baixa confiança. Pequena ressalva: a classificação A6 poderia ser debatida com A5, pois há menção a 'Ai rule', mas a ausência de discussão substantiva sobre IA e a falta de contexto justificam A6; a auditoria mantém consistência conceitual.",
+      "post_id": "3000003_28811513",
       "_thinking_process": ""
     },
     {
@@ -771,6 +971,18 @@
       "consistencia_ai_type": true,
       "consistencia_interacao_valor": true,
       "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": false,
+      "consistencia_conceitual": true,
+      "score_auditoria": 85,
+      "justificacao_auditoria": "A evidência literal citada para risco existe verbatim no post original: 'Liking the idea of shooting drones for suspect status like @Gerard_Amatin did is no problem.' A classificação de risco como dimensão dominante é consistente com o conteúdo, que discute mecânicas de suspect status e consequências de ações no jogo. A ausência de diálogo, acesso e transparência é defensável, pois o post é um ataque retórico sem troca construtiva, sem menção explícita a ferramentas de acesso ou regras de transparência. O score de risco 3 (moderado) está razoavelmente calibrado: o autor expressa descontentamento e crítica, mas sem alarme extremo ou pânico; a ausência de likes e o tom combativo sugerem percepção moderada de risco. A tipologia 'parasitária' é conceitualmente plausível, pois o autor critica a mineração AFK como comportamento extrativo prejudicial. No entanto, o campo 'human_review_required' não foi incluído no JSON gerado, o que constitui uma falha de conformidade com o protocolo DART-NET. Dado que o post apresenta ambiguidade (tom agressivo, referência a terceiros, possível ironia) e o trust level é 3, a revisão humana deveria ter sido sinalizada. A ausência desse campo impede a verificação completa do critério 5, resultando em penalização na pontuação.",
+      "post_id": "510142_2865117",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
       "human_review_corretamente_sinalizado": true,
       "consistencia_conceitual": true,
       "score_auditoria": 92,
@@ -788,6 +1000,30 @@
       "score_auditoria": 92,
       "justificacao_auditoria": "A auditoria confirma que todas as evidências citadas para diálogo, acesso, risco e transparência existem literalmente no post original, sem citações inventadas. A classificação A4 (IA assistindo humano) é válida: o texto descreve o Super Grok como ferramenta de análise de dados que fornece estimativas, sem evidência de autonomia decisória que justificasse A1; não há indício de bot convencional (A2) ou script determinístico (A3). A interação I1 (Humano → Agente IA) é consistente com o relato de o autor instruir a IA a analisar dados. A cocriação de valor VC2 (potencial) é adequada, pois o valor é descrito como útil, mas o foco do post é a perda de acesso por mudança de preço, tornando o resultado incompleto. Os scores DART estão bem calibrados: Diálogo 2 (moderado, com troca de tarefas e resultados), Acesso 3 (forte, pois a IA fornecia acesso a análises de dados), Risco 2 (moderado, risco econômico e de perda de acesso), Transparência 1 (fraca, apenas menção à mudança de assinatura, sem discussão de explicabilidade). O human_review_required foi corretamente sinalizado como true, pois a confiança em value_type (0.75) e transparência (0.70) está abaixo de 0.80, indicando ambiguidade. A única pequena ressalva é que a evidência de acesso repete a de diálogo, mas isso não compromete a validade, pois o mesmo trecho sustenta ambas as dimensões. A consistência conceitual entre os campos principais e os campos adicionais (dimensao_dominante, score_risco_percebido, tipologia_cocriacao) também está preservada.",
       "post_id": "2329784_29802019",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
+      "score_auditoria": 98,
+      "justificacao_auditoria": "A codificação está altamente consistente com o texto original. Não há citações inventadas: todas as evidências para DART estão vazias, o que é correto, pois o post não contém interação com IA. A classificação A6 (Irrelevante) é válida: o post menciona @CCP_Swift, um desenvolvedor humano, e discute mecânicas de segurança do jogo (Concord, sistemas 0.9/1.0), sem qualquer evidência de agente de IA, bot ou script autônomo. Não há risco de falsa classificação como A1/A2/A3. A interação I6 e o valor VC4 são consistentes com a ausência de interação humano-IA e de cocriação de valor. Os scores DART 0/5 estão bem calibrados, pois as dimensões estão ausentes no contexto de interação com IA. O human_review_required=false é aceitável, pois as confianças são altas (0.9) e não há ambiguidade relevante; a irrelevância é clara. A única observação menor é que o campo 'dimensao_dominante' indica 'risk' e 'score_risco_percebido' 1, o que pode gerar leve inconsistência interna com o score DART de risco 0, mas isso não compromete a validade geral da classificação.",
+      "post_id": "509843_2862440",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
+      "score_auditoria": 95,
+      "justificacao_auditoria": "A auditoria confirma a alta qualidade da codificação. 1) Evidência Literal: As evidências para DART estão vazias, o que é correto, pois o texto original não contém elementos de diálogo, acesso, risco ou transparência. Não há citações inventadas. 2) Classificação AI: A classificação A5 (Discussão sobre IA) é válida. O post menciona 'Gemini' e seu comportamento ('used to give interesting reasons'), mas não descreve uma interação direta do usuário com o sistema, nem atribui autonomia ou agência explícita ao Gemini. Não há risco de falsa classificação como A1. 3) Interação e Valor: I4 (Humano → Humano sobre IA) é consistente, pois o autor comenta sobre a IA para outros humanos no fórum. VC4 (Sem co-criação/destruição de valor evidente) é apropriado, pois o comentário é tangencial e não demonstra criação ou destruição de valor. 4) Calibração DART: Todos os scores 0/5 estão corretos, pois o post é uma observação sarcástica e não apresenta nenhuma das dimensões DART. 5) Revisão Humana: 'human_review_required: true' está correto, pois a confiança de relevância é 0.70 (< 0.80) e há ambiguidade/sarcasmo potencial no texto. A única pequena inconsistência é a presença de campos redundantes ('dimensao_dominante': 'risk', 'score_risco_percebido': 1) que contradizem levemente o score de risco 0/5, mas não afetam a validade central da codificação.",
+      "post_id": "2051325_26164394",
       "_thinking_process": ""
     },
     {
@@ -881,6 +1117,18 @@
       "calibracao_dart_scores": true,
       "human_review_corretamente_sinalizado": true,
       "consistencia_conceitual": true,
+      "score_auditoria": 98,
+      "justificacao_auditoria": "A codificação está altamente consistente com o texto original. As evidências literais citadas para diálogo, acesso, risco e transparência estão vazias, o que é correto, pois o post não contém interação real com agente de IA; portanto, não há citações inventadas. A classificação A5 (Discussão sobre IA) é válida: o autor especula sobre IA futura em MMORPGs, sem descrever um agente de IA operacional, evitando falsa classificação como A1/A2/A3. A interação I4 (Humano → Humano sobre IA) é consistente, pois o autor se dirige a outros jogadores sobre um sistema hipotético. O valor VC4 é adequado, pois não há evidência de cocriação ou codestruição de valor com IA real. Os escores DART 0/5 estão bem calibrados: o texto menciona 'interact with npcs' apenas como possibilidade futura, não como diálogo, acesso, risco ou transparência atuais. A revisão humana não foi sinalizada, e isso é correto, pois todas as confianças estão acima de 0,80 e não há ambiguidade relevante. A única observação menor é que a relevância 'POSSIBLY RELEVANT' poderia ser debatida como 'RELEVANT' para análise de percepções, mas a escolha é defensável e não compromete a auditoria.",
+      "post_id": "2308441_29521928",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
       "score_auditoria": 96,
       "justificacao_auditoria": "A auditoria confirma que todas as evidências citadas existem literalmente no post original, sem citações inventadas. A classificação A5 (Discussão sobre IA) é válida: o autor descreve NPCs com IA em outro jogo (WWM), não uma interação direta com um agente de IA em World of Warcraft, evitando corretamente a falsa classificação como A1. A interação I4 (Humano → Humano sobre IA) e o valor VC4 são consistentes com o texto, pois o autor discute a tecnologia com outros membros do fórum e não relata cocriação de valor direta. Os scores DART estão bem calibrados: Diálogo 2 (menção explícita de conversa textual com NPCs), Acesso 2 (recompensas semanais por amizade), Risco 1 (limitação do modelo 'cheap and dumb') e Transparência 1 (reconhecimento da limitação). O human_review_required foi corretamente sinalizado como true, pois a confiança em value_type (0.70) e em transparência (0.70) está abaixo de 0.80, além da natureza indireta da interação descrita. Pequena observação: a confiança de interação (0.80) está no limiar, mas a sinalização de revisão humana já cobre essa ambiguidade.",
       "post_id": "2308441_29521862",
@@ -905,9 +1153,45 @@
       "calibracao_dart_scores": true,
       "human_review_corretamente_sinalizado": true,
       "consistencia_conceitual": true,
+      "score_auditoria": 95,
+      "justificacao_auditoria": "A auditoria confirma a validade da codificação. 1) Evidência literal: todas as evidências citadas estão vazias, o que é consistente com a ausência de conteúdo substantivo no post original; não há citações inventadas. 2) Classificação AI: A5 (Discussão sobre IA) é apropriada, pois o autor comenta sobre experimentação com IA sem descrever interação direta com um agente autônomo; não há falsa classificação como A1. 3) Interação e valor: I4 (Humano → Humano sobre IA) e VC4 (sem co-criação/destruição de valor) são suportados pelo texto, que é um comentário breve de apreciação. 4) Calibração DART: todos os scores 0/5 são corretos, pois o post não contém diálogo, acesso, risco ou transparência substantivos. 5) Revisão humana: corretamente sinalizada (true) devido à confiança moderada na relevância (0.7) e à brevidade/dependência de contexto do comentário. A única pequena inconsistência é a presença de campos redundantes (ex.: 'dimensao_dominante': 'risk' e 'score_risco_percebido': 1) que contradizem levemente os scores DART zerados, mas não afetam a classificação principal.",
+      "post_id": "reddit_1pftbpi_32",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
       "score_auditoria": 92,
       "justificacao_auditoria": "A auditoria confirma que as evidências literais citadas existem verbatim no post original: 'Thank you. I shall.' e 'i would ask the rogue AI in the eve discord, its more \"eve\" oriented.' estão presentes no texto. A classificação AI Type como A5 (discussão sobre IA) é válida, pois o autor apenas menciona uma 'rogue AI' sem descrever interação direta ou evidência de autonomia/capacidade de IA; não há falsa classificação como A1. A interação I4 (humano-humano sobre IA) e valor VC4 (sem co-criação/destruição evidente) são consistentes com o conteúdo. Os scores DART estão bem calibrados: diálogo 1 (reconhecimento breve), acesso 1 (menção a recurso), risco 0 (ausente) e transparência 1 (menção vaga). O human_review_required foi corretamente sinalizado como true, dado que as confianças estão abaixo de 0.80 e há ambiguidade na natureza da 'rogue AI'. Pequena penalização na pontuação deve-se à confiança relativamente baixa nas classificações e à ausência de evidência mais robusta para distinguir entre bot convencional e IA, mas o tratamento conservador e a sinalização para revisão humana mitigam esse risco.",
       "post_id": "496432_2766677",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
+      "score_auditoria": 98,
+      "justificacao_auditoria": "The coding is highly accurate. The original post contains no AI-related content; 'shield bot' is correctly interpreted as a colloquial gameplay descriptor rather than an automated agent. The AI type A6 (irrelevant), interaction I6, and value VC4 are appropriate. DART scores of 0 with empty evidence are correctly calibrated because no dialogue, access, risk, or transparency dimensions are present. Human review was not required because confidence levels are high (0.95-0.97) and there is no genuine ambiguity about AI involvement. Minor note: the coding includes extra fields such as 'dimensao_dominante', 'score_risco_percebido', and 'tipologia_cocriacao' that are not part of the core DART-NET schema and could be considered redundant, but they do not affect the validity of the core classification.",
+      "post_id": "2336820_29896313",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
+      "score_auditoria": 92,
+      "justificacao_auditoria": "The coding is largely well-calibrated. The evidence quoted for Risk exists verbatim in the original post, and the empty evidence fields for Dialogue, Access, and Transparency are appropriate because those dimensions are absent. The classification as A2 rather than A1 is correct: the post refers to a 'bot' only indirectly through the thread title and the phrase 'make pennies 24/7,' with no explicit evidence of AI or autonomy, so the coder appropriately avoided falsely classifying it as an AI agent. Interaction I6 and value VC4 are consistent with the absence of direct human-AI interaction or co-creation/destruction. The DART scores are well-calibrated: Dialogue 0, Access 0, Transparency 0, and Risk 2 are defensible; Risk 2 is supported by the text's implicit risk/reward reasoning about highsec safety and disposable alt accounts. Human review was correctly flagged because ai_type_confidence (0.55), interaction_confidence (0.60), and several DART confidence values fall below 0.80, and the bot-vs-AI ambiguity is present. Minor deductions reflect the low confidence in Access absence (0.60) and the slight conceptual tension in applying DART Risk to a non-AI bot, but these do not undermine the overall coding.",
+      "post_id": "508618_2860079",
       "_thinking_process": ""
     },
     {
@@ -932,6 +1216,18 @@
       "score_auditoria": 92,
       "justificacao_auditoria": "A auditoria confirma que o coding gerado está majoritariamente consistente com o post original. 1) Evidência literal: as citações em 'evidence' para dialogue, access, risk e transparency estão vazias, o que é correto, pois o post não contém diálogo, acesso, risco ou transparência explícitos; não há citações inventadas. 2) Classificação AI: o agente classificou como A6 (não-agente/outro) com confiança 0.3, o que é válido, pois o post critica 'IA' genericamente (ChatGPT) sem descrever um agente autônomo específico; não houve falsa classificação como A1. 3) Interação e valor: I6 (nenhuma interação) e VC4 (valor parasitário/negativo) são suportados pelo texto, que apenas expressa opinião crítica sem descrever interação ou cocriação de valor. 4) Calibração DART: todos os scores 0 são bem calibrados, pois não há evidência de diálogo, acesso, risco ou transparência no post; o score 0 reflete ausência. 5) Human review: foi corretamente sinalizado como true, dado que a confiança é 0.3 (<0.80) e há ambiguidade (o post menciona 'AI' mas não descreve um agente específico). A única inconsistência menor é o campo 'dimensao_dominante' definido como 'risk' e 'score_risco_percebido' como 1, enquanto o DART risk score é 0; isso sugere uma leve discrepância interna, mas não compromete a validade geral. A nota 92 reflete a alta consistência com pequena penalidade por essa inconsistência interna.",
       "post_id": "reddit_1snmfut_8",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
+      "score_auditoria": 92,
+      "justificacao_auditoria": "A auditoria confirmou que as evidências citadas para risco existem literalmente no post original, sem citações inventadas. A classificação A2 (bot convencional) é adequada, pois o texto menciona 'suspected bots' e 'botting activities', mas não fornece evidência de IA ou autonomia avançada, evitando falsa classificação como A1. A interação I4 (discussão humano-humano sobre agentes) e o valor VC4 (sem evidência de cocriação de valor) são consistentes com o conteúdo, que trata de como reportar bots, não de interação direta com agente. Os scores DART estão bem calibrados: Dialogue, Access e Transparency ausentes (0), Risk forte (3) com evidência literal do risco de exposição pública frustrar ações de enforcement. O human_review_required foi corretamente sinalizado como true, pois há ambiguidade entre bot convencional e IA, e confiança abaixo de 0.80 em ai_type e interaction_type. A única pequena ressalva é que a relevância 'POSSIBLY RELEVANT' poderia ser debatida como 'RELEVANT' para o ecossistema de bots, mas a ausência de interação humano-IA justifica a classificação conservadora.",
+      "post_id": "508618_2853260",
       "_thinking_process": ""
     },
     {
@@ -1004,6 +1300,18 @@
       "score_auditoria": 92,
       "justificacao_auditoria": "The coding is largely well-calibrated. The transparency evidence quote exists verbatim in the original post, satisfying the evidence-first principle. AI type A5 (discussion about AI) is appropriate because the post speculates about Blizzard using AI but does not describe direct interaction with an AI agent; there is no risk of falsely classifying a conventional bot or deterministic script as an AI agent. Interaction type I4 (human-to-human discussion about AI) and value type VC4 (no value co-creation/destruction evidenced) are consistent with the text. DART scores are calibrated: dialogue, access, and risk are correctly scored 0 with high confidence, while transparency is scored 2 (moderate) based on the explicit suspicion of undisclosed AI use. Human review was correctly flagged because transparency confidence is 0.75, below the 0.80 threshold, and the post is peripheral to direct human-AI interaction. Minor deductions: the transparency score could arguably be 1 rather than 2 given the indirect nature of the claim, and the relevance classification as 'POSSIBLY RELEVANT' is defensible but could be debated; however, these do not constitute material errors.",
       "post_id": "reddit_1sf61mq_11",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
+      "score_auditoria": 95,
+      "justificacao_auditoria": "A auditoria confirma a alta qualidade da codificação. A evidência literal é válida: as citações fornecidas para as dimensões DART estão vazias, o que é correto, pois o post não contém interação humano-IA direta; nenhuma citação foi inventada. A classificação do tipo de IA como A5 (Discussão sobre IA) é consistente, pois o texto menciona explicitamente 'AI fully ( or partially ) implemented', mas não descreve interação com um agente autônomo, evitando falsa classificação como A1. A interação I4 (Humano → Humano sobre IA) e o valor VC4 (Sem evidência de criação/destruição de valor) são suportados pelo texto, que é uma resposta especulativa a outro jogador. Os scores DART de 0 para Diálogo, Acesso, Risco e Transparência estão bem calibrados, pois não há interação humano-IA concreta; a menção a 'time it saves' e 'alarming' é vaga e não constitui evidência de Acesso ou Risco no contexto interacional. A sinalização de revisão humana como 'false' é correta, pois todas as confianças são ≥ 0.80 e não há ambiguidade crítica que exija revisão, apesar da referência a 'my other post' não comprometer a classificação. A consistência conceitual é mantida ao não confundir discussão sobre IA com interação real com IA. Pequena penalidade de 5 pontos pela leve ambiguidade contextual da citação de Gloria Exercitus, que poderia justificar revisão humana em um cenário mais conservador, mas não invalida a codificação.",
+      "post_id": "516800_2916469",
       "_thinking_process": ""
     },
     {
@@ -1122,8 +1430,32 @@
       "human_review_corretamente_sinalizado": true,
       "consistencia_conceitual": true,
       "score_auditoria": 92,
+      "justificacao_auditoria": "The coding correctly identifies the post as a hypothetical/sarcastic discussion about AI rather than an actual human-AI interaction. The AI type A5 (Discussion About AI) is appropriate because the user only proposes adding an AI agent for outage announcements; there is no evidence of an existing AI agent, autonomous behavior, or direct interaction. The interaction type I4 (Human-to-Human about AI) is consistent with the forum context, and VC4 (no value co-creation/destruction) is supported by the absence of any described outcome. DART scores of 0 for Dialogue, Access, Risk, and Transparency are well-calibrated because the post does not describe any actual AI-mediated dialogue, access, risk, or transparency event; the hypothetical mention of an AI announcement does not constitute concrete evidence. The evidence fields are empty, which is appropriate given the absence of literal DART evidence. Human review was correctly flagged as true due to the sarcastic/facetious tone ('lol') and missing context about 'replaced everything with AI,' even though confidence values are above 0.80. Minor deductions: the classification notes contain a typo ('Discusion' instead of 'Discussion'), and the relevance classification as 'POSSIBLY RELEVANT' is reasonable but could be argued as 'RELEVANT' given the explicit mention of AI agents; however, this does not materially affect the coding validity.",
+      "post_id": "2332259_29840643",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
+      "score_auditoria": 92,
       "justificacao_auditoria": "A auditoria confirma que todas as evidências citadas existem literalmente no post original: 'when that doesnt work ill just ask ai lol', 'ill even google answers for the quest and when that doesnt work ill just ask ai', e 'ppl i seen defending addons for helping/assisting them and even downright basically playing the game for them'. A classificação A4 (AI-assisted human gameplay) é válida, pois o autor descreve uso de IA como ferramenta de consulta, sem evidência de autonomia que justificasse A1; a confiança de 0.72 e o acionamento de revisão humana são apropriados. A interação I1 (human→AI) é consistente com o texto ('ill just ask ai'), e VC2 (co-criação potencial) é razoável, pois o valor assistencial é descrito como possibilidade, não como resultado confirmado. Os scores DART estão bem calibrados: Dialogue 2 (menção direta de perguntar à IA, mas sem diálogo bidirecional explícito), Access 3 (IA como fonte alternativa de informação quando Google falha), Risk 1 (menção a addons 'jogando pelo jogador', mas sem enquadramento claro como risco de IA), Transparency 0 (nenhuma menção a transparência algorítmica). A sinalização de human_review_required=true é correta, pois múltiplas confianças estão abaixo de 0.80 (ai_type 0.72, interaction 0.68, value 0.60, risk 0.55) e há ambiguidade entre IA e ferramentas genéricas de assistência. Pequenas ressalvas: a evidência de risco refere-se a addons, não diretamente a IA, o que poderia justificar score 0 em vez de 1; e a confiança de transparência (0.70) é relativamente alta para uma dimensão ausente, mas não compromete a validade geral.",
       "post_id": "2257438_28918380",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
+      "score_auditoria": 95,
+      "justificacao_auditoria": "The coding demonstrates strong adherence to the DART-NET Framework. Evidence-First Principle: All DART dimensions are scored 0 with empty evidence strings, which is correct because the original post contains no literal evidence of dialogue, access, risk, or transparency interactions. No quotes were invented. AI Agent Classification: The post mentions 'ai generated addons' but provides no evidence of direct interaction with an autonomous AI agent. Classifying as A5 (Discussion About AI) rather than A1-A4 is appropriate and prevents false AI agent classification. Interaction & Value: I4 (Human → Human about AI) is consistent with the author sharing findings about AI-generated addons with other humans. VC4 (no value co-creation/destruction evident) is appropriate given the lack of interaction detail. DART Scoring: All scores of 0 are well-calibrated against the definitions (0=absent), as the text provides no evidence of any DART dimension. Human Review: human_review_required is correctly set to true due to confidence levels below 0.90 for relevance (0.70) and the ambiguity introduced by anonymized URLs. Minor deductions: relevance_confidence of 0.70 is appropriately low given the lack of context, and the classification notes are thorough. The only minor inconsistency is the presence of 'dimensao_dominante': 'risk' and 'score_risco_percebido': 1 in the extended fields, which slightly conflicts with the DART risk score of 0, but these appear to be supplementary fields not part of the core DART scoring.",
+      "post_id": "1tkscsd_32",
       "_thinking_process": ""
     },
     {
@@ -1193,6 +1525,18 @@
       "calibracao_dart_scores": true,
       "human_review_corretamente_sinalizado": true,
       "consistencia_conceitual": true,
+      "score_auditoria": 96,
+      "justificacao_auditoria": "A codificação está bem calibrada. As evidências citadas para DART estão vazias, o que é consistente com os escores 0 atribuídos; não há citações inventadas. A classificação A5 (Discussão sobre IA) é correta: o post discute hipoteticamente a codificação de respostas humanas em IA, sem descrever um agente de IA real ou autônomo em operação. A interação I4 (Humano → Humano sobre IA) e o valor VC4 (sem co-criação/destruição identificável) são suportados pelo texto. Os escores DART 0/5 são apropriados, pois não há interação real com IA que permita avaliar diálogo, acesso, risco ou transparência. O campo human_review_required está corretamente definido como true, refletindo a natureza especulativa e a ambiguidade contextual do post, mesmo com confianças individuais acima de 0.80. A única observação menor é que a confiança de relevância (0.80) está no limiar, mas a sinalização de revisão humana cobre adequadamente essa incerteza.",
+      "post_id": "516800_2916358",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
       "score_auditoria": 92,
       "justificacao_auditoria": "A auditoria confirma a alta qualidade da codificação. 1) Evidência literal: todas as citações de evidência para diálogo, risco e transparência existem verbatim no post original ('ChatGPT often says things like “it’s not just A, it’s B”', 'Sorry if I offended anyone by saying wow has ai slop in it', 'I copied and pasted this from chatGPT'). Nenhuma citação foi inventada. 2) Classificação AI: A5 (Discussão sobre IA) é correta. O autor especula sobre texto gerado por ChatGPT dentro do WoW, mas não interage diretamente com um agente de IA no jogo. Não há evidência de autonomia ou interação direta que justificasse A1. A classificação evita corretamente o falso positivo de agente de IA. 3) Interação e valor: I4 (Humano → Humano sobre IA) é consistente com o texto, pois o autor discute com outros humanos sobre possível 'AI slop'. VC4 (sem co-criação/destruição clara) é adequado, pois não há evidência de impacto de valor tangível. 4) Calibração DART: Diálogo 1/5 (menção de padrões de frase do ChatGPT, sem diálogo real com IA), Acesso 0/5 (nenhuma menção a acesso), Risco 1/5 (preocupação leve com 'ai slop', tom sarcástico), Transparência 2/5 (menção explícita de copiar/colar do ChatGPT, mas sem transparência de agente de IA real). Todas as pontuações estão bem calibradas. 5) Revisão humana: human_review_required=true é correto, pois a confiança geral é baixa (0.65-0.72) e há ambiguidade sobre se o texto citado é realmente gerado por IA, além do tom irônico/sarcástico ('😂😂😂'). A única pequena ressalva é que a confiança de acesso (0.80) está no limiar, mas a ausência de evidência justifica o score 0. Nenhuma violação material foi encontrada.",
       "post_id": "reddit_1rg6iqz_1",
@@ -1220,6 +1564,30 @@
       "score_auditoria": 92,
       "justificacao_auditoria": "A codificação apresenta alta fidelidade ao texto original. As evidências citadas para diálogo, acesso, risco e transparência existem literalmente no post, sem citações inventadas. A classificação A1 (agente de IA) é válida: o texto menciona explicitamente 'ChatGPT', um sistema baseado em IA com capacidade de 'course-correct mid-convo' e 'learn on the fly', o que justifica autonomia e impede falsa classificação como bot convencional (A2) ou script determinístico (A3). A interação I3 (bidirecional) é consistente, pois o jogador pede ao ChatGPT que responda e o ChatGPT produz uma resposta conversacional. O valor VC3 (co-destruição) é suportado pela admissão de 'bad info' e 'hot garbage Deimos fit'. Os scores DART estão bem calibrados: diálogo 5 (troca conversacional explícita e central), acesso 3 (posicionamento como ferramenta informacional), risco 4 (aconselhamento incorreto com potencial de perda para o jogador) e transparência 4 (auto-revelação de natureza e limitações). A única falha identificada é o human_review_required = false, apesar de interaction_confidence (0.85) e value_confidence (0.85) estarem acima de 0.80, mas a ambiguidade conceitual entre VC3 (co-destruição) e VC4 (educacional/corretivo) — já que o ChatGPT reconhece o erro e orienta o jogador a consultar FC, corp mates e zKill — justificaria revisão humana. A confiança geral é alta, mas a presença de nuance entre co-destruição e co-criação educacional torna a sinalização de revisão humana recomendável.",
       "post_id": "1jukb0x_66",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": false,
+      "consistencia_conceitual": true,
+      "score_auditoria": 85,
+      "justificacao_auditoria": "A auditoria confirma que as evidências literais citadas para diálogo e risco existem verbatim no post original: 'Thats exactly why attacking them should only give suspect timer.' e 'It isn’t CONCORDs job to protect your shiny toys, it’s yours.' estão presentes textualmente. A classificação de tipo de agente (A1-A6) não é aplicável diretamente, pois o post é de um jogador humano, não de um bot ou agente de IA; a ausência de classificação de agente não constitui erro. A consistência de interação e cocriação está adequada: o diálogo deliberativo sobre mecânicas de jogo e a tipologia simétrica de cocriação são suportados pelo texto. A calibração dos scores DART está correta: diálogo presente (evidência clara), acesso ausente (não mencionado), risco presente com score 3 (moderado, pois o autor normaliza a perda e defende responsabilidade individual), transparência ausente (não mencionada). A dimensão dominante 'risco' é defensável, embora 'diálogo' também pudesse ser argumentado; a escolha não compromete a validade. O principal defeito identificado é a sinalização de revisão humana: o campo 'human_review_required' não foi explicitamente definido no JSON gerado, apesar de o nível de confiança não ter sido reportado e de haver ambiguidade na interpretação da dimensão dominante (risco vs. diálogo) e na ausência de likes (0) que poderia indicar controvérsia. Como o critério exige sinalização quando confiança < 0.80 ou ambiguidade presente, a omissão desse campo constitui uma falha de calibração de revisão humana. Score de auditoria: 85/100, refletindo alta fidelidade literal e conceitual, mas penalizando a falta de sinalização explícita de revisão humana.",
+      "post_id": "510142_2865200",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
+      "score_auditoria": 95,
+      "justificacao_auditoria": "A codificação está amplamente correta. As evidências literais para diálogo, acesso, risco e transparência estão vazias, o que é consistente com o texto original, que contém apenas uma citação atribuída a Einstein e nenhuma menção direta a IA, WoW ou interação. Não há citações inventadas. A classificação A5 (Discussão sobre IA) é aceitável porque o título do tópico menciona ChatGPT e Perplexity, e o post é uma resposta dentro desse contexto; não há falsa classificação como A1, A2 ou A3. A interação I6 e o valor VC4 são suportados pela ausência de descrição de interação ou consequência de valor no corpo do post. Os escores DART 0/5 estão bem calibrados, pois não há evidência textual de diálogo, acesso, risco ou transparência no conteúdo citado. O human_review_required foi corretamente sinalizado como true, dado o descompasso entre título e conteúdo e a confiança de 0.85, que está acima de 0.80, mas a ambiguidade contextual justifica a revisão. A única pequena inconsistência é a presença de campos redundantes como 'dimensao_dominante': 'risk' e 'score_risco_percebido': 1, que não estão alinhados com o corpo principal da codificação (onde risco é 0), mas isso não compromete a validade central da auditoria.",
+      "post_id": "1784181_22791163",
       "_thinking_process": ""
     },
     {
@@ -1266,6 +1634,42 @@
       "human_review_corretamente_sinalizado": true,
       "consistencia_conceitual": true,
       "score_auditoria": 96,
+      "justificacao_auditoria": "A auditoria confirma a alta qualidade da codificação. 1) Evidência literal: todas as evidências citadas para DART estão vazias, o que é correto, pois o post original não contém trechos de diálogo, acesso, risco ou transparência; não há citações inventadas. 2) Classificação AI: A5 (Discussão sobre IA) é válida, pois o autor compara '90's UT AI' com 'Brann' sem descrever interação com um agente autônomo; não há falsa classificação como A1/A2/A3. 3) Interação e valor: I4 (Humano→Humano sobre IA) e VC4 (sem co-criação/destruição de valor) são consistentes com o texto, que é um comentário opinativo dirigido a outros usuários. 4) Calibração DART: todos os escores 0/5 estão corretos, pois as dimensões estão ausentes no post; as confianças moderadas (0.60-0.70) refletem adequadamente a ambiguidade contextual. 5) Revisão humana: human_review_required=true está corretamente sinalizado, pois ai_type_confidence (0.72), interaction_confidence (0.70) e value_confidence (0.60) estão abaixo de 0.80, e há ambiguidade sobre 'Brann' (possível NPC com IA). A única pequena ressalva é a presença de campos redundantes/duplicados (ex.: 'dart' e 'dialogo/acesso/risco/transparencia', 'classification_notes' e 'fundamentacao_risco'), que não afetam a validade conceitual, mas poderiam ser consolidados para maior clareza metodológica.",
+      "post_id": "2171055_27781272",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
+      "score_auditoria": 92,
+      "justificacao_auditoria": "The coding is largely well-calibrated. Literal evidence veracity is satisfied: all DART evidence fields are empty, which is appropriate because the post contains no explicit AI-related dialogue, access, risk, or transparency statements. The AI type classification as A2 (conventional bot) is valid: the word 'bot' in the title indicates automated software, but the post text provides no evidence of AI-based autonomy, so A1 is correctly avoided. Interaction type I6 is consistent with the absence of any described human-bot interaction; the post only speculates about the bot's ship and profitability. Value type VC4 is supported because no co-creation or co-destruction is evident. DART scores of 0 are well-calibrated against the definitions, as the post lacks any explicit AI-related dimension. Human review was correctly flagged because ai_type_confidence (0.72), interaction_confidence (0.55), and relevance_confidence (0.60) are below 0.80, and the post is ambiguous due to missing thread context. Minor deductions: relevance could arguably be 'POSSIBLY RELEVANT' rather than 'IRRELEVANT' because the thread title explicitly references a recorded bot, but the post itself contains no human-AI interaction, so 'IRRELEVANT' is defensible. Overall, the coding demonstrates strong adherence to the evidence-first principle and avoids over-inferring AI agency.",
+      "post_id": "508618_2852746",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
+      "score_auditoria": 95,
+      "justificacao_auditoria": "A auditoria confirma a alta qualidade da codificação. 1) Evidência literal: todas as citações de evidência para diálogo, acesso e risco existem verbatim no post original ('so like whats happeneing already?', 'the new auction house doesn’t really change anything if you’re already using auctionator', 'anyone who sees 1 item for much lower than the rest should report that person because 99% of the time it’s a bot'). A transparência está corretamente vazia, pois não há menção a mecanismos de transparência. 2) Classificação AI: A2 (bot convencional) é apropriada. O post menciona 'bot', mas não fornece evidência de autonomia, aprendizado ou IA; a codificação evitou corretamente classificar como A1 (agente de IA). A confiança de 0.75 reflete a ambiguidade. 3) Interação e valor: I4 (interação humano-humano discutindo bots) e VC4 (sem co-criação/destruição de valor evidente) são consistentes com o texto. 4) Calibração DART: Diálogo 1 (pergunta retórica fraca), Acesso 1 (menção à ferramenta Auctionator sem detalhes), Risco 2 (alerta sobre bots e recomendação de reporte, risco moderado), Transparência 0 (ausente) estão bem calibrados. 5) Revisão humana: corretamente sinalizada como true, pois a confiança do AI type (0.75) e da relevância (0.70) estão abaixo de 0.80, indicando ambiguidade. A única pequena observação é que a confiança do diálogo (0.80) está no limiar, mas isso não compromete a auditoria.",
+      "post_id": "2053425_26197101",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
+      "score_auditoria": 96,
       "justificacao_auditoria": "A auditoria confirma alta consistência entre o texto original e a codificação DART-NET. 1) Evidência literal: a única evidência citada, 'Thank you for the feedback', existe verbatim no post original; as demais dimensões (acesso, risco, transparência) estão corretamente sem evidência, pois o texto não contém elementos correspondentes. 2) Classificação AI: A5 (Discussion About AI) é válida, pois o autor apenas menciona estar trabalhando em algo similar para 'aura', sem descrever interação com um agente autônomo; não há risco de falsa classificação como A1/A2/A3. 3) Interação e valor: I4 (Human → Human about AI) e VC4 (No evidence) são consistentes com um comentário conversacional sem descrição de cocriação de valor. 4) Calibração DART: Dialogue=1 é adequado para um simples agradecimento/feedback; Access=0, Risk=0 e Transparency=0 refletem corretamente a ausência desses elementos no texto. 5) Revisão humana: human_review_required=true está corretamente sinalizado, pois relevance_confidence=0.7 e ai_type_confidence=0.85 indicam ambiguidade contextual moderada. Pequena ressalva: a confiança de 0.85 para AI type e interação é levemente otimista para um texto tão curto, mas não compromete a validade da codificação.",
       "post_id": "reddit_1pftbpi_19",
       "_thinking_process": ""
@@ -1292,6 +1696,18 @@
       "score_auditoria": 96,
       "justificacao_auditoria": "A auditoria confirma alta qualidade da codificação. 1) Evidência literal: todas as citações de acesso, risco e transparência existem verbatim no post original ('You can make yourself a tool...', 'Which will probably get you banned...', 'it's kinda easy to spot an AI using the UI'). Nenhuma citação foi inventada. 2) Classificação AI: A5 (discussão sobre IA) é correta, pois o autor fala sobre IA em termos hipotéticos e não descreve interação com um agente autônomo. Não há risco de falsa classificação como A1/A2/A3. 3) Interação e valor: I4 (humano-humano sobre IA) e VC4 (sem co-criação/destruição evidente) são consistentes com o texto, que é uma discussão especulativa. 4) Calibração DART: Diálogo 0 (ausente, correto); Acesso 2 (moderado, menciona limitações de ESI e ferramentas, correto); Risco 3 (forte, banimento explícito, correto); Transparência 1 (fraco, apenas implicação de detecção visual, correto). 5) Human review: sinalizado como true, com confidence de transparência em 0.70 (<0.80) e relevance em 0.80, justificando corretamente a revisão humana. A única observação menor é que a nota de transparência poderia ser 0, pois 'fácil de detectar' não implica transparência do agente, mas a pontuação 1 é defensável dentro da definição fraca. Nenhuma violação material encontrada.",
       "post_id": "reddit_1t939or_11",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
+      "score_auditoria": 98,
+      "justificacao_auditoria": "A auditoria confirma a alta qualidade da codificação. (1) Evidência literal: todas as evidências estão vazias, o que é correto, pois o post original não contém menção a diálogo, acesso, risco ou transparência; nenhuma citação foi inventada. (2) Classificação AI: A6 (Irrelevante) é válida, pois o texto apenas comenta sarcasticamente sobre um desenvolvedor e um dev blog, sem qualquer menção a bots, scripts ou agentes autônomos; não há risco de falsa classificação como A1/A2/A3. (3) Interação e valor: I6 e VC4 são consistentes, pois não há interação humano-IA nem cocriação de valor descrita. (4) Calibração DART: todos os escores 0/5 estão corretos, pois as dimensões estão ausentes no texto; a confiança de 0.9 é adequada. (5) Revisão humana: human_review_required=false é correto, pois a confiança é alta (0.85-0.9) e não há ambiguidade relevante. Pequena observação: o campo 'dimensao_dominante' está definido como 'risk' e 'score_risco_percebido' como 1, o que é levemente inconsistente com o escore DART de risco 0/5 e com a ausência de conteúdo de risco; isso não compromete a classificação principal, mas poderia ser harmonizado para evitar ruído analítico.",
+      "post_id": "509843_2862514",
       "_thinking_process": ""
     },
     {
@@ -1373,6 +1789,18 @@
       "calibracao_dart_scores": true,
       "human_review_corretamente_sinalizado": true,
       "consistencia_conceitual": true,
+      "score_auditoria": 96,
+      "justificacao_auditoria": "A auditoria confirma a alta qualidade da codificação. 1) Evidência literal: a única evidência citada, 'These are forbidden within wow.', existe verbatim no post original, satisfazendo o princípio evidence-first. 2) Classificação AI: A2 (bot convencional) é correta e conservadora; o texto menciona 'Fishing Bots' e automação, mas não fornece evidência explícita de autonomia, aprendizado ou decisão baseada em IA, evitando falsa classificação como A1. A confiança moderada (0.65) reflete adequadamente essa ambiguidade. 3) Interação e valor: I4 (discussão humano-humano sobre bots) é consistente com o caráter explicativo do post; VC4 (sem cocriação/destruição evidente) é apropriado, pois o autor apenas esclarece a natureza dos bots, sem relato de experiência de valor. 4) Calibração DART: Diálogo 0 (ausente), Acesso 0 (ausente), Transparência 0 (ausente) estão corretos. Risco 3 é bem calibrado: o autor menciona explicitamente que tais bots 'são proibidos' e implica risco de banimento, embora não detalhe consequências pessoais ou severidade, justificando 'forte' em vez de 'muito forte' ou 'explícito'. 5) Revisão humana: corretamente sinalizada (true), pois a confiança na classificação AI (0.65) está abaixo do limiar de 0.80 e há ambiguidade sobre a natureza exata dos bots. A única pequena ressalva é a confiança de risco (0.85) ligeiramente abaixo do ideal, mas não compromete a validade geral.",
+      "post_id": "2323925_29725472",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
       "score_auditoria": 92,
       "justificacao_auditoria": "A auditoria confirma que todas as evidências citadas para diálogo, acesso e risco existem literalmente no post original, sem citações inventadas. A classificação A5 (discussão sobre IA) é válida, pois o texto não descreve um agente de IA concreto, apenas especula sobre automação ('smart heal', 'game will figure out'), evitando falsa classificação como A1. A interação I4 (humano-humano sobre IA) e o valor VC4 (sem cocriação clara) são consistentes com o conteúdo. Os scores DART estão bem calibrados: diálogo 1 (menção indireta a mudanças), acesso 1 (hipótese de automação), risco 2 (preocupação moderada com 'far worse') e transparência 0 (nenhuma menção a transparência). O human_review_required foi corretamente sinalizado como true, pois as confianças estão abaixo de 0.80 (0.72, 0.70, 0.65) e há ambiguidade na classificação. Pequena penalidade de 8 pontos pela confiança relativamente baixa em todas as dimensões e pela natureza especulativa do post, que poderia justificar uma nota de relevância ainda mais cautelosa.",
       "post_id": "2248893_28812120",
@@ -1430,6 +1858,18 @@
       "evidencia_literal_existe": true,
       "consistencia_ai_type": true,
       "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": false,
+      "human_review_corretamente_sinalizado": false,
+      "consistencia_conceitual": false,
+      "score_auditoria": 55,
+      "justificacao_auditoria": "The coding correctly identifies that no AI agent, bot, or script is present in the post; the text explicitly states 'There are no addons or macros involved at all. Only basic game functions being used as intended.' Therefore, A6/I6/VC4 classifications are valid, and the empty evidence fields for DART dimensions are consistent with the absence of AI-related content. However, the DART scoring is miscalibrated: the post clearly discusses account risk ('you may be putting your account at risk') and transparency/legitimacy of game functions ('This is 100% ok and is built into the game on purpose'), which should warrant non-zero scores for risk and transparency under the DART-NET framework. The coding assigns 0 to all dimensions despite the presence of risk-related and transparency-related discourse. Additionally, human_review_required is set to false despite this conceptual inconsistency and the presence of risk/transparency content that was not captured. The confidence values are high (0.95), but the calibration error and missed risk/transparency evidence should have triggered human review. Overall, the coding is partially accurate but fails to capture relevant risk and transparency dimensions, resulting in a moderate audit score.",
+      "post_id": "2323925_29725916",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
       "calibracao_dart_scores": true,
       "human_review_corretamente_sinalizado": true,
       "consistencia_conceitual": true,
@@ -1448,6 +1888,30 @@
       "score_auditoria": 92,
       "justificacao_auditoria": "A auditoria confirma que todas as evidências citadas existem literalmente no post original: 'let me know if it appears for you now. Can you confirm you can see other tooltips', 'move from EVE Crews being browser-based to being a locally installed file that can securely react to gamelog files in real time', 'securely react to gamelog files' e 'This makes me wonder if you’re seeing all the other tooltips' estão todas presentes no texto. A classificação A3 (script determinístico) é válida, pois o post descreve lógica TDR refinada para reagir a timestamps e mudança para arquivo local, sem evidência de autonomia ou IA; o codificador evitou corretamente classificar como A1. A interação I4 (humano→humano sobre ferramenta) é consistente com o desenvolvedor pedindo feedback aos usuários. VC4 é adequado, pois não há evidência clara de cocriação ou codestruição de valor no post. Os scores DART estão bem calibrados: diálogo 2 (pedido de feedback, moderado), acesso 2 (mudança de funcionalidade/arquitetura), risco 1 (menção breve a 'securely'), transparência 1 (questionamento sobre visibilidade de tooltips). O human_review_required foi corretamente sinalizado como true, dado que as confianças estão abaixo de 0.80 em vários campos (0.75, 0.70, 0.70, 0.60, 0.60) e há ambiguidade sobre a natureza da ferramenta. Pequena penalização no score por confianças moderadas e pela natureza especulativa da interpretação de acesso/risco, mas sem defeitos críticos.",
       "post_id": "510327_2890391",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
+      "score_auditoria": 92,
+      "justificacao_auditoria": "The coding correctly identifies the post as a skeptical human-to-human reply about whether observed behavior is machine learning. The quoted evidence is empty for all DART dimensions, which is appropriate because the post contains no literal evidence of dialogue, access, risk, or transparency involving an actual AI agent; no quotes were invented. The AI type A5 (discussion about AI) is valid: the text explicitly mentions 'machine learning' but does not describe an actual AI agent or autonomous system, so it is not falsely classified as A1. Interaction type I4 (human-to-human discussion about AI) is consistent with the text, and VC4 (no value co-creation/destruction) is supported by the absence of any value-related evidence. DART scores of 0 for all dimensions are well-calibrated because the post does not demonstrate any human-AI interaction or value co-creation; the confidence of 0.60 for each dimension is appropriately moderate given missing context. Human review was correctly flagged as true because all confidence values are below 0.80 and the post contains ambiguity, possible sarcasm, and missing prior context. Minor deductions are due to the inclusion of extra non-required fields and slight inconsistency in the classification notes, but these do not affect the core validity of the coding.",
+      "post_id": "474041_2659339",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
+      "score_auditoria": 98,
+      "justificacao_auditoria": "The coding is highly consistent with the original post. Literal evidence veracity: no quotations were fabricated; all DART evidence fields are empty, which is appropriate because the post contains no explicit references to dialogue, access, risk, or transparency. AI agent classification validity: the post was correctly classified as A6 (irrelevant/no AI agent), avoiding false classification as A1-A5. There is no evidence of an AI agent, bot, or script; 'bumping' is a known EVE Online player-driven ship collision mechanic. Interaction and value co-creation consistency: I6 and VC4 are correctly assigned because the post is a human-to-human commentary on gameplay with no evidence of human-AI interaction or value co-creation. DART scoring calibration: all four dimensions are scored 0/5 with empty evidence, which is well-calibrated given the absence of any relevant content. Human review calibration: human_review_required is set to true, which is appropriate because the post is short, potentially sarcastic, and lacks surrounding thread context; relevance confidence is 0.75, below the 0.80 threshold, correctly triggering review. Minor note: the coding includes some redundant fields (e.g., dimensao_dominante, score_risco_percebido, tipologia_cocriacao) that are not part of the core DART-NET schema and could introduce slight inconsistency, but they do not materially affect the classification quality.",
+      "post_id": "509843_2862454",
       "_thinking_process": ""
     },
     {
@@ -1496,6 +1960,30 @@
       "score_auditoria": 96,
       "justificacao_auditoria": "A auditoria confirma que todas as evidências citadas existem literalmente no texto original: 'if they use it to help them formulate a good question', 'use it to help them formulate a good question in which they can then turn around and use critical thinking skills' e 'if they just use it and depend on its answers then of course' são transcrições exatas. A classificação A5 (Discussão sobre IA) é válida, pois o autor discute hipoteticamente o uso do ChatGPT, sem descrever interação direta com um agente autônomo; não há risco de falsa classificação como A1. A interação I4 (Humano → Humano sobre IA) e o valor VC4 (Sem evidência de cocriação/destruição concreta) são consistentes com o caráter especulativo do comentário. Os escores DART estão bem calibrados: Diálogo 1 (menção indireta a formulação de perguntas), Acesso 1 (uso hipotético da ferramenta), Risco 1 (dependência passiva mencionada) e Transparência 0 (nenhuma menção a transparência). O human_review_required foi corretamente sinalizado como true, pois as confianças em Diálogo, Acesso e Risco são 0.70, abaixo do limiar de 0.80, e a relevância é apenas 'POSSIBLY RELEVANT'. A única pequena ressalva é que a confiança geral do AI type (0.95) e da interação (0.90) poderia sugerir menor necessidade de revisão, mas a ambiguidade nas dimensões DART justifica plenamente a revisão humana.",
       "post_id": "1jukb0x_45",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": false,
+      "consistencia_conceitual": true,
+      "score_auditoria": 88,
+      "justificacao_auditoria": "A codificação apresenta alta fidelidade ao texto original. As evidências literais para diálogo e risco são verificáveis: 'Present some proof please. Just saying 'its wrong!' does't make it true.' e 'Now it’s your turn for bringing some arguments to the table' constam no post, assim como 'helps to solve a problem, which is mass-afk mining' e 'creates more options for player interactions in HS beyond just 'suicide gankig''. A classificação de diálogo como presente e dominante é consistente com a natureza argumentativa do post. O risco percebido como moderado (3) está bem calibrado: o autor identifica um problema sistémico (mineração AFK) mas propõe solução equilibrada, sem alarmismo. A ausência de acesso e transparência é correta, pois o texto não menciona APIs, dados ou transparência algorítmica. A tipologia de cocriação simétrica é defensável pela proposta win-win-win. A classificação AI Type não se aplica diretamente (não há entidade de IA no post), portanto não há falsa classificação de bot como agente. A única falha identificada é a ausência do campo 'human_review_required' no JSON de saída. Dado que a confiança implícita parece alta (evidências literais exatas, interpretações coerentes), a revisão humana poderia ser dispensada, mas o campo deveria estar explicitamente presente como false. A omissão do campo viola o critério de auditoria 5, que exige sinalização explícita. Por isso, o score é 88/100, refletindo excelente qualidade geral com uma lacuna formal.",
+      "post_id": "510142_2865155",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
+      "score_auditoria": 96,
+      "justificacao_auditoria": "A auditoria confirma a alta qualidade da codificação. 1) Evidência literal: as citações de acesso ('they will be able only to leave that space… and no one to enter') e risco ('otherwise can be used by old players for their needs') existem verbatim no post original; não há citações inventadas. 2) Classificação AI: A6 (Irrelevante) é correta, pois o post não menciona IA, bots ou scripts; não há risco de falsa classificação como A1/A2/A3. 3) Interação e valor: I6 e VC4 são consistentes com a ausência de interação humano-IA e de cocriação de valor. 4) Calibração DART: Diálogo 0 e Transparência 0 são adequados (ausentes). Acesso 1 é defensável, pois a menção a restrição de entrada/saída é fraca e especulativa. Risco 2 é bem calibrado, refletindo preocupação moderada com exploração por jogadores antigos. 5) Revisão humana: corretamente sinalizada (true), pois as confianças de acesso (0.60) e risco (0.70) estão abaixo de 0.80, e há ambiguidade contextual. A única observação menor é que a confiança geral de interação (0.80) está no limiar, mas a sinalização de revisão humana já cobre essa ambiguidade. Não foram identificados defeitos materiais.",
+      "post_id": "509843_2862512",
       "_thinking_process": ""
     },
     {
@@ -1580,6 +2068,18 @@
       "score_auditoria": 92,
       "justificacao_auditoria": "The coding demonstrates strong adherence to the DART-NET Framework. Literal evidence veracity is confirmed: the quoted text for risk and transparency matches the original post verbatim, and no invented quotes are present for dialogue or access (both correctly empty). AI agent classification (A5) is valid; the post is a speculative comment about GenAI without describing any specific AI agent, bot, or script, so no false A1/A2/A3 classification occurred. Interaction type I6 (no meaningful interaction) and value type VC4 are consistent with the brief, non-interactive nature of the post. DART scoring is well-calibrated: dialogue and access are absent (0), risk is weak (1) as the post only vaguely alludes to potential future unawareness, and transparency is moderate (2) as the 'not knowing' theme directly addresses transparency concerns, though without concrete context. Human review was correctly flagged (true) given the relevance confidence of 0.70 and risk/transparency confidence of 0.70, both below the 0.80 threshold. Minor deductions: the transparency score of 2 could arguably be 1 given the brevity and lack of explicit transparency discussion, and the relevance classification 'POSSIBLY RELEVANT' at 0.70 confidence is appropriately cautious but slightly conservative given the post directly addresses the thread's GenAI theme. Overall, the coding is scientifically sound and well-documented.",
       "post_id": "reddit_1r77s3x_2",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
+      "score_auditoria": 96,
+      "justificacao_auditoria": "A codificação está amplamente correta e segue o princípio de evidência literal. As citações de evidência para diálogo, acesso, risco e transparência estão vazias, o que é consistente com o texto original, que não contém menção a IA, interação humano-IA, acesso, risco de IA ou transparência. A classificação A6/I6/VC4 é válida: o post menciona 'botting' e 'ganking', mas não descreve um agente de IA autônomo, nem interação humano-IA, nem criação/destruição de valor por IA. A menção a 'botting' foi corretamente tratada como automação convencional/cheating, não como IA, evitando falsa classificação como A1/A2/A3. Os escores DART 0/5 estão bem calibrados, pois não há evidência de diálogo, acesso, risco ou transparência relacionados a IA no texto. O campo 'human_review_required' foi corretamente definido como true, dado que as confianças estão abaixo de 0.80 (0.60-0.70) e há ambiguidade contextual pelo título da thread 'EVE Online and AI Research'. A única pequena inconsistência é a presença de campos adicionais ('dimensao_dominante', 'score_risco_percebido', 'tipologia_cocriacao', etc.) que não fazem parte do esquema DART-NET principal e podem gerar ruído, mas não comprometem a validade da codificação central.",
+      "post_id": "516800_2916241",
       "_thinking_process": ""
     },
     {
@@ -1695,6 +2195,18 @@
       "consistencia_ai_type": true,
       "consistencia_interacao_valor": true,
       "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": false,
+      "consistencia_conceitual": true,
+      "score_auditoria": 85,
+      "justificacao_auditoria": "A evidência literal citada para a dimensão 'acesso' corresponde exatamente ao texto original do post, sem citações inventadas. A classificação de tipo de IA não é aplicável diretamente, pois o post não identifica uma entidade específica como agente de IA; o jogador apenas menciona 'ai' de forma genérica e hipotética, sem atribuir autonomia ou capacidades de agente a um sistema específico, portanto não há falsa classificação de bot convencional como agente de IA. A consistência entre interação e valor é mantida: o post é um monólogo sem diálogo, e a tipologia 'assimétrica' reflete a ausência de interação bidirecional, com o jogador propondo unilateralmente um benefício hipotético da IA. A calibração dos scores DART está adequada: diálogo, risco e transparência estão ausentes (score 0 implícito), enquanto acesso é interpretado como presente de forma fraca, com score de risco percebido 1, coerente com a ausência de discurso de risco. No entanto, a sinalização de revisão humana está incorreta: o campo 'human_review_required' não foi incluído no JSON gerado, apesar de o nível de confiança implícito no processo de pensamento ser médio (Trust Level 2) e a interpretação da dimensão 'acesso' envolver ambiguidade conceitual (acesso ao jogo vs. acesso a ferramentas de automação), o que deveria ter acionado revisão humana. A consistência conceitual geral é boa, mas a omissão do campo de revisão humana e a ausência de um score de confiança explícito reduzem a pontuação da auditoria.",
+      "post_id": "3000003_28811529",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
       "human_review_corretamente_sinalizado": true,
       "consistencia_conceitual": true,
       "score_auditoria": 92,
@@ -1748,6 +2260,18 @@
       "score_auditoria": 92,
       "justificacao_auditoria": "A auditoria confirma a validade geral da codificação. As evidências literais citadas para diálogo e acesso existem verbatim no texto original ('Who woulda thunk...' e 'It’s actually great if you use search.'), sem citações inventadas. A classificação A5 (Discussão sobre IA) é correta, pois o autor comenta sobre ChatGPT e a resistência da comunidade, sem interagir diretamente com um agente de IA; não há risco de falsa classificação como A1/A2/A3. A interação I4 (Humano → Humano sobre IA) e o valor VC4 (sem co-criação/destruição evidente) são consistentes com o conteúdo breve e sarcástico. Os scores DART estão bem calibrados: diálogo 1 (menção implícita à discussão comunitária), acesso 1 (menção ao uso de busca), risco 0 e transparência 0 (ausentes no texto). O human_review_required foi corretamente sinalizado como true, dado que a confiança de value_confidence é 0.8 (limiar) e há ambiguidade contextual pela ausência do thread pai. Pequenas ressalvas: a confiança de diálogo/acesso (0.7) é baixa, mas coerente com a natureza implícita das menções; o campo 'score_risco_percebido' (1) parece inconsistente com o score de risco 0 no DART, mas não compromete a auditoria principal.",
       "post_id": "1jukb0x_41",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
+      "score_auditoria": 96,
+      "justificacao_auditoria": "The coding demonstrates strong adherence to the Evidence-First Principle. All DART dimensions are scored 0 with empty evidence fields, which is correct because the original post contains no dialogue, access, risk, or transparency content related to AI agents. The AI type classification (A6 - Irrelevant) is valid: the post mentions 'career agents' (deterministic NPC mission givers in EVE Online) and 'upwell structures' (player-owned structures), but there is no evidence of AI agents, conventional bots, or scripts. The coder correctly avoided falsely classifying NPCs as AI agents. Interaction type I6 (no meaningful AI interaction) and value type VC4 (no value consequence) are consistent with the text, which consists solely of clarifying questions directed at game developers about game mechanics. DART scores of 0 are well-calibrated against the definitions (absent). Human review was correctly flagged as true despite high confidence (0.85-0.95) because the broader thread context ('Exordium') is unknown from the post text alone, and the coder explicitly noted this ambiguity. The classification notes are thorough and transparent about the reasoning. Minor deductions: the 'dimensao_dominante' field lists 'risk' with 'score_risco_percebido' of 1, which is slightly inconsistent with the DART risk score of 0 and the absence of risk evidence; this appears to be a metadata artifact rather than a substantive coding error. Additionally, the 'tipologia_cocriacao' field lists 'assimetrica' (asymmetric), which is not clearly supported by the text since no co-creation is evidenced; VC4 (no value consequence) would suggest no co-creation typology should apply. These minor inconsistencies in auxiliary fields prevent a perfect score but do not undermine the core classification validity.",
+      "post_id": "509843_2862461",
       "_thinking_process": ""
     },
     {
@@ -1827,11 +2351,71 @@
       "consistencia_ai_type": true,
       "consistencia_interacao_valor": true,
       "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": false,
+      "consistencia_conceitual": true,
+      "score_auditoria": 85,
+      "justificacao_auditoria": "A auditoria confirma que as evidências literais citadas para risco e transparência existem verbatim no post original ('that bug where the dorn portal teleported player targets.' e 'What percent of the prepatch do you think was coded by Ai'). A classificação de ausência de diálogo e acesso é consistente com o texto, que não apresenta interação bidirecional nem menção a ferramentas de automação. A tipologia de cocriação assimétrica é plausível, pois o post sugere desequilíbrio entre desenvolvedores (potencialmente usando IA) e jogadores (recebendo bugs). O score de risco percebido 3 está bem calibrado: o post associa IA a um bug concreto, mas não expressa pânico ou medo extremo, justificando nível moderado. A dimensão dominante 'transparencia' é adequada, pois a pergunta central questiona a divulgação do uso de IA. No entanto, o campo 'human_review_required' não foi incluído no JSON gerado, apesar de o post apresentar ambiguidade (pergunta retórica, ausência de likes, trust level 2) e de o processo de pensamento indicar incerteza na classificação de risco (2 ou 3) e na tipologia de cocriação. A ausência desse campo viola o critério de sinalização de revisão humana quando há ambiguidade ou confiança inferior a 0.80. Recomenda-se adicionar 'human_review_required: true' para refletir a incerteza interpretativa.",
+      "post_id": "3000003_28811485",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
       "human_review_corretamente_sinalizado": true,
       "consistencia_conceitual": true,
       "score_auditoria": 92,
       "justificacao_auditoria": "The coding demonstrates strong adherence to the DART-NET Framework. Literal evidence veracity is confirmed: all quoted strings ('We don’t need to know the reason the pattern speaks for itself.' and 'So how could this be forbidden and bannable?') appear verbatim in the original post. AI agent classification is valid: the coder correctly assigned A5 (discussion about AI/bots) rather than A1 (AI agent), avoiding false classification of a conventional bot or deterministic script as an AI agent; the post only references a 'bot' indirectly and questions repetitive behavior, with no evidence of AI autonomy. Interaction type I4 (human-to-human discussion about AI/bots) and value type VC4 (no clear value co-creation/destruction) are consistent with the text, which is a policy debate rather than an agent interaction. DART scoring is well-calibrated: Dialogue=1 (weak, quoting/responding to another user), Access=0 (absent), Risk=2 (moderate, banability/forbidden repetitive action), Transparency=1 (weak, 'pattern speaks for itself' but no AI explainability). Human review was correctly signaled as true given confidence values below 0.80 (0.55-0.70) and ambiguity between AI and conventional automation. Minor deductions: the 'dimensao_dominante' as 'risk' is reasonable but could also be 'dialogue' given the rhetorical questioning; the 'tipologia_cocriacao' as 'assimetrica' is not clearly supported by the text, which shows no co-creation asymmetry. Overall, the coding is scientifically sound with only minor interpretive nuances.",
       "post_id": "508618_2853066",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
+      "score_auditoria": 92,
+      "justificacao_auditoria": "A codificação está majoritariamente consistente com o texto original. A evidência citada para risco ('Not only bots, but real players too!') existe literalmente no post. A classificação A2 é adequada: o termo 'bots' sugere automação convencional, mas não há evidência explícita de IA ou autonomia, evitando falsa classificação como A1. I6 e VC4 são coerentes, pois não há interação humano-agente nem cocriação de valor com IA descritas. Os escores DART estão bem calibrados: diálogo, acesso e transparência ausentes (0), risco fraco (1) com base na menção a bots e no título 'A win for bots?', sem superestimar. O human_review_required foi corretamente sinalizado como true, dado que as confianças de ai_type (0.5), interaction (0.65), value (0.7) e relevance (0.55) estão abaixo de 0.80 e há ambiguidade entre bot convencional e IA. Pequena ressalva: a evidência de risco poderia incluir também o título, mas a citação do corpo do post é literal e suficiente para o escore 1.",
+      "post_id": "481937_2697159",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
+      "score_auditoria": 95,
+      "justificacao_auditoria": "A auditoria confirma a robustez da codificação. 1) Evidência Literal: As evidências para DART estão vazias, o que é correto, pois o texto original não contém elementos de diálogo, acesso, risco ou transparência. Nenhuma citação foi inventada. 2) Classificação AI (A5): A classificação como 'Discussion About AI' é válida. O post menciona 'AI' e faz referência cultural (John Connor), mas não descreve interação com um agente autônomo. Não há risco de falsa classificação como A1/A2/A3. 3) Interação e Valor (I6/VC4): A ausência de interação específica e de valor co-criado é consistente com o texto vago. 4) Calibração DART: Todos os scores 0/5 estão corretos, pois o post não fornece evidência para nenhuma dimensão. 5) Revisão Humana: O flag 'human_review_required: true' é apropriado, dado o confidence de relevância de 0.70 (< 0.80) e a ambiguidade contextual do post dentro de um tópico maior sobre IA. A única pequena inconsistência é a presença de campos redundantes ('dimensao_dominante': 'risk', 'score_risco_percebido': 1) que contradizem levemente o score DART de risco 0, mas não afetam a validade central da codificação.",
+      "post_id": "2051325_26164479",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
+      "score_auditoria": 98,
+      "justificacao_auditoria": "A codificação está altamente consistente com o texto original. Não há citações inventadas: todas as evidências para DART estão vazias, o que é correto, pois o post não contém menção a IA, bots, scripts ou automação. A classificação A6 (Irrelevante) é válida, pois não há evidência de agente de IA; o texto apenas comenta mecânicas de viagem e possível abuso de 'shipcasters'. A interação I6 e o valor VC4 são coerentes com a ausência de interação humano-IA. Os scores DART 0/5 estão bem calibrados, pois as dimensões estão ausentes. O campo 'human_review_required' foi corretamente definido como false, uma vez que as confianças são altas (0.92) e não há ambiguidade relevante. A única observação menor é que o campo 'dimensao_dominante' indica 'risk' e 'score_risco_percebido' 1, o que parece contradizer o score DART de risco 0; porém, isso pode ser interpretado como um risco percebido mínimo no contexto do jogo, não afetando a validade central da classificação.",
+      "post_id": "509843_2862472",
+      "_thinking_process": ""
+    },
+    {
+      "evidencia_literal_existe": true,
+      "consistencia_ai_type": true,
+      "consistencia_interacao_valor": true,
+      "calibracao_dart_scores": true,
+      "human_review_corretamente_sinalizado": true,
+      "consistencia_conceitual": true,
+      "score_auditoria": 96,
+      "justificacao_auditoria": "A auditoria confirma alta qualidade da codificação. 1) Evidência literal: a citação de risco reproduz exatamente o trecho do post original, sem invenção. 2) Classificação AI Type: A2 é adequada, pois o termo 'bots' não implica autonomia ou IA; a codificação evitou corretamente classificar como A1, reconhecendo que podem ser scripts determinísticos. 3) Interação e valor: I4 é consistente, pois trata-se de discussão entre humanos sobre comportamento de bots, sem interação humano-IA direta; VC4 é defensável, pois o post menciona efeitos negativos e positivos, mas não descreve evento concreto de cocriação/destruição de valor com agente de IA. 4) Calibração DART: Dialogue 0, Access 0 e Transparency 0 são corretos, pois não há diálogo, acesso ou transparência no texto; Risk 3 é bem calibrado, pois há menção explícita de risco econômico e comportamento predatório, embora sem detalhamento profundo. 5) Human review: sinalizado corretamente como true, pois a confiança de relevance é 0.70 (<0.80) e há ambiguidade entre bot convencional e IA. Pequena ressalva: a confiança de AI type (0.85) e value type (0.85) está acima do limiar, mas a ambiguidade conceitual justifica a revisão humana, o que foi feito.",
+      "post_id": "2053425_26196997",
       "_thinking_process": ""
     },
     {

@@ -71,30 +71,41 @@ flowchart TD
             CONFIDENCE["Calibração de Confiança & Flag<br/>(human_review_required = True se conf < 0,80)"]
         end
         
-        DART_CODING --> NETNO_RESULTS[("netnography_results.jsonl<br/>(1.032 análises científicas validadas sem erros)")]
+        DART_CODING --> NETNO_BRUTO[("netnography_results_1032_unpruned.jsonl<br/>(1.032 codificações validadas sem falhas sintáticas)")]
+    end
+
+    %% CAMADA 2: Refinamento Epistémico e Poda Metodológica
+    subgraph FASE_PODA ["Fase 3.5: Refinamento Epistémico e Poda Metodológica"]
+        NETNO_BRUTO --> PODA_CHECK{"Critérios Metodológicos de Poda<br/>(A6, Zero DART, Bots Mecânicos A2)?"}:::decision
+        
+        PODA_CHECK -- "Critério 1: Ruído Não-IA A6 (51 posts)" --> PODA_LOG[("excluded_posts_log.json<br/>(207 posts podados com log auditável)")]
+        PODA_CHECK -- "Critério 2: Zero DART D=A=R=T=0 (172 posts)" --> PODA_LOG
+        PODA_CHECK -- "Critério 3: Queixas Mecânicas A2 (33 posts)" --> PODA_LOG
+        
+        PODA_CHECK -- "Corpus Teórico Aprovado" --> NETNO_REFINED[("netnography_results.jsonl<br/>(825 posts refinados com DART > 0)")]
     end
 
     %% CAMADA 2: Auditoria de Qualidade Interna
     subgraph FASE4 ["Fase 4: Controlo de Qualidade Interno Multiagente"]
-        NETNO_RESULTS --> AUDIT_SAMPLE["Amostragem Aleatória de 20%<br/>(206 análises, Seed 42)"]
+        NETNO_REFINED --> AUDIT_SAMPLE["Amostragem Aleatória do Corpus Refinado<br/>(159 análises, Seed 42)"]
         AUDIT_SAMPLE --> QUALITY_GUARD["QualityGuardAgent<br/>(deepseek-v4-pro auditor independente)"]:::agent
         
         QUALITY_CHECK{"Índice de Concordância<br/>Global >= 70%?"}:::decision
         QUALITY_GUARD --> QUALITY_CHECK
         QUALITY_CHECK -- "Não" --> ABORT["Abortar Pipeline"]
-        QUALITY_CHECK -- "Aprovado: 91,20%" --> AUDIT_REPORT[("quality_audit_results.json<br/>(Score 91,20% | 100% citações literais | 12 alertas)")]
+        QUALITY_CHECK -- "Aprovado: 91,31%" --> AUDIT_REPORT[("quality_audit_results.json<br/>(Score 91,31% | 100% citações literais | 8 alertas)")]
     end
 
     %% CAMADA 2 & 3: Síntese e Entregáveis Finais
     subgraph FASE5 ["Fase 5: Síntese e Entregáveis Principais"]
-        NETNO_RESULTS --> SYNTHESIS["SynthesisAgent<br/>(deepseek-v4-pro com amostragem estratificada)"]:::agent
+        NETNO_REFINED --> SYNTHESIS["SynthesisAgent<br/>(deepseek-v4-pro com amostragem estratificada)"]:::agent
         AUDIT_REPORT --> SYNTHESIS
         
-        SYNTHESIS --> REPORT_FINAL["relatorio_netnografia.md<br/>(Relatório Académico de 8 Secções — QI1 a QI5)"]:::output
+        SYNTHESIS --> REPORT_FINAL["relatorio_netnografia.md<br/>(Relatório Académico Formal — QI1 a QI5 em 825 posts)"]:::output
         
         ANON_POSTS --> TABLE_GEN["SummaryTableGenerator<br/>(deepseek-v4-flash para resumos <= 50 palavras)"]:::agent
-        NETNO_RESULTS --> TABLE_GEN
-        TABLE_GEN --> TABLE_RESUMOS["tabela_resumos.md<br/>(1.032 posts com DART, resumos e links diretos)"]:::output
+        NETNO_REFINED --> TABLE_GEN
+        TABLE_GEN --> TABLE_RESUMOS["tabela_resumos.md<br/>(825 posts refinados com DART, resumos e links)"]:::output
         
         CORPUS --> LISTA_LINKS_MD["lista_links.md / lista_links.txt<br/>(Catálogo das 303 URLs Canónicas)"]:::output
         COST_LOG["Registo de Tokens<br/>(~27.000 chamadas API)"] --> TABELA_CUSTOS["tabela_custos.md<br/>(Auditoria de Custos: ~$21,50 USD)"]:::output
@@ -102,12 +113,12 @@ flowchart TD
 
     %% CAMADA 3: Validação Metodológica Externa
     subgraph FASE6 ["Camada 3: Validação Humana e Reprodutibilidade (HUMAN VALIDATION)"]
-        NETNO_RESULTS --> HUMAN_QUEUE["Fila de Validação Humana Prioritária<br/>(799 posts com '⚠️ Sim' em Rev. Humana)"]:::validation
+        NETNO_REFINED --> HUMAN_QUEUE["Fila de Validação Humana Prioritária<br/>(708 posts com '⚠️ Sim' em Rev. Humana)"]:::validation
         
-        NETNO_RESULTS --> KAPPA_SAMPLE["Amostragem para Revisão Humana"]:::agent
+        NETNO_REFINED --> KAPPA_SAMPLE["Amostragem para Revisão Humana"]:::agent
         KAPPA_SAMPLE --> CSV_HUMAN["amostra_codificacao_humana.csv<br/>(Amostra para teste cego)"]:::validation
         
-        HUMAN_CODING["Codificação Cega por Investigador Humano<br/>(DART-NET: A1-A6, I1-I6, VC1-VC4, DART)"]:::validation
+        HUMAN_CODING["Codificação Cega por Investigador Humano<br/>(DART-NET: A1-A5, I1-I6, VC1-VC4, DART)"]:::validation
         CSV_HUMAN --> HUMAN_CODING
         
         HUMAN_CODING --> CALC_KAPPA["calculate_kappa.py<br/>(Cálculo do Coeficiente Kappa de Cohen)"]:::agent
@@ -132,31 +143,34 @@ flowchart TD
 
 3. **Fase 3: Codificação Qualitativa DART-NET e Parsing Guard (AI CODING)**
    * **Agente:** `NetnographyAgent` com módulo integrado `Parsing Guard & Reprocessing`
-   * **Mecanismo de Tolerância a Falhas:** Incorporação da camada de reparação estrutural de JSON (`extract_and_repair_json`), proteção contra estouro de contexto para posts volumosos (truncamento de segurança no prompt a $\le 8.000$ carateres, preservando o texto original no ficheiro final) e rotina automática de reprocessamento em ciclo fechado. Recuperou **100% dos 224 posts afetados**, garantindo zero falhas residuais (`0` erros remanescentes) e integridade analítica total dos 1.032 posts.
-   * **Ação Analítica:** Codificação multi-taxonómica via `deepseek-v4-flash`:
-     * **Tipologia de IA (`A1` a `A6`)**: Distinção estrita de agentes de IA autónomos (A1) vs bots convencionais (A2), scripts (A3), humanos assistidos (A4) e discussões reflexivas (A5).
-     * **Estrutura de Interação (`I1` a `I6`)**: Identificação dos fluxos direto (I1), agente-humano (I2), bidirecional (I3) e discurso social (I4).
-     * **Cocriação de Valor (`VC1` a `VC4`)**: Mapeamento de cocriação simétrica (VC1), potencial cocriação assimétrica (VC2) e codestruição parasitária (VC3).
-     * **Dimensões DART (0 a 5)**: Avaliação independente de Diálogo, Acesso, Risco e Transparência com evidência literal.
-     * **Calibração de Confiança e Flag Humana**: Sinalização automática de `human_review_required: true` para casos com confiança < 0,80 ou ambiguidade.
-   * **Saída:** `data/analysis/netnography_results.jsonl` (1.032 análises científicas validadas sem falhas de processamento).
+   * **Mecanismo de Tolerância a Falhas:** Incorporação da camada de reparação estrutural de JSON (`extract_and_repair_json`), proteção contra estouro de contexto para posts volumosos (truncamento de segurança no prompt a $\le 8.000$ carateres, preservando o texto original no ficheiro final) e rotina automática de reprocessamento em ciclo fechado. Garantiu zero falhas sintáticas residuais (`0` erros remanescentes) e integridade de 100% dos 1.032 posts codificados.
+   * **Saída:** `data/analysis/netnography_results_1032_unpruned.jsonl` (1.032 análises científicas brutas validadas).
 
-4. **Fase 4: Controlo de Qualidade Interno Multiagente**
+4. **Fase 3.5: Refinamento Epistémico e Poda Metodológica (NOVA ETAPA)**
+   * **Objetivo:** Purificação teórica do corpus para garantir que apenas dados com substância empírica de interação com IA e cocriação de valor integrem os modelos analíticos finais.
+   * **Critérios de Exclusão Metodológica**:
+     1. **Exclusão de Ruído Residual / Não-IA (A6 — 51 posts)**: Elimina mensagens espúrias ou falsos positivos sem qualquer relação com agentes de IA, evitando a distorção artificial das métricas de não-interação (`I6`) e não-valor (`VC4`).
+     2. **Exclusão de Posts "Zero DART" (172 posts)**: Posts com pontuação 0 em todas as 4 dimensões (Diálogo, Acesso, Risco e Transparência) fornecem evidência empírica nula para a teoria de Prahalad & Ramaswamy (2004). A sua exclusão garante que 100% do corpus retenha pelo menos uma dimensão DART mensurável.
+     3. **Exclusão de Queixas de Bots Mecânicos / Farming Tradicional (A2 — 33 posts)**: Separação rigorosa entre a automação legada determinística (gold farming, casino bots, pixel scripts clássicos) e a emergência da inteligência artificial adaptativa moderna (2024–2026).
+   * **Volume Líquido:** Exclusão de 207 posts únicos (com sobreposição de 48 posts entre A6 e Zero-DART).
+   * **Saída:** `data/analysis/netnography_results.jsonl` (825 posts refinados) e `data/analysis/excluded_posts_log.json` (registo auditável de cada exclusão).
+
+5. **Fase 4: Controlo de Qualidade Interno Multiagente**
    * **Agente:** `QualityGuardAgent`
-   * **Ação:** Amostragem cega e probabilística de 20% (206 análises) auditada pelo modelo de raciocínio `deepseek-v4-pro`. Validação da autenticidade literal de 100% das citações, coerência taxonómica e calibração DART.
-   * **Resultado:** **Score Médio de 91,20%** (limiar crítico de $\ge 70\%$ superado amplamente; apenas 12 casos com alertas estritos de confiança).
+   * **Ação:** Amostragem cega probabilística sobre o corpus refinado (159 análises) auditada pelo modelo `deepseek-v4-pro`. Validação da autenticidade literal de 100% das citações, coerência taxonómica e calibração DART.
+   * **Resultado:** **Score Médio de 91,31%** (apenas 8 casos com alertas estritos de confiança epistémica; zero alucinações).
    * **Saída:** `data/analysis/quality_audit_results.json`.
 
-5. **Fase 5: Síntese e Entregáveis Finais**
+6. **Fase 5: Síntese e Entregáveis Finais**
    * **Agentes:** `SynthesisAgent` e `SummaryTableGenerator`
    * **Entregáveis:**
-     * `output/relatorio_netnografia.md`: Relatório académico formal de 8 secções em português de Portugal, respondendo às 5 Questões de Investigação (QI1 a QI5) fundamentadas empiricamente.
-     * `output/tabela_resumos.md`: Matriz com 1.032 registos (DART scores, Tipos IA, Interação, Valor, resumos $\le$ 50 palavras, temas $\le$ 8 palavras, links diretos e flag de revisão humana).
+     * `output/relatorio_netnografia.md`: Relatório académico formal de 8 secções em português de Portugal, fundamentando as respostas às 5 Questões de Investigação (QI1 a QI5) no corpus de 825 posts.
+     * `output/tabela_resumos.md`: Matriz com os 825 registos refinados (DART scores, Tipos IA, Interação, Valor, resumos $\le$ 50 palavras, temas $\le$ 8 palavras, links diretos e flag de revisão humana).
      * `output/lista_links.md` e `output/lista_links.txt`: Inventário canónico das 303 discussões catalogadas.
      * `output/tabela_custos.md`: Auditoria financeira de ~27.000 chamadas de API com custo consolidado de **~$21,50 USD**.
 
-6. **Fase 6: Validação Humana e Reprodutibilidade (HUMAN VALIDATION)**
-   * **Fila de Revisão Humana**: 799 posts (77,42%) priorizados para validação humana através da flag `⚠️ Sim`.
+7. **Fase 6: Validação Humana e Reprodutibilidade (HUMAN VALIDATION)**
+   * **Fila de Revisão Humana**: 708 posts (85,82% do corpus refinado) priorizados para validação humana através da flag `⚠️ Sim`.
    * **Concordância Inter-Codificadores**: Amostra de validação para teste cego e cálculo estatístico do coeficiente Kappa de Cohen ($\kappa$).
    * **Saída:** `output/relatorio_concordancia_kappa.md`.
 

@@ -155,7 +155,7 @@
     <div class="header-info">
       <span class="badge">DART-NET v3.0 | Jan 2024 – 2026</span>
       <h1>Interação Humano-IA e Cocriação de Valor em Ecossistemas de Videojogos</h1>
-      <p>Fluxograma Metodológico Multiagente (303 Tópicos Canónicos, 1.032 Posts Validados, Auditoria 91,20%)</p>
+      <p>Fluxograma Metodológico Multiagente (303 Tópicos Canónicos, 825 Posts Refinados, Auditoria 91,31%)</p>
     </div>
 
     <div class="toolbar">
@@ -234,30 +234,41 @@ flowchart TD
             CONFIDENCE["Calibração de Confiança & Flag<br/>(human_review_required = True se conf < 0,80)"]
         end
         
-        DART_CODING --> NETNO_RESULTS[("netnography_results.jsonl<br/>(1.032 análises científicas validadas sem erros)")]
+        DART_CODING --> NETNO_BRUTO[("netnography_results_1032_unpruned.jsonl<br/>(1.032 codificações validadas sem falhas sintáticas)")]
+    end
+
+    %% CAMADA 2: Refinamento Epistémico e Poda Metodológica
+    subgraph FASE_PODA ["Fase 3.5: Refinamento Epistémico e Poda Metodológica"]
+        NETNO_BRUTO --> PODA_CHECK{"Critérios Metodológicos de Poda<br/>(A6, Zero DART, Bots Mecânicos A2)?"}:::decision
+        
+        PODA_CHECK -- "Critério 1: Ruído Não-IA A6 (51 posts)" --> PODA_LOG[("excluded_posts_log.json<br/>(207 posts podados com log auditável)")]
+        PODA_CHECK -- "Critério 2: Zero DART D=A=R=T=0 (172 posts)" --> PODA_LOG
+        PODA_CHECK -- "Critério 3: Queixas Mecânicas A2 (33 posts)" --> PODA_LOG
+        
+        PODA_CHECK -- "Corpus Teórico Aprovado" --> NETNO_REFINED[("netnography_results.jsonl<br/>(825 posts refinados com DART > 0)")]
     end
 
     %% CAMADA 2: Auditoria de Qualidade Interna
     subgraph FASE4 ["Fase 4: Controlo de Qualidade Interno Multiagente"]
-        NETNO_RESULTS --> AUDIT_SAMPLE["Amostragem Aleatória de 20%<br/>(206 análises, Seed 42)"]
+        NETNO_REFINED --> AUDIT_SAMPLE["Amostragem Aleatória do Corpus Refinado<br/>(159 análises, Seed 42)"]
         AUDIT_SAMPLE --> QUALITY_GUARD["QualityGuardAgent<br/>(deepseek-v4-pro auditor independente)"]:::agent
         
         QUALITY_CHECK{"Índice de Concordância<br/>Global >= 70%?"}:::decision
         QUALITY_GUARD --> QUALITY_CHECK
         QUALITY_CHECK -- "Não" --> ABORT["Abortar Pipeline"]
-        QUALITY_CHECK -- "Aprovado: 91,20%" --> AUDIT_REPORT[("quality_audit_results.json<br/>(Score 91,20% | 100% citações literais | 12 alertas)")]
+        QUALITY_CHECK -- "Aprovado: 91,31%" --> AUDIT_REPORT[("quality_audit_results.json<br/>(Score 91,31% | 100% citações literais | 8 alertas)")]
     end
 
     %% CAMADA 2 & 3: Síntese e Entregáveis Finais
     subgraph FASE5 ["Fase 5: Síntese e Entregáveis Principais"]
-        NETNO_RESULTS --> SYNTHESIS["SynthesisAgent<br/>(deepseek-v4-pro com amostragem estratificada)"]:::agent
+        NETNO_REFINED --> SYNTHESIS["SynthesisAgent<br/>(deepseek-v4-pro com amostragem estratificada)"]:::agent
         AUDIT_REPORT --> SYNTHESIS
         
-        SYNTHESIS --> REPORT_FINAL["relatorio_netnografia.md<br/>(Relatório Académico de 8 Secções — QI1 a QI5)"]:::output
+        SYNTHESIS --> REPORT_FINAL["relatorio_netnografia.md<br/>(Relatório Académico Formal — QI1 a QI5 em 825 posts)"]:::output
         
         ANON_POSTS --> TABLE_GEN["SummaryTableGenerator<br/>(deepseek-v4-flash para resumos <= 50 palavras)"]:::agent
-        NETNO_RESULTS --> TABLE_GEN
-        TABLE_GEN --> TABLE_RESUMOS["tabela_resumos.md<br/>(1.032 posts com DART, resumos e links diretos)"]:::output
+        NETNO_REFINED --> TABLE_GEN
+        TABLE_GEN --> TABLE_RESUMOS["tabela_resumos.md<br/>(825 posts refinados com DART, resumos e links)"]:::output
         
         CORPUS --> LISTA_LINKS_MD["lista_links.md / lista_links.txt<br/>(Catálogo das 303 URLs Canónicas)"]:::output
         COST_LOG["Registo de Tokens<br/>(~27.000 chamadas API)"] --> TABELA_CUSTOS["tabela_custos.md<br/>(Auditoria de Custos: ~$21,50 USD)"]:::output
@@ -265,12 +276,12 @@ flowchart TD
 
     %% CAMADA 3: Validação Metodológica Externa
     subgraph FASE6 ["Camada 3: Validação Humana e Reprodutibilidade (HUMAN VALIDATION)"]
-        NETNO_RESULTS --> HUMAN_QUEUE["Fila de Validação Humana Prioritária<br/>(799 posts com '⚠️ Sim' em Rev. Humana)"]:::validation
+        NETNO_REFINED --> HUMAN_QUEUE["Fila de Validação Humana Prioritária<br/>(708 posts com '⚠️ Sim' em Rev. Humana)"]:::validation
         
-        NETNO_RESULTS --> KAPPA_SAMPLE["Amostragem para Revisão Humana"]:::agent
+        NETNO_REFINED --> KAPPA_SAMPLE["Amostragem para Revisão Humana"]:::agent
         KAPPA_SAMPLE --> CSV_HUMAN["amostra_codificacao_humana.csv<br/>(Amostra para teste cego)"]:::validation
         
-        HUMAN_CODING["Codificação Cega por Investigador Humano<br/>(DART-NET: A1-A6, I1-I6, VC1-VC4, DART)"]:::validation
+        HUMAN_CODING["Codificação Cega por Investigador Humano<br/>(DART-NET: A1-A5, I1-I6, VC1-VC4, DART)"]:::validation
         CSV_HUMAN --> HUMAN_CODING
         
         HUMAN_CODING --> CALC_KAPPA["calculate_kappa.py<br/>(Cálculo do Coeficiente Kappa de Cohen)"]:::agent

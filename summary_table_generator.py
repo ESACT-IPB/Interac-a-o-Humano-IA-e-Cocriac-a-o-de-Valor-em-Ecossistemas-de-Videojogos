@@ -187,6 +187,10 @@ class SummaryTableGenerator:
             except Exception as e:
                 logger.error(f"Error loading netnography results for summary table: {e}")
             
+        # Filter posts to only include those in the active netnography corpus
+        if netno_map:
+            posts = [p for p in posts if str(p.get("post_id") or p.get("id")) in netno_map]
+
         table_rows = []
         num_workers = min(config.MAX_WORKERS, len(posts)) if posts else 1
         
