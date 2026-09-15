@@ -1,110 +1,73 @@
-# Walkthrough: Poda Metodológica e Refinamento do Corpus DART-NET v3.0
+# Walkthrough: Análise Agregada ao Nível de Tópicos e Evolução DART-NET v3.6
 
-O estudo netnográfico DART-NET foi submetido a uma **fase de refinamento epistémico e poda metodológica (Fase 3.5)**, resultando na depuração de ruído e na consolidação de um corpus altamente qualificado de **825 posts** (todos circunscritos ao período **janeiro de 2024 a setembro de 2026**).
-
----
-
-## 1. Justificação e Execução da Poda Metodológica (Fase 3.5)
-
-Para elevar a validade interna do estudo e eliminar ruídos empíricos que distorciam a densidade das dimensões de cocriação de valor (Prahalad & Ramaswamy, 2004; Kozinets, 2020), foram aplicados 3 filtros de exclusão sobre o universo inicial de 1.032 posts:
-
-1. **Eliminação da Categoria A6 ("Não-IA / Ruído Residual")**:
-   - **51 posts** excluídos por não abordarem tecnologia generativa, modelos de inteligência artificial ou agentes autónomos (discussões periféricas de jogabilidade padrão).
-2. **Eliminação de Posts com "Zero DART" (D: 0, A: 0, R: 0, T: 0)**:
-   - **172 posts** excluídos por manifestarem ausência total de intercâmbio, transparência, concessão de acesso ou avaliação de risco com entidades algorítmicas (48 destes posts partilhavam sobreposição direta com A6).
-3. **Expurgo de Queixas Mecânicas Antigas / Farming Tradicional de Bots (Subconjunto de A2)**:
-   - **33 posts** excluídos por tratarem queixas genéricas sobre automação mecânica arcaica sem qualquer relevância ou menção a modelos de IA, LLMs ou ecossistemas modernos de agentes.
-
-### Rastreabilidade e Auditoria Metodológica
-- **Corpus Original Preservado**: Ficheiro integral arquivado em [`data/analysis/netnography_results_1032_unpruned.jsonl`](file:///Users/jpaulo/Documents/AntiGravity_Agents/Interação%20Humano-IA%20e%20Cocriação%20de%20Valor%20em%20Ecossistemas%20de%20Videojogos/data/analysis/netnography_results_1032_unpruned.jsonl).
-- **Log Completo de Exclusões**: 207 registos individuais com justificação catalogados em [`data/analysis/excluded_posts_log.json`](file:///Users/jpaulo/Documents/AntiGravity_Agents/Interação%20Humano-IA%20e%20Cocriação%20de%20Valor%20em%20Ecossistemas%20de%20Videojogos/data/analysis/excluded_posts_log.json).
-- **Preservação de Casos Críticos de IA e Valor**:
-  - **100% dos Agentes de IA Autónomos (A1)** preservados (**95 posts**).
-  - **100% dos Humanos Assistidos por IA / Copilotos (A4)** preservados (**59 posts**).
-  - **100% dos Episódios de Cocriação Efetiva (VC1)** preservados (**26 posts**).
-  - **100% dos Episódios de Cocriação Potencial (VC2)** preservados (**72 posts**).
+A framework metodológica DART-NET foi expandida com o desenvolvimento e execução do **`ThreadSynthesisAgent` (Fase 4.5)**, elevando a unidade analítica da escala atómica de posts individuais para a **agregação ao nível de tópicos de discussão (*threads*)**.
 
 ---
 
-## 2. Métricas do Corpus Refinado (825 Posts)
+## 1. Contexto do Corpus e Refinamento Epistémico (Fase 3.5)
 
-A depuração aumentou a densidade teórica do corpus ativo ([`data/analysis/netnography_results.jsonl`](file:///Users/jpaulo/Documents/AntiGravity_Agents/Interação%20Humano-IA%20e%20Cocriação%20de%20Valor%20em%20Ecossistemas%20de%20Videojogos/data/analysis/netnography_results.jsonl)):
+O estudo opera sobre o corpus de **825 posts validados** de alta densidade empírica (janeiro de 2024 a setembro de 2026), após a poda metodológica fundamentada em Prahalad & Ramaswamy (2004) e Kozinets (2020):
+- **Exclusão de Ruído Residual / Não-IA (A6)**: 51 posts eliminados.
+- **Exclusão de Posts "Zero DART" (D=A=R=T=0)**: 172 posts eliminados (48 em sobreposição com A6).
+- **Exclusão de Queixas de Bots Mecânicos / Farming Tradicional de A2**: 33 posts eliminados.
+- **Preservação de Casos Críticos**: 100% dos Agentes Autónomos (**A1: 95 posts**), Copilotos Humanos (**A4: 59 posts**), Cocriação Efetiva (**VC1: 26 posts**) e Potencial (**VC2: 72 posts**) preservados.
 
-### A. Distribuição por Ecossistema
-- **World of Warcraft**: **521 posts (63,2%)**
-- **EVE Online**: **304 posts (36,8%)**
+---
 
-### B. Distribuição dos Tipos de IA (A1–A5)
-| Código | Classificação | Total | Percentagem |
-| :--- | :--- | :---: | :---: |
-| **A1** | Agentes de IA Autónomos (LLMs / MCP) | 95 | 11,5% |
-| **A2** | Bots Convencionais com Relevância | 17 | 2,1% |
-| **A3** | Scripts e Automação Determinística | 17 | 2,1% |
-| **A4** | Humanos Assistidos por IA (Copilotos / Vibe-Coding) | 59 | 7,2% |
-| **A5** | Discussões e Perceções Comunitárias sobre IA | 637 | 77,2% |
-| **Total** | **Corpus Refinado Ativo** | **825** | **100,0%** |
+## 2. O Novo Agente de Síntese de Tópicos (`ThreadSynthesisAgent` — Fase 4.5)
 
-### C. Estruturas de Interação Humano-IA (I1–I6)
-| Código | Estrutura | Total | Percentagem |
-| :--- | :--- | :---: | :---: |
-| **I1** | Humano → IA (Comando / Prompting Direto) | 48 | 5,8% |
-| **I2** | IA → Humano (Recomendação / Ação Agêntica) | 7 | 0,8% |
-| **I3** | Humano ↔ IA (Cooperação Triádica e Bidirecional) | 56 | 6,8% |
-| **I4** | Humano → Humano sobre IA (Discurso Comunitário) | 641 | 77,7% |
-| **I5** | Conflito / Disputa Mediada por Agente | 6 | 0,7% |
-| **I6** | Sem Interação Significativa Remanescente | 67 | 8,1% |
+O agente [`agents/thread_synthesis_agent.py`](file:///Users/jpaulo/Documents/AntiGravity_Agents/Interação%20Humano-IA%20e%20Cocriação%20de%20Valor%20em%20Ecossistemas%20de%20Videojogos/agents/thread_synthesis_agent.py) executou a agregação sistemática do corpus refinado:
 
-### D. Cocriação e Codestruição de Valor (VC1–VC4)
-| Código | Tipologia de Valor | Total | Percentagem |
-| :--- | :--- | :---: | :---: |
-| **VC1** | Cocriação Efetiva de Valor | 26 | 3,2% |
-| **VC2** | Potencial / Intenção de Cocriação | 72 | 8,7% |
-| **VC3** | Codestruição de Valor (Assimetria / Prejuízo) | 90 | 10,9% |
-| **VC4** | Sem Evidência Direta de Impacto de Valor | 637 | 77,2% |
-| **Total** | | **825** | **100,0%** |
+### A. Dimensões e Topologia dos Tópicos
+- **Total de Tópicos Ativos Únicos**: **143 tópicos** (todos os tópicos com 0 posts pós-poda foram sumariamente excluídos).
+- **World of Warcraft (Controlado)**: **84 tópicos** (521 posts retidos | média: `6,20` posts/tópico).
+- **EVE Online (Sandbox)**: **59 tópicos** (304 posts retidos | média: `5,15` posts/tópico).
+
+### B. Estrutura Sistemática das Fichas Analíticas
+Para cada um dos 143 tópicos, o agente produziu uma ficha sistemática padronizada contendo:
+1. `ID_DO_TÓPICO` e Título Original/Canónico;
+2. `Ecossistema`: EVE Online (Sandbox) vs. World of Warcraft (Controlado);
+3. `Volume Empírico`: Razão entre posts retidos no corpus e posts originais no tópico;
+4. `Perfil Técnico Dominante`: Código de Agência Prevalente (`A1–A5`) e Padrão de Interação Principal (`I1–I5`);
+5. `Vetor DART do Tópico`: Médias dimensionais (0 a 5) de Diálogo, Acesso, Risco e Transparência;
+6. `Dinâmica de Valor`: `VC1` (Cocriação), `VC2` (Potencial), `VC3` (Codestruição) ou `VC4` (Reflexivo/Neutro);
+7. `Resumo Analítico (4–5 linhas)`: Síntese estrita das ferramentas abordadas, reações da comunidade e impacto de valor;
+8. `Evidência Paradigmática`: Citação literal mais representativa da discussão.
+
+---
+
+## 3. Síntese Comparativa Global e Resultados Transversais
+
+### A. Tabela Comparativa por Ecossistema
+| Dimensão Metodológica | EVE Online (Sandbox) | World of Warcraft (Controlado) | Total Consolidado |
+| :--- | :---: | :---: | :---: |
+| **Tópicos Ativos Analisados** | **59 tópicos** (41,3%) | **84 tópicos** (58,7%) | **143 tópicos** (100,0%) |
+| **Volume de Posts Retidos** | 304 posts (36,8%) | 521 posts (63,2%) | 825 posts (100,0%) |
+| **Média de Posts / Tópico** | `5,15` posts | `6,20` posts | `5,77` posts |
+| **Vetor DART Médio Global** | `D: 0,95 \| A: 1,48 \| R: 1,56 \| T: 1,49` | `D: 0,97 \| A: 1,17 \| R: 1,56 \| T: 1,32` | `D: 0,96 \| A: 1,29 \| R: 1,56 \| T: 1,39` |
+| **Tópicos Orientados a VC1 (Cocriação)** | `8,5%` (5 tópicos) | `16,7%` (14 tópicos) | `13,3%` (19 tópicos) |
+| **Tópicos Orientados a VC3 (Codestruição)** | `13,6%` (8 tópicos) | `26,2%` (22 tópicos) | `21,0%` (30 tópicos) |
+| **Tópicos Orientados a VC2 (Potencial)** | `13,6%` (8 tópicos) | `13,1%` (11 tópicos) | `13,3%` (19 tópicos) |
+| **Tópicos Orientados a VC4 (Reflexivos)** | `64,4%` (38 tópicos) | `44,0%` (37 tópicos) | `52,4%` (75 tópicos) |
 
 > [!NOTE]
-> A proporção de discussões que relatam impacto ativo e palpável de valor (VC1 + VC2 + VC3) subiu de **11,4% para 22,8%** (188 posts) após a remoção de posts neutros e ruídos de bots mecânicos.
+> Em **EVE Online**, os índices de **Acesso (`1,48`)** e **Transparência (`1,49`)** superam os de **WoW (`A: 1,17`, `T: 1,32`)**, refletindo a cultura de telemetria aberta via ESI e protocolos agênticos (MCP). Por sua vez, em **World of Warcraft**, a polarização entre cocriação de copilotos (VC1: 16,7%) e contestação a banimentos e suporte automatizado (VC3: 26,2%) é mais acentuada.
 
-### E. Médias das Dimensões DART (Escala 0 a 5)
-Com a eliminação dos casos "Zero DART", todas as dimensões passaram a apresentar médias superiores a 1,0:
-- **Diálogo (D)**: **1,09 / 5** (anteriormente 0,88)
-- **Acesso (A)**: **1,20 / 5** (anteriormente 0,98)
-- **Risco (R)**: **1,61 / 5** (anteriormente 1,38 — dimensão dominante no ecossistema de videojogos)
-- **Transparência (T)**: **1,34 / 5** (anteriormente 1,09)
-
----
-
-## 3. Controlo de Qualidade e Auditoria Científica (QualityGuard)
-
-- **Amostra Auditada**: **159 posts** (~19,3% do corpus refinado), persistida em [`data/analysis/quality_audit_results.json`](file:///Users/jpaulo/Documents/AntiGravity_Agents/Interação%20Humano-IA%20e%20Cocriação%20de%20Valor%20em%20Ecossistemas%20de%20Videojogos/data/analysis/quality_audit_results.json).
-- **Score Médio de Consistência Global**: **`91,31%`** (taxa excelente, muito acima do limiar de 70,0%).
-- **Taxas por Critério**:
-  - Veracidade da Evidência Literal: **100,0%** (0 alucinações de citações).
-  - Consistência de Interação e Valor: **99,4%**.
-  - Rigor na Tipologia de IA: **95,6%**.
-  - Calibração DART: **95,6%**.
-- **Casos com Alerta Identificados**: Apenas **8 análises** assinaladas para revisão contextual (preservadas na íntegra no relatório para inspeção).
-- **Fila de Revisão Humana Prioritária**: **708 posts (85,8%)** com a etiqueta `⚠️ Sim`, garantindo total conformidade com o princípio de supervisão humana no desenho metodológico.
+### B. Clusters Tipológicos Emergentes
+1. **Cluster 1: Ferramentas Externas, APIs e MCP** (31 tópicos | 21,7%) — Acesso elevado (`1,8`) e forte diálogo com LLMs (ESI, Pyfa, Model Context Protocol).
+2. **Cluster 2: Fair Play, Deteção Algorítmica e PvP** (29 tópicos | 20,3%) — Risco hegemónico (`1,5`) e preocupação com integridade competitiva.
+3. **Cluster 3: Suporte ao Cliente e Moderação Automatizada** (26 tópicos | 18,2%) — Risco elevado (`2,1`), baixa transparência e frequente codestruição de valor (VC3).
+4. **Cluster 4: Agentes Oficiais In-Game (Follower Dungeons e Delves)** (20 tópicos | 14,0%) — Interação direta com NPCs inteligentes e impacto na sociabilidade.
+5. **Cluster 5: Copilotos de Desenvolvimento e Vibe-Coding** (37 tópicos | 25,9%) — Predomínio de humanos assistidos por IA (`A4`), cooperação triádica (`I3`) e cocriação (`VC1`).
 
 ---
 
-## 4. Entregáveis e Documentos Atualizados no Repositório
+## 4. Entregáveis Produzidos e Validados
 
-Todos os relatórios e artefactos foram integralmente sincronizados e alinhados:
-
-1. [`output/relatorio_netnografia.md`](file:///Users/jpaulo/Documents/AntiGravity_Agents/Interação%20Humano-IA%20e%20Cocriação%20de%20Valor%20em%20Ecossistemas%20de%20Videojogos/output/relatorio_netnografia.md):
-   - Secção 1.5 dedicada ao enquadramento epistémico da exclusão das 3 categorias.
-   - Recálculo de todas as tabelas das Secções 2 a 8 para os 825 posts.
-2. [`output/fluxograma_implementacao.md`](file:///Users/jpaulo/Documents/AntiGravity_Agents/Interação%20Humano-IA%20e%20Cocriação%20de%20Valor%20em%20Ecossistemas%20de%20Videojogos/output/fluxograma_implementacao.md):
-   - Diagrama Mermaid e documentação narrativa integrando a *Fase 3.5 (Poda Metodológica)*.
-3. [`output/visualizar_fluxograma.html`](file:///Users/jpaulo/Documents/AntiGravity_Agents/Interação%20Humano-IA%20e%20Cocriação%20de%20Valor%20em%20Ecossistemas%20de%20Videojogos/output/visualizar_fluxograma.html):
-   - Visualizador gráfico interativo renderizando o novo fluxo e métricas consolidadas.
-4. [`output/tabela_resumos.md`](file:///Users/jpaulo/Documents/AntiGravity_Agents/Interação%20Humano-IA%20e%20Cocriação%20de%20Valor%20em%20Ecossistemas%20de%20Videojogos/output/tabela_resumos.md):
-   - Tabela de dados compilando os 825 posts com tema (máx. 8 palavras), resumo (máx. 50 palavras), codificações e links diretos.
-5. [`output/leitura_netnography_results.md`](file:///Users/jpaulo/Documents/AntiGravity_Agents/Interação%20Humano-IA%20e%20Cocriação%20de%20Valor%20em%20Ecossistemas%20de%20Videojogos/output/leitura_netnography_results.md):
-   - Relatório estruturado de leitura humana com as 825 análises qualitativas.
-6. [`output/leitura_quality_audit_results.md`](file:///Users/jpaulo/Documents/AntiGravity_Agents/Interação%20Humano-IA%20e%20Cocriação%20de%20Valor%20em%20Ecossistemas%20de%20Videojogos/output/leitura_quality_audit_results.md):
-   - Relatório legível com as 159 auditorias detalhadas do `QualityGuardAgent`.
-7. [`data/analysis/excluded_posts_log.json`](file:///Users/jpaulo/Documents/AntiGravity_Agents/Interação%20Humano-IA%20e%20Cocriação%20de%20Valor%20em%20Ecossistemas%20de%20Videojogos/data/analysis/excluded_posts_log.json):
-   - Registo detalhado e rastreável dos 207 posts excluídos com os respetivos motivos.
+| Ficheiro de Saída | Conteúdo / Descrição | Estado |
+| :--- | :--- | :---: |
+| [`agents/thread_synthesis_agent.py`](file:///Users/jpaulo/Documents/AntiGravity_Agents/Interação%20Humano-IA%20e%20Cocriação%20de%20Valor%20em%20Ecossistemas%20de%20Videojogos/agents/thread_synthesis_agent.py) | Módulo Python permanente do agente de síntese e agregação ao nível de tópicos. | ✅ Concluído |
+| [`output/analise_agregada_topicos.md`](file:///Users/jpaulo/Documents/AntiGravity_Agents/Interação%20Humano-IA%20e%20Cocriação%20de%20Valor%20em%20Ecossistemas%20de%20Videojogos/output/analise_agregada_topicos.md) | Relatório exaustivo com as **143 fichas sistemáticas** padronizadas e a macro-síntese transversal. | ✅ Concluído |
+| [`data/analysis/thread_level_results.json`](file:///Users/jpaulo/Documents/AntiGravity_Agents/Interação%20Humano-IA%20e%20Cocriação%20de%20Valor%20em%20Ecossistemas%20de%20Videojogos/data/analysis/thread_level_results.json) | Dataset JSON estruturado com métricas agregadas dos 143 tópicos ativos para análise quantitativa. | ✅ Concluído |
+| [`output/fluxograma_implementacao.md`](file:///Users/jpaulo/Documents/AntiGravity_Agents/Interação%20Humano-IA%20e%20Cocriação%20de%20Valor%20em%20Ecossistemas%20de%20Videojogos/output/fluxograma_implementacao.md) | Fluxograma atualizado integrando a Fase 4.5 e o novo nó do `ThreadSynthesisAgent`. | ✅ Concluído |
+| [`output/visualizar_fluxograma.html`](file:///Users/jpaulo/Documents/AntiGravity_Agents/Interação%20Humano-IA%20e%20Cocriação%20de%20Valor%20em%20Ecossistemas%20de%20Videojogos/output/visualizar_fluxograma.html) | Aplicação web interativa atualizada com a nova fase e insígnia DART-NET v3.6. | ✅ Concluído |

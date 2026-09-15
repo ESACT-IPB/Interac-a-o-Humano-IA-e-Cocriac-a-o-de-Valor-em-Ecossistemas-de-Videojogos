@@ -153,9 +153,9 @@
 
   <div class="header">
     <div class="header-info">
-      <span class="badge">DART-NET v3.0 | Jan 2024 – 2026</span>
+      <span class="badge">DART-NET v3.6 | Jan 2024 – 2026</span>
       <h1>Interação Humano-IA e Cocriação de Valor em Ecossistemas de Videojogos</h1>
-      <p>Fluxograma Metodológico Multiagente (303 Tópicos Canónicos, 825 Posts Refinados, Auditoria 91,31%)</p>
+      <p>Fluxograma Metodológico Multiagente (303 Tópicos Canónicos, 825 Posts Refinados, 143 Tópicos Analisados, Auditoria 91,31%)</p>
     </div>
 
     <div class="toolbar">
@@ -163,37 +163,32 @@
       <span class="scale-indicator" id="scaleDisplay">65%</span>
       <button class="btn" onclick="zoom(0.1)" title="Aumentar Zoom">Zoom +</button>
       <button class="btn" onclick="fitScreen()" title="Ajustar ao ecrã">Ajustar</button>
-      <button class="btn" onclick="resetZoom()" title="Tamanho Real (100%)">100%</button>
-      <button class="btn btn-primary" onclick="window.print()" title="Imprimir ou exportar para PDF">PDF</button>
+      <button class="btn btn-primary" onclick="resetZoom()" title="Repor Zoom Original">Repor</button>
     </div>
   </div>
 
   <div class="viewport" id="viewport">
     <div class="canvas" id="canvas">
-      <pre class="mermaid">
-flowchart TD
-    %% Estilos Globais
-    classDef source fill:#e1f5fe,stroke:#0288d1,stroke-width:2px;
-    classDef agent fill:#ede7f6,stroke:#512da8,stroke-width:2px;
-    classDef decision fill:#fff9c4,stroke:#fbc02d,stroke-width:2px;
-    classDef output fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
-    classDef validation fill:#fce4ec,stroke:#c2185b,stroke-width:2px;
+      <div class="mermaid" id="mermaidDiagram">
+graph TD
+    %% ESTILOS VISUAIS MODERNOS
+    classDef default fill:#f8fafc,stroke:#94a3b8,stroke-width:1px,color:#1e293b,font-family:ui-sans-serif,system-ui;
+    classDef agent fill:#eff6ff,stroke:#3b82f6,stroke-width:2px,color:#1e3a8a,font-weight:600;
+    classDef decision fill:#fffbeb,stroke:#f59e0b,stroke-width:2px,color:#92400e,font-weight:600;
+    classDef output fill:#f0fdf4,stroke:#22c55e,stroke-width:2px,color:#166534,font-weight:600;
+    classDef validation fill:#faf5ff,stroke:#a855f7,stroke-width:2px,color:#6b21a8,font-weight:600;
 
-    %% CAMADA 1: Ingestão de Dados Brutos
-    subgraph FASE1 ["Camada 1: Ingestão de Dados Brutos (RAW DATA) — Jan 2024 a 2026"]
-        CORPUS["Corpus Canónico de 303 Tópicos Únicos<br/>(A1-A5 curados + Query Booleana IA/LLM/MCP)"]:::source
+    %% CAMADA 1: Ingestão de Dados
+    subgraph FASE1 ["Camada 1: Ingestão Canónica e Filtro Temporal (RAW DATA)"]
+        CORPUS[("data/target_corpus_303.json<br/>(303 Tópicos Canónicos 2024+)")]
+        SCRAPER["ScraperAgent<br/>(Filtro Temporal: created_at >= 2024-01-01)"]:::agent
         
-        RAW_WOW["Fóruns Blizzard WoW<br/>(87 tópicos Discourse JSON)"]:::source
-        RAW_EVE["Fóruns CCP EVE Online<br/>(62 tópicos Discourse JSON)"]:::source
-        RAW_REDDIT["Reddit r/wow & r/Eve<br/>(125 tópicos Arctic Shift API)"]:::source
-        RAW_STEAM["Steam Community<br/>(11 tópicos 2026)"]:::source
+        RAW_WOW[("Fórum Oficial WoW<br/>(87 tópicos)")]
+        RAW_EVE[("Fórum Oficial EVE<br/>(62 tópicos)")]
+        RAW_REDDIT[("Reddit 2024+<br/>(125 tópicos Arctic Shift)")]
+        RAW_STEAM[("Steam Community<br/>(11 tópicos)")]
         
-        CORPUS --> RAW_WOW
-        CORPUS --> RAW_EVE
-        CORPUS --> RAW_REDDIT
-        CORPUS --> RAW_STEAM
-        
-        SCRAPER["ScraperAgent<br/>(Filtro Temporal Estrito: created_at >= 2024-01-01<br/>Comprimento mínimo >= 50 carateres)"]:::agent
+        CORPUS --> SCRAPER
         RAW_WOW --> SCRAPER
         RAW_EVE --> SCRAPER
         RAW_REDDIT --> SCRAPER
@@ -257,6 +252,13 @@ flowchart TD
         QUALITY_GUARD --> QUALITY_CHECK
         QUALITY_CHECK -- "Não" --> ABORT["Abortar Pipeline"]
         QUALITY_CHECK -- "Aprovado: 91,31%" --> AUDIT_REPORT[("quality_audit_results.json<br/>(Score 91,31% | 100% citações literais | 8 alertas)")]
+    end
+
+    %% CAMADA 2: Síntese e Agregação ao Nível de Tópicos
+    subgraph FASE_THREADS ["Fase 4.5: Síntese e Agregação ao Nível de Tópicos (Threads)"]
+        NETNO_REFINED --> THREAD_AGENT["ThreadSynthesisAgent<br/>(Agregação de 825 posts em 143 tópicos ativos)"]:::agent
+        THREAD_AGENT --> THREAD_JSON[("thread_level_results.json<br/>(Dataset Estruturado de 143 Tópicos)")]
+        THREAD_AGENT --> THREAD_MD["analise_agregada_topicos.md<br/>(143 Fichas DART + Macro-Síntese EVE vs WoW)"]:::output
     end
 
     %% CAMADA 2 & 3: Síntese e Entregáveis Finais

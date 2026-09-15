@@ -1,0 +1,4122 @@
+[
+  {
+    "thread_id": "1jukb0x",
+    "title": "Psa For The New Bros Dont Ask Chatgpt About Eve",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 58,
+    "posts_originais": 97,
+    "avg_d": 1.4,
+    "avg_a": 1.3,
+    "avg_r": 1.3,
+    "avg_t": 1.0,
+    "prev_ai": "A5",
+    "prev_inter": "I3",
+    "val_dyn": "VC1 (Cocriação)",
+    "val_code": "VC1",
+    "ai_counts": {
+      "A5": 47,
+      "A1": 9,
+      "A4": 2
+    },
+    "inter_counts": {
+      "I4": 47,
+      "I3": 6,
+      "I1": 5
+    },
+    "vc_counts": {
+      "VC4": 51,
+      "VC3": 2,
+      "VC1": 3,
+      "VC2": 2
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ChatGPT, Copiloto de IA, EVE Swagger Interface (ESI) em EVE Online. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Observa-se cocriação efetiva de valor (VC1), traduzida na criação de novas capacidades informacionais, redução de barreiras de aprendizagem e partilha colaborativa de código e ferramentas.",
+    "evidence": "I asked gpt what it wanted to say about this post here it is. ... If someone points out I gave garbage, I can course-correct mid-convo."
+  },
+  {
+    "thread_id": "510327",
+    "title": "EVE Crews: A lore-accurate* API-linked crew simulator",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 38,
+    "posts_originais": 183,
+    "avg_d": 2.9,
+    "avg_a": 2.4,
+    "avg_r": 1.2,
+    "avg_t": 2.3,
+    "prev_ai": "A1",
+    "prev_inter": "I3",
+    "val_dyn": "VC1 (Cocriação)",
+    "val_code": "VC1",
+    "ai_counts": {
+      "A1": 21,
+      "A5": 12,
+      "A4": 2,
+      "A3": 2,
+      "A2": 1
+    },
+    "inter_counts": {
+      "I4": 16,
+      "I3": 19,
+      "I6": 2,
+      "I1": 1
+    },
+    "vc_counts": {
+      "VC2": 12,
+      "VC1": 4,
+      "VC3": 5,
+      "VC4": 17
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (Claude, EVE Swagger Interface (ESI), EVE Crews (Motor Heurístico)) no ecossistema de EVE Online. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Observa-se cocriação efetiva de valor (VC1), traduzida na criação de novas capacidades informacionais, redução de barreiras de aprendizagem e partilha colaborativa de código e ferramentas.",
+    "evidence": "The crew numbers in EVE Crews are derived from a blend of official CCP lore, historical game data, and community research. The specific sources used to determine these headcounts include:"
+  },
+  {
+    "thread_id": "508618",
+    "title": "Recorded a bot in high sec - but why even bother?",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 24,
+    "posts_originais": 85,
+    "avg_d": 1.4,
+    "avg_a": 0.5,
+    "avg_r": 2.2,
+    "avg_t": 1.5,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC3 (Codestruição)",
+    "val_code": "VC3",
+    "ai_counts": {
+      "A3": 3,
+      "A5": 21
+    },
+    "inter_counts": {
+      "I4": 24
+    },
+    "vc_counts": {
+      "VC3": 2,
+      "VC4": 22
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ferramentas algorítmicas e modelos de IA em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Evidencia-se fricção crítica e codestruição de valor (VC3), motivada pela degradação da confiança nas interações sociais, perceção de injustiça competitiva ou opacidade na moderação automatizada.",
+    "evidence": "Why is he compromising his acc for this? ... most commonly RMT ... IP bans does little - VPNs exist and IPs can be changed."
+  },
+  {
+    "thread_id": "506798",
+    "title": "Aura Guidance (Beta) Feedback Thread",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 13,
+    "posts_originais": 47,
+    "avg_d": 0.9,
+    "avg_a": 1.3,
+    "avg_r": 1.9,
+    "avg_t": 1.6,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC2 (Potencial)",
+    "val_code": "VC2",
+    "ai_counts": {
+      "A5": 13
+    },
+    "inter_counts": {
+      "I4": 13
+    },
+    "vc_counts": {
+      "VC4": 8,
+      "VC3": 2,
+      "VC2": 3
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de Aura AI (Assistente Oficial EVE) em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Identifica-se potencial tangível de cocriação (VC2), com os participantes a delinearem arquiteturas conceptuais e propostas de integração entre agentes de IA e os sistemas do jogo.",
+    "evidence": "Can we get a statement on how in the opinion of CCP this part of the EULA... covers textual information provided by users in an in-game chat channel in order to feed a LLM?"
+  },
+  {
+    "thread_id": "1ph9o3i",
+    "title": "Should You Use Ai In Eve Online",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 11,
+    "posts_originais": 24,
+    "avg_d": 1.5,
+    "avg_a": 2.0,
+    "avg_r": 1.6,
+    "avg_t": 0.6,
+    "prev_ai": "A4",
+    "prev_inter": "I3",
+    "val_dyn": "VC1 (Cocriação)",
+    "val_code": "VC1",
+    "ai_counts": {
+      "A5": 5,
+      "A1": 2,
+      "A4": 4
+    },
+    "inter_counts": {
+      "I4": 6,
+      "I2": 1,
+      "I3": 2,
+      "I1": 2
+    },
+    "vc_counts": {
+      "VC4": 7,
+      "VC3": 2,
+      "VC1": 1,
+      "VC2": 1
+    },
+    "summary": "A discussão analisa o desenvolvimento e utilização de copilotos assistivos (ChatGPT, Copiloto de IA) por jogadores de EVE Online. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Observa-se cocriação efetiva de valor (VC1), traduzida na criação de novas capacidades informacionais, redução de barreiras de aprendizagem e partilha colaborativa de código e ferramentas.",
+    "evidence": "You can also have it parse specific data from dotlan, for example finding systems within jump range of several POIs."
+  },
+  {
+    "thread_id": "1tdxixs",
+    "title": "So Can Anyone Tell Me What Did Hilmar And",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 10,
+    "posts_originais": 58,
+    "avg_d": 0.5,
+    "avg_a": 0.5,
+    "avg_r": 1.2,
+    "avg_t": 1.4,
+    "prev_ai": "A5",
+    "prev_inter": "I1",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 9,
+      "A1": 1
+    },
+    "inter_counts": {
+      "I4": 7,
+      "I6": 2,
+      "I1": 1
+    },
+    "vc_counts": {
+      "VC4": 10
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ferramentas algorítmicas e modelos de IA em EVE Online. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "\"Gemini, look at the code and prioritize and propose fixes.\" ... Gemini: - \"Start from scratch.\""
+  },
+  {
+    "thread_id": "507123",
+    "title": "EVE ONE - Your all in one management portal",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 9,
+    "posts_originais": 31,
+    "avg_d": 1.7,
+    "avg_a": 3.7,
+    "avg_r": 1.3,
+    "avg_t": 2.3,
+    "prev_ai": "A1",
+    "prev_inter": "I3",
+    "val_dyn": "VC2 (Potencial)",
+    "val_code": "VC2",
+    "ai_counts": {
+      "A1": 8,
+      "A5": 1
+    },
+    "inter_counts": {
+      "I4": 7,
+      "I3": 1,
+      "I6": 1
+    },
+    "vc_counts": {
+      "VC2": 4,
+      "VC4": 5
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (Aura AI (Assistente Oficial EVE)) no ecossistema de EVE Online. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Identifica-se potencial tangível de cocriação (VC2), com os participantes a delinearem arquiteturas conceptuais e propostas de integração entre agentes de IA e os sistemas do jogo.",
+    "evidence": "let me be clear on what access our app has in memory... None of the data are stored on the server... the only data that is temporarily stored are the chats you had with “Aura” and “Bob”"
+  },
+  {
+    "thread_id": "509113",
+    "title": "Adapt the forum rules to ban AI usage",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 8,
+    "posts_originais": 32,
+    "avg_d": 1.0,
+    "avg_a": 0.2,
+    "avg_r": 3.1,
+    "avg_t": 2.2,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 8
+    },
+    "inter_counts": {
+      "I4": 8
+    },
+    "vc_counts": {
+      "VC4": 8
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ferramentas algorítmicas e modelos de IA em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "There are many services online that can automatically detect AI slop, and plugins for forums to make use of them. Perhaps add something that if a post registers as more than 25% LLM-written, it cannot be posted"
+  },
+  {
+    "thread_id": "492935",
+    "title": "Urgent Request: AI-Powered Italian Localization for EVE Online to Welcome Thousands of Players",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 7,
+    "posts_originais": 25,
+    "avg_d": 1.6,
+    "avg_a": 2.4,
+    "avg_r": 2.1,
+    "avg_t": 1.6,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC3 (Codestruição)",
+    "val_code": "VC3",
+    "ai_counts": {
+      "A5": 7
+    },
+    "inter_counts": {
+      "I4": 7
+    },
+    "vc_counts": {
+      "VC4": 1,
+      "VC2": 2,
+      "VC3": 4
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ferramentas algorítmicas e modelos de IA em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Evidencia-se fricção crítica e codestruição de valor (VC3), motivada pela degradação da confiança nas interações sociais, perceção de injustiça competitiva ou opacidade na moderação automatizada.",
+    "evidence": "It is not about replacing English, but about expanding access and participation, allowing more people to enjoy the experience without unnecessary language barriers."
+  },
+  {
+    "thread_id": "516630",
+    "title": "MODS PLEASE LOCK - Jim’s ruined another one 👍",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 7,
+    "posts_originais": 568,
+    "avg_d": 0.7,
+    "avg_a": 0.3,
+    "avg_r": 1.6,
+    "avg_t": 0.9,
+    "prev_ai": "A2",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 5,
+      "A2": 2
+    },
+    "inter_counts": {
+      "I6": 3,
+      "I4": 4
+    },
+    "vc_counts": {
+      "VC4": 7
+    },
+    "summary": "O debate aborda a interseção entre automação técnica (ferramentas algorítmicas e modelos de IA) e a emergência de comportamentos agênticos em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "The AI ganker would have sec status the same as any human ganker has for ganking in High Sec. The more ships ganked by AI means an eventual free for all on the AI ganker."
+  },
+  {
+    "thread_id": "1t01k13",
+    "title": "Some Concerns About Eve Onlines New Owners",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 6,
+    "posts_originais": 58,
+    "avg_d": 0.3,
+    "avg_a": 0.7,
+    "avg_r": 1.8,
+    "avg_t": 0.2,
+    "prev_ai": "A2",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 3,
+      "A2": 3
+    },
+    "inter_counts": {
+      "I4": 3,
+      "I6": 3
+    },
+    "vc_counts": {
+      "VC4": 6
+    },
+    "summary": "O debate aborda a interseção entre automação técnica (Claude, Copiloto de IA, Sistemas Automatizados de Moderação/Tickets) e a emergência de comportamentos agênticos em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "AI is coming for our Eve-Jobs!"
+  },
+  {
+    "thread_id": "495219",
+    "title": "WTB discord bot that pings me when a contract is accepted",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 6,
+    "posts_originais": 9,
+    "avg_d": 0.8,
+    "avg_a": 1.7,
+    "avg_r": 0.3,
+    "avg_t": 0.8,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 5,
+      "A2": 1
+    },
+    "inter_counts": {
+      "I4": 5,
+      "I6": 1
+    },
+    "vc_counts": {
+      "VC4": 6
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de EVE Swagger Interface (ESI) em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "I checked ESI docs and it looks like contract data gets cached every 5 minutes"
+  },
+  {
+    "thread_id": "1twaq1l",
+    "title": "Reve Succumbs To Ai Bot",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 5,
+    "posts_originais": 31,
+    "avg_d": 0.6,
+    "avg_a": 0.2,
+    "avg_r": 1.2,
+    "avg_t": 1.8,
+    "prev_ai": "A4",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 4,
+      "A4": 1
+    },
+    "inter_counts": {
+      "I4": 5
+    },
+    "vc_counts": {
+      "VC4": 5
+    },
+    "summary": "A discussão analisa o desenvolvimento e utilização de copilotos assistivos (ferramentas algorítmicas e modelos de IA) por jogadores de EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "He's also explaining mechanics in ways that eve players don't really use. Explaining tech 3 cruiser instead of just saying proteus, calling them t1 drones, etc."
+  },
+  {
+    "thread_id": "505326",
+    "title": "AI and Eve Online",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 5,
+    "posts_originais": 8,
+    "avg_d": 2.0,
+    "avg_a": 2.6,
+    "avg_r": 1.0,
+    "avg_t": 1.0,
+    "prev_ai": "A1",
+    "prev_inter": "I3",
+    "val_dyn": "VC1 (Cocriação)",
+    "val_code": "VC1",
+    "ai_counts": {
+      "A5": 1,
+      "A4": 3,
+      "A1": 1
+    },
+    "inter_counts": {
+      "I6": 1,
+      "I1": 2,
+      "I3": 2
+    },
+    "vc_counts": {
+      "VC4": 2,
+      "VC3": 1,
+      "VC1": 1,
+      "VC2": 1
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (ChatGPT) no ecossistema de EVE Online. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Observa-se cocriação efetiva de valor (VC1), traduzida na criação de novas capacidades informacionais, redução de barreiras de aprendizagem e partilha colaborativa de código e ferramentas.",
+    "evidence": "Don’t even have to visit a third-party website. It also tells me which systems to avoid and which ones have the most asteroid belts. It already gave me half a dozen fits for ships and I bought my Skillbooks based on that."
+  },
+  {
+    "thread_id": "589559717132766752",
+    "title": "What is CCP's stance On People Using AI to bot &amp; &quot;Cheat&quot;?",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 5,
+    "posts_originais": 6,
+    "avg_d": 0.8,
+    "avg_a": 1.8,
+    "avg_r": 3.4,
+    "avg_t": 2.0,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC3 (Codestruição)",
+    "val_code": "VC3",
+    "ai_counts": {
+      "A5": 5
+    },
+    "inter_counts": {
+      "I4": 5
+    },
+    "vc_counts": {
+      "VC4": 4,
+      "VC3": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ferramentas algorítmicas e modelos de IA em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Evidencia-se fricção crítica e codestruição de valor (VC3), motivada pela degradação da confiança nas interações sociais, perceção de injustiça competitiva ou opacidade na moderação automatizada.",
+    "evidence": "cheating tools are forbidden in general ... injectors are in-game cheat tools which automatically work and handle for you just as BOTs act and react and are quickly detected and banned"
+  },
+  {
+    "thread_id": "1kh1a1v",
+    "title": "Has Anyone Llm Trained With Eve Data",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 4,
+    "posts_originais": 13,
+    "avg_d": 0.5,
+    "avg_a": 1.8,
+    "avg_r": 0.0,
+    "avg_t": 0.2,
+    "prev_ai": "A1",
+    "prev_inter": "I1",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A1": 1,
+      "A5": 3
+    },
+    "inter_counts": {
+      "I1": 1,
+      "I4": 2,
+      "I6": 1
+    },
+    "vc_counts": {
+      "VC4": 4
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (ferramentas algorítmicas e modelos de IA) no ecossistema de EVE Online. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "I trained an LLM on zkillboard data to generate ship fittings"
+  },
+  {
+    "thread_id": "472014",
+    "title": "Aura AI",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 4,
+    "posts_originais": 12,
+    "avg_d": 1.2,
+    "avg_a": 1.2,
+    "avg_r": 0.5,
+    "avg_t": 0.8,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 4
+    },
+    "inter_counts": {
+      "I4": 4
+    },
+    "vc_counts": {
+      "VC4": 4
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de Aura AI (Assistente Oficial EVE) em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "I think it’s because the game is being changed so often that keeping such an AI up to date would be a pain in the butt for the devs."
+  },
+  {
+    "thread_id": "496432",
+    "title": "Best EVE Players",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 4,
+    "posts_originais": 78,
+    "avg_d": 1.2,
+    "avg_a": 1.8,
+    "avg_r": 1.0,
+    "avg_t": 1.5,
+    "prev_ai": "A4",
+    "prev_inter": "I2",
+    "val_dyn": "VC2 (Potencial)",
+    "val_code": "VC2",
+    "ai_counts": {
+      "A5": 3,
+      "A4": 1
+    },
+    "inter_counts": {
+      "I4": 3,
+      "I2": 1
+    },
+    "vc_counts": {
+      "VC4": 2,
+      "VC3": 1,
+      "VC2": 1
+    },
+    "summary": "A discussão analisa o desenvolvimento e utilização de copilotos assistivos (ChatGPT) por jogadores de EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Identifica-se potencial tangível de cocriação (VC2), com os participantes a delinearem arquiteturas conceptuais e propostas de integração entre agentes de IA e os sistemas do jogo.",
+    "evidence": "ChatGPT is hallucinating this time due to lack of available data to train from. It isn’t taking the older era players of EVE into consideration."
+  },
+  {
+    "thread_id": "503747",
+    "title": "AI and the effect on Economy/Society",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 4,
+    "posts_originais": 363,
+    "avg_d": 1.5,
+    "avg_a": 1.5,
+    "avg_r": 3.0,
+    "avg_t": 2.0,
+    "prev_ai": "A4",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 3,
+      "A4": 1
+    },
+    "inter_counts": {
+      "I6": 1,
+      "I4": 3
+    },
+    "vc_counts": {
+      "VC4": 4
+    },
+    "summary": "A discussão analisa o desenvolvimento e utilização de copilotos assistivos (Modelos de Machine Learning) por jogadores de EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "we would be looking at job loss, and a possible lack of energy and water as big companies start to pander to the mass amounts of money AI can generate"
+  },
+  {
+    "thread_id": "512367",
+    "title": "Feature idea: Ask Aura — AI as a bounded lore/context interpreter, not a content generator",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 4,
+    "posts_originais": 16,
+    "avg_d": 1.0,
+    "avg_a": 2.0,
+    "avg_r": 2.5,
+    "avg_t": 2.2,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC3 (Codestruição)",
+    "val_code": "VC3",
+    "ai_counts": {
+      "A5": 4
+    },
+    "inter_counts": {
+      "I4": 4
+    },
+    "vc_counts": {
+      "VC4": 3,
+      "VC3": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de Aura AI (Assistente Oficial EVE) em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Evidencia-se fricção crítica e codestruição de valor (VC3), motivada pela degradação da confiança nas interações sociais, perceção de injustiça competitiva ou opacidade na moderação automatizada.",
+    "evidence": "AI hallucinates the living [expletive] out of even the most approved sources. This AI would also remove player interaction by killing the need to research, discover and consume content"
+  },
+  {
+    "thread_id": "833872096657547947",
+    "title": "CCP's Rebrand to Fenris Creations, Partnership with Google's DeepMind, &amp; Ethics",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 4,
+    "posts_originais": 12,
+    "avg_d": 0.2,
+    "avg_a": 0.8,
+    "avg_r": 3.0,
+    "avg_t": 2.2,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC3 (Codestruição)",
+    "val_code": "VC3",
+    "ai_counts": {
+      "A5": 4
+    },
+    "inter_counts": {
+      "I4": 4
+    },
+    "vc_counts": {
+      "VC4": 2,
+      "VC3": 2
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de EVE Swagger Interface (ESI) em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Evidencia-se fricção crítica e codestruição de valor (VC3), motivada pela degradação da confiança nas interações sociais, perceção de injustiça competitiva ou opacidade na moderação automatizada.",
+    "evidence": "gathering all sort of user data and telemetry for profit, while also being root kit & trojan"
+  },
+  {
+    "thread_id": "1rmfr5h",
+    "title": "Ccplease Stop Vibecoding Ffs",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 3,
+    "posts_originais": 72,
+    "avg_d": 0.7,
+    "avg_a": 0.0,
+    "avg_r": 1.3,
+    "avg_t": 0.7,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 3
+    },
+    "inter_counts": {
+      "I6": 1,
+      "I4": 2
+    },
+    "vc_counts": {
+      "VC4": 3
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ferramentas algorítmicas e modelos de IA em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "they need to actually write code , not ai code everything"
+  },
+  {
+    "thread_id": "1t3g4bt",
+    "title": "True Unprobeable Ships Are Gone But How Difficult",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 3,
+    "posts_originais": 48,
+    "avg_d": 3.0,
+    "avg_a": 1.7,
+    "avg_r": 1.7,
+    "avg_t": 1.3,
+    "prev_ai": "A1",
+    "prev_inter": "I1",
+    "val_dyn": "VC2 (Potencial)",
+    "val_code": "VC2",
+    "ai_counts": {
+      "A4": 1,
+      "A5": 1,
+      "A1": 1
+    },
+    "inter_counts": {
+      "I1": 2,
+      "I4": 1
+    },
+    "vc_counts": {
+      "VC2": 1,
+      "VC4": 1,
+      "VC3": 1
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (EVE Swagger Interface (ESI)) no ecossistema de EVE Online. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Identifica-se potencial tangível de cocriação (VC2), com os participantes a delinearem arquiteturas conceptuais e propostas de integração entre agentes de IA e os sistemas do jogo.",
+    "evidence": "asking GPT to layout all the effective benefits... Then you tell it the ship type you want to fly... asking it to make an optimised plan."
+  },
+  {
+    "thread_id": "1tyovbz",
+    "title": "Evekillcom Fits Battles And Touching Grass",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 3,
+    "posts_originais": 27,
+    "avg_d": 0.3,
+    "avg_a": 0.7,
+    "avg_r": 1.3,
+    "avg_t": 1.7,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 3
+    },
+    "inter_counts": {
+      "I6": 1,
+      "I4": 2
+    },
+    "vc_counts": {
+      "VC4": 3
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ferramentas algorítmicas e modelos de IA em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "At least you're open about it. Ignore the haters, you're never going to win them over because reeee AI."
+  },
+  {
+    "thread_id": "474041",
+    "title": "Bots / maybe machine learning training in Malukker",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 3,
+    "posts_originais": 9,
+    "avg_d": 0.7,
+    "avg_a": 0.7,
+    "avg_r": 2.7,
+    "avg_t": 1.7,
+    "prev_ai": "A2",
+    "prev_inter": "I5",
+    "val_dyn": "VC3 (Codestruição)",
+    "val_code": "VC3",
+    "ai_counts": {
+      "A2": 1,
+      "A5": 2
+    },
+    "inter_counts": {
+      "I5": 1,
+      "I4": 2
+    },
+    "vc_counts": {
+      "VC4": 2,
+      "VC3": 1
+    },
+    "summary": "O debate aborda a interseção entre automação técnica (Modelos de Machine Learning) e a emergência de comportamentos agênticos em EVE Online. A discussão é marcada por tensões e disputas decorrentes de assimetrias competitivas provocadas pela mediação algorítmica no ambiente do jogo. Evidencia-se fricção crítica e codestruição de valor (VC3), motivada pela degradação da confiança nas interações sociais, perceção de injustiça competitiva ou opacidade na moderação automatizada.",
+    "evidence": "Malukker is a new player system, and at the very least this [expletive] is really screwing up new people as its a little bewildering to be in the middle of this mess."
+  },
+  {
+    "thread_id": "500312",
+    "title": "My favorite battleship: Vindicator",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 3,
+    "posts_originais": 15,
+    "avg_d": 2.7,
+    "avg_a": 2.3,
+    "avg_r": 0.7,
+    "avg_t": 1.7,
+    "prev_ai": "A4",
+    "prev_inter": "I1",
+    "val_dyn": "VC1 (Cocriação)",
+    "val_code": "VC1",
+    "ai_counts": {
+      "A4": 1,
+      "A5": 2
+    },
+    "inter_counts": {
+      "I1": 1,
+      "I4": 2
+    },
+    "vc_counts": {
+      "VC1": 1,
+      "VC4": 2
+    },
+    "summary": "A discussão analisa o desenvolvimento e utilização de copilotos assistivos (ChatGPT) por jogadores de EVE Online. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Observa-se cocriação efetiva de valor (VC1), traduzida na criação de novas capacidades informacionais, redução de barreiras de aprendizagem e partilha colaborativa de código e ferramentas.",
+    "evidence": "I just copied his post into ChatGPT, told it to turn it into music... I then fed ChatGPT a screenshot of a Vindicator and told it to turn that into a drawing"
+  },
+  {
+    "thread_id": "502655",
+    "title": "Battlefield.Space - a narrative approach to killboards",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 3,
+    "posts_originais": 4,
+    "avg_d": 0.7,
+    "avg_a": 3.3,
+    "avg_r": 0.7,
+    "avg_t": 2.7,
+    "prev_ai": "A1",
+    "prev_inter": "I2",
+    "val_dyn": "VC2 (Potencial)",
+    "val_code": "VC2",
+    "ai_counts": {
+      "A1": 3
+    },
+    "inter_counts": {
+      "I2": 1,
+      "I5": 1,
+      "I4": 1
+    },
+    "vc_counts": {
+      "VC2": 2,
+      "VC4": 1
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (ferramentas algorítmicas e modelos de IA) no ecossistema de EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Identifica-se potencial tangível de cocriação (VC2), com os participantes a delinearem arquiteturas conceptuais e propostas de integração entre agentes de IA e os sistemas do jogo.",
+    "evidence": "The narrative text is generated by LLMs based on that data. (It is mostly accurate, but can not be guruanteed to be 100% right)"
+  },
+  {
+    "thread_id": "510765",
+    "title": "[Feature Request] AI powered voice command system",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 3,
+    "posts_originais": 10,
+    "avg_d": 0.3,
+    "avg_a": 1.0,
+    "avg_r": 1.0,
+    "avg_t": 0.0,
+    "prev_ai": "A5",
+    "prev_inter": "I6",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 3
+    },
+    "inter_counts": {
+      "I6": 2,
+      "I4": 1
+    },
+    "vc_counts": {
+      "VC4": 3
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de Sistemas Automatizados de Moderação/Tickets em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "voice command support built into the game... Improve accessibility... Open up interesting integrations with existing overview and command systems"
+  },
+  {
+    "thread_id": "516800",
+    "title": "EVE Online and AI Research",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 3,
+    "posts_originais": 27,
+    "avg_d": 1.3,
+    "avg_a": 1.0,
+    "avg_r": 1.7,
+    "avg_t": 0.7,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC2 (Potencial)",
+    "val_code": "VC2",
+    "ai_counts": {
+      "A5": 3
+    },
+    "inter_counts": {
+      "I4": 3
+    },
+    "vc_counts": {
+      "VC4": 2,
+      "VC2": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ferramentas algorítmicas e modelos de IA em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Identifica-se potencial tangível de cocriação (VC2), com os participantes a delinearem arquiteturas conceptuais e propostas de integração entre agentes de IA e os sistemas do jogo.",
+    "evidence": "The need to keep the Deepmind exposure within a closed sandbox is obvious"
+  },
+  {
+    "thread_id": "589559717132767735",
+    "title": "What are your thoughts on People using AI to Cheat/Exploit?",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 3,
+    "posts_originais": 5,
+    "avg_d": 0.0,
+    "avg_a": 0.7,
+    "avg_r": 2.3,
+    "avg_t": 0.7,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 3
+    },
+    "inter_counts": {
+      "I4": 3
+    },
+    "vc_counts": {
+      "VC4": 3
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ferramentas algorítmicas e modelos de IA em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "What are your thoughts on People using AI to Cheat/Exploit?"
+  },
+  {
+    "thread_id": "1mctiz6",
+    "title": "I Just Used Google Gemini To Brainstorm An",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 2,
+    "posts_originais": 22,
+    "avg_d": 0.0,
+    "avg_a": 0.0,
+    "avg_r": 1.0,
+    "avg_t": 0.0,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 2
+    },
+    "inter_counts": {
+      "I4": 1,
+      "I6": 1
+    },
+    "vc_counts": {
+      "VC4": 2
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ferramentas algorítmicas e modelos de IA em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "completely replace having to interact with jackasses online for me"
+  },
+  {
+    "thread_id": "1ofu78l",
+    "title": "Stuck In Nullsec",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 2,
+    "posts_originais": 23,
+    "avg_d": 2.5,
+    "avg_a": 1.5,
+    "avg_r": 2.0,
+    "avg_t": 0.5,
+    "prev_ai": "A1",
+    "prev_inter": "I3",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A1": 1,
+      "A4": 1
+    },
+    "inter_counts": {
+      "I3": 1,
+      "I4": 1
+    },
+    "vc_counts": {
+      "VC4": 2
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (ChatGPT) no ecossistema de EVE Online. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "BoatGPT told me to jump and then told me if I jumped then I was died. BoatGPT then gave me a recipe for Phở and told me to [censored] off"
+  },
+  {
+    "thread_id": "1uqtdhy",
+    "title": "Multiboxing Eve On Oled",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 2,
+    "posts_originais": 26,
+    "avg_d": 0.0,
+    "avg_a": 1.5,
+    "avg_r": 0.0,
+    "avg_t": 0.0,
+    "prev_ai": "A4",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A4": 1,
+      "A3": 1
+    },
+    "inter_counts": {
+      "I4": 1,
+      "I6": 1
+    },
+    "vc_counts": {
+      "VC4": 2
+    },
+    "summary": "A discussão analisa o desenvolvimento e utilização de copilotos assistivos (ChatGPT, Claude) por jogadores de EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "have claude spit out a working autohotkey script easily enough"
+  },
+  {
+    "thread_id": "1waqgod",
+    "title": "Lets Theorycraft What Can Someone Do By Knowing",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 2,
+    "posts_originais": 62,
+    "avg_d": 0.0,
+    "avg_a": 1.5,
+    "avg_r": 3.5,
+    "avg_t": 1.5,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 2
+    },
+    "inter_counts": {
+      "I4": 2
+    },
+    "vc_counts": {
+      "VC4": 2
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ferramentas algorítmicas e modelos de IA em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "could be used as training data for a model that tries to estimate how wealthy other EVE characters are, even if their wallet balance was never exposed"
+  },
+  {
+    "thread_id": "483347",
+    "title": "Feature Suggestion: Introduce MCP (Model Contextual Protocol) Server for Personalized NPC Interactions",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 2,
+    "posts_originais": 7,
+    "avg_d": 1.0,
+    "avg_a": 1.5,
+    "avg_r": 2.5,
+    "avg_t": 0.5,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 2
+    },
+    "inter_counts": {
+      "I4": 1,
+      "I6": 1
+    },
+    "vc_counts": {
+      "VC4": 2
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de Model Context Protocol (MCP) em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "MCP could recognize your contribution volume and offer faction contracts, reduced material costs, or limited-run blueprint deals — completely outside standard mission hubs."
+  },
+  {
+    "thread_id": "484953",
+    "title": "Subject: 22 Years of Chaos, Unicorns, and CCP-Powered Life Support",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 2,
+    "posts_originais": 17,
+    "avg_d": 1.0,
+    "avg_a": 0.0,
+    "avg_r": 2.0,
+    "avg_t": 2.5,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 2
+    },
+    "inter_counts": {
+      "I4": 2
+    },
+    "vc_counts": {
+      "VC4": 2
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ChatGPT em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "who accidentally assume it to be written by a human"
+  },
+  {
+    "thread_id": "510142",
+    "title": "Nerf AFK moon mining",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 2,
+    "posts_originais": 50,
+    "avg_d": 1.0,
+    "avg_a": 0.0,
+    "avg_r": 1.5,
+    "avg_t": 0.5,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 2
+    },
+    "inter_counts": {
+      "I4": 2
+    },
+    "vc_counts": {
+      "VC4": 2
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ChatGPT em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "AFK and Botters have no obligation to sell you cheap, and if anything they will use no effort against real effort diminishing the real value."
+  },
+  {
+    "thread_id": "511854",
+    "title": "Vague Difficulty",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 2,
+    "posts_originais": 39,
+    "avg_d": 0.5,
+    "avg_a": 1.5,
+    "avg_r": 0.5,
+    "avg_t": 2.5,
+    "prev_ai": "A5",
+    "prev_inter": "I6",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 2
+    },
+    "inter_counts": {
+      "I6": 1,
+      "I4": 1
+    },
+    "vc_counts": {
+      "VC4": 2
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de EVE Swagger Interface (ESI) em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "the games incoherent difficulty UI/UX ... just failing to be clear about it."
+  },
+  {
+    "thread_id": "512939",
+    "title": "Aura guide [experimental] - new tool is cool but .",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 2,
+    "posts_originais": 18,
+    "avg_d": 2.0,
+    "avg_a": 3.0,
+    "avg_r": 1.5,
+    "avg_t": 2.0,
+    "prev_ai": "A1",
+    "prev_inter": "I1",
+    "val_dyn": "VC3 (Codestruição)",
+    "val_code": "VC3",
+    "ai_counts": {
+      "A1": 1,
+      "A5": 1
+    },
+    "inter_counts": {
+      "I1": 1,
+      "I4": 1
+    },
+    "vc_counts": {
+      "VC3": 1,
+      "VC4": 1
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (Sistemas Automatizados de Moderação/Tickets, Aura AI (Assistente Oficial EVE)) no ecossistema de EVE Online. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Evidencia-se fricção crítica e codestruição de valor (VC3), motivada pela degradação da confiança nas interações sociais, perceção de injustiça competitiva ou opacidade na moderação automatizada.",
+    "evidence": "AI is far more valuable when applied to practical improvements that increase accessibility and make the game easier to enjoy for a broader audience"
+  },
+  {
+    "thread_id": "513384",
+    "title": "Eve-mentor-mcp — open-source MCP server that turns Claude into a new-player mentor",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 2,
+    "posts_originais": 2,
+    "avg_d": 1.5,
+    "avg_a": 2.5,
+    "avg_r": 1.0,
+    "avg_t": 2.0,
+    "prev_ai": "A1",
+    "prev_inter": "I4",
+    "val_dyn": "VC2 (Potencial)",
+    "val_code": "VC2",
+    "ai_counts": {
+      "A5": 1,
+      "A1": 1
+    },
+    "inter_counts": {
+      "I4": 2
+    },
+    "vc_counts": {
+      "VC4": 1,
+      "VC2": 1
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (Model Context Protocol (MCP), Claude) no ecossistema de EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Identifica-se potencial tangível de cocriação (VC2), com os participantes a delinearem arquiteturas conceptuais e propostas de integração entre agentes de IA e os sistemas do jogo.",
+    "evidence": "It gives Claude (or any MCP client) live EVE data with judgment baked in. 26 tools so far: Loss analysis... skill-prerequisite planning... Trade-hub price comparison..."
+  },
+  {
+    "thread_id": "516054",
+    "title": "MOP - Market Opportunity Planner - MAOR AI SLOP :D",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 2,
+    "posts_originais": 2,
+    "avg_d": 0.5,
+    "avg_a": 2.5,
+    "avg_r": 1.5,
+    "avg_t": 1.5,
+    "prev_ai": "A4",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A4": 2
+    },
+    "inter_counts": {
+      "I4": 2
+    },
+    "vc_counts": {
+      "VC4": 2
+    },
+    "summary": "A discussão analisa o desenvolvimento e utilização de copilotos assistivos (ferramentas algorítmicas e modelos de IA) por jogadores de EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "I’ve been working with the likes of Claude, glm, deepseek, kimi, gpt and attempts at smaller qwen models locally to generate my vision of managing industry amongst friends."
+  },
+  {
+    "thread_id": "516921",
+    "title": "Slipway — a free industry planner: what to build, where to build it, where to sell it",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 2,
+    "posts_originais": 7,
+    "avg_d": 1.5,
+    "avg_a": 1.5,
+    "avg_r": 2.5,
+    "avg_t": 2.0,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC3 (Codestruição)",
+    "val_code": "VC3",
+    "ai_counts": {
+      "A5": 2
+    },
+    "inter_counts": {
+      "I4": 2
+    },
+    "vc_counts": {
+      "VC3": 1,
+      "VC4": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ferramentas algorítmicas e modelos de IA em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Evidencia-se fricção crítica e codestruição de valor (VC3), motivada pela degradação da confiança nas interações sociais, perceção de injustiça competitiva ou opacidade na moderação automatizada.",
+    "evidence": "You can’t just skip the QC part, which is clearly what OP has done here."
+  },
+  {
+    "thread_id": "1oq9poa",
+    "title": "Newbie Miner Question I Can Only Play On 1",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 1,
+    "posts_originais": 16,
+    "avg_d": 1.0,
+    "avg_a": 2.0,
+    "avg_r": 0.0,
+    "avg_t": 1.0,
+    "prev_ai": "A4",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A4": 1
+    },
+    "inter_counts": {
+      "I4": 1
+    },
+    "vc_counts": {
+      "VC4": 1
+    },
+    "summary": "A discussão analisa o desenvolvimento e utilização de copilotos assistivos (ferramentas algorítmicas e modelos de IA) por jogadores de EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "it estimated that your boosts will increase m3/hr by about 28%."
+  },
+  {
+    "thread_id": "1udu43k",
+    "title": "Eve Chat Translator Tool For Multilingual",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 1,
+    "posts_originais": 12,
+    "avg_d": 0.0,
+    "avg_a": 3.0,
+    "avg_r": 2.0,
+    "avg_t": 3.0,
+    "prev_ai": "A1",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A1": 1
+    },
+    "inter_counts": {
+      "I4": 1
+    },
+    "vc_counts": {
+      "VC4": 1
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (ferramentas algorítmicas e modelos de IA) no ecossistema de EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "To train the in-house AI, translations are processed in the background for a short time and sent to the server."
+  },
+  {
+    "thread_id": "1v18nfp",
+    "title": "Ccp Was It Really That Hard To Ask Chatgpt What",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 1,
+    "posts_originais": 43,
+    "avg_d": 0.0,
+    "avg_a": 0.0,
+    "avg_r": 2.0,
+    "avg_t": 3.0,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 1
+    },
+    "inter_counts": {
+      "I4": 1
+    },
+    "vc_counts": {
+      "VC4": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ChatGPT em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "things like ChatGPT have literally no idea what is real... The only thing it does is sound convincing to people who don't have enough information."
+  },
+  {
+    "thread_id": "453174",
+    "title": "Aura Translate",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 1,
+    "posts_originais": 18,
+    "avg_d": 1.0,
+    "avg_a": 3.0,
+    "avg_r": 0.0,
+    "avg_t": 0.0,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 1
+    },
+    "inter_counts": {
+      "I4": 1
+    },
+    "vc_counts": {
+      "VC4": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de Aura AI (Assistente Oficial EVE) em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "it would mean a lot of players can simply communicate more. lowering the language barriers between the different communities within eve"
+  },
+  {
+    "thread_id": "453504",
+    "title": "How to Increase eve’s player count and create value for existing PVP players and eventually everyone else",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 1,
+    "posts_originais": 78,
+    "avg_d": 0.0,
+    "avg_a": 0.0,
+    "avg_r": 3.0,
+    "avg_t": 3.0,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 1
+    },
+    "inter_counts": {
+      "I4": 1
+    },
+    "vc_counts": {
+      "VC4": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ferramentas algorítmicas e modelos de IA em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "I for one am still scarred by the crypo scammers and the NFT horrors (never had financial interest in them) and like many other just average joes when people say crypo/blockchain they instantly think of scammers and probably FTX (an exchange)."
+  },
+  {
+    "thread_id": "471468",
+    "title": "[ CLOSED ] (Amarrian Corporation) Resolved",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 1,
+    "posts_originais": 3,
+    "avg_d": 3.0,
+    "avg_a": 3.0,
+    "avg_r": 0.0,
+    "avg_t": 1.0,
+    "prev_ai": "A1",
+    "prev_inter": "I1",
+    "val_dyn": "VC2 (Potencial)",
+    "val_code": "VC2",
+    "ai_counts": {
+      "A1": 1
+    },
+    "inter_counts": {
+      "I1": 1
+    },
+    "vc_counts": {
+      "VC2": 1
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (Sistemas Automatizados de Moderação/Tickets) no ecossistema de EVE Online. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Identifica-se potencial tangível de cocriação (VC2), com os participantes a delinearem arquiteturas conceptuais e propostas de integração entre agentes de IA e os sistemas do jogo.",
+    "evidence": "I won’t need Rookie chat or Help chat all that much now that I know that I can count on Gemini"
+  },
+  {
+    "thread_id": "483348",
+    "title": "Feature Suggestion: AI Pilot Companions for Alt Characters — Powered by MCP",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 1,
+    "posts_originais": 8,
+    "avg_d": 1.0,
+    "avg_a": 0.0,
+    "avg_r": 2.0,
+    "avg_t": 0.0,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 1
+    },
+    "inter_counts": {
+      "I4": 1
+    },
+    "vc_counts": {
+      "VC4": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de Model Context Protocol (MCP) em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "Yes, please try that in wormhole space or nullsec.  Let me know how it works out for you…"
+  },
+  {
+    "thread_id": "486116",
+    "title": "Why Are Navy Scan Modules Missing from the Market?",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 1,
+    "posts_originais": 10,
+    "avg_d": 1.0,
+    "avg_a": 0.0,
+    "avg_r": 1.0,
+    "avg_t": 2.0,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 1
+    },
+    "inter_counts": {
+      "I4": 1
+    },
+    "vc_counts": {
+      "VC4": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ChatGPT em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "Lazy chatgpt posts are worse than lazy regular posts because they seem sensical and helpful at first glance, but your last post only adds confusion for readers."
+  },
+  {
+    "thread_id": "486758",
+    "title": "LLM Guidelines",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 1,
+    "posts_originais": 1,
+    "avg_d": 0.0,
+    "avg_a": 0.0,
+    "avg_r": 2.0,
+    "avg_t": 3.0,
+    "prev_ai": "A5",
+    "prev_inter": "I6",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 1
+    },
+    "inter_counts": {
+      "I6": 1
+    },
+    "vc_counts": {
+      "VC4": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ferramentas algorítmicas e modelos de IA em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "introduce some guidelines with respect to the usage of content generated by LLMs/GenAIs"
+  },
+  {
+    "thread_id": "497087",
+    "title": "Eve Online ESI MCP Tool",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 1,
+    "posts_originais": 2,
+    "avg_d": 0.0,
+    "avg_a": 3.0,
+    "avg_r": 1.0,
+    "avg_t": 2.0,
+    "prev_ai": "A3",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A3": 1
+    },
+    "inter_counts": {
+      "I4": 1
+    },
+    "vc_counts": {
+      "VC4": 1
+    },
+    "summary": "O debate aborda a interseção entre automação técnica (Model Context Protocol (MCP), EVE Swagger Interface (ESI)) e a emergência de comportamentos agênticos em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "perform actions based on authenticated characters, without any manual insertion. Everything is performed via MCP tool calling."
+  },
+  {
+    "thread_id": "498018",
+    "title": "Showcasing use of modern tech/AI for intelligence in EVE Online",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 1,
+    "posts_originais": 1,
+    "avg_d": 1.0,
+    "avg_a": 3.0,
+    "avg_r": 1.0,
+    "avg_t": 2.0,
+    "prev_ai": "A1",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A1": 1
+    },
+    "inter_counts": {
+      "I4": 1
+    },
+    "vc_counts": {
+      "VC4": 1
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (ferramentas algorítmicas e modelos de IA) no ecossistema de EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "The App: [URL_ANONYMIZED] is an automated tool that watches and analyses activity in the Everyshore region, building advisories and character profiles."
+  },
+  {
+    "thread_id": "506398",
+    "title": "OpenClaw Skill: EVE ESI Integration for Account Management – Open Source",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 1,
+    "posts_originais": 2,
+    "avg_d": 0.0,
+    "avg_a": 3.0,
+    "avg_r": 1.0,
+    "avg_t": 2.0,
+    "prev_ai": "A3",
+    "prev_inter": "I6",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A3": 1
+    },
+    "inter_counts": {
+      "I6": 1
+    },
+    "vc_counts": {
+      "VC4": 1
+    },
+    "summary": "O debate aborda a interseção entre automação técnica (EVE Swagger Interface (ESI)) e a emergência de comportamentos agênticos em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "An integration with the EVE Online ESI API for easy character management. It supports queries for character info, wallet, assets, skills, clones, location, contracts, mail, and more."
+  },
+  {
+    "thread_id": "508912",
+    "title": "Items in player owned structures",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 1,
+    "posts_originais": 15,
+    "avg_d": 2.0,
+    "avg_a": 0.0,
+    "avg_r": 3.0,
+    "avg_t": 1.0,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 1
+    },
+    "inter_counts": {
+      "I4": 1
+    },
+    "vc_counts": {
+      "VC4": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ferramentas algorítmicas e modelos de IA em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "You can lose your stuff if the structure goes abandoned though."
+  },
+  {
+    "thread_id": "509843",
+    "title": "Introducing Exordium!",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 1,
+    "posts_originais": 50,
+    "avg_d": 1.0,
+    "avg_a": 0.0,
+    "avg_r": 3.0,
+    "avg_t": 1.0,
+    "prev_ai": "A5",
+    "prev_inter": "I6",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 1
+    },
+    "inter_counts": {
+      "I6": 1
+    },
+    "vc_counts": {
+      "VC4": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ferramentas algorítmicas e modelos de IA em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "you dont want this to be bounty farming bot haven or some gank free, zero tax replacement for Jita either"
+  },
+  {
+    "thread_id": "513037",
+    "title": "A Tech-Chnannel that Devs and ISDs regularly answer Questions, that only they can",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 1,
+    "posts_originais": 3,
+    "avg_d": 0.0,
+    "avg_a": 0.0,
+    "avg_r": 0.0,
+    "avg_t": 1.0,
+    "prev_ai": "A5",
+    "prev_inter": "I6",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 1
+    },
+    "inter_counts": {
+      "I6": 1
+    },
+    "vc_counts": {
+      "VC4": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de Aura AI (Assistente Oficial EVE) em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "I personally wouldn’t trust any LLM to answer these questions accurately yet since they require understanding and not just probability-based chaining of words."
+  },
+  {
+    "thread_id": "515483",
+    "title": "[Tool] PEARL – Escalation Management, Intel Map and Multibox Tools",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 1,
+    "posts_originais": 16,
+    "avg_d": 0.0,
+    "avg_a": 3.0,
+    "avg_r": 1.0,
+    "avg_t": 3.0,
+    "prev_ai": "A3",
+    "prev_inter": "I6",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A3": 1
+    },
+    "inter_counts": {
+      "I6": 1
+    },
+    "vc_counts": {
+      "VC4": 1
+    },
+    "summary": "O debate aborda a interseção entre automação técnica (ferramentas algorítmicas e modelos de IA) e a emergência de comportamentos agênticos em EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "The application is portable and open source. The executable is currently unsigned, so Windows may display a SmartScreen or Defender warning."
+  },
+  {
+    "thread_id": "516433",
+    "title": "EVE MCP Server — quering ESI from Claude, Copilot and other AI assistants",
+    "game": "EVE Online",
+    "ecosystem": "EVE Online (Sandbox)",
+    "posts_retidos": 1,
+    "posts_originais": 1,
+    "avg_d": 0.0,
+    "avg_a": 5.0,
+    "avg_r": 2.0,
+    "avg_t": 3.0,
+    "prev_ai": "A1",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A1": 1
+    },
+    "inter_counts": {
+      "I4": 1
+    },
+    "vc_counts": {
+      "VC4": 1
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (Model Context Protocol (MCP), Claude, Copiloto de IA) no ecossistema de EVE Online. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "exposing EVE’s public ESI endpoints as tools an AI assistant can call directly"
+  },
+  {
+    "thread_id": "2171055",
+    "title": "Artificial Intelligence Simulated Players",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 28,
+    "posts_originais": 75,
+    "avg_d": 0.6,
+    "avg_a": 0.3,
+    "avg_r": 1.1,
+    "avg_t": 1.1,
+    "prev_ai": "A5",
+    "prev_inter": "I5",
+    "val_dyn": "VC3 (Codestruição)",
+    "val_code": "VC3",
+    "ai_counts": {
+      "A5": 26,
+      "A2": 2
+    },
+    "inter_counts": {
+      "I4": 24,
+      "I6": 3,
+      "I5": 1
+    },
+    "vc_counts": {
+      "VC4": 25,
+      "VC3": 2,
+      "VC2": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de Follower Dungeons (NPCs com IA), Delves / Brann Bronzebeard (Companheiro IA) em World of Warcraft. A discussão é marcada por tensões e disputas decorrentes de assimetrias competitivas provocadas pela mediação algorítmica no ambiente do jogo. Evidencia-se fricção crítica e codestruição de valor (VC3), motivada pela degradação da confiança nas interações sociais, perceção de injustiça competitiva ou opacidade na moderação automatizada.",
+    "evidence": "lying to yourself and players does not benefit the company. The gaming community doesn’t listen to mainstream game news sources anymore as we listen more to independent media to actually hear the truth about games"
+  },
+  {
+    "thread_id": "2308441",
+    "title": "AI and MMORPGsg",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 24,
+    "posts_originais": 166,
+    "avg_d": 1.5,
+    "avg_a": 1.1,
+    "avg_r": 1.3,
+    "avg_t": 0.8,
+    "prev_ai": "A5",
+    "prev_inter": "I1",
+    "val_dyn": "VC3 (Codestruição)",
+    "val_code": "VC3",
+    "ai_counts": {
+      "A5": 23,
+      "A1": 1
+    },
+    "inter_counts": {
+      "I4": 23,
+      "I1": 1
+    },
+    "vc_counts": {
+      "VC4": 19,
+      "VC2": 2,
+      "VC3": 3
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ChatGPT, EVE Swagger Interface (ESI), Sistemas Automatizados de Moderação/Tickets em World of Warcraft. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Evidencia-se fricção crítica e codestruição de valor (VC3), motivada pela degradação da confiança nas interações sociais, perceção de injustiça competitiva ou opacidade na moderação automatizada.",
+    "evidence": "it creates moderation risk, canon drift, exploit surfaces, unpredictable quest behavior, and potentially huge inference costs"
+  },
+  {
+    "thread_id": "2104695",
+    "title": "A software engineer taught AI to …",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 21,
+    "posts_originais": 235,
+    "avg_d": 1.3,
+    "avg_a": 0.9,
+    "avg_r": 1.0,
+    "avg_t": 1.6,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC2 (Potencial)",
+    "val_code": "VC2",
+    "ai_counts": {
+      "A5": 20,
+      "A4": 1
+    },
+    "inter_counts": {
+      "I4": 20,
+      "I6": 1
+    },
+    "vc_counts": {
+      "VC4": 19,
+      "VC2": 1,
+      "VC3": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ChatGPT, Copiloto de IA, EVE Swagger Interface (ESI) em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Identifica-se potencial tangível de cocriação (VC2), com os participantes a delinearem arquiteturas conceptuais e propostas de integração entre agentes de IA e os sistemas do jogo.",
+    "evidence": "leading to people becoming victims of misinformation spread not by bad actors or paid trolls, but by literal bot armies"
+  },
+  {
+    "thread_id": "2345875",
+    "title": "Making Addons with AI",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 19,
+    "posts_originais": 57,
+    "avg_d": 1.6,
+    "avg_a": 1.9,
+    "avg_r": 1.8,
+    "avg_t": 1.3,
+    "prev_ai": "A1",
+    "prev_inter": "I3",
+    "val_dyn": "VC1 (Cocriação)",
+    "val_code": "VC1",
+    "ai_counts": {
+      "A5": 8,
+      "A4": 7,
+      "A1": 4
+    },
+    "inter_counts": {
+      "I4": 11,
+      "I1": 3,
+      "I3": 3,
+      "I6": 1,
+      "I5": 1
+    },
+    "vc_counts": {
+      "VC4": 13,
+      "VC2": 3,
+      "VC3": 2,
+      "VC1": 1
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (Claude, Addons / Scripts Lua) no ecossistema de World of Warcraft. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Observa-se cocriação efetiva de valor (VC1), traduzida na criação de novas capacidades informacionais, redução de barreiras de aprendizagem e partilha colaborativa de código e ferramentas.",
+    "evidence": "I ran it and iterated over three weeks, with around 150 defects filed. It would get stuck on an assumption, and there were times where I had to tell it to stop hallucinating an answer and just go look it up."
+  },
+  {
+    "thread_id": "2329784",
+    "title": "Anyone Using AI for Build Research?",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 18,
+    "posts_originais": 34,
+    "avg_d": 1.1,
+    "avg_a": 1.9,
+    "avg_r": 1.5,
+    "avg_t": 1.1,
+    "prev_ai": "A4",
+    "prev_inter": "I3",
+    "val_dyn": "VC1 (Cocriação)",
+    "val_code": "VC1",
+    "ai_counts": {
+      "A5": 12,
+      "A4": 5,
+      "A1": 1
+    },
+    "inter_counts": {
+      "I4": 15,
+      "I1": 2,
+      "I3": 1
+    },
+    "vc_counts": {
+      "VC4": 13,
+      "VC2": 3,
+      "VC1": 1,
+      "VC3": 1
+    },
+    "summary": "A discussão analisa o desenvolvimento e utilização de copilotos assistivos (ChatGPT, Claude, Aura AI (Assistente Oficial EVE)) por jogadores de World of Warcraft. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Observa-se cocriação efetiva de valor (VC1), traduzida na criação de novas capacidades informacionais, redução de barreiras de aprendizagem e partilha colaborativa de código e ferramentas.",
+    "evidence": "I use Claude to integrate with Google Analytics, Shopify, and Google Ads via Railway (connection) and Superbase (database) to run locals apps and dashboards."
+  },
+  {
+    "thread_id": "1gebstj",
+    "title": "My Name Is Not Joshua And This Is Peak Chatgpt",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 17,
+    "posts_originais": 92,
+    "avg_d": 1.2,
+    "avg_a": 0.2,
+    "avg_r": 1.6,
+    "avg_t": 1.4,
+    "prev_ai": "A5",
+    "prev_inter": "I1",
+    "val_dyn": "VC3 (Codestruição)",
+    "val_code": "VC3",
+    "ai_counts": {
+      "A5": 13,
+      "A1": 1,
+      "A2": 3
+    },
+    "inter_counts": {
+      "I4": 13,
+      "I1": 3,
+      "I6": 1
+    },
+    "vc_counts": {
+      "VC4": 12,
+      "VC3": 5
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ChatGPT, Sistemas Automatizados de Moderação/Tickets em World of Warcraft. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Evidencia-se fricção crítica e codestruição de valor (VC3), motivada pela degradação da confiança nas interações sociais, perceção de injustiça competitiva ou opacidade na moderação automatizada.",
+    "evidence": "They removed my authenticator. They removed my mobile number. They removed my mobile authenticator. They changed my password for them."
+  },
+  {
+    "thread_id": "2255873",
+    "title": "Copilot coming to WoW?",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 17,
+    "posts_originais": 136,
+    "avg_d": 0.6,
+    "avg_a": 0.8,
+    "avg_r": 1.6,
+    "avg_t": 1.1,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 17
+    },
+    "inter_counts": {
+      "I4": 13,
+      "I6": 4
+    },
+    "vc_counts": {
+      "VC4": 17
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de Copiloto de IA, EVE Swagger Interface (ESI), Follower Dungeons (NPCs com IA) em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "I am afraid of possible abuse of a system that is unproven as a whole due to the nature of how an LLM would be structure... recent reports of abuse using AI have really caught my eye due to privacy issues... people that use a chatbot get really attached in some cases to where the person becomes a victim of commiting a crime or in the worse case scenario suicide"
+  },
+  {
+    "thread_id": "2257438",
+    "title": "Blizzard and AI",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 17,
+    "posts_originais": 74,
+    "avg_d": 1.2,
+    "avg_a": 1.5,
+    "avg_r": 1.6,
+    "avg_t": 0.8,
+    "prev_ai": "A5",
+    "prev_inter": "I1",
+    "val_dyn": "VC2 (Potencial)",
+    "val_code": "VC2",
+    "ai_counts": {
+      "A5": 16,
+      "A4": 1
+    },
+    "inter_counts": {
+      "I4": 16,
+      "I1": 1
+    },
+    "vc_counts": {
+      "VC4": 10,
+      "VC3": 3,
+      "VC2": 4
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de Copiloto de IA, Follower Dungeons (NPCs com IA), Addons / Scripts Lua em World of Warcraft. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Identifica-se potencial tangível de cocriação (VC2), com os participantes a delinearem arquiteturas conceptuais e propostas de integração entre agentes de IA e os sistemas do jogo.",
+    "evidence": "AI is simply better than me at finding info faster and correcting itself when the previous method is out of date or doesnt work"
+  },
+  {
+    "thread_id": "2147065",
+    "title": "No Customer Service anymore?!",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 16,
+    "posts_originais": 53,
+    "avg_d": 1.2,
+    "avg_a": 1.1,
+    "avg_r": 1.8,
+    "avg_t": 2.2,
+    "prev_ai": "A5",
+    "prev_inter": "I2",
+    "val_dyn": "VC3 (Codestruição)",
+    "val_code": "VC3",
+    "ai_counts": {
+      "A1": 1,
+      "A5": 15
+    },
+    "inter_counts": {
+      "I2": 1,
+      "I4": 15
+    },
+    "vc_counts": {
+      "VC3": 9,
+      "VC4": 7
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ChatGPT, Sistemas Automatizados de Moderação/Tickets em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Evidencia-se fricção crítica e codestruição de valor (VC3), motivada pela degradação da confiança nas interações sociais, perceção de injustiça competitiva ou opacidade na moderação automatizada.",
+    "evidence": "There’s no AI used in Support. You get a response from a person. Sometimes you get a response in a template, which is typical in a service space, but AI responses are not used."
+  },
+  {
+    "thread_id": "reddit_1r77s3x",
+    "title": "GenAI and World of Warcraft: Where would you draw the line?",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 15,
+    "posts_originais": 33,
+    "avg_d": 0.1,
+    "avg_a": 0.1,
+    "avg_r": 2.3,
+    "avg_t": 1.7,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC3 (Codestruição)",
+    "val_code": "VC3",
+    "ai_counts": {
+      "A5": 15
+    },
+    "inter_counts": {
+      "I6": 2,
+      "I4": 13
+    },
+    "vc_counts": {
+      "VC4": 14,
+      "VC3": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de EVE Swagger Interface (ESI), Modelos de Machine Learning em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Evidencia-se fricção crítica e codestruição de valor (VC3), motivada pela degradação da confiança nas interações sociais, perceção de injustiça competitiva ou opacidade na moderação automatizada.",
+    "evidence": "I don't think I could keep playing as I'm loading into the game looking at images generated by AI or reading quest text not created by a living, breathing human."
+  },
+  {
+    "thread_id": "1784181",
+    "title": "ChatGPT and Perplexity, new sources of WoW information",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 14,
+    "posts_originais": 57,
+    "avg_d": 1.0,
+    "avg_a": 0.9,
+    "avg_r": 1.5,
+    "avg_t": 1.4,
+    "prev_ai": "A5",
+    "prev_inter": "I3",
+    "val_dyn": "VC1 (Cocriação)",
+    "val_code": "VC1",
+    "ai_counts": {
+      "A5": 13,
+      "A4": 1
+    },
+    "inter_counts": {
+      "I4": 10,
+      "I6": 3,
+      "I3": 1
+    },
+    "vc_counts": {
+      "VC4": 13,
+      "VC1": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ChatGPT, Addons / Scripts Lua, Modelos de Machine Learning em World of Warcraft. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Observa-se cocriação efetiva de valor (VC1), traduzida na criação de novas capacidades informacionais, redução de barreiras de aprendizagem e partilha colaborativa de código e ferramentas.",
+    "evidence": "I’ve trained it to help me flesh out character ideas... I just tell how I want things to be"
+  },
+  {
+    "thread_id": "reddit_1rhkho1",
+    "title": "Midnight sidequest text feels AI written",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 13,
+    "posts_originais": 20,
+    "avg_d": 0.0,
+    "avg_a": 0.0,
+    "avg_r": 0.5,
+    "avg_t": 3.2,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC3 (Codestruição)",
+    "val_code": "VC3",
+    "ai_counts": {
+      "A5": 13
+    },
+    "inter_counts": {
+      "I4": 12,
+      "I6": 1
+    },
+    "vc_counts": {
+      "VC4": 12,
+      "VC3": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ChatGPT em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Evidencia-se fricção crítica e codestruição de valor (VC3), motivada pela degradação da confiança nas interações sociais, perceção de injustiça competitiva ou opacidade na moderação automatizada.",
+    "evidence": "there seems to be indisputable AI use too, \"You Know This Evil?\", where Umbric is held captive and the dialogue with the various Army of Light figures follows this exact cadence"
+  },
+  {
+    "thread_id": "2051325",
+    "title": "Surprisingly, I find Gemini way better than Wowhead in answering most questions I have",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 12,
+    "posts_originais": 29,
+    "avg_d": 0.8,
+    "avg_a": 1.5,
+    "avg_r": 1.2,
+    "avg_t": 1.1,
+    "prev_ai": "A5",
+    "prev_inter": "I1",
+    "val_dyn": "VC2 (Potencial)",
+    "val_code": "VC2",
+    "ai_counts": {
+      "A5": 11,
+      "A4": 1
+    },
+    "inter_counts": {
+      "I4": 11,
+      "I1": 1
+    },
+    "vc_counts": {
+      "VC4": 11,
+      "VC2": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ChatGPT em World of Warcraft. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Identifica-se potencial tangível de cocriação (VC2), com os participantes a delinearem arquiteturas conceptuais e propostas de integração entre agentes de IA e os sistemas do jogo.",
+    "evidence": "With Gemini (or ChatGPT) you can carry on a conversation and get the misunderstanding cleared up."
+  },
+  {
+    "thread_id": "2248893",
+    "title": "Ai and WoW",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 12,
+    "posts_originais": 153,
+    "avg_d": 0.5,
+    "avg_a": 1.3,
+    "avg_r": 1.3,
+    "avg_t": 0.8,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC2 (Potencial)",
+    "val_code": "VC2",
+    "ai_counts": {
+      "A5": 12
+    },
+    "inter_counts": {
+      "I4": 12
+    },
+    "vc_counts": {
+      "VC4": 9,
+      "VC2": 2,
+      "VC3": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de EVE Swagger Interface (ESI), Follower Dungeons (NPCs com IA), Addons / Scripts Lua em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Identifica-se potencial tangível de cocriação (VC2), com os participantes a delinearem arquiteturas conceptuais e propostas de integração entre agentes de IA e os sistemas do jogo.",
+    "evidence": "Instead of hour long waits if the party/raid doesn’t fill say in 30mins then AI units are put in to fill it up."
+  },
+  {
+    "thread_id": "2318118",
+    "title": "Real talk. Is there any possibility that Nagital was fed into an AI to finish it?",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 12,
+    "posts_originais": 94,
+    "avg_d": 1.1,
+    "avg_a": 1.1,
+    "avg_r": 1.8,
+    "avg_t": 2.5,
+    "prev_ai": "A5",
+    "prev_inter": "I3",
+    "val_dyn": "VC1 (Cocriação)",
+    "val_code": "VC1",
+    "ai_counts": {
+      "A5": 10,
+      "A1": 1,
+      "A4": 1
+    },
+    "inter_counts": {
+      "I4": 11,
+      "I3": 1
+    },
+    "vc_counts": {
+      "VC4": 9,
+      "VC1": 1,
+      "VC2": 1,
+      "VC3": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de Model Context Protocol (MCP), EVE Swagger Interface (ESI), Sistemas Automatizados de Moderação/Tickets em World of Warcraft. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Observa-se cocriação efetiva de valor (VC1), traduzida na criação de novas capacidades informacionais, redução de barreiras de aprendizagem e partilha colaborativa de código e ferramentas.",
+    "evidence": "they say they didn’t use AI, but the devs could’ve at some point especially for ideas."
+  },
+  {
+    "thread_id": "reddit_1q7m0sl",
+    "title": "Incoming Aura AI chatbot?",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 11,
+    "posts_originais": 36,
+    "avg_d": 0.5,
+    "avg_a": 0.7,
+    "avg_r": 2.0,
+    "avg_t": 0.6,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC3 (Codestruição)",
+    "val_code": "VC3",
+    "ai_counts": {
+      "A5": 11
+    },
+    "inter_counts": {
+      "I4": 10,
+      "I6": 1
+    },
+    "vc_counts": {
+      "VC4": 9,
+      "VC3": 2
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de EVE Swagger Interface (ESI), Aura AI (Assistente Oficial EVE) em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Evidencia-se fricção crítica e codestruição de valor (VC3), motivada pela degradação da confiança nas interações sociais, perceção de injustiça competitiva ou opacidade na moderação automatizada.",
+    "evidence": "Don’t randomly generate text that vaguely looks helpful but contains inaccuracies that new players will be unable to spot."
+  },
+  {
+    "thread_id": "reddit_1ql5f05",
+    "title": "The start of the vibecoded addon wars",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 11,
+    "posts_originais": 108,
+    "avg_d": 1.0,
+    "avg_a": 1.5,
+    "avg_r": 2.0,
+    "avg_t": 1.7,
+    "prev_ai": "A4",
+    "prev_inter": "I3",
+    "val_dyn": "VC1 (Cocriação)",
+    "val_code": "VC1",
+    "ai_counts": {
+      "A5": 7,
+      "A4": 4
+    },
+    "inter_counts": {
+      "I6": 1,
+      "I4": 7,
+      "I1": 2,
+      "I3": 1
+    },
+    "vc_counts": {
+      "VC4": 10,
+      "VC1": 1
+    },
+    "summary": "A discussão analisa o desenvolvimento e utilização de copilotos assistivos (Addons / Scripts Lua) por jogadores de World of Warcraft. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Observa-se cocriação efetiva de valor (VC1), traduzida na criação de novas capacidades informacionais, redução de barreiras de aprendizagem e partilha colaborativa de código e ferramentas.",
+    "evidence": "it has a rule, after every task, it has to Show me what it did/changed and why and what it does"
+  },
+  {
+    "thread_id": "2093466",
+    "title": "Ban weakaura's and watch the ladder reform",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 10,
+    "posts_originais": 142,
+    "avg_d": 0.5,
+    "avg_a": 1.5,
+    "avg_r": 2.8,
+    "avg_t": 0.6,
+    "prev_ai": "A3",
+    "prev_inter": "I4",
+    "val_dyn": "VC3 (Codestruição)",
+    "val_code": "VC3",
+    "ai_counts": {
+      "A3": 4,
+      "A5": 4,
+      "A2": 2
+    },
+    "inter_counts": {
+      "I4": 9,
+      "I6": 1
+    },
+    "vc_counts": {
+      "VC4": 8,
+      "VC3": 2
+    },
+    "summary": "O debate aborda a interseção entre automação técnica (Addons / Scripts Lua, Aura AI (Assistente Oficial EVE)) e a emergência de comportamentos agênticos em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Evidencia-se fricção crítica e codestruição de valor (VC3), motivada pela degradação da confiança nas interações sociais, perceção de injustiça competitiva ou opacidade na moderação automatizada.",
+    "evidence": "The automation is cancer. Half of these “pro players” aren’t pro at all. They are just robots."
+  },
+  {
+    "thread_id": "reddit_1t939or",
+    "title": "Is it allowed to use an AI for trading/market manipulation?",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 10,
+    "posts_originais": 13,
+    "avg_d": 0.5,
+    "avg_a": 1.4,
+    "avg_r": 2.7,
+    "avg_t": 0.6,
+    "prev_ai": "A5",
+    "prev_inter": "I1",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 8,
+      "A4": 1,
+      "A1": 1
+    },
+    "inter_counts": {
+      "I4": 9,
+      "I1": 1
+    },
+    "vc_counts": {
+      "VC4": 10
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ChatGPT, EVE Swagger Interface (ESI), Addons / Scripts Lua em World of Warcraft. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "Is it allowed to use an AI for trading/market manipulation?"
+  },
+  {
+    "thread_id": "2203538",
+    "title": "It seems there is already a workaround for addons/UI - AI",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 9,
+    "posts_originais": 51,
+    "avg_d": 0.4,
+    "avg_a": 1.2,
+    "avg_r": 2.2,
+    "avg_t": 0.8,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 9
+    },
+    "inter_counts": {
+      "I4": 8,
+      "I6": 1
+    },
+    "vc_counts": {
+      "VC4": 9
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de EVE Swagger Interface (ESI), Addons / Scripts Lua em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "third party stuff like this is cheating btw"
+  },
+  {
+    "thread_id": "2320601",
+    "title": "Microsoft, Xbox, And AI",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 9,
+    "posts_originais": 79,
+    "avg_d": 0.4,
+    "avg_a": 0.2,
+    "avg_r": 1.6,
+    "avg_t": 0.9,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC3 (Codestruição)",
+    "val_code": "VC3",
+    "ai_counts": {
+      "A5": 9
+    },
+    "inter_counts": {
+      "I4": 9
+    },
+    "vc_counts": {
+      "VC4": 7,
+      "VC3": 2
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de EVE Swagger Interface (ESI) em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Evidencia-se fricção crítica e codestruição de valor (VC3), motivada pela degradação da confiança nas interações sociais, perceção de injustiça competitiva ou opacidade na moderação automatizada.",
+    "evidence": "i don’t want AI to take a bigger role in WoW because i like quite a few people think it already is being used this xpax which is why it’s is way more buggy then we have had pretty much ever"
+  },
+  {
+    "thread_id": "reddit_1ariy3g",
+    "title": "Blizzards support AI bots are definitely outsourced somewhere cheap",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 9,
+    "posts_originais": 52,
+    "avg_d": 0.9,
+    "avg_a": 0.1,
+    "avg_r": 2.0,
+    "avg_t": 1.3,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC3 (Codestruição)",
+    "val_code": "VC3",
+    "ai_counts": {
+      "A5": 9
+    },
+    "inter_counts": {
+      "I6": 1,
+      "I4": 8
+    },
+    "vc_counts": {
+      "VC4": 6,
+      "VC3": 3
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de Sistemas Automatizados de Moderação/Tickets, Aura AI (Assistente Oficial EVE) em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Evidencia-se fricção crítica e codestruição de valor (VC3), motivada pela degradação da confiança nas interações sociais, perceção de injustiça competitiva ou opacidade na moderação automatizada.",
+    "evidence": "random people getting banned from getting caught in the crossfire of poorly coded AI"
+  },
+  {
+    "thread_id": "reddit_1snmfut",
+    "title": "Asking ChatGPT for Talent builds or advice what node to choose over something else",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 9,
+    "posts_originais": 19,
+    "avg_d": 1.2,
+    "avg_a": 1.3,
+    "avg_r": 2.3,
+    "avg_t": 1.7,
+    "prev_ai": "A1",
+    "prev_inter": "I3",
+    "val_dyn": "VC3 (Codestruição)",
+    "val_code": "VC3",
+    "ai_counts": {
+      "A5": 7,
+      "A1": 2
+    },
+    "inter_counts": {
+      "I4": 7,
+      "I3": 2
+    },
+    "vc_counts": {
+      "VC4": 2,
+      "VC2": 1,
+      "VC3": 6
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (ChatGPT) no ecossistema de World of Warcraft. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Evidencia-se fricção crítica e codestruição de valor (VC3), motivada pela degradação da confiança nas interações sociais, perceção de injustiça competitiva ou opacidade na moderação automatizada.",
+    "evidence": "The other ones lie to you as well, you just don't know enough to catch it yet. It's not 'learning' if everything you're reading is wrong or a half-guess."
+  },
+  {
+    "thread_id": "1mwoeow",
+    "title": "Is This Blizzard Support Or Just An Chatgpt Chat",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 8,
+    "posts_originais": 23,
+    "avg_d": 0.9,
+    "avg_a": 0.1,
+    "avg_r": 1.9,
+    "avg_t": 1.9,
+    "prev_ai": "A5",
+    "prev_inter": "I5",
+    "val_dyn": "VC3 (Codestruição)",
+    "val_code": "VC3",
+    "ai_counts": {
+      "A5": 7,
+      "A1": 1
+    },
+    "inter_counts": {
+      "I6": 1,
+      "I5": 1,
+      "I4": 6
+    },
+    "vc_counts": {
+      "VC4": 6,
+      "VC3": 2
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ChatGPT, Sistemas Automatizados de Moderação/Tickets em World of Warcraft. A discussão é marcada por tensões e disputas decorrentes de assimetrias competitivas provocadas pela mediação algorítmica no ambiente do jogo. Evidencia-se fricção crítica e codestruição de valor (VC3), motivada pela degradação da confiança nas interações sociais, perceção de injustiça competitiva ou opacidade na moderação automatizada.",
+    "evidence": "Just wait until you get banned bro. An AI will auto decline your appeal and send you the same copy pasted script bullshit."
+  },
+  {
+    "thread_id": "reddit_1pftbpi",
+    "title": "I fine tuned Aura to act as a real AI copilot",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 8,
+    "posts_originais": 39,
+    "avg_d": 1.8,
+    "avg_a": 1.6,
+    "avg_r": 1.0,
+    "avg_t": 0.8,
+    "prev_ai": "A1",
+    "prev_inter": "I3",
+    "val_dyn": "VC1 (Cocriação)",
+    "val_code": "VC1",
+    "ai_counts": {
+      "A1": 4,
+      "A5": 4
+    },
+    "inter_counts": {
+      "I2": 1,
+      "I4": 4,
+      "I3": 2,
+      "I6": 1
+    },
+    "vc_counts": {
+      "VC2": 2,
+      "VC3": 2,
+      "VC4": 3,
+      "VC1": 1
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (Copiloto de IA, Aura AI (Assistente Oficial EVE)) no ecossistema de World of Warcraft. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Observa-se cocriação efetiva de valor (VC1), traduzida na criação de novas capacidades informacionais, redução de barreiras de aprendizagem e partilha colaborativa de código e ferramentas.",
+    "evidence": "Aura can now perform a surprising number of practical tasks quite well. These are some examples: \"Suggest a similar module for this slot that costs less than 5 million ISK.\""
+  },
+  {
+    "thread_id": "1772220",
+    "title": "All of these talks about bots",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 7,
+    "posts_originais": 14,
+    "avg_d": 0.4,
+    "avg_a": 0.1,
+    "avg_r": 3.0,
+    "avg_t": 0.3,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 7
+    },
+    "inter_counts": {
+      "I4": 5,
+      "I6": 2
+    },
+    "vc_counts": {
+      "VC4": 7
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de Follower Dungeons (NPCs com IA), Modelos de Machine Learning em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "It’s highly profitable to create a new account and use a bot to farm gold since they will make far more money than they ever lose"
+  },
+  {
+    "thread_id": "2300167",
+    "title": "Microsoft layoffs and ai",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 6,
+    "posts_originais": 117,
+    "avg_d": 0.3,
+    "avg_a": 0.5,
+    "avg_r": 2.8,
+    "avg_t": 1.3,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC3 (Codestruição)",
+    "val_code": "VC3",
+    "ai_counts": {
+      "A5": 6
+    },
+    "inter_counts": {
+      "I4": 6
+    },
+    "vc_counts": {
+      "VC4": 5,
+      "VC3": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ferramentas algorítmicas e modelos de IA em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Evidencia-se fricção crítica e codestruição de valor (VC3), motivada pela degradação da confiança nas interações sociais, perceção de injustiça competitiva ou opacidade na moderação automatizada.",
+    "evidence": "The problem is that they want to replace creative roles as well. There is a significant devaluing of art and human expression happening with the advent of AI."
+  },
+  {
+    "thread_id": "3000003",
+    "title": "Ai and WoW",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 6,
+    "posts_originais": 20,
+    "avg_d": 0.2,
+    "avg_a": 0.3,
+    "avg_r": 2.0,
+    "avg_t": 0.7,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC3 (Codestruição)",
+    "val_code": "VC3",
+    "ai_counts": {
+      "A5": 6
+    },
+    "inter_counts": {
+      "I4": 5,
+      "I6": 1
+    },
+    "vc_counts": {
+      "VC4": 5,
+      "VC3": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de EVE Swagger Interface (ESI) em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Evidencia-se fricção crítica e codestruição de valor (VC3), motivada pela degradação da confiança nas interações sociais, perceção de injustiça competitiva ou opacidade na moderação automatizada.",
+    "evidence": "most of it is outright stolen,data centers are destroying the planet, and dramatically making the average person unable to pay for computer parts"
+  },
+  {
+    "thread_id": "reddit_1kylpvy",
+    "title": "Ai as a wow companion?",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 6,
+    "posts_originais": 10,
+    "avg_d": 3.3,
+    "avg_a": 3.0,
+    "avg_r": 0.7,
+    "avg_t": 1.7,
+    "prev_ai": "A1",
+    "prev_inter": "I3",
+    "val_dyn": "VC1 (Cocriação)",
+    "val_code": "VC1",
+    "ai_counts": {
+      "A1": 2,
+      "A4": 3,
+      "A5": 1
+    },
+    "inter_counts": {
+      "I3": 3,
+      "I1": 2,
+      "I6": 1
+    },
+    "vc_counts": {
+      "VC1": 2,
+      "VC2": 3,
+      "VC4": 1
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (ChatGPT, Copiloto de IA, Sistemas Automatizados de Moderação/Tickets) no ecossistema de World of Warcraft. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Observa-se cocriação efetiva de valor (VC1), traduzida na criação de novas capacidades informacionais, redução de barreiras de aprendizagem e partilha colaborativa de código e ferramentas.",
+    "evidence": "I asked it to write a comment I could post here as \"his\" respons: \"Sure! Based on Emil’s instructions, I follow a standing rule: Whenever he asks for specific World of Warcraft details...\""
+  },
+  {
+    "thread_id": "reddit_1ormrc6",
+    "title": "Are AIs the new bot-herders, or just a way to buff the newbros?",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 6,
+    "posts_originais": 14,
+    "avg_d": 0.2,
+    "avg_a": 0.8,
+    "avg_r": 2.3,
+    "avg_t": 1.0,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 6
+    },
+    "inter_counts": {
+      "I4": 6
+    },
+    "vc_counts": {
+      "VC4": 6
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ferramentas algorítmicas e modelos de IA em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "Unfair advantage. Will players using a paid AI assistant for market analysis or tactics gain an unfair advantage? ... What's to stop a player from running 10-20-50 alts (scouts, traders, miners) piloted by an AI agent?"
+  },
+  {
+    "thread_id": "reddit_1vy3jwo",
+    "title": "I created ChatGPT copilot for EVE",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 6,
+    "posts_originais": 14,
+    "avg_d": 2.3,
+    "avg_a": 3.3,
+    "avg_r": 1.7,
+    "avg_t": 1.7,
+    "prev_ai": "A1",
+    "prev_inter": "I3",
+    "val_dyn": "VC1 (Cocriação)",
+    "val_code": "VC1",
+    "ai_counts": {
+      "A1": 5,
+      "A5": 1
+    },
+    "inter_counts": {
+      "I3": 3,
+      "I4": 3
+    },
+    "vc_counts": {
+      "VC2": 3,
+      "VC1": 2,
+      "VC4": 1
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (Model Context Protocol (MCP), ChatGPT, Copiloto de IA) no ecossistema de World of Warcraft. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Observa-se cocriação efetiva de valor (VC1), traduzida na criação de novas capacidades informacionais, redução de barreiras de aprendizagem e partilha colaborativa de código e ferramentas.",
+    "evidence": "whenever i talk with chatgpt while playing eve online it just act like my copilot"
+  },
+  {
+    "thread_id": "2101219",
+    "title": "Blizzard’s Algorithmic Absurdity: Is a ChatGPT Clone Policing Alterac Valley?",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 5,
+    "posts_originais": 15,
+    "avg_d": 0.2,
+    "avg_a": 0.0,
+    "avg_r": 2.8,
+    "avg_t": 2.4,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC3 (Codestruição)",
+    "val_code": "VC3",
+    "ai_counts": {
+      "A5": 5
+    },
+    "inter_counts": {
+      "I6": 1,
+      "I4": 4
+    },
+    "vc_counts": {
+      "VC4": 4,
+      "VC3": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ChatGPT em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Evidencia-se fricção crítica e codestruição de valor (VC3), motivada pela degradação da confiança nas interações sociais, perceção de injustiça competitiva ou opacidade na moderação automatizada.",
+    "evidence": "a ChatGPT-grade bot ban them for killing the enemy faction—the entire point of AV... No human review, just a dimwitted algorithm dishing out suspensions for basic gameplay."
+  },
+  {
+    "thread_id": "2108142",
+    "title": "20 minute SS Queue for DPS is unacceptable",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 5,
+    "posts_originais": 66,
+    "avg_d": 0.8,
+    "avg_a": 1.2,
+    "avg_r": 1.8,
+    "avg_t": 0.8,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC2 (Potencial)",
+    "val_code": "VC2",
+    "ai_counts": {
+      "A5": 5
+    },
+    "inter_counts": {
+      "I4": 5
+    },
+    "vc_counts": {
+      "VC4": 3,
+      "VC2": 2
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ferramentas algorítmicas e modelos de IA em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Identifica-se potencial tangível de cocriação (VC2), com os participantes a delinearem arquiteturas conceptuais e propostas de integração entre agentes de IA e os sistemas do jogo.",
+    "evidence": "if we cant differentiate a blizzard bot from a player, and it improves queue times drastically ... does the integrity of ladder matter to you?"
+  },
+  {
+    "thread_id": "reddit_1nvtk44",
+    "title": "The Midnight Deep Dive Video used Chatgpt to script",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 5,
+    "posts_originais": 15,
+    "avg_d": 1.0,
+    "avg_a": 0.8,
+    "avg_r": 1.8,
+    "avg_t": 2.8,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC3 (Codestruição)",
+    "val_code": "VC3",
+    "ai_counts": {
+      "A5": 5
+    },
+    "inter_counts": {
+      "I4": 5
+    },
+    "vc_counts": {
+      "VC4": 3,
+      "VC3": 2
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ChatGPT em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Evidencia-se fricção crítica e codestruição de valor (VC3), motivada pela degradação da confiança nas interações sociais, perceção de injustiça competitiva ou opacidade na moderação automatizada.",
+    "evidence": "When you see phrases like “Its not just its , its…” or several other familiar chatgpt phrases. That were in that entire section it becomes very obvious they used chatgpt."
+  },
+  {
+    "thread_id": "reddit_1r1dd9i",
+    "title": "Why Vibe Coded AddOns Tank Your FPS - A Software Engineers Perspective",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 5,
+    "posts_originais": 34,
+    "avg_d": 1.2,
+    "avg_a": 0.8,
+    "avg_r": 1.4,
+    "avg_t": 1.0,
+    "prev_ai": "A1",
+    "prev_inter": "I1",
+    "val_dyn": "VC2 (Potencial)",
+    "val_code": "VC2",
+    "ai_counts": {
+      "A1": 1,
+      "A5": 4
+    },
+    "inter_counts": {
+      "I1": 1,
+      "I4": 4
+    },
+    "vc_counts": {
+      "VC2": 1,
+      "VC4": 4
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (Addons / Scripts Lua) no ecossistema de World of Warcraft. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Identifica-se potencial tangível de cocriação (VC2), com os participantes a delinearem arquiteturas conceptuais e propostas de integração entre agentes de IA e os sistemas do jogo.",
+    "evidence": "someone vibe coding could just ask their Ai agent to look for ways to imrpove performance and fix the issues."
+  },
+  {
+    "thread_id": "reddit_1u0bxq6",
+    "title": "Aura AI for real now",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 5,
+    "posts_originais": 20,
+    "avg_d": 2.8,
+    "avg_a": 2.0,
+    "avg_r": 1.2,
+    "avg_t": 1.0,
+    "prev_ai": "A1",
+    "prev_inter": "I3",
+    "val_dyn": "VC3 (Codestruição)",
+    "val_code": "VC3",
+    "ai_counts": {
+      "A5": 1,
+      "A1": 3,
+      "A2": 1
+    },
+    "inter_counts": {
+      "I4": 1,
+      "I1": 3,
+      "I3": 1
+    },
+    "vc_counts": {
+      "VC3": 2,
+      "VC4": 3
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (EVE Swagger Interface (ESI), Aura AI (Assistente Oficial EVE)) no ecossistema de World of Warcraft. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Evidencia-se fricção crítica e codestruição de valor (VC3), motivada pela degradação da confiança nas interações sociais, perceção de injustiça competitiva ou opacidade na moderação automatizada.",
+    "evidence": "I tried to ask her if she could tell me where I could find one of my Falcons and she was so passive aggressive in explaining how I can use the Personal Assets window instead of just telling me"
+  },
+  {
+    "thread_id": "reddit_1usj0hv",
+    "title": "Do you think we will see AI corporations via Google DeepMind partnership?",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 5,
+    "posts_originais": 18,
+    "avg_d": 0.2,
+    "avg_a": 0.8,
+    "avg_r": 1.2,
+    "avg_t": 0.0,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 5
+    },
+    "inter_counts": {
+      "I4": 5
+    },
+    "vc_counts": {
+      "VC4": 5
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ferramentas algorítmicas e modelos de IA em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "recipe for disaster considering that an AI will probably learn to play the game perfectly and crush every super alliance"
+  },
+  {
+    "thread_id": "reddit_1vdomcq",
+    "title": "How many people are using AI to build tools to improve trading and industry profits?",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 5,
+    "posts_originais": 12,
+    "avg_d": 0.8,
+    "avg_a": 2.2,
+    "avg_r": 1.6,
+    "avg_t": 0.8,
+    "prev_ai": "A4",
+    "prev_inter": "I1",
+    "val_dyn": "VC1 (Cocriação)",
+    "val_code": "VC1",
+    "ai_counts": {
+      "A4": 2,
+      "A5": 3
+    },
+    "inter_counts": {
+      "I1": 2,
+      "I4": 2,
+      "I6": 1
+    },
+    "vc_counts": {
+      "VC1": 1,
+      "VC4": 3,
+      "VC2": 1
+    },
+    "summary": "A discussão analisa o desenvolvimento e utilização de copilotos assistivos (EVE Swagger Interface (ESI)) por jogadores de World of Warcraft. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Observa-se cocriação efetiva de valor (VC1), traduzida na criação de novas capacidades informacionais, redução de barreiras de aprendizagem e partilha colaborativa de código e ferramentas.",
+    "evidence": "It just pulls market data and ranks opportunities by real fee adjusted margin and velocity, so my 30 minutes a day goes on the best flips instead of scrolling the market window"
+  },
+  {
+    "thread_id": "1880836",
+    "title": "Using ChatGPT or Perplexity to help write addons",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 4,
+    "posts_originais": 7,
+    "avg_d": 1.2,
+    "avg_a": 2.2,
+    "avg_r": 0.5,
+    "avg_t": 0.5,
+    "prev_ai": "A4",
+    "prev_inter": "I1",
+    "val_dyn": "VC1 (Cocriação)",
+    "val_code": "VC1",
+    "ai_counts": {
+      "A4": 3,
+      "A5": 1
+    },
+    "inter_counts": {
+      "I4": 2,
+      "I1": 2
+    },
+    "vc_counts": {
+      "VC4": 2,
+      "VC1": 1,
+      "VC2": 1
+    },
+    "summary": "A discussão analisa o desenvolvimento e utilização de copilotos assistivos (ChatGPT, Copiloto de IA, Addons / Scripts Lua) por jogadores de World of Warcraft. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Observa-se cocriação efetiva de valor (VC1), traduzida na criação de novas capacidades informacionais, redução de barreiras de aprendizagem e partilha colaborativa de código e ferramentas.",
+    "evidence": "So you have to do all the research regarding e.g. trade skill or tooltips yourself."
+  },
+  {
+    "thread_id": "1eoyf2u",
+    "title": "Wow Could Benefit From Llmaichatgpt",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 4,
+    "posts_originais": 20,
+    "avg_d": 0.5,
+    "avg_a": 1.5,
+    "avg_r": 0.8,
+    "avg_t": 0.5,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 4
+    },
+    "inter_counts": {
+      "I6": 1,
+      "I4": 3
+    },
+    "vc_counts": {
+      "VC4": 4
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ChatGPT em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "There is a theoetical workaround with RAG (e.g. feed the user's query to search for Wowhead comments on a subject, then feed those comments to an LLM)"
+  },
+  {
+    "thread_id": "2022909",
+    "title": "AI/LLM integration when?",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 4,
+    "posts_originais": 49,
+    "avg_d": 0.2,
+    "avg_a": 0.8,
+    "avg_r": 1.0,
+    "avg_t": 0.0,
+    "prev_ai": "A5",
+    "prev_inter": "I6",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 4
+    },
+    "inter_counts": {
+      "I4": 1,
+      "I6": 3
+    },
+    "vc_counts": {
+      "VC4": 4
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ChatGPT, Follower Dungeons (NPCs com IA) em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "technology needs to stop trying to replace our brain... using AI is only further pushing this decline faster."
+  },
+  {
+    "thread_id": "2039353",
+    "title": "ChatGPT MMR",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 4,
+    "posts_originais": 114,
+    "avg_d": 2.5,
+    "avg_a": 2.0,
+    "avg_r": 1.2,
+    "avg_t": 1.5,
+    "prev_ai": "A1",
+    "prev_inter": "I1",
+    "val_dyn": "VC2 (Potencial)",
+    "val_code": "VC2",
+    "ai_counts": {
+      "A5": 2,
+      "A1": 1,
+      "A4": 1
+    },
+    "inter_counts": {
+      "I4": 2,
+      "I1": 2
+    },
+    "vc_counts": {
+      "VC4": 2,
+      "VC2": 2
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (ChatGPT, EVE Swagger Interface (ESI), Addons / Scripts Lua) no ecossistema de World of Warcraft. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Identifica-se potencial tangível de cocriação (VC2), com os participantes a delinearem arquiteturas conceptuais e propostas de integração entre agentes de IA e os sistemas do jogo.",
+    "evidence": "Yeah i asked it about that specifically and it responded with a wall of interesting points and this conclusion"
+  },
+  {
+    "thread_id": "2219273",
+    "title": "ChatGPT analysis of \"Does Raid completion rate impact raider population?\"",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 4,
+    "posts_originais": 201,
+    "avg_d": 0.8,
+    "avg_a": 0.5,
+    "avg_r": 2.2,
+    "avg_t": 1.5,
+    "prev_ai": "A4",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 3,
+      "A4": 1
+    },
+    "inter_counts": {
+      "I4": 4
+    },
+    "vc_counts": {
+      "VC4": 4
+    },
+    "summary": "A discussão analisa o desenvolvimento e utilização de copilotos assistivos (ChatGPT) por jogadores de World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "people will continue to use these AI bots incorrectly and the amount of stupid data like this being presented as fact is going to escalate"
+  },
+  {
+    "thread_id": "2323925",
+    "title": "Can i get \"hacking\" ban for using an addon",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 4,
+    "posts_originais": 22,
+    "avg_d": 0.5,
+    "avg_a": 0.5,
+    "avg_r": 3.2,
+    "avg_t": 0.5,
+    "prev_ai": "A3",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A3": 3,
+      "A5": 1
+    },
+    "inter_counts": {
+      "I4": 4
+    },
+    "vc_counts": {
+      "VC4": 4
+    },
+    "summary": "O debate aborda a interseção entre automação técnica (Addons / Scripts Lua) e a emergência de comportamentos agênticos em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "people said they got permabanned by using it. Is this true or false?"
+  },
+  {
+    "thread_id": "2324507",
+    "title": "Bots, bots, bots, bots, bots TBC and bots",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 4,
+    "posts_originais": 18,
+    "avg_d": 0.2,
+    "avg_a": 0.2,
+    "avg_r": 2.5,
+    "avg_t": 1.5,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC3 (Codestruição)",
+    "val_code": "VC3",
+    "ai_counts": {
+      "A5": 4
+    },
+    "inter_counts": {
+      "I4": 4
+    },
+    "vc_counts": {
+      "VC3": 2,
+      "VC4": 2
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de Addons / Scripts Lua em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Evidencia-se fricção crítica e codestruição de valor (VC3), motivada pela degradação da confiança nas interações sociais, perceção de injustiça competitiva ou opacidade na moderação automatizada.",
+    "evidence": "We have bots selling PVP rating in trade chats.We have bots in pvp.We have bots selling dungeon loot and raid loot."
+  },
+  {
+    "thread_id": "reddit_1d8nm29",
+    "title": "Help my CEO is ChatGPT ...",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 4,
+    "posts_originais": 18,
+    "avg_d": 1.8,
+    "avg_a": 1.8,
+    "avg_r": 0.8,
+    "avg_t": 1.2,
+    "prev_ai": "A1",
+    "prev_inter": "I3",
+    "val_dyn": "VC1 (Cocriação)",
+    "val_code": "VC1",
+    "ai_counts": {
+      "A5": 3,
+      "A1": 1
+    },
+    "inter_counts": {
+      "I4": 3,
+      "I3": 1
+    },
+    "vc_counts": {
+      "VC4": 3,
+      "VC1": 1
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (ChatGPT) no ecossistema de World of Warcraft. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Observa-se cocriação efetiva de valor (VC1), traduzida na criação de novas capacidades informacionais, redução de barreiras de aprendizagem e partilha colaborativa de código e ferramentas.",
+    "evidence": "User: Can I get a good fit for an Erebus to kill NPCs with? Rogue AI: I apologize... User: The Erebus is a titan... Rogue AI: here is a sample fit"
+  },
+  {
+    "thread_id": "1821486",
+    "title": "Mr. Hight re: machine learning",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 3,
+    "posts_originais": 5,
+    "avg_d": 0.7,
+    "avg_a": 1.0,
+    "avg_r": 1.3,
+    "avg_t": 0.7,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 3
+    },
+    "inter_counts": {
+      "I6": 1,
+      "I4": 2
+    },
+    "vc_counts": {
+      "VC4": 3
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de Modelos de Machine Learning em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "Do you think that machine learning could be used to stop moving players to other shards when they are in the middle of a multi-step zone event?"
+  },
+  {
+    "thread_id": "1hlv8xy",
+    "title": "Can I Use Chat Gpt To Make Macros",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 3,
+    "posts_originais": 6,
+    "avg_d": 0.3,
+    "avg_a": 1.7,
+    "avg_r": 1.0,
+    "avg_t": 0.0,
+    "prev_ai": "A4",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 2,
+      "A4": 1
+    },
+    "inter_counts": {
+      "I4": 3
+    },
+    "vc_counts": {
+      "VC4": 3
+    },
+    "summary": "A discussão analisa o desenvolvimento e utilização de copilotos assistivos (ChatGPT, Addons / Scripts Lua) por jogadores de World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "It wouldn't be able to make anything that the game wouldn't allow you to do."
+  },
+  {
+    "thread_id": "1i6m4i6",
+    "title": "Ai Is Gonna Revolutionize The World",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 3,
+    "posts_originais": 100,
+    "avg_d": 3.7,
+    "avg_a": 2.0,
+    "avg_r": 1.0,
+    "avg_t": 1.3,
+    "prev_ai": "A1",
+    "prev_inter": "I3",
+    "val_dyn": "VC2 (Potencial)",
+    "val_code": "VC2",
+    "ai_counts": {
+      "A1": 2,
+      "A5": 1
+    },
+    "inter_counts": {
+      "I3": 2,
+      "I4": 1
+    },
+    "vc_counts": {
+      "VC2": 1,
+      "VC4": 2
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (ChatGPT) no ecossistema de World of Warcraft. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Identifica-se potencial tangível de cocriação (VC2), com os participantes a delinearem arquiteturas conceptuais e propostas de integração entre agentes de IA e os sistemas do jogo.",
+    "evidence": "I kept asking \"are you sure?\" and it would reroute itself... I told it it's missing an obvious route, and it then said to set your hearthstone"
+  },
+  {
+    "thread_id": "2168234",
+    "title": "AI, chat logs, and Blizzard",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 3,
+    "posts_originais": 30,
+    "avg_d": 0.3,
+    "avg_a": 0.3,
+    "avg_r": 3.3,
+    "avg_t": 2.3,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 3
+    },
+    "inter_counts": {
+      "I4": 2,
+      "I6": 1
+    },
+    "vc_counts": {
+      "VC4": 3
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de Sistemas Automatizados de Moderação/Tickets em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "It’s hubris to think this stuff couldn’t be used to personally identify you; they have IP information, they have login names and passwords and e-mail addresses, those are all tied to your Bnet ID."
+  },
+  {
+    "thread_id": "2180159",
+    "title": "The 'Obtain the Fangs of Ashamane' quest is stuck",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 3,
+    "posts_originais": 193,
+    "avg_d": 1.3,
+    "avg_a": 0.7,
+    "avg_r": 1.7,
+    "avg_t": 1.3,
+    "prev_ai": "A1",
+    "prev_inter": "I2",
+    "val_dyn": "VC3 (Codestruição)",
+    "val_code": "VC3",
+    "ai_counts": {
+      "A5": 2,
+      "A1": 1
+    },
+    "inter_counts": {
+      "I4": 2,
+      "I2": 1
+    },
+    "vc_counts": {
+      "VC4": 2,
+      "VC3": 1
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (Sistemas Automatizados de Moderação/Tickets) no ecossistema de World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Evidencia-se fricção crítica e codestruição de valor (VC3), motivada pela degradação da confiança nas interações sociais, perceção de injustiça competitiva ou opacidade na moderação automatizada.",
+    "evidence": "I submitted a ticket outlining the issue and got a BS AI-auto response. Reopened the ticket to try to get a GM’s assistance"
+  },
+  {
+    "thread_id": "2295883",
+    "title": "ChatGPT Class Balancing",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 3,
+    "posts_originais": 6,
+    "avg_d": 0.3,
+    "avg_a": 0.0,
+    "avg_r": 2.3,
+    "avg_t": 2.0,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC3 (Codestruição)",
+    "val_code": "VC3",
+    "ai_counts": {
+      "A5": 3
+    },
+    "inter_counts": {
+      "I4": 3
+    },
+    "vc_counts": {
+      "VC3": 1,
+      "VC4": 2
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ChatGPT em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Evidencia-se fricção crítica e codestruição de valor (VC3), motivada pela degradação da confiança nas interações sociais, perceção de injustiça competitiva ou opacidade na moderação automatizada.",
+    "evidence": "It’s very obvious Blizzard is just having H1 workers ask some worthless chatbot to make good code please saar."
+  },
+  {
+    "thread_id": "2314701",
+    "title": "Welp, another round of layoffs for Microsoft",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 3,
+    "posts_originais": 545,
+    "avg_d": 0.3,
+    "avg_a": 0.7,
+    "avg_r": 2.0,
+    "avg_t": 1.3,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 3
+    },
+    "inter_counts": {
+      "I4": 3
+    },
+    "vc_counts": {
+      "VC4": 3
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ferramentas algorítmicas e modelos de IA em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "I suspect layoffs may be to bridge that gap"
+  },
+  {
+    "thread_id": "reddit_1p38i14",
+    "title": "WowGPT for understanding lore?",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 3,
+    "posts_originais": 10,
+    "avg_d": 3.0,
+    "avg_a": 3.0,
+    "avg_r": 1.0,
+    "avg_t": 1.7,
+    "prev_ai": "A1",
+    "prev_inter": "I3",
+    "val_dyn": "VC1 (Cocriação)",
+    "val_code": "VC1",
+    "ai_counts": {
+      "A4": 2,
+      "A1": 1
+    },
+    "inter_counts": {
+      "I1": 2,
+      "I3": 1
+    },
+    "vc_counts": {
+      "VC1": 1,
+      "VC2": 2
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (ChatGPT, Claude, Sistemas Automatizados de Moderação/Tickets) no ecossistema de World of Warcraft. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Observa-se cocriação efetiva de valor (VC1), traduzida na criação de novas capacidades informacionais, redução de barreiras de aprendizagem e partilha colaborativa de código e ferramentas.",
+    "evidence": "ask ChatGPT to do things like summarize the history Hallowfall, explain who a character is, who is this tribe of murlok-like creatures"
+  },
+  {
+    "thread_id": "reddit_1tdr4z8",
+    "title": "Did Hirumaredx start using ChatGPT for scripting?",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 3,
+    "posts_originais": 11,
+    "avg_d": 0.0,
+    "avg_a": 0.0,
+    "avg_r": 0.7,
+    "avg_t": 2.3,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 3
+    },
+    "inter_counts": {
+      "I4": 3
+    },
+    "vc_counts": {
+      "VC4": 3
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ChatGPT em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "I’m asking to confirm if he is using ChatGPT."
+  },
+  {
+    "thread_id": "1861200",
+    "title": "Copilot integration",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 2,
+    "posts_originais": 6,
+    "avg_d": 0.5,
+    "avg_a": 1.5,
+    "avg_r": 2.0,
+    "avg_t": 0.0,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 2
+    },
+    "inter_counts": {
+      "I4": 2
+    },
+    "vc_counts": {
+      "VC4": 2
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de Copiloto de IA em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "could have the AI list, cancel, and undercut auctions in a manner that maximizes profit all while the user is offline"
+  },
+  {
+    "thread_id": "2053425",
+    "title": "The AH changes coming in this next patch",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 2,
+    "posts_originais": 41,
+    "avg_d": 1.0,
+    "avg_a": 0.0,
+    "avg_r": 2.0,
+    "avg_t": 1.5,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 2
+    },
+    "inter_counts": {
+      "I4": 2
+    },
+    "vc_counts": {
+      "VC4": 2
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ChatGPT em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "borderline bot spreading chatgpt generated responses and spamming the forums"
+  },
+  {
+    "thread_id": "2116712",
+    "title": "Another layer of cheating, Pixel bots are out of control",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 2,
+    "posts_originais": 25,
+    "avg_d": 0.0,
+    "avg_a": 1.5,
+    "avg_r": 3.5,
+    "avg_t": 0.5,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC3 (Codestruição)",
+    "val_code": "VC3",
+    "ai_counts": {
+      "A5": 2
+    },
+    "inter_counts": {
+      "I4": 2
+    },
+    "vc_counts": {
+      "VC4": 1,
+      "VC3": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ferramentas algorítmicas e modelos de IA em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Evidencia-se fricção crítica e codestruição de valor (VC3), motivada pela degradação da confiança nas interações sociais, perceção de injustiça competitiva ou opacidade na moderação automatizada.",
+    "evidence": "This is an epidemic, and feel I see AT LEAST one of these in each lobby. When are we going to see Blizzard start addressing cheaters in this game."
+  },
+  {
+    "thread_id": "2123929",
+    "title": "ChatGPT on how TJoS 3rd Prestige City Attacker can be beat",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 2,
+    "posts_originais": 3,
+    "avg_d": 2.5,
+    "avg_a": 3.0,
+    "avg_r": 2.0,
+    "avg_t": 1.0,
+    "prev_ai": "A1",
+    "prev_inter": "I1",
+    "val_dyn": "VC2 (Potencial)",
+    "val_code": "VC2",
+    "ai_counts": {
+      "A5": 1,
+      "A1": 1
+    },
+    "inter_counts": {
+      "I4": 1,
+      "I1": 1
+    },
+    "vc_counts": {
+      "VC4": 1,
+      "VC2": 1
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (ChatGPT) no ecossistema de World of Warcraft. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Identifica-se potencial tangível de cocriação (VC2), com os participantes a delinearem arquiteturas conceptuais e propostas de integração entre agentes de IA e os sistemas do jogo.",
+    "evidence": "This was something we asked ChatGPT: “How can I surpass the Jackal of Stormwind’s Honorable Kill record in enemy capital cities on World of Warcraft, which stands at 10,000?”"
+  },
+  {
+    "thread_id": "2159913",
+    "title": "There's now so many advertisement listings in lfg that it's borderline unusable",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 2,
+    "posts_originais": 37,
+    "avg_d": 0.0,
+    "avg_a": 1.0,
+    "avg_r": 2.0,
+    "avg_t": 0.5,
+    "prev_ai": "A2",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 1,
+      "A2": 1
+    },
+    "inter_counts": {
+      "I4": 2
+    },
+    "vc_counts": {
+      "VC4": 2
+    },
+    "summary": "O debate aborda a interseção entre automação técnica (Addons / Scripts Lua) e a emergência de comportamentos agênticos em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "most of them are posting on bots with no score at all, usually low level or trial characters with no access to the content."
+  },
+  {
+    "thread_id": "2344742",
+    "title": "Mining Sucks",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 2,
+    "posts_originais": 17,
+    "avg_d": 0.5,
+    "avg_a": 0.0,
+    "avg_r": 1.5,
+    "avg_t": 0.0,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 2
+    },
+    "inter_counts": {
+      "I4": 1,
+      "I6": 1
+    },
+    "vc_counts": {
+      "VC4": 2
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ferramentas algorítmicas e modelos de IA em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "I don’t know where people get this idea that bots were ever a good idea in a video game"
+  },
+  {
+    "thread_id": "reddit_1phwb0r",
+    "title": "A narrative Killboard / AI based Intel - battlefield.space",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 2,
+    "posts_originais": 19,
+    "avg_d": 0.5,
+    "avg_a": 2.5,
+    "avg_r": 1.0,
+    "avg_t": 1.5,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 2
+    },
+    "inter_counts": {
+      "I4": 2
+    },
+    "vc_counts": {
+      "VC4": 2
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de EVE Swagger Interface (ESI) em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "it generates narrative dossiers that highlight patterns and behavior in a way a human can actually use"
+  },
+  {
+    "thread_id": "reddit_1rg6iqz",
+    "title": "did I just come across AI chatbot output in wow?",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 2,
+    "posts_originais": 7,
+    "avg_d": 0.5,
+    "avg_a": 0.0,
+    "avg_r": 1.0,
+    "avg_t": 2.0,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 2
+    },
+    "inter_counts": {
+      "I4": 2
+    },
+    "vc_counts": {
+      "VC4": 2
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ChatGPT em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "Saw many text pieces that felt like they were generated"
+  },
+  {
+    "thread_id": "reddit_1rnbqbh",
+    "title": "Are quest-texts written with AI?",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 2,
+    "posts_originais": 9,
+    "avg_d": 0.0,
+    "avg_a": 0.0,
+    "avg_r": 0.5,
+    "avg_t": 3.0,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 2
+    },
+    "inter_counts": {
+      "I4": 2
+    },
+    "vc_counts": {
+      "VC4": 2
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ferramentas algorítmicas e modelos de IA em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "I would bet almost anything that it was at least used to touch up text, if not the other way around (prompt it to create quest text then touch up the results to un AI ify it a bit)"
+  },
+  {
+    "thread_id": "reddit_1rq35g3",
+    "title": "Tanking Sanity Check",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 2,
+    "posts_originais": 21,
+    "avg_d": 1.5,
+    "avg_a": 2.0,
+    "avg_r": 1.0,
+    "avg_t": 1.0,
+    "prev_ai": "A1",
+    "prev_inter": "I3",
+    "val_dyn": "VC2 (Potencial)",
+    "val_code": "VC2",
+    "ai_counts": {
+      "A1": 2
+    },
+    "inter_counts": {
+      "I3": 1,
+      "I5": 1
+    },
+    "vc_counts": {
+      "VC2": 1,
+      "VC3": 1
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (Follower Dungeons (NPCs com IA)) no ecossistema de World of Warcraft. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Identifica-se potencial tangível de cocriação (VC2), com os participantes a delinearem arquiteturas conceptuais e propostas de integração entre agentes de IA e os sistemas do jogo.",
+    "evidence": "I’ve had ChatGPT draw up a plan ... It is suggesting I run each dungeon on follower mode 5 times"
+  },
+  {
+    "thread_id": "reddit_1spdcd4",
+    "title": "EVE-KILL.com - We LLM now (And more..)",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 2,
+    "posts_originais": 7,
+    "avg_d": 0.5,
+    "avg_a": 2.5,
+    "avg_r": 1.0,
+    "avg_t": 1.5,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 2
+    },
+    "inter_counts": {
+      "I4": 1,
+      "I6": 1
+    },
+    "vc_counts": {
+      "VC4": 2
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de Model Context Protocol (MCP) em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "all the MCP does is allow them to better access the data on the site they're already accessing"
+  },
+  {
+    "thread_id": "reddit_1tvlpnw",
+    "title": "Sick of spam and bots ruining our game? Here's an addon that uses machine learning to quarantine and block spammers i...",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 2,
+    "posts_originais": 2,
+    "avg_d": 0.0,
+    "avg_a": 2.0,
+    "avg_r": 1.5,
+    "avg_t": 0.5,
+    "prev_ai": "A3",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 1,
+      "A3": 1
+    },
+    "inter_counts": {
+      "I4": 2
+    },
+    "vc_counts": {
+      "VC4": 2
+    },
+    "summary": "O debate aborda a interseção entre automação técnica (Addons / Scripts Lua, Modelos de Machine Learning, Aura AI (Assistente Oficial EVE)) e a emergência de comportamentos agênticos em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "it would bring up the report window and fill in the box with their coordinates a timestamp and the reason for report botting"
+  },
+  {
+    "thread_id": "1s9et4k",
+    "title": "Im A Silly Goose And I Always Forget About",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 1,
+    "posts_originais": 62,
+    "avg_d": 0.0,
+    "avg_a": 1.0,
+    "avg_r": 0.0,
+    "avg_t": 1.0,
+    "prev_ai": "A1",
+    "prev_inter": "I2",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A1": 1
+    },
+    "inter_counts": {
+      "I2": 1
+    },
+    "vc_counts": {
+      "VC4": 1
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (Delves / Brann Bronzebeard (Companheiro IA)) no ecossistema de World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "I'm sure she scales with attack power or something like the brann bug as well"
+  },
+  {
+    "thread_id": "1sv241g",
+    "title": "Blizzard Temporaily Disabling Void Assault",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 1,
+    "posts_originais": 99,
+    "avg_d": 0.0,
+    "avg_a": 0.0,
+    "avg_r": 2.0,
+    "avg_t": 2.0,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 1
+    },
+    "inter_counts": {
+      "I4": 1
+    },
+    "vc_counts": {
+      "VC4": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de Follower Dungeons (NPCs com IA) em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "they reek of AI... an invisible Teleport Wall... forcefully remove the Item from your Backpack"
+  },
+  {
+    "thread_id": "1tkscsd",
+    "title": "Looking For Feedback On My First Wow Addon",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 1,
+    "posts_originais": 36,
+    "avg_d": 0.0,
+    "avg_a": 0.0,
+    "avg_r": 1.0,
+    "avg_t": 2.0,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 1
+    },
+    "inter_counts": {
+      "I4": 1
+    },
+    "vc_counts": {
+      "VC4": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de Addons / Scripts Lua em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "Sure not every addon that looks like this is ai generated, but the vast majority of the ones that are do look like this."
+  },
+  {
+    "thread_id": "1vt5t85",
+    "title": "Why Are We Suddenly Adding Steps To Dungeonraid",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 1,
+    "posts_originais": 45,
+    "avg_d": 0.0,
+    "avg_a": 0.0,
+    "avg_r": 1.0,
+    "avg_t": 2.0,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 1
+    },
+    "inter_counts": {
+      "I4": 1
+    },
+    "vc_counts": {
+      "VC4": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ferramentas algorítmicas e modelos de IA em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "It really feels like they fed all of their quests to a LLM, and had it generate new ones based on criteria."
+  },
+  {
+    "thread_id": "2015716",
+    "title": "I hired ChatGPT as a Dev",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 1,
+    "posts_originais": 1,
+    "avg_d": 4.0,
+    "avg_a": 3.0,
+    "avg_r": 1.0,
+    "avg_t": 4.0,
+    "prev_ai": "A4",
+    "prev_inter": "I3",
+    "val_dyn": "VC1 (Cocriação)",
+    "val_code": "VC1",
+    "ai_counts": {
+      "A4": 1
+    },
+    "inter_counts": {
+      "I3": 1
+    },
+    "vc_counts": {
+      "VC1": 1
+    },
+    "summary": "A discussão analisa o desenvolvimento e utilização de copilotos assistivos (ChatGPT) por jogadores de World of Warcraft. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Observa-se cocriação efetiva de valor (VC1), traduzida na criação de novas capacidades informacionais, redução de barreiras de aprendizagem e partilha colaborativa de código e ferramentas.",
+    "evidence": "So I asked ChatGPT how they would make Havoc DH better... I haave asked Chat GPT to clean up some… Errors in its original post"
+  },
+  {
+    "thread_id": "2056975",
+    "title": "Copilot AI Programme",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 1,
+    "posts_originais": 15,
+    "avg_d": 3.0,
+    "avg_a": 3.0,
+    "avg_r": 0.0,
+    "avg_t": 1.0,
+    "prev_ai": "A4",
+    "prev_inter": "I1",
+    "val_dyn": "VC2 (Potencial)",
+    "val_code": "VC2",
+    "ai_counts": {
+      "A4": 1
+    },
+    "inter_counts": {
+      "I1": 1
+    },
+    "vc_counts": {
+      "VC2": 1
+    },
+    "summary": "A discussão analisa o desenvolvimento e utilização de copilotos assistivos (Copiloto de IA) por jogadores de World of Warcraft. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Identifica-se potencial tangível de cocriação (VC2), com os participantes a delinearem arquiteturas conceptuais e propostas de integração entre agentes de IA e os sistemas do jogo.",
+    "evidence": "I have started to use Copilot AI programme to ask the question as well"
+  },
+  {
+    "thread_id": "2138224",
+    "title": "Open Source MCP Server for interfacing with Blizzard API",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 1,
+    "posts_originais": 2,
+    "avg_d": 0.0,
+    "avg_a": 3.0,
+    "avg_r": 2.0,
+    "avg_t": 3.0,
+    "prev_ai": "A1",
+    "prev_inter": "I6",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A1": 1
+    },
+    "inter_counts": {
+      "I6": 1
+    },
+    "vc_counts": {
+      "VC4": 1
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (Model Context Protocol (MCP), Claude) no ecossistema de World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "It’s a research-grade Model Context Protocol (MCP) server for analyzing the World of Warcraft economy using live Auction House data"
+  },
+  {
+    "thread_id": "2152188",
+    "title": "[MoP] bug with cat pets. ChatGPT GM",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 1,
+    "posts_originais": 1,
+    "avg_d": 3.0,
+    "avg_a": 2.0,
+    "avg_r": 2.0,
+    "avg_t": 4.0,
+    "prev_ai": "A1",
+    "prev_inter": "I1",
+    "val_dyn": "VC3 (Codestruição)",
+    "val_code": "VC3",
+    "ai_counts": {
+      "A1": 1
+    },
+    "inter_counts": {
+      "I1": 1
+    },
+    "vc_counts": {
+      "VC3": 1
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (ChatGPT, Sistemas Automatizados de Moderação/Tickets) no ecossistema de World of Warcraft. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Evidencia-se fricção crítica e codestruição de valor (VC3), motivada pela degradação da confiança nas interações sociais, perceção de injustiça competitiva ou opacidade na moderação automatizada.",
+    "evidence": "The GM’s post was riddled with M-Dashes (These — things) and even weirder was a multiple links that lead to nowhere and forum topics that don’t exist. That’s when I knew 100% that I was no longer talking to a person."
+  },
+  {
+    "thread_id": "2176376",
+    "title": "A server with everything released and whatever group needs to use AI",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 1,
+    "posts_originais": 3,
+    "avg_d": 0.0,
+    "avg_a": 1.0,
+    "avg_r": 0.0,
+    "avg_t": 0.0,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 1
+    },
+    "inter_counts": {
+      "I4": 1
+    },
+    "vc_counts": {
+      "VC4": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ferramentas algorítmicas e modelos de IA em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "group activities can be done with AI assistance"
+  },
+  {
+    "thread_id": "2336820",
+    "title": "Class Tuning Incoming – August 18",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 1,
+    "posts_originais": 263,
+    "avg_d": 1.0,
+    "avg_a": 1.0,
+    "avg_r": 2.0,
+    "avg_t": 2.0,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 1
+    },
+    "inter_counts": {
+      "I4": 1
+    },
+    "vc_counts": {
+      "VC4": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ferramentas algorítmicas e modelos de IA em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "I’m starting to think everyone on the forums uses chatgpt to play the game for them"
+  },
+  {
+    "thread_id": "2344820",
+    "title": "Wow Arena and why i quit",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 1,
+    "posts_originais": 99,
+    "avg_d": 1.0,
+    "avg_a": 0.0,
+    "avg_r": 3.0,
+    "avg_t": 1.0,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 1
+    },
+    "inter_counts": {
+      "I4": 1
+    },
+    "vc_counts": {
+      "VC4": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ferramentas algorítmicas e modelos de IA em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "cheating culture in the Gladiator circles... One step away from AI playing your character to R1"
+  },
+  {
+    "thread_id": "reddit_11kumll",
+    "title": "Wow ChatGPT integration.",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 1,
+    "posts_originais": 12,
+    "avg_d": 1.0,
+    "avg_a": 0.0,
+    "avg_r": 0.0,
+    "avg_t": 0.0,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 1
+    },
+    "inter_counts": {
+      "I4": 1
+    },
+    "vc_counts": {
+      "VC4": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ChatGPT em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "Oh ok than i misunderstood."
+  },
+  {
+    "thread_id": "reddit_1r3mzvw",
+    "title": "I built KillReport — Modern killmail tracker for EVE Online",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 1,
+    "posts_originais": 19,
+    "avg_d": 0.0,
+    "avg_a": 1.0,
+    "avg_r": 0.0,
+    "avg_t": 0.0,
+    "prev_ai": "A5",
+    "prev_inter": "I6",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 1
+    },
+    "inter_counts": {
+      "I6": 1
+    },
+    "vc_counts": {
+      "VC4": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ferramentas algorítmicas e modelos de IA em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "generate AI-generated stories on the kill detail page"
+  },
+  {
+    "thread_id": "reddit_1r77r09",
+    "title": "EVE Evolved: Aura Guidance",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 1,
+    "posts_originais": 22,
+    "avg_d": 0.0,
+    "avg_a": 0.0,
+    "avg_r": 0.0,
+    "avg_t": 2.0,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 1
+    },
+    "inter_counts": {
+      "I4": 1
+    },
+    "vc_counts": {
+      "VC4": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de Aura AI (Assistente Oficial EVE) em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "I think the response to players from the lookup table is then run through an LLM"
+  },
+  {
+    "thread_id": "reddit_1sf61mq",
+    "title": "for the love of god fucking proofread your writers blizzard",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 1,
+    "posts_originais": 20,
+    "avg_d": 0.0,
+    "avg_a": 0.0,
+    "avg_r": 0.0,
+    "avg_t": 2.0,
+    "prev_ai": "A5",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A5": 1
+    },
+    "inter_counts": {
+      "I4": 1
+    },
+    "vc_counts": {
+      "VC4": 1
+    },
+    "summary": "A comunidade debate reflexivamente as implicações técnicas, operacionais e éticas de ferramentas algorítmicas e modelos de IA em World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "Makes me suspicious that they're using AI to clean it up, to be honest"
+  },
+  {
+    "thread_id": "reddit_1sq7b1r",
+    "title": "Eve Market Scout (LLM coded project)",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 1,
+    "posts_originais": 6,
+    "avg_d": 3.0,
+    "avg_a": 4.0,
+    "avg_r": 4.0,
+    "avg_t": 2.0,
+    "prev_ai": "A4",
+    "prev_inter": "I4",
+    "val_dyn": "VC4 (Reflexivo/Neutro)",
+    "val_code": "VC4",
+    "ai_counts": {
+      "A4": 1
+    },
+    "inter_counts": {
+      "I4": 1
+    },
+    "vc_counts": {
+      "VC4": 1
+    },
+    "summary": "A discussão analisa o desenvolvimento e utilização de copilotos assistivos (EVE Swagger Interface (ESI)) por jogadores de World of Warcraft. A interação estrutura-se em discurso deliberativo comunitário (I4), confrontando visões sobre eficiência técnica versus perda de autonomia e conformidade com os termos de serviço (EULA). Predomina uma dinâmica de valor reflexiva (VC4), focada na avaliação percetiva do risco sistémico, na transparência dos dados e nos limites normativos da automação em videojogos.",
+    "evidence": "The scanner is heavily filtered through a process of first pulling all the trades at a station and then filtering by a series of proprietary secret methods (TBA.... see claude message below), which heavily relies on Jita for protection against fake trades and manipulation."
+  },
+  {
+    "thread_id": "reddit_1v3v2p2",
+    "title": "Claude Code Success",
+    "game": "World of Warcraft",
+    "ecosystem": "World of Warcraft (Controlado)",
+    "posts_retidos": 1,
+    "posts_originais": 3,
+    "avg_d": 5.0,
+    "avg_a": 4.0,
+    "avg_r": 1.0,
+    "avg_t": 1.0,
+    "prev_ai": "A1",
+    "prev_inter": "I3",
+    "val_dyn": "VC1 (Cocriação)",
+    "val_code": "VC1",
+    "ai_counts": {
+      "A1": 1
+    },
+    "inter_counts": {
+      "I3": 1
+    },
+    "vc_counts": {
+      "VC1": 1
+    },
+    "summary": "O tópico centra-se na integração e operação de agentes autónomos (Claude, Addons / Scripts Lua) no ecossistema de World of Warcraft. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Observa-se cocriação efetiva de valor (VC1), traduzida na criação de novas capacidades informacionais, redução de barreiras de aprendizagem e partilha colaborativa de código e ferramentas.",
+    "evidence": "Explained a breakdown to what happened. Gave a link to the blue post. Directed it to review addons... Instructed it to add updated logic"
+  }
+]

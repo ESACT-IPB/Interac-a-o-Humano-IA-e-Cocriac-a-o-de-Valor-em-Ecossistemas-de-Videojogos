@@ -96,6 +96,13 @@ flowchart TD
         QUALITY_CHECK -- "Aprovado: 91,31%" --> AUDIT_REPORT[("quality_audit_results.json<br/>(Score 91,31% | 100% citações literais | 8 alertas)")]
     end
 
+    %% CAMADA 2: Síntese e Agregação ao Nível de Tópicos
+    subgraph FASE_THREADS ["Fase 4.5: Síntese e Agregação ao Nível de Tópicos (Threads)"]
+        NETNO_REFINED --> THREAD_AGENT["ThreadSynthesisAgent<br/>(Agregação de 825 posts em 143 tópicos ativos)"]:::agent
+        THREAD_AGENT --> THREAD_JSON[("thread_level_results.json<br/>(Dataset Estruturado de 143 Tópicos)")]
+        THREAD_AGENT --> THREAD_MD["analise_agregada_topicos.md<br/>(143 Fichas DART + Macro-Síntese EVE vs WoW)"]:::output
+    end
+
     %% CAMADA 2 & 3: Síntese e Entregáveis Finais
     subgraph FASE5 ["Fase 5: Síntese e Entregáveis Principais"]
         NETNO_REFINED --> SYNTHESIS["SynthesisAgent<br/>(deepseek-v4-pro com amostragem estratificada)"]:::agent
@@ -161,7 +168,14 @@ flowchart TD
    * **Resultado:** **Score Médio de 91,31%** (apenas 8 casos com alertas estritos de confiança epistémica; zero alucinações).
    * **Saída:** `data/analysis/quality_audit_results.json`.
 
-6. **Fase 5: Síntese e Entregáveis Finais**
+6. **Fase 4.5: Síntese e Agregação ao Nível de Tópicos (NOVA ETAPA — DART-NET v3.6)**
+   * **Agente:** `ThreadSynthesisAgent`
+   * **Objetivo:** Elevar a unidade de análise da escala atómica de posts para a agregação ao nível de tópicos de discussão (*threads*), capturando a emergência coletiva de valor e as trajetórias discursivas completas.
+   * **Ação:** Agrupa os 825 posts validados nos seus **143 tópicos ativos de origem** (excluindo tópicos que ficaram com 0 posts pós-poda); computa médias dimensionais DART por tópico, identifica perfis prevalentes de IA (A1–A5) e interação (I1–I6), avalia a dinâmica de valor dominante (VC1–VC4), extrai citações paradigmáticas e redige resumos analíticos densos (4–5 linhas) focados na interação e no valor.
+   * **Macro-Síntese Transversal:** Produz tabela comparativa EVE Online (Sandbox) vs. World of Warcraft (Controlado), organiza 5 clusters tipológicos emergentes (APIs/MCP, Fair Play, Suporte, Companheiros IA, Vibe-Coding) e contrasta a influência da arquitetura do jogo na cocriação de valor.
+   * **Saída:** `output/analise_agregada_topicos.md` (143 fichas sistemáticas + macro-síntese) e `data/analysis/thread_level_results.json`.
+
+7. **Fase 5: Síntese e Entregáveis Finais**
    * **Agentes:** `SynthesisAgent` e `SummaryTableGenerator`
    * **Entregáveis:**
      * `output/relatorio_netnografia.md`: Relatório académico formal de 8 secções em português de Portugal, fundamentando as respostas às 5 Questões de Investigação (QI1 a QI5) no corpus de 825 posts.
@@ -169,7 +183,7 @@ flowchart TD
      * `output/lista_links.md` e `output/lista_links.txt`: Inventário canónico das 303 discussões catalogadas.
      * `output/tabela_custos.md`: Auditoria financeira de ~27.000 chamadas de API com custo consolidado de **~$21,50 USD**.
 
-7. **Fase 6: Validação Humana e Reprodutibilidade (HUMAN VALIDATION)**
+8. **Fase 6: Validação Humana e Reprodutibilidade (HUMAN VALIDATION)**
    * **Fila de Revisão Humana**: 708 posts (85,82% do corpus refinado) priorizados para validação humana através da flag `⚠️ Sim`.
    * **Concordância Inter-Codificadores**: Amostra de validação para teste cego e cálculo estatístico do coeficiente Kappa de Cohen ($\kappa$).
    * **Saída:** `output/relatorio_concordancia_kappa.md`.
