@@ -55,6 +55,13 @@ Por conseguinte, foi aplicado um **protocolo rigoroso de refinamento epistémico
 > * O dataset refinado consolida-se em **825 posts de alta densidade empírica**, preservando 100% dos episódios de agentes autónomos (A1), copilotos (A4) e cocriação de valor (VC1 e VC2).
 > * Todos os 207 posts excluídos foram arquivados com registo de auditoria em `data/analysis/excluded_posts_log.json`, e o corpus original de 1.032 posts permanece salvaguardado em `data/analysis/netnography_results_1032_unpruned.jsonl`.
 
+### 1.6 Abordagem Multinível: Do Post Atómico à Thread Conversacional
+
+Para responder com profundidade e rigor epistémico ao fenómeno da cocriação de valor mediada por IA, o estudo opera segundo uma **arquitetura analítica em três níveis concêntricos**:
+1. **Nível Micro (O Post — $N=825$ análises)**: Constitui a unidade primária de calibração empírica. Cada mensagem é individualmente codificada com base no princípio de evidência literal verificável (*verbatim quotes*), atribuindo escores DART (0 a 5), tipologia de agência (A1–A5), estrutura de interação (I1–I6) e valor (VC1–VC4).
+2. **Nível Meso (A Thread / Tópico de Discussão — $N=143$ discussões ativas)**: Constitui a unidade de síntese e sentido sociotécnico. A cocriação e a codestruição de valor não ocorrem no vácuo de frases isoladas, mas sim em ciclos conversacionais iterativos. A agregação dos posts nos seus 143 tópicos de origem revela trajetórias deliberativas completas, dinâmicas de valor dominante e clusters temáticos emergentes.
+3. **Nível Macro (O Ecossistema — Sandbox vs. Controlado)**: Constitui o nível de contraste teórico global, comparando como a arquitetura técnica e a governança institucional de *EVE Online* e *World of Warcraft* moldam a aceitação, resistência e emergência de agentes de IA.
+
 ---
 
 ## 2. Taxonomia de Agentes de IA e Interações
@@ -182,6 +189,59 @@ A dimensão Transparência mensura a visibilidade das regras algorítmicas, a ro
    * **Codestruição e Frustração (VC3)**: Forte saliência de queixas sobre moderação automática cega de tickets de suporte e desconfiança quanto à presença de bots inteligentes nas arenas competitivas.
    * **Inovação Oficial**: Acolhimento positivo mas cauteloso de instâncias geridas por IA nativa (*Follower Dungeons*), vistas como oportunidade de treino sem pressão tóxica de outros jogadores.
 
+### 4.3 Agregação ao Nível de Tópicos de Discussão (143 Threads Ativas)
+
+Na perspetiva meso-sociotécnica, o agrupamento dos 825 posts refinados nos seus respetivos **143 tópicos de discussão (*threads*) ativos** permite captar os ciclos deliberativos e a evolução temporal das dinâmicas de cocriação de valor. A análise comparativa agregada por ecossistema evidencia contrastes estruturais marcantes:
+
+| Dimensão Analítica / Ecossistema | EVE Online (Sandbox Aberto) | World of Warcraft (Ambiente Controlado) | Total Consolidado |
+| :--- | :---: | :---: | :---: |
+| **Número de Tópicos Ativos** | **59 tópicos** (41,3%) | **84 tópicos** (58,7%) | **143 tópicos** (100,0%) |
+| **Volume de Posts Analisados** | 304 posts (36,8%) | 521 posts (63,2%) | 825 posts (100,0%) |
+| **Média de Posts Retidos por Tópico** | `5,15` posts/tópico | `6,20` posts/tópico | `5,77` posts/tópico |
+| **Vetor DART Médio Global** | `D: 0,95 | A: 1,48 | R: 1,56 | T: 1,49` | `D: 0,97 | A: 1,17 | R: 1,56 | T: 1,32` | `D: 0,96 | A: 1,29 | R: 1,56 | T: 1,39` |
+| **Tópicos VC1 (Cocriação Efetiva)** | **8,5%** (5 tópicos) | **16,7%** (14 tópicos) | **13,3%** (19 tópicos) |
+| **Tópicos VC2 (Potencial de Cocriação)** | **13,6%** (8 tópicos) | **13,1%** (11 tópicos) | **13,3%** (19 tópicos) |
+| **Tópicos VC3 (Codestruição / Fricção)** | **13,6%** (8 tópicos) | **26,2%** (22 tópicos) | **21,0%** (30 tópicos) |
+| **Tópicos VC4 (Reflexivos / Neutros)** | **64,4%** (38 tópicos) | **44,0%** (37 tópicos) | **52,4%** (75 tópicos) |
+
+**Interpretação Teórica**:
+1. **Salto de Densidade de Valor**: Enquanto na análise atómica por post apenas 3,2% das mensagens atingiam VC1 e 10,9% VC3, na escala de tópicos **13,3% das discussões materializam cocriação efetiva (VC1)** e **21,0% refletem episódios de codestruição (VC3)**. No seu conjunto, **47,6% dos tópicos** apresentam impacto ativo de valor (VC1 + VC2 + VC3), comprovando que a unidade conversacional (*thread*) captura a totalidade do ciclo deliberativo que posts isolados fragmentam.
+2. **Assimetria Estrutural de Acesso e Transparência**: Em *EVE Online*, o Acesso médio (`1,48`) e a Transparência (`1,49`) superam nitidamente os valores de *WoW* (`1,17` e `1,32`), impulsionados pela infraestrutura aberta de APIs (ESI e MCP).
+3. **Hiperconcentração de Codestruição em WoW**: Em *World of Warcraft*, mais de um quarto dos tópicos ativos (**26,2% em VC3**, contra 13,6% em EVE) documentam perdas severas de confiança, banimentos indevidos e atritos institucionais decorrentes da automação do suporte ao cliente.
+
+### 4.4 Tipologia Emergente de Tópicos: Os 5 Clusters Sociotécnicos
+
+A análise de padrões em todo o corpus de 143 tópicos permitiu identificar **cinco agrupamentos sociotécnicos emergentes**, caracterizados por distintas configurações de agência, interação e blocos DART:
+
+1. **Cluster 1: Ferramentas Externas, Integração de APIs e MCP** (31 tópicos | 21,7%)
+   * *Foco*: Desenvolvimento e interligação de dados via APIs públicas (ESI, Model Context Protocol - MCP, Pyfa, exportação de telemetria para LLMs como Claude e GPT-4).
+   * *Métricas*: Elevado Acesso (`A: 1,8`) e Transparência (`T: 1,6`). Forte concentração de cocriação colaborativa (VC1 e VC2).
+2. **Cluster 2: Fair Play, Deteção Algorítmica e Integridade Competitiva** (29 tópicos | 20,3%)
+   * *Foco*: Tensão entre assistência algorítmica legítima e automação desleal em ambientes PvP, arenas e frotas de combate.
+   * *Métricas*: Pico de Risco Percebido (`R: 1,5`) e Acesso restrito (`A: 0,9`). Elevada fricção normativa e acusações mútuas.
+3. **Cluster 3: Suporte ao Cliente, Moderação Automatizada e Banning** (26 tópicos | 18,2%)
+   * *Foco*: Contestação ao uso de IA pela publicadora para resolução de tickets, triagem de denúncias e suspensão de contas.
+   * *Métricas*: Risco mais severo do estudo (`R: 2,1`) e baixa Transparência (`T: 1,0`). Principal nascente de codestruição de valor (VC3).
+4. **Cluster 4: Agentes Oficiais In-Game e Masmorras de Seguidores** (20 tópicos | 14,0%)
+   * *Foco*: Avaliação de companheiros e instâncias operadas por IA oficial da publicadora (*Follower Dungeons*, *Delves*, *Aura Guidance*).
+   * *Métricas*: Acesso institucional controlado (`A: 1,4`) e Risco moderado (`R: 1,3`). Dinâmica mista entre inclusão de jogadores casuais (VC2) e isolamento da sociabilidade humana (VC4).
+5. **Cluster 5: Copilotos de Desenvolvimento, Addons e Vibe-Coding** (37 tópicos | 25,9%)
+   * *Foco*: Utilização de assistentes generativos para conceção de macros, interfaces, scripts Lua e addons complexos.
+   * *Métricas*: Acesso técnico relevante (`A: 1,3`) e risco contido (`R: 1,3`). Maior volume empírico, catalisando cocriação efetiva (VC1) na democratização da programação comunitária.
+
+### 4.5 Casos Paradigmáticos de Tópicos de Discussão
+
+O quadro seguinte sintetiza tópicos emblemáticos que ilustram o comportamento empírico dos clusters nos dois ecossistemas:
+
+| ID Tópico | Título Central | Ecossistema / Cluster | Agência / Interação | Vetor DART (Médias) | Dinâmica de Valor | Evidência Literal Verificável (*Verbatim Quote*) |
+| :--- | :--- | :--- | :---: | :---: | :---: | :--- |
+| **`510327`** | *EVE Crews: A lore-accurate\* API-linked crew simulator* | EVE Online<br>Cluster 1 (APIs/MCP) | **A1** / **I3** | `D: 2,9`<br>`A: 2,4`<br>`R: 1,2`<br>`T: 2,3` | **VC1** (Cocriação Efetiva) | *"The crew numbers in EVE Crews are derived from a blend of official CCP lore, historical game data, and community research..."* |
+| **`516433`** | *EVE MCP Server — querying ESI from Claude, Copilot and other AI assistants* | EVE Online<br>Cluster 1 (APIs/MCP) | **A1** / **I4** | `D: 0,0`<br>`A: 5,0`<br>`R: 2,0`<br>`T: 3,0` | **VC4** (Reflexivo Técnico) | *"exposing EVE’s public ESI endpoints as tools an AI assistant can call directly"* |
+| **`1jukb0x`** | *Psa For The New Bros Dont Ask Chatgpt About Eve* | EVE Online<br>Cluster 5 (Copilotos) | **A5** / **I3** | `D: 1,4`<br>`A: 1,3`<br>`R: 1,3`<br>`T: 1,0` | **VC1** (Cocriação Efetiva) | *"I asked gpt what it wanted to say about this post here it is. ... If someone points out I gave garbage, I can course-correct mid-convo."* |
+| **`508618`** | *Recorded a bot in high sec - but why even bother?* | EVE Online<br>Cluster 3 (Suporte/Bans) | **A5** / **I4** | `D: 1,4`<br>`A: 0,5`<br>`R: 2,2`<br>`T: 1,5` | **VC3** (Codestruição) | *"Why is he compromising his acc for this? ... most commonly RMT ... IP bans does little - VPNs exist and IPs can be changed."* |
+| **`reddit_1tvlpnw`** | *Sick of spam and bots ruining our game? Here's an addon that uses ML...* | WoW<br>Cluster 2 (Fair Play) | **A3** / **I4** | `D: 0,0`<br>`A: 2,0`<br>`R: 1,5`<br>`T: 0,5` | **VC4** (Reflexivo Normativo) | *"it would bring up the report window and fill in the box with their coordinates a timestamp and the reason for report botting"* |
+| **`reddit_1v3v2p2`** | *Claude Code Success* | WoW<br>Cluster 5 (Copilotos) | **A1** / **I3** | `D: 5,0`<br>`A: 4,0`<br>`R: 1,0`<br>`T: 1,0` | **VC1** (Cocriação Efetiva) | *"Explained a breakdown to what happened. Gave a link to the blue post. Directed it to review addons... Instructed it to add updated logic"* |
+
 ---
 
 ## 5. Cocriação e Codestruição de Valor (VC1–VC4)
@@ -219,15 +279,22 @@ A codestruição de valor (VC3: 10,9%) manifesta-se com frequência superior à 
 
 ### 6.2 QI2: Estruturas de Interação Humano-IA
 **Resposta**: As interações diretas com agentes de IA (I1, I2, I3 e I5) somam **14,2%** do corpus refinado, com destaque para a interação bidirecional iterativa (I3: 6,8%). O canal predominante permanece a discussão humana sobre a tecnologia (I4: 77,7%), enquanto o ruído sem interação (I6) caiu para 8,1%.
+* **Ampliação ao Nível de Tópicos**: Quando analisada ao nível de tópicos conversacionais completos, a presença de interação agêntica e colaborativa direta ganha ainda maior relevância: cerca de **30,8% dos tópicos** apresentam padrões predominantes de interação direta (I1/I2) ou cooperação triádica (I3: Humano + IA + Comunidade), particularmente nos clusters de APIs/MCP e Copilotos. Revela-se assim que discussões que se iniciam sob a forma de debate comunitário abstrato (I4) progridem frequentemente, através da partilha iterativa de código, logs e testes de prompts, para ciclos colaborativos de cocriação triádica (I3).
 
 ### 6.3 QI3: Satisfação das Dimensões DART
 **Resposta**: No corpus refinado, todas as dimensões DART satisfazem critérios mínimos de substância empírica ($\text{Médias} > 1,0$): Risco lidera com **1,61/5**, seguido de Transparência (**1,34/5**), Acesso (**1,20/5**) e Diálogo (**1,09/5**). O Risco é a dimensão estruturante da perceção comunitária.
 
 ### 6.4 QI4: Cocriação (VC1/VC2) vs. Codestruição (VC3) de Valor
 **Resposta**: As discussões com impacto direto de valor totalizam **22,8%** do corpus. A codestruição de valor (VC3: 10,9%) sobrepõe-se à cocriação efetiva (VC1: 3,2%), demonstrando que a integração de IA em ecossistemas de jogos ainda opera num estágio de maturidade assimétrico e conflituoso.
+* **Ampliação ao Nível de Tópicos**: A unidade analítica da thread revela uma proporção muito mais substancial de impacto ativo de valor, abrangendo **47,6% dos tópicos ativos** (13,3% VC1, 13,3% VC2 e 21,0% VC3). Esta agregação expõe uma clivagem radical entre clusters: enquanto os clusters de Ferramentas/APIs (Cluster 1) e Copilotos (Cluster 5) concentram episódios de cocriação simétrica (VC1/VC2) alicerçados em Diálogo e Acesso, os clusters de Moderação/Suporte (Cluster 3) e Fair Play (Cluster 2) concentram eventos severos de codestruição (VC3). Em *World of Warcraft*, a taxa de tópicos em VC3 atinge **26,2%** (contra 13,6% em EVE), espelhando um profundo descontentamento comunitário com sistemas opacos de moderação algorítmica e encerramento automatizado de tickets.
 
 ### 6.5 QI5: Implicações para o Design de Ecossistemas com IA
 **Resposta**: O sucesso de ferramentas comunitárias baseadas em MCP em EVE Online indica que as editoras devem disponibilizar **interfaces abertas, auditáveis e com visibilidade de diagnóstico (Transparência)**. Inversamente, a automação opaca de suporte e moderação observada em WoW ilustra o caminho da rápida destruição de valor relacional.
+
+**Síntese Comparativa Transversal (Sandbox vs. Ecossistema Controlado)**:
+A análise transversal agregada demonstra que a arquitetura de governança e a infraestrutura técnica exercem um papel determinístico na transição do discurso comunitário da especulação defensiva para a cocriação tangível de valor (Prahalad & Ramaswamy, 2004). No ecossistema **Sandbox de *EVE Online***, a disponibilização aberta e padronizada da API ESI e a recente adoção do *Model Context Protocol* (MCP) catalisam uma governança descentralizada onde os jogadores assumem o papel de co-desenvolvedores informacionais. Ao facultar Acesso técnico direto (`A: 1,48`) e visibilidade de diagnóstico (`T: 1,49`), a CCP Games reduz a fricção epistémica e fomenta ecossistemas cooperativos (tais como *EVE Crews* e *Battlefield.Space*), convertendo agentes de IA em próteses de ampliação cognitiva que mitigam a complexidade sistémica em benefício mútuo da comunidade e da plataforma.
+
+Em contrapartida, no ecossistema **Controlado de *World of Warcraft***, a governança algorítmica da Blizzard é estritamente centralizada e defensiva. A sandbox de addons em Lua é delimitada por restrições rigorosas e a IA oficial é confinada a ambientes isolados de jogabilidade assistida (*Follower Dungeons* e *Delves*). Concomitantemente, a automação opaca de pipelines de atendimento e aplicação de penalizações gera uma elevada taxa de codestruição de valor ao nível de tópicos (`VC3: 26,2%`), induzindo cinismo e sensação de desamparo institucional. Quando a cocriação desponta em *WoW*, ocorre quase exclusivamente nas margens informais através do *vibe-coding* de addons via LLMs externos. Em termos de design de ecossistemas digitais, conclui-se que interfaces abertas, auditáveis e programáveis catalisam a agência comunitária para a cocriação sustentável de valor (VC1/VC2), ao passo que arquiteturas muradas com automação opaca de suporte desviam a energia da comunidade para a contestação contínua, o atrito regulatório e a erosão do valor relacional (VC3).
 
 ---
 
@@ -256,3 +323,12 @@ A pipeline garantiu a total rastreabilidade da investigação:
 ### 8.2 Monitorização e Custo Global da Pipeline
 * **Volume de Chamadas de API**: Mais de 27.000 invocações acumuladas (`deepseek-v4-flash` e `deepseek-v4-pro`);
 * **Custo Operacional Global**: **~$21,50 USD**, consolidando uma relação custo-eficácia inigualável para investigações empíricas em larga escala.
+
+### 8.3 O Agente de Síntese de Tópicos (ThreadSynthesisAgent) e Entregáveis Analíticos
+
+Na Fase 4.5 da investigação, o ecossistema multiagente foi expandido com a conceção e implementação do [`ThreadSynthesisAgent`](file:///Users/jpaulo/Documents/AntiGravity_Agents/Interação%20Humano-IA%20e%20Cocriação%20de%20Valor%20em%20Ecossistemas%20de%20Videojogos/agents/thread_synthesis_agent.py), desenhado para executar a agregação algorítmica e a síntese sociotécnica do corpus purificado:
+
+1. **Agregação Algorítmica e Integridade Empírica**: O agente agrupa com fidelidade os 825 posts validados nos seus **143 tópicos de discussão ativos** (59 em EVE Online e 84 em World of Warcraft), excluindo tópicos esvaziados pela poda metodológica e calculando, para cada unidade, o vetor DART médio ponderado, as frequências taxonómicas e o código de valor emergente.
+2. **Entregável Estruturado JSON**: Os resultados estruturados de todos os tópicos foram consolidados em [`data/analysis/thread_level_results.json`](file:///Users/jpaulo/Documents/AntiGravity_Agents/Interação%20Humano-IA%20e%20Cocriação%20de%20Valor%20em%20Ecossistemas%20de%20Videojogos/data/analysis/thread_level_results.json), contendo metadados completos, métricas DART individuais e citações paradigmáticas para consumo programático e reprodutibilidade integral.
+3. **Catálogo Sistemático e Macro-Síntese**: Foi gerado o documento exaustivo [`output/analise_agregada_topicos.md`](file:///Users/jpaulo/Documents/AntiGravity_Agents/Interação%20Humano-IA%20e%20Cocriação%20de%20Valor%20em%20Ecossistemas%20de%20Videojogos/output/analise_agregada_topicos.md) (com 2.206 linhas), que inclui uma ficha analítica sistemática para cada um dos 143 tópicos e a formalização teórica dos 5 clusters sociotécnicos identificados.
+4. **Articulação Teórica Multinível**: Este módulo fecha o ciclo investigativo entre a calibração micro (posts individuais), a dinâmica meso (threads conversacionais) e a governança macro (ecossistemas sandbox vs. controlados), assegurando total rigor netnográfico segundo Kozinets (2020) e Prahalad & Ramaswamy (2004).
