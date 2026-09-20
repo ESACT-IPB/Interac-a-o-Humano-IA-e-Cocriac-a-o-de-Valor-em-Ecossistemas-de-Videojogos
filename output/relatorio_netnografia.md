@@ -25,13 +25,17 @@ A taxonomia DART-NET estabelece uma distinção crítica entre agentes de IA aut
 
 ### 1.3 Questões de Investigação
 
-O estudo é orientado por cinco questões de investigação:
+A investigação é orientada por **três macro-questões de investigação**, desdobradas em subquestões complementares que articulam a agência tecnológica, os blocos constitutivos de valor e a governança dos ecossistemas:
 
-- **QI1**: Qual é a proporção de agentes de IA autónomos (A1) face a bots/scripts convencionais (A2/A3) nos ecossistemas de videojogos analisados?
-- **QI2**: Como se estruturam as interações humano-IA (I1–I6) e que padrões emergem entre jogos sandbox e controlados?
-- **QI3**: Em que medida as dimensões DART (Diálogo, Acesso, Risco, Transparência) são satisfeitas nas interações documentadas?
-- **QI4**: Que evidências empíricas sustentam a ocorrência de cocriação (VC1/VC2) versus codestruição (VC3) de valor?
-- **QI5**: Que implicações teóricas e práticas emergem para o design de ecossistemas de videojogos com IA integrada?
+* **QI1. Que tipos de agentes de IA e que formas de interação humano-IA caracterizam os MMORPG analisados?**
+  * **QI1a** *(antiga QI1)*: Qual é a proporção de agentes de IA autónomos face a bots e scripts convencionais?
+  * **QI1b** *(antiga QI2)*: Como se estruturam as interações humano-IA e que padrões emergem entre o ecossistema sandbox e o controlado?
+* **QI2. Em que medida essas interações cocriam ou codestroem valor, e que papel desempenham as dimensões do modelo DART?**
+  * **QI2a** *(antiga QI3)*: Em que medida se verificam as dimensões Diálogo, Acesso, Risco e Transparência nas interações documentadas?
+  * **QI2b** *(antiga QI4)*: Que evidências empíricas sustentam a ocorrência de cocriação (VC1/VC2) face à codestruição (VC3) de valor?
+* **QI3. Como é que a arquitetura de governança de cada ecossistema condiciona a cocriação de valor com IA, e que implicações daí decorrem?**
+  * **QI3a**: Que diferenças sistemáticas existem entre EVE Online (sandbox aberto) e World of Warcraft (ecossistema controlado) na configuração DART e na dinâmica de valor?
+  * **QI3b** *(antiga QI5)*: Que implicações teóricas e práticas emergem para o desenho de ecossistemas de videojogos com IA integrada?
 
 ### 1.4 Metodologia de Recolha e Ingestão Inicial
 
@@ -46,7 +50,7 @@ Por conseguinte, foi aplicado um **protocolo rigoroso de refinamento epistémico
 | Categoria Excluída | Critério Operacional | Frequência | Justificação Teórica e Metodológica |
 | :--- | :--- | :---: | :--- |
 | **1. Não-IA / Ruído Residual** | `ai_type == "A6"` | 51 posts | **Preservação dos Limites do Construto**: Mensagens classificadas como A6 representam falsos positivos da pesquisa booleana nos fóruns (ex.: lore de classes em WoW, conversas contextuais de guilda, gírias ou menções incidentais de "AI" fora do contexto de tecnologia). A sua permanência no corpus inflacionava artificialmente as métricas de não-interação (`I6`) e ausência de valor (`VC4`), gerando um viés de diluição analítica. |
-| **2. Posts com "Zero DART"** | `D=0, A=0, R=0, T=0` | 172 posts | **Exigência Teórica dos Blocos Construtivos de Cocriação**: O modelo DART (Prahalad & Ramaswamy, 2004) postula que o valor cocriado emerge da interação ativa nos blocos de Diálogo, Acesso, Avaliação de Risco e Transparência. Um post que pontue zero em todas as quatro dimensões não oferece substância empírica para responder a nenhuma das cinco Questões de Investigação (QI1 a QI5). A sua exclusão assegura que 100% dos dados retidos contenham evidência observável de pelo menos uma dimensão DART. |
+| **2. Posts com "Zero DART"** | `D=0, A=0, R=0, T=0` | 172 posts | **Exigência Teórica dos Blocos Construtivos de Cocriação**: O modelo DART (Prahalad & Ramaswamy, 2004) postula que o valor cocriado emerge da interação ativa nos blocos de Diálogo, Acesso, Avaliação de Risco e Transparência. Um post que pontue zero em todas as quatro dimensões não oferece substância empírica para responder a nenhuma das três macro-questões de investigação (QI1 a QI3). A sua exclusão assegura que 100% dos dados retidos contenham evidência observável de pelo menos uma dimensão DART. |
 | **3. Queixas de Bots Mecânicos / Farming Tradicional** | Tópicos de gold farming, pixel scripts, casino bots e fishing macros (A2) | 33 posts | **Filtro Paradigmático (Automação Convencional vs. IA Moderna)**: O foco da investigação reside no impacto da inteligência artificial generativa, autónoma e adaptativa da era pós-2024 (LLMs, copilotos, agentes MCP, decisões contextuais). Queixas antigas sobre farming mecânico e bots determinísticos de repetição (fenómeno comum nos MMOs desde 2005) representam batota convencional sem qualquer agência inteligente ou dimensão cocriativa. A sua eliminação clarifica a fronteira sociotécnica do estudo. |
 
 > [!NOTE]
@@ -82,7 +86,7 @@ Após a remoção do ruído residual (A6) e da automação mecânica desprovida 
 
 **Análise**: No corpus purificado, as interações e discussões com relevância direta de IA (A1 + A4) representam cerca de **18,7%** do ecossistema, comprovando que quase um em cada cinco posts empíricos envolve agência autónoma ou hibridismo humano-máquina. A predominância de A5 (77,2%) reflete que os ecossistemas de videojogos operam primariamente como arenas de negociação social sobre a introdução da IA.
 
-**Resposta à QI1**: A proporção de agentes de IA autónomos (A1: 11,5%) e de assistência híbrida (A4: 7,2%) supera substancialmente a presença de bots e scripts convencionais residuais (A2+A3: 4,2%). Este resultado demonstra que, ao expurgar o ruído e o farming mecânico do século passado, o ecossistema atual encontra-se fortemente polarizado entre o **discurso sociotécnico reflexivo (A5)** e a **experimentação ativa com agentes e copilotos modernos (A1/A4)**.
+**Resposta à QI1a (Proporção de Agentes Autónomos vs. Bots)**: A proporção de agentes de IA autónomos (A1: 11,5%) e de assistência híbrida (A4: 7,2%) supera substancialmente a presença de bots e scripts convencionais residuais (A2+A3: 4,2%). Este resultado demonstra que, ao expurgar o ruído e o farming mecânico do século passado, o ecossistema atual encontra-se fortemente polarizado entre o **discurso sociotécnico reflexivo (A5)** e a **experimentação ativa com agentes e copilotos modernos (A1/A4)**.
 
 ### 2.2 Estruturas de Interação Humano-IA (I1–I6)
 
@@ -98,7 +102,7 @@ Após a remoção do ruído residual (A6) e da automação mecânica desprovida 
 
 **Análise**: As interações diretas e ativas com agentes de IA (I1 + I2 + I3 + I5) somam agora **14,2% do corpus** (117 posts), revelando uma penetração técnica muito superior à observada na amostra não filtrada. Destaca-se a solidez das interações bidirecionais (I3: 6,8%), que formam a base analítica para a cocriação simétrica de valor.
 
-**Resposta à QI2**: Embora o discurso social comunitário (I4: 77,7%) continue a ser a forma dominante de circulação de sentido em torno da IA, o corpus refinado revela uma camada técnica viva de interações diretas (14,2%), liderada por fluxos bidirecionais (I3) e de comando direto (I1).
+**Resposta à QI1b (Estruturas de Interação Humano-IA)**: Embora o discurso social comunitário (I4: 77,7%) continue a ser a forma dominante de circulação de sentido em torno da IA, o corpus refinado revela uma camada técnica viva de interações diretas (14,2%), liderada por fluxos bidirecionais (I3) e de comando direto (I1).
 
 ---
 
@@ -272,27 +276,46 @@ A codestruição de valor (VC3: 10,9%) manifesta-se com frequência superior à 
 
 ## 6. Reflexão sobre as Questões de Investigação
 
-### 6.1 QI1: Proporção de Agentes de IA Autónomos vs. Bots Convencionais
-**Resposta**: No corpus purificado, os agentes de IA autónomos (A1: 11,5%) e copilotos assistidos (A4: 7,2%) superam largamente os bots convencionais e scripts mecânicos residuais (A2+A3: 4,2%). No entanto, ambos são envolvidos por uma densa camada de discurso sociotécnico reflexivo (A5: 77,2%).
+### 6.1 QI1: Tipologia de Agentes de IA e Formas de Interação Humano-IA
+*Pergunta Central: Que tipos de agentes de IA e que formas de interação humano-IA caracterizam os MMORPG analisados?*
 
-### 6.2 QI2: Estruturas de Interação Humano-IA
+#### 6.1.1 QI1a: Proporção de Agentes de IA Autónomos face a Bots e Scripts Convencionais
+**Resposta**: No corpus purificado, os agentes de IA autónomos (A1: 11,5%) e copilotos assistidos (A4: 7,2%) superam largamente os bots convencionais e scripts mecânicos residuais (A2+A3: 4,2%). No entanto, ambos são envolvidos por uma densa camada de discurso sociotécnico reflexivo (A5: 77,2%). A emergência de A1 e A4 comprova que a interação nos ecossistemas contemporâneos migrou decisivamente da automação repetitiva do passado para a experimentação com agentes cognitivos contextuais e modelos de linguagem generativos.
+
+#### 6.1.2 QI1b: Estruturas de Interação Humano-IA e Padrões entre Sandbox e Controlado
 **Resposta**: As interações diretas com agentes de IA (I1, I2, I3 e I5) somam **14,2%** do corpus refinado, com destaque para a interação bidirecional iterativa (I3: 6,8%). O canal predominante permanece a discussão humana sobre a tecnologia (I4: 77,7%), enquanto o ruído sem interação (I6) caiu para 8,1%.
-* **Ampliação ao Nível de Tópicos**: Quando analisada ao nível de tópicos conversacionais completos, a presença de interação agêntica e colaborativa direta ganha ainda maior relevância: cerca de **30,8% dos tópicos** apresentam padrões predominantes de interação direta (I1/I2) ou cooperação triádica (I3: Humano + IA + Comunidade), particularmente nos clusters de APIs/MCP e Copilotos. Revela-se assim que discussões que se iniciam sob a forma de debate comunitário abstrato (I4) progridem frequentemente, através da partilha iterativa de código, logs e testes de prompts, para ciclos colaborativos de cocriação triádica (I3).
+* **Ampliação ao Nível de Tópicos e Padrões por Ecossistema**: Quando analisada ao nível de tópicos conversacionais completos, a presença de interação agêntica e colaborativa direta ganha ainda maior relevância: cerca de **30,8% dos tópicos** apresentam padrões predominantes de interação direta (I1/I2) ou cooperação triádica (I3: Humano + IA + Comunidade), particularmente nos clusters de APIs/MCP e Copilotos. Revela-se assim que discussões que se iniciam sob a forma de debate comunitário abstrato (I4) progridem frequentemente, através da partilha iterativa de código, logs e testes de prompts, para ciclos colaborativos de cocriação triádica (I3). O ecossistema sandbox (*EVE*) fomenta a criação de agentes integrados via API aberta, enquanto o ecossistema controlado (*WoW*) restringe as interações diretas a instâncias fechadas de NPCs aliados (*Follower Dungeons*) ou copilotos externos de *vibe-coding*.
 
-### 6.3 QI3: Satisfação das Dimensões DART
+---
+
+### 6.2 QI2: Cocriação, Codestruição de Valor e o Papel das Dimensões DART
+*Pergunta Central: Em que medida essas interações cocriam ou codestroem valor, e que papel desempenham as dimensões do modelo DART?*
+
+#### 6.2.1 QI2a: Verificação das Dimensões Diálogo, Acesso, Risco e Transparência
 **Resposta**: No corpus refinado, todas as dimensões DART satisfazem critérios mínimos de substância empírica ($\text{Médias} > 1,0$): Risco lidera com **1,61/5**, seguido de Transparência (**1,34/5**), Acesso (**1,20/5**) e Diálogo (**1,09/5**). O Risco é a dimensão estruturante da perceção comunitária.
+* **Papel das Dimensões**: O Acesso técnico e o Diálogo aberto constituem os pilares facilitadores da cocriação (VC1/VC2), permitindo aos utilizadores alimentar LLMs com dados estruturados do jogo. Em contrapartida, o défice de Transparência algorítmica e a elevação de Riscos percebidos (ameaça competitiva, alucinações de dados e injustiça punitiva) precipitam a transição para episódios severos de codestruição de valor (VC3).
 
-### 6.4 QI4: Cocriação (VC1/VC2) vs. Codestruição (VC3) de Valor
-**Resposta**: As discussões com impacto direto de valor totalizam **22,8%** do corpus. A codestruição de valor (VC3: 10,9%) sobrepõe-se à cocriação efetiva (VC1: 3,2%), demonstrando que a integração de IA em ecossistemas de jogos ainda opera num estágio de maturidade assimétrico e conflituoso.
-* **Ampliação ao Nível de Tópicos**: A unidade analítica da thread revela uma proporção muito mais substancial de impacto ativo de valor, abrangendo **47,6% dos tópicos ativos** (13,3% VC1, 13,3% VC2 e 21,0% VC3). Esta agregação expõe uma clivagem radical entre clusters: enquanto os clusters de Ferramentas/APIs (Cluster 1) e Copilotos (Cluster 5) concentram episódios de cocriação simétrica (VC1/VC2) alicerçados em Diálogo e Acesso, os clusters de Moderação/Suporte (Cluster 3) e Fair Play (Cluster 2) concentram eventos severos de codestruição (VC3). Em *World of Warcraft*, a taxa de tópicos em VC3 atinge **26,2%** (contra 13,6% em EVE), espelhando um profundo descontentamento comunitário com sistemas opacos de moderação algorítmica e encerramento automatizado de tickets.
+#### 6.2.2 QI2b: Evidências Empíricas de Cocriação (VC1/VC2) vs. Codestruição (VC3) de Valor
+**Resposta**: As discussões com impacto direto de valor totalizam **22,8%** do corpus atómico (3,2% VC1, 8,7% VC2 e 10,9% VC3). A codestruição de valor (VC3) sobrepõe-se à cocriação efetiva (VC1) na escala do post, demonstrando que a integração de IA em ecossistemas de jogos ainda opera num estágio de maturidade assimétrico e conflituoso.
+* **Ampliação ao Nível de Tópicos e Clivagem entre Clusters**: A unidade analítica da thread revela uma proporção muito mais substancial de impacto ativo de valor, abrangendo **47,6% dos tópicos ativos** (13,3% VC1, 13,3% VC2 e 21,0% VC3). Esta agregação expõe uma clivagem radical entre clusters: enquanto os clusters de Ferramentas/APIs (Cluster 1) e Copilotos (Cluster 5) concentram episódios de cocriação simétrica (VC1/VC2) alicerçados em Diálogo e Acesso, os clusters de Moderação/Suporte (Cluster 3) e Fair Play (Cluster 2) concentram eventos severos de codestruição (VC3). Em *World of Warcraft*, a taxa de tópicos em VC3 atinge **26,2%** (contra 13,6% em EVE), espelhando um profundo descontentamento comunitário com sistemas opacos de moderação algorítmica e encerramento automatizado de tickets.
 
-### 6.5 QI5: Implicações para o Design de Ecossistemas com IA
-**Resposta**: O sucesso de ferramentas comunitárias baseadas em MCP em EVE Online indica que as editoras devem disponibilizar **interfaces abertas, auditáveis e com visibilidade de diagnóstico (Transparência)**. Inversamente, a automação opaca de suporte e moderação observada em WoW ilustra o caminho da rápida destruição de valor relacional.
+---
 
-**Síntese Comparativa Transversal (Sandbox vs. Ecossistema Controlado)**:
-A análise transversal agregada demonstra que a arquitetura de governança e a infraestrutura técnica exercem um papel determinístico na transição do discurso comunitário da especulação defensiva para a cocriação tangível de valor (Prahalad & Ramaswamy, 2004). No ecossistema **Sandbox de *EVE Online***, a disponibilização aberta e padronizada da API ESI e a recente adoção do *Model Context Protocol* (MCP) catalisam uma governança descentralizada onde os jogadores assumem o papel de co-desenvolvedores informacionais. Ao facultar Acesso técnico direto (`A: 1,48`) e visibilidade de diagnóstico (`T: 1,49`), a CCP Games reduz a fricção epistémica e fomenta ecossistemas cooperativos (tais como *EVE Crews* e *Battlefield.Space*), convertendo agentes de IA em próteses de ampliação cognitiva que mitigam a complexidade sistémica em benefício mútuo da comunidade e da plataforma.
+### 6.3 QI3: Governança do Ecossistema e Implicações para o Design com IA
+*Pergunta Central: Como é que a arquitetura de governança de cada ecossistema condiciona a cocriação de valor com IA, e que implicações daí decorrem?*
 
-Em contrapartida, no ecossistema **Controlado de *World of Warcraft***, a governança algorítmica da Blizzard é estritamente centralizada e defensiva. A sandbox de addons em Lua é delimitada por restrições rigorosas e a IA oficial é confinada a ambientes isolados de jogabilidade assistida (*Follower Dungeons* e *Delves*). Concomitantemente, a automação opaca de pipelines de atendimento e aplicação de penalizações gera uma elevada taxa de codestruição de valor ao nível de tópicos (`VC3: 26,2%`), induzindo cinismo e sensação de desamparo institucional. Quando a cocriação desponta em *WoW*, ocorre quase exclusivamente nas margens informais através do *vibe-coding* de addons via LLMs externos. Em termos de design de ecossistemas digitais, conclui-se que interfaces abertas, auditáveis e programáveis catalisam a agência comunitária para a cocriação sustentável de valor (VC1/VC2), ao passo que arquiteturas muradas com automação opaca de suporte desviam a energia da comunidade para a contestação contínua, o atrito regulatório e a erosão do valor relacional (VC3).
+#### 6.3.1 QI3a: Diferenças Sistemáticas entre EVE Online e World of Warcraft na Configuração DART e Dinâmica de Valor
+**Resposta (Síntese Comparativa Transversal)**:
+A análise transversal agregada demonstra que a arquitetura de governança e a infraestrutura técnica exercem um papel determinístico na transição do discurso comunitário da especulação defensiva para a cocriação tangível de valor (Prahalad & Ramaswamy, 2004). 
+
+No ecossistema **Sandbox de *EVE Online***, a disponibilização aberta e padronizada da API ESI e a recente adoção do *Model Context Protocol* (MCP) catalisam uma governança descentralizada onde os jogadores assumem o papel de co-desenvolvedores informacionais. Ao facultar Acesso técnico direto (`A: 1,48`) e visibilidade de diagnóstico (`T: 1,49`), a CCP Games reduz a fricção epistémica e fomenta ecossistemas cooperativos (tais como *EVE Crews* e *Battlefield.Space*), convertendo agentes de IA em próteses de ampliação cognitiva que mitigam a complexidade sistémica em benefício mútuo da comunidade e da plataforma.
+
+Em contrapartida, no ecossistema **Controlado de *World of Warcraft***, a governança algorítmica da Blizzard é estritamente centralizada e defensiva. A sandbox de addons em Lua é delimitada por restrições rigorosas e a IA oficial é confinada a ambientes isolados de jogabilidade assistida (*Follower Dungeons* e *Delves*). Concomitantemente, a automação opaca de pipelines de atendimento e aplicação de penalizações gera uma elevada taxa de codestruição de valor ao nível de tópicos (`VC3: 26,2%`), induzindo cinismo e sensação de desamparo institucional. Quando a cocriação desponta em *WoW*, ocorre quase exclusivamente nas margens informais através do *vibe-coding* de addons via LLMs externos.
+
+#### 6.3.2 QI3b: Implicações Teóricas e Práticas para o Desenho de Ecossistemas de Videojogos com IA Integrada
+**Resposta**: 
+1. **Implicações Teóricas**: A operacionalização do modelo DART-NET em ambientes lúdicos demonstra que o Risco e a Transparência funcionam como variáveis moderadoras cruciais: sem transparência algorítmica, o aumento de acesso técnico não fomenta cocriação, antes precipita atritos de codestruição (VC3). Ademais, a análise multinível valida que a emergência de valor sociotécnico se consolida ao nível meso da deliberação coletiva (47,6% de impacto de valor em tópicos vs. 22,8% em posts atómicos).
+2. **Implicações Práticas para Estúdios e Designers**: O sucesso de ferramentas comunitárias baseadas em MCP em *EVE Online* indica que as publicadoras devem disponibilizar **interfaces abertas, programáveis e auditáveis (Transparência)**. Inversamente, a automação opaca de suporte ao cliente e moderação por "caixa negra", tal como observado em *WoW*, ilustra o caminho da rápida degradação do valor relacional. Recomenda-se a adoção de salvaguardas contra alucinações, explicabilidade nas regras algorítmicas e a garantia imperativa de intervenção humana no circuito (*human-in-the-loop*) para decisões sancionatórias.
 
 ---
 

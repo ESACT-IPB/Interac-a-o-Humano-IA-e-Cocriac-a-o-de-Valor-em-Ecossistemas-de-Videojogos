@@ -108,7 +108,7 @@ flowchart TD
         NETNO_REFINED --> SYNTHESIS["SynthesisAgent<br/>(deepseek-v4-pro com amostragem estratificada)"]:::agent
         AUDIT_REPORT --> SYNTHESIS
         
-        SYNTHESIS --> REPORT_FINAL["relatorio_netnografia.md<br/>(Relatório Académico Formal — QI1 a QI5 em 825 posts)"]:::output
+        SYNTHESIS --> REPORT_FINAL["relatorio_netnografia.md<br/>(Relatório Académico Formal — QI1 a QI3 em 825 posts)"]:::output
         
         ANON_POSTS --> TABLE_GEN["SummaryTableGenerator<br/>(deepseek-v4-flash para resumos <= 50 palavras)"]:::agent
         NETNO_REFINED --> TABLE_GEN
@@ -178,7 +178,7 @@ flowchart TD
 7. **Fase 5: Síntese e Entregáveis Finais**
    * **Agentes:** `SynthesisAgent` e `SummaryTableGenerator`
    * **Entregáveis:**
-     * `output/relatorio_netnografia.md`: Relatório académico formal de 8 secções em português de Portugal, fundamentando as respostas às 5 Questões de Investigação (QI1 a QI5) no corpus de 825 posts.
+     * `output/relatorio_netnografia.md`: Relatório académico formal de 8 secções em português de Portugal, fundamentando as respostas às 3 Macro-Questões de Investigação (QI1 a QI3 e subquestões a/b) no corpus refinado de 825 posts.
      * `output/tabela_resumos.md`: Matriz com os 825 registos refinados (DART scores, Tipos IA, Interação, Valor, resumos $\le$ 50 palavras, temas $\le$ 8 palavras, links diretos e flag de revisão humana).
      * `output/lista_links.md` e `output/lista_links.txt`: Inventário canónico das 303 discussões catalogadas.
      * `output/tabela_custos.md`: Auditoria financeira de ~27.000 chamadas de API com custo consolidado de **~$21,50 USD**.
