@@ -104,8 +104,6 @@ Após a remoção do ruído residual (A6) e da automação mecânica desprovida 
 
 ## 3. Análise por Dimensão DART
 
-## 3. Análise por Dimensão DART
-
 ### 3.1 Visão Global das Pontuações no Corpus Refinado
 
 | Dimensão DART | Média no Corpus Refinado (0–5) | Interpretação Metodológica |
