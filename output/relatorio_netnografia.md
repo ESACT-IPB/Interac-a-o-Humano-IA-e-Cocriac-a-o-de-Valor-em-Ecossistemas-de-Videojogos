@@ -23,7 +23,20 @@ A taxonomia DART-NET estabelece uma distinção crítica entre agentes de IA aut
 | **A5** | Discussão sobre IA | Conteúdo que discute IA sem descrever interação direta com um agente |
 | **A6** | Irrelevante | Conteúdo sem relação com IA, bots ou automação |
 
-### 1.3 Questões de Investigação
+### 1.3 Taxonomia de Cocriação e Codestruição de Valor (VC1–VC4)
+
+No enquadramento da *Service-Dominant Logic* (Vargo & Lusch, 2004, 2016) e do modelo DART (Prahalad & Ramaswamy, 2004), o valor não é um atributo intrínseco ou estático embutido na tecnologia, mas emerge iterativamente nas práticas de cocriação de serviço entre atores humanos e não-humanos. Quando a interação é mediada por sistemas de inteligência artificial, o desfecho pode oscilar entre a sinergia colaborativa e a disrupção prejudicial — um fenómeno teorizado como **codestruição de valor** (*Value Co-Destruction*; Plé & Chumpitaz Cáceres, 2010; Echeverri & Skålén, 2011), caracterizado pelo desalinhamento acidental ou intencional na integração de recursos.
+
+Para operacionalizar e medir este espetro sociotécnico em comunidades de videojogos, o protocolo DART-NET estabelece a taxonomia ordinal de quatro categorias de valor (**VC** — *Value Co-creation*):
+
+| Código | Classificação de Valor | Definição Operacional e Papel Sociotécnico |
+| :--- | :--- | :--- |
+| **VC1** | **Cocriação Efetiva de Valor** (*Value Co-Creation*) | Interações colaborativas simétricas e bem-sucedidas entre jogador(es) e IA que resultam em benefícios tangíveis verificáveis (ex.: desenvolvimento conjunto de ferramentas comunitárias, superação de barreiras de entrada, expansão de capacidades criativas ou resolução colaborativa de problemas lúdicos). |
+| **VC2** | **Potencial Cocriação de Valor** (*Potential Value Co-Creation*) | Evidências empíricas de intenção, teste experimental ou proposta concetual de cocriação com IA, cuja materialização tangível de valor permanece incipiente, em fase de protótipo ou condicionada a desenvolvimentos futuros. |
+| **VC3** | **Codestruição de Valor** (*Value Co-Destruction*) | Interações que produzem danos sistémicos ou individuais, tais como perdas patrimoniais no jogo (ex.: perda de naves em combate por alucinações de copilotos), quebra de confiança institucional, proliferação de assimetrias competitivas injustas ou atritos gerados por moderação e apoio ao cliente automatizados opacos. |
+| **VC4** | **Sem Evidência Direta / Neutro** (*No Evidence of Value*) | Discussões analíticas, debates reflexivos ou considerações normativas sobre IA desprovidas de relatos de ganhos ou perdas imediatas no ecossistema empírico dos jogadores. |
+
+### 1.4 Questões de Investigação
 
 A investigação é orientada por **três macro-questões de investigação**, desdobradas em subquestões complementares que articulam a agência tecnológica, os blocos constitutivos de valor e a governança dos ecossistemas:
 
@@ -37,11 +50,11 @@ A investigação é orientada por **três macro-questões de investigação**, d
   * **QI3a**: Que diferenças sistemáticas existem entre EVE Online (sandbox aberto) e World of Warcraft (ecossistema controlado) na configuração DART e na dinâmica de valor?
   * **QI3b** *(antiga QI5)*: Que implicações teóricas e práticas emergem para o desenho de ecossistemas de videojogos com IA integrada?
 
-### 1.4 Metodologia de Recolha e Ingestão Inicial
+### 1.5 Metodologia de Recolha e Ingestão Inicial
 
 A pipeline DART-NET v3.0 processou um corpus canónico de 303 tópicos de discussão, com delimitação temporal estrita de janeiro de 2024 a 2026. Foram filtradas 6.485 mensagens em bruto, das quais 1.032 foram inicialmente validadas semanticamente e codificadas pelo modelo DeepSeek sob o protocolo DART-NET, garantindo conformidade com a taxonomia A1–A6, I1–I6, VC1–VC4 e as quatro dimensões de Prahalad & Ramaswamy (2004).
 
-### 1.5 Protocolo de Refinamento Epistémico e Critérios de Poda Metodológica
+### 1.6 Protocolo de Refinamento Epistémico e Critérios de Poda Metodológica
 
 Em investigação netnográfica e estudos de cocriação de valor mediada por tecnologia (Kozinets, 2020; Prahalad & Ramaswamy, 2004; Vargo & Lusch, 2004), a validade do construto empírico depende criticamente da eliminação de ruído semântico e de dados espúrios que não representem o fenómeno sob escrutínio. 
 
@@ -59,7 +72,7 @@ Por conseguinte, foi aplicado um **protocolo rigoroso de refinamento epistémico
 > * O dataset refinado consolida-se em **825 posts de alta densidade empírica**, preservando 100% dos episódios de agentes autónomos (A1), copilotos (A4) e cocriação de valor (VC1 e VC2).
 > * Todos os 207 posts excluídos foram arquivados com registo de auditoria em `data/analysis/excluded_posts_log.json`, e o corpus original de 1.032 posts permanece salvaguardado em `data/analysis/netnography_results_1032_unpruned.jsonl`.
 
-### 1.6 Abordagem Multinível: Do Post Atómico à Thread Conversacional
+### 1.7 Abordagem Multinível: Do Post Atómico à Thread Conversacional
 
 Para responder com profundidade e rigor epistémico ao fenómeno da cocriação de valor mediada por IA, o estudo opera segundo uma **arquitetura analítica em três níveis concêntricos**:
 1. **Nível Micro (O Post — $N=825$ análises)**: Constitui a unidade primária de calibração empírica. Cada mensagem é individualmente codificada com base no princípio de evidência literal verificável (*verbatim quotes*), atribuindo escores DART (0 a 5), tipologia de agência (A1–A5), estrutura de interação (I1–I6) e valor (VC1–VC4).
