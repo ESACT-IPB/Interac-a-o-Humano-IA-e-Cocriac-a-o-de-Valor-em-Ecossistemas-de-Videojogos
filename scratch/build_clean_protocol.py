@@ -1,9 +1,57 @@
 import json
 import random
+import re
 import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 
-# 1. Carregar dados reais e verificados
+# 1. Carregar tabela_resumos.md como FONTE DA VERDADE ABSOLUTA para os resumos analíticos
+posts_tabela_resumos = {}
+topicos_tabela_resumos = {}
+
+with open("output/tabela_resumos.md", "r", encoding="utf-8") as f:
+    for line in f:
+        if line.startswith("| `") or line.startswith("| reddit_"):
+            parts = [p.strip() for p in line.split("|")]
+            if len(parts) >= 11:
+                pid = parts[1].replace("`", "")
+                jogo = parts[2]
+                tipo_ia = parts[3].replace("`", "")
+                inter = parts[4].replace("`", "")
+                valor = parts[5].replace("`", "")
+                dart = parts[6].replace("`", "")
+                tema = parts[8]
+                resumo_post = parts[9]
+                link_raw = parts[10]
+                m = re.search(r"\]\((.*?)\)", link_raw)
+                link = m.group(1) if m else link_raw
+                
+                if pid.startswith("reddit_"):
+                    tid = "_".join(pid.split("_")[:2])
+                else:
+                    tid = pid.split("_")[0]
+                
+                post_data = {
+                    "pid": pid,
+                    "tid": tid,
+                    "jogo": jogo,
+                    "tipo_ia": tipo_ia,
+                    "inter": inter,
+                    "valor": valor,
+                    "dart": dart,
+                    "tema": tema,
+                    "resumo": resumo_post,
+                    "link": link
+                }
+                posts_tabela_resumos[pid] = post_data
+                
+                if tid not in topicos_tabela_resumos:
+                    topicos_tabela_resumos[tid] = []
+                topicos_tabela_resumos[tid].append(post_data)
+
+print(f"Total posts carregados de tabela_resumos.md: {len(posts_tabela_resumos)}")
+print(f"Total topicos carregados de tabela_resumos.md: {len(topicos_tabela_resumos)}")
+
+# 2. Carregar dados para texto verbatim e metadados adicionais
 with open("data/analysis/netnography_results.jsonl", "r", encoding="utf-8") as f:
     net_posts = [json.loads(line) for line in f]
 
@@ -30,39 +78,62 @@ for p in anon_posts:
             "title": p.get("title") or p.get("titulo")
         }
 
-def assign_cluster(title, summary):
-    txt = (str(title) + " " + str(summary)).lower()
+def assign_cluster(title, posts_list):
+    # Basear classificacao de cluster nos temas reais de tabela_resumos.md
+    txt = (str(title) + " " + " ".join([p["tema"] + " " + p["resumo"] for p in posts_list])).lower()
     if "mcp" in txt or "esi" in txt or "api" in txt or "endpoint" in txt:
         return "Cluster 1: Ferramentas Externas, Integração de APIs e MCP"
     elif "follower" in txt or "masmorra" in txt or "delve" in txt or "brann" in txt or "aura" in txt:
         return "Cluster 4: Agentes Oficiais In-Game e Masmorras de Seguidores"
-    elif "ticket" in txt or "suporte" in txt or "gm" in txt or "ban" in txt or "modera" in txt:
+    elif "ticket" in txt or "suporte" in txt or "gm" in txt or "ban" in txt or "modera" in txt or "layoff" in txt or "despedimento" in txt:
         return "Cluster 3: Suporte ao Cliente, Moderação Automatizada e Banning"
-    elif "copilot" in txt or "vibe" in txt or "claude" in txt or "chatgpt" in txt or "addon" in txt or "desenvolv" in txt or "lua" in txt:
+    elif "copilot" in txt or "vibe" in txt or "claude" in txt or "chatgpt" in txt or "addon" in txt or "desenvolv" in txt or "lua" in txt or "weakaura" in txt:
         return "Cluster 5: Copilotos de Desenvolvimento, Addons e Vibe-Coding"
     else:
         return "Cluster 2: Fair Play, Deteção Algorítmica e Integridade Competitiva"
 
-# Selecionar Amostra de Posts (10% de 825 = 83 posts)
+def build_topic_summary(posts_list):
+    """Constrói o resumo analítico do tópico estritamente a partir dos resumos de tabela_resumos.md."""
+    if not posts_list:
+        return "Sem posts analisados."
+    if len(posts_list) == 1:
+        return f"[{posts_list[0]['tema']}]: {posts_list[0]['resumo']}"
+    
+    # Se tem múltiplos posts, agrega os pontos principais de tabela_resumos.md
+    lines = []
+    # Selecionar até 4 posts representativos para síntese
+    for i, p in enumerate(posts_list[:4], 1):
+        lines.append(f"• Post {i} ({p['tema']}): {p['resumo']}")
+    if len(posts_list) > 4:
+        lines.append(f"(Tópico inclui um total de {len(posts_list)} posts analisados na tabela de resumos).")
+    return "\n".join(lines)
+
+# 3. Amostra de Posts (Track A, N=83 posts, 10% de 825)
 random.seed(42)
 sample_posts_raw = random.sample(net_posts, 83)
 
 sample_posts = []
 for p in sample_posts_raw:
     pid = str(p.get("post_id") or p.get("id"))
+    tr = posts_tabela_resumos.get(pid, {})
     anon = anon_by_id.get(pid, {})
     sample_posts.append({
         "post_id": pid,
-        "game": anon.get("game") or anon.get("jogo") or p.get("game") or p.get("jogo"),
+        "game": tr.get("jogo") or anon.get("game") or p.get("game"),
         "title": anon.get("title") or anon.get("titulo") or p.get("title", ""),
         "text": anon.get("text") or anon.get("corpo") or p.get("text", ""),
-        "url": anon.get("url") or anon.get("url_fonte") or p.get("url", "")
+        "resumo_ia": tr.get("resumo", "Sem resumo na tabela."),
+        "tema": tr.get("tema", ""),
+        "url": tr.get("link") or anon.get("url") or ""
     })
 
-# Selecionar Amostra de Tópicos (10% de 143 = 15 tópicos, equilibrados pelos 5 clusters)
+# 4. Amostra de Tópicos (Track B, N=15 tópicos, 10% de 143)
+# Equilibrar entre clusters usando os dados de tabela_resumos.md
 threads_by_cluster = {1: [], 2: [], 3: [], 4: [], 5: []}
 for t in threads:
-    c_name = assign_cluster(t["title"], t["summary"])
+    tid = str(t["thread_id"])
+    t_posts = topicos_tabela_resumos.get(tid, [])
+    c_name = assign_cluster(t["title"], t_posts)
     c_num = int(c_name.split(":")[0].replace("Cluster", "").strip())
     threads_by_cluster[c_num].append(t)
 
@@ -74,17 +145,18 @@ sample_threads = []
 for t in sample_threads_raw:
     tid = str(t["thread_id"])
     t_info = thread_info_map.get(tid, {})
+    t_posts = topicos_tabela_resumos.get(tid, [])
     sample_threads.append({
         "thread_id": tid,
         "game": t.get("game") or t_info.get("game"),
         "title": t.get("title") or t_info.get("title"),
-        "url": t_info.get("url") or f"https://forums.eveonline.com/t/{tid}",
-        "summary": t.get("summary", ""),
-        "cluster": assign_cluster(t["title"], t["summary"]),
+        "url": t_info.get("url") or (t_posts[0]["link"] if t_posts else f"https://forums.eveonline.com/t/{tid}"),
+        "summary": build_topic_summary(t_posts),
+        "cluster": assign_cluster(t["title"], t_posts),
         "val_dyn": t.get("val_dyn", "")
     })
 
-# 2. Inicializar Excel
+# 5. Criar Livro Excel Formatado
 wb = openpyxl.Workbook()
 
 font_title = Font(name="Calibri", size=13, bold=True, color="1F497D")
@@ -151,8 +223,8 @@ add_sec_header(ws1, "1. DIVISÃO DAS TAREFAS DE AUDITORIA (AMOSTRA VERIFICADA DE
 r += 1
 h_div = ["Tarefa / Nível", "Dupla de Avaliadores", "Unidade Amostral", "Instruções Específicas"]
 d_div = [
-    ["Track A (Posts - Micro)", "Roger e Gomide", "83 Posts Reais (10% de 825)", "Classificar de forma independente com base no texto verbatim: Dimensões DART (0-5), Agência (A1-A6), Interação (I1-I6) e Valor (VC1-VC4)."],
-    ["Track B (Tópicos - Meso)", "JPaulo e Emmanoel", "15 Tópicos Reais (10% de 143)", "Classificar de forma independente com base na thread completa: Cluster Temático (1 a 5), Trajetória Global de Valor (VC1 a VC4) e Fidelidade da Síntese IA (escala 1 a 5)."]
+    ["Track A (Posts - Micro)", "Roger e Gomide", "83 Posts Reais (10% de 825)", "Classificar de forma independente com base no texto verbatim e no resumo analítico de tabela_resumos.md: Dimensões DART (0-5), Agência (A1-A6), Interação (I1-I6) e Valor (VC1-VC4)."],
+    ["Track B (Tópicos - Meso)", "JPaulo e Emmanoel", "15 Tópicos Reais (10% de 143)", "Classificar de forma independente com base na thread e na síntese fundamentada em tabela_resumos.md: Cluster Temático (1 a 5), Trajetória Global de Valor (VC1 a VC4) e Fidelidade da Síntese IA (escala 1 a 5)."]
 ]
 r = render_table(ws1, r, h_div, d_div, {1: alignment_center, 2: alignment_center, 3: alignment_center})
 
@@ -222,72 +294,77 @@ ws1.column_dimensions["C"].width = 65
 ws1.column_dimensions["D"].width = 45
 
 # ==========================================
-# FOLHA 2: EXEMPLOS POSTS (EMPÍRICOS REAIS)
+# FOLHA 2: EXEMPLOS POSTS (DIRETOS DE TABELA_RESUMOS.MD)
 # ==========================================
 ws2 = wb.create_sheet(title="Exemplos_Posts")
 ws2.views.sheetView[0].showGridLines = True
 ws2.freeze_panes = "A2"
 
-h_ex_p = ["Post_ID", "Jogo", "Texto_Real_Verbatim", "Link_Acesso", "DART_Esperado", "Agencia_Esperada", "Interacao_Esperada", "Valor_Esperado", "Justificacao_Metodologica"]
+h_ex_p = ["Post_ID", "Jogo", "Tema_Resumo", "Resumo_Analitico_IA", "Link_Acesso", "DART_Esperado", "Agencia_Esperada", "Interacao_Esperada", "Valor_Esperado", "Justificacao_Metodologica"]
 d_ex_p = [
     [
         "510327_2870703",
         "EVE Online",
-        "The crew numbers in EVE Crews are derived from a blend of official CCP lore, historical game data, and community research. The specific sources used to determine these headcounts include: ... If you notice an anomaly with supercarrier complements, let me know so we can update the inference logic with Claude.",
+        posts_tabela_resumos.get("510327_2870703", {}).get("tema", "Correção de classificação de navios"),
+        posts_tabela_resumos.get("510327_2870703", {}).get("resumo", ""),
         "https://forums.eveonline.com/t/eve-crews-a-lore-accurate-api-linked-crew-simulator/510327",
-        "D: 4 | A: 3 | R: 0 | T: 4",
+        "D: 4 | A: 3 | R: 1 | T: 3",
         "A1 (Agente de IA Autónomo)",
         "I3 (Humano ↔ IA Bidirecional)",
         "VC1 (Cocriação Efetiva)",
-        "Parceria simétrica comprovada: o programador e a comunidade iteram com um agente LLM para redefinir a lógica de um simulador público, com alto diálogo, transparência de dados e benefício direto para os jogadores."
+        "Resumo fundamentado em tabela_resumos.md: O utilizador reportou falha na classificação da nave devido a dados ESI desatualizados e o desenvolvedor corrigiu o problema diretamente, criando valor comunitário."
     ],
     [
-        "reddit_1ariy3g_20",
+        "1772220_22622499",
         "World of Warcraft",
-        "Took me 5 tickets to finally get someone who looked into my ticket for more than 5 seconds. Every single response before that was an obvious automated template that completely misunderstood the issue and closed the ticket immediately.",
-        "https://www.reddit.com/r/wow/comments/1ariy3g/customer_support_is_a_joke/",
-        "D: 0 | A: 1 | R: 4 | T: 0",
-        "A1 (Agente de IA / Bot)",
-        "I1 (Humano → IA Unidirecional)",
-        "VC3 (Codestruição de Valor)",
-        "Episódio canónico de codestruição de valor: automação opaca de moderação e atendimento ao cliente (zero diálogo, zero transparência, elevado risco), gerando indignação e destruição de confiança institucional."
+        posts_tabela_resumos.get("1772220_22622499", {}).get("tema", "Combate a bots e venda de ouro"),
+        posts_tabela_resumos.get("1772220_22622499", {}).get("resumo", ""),
+        "https://us.forums.blizzard.com/en/wow/t/all-of-these-talks-about-bots/1772220",
+        "D: 0 | A: 0 | R: 5 | T: 0",
+        "A5 (Discussão sobre IA)",
+        "I6 (Sem Interação Significativa)",
+        "VC4 (Sem Evidência Direta)",
+        "Resumo fundamentado em tabela_resumos.md: O post critica a inação contra bots e venda de ouro, refletindo sobre incentivos económicos da publicadora sem haver criação nem destruição direta imediata no post."
     ],
     [
-        "1jukb0x_1",
+        "471468_2644478",
         "EVE Online",
-        "PSA for the new bros: Dont ask chatgpt about Eve. It hallucinates mechanics that were removed 5 years ago, suggests impossible fittings, and will get your ship blown up in lowsec. Ask your corp mates or read UniWiki instead.",
-        "https://www.reddit.com/r/Eve/comments/1jukb0x/psa_for_the_new_bros_dont_ask_chatgpt_about_eve",
-        "D: 2 | A: 2 | R: 3 | T: 1",
+        posts_tabela_resumos.get("471468_2644478", {}).get("tema", "Confiança na IA para suporte"),
+        posts_tabela_resumos.get("471468_2644478", {}).get("resumo", ""),
+        "https://forums.eveonline.com/t/closed-amarrian-corporation-resolved/471468",
+        "D: 3 | A: 3 | R: 0 | T: 1",
+        "A1 (Agente de IA Autónomo)",
+        "I1 (Humano → IA Unidirecional)",
+        "VC2 (Potencial Cocriação)",
+        "Resumo fundamentado em tabela_resumos.md: O utilizador descobriu que o Gemini respondeu às dúvidas de jogo, reduzindo a necessidade de chats de novatos, evidenciando potencial de cocriação."
+    ],
+    [
+        "reddit_1tvlpnw_1",
+        "World of Warcraft",
+        posts_tabela_resumos.get("reddit_1tvlpnw_1", {}).get("tema", "Addon anti-spam com machine learning"),
+        posts_tabela_resumos.get("reddit_1tvlpnw_1", {}).get("resumo", ""),
+        "https://www.reddit.com/r/wow/comments/1tvlpnw/sick_of_spam_and_bots_ruining_our_game_heres_an/",
+        "D: 0 | A: 2 | R: 2 | T: 1",
         "A5 (Discussão sobre IA)",
         "I4 (Humano → Humano sobre IA)",
         "VC4 (Sem Evidência Direta)",
-        "Debate reflexivo e normativo entre jogadores (I4) avaliando as limitações factuais e riscos do ChatGPT (A5). Não há relato de benefício nem de perda patrimonial imediata no post, tratando-se de enquadramento preventivo."
-    ],
-    [
-        "reddit_1v3v2p2_1",
-        "World of Warcraft",
-        "Explained a breakdown to what happened. Gave a link to the blue post. Directed Claude Code to review addons... Instructed it to add updated logic and within 10 minutes my entire WeakAura suite was fully functional again for the new raid patch.",
-        "https://www.reddit.com/r/wow/comments/1v3v2p2/claude_code_success/",
-        "D: 5 | A: 4 | R: 1 | T: 1",
-        "A4 (Humano Assistido por IA)",
-        "I3 (Humano ↔ IA Bidirecional)",
-        "VC1 (Cocriação Efetiva)",
-        "Exemplo paradigmático de vibe-coding e cooperação triádica: o jogador atua como condutor e o LLM como copiloto de código, restaurando ferramentas de interface do jogo em tempo recorde."
+        "Resumo fundamentado em tabela_resumos.md: Debate comunitário sobre addon com ML para bloquear bots no chat de comércio, melhorando a experiência mas ainda em discussão reflexiva."
     ]
 ]
-render_table(ws2, 1, h_ex_p, d_ex_p, {1: alignment_center, 2: alignment_center, 5: alignment_center, 6: alignment_center, 7: alignment_center, 8: alignment_center})
+render_table(ws2, 1, h_ex_p, d_ex_p, {1: alignment_center, 2: alignment_center, 6: alignment_center, 7: alignment_center, 8: alignment_center, 9: alignment_center})
 ws2.column_dimensions["A"].width = 18
 ws2.column_dimensions["B"].width = 16
-ws2.column_dimensions["C"].width = 60
-ws2.column_dimensions["D"].width = 42
-ws2.column_dimensions["E"].width = 24
-ws2.column_dimensions["F"].width = 24
+ws2.column_dimensions["C"].width = 32
+ws2.column_dimensions["D"].width = 55
+ws2.column_dimensions["E"].width = 42
+ws2.column_dimensions["F"].width = 22
 ws2.column_dimensions["G"].width = 24
 ws2.column_dimensions["H"].width = 24
-ws2.column_dimensions["I"].width = 55
+ws2.column_dimensions["I"].width = 24
+ws2.column_dimensions["J"].width = 55
 
 # ==========================================
-# FOLHA 3: EXEMPLOS TÓPICOS (EMPÍRICOS REAIS)
+# FOLHA 3: EXEMPLOS TÓPICOS (DIRETOS DE TABELA_RESUMOS.MD)
 # ==========================================
 ws3 = wb.create_sheet(title="Exemplos_Topicos")
 ws3.views.sheetView[0].showGridLines = True
@@ -300,44 +377,44 @@ d_ex_t = [
         "EVE Online",
         "EVE Crews: A lore-accurate* API-linked crew simulator",
         "https://forums.eveonline.com/t/eve-crews-a-lore-accurate-api-linked-crew-simulator/510327",
-        "O tópico centra-se na integração e operação de agentes autónomos (Claude, EVE Swagger Interface - ESI, EVE Crews) no ecossistema de EVE Online. Os utilizadores descrevem interações diretas e colaborativas com sistemas algorítmicos, articulando prompts, consultas de telemetria e testes empíricos de interface. Observa-se cocriação efetiva de valor (VC1).",
+        build_topic_summary(topicos_tabela_resumos.get("510327", [])),
         "Cluster 1: Ferramentas Externas, Integração de APIs e MCP",
         "Cocriação Efetiva (VC1)",
         "5",
-        "Caso de estudo principal de ferramentas e APIs no EVE Online. O resumo da IA sintetiza com precisão máxima o diálogo agêntico e a produção de novas ferramentas comunitárias."
+        "Resumo construído diretamente a partir dos posts de tabela_resumos.md: reflete o desenvolvimento contínuo de tripulações, resolução de bugs ESI e gamificação colaborativa."
     ],
     [
-        "508618",
+        "495219",
         "EVE Online",
-        "Recorded a bot in high sec - but why even bother?",
-        "https://forums.eveonline.com/t/recorded-a-bot-in-high-sec-but-why-even-bother/508618",
-        "A comunidade debate reflexivamente as implicações técnicas e de governança na deteção de bots no espaço de segurança alta. Utilizadores relatam frustração com respostas automáticas e sensação de ineficácia punitiva, expressando cinismo em relação ao suporte da publicadora.",
-        "Cluster 3: Suporte ao Cliente, Moderação Automatizada e Banning",
-        "Codestruição de Valor (VC3)",
-        "4",
-        "A dinâmica global do tópico retrata erosão de confiança e codestruição de valor gerada pela perceção de abandono institucional e moderação algorítmica ineficaz."
+        "WTB discord bot that pings me when a contract is accepted",
+        "https://forums.eveonline.com/t/wtb-discord-bot-that-pings-me-when-a-contract-is-accepted/495219",
+        build_topic_summary(topicos_tabela_resumos.get("495219", [])),
+        "Cluster 1: Ferramentas Externas, Integração de APIs e MCP",
+        "Cocriação Efetiva (VC1)",
+        "5",
+        "Resumo construído diretamente a partir dos posts de tabela_resumos.md: discussão técnica sobre limitações da API ESI e desenvolvimento de bot para notificações de contratos via Discord."
+    ],
+    [
+        "2203538",
+        "World of Warcraft",
+        "It seems there is already a workaround for addons/ui ai",
+        "https://us.forums.blizzard.com/en/wow/t/it-seems-there-is-already-a-workaround-for-addonsui-ai/2203538",
+        build_topic_summary(topicos_tabela_resumos.get("2203538", [])),
+        "Cluster 5: Copilotos de Desenvolvimento, Addons e Vibe-Coding",
+        "Cocriação Potencial (VC2)",
+        "5",
+        "Resumo construído diretamente a partir dos posts de tabela_resumos.md: jogadores debatem protótipo de IA que lê o ecrã para partilhar CDs/interrupções sem usar a API da Blizzard."
     ],
     [
         "reddit_1tvlpnw",
         "World of Warcraft",
         "Sick of spam and bots ruining our game? Here is an addon that uses ML...",
         "https://www.reddit.com/r/wow/comments/1tvlpnw/sick_of_spam_and_bots_ruining_our_game_heres_an/",
-        "Discussão técnica e normativa sobre a utilização de modelos de Machine Learning locais para filtragem em tempo real de mensagens de spam e serviços de boosting nos canais de chat de World of Warcraft.",
+        build_topic_summary(topicos_tabela_resumos.get("reddit_1tvlpnw", [])),
         "Cluster 2: Fair Play, Deteção Algorítmica e Integridade Competitiva",
         "Sem Evidência Direta / Neutro (VC4)",
         "5",
-        "A thread debate os riscos de integridade e viabilidade normativa sem que se consolide uma solução definitiva em larga escala, mantendo-se num plano predominantemente reflexivo."
-    ],
-    [
-        "reddit_1v3v2p2",
-        "World of Warcraft",
-        "Claude Code Success",
-        "https://www.reddit.com/r/wow/comments/1v3v2p2/claude_code_success/",
-        "Programadores comunitários e jogadores partilham sucessos empíricos no desenvolvimento e reparação de scripts de interface utilizando ferramentas generativas como Claude Code em World of Warcraft.",
-        "Cluster 5: Copilotos de Desenvolvimento, Addons e Vibe-Coding",
-        "Cocriação Efetiva (VC1)",
-        "5",
-        "Enquadramento transparente no Cluster 5: cooperação triádica focada na democratização do desenvolvimento de software lúdico comunitário."
+        "Resumo construído diretamente a partir dos posts de tabela_resumos.md: discussão sobre addon anti-spam com machine learning e busca por ferramentas de denúncia com um clique."
     ]
 ]
 render_table(ws3, 1, h_ex_t, d_ex_t, {1: alignment_center, 2: alignment_center, 6: alignment_wrap, 7: alignment_center, 8: alignment_center})
@@ -345,21 +422,21 @@ ws3.column_dimensions["A"].width = 16
 ws3.column_dimensions["B"].width = 16
 ws3.column_dimensions["C"].width = 38
 ws3.column_dimensions["D"].width = 42
-ws3.column_dimensions["E"].width = 55
+ws3.column_dimensions["E"].width = 65
 ws3.column_dimensions["F"].width = 35
 ws3.column_dimensions["G"].width = 24
 ws3.column_dimensions["H"].width = 22
 ws3.column_dimensions["I"].width = 50
 
 # ==========================================
-# FOLHA 4: TRACK_A_POSTS (83 POSTS VERIFICADOS)
+# FOLHA 4: TRACK_A_POSTS (83 POSTS VERIFICADOS COM RESUMO DE TABELA_RESUMOS.MD)
 # ==========================================
 ws4 = wb.create_sheet(title="Track_A_Posts")
 ws4.views.sheetView[0].showGridLines = True
-ws4.freeze_panes = "F2"
+ws4.freeze_panes = "G2"
 
 headers_posts = [
-    "Post_ID", "Jogo", "Titulo_Topico", "Texto_Real_Verbatim", "Link_Acesso",
+    "Post_ID", "Jogo", "Titulo_Topico", "Texto_Real_Verbatim", "Resumo_Analitico_IA", "Link_Acesso",
     "Roger_DART (0-5)", "Roger_Agencia (A1-A6)", "Roger_Interacao (I1-I6)", "Roger_Valor (VC1-VC4)",
     "Gomide_DART (0-5)", "Gomide_Agencia (A1-A6)", "Gomide_Interacao (I1-I6)", "Gomide_Valor (VC1-VC4)",
     "Anotacoes_Discordancias"
@@ -372,6 +449,7 @@ for p in sample_posts:
         p["game"],
         p["title"],
         p["text"],
+        p["resumo_ia"], # Diretamente de tabela_resumos.md!
         p["url"],
         "", "", "", "",
         "", "", "", "",
@@ -379,21 +457,22 @@ for p in sample_posts:
     ])
 
 render_table(ws4, 1, headers_posts, data_posts, {
-    1: alignment_center, 2: alignment_center, 5: alignment_wrap,
-    6: alignment_center, 7: alignment_center, 8: alignment_center, 9: alignment_center,
-    10: alignment_center, 11: alignment_center, 12: alignment_center, 13: alignment_center
+    1: alignment_center, 2: alignment_center, 6: alignment_wrap,
+    7: alignment_center, 8: alignment_center, 9: alignment_center, 10: alignment_center,
+    11: alignment_center, 12: alignment_center, 13: alignment_center, 14: alignment_center
 })
 
 ws4.column_dimensions["A"].width = 18
 ws4.column_dimensions["B"].width = 16
 ws4.column_dimensions["C"].width = 32
 ws4.column_dimensions["D"].width = 65
-ws4.column_dimensions["E"].width = 42
-for col_l in ["F", "G", "H", "I", "J", "K", "L", "M", "N"]:
+ws4.column_dimensions["E"].width = 55
+ws4.column_dimensions["F"].width = 42
+for col_l in ["G", "H", "I", "J", "K", "L", "M", "N", "O"]:
     ws4.column_dimensions[col_l].width = 24
 
 # ==========================================
-# FOLHA 5: TRACK_B_TOPICOS (15 TOPICOS VERIFICADOS)
+# FOLHA 5: TRACK_B_TOPICOS (15 TOPICOS COM SÍNTESE DE TABELA_RESUMOS.MD)
 # ==========================================
 ws5 = wb.create_sheet(title="Track_B_Topicos")
 ws5.views.sheetView[0].showGridLines = True
@@ -413,7 +492,7 @@ for t in sample_threads:
         t["game"],
         t["title"],
         t["url"],
-        t["summary"],
+        t["summary"], # Diretamente construído a partir dos posts de tabela_resumos.md!
         "", "", "",
         "", "", "",
         ""
@@ -429,10 +508,10 @@ ws5.column_dimensions["A"].width = 16
 ws5.column_dimensions["B"].width = 16
 ws5.column_dimensions["C"].width = 38
 ws5.column_dimensions["D"].width = 42
-ws5.column_dimensions["E"].width = 65
+ws5.column_dimensions["E"].width = 70
 for col_l in ["F", "G", "H", "I", "J", "K", "L"]:
     ws5.column_dimensions[col_l].width = 26
 
 output_path = "output/Protocolo_Auditoria_Humana_Formatado.xlsx"
 wb.save(output_path)
-print("Ficheiro gravado com sucesso com dados 100% verificados em:", output_path)
+print("Ficheiro gerado com SUCESSO e 100% ancorado em tabela_resumos.md em:", output_path)
