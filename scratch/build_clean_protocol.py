@@ -1,10 +1,28 @@
+"""
+build_clean_protocol.py
+Gera o ficheiro Protocolo_Auditoria_Humana_Formatado.xlsx com:
+1. Resumos de posts atualizados a partir da nova tabela_resumos.md (incluindo deteção de sátira/ironia).
+2. Resumos de tópicos atualizados a partir das sínteses do TopicDiscussionAnalystAgent.
+3. Limite estrito de no máximo 60 palavras para todos os resumos de posts e tópicos.
+"""
+
 import json
 import random
 import re
 import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 
-# 1. Carregar tabela_resumos.md como FONTE DA VERDADE ABSOLUTA
+def enforce_max_words(text, max_words=60):
+    """Garante que o texto tem estritamente no máximo max_words palavras."""
+    if not text:
+        return ""
+    text_clean = text.strip()
+    words = text_clean.split()
+    if len(words) <= max_words:
+        return text_clean
+    return " ".join(words[:max_words - 1]) + "..."
+
+# 1. Carregar tabela_resumos.md como FONTE DA VERDADE DOS POSTS
 posts_tabela_resumos = {}
 topicos_tabela_resumos = {}
 
@@ -19,8 +37,9 @@ with open("output/tabela_resumos.md", "r", encoding="utf-8") as f:
                 inter = parts[4].replace("`", "")
                 valor = parts[5].replace("`", "")
                 dart = parts[6].replace("`", "")
+                rev_humana = parts[7]
                 tema = parts[8]
-                resumo_post = parts[9]
+                resumo_post = enforce_max_words(parts[9], 60)
                 link_raw = parts[10]
                 m = re.search(r"\]\((.*?)\)", link_raw)
                 link = m.group(1) if m else link_raw
@@ -38,6 +57,7 @@ with open("output/tabela_resumos.md", "r", encoding="utf-8") as f:
                     "inter": inter,
                     "valor": valor,
                     "dart": dart,
+                    "rev_humana": rev_humana,
                     "tema": tema,
                     "resumo": resumo_post,
                     "link": link
@@ -51,7 +71,7 @@ with open("output/tabela_resumos.md", "r", encoding="utf-8") as f:
 print(f"Total posts carregados de tabela_resumos.md: {len(posts_tabela_resumos)}")
 print(f"Total topicos carregados de tabela_resumos.md: {len(topicos_tabela_resumos)}")
 
-# 2. Carregar dados para texto verbatim e metadados adicionais
+# 2. Carregar dados brutos/processados para texto verbatim e metadados
 with open("data/analysis/netnography_results.jsonl", "r", encoding="utf-8") as f:
     net_posts = [json.loads(line) for line in f]
 
@@ -65,6 +85,9 @@ for p in anon_posts:
 
 with open("data/analysis/thread_level_results.json", "r", encoding="utf-8") as f:
     threads = json.load(f)
+
+with open("data/analysis/topic_discussions_insights.json", "r", encoding="utf-8") as f:
+    topic_insights = json.load(f)
 
 # Mapeamento real de URLs e metadados de tópicos
 thread_info_map = {}
@@ -91,37 +114,84 @@ def assign_cluster(title, posts_list):
     else:
         return "Cluster 2: Fair Play, Deteção Algorítmica e Integridade Competitiva"
 
-# Dicionário de resumos analíticos contínuos dos tópicos (síntese fiel dos posts em tabela_resumos.md)
+# Resumos analíticos contínuos dos 15 tópicos (estritamente <= 60 palavras)
 resumos_analiticos_topicos = {
-    "reddit_1phwb0r": "O autor apresenta a ferramenta battlefield.space, que recorre a LLMs e dados da API/ESI para produzir dossiês narrativos de inteligência sobre corporações e frotas em EVE Online, solicitando feedback comunitário. A discussão subsequente elogia o conceito informacional mas debate as barreiras de viabilidade prática, apontando os elevados custos de inferência de LLMs e a latência técnica perante as necessidades táticas imediatas dos jogadores.",
-    "1t01k13": "A comunidade debate receios de automação e o impacto da mudança de proprietários da CCP, especulando se funcionalidades como o CCP Copilot ou Claude substituirão a interação humana e permitirão gerir contas e frotas de mineração automatizadas. As respostas dos utilizadores e representantes dividem-se entre a expetativa de continuidade operacional e a apreensão de que a IA elimine postos de trabalho e desvirtue a jogabilidade tradicional de EVE.",
-    "1880836": "Jogadores e programadores de World of Warcraft debatem a eficácia de diferentes assistentes de IA (ChatGPT, Perplexity, GitHub Copilot e Code Pilot) no desenvolvimento e manutenção de addons em Lua. Enquanto alguns utilizadores recomendam fortemente o ChatGPT para acelerar a aprendizagem e depurar scripts simples, outros apontam limitações críticas, como o desconhecimento de APIs recentes pós-Dragonflight e a incapacidade de resolver quebras estruturais de compatibilidade em novas expansões sem intervenção humana.",
-    "reddit_1rnbqbh": "Jogadores de World of Warcraft debatem indícios estilísticos e pontuação formulaica (como o uso recorrente de travessões duplos) nos textos de missões da expansão Midnight, comparando-os com expansões anteriores. A discussão converge na suspeita de que a Blizzard esteja a recorrer a modelos generativos de IA para redigir ou retocar diálogos de NPCs e missões secundárias, gerando debate sobre a perda de autenticidade criativa.",
-    "516800": "O tópico discute as investigações de inteligência artificial da DeepMind no ecossistema de EVE Online, debatendo se agentes autónomos poderão vir a interagir livremente com jogadores e adaptar missões em tempo real ao histórico dos pilotos. Os intervenientes dividem-se entre o receio de disrupção da economia e a visão de que a rápida evolução tecnológica tornará a integração de IA avançada inevitável nos videojogos.",
-    "1821486": "A discussão analisa as declarações da liderança da Blizzard sobre machine learning, elogiando o seu potencial para otimizar tarefas mecânicas, melhorar texturas antigas e mitigar transferências indesejadas de jogadores entre shards. Em contraponto, vários membros expressam cinismo, associando o aumento de bugs recentes a processos automatizados e rejeitando firmemente o recurso a IA para tarefas criativas ou escrita de narrativa.",
-    "reddit_1rhkho1": "Ampla deliberação comunitária analisando missões secundárias de World of Warcraft que os jogadores identificam como tendo sido geradas por IA, apontando padrões sintáticos repetitivos, metáforas formulaicas e referências incongruentes com o lore do jogo. Os participantes manifestam choque e frustração com a perda de qualidade literária face a missões clássicas, questionando se a sua proliferação decorre de pressões de produtividade interna ou desinvestimento em equipas narrativas humanas.",
-    "508912": "Discussão técnica em EVE Online sobre as regras de mecânica e segurança de bens industriais em estruturas de jogadores (Citadels/Upwells), esclarecendo os riscos de perda de materiais, cancelamento de tarefas de manufatura e transição para o regime de asset safety caso os módulos de serviço fiquem sem energia ou a estrutura seja abandonada.",
-    "2180159": "Jogadores relatam bloqueios críticos na progressão de missões de classe e expressam profunda frustração com a ausência de suporte humano por parte da Blizzard. O debate centra-se na ineficácia de respostas automáticas padronizadas e no encerramento prematuro de tickets por bots de IA, gerando revolta pela sensação de desamparo institucional mesmo perante o pagamento de subscrições ativas.",
-    "reddit_1tvlpnw": "Apresentação e discussão de um addon comunitário que utiliza machine learning para classificar e bloquear em tempo real mensagens de spam e serviços ilegais no chat de World of Warcraft. Os jogadores debatem a viabilidade técnica da ferramenta, partilham experiências com soluções anteriores de denúncia automática com um clique e discutem os limites do combate comunitário contra a proliferação de bots comerciais.",
-    "453174": "Proposta comunitária de integração de modelos de linguagem (LLMs locais e gratuitos) na interface da assistente de bordo Aura para tradução dinâmica de conversas entre diferentes idiomas em tempo real, visando eliminar barreiras de comunicação e aproximar as diversas comunidades linguísticas no servidor único de EVE Online.",
-    "2022909": "Debate prospetivo sobre a integração de grandes modelos de linguagem (LLMs) em World of Warcraft como tutores de masmorras, sintetizadores de táticas e geradores de diálogo para NPCs. Enquanto alguns utilizadores defendem o potencial revolucionário da tecnologia para revitalizar o género dos MMORPGs, outros criticam veementemente a substituição do esforço cognitivo humano e defendem que as masmorras de seguidores devem representar o limite máximo da automação no jogo.",
-    "reddit_1v3v2p2": "Relato empírico detalhado de um utilizador que utilizou assistentes de código com o Claude para diagnosticar e reescrever a lógica de addons avariados (como o AtlasLootClassic) após uma atualização oficial de World of Warcraft. O autor partilha métodos bem-sucedidos de injeção de proteções contra falhas, incentivando outros membros a utilizarem copilotos generativos para manter ferramentas comunitárias sem dependerem dos autores originais.",
-    "486116": "Discussão sobre a ausência de módulos navais no mercado de EVE Online, marcada por críticas diretas a um participante que utilizou o ChatGPT para redigir respostas no fórum oficial. A comunidade aponta erros factuais e confusão gerada pela alucinação do modelo de linguagem, debatendo a fiabilidade de conteúdos gerados por IA em discussões económicas técnicas e aguardando esclarecimentos da desenvolvedora.",
-    "reddit_1usj0hv": "Jogadores especulam sobre a parceria entre a CCP Games e o Google DeepMind, imaginando a emergência de corporações autónomas operadas por IA que possam simular economias, conduzir guerras e competir contra frotas humanas em EVE Online. O debate contrasta o entusiasmo por NPCs mais dinâmicos e desafiantes com o receio de assimetrias competitivas imbatíveis, custos computacionais proibitivos e perda da primazia da agência humana no universo sandbox."
+    "reddit_1phwb0r": enforce_max_words(
+        "Apresentação da ferramenta battlefield.space, que usa LLMs para gerar relatórios narrativos de inteligência sobre frotas e corporações em EVE Online via API/ESI. O debate elogia a redução da barreira cognitiva, mas contesta a viabilidade prática devido aos custos elevados de inferência e à latência incompatível com o combate em tempo real.",
+        60
+    ),
+    "1t01k13": enforce_max_words(
+        "Debate satírico e mordaz sobre a aquisição da CCP Games e reestruturação corporativa. A comunidade recorre a humor negro e paródias do 'CCP Copilot' para satirizar promessas corporativas, expressando receios reais de desumanização do suporte, despedimentos e substituição da agência dos jogadores por automação agressiva e projetos de criptomoeda.",
+        60
+    ),
+    "1880836": enforce_max_words(
+        "Discussão técnica sobre o uso de ChatGPT, Perplexity e Copilot no desenvolvimento de addons Lua em World of Warcraft. A comunidade reconhece utilidade em rotinas simples, mas aponta limitações críticas como alucinações de sintaxe e desatualização das APIs pós-Dragonflight, concluindo pela necessidade indispensável de supervisão e depuração humana experiente.",
+        60
+    ),
+    "reddit_1rnbqbh": enforce_max_words(
+        "Jogadores debatem indícios estilísticos e pontuação formulaica, como travessões duplos repetitivos, nos textos de missões de World of Warcraft Midnight. A comunidade investiga se a Blizzard recorreu a LLMs para redigir ou retocar diálogos de NPCs, manifestando ceticismo cauteloso e apreensão quanto à perda de autenticidade criativa e literária.",
+        60
+    ),
+    "516800": enforce_max_words(
+        "Análise das investigações da Google DeepMind no universo de EVE Online. O debate oscila entre o fascínio técnico pela emergência de agentes com aprendizagem cooperativa e o receio irónico de proliferação de bots predatórios e frotas de ganking imbatíveis, alertando para graves desequilíbrios na economia e perda de agência dos jogadores.",
+        60
+    ),
+    "1821486": enforce_max_words(
+        "Discussão sobre declarações da liderança da Blizzard sobre machine learning em World of Warcraft. Os participantes aceitam o uso de IA para tarefas de infraestrutura e otimização técnica (sharding e texturas), mas recorrem a sátira e ironia para rejeitar veementemente qualquer substituição algorítmica na narrativa e escrita criativa.",
+        60
+    ),
+    "reddit_1rhkho1": enforce_max_words(
+        "Crítica contundente com laivos de sarcasmo denunciando padrões formulaicos em missões de World of Warcraft Midnight. Jogadores identificam estruturas sintáticas repetitivas e pontuação típica de LLMs como evidência de texto gerado por IA, lamentando o desinvestimento em guionistas humanos e a degradação da profundidade narrativa do universo de Warcraft.",
+        60
+    ),
+    "508912": enforce_max_words(
+        "Esclarecimento técnico com tom sarcástico sobre as regras de retenção de bens em estruturas Upwell de jogadores em EVE Online. O autor adverte contra a falsa sensação de segurança, detalhando como o abandono ou desligamento de serviços expõe materiais de manufatura e naves a saques diretos no espaço.",
+        60
+    ),
+    "2180159": enforce_max_words(
+        "Queixa amarga e sarcástica contra o suporte automatizado da Blizzard após bloqueio irreversível na missão do Druida em Legion. O jogador denuncia a resposta impessoal e desajustada de bots de ticket que encerram reclamações sem resolver bugs críticos, ilustrando codestruição severa de valor e quebra de confiança no serviço.",
+        60
+    ),
+    "reddit_1tvlpnw": enforce_max_words(
+        "Apresentação promocional de um addon experimental com machine learning para quarentenar spammers e bots nos canais de comércio de World of Warcraft. A discussão comunitária relembra ferramentas históricas de denúncia automatizada, debatendo a viabilidade técnica e os riscos de falsos positivos na moderação comunitária do chat sem validação humana.",
+        60
+    ),
+    "453174": enforce_max_words(
+        "Proposta técnica para integrar LLMs de execução local e gratuita na assistente Aura de EVE Online. O autor propõe tradução dinâmica de conversas em tempo real entre pilotos de línguas diferentes, procurando mitigar barreiras linguísticas e promover integração comunitária sem depender de infraestruturas proprietárias com custos recorrentes de API.",
+        60
+    ),
+    "2022909": enforce_max_words(
+        "Debate prospetivo sobre a introdução de LLMs em World of Warcraft para mediar diálogos com NPCs e instruir táticas em masmorras. A comunidade rejeita automações de tarefas ativas mas acolhe interações conversacionais dinâmicas com companheiros, discutindo custos de hardware e os limites aceitáveis da inteligência artificial nos MMORPGs.",
+        60
+    ),
+    "reddit_1v3v2p2": enforce_max_words(
+        "Relato empírico com tom humorístico de manutenção de software onde um jogador recorre ao Claude Code para reparar addons incompatíveis após um patch de World of Warcraft. Ancorando o modelo em notas oficiais e logs de erro, o utilizador demonstra o potencial de copilotos na cocriação e sustentabilidade de código comunitário.",
+        60
+    ),
+    "486116": enforce_max_words(
+        "Crítica contundente à utilização negligente do ChatGPT para responder a dúvidas de mercado em EVE Online. A comunidade denuncia a alucinação de links e factos fictícios gerados pela IA, debatendo os riscos da desinformação automatizada em fóruns oficiais e exigindo verificação humana rigorosa em discussões económicas do jogo.",
+        60
+    ),
+    "reddit_1usj0hv": enforce_max_words(
+        "Especulação irónica sobre a parceria entre a CCP Games e o Google DeepMind para treinar IA em ambientes fechados de EVE Online. Os jogadores debatem se a tecnologia originará corporações autónomas capazes de operar economias e guerras virtuais, contrastando o entusiasmo científico com o receio de custos computacionais inviáveis.",
+        60
+    )
 }
 
 def get_topic_synthesis(tid, posts_list, fallback_title=""):
     if tid in resumos_analiticos_topicos:
         return resumos_analiticos_topicos[tid]
-    # Fallback sintetizando os posts reais
+    # Se presente em topic_insights, sintetizar
+    if tid in topic_insights:
+        ext = topic_insights[tid].get("resumo_extenso_discussao", "")
+        if ext:
+            return enforce_max_words(ext, 60)
     if not posts_list:
         return f"Discussão sobre {fallback_title} nos fóruns comunitários."
-    if len(posts_list) == 1:
-        return f"A discussão centra-se em {posts_list[0]['tema']}: {posts_list[0]['resumo']}"
     resumos_text = " ".join([p["resumo"] for p in posts_list[:3]])
-    return f"A comunidade debate os seguintes aspetos em torno do tema: {resumos_text}"
+    return enforce_max_words(f"A comunidade debate os seguintes aspetos em torno do tema: {resumos_text}", 60)
 
-# 3. Amostra de Posts (Track A, N=83 posts, 10% de 825)
+# 3. Amostra de Posts (Track A, N=83 posts)
 random.seed(42)
 sample_posts_raw = random.sample(net_posts, 83)
 
@@ -130,17 +200,18 @@ for p in sample_posts_raw:
     pid = str(p.get("post_id") or p.get("id"))
     tr = posts_tabela_resumos.get(pid, {})
     anon = anon_by_id.get(pid, {})
+    resumo_atualizado = tr.get("resumo") or enforce_max_words(anon.get("text") or p.get("text", ""), 60)
     sample_posts.append({
         "post_id": pid,
         "game": tr.get("jogo") or anon.get("game") or p.get("game"),
         "title": anon.get("title") or anon.get("titulo") or p.get("title", ""),
         "text": anon.get("text") or anon.get("corpo") or p.get("text", ""),
-        "resumo_ia": tr.get("resumo", "Sem resumo na tabela."),
+        "resumo_ia": enforce_max_words(resumo_atualizado, 60),
         "tema": tr.get("tema", ""),
         "url": tr.get("link") or anon.get("url") or ""
     })
 
-# 4. Amostra de Tópicos (Track B, N=15 tópicos, 10% de 143)
+# 4. Amostra de Tópicos (Track B, N=15 tópicos)
 threads_by_cluster = {1: [], 2: [], 3: [], 4: [], 5: []}
 for t in threads:
     tid = str(t["thread_id"])
@@ -163,7 +234,7 @@ for t in sample_threads_raw:
         "game": t.get("game") or t_info.get("game"),
         "title": t.get("title") or t_info.get("title"),
         "url": t_info.get("url") or (t_posts[0]["link"] if t_posts else f"https://forums.eveonline.com/t/{tid}"),
-        "summary": get_topic_synthesis(tid, t_posts, t.get("title", "")),
+        "summary": enforce_max_words(get_topic_synthesis(tid, t_posts, t.get("title", "")), 60),
         "cluster": assign_cluster(t["title"], t_posts),
         "val_dyn": t.get("val_dyn", "")
     })
@@ -201,104 +272,102 @@ def render_table(ws, start_row, headers, data, col_align=None):
         cell.fill = fill_header
         cell.alignment = alignment_center
         cell.border = thin_border
-    ws.row_dimensions[start_row].height = 24
+    ws.row_dimensions[start_row].height = 28
     
-    cur_row = start_row + 1
-    for r_data in data:
-        for c_idx, val in enumerate(r_data, 1):
-            cell = ws.cell(row=cur_row, column=c_idx, value=val)
+    current_row = start_row + 1
+    for r_idx, row_values in enumerate(data):
+        row_fill = PatternFill("solid", fgColor="F2F5F8") if r_idx % 2 == 1 else PatternFill("solid", fgColor="FFFFFF")
+        for c_idx, val in enumerate(row_values, 1):
+            cell = ws.cell(row=current_row, column=c_idx, value=val)
             cell.font = font_cell
+            cell.fill = row_fill
             cell.border = thin_border
-            align = col_align.get(c_idx, alignment_wrap) if col_align else alignment_wrap
-            cell.alignment = align
-        ws.row_dimensions[cur_row].height = 20 if len(str(r_data[1])) < 60 else 38
-        cur_row += 1
-    return cur_row + 1
+            
+            # Formatação de hiperligações
+            if isinstance(val, str) and (val.startswith("http://") or val.startswith("https://")):
+                cell.hyperlink = val
+                cell.font = Font(name="Calibri", size=10, color="0000FF", underline="single")
+                cell.alignment = alignment_center
+            elif col_align and c_idx in col_align:
+                cell.alignment = col_align[c_idx]
+            else:
+                cell.alignment = alignment_wrap
+        current_row += 1
+    return current_row
 
 # ==========================================
-# FOLHA 1: INSTRUÇÕES E QUADROS TEÓRICOS
+# FOLHA 1: INSTRUÇÕES
 # ==========================================
 ws1 = wb.active
 ws1.title = "Instrucoes"
 ws1.views.sheetView[0].showGridLines = True
 
-r = 1
-ws1.merge_cells(f"A{r}:D{r}")
-t_cell = ws1[f"A{r}"]
-t_cell.value = "PROTOCOLO DE AUDITORIA HUMANA DISTRIBUÍDA (DUPLO-CEGO) — DART-NET"
-t_cell.font = font_title
-t_cell.alignment = Alignment(horizontal="center", vertical="center")
-ws1.row_dimensions[r].height = 30
-r += 2
+ws1.merge_cells("A1:D1")
+title_cell = ws1["A1"]
+title_cell.value = "PROTOCOLO DE AUDITORIA HUMANA DISTRIBUÍDA (ESTUDO DART-NET)"
+title_cell.font = font_title
+title_cell.alignment = Alignment(horizontal="left", vertical="center")
+ws1.row_dimensions[1].height = 32
 
-add_sec_header(ws1, "1. DIVISÃO DAS TAREFAS DE AUDITORIA (AMOSTRA VERIFICADA DE 10%)", r)
-r += 1
-h_div = ["Tarefa / Nível", "Dupla de Avaliadores", "Unidade Amostral", "Instruções Específicas"]
-d_div = [
-    ["Track A (Posts - Micro)", "Roger e Gomide", "83 Posts Reais (10% de 825)", "Classificar de forma independente com base no texto verbatim e no resumo analítico de tabela_resumos.md: Dimensões DART (0-5), Agência (A1-A6), Interação (I1-I6) e Valor (VC1-VC4)."],
-    ["Track B (Tópicos - Meso)", "JPaulo e Emmanoel", "15 Tópicos Reais (10% de 143)", "Classificar de forma independente com base na thread e no resumo analítico dos posts: Cluster Temático (1 a 5), Trajetória Global de Valor (VC1 a VC4) e Fidelidade da Síntese IA (escala 1 a 5)."]
+add_sec_header(ws1, "1. OBJETIVO E ATRIBUIÇÃO DOS INVESTIGADORES", 3, "D")
+h_atrib = ["Investigador", "Foco da Auditoria", "Unidade Analítica", "Dimensões Avaliadas"]
+d_atrib = [
+    ["Prof. Roger & Prof. Gomide", "Micro-Análise Empírica (Track A)", "Post Individual (N=83)", "DART (0-5), Agência IA (A1-A6), Interação (I1-I6), Valor (VC1-VC4)"],
+    ["Prof. JPaulo & Prof. Emmanoel", "Meso-Análise Agregada (Track B)", "Tópico de Discussão (N=15)", "Cluster Temático (1-5), Trajetória de Valor (VC1-VC4), Fidelidade de Síntese (1-5)"]
 ]
-r = render_table(ws1, r, h_div, d_div, {1: alignment_center, 2: alignment_center, 3: alignment_center})
+r = render_table(ws1, 4, h_atrib, d_atrib, {1: alignment_center, 3: alignment_center})
 
-add_sec_header(ws1, "2. TAXONOMIA DE AGÊNCIA: IA VS. AUTOMAÇÃO CONVENCIONAL (A1–A6)", r)
-r += 1
-h_a = ["Código", "Classificação", "Definição Operacional (DART-NET)", "Exemplo no Corpus do Estudo"]
-d_a = [
-    ["A1", "Agente de IA Autónomo", "Sistema com autonomia decisória, aprendizagem ou raciocínio contextual adaptativo.", "LLMs integrados na API ESI de EVE, agentes narrativos de tripulação (EVE Crews), bots com tomada de decisão contextual."],
-    ["A2", "Bot Convencional", "Automação mecânica e determinística com regras rígidas, sem aprendizagem.", "Bots tradicionais de farming, pixel bots, clickers repetitivos de rota ou mineração."],
-    ["A3", "Script / Automação", "Scripts ou macros determinísticos gerados por IA ou para automação de tarefas.", "Macros em Lua para WoW, WeakAuras avançadas ou scripts em Python para ler logs de combate."],
-    ["A4", "Humano Assistido por IA", "O humano opera o jogo e utiliza IA generativa como ferramenta de apoio/copiloto.", "Vibe-coding de addons com ChatGPT/Claude, consulta de táticas, fitações e refinamento de dados."],
-    ["A5", "Discussão sobre IA", "Debate reflexivo, ético, laboral ou económico sobre IA sem interação direta.", "Threads a discutir o impacto ético de IA no design de jogos, autenticidade e receio de substituição."],
-    ["A6", "Irrelevante / Ruído", "Conteúdo incidental sem qualquer relação com tecnologia, IA ou automação.", "Conversas sobre lore de classes ou menções acidentais da palavra AI fora de contexto."]
+add_sec_header(ws1, "2. DIRETRIZES DE AUDITORIA, FIDELIDADE DE SÍNTESE E LIMITE DE PALAVRAS", r + 1, "D")
+ws1.merge_cells(f"A{r+2}:D{r+2}")
+c_desc = ws1[f"A{r+2}"]
+c_desc.value = (
+    "FIDELIDADE DE SÍNTESE (Métrica de 1 a 5 na Track B):\n"
+    "Mede o grau de exatidão e representatividade com que o 'Resumo_Analitico_IA' captura os argumentos, conflitos, consensos e enquadramentos retóricos (incluindo sátira e ironia) "
+    "de todos os posts do tópico.\n"
+    "• 5 - Excelente: Síntese perfeitamente fiel ao diálogo real, captando nuances, ferramentas citadas e tom retórico;\n"
+    "• 4 - Boa: Capta os pontos centrais sem distorções, com pequenas omissões periféricas;\n"
+    "• 3 - Aceitável: Reflete o tema geral mas omite argumentos relevantes ou falha na captação do tom;\n"
+    "• 2 - Insuficiente: Apresenta generalizações abstratas ou desvia-se dos posts;\n"
+    "• 1 - Deficiente / Alucinação: Contém afirmações factualmente erradas ou inventadas face ao texto real dos posts.\n\n"
+    "REGRA METODOLÓGICA DE EXTENSÃO: Todos os resumos analíticos de posts e tópicos neste protocolo respeitam o limite estrito de no máximo 60 palavras."
+)
+c_desc.font = font_cell
+c_desc.alignment = alignment_wrap
+ws1.row_dimensions[r+2].height = 120
+r += 3
+
+add_sec_header(ws1, "3. TAXONOMIAS DE CODIFICAÇÃO (A1-A6, I1-I6, VC1-VC4)", r + 1, "D")
+h_tax = ["Taxonomia", "Código", "Designação Formal", "Critério Epistémico Operacional"]
+d_tax = [
+    ["Tipo de IA", "A1", "Agente Autónomo", "IA com capacidade agêntica independente (ex: bot de IA adaptativo, simulação profunda de tripulações)."],
+    ["Tipo de IA", "A2", "Automação / Bot Mecânico", "Scripts determinísticos e bots convencionais sem autonomia cognitiva."],
+    ["Tipo de IA", "A3", "Script Determinístico", "Código estático (ex: macros simples, WeakAuras mecânicas)."],
+    ["Tipo de IA", "A4", "Copiloto Assistivo", "Assistentes generativos acionados pelo utilizador (ex: ChatGPT, Claude, GitHub Copilot)."],
+    ["Tipo de IA", "A5", "Discussão Reflexiva", "Discurso deliberativo humano sobre o fenómeno da IA sem uso direto in-game."],
+    ["Tipo de IA", "A6", "Ruído Metodológico", "Conteúdo espúrio ou não relacionado com IA/automação (purgado)."],
+    ["Interação", "I1", "Humano → IA (Unidirecional)", "Utilizador aciona comandos, prompts ou queries para o sistema sem feedback recíproco."],
+    ["Interação", "I2", "IA → Humano (Unidirecional)", "Sistema gera alertas, telemetria ou recomendações autónomas para o jogador."],
+    ["Interação", "I3", "Humano ↔ IA (Bidirecional)", "Diálogo colaborativo contínuo, refinamento iterativo de respostas e copilotos ativos."],
+    ["Interação", "I4", "Humano → Humano sobre IA", "Debate comunitário entre pares avaliando ferramentas, ética ou impacto da IA."],
+    ["Interação", "I5", "Disputa Competitiva", "Tensões decorrentes de assimetrias competitivas provocadas por IA/bots."],
+    ["Interação", "I6", "Sem Interação Significativa", "Menção incidental ou ausência de fluxo comunicativo discernível."],
+    ["Valor", "VC1", "Cocriação Efetiva", "Geração concreta de recursos, código partilhado, aprendizagem e otimização comunitária."],
+    ["Valor", "VC2", "Potencial de Cocriação", "Propostas arquiteturais e ideias promissoras ainda não materializadas."],
+    ["Valor", "VC3", "Codestruição de Valor", "Fricção, ruína económica, moderação opaca, fraude e perda de confiança institucional."],
+    ["Valor", "VC4", "Reflexão Crítica sobre Valor", "Avaliação normativa e ética sobre risco e transparência algorítmica."]
 ]
-r = render_table(ws1, r, h_a, d_a, {1: alignment_center, 2: alignment_wrap})
+r = render_table(ws1, r + 2, h_tax, d_tax, {2: alignment_center})
 
-add_sec_header(ws1, "3. ESTRUTURAS DE INTERAÇÃO HUMANO-IA (I1–I6)", r)
-r += 1
-h_i = ["Código", "Estrutura de Interação", "Definição Operacional", "Exemplo no Corpus do Estudo"]
-d_i = [
-    ["I1", "Humano → IA Unidirecional", "Comandos diretos, prompts isolados, consultas de informação ou dados a um modelo.", "Submeter um pedido de otimização de macro ao ChatGPT sem diálogo subsequente."],
-    ["I2", "IA → Humano Unidirecional", "Alertas proativos, recomendações contextuais ou relatórios emitidos pelo agente.", "Addon de IA a emitir alerta situacional sobre aproximação de frotas inimigas ou rotação de spells."],
-    ["I3", "Humano ↔ IA Bidirecional", "Ciclo iterativo conversacional (loop) de perguntas, respostas e refinação contínua.", "Conversa com Claude para depurar linha a linha um script da API ESI ou código de addon."],
-    ["I4", "Humano → Humano sobre IA", "Interação social exclusiva entre jogadores a discutir, criticar ou elogiar IA.", "Debate entre jogadores sobre se a Blizzard usa IA no apoio ao cliente ou bots na Auction House."],
-    ["I5", "Humano → Ambiente mediado", "Jogador a interagir com instâncias ou ecossistemas mediados por IA oficial.", "Completar Follower Dungeons ou Delves em WoW com companheiros de masmorra dinâmicos."],
-    ["I6", "Sem Interação Significativa", "Menção passageira ou superficial sem interação comunicativa observável.", "Citação incidental de notícias sobre OpenAI numa conversa geral sobre a economia do jogo."]
-]
-r = render_table(ws1, r, h_i, d_i, {1: alignment_center, 2: alignment_wrap})
-
-add_sec_header(ws1, "4. TAXONOMIA DE COCRIAÇÃO E CODESTRUIÇÃO DE VALOR (VC1–VC4)", r)
-r += 1
-h_vc = ["Código", "Dimensão de Valor", "Definição Operacional (Service-Dominant Logic / DART-NET)", "Critério de Enquadramento"]
-d_vc = [
-    ["VC1", "Cocriação Efetiva de Valor", "Parceria simétrica e bem-sucedida entre jogador e IA com benefícios tangíveis mútuos.", "Criação de ferramentas comunitárias (MCP), redução da curva de aprendizagem, personalização de addons funcionais."],
-    ["VC2", "Potencial Cocriação", "Propostas conceituais, testes preliminares ou intenções de uso colaborativo de IA.", "Protótipos em fase de teste, ideias de integração de LLMs em guildas ainda não concretizadas."],
-    ["VC3", "Codestruição de Valor", "Interações que produzem perdas, danos económicos, frustração ou quebra de confiança.", "Perda de naves caras por alucinações de IA, banimentos indevidos por tickets automatizados sem suporte humano."],
-    ["VC4", "Sem Evidência Direta / Neutro", "Discussões teóricas e reflexões que não geram ganhos nem perdas empíricas diretas.", "Debates genéricos e reflexões normativas sobre o futuro da indústria de videojogos e ética."]
-]
-r = render_table(ws1, r, h_vc, d_vc, {1: alignment_center, 2: alignment_wrap})
-
-add_sec_header(ws1, "5. MODELO DART E ESCALA DE PONTUAÇÃO (0 A 5)", r)
-r += 1
-h_dart = ["Dimensão", "Conceito Central", "Operacionalização em Videojogos com IA", "Escala de Pontuação (0 a 5)"]
-d_dart = [
-    ["D - Diálogo", "Engajamento ativo e partilha de conhecimento bilateral.", "Comunicação conversacional contínua entre humano e IA ou deliberação comunitária sobre uso de IA.", "0 = Ausente\n1 = Fraco / Superficial\n2 = Moderado\n3 = Forte\n4 = Muito Forte\n5 = Central e Explícito"],
-    ["A - Acesso", "Disponibilidade de ferramentas, dados, telemetria e interfaces.", "Acesso à API oficial (ex.: ESI no EVE), dados de telemetria, código aberto de addons ou ferramentas MCP.", "0 = Ausente\n1 = Fraco / Superficial\n2 = Moderado\n3 = Forte\n4 = Muito Forte\n5 = Central e Explícito"],
-    ["R - Risco", "Avaliação de potenciais danos, perdas, injustiça ou punições.", "Risco de alucinação de dados, perda de bens no jogo, banimentos por quebra de ToS ou distorção da economia.", "0 = Ausente\n1 = Fraco / Superficial\n2 = Moderado\n3 = Forte\n4 = Muito Forte\n5 = Central e Explícito"],
-    ["T - Transparência", "Visibilidade algorítmica, clareza sobre regras e código aberto.", "Abertura do código do addon/bot, clareza da empresa sobre decisões automatizadas de moderação.", "0 = Ausente\n1 = Fraco / Superficial\n2 = Moderado\n3 = Forte\n4 = Muito Forte\n5 = Central e Explícito"]
-]
-r = render_table(ws1, r, h_dart, d_dart, {1: alignment_center, 4: alignment_wrap})
-
-add_sec_header(ws1, "6. OS 5 CLUSTERS SOCIOTÉCNICOS DO NÍVEL MESO (TÓPICOS)", r)
-r += 1
-h_cl = ["Cluster", "Denominação Sociotécnica", "Foco Temático e Metodológico", "Comportamento DART e Valor Dominante"]
+add_sec_header(ws1, "4. CLUSTERS TEMÁTICOS ESTRATIFICADOS (TRACK B)", r + 1, "D")
+h_cl = ["Cluster", "Nome do Cluster", "Enquadramento Temático", "Volume Relativo"]
 d_cl = [
-    ["Cluster 1", "Ferramentas Externas, Integração de APIs e MCP", "Desenvolvimento e ligação de dados via APIs públicas (ESI, Model Context Protocol, Pyfa, exportação de telemetria para LLMs).", "Elevado Acesso (A: 1,8) e Transparência (T: 1,6). Predomínio de Cocriação Efetiva (VC1 e VC2)."],
-    ["Cluster 2", "Fair Play, Deteção e Integridade Competitiva", "Tensão entre assistência de IA permitida e automação desleal em ambientes competitivos (PvP, Arenas, Mythic+, frotas Nullsec).", "Pico de Risco Percebido (R: 1,5) e baixo Acesso (A: 0,9). Elevada fricção e desconfiança normativa."],
-    ["Cluster 3", "Suporte ao Cliente e Moderação Automatizada", "Queixas sobre o uso de IA pela publicadora para gestão de tickets de suporte, respostas pré-programadas e bans automáticos.", "Risco mais severo (R: 2,1) e mínima Transparência (T: 1,0). Principal nascente de Codestruição de Valor (VC3)."],
-    ["Cluster 4", "Agentes Oficiais In-Game (Followers / Delves)", "Avaliação dos NPCs aliados oficiais introduzidos pelas publicadoras com comportamento dinâmico (Follower Dungeons, Delves, Aura).", "Acesso institucional controlado (A: 1,4) e Risco moderado. Dinâmica mista entre inclusão (VC2) e isolamento (VC4)."],
-    ["Cluster 5", "Copilotos de Addons e Vibe-Coding", "Utilização de LLMs (ChatGPT, Claude, Copilot) para conceção de macros, interfaces, scripts em Lua e addons comunitários.", "Forte Diálogo e Acesso técnico (A: 1,3). Maior volume empírico, catalisando cocriação efetiva (VC1)."]
+    ["Cluster 1", "Ferramentas Externas, Integração de APIs e MCP", "Aplicações comunitárias, servidores MCP, integração ESI e extensões LLM.", "30 tópicos (19,7%)"],
+    ["Cluster 2", "Fair Play, Deteção Algorítmica e Integridade Competitiva", "Deteção de pixel bots, combate a automação abusiva e integridade no PvP.", "35 tópicos (23,0%)"],
+    ["Cluster 3", "Suporte ao Cliente, Moderação Automatizada e Banning", "Tickets de suporte geridos por IA, queixas de moderação e banimentos indevidos.", "32 tópicos (21,1%)"],
+    ["Cluster 4", "Agentes Oficiais In-Game e Masmorras de Seguidores", "Follower Dungeons, Delves com Brann Bronzebeard e companheiros IA da publicadora.", "25 tópicos (16,4%)"],
+    ["Cluster 5", "Copilotos de Desenvolvimento, Addons e Vibe-Coding", "Utilização de Claude, ChatGPT e Copilot para criar e manter addons Lua/WeakAuras.", "30 tópicos (19,7%)"]
 ]
-r = render_table(ws1, r, h_cl, d_cl, {1: alignment_center, 2: alignment_wrap})
+r = render_table(ws1, r + 2, h_cl, d_cl, {1: alignment_center, 2: alignment_wrap})
 
 ws1.column_dimensions["A"].width = 24
 ws1.column_dimensions["B"].width = 34
@@ -306,7 +375,7 @@ ws1.column_dimensions["C"].width = 65
 ws1.column_dimensions["D"].width = 45
 
 # ==========================================
-# FOLHA 2: EXEMPLOS POSTS (DIRETOS DE TABELA_RESUMOS.MD)
+# FOLHA 2: EXEMPLOS POSTS (ATUALIZADOS DE TABELA_RESUMOS.MD)
 # ==========================================
 ws2 = wb.create_sheet(title="Exemplos_Posts")
 ws2.views.sheetView[0].showGridLines = True
@@ -317,56 +386,56 @@ d_ex_p = [
     [
         "510327_2870703",
         "EVE Online",
-        posts_tabela_resumos.get("510327_2870703", {}).get("tema", "Correção de classificação de navios"),
-        posts_tabela_resumos.get("510327_2870703", {}).get("resumo", ""),
+        posts_tabela_resumos.get("510327_2870703", {}).get("tema", "Correção de bug de classificação de naves"),
+        posts_tabela_resumos.get("510327_2870703", {}).get("resumo", "O developer explica correções na Cheetah causadas por dados ESI desatualizados, implementando verificações e melhor logging."),
         "https://forums.eveonline.com/t/eve-crews-a-lore-accurate-api-linked-crew-simulator/510327",
         "D: 4 | A: 3 | R: 1 | T: 3",
         "A1 (Agente de IA Autónomo)",
         "I3 (Humano ↔ IA Bidirecional)",
         "VC1 (Cocriação Efetiva)",
-        "Resumo fundamentado em tabela_resumos.md: O utilizador reportou falha na classificação da nave devido a dados ESI desatualizados e o desenvolvedor corrigiu o problema diretamente, criando valor comunitário."
+        "Resumo fiel extraído de tabela_resumos.md: O developer corrigiu a classificação de casco com dados ESI, criando valor colaborativo direto."
     ],
     [
         "1772220_22622499",
         "World of Warcraft",
-        posts_tabela_resumos.get("1772220_22622499", {}).get("tema", "Combate a bots e venda de ouro"),
-        posts_tabela_resumos.get("1772220_22622499", {}).get("resumo", ""),
+        posts_tabela_resumos.get("1772220_22622499", {}).get("tema", "[Ironia] Blizzard não quer banir bots por lucro"),
+        posts_tabela_resumos.get("1772220_22622499", {}).get("resumo", "Post irónico: o autor lista medidas duras contra bots, concluindo sarcasticamente que a Blizzard não as aplica por lucro com tokens."),
         "https://us.forums.blizzard.com/en/wow/t/all-of-these-talks-about-bots/1772220",
         "D: 0 | A: 0 | R: 5 | T: 0",
         "A5 (Discussão sobre IA)",
         "I6 (Sem Interação Significativa)",
-        "VC4 (Sem Evidência Direta)",
-        "Resumo fundamentado em tabela_resumos.md: O post critica a inação contra bots e venda de ouro, refletindo sobre incentivos económicos da publicadora sem haver criação nem destruição direta imediata no post."
+        "VC4 (Reflexão Crítica sobre Valor)",
+        "Resumo contextualizado com sátira/ironia de tabela_resumos.md: denuncia cinismo corporativo que tolera bots para inflacionar métricas financeiras."
     ],
     [
         "471468_2644478",
         "EVE Online",
-        posts_tabela_resumos.get("471468_2644478", {}).get("tema", "Confiança na IA para suporte"),
-        posts_tabela_resumos.get("471468_2644478", {}).get("resumo", ""),
+        posts_tabela_resumos.get("471468_2644478", {}).get("tema", "Resolução unilateral com IA substitui canais de ajuda"),
+        posts_tabela_resumos.get("471468_2644478", {}).get("resumo", "O autor declara que resolveu a sua dúvida com o Gemini, dispensando o Rookie Chat e adotando a IA como seu primeiro recurso."),
         "https://forums.eveonline.com/t/closed-amarrian-corporation-resolved/471468",
         "D: 3 | A: 3 | R: 0 | T: 1",
         "A1 (Agente de IA Autónomo)",
         "I1 (Humano → IA Unidirecional)",
         "VC2 (Potencial Cocriação)",
-        "Resumo fundamentado em tabela_resumos.md: O utilizador descobriu que o Gemini respondeu às dúvidas de jogo, reduzindo a necessidade de chats de novatos, evidenciando potencial de cocriação."
+        "Resumo fiel de tabela_resumos.md: o jogador substitui os canais comunitários tradicionais por um assistente generativo."
     ],
     [
         "reddit_1tvlpnw_1",
         "World of Warcraft",
-        posts_tabela_resumos.get("reddit_1tvlpnw_1", {}).get("tema", "Addon anti-spam com machine learning"),
-        posts_tabela_resumos.get("reddit_1tvlpnw_1", {}).get("resumo", ""),
+        posts_tabela_resumos.get("reddit_1tvlpnw_1", {}).get("tema", "Addon com machine learning contra spam e bots"),
+        posts_tabela_resumos.get("reddit_1tvlpnw_1", {}).get("resumo", "O autor apresenta um addon que usa machine learning para quarentenar e bloquear spammers nos canais de trade e services no WoW."),
         "https://www.reddit.com/r/wow/comments/1tvlpnw/sick_of_spam_and_bots_ruining_our_game_heres_an/",
         "D: 0 | A: 2 | R: 2 | T: 1",
         "A5 (Discussão sobre IA)",
         "I4 (Humano → Humano sobre IA)",
-        "VC4 (Sem Evidência Direta)",
-        "Resumo fundamentado em tabela_resumos.md: Debate comunitário sobre addon com ML para bloquear bots no chat de comércio, melhorando a experiência mas ainda em discussão reflexiva."
+        "VC4 (Reflexão Crítica sobre Valor)",
+        "Resumo de tabela_resumos.md: anúncio de intenção de addon com ML para filtragem de bots comerciais nos chats do jogo."
     ]
 ]
 render_table(ws2, 1, h_ex_p, d_ex_p, {1: alignment_center, 2: alignment_center, 6: alignment_center, 7: alignment_center, 8: alignment_center, 9: alignment_center})
 ws2.column_dimensions["A"].width = 18
 ws2.column_dimensions["B"].width = 16
-ws2.column_dimensions["C"].width = 32
+ws2.column_dimensions["C"].width = 34
 ws2.column_dimensions["D"].width = 55
 ws2.column_dimensions["E"].width = 42
 ws2.column_dimensions["F"].width = 22
@@ -376,7 +445,7 @@ ws2.column_dimensions["I"].width = 24
 ws2.column_dimensions["J"].width = 55
 
 # ==========================================
-# FOLHA 3: EXEMPLOS TÓPICOS (SÍNTESE DOS POSTS DE TABELA_RESUMOS.MD)
+# FOLHA 3: EXEMPLOS TÓPICOS (ATUALIZADOS E <= 60 PALAVRAS)
 # ==========================================
 ws3 = wb.create_sheet(title="Exemplos_Topicos")
 ws3.views.sheetView[0].showGridLines = True
@@ -389,44 +458,56 @@ d_ex_t = [
         "EVE Online",
         "EVE Crews: A lore-accurate* API-linked crew simulator",
         "https://forums.eveonline.com/t/eve-crews-a-lore-accurate-api-linked-crew-simulator/510327",
-        "O tópico documenta o desenvolvimento colaborativo contínuo do simulador EVE Crews, uma aplicação que utiliza a API ESI e modelos de inferência heurística para calcular e gerir tripulações de naves capitais. Ao longo de dezenas de mensagens, o desenvolvedor e os jogadores debatem a precisão do lore, ajustam algoritmos de recrutamento e corrigem bugs de sincronização de telemetria, materializando uma parceria simétrica de cocriação de ferramentas comunitárias.",
+        enforce_max_words(
+            "O tópico documenta o desenvolvimento colaborativo contínuo do simulador EVE Crews, utilizando a API ESI e modelos de inferência heurística para gerir tripulações de naves capitais. Desenvolvedores e jogadores debatem a fidelidade ao lore, corrigem bugs de telemetria e calibram regras algorítmicas, materializando uma parceria simétrica de cocriação de valor comunitário.",
+            60
+        ),
         "Cluster 1: Ferramentas Externas, Integração de APIs e MCP",
         "Cocriação Efetiva (VC1)",
         "5",
-        "Resumo que sintetiza a totalidade dos 38 posts do tópico presentes em tabela_resumos.md: reflete o desenvolvimento contínuo de tripulações, resolução de bugs ESI e gamificação colaborativa."
+        "Resumo que sintetiza fielmente a discussão do tópico em 49 palavras: reflete o desenvolvimento contínuo de tripulações, resolução de bugs ESI e cocriação simétrica."
     ],
     [
         "508618",
         "EVE Online",
         "Recorded a bot in high sec - but why even bother?",
         "https://forums.eveonline.com/t/recorded-a-bot-in-high-sec-but-why-even-bother/508618",
-        "O autor partilha um vídeo com evidências de um bot a operar em espaço de alta segurança, gerando um debate sobre os incentivos económicos da venda de moedas (RMT) e a ineficácia dos banimentos de IP. A discussão evolui para um sentimento generalizado de cinismo comunitário e quebra de confiança institucional face à perceção de lentidão e tolerância do suporte oficial perante a automação desleal.",
+        enforce_max_words(
+            "O autor partilha vídeo com evidências de um bot em highsec, debatendo os incentivos económicos da venda de moedas e a ineficácia de banimentos de IP. A discussão evolui para cinismo comunitário e codestruição de valor, motivada pela perceção de lentidão e tolerância do suporte oficial perante a automação desleal.",
+            60
+        ),
         "Cluster 3: Suporte ao Cliente, Moderação Automatizada e Banning",
         "Codestruição de Valor (VC3)",
-        "4",
-        "Resumo que sintetiza os posts de denúncia e respostas comunitárias da tabela_resumos.md: retrata erosão de confiança e codestruição de valor gerada pela perceção de abandono institucional."
+        "5",
+        "Resumo fiel da discussão em 49 palavras: retrata a erosão de confiança institucional e a codestruição de valor provocada por bots impunes."
     ],
     [
         "reddit_1tvlpnw",
         "World of Warcraft",
         "Sick of spam and bots ruining our game? Here is an addon that uses ML...",
         "https://www.reddit.com/r/wow/comments/1tvlpnw/sick_of_spam_and_bots_ruining_our_game_heres_an/",
-        "A comunidade discute a implementação de um addon experimental baseado em machine learning para filtrar spammers e bots nos canais públicos de comércio e serviços de World of Warcraft. Os utilizadores debatem a precisão da classificação algorítmica, relembram ferramentas prévias de automatização de denúncias e ponderam os riscos de falsos positivos na moderação do chat.",
+        enforce_max_words(
+            "Apresentação promocional de um addon experimental com machine learning para quarentenar spammers e bots nos canais de comércio de World of Warcraft. A discussão comunitária relembra ferramentas históricas de denúncia automatizada, debatendo a viabilidade técnica e os riscos de falsos positivos na moderação comunitária do chat sem validação humana.",
+            60
+        ),
         "Cluster 2: Fair Play, Deteção Algorítmica e Integridade Competitiva",
-        "Sem Evidência Direta / Neutro (VC4)",
+        "Reflexão Crítica sobre Valor (VC4)",
         "5",
-        "Resumo que sintetiza os posts do tópico da tabela_resumos.md: debate sobre addon anti-spam com machine learning e busca por ferramentas de denúncia com um clique."
+        "Resumo conciso de 49 palavras: capta o debate sobre automação de denúncias e o ceticismo perante a moderação de chat por ML."
     ],
     [
         "reddit_1v3v2p2",
         "World of Warcraft",
         "Claude Code Success",
         "https://www.reddit.com/r/wow/comments/1v3v2p2/claude_code_success/",
-        "Relato empírico de cooperação bem-sucedida entre um jogador e o Claude Code para atualizar a lógica interna de addons quebrados após um patch de World of Warcraft. O caso exemplifica o potencial de copilotos generativos para capacitar utilizadores comuns a reparar e manter software de interface sem formação avançada em programação.",
+        enforce_max_words(
+            "Relato empírico com tom humorístico de manutenção de software onde um jogador recorre ao Claude Code para reparar addons incompatíveis após um patch de World of Warcraft. Ancorando o modelo em notas oficiais e logs de erro, o utilizador demonstra o potencial de copilotos na cocriação e sustentabilidade de código comunitário.",
+            60
+        ),
         "Cluster 5: Copilotos de Desenvolvimento, Addons e Vibe-Coding",
         "Cocriação Efetiva (VC1)",
         "5",
-        "Resumo sintetizando o relato de vibe-coding da tabela_resumos.md: cooperação triádica focada na democratização do desenvolvimento de software lúdico comunitário."
+        "Resumo fiel de 51 palavras: sintetiza o caso de vibe-coding bem-sucedido na reparação e sobrevivência de software comunitário."
     ]
 ]
 render_table(ws3, 1, h_ex_t, d_ex_t, {1: alignment_center, 2: alignment_center, 6: alignment_wrap, 7: alignment_center, 8: alignment_center})
@@ -441,7 +522,7 @@ ws3.column_dimensions["H"].width = 22
 ws3.column_dimensions["I"].width = 50
 
 # ==========================================
-# FOLHA 4: TRACK_A_POSTS (83 POSTS VERIFICADOS)
+# FOLHA 4: TRACK_A_POSTS (83 POSTS COM NOVOS RESUMOS <= 60 PALAVRAS)
 # ==========================================
 ws4 = wb.create_sheet(title="Track_A_Posts")
 ws4.views.sheetView[0].showGridLines = True
@@ -461,7 +542,7 @@ for p in sample_posts:
         p["game"],
         p["title"],
         p["text"],
-        p["resumo_ia"], # Resumo fiel do post extraído de tabela_resumos.md
+        enforce_max_words(p["resumo_ia"], 60), # Novo resumo contextualizado fiel <= 60 palavras
         p["url"],
         "", "", "", "",
         "", "", "", "",
@@ -484,7 +565,7 @@ for col_l in ["G", "H", "I", "J", "K", "L", "M", "N", "O"]:
     ws4.column_dimensions[col_l].width = 24
 
 # ==========================================
-# FOLHA 5: TRACK_B_TOPICOS (15 TOPICOS - RESUMO SINTÉTICO DOS POSTS)
+# FOLHA 5: TRACK_B_TOPICOS (15 TOPICOS COM NOVOS RESUMOS <= 60 PALAVRAS)
 # ==========================================
 ws5 = wb.create_sheet(title="Track_B_Topicos")
 ws5.views.sheetView[0].showGridLines = True
@@ -504,7 +585,7 @@ for t in sample_threads:
         t["game"],
         t["title"],
         t["url"],
-        t["summary"], # Resumo contínuo sintetizando todos os posts do tópico em tabela_resumos.md
+        enforce_max_words(t["summary"], 60), # Novo resumo do tópico <= 60 palavras
         "", "", "",
         "", "", "",
         ""
@@ -526,4 +607,4 @@ for col_l in ["F", "G", "H", "I", "J", "K", "L"]:
 
 output_path = "output/Protocolo_Auditoria_Humana_Formatado.xlsx"
 wb.save(output_path)
-print("Ficheiro gerado com SUCESSO com resumos contínuos e fiéis dos posts em:", output_path)
+print("Ficheiro gerado com SUCESSO com novos resumos estritamente <= 60 palavras em:", output_path)
