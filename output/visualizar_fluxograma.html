@@ -254,36 +254,46 @@ graph TD
         QUALITY_CHECK -- "Aprovado: 91,31%" --> AUDIT_REPORT[("quality_audit_results.json<br/>(Score 91,31% | 100% citações literais | 8 alertas)")]
     end
 
+    %% CAMADA 2: Análise Integral de Discussões e Deteção de Sátira
+    subgraph FASE_TOPICS ["Fase 4.5: Análise Integral de Discussões de Tópicos e Deteção de Sátira"]
+        ANON_POSTS --> TOPIC_ANALYST["TopicDiscussionAnalystAgent<br/>(Análise integral da discussão sem limite de palavras,<br/>extração de insights e deteção de sátira, humor e ironia)"]:::agent
+        TOPIC_ANALYST --> TOPIC_INSIGHTS[("topic_discussions_insights.json<br/>(152 tópicos com resumos extensos, insights,<br/>dinâmicas de valor e 100 tópicos com sátira/ironia)")]
+        TOPIC_ANALYST --> TOPIC_MD["resumos_discussoes_topicos.md<br/>(Relatório qualitativo exaustivo — 4.877 linhas)"]:::output
+    end
+
     %% CAMADA 2: Síntese e Agregação ao Nível de Tópicos
-    subgraph FASE_THREADS ["Fase 4.5: Síntese e Agregação ao Nível de Tópicos (Threads)"]
-        NETNO_REFINED --> THREAD_AGENT["ThreadSynthesisAgent<br/>(Agregação de 825 posts em 143 tópicos ativos)"]:::agent
-        THREAD_AGENT --> THREAD_JSON[("thread_level_results.json<br/>(Dataset Estruturado de 143 Tópicos)")]
-        THREAD_AGENT --> THREAD_MD["analise_agregada_topicos.md<br/>(143 Fichas DART + Macro-Síntese EVE vs WoW)"]:::output
+    subgraph FASE_THREADS ["Fase 5: Síntese e Agregação ao Nível de Tópicos (Threads)"]
+        NETNO_REFINED --> THREAD_AGENT["ThreadSynthesisAgent<br/>(Agregação de posts em 152 tópicos ativos<br/>incorporando resumos qualitativos aprofundados)"]:::agent
+        TOPIC_INSIGHTS --> THREAD_AGENT
+        THREAD_AGENT --> THREAD_JSON[("thread_level_results.json<br/>(Dataset Estruturado de 152 Tópicos)")]
+        THREAD_AGENT --> THREAD_MD["analise_agregada_topicos.md<br/>(152 Fichas DART + Macro-Síntese EVE vs WoW)"]:::output
     end
 
     %% CAMADA 2 & 3: Síntese e Entregáveis Finais
-    subgraph FASE5 ["Fase 5: Síntese e Entregáveis Principais"]
+    subgraph FASE5 ["Fase 6: Síntese e Entregáveis Principais"]
         NETNO_REFINED --> SYNTHESIS["SynthesisAgent<br/>(deepseek-v4-pro com amostragem estratificada)"]:::agent
         AUDIT_REPORT --> SYNTHESIS
+        TOPIC_INSIGHTS --> SYNTHESIS
         
-        SYNTHESIS --> REPORT_FINAL["relatorio_netnografia.md<br/>(Relatório Académico Formal — QI1 a QI3 em 825 posts)"]:::output
+        SYNTHESIS --> REPORT_FINAL["relatorio_netnografia.md<br/>(Relatório Académico Formal — QI1 a QI3)"]:::output
         
-        ANON_POSTS --> TABLE_GEN["SummaryTableGenerator<br/>(deepseek-v4-flash para resumos <= 50 palavras)"]:::agent
+        ANON_POSTS --> TABLE_GEN["SummaryTableGenerator<br/>(Confronta cada post com o resumo e tom do tópico;<br/>deteta e sinaliza [Sátira/Ironia] e [Humor/Piada])"]:::agent
+        TOPIC_INSIGHTS --> TABLE_GEN
         NETNO_REFINED --> TABLE_GEN
-        TABLE_GEN --> TABLE_RESUMOS["tabela_resumos.md<br/>(825 posts refinados com DART, resumos e links)"]:::output
+        TABLE_GEN --> TABLE_RESUMOS["tabela_resumos.md<br/>(1.032 posts completos com DART, resumos contextualizados<br/>e 308 posts satíricos/irónicos identificados)"]:::output
         
         CORPUS --> LISTA_LINKS_MD["lista_links.md / lista_links.txt<br/>(Catálogo das 303 URLs Canónicas)"]:::output
-        COST_LOG["Registo de Tokens<br/>(~27.000 chamadas API)"] --> TABELA_CUSTOS["tabela_custos.md<br/>(Auditoria de Custos: ~$21,50 USD)"]:::output
+        COST_LOG["Registo de Tokens<br/>(~28.000 chamadas API)"] --> TABELA_CUSTOS["tabela_custos.md<br/>(Auditoria de Custos: ~$22,50 USD)"]:::output
     end
 
     %% CAMADA 3: Validação Metodológica Externa
     subgraph FASE6 ["Camada 3: Validação Humana e Reprodutibilidade (HUMAN VALIDATION)"]
-        NETNO_REFINED --> HUMAN_QUEUE["Fila de Validação Humana Prioritária<br/>(708 posts com '⚠️ Sim' em Rev. Humana)"]:::validation
+        NETNO_REFINED --> HUMAN_QUEUE["Fila de Validação Humana Prioritária<br/>(Posts com '⚠️ Sim' em Rev. Humana)"]:::validation
         
-        NETNO_REFINED --> KAPPA_SAMPLE["Amostragem para Revisão Humana"]:::agent
-        KAPPA_SAMPLE --> CSV_HUMAN["amostra_codificacao_humana.csv<br/>(Amostra para teste cego)"]:::validation
+        NETNO_REFINED --> KAPPA_SAMPLE["Protocolo de Auditoria Humana<br/>(Protocolo_Auditoria_Humana_Formatado.xlsx)"]:::agent
+        KAPPA_SAMPLE --> CSV_HUMAN["Track A: 83 posts | Track B: 15 tópicos<br/>(Amostra estratificada por 5 clusters temáticos)"]:::validation
         
-        HUMAN_CODING["Codificação Cega por Investigador Humano<br/>(DART-NET: A1-A5, I1-I6, VC1-VC4, DART)"]:::validation
+        HUMAN_CODING["Auditoria Cega por Investigadores Humanos<br/>(Roger/Gomide em Posts; JPaulo/Emmanoel em Tópicos)"]:::validation
         CSV_HUMAN --> HUMAN_CODING
         
         HUMAN_CODING --> CALC_KAPPA["calculate_kappa.py<br/>(Cálculo do Coeficiente Kappa de Cohen)"]:::agent

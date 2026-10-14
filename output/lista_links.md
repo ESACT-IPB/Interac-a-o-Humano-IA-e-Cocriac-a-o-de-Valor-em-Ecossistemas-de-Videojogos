@@ -35,7 +35,6 @@ Este catálogo formaliza o corpus total de **303 discussões e tópicos canónic
 | `481937` | A Win For Bots | [A Win For Bots](https://forums.eveonline.com/t/a-win-for-bots/481937) |
 | `509113` | Adapt The Forum Rules To Ban Ai Usage | [Adapt The Forum Rules To Ban Ai Usage](https://forums.eveonline.com/t/adapt-the-forum-rules-to-ban-ai-usage/509113) |
 | `505326` | Ai And Eve Online | [Ai And Eve Online](https://forums.eveonline.com/t/ai-and-eve-online/505326) |
-| `503747` | Ai And The Effect On Economy Society | [Ai And The Effect On Economy Society](https://forums.eveonline.com/t/ai-and-the-effect-on-economy-society/503747) |
 | `302778` | Anything I Could Program To Make Isk | [Anything I Could Program To Make Isk](https://forums.eveonline.com/t/anything-i-could-program-to-make-isk/302778) |
 | `472014` | Aura Ai | [Aura Ai](https://forums.eveonline.com/t/aura-ai/472014) |
 | `506798` | Aura Guidance Beta Feedback Thread | [Aura Guidance Beta Feedback Thread](https://forums.eveonline.com/t/aura-guidance-beta-feedback-thread/506798) |

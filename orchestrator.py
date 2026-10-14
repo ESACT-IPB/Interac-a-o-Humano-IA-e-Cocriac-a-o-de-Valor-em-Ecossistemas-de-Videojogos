@@ -37,6 +37,7 @@ class Orchestrator:
                 "AnonymizerAgent": "PENDING",
                 "NetnographyAgent": "PENDING",
                 "QualityGuardAgent": "PENDING",
+                "TopicDiscussionAnalystAgent": "PENDING",
                 "SynthesisAgent": "PENDING",
                 "SummaryTableGenerator": "PENDING"
             },
@@ -220,7 +221,26 @@ class Orchestrator:
         else:
             logger.info("QualityGuardAgent already COMPLETED. Skipping.")
 
-        # Step 6: Synthesis Agent (Redator)
+        # Step 6: Topic Discussion Analyst Agent (Análise Integral de Tópicos e Deteção de Sátira)
+        if self.state["heartbeats"].get("TopicDiscussionAnalystAgent") != "COMPLETED":
+            self.state["heartbeats"]["TopicDiscussionAnalystAgent"] = "RUNNING"
+            self._save_state()
+            try:
+                from agents.topic_discussion_analyst_agent import TopicDiscussionAnalystAgent
+                analyst = TopicDiscussionAnalystAgent()
+                analyst.run()
+                
+                self.state["heartbeats"]["TopicDiscussionAnalystAgent"] = "COMPLETED"
+                self._save_state()
+            except Exception as e:
+                self.state["heartbeats"]["TopicDiscussionAnalystAgent"] = "FAILED"
+                self._save_state()
+                logger.error(f"TopicDiscussionAnalystAgent failed: {e}")
+                sys.exit(1)
+        else:
+            logger.info("TopicDiscussionAnalystAgent already COMPLETED. Skipping.")
+
+        # Step 7: Synthesis Agent (Redator & Análise Agregada)
         if self.state["heartbeats"]["SynthesisAgent"] != "COMPLETED":
             self.state["heartbeats"]["SynthesisAgent"] = "RUNNING"
             self._save_state()
@@ -239,7 +259,7 @@ class Orchestrator:
         else:
             logger.info("SynthesisAgent already COMPLETED. Skipping.")
 
-        # Step 7: Summary Table Generator (Utilitário)
+        # Step 8: Summary Table Generator (Tabela Completa Contextualizada com Sátira/Ironia)
         if self.state["heartbeats"]["SummaryTableGenerator"] != "COMPLETED":
             self.state["heartbeats"]["SummaryTableGenerator"] = "RUNNING"
             self._save_state()

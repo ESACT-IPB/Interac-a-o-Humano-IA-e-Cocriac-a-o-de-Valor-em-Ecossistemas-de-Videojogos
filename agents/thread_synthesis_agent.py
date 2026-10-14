@@ -24,6 +24,7 @@ class ThreadSynthesisAgent:
         
         self.output_md = os.path.join(self.base_dir, "output", "analise_agregada_topicos.md")
         self.output_json = os.path.join(self.base_dir, "data", "analysis", "thread_level_results.json")
+        self.topic_insights_file = os.path.join(self.base_dir, "data", "analysis", "topic_discussions_insights.json")
         
     def load_data(self):
         """Carrega todos os dados do corpus refinado e índices auxiliares de metadados."""
@@ -37,6 +38,15 @@ class ThreadSynthesisAgent:
                 if line:
                     posts.append(json.loads(line))
                     
+        # Carregar insights aprofundados dos tópicos
+        topic_insights = {}
+        if os.path.exists(self.topic_insights_file):
+            try:
+                with open(self.topic_insights_file, "r", encoding="utf-8") as f:
+                    topic_insights = json.load(f)
+            except Exception as e:
+                logger.warning(f"Erro ao carregar topic_discussions_insights: {e}")
+
         # Carregar cache de resumos
         summary_cache = {}
         if os.path.exists(self.cache_file):
@@ -99,7 +109,7 @@ class ThreadSynthesisAgent:
             except Exception as e:
                 logger.warning(f"Erro ao carregar anonymized_posts: {e}")
 
-        return posts, summary_cache, corpus_by_id, raw_meta, anon_counts, anon_titles, anon_posts_map
+        return posts, summary_cache, corpus_by_id, raw_meta, anon_counts, anon_titles, anon_posts_map, topic_insights
 
     def group_threads(self, posts):
         """Agrupa os 825 posts por thread_id."""
@@ -260,8 +270,19 @@ class ThreadSynthesisAgent:
                         return sentences[0] + "."
         return "Evidência empírica baseada na interação observada no tópico."
 
-    def synthesize_analytic_summary(self, meta, metrics, tposts, summary_cache):
-        """Gera um resumo analítico denso de 4-5 linhas focado na interação humano-IA e no valor."""
+    def synthesize_analytic_summary(self, meta, metrics, tposts, summary_cache, topic_insights=None):
+        """Gera ou recupera o resumo analítico aprofundado focado na discussão integral e dinâmicas de valor."""
+        tid = str(meta["thread_id"])
+        if topic_insights and tid in topic_insights:
+            t_data = topic_insights[tid]
+            resumo = t_data.get("resumo_extenso_discussao", "").strip()
+            if resumo:
+                tom = t_data.get("tom_e_retorica", {})
+                if tom.get("contem_satira_ironia"):
+                    class_tom = tom.get("classificacao_tom", "Sátira/Ironia")
+                    return f"**[Enquadramento Retórico: {class_tom}]** {resumo}"
+                return resumo
+
         title = meta["title"]
         game = meta["game"]
         prev_ai = metrics["prev_ai"]
@@ -483,7 +504,7 @@ class ThreadSynthesisAgent:
     def run(self):
         """Executa o ciclo completo de análise agregada por tópico."""
         logger.info("ThreadSynthesisAgent: Iniciando agregação de dados...")
-        posts, summary_cache, corpus_by_id, raw_meta, anon_counts, anon_titles, anon_posts_map = self.load_data()
+        posts, summary_cache, corpus_by_id, raw_meta, anon_counts, anon_titles, anon_posts_map, topic_insights = self.load_data()
         
         thread_map = self.group_threads(posts)
         logger.info(f"ThreadSynthesisAgent: {len(posts)} posts agrupados em {len(thread_map)} tópicos ativos.")
@@ -524,7 +545,7 @@ class ThreadSynthesisAgent:
             meta = self.resolve_metadata(tid, tposts, corpus_by_id, raw_meta, anon_counts, anon_titles)
             metrics = self.compute_metrics(tposts)
             evidence = self.select_paradigmatic_evidence(tposts, anon_posts_map)
-            summary = self.synthesize_analytic_summary(meta, metrics, tposts, summary_cache)
+            summary = self.synthesize_analytic_summary(meta, metrics, tposts, summary_cache, topic_insights)
             
             # Formatar ficha Markdown
             sheet_md = self.generate_systematic_sheet(meta, metrics, evidence, summary)
