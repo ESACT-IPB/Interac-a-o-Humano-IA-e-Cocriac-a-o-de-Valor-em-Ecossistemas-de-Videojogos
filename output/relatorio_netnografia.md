@@ -241,8 +241,23 @@ A análise de padrões em todo o corpus de 152 tópicos permitiu identificar **c
    * *Foco*: Avaliação de companheiros e instâncias operadas por IA oficial da publicadora (*Follower Dungeons*, *Delves*, *Aura Guidance*).
    * *Métricas*: Acesso institucional controlado (`A: 1,4`) e Risco moderado (`R: 1,3`). Dinâmica mista entre inclusão de jogadores casuais (VC2) e isolamento da sociabilidade humana (VC4).
 5. **Cluster 5: Copilotos de Desenvolvimento, Addons e Vibe-Coding** (37 tópicos | 25,9%)
-   * *Foco*: Utilização de assistentes generativos para conceção de macros, interfaces, scripts Lua e addons complexos.
+   * *Foco*: Utilização de assistentes generativos para conceção de macros, interfaces, scripts Lua e addons complexos, bem como consultas e *brainstorming* tático.
    * *Métricas*: Acesso técnico relevante (`A: 1,3`) e risco contido (`R: 1,3`). Maior volume empírico, catalisando cocriação efetiva (VC1) na democratização da programação comunitária.
+
+#### 4.4.1 Critério Operacional de Fronteira: Distinção entre o Cluster 1 e o Cluster 5
+
+Dado que tanto o **Cluster 1** como o **Cluster 5** envolvem a utilização de modelos de linguagem (Claude, ChatGPT, Gemini, GitHub Copilot), programação comunitária e dinâmicas de cocriação de valor (`VC1` e `VC2`), o protocolo estabelece um **critério de fronteira estrito** baseado na arquitetura de ligação aos dados do jogo:
+
+* **Cluster 1 (Integração de Sistemas, APIs e MCP)**: A ferramenta ou o agente de IA **comunica programaticamente com endpoints de dados vivos do jogo via API** (ex.: API pública *ESI* de *EVE Online*, servidores *Model Context Protocol* — MCP ou telemetria de *killboards*). O foco incide sobre uma aplicação externa, plataforma web ou servidor que extrai dados estruturados do ecossistema em tempo real.
+* **Cluster 5 (Copilotos, Addons e *Vibe-Coding*)**: O jogador interage com um LLM externo como **assistente ou copiloto pessoal**, sem ligação direta por API entre a IA e o servidor do jogo. **O utilizador humano atua como ponte manual**: copia mensagens de erro, documentação (*blue posts*) ou descrições funcionais para o chat da IA, gera ou depura código local (ex.: *Addons* em Lua ou *WeakAuras* para o cliente de *World of Warcraft*) ou realiza sessões de *brainstorming*, planeamento e consulta sobre mecânicas do jogo.
+
+| Dimensão de Contraste | **Cluster 1: Ferramentas Externas, APIs e MCP** | **Cluster 5: Copilotos, Addons e *Vibe-Coding*** |
+| :--- | :--- | :--- |
+| **Papel da IA** | Motor integrado numa aplicação ou ligado diretamente a *endpoints* de dados do jogo (**Agente A1**). | Assistente/copiloto pessoal de programação local ou consulta conversacional (**Copiloto A4 / Discussão A5**). |
+| **Fluxo de Dados** | **Automatizado via API** (Servidor do Jogo $\leftrightarrow$ API ESI / MCP $\leftrightarrow$ Agente IA). | **Mediado Manualmente pelo Humano** (Jogador copia/cola *prompt* ou código $\leftrightarrow$ LLM externo). |
+| **Artefacto Principal** | Aplicações web comunitárias, servidores MCP, painéis de telemetria e simuladores ligados à API oficial. | *Addons* locais em Lua, *WeakAuras*, macros de interface ou consultas de planeamento/*brainstorming*. |
+| **Indicadores Empíricos no Corpus** | `API`, `ESI`, `MCP Server`, `Endpoint`, `Telemetry`, `Live Data`, `zKillboard`. | `Vibe-coding`, `Lua`, `Addon`, `WeakAura`, `Claude Code`, `OnUpdate`, `FPS`, `Brainstorm`. |
+| **Casos Verificados no Corpus** | • **`510327`** (*EVE Crews*: simulador web ligado à API ESI com regras calibradas via Claude);<br>• **`516433`** (*EVE MCP Server*: exposição de *endpoints* ESI para consulta direta por assistentes de IA). | • **`reddit_1v3v2p2`** (*Claude Code Success*: reparação de *addon* Lua pós-*patch* via *blue post*);<br>• **`reddit_1r1dd9i`** (*Vibe Coded AddOns*: impacto de performance em Lua e uso de `OnUpdate`);<br>• **`1mctiz6`** e **`1i6m4i6`** (uso do Gemini/ChatGPT para *brainstorming* e rotas de navegação). |
 
 ### 4.5 Casos Paradigmáticos de Tópicos de Discussão
 
@@ -392,9 +407,23 @@ Para solucionar lacunas interpretativas decorrentes da análise atómica isolada
      7. `ThreadSynthesisAgent` (Agregação paramétrica meso-sociotécnica e clusters)
      8. `HumanAuditorAgent / SummaryTableGenerator` (Auditoria humana amostral e tabela consolidada)
 
-### 8.5 Atualização do Protocolo de Auditoria Humana (Fidelidade de Síntese $\le 60$ Palavras)
+### 8.5 Protocolo de Auditoria Humana e Tipologia de Fidelidade de Síntese
 
-Em estrito cumprimento das diretrizes de auditoria netnográfica e concisão cognitiva, o livro de cálculo [`output/Protocolo_Auditoria_Humana_Formatado.xlsx`](file:///Users/jpaulo/Documents/AntiGravity_Agents/Interação%20Humano-IA%20e%20Cocriação%20de%20Valor%20em%20Ecossistemas%20de%20Videojogos/output/Protocolo_Auditoria_Humana_Formatado.xlsx) foi integralmente regenerado:
-* **Confronto com Tabela de Resumos**: A coluna `Resumo_Analitico_IA` da Faixa A (83 posts amostrais) foi preenchida a partir dos resumos contextualizados de `tabela_resumos.md`, integrando a deteção de sátira e intenção comunicativa.
-* **Resumo de Tópicos (Faixa B)**: A Faixa B (15 tópicos centrais) incorporou os insights deliberativos gerados pelo `TopicDiscussionAnalystAgent`.
-* **Limite Estrito de Extensão**: Foi implementada validação algorítmica garantindo que **nenhum resumo de post ou de tópico ultrapasse 60 palavras** (média de 42,6 palavras na Faixa A e 58,3 palavras na Faixa B; 0 violações no workbook completo), assegurando máxima fidelidade de síntese e operacionalidade imediata para os auditores humanos.
+Em estrito cumprimento das diretrizes de auditoria netnográfica e ancoragem empírica (*verbatim evidence*; Kozinets, 2020), o livro de cálculo [`output/Protocolo_Auditoria_Humana_Formatado.xlsx`](file:///Users/jpaulo/Documents/AntiGravity_Agents/Interação%20Humano-IA%20e%20Cocriação%20de%20Valor%20em%20Ecossistemas%20de%20Videojogos/output/Protocolo_Auditoria_Humana_Formatado.xlsx) estrutura a validação independente em duas faixas complementares:
+
+1. **Regras Diferenciadas de Extensão e Ancoragem Empírica**:
+   * **Track A — Micro-Análise de Posts Individuais ($N=83$ posts)**: Inclui a coluna `Texto_Real_Verbatim` lado a lado com `Resumo_Analitico_IA` (extraído de [`output/tabela_resumos.md`](file:///Users/jpaulo/Documents/AntiGravity_Agents/Interação%20Humano-IA%20e%20Cocriação%20de%20Valor%20em%20Ecossistemas%20de%20Videojogos/output/tabela_resumos.md)), respeitando o **limite estrito de $\le 60$ palavras** (média: 42,6 palavras; intervalo: 26–50 palavras; 0 violações).
+   * **Track B — Meso-Análise de Tópicos de Discussão ($N=15$ tópicos estratificados, 3 por cluster)**: Inclui sínteses analíticas aprofundadas baseadas em [`output/resumos_discussoes_topicos.md`](file:///Users/jpaulo/Documents/AntiGravity_Agents/Interação%20Humano-IA%20e%20Cocriação%20de%20Valor%20em%20Ecossistemas%20de%20Videojogos/output/resumos_discussoes_topicos.md), respeitando o **limite estrito de $\le 150$ palavras** (média: 116,9 palavras; intervalo: 109–125 palavras; 0 violações).
+
+2. **Escala Ordinal de Fidelidade de Síntese (1 a 5 na Track B)**:
+   * **5 — Excelente *(Fidelidade Plena)***: Síntese perfeitamente fiel ao diálogo real, captando argumentos, ferramentas citadas, dinâmica de valor e tom retórico (incluindo sátira e ironia).
+   * **4 — Boa *(Fidelidade Elevada)***: Capta todos os pontos centrais da discussão sem distorções factuais, com apenas pequenas omissões periféricas.
+   * **3 — Aceitável *(Fidelidade Moderada)***: Reflete o tema geral do tópico, mas omite contra-argumentos relevantes ou falha na captação precisa do tom retórico/irónico.
+   * **2 — Insuficiente *(Baixa Fidelidade)***: Apresenta generalizações abstratas ou superficiais, desviando-se da substância empírica específica dos posts.
+   * **1 — Deficiente / Alucinação *(Fidelidade Nula)***: Contém afirmações factualmente erradas, interpretações literais de paródias que invertem o sentido real ou factos inventados face aos posts.
+
+3. **Os 4 Tipos Concetuais de Fidelidade Avaliados**:
+   * **Fidelidade Factual / Empírica (Anti-Alucinação)**: Correspondência exata entre as tecnologias, mecânicas e factos citados no resumo (ex.: *API ESI*, *servidores MCP*, *WeakAuras*, *Claude*, *ChatGPT*) e o texto original dos posts, sem extrapolações.
+   * **Fidelidade Dialética / Representativa**: Representação integral da trajetória conversacional da *thread* (premissa do post de abertura, reações divergentes da comunidade, contra-argumentos e consensos).
+   * **Fidelidade Retórica e Pragmática (Sátira e Ironia)**: Distinção rigorosa entre discurso técnico literal e manifestações de **sátira, ironia, sarcasmo, humor ou paródia corporativa**.
+   * **Fidelidade Teórica / Taxonómica (Alinhamento DART-NET)**: Coerência entre a narrativa sintetizada e a dinâmica sociotécnica atribuída — cocriação efetiva (`VC1`), potencial (`VC2`), codestruição/fricção (`VC3`) ou reflexão neutra (`VC4`).
