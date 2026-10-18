@@ -114,67 +114,67 @@ def assign_cluster(title, posts_list):
     else:
         return "Cluster 2: Fair Play, Deteção Algorítmica e Integridade Competitiva"
 
-# Resumos analíticos contínuos dos 15 tópicos (estritamente <= 60 palavras)
+# Resumos analíticos aprofundados e detalhados dos 15 tópicos da Track B (baseados em resumos_discussoes_topicos.md; estritamente <= 150 palavras)
 resumos_analiticos_topicos = {
-    "reddit_1phwb0r": enforce_max_words(
-        "Apresentação da ferramenta battlefield.space, que usa LLMs para gerar relatórios narrativos de inteligência sobre frotas e corporações em EVE Online via API/ESI. O debate elogia a redução da barreira cognitiva, mas contesta a viabilidade prática devido aos custos elevados de inferência e à latência incompatível com o combate em tempo real.",
-        60
+    "1tdxixs": enforce_max_words(
+        "Discussão comunitária sobre o anúncio do CEO da CCP Games, Hilmar Pétursson, referente à integração de inteligência artificial generativa e blockchain no ecossistema de EVE Online. O debate é dominado por um tom marcadamente cético, sarcástico e irónico, onde os jogadores ridicularizam o alinhamento com modas corporativas e termos de marketing desprovidos de utilidade lúdica tangível. Embora alguns utilizadores admitam hipóteses especulativas de cocriação potencial (VC2) na sofisticação tática de NPCs ou em copilotos de mercado, a esmagadora maioria expressa receio de codestruição de valor (VC3). As críticas convergem para a desconfiança em modelos preditivos opacos, o risco de monetização agressiva via tokens e o desvio de recursos de desenvolvimento essenciais para a correção da dívida técnica acumulada no jogo.",
+        150
     ),
-    "1t01k13": enforce_max_words(
-        "Debate satírico e mordaz sobre a aquisição da CCP Games e reestruturação corporativa. A comunidade recorre a humor negro e paródias do 'CCP Copilot' para satirizar promessas corporativas, expressando receios reais de desumanização do suporte, despedimentos e substituição da agência dos jogadores por automação agressiva e projetos de criptomoeda.",
-        60
+    "2039353": enforce_max_words(
+        "O tópico aborda a tentativa de utilizar o ChatGPT para decifrar, calcular e prever o funcionamento do sistema oculto de Matchmaking Rating (MMR) no PvP competitivo de World of Warcraft. A discussão divide-se entre jogadores que procuram assistência cognitiva da IA para compreender flutuações de rating e veteranos que demonstram a falibilidade dos LLMs perante algoritmos proprietários e não documentados da Blizzard. Evidenciam-se episódios de codestruição de valor (VC3) decorrentes de alucinações matemáticas convincentes, nas quais a IA gera fórmulas plausíveis mas inteiramente erradas, induzindo os utilizadores em erro sobre ganhos de pontuação. O debate conclui que a IA opera como um simulador de certezas estatísticas sem acesso a dados reais, reforçando a necessidade de escrutínio crítico humano e transparência algorítmica inexistente na infraestrutura oficial.",
+        150
     ),
-    "1880836": enforce_max_words(
-        "Discussão técnica sobre o uso de ChatGPT, Perplexity e Copilot no desenvolvimento de addons Lua em World of Warcraft. A comunidade reconhece utilidade em rotinas simples, mas aponta limitações críticas como alucinações de sintaxe e desatualização das APIs pós-Dragonflight, concluindo pela necessidade indispensável de supervisão e depuração humana experiente.",
-        60
+    "510327": enforce_max_words(
+        "Apresentação e desenvolvimento colaborativo do simulador comunitário 'EVE Crews', que articula a API pública ESI de EVE Online com o assistente Claude para estimar e simular tripulações em naves espaciais com base no cânone oficial e no volume dos cascos. Trata-se de um caso emblemático de cocriação efetiva de valor (VC1) e cooperação triádica simétrica (Humano-IA-Comunidade). Os utilizadores testam a aplicação, apontam discrepâncias em naves capitais e o programador, assistido iterativamente pelo modelo, reescreve as regras de inferência e publica atualizações em tempo real. Destaca-se a elevada transparência do projeto através de um painel de diagnóstico público que expõe a lógica de decisão do agente, mitigando riscos de alucinação e democratizando o acesso a dados complexos de telemetria para a comunidade.",
+        150
+    ),
+    "1mctiz6": enforce_max_words(
+        "O autor relata a sua experiência ao utilizar o Google Gemini como copiloto criativo de brainstorming para conceber conceitos operacionais e teorias de jogo em EVE Online. A comunidade reage com uma mistura de humor e debate reflexivo (VC4 e potencial VC2), explorando a utilidade de assistentes generativos na ideação preliminar sem substituição do discernimento humano. Embora a IA demonstre capacidade para estruturar ideias narrativas e estratégias organizacionais de corporação, os participantes sublinham limitações severas em tarefas numéricas rigorosas, como o balanceamento de slots de montagem (fitting) e consumo de energia, onde o modelo alucina atributos inexistentes. A discussão evidencia que a IA funciona eficazmente como parceiro de diálogo conceitual, mas exige validação empírica humana contínua em mecânicas sistémicas.",
+        150
+    ),
+    "481937": enforce_max_words(
+        "O tópico debate o impacto económico da mecânica de compressão de minério em EVE Online, questionando se a facilidade logística representa uma vantagem desproporcional para operações automatizadas de mineração (bots). O post inicial denuncia que a compressão permite projetar minério de regiões isoladas e remotas diretamente para os mercados centrais, quebrando barreiras naturais de transporte. A intervenção comunitária contesta essa visão binária, salientando que a funcionalidade beneficia igualmente industriais, mineradores e transportadores legítimos. A discussão exemplifica a tensão sociotécnica contínua em torno de risco e justiça distributiva: melhorias de qualidade de vida desenhadas para jogadores humanos reduzem simultaneamente o atrito operacional para scripts ilícitos, alimentando receios de inflação e desestabilização económica sem que haja falha intrínseca na tecnologia.",
+        150
     ),
     "reddit_1rnbqbh": enforce_max_words(
-        "Jogadores debatem indícios estilísticos e pontuação formulaica, como travessões duplos repetitivos, nos textos de missões de World of Warcraft Midnight. A comunidade investiga se a Blizzard recorreu a LLMs para redigir ou retocar diálogos de NPCs, manifestando ceticismo cauteloso e apreensão quanto à perda de autenticidade criativa e literária.",
-        60
+        "Discussão em r/wow na qual os jogadores debatem se os textos de missões recentes de World of Warcraft foram redigidos por modelos de IA generativa, apontando repetições estilísticas, descrições genéricas e perda de profundidade narrativa. A comunidade divide-se entre suspeitas de automatização opaca ('AI slop') por parte da Blizzard para cortar custos operacionais e argumentos de que a degradação na escrita decorre de prazos apertados, despedimentos em equipas criativas e sobrecarga de pessoal humano. O debate reflete forte sensibilidade à Transparência e codestruição de valor relacional (VC3), com exigências de rotulagem explícita caso ferramentas generativas sejam integradas. Conclui-se que, independentemente da autoria algorítmica real, a perceção de desumanização textual corrói a imersão e a confiança na publicadora.",
+        150
     ),
-    "516800": enforce_max_words(
-        "Análise das investigações da Google DeepMind no universo de EVE Online. O debate oscila entre o fascínio técnico pela emergência de agentes com aprendizagem cooperativa e o receio irónico de proliferação de bots predatórios e frotas de ganking imbatíveis, alertando para graves desequilíbrios na economia e perda de agência dos jogadores.",
-        60
+    "503747": enforce_max_words(
+        "Debate macro-sociológico e reflexivo no fórum oficial de EVE Online sobre as repercussões da inteligência artificial avançada e da automação na economia global, no mercado de trabalho e na sua transposição para o ecossistema virtual do jogo. Os utilizadores analisam paralelos históricos de revoluções industriais, o impacto da IA generativa na desvalorização do trabalho intelectual e o risco de concentração de riqueza e desigualdade sistémica. No contexto do jogo, discute-se como agentes autónomos podem quebrar o valor do esforço humano na mineração e na produção industrial, alterando incentivos de participação lúdica. O tom varia entre especulação filosófica fria e ironia mordaz sobre a substituição de funções comunitárias, categorizando-se predominantemente em VC4 com elevada saliência de Risco percebido.",
+        150
     ),
-    "1821486": enforce_max_words(
-        "Discussão sobre declarações da liderança da Blizzard sobre machine learning em World of Warcraft. Os participantes aceitam o uso de IA para tarefas de infraestrutura e otimização técnica (sharding e texturas), mas recorrem a sátira e ironia para rejeitar veementemente qualquer substituição algorítmica na narrativa e escrita criativa.",
-        60
+    "2152188": enforce_max_words(
+        "Relato de um bug no cliente de jogo envolvendo mascotes felinas no qual o utilizador, ao submeter tickets de suporte à Blizzard, recebe respostas genéricas, desconexas e inadequadas, atribuídas a um sistema automatizado opaco ('ChatGPT GM'). A comunidade reage com profunda indignação e frustração coletiva, partilhando episódios idênticos de encerramento arbitrário de chamados sem qualquer diagnóstico técnico humano. Trata-se de uma evidência cabal de codestruição severa de valor (VC3), onde a substituição de Game Masters qualificados por respostas algorítmicas padronizadas destrói a confiança institucional, elimina o diálogo efetivo e aliena os jogadores pagantes. A discussão critica a opacidade da publicadora e exige a reintegração imperativa de humanos no circuito de atendimento e suporte ao cliente.",
+        150
     ),
-    "reddit_1rhkho1": enforce_max_words(
-        "Crítica contundente com laivos de sarcasmo denunciando padrões formulaicos em missões de World of Warcraft Midnight. Jogadores identificam estruturas sintáticas repetitivas e pontuação típica de LLMs como evidência de texto gerado por IA, lamentando o desinvestimento em guionistas humanos e a degradação da profundidade narrativa do universo de Warcraft.",
-        60
+    "1i6m4i6": enforce_max_words(
+        "O autor analisa criticamente a promessa de que a IA 'revolucionará o mundo', testando o ChatGPT e o Google Gemini em consultas de navegação e missões em World of Warcraft. A discussão contrasta a precisão direta do ChatGPT com os desvios alucinatórios e pedidos de desculpa teatrais do Gemini ao sugerir rotas absurdas entre Orgrimmar e Ratchet. A comunidade explora este contraste com humor e anedotas profissionais, sublinhando o fenómeno da IA 'confiantemente incorreta'. Estabelece-se o consenso de que os LLMs podem atuar como copilotos úteis (A4), mas exigem que o jogador detenha conhecimento prévio suficiente para identificar erros crassos, concluindo que o uso acrítico de respostas generativas sem escrutínio humano gera desinformação e momentos cómicos no ecossistema lúdico.",
+        150
     ),
-    "508912": enforce_max_words(
-        "Esclarecimento técnico com tom sarcástico sobre as regras de retenção de bens em estruturas Upwell de jogadores em EVE Online. O autor adverte contra a falsa sensação de segurança, detalhando como o abandono ou desligamento de serviços expõe materiais de manufatura e naves a saques diretos no espaço.",
-        60
+    "reddit_1q7m0sl": enforce_max_words(
+        "Debate sobre a introdução especulativa de um assistente conversacional inteligente ('Aura AI') para apoio a jogadores em World of Warcraft. A comunidade polariza-se: jogadores pragmáticos reconhecem potencial de cocriação (VC2) na redução da íngreme curva de aprendizagem para novatos, argumentando que alucinações de jogo acarretam baixo risco face à desinformação frequente em canais de ajuda. Em oposição, utilizadores céticos rejeitam a proliferação de 'AI slop', temendo que a publicadora substitua tutoriais nativos por saídas probabilísticas imprecisas. Emerge a exigência rigorosa de que qualquer assistente seja estritamente opcional (opt-in), respeite o cânone narrativo e permaneça confinado ao auxílio contextual sem interferir no mistério e na descoberta fundamentais da experiência MMORPG.",
+        150
     ),
-    "2180159": enforce_max_words(
-        "Queixa amarga e sarcástica contra o suporte automatizado da Blizzard após bloqueio irreversível na missão do Druida em Legion. O jogador denuncia a resposta impessoal e desajustada de bots de ticket que encerram reclamações sem resolver bugs críticos, ilustrando codestruição severa de valor e quebra de confiança no serviço.",
-        60
+    "2116712": enforce_max_words(
+        "Denúncia técnica e contundente sobre a proliferação descontrolada de 'pixel bots' no PvP competitivo (arenas e Solo Shuffle) de World of Warcraft. O autor e outros jogadores experientes descrevem como a barreira de entrada da batota foi eliminada pela conjugação de WeakAuras de um pixel com scripts Python gerados em minutos por LLMs (ChatGPT). Estes sistemas executam interrupções de feitiço e salvaguardas defensivas com tempos de reação sub-humanos (<100ms) e padrões que simulam aleatoriedade para contornar a deteção. O tópico ilustra um cenário extremo de codestruição de valor (VC3) impulsionado por IA: destruição do fair play, erosão da integridade competitiva e revolta comunitária perante a incapacidade e passividade do sistema anti-cheat da Blizzard em banir infratores.",
+        150
     ),
-    "reddit_1tvlpnw": enforce_max_words(
-        "Apresentação promocional de um addon experimental com machine learning para quarentenar spammers e bots nos canais de comércio de World of Warcraft. A discussão comunitária relembra ferramentas históricas de denúncia automatizada, debatendo a viabilidade técnica e os riscos de falsos positivos na moderação comunitária do chat sem validação humana.",
-        60
+    "512367": enforce_max_words(
+        "Proposta detalhada de design conceptual defendendo a criação do 'Ask Aura', um assistente de IA circunscrito (bounded AI) desenhado para atuar exclusivamente como intérprete contextual de documentação oficial, cânone, patch notes e manuais da EVE Academy, sem permissão para inventar conteúdo generativo. A comunidade acolhe favoravelmente o rigor metodológico da proposta, mas identifica desafios técnicos incontornáveis: mesmo sistemas ancorados em recuperação de informação (RAG) sofrem alucinações semânticas que podem disseminar erros graves em mecânicas complexas. Adicionalmente, debate-se o risco sociocultural de desvalorizar o vasto repositório de wikis e guias gerados pela própria comunidade, que constituem pilares históricos da sociabilidade e cocriação de valor (VC1/VC2) no ecossistema de New Eden.",
+        150
     ),
-    "453174": enforce_max_words(
-        "Proposta técnica para integrar LLMs de execução local e gratuita na assistente Aura de EVE Online. O autor propõe tradução dinâmica de conversas em tempo real entre pilotos de línguas diferentes, procurando mitigar barreiras linguísticas e promover integração comunitária sem depender de infraestruturas proprietárias com custos recorrentes de API.",
-        60
+    "reddit_1kylpvy": enforce_max_words(
+        "O autor partilha a utilização do ChatGPT Plus para planear e conciliar horários de trabalho com a rotação de assaltos no World of Warcraft, propondo a evolução de companheiros de IA integrados no jogo. A comunidade analisa criticamente a dualidade da ferramenta: reconhece-se utilidade real como copiloto organizacional e de roleplay (A4/VC2), mas alertam-se para falhas graves decorrentes de bases de dados desatualizadas face a patches recentes do WoW. Os participantes recomendam verificação cruzada obrigatória com o Wowhead e destacam ferramentas especializadas comunitárias (como Gylvessa) que superam modelos genéricos. O debate ilustra como a assistência de IA ganha relevância quando confinada à organização e à criação narrativa, exigindo sempre validação humana externa contra mecânicas ativas.",
+        150
     ),
-    "2022909": enforce_max_words(
-        "Debate prospetivo sobre a introdução de LLMs em World of Warcraft para mediar diálogos com NPCs e instruir táticas em masmorras. A comunidade rejeita automações de tarefas ativas mas acolhe interações conversacionais dinâmicas com companheiros, discutindo custos de hardware e os limites aceitáveis da inteligência artificial nos MMORPGs.",
-        60
+    "2176376": enforce_max_words(
+        "Discussão concisa focada no desejo de servidores 'evergreen' com todo o conteúdo histórico desbloqueado, recorrendo a companheiros de grupo gerados por IA para viabilizar masmorras e raids antigas sem dependência de grupos humanos, contornando o modelo sazonal e a remoção de recompensas (FOMO). Os participantes distinguem rigorosamente scripts determinísticos convencionais de agentes inteligentes de IA, apontando que servidores privados funcionam como laboratórios pioneiros para testes de automação cooperativa antes da sua adoção oficial (como nas Follower Dungeons). O tema oscila entre o potencial de inclusão e acessibilidade para jogadores a solo (VC2) e a reflexão sobre o impacto do isolamento social num ecossistema cuja premissa ontológica é a interação multijogador em massa (VC4).",
+        150
     ),
-    "reddit_1v3v2p2": enforce_max_words(
-        "Relato empírico com tom humorístico de manutenção de software onde um jogador recorre ao Claude Code para reparar addons incompatíveis após um patch de World of Warcraft. Ancorando o modelo em notas oficiais e logs de erro, o utilizador demonstra o potencial de copilotos na cocriação e sustentabilidade de código comunitário.",
-        60
-    ),
-    "486116": enforce_max_words(
-        "Crítica contundente à utilização negligente do ChatGPT para responder a dúvidas de mercado em EVE Online. A comunidade denuncia a alucinação de links e factos fictícios gerados pela IA, debatendo os riscos da desinformação automatizada em fóruns oficiais e exigindo verificação humana rigorosa em discussões económicas do jogo.",
-        60
-    ),
-    "reddit_1usj0hv": enforce_max_words(
-        "Especulação irónica sobre a parceria entre a CCP Games e o Google DeepMind para treinar IA em ambientes fechados de EVE Online. Os jogadores debatem se a tecnologia originará corporações autónomas capazes de operar economias e guerras virtuais, contrastando o entusiasmo científico com o receio de custos computacionais inviáveis.",
-        60
+    "reddit_1r1dd9i": enforce_max_words(
+        "Análise técnica profunda elaborada por um engenheiro de software demonstrando os mecanismos que levam addons desenvolvidos via vibe coding (código gerado por IA sem auditoria) a causar quebras drásticas de taxa de frames (FPS) no World of Warcraft. O debate examina falhas de arquitetura em Lua, tais como o uso indiscriminado do manipulador OnUpdate (que reexecuta a cada frame) em vez de eventos orientados (BAG_UPDATE_DELAYED), ineficiências de garbage collection e ausência de tratamento de exceções. Embora contraexemplos empíricos provem que prompts refinados geram código eficiente, a comunidade conclui que a IA atua como um multiplicador de competência: amplia a produtividade de programadores experientes (VC1), mas propaga código disfuncional e codestruição de performance (VC3) quando manuseada por utilizadores desprovidos de literacia técnica.",
+        150
     )
 }
 
@@ -185,11 +185,11 @@ def get_topic_synthesis(tid, posts_list, fallback_title=""):
     if tid in topic_insights:
         ext = topic_insights[tid].get("resumo_extenso_discussao", "")
         if ext:
-            return enforce_max_words(ext, 60)
+            return enforce_max_words(ext, 150)
     if not posts_list:
         return f"Discussão sobre {fallback_title} nos fóruns comunitários."
     resumos_text = " ".join([p["resumo"] for p in posts_list[:3]])
-    return enforce_max_words(f"A comunidade debate os seguintes aspetos em torno do tema: {resumos_text}", 60)
+    return enforce_max_words(f"A comunidade debate os seguintes aspetos em torno do tema: {resumos_text}", 150)
 
 # 3. Amostra de Posts (Track A, N=83 posts)
 random.seed(42)
@@ -234,7 +234,7 @@ for t in sample_threads_raw:
         "game": t.get("game") or t_info.get("game"),
         "title": t.get("title") or t_info.get("title"),
         "url": t_info.get("url") or (t_posts[0]["link"] if t_posts else f"https://forums.eveonline.com/t/{tid}"),
-        "summary": enforce_max_words(get_topic_synthesis(tid, t_posts, t.get("title", "")), 60),
+        "summary": enforce_max_words(get_topic_synthesis(tid, t_posts, t.get("title", "")), 150),
         "cluster": assign_cluster(t["title"], t_posts),
         "val_dyn": t.get("val_dyn", "")
     })
@@ -317,7 +317,7 @@ d_atrib = [
 ]
 r = render_table(ws1, 4, h_atrib, d_atrib, {1: alignment_center, 3: alignment_center})
 
-add_sec_header(ws1, "2. DIRETRIZES DE AUDITORIA, FIDELIDADE DE SÍNTESE E LIMITE DE PALAVRAS", r + 1, "D")
+add_sec_header(ws1, "2. DIRETRIZES DE AUDITORIA, FIDELIDADE DE SÍNTESE E EXTENSÃO ANALÍTICA", r + 1, "D")
 ws1.merge_cells(f"A{r+2}:D{r+2}")
 c_desc = ws1[f"A{r+2}"]
 c_desc.value = (
@@ -329,11 +329,13 @@ c_desc.value = (
     "• 3 - Aceitável: Reflete o tema geral mas omite argumentos relevantes ou falha na captação do tom;\n"
     "• 2 - Insuficiente: Apresenta generalizações abstratas ou desvia-se dos posts;\n"
     "• 1 - Deficiente / Alucinação: Contém afirmações factualmente erradas ou inventadas face ao texto real dos posts.\n\n"
-    "REGRA METODOLÓGICA DE EXTENSÃO: Todos os resumos analíticos de posts e tópicos neste protocolo respeitam o limite estrito de no máximo 60 palavras."
+    "REGRAS METODOLÓGICAS DE EXTENSÃO:\n"
+    "• Track A (Posts Individuais): Resumos analíticos concisos respeitando o limite estrito de no máximo 60 palavras.\n"
+    "• Track B (Tópicos de Discussão): Resumos analíticos aprofundados baseados nas discussões dos tópicos, com extensão detalhada de no máximo 150 palavras."
 )
 c_desc.font = font_cell
 c_desc.alignment = alignment_wrap
-ws1.row_dimensions[r+2].height = 120
+ws1.row_dimensions[r+2].height = 145
 r += 3
 
 add_sec_header(ws1, "3. TAXONOMIAS DE CODIFICAÇÃO (A1-A6, I1-I6, VC1-VC4)", r + 1, "D")
@@ -445,7 +447,8 @@ ws2.column_dimensions["I"].width = 24
 ws2.column_dimensions["J"].width = 55
 
 # ==========================================
-# FOLHA 3: EXEMPLOS TÓPICOS (ATUALIZADOS E <= 60 PALAVRAS)
+# ==========================================
+# FOLHA 3: EXEMPLOS TÓPICOS (ATUALIZADOS E <= 150 PALAVRAS)
 # ==========================================
 ws3 = wb.create_sheet(title="Exemplos_Topicos")
 ws3.views.sheetView[0].showGridLines = True
@@ -459,13 +462,13 @@ d_ex_t = [
         "EVE Crews: A lore-accurate* API-linked crew simulator",
         "https://forums.eveonline.com/t/eve-crews-a-lore-accurate-api-linked-crew-simulator/510327",
         enforce_max_words(
-            "O tópico documenta o desenvolvimento colaborativo contínuo do simulador EVE Crews, utilizando a API ESI e modelos de inferência heurística para gerir tripulações de naves capitais. Desenvolvedores e jogadores debatem a fidelidade ao lore, corrigem bugs de telemetria e calibram regras algorítmicas, materializando uma parceria simétrica de cocriação de valor comunitário.",
-            60
+            "Apresentação e desenvolvimento colaborativo do simulador comunitário 'EVE Crews', que articula a API pública ESI de EVE Online com o assistente Claude para estimar e simular tripulações em naves espaciais com base no cânone oficial e no volume dos cascos. Trata-se de um caso emblemático de cocriação efetiva de valor (VC1) e cooperação triádica simétrica (Humano-IA-Comunidade). Os utilizadores testam a aplicação, apontam discrepâncias em naves capitais e o programador, assistido iterativamente pelo modelo, reescreve as regras de inferência e publica atualizações em tempo real. Destaca-se a elevada transparência do projeto através de um painel de diagnóstico público que expõe a lógica de decisão do agente, mitigando riscos de alucinação e democratizando o acesso a dados complexos de telemetria para a comunidade.",
+            150
         ),
         "Cluster 1: Ferramentas Externas, Integração de APIs e MCP",
         "Cocriação Efetiva (VC1)",
         "5",
-        "Resumo que sintetiza fielmente a discussão do tópico em 49 palavras: reflete o desenvolvimento contínuo de tripulações, resolução de bugs ESI e cocriação simétrica."
+        "Resumo detalhado de 121 palavras fiel à discussão: reflete a arquitetura API/Claude, resolução colaborativa de bugs e transparência de diagnóstico."
     ],
     [
         "508618",
@@ -473,13 +476,13 @@ d_ex_t = [
         "Recorded a bot in high sec - but why even bother?",
         "https://forums.eveonline.com/t/recorded-a-bot-in-high-sec-but-why-even-bother/508618",
         enforce_max_words(
-            "O autor partilha vídeo com evidências de um bot em highsec, debatendo os incentivos económicos da venda de moedas e a ineficácia de banimentos de IP. A discussão evolui para cinismo comunitário e codestruição de valor, motivada pela perceção de lentidão e tolerância do suporte oficial perante a automação desleal.",
-            60
+            "Discussão reflexiva e desiludida no fórum de EVE Online iniciada por um jogador que gravou e denunciou um minerador automatizado (bot) no espaço de alta segurança (highsec), questionando a utilidade do esforço. A comunidade reage com cinismo e frustração acumulada, partilhando evidências de ineficácia nas punições da CCP e contorno trivial de banimentos de IP através de VPNs e novas contas. Trata-se de um caso marcante de codestruição de valor (VC3) motivado por desamparo institucional e baixa Transparência nas ações da editora. O debate aprofunda as motivações do Real Money Trading (RMT) e a assimetria entre o custo de reportar e a imunidade percebida dos operadores de bots, consolidando um sentimento de abandono da integridade económica do jogo.",
+            150
         ),
         "Cluster 3: Suporte ao Cliente, Moderação Automatizada e Banning",
         "Codestruição de Valor (VC3)",
         "5",
-        "Resumo fiel da discussão em 49 palavras: retrata a erosão de confiança institucional e a codestruição de valor provocada por bots impunes."
+        "Resumo aprofundado de 118 palavras: retrata fielmente o cinismo comunitário, a erosão de confiança institucional e a codestruição de valor por bots impunes."
     ],
     [
         "reddit_1tvlpnw",
@@ -487,13 +490,13 @@ d_ex_t = [
         "Sick of spam and bots ruining our game? Here is an addon that uses ML...",
         "https://www.reddit.com/r/wow/comments/1tvlpnw/sick_of_spam_and_bots_ruining_our_game_heres_an/",
         enforce_max_words(
-            "Apresentação promocional de um addon experimental com machine learning para quarentenar spammers e bots nos canais de comércio de World of Warcraft. A discussão comunitária relembra ferramentas históricas de denúncia automatizada, debatendo a viabilidade técnica e os riscos de falsos positivos na moderação comunitária do chat sem validação humana.",
-            60
+            "Apresentação e escrutínio comunitário de uma proposta de addon para World of Warcraft desenhado para utilizar algoritmos de Machine Learning locais na deteção e filtragem em tempo real de mensagens de spam, publicidade ilícita e serviços de boosting nos canais de conversação públicos. A comunidade debate a viabilidade técnica da solução, levantando preocupações sobre falsos positivos, sobrecarga computacional de inferência no cliente e o risco de retaliação ou exploração por parte dos spammers. Classificado predominantemente em VC4 com potencial VC2, o tópico reflete o esforço proativo de jogadores em criar barreiras defensivas inteligentes contra a poluição conversacional, enquanto questiona a ausência de soluções nativas eficazes implementadas diretamente pela Blizzard nos servidores oficiais.",
+            150
         ),
         "Cluster 2: Fair Play, Deteção Algorítmica e Integridade Competitiva",
         "Reflexão Crítica sobre Valor (VC4)",
         "5",
-        "Resumo conciso de 49 palavras: capta o debate sobre automação de denúncias e o ceticismo perante a moderação de chat por ML."
+        "Resumo denso de 112 palavras: capta o debate sobre viabilidade de ML local no cliente, risco de falsos positivos e inação da publicadora."
     ],
     [
         "reddit_1v3v2p2",
@@ -501,13 +504,13 @@ d_ex_t = [
         "Claude Code Success",
         "https://www.reddit.com/r/wow/comments/1v3v2p2/claude_code_success/",
         enforce_max_words(
-            "Relato empírico com tom humorístico de manutenção de software onde um jogador recorre ao Claude Code para reparar addons incompatíveis após um patch de World of Warcraft. Ancorando o modelo em notas oficiais e logs de erro, o utilizador demonstra o potencial de copilotos na cocriação e sustentabilidade de código comunitário.",
-            60
+            "Relato de sucesso empírico no qual um programador comunitário de World of Warcraft documenta a utilização da ferramenta de IA generativa Claude Code para atualizar e restaurar o funcionamento de um addon complexo de interface danificado por alterações recentes de patch. O autor detalha o fluxo iterativo de colaboração simétrica com o agente: fornecimento do anúncio técnico oficial da Blizzard (blue post), diagnóstico de regressões no código Lua e aplicação guiada de correções lógicas. Trata-se de uma demonstração explícita de cocriação efetiva de valor (VC1) e vibe-coding assistido de alta eficácia, ilustrando como copilotos de IA democratizam a manutenção de software comunitário e reduzem o tempo de reparação de ferramentas vitais para a experiência lúdica.",
+            150
         ),
         "Cluster 5: Copilotos de Desenvolvimento, Addons e Vibe-Coding",
         "Cocriação Efetiva (VC1)",
         "5",
-        "Resumo fiel de 51 palavras: sintetiza o caso de vibe-coding bem-sucedido na reparação e sobrevivência de software comunitário."
+        "Resumo fiel de 115 palavras: detalha o ciclo iterativo com Claude Code, superação de quebras de API pós-patch e cocriação de valor."
     ]
 ]
 render_table(ws3, 1, h_ex_t, d_ex_t, {1: alignment_center, 2: alignment_center, 6: alignment_wrap, 7: alignment_center, 8: alignment_center})
@@ -515,7 +518,7 @@ ws3.column_dimensions["A"].width = 16
 ws3.column_dimensions["B"].width = 16
 ws3.column_dimensions["C"].width = 38
 ws3.column_dimensions["D"].width = 42
-ws3.column_dimensions["E"].width = 65
+ws3.column_dimensions["E"].width = 75
 ws3.column_dimensions["F"].width = 35
 ws3.column_dimensions["G"].width = 24
 ws3.column_dimensions["H"].width = 22
@@ -542,7 +545,7 @@ for p in sample_posts:
         p["game"],
         p["title"],
         p["text"],
-        enforce_max_words(p["resumo_ia"], 60), # Novo resumo contextualizado fiel <= 60 palavras
+        enforce_max_words(p["resumo_ia"], 60), # Resumo do post conciso <= 60 palavras
         p["url"],
         "", "", "", "",
         "", "", "", "",
@@ -565,7 +568,7 @@ for col_l in ["G", "H", "I", "J", "K", "L", "M", "N", "O"]:
     ws4.column_dimensions[col_l].width = 24
 
 # ==========================================
-# FOLHA 5: TRACK_B_TOPICOS (15 TOPICOS COM NOVOS RESUMOS <= 60 PALAVRAS)
+# FOLHA 5: TRACK_B_TOPICOS (15 TOPICOS COM RESUMOS DETALHADOS <= 150 PALAVRAS)
 # ==========================================
 ws5 = wb.create_sheet(title="Track_B_Topicos")
 ws5.views.sheetView[0].showGridLines = True
@@ -585,7 +588,7 @@ for t in sample_threads:
         t["game"],
         t["title"],
         t["url"],
-        enforce_max_words(t["summary"], 60), # Novo resumo do tópico <= 60 palavras
+        enforce_max_words(t["summary"], 150), # Resumo do tópico aprofundado <= 150 palavras
         "", "", "",
         "", "", "",
         ""
@@ -601,10 +604,10 @@ ws5.column_dimensions["A"].width = 16
 ws5.column_dimensions["B"].width = 16
 ws5.column_dimensions["C"].width = 38
 ws5.column_dimensions["D"].width = 42
-ws5.column_dimensions["E"].width = 70
+ws5.column_dimensions["E"].width = 80
 for col_l in ["F", "G", "H", "I", "J", "K", "L"]:
     ws5.column_dimensions[col_l].width = 26
 
 output_path = "output/Protocolo_Auditoria_Humana_Formatado.xlsx"
 wb.save(output_path)
-print("Ficheiro gerado com SUCESSO com novos resumos estritamente <= 60 palavras em:", output_path)
+print("Ficheiro gerado com SUCESSO com resumos aprofundados (Track B <= 150 palavras, Track A <= 60 palavras) em:", output_path)
