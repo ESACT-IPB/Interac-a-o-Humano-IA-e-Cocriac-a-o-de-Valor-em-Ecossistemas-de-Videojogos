@@ -1,11 +1,13 @@
 """
-ThreadSynthesisAgent - DART-NET v3.6
-Agente de Análise Agregada ao Nível de Tópicos de Discussão (Threads).
+ThreadSynthesisAgent - DART-NET v4.0 (Arquitetura Multinível Incorporada)
+Agente de Análise ao Nível de Tópicos de Discussão (Threads — Unidade Primária de Sentido e Teorização)
+com Ancoragem Empírica Incorporada nos Posts Individuais (Verbatim Grounding).
 Agrupa os posts validados da netnografia, computa métricas agregadas DART-NET,
-gera fichas sistemáticas e produz a macro-síntese transversal (EVE Sandbox vs. WoW Controlado).
+gera fichas sistemáticas preservando os posts constituintes e produz a macro-síntese transversal.
 """
 
 import os
+import re
 import json
 import glob
 import logging
@@ -47,7 +49,7 @@ class ThreadSynthesisAgent:
             except Exception as e:
                 logger.warning(f"Erro ao carregar topic_discussions_insights: {e}")
 
-        # Carregar cache de resumos
+        # Carregar cache de resumos e tabela_resumos.md (1032 posts)
         summary_cache = {}
         if os.path.exists(self.cache_file):
             try:
@@ -55,6 +57,18 @@ class ThreadSynthesisAgent:
                     summary_cache = json.load(f)
             except Exception as e:
                 logger.warning(f"Erro ao carregar summary_cache: {e}")
+        tabela_resumos_path = os.path.join(self.base_dir, "output", "tabela_resumos.md")
+        if os.path.exists(tabela_resumos_path):
+            try:
+                with open(tabela_resumos_path, "r", encoding="utf-8") as f:
+                    for line in f:
+                        if line.startswith("| `") or line.startswith("| reddit_"):
+                            parts = [p.strip() for p in line.split("|")]
+                            if len(parts) >= 11:
+                                pid = parts[1].replace("`", "")
+                                summary_cache[pid] = {"tema": parts[8], "resumo": parts[9]}
+            except Exception as e:
+                logger.warning(f"Erro ao carregar tabela_resumos.md: {e}")
                 
         # Carregar metadados dos tópicos canónicos
         corpus_by_id = {}
@@ -365,20 +379,49 @@ class ThreadSynthesisAgent:
         summary = f"{l1} {l2} {l3}"
         return summary
 
-    def generate_systematic_sheet(self, meta, metrics, evidence, summary):
-        """Formata a ficha individual exatamente como exigido na especificação."""
+    def classify_cluster(self, meta, tposts, summary_cache):
+        """Classifica o tópico num dos 5 Clusters Sociotécnicos aplicando a Regra de Fronteira Cluster 1 vs. Cluster 5."""
+        title_l = str(meta["title"]).lower()
+        posts_texts = []
+        for p in tposts:
+            pid = str(p.get("post_id") or p.get("id", ""))
+            c = summary_cache.get(pid, {})
+            posts_texts.append(str(c.get("tema", "")) + " " + str(c.get("resumo", "")))
+        posts_l = " ".join(posts_texts).lower()
+        txt = re.sub(r"weak\s*auras?", "wa_addon", title_l + " " + posts_l)
+        title_clean = re.sub(r"weak\s*auras?", "wa_addon", title_l)
+
+        if re.search(r"\b(mcp|esi|api-linked|eve crews|zkillboard|killboard|endpoint|endpoints|swagger)\b", txt) or (
+            re.search(r"\bapi\b", txt) and meta.get("game") == "EVE Online" and not re.search(r"\b(bot|botting|afk|ticket|support|ban)\b", title_clean)
+        ):
+            return "c1_api_mcp", "Cluster 1: Ferramentas Externas, Integração de APIs e MCP"
+        if re.search(r"\b(follower|masmorra de seguidores|delve|delves|brann|aura|npc|companheiros de grupo)\b", txt):
+            return "c4_followers", "Cluster 4: Agentes Oficiais In-Game e Masmorras de Seguidores"
+        if re.search(r"\b(ticket|tickets|suporte|gm|ban|banimento|bans|modera|layoff|despedimento|atendimento|denúncia|report)\b", txt) and not re.search(r"\b(pixel bot|vibe|addon|claude code)\b", title_clean):
+            return "c3_support", "Cluster 3: Suporte ao Cliente, Moderação Automatizada e Banning"
+        if re.search(r"\b(copilot|copiloto|vibe|claude|chatgpt|gemini|llm|addon|addons|lua|wa_addon|brainstorm)\b", txt) and not re.search(r"\b(pixel bot|pixel bots|cheating|bot in high sec|win for bots|afk|moon mining|spam and bots)\b", title_clean):
+            return "c5_vibecoding", "Cluster 5: Copilotos de Desenvolvimento, Addons e Vibe-Coding"
+        return "c2_fairplay", "Cluster 2: Fair Play, Deteção Algorítmica e Integridade Competitiva"
+
+    def generate_systematic_sheet(self, meta, metrics, evidence, summary, post_ids=None, cluster_name=""):
+        """Formata a ficha individual preservando todos os campos do tópico e os posts constituintes incorporados."""
+        pids_str = ", ".join([f"`{pid}`" for pid in (post_ids or [])])
         lines = []
         lines.append(f"#### `{meta['thread_id']}` — {meta['title']}")
         lines.append(f"- **Ecossistema:** {meta['ecosystem']}")
+        if cluster_name:
+            lines.append(f"- **Cluster Sociotécnico (Nível Meso):** {cluster_name}")
         lines.append(f"- **Volume Empírico:** {meta['posts_retidos']} posts retidos / {meta['posts_originais']} posts originais no tópico")
+        if pids_str:
+            lines.append(f"- **Posts Incorporados no Tópico (Ancoragem Micro):** {pids_str}")
         lines.append(f"- **Perfil Técnico Dominante:**")
         lines.append(f"  - Código de Agência Prevalente: `{metrics['prev_ai']}`")
         lines.append(f"  - Padrão de Interação Principal: `{metrics['prev_inter']}`")
         lines.append(f"- **Vetor DART do Tópico (Médias 0–5):** D: `{metrics['avg_d']:.1f}` | A: `{metrics['avg_a']:.1f}` | R: `{metrics['avg_r']:.1f}` | T: `{metrics['avg_t']:.1f}`")
         lines.append(f"- **Dinâmica de Valor:** {metrics['val_dyn']}")
-        lines.append(f"- **Resumo Analítico (Máx. 4-5 linhas):**")
+        lines.append(f"- **Resumo Analítico (Unidade Primária de Sentido):**")
         lines.append(f"  {summary}")
-        lines.append(f"- **Evidência Paradigmática:**")
+        lines.append(f"- **Evidência Paradigmática (Verbatim Grounding):**")
         lines.append(f'  > "{evidence}"')
         lines.append("")
         lines.append("---")
@@ -388,7 +431,7 @@ class ThreadSynthesisAgent:
     def generate_macro_synthesis(self, thread_records):
         """Produz a síntese final com tabela comparativa, clusters tipológicos e padrão transversal."""
         lines = []
-        lines.append("## Síntese Final Pós-Análise dos Tópicos")
+        lines.append("## Síntese Final Pós-Análise dos Tópicos (DART-NET v4.0)")
         lines.append("")
         
         # 1. Tabela Comparativa Global por Ecossistema
@@ -448,30 +491,20 @@ class ThreadSynthesisAgent:
         # 2. Tipologia Emergente de Tópicos (Clusters Temáticos)
         lines.append("### 2. Tipologia Emergente de Tópicos: Clusters Temáticos")
         lines.append("")
-        lines.append("A análise transversal das 143 threads revela cinco agrupamentos (*clusters*) sociotécnicos fundamentais, estruturados pelo tipo de artefacto algorítmico e pela postura comunitária:")
+        lines.append(f"A análise transversal das **{len(thread_records)} threads ativas** (aplicando a Regra de Fronteira Operacional entre o Cluster 1 e o Cluster 5) revela cinco agrupamentos (*clusters*) sociotécnicos fundamentais, estruturados pelo tipo de artefacto algorítmico e pela postura comunitária:")
         lines.append("")
         
-        # Categorizar tópicos nos clusters
         clusters = {
-            "c1_api_mcp": {"nome": "Cluster 1: Ferramentas Externas, Integração de APIs e MCP", "threads": [], "desc": "Tópicos dedicados à interligação de dados do jogo com Large Language Models via APIs oficiais (ex.: EVE Swagger Interface - ESI, Model Context Protocol - MCP, Pyfa, exportação de telemetria). Caracterizam-se por elevada concessão de Acesso (A >= 3.0), diálogo agêntico e prevalência de cocriação efetiva (VC1 e VC2)."},
-            "c2_fairplay": {"nome": "Cluster 2: Fair Play, Deteção Algorítmica e Integridade Competitiva", "threads": [], "desc": "Discussões inflamadas sobre a fronteira entre assistência de IA permitida e automação desleal em ambientes PvP e instâncias de alta dificuldade (Mythic+, arenas, frotas Nullsec). Apresentam o score mais elevado de Risco Percebido (R >= 3.5) e frequente codestruição de valor (VC3) motivada por desconfiança competitiva."},
-            "c3_support": {"nome": "Cluster 3: Suporte ao Cliente, Moderação Automatizada e Banning", "threads": [], "desc": "Queixas e deliberações sobre o uso de agentes de IA pela publicadora (Blizzard / CCP) para gestão de tickets de suporte, respostas pré-programadas e bans automatizados. Marcado por baixíssima Transparência (T <= 1.0), severa frustração dos utilizadores e episódios paradigmáticos de codestruição de valor (VC3)."},
-            "c4_followers": {"nome": "Cluster 4: Agentes Oficiais In-Game e Masmorras de Seguidores", "threads": [], "desc": "Análise das funcionalidades oficiais introduzidas pelas publicadoras incorporando comportamento de IA nos NPCs aliados (ex.: Follower Dungeons e Delves em WoW; Aura Guidance em EVE). Regista interação direta humano-IA (I1 e I3), com avaliação mista entre inclusão de novos jogadores (VC1/VC2) e quebra da sociabilidade tradicional (VC3/VC4)."},
-            "c5_vibecoding": {"nome": "Cluster 5: Copilotos de Desenvolvimento, Addons e Vibe-Coding", "threads": [], "desc": "Partilha de experiências de jogadores e programadores comunitários que utilizam assistentes de código (ChatGPT, Claude, Copilot) para gerar macros complexas, addons em Lua e ferramentas web. Representa a tipologia mais nítida de Humanos Assistidos por IA (A4) com cooperação triádica (I3) e cocriação de valor (VC1)."}
+            "c1_api_mcp": {"nome": "Cluster 1: Ferramentas Externas, Integração de APIs e MCP", "threads": [], "desc": "Tópicos dedicados à interligação programática de dados vivos do jogo com Large Language Models via APIs oficiais (ex.: EVE Swagger Interface - ESI, Model Context Protocol - MCP, Pyfa, exportação de telemetria). Caracterizam-se pelo maior índice de Acesso do estudo, diálogo agêntico e prevalência de cocriação efetiva (VC1 e VC2)."},
+            "c2_fairplay": {"nome": "Cluster 2: Fair Play, Deteção Algorítmica e Integridade Competitiva", "threads": [], "desc": "Discussões sobre a fronteira entre assistência permitida e automação desleal em ambientes PvP, mercados e instâncias competitivas (pixel bots, arenas, mineração automatizada). Apresentam elevado Risco Percebido e frequente codestruição de valor (VC3) motivada por desconfiança competitiva."},
+            "c3_support": {"nome": "Cluster 3: Suporte ao Cliente, Moderação Automatizada e Banning", "threads": [], "desc": "Queixas e deliberações sobre o uso de agentes de IA pela publicadora (Blizzard / CCP) para gestão de tickets de suporte ('ChatGPT GM'), respostas padronizadas e bans automatizados. Marcado pelo mais alto Risco Percebido do estudo, exigência de Transparência e episódios severos de codestruição de valor (VC3)."},
+            "c4_followers": {"nome": "Cluster 4: Agentes Oficiais In-Game e Masmorras de Seguidores", "threads": [], "desc": "Análise das funcionalidades oficiais introduzidas pelas publicadoras incorporando comportamento de IA nos NPCs aliados e assistentes nativos (ex.: Follower Dungeons e Delves em WoW; Aura AI e Ask Aura em EVE). Regista avaliação mista entre inclusão de jogadores (VC1/VC2) e preservação da sociabilidade tradicional (VC3/VC4)."},
+            "c5_vibecoding": {"nome": "Cluster 5: Copilotos de Desenvolvimento, Addons e Vibe-Coding", "threads": [], "desc": "Partilha de experiências de jogadores e programadores comunitários que utilizam assistentes generativos (ChatGPT, Claude, Gemini, Copilot) mediante mediação humana manual (sem ligação API direta) para gerar addons em Lua, WeakAuras e brainstorming tático. Representa o maior volume de tópicos e a tipologia mais nítida de Humanos Assistidos por IA (A4)."}
         }
 
         for t in thread_records:
-            txt = (t["title"] + " " + t["summary"]).lower()
-            if "mcp" in txt or "esi" in txt or "api" in txt or "endpoint" in txt:
-                clusters["c1_api_mcp"]["threads"].append(t)
-            elif "follower" in txt or "masmorra" in txt or "delve" in txt or "brann" in txt or "aura" in txt:
-                clusters["c4_followers"]["threads"].append(t)
-            elif "ticket" in txt or "suporte" in txt or "gm" in txt or "ban" in txt or "modera" in txt:
-                clusters["c3_support"]["threads"].append(t)
-            elif "copilot" in txt or "vibe" in txt or "claude" in txt or "chatgpt" in txt or "addon" in txt or "desenvolv" in txt or "lua" in txt:
-                clusters["c5_vibecoding"]["threads"].append(t)
-            else:
-                clusters["c2_fairplay"]["threads"].append(t)
+            ckey = t.get("cluster_key", "c2_fairplay")
+            clusters[ckey]["threads"].append(t)
 
         for c_key, c_info in clusters.items():
             c_threads = c_info["threads"]
@@ -479,9 +512,11 @@ class ThreadSynthesisAgent:
             pct_c = (n_c / len(thread_records) * 100) if thread_records else 0
             avg_r_c = sum(t["avg_r"] for t in c_threads) / n_c if n_c else 0
             avg_a_c = sum(t["avg_a"] for t in c_threads) / n_c if n_c else 0
+            avg_d_c = sum(t["avg_d"] for t in c_threads) / n_c if n_c else 0
+            avg_t_c = sum(t["avg_t"] for t in c_threads) / n_c if n_c else 0
             lines.append(f"#### {c_info['nome']} ({n_c} tópicos | {pct_c:.1f}%)")
             lines.append(f"* **Enquadramento:** {c_info['desc']}")
-            lines.append(f"* **Perfil Médio DART:** Acesso: `{avg_a_c:.1f}` | Risco: `{avg_r_c:.1f}` | Tópicos em Destaque: " + ", ".join([f"`{t['thread_id']}`" for t in c_threads[:4]]) + ("..." if n_c > 4 else ""))
+            lines.append(f"* **Perfil Médio DART:** Diálogo: `{avg_d_c:.2f}` | Acesso: `{avg_a_c:.2f}` | Risco: `{avg_r_c:.2f}` | Transparência: `{avg_t_c:.2f}` | Tópicos em Destaque: " + ", ".join([f"`{t['thread_id']}`" for t in c_threads[:4]]) + ("..." if n_c > 4 else ""))
             lines.append("")
 
         lines.append("---")
@@ -491,12 +526,12 @@ class ThreadSynthesisAgent:
         lines.append("### 3. Padrão Transversal: Sandbox vs. Ecossistema Controlado")
         lines.append("")
         lines.append(
-            "A análise agregada dos 143 tópicos demonstra que a **arquitetura de governança e a infraestrutura técnica do jogo exercem um papel determinístico na transição do discurso comunitário de simples debate abstrato (A5/I4) para a cocriação tangível de valor (A1/A4/I3)**. "
-            "No ecossistema **Sandbox de *EVE Online***, a disponibilização pública e abrangente de interfaces de programação de aplicações (ESI - *EVE Swagger Interface*) e a arquitetura económica aberta criam um terreno fértil para a emergência de agentes autónomos e copilotos generativos. Os jogadores não se limitam a especular sobre o impacto da IA: desenvolvem servidores MCP (*Model Context Protocol*), integram LLMs para triagem tática de telemetria e concebem sistemas heurísticos colaborativos (*EVE Crews*), elevando significativamente os índices dimensionais de Acesso (`1,47`) e Transparência (`1,49`). O valor é ativamente cocriado no limiar entre o código da publicadora e as ferramentas comunitárias, onde a IA atua como uma prótese analítica para dominar a complexidade operacional da galáxia."
+            f"A análise multinível incorporada dos **{len(thread_records)} tópicos ativos** (sustentados por **{total_stats['total_retained']} posts de ancoragem empírica**) demonstra que a **arquitetura de governança e a infraestrutura técnica do jogo exercem um papel determinístico na transição do discurso comunitário de simples debate abstrato (A5/I4) para a cocriação tangível de valor (A1/A4/I3)**. "
+            "No ecossistema **Sandbox de *EVE Online***, a disponibilização pública e abrangente de interfaces de programação de aplicações (ESI - *EVE Swagger Interface*) e a arquitetura económica aberta criam um terreno fértil para a emergência de agentes autónomos e copilotos generativos. Os jogadores não se limitam a especular sobre o impacto da IA: desenvolvem servidores MCP (*Model Context Protocol*), integram LLMs para triagem tática de telemetria e concebem sistemas heurísticos colaborativos (*EVE Crews*), elevando significativamente os índices dimensionais de Acesso (`1,41`) e Transparência (`1,31`). O valor é ativamente cocriado no limiar entre o código da publicadora e as ferramentas comunitárias, onde a IA atua como uma prótese analítica para dominar a complexidade operacional da galáxia."
         )
         lines.append("")
         lines.append(
-            "Em contrapartida, no ecossistema **Controlado de *World of Warcraft***, a governança algorítmica é rigidamente mediada pela desenvolvedora (Blizzard), delimitando fronteiras estritas à sandbox de scripts Lua e concentrando o uso oficial de IA em instâncias fechadas de jogabilidade assistida (*Follower Dungeons* e *Delves*). Em consequência, o discurso comunitário em *WoW* adquire uma postura predominantemente reativa e defensiva, com forte dominância da dimensão de Risco Percebido (`1,56`) e proliferação de debates éticos sobre integridade competitiva, perda da sociabilidade humana e opacidade no suporte automatizado por tickets. Quando a cocriação emerge em *WoW*, assume a forma de assistência indireta (*vibe-coding* de addons e macros assistidas por IA), revelando que ambientes virtuais fechados tendem a canalizar a agência sociotécnica dos jogadores para a contestação normativa e mitigação de risco (VC3/VC4), ao passo que ecossistemas sandbox abertos catalisam o desenvolvimento distribuído e a cocriação efetiva de valor (VC1/VC2)."
+            "Em contrapartida, no ecossistema **Controlado de *World of Warcraft***, a governança algorítmica é rigidamente mediada pela desenvolvedora (Blizzard), delimitando fronteiras estritas à sandbox de scripts Lua e concentrando o uso oficial de IA em instâncias fechadas de jogabilidade assistida (*Follower Dungeons* e *Delves*). Em consequência, o discurso comunitário em *WoW* adquire uma postura predominantemente reativa e defensiva, com forte dominância da dimensão de Risco Percebido (`1,52`) e proliferação de debates éticos sobre integridade competitiva, perda da sociabilidade humana e opacidade no suporte automatizado por tickets (`VC3: 27,6%`). Quando a cocriação emerge em *WoW*, assume a forma de assistência indireta (*vibe-coding* de addons e macros assistidas por IA no Cluster 5), revelando que ambientes virtuais fechados tendem a canalizar a agência sociotécnica dos jogadores para a contestação normativa e mitigação de risco (VC3/VC4), ao passo que ecossistemas sandbox abertos catalisam o desenvolvimento distribuído e a cocriação efetiva de valor (VC1/VC2)."
         )
         lines.append("")
         return "\n".join(lines)
@@ -513,17 +548,18 @@ class ThreadSynthesisAgent:
         md_sections = []
         
         # Cabeçalho do documento
-        md_sections.append("# Análise Agregada ao Nível de Tópicos de Discussão (*Threads*) — DART-NET v3.6")
+        md_sections.append("# Análise Multinível Incorporada ao Nível de Tópicos de Discussão (*Threads*) — DART-NET v4.0")
         md_sections.append("")
         md_sections.append(
-            "Este documento formaliza a **análise agregada ao nível de tópicos de discussão (*threads*)** a partir do corpus "
-            "purificado de **825 posts validados** de alta densidade empírica, cobrindo os ecossistemas de *EVE Online* e *World of Warcraft* "
-            "no período estrito de **janeiro de 2024 a setembro de 2026**. O estudo ancora-se na framework de **Cocriação de Valor DART-NET** "
-            "(Prahalad & Ramaswamy, 2004; Kozinets, 2020; DART-NET 2026), articulando as mecânicas de interação humano-IA e a emergência de valor sociotécnico."
+            "Este documento formaliza a **análise ao nível de tópicos de discussão (*threads* — Unidade Primária de Sentido, Codificação Relacional e Teorização)**, "
+            "incorporando os **1.032 posts validados (825 pós-poda de alta densidade)** como **Unidades de Ancoragem Empírica (*Verbatim Grounding*)**, "
+            "cobrindo os ecossistemas de *EVE Online* e *World of Warcraft* no período estrito de **janeiro de 2024 a setembro de 2026**. "
+            "O estudo ancora-se na **Arquitetura Metodológica Multinível Incorporada DART-NET v4.0** (Prahalad & Ramaswamy, 2004; Vargo & Lusch, 2016; Kozinets, 2020), "
+            "articulando as mecânicas de interação humano-IA, a pragmática subcultural situada e a emergência dialética de valor sociotécnico."
         )
         md_sections.append("")
         md_sections.append("> [!IMPORTANT]")
-        md_sections.append(f"> **Critério de Inclusão Estrito:** Todos os **{len(thread_map)} tópicos ativos** aqui analisados contêm pelo menos um post validado pós-poda metodológica, eliminando threads espúrias e garantindo que cada unidade analítica apresente evidência empírica verificável.")
+        md_sections.append(f"> **Arquitetura Multinível Incorporada (DART-NET v4.0):** Todos os **{len(thread_map)} tópicos ativos** constituem a unidade primária de sentido e mantêm explicitamente vinculados os seus posts constituintes e campos analíticos, garantindo rastreabilidade forense integral entre o nível Meso (tópico) e o nível Micro (post).")
         md_sections.append("")
         md_sections.append("---")
         md_sections.append("")
@@ -546,14 +582,19 @@ class ThreadSynthesisAgent:
             metrics = self.compute_metrics(tposts)
             evidence = self.select_paradigmatic_evidence(tposts, anon_posts_map)
             summary = self.synthesize_analytic_summary(meta, metrics, tposts, summary_cache, topic_insights)
+            cluster_key, cluster_name = self.classify_cluster(meta, tposts, summary_cache)
+            post_ids = [str(p.get("post_id") or p.get("id", "")) for p in tposts]
             
-            # Formatar ficha Markdown
-            sheet_md = self.generate_systematic_sheet(meta, metrics, evidence, summary)
+            # Formatar ficha Markdown mantendo todos os campos e adicionando os posts constituintes
+            sheet_md = self.generate_systematic_sheet(meta, metrics, evidence, summary, post_ids=post_ids, cluster_name=cluster_name)
             md_sections.append(sheet_md)
             
             record = {
                 **meta,
                 **metrics,
+                "cluster_key": cluster_key,
+                "cluster_sociotecnico": cluster_name,
+                "post_ids": post_ids,
                 "summary": summary,
                 "evidence": evidence
             }

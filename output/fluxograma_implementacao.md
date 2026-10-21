@@ -1,7 +1,7 @@
-# Fluxograma da Pipeline Netnográfica DART-NET v3.0
+# Fluxograma da Pipeline Netnográfica DART-NET v4.0 (Arquitetura Multinível Incorporada)
 ## Interação Humano-IA e Cocriação de Valor em Ecossistemas de Videojogos
 
-Este documento apresenta o fluxograma metodológico e arquitetural completo da pipeline multiagente de análise netnográfica baseada no Framework **DART-NET** (Prahalad & Ramaswamy, 2004; DART-NET 2026), integrando desde a extração de dados brutos pós-2024 até à validação inter-codificadores via Kappa de Cohen.
+Este documento apresenta o fluxograma metodológico e arquitetural completo da pipeline multiagente de análise netnográfica baseada na **Arquitetura Metodológica Multinível Incorporada DART-NET v4.0** (Prahalad & Ramaswamy, 2004; Vargo & Lusch, 2016; Kozinets, 2020; DART-NET 2026), na qual o **Tópico de Discussão ($N=152$)** opera como **Unidade Primária de Sentido, Codificação Relacional e Teorização**, e o **Post Individual ($N=825$ refinados / $1.032$ totais)** é preservado como **Unidade Incorporada de Ancoragem Empírica (*Verbatim Grounding*)**, culminando na **Auditoria Humana de Alto Nível (Track B)** e na validação Micro (Track A).
 
 ---
 
@@ -129,23 +129,24 @@ flowchart TD
     end
 
     %% CAMADA 3: Validação Metodológica Externa
-    subgraph FASE6 ["Camada 3: Validação Humana e Reprodutibilidade (HUMAN VALIDATION)"]
+    subgraph FASE6 ["Camada 3: Auditoria Humana Multinível Incorporada (DART-NET v4.0)"]
         NETNO_REFINED --> HUMAN_QUEUE["Fila de Validação Humana Prioritária<br/>(Posts com '⚠️ Sim' em Rev. Humana)"]:::validation
         
         NETNO_REFINED --> KAPPA_SAMPLE["Protocolo de Auditoria Humana<br/>(Protocolo_Auditoria_Humana_Formatado.xlsx)"]:::agent
-        KAPPA_SAMPLE --> CSV_HUMAN["Track A: 83 posts | Track B: 15 tópicos<br/>(Amostra estratificada por 5 clusters temáticos)"]:::validation
+        THREAD_JSON --> KAPPA_SAMPLE
+        KAPPA_SAMPLE --> CSV_HUMAN["Track B (Primária Meso): 15 tópicos + 104 posts constituintes<br/>Track A (Ancoragem Micro): 83 posts"]:::validation
         
-        HUMAN_CODING["Auditoria Cega por Investigadores Humanos<br/>(Roger/Gomide em Posts; JPaulo/Emmanoel em Tópicos)"]:::validation
+        HUMAN_CODING["Auditoria de Alto Nível (JPaulo/Emmanoel em Track B)<br/>& Auditoria Micro (Roger/Gomide em Track A)"]:::validation
         CSV_HUMAN --> HUMAN_CODING
         
-        HUMAN_CODING --> CALC_KAPPA["calculate_kappa.py<br/>(Cálculo do Coeficiente Kappa de Cohen)"]:::agent
-        CALC_KAPPA --> KAPPA_REPORT["relatorio_concordancia_kappa.md<br/>(Índice de Fiabilidade Científica)"]:::output
+        HUMAN_CODING --> CALC_KAPPA["Resultados Track B Concluídos:<br/>100% Acordo Valor (k=1,00) | 93,3% Cluster (k=0,916)<br/>Fidelidade: 4,93/5 | Pragmática: 5,00/5 | Grounding: 4,93/5"]:::agent
+        CALC_KAPPA --> KAPPA_REPORT["relatorio_netnografia.md (Secções 7.3 e 8.5)<br/>& Protocolo_Auditoria_Humana_Formatado.xlsx"]:::output
     end
 ```
 
 ---
 
-## Descrição das Fases da Pipeline DART-NET v3.0
+## Descrição das Fases da Pipeline DART-NET v4.0 (Arquitetura Multinível Incorporada)
 
 1. **Fase 1: Ingestão Canónica e Filtro Temporal Estrito (RAW DATA)**
    * **Agente:** `ScraperAgent`
@@ -158,12 +159,12 @@ flowchart TD
    * **Ação:** Triagem semântica de relevância suportada pelo modelo `deepseek-v4-flash` com léxico expandido (LLM, MCP, Copilot, etc.). Pseudonimização ética (`Player_0001` a `Player_1032`) e sanitização de dados privados (PII), preservando as 3 camadas metodológicas intactas (Secção 14).
    * **Saída:** `data/processed/anonymized_posts.json` (1.032 posts únicos estritamente pós-2024).
 
-3. **Fase 3: Codificação Qualitativa DART-NET e Parsing Guard (AI CODING)**
+3. **Fase 3: Codificação Qualitativa de Ancoragem Micro e Parsing Guard (AI CODING)**
    * **Agente:** `NetnographyAgent` com módulo integrado `Parsing Guard & Reprocessing`
    * **Mecanismo de Tolerância a Falhas:** Incorporação da camada de reparação estrutural de JSON (`extract_and_repair_json`), proteção contra estouro de contexto para posts volumosos (truncamento de segurança no prompt a $\le 8.000$ carateres, preservando o texto original no ficheiro final) e rotina automática de reprocessamento em ciclo fechado. Garantiu zero falhas sintáticas residuais (`0` erros remanescentes) e integridade de 100% dos 1.032 posts codificados.
    * **Saída:** `data/analysis/netnography_results_1032_unpruned.jsonl` (1.032 análises científicas brutas validadas).
 
-4. **Fase 3.5: Refinamento Epistémico e Poda Metodológica (NOVA ETAPA)**
+4. **Fase 3.5: Refinamento Epistémico e Poda Metodológica**
    * **Objetivo:** Purificação teórica do corpus para garantir que apenas dados com substância empírica de interação com IA e cocriação de valor integrem os modelos analíticos finais.
    * **Critérios de Exclusão Metodológica**:
      1. **Exclusão de Ruído Residual / Não-IA (A6 — 51 posts)**: Elimina mensagens espúrias ou falsos positivos sem qualquer relação com agentes de IA, evitando a distorção artificial das métricas de não-interação (`I6`) e não-valor (`VC4`).
@@ -178,24 +179,21 @@ flowchart TD
    * **Resultado:** **Score Médio de 91,31%** (apenas 8 casos com alertas estritos de confiança epistémica; zero alucinações).
    * **Saída:** `data/analysis/quality_audit_results.json`.
 
-6. **Fase 4.5: Síntese e Agregação ao Nível de Tópicos (NOVA ETAPA — DART-NET v3.6)**
-   * **Agente:** `ThreadSynthesisAgent`
-   * **Objetivo:** Elevar a unidade de análise da escala atómica de posts para a agregação ao nível de tópicos de discussão (*threads*), capturando a emergência coletiva de valor e as trajetórias discursivas completas.
-   * **Ação:** Agrupa os 825 posts validados nos seus **143 tópicos ativos de origem** (excluindo tópicos que ficaram com 0 posts pós-poda); computa médias dimensionais DART por tópico, identifica perfis prevalentes de IA (A1–A5) e interação (I1–I6), avalia a dinâmica de valor dominante (VC1–VC4), extrai citações paradigmáticas e redige resumos analíticos densos (4–5 linhas) focados na interação e no valor.
-   * **Macro-Síntese Transversal:** Produz tabela comparativa EVE Online (Sandbox) vs. World of Warcraft (Controlado), organiza 5 clusters tipológicos emergentes (APIs/MCP, Fair Play, Suporte, Companheiros IA, Vibe-Coding) e contrasta a influência da arquitetura do jogo na cocriação de valor.
-   * **Saída:** `output/analise_agregada_topicos.md` (143 fichas sistemáticas + macro-síntese) e `data/analysis/thread_level_results.json`.
+6. **Fase 4.5 & Fase 5: Análise de Tópicos como Unidade Primária de Sentido com Incorporação Micro (DART-NET v4.0)**
+   * **Agentes:** `TopicDiscussionAnalystAgent` e `ThreadSynthesisAgent`
+   * **Objetivo:** Operacionalizar a **Arquitetura Metodológica Multinível Incorporada**, estabelecendo o **Tópico de Discussão ($N=152$)** como Unidade Primária de Sentido e Teorização (superando a falácia da diluição atómica do valor: 48,7% de impacto ativo de valor nos tópicos vs. 22,8% nos posts isolados) e preservando todos os posts de cada tópico como **Unidade Incorporada de Ancoragem Empírica (*Verbatim Grounding*)**.
+   * **Ação:** Analisa integralmente as **152 discussões ativas** (65 em *EVE Online* e 87 em *World of Warcraft*), extrai insights qualitativos e enquadramentos retóricos (sátira/ironia), preserva os `post_ids` constituintes em cada ficha de tópico e calibra os 5 Clusters Sociotécnicos aplicando a Regra de Fronteira Operacional entre o Cluster 1 (`22 tópicos | 14,5%`) e o Cluster 5 (`51 tópicos | 33,6%`).
+   * **Saída:** `output/resumos_discussoes_topicos.md`, `data/analysis/topic_discussions_insights.json`, `output/analise_agregada_topicos.md` (152 fichas sistemáticas com posts incorporados + macro-síntese) e `data/analysis/thread_level_results.json`.
 
-7. **Fase 5: Síntese e Entregáveis Finais**
+7. **Fase 6: Síntese, Confrontação Post-Tópico e Entregáveis Finais**
    * **Agentes:** `SynthesisAgent` e `SummaryTableGenerator`
    * **Entregáveis:**
-     * `output/relatorio_netnografia.md`: Relatório académico formal de 8 secções em português de Portugal, fundamentando as respostas às 3 Macro-Questões de Investigação (QI1 a QI3 e subquestões a/b) no corpus refinado de 825 posts.
-     * `output/tabela_resumos.md`: Matriz com os 825 registos refinados (DART scores, Tipos IA, Interação, Valor, resumos $\le$ 50 palavras, temas $\le$ 8 palavras, links diretos e flag de revisão humana).
-     * `output/lista_links.md` e `output/lista_links.txt`: Inventário canónico das 303 discussões catalogadas.
-     * `output/tabela_custos.md`: Auditoria financeira de ~27.000 chamadas de API com custo consolidado de **~$21,50 USD**.
+     * `output/relatorio_netnografia.md`: Relatório académico formal DART-NET v4.0 documentando a Arquitetura Multinível Incorporada, a regra de fronteira Cluster 1 vs. Cluster 5 e os resultados da Auditoria Humana de Alto Nível (Track B).
+     * `output/tabela_resumos.md`: Matriz com os 1.032 registos completos confrontados com o contexto dos seus tópicos (238 posts demarcados com `[Sátira/Ironia]`/`[Humor/Piada]` e 383 com enquadramento retórico).
+     * `output/lista_links.md`, `output/lista_links.txt` e `output/tabela_custos.md`.
 
-8. **Fase 6: Validação Humana e Reprodutibilidade (HUMAN VALIDATION)**
-   * **Fila de Revisão Humana**: 708 posts (85,82% do corpus refinado) priorizados para validação humana através da flag `⚠️ Sim`.
-   * **Concordância Inter-Codificadores**: Amostra de validação para teste cego e cálculo estatístico do coeficiente Kappa de Cohen ($\kappa$).
-   * **Saída:** `output/relatorio_concordancia_kappa.md`.
+8. **Fase 7: Auditoria Humana de Alto Nível (Track B) e Validação Multinível Incorporada**
+   * **Livro Integrado (`output/Protocolo_Auditoria_Humana_Formatado.xlsx`)**: Mantém todos os campos analisados dos 15 tópicos da `Track_B_Topicos` (com resumos detalhados $\le 150$ palavras), preserva todos os seus **104 posts constituintes** na folha dedicada `Posts_Topicos_Track_B` (com resumos $\le 60$ palavras e texto *verbatim*), mantém os **83 posts** da `Track_A_Posts` e introduz novos parâmetros metodológicos (`Adequação DART/Agência`, `Fidelidade Pragmática/Retórica`, `Ancoragem Verbatim Micro-Meso` e `Resolução da Diluição Atómica`).
+   * **Resultados da Auditoria de Alto Nível (Track B)**: **100,0% de acordo** na Trajetória de Valor ($\kappa = 1,00$), **93,3% de acordo** no Cluster Sociotécnico ($\kappa = 0,916$), médias de excelência nas escalas de fidelidade (`4,93/5` em Síntese Global, `4,93/5` em Adequação DART, `5,00/5` em Fidelidade Pragmática e `4,93/5` em Ancoragem Verbatim), 6 reclassificações de falsos positivos heurísticos e resolução da diluição atómica em 46,7% dos tópicos auditados.
 
 
