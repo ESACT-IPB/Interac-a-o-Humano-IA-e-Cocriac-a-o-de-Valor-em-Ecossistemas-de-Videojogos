@@ -644,16 +644,16 @@ add_sec_header(ws1, "1. ARQUITETURA METODOLÓGICA MULTINÍVEL INCORPORADA E ATRI
 h_atrib = ["Nível / Investigador", "Função na Framework DART-NET v4.0", "Unidade Analítica e Amostra", "Parâmetros Auditados"]
 d_atrib = [
     [
-        "Nível Meso (Primário)\nProf. JPaulo & Prof. Emmanoel",
-        "Unidade Primária de Análise, Sentido, Codificação Relacional e Teorização (Track B — Auditoria de Alto Nível Concluída)",
-        "Tópico de Discussão Completo (N=152 no corpus; Amostra Estratificada Track B N=15 tópicos integrando 104 posts constituintes)",
+        "Nível Meso (Primário)\nProf. JPaulo & Prof. Emmanoel\n(Par 1 — Bloco Existente)",
+        "Unidade Primária de Análise, Sentido, Codificação Relacional e Teorização (Auditoria de Alto Nível)",
+        "Tópico de Discussão Completo (N=152 no corpus; Amostra Estratificada N=15 tópicos integrando 104 posts constituintes)",
         "Cluster Temático (1-5), Trajetória de Valor (VC1-VC4), Fidelidade de Síntese (1-5), Adequação DART/Agência (1-5), Fidelidade Pragmática/Retórica (1-5), Ancoragem Verbatim Micro-Meso (1-5) e Resolução da Diluição Atómica"
     ],
     [
-        "Nível Micro (Incorporado)\nProf. Roger & Prof. Gomide",
-        "Unidade Incorporada de Ancoragem Empírica (Verbatim Grounding) e Controlo Anti-Alucinação (Track A + Posts_Topicos_Track_B)",
-        "Post Individual Incorporado no Tópico (N=825 refinados de 1.032 totais; N=104 posts dos tópicos da Track B + Amostra Track A N=83 posts)",
-        "Vetor DART (0-5), Agência IA (A1-A6), Interação (I1-I6), Valor (VC1-VC4), Enquadramento Retórico Situado e Evidência Verbatim Forense"
+        "Nível Meso (Expansão)\nProf. Roger & Prof. Gomide\n(Par 2 — Expansão da Amostra)",
+        "Unidade Primária de Análise e Replicação Cruzada Independente (Auditoria de Alto Nível)",
+        "Tópico de Discussão Completo (Expansão de Amostra para ampliação da cobertura empírica com posts constituintes integrados)",
+        "Cluster Temático (1-5), Trajetória de Valor (VC1-VC4), Fidelidade de Síntese (1-5), Adequação DART/Agência (1-5), Fidelidade Pragmática/Retórica (1-5), Ancoragem Verbatim Micro-Meso (1-5) e Resolução da Diluição Atómica"
     ]
 ]
 r = render_table(ws1, 4, h_atrib, d_atrib, {1: alignment_center, 3: alignment_wrap})
@@ -862,54 +862,11 @@ ws3.column_dimensions["H"].width = 22
 ws3.column_dimensions["I"].width = 50
 
 # ==========================================
-# FOLHA 4: TRACK_A_POSTS (83 POSTS MANTIDOS INTEGRALMENTE)
+# FOLHA 4: TRACK_B_TOPICOS (AUDITORIA DE ALTO NÍVEL EXECUTADA + CAMPOS DOS TÓPICOS + NOVOS PARÂMETROS)
 # ==========================================
-ws4 = wb.create_sheet(title="Track_A_Posts")
+ws4 = wb.create_sheet(title="Track_B_Topicos")
 ws4.views.sheetView[0].showGridLines = True
-ws4.freeze_panes = "G2"
-
-headers_posts = [
-    "Post_ID", "Jogo", "Titulo_Topico", "Texto_Real_Verbatim", "Resumo_Analitico_IA", "Link_Acesso",
-    "Roger_DART (0-5)", "Roger_Agencia (A1-A6)", "Roger_Interacao (I1-I6)", "Roger_Valor (VC1-VC4)",
-    "Gomide_DART (0-5)", "Gomide_Agencia (A1-A6)", "Gomide_Interacao (I1-I6)", "Gomide_Valor (VC1-VC4)",
-    "Anotacoes_Discordancias"
-]
-
-data_posts = []
-for p in sample_posts:
-    data_posts.append([
-        p["post_id"],
-        p["game"],
-        p["title"],
-        p["text"],
-        enforce_max_words(p["resumo_ia"], 60),
-        p["url"],
-        "", "", "", "",
-        "", "", "", "",
-        ""
-    ])
-
-render_table(ws4, 1, headers_posts, data_posts, {
-    1: alignment_center, 2: alignment_center, 6: alignment_wrap,
-    7: alignment_center, 8: alignment_center, 9: alignment_center, 10: alignment_center,
-    11: alignment_center, 12: alignment_center, 13: alignment_center, 14: alignment_center
-})
-
-ws4.column_dimensions["A"].width = 18
-ws4.column_dimensions["B"].width = 16
-ws4.column_dimensions["C"].width = 32
-ws4.column_dimensions["D"].width = 65
-ws4.column_dimensions["E"].width = 55
-ws4.column_dimensions["F"].width = 42
-for col_l in ["G", "H", "I", "J", "K", "L", "M", "N", "O"]:
-    ws4.column_dimensions[col_l].width = 24
-
-# ==========================================
-# FOLHA 5: TRACK_B_TOPICOS (AUDITORIA DE ALTO NÍVEL EXECUTADA + CAMPOS DOS TÓPICOS + NOVOS PARÂMETROS)
-# ==========================================
-ws5 = wb.create_sheet(title="Track_B_Topicos")
-ws5.views.sheetView[0].showGridLines = True
-ws5.freeze_panes = "F2"
+ws4.freeze_panes = "F2"
 
 headers_threads = [
     "Topic_ID",
@@ -976,28 +933,28 @@ for t in sample_threads:
         aud.get("anotacoes", "")
     ])
 
-render_table(ws5, 1, headers_threads, data_threads, {
+render_table(ws4, 1, headers_threads, data_threads, {
     1: alignment_center, 2: alignment_center, 6: alignment_center, 9: alignment_center,
     15: alignment_center, 18: alignment_center, 21: alignment_center, 23: alignment_center,
     24: alignment_center, 25: alignment_center, 27: alignment_center
 })
 
-col_widths_ws5 = {
+col_widths_ws4 = {
     1: 16, 2: 18, 3: 38, 4: 42, 5: 75,
     6: 24, 7: 38, 8: 42, 9: 26, 10: 38, 11: 38, 12: 50,
     13: 38, 14: 36, 15: 22, 16: 38, 17: 32, 18: 22,
     19: 38, 20: 32, 21: 22, 22: 52, 23: 24, 24: 24,
     25: 24, 26: 55, 27: 38, 28: 65
 }
-for c_idx, width in col_widths_ws5.items():
-    ws5.column_dimensions[get_column_letter(c_idx)].width = width
+for c_idx, width in col_widths_ws4.items():
+    ws4.column_dimensions[get_column_letter(c_idx)].width = width
 
 # ==========================================
-# FOLHA 6: POSTS_TOPICOS_TRACK_B (104 POSTS CONSTITUINTES DOS 15 TÓPICOS ANALISADOS)
+# FOLHA 5: POSTS_TOPICOS_TRACK_B (104 POSTS CONSTITUINTES DOS 15 TÓPICOS ANALISADOS)
 # ==========================================
-ws6 = wb.create_sheet(title="Posts_Topicos_Track_B")
-ws6.views.sheetView[0].showGridLines = True
-ws6.freeze_panes = "E2"
+ws5 = wb.create_sheet(title="Posts_Topicos_Track_B")
+ws5.views.sheetView[0].showGridLines = True
+ws5.freeze_panes = "E2"
 
 headers_tb_posts = [
     "Topic_ID",
@@ -1035,17 +992,17 @@ for cp in constituent_posts_track_b:
         cp["link"]
     ])
 
-render_table(ws6, 1, headers_tb_posts, data_tb_posts, {
+render_table(ws5, 1, headers_tb_posts, data_tb_posts, {
     1: alignment_center, 2: alignment_center, 3: alignment_center,
     8: alignment_center, 9: alignment_center, 10: alignment_center, 11: alignment_center, 12: alignment_center
 })
 
-col_widths_ws6 = {
+col_widths_ws5 = {
     1: 16, 2: 20, 3: 18, 4: 34, 5: 65, 6: 36, 7: 55,
     8: 16, 9: 16, 10: 16, 11: 22, 12: 22, 13: 55, 14: 42
 }
-for c_idx, width in col_widths_ws6.items():
-    ws6.column_dimensions[get_column_letter(c_idx)].width = width
+for c_idx, width in col_widths_ws5.items():
+    ws5.column_dimensions[get_column_letter(c_idx)].width = width
 
 output_path = "output/Protocolo_Auditoria_Humana_Formatado.xlsx"
 wb.save(output_path)
