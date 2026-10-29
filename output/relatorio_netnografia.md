@@ -80,11 +80,16 @@ Por conseguinte, foi aplicado um **protocolo rigoroso de refinamento epistémico
 2. **Superação da "Falácia da Diluição Atómica do Valor" (Cocriação e Codestruição de Valor)**: Segundo Prahalad & Ramaswamy (2004), Vargo & Lusch (2016) e Plé & Chumpitaz Cáceres (2010), a cocriação (`VC1`/`VC2`) e a codestruição (`VC3`) de valor são **processos relacionais e temporais** que emergem na trajetória dialética (proposta ou queixa inicial $\rightarrow$ escrutínio técnico comunitário $\rightarrow$ iteração com o agente de IA $\rightarrow$ estabilização ou rutura). Quando o processo é fatiado em posts isolados, turnos intermédios de diagnóstico ou pergunta surgem artificialmente como "neutros" (`VC4`).
 3. **Pragmática Subcultural Situada e Descodificação de Sátira/Ironia (*Game Studies* e Netnografia)**: Comunidades de MMORPGs (*EVE Online* e *World of Warcraft*) operam com elevado capital subcultural (Consalvo, 2007; Kozinets, 2020), recorrendo sistematicamente a ironia, sarcasmo, *shitposting* e paródia corporativa. Fora do enquadramento completo do tópico, codificadores automatizados incorrem em alucinação literal; quando o post é confrontado com a totalidade do tópico, a intenção figurativa torna-se empiricamente transparente (permitindo demarcar com rigor **238 posts** com tags explícitas de `[Sátira/Ironia]` ou `[Humor/Piada]` e **383 posts** com enquadramento retórico contextualizado em `output/tabela_resumos.md`).
 
-A superioridade empírica de estabelecer o **Tópico ($N=152$)** como Unidade Primária de Sentido e manter o **Post ($N=825$ refinados / $1.032$ totais)** como Unidade Incorporada de Ancoragem (*Verbatim Grounding*) é comprovada pelos dados do próprio corpus:
+#### 1.7.1 Contribuição Metodológica Central: A Comparação Micro vs. Meso
 
-| Dimensão de Valor Sociotécnico | Nível Micro Isolado: Posts Individuais ($N=825$) | Nível Meso Completo: Tópicos de Discussão ($N=152$) | Efeito Epistemológico e Analítico (Micro $\rightarrow$ Meso) |
+A superioridade empírica e teórica de estabelecer o **Tópico de Discussão ($N=152$)** como **Unidade Primária de Sentido, Análise e Teorização** e manter o **Post Individual ($N=825$ refinados / $1.032$ totais)** como **Unidade Incorporada de Ancoragem Empírica (*Verbatim Grounding*) e Contraste Crítico** constitui **um dos principais achados teóricos e metodológicos deste estudo** sobre a avaliação de valor em ecossistemas digitais. 
+
+Como síntese crítica fundamental:
+> *"Se aplicássemos uma abordagem ingénua de NLP/LLM analisando os 825 posts isoladamente, obteríamos uma imagem artificialmente estéril (77,2% em VC4 e 3,2% em VC1). Ao integrá-los no nível meso do tópico conversacional ($N=152$), revelamos a verdadeira densidade de cocriação (48,7% de impacto ativo de valor)."*
+
+| Dimensão de Valor Sociotécnico | Nível Micro Isolado: Posts Individuais ($N=825$) *(Linha de Base Descritiva)* | Nível Meso Completo: Tópicos de Discussão ($N=152$) *(Unidade Primária de Sentido)* | Efeito Epistemológico e Teórico (Superação da Diluição Atómica) |
 | :--- | :---: | :---: | :--- |
-| **VC1 (Cocriação Efetiva de Valor)** | `3,2%` (26 posts) | **`12,5%` (19 tópicos)** | ** Multiplicação por $3,9\times$**: Captura o ciclo colaborativo completo (ex.: *EVE Crews* no tópico `510327`, onde 20 dos 41 posts pareciam `VC4` isoladamente). |
+| **VC1 (Cocriação Efetiva de Valor)** | `3,2%` (26 posts) | **`12,5%` (19 tópicos)** | **Multiplicação por $3,9\times$**: Captura o ciclo colaborativo completo (ex.: *EVE Crews* no tópico `510327`, onde 20 dos 41 posts pareciam `VC4` isoladamente). |
 | **VC2 (Potencial de Cocriação)** | `8,7%` (72 posts) | **`13,8%` (21 tópicos)** | **Aumento de $+58,6\%$**: Consolida propostas arquiteturais (*Ask Aura* `512367`, addons ML `reddit_1tvlpnw`) debatidas ao longo da *thread*. |
 | **VC3 (Codestruição de Valor)** | `10,9%` (90 posts) | **`22,4%` (34 tópicos)** | **Duplicação ($2,05\times$)**: Revela o contágio coletivo da perda de confiança institucional (*ChatGPT GM* `2152188`, *pixel bots* `2116712`). |
 | **Impacto Ativo de Valor ($\text{VC1}+\text{VC2}+\text{VC3}$)** | **`22,8%` (188 posts)** | **`48,7%` (74 tópicos)** | **Salto de $+25,9\text{ p.p.}$ ($2,14\times$)**: Elimina a falácia da diluição atómica, provando que quase metade das discussões gera transformação ativa de valor. |
@@ -92,20 +97,23 @@ A superioridade empírica de estabelecer o **Tópico ($N=152$)** como Unidade Pr
 
 Consequentemente, a **Framework Final DART-NET v4.0** estrutura-se em **três níveis analíticos incorporados** (preservando integralmente os posts de todos os tópicos e os respetivos campos analíticos):
 
-1. **Nível Meso — Unidade Primária de Análise, Sentido e Teorização (O Tópico de Discussão — $N=152$ discussões ativas)**: Constitui o centro gravitacional do estudo. É a este nível que se determinam a **Trajetória Relacional de Valor (`VC1–VC4`)**, o **Vetor DART Agregado ($D, A, R, T$)**, o **Enquadramento Sociotécnico nos 5 Clusters** (aplicando a regra de fronteira entre o Cluster 1 e o Cluster 5) e o **Registo Pragmático/Retórico** (deteção de sátira, ironia e humor via `TopicDiscussionAnalystAgent` e `ThreadSynthesisAgent`).
+1. **Nível Meso — Unidade Primária de Análise, Sentido e Teorização (O Tópico de Discussão — $N=152$ discussões ativas)**: Constitui o centro gravitacional do estudo e a base substantiva para responder às Questões de Investigação (QI1, QI2 e QI3). É a este nível que se determinam a **Trajetória Relacional de Valor (`VC1–VC4`)**, o **Vetor DART Agregado ($D, A, R, T$)**, o **Enquadramento Sociotécnico nos 5 Clusters** (aplicando a regra de fronteira entre o Cluster 1 e o Cluster 5) e o **Registo Pragmático/Retórico** (deteção de sátira, ironia e humor via `TopicDiscussionAnalystAgent` e `ThreadSynthesisAgent`).
 2. **Nível Micro Incorporado — Unidade de Ancoragem Empírica e Evidência Forense (Os Posts do Tópico — $N=825$ refinados / $1.032$ totais)**: Cada tópico mantém vinculados todos os seus posts constituintes e respetivos campos (`Post_ID`, `Texto_Real_Verbatim`, `Tema`, `Resumo <= 60 palavras`, `A1–A5`, `I1–I6`, `VC1–VC4`, `DART`). O post individual cumpre três funções indispensáveis:
-   * **Ancoragem Anti-Alucinação (*Verbatim Grounding*)**: Nenhuma inferência de nível Meso é aceite sem citação literal verificável nos posts constituintes;
+   * **Ancoragem Anti-Alucinação (*Verbatim Grounding*)**: Nenhuma inferência de nível Meso é aceite sem citação literal verificável nos posts constituintes (ex.: citações exatas de código, mensagens de erro e respostas de suporte);
    * **Granularidade de Agência e Interação**: Fornece as contagens de micro-atos comunicativos (`A1–A5` e `I1–I6`) e a dispersão intra-tópico (consenso vs. polarização);
-   * **Confrontação Bidirecional Post-Tópico**: O sentido pragmático de cada post é calibrado pelo contexto do tópico e, inversamente, os posts auditam a fidelidade factual do resumo do tópico.
+   * **Contraste Crítico e Auditoria Bidirecional Post-Tópico**: Permite confrontar a leitura atómica com a leitura holística, auditando a fidelidade factual do resumo do tópico.
 3. **Nível Macro — Unidade Comparativa de Governança (O Ecossistema — Sandbox vs. Controlado)**: Contrasta como a arquitetura institucional aberta de *EVE Online* (API ESI, servidores MCP) versus a arquitetura regulada de *World of Warcraft* (sandbox Lua restrita, instâncias nativas fechadas) condiciona a emergência de valor sociotécnico.
 
 ---
 
 ## 2. Taxonomia de Agentes de IA e Interações
 
+> **Nota Metodológica de Enquadramento (Abordagem Multinível Incorporada)**:  
+> As contagens e frequências apresentadas nesta secção e na Secção 3 ($N=825$ posts) representam a **camada micro-empírica atomizada**, funcionando como um inventário descritivo dos turnos comunicativos e linha de base granular. Em estrito cumprimento da metodologia DART-NET v4.0, estes números **não devem ser interpretados como conclusões substantivas isoladas sobre o valor do ecossistema**, mas sim como a matéria-prima empírica cuja significação teórica plena se consolida ao nível dos **152 tópicos de discussão** (Secções 4, 6 e 7).
+
 ### 2.1 Distribuição de Tipos de IA (A1–A5 no Corpus Refinado)
 
-Após a remoção do ruído residual (A6) e da automação mecânica desprovida de DART, a distribuição dos **825 posts refinados** revela com clareza o perfil do discurso comunitário:
+Após a remoção do ruído residual (A6) e da automação mecânica desprovida de DART, a distribuição dos **825 posts refinados** revela o perfil descritivo dos turnos comunicativos no corpus:
 
 | Tipo de IA | Frequência | Percentagem | Papel no Ecossistema |
 | :--- | :---: | :---: | :--- |
@@ -140,6 +148,9 @@ Após a remoção do ruído residual (A6) e da automação mecânica desprovida 
 ---
 
 ## 3. Análise por Dimensão DART
+
+> **Nota Metodológica de Enquadramento (Abordagem Multinível Incorporada)**:  
+> As pontuações DART apresentadas nesta secção avaliam a intensidade dos micro-atos comunicativos contidos em cada um dos **825 posts refinados**. Servem como uma aferição de sensibilidade granular e inventário de referências textuais imediatas. A configuração sistémica completa do vetor DART — que traduz a maturidade sociotécnica real do ambiente lúdico — consolida-se através da ponderação agregada ao nível dos **152 tópicos de discussão** (Secção 4.3).
 
 ### 3.1 Visão Global das Pontuações no Corpus Refinado
 
@@ -224,11 +235,11 @@ A dimensão Transparência mensura a visibilidade das regras algorítmicas, a ro
    * **Codestruição e Frustração (VC3)**: Forte saliência de queixas sobre moderação automática cega de tickets de suporte e desconfiança quanto à presença de bots inteligentes nas arenas competitivas.
    * **Inovação Oficial**: Acolhimento positivo mas cauteloso de instâncias geridas por IA nativa (*Follower Dungeons*), vistas como oportunidade de treino sem pressão tóxica de outros jogadores.
 
-### 4.3 Agregação ao Nível de Tópicos de Discussão (152 Threads Ativas)
+### 4.3 Agregação ao Nível de Tópicos de Discussão (152 Threads Ativas) — A Unidade Primária de Sentido
 
-Na perspetiva meso-sociotécnica, o agrupamento dos posts nos seus respetivos **152 tópicos de discussão (*threads*) ativos** permite captar os ciclos deliberativos e a evolução temporal das dinâmicas de cocriação de valor. A análise comparativa agregada por ecossistema evidencia contrastes estruturais marcantes:
+Na perspetiva meso-sociotécnica da framework **DART-NET v4.0**, o agrupamento dos posts nos seus respetivos **152 tópicos de discussão (*threads*) ativos** constitui a **unidade substantiva primária** para captar os ciclos deliberativos e a evolução temporal das dinâmicas de cocriação de valor. A análise comparativa agregada por ecossistema evidencia contrastes estruturais marcantes:
 
-| Dimensão Analítica / Ecossistema | EVE Online (Sandbox Aberto) | World of Warcraft (Ambiente Controlado) | Total Consolidado |
+| Dimensão Analítica / Ecossistema | EVE Online (Sandbox Aberto) | World of Warcraft (Ambiente Controlado) | Total Consolidado (Nível Meso) |
 | :--- | :---: | :---: | :---: |
 | **Número de Tópicos Ativos** | **65 tópicos** (42,8%) | **87 tópicos** (57,2%) | **152 tópicos** (100,0%) |
 | **Volume de Posts Analisados** | 438 posts (42,4%) | 594 posts (57,6%) | 1.032 posts (100,0%) |
@@ -239,8 +250,10 @@ Na perspetiva meso-sociotécnica, o agrupamento dos posts nos seus respetivos **
 | **Tópicos VC3 (Codestruição / Fricção)** | **15,4%** (10 tópicos) | **27,6%** (24 tópicos) | **22,4%** (34 tópicos) |
 | **Tópicos VC4 (Reflexivos / Neutros)** | **63,1%** (41 tópicos) | **42,5%** (37 tópicos) | **51,3%** (78 tópicos) |
 
-**Interpretação Teórica**:
-1. **Salto de Densidade de Valor**: Enquanto na análise atómica por post apenas 3,2% das mensagens atingiam VC1 e 10,9% VC3, na escala de tópicos **12,5% das discussões materializam cocriação efetiva (VC1)** e **22,4% refletem episódios de codestruição (VC3)**. No seu conjunto, **48,7% dos tópicos** apresentam impacto ativo de valor (VC1 + VC2 + VC3), comprovando que a unidade conversacional (*thread*) captura a totalidade do ciclo deliberativo que posts isolados fragmentam.
+**Interpretação Teórica e Contribuição Metodológica Central**:
+1. **Superação Epistémica da Diluição Atómica**: A comparação direta entre o nível micro e o nível meso consolida um dos principais achados teóricos deste estudo:
+   > *"Se aplicássemos uma abordagem ingénua de NLP/LLM analisando os 825 posts isoladamente, obteríamos uma imagem artificialmente estéril (77,2% em VC4 e 3,2% em VC1). Ao integrá-los no nível meso do tópico conversacional ($N=152$), revelamos a verdadeira densidade de cocriação (48,7% de impacto ativo de valor)."*  
+   Enquanto na análise atómica por post apenas 3,2% das mensagens atingiam VC1 e 10,9% VC3, na escala de tópicos **12,5% das discussões materializam cocriação efetiva (VC1)** e **22,4% refletem episódios de codestruição (VC3)**. No seu conjunto, **48,7% dos tópicos** apresentam impacto ativo de valor (VC1 + VC2 + VC3), comprovando que a unidade conversacional (*thread*) captura a totalidade do ciclo deliberativo que posts isolados fragmentam.
 2. **Assimetria Estrutural de Acesso e Transparência**: Em *EVE Online*, o Acesso médio (`1,41`) e a Transparência (`1,31`) superam os valores de *WoW* (`1,16` e `1,30`), impulsionados pela infraestrutura aberta de APIs (ESI e MCP).
 3. **Hiperconcentração de Codestruição em WoW**: Em *World of Warcraft*, mais de um quarto dos tópicos ativos (**27,6% em VC3**, contra 15,4% em EVE) documentam perdas severas de confiança, banimentos indevidos e atritos institucionais decorrentes da automação do suporte ao cliente.
 
@@ -279,11 +292,11 @@ Dado que tanto o **Cluster 1** como o **Cluster 5** envolvem a utilização de m
 | **Indicadores Empíricos no Corpus** | `API`, `ESI`, `MCP Server`, `Endpoint`, `Telemetry`, `Live Data`, `zKillboard`. | `Vibe-coding`, `Lua`, `Addon`, `WeakAura`, `Claude Code`, `OnUpdate`, `FPS`, `Brainstorm`. |
 | **Casos Verificados no Corpus** | • **`510327`** (*EVE Crews*: simulador web ligado à API ESI com regras calibradas via Claude);<br>• **`516433`** (*EVE MCP Server*: exposição de *endpoints* ESI para consulta direta por assistentes de IA). | • **`reddit_1v3v2p2`** (*Claude Code Success*: reparação de *addon* Lua pós-*patch* via *blue post*);<br>• **`reddit_1r1dd9i`** (*Vibe Coded AddOns*: impacto de performance em Lua e uso de `OnUpdate`);<br>• **`1mctiz6`** e **`1i6m4i6`** (uso do Gemini/ChatGPT para *brainstorming* e rotas de navegação). |
 
-### 4.5 Casos Paradigmáticos de Tópicos de Discussão
+### 4.5 Casos Paradigmáticos de Tópicos de Discussão e Ancoragem Literal (*Verbatim Grounding*)
 
-O quadro seguinte sintetiza tópicos emblemáticos que ilustram o comportamento empírico dos clusters nos dois ecossistemas:
+Em conformidade com o princípio de **ancoragem empírica (*verbatim grounding*)** da metodologia DART-NET v4.0, cada tópico de nível Meso é estritamente sustentado pelas falas exatas e inalteradas dos jogadores nos posts constituintes, eliminando qualquer risco de alucinação analítica. O quadro seguinte sintetiza tópicos emblemáticos que ilustram o comportamento empírico dos clusters nos dois ecossistemas:
 
-| ID Tópico | Título Central | Ecossistema / Cluster | Agência / Interação | Vetor DART (Médias) | Dinâmica de Valor | Evidência Literal Verificável (*Verbatim Quote*) |
+| ID Tópico | Título Central | Ecossistema / Cluster | Agência / Interação | Vetor DART (Médias) | Dinâmica de Valor | Evidência Literal Verificável (*Verbatim Quote* de Ancoragem Micro) |
 | :--- | :--- | :--- | :---: | :---: | :---: | :--- |
 | **`510327`** | *EVE Crews: A lore-accurate\* API-linked crew simulator* | EVE Online<br>Cluster 1 (APIs/MCP) | **A1** / **I3** | `D: 2,9`<br>`A: 2,4`<br>`R: 1,2`<br>`T: 2,3` | **VC1** (Cocriação Efetiva) | *"The crew numbers in EVE Crews are derived from a blend of official CCP lore, historical game data, and community research..."* |
 | **`516433`** | *EVE MCP Server — querying ESI from Claude, Copilot and other AI assistants* | EVE Online<br>Cluster 1 (APIs/MCP) | **A1** / **I4** | `D: 0,0`<br>`A: 5,0`<br>`R: 2,0`<br>`T: 3,0` | **VC4** (Reflexivo Técnico) | *"exposing EVE’s public ESI endpoints as tools an AI assistant can call directly"* |
@@ -296,19 +309,23 @@ O quadro seguinte sintetiza tópicos emblemáticos que ilustram o comportamento 
 
 ## 5. Cocriação e Codestruição de Valor (VC1–VC4)
 
-### 5.1 Distribuição Global no Corpus Refinado
+### 5.1 O Nível Micro como Contraste Crítico e Inventário Atomizado
 
-| Categoria de Valor | Frequência | Percentagem | Papel Teórico |
+> **Nota Epistemológica Central**:  
+> A distribuição de frequências abaixo ($N=825$ posts) constitui um **inventário descritivo da camada micro-empírica** e funciona como um **contraste crítico** indispensável para a teorização netnográfica:
+> 
+> *"Se aplicássemos uma abordagem ingénua de NLP/LLM analisando os 825 posts isoladamente, obteríamos uma imagem artificialmente estéril (77,2% em VC4 e 3,2% em VC1). Ao integrá-los no nível meso do tópico conversacional ($N=152$), revelamos a verdadeira densidade de cocriação (48,7% de impacto ativo de valor)."*
+
+| Categoria de Valor | Frequência Micro ($N=825$) | Percentagem Micro | Papel na Arquitetura Multinível DART-NET v4.0 |
 | :--- | :---: | :---: | :--- |
-| **VC1 (Cocriação de Valor Efetiva)** | 26 | 3,2% | Parceria simétrica bem-sucedida com ganhos tangíveis mútuos. |
-| **VC2 (Potencial Cocriação de Valor)** | 72 | 8,7% | Soluções em desenvolvimento, propostas conceituais e intenções de colaboração. |
-| **VC3 (Codestruição de Valor)** | 90 | 10,9% | Perdas financeiras, frustração com alucinações, vantagens injustas ou bans indevidos. |
-| **VC4 (Sem Evidência Direta)** | 637 | 77,2% | Discussões reflexivas sem impacto empírico mensurável de ganho ou perda imediata. |
-| **Total** | **825** | **100,0%** | — |
+| **VC1 (Cocriação de Valor Efetiva)** | 26 | 3,2% | Turnos onde a solução finalizada é partilhada pontualmente. *(No nível Meso: 12,5%)* |
+| **VC2 (Potencial Cocriação de Valor)** | 72 | 8,7% | Ideias, propostas e intenções comunicadas em mensagens únicas. *(No nível Meso: 13,8%)* |
+| **VC3 (Codestruição de Valor)** | 90 | 10,9% | Denúncias pontuais, queixas de bans ou relatos de alucinações. *(No nível Meso: 22,4%)* |
+| **VC4 (Sem Evidência Direta / Reflexão)** | 637 | 77,2% | Turnos intermédios de debate, perguntas e diálogo exploratório. *(No nível Meso: 51,3%)* |
+| **Total** | **825** | **100,0%** | **Linha de Base Micro-Empírica de Contraste** |
 
-**Análise**: Com a poda do ruído espúrio, a proporção de posts que documentam um **impacto ativo de valor (VC1 + VC2 + VC3)** ascende a **22,8% do corpus** (188 posts), contra apenas 11,4% antes da filtragem. 
-
-A codestruição de valor (VC3: 10,9%) manifesta-se com frequência superior à cocriação efetiva (VC1: 3,2%), refletindo que a tecnologia de IA contemporânea ainda introduz elevada fricção, alucinações e assimetrias que perturbam as expectativas dos jogadores.
+**Análise do Contraste Teórico**:  
+Ao nível do post atómico, as mensagens que documentam impacto ativo de valor (VC1 + VC2 + VC3) perfazem apenas **22,8%** (188 posts), contra 77,2% em VC4. A codestruição (VC3: 10,9%) sobrepõe-se à cocriação efetiva (VC1: 3,2%), refletindo o atrito inicial percebido pelos utilizadores. Contudo, como demonstrado na **Tabela Comparativa Micro vs. Meso (Secção 1.7.1 e Secção 4.3)** — um dos principais achados teóricos deste estudo —, a verdadeira densidade de cocriação e codestruição de valor só se revela quando estes fragmentos atómicos são reintegrados na sua trajetória conversacional no Tópico ($48,7\%$ de impacto ativo de valor).
 
 ### 5.2 Evidências Paradigmáticas de Cocriação de Valor (VC1)
 
@@ -324,15 +341,23 @@ A codestruição de valor (VC3: 10,9%) manifesta-se com frequência superior à 
 
 ## 6. Reflexão sobre as Questões de Investigação
 
+> **Enquadramento Epistémico DART-NET v4.0**:  
+> Em estrita conformidade com a Arquitetura Metodológica Multinível Incorporada, as **respostas substantivas às Questões de Investigação (QI1, QI2 e QI3)** assentam primariamente na dinâmica deliberativa, relacional e temporal do **Tópico de Discussão ($N=152$, Nível Meso)**. Os dados e frequências dos posts individuais ($N=825$, Nível Micro) cumprem a função de **ancoragem empírica (*verbatim grounding*)**, rastreabilidade de citações inalteradas e linha de base granular de micro-atos comunicativos, superando a distorção da diluição atómica.
+
 ### 6.1 QI1: Tipologia de Agentes de IA e Formas de Interação Humano-IA
 *Pergunta Central: Que tipos de agentes de IA e que formas de interação humano-IA caracterizam os MMORPG analisados?*
 
 #### 6.1.1 QI1a: Proporção de Agentes de IA Autónomos face a Bots e Scripts Convencionais
-**Resposta**: No corpus purificado, os agentes de IA autónomos (A1: 11,5%) e copilotos assistidos (A4: 7,2%) superam largamente os bots convencionais e scripts mecânicos residuais (A2+A3: 4,2%). No entanto, ambos são envolvidos por uma densa camada de discurso sociotécnico reflexivo (A5: 77,2%). A emergência de A1 e A4 comprova que a interação nos ecossistemas contemporâneos migrou decisivamente da automação repetitiva do passado para a experimentação com agentes cognitivos contextuais e modelos de linguagem generativos.
+**Resposta (Consolidada no Nível Meso com Suporte Micro)**:
+A análise multinível revela que os ecossistemas contemporâneos superaram a era dos bots mecânicos repetitivos. Na linha de base atómica ($N=825$ posts), os agentes autónomos (A1: 11,5%) e a assistência híbrida por IA generativa (A4: 7,2%) superam largamente os bots e scripts convencionais residuais (A2+A3: 4,2%), embora 77,2% dos turnos sejam dedicados ao debate reflexivo (A5). 
+Quando avaliada ao **Nível Meso dos 152 tópicos completos**, esta proporção ganha relevo estrutural: **48,1% dos tópicos ativos** (73 tópicos nos Clusters 1, 4 e 5) centram-se em experimentação agêntica direta, integração de APIs e *vibe-coding* assistido por LLMs (Claude, GPT-4, Gemini), enquanto apenas 21,7% (Cluster 2) debatem automação ilícita ou bots convencionais de farm. O fenómeno central dos MMORPGs atuais é a integração de inteligência contextual e modelos generativos.
 
 #### 6.1.2 QI1b: Estruturas de Interação Humano-IA e Padrões entre Sandbox e Controlado
-**Resposta**: As interações diretas com agentes de IA (I1, I2, I3 e I5) somam **14,2%** do corpus refinado, com destaque para a interação bidirecional iterativa (I3: 6,8%). O canal predominante permanece a discussão humana sobre a tecnologia (I4: 77,7%), enquanto o ruído sem interação (I6) caiu para 8,1%.
-* **Ampliação ao Nível de Tópicos e Padrões por Ecossistema**: Quando analisada ao nível de tópicos conversacionais completos, a presença de interação agêntica e colaborativa direta ganha ainda maior relevância: cerca de **30,8% dos tópicos** apresentam padrões predominantes de interação direta (I1/I2) ou cooperação triádica (I3: Humano + IA + Comunidade), particularmente nos clusters de APIs/MCP e Copilotos. Revela-se assim que discussões que se iniciam sob a forma de debate comunitário abstrato (I4) progridem frequentemente, através da partilha iterativa de código, logs e testes de prompts, para ciclos colaborativos de cocriação triádica (I3). O ecossistema sandbox (*EVE*) fomenta a criação de agentes integrados via API aberta, enquanto o ecossistema controlado (*WoW*) restringe as interações diretas a instâncias fechadas de NPCs aliados (*Follower Dungeons*) ou copilotos externos de *vibe-coding*.
+**Resposta (Consolidada no Nível Meso com Suporte Micro)**:
+Embora na contagem isolada de mensagens a discussão entre humanos pareça hegemónica (I4: 77,7%), a **análise ao nível de tópicos conversacionais completos** demonstra que **30,8% dos tópicos** materializam padrões ativos de interação direta (I1/I2) ou cooperação triádica contínua (**I3: Humano $\leftrightarrow$ IA $\leftrightarrow$ Comunidade**), especialmente nos clusters de APIs/MCP e Copilotos. 
+* **Padrões por Ecossistema**:
+  * Em **EVE Online (Sandbox Aberto)**: A governança técnica da API ESI e servidores MCP propicia interações agênticas abertas (I1/I3), onde jogadores conversam diretamente com LLMs que consultam dados do jogo em tempo real (ex.: tópicos `510327` e `516433`).
+  * Em **World of Warcraft (Ambiente Controlado)**: As interações diretas são confinadas pela Blizzard a NPCs aliados nativos (*Follower Dungeons*, I5) ou ocorrem externamente via copilotos de *vibe-coding* para criação e reparação de addons em Lua (Cluster 5, I3, ex.: `reddit_1v3v2p2`).
 
 ---
 
@@ -340,12 +365,16 @@ A codestruição de valor (VC3: 10,9%) manifesta-se com frequência superior à 
 *Pergunta Central: Em que medida essas interações cocriam ou codestroem valor, e que papel desempenham as dimensões do modelo DART?*
 
 #### 6.2.1 QI2a: Verificação das Dimensões Diálogo, Acesso, Risco e Transparência
-**Resposta**: No corpus refinado, todas as dimensões DART satisfazem critérios mínimos de substância empírica ($\text{Médias} > 1,0$): Risco lidera com **1,61/5**, seguido de Transparência (**1,34/5**), Acesso (**1,20/5**) e Diálogo (**1,09/5**). O Risco é a dimensão estruturante da perceção comunitária.
-* **Papel das Dimensões**: O Acesso técnico e o Diálogo aberto constituem os pilares facilitadores da cocriação (VC1/VC2), permitindo aos utilizadores alimentar LLMs com dados estruturados do jogo. Em contrapartida, o défice de Transparência algorítmica e a elevação de Riscos percebidos (ameaça competitiva, alucinações de dados e injustiça punitiva) precipitam a transição para episódios severos de codestruição de valor (VC3).
+**Resposta (Consolidada no Nível Meso com Suporte Micro)**:
+Todas as quatro dimensões DART satisfazem critérios mínimos de substância empírica ($\text{Médias} > 1,0$ na base granular de 825 posts), com o Risco a liderar (**1,61/5**), seguido da Transparência (**1,34/5**), Acesso (**1,20/5**) e Diálogo (**1,09/5**).
+* **Papel Sistémico das Dimensões no Nível Meso**: A análise agregada por cluster comprova que o **Acesso técnico programável** e o **Diálogo bidirecional** são as condições propulsoras da cocriação de valor (Clusters 1 e 5). Por outro lado, o **Défice de Transparência algorítmica** e a perceção de **Risco assimétrico** (ameaça competitiva, perdas económicas e moderação cega por IA) funcionam como gatilhos primários de codestruição de valor (VC3 nos Clusters 2 e 3).
 
 #### 6.2.2 QI2b: Evidências Empíricas de Cocriação (VC1/VC2) vs. Codestruição (VC3) de Valor
-**Resposta**: As discussões com impacto direto de valor totalizam **22,8%** do corpus atómico (3,2% VC1, 8,7% VC2 e 10,9% VC3). A codestruição de valor (VC3) sobrepõe-se à cocriação efetiva (VC1) na escala do post, demonstrando que a integração de IA em ecossistemas de jogos ainda opera num estágio de maturidade assimétrico e conflituoso.
-* **Ampliação ao Nível de Tópicos e Clivagem entre Clusters**: A unidade analítica da thread revela uma proporção muito mais substancial de impacto ativo de valor, abrangendo **48,7% dos tópicos ativos** (12,5% VC1, 13,8% VC2 e 22,4% VC3). Esta agregação expõe uma clivagem radical entre clusters: enquanto os clusters de Ferramentas/APIs (Cluster 1) e Copilotos (Cluster 5) concentram episódios de cocriação simétrica (VC1/VC2) alicerçados em Diálogo e Acesso, os clusters de Moderação/Suporte (Cluster 3) e Fair Play (Cluster 2) concentram eventos severos de codestruição (VC3). Em *World of Warcraft*, a taxa de tópicos em VC3 atinge **27,6%** (contra 15,4% em EVE), espelhando um profundo descontentamento comunitário com sistemas opacos de moderação algorítmica e encerramento automatizado de tickets.
+**Resposta (Superação da Falácia da Diluição Atómica)**:
+Este ponto encerra a principal descoberta teórica da investigação:
+* **Na leitura atómica por post ($N=825$)**: Apenas 3,2% atingem VC1 e 10,9% VC3, com 77,2% em VC4, sugerindo erradamente uma comunidade inerte;
+* **Na leitura substantiva ao Nível do Tópico ($N=152$)**: **48,7% das discussões ativas geram impacto tangível de valor** (**`12,5% VC1`**, **`13,8% VC2`** e **`22,4% VC3`**).
+* **Distribuição entre Clusters**: A cocriação efetiva (VC1) e potencial (VC2) concentra-se nos clusters de Ferramentas/APIs (Cluster 1) e Copilotos (Cluster 5). A codestruição (VC3) atinge proporções críticas nos clusters de Suporte/Moderação (Cluster 3) e Fair Play (Cluster 2), sendo particularmente severa em *World of Warcraft*, onde **27,6% dos tópicos** documentam degradação institucional decorrente do uso opaco de IA.
 
 ---
 
