@@ -179,6 +179,67 @@ resumos_analiticos_topicos = {
     "reddit_1r1dd9i": enforce_max_words(
         "Análise técnica profunda elaborada por um engenheiro de software demonstrando os mecanismos que levam addons desenvolvidos via vibe coding (código gerado por IA sem auditoria) a causar quebras drásticas de taxa de frames (FPS) no World of Warcraft. O debate examina falhas de arquitetura em Lua, tais como o uso indiscriminado do manipulador OnUpdate (que reexecuta a cada frame) em vez de eventos orientados (BAG_UPDATE_DELAYED), ineficiências de garbage collection e ausência de tratamento de exceções. Embora contraexemplos empíricos provem que prompts refinados geram código eficiente, a comunidade conclui que a IA atua como um multiplicador de competência: amplia a produtividade de programadores experientes (VC1), mas propaga código disfuncional e codestruição de performance (VC3) quando manuseada por utilizadores desprovidos de literacia técnica.",
         150
+    ),
+    # 15 Novos Tópicos Estratificados para o Bloco 2 (Prof. Roger & Prof. Gomide)
+    "516433": enforce_max_words(
+        "Anúncio técnico no fórum de EVE Online no qual o autor disponibiliza um servidor de código aberto baseado no Model Context Protocol (MCP) da Anthropic. A ferramenta conecta assistentes de IA (Claude, GitHub Copilot) diretamente aos endpoints públicos da API ESI de EVE Online, permitindo aos modelos consultar dados em tempo real sobre naves, mercados e atributos do universo lúdico. O projeto representa um marco na integração arquitetural de IA (A1/I4), elevando o Acesso a dados vivos (5/5) e estabelecendo uma nova ponte entre copilotos cognitivos e o servidor do jogo sem necessidade de cópia manual de informação. O autor partilha o repositório GitHub e convida a comunidade a testar e expandir as ferramentas disponíveis, ilustrando o potencial técnico de agentes externos num ecossistema sandbox.",
+        150
+    ),
+    "507123": enforce_max_words(
+        "Apresentação e registo de desenvolvimento da plataforma comunitária 'EVE ONE', um portal de gestão integrada que utiliza a API pública ESI de EVE Online para agregar dados de múltiplos pilotos, frotas, indústria e finanças corporativas. O autor documenta iterativamente a evolução técnica da ferramenta, partilhando atualizações de arquitetura, correções de sincronização e a integração de módulos inteligentes para apoio à tomada de decisão económica. A discussão ilustra o esforço de cocriação de valor (VC2 com transição para VC1) característico da comunidade de New Eden, onde programadores dedicam trabalho voluntário para transformar telemetria bruta em painéis visuais intuitivos. O tópico reflete elevado Acesso técnico e transparência na partilha de funcionalidades, mitigando a complexidade operacional da gestão em larga escala.",
+        150
+    ),
+    "reddit_1vdomcq": enforce_max_words(
+        "Discussão deliberativa em r/wow na qual o autor questiona a comunidade sobre a utilização de modelos de IA e algoritmos preditivos para construir ferramentas externas de análise de mercado, trading e otimização de lucros nas profissões. Os participantes analisam as vantagens competitivas de integrar scripts que consultam bases de dados de casas de leilão (como dados de Auction House e APIs de preços) para identificar margens de lucro e oportunidades de arbitragem. O debate foca a fronteira ética entre análise de dados legítima e exploração abusiva de mercado, refletindo preocupações com assimetria de informação (Risco). Destaca-se a exploração de potencial de cocriação (VC2) através de dashboards analíticos comunitários, contrastada com o receio de desestabilização da economia dos reinos.",
+        150
+    ),
+    "reddit_1tvlpnw": enforce_max_words(
+        "Apresentação e escrutínio comunitário de uma proposta de addon para World of Warcraft desenhado para utilizar algoritmos de Machine Learning locais na deteção e filtragem em tempo real de mensagens de spam, publicidade ilícita e serviços de boosting nos canais de conversação públicos. A comunidade debate a viabilidade técnica da solução, levantando preocupações sobre falsos positivos, sobrecarga computacional de inferência no cliente e o risco de retaliação ou exploração por parte dos spammers. Classificado predominantemente em VC4 com potencial VC2, o tópico reflete o esforço proativo de jogadores em criar barreiras defensivas inteligentes contra a poluição conversacional, enquanto questiona a ausência de soluções nativas eficazes implementadas diretamente pela Blizzard nos servidores oficiais.",
+        150
+    ),
+    "474041": enforce_max_words(
+        "Denúncia fundamentada no fórum de EVE Online sobre um padrão anómalo e persistente de movimentação de naves no sistema Malukker, onde o autor suspeita de treino prático de agentes com Machine Learning ou bots adaptativos de evasão. A comunidade disseca os vetores de aceleração, tempos de reação milimétricos e rotas de fuga perante a entrada de jogadores hostis no sistema local. O debate polariza-se entre veteranos que identificam comportamentos algorítmicos sofisticados e utilizadores que atribuem o fenómeno a scripts determinísticos clássicos. Trata-se de um caso marcante de Risco (Cluster 2) e codestruição de valor (VC3), ilustrando a desconfiança generalizada face à integridade competitiva no espaço sandbox e a exigência de ferramentas de deteção proativa por parte da CCP.",
+        150
+    ),
+    "3000003": enforce_max_words(
+        "Discussão aprofundada de 18 posts no fórum da Blizzard iniciada por uma proposta provocatória: a utilização de modelos avançados de IA para combater bots e detetar batotas de forma proativa. O debate rapidamente se estende à análise sistémica da integridade do jogo, com jogadores a confrontar a viabilidade técnica de modelos heurísticos contra scripts de pixel botting em arenas PvP. Os utilizadores manifestam forte ceticismo em relação à eficácia do sistema Warden e criticam a demora da Blizzard em banir operadores comerciais de bots que desestabilizam a economia. O tópico condensa debates sobre Risco elevado, justiça distributiva e a tensão entre intervenção algorítmica automatizada e o risco de falsos positivos com suspensões indevidas de contas de jogadores legítimos.",
+        150
+    ),
+    "508618": enforce_max_words(
+        "Discussão reflexiva e desiludida no fórum de EVE Online iniciada por um jogador que gravou e denunciou um minerador automatizado (bot) no espaço de alta segurança (highsec), questionando a utilidade do esforço. A comunidade reage com cinismo e frustração acumulada, partilhando evidências de ineficácia nas punições da CCP e contorno trivial de banimentos de IP através de VPNs e novas contas. Trata-se de um caso marcante de codestruição de valor (VC3) motivado por desamparo institucional e baixa Transparência nas ações da editora. O debate aprofunda as motivações do Real Money Trading (RMT) e a assimetria entre o custo de reportar e a imunidade percebida dos operadores de bots, consolidando um sentimento de abandono da integridade económica do jogo.",
+        150
+    ),
+    "2147065": enforce_max_words(
+        "Discussão veemente de 16 posts no fórum oficial de World of Warcraft que documenta o colapso na qualidade do serviço de apoio ao cliente da Blizzard. Os jogadores partilham relatos consistentes de tickets de suporte respondidos e encerrados por fluxos algorítmicos automatizados que ignoram o texto submetido e fornecem links padrão inúteis. O debate associa diretamente a degradação do atendimento a despedimentos corporativos (layoffs) em equipas humanas de Game Masters e à implementação cega de IA para triagem em massa. Trata-se de uma evidência flagrante de codestruição de valor (VC3) e rutura de Transparência, onde a opacidade do atendimento gera profunda desilusão, alienação de subscritores de longa data e a exigência veemente de intervenção humana genuína nos canais de suporte.",
+        150
+    ),
+    "1gebstj": enforce_max_words(
+        "Relato mordaz e viral em r/wow no qual um utilizador partilha a resposta absurda de um ticket de suporte da Blizzard, onde o sistema se engana no nome do jogador chamando-lhe 'Joshua' e gera um texto padrão desconexo que aparenta saída direta de um LLM ('peak ChatGPT'). A comunidade reage com humor corrosivo, sátira e indignação face à perda de profissionalismo corporativo. O tópico consolida evidência empírica incontestável de codestruição de valor (VC3): o suporte ao cliente operado por IA fecha apelos sem ler anexos, confundindo utilizadores e destruindo a credibilidade institucional. O debate expõe o cinismo de publicadoras que reduzem custos operacionais através de modelos generativos imaturos, alienando a base comunitária pagante.",
+        150
+    ),
+    "506798": enforce_max_words(
+        "Tópico oficial de recolha de feedback da CCP Games sobre o sistema experimental 'Aura Guidance (Beta)', um assistente contextual inteligente desenhado para guiar novos jogadores através das complexas mecânicas iniciais de New Eden. A comunidade técnica e veterana avalia criticamente a ferramenta: elogiam-se as melhorias de acessibilidade e redução da curva de entrada para novatos (potencial VC2), mas apontam-se falhas de atualização em rotas táticas e riscos de dependência mecânica que podem desincentivar o recurso aos canais humanos de ajuda (Rookie Help Chat). O tópico ilustra a dinâmica deliberativa sobre agentes oficiais in-game (Cluster 4), revelando a preocupação comunitária em garantir que a IA oficial complemente a tutoria social sem canibalizar a cooperação orgânica entre veteranos e principiantes.",
+        150
+    ),
+    "2308441": enforce_max_words(
+        "Discussão prospetiva de 25 posts em torno do impacto da IA nativa no futuro dos MMORPGs, com foco em companheiros de grupo autónomos, Masmorras de Seguidores (Follower Dungeons) e NPCs reativos em World of Warcraft. Os participantes debatem se a sofisticação de bots inteligentes democratiza o acesso a masmorras para jogadores com ansiedade social ou tempo limitado (VC2), ou se, pelo contrário, corrói a essência comunitária e o tecido multijogador (VC3/VC4). O debate aborda a tecnologia de agentes autónomos, os limites da IA na simulação de empatia e tática humana em conteúdos míticos, e a tensão entre conveniência a solo e preservação de guildas sociais. O tópico constitui um caso paradigmático de deliberação ética e lúdica no Cluster 4.",
+        150
+    ),
+    "2171055": enforce_max_words(
+        "Debate aprofundado de 32 posts no fórum oficial de World of Warcraft que examina o desenvolvimento de 'jogadores simulados por IA' capazes de atuar como parceiros em masmorras, arenas e raids. Os utilizadores discutem a evolução dos algoritmos da Blizzard, desde bots estáticos até modelos dinâmicos introduzidos nas Follower Dungeons e Delves. A discussão equilibra argumentos de acessibilidade para veteranos sem tempo de compromisso com alertas sobre o esvaziamento dos canais de formação de grupos (LFG) e a quebra da socialização humana. O tópico explora dimensões fundamentais de DART, com destaque para a aceitação condicional da IA nativa desde que confinada a ambientes de treino e preservando o prestígio das conquistas alcançadas com grupos humanos reais.",
+        150
+    ),
+    "reddit_1v3v2p2": enforce_max_words(
+        "Relato de sucesso empírico no qual um programador comunitário de World of Warcraft documenta a utilização da ferramenta de IA generativa Claude Code para atualizar e restaurar o funcionamento de um addon complexo de interface danificado por alterações recentes de patch. O autor detalha o fluxo iterativo de colaboração simétrica com o agente: fornecimento do anúncio técnico oficial da Blizzard (blue post), diagnóstico de regressões no código Lua e aplicação guiada de correções lógicas. Trata-se de uma demonstração explícita de cocriação efetiva de valor (VC1) e vibe-coding assistido de alta eficácia, ilustrando como copilotos de IA democratizam a manutenção de software comunitário e reduzem o tempo de reparação de ferramentas vitais para a experiência lúdica.",
+        150
+    ),
+    "reddit_1ql5f05": enforce_max_words(
+        "Discussão em r/wow que expõe uma controvérsia pública sobre autoria, plágio e qualidade de software comunitário em World of Warcraft, apelidada de 'guerras dos addons vibe-coded'. O debate emerge quando criadores amadores utilizam LLMs para replicar e bifurcar funcionalidades de addons consagrados sem compreender a arquitetura subjacente de Lua, gerando falhas de performance e poluição no repositório CurseForge. A comunidade divide-se entre o entusiasmo pela democratização da programação (VC1/VC2) e a revolta de autores veteranos perante a apropriação indevida de código e perda de reputação (VC3). O tópico encerra um debate crítico sobre literacia técnica, propriedade intelectual comunitária e a necessidade de escrutínio humano rigoroso sobre código gerado por IA generativa.",
+        150
+    ),
+    "1jukb0x": enforce_max_words(
+        "Extensa discussão de 62 posts no subreddit de EVE Online iniciada por um alerta vigoroso aos novatos ('new bros') contra a confiança cega em conselhos táticos e montagens de naves (fittings) geradas pelo ChatGPT. O autor demonstra como o modelo produz respostas plausíveis mas repletas de alucinações perigosas em New Eden, como módulos incompatíveis e regras obsoletas. A comunidade aprofunda o debate com dezenas de exemplos empíricos, demonstrando que os LLMs operam eficazmente apenas sob supervisão iterativa de utilizadores experientes que sabem orientar o prompt. Trata-se de um debate paradigmático de cocriação versus codestruição (VC1/VC3), comprovando que copilotos exigem literacia especializada para evitar perdas catastróficas de ativos no jogo.",
+        150
     )
 }
 
@@ -489,87 +550,97 @@ for p in sample_posts_raw:
         "url": tr.get("link") or anon.get("url") or ""
     })
 
-# 4. Amostra de Tópicos (Track B, N=15 tópicos) mantendo exatamente os mesmos 15 tópicos e todos os seus campos analisados
-threads_by_cluster = {1: [], 2: [], 3: [], 4: [], 5: []}
-for t in threads:
-    tid = str(t["thread_id"])
-    t_posts = topicos_tabela_resumos.get(tid, [])
-    c_name = assign_cluster(t["title"], t_posts)
-    c_num = int(c_name.split(":")[0].replace("Cluster", "").strip())
-    threads_by_cluster[c_num].append(t)
+# 4. Amostra de Tópicos e Posts em Dois Blocos Independentes (N=15 + N=15 = 30 Tópicos, 19,7% do corpus)
+bloco1_thread_ids = [
+    "1tdxixs", "2039353", "510327", "1mctiz6", "481937",
+    "reddit_1rnbqbh", "503747", "2152188", "1i6m4i6", "reddit_1q7m0sl",
+    "2116712", "512367", "reddit_1kylpvy", "2176376", "reddit_1r1dd9i"
+]
 
-sample_threads_raw = []
-for c_num in range(1, 6):
-    sample_threads_raw.extend(random.sample(threads_by_cluster[c_num], 3))
+bloco2_thread_ids = [
+    "516433", "507123", "reddit_1vdomcq",
+    "reddit_1tvlpnw", "474041", "3000003",
+    "508618", "2147065", "1gebstj",
+    "506798", "2308441", "2171055",
+    "reddit_1v3v2p2", "reddit_1ql5f05", "1jukb0x"
+]
 
-sample_threads = []
-constituent_posts_track_b = []
-
-for t in sample_threads_raw:
-    tid = str(t["thread_id"])
-    t_info = thread_info_map.get(tid, {})
-    t_posts = topicos_tabela_resumos.get(tid, [])
-    ins = topic_insights.get(tid, {})
-    tom_info = ins.get("tom_e_retorica", {})
-    dv_info = ins.get("dinamicas_valor", {})
-    satira_posts_map = {sp.get("post_id"): sp for sp in tom_info.get("posts_satiricos_ironicos", [])}
+def build_threads_and_constituent_posts(thread_ids, is_bloco1=True):
+    sample_threads_list = []
+    constituent_posts_list = []
     
-    ai_dist_str = ", ".join([f"{k}:{v}" for k, v in t.get("ai_counts", {}).items()])
-    inter_dist_str = ", ".join([f"{k}:{v}" for k, v in t.get("inter_counts", {}).items()])
-    vc_dist_str = ", ".join([f"{k}:{v}" for k, v in t.get("vc_counts", {}).items()])
-    pids_list_str = ", ".join([p["pid"] for p in t_posts])
-    
-    satira_flag = "Sim" if tom_info.get("contem_satira_ironia") else "Não"
-    n_satira = len(tom_info.get("posts_satiricos_ironicos", []))
-    enquadramento_str = f"{tom_info.get('classificacao_tom', 'Debate Técnico Sério')} (Sátira/Ironia: {satira_flag}, {n_satira} posts)"
-    
-    sample_threads.append({
-        "thread_id": tid,
-        "game": t.get("game") or t_info.get("game"),
-        "ecosystem": t.get("ecosystem", ""),
-        "title": t.get("title") or t_info.get("title"),
-        "url": t_info.get("url") or (t_posts[0]["link"] if t_posts else f"https://forums.eveonline.com/t/{tid}"),
-        "volume_empirico": f"{t.get('posts_retidos', len(t_posts))} retidos / {t.get('posts_originais', len(t_posts))} originais",
-        "pids_constituintes": pids_list_str,
-        "perfil_dominante": f"Prevalente: {t.get('prev_ai', '')} / {t.get('prev_inter', '')} | Dist. A: ({ai_dist_str}) | Dist. I: ({inter_dist_str})",
-        "vetor_dart": f"D: {t.get('avg_d', 0.0)} | A: {t.get('avg_a', 0.0)} | R: {t.get('avg_r', 0.0)} | T: {t.get('avg_t', 0.0)}",
-        "dinamica_valor_ia": f"Pipeline: {t.get('val_dyn', '')} [Micro: {vc_dist_str}] | Agente Meso: {dv_info.get('tipo_dominante', t.get('val_code', ''))}",
-        "enquadramento_retorico": enquadramento_str,
-        "evidencia_verbatim": t.get("evidence", ""),
-        "summary": enforce_max_words(get_topic_synthesis(tid, t_posts, t.get("title", "")), 150),
-        "cluster_heuristico": assign_cluster(t["title"], t_posts),
-        "audit": auditoria_track_b_resultados.get(tid, {})
-    })
-    
-    # Guardar todos os 104 posts constituintes dos 15 tópicos da Track B
-    for p in t_posts:
-        pid = p["pid"]
-        anon = anon_by_id.get(pid, {})
-        verbatim_txt = anon.get("text") or anon.get("corpo") or ""
-        sp_info = satira_posts_map.get(pid)
-        if sp_info:
-            papel_ancoragem = f"[{sp_info.get('tipo', 'Sátira/Ironia')}] {sp_info.get('explicacao', '')}"
-        else:
-            papel_ancoragem = "Ancoragem Literal / Argumentativa: fornece evidência empírica direta para a trajetória de valor e vetor DART do tópico."
-        constituent_posts_track_b.append({
-            "tid": tid,
-            "pid": pid,
-            "jogo": p["jogo"],
-            "titulo_topico": t.get("title") or t_info.get("title") or "",
-            "verbatim": verbatim_txt,
-            "tema": p["tema"],
-            "resumo": enforce_max_words(p["resumo"], 60),
-            "tipo_ia": p["tipo_ia"],
-            "inter": p["inter"],
-            "valor": p["valor"],
-            "dart": p["dart"],
-            "rev_humana": p["rev_humana"],
-            "papel_ancoragem": papel_ancoragem,
-            "link": p["link"]
+    for tid in thread_ids:
+        t = threads_by_id[tid]
+        t_info = thread_info_map.get(tid, {})
+        t_posts = topicos_tabela_resumos.get(tid, [])
+        ins = topic_insights.get(tid, {})
+        tom_info = ins.get("tom_e_retorica", {})
+        dv_info = ins.get("dinamicas_valor", {})
+        satira_posts_map = {sp.get("post_id"): sp for sp in tom_info.get("posts_satiricos_ironicos", [])}
+        
+        ai_dist_str = ", ".join([f"{k}:{v}" for k, v in t.get("ai_counts", {}).items()])
+        inter_dist_str = ", ".join([f"{k}:{v}" for k, v in t.get("inter_counts", {}).items()])
+        vc_dist_str = ", ".join([f"{k}:{v}" for k, v in t.get("vc_counts", {}).items()])
+        pids_list_str = ", ".join([p["pid"] for p in t_posts])
+        
+        satira_flag = "Sim" if tom_info.get("contem_satira_ironia") else "Não"
+        n_satira = len(tom_info.get("posts_satiricos_ironicos", []))
+        enquadramento_str = f"{tom_info.get('classificacao_tom', 'Debate Técnico Sério')} (Sátira/Ironia: {satira_flag}, {n_satira} posts)"
+        
+        audit = auditoria_track_b_resultados.get(tid, {}) if is_bloco1 else {}
+        
+        sample_threads_list.append({
+            "thread_id": tid,
+            "game": t.get("game") or t_info.get("game"),
+            "ecosystem": t.get("ecosystem", ""),
+            "title": t.get("title") or t_info.get("title"),
+            "url": t_info.get("url") or (t_posts[0]["link"] if t_posts else f"https://forums.eveonline.com/t/{tid}"),
+            "volume_empirico": f"{t.get('posts_retidos', len(t_posts))} retidos / {t.get('posts_originais', len(t_posts))} originais",
+            "pids_constituintes": pids_list_str,
+            "perfil_dominante": f"Prevalente: {t.get('prev_ai', '')} / {t.get('prev_inter', '')} | Dist. A: ({ai_dist_str}) | Dist. I: ({inter_dist_str})",
+            "vetor_dart": f"D: {t.get('avg_d', 0.0)} | A: {t.get('avg_a', 0.0)} | R: {t.get('avg_r', 0.0)} | T: {t.get('avg_t', 0.0)}",
+            "dinamica_valor_ia": f"Pipeline: {t.get('val_dyn', '')} [Micro: {vc_dist_str}] | Agente Meso: {dv_info.get('tipo_dominante', t.get('val_code', ''))}",
+            "enquadramento_retorico": enquadramento_str,
+            "evidencia_verbatim": t.get("evidence", ""),
+            "summary": enforce_max_words(get_topic_synthesis(tid, t_posts, t.get("title", "")), 150),
+            "cluster_heuristico": assign_cluster(t["title"], t_posts),
+            "audit": audit
         })
+        
+        for p in t_posts:
+            pid = p["pid"]
+            anon = anon_by_id.get(pid, {})
+            verbatim_txt = anon.get("text") or anon.get("corpo") or ""
+            sp_info = satira_posts_map.get(pid)
+            if sp_info:
+                papel_ancoragem = f"[{sp_info.get('tipo', 'Sátira/Ironia')}] {sp_info.get('explicacao', '')}"
+            else:
+                papel_ancoragem = "Ancoragem Literal / Argumentativa: fornece evidência empírica direta para a trajetória de valor e vetor DART do tópico."
+            constituent_posts_list.append({
+                "tid": tid,
+                "pid": pid,
+                "jogo": p["jogo"],
+                "titulo_topico": t.get("title") or t_info.get("title") or "",
+                "verbatim": verbatim_txt,
+                "tema": p["tema"],
+                "resumo": enforce_max_words(p["resumo"], 60),
+                "tipo_ia": p["tipo_ia"],
+                "inter": p["inter"],
+                "valor": p["valor"],
+                "dart": p["dart"],
+                "rev_humana": p["rev_humana"],
+                "papel_ancoragem": papel_ancoragem,
+                "link": p["link"]
+            })
+            
+    return sample_threads_list, constituent_posts_list
 
-print(f"Total tópicos na Track B: {len(sample_threads)}")
-print(f"Total posts constituintes dos tópicos da Track B: {len(constituent_posts_track_b)}")
+sample_threads_b1, constituent_posts_b1 = build_threads_and_constituent_posts(bloco1_thread_ids, is_bloco1=True)
+sample_threads_b2, constituent_posts_b2 = build_threads_and_constituent_posts(bloco2_thread_ids, is_bloco1=False)
+
+print(f"Bloco 1 (JPaulo & Emmanoel): {len(sample_threads_b1)} tópicos | {len(constituent_posts_b1)} posts constituintes")
+print(f"Bloco 2 (Roger & Gomide): {len(sample_threads_b2)} tópicos | {len(constituent_posts_b2)} posts constituintes")
+print(f"Total Geral da Amostra Auditada: {len(sample_threads_b1) + len(sample_threads_b2)} tópicos (19.7% do corpus) | {len(constituent_posts_b1) + len(constituent_posts_b2)} posts constituintes")
 
 # 5. Criar Livro Excel Formatado
 wb = openpyxl.Workbook()
@@ -862,13 +933,13 @@ ws3.column_dimensions["H"].width = 22
 ws3.column_dimensions["I"].width = 50
 
 # ==========================================
-# FOLHA 4: TRACK_B_TOPICOS (AUDITORIA DE ALTO NÍVEL EXECUTADA + CAMPOS DOS TÓPICOS + NOVOS PARÂMETROS)
+# FOLHA 4: TRACK_B_BLOCO1_JPAULO_EMMANOEL (15 TÓPICOS AUDITADOS E CALIBRADOS)
 # ==========================================
-ws4 = wb.create_sheet(title="Track_B_Topicos")
+ws4 = wb.create_sheet(title="Track_B_Bloco1_JPaulo_Emmanoel")
 ws4.views.sheetView[0].showGridLines = True
 ws4.freeze_panes = "F2"
 
-headers_threads = [
+headers_threads_b1 = [
     "Topic_ID",
     "Jogo",
     "Titulo_Real",
@@ -899,10 +970,10 @@ headers_threads = [
     "Anotacoes_Discordancias"
 ]
 
-data_threads = []
-for t in sample_threads:
+data_threads_b1 = []
+for t in sample_threads_b1:
     aud = t["audit"]
-    data_threads.append([
+    data_threads_b1.append([
         t["thread_id"],
         t["game"],
         t["title"],
@@ -933,7 +1004,7 @@ for t in sample_threads:
         aud.get("anotacoes", "")
     ])
 
-render_table(ws4, 1, headers_threads, data_threads, {
+render_table(ws4, 1, headers_threads_b1, data_threads_b1, {
     1: alignment_center, 2: alignment_center, 6: alignment_center, 9: alignment_center,
     15: alignment_center, 18: alignment_center, 21: alignment_center, 23: alignment_center,
     24: alignment_center, 25: alignment_center, 27: alignment_center
@@ -950,9 +1021,9 @@ for c_idx, width in col_widths_ws4.items():
     ws4.column_dimensions[get_column_letter(c_idx)].width = width
 
 # ==========================================
-# FOLHA 5: POSTS_TOPICOS_TRACK_B (104 POSTS CONSTITUINTES DOS 15 TÓPICOS ANALISADOS)
+# FOLHA 5: POSTS_BLOCO1_JPAULO_EMMANOEL (104 POSTS CONSTITUINTES DO BLOCO 1)
 # ==========================================
-ws5 = wb.create_sheet(title="Posts_Topicos_Track_B")
+ws5 = wb.create_sheet(title="Posts_Bloco1_JPaulo_Emmanoel")
 ws5.views.sheetView[0].showGridLines = True
 ws5.freeze_panes = "E2"
 
@@ -973,9 +1044,9 @@ headers_tb_posts = [
     "Link_Acesso"
 ]
 
-data_tb_posts = []
-for cp in constituent_posts_track_b:
-    data_tb_posts.append([
+data_tb_posts_b1 = []
+for cp in constituent_posts_b1:
+    data_tb_posts_b1.append([
         cp["tid"],
         cp["pid"],
         cp["jogo"],
@@ -992,7 +1063,7 @@ for cp in constituent_posts_track_b:
         cp["link"]
     ])
 
-render_table(ws5, 1, headers_tb_posts, data_tb_posts, {
+render_table(ws5, 1, headers_tb_posts, data_tb_posts_b1, {
     1: alignment_center, 2: alignment_center, 3: alignment_center,
     8: alignment_center, 9: alignment_center, 10: alignment_center, 11: alignment_center, 12: alignment_center
 })
@@ -1003,6 +1074,111 @@ col_widths_ws5 = {
 }
 for c_idx, width in col_widths_ws5.items():
     ws5.column_dimensions[get_column_letter(c_idx)].width = width
+
+# ==========================================
+# FOLHA 6: TRACK_B_BLOCO2_ROGER_GOMIDE (15 NOVOS TÓPICOS ESTRATIFICADOS PARA AUDITORIA INDEPENDENTE)
+# ==========================================
+ws6 = wb.create_sheet(title="Track_B_Bloco2_Roger_Gomide")
+ws6.views.sheetView[0].showGridLines = True
+ws6.freeze_panes = "F2"
+
+headers_threads_b2 = [
+    "Topic_ID",
+    "Jogo",
+    "Titulo_Real",
+    "Link_Acesso",
+    "Resumo_Analitico_IA",
+    "Volume_Posts (Retidos/Originais)",
+    "IDs_Posts_Constituintes",
+    "Perfil_Tecnico_Dominante (A / I)",
+    "Vetor_DART_Topico (D|A|R|T)",
+    "Dinamica_Valor_IA (Pipeline vs Agente)",
+    "Enquadramento_Retorico_IA",
+    "Evidencia_Paradigmatica_Verbatim",
+    "Roger_Cluster_Tematico",
+    "Roger_Trajetoria_Valor",
+    "Roger_Fidelidade_Sintese (1-5)",
+    "Gomide_Cluster_Tematico",
+    "Gomide_Trajetoria_Valor",
+    "Gomide_Fidelidade_Sintese (1-5)",
+    "Polifonia_Tensao_Dialetica_MultiVC",
+    "Auditoria_Adequacao_DART_Agencia (1-5)",
+    "Auditoria_Fidelidade_Pragmatica_Retorica (1-5)",
+    "Auditoria_Ancoragem_Verbatim_Micro_Meso (1-5)",
+    "Auditoria_Resolucao_Diluicao_Atomica",
+    "Status_Convergencia_Inter_Auditores",
+    "Anotacoes_Discordancias"
+]
+
+data_threads_b2 = []
+for t in sample_threads_b2:
+    data_threads_b2.append([
+        t["thread_id"],
+        t["game"],
+        t["title"],
+        t["url"],
+        enforce_max_words(t["summary"], 150),
+        t["volume_empirico"],
+        t["pids_constituintes"],
+        t["perfil_dominante"],
+        t["vetor_dart"],
+        t["dinamica_valor_ia"],
+        t["enquadramento_retorico"],
+        t["evidencia_verbatim"],
+        "", "", "",  # Roger
+        "", "", "",  # Gomide
+        "",          # Polifonia
+        "", "", "", "", "", ""  # Auditoria
+    ])
+
+render_table(ws6, 1, headers_threads_b2, data_threads_b2, {
+    1: alignment_center, 2: alignment_center, 6: alignment_center, 9: alignment_center,
+    15: alignment_center, 18: alignment_center, 20: alignment_center, 21: alignment_center,
+    22: alignment_center, 24: alignment_center
+})
+
+col_widths_ws6 = {
+    1: 16, 2: 18, 3: 38, 4: 42, 5: 75,
+    6: 24, 7: 38, 8: 42, 9: 26, 10: 38, 11: 38, 12: 50,
+    13: 38, 14: 32, 15: 22, 16: 38, 17: 32, 18: 22,
+    19: 52, 20: 24, 21: 24, 22: 24, 23: 55, 24: 38, 25: 65
+}
+for c_idx, width in col_widths_ws6.items():
+    ws6.column_dimensions[get_column_letter(c_idx)].width = width
+
+# ==========================================
+# FOLHA 7: POSTS_BLOCO2_ROGER_GOMIDE (251 POSTS CONSTITUINTES DO BLOCO 2)
+# ==========================================
+ws7 = wb.create_sheet(title="Posts_Bloco2_Roger_Gomide")
+ws7.views.sheetView[0].showGridLines = True
+ws7.freeze_panes = "E2"
+
+data_tb_posts_b2 = []
+for cp in constituent_posts_b2:
+    data_tb_posts_b2.append([
+        cp["tid"],
+        cp["pid"],
+        cp["jogo"],
+        cp["titulo_topico"],
+        cp["verbatim"],
+        cp["tema"],
+        cp["resumo"],
+        cp["tipo_ia"],
+        cp["inter"],
+        cp["valor"],
+        cp["dart"],
+        cp["rev_humana"],
+        cp["papel_ancoragem"],
+        cp["link"]
+    ])
+
+render_table(ws7, 1, headers_tb_posts, data_tb_posts_b2, {
+    1: alignment_center, 2: alignment_center, 3: alignment_center,
+    8: alignment_center, 9: alignment_center, 10: alignment_center, 11: alignment_center, 12: alignment_center
+})
+
+for c_idx, width in col_widths_ws5.items():
+    ws7.column_dimensions[get_column_letter(c_idx)].width = width
 
 output_path = "output/Protocolo_Auditoria_Humana_Formatado.xlsx"
 wb.save(output_path)
