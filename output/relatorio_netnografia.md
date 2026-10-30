@@ -8,7 +8,7 @@
 
 ### 1.1 Enquadramento Teórico e Mudança de Paradigma Analítico
 
-O presente relatório formaliza e aplica a framework **DART-NET v4.0** (Prahalad & Ramaswamy, 2004; Vargo & Lusch, 2016; Kozinets, 2020; DART-NET 2026) à análise da interação entre humanos e agentes de inteligência artificial (IA) em ecossistemas de videojogos. O modelo DART original — **Diálogo, Acesso, Risco e Transparência** — constitui a matriz conceptual para avaliar a qualidade das interações sociotécnicas. A versão **DART-NET v4.0** operacionaliza este referencial para ambientes digitais mediados por IA através de uma **Arquitetura Metodológica Multinível Incorporada (*Embedded Multilevel Design*)**, na qual o **Tópico de Discussão (*Thread*, Nível Meso, $N=152$)** assume o estatuto de **Unidade Primária de Análise, Sentido, Codificação Relacional e Teorização**, enquanto os **Posts Individuais (Nível Micro, $N=825$ refinados / $1.032$ totais)** são integralmente preservados e incorporados dentro dos respetivos tópicos como **Unidade de Ancoragem Empírica (*Verbatim Grounding*) e Controlo Forense Anti-Alucinação**.
+O presente relatório formaliza e aplica a framework **DART-NET v4.0** (Prahalad & Ramaswamy, 2004; Vargo & Lusch, 2016; Kozinets, 2020; DART-NET 2026) à análise da interação entre humanos e agentes de inteligência artificial (IA) em ecossistemas de videojogos. O modelo DART original — **Diálogo, Acesso, Risco e Transparência** — constitui a matriz conceptual para avaliar a qualidade das interações sociotécnicas. A versão **DART-NET v4.0** operacionaliza este referencial para ambientes digitais mediados por IA através de uma **Arquitetura Metodológica Multinível Incorporada (*Embedded Multilevel Design*)**, na qual o **Tópico de Discussão (*Thread*, Nível Meso, $N=152$)** assume o estatuto de **Unidade Primária de Análise, Sentido, Codificação Relacional e Teorização**, enquanto os **Posts Individuais (Nível Micro, $N=1.032$ posts ativos / $825$ no corte de contraste)** são integralmente preservados e incorporados dentro dos respetivos tópicos como **Unidade de Ancoragem Empírica (*Verbatim Grounding*) e Controlo Forense Anti-Alucinação**.
 
 ### 1.2 Distinção Fundamental: IA vs. Automação Convencional (A1–A6)
 
@@ -67,10 +67,11 @@ Por conseguinte, foi aplicado um **protocolo rigoroso de refinamento epistémico
 | **3. Queixas de Bots Mecânicos / Farming Tradicional** | Tópicos de gold farming, pixel scripts, casino bots e fishing macros (A2) | 33 posts | **Filtro Paradigmático (Automação Convencional vs. IA Moderna)**: O foco da investigação reside no impacto da inteligência artificial generativa, autónoma e adaptativa da era pós-2024 (LLMs, copilotos, agentes MCP, decisões contextuais). Queixas antigas sobre farming mecânico e bots determinísticos de repetição (fenómeno comum nos MMOs desde 2005) representam batota convencional sem qualquer agência inteligente ou dimensão cocriativa. A sua eliminação clarifica a fronteira sociotécnica do estudo. |
 
 > [!NOTE]
-> **Consolidação do Corpus Refinado**:
-> * Da interseção dos critérios resultou a exclusão líquida de **207 posts únicos** (48 posts apresentavam simultaneamente classificação A6 e pontuação Zero-DART).
-> * O dataset refinado consolida-se em **825 posts de alta densidade empírica**, preservando 100% dos episódios de agentes autónomos (A1), copilotos (A4) e cocriação de valor (VC1 e VC2).
-> * Todos os 207 posts excluídos foram arquivados com registo de auditoria em `data/analysis/excluded_posts_log.json`, e o corpus original de 1.032 posts permanece salvaguardado em `data/analysis/netnography_results_1032_unpruned.jsonl`.
+> **Consolidação do Experimento de Poda (Fase 3.5) e Reintegração Conversacional na Framework v4.0**:
+> * Da aplicação dos critérios de poda preliminar (Fase 3.5) resultou a exclusão experimental de **207 posts únicos** (48 posts apresentavam simultaneamente classificação A6 e pontuação Zero-DART), catalogados detalhadamente em `data/analysis/excluded_posts_log.json`.
+> * Esse corte gerou o subset de **825 posts refinados** utilizado nas Secções 2, 3 e 5 como **linha de base micro-empírica de contraste**, demonstrando empiricamente que a análise atómica isolada gera uma distorção analítica severa (*"Falácia da Diluição Atómica"* com 77,2% em VC4 e 3,2% em VC1).
+> * **Reintegração Conversacional**: Contudo, na Fase 6, ao elevar a unidade de análise para o **Tópico de Discussão (Nível Meso)**, constatou-se que a eliminação de posts no nível atómico causava a perda de 9 discussões inteiras (como o tópico `481937` em EVE Online, cujos únicos 2 posts tinham sido excluídos no corte atómico) e amputava diálogos vitais. Para preservar a integridade conversacional de todo o ecossistema, o ficheiro ativo `data/analysis/netnography_results.jsonl` unifica a totalidade dos **1.032 posts validados** integrados nos **152 tópicos ativos de discussão** em `data/analysis/thread_level_results.json`.
+> * O corpus original de 1.032 posts permanece igualmente salvaguardado em `data/analysis/netnography_results_1032_unpruned.jsonl`.
 
 ### 1.7 Arquitetura Metodológica Multinível Incorporada (*Embedded Multilevel Design* — DART-NET v4.0)
 
@@ -82,7 +83,7 @@ Por conseguinte, foi aplicado um **protocolo rigoroso de refinamento epistémico
 
 #### 1.7.1 Contribuição Metodológica Central: A Comparação Micro vs. Meso
 
-A superioridade empírica e teórica de estabelecer o **Tópico de Discussão ($N=152$)** como **Unidade Primária de Sentido, Análise e Teorização** e manter o **Post Individual ($N=825$ refinados / $1.032$ totais)** como **Unidade Incorporada de Ancoragem Empírica (*Verbatim Grounding*) e Contraste Crítico** constitui **um dos principais achados teóricos e metodológicos deste estudo** sobre a avaliação de valor em ecossistemas digitais. 
+A superioridade empírica e teórica de estabelecer o **Tópico de Discussão ($N=152$)** como **Unidade Primária de Sentido, Análise e Teorização** e manter o **Post Individual ($N=1.032$ ativos / $825$ no corte de contraste)** como **Unidade Incorporada de Ancoragem Empírica (*Verbatim Grounding*) e Contraste Crítico** constitui **um dos principais achados teóricos e metodológicos deste estudo** sobre a avaliação de valor em ecossistemas digitais. 
 
 Como síntese crítica fundamental:
 > *"Se aplicássemos uma abordagem ingénua de NLP/LLM analisando os 825 posts isoladamente, obteríamos uma imagem artificialmente estéril (77,2% em VC4 e 3,2% em VC1). Ao integrá-los no nível meso do tópico conversacional ($N=152$), revelamos a verdadeira densidade de cocriação (48,7% de impacto ativo de valor)."*
@@ -98,7 +99,7 @@ Como síntese crítica fundamental:
 Consequentemente, a **Framework Final DART-NET v4.0** estrutura-se em **três níveis analíticos incorporados** (preservando integralmente os posts de todos os tópicos e os respetivos campos analíticos):
 
 1. **Nível Meso — Unidade Primária de Análise, Sentido e Teorização (O Tópico de Discussão — $N=152$ discussões ativas)**: Constitui o centro gravitacional do estudo e a base substantiva para responder às Questões de Investigação (QI1, QI2 e QI3). É a este nível que se determinam a **Trajetória Relacional de Valor (`VC1–VC4`)**, o **Vetor DART Agregado ($D, A, R, T$)**, o **Enquadramento Sociotécnico nos 5 Clusters** (aplicando a regra de fronteira entre o Cluster 1 e o Cluster 5) e o **Registo Pragmático/Retórico** (deteção de sátira, ironia e humor via `TopicDiscussionAnalystAgent` e `ThreadSynthesisAgent`).
-2. **Nível Micro Incorporado — Unidade de Ancoragem Empírica e Evidência Forense (Os Posts do Tópico — $N=825$ refinados / $1.032$ totais)**: Cada tópico mantém vinculados todos os seus posts constituintes e respetivos campos (`Post_ID`, `Texto_Real_Verbatim`, `Tema`, `Resumo <= 60 palavras`, `A1–A5`, `I1–I6`, `VC1–VC4`, `DART`). O post individual cumpre três funções indispensáveis:
+2. **Nível Micro Incorporado — Unidade de Ancoragem Empírica e Evidência Forense (Os Posts do Tópico — $N=1.032$ ativos / $825$ no corte de contraste)**: Cada tópico mantém vinculados todos os seus posts constituintes e respetivos campos (`Post_ID`, `Texto_Real_Verbatim`, `Tema`, `Resumo <= 60 palavras`, `A1–A5`, `I1–I6`, `VC1–VC4`, `DART`). O post individual cumpre três funções indispensáveis:
    * **Ancoragem Anti-Alucinação (*Verbatim Grounding*)**: Nenhuma inferência de nível Meso é aceite sem citação literal verificável nos posts constituintes (ex.: citações exatas de código, mensagens de erro e respostas de suporte);
    * **Granularidade de Agência e Interação**: Fornece as contagens de micro-atos comunicativos (`A1–A5` e `I1–I6`) e a dispersão intra-tópico (consenso vs. polarização);
    * **Contraste Crítico e Auditoria Bidirecional Post-Tópico**: Permite confrontar a leitura atómica com a leitura holística, auditando a fidelidade factual do resumo do tópico.
@@ -432,8 +433,8 @@ Em conformidade com a **Arquitetura Metodológica Multinível Incorporada (DART-
 ### 8.1 Arquitetura Não Destrutiva e Poda Metodológica
 A pipeline garantiu a total rastreabilidade da investigação:
 1. **Camada 1 (Raw Data)**: Preservados 430 ficheiros brutos intactos em `data/raw/`;
-2. **Camada 2 (AI Coding)**: Registro integral das 1.032 codificações brutas em `netnography_results_1032_unpruned.jsonl` e do corpus refinado de 825 análises em `netnography_results.jsonl`;
-3. **Log de Poda Auditável**: Documentação individualizada dos 207 posts excluídos e respetivos motivos teóricos em `data/analysis/excluded_posts_log.json`.
+2. **Camada 2 (AI Coding)**: Registo integral das 1.032 codificações validadas em `data/analysis/netnography_results.jsonl` (organizadas nos 152 tópicos ativos de discussão) e preservação do arquivo não podado em `data/analysis/netnography_results_1032_unpruned.jsonl`;
+3. **Log de Poda Auditável**: Documentação individualizada dos 207 posts avaliados no experimento preliminar de poda da Fase 3.5 em `data/analysis/excluded_posts_log.json`.
 
 ### 8.2 Monitorização e Custo Global da Pipeline
 * **Volume de Chamadas de API**: Mais de 27.000 invocações acumuladas (`deepseek-v4-flash` e `deepseek-v4-pro`);
@@ -519,7 +520,7 @@ Em estrito cumprimento da **Arquitetura Metodológica Multinível Incorporada (D
 
 4. **Amostra de Expansão Estratificada e Protocolo Duplo-Cego Independente (Track B — Bloco 2: Prof. Roger & Prof. Gomide — $N=15$ Novos Tópicos / $251$ Posts Constituintes)**:
 
-De forma a expandir a validade externa e o poder estatístico da validação qualitativa humana, a amostra auditada foi duplicada de 15 para **30 discussões completas** (19,7% do corpus ativo de 152 tópicos), englobando um total cumulativo de **355 posts constituintes** (43,0% dos 825 posts refinados). 
+De forma a expandir a validade externa e o poder estatístico da validação qualitativa humana, a amostra auditada foi duplicada de 15 para **30 discussões completas** (19,7% do corpus ativo de 152 tópicos), englobando um total cumulativo de **355 posts constituintes** (34,4% dos 1.032 posts ativos / 43,0% do corte experimental de 825 posts). 
 
 Enquanto o **Bloco 1** ($N=15$ tópicos, 104 posts) foi integralmente codificado e calibrado em duas rondas por **Prof. JPaulo** e **Prof. Emmanoel** ($\kappa = 0,916$ em clusters e $\kappa = 1,00$ em trajetórias de valor), o **Bloco 2** ($N=15$ novos tópicos, 251 posts) foi especificamente desenhado para uma **avaliação independente em duplo-cego** conduzida por uma segunda equipa de investigadores seniores (**Prof. Roger** e **Prof. Gomide**).
 
@@ -553,10 +554,10 @@ A matriz abaixo sistematiza a caracterização analítica pré-auditoria do Bloc
 
 A tabela comparativa seguinte sumariza o alcance da auditoria humana no âmbito da framework DART-NET v4.0, demonstrando a robustez da amostragem em dois blocos independentes:
 
-| Dimensão de Amostragem | Bloco 1 (Prof. JPaulo & Prof. Emmanoel) | Bloco 2 (Prof. Roger & Prof. Gomide) | Total da Auditoria Humana Consolidada (Track B) | Cobertura Relativa do Corpus Ativo ($N=152$ Tópicos / $825$ Posts) |
+| Dimensão de Amostragem | Bloco 1 (Prof. JPaulo & Prof. Emmanoel) | Bloco 2 (Prof. Roger & Prof. Gomide) | Total da Auditoria Humana Consolidada (Track B) | Cobertura Relativa do Corpus Ativo ($N=152$ Tópicos / $1.032$ Posts) |
 | :--- | :---: | :---: | :---: | :---: |
 | **Tópicos de Discussão ($N$)** | **15 tópicos** | **15 tópicos** | **30 tópicos completos** | **19,7%** (~20% do ecossistema) |
-| **Posts Constituintes Retidos ($N$)** | **104 posts** | **251 posts** | **355 posts de ancoragem** | **43,0%** dos posts refinados |
+| **Posts Constituintes Retidos ($N$)** | **104 posts** | **251 posts** | **355 posts de ancoragem** | **34,4%** dos posts ativos (**43,0%** do corte de 825) |
 | **Volume de Posts Originais das Threads** | 1.015 posts | 801 posts | 1.816 posts originais | Ampla representatividade contextual |
 | **Distribuição por Ecossistema** | 7 EVE / 8 WoW | 6 EVE / 9 WoW | 13 EVE / 17 WoW | 43,3% EVE / 56,7% WoW (conforme corpus) |
 | **Estratificação por Clusters (C1 a C5)** | 3 C1, 3 C2, 2 C3, 4 C4, 3 C5 | 3 C1, 3 C2, 3 C3, 3 C4, 3 C5 | 6 C1, 6 C2, 5 C3, 7 C4, 6 C5 | Equilíbrio perfeito entre domínios sociotécnicos |
