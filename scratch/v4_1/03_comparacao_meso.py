@@ -1,14 +1,16 @@
 """DART-NET v4.1 — comparação micro vs. meso sobre a mesma base: regra 'basta um post', leitura holística e modelo nulo."""
-import json, os, random
+import json, os, random, sys
 from collections import Counter, defaultdict
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 A = lambda f: os.path.join(ROOT, "data", "analysis", f)
+# --completos: leitura holística feita sobre os tópicos completos (05_corpus_topicos_completos.py)
+SUF = "_completos" if "--completos" in sys.argv else ""
 VCS = ["VC1", "VC2", "VC3", "VC4"]
 CL = {"c1_api_mcp": 1, "c2_fairplay": 2, "c3_support": 3, "c4_followers": 4, "c5_vibecoding": 5}
 
 posts = [json.loads(l) for l in open(A("netnography_results_v4_1.jsonl"))]
-hol = {k: v for k, v in json.load(open(A("topic_holistic_coding_v4_1.json"))).items() if "erro" not in v}
+hol = {k: v for k, v in json.load(open(A(f"topic_holistic_coding_v4_1{SUF}.json"))).items() if "erro" not in v}
 old_threads = {x["thread_id"]: x for x in json.load(open(A("thread_level_results.json")))}
 
 th = defaultdict(list)
@@ -129,5 +131,5 @@ res["dart_micro"] = {g: {"todas": dart_means([p for p in posts if p["game"] == g
                      for g in ["EVE Online", "World of Warcraft"]}
 res["dart_micro"]["Total"] = {"todas": dart_means(posts, False), "so_evidencia_verbatim": dart_means(posts, True)}
 
-json.dump(res, open(A("comparacao_meso_v4_1.json"), "w"), indent=2, ensure_ascii=False)
+json.dump(res, open(A(f"comparacao_meso_v4_1{SUF}.json"), "w"), indent=2, ensure_ascii=False)
 print(json.dumps(res, indent=1, ensure_ascii=False))

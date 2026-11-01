@@ -1,0 +1,208 @@
+{
+  "N_topicos": 151,
+  "erros_completos": [],
+  "filtrado": {
+    "total": {
+      "VC1": {
+        "n": 26,
+        "pct": 17.2
+      },
+      "VC2": {
+        "n": 20,
+        "pct": 13.2
+      },
+      "VC3": {
+        "n": 24,
+        "pct": 15.9
+      },
+      "VC4": {
+        "n": 81,
+        "pct": 53.6
+      },
+      "impacto_ativo_pct": 46.4,
+      "N": 151
+    },
+    "EVE Online": {
+      "VC1": {
+        "n": 19,
+        "pct": 24.1
+      },
+      "VC2": {
+        "n": 13,
+        "pct": 16.5
+      },
+      "VC3": {
+        "n": 10,
+        "pct": 12.7
+      },
+      "VC4": {
+        "n": 37,
+        "pct": 46.8
+      },
+      "impacto_ativo_pct": 53.2,
+      "N": 79
+    },
+    "World of Warcraft": {
+      "VC1": {
+        "n": 7,
+        "pct": 9.7
+      },
+      "VC2": {
+        "n": 7,
+        "pct": 9.7
+      },
+      "VC3": {
+        "n": 14,
+        "pct": 19.4
+      },
+      "VC4": {
+        "n": 44,
+        "pct": 61.1
+      },
+      "impacto_ativo_pct": 38.9,
+      "N": 72
+    },
+    "cluster": {
+      "1": 13,
+      "2": 27,
+      "3": 11,
+      "4": 43,
+      "5": 57
+    },
+    "secundario": {
+      "VC1": 1,
+      "VC3": 1
+    },
+    "evidencia_verbatim_pct": 99.3,
+    "confianca": {
+      "2": 94,
+      "3": 57
+    },
+    "truncados": []
+  },
+  "completos": {
+    "total": {
+      "VC1": {
+        "n": 31,
+        "pct": 20.5
+      },
+      "VC2": {
+        "n": 15,
+        "pct": 9.9
+      },
+      "VC3": {
+        "n": 23,
+        "pct": 15.2
+      },
+      "VC4": {
+        "n": 82,
+        "pct": 54.3
+      },
+      "impacto_ativo_pct": 45.7,
+      "N": 151
+    },
+    "EVE Online": {
+      "VC1": {
+        "n": 24,
+        "pct": 30.4
+      },
+      "VC2": {
+        "n": 7,
+        "pct": 8.9
+      },
+      "VC3": {
+        "n": 7,
+        "pct": 8.9
+      },
+      "VC4": {
+        "n": 41,
+        "pct": 51.9
+      },
+      "impacto_ativo_pct": 48.1,
+      "N": 79
+    },
+    "World of Warcraft": {
+      "VC1": {
+        "n": 7,
+        "pct": 9.7
+      },
+      "VC2": {
+        "n": 8,
+        "pct": 11.1
+      },
+      "VC3": {
+        "n": 16,
+        "pct": 22.2
+      },
+      "VC4": {
+        "n": 41,
+        "pct": 56.9
+      },
+      "impacto_ativo_pct": 43.1,
+      "N": 72
+    },
+    "cluster": {
+      "1": 19,
+      "2": 27,
+      "3": 9,
+      "4": 45,
+      "5": 51
+    },
+    "secundario": {
+      "VC2": 5,
+      "VC3": 4,
+      "VC4": 5,
+      "VC1": 2
+    },
+    "evidencia_verbatim_pct": 100.0,
+    "confianca": {
+      "2": 55,
+      "3": 96
+    },
+    "truncados": [
+      "510327"
+    ]
+  },
+  "vc_filtrado_vs_completos": {
+    "acordo_pct": 78.8,
+    "kappa": 0.667,
+    "matriz": {
+      "VC1": {
+        "VC1": 23,
+        "VC2": 2,
+        "VC3": 0,
+        "VC4": 1
+      },
+      "VC2": {
+        "VC1": 6,
+        "VC2": 11,
+        "VC3": 0,
+        "VC4": 3
+      },
+      "VC3": {
+        "VC1": 1,
+        "VC2": 0,
+        "VC3": 15,
+        "VC4": 8
+      },
+      "VC4": {
+        "VC1": 1,
+        "VC2": 2,
+        "VC3": 8,
+        "VC4": 70
+      }
+    }
+  },
+  "cluster_filtrado_vs_completos": {
+    "acordo_pct": 80.1,
+    "kappa": 0.732
+  },
+  "regra_vs_completos": {
+    "acordo_pct": 49.7,
+    "kappa": 0.221
+  },
+  "regra_vs_filtrado": [
+    49.0,
+    0.213
+  ]
+}

@@ -35,9 +35,11 @@ def update_cost_log(model_name, prompt_tokens, completion_tokens):
             try:
                 with open(cost_file, "r", encoding="utf-8") as f:
                     data = json.load(f)
-            except Exception:
-                pass
-        
+            except Exception as e:
+                # Never start a fresh log over an unreadable one: that would wipe the cost history
+                logger.error(f"Failed to read cost log, call not logged: {e}")
+                return
+
         data["total_cost_usd"] += call_cost
         data["calls"].append({
             "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
@@ -48,8 +50,11 @@ def update_cost_log(model_name, prompt_tokens, completion_tokens):
         })
         
         try:
-            with open(cost_file, "w", encoding="utf-8") as f:
+            # Atomic replace, so another process never reads a half-written file
+            tmp_file = f"{cost_file}.{os.getpid()}.tmp"
+            with open(tmp_file, "w", encoding="utf-8") as f:
                 json.dump(data, f, indent=2, ensure_ascii=False)
+            os.replace(tmp_file, cost_file)
         except Exception as e:
             logger.error(f"Failed to write cost log: {e}")
 

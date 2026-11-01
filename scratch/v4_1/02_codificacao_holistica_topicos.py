@@ -14,9 +14,16 @@ from api_client import call_deepseek_raw
 from sanitizer import sanitize_text
 
 MODEL = config.MODEL_PRO
-IN_FILE = os.path.join(ROOT, "data", "analysis", "netnography_results_v4_1.jsonl")
-OUT_FILE = os.path.join(ROOT, "data", "analysis", "topic_holistic_coding_v4_1.json")
-MAX_CHARS = 90000
+# --completos: lê os tópicos completos (05_corpus_topicos_completos.py) em vez dos posts filtrados por relevância
+COMPLETOS = "--completos" in sys.argv
+if COMPLETOS:
+    IN_FILE = os.path.join(ROOT, "data", "processed", "topicos_completos_v4_1.jsonl")
+    OUT_FILE = os.path.join(ROOT, "data", "analysis", "topic_holistic_coding_v4_1_completos.json")
+    MAX_CHARS = 300000
+else:
+    IN_FILE = os.path.join(ROOT, "data", "analysis", "netnography_results_v4_1.jsonl")
+    OUT_FILE = os.path.join(ROOT, "data", "analysis", "topic_holistic_coding_v4_1.json")
+    MAX_CHARS = 90000
 
 SYSTEM = """És um codificador qualitativo especialista em netnografia e cocriação de valor (Service-Dominant Logic, modelo DART de Prahalad & Ramaswamy).
 Vais classificar UM tópico de discussão de um fórum de videojogos sobre inteligência artificial, lendo-o como um TODO (post de abertura → respostas → desfecho).
@@ -27,7 +34,7 @@ VC2 — Potencial de Cocriação: há intenção, proposta, protótipo ou teste 
 VC3 — Codestruição de Valor: a interação com IA (ou com sistemas automatizados) gera dano, perda, injustiça ou quebra de confiança. Ex.: banimento injusto por sistema automático; suporte com respostas automáticas inúteis; bots que arruínam a competição; perda de recursos por conselho errado de um LLM.
 VC4 — Sem Evidência Direta de Valor: debate reflexivo, opinativo, normativo ou especulativo sobre IA, sem relato de ganho ou perda concretos.
 Regras de decisão: (a) VC1 exige um resultado concreto e não apenas uma intenção (senão é VC2). (b) Uma queixa genérica sem dano concreto relatado é VC4, não VC3. (c) Um único post de cocriação perdido numa discussão maioritariamente reflexiva não torna o tópico VC1 — usa-o como VC_Secundario. (d) Tem em conta a ironia: um elogio sarcástico à IA não é cocriação.
-VC_Secundario: segunda dinâmica claramente presente, diferente da principal. Só pode ser VC1, VC2 ou VC3 (VC4 nunca é secundário, porque é ausência de valor). Usa-o apenas se houver um episódio concreto dessa dinâmica num post; não o uses para exprimir dúvida (para isso baixa a confiança). null se não existir.
+VC_Secundario: segunda dinâmica claramente presente, diferente da principal. Usa-o apenas se houver um episódio concreto dessa dinâmica num post; não o uses para exprimir dúvida (para isso baixa a confiança). null se não existir.
 
 CLUSTER TEMÁTICO (1–5) — o tema dominante:
 1 — Ferramentas Externas, APIs e MCP: a IA comunica automaticamente com dados vivos do jogo via API (ex.: ESI de EVE, servidores MCP, killboards).
@@ -82,7 +89,7 @@ def parse(content):
     assert d["vc_principal"] in ("VC1", "VC2", "VC3", "VC4")
     if d.get("vc_secundario") in ("", "null", "None", d["vc_principal"]):
         d["vc_secundario"] = None
-    assert d["vc_secundario"] in (None, "VC1", "VC2", "VC3"), "VC4 não é aceite como secundário"
+    assert d["vc_secundario"] in (None, "VC1", "VC2", "VC3", "VC4")
     assert int(d["confianca"]) in (1, 2, 3)
     assert d["ironia_satira"] in ("Sim", "Parcial", "Não")
     d["cluster"], d["confianca"] = int(d["cluster"]), int(d["confianca"])

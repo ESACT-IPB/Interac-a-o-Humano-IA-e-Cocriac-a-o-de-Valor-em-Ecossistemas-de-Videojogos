@@ -1,12 +1,14 @@
 """DART-NET v4.1 — estatísticas usadas na atualização do relatório (corte de contraste, jogos, clusters)."""
-import json, os
+import json, os, sys
 from collections import Counter, defaultdict
 from statistics import mean
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 A = lambda f: os.path.join(ROOT, "data", "analysis", f)
+# --completos: leitura holística feita sobre os tópicos completos (05_corpus_topicos_completos.py)
+SUF = "_completos" if "--completos" in sys.argv else ""
 posts = [json.loads(l) for l in open(A("netnography_results_v4_1.jsonl"))]
-hol = json.load(open(A("topic_holistic_coding_v4_1.json")))
+hol = json.load(open(A(f"topic_holistic_coding_v4_1{SUF}.json")))
 old = {x["thread_id"]: x for x in json.load(open(A("thread_level_results.json")))}
 log = json.load(open(A("correcoes_v4_1_log.json")))
 exc = json.load(open(A("excluded_posts_log.json")))["excluded_posts"]
@@ -59,5 +61,5 @@ r["topicos_interacao_direta"] = {
                             pct(sum(1 for t in th if any(p["interaction_type"] in ("I1", "I2", "I3") for p in th[t])), len(th))]}
 old_any = sum(1 for t, x in old.items() if any(x["inter_counts"].get(i, 0) for i in ("I1", "I2", "I3")))
 r["topicos_interacao_direta"]["antigo_mesma_definicao"] = [old_any, pct(old_any, len(old))]
-json.dump(r, open(A("estatisticas_relatorio_v4_1.json"), "w"), indent=2, ensure_ascii=False)
+json.dump(r, open(A(f"estatisticas_relatorio_v4_1{SUF}.json"), "w"), indent=2, ensure_ascii=False)
 print(json.dumps(r, indent=1, ensure_ascii=False))
