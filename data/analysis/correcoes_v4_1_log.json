@@ -1,0 +1,213 @@
+{
+  "versao": "4.1",
+  "jogo_corrigido": {
+    "n_posts": 73,
+    "topicos": [
+      "reddit_1t939or",
+      "reddit_1spdcd4",
+      "reddit_1r77r09",
+      "reddit_1u0bxq6",
+      "reddit_1ormrc6",
+      "reddit_1q7m0sl",
+      "reddit_1usj0hv",
+      "reddit_1vdomcq",
+      "reddit_1phwb0r",
+      "reddit_1pftbpi",
+      "reddit_1d8nm29",
+      "reddit_1r3mzvw",
+      "reddit_1sq7b1r",
+      "reddit_1vy3jwo"
+    ]
+  },
+  "subreddit_corrigido": [
+    "reddit_1tvlpnw_1",
+    "reddit_1tvlpnw_2",
+    "reddit_1ariy3g_6",
+    "reddit_1ariy3g_3",
+    "reddit_1ariy3g_5",
+    "reddit_1ariy3g_9",
+    "reddit_1ariy3g_26",
+    "reddit_1ariy3g_20",
+    "reddit_1ariy3g_29",
+    "reddit_1ariy3g_23",
+    "reddit_1ariy3g_7",
+    "reddit_1v3v2p2_1"
+  ],
+  "fusao_topico": {
+    "de": "3000003",
+    "para": "2248893",
+    "posts_fundidos": [
+      [
+        "3000003_28811597",
+        "2248893_28811597"
+      ],
+      [
+        "3000003_28811563",
+        "2248893_28811563"
+      ],
+      [
+        "3000003_28811536",
+        "2248893_28811536"
+      ],
+      [
+        "3000003_28811619",
+        "2248893_28811619"
+      ],
+      [
+        "3000003_28811612",
+        "2248893_28811612"
+      ],
+      [
+        "3000003_28811529",
+        "2248893_28811529"
+      ],
+      [
+        "3000003_28811485",
+        "2248893_28811485"
+      ],
+      [
+        "3000003_28811542",
+        "2248893_28811542"
+      ],
+      [
+        "3000003_28811459",
+        "2248893_28811459"
+      ],
+      [
+        "3000003_28811508",
+        "2248893_28811508"
+      ],
+      [
+        "3000003_28811611",
+        "2248893_28811611"
+      ],
+      [
+        "3000003_28811479",
+        "2248893_28811479"
+      ],
+      [
+        "3000003_28811555",
+        "2248893_28811555"
+      ],
+      [
+        "3000003_28811513",
+        "2248893_28811513"
+      ],
+      [
+        "3000003_28811610",
+        "2248893_28811610"
+      ]
+    ],
+    "duplicados_removidos": [
+      "3000003_28811587",
+      "3000003_28811578",
+      "3000003_28811596"
+    ]
+  },
+  "pseudonimizacao": {
+    "n_nomes": 20,
+    "n_posts": 25,
+    "ocorrencias": 29
+  },
+  "post_vazio_assinalado": [
+    "1twaq1l_11"
+  ],
+  "evidencia": {
+    "nao_aplicavel": 1576,
+    "verbatim": 2439,
+    "nao_verbatim": 58,
+    "sem_evidencia": 41,
+    "parcial": 2
+  },
+  "catalogo": {
+    "entradas_originais": 303,
+    "entradas_v4_1": 291,
+    "removidas_ou_corrigidas": [
+      [
+        "2630723",
+        "https://www.mmo-champion.com/threads/2630723-Midnight-12-X-Patches-amp-World-Soul-Saga-Speculation-Thread/page7623",
+        "duplicado"
+      ],
+      [
+        "2630723",
+        "https://www.mmo-champion.com/threads/2630723-Midnight-12-X-Patches-amp-World-Soul-Saga-Speculation-Thread/page7668",
+        "duplicado"
+      ],
+      [
+        "2669679",
+        "https://www.mmo-champion.com/threads/2669679-The-Last-Titan-Full-story-and-features/page2",
+        "duplicado"
+      ],
+      [
+        "1d8nm29",
+        "https://www.reddit.com/r/wow/comments/1d8nm29/help_my_ceo_is_chatgpt",
+        "entrada r/wow inexistente (subreddit real: r/Eve)"
+      ],
+      [
+        "1ormrc6",
+        "https://www.reddit.com/r/wow/comments/1ormrc6/are_ais_the_new_botherders_or_just_a_way_to_buff",
+        "entrada r/wow inexistente (subreddit real: r/Eve)"
+      ],
+      [
+        "1pftbpi",
+        "https://www.reddit.com/r/wow/comments/1pftbpi/i_fine_tuned_aura_to_act_as_a_real_ai_copilot",
+        "entrada r/wow inexistente (subreddit real: r/Eve)"
+      ],
+      [
+        "1phwb0r",
+        "https://www.reddit.com/r/wow/comments/1phwb0r/a_narrative_killboard_ai_based_intel",
+        "entrada r/wow inexistente (subreddit real: r/Eve)"
+      ],
+      [
+        "1q7m0sl",
+        "https://www.reddit.com/r/wow/comments/1q7m0sl/incoming_aura_ai_chatbot",
+        "entrada r/wow inexistente (subreddit real: r/Eve)"
+      ],
+      [
+        "1r3mzvw",
+        "https://www.reddit.com/r/wow/comments/1r3mzvw/i_built_killreport_modern_killmail_tracker_for",
+        "entrada r/wow inexistente (subreddit real: r/Eve)"
+      ],
+      [
+        "1r77r09",
+        "https://www.reddit.com/r/wow/comments/1r77r09/eve_evolved_aura_guidance",
+        "entrada r/wow inexistente (subreddit real: r/Eve)"
+      ],
+      [
+        "1spdcd4",
+        "https://www.reddit.com/r/wow/comments/1spdcd4/evekillcom_we_llm_now_and_more",
+        "entrada r/wow inexistente (subreddit real: r/Eve)"
+      ],
+      [
+        "1sq7b1r",
+        "https://www.reddit.com/r/wow/comments/1sq7b1r/eve_market_scout_llm_coded_project",
+        "entrada r/wow inexistente (subreddit real: r/Eve)"
+      ],
+      [
+        "1t939or",
+        "https://www.reddit.com/r/wow/comments/1t939or/is_it_allowed_to_use_an_ai_for_tradingmarket",
+        "entrada r/wow inexistente (subreddit real: r/Eve)"
+      ],
+      [
+        "1u0bxq6",
+        "https://www.reddit.com/r/wow/comments/1u0bxq6/aura_ai_for_real_now",
+        "entrada r/wow inexistente (subreddit real: r/Eve)"
+      ],
+      [
+        "1usj0hv",
+        "https://www.reddit.com/r/wow/comments/1usj0hv/do_you_think_we_will_see_ai_corporations_via",
+        "entrada r/wow inexistente (subreddit real: r/Eve)"
+      ],
+      [
+        "1vdomcq",
+        "https://www.reddit.com/r/wow/comments/1vdomcq/how_many_people_are_using_ai_to_build_tools_to",
+        "entrada r/wow inexistente (subreddit real: r/Eve)"
+      ],
+      [
+        "1vy3jwo",
+        "https://www.reddit.com/r/wow/comments/1vy3jwo/i_created_chatgpt_copilot_for_eve",
+        "entrada r/wow inexistente (subreddit real: r/Eve)"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "N_posts": 1029,
+  "N_topicos": 151,
+  "N_topicos_codificados_holistico": 151,
+  "micro_posts": {
+    "VC1": {
+      "n": 26,
+      "pct": 2.5
+    },
+    "VC2": {
+      "n": 74,
+      "pct": 7.2
+    },
+    "VC3": {
+      "n": 116,
+      "pct": 11.3
+    },
+    "VC4": {
+      "n": 813,
+      "pct": 79.0
+    },
+    "impacto_ativo_pct": 21.0,
+    "N": 1029
+  },
+  "micro_posts_sem_A6_irrelevantes": {
+    "VC1": {
+      "n": 26,
+      "pct": 2.8
+    },
+    "VC2": {
+      "n": 74,
+      "pct": 7.8
+    },
+    "VC3": {
+      "n": 116,
+      "pct": 12.3
+    },
+    "VC4": {
+      "n": 727,
+      "pct": 77.1
+    },
+    "impacto_ativo_pct": 22.9,
+    "N": 943
+  },
+  "meso_regra_basta_um": {
+    "VC1": {
+      "n": 19,
+      "pct": 12.6
+    },
+    "VC2": {
+      "n": 19,
+      "pct": 12.6
+    },
+    "VC3": {
+      "n": 35,
+      "pct": 23.2
+    },
+    "VC4": {
+      "n": 78,
+      "pct": 51.7
+    },
+    "impacto_ativo_pct": 48.3,
+    "N": 151
+  },
+  "meso_holistico_llm": {
+    "VC1": {
+      "n": 26,
+      "pct": 17.2
+    },
+    "VC2": {
+      "n": 20,
+      "pct": 13.2
+    },
+    "VC3": {
+      "n": 24,
+      "pct": 15.9
+    },
+    "VC4": {
+      "n": 81,
+      "pct": 53.6
+    },
+    "impacto_ativo_pct": 46.4,
+    "N": 151
+  },
+  "concordancia_regra_vs_holistico": {
+    "acordo_pct": 49.0,
+    "kappa": 0.213,
+    "matriz": {
+      "VC1": {
+        "VC1": 9,
+        "VC2": 5,
+        "VC3": 1,
+        "VC4": 4
+      },
+      "VC2": {
+        "VC1": 5,
+        "VC2": 3,
+        "VC3": 2,
+        "VC4": 9
+      },
+      "VC3": {
+        "VC1": 0,
+        "VC2": 1,
+        "VC3": 14,
+        "VC4": 20
+      },
+      "VC4": {
+        "VC1": 12,
+        "VC2": 11,
+        "VC3": 7,
+        "VC4": 48
+      }
+    }
+  },
+  "modelo_nulo_regra": {
+    "media_impacto_ativo_pct": 57.7,
+    "ic95": [
+      52.3,
+      62.9
+    ],
+    "observado_regra_pct": 48.3,
+    "p_observado_maior_ou_igual": 0.9998
+  },
+  "por_jogo": {
+    "EVE Online": {
+      "topicos": 79,
+      "posts": 511,
+      "micro": {
+        "VC1": {
+          "n": 15,
+          "pct": 2.9
+        },
+        "VC2": {
+          "n": 39,
+          "pct": 7.6
+        },
+        "VC3": {
+          "n": 40,
+          "pct": 7.8
+        },
+        "VC4": {
+          "n": 417,
+          "pct": 81.6
+        },
+        "impacto_ativo_pct": 18.4,
+        "N": 511
+      },
+      "meso_regra": {
+        "VC1": {
+          "n": 9,
+          "pct": 11.4
+        },
+        "VC2": {
+          "n": 9,
+          "pct": 11.4
+        },
+        "VC3": {
+          "n": 12,
+          "pct": 15.2
+        },
+        "VC4": {
+          "n": 49,
+          "pct": 62.0
+        },
+        "impacto_ativo_pct": 38.0,
+        "N": 79
+      },
+      "meso_holistico": {
+        "VC1": {
+          "n": 19,
+          "pct": 24.1
+        },
+        "VC2": {
+          "n": 13,
+          "pct": 16.5
+        },
+        "VC3": {
+          "n": 10,
+          "pct": 12.7
+        },
+        "VC4": {
+          "n": 37,
+          "pct": 46.8
+        },
+        "impacto_ativo_pct": 53.2,
+        "N": 79
+      }
+    },
+    "World of Warcraft": {
+      "topicos": 72,
+      "posts": 518,
+      "micro": {
+        "VC1": {
+          "n": 11,
+          "pct": 2.1
+        },
+        "VC2": {
+          "n": 35,
+          "pct": 6.8
+        },
+        "VC3": {
+          "n": 76,
+          "pct": 14.7
+        },
+        "VC4": {
+          "n": 396,
+          "pct": 76.4
+        },
+        "impacto_ativo_pct": 23.6,
+        "N": 518
+      },
+      "meso_regra": {
+        "VC1": {
+          "n": 10,
+          "pct": 13.9
+        },
+        "VC2": {
+          "n": 10,
+          "pct": 13.9
+        },
+        "VC3": {
+          "n": 23,
+          "pct": 31.9
+        },
+        "VC4": {
+          "n": 29,
+          "pct": 40.3
+        },
+        "impacto_ativo_pct": 59.7,
+        "N": 72
+      },
+      "meso_holistico": {
+        "VC1": {
+          "n": 7,
+          "pct": 9.7
+        },
+        "VC2": {
+          "n": 7,
+          "pct": 9.7
+        },
+        "VC3": {
+          "n": 14,
+          "pct": 19.4
+        },
+        "VC4": {
+          "n": 44,
+          "pct": 61.1
+        },
+        "impacto_ativo_pct": 38.9,
+        "N": 72
+      }
+    }
+  },
+  "cluster": {
+    "regex_pipeline": {
+      "3": 25,
+      "5": 51,
+      "2": 32,
+      "1": 22,
+      "4": 21
+    },
+    "holistico_llm": {
+      "2": 27,
+      "5": 57,
+      "4": 43,
+      "3": 11,
+      "1": 13
+    },
+    "acordo_regex_vs_llm_pct": 56.3,
+    "kappa_regex_vs_llm": 0.433
+  },
+  "holistico_qualidade": {
+    "evidencia_verbatim_pct": 99.3,
+    "confianca": {
+      "3": 57,
+      "2": 94
+    },
+    "ironia_satira": {
+      "Não": 97,
+      "Parcial": 54
+    },
+    "truncados": []
+  },
+  "dart_micro": {
+    "EVE Online": {
+      "todas": {
+        "dialogue": 1.01,
+        "access": 1.17,
+        "risk": 1.39,
+        "transparency": 1.06
+      },
+      "so_evidencia_verbatim": {
+        "dialogue": 0.99,
+        "access": 1.16,
+        "risk": 1.29,
+        "transparency": 1.03
+      }
+    },
+    "World of Warcraft": {
+      "todas": {
+        "dialogue": 0.85,
+        "access": 0.94,
+        "risk": 1.64,
+        "transparency": 1.26
+      },
+      "so_evidencia_verbatim": {
+        "dialogue": 0.85,
+        "access": 0.93,
+        "risk": 1.57,
+        "transparency": 1.2
+      }
+    },
+    "Total": {
+      "todas": {
+        "dialogue": 0.93,
+        "access": 1.06,
+        "risk": 1.52,
+        "transparency": 1.17
+      },
+      "so_evidencia_verbatim": {
+        "dialogue": 0.92,
+        "access": 1.04,
+        "risk": 1.43,
+        "transparency": 1.12
+      }
+    }
+  }
+}

@@ -2,13 +2,22 @@
 
 **Análise Comparativa Multinível Incorporada entre EVE Online (Sandbox) e World of Warcraft (Controlado)**
 
+> [!IMPORTANT]
+> **Revisão de dados v4.1 (1 de novembro de 2026)**: os valores deste relatório foram recalculados sobre o corpus corrigido `data/analysis/netnography_results_v4_1.jsonl`. As correções, registadas em `data/analysis/correcoes_v4_1_log.json`, foram:
+> * **Jogo**: 14 tópicos do subreddit r/Eve estavam atribuídos a *World of Warcraft* (confirmado na API Arctic Shift). Passaram para *EVE Online*, o que altera todas as comparações entre ecossistemas.
+> * **Duplicado**: o tópico `3000003` era uma cópia parcial do `2248893`; foi fundido (15 posts movidos, 3 duplicados removidos).
+> * **Pseudonimização**: 20 nomes de utilizador que ainda apareciam no texto dos posts foram substituídos por *tokens*.
+> * **Evidência DART**: cada citação foi verificada contra o texto original do post.
+>
+> O corpus ativo passa de 1.032 posts / 152 tópicos para **1.029 posts / 151 tópicos** (79 EVE Online, 72 World of Warcraft), e o corte de contraste passa de 825 para **824 posts**. Foi ainda acrescentada uma **codificação holística cega dos 151 tópicos** (`deepseek-v4-pro`, sem acesso aos rótulos dos posts) e um **modelo nulo** para a comparação micro vs. meso (`data/analysis/comparacao_meso_v4_1.json`). Os scripts estão em `scratch/v4_1/`.
+
 ---
 
 ## 1. Sumário Metodológico e Framework DART-NET v4.0 (Arquitetura Multinível Incorporada)
 
 ### 1.1 Enquadramento Teórico e Mudança de Paradigma Analítico
 
-O presente relatório formaliza e aplica a framework **DART-NET v4.0** (Prahalad & Ramaswamy, 2004; Vargo & Lusch, 2016; Kozinets, 2020; DART-NET 2026) à análise da interação entre humanos e agentes de inteligência artificial (IA) em ecossistemas de videojogos. O modelo DART original — **Diálogo, Acesso, Risco e Transparência** — constitui a matriz conceptual para avaliar a qualidade das interações sociotécnicas. A versão **DART-NET v4.0** operacionaliza este referencial para ambientes digitais mediados por IA através de uma **Arquitetura Metodológica Multinível Incorporada (*Embedded Multilevel Design*)**, na qual o **Tópico de Discussão (*Thread*, Nível Meso, $N=152$)** assume o estatuto de **Unidade Primária de Análise, Sentido, Codificação Relacional e Teorização**, enquanto os **Posts Individuais (Nível Micro, $N=1.032$ posts ativos / $825$ no corte de contraste)** são integralmente preservados e incorporados dentro dos respetivos tópicos como **Unidade de Ancoragem Empírica (*Verbatim Grounding*) e Controlo Forense Anti-Alucinação**.
+O presente relatório formaliza e aplica a framework **DART-NET v4.0** (Prahalad & Ramaswamy, 2004; Vargo & Lusch, 2016; Kozinets, 2020; DART-NET 2026) à análise da interação entre humanos e agentes de inteligência artificial (IA) em ecossistemas de videojogos. O modelo DART original — **Diálogo, Acesso, Risco e Transparência** — constitui a matriz conceptual para avaliar a qualidade das interações sociotécnicas. A versão **DART-NET v4.0** operacionaliza este referencial para ambientes digitais mediados por IA através de uma **Arquitetura Metodológica Multinível Incorporada (*Embedded Multilevel Design*)**, na qual o **Tópico de Discussão (*Thread*, Nível Meso, $N=151$)** assume o estatuto de **Unidade Primária de Análise, Sentido, Codificação Relacional e Teorização**, enquanto os **Posts Individuais (Nível Micro, $N=1.029$ posts ativos / $824$ no corte de contraste)** são integralmente preservados e incorporados dentro dos respetivos tópicos como **Unidade de Ancoragem Empírica (*Verbatim Grounding*) e Controlo Forense Anti-Alucinação**.
 
 ### 1.2 Distinção Fundamental: IA vs. Automação Convencional (A1–A6)
 
@@ -69,37 +78,41 @@ Por conseguinte, foi aplicado um **protocolo rigoroso de refinamento epistémico
 > [!NOTE]
 > **Consolidação do Experimento de Poda (Fase 3.5) e Reintegração Conversacional na Framework v4.0**:
 > * Da aplicação dos critérios de poda preliminar (Fase 3.5) resultou a exclusão experimental de **207 posts únicos** (48 posts apresentavam simultaneamente classificação A6 e pontuação Zero-DART), catalogados detalhadamente em `data/analysis/excluded_posts_log.json`.
-> * Esse corte gerou o subset de **825 posts refinados** utilizado nas Secções 2, 3 e 5 como **linha de base micro-empírica de contraste**, demonstrando empiricamente que a análise atómica isolada gera uma distorção analítica severa (*"Falácia da Diluição Atómica"* com 77,2% em VC4 e 3,2% em VC1).
+> * Esse corte gerou o subset de **825 posts refinados** utilizado nas Secções 2, 3 e 5 como **linha de base micro-empírica de contraste**, demonstrando empiricamente que a análise atómica isolada gera uma distorção analítica severa (77,2% em VC4 e 3,2% em VC1).
 > * **Reintegração Conversacional**: Contudo, na Fase 6, ao elevar a unidade de análise para o **Tópico de Discussão (Nível Meso)**, constatou-se que a eliminação de posts no nível atómico causava a perda de 9 discussões inteiras (como o tópico `481937` em EVE Online, cujos únicos 2 posts tinham sido excluídos no corte atómico) e amputava diálogos vitais. Para preservar a integridade conversacional de todo o ecossistema, o ficheiro ativo `data/analysis/netnography_results.jsonl` unifica a totalidade dos **1.032 posts validados** integrados nos **152 tópicos ativos de discussão** em `data/analysis/thread_level_results.json`.
 > * O corpus original de 1.032 posts permanece igualmente salvaguardado em `data/analysis/netnography_results_1032_unpruned.jsonl`.
+> * **Revisão v4.1**: após a fusão do tópico duplicado `3000003`, o corpus ativo tem **1.029 posts em 151 tópicos** (`data/analysis/netnography_results_v4_1.jsonl`). Aplicando o mesmo registo de exclusões, o corte de contraste tem **824 posts** (205 dos 207 posts excluídos continuam no corpus; os outros 2 eram duplicados removidos).
 
 ### 1.7 Arquitetura Metodológica Multinível Incorporada (*Embedded Multilevel Design* — DART-NET v4.0)
 
 À luz da teoria de **Interação Humano-Computador (HCI / CSCW)**, da **Lógica Dominante do Serviço (*Service-Dominant Logic* / Cocriação de Valor)** e dos **Estudos de Videojogos (*Game Studies*)**, a análise isolada de posts atómicos sofre de limitações epistemológicas severas que apenas uma arquitetura centrada no **Tópico de Discussão (*Thread*) com incorporação dos seus posts constituintes** permite superar:
 
 1. **Princípio da Indexicalidade Conversacional e *Common Ground* (HCI / CSCW)**: Em plataformas assíncronas como *Reddit* e *Discourse* (Blizzard / CCP Forums), um post individual não é um documento autónomo, mas um **turno conversacional** (*conversational turn*; Clark & Brennan, 1991; Bakhtin, 1986) cujo significado semântico depende das mensagens antecedentes, do post de abertura (*Original Post* — OP) e das respostas subsequentes.
-2. **Superação da "Falácia da Diluição Atómica do Valor" (Cocriação e Codestruição de Valor)**: Segundo Prahalad & Ramaswamy (2004), Vargo & Lusch (2016) e Plé & Chumpitaz Cáceres (2010), a cocriação (`VC1`/`VC2`) e a codestruição (`VC3`) de valor são **processos relacionais e temporais** que emergem na trajetória dialética (proposta ou queixa inicial $\rightarrow$ escrutínio técnico comunitário $\rightarrow$ iteração com o agente de IA $\rightarrow$ estabilização ou rutura). Quando o processo é fatiado em posts isolados, turnos intermédios de diagnóstico ou pergunta surgem artificialmente como "neutros" (`VC4`).
+2. **Natureza Relacional e Temporal do Valor (Cocriação e Codestruição de Valor)**: Segundo Prahalad & Ramaswamy (2004), Vargo & Lusch (2016) e Plé & Chumpitaz Cáceres (2010), a cocriação (`VC1`/`VC2`) e a codestruição (`VC3`) de valor são **processos relacionais e temporais** que emergem na trajetória dialética (proposta ou queixa inicial $\rightarrow$ escrutínio técnico comunitário $\rightarrow$ iteração com o agente de IA $\rightarrow$ estabilização ou rutura). Quando o processo é fatiado em posts isolados, turnos intermédios de diagnóstico ou pergunta surgem artificialmente como "neutros" (`VC4`).
 3. **Pragmática Subcultural Situada e Descodificação de Sátira/Ironia (*Game Studies* e Netnografia)**: Comunidades de MMORPGs (*EVE Online* e *World of Warcraft*) operam com elevado capital subcultural (Consalvo, 2007; Kozinets, 2020), recorrendo sistematicamente a ironia, sarcasmo, *shitposting* e paródia corporativa. Fora do enquadramento completo do tópico, codificadores automatizados incorrem em alucinação literal; quando o post é confrontado com a totalidade do tópico, a intenção figurativa torna-se empiricamente transparente (permitindo demarcar com rigor **238 posts** com tags explícitas de `[Sátira/Ironia]` ou `[Humor/Piada]` e **383 posts** com enquadramento retórico contextualizado em `output/tabela_resumos.md`).
 
 #### 1.7.1 Contribuição Metodológica Central: A Comparação Micro vs. Meso
 
-A superioridade empírica e teórica de estabelecer o **Tópico de Discussão ($N=152$)** como **Unidade Primária de Sentido, Análise e Teorização** e manter o **Post Individual ($N=1.032$ ativos / $825$ no corte de contraste)** como **Unidade Incorporada de Ancoragem Empírica (*Verbatim Grounding*) e Contraste Crítico** constitui **um dos principais achados teóricos e metodológicos deste estudo** sobre a avaliação de valor em ecossistemas digitais. 
+Estabelecer o **Tópico de Discussão ($N=151$)** como **Unidade Primária de Sentido, Análise e Teorização** e manter o **Post Individual ($N=1.029$ ativos / $824$ no corte de contraste)** como **Unidade Incorporada de Ancoragem Empírica (*Verbatim Grounding*) e Contraste Crítico** é uma das contribuições metodológicas do estudo. A revisão v4.1 testou esta comparação de três formas: (i) com a mesma base de posts nos dois níveis; (ii) contra um modelo nulo; (iii) com uma codificação holística independente dos tópicos.
 
-Como síntese crítica fundamental:
-> *"Se aplicássemos uma abordagem ingénua de NLP/LLM analisando os 825 posts isoladamente, obteríamos uma imagem artificialmente estéril (77,2% em VC4 e 3,2% em VC1). Ao integrá-los no nível meso do tópico conversacional ($N=152$), revelamos a verdadeira densidade de cocriação (48,7% de impacto ativo de valor)."*
+| Dimensão de Valor | Micro: corte de contraste ($N=824$ posts) | Micro: corpus ativo ($N=1.029$ posts) | Meso — regra de agregação ($N=151$ tópicos) | Meso — leitura holística cega ($N=151$ tópicos) |
+| :--- | :---: | :---: | :---: | :---: |
+| **VC1 (Cocriação Efetiva)** | `3,2%` (26) | `2,5%` (26) | `12,6%` (19) | **`17,2%` (26)** |
+| **VC2 (Potencial de Cocriação)** | `8,7%` (72) | `7,2%` (74) | `12,6%` (19) | **`13,2%` (20)** |
+| **VC3 (Codestruição)** | `10,9%` (90) | `11,3%` (116) | `23,2%` (35) | **`15,9%` (24)** |
+| **VC4 (Sem Evidência Direta)** | `77,2%` (636) | `79,0%` (813) | `51,7%` (78) | **`53,6%` (81)** |
+| **Impacto Ativo ($\text{VC1}+\text{VC2}+\text{VC3}$)** | **`22,8%`** (188) | **`21,0%`** (216) | **`48,3%`** (73) | **`46,4%`** (70) |
 
-| Dimensão de Valor Sociotécnico | Nível Micro Isolado: Posts Individuais ($N=825$) *(Linha de Base Descritiva)* | Nível Meso Completo: Tópicos de Discussão ($N=152$) *(Unidade Primária de Sentido)* | Efeito Epistemológico e Teórico (Superação da Diluição Atómica) |
-| :--- | :---: | :---: | :--- |
-| **VC1 (Cocriação Efetiva de Valor)** | `3,2%` (26 posts) | **`12,5%` (19 tópicos)** | **Multiplicação por $3,9\times$**: Captura o ciclo colaborativo completo (ex.: *EVE Crews* no tópico `510327`, onde 20 dos 41 posts pareciam `VC4` isoladamente). |
-| **VC2 (Potencial de Cocriação)** | `8,7%` (72 posts) | **`13,8%` (21 tópicos)** | **Aumento de $+58,6\%$**: Consolida propostas arquiteturais (*Ask Aura* `512367`, addons ML `reddit_1tvlpnw`) debatidas ao longo da *thread*. |
-| **VC3 (Codestruição de Valor)** | `10,9%` (90 posts) | **`22,4%` (34 tópicos)** | **Duplicação ($2,05\times$)**: Revela o contágio coletivo da perda de confiança institucional (*ChatGPT GM* `2152188`, *pixel bots* `2116712`). |
-| **Impacto Ativo de Valor ($\text{VC1}+\text{VC2}+\text{VC3}$)** | **`22,8%` (188 posts)** | **`48,7%` (74 tópicos)** | **Salto de $+25,9\text{ p.p.}$ ($2,14\times$)**: Elimina a falácia da diluição atómica, provando que quase metade das discussões gera transformação ativa de valor. |
-| **VC4 (Reflexão Crítica / Neutro)** | `77,2%` (637 posts) | **`51,3%` (78 tópicos)** | Redução da aparente neutralidade atómica pela integração dos turnos intermédios na trajetória global da discussão. |
+**Leitura dos resultados**:
+1. **A regra de agregação, por si só, não demonstra o ganho meso.** A pipeline classifica um tópico como VC1 se pelo menos um dos seus posts for VC1, e como VC3 se tiver mais posts VC3 do que VC2. Pela mesma lógica, quanto mais posts um tópico tem, mais provável é que fique com impacto ativo. Para medir esse efeito, os rótulos dos posts foram baralhados aleatoriamente entre tópicos, mantendo o tamanho de cada tópico (5.000 simulações). Com rótulos baralhados, a mesma regra produz em média **57,7%** de tópicos com impacto ativo (IC95%: 52,3–62,9%). O valor observado (48,3%) fica **abaixo** desse intervalo. O salto de ~21–23% para ~48% resulta, portanto, da regra e não constitui evidência empírica de cocriação ao nível do tópico.
+2. **A leitura holística independente chega a uma proporção semelhante por outra via.** O `deepseek-v4-pro` leu cada tópico completo, por ordem cronológica, sem ver os rótulos dos posts, e aplicou as mesmas instruções dadas aos codificadores humanos. Resultado: **46,4%** de impacto ativo, com 150 das 151 citações de evidência verificadas literalmente no texto. Isto sustenta que perto de metade das discussões tem uma dinâmica de valor ativa. A leitura holística é estável: numa segunda corrida, em que só mudou a regra do VC secundário (Secção 7.3.1), manteve o VC principal em 142 dos 151 tópicos ($\kappa = 0,91$ teste-reteste).
+3. **As duas leituras meso não identificam os mesmos tópicos.** O acordo entre a regra e a leitura holística é de apenas **49,0%** ($\kappa = 0,21$, acordo fraco). A leitura holística atribui mais cocriação efetiva (VC1: 26 vs. 19 tópicos) e menos codestruição (VC3: 24 vs. 35). Por exemplo, 20 dos 35 tópicos que a regra marca como VC3 são, na leitura holística, VC4: queixas genéricas sem dano concreto relatado.
+4. **Conclusão operacional**: a proporção agregada (~48%) é robusta às duas leituras, mas a distribuição entre VC1, VC2 e VC3 depende do método. As conclusões substantivas sobre cocriação vs. codestruição devem apoiar-se na leitura holística e ser confirmadas pela codificação humana cega em curso (Secção 7.3).
 
 Consequentemente, a **Framework Final DART-NET v4.0** estrutura-se em **três níveis analíticos incorporados** (preservando integralmente os posts de todos os tópicos e os respetivos campos analíticos):
 
-1. **Nível Meso — Unidade Primária de Análise, Sentido e Teorização (O Tópico de Discussão — $N=152$ discussões ativas)**: Constitui o centro gravitacional do estudo e a base substantiva para responder às Questões de Investigação (QI1, QI2 e QI3). É a este nível que se determinam a **Trajetória Relacional de Valor (`VC1–VC4`)**, o **Vetor DART Agregado ($D, A, R, T$)**, o **Enquadramento Sociotécnico nos 5 Clusters** (aplicando a regra de fronteira entre o Cluster 1 e o Cluster 5) e o **Registo Pragmático/Retórico** (deteção de sátira, ironia e humor via `TopicDiscussionAnalystAgent` e `ThreadSynthesisAgent`).
-2. **Nível Micro Incorporado — Unidade de Ancoragem Empírica e Evidência Forense (Os Posts do Tópico — $N=1.032$ ativos / $825$ no corte de contraste)**: Cada tópico mantém vinculados todos os seus posts constituintes e respetivos campos (`Post_ID`, `Texto_Real_Verbatim`, `Tema`, `Resumo <= 60 palavras`, `A1–A5`, `I1–I6`, `VC1–VC4`, `DART`). O post individual cumpre três funções indispensáveis:
+1. **Nível Meso — Unidade Primária de Análise, Sentido e Teorização (O Tópico de Discussão — $N=151$ discussões ativas)**: Constitui o centro gravitacional do estudo e a base substantiva para responder às Questões de Investigação (QI1, QI2 e QI3). É a este nível que se determinam a **Trajetória Relacional de Valor (`VC1–VC4`)**, o **Vetor DART Agregado ($D, A, R, T$)**, o **Enquadramento Sociotécnico nos 5 Clusters** (aplicando a regra de fronteira entre o Cluster 1 e o Cluster 5) e o **Registo Pragmático/Retórico** (deteção de sátira, ironia e humor via `TopicDiscussionAnalystAgent` e `ThreadSynthesisAgent`).
+2. **Nível Micro Incorporado — Unidade de Ancoragem Empírica e Evidência Forense (Os Posts do Tópico — $N=1.029$ ativos / $824$ no corte de contraste)**: Cada tópico mantém vinculados todos os seus posts constituintes e respetivos campos (`Post_ID`, `Texto_Real_Verbatim`, `Tema`, `Resumo <= 60 palavras`, `A1–A5`, `I1–I6`, `VC1–VC4`, `DART`). O post individual cumpre três funções indispensáveis:
    * **Ancoragem Anti-Alucinação (*Verbatim Grounding*)**: Nenhuma inferência de nível Meso é aceite sem citação literal verificável nos posts constituintes (ex.: citações exatas de código, mensagens de erro e respostas de suporte);
    * **Granularidade de Agência e Interação**: Fornece as contagens de micro-atos comunicativos (`A1–A5` e `I1–I6`) e a dispersão intra-tópico (consenso vs. polarização);
    * **Contraste Crítico e Auditoria Bidirecional Post-Tópico**: Permite confrontar a leitura atómica com a leitura holística, auditando a fidelidade factual do resumo do tópico.
@@ -110,37 +123,37 @@ Consequentemente, a **Framework Final DART-NET v4.0** estrutura-se em **três n�
 ## 2. Taxonomia de Agentes de IA e Interações
 
 > **Nota Metodológica de Enquadramento (Abordagem Multinível Incorporada)**:  
-> As contagens e frequências apresentadas nesta secção e na Secção 3 ($N=825$ posts) representam a **camada micro-empírica atomizada**, funcionando como um inventário descritivo dos turnos comunicativos e linha de base granular. Em estrito cumprimento da metodologia DART-NET v4.0, estes números **não devem ser interpretados como conclusões substantivas isoladas sobre o valor do ecossistema**, mas sim como a matéria-prima empírica cuja significação teórica plena se consolida ao nível dos **152 tópicos de discussão** (Secções 4, 6 e 7).
+> As contagens e frequências apresentadas nesta secção e na Secção 3 ($N=824$ posts) representam a **camada micro-empírica atomizada**, funcionando como um inventário descritivo dos turnos comunicativos e linha de base granular. Em estrito cumprimento da metodologia DART-NET v4.0, estes números **não devem ser interpretados como conclusões substantivas isoladas sobre o valor do ecossistema**, mas sim como a matéria-prima empírica cuja significação teórica plena se consolida ao nível dos **151 tópicos de discussão** (Secções 4, 6 e 7).
 
 ### 2.1 Distribuição de Tipos de IA (A1–A5 no Corpus Refinado)
 
-Após a remoção do ruído residual (A6) e da automação mecânica desprovida de DART, a distribuição dos **825 posts refinados** revela o perfil descritivo dos turnos comunicativos no corpus:
+Após a remoção do ruído residual (A6) e da automação mecânica desprovida de DART, a distribuição dos **824 posts refinados** revela o perfil descritivo dos turnos comunicativos no corpus:
 
 | Tipo de IA | Frequência | Percentagem | Papel no Ecossistema |
 | :--- | :---: | :---: | :--- |
-| **A5 (Discussão Reflexiva sobre IA)** | 637 | 77,2% | Discurso crítico, expectativas éticas, impacto no mercado de trabalho e futuro do design de videojogos. |
+| **A5 (Discussão Reflexiva sobre IA)** | 636 | 77,2% | Discurso crítico, expectativas éticas, impacto no mercado de trabalho e futuro do design de videojogos. |
 | **A1 (Agente de IA Autónomo / LLM)** | 95 | 11,5% | Agentes com raciocínio contextual, LLMs integrados, companheiros de tripulação e bots generativos. |
 | **A4 (Humano Assistido por IA)** | 59 | 7,2% | Copilotos de código, criação de macros assistidas por IA (vibe-coding) e ferramentas de análise situacional. |
 | **A2 (Bot Convencional Relevante)** | 17 | 2,1% | Automações que afetam criticamente as dimensões DART (ex.: transparência de dados em APIs ou moderação). |
 | **A3 (Script / Automação Determinística)** | 17 | 2,1% | Scripts determinísticos com impacto direto em acesso a dados ou interfaces externas. |
 | **A6 (Ruído / Não-IA)** | **0** | **0,0%** | *(Integralmente expurgado na fase de poda metodológica).* |
-| **Total** | **825** | **100,0%** | **Corpus Empírico Refinado** |
+| **Total** | **824** | **100,0%** | **Corpus Empírico Refinado** |
 
 **Análise**: No corpus purificado, as interações e discussões com relevância direta de IA (A1 + A4) representam cerca de **18,7%** do ecossistema, comprovando que quase um em cada cinco posts empíricos envolve agência autónoma ou hibridismo humano-máquina. A predominância de A5 (77,2%) reflete que os ecossistemas de videojogos operam primariamente como arenas de negociação social sobre a introdução da IA.
 
-**Resposta à QI1a (Proporção de Agentes Autónomos vs. Bots)**: A proporção de agentes de IA autónomos (A1: 11,5%) e de assistência híbrida (A4: 7,2%) supera substancialmente a presença de bots e scripts convencionais residuais (A2+A3: 4,2%). Este resultado demonstra que, ao expurgar o ruído e o farming mecânico do século passado, o ecossistema atual encontra-se fortemente polarizado entre o **discurso sociotécnico reflexivo (A5)** e a **experimentação ativa com agentes e copilotos modernos (A1/A4)**.
+**Resposta à QI1a (Proporção de Agentes Autónomos vs. Bots)**: A proporção de agentes de IA autónomos (A1: 11,5%) e de assistência híbrida (A4: 7,2%) supera substancialmente a presença de bots e scripts convencionais residuais (A2+A3: 4,1%). Este resultado demonstra que, ao expurgar o ruído e o farming mecânico do século passado, o ecossistema atual encontra-se fortemente polarizado entre o **discurso sociotécnico reflexivo (A5)** e a **experimentação ativa com agentes e copilotos modernos (A1/A4)**.
 
 ### 2.2 Estruturas de Interação Humano-IA (I1–I6)
 
 | Tipo de Interação | Frequência | Percentagem | Natureza Empírica |
 | :--- | :---: | :---: | :--- |
-| **I4 (Humano → Humano sobre IA)** | 641 | 77,7% | Trocas sociais sobre impacto, ética, receio de substituição e viabilidade de IA nos jogos. |
+| **I4 (Humano → Humano sobre IA)** | 640 | 77,7% | Trocas sociais sobre impacto, ética, receio de substituição e viabilidade de IA nos jogos. |
 | **I6 (Sem interação significativa)** | 67 | 8,1% | Menções contextuais breves, que caíram drasticamente de 34,0% para apenas 8,1% após a poda. |
 | **I3 (Humano ↔ IA Bidirecional)** | 56 | 6,8% | Loops de interação contínua, simulação com copilotos e diálogos iterativos (núcleo de cocriação). |
 | **I1 (Humano → IA Unidirecional)** | 48 | 5,8% | Comandos diretos, prompts, consultas de informação e instruções a copilotos ou LLMs. |
 | **I5 (Humano → Ambiente mediado por IA)** | 6 | 0,7% | Exploração de instâncias com bots dinâmicos (Follower Dungeons) e interfaces de inteligência. |
 | **I2 (IA → Humano Unidirecional)** | 7 | 0,8% | Recomendações proativas, alertas situacionais e relatórios gerados autonomamente por agentes. |
-| **Total** | **825** | **100,0%** | — |
+| **Total** | **824** | **100,0%** | — |
 
 **Análise**: As interações diretas e ativas com agentes de IA (I1 + I2 + I3 + I5) somam agora **14,2% do corpus** (117 posts), revelando uma penetração técnica muito superior à observada na amostra não filtrada. Destaca-se a solidez das interações bidirecionais (I3: 6,8%), que formam a base analítica para a cocriação simétrica de valor.
 
@@ -151,18 +164,20 @@ Após a remoção do ruído residual (A6) e da automação mecânica desprovida 
 ## 3. Análise por Dimensão DART
 
 > **Nota Metodológica de Enquadramento (Abordagem Multinível Incorporada)**:  
-> As pontuações DART apresentadas nesta secção avaliam a intensidade dos micro-atos comunicativos contidos em cada um dos **825 posts refinados**. Servem como uma aferição de sensibilidade granular e inventário de referências textuais imediatas. A configuração sistémica completa do vetor DART — que traduz a maturidade sociotécnica real do ambiente lúdico — consolida-se através da ponderação agregada ao nível dos **152 tópicos de discussão** (Secção 4.3).
+> As pontuações DART apresentadas nesta secção avaliam a intensidade dos micro-atos comunicativos contidos em cada um dos **824 posts refinados**. Servem como uma aferição de sensibilidade granular e inventário de referências textuais imediatas. A configuração sistémica completa do vetor DART — que traduz a maturidade sociotécnica real do ambiente lúdico — consolida-se através da ponderação agregada ao nível dos **151 tópicos de discussão** (Secção 4.3).
 
 ### 3.1 Visão Global das Pontuações no Corpus Refinado
 
-| Dimensão DART | Média no Corpus Refinado (0–5) | Interpretação Metodológica |
-| :--- | :---: | :--- |
-| **Diálogo (D)** | **1,09** | Presença ativa em canais de feedback, loops de copilotos e comandos iterativos. |
-| **Acesso (A)** | **1,20** | Disponibilização de inteligência de jogo, endpoints de API e copilotos de dados. |
-| **Risco (R)** | **1,61** | Dimensão mais saliente: apreensão com desequilíbrio competitivo, assimetria e dependência. |
-| **Transparência (T)** | **1,34** | Reivindicação de explicabilidade técnica, rotulagem de IA e diagnóstico auditável. |
+| Dimensão DART | Média no Corpus Refinado (0–5) | Média só com Evidência Verbatim (0–5) | Interpretação Metodológica |
+| :--- | :---: | :---: | :--- |
+| **Diálogo (D)** | **1,09** | 1,08 | Presença ativa em canais de feedback, loops de copilotos e comandos iterativos. |
+| **Acesso (A)** | **1,21** | 1,19 | Disponibilização de inteligência de jogo, endpoints de API e copilotos de dados. |
+| **Risco (R)** | **1,62** | 1,54 | Dimensão mais saliente: apreensão com desequilíbrio competitivo, assimetria e dependência. |
+| **Transparência (T)** | **1,34** | 1,28 | Reivindicação de explicabilidade técnica, rotulagem de IA e diagnóstico auditável. |
 
-Com a exclusão metódica dos 172 posts "Zero DART", a densidade analítica do corpus elevou-se expressivamente. Todas as quatro dimensões apresentam agora valores médios superiores a 1,0, comprovando que **100% das mensagens retidas contêm substância empírica verificável** para a análise de cocriação de valor.
+Com a exclusão dos 172 posts "Zero DART", todas as quatro dimensões apresentam valores médios superiores a 1,0, e todas as mensagens retidas têm pontuação em pelo menos uma dimensão. Esta propriedade decorre do próprio critério de exclusão e não constitui, por si só, evidência adicional de substância empírica.
+
+**Verificação da evidência (v4.1)**: cada pontuação DART acima de zero vem acompanhada de uma citação justificativa produzida pelo LLM. A revisão v4.1 confirmou se essa citação existe literalmente no post. A coluna "só com evidência verbatim" atribui zero às pontuações cuja citação não foi encontrada no texto (total ou parcialmente). As médias descem no máximo 0,08 pontos (Risco), e a ordem das dimensões mantém-se.
 
 ### 3.2 Diálogo (Média: 1,09/5)
 
@@ -176,7 +191,7 @@ A dimensão Diálogo avalia a capacidade de comunicação bidirecional, reciproc
 
 **Análise**: O Diálogo floresce com particular intensidade nos ecossistemas com ferramentas abertas e assistentes integrados, onde a IA não opera como um oráculo passivo, mas como um interlocutor interativo de cocriação.
 
-### 3.3 Acesso (Média: 1,20/5)
+### 3.3 Acesso (Média: 1,21/5)
 
 A dimensão Acesso investiga como os sistemas de IA facilitam, democratizam ou restringem o acesso a recursos, conhecimento tático e capacidades computacionais no jogo.
 
@@ -188,13 +203,13 @@ A dimensão Acesso investiga como os sistemas de IA facilitam, democratizam ou r
 
 **Análise**: O Acesso surge como o pilar mais funcionalmente transformador do DART: a IA quebra a barreira de entrada da extrema complexidade de folhas de cálculo e dados de API em jogos sandbox.
 
-### 3.4 Risco (Média: 1,61/5)
+### 3.4 Risco (Média: 1,62/5)
 
-A dimensão Risco constitui a faceta mais proeminente e articulada no discurso empírico dos jogadores (1,61/5), englobando preocupações de justiça distributiva (*fair play*), exploração económica e perda de agência.
+A dimensão Risco constitui a faceta mais proeminente e articulada no discurso empírico dos jogadores (1,62/5), englobando preocupações de justiça distributiva (*fair play*), exploração económica e perda de agência.
 
 **Evidências empíricas no corpus refinado**:
 
-- **Post reddit_1ormrc6_1** (World of Warcraft, A5, I4, VC3): Pontuação de Risco = **5/5**. Preocupação explícita com assimetria económica e vantagens indevidas: *"Unfair advantage. Will players using a paid AI assistant for market analysis or crafting get an edge that free-to-play users cannot match?"*
+- **Post reddit_1ormrc6_1** (EVE Online, A5, I4, VC3): Pontuação de Risco = **5/5**. Preocupação explícita com assimetria económica e vantagens indevidas: *"Unfair advantage. Will players using a paid AI assistant for market analysis or crafting get an edge that free-to-play users cannot match?"*
 - **Post 2116712_27042848** (World of Warcraft, A5, I4, VC3): Pontuação de Risco = **5/5**. Dano à integridade do ambiente competitivo de PvP: *"This is an epidemic, and feel I see AT LEAST one of these in each lobby. When are proactive algorithmic bans coming?"*
 - **Post 1ph9o3i_22** (EVE Online, A4, I3, VC3): Pontuação de Risco = **4/5**. Alucinações de modelos generativos que causam perdas de ativos espaciais: *"MISTAKES WERE MADE."*
 
@@ -210,7 +225,7 @@ A dimensão Transparência mensura a visibilidade das regras algorítmicas, a ro
 - **Post 2318118_29656965** (World of Warcraft, A5, I4, VC3): Pontuação de Transparência = **5/5**. Exigência de rotulagem e escrutínio público das editoras: *"they say they didn’t use AI, but the devs could’ve at some point especially for generative texture work, we demand disclosure."*
 - **Post 510327_2866379** (EVE Online, A1, I3, VC1): Pontuação de Transparência = **5/5**. Documentação explícita de parâmetros analíticos: *"The crew numbers in EVE Crews are derived from a blend of official CCP lore, historical documentation and ship volume metrics."*
 
-**Análise**: A Transparência é a dimensão com maior assimetria entre jogos: em EVE Online é ativamente construída pelos criadores de ferramentas comunitárias (via logs e diagnósticos abertos), ao passo que em World of Warcraft é primariamente reivindicada contra a opacidade das políticas corporativas da Blizzard.
+**Análise**: Com o jogo corrigido (v4.1), a Transparência média por post é **mais alta em World of Warcraft** (1,26) do que em EVE Online (1,06), no corpus ativo de 1.029 posts. A diferença está sobretudo na natureza da transparência: em EVE Online é construída pelos criadores de ferramentas comunitárias (logs e diagnósticos abertos); em World of Warcraft é sobretudo **reivindicada** contra a opacidade das políticas corporativas da Blizzard, o que faz subir a pontuação sem que haja transparência efetiva.
 
 ---
 
@@ -220,63 +235,71 @@ A dimensão Transparência mensura a visibilidade das regras algorítmicas, a ro
 
 | Jogo | Posts Analisados no Corpus Refinado | Percentagem |
 | :--- | :---: | :---: |
-| **World of Warcraft (Ambiente Controlado)** | 521 | 63,2% |
-| **EVE Online (Ambiente Sandbox)** | 304 | 36,8% |
-| **Total Refinado** | **825** | **100,0%** |
+| **World of Warcraft (Ambiente Controlado)** | 453 | 55,0% |
+| **EVE Online (Ambiente Sandbox)** | 371 | 45,0% |
+| **Total Refinado** | **824** | **100,0%** |
+
+*Nota v4.1*: antes da correção, 14 tópicos do r/Eve estavam contados como World of Warcraft (73 posts no corpus ativo, 67 no corte de contraste). A distribuição antiga era 521 WoW / 304 EVE.
 
 ### 4.2 Comparação de Padrões e Culturas Comunitárias
 
-1. **EVE Online (Sandbox — 304 posts)**:
+1. **EVE Online (Sandbox — 371 posts)**:
    * **Cultura Construtiva e Extensível**: O acesso aberto à API ESI e a introdução do protocolo MCP catalisam a criação de agentes autónomos (A1) e copilotos avançados (A4). 
    * **Cocriação Dialógica**: Concentra os casos mais proeminentes de cocriação efetiva (VC1: ex. ferramentas EVE Crews e Battlefield.Space).
    * **Risco Centrado na Economia**: Preocupação predominante com a distorção do mercado financeiro e a desestabilização de nós de produção espacial por agentes algorítmicos.
 
-2. **World of Warcraft (Controlado — 521 posts)**:
+2. **World of Warcraft (Controlado — 453 posts)**:
    * **Cultura Protetiva e Regulada**: Foco nas instâncias de combate (míticas e raids), onde a autonomia externa é encarada com desconfiança e severamente punida pelo código de conduta da editora.
    * **Codestruição e Frustração (VC3)**: Forte saliência de queixas sobre moderação automática cega de tickets de suporte e desconfiança quanto à presença de bots inteligentes nas arenas competitivas.
    * **Inovação Oficial**: Acolhimento positivo mas cauteloso de instâncias geridas por IA nativa (*Follower Dungeons*), vistas como oportunidade de treino sem pressão tóxica de outros jogadores.
 
-### 4.3 Agregação ao Nível de Tópicos de Discussão (152 Threads Ativas) — A Unidade Primária de Sentido
+### 4.3 Agregação ao Nível de Tópicos de Discussão (151 Threads Ativas) — A Unidade Primária de Sentido
 
-Na perspetiva meso-sociotécnica da framework **DART-NET v4.0**, o agrupamento dos posts nos seus respetivos **152 tópicos de discussão (*threads*) ativos** constitui a **unidade substantiva primária** para captar os ciclos deliberativos e a evolução temporal das dinâmicas de cocriação de valor. A análise comparativa agregada por ecossistema evidencia contrastes estruturais marcantes:
+Na perspetiva meso-sociotécnica da framework **DART-NET v4.0**, o agrupamento dos posts nos seus respetivos **151 tópicos de discussão (*threads*) ativos** constitui a **unidade substantiva primária** para captar os ciclos deliberativos e a evolução temporal das dinâmicas de cocriação de valor. A tabela apresenta as duas leituras meso: a regra de agregação da pipeline e a leitura holística cega (Secção 1.7.1).
 
 | Dimensão Analítica / Ecossistema | EVE Online (Sandbox Aberto) | World of Warcraft (Ambiente Controlado) | Total Consolidado (Nível Meso) |
 | :--- | :---: | :---: | :---: |
-| **Número de Tópicos Ativos** | **65 tópicos** (42,8%) | **87 tópicos** (57,2%) | **152 tópicos** (100,0%) |
-| **Volume de Posts Analisados** | 438 posts (42,4%) | 594 posts (57,6%) | 1.032 posts (100,0%) |
-| **Média de Posts por Tópico** | `6,74` posts/tópico | `6,83` posts/tópico | `6,79` posts/tópico |
-| **Vetor DART Médio Global** | `D: 0,83 | A: 1,41 | R: 1,44 | T: 1,31` | `D: 0,93 | A: 1,16 | R: 1,52 | T: 1,30` | `D: 0,89 | A: 1,27 | R: 1,49 | T: 1,30` |
-| **Tópicos VC1 (Cocriação Efetiva)** | **7,7%** (5 tópicos) | **16,1%** (14 tópicos) | **12,5%** (19 tópicos) |
-| **Tópicos VC2 (Potencial de Cocriação)** | **13,8%** (9 tópicos) | **13,8%** (12 tópicos) | **13,8%** (21 tópicos) |
-| **Tópicos VC3 (Codestruição / Fricção)** | **15,4%** (10 tópicos) | **27,6%** (24 tópicos) | **22,4%** (34 tópicos) |
-| **Tópicos VC4 (Reflexivos / Neutros)** | **63,1%** (41 tópicos) | **42,5%** (37 tópicos) | **51,3%** (78 tópicos) |
+| **Número de Tópicos Ativos** | **79 tópicos** (52,3%) | **72 tópicos** (47,7%) | **151 tópicos** (100,0%) |
+| **Volume de Posts Analisados** | 511 posts (49,7%) | 518 posts (50,3%) | 1.029 posts (100,0%) |
+| **Média de Posts por Tópico** | `6,47` posts/tópico | `7,19` posts/tópico | `6,81` posts/tópico |
+| **Vetor DART Médio por Tópico** | `D: 0,87 | A: 1,47 | R: 1,44 | T: 1,27` | `D: 0,91 | A: 1,05 | R: 1,54 | T: 1,35` | `D: 0,89 | A: 1,27 | R: 1,49 | T: 1,31` |
+| **VC1 (Cocriação Efetiva)** — holística / regra | **24,1%** (19) / 11,4% (9) | **9,7%** (7) / 13,9% (10) | **17,2%** (26) / 12,6% (19) |
+| **VC2 (Potencial de Cocriação)** — holística / regra | **16,5%** (13) / 11,4% (9) | **9,7%** (7) / 13,9% (10) | **13,2%** (20) / 12,6% (19) |
+| **VC3 (Codestruição)** — holística / regra | **12,7%** (10) / 15,2% (12) | **19,4%** (14) / 31,9% (23) | **15,9%** (24) / 23,2% (35) |
+| **VC4 (Sem Evidência Direta)** — holística / regra | **46,8%** (37) / 62,0% (49) | **61,1%** (44) / 40,3% (29) | **53,6%** (81) / 51,7% (78) |
+| **Impacto Ativo** — holística / regra | **53,2%** / 38,0% | **38,9%** / 59,7% | **46,4%** / 48,3% |
 
-**Interpretação Teórica e Contribuição Metodológica Central**:
-1. **Superação Epistémica da Diluição Atómica**: A comparação direta entre o nível micro e o nível meso consolida um dos principais achados teóricos deste estudo:
-   > *"Se aplicássemos uma abordagem ingénua de NLP/LLM analisando os 825 posts isoladamente, obteríamos uma imagem artificialmente estéril (77,2% em VC4 e 3,2% em VC1). Ao integrá-los no nível meso do tópico conversacional ($N=152$), revelamos a verdadeira densidade de cocriação (48,7% de impacto ativo de valor)."*  
-   Enquanto na análise atómica por post apenas 3,2% das mensagens atingiam VC1 e 10,9% VC3, na escala de tópicos **12,5% das discussões materializam cocriação efetiva (VC1)** e **22,4% refletem episódios de codestruição (VC3)**. No seu conjunto, **48,7% dos tópicos** apresentam impacto ativo de valor (VC1 + VC2 + VC3), comprovando que a unidade conversacional (*thread*) captura a totalidade do ciclo deliberativo que posts isolados fragmentam.
-2. **Assimetria Estrutural de Acesso e Transparência**: Em *EVE Online*, o Acesso médio (`1,41`) e a Transparência (`1,31`) superam os valores de *WoW* (`1,16` e `1,30`), impulsionados pela infraestrutura aberta de APIs (ESI e MCP).
-3. **Hiperconcentração de Codestruição em WoW**: Em *World of Warcraft*, mais de um quarto dos tópicos ativos (**27,6% em VC3**, contra 15,4% em EVE) documentam perdas severas de confiança, banimentos indevidos e atritos institucionais decorrentes da automação do suporte ao cliente.
+**Interpretação Teórica**:
+1. **As duas leituras meso invertem o contraste entre jogos.** Pela regra de agregação, *World of Warcraft* teria mais impacto ativo (59,7% vs. 38,0%). Pela leitura holística, é *EVE Online* que o tem (53,2% vs. 38,9%), com mais do dobro da proporção de cocriação efetiva (VC1: 24,1% vs. 9,7%). A regra é sensível ao número de posts por tópico e ao rótulo de um único post, e os tópicos de WoW são em média mais longos (7,19 vs. 6,47 posts). Por isso, a comparação entre ecossistemas deve basear-se na leitura holística, a confirmar pela codificação humana cega.
+2. **Assimetria estrutural de Acesso**: em *EVE Online*, o Acesso médio por tópico (`1,47`) supera claramente o de *WoW* (`1,05`), em linha com a infraestrutura aberta de APIs (ESI e MCP). A Transparência é ligeiramente mais alta em *WoW* (`1,35` vs. `1,27`), sobretudo por reivindicação contra a opacidade da editora (ver Secção 3.5).
+3. **Codestruição mais frequente em WoW**: em ambas as leituras, a proporção de tópicos VC3 é maior em *World of Warcraft* (19,4% holística / 31,9% regra) do que em *EVE Online* (12,7% / 15,2%). Os tópicos VC3 de WoW concentram-se em queixas sobre suporte automatizado, moderação e bots em PvP. A magnitude da diferença depende do método.
+4. **Antes da correção do jogo**, a versão anterior deste relatório reportava 65 tópicos EVE / 87 WoW e VC1 de 7,7% em EVE contra 16,1% em WoW. Esse resultado devia-se em parte aos 14 tópicos do r/Eve contados como WoW. Pela regra de agregação, 4 deles eram VC1 (por exemplo, `reddit_1vdomcq`, sobre ferramentas de trading e indústria em EVE).
 
 ### 4.4 Tipologia Emergente de Tópicos: Os 5 Clusters Sociotécnicos
 
-A análise de padrões na totalidade dos **152 tópicos ativos** (calibrada pela aplicação rigorosa da Regra de Fronteira Operacional da Secção 4.4.1 para desambiguar falsos positivos lexicais entre os estratos iniciais de amostragem `[30, 35, 32, 25, 30]` e a arquitetura real de integração) consolida **cinco agrupamentos sociotécnicos emergentes**:
+A análise de padrões na totalidade dos **151 tópicos ativos** (calibrada pela aplicação rigorosa da Regra de Fronteira Operacional da Secção 4.4.1 para desambiguar falsos positivos lexicais entre os estratos iniciais de amostragem `[30, 35, 32, 25, 30]` e a arquitetura real de integração) consolida **cinco agrupamentos sociotécnicos emergentes**. As contagens e métricas DART abaixo usam o cluster atribuído pela pipeline (regras por palavras-chave em `ThreadSynthesisAgent`). A distribuição de valor usa a leitura holística.
 
-1. **Cluster 1: Ferramentas Externas, Integração de APIs e MCP** (22 tópicos calibrados | 14,5% — *Estrato inicial: 30 tópicos*)
+1. **Cluster 1: Ferramentas Externas, Integração de APIs e MCP** (22 tópicos | 14,6% — *Estrato inicial: 30 tópicos*; 21 EVE / 1 WoW)
    * *Foco*: Desenvolvimento e interligação programática de dados vivos do jogo via APIs públicas (ESI, *Model Context Protocol* - MCP, Pyfa, exportação de telemetria para LLMs como Claude e GPT-4).
-   * *Métricas DART*: Maior Acesso de todo o estudo (`A: 2,36`) e mais elevada Transparência (`T: 1,45`; `D: 0,92`; `R: 1,36`). Forte concentração de cocriação colaborativa (`VC1` e `VC2`).
-2. **Cluster 2: Fair Play, Deteção Algorítmica e Integridade Competitiva** (33 tópicos calibrados | 21,7% — *Estrato inicial: 35 tópicos*)
+   * *Métricas DART*: Maior Acesso de todo o estudo (`A: 2,36`) e mais elevada Transparência (`T: 1,46`; `D: 0,92`; `R: 1,36`). Maior concentração de cocriação: 12 dos 22 tópicos são VC1 na leitura holística (e 6 VC2).
+2. **Cluster 2: Fair Play, Deteção Algorítmica e Integridade Competitiva** (32 tópicos | 21,2% — *Estrato inicial: 35 tópicos*; 21 EVE / 11 WoW)
    * *Foco*: Tensão entre assistência algorítmica permitida e automação desleal em ambientes PvP (*pixel bots* em arenas), mercados e frotas de mineração/combate.
-   * *Métricas DART*: Elevado Risco Percebido (`R: 1,58`) e Acesso restrito (`A: 0,81`; `D: 0,38`; `T: 1,07`). Elevada fricção normativa e denúncias de erosão competitiva (`VC3`).
-3. **Cluster 3: Suporte ao Cliente, Moderação Automatizada e Banning** (25 tópicos calibrados | 16,4% — *Estrato inicial: 32 tópicos*)
+   * *Métricas DART*: Elevado Risco Percebido (`R: 1,59`) e Acesso restrito (`A: 0,82`; `D: 0,39`; `T: 1,08`). Predomínio de debate normativo (20 VC4) com 5 tópicos VC3 na leitura holística.
+3. **Cluster 3: Suporte ao Cliente, Moderação Automatizada e Banning** (25 tópicos | 16,6% — *Estrato inicial: 32 tópicos*; 6 EVE / 19 WoW)
    * *Foco*: Contestação ao uso de IA pela publicadora para resolução de tickets (*"ChatGPT GM"*), triagem automatizada de denúncias, despedimentos (*layoffs*) e suspensão de contas.
-   * *Métricas DART*: Risco mais severo de todo o estudo (`R: 2,11`), menor Acesso (`A: 0,75`) e forte reivindicação de Transparência (`T: 1,40`; `D: 0,69`). Principal foco de codestruição de valor (`VC3`).
-4. **Cluster 4: Agentes Oficiais In-Game e Masmorras de Seguidores** (21 tópicos calibrados | 13,8% — *Estrato inicial: 25 tópicos*)
+   * *Métricas DART*: Risco mais severo de todo o estudo (`R: 2,11`), menor Acesso (`A: 0,75`) e forte reivindicação de Transparência (`T: 1,40`; `D: 0,69`). Principal foco de codestruição: 9 dos 25 tópicos são VC3 na leitura holística.
+4. **Cluster 4: Agentes Oficiais In-Game e Masmorras de Seguidores** (21 tópicos | 13,9% — *Estrato inicial: 25 tópicos*; 11 EVE / 10 WoW)
    * *Foco*: Avaliação de companheiros, assistentes e instâncias operadas por IA oficial da publicadora (*Follower Dungeons*, *Delves* com Brann Bronzebeard, *Aura AI* e *Ask Aura*).
-   * *Métricas DART*: Acesso institucional controlado (`A: 1,16`), menor Risco percebido (`R: 1,10`; `D: 0,90`; `T: 1,29`). Dinâmica mista entre inclusão de jogadores (VC2) e preservação da sociabilidade humana (VC4/VC3).
-5. **Cluster 5: Copilotos de Desenvolvimento, Addons e Vibe-Coding** (51 tópicos calibrados | 33,6% — *Estrato inicial: 30 tópicos*)
+   * *Métricas DART*: Acesso institucional controlado (`A: 1,14`), menor Risco percebido (`R: 1,09`; `D: 0,89`; `T: 1,29`). Predomínio de avaliação reflexiva (15 VC4), com 3 tópicos VC2 e 2 VC3.
+5. **Cluster 5: Copilotos de Desenvolvimento, Addons e Vibe-Coding** (51 tópicos | 33,8% — *Estrato inicial: 30 tópicos*; 20 EVE / 31 WoW)
    * *Foco*: Utilização de assistentes generativos (Claude, ChatGPT, Gemini, Copilot) mediante mediação humana manual (sem ligação API direta em tempo real) para conceção e reparação de *addons* em Lua, *WeakAuras*, macros e sessões de *brainstorming* ou planeamento tático.
-   * *Métricas DART*: Maior volume empírico do corpus (`33,6%`) e mais alto índice de Diálogo (`D: 1,29`), aliado a Acesso técnico relevante (`A: 1,40`; `R: 1,34`; `T: 1,35`), catalisando tanto a democratização da programação comunitária (`VC1`) quanto debates críticos sobre performance e alucinações (`VC4`/`VC3`).
+   * *Métricas DART*: Maior volume empírico do corpus (`33,8%`) e mais alto índice de Diálogo (`D: 1,28`), aliado a Acesso técnico relevante (`A: 1,40`; `R: 1,35`; `T: 1,35`). Dinâmica mista: 9 VC1, 5 VC2, 7 VC3 e 30 VC4 na leitura holística.
+
+**Fiabilidade da atribuição de clusters (v4.1)**: a leitura holística cega atribuiu também um cluster a cada tópico. O acordo com o cluster da pipeline é de **56,3%** ($\kappa = 0,43$, acordo moderado). As maiores diferenças:
+* a leitura holística põe muito mais tópicos no Cluster 4 (43 vs. 21), sobretudo tópicos que a pipeline tinha posto em Fair Play (12) e em Copilotos (8);
+* põe muito menos no Cluster 3 (11 vs. 25): 9 dos 25 tópicos que a pipeline pôs em Suporte/Moderação passam para Fair Play (Cluster 2).
+
+As proporções por cluster devem, por isso, ser lidas como indicativas até à validação humana.
 
 #### 4.4.1 Critério Operacional de Fronteira: Distinção entre o Cluster 1 e o Cluster 5
 
@@ -297,14 +320,14 @@ Dado que tanto o **Cluster 1** como o **Cluster 5** envolvem a utilização de m
 
 Em conformidade com o princípio de **ancoragem empírica (*verbatim grounding*)** da metodologia DART-NET v4.0, cada tópico de nível Meso é estritamente sustentado pelas falas exatas e inalteradas dos jogadores nos posts constituintes, eliminando qualquer risco de alucinação analítica. O quadro seguinte sintetiza tópicos emblemáticos que ilustram o comportamento empírico dos clusters nos dois ecossistemas:
 
-| ID Tópico | Título Central | Ecossistema / Cluster | Agência / Interação | Vetor DART (Médias) | Dinâmica de Valor | Evidência Literal Verificável (*Verbatim Quote* de Ancoragem Micro) |
+| ID Tópico | Título Central | Ecossistema / Cluster | Agência / Interação | Vetor DART (Médias) | Dinâmica de Valor (Regra / Holística v4.1) | Evidência Literal Verificável (*Verbatim Quote* de Ancoragem Micro) |
 | :--- | :--- | :--- | :---: | :---: | :---: | :--- |
-| **`510327`** | *EVE Crews: A lore-accurate\* API-linked crew simulator* | EVE Online<br>Cluster 1 (APIs/MCP) | **A1** / **I3** | `D: 2,9`<br>`A: 2,4`<br>`R: 1,2`<br>`T: 2,3` | **VC1** (Cocriação Efetiva) | *"The crew numbers in EVE Crews are derived from a blend of official CCP lore, historical game data, and community research..."* |
-| **`516433`** | *EVE MCP Server — querying ESI from Claude, Copilot and other AI assistants* | EVE Online<br>Cluster 1 (APIs/MCP) | **A1** / **I4** | `D: 0,0`<br>`A: 5,0`<br>`R: 2,0`<br>`T: 3,0` | **VC4** (Reflexivo Técnico) | *"exposing EVE’s public ESI endpoints as tools an AI assistant can call directly"* |
-| **`1jukb0x`** | *Psa For The New Bros Dont Ask Chatgpt About Eve* | EVE Online<br>Cluster 5 (Copilotos) | **A5** / **I3** | `D: 1,4`<br>`A: 1,3`<br>`R: 1,3`<br>`T: 1,0` | **VC1** (Cocriação Efetiva) | *"I asked gpt what it wanted to say about this post here it is. ... If someone points out I gave garbage, I can course-correct mid-convo."* |
-| **`508618`** | *Recorded a bot in high sec - but why even bother?* | EVE Online<br>Cluster 3 (Suporte/Bans) | **A5** / **I4** | `D: 1,4`<br>`A: 0,5`<br>`R: 2,2`<br>`T: 1,5` | **VC3** (Codestruição) | *"Why is he compromising his acc for this? ... most commonly RMT ... IP bans does little - VPNs exist and IPs can be changed."* |
-| **`reddit_1tvlpnw`** | *Sick of spam and bots ruining our game? Here's an addon that uses ML...* | WoW<br>Cluster 2 (Fair Play) | **A3** / **I4** | `D: 0,0`<br>`A: 2,0`<br>`R: 1,5`<br>`T: 0,5` | **VC4** (Reflexivo Normativo) | *"it would bring up the report window and fill in the box with their coordinates a timestamp and the reason for report botting"* |
-| **`reddit_1v3v2p2`** | *Claude Code Success* | WoW<br>Cluster 5 (Copilotos) | **A1** / **I3** | `D: 5,0`<br>`A: 4,0`<br>`R: 1,0`<br>`T: 1,0` | **VC1** (Cocriação Efetiva) | *"Explained a breakdown to what happened. Gave a link to the blue post. Directed it to review addons... Instructed it to add updated logic"* |
+| **`510327`** | *EVE Crews: A lore-accurate\* API-linked crew simulator* | EVE Online<br>Cluster 1 (APIs/MCP) | **A1** / **I3** | `D: 2,9`<br>`A: 2,4`<br>`R: 1,2`<br>`T: 2,3` | **VC1** / **VC1** (Cocriação Efetiva) | *"The crew numbers in EVE Crews are derived from a blend of official CCP lore, historical game data, and community research..."* |
+| **`516433`** | *EVE MCP Server — querying ESI from Claude, Copilot and other AI assistants* | EVE Online<br>Cluster 1 (APIs/MCP) | **A1** / **I4** | `D: 0,0`<br>`A: 5,0`<br>`R: 2,0`<br>`T: 3,0` | **VC4** / **VC1** (holística: ferramenta funcional partilhada) | *"exposing EVE’s public ESI endpoints as tools an AI assistant can call directly"* |
+| **`1jukb0x`** | *Psa For The New Bros Dont Ask Chatgpt About Eve* | EVE Online<br>Cluster 5 (Copilotos) | **A5** / **I3** | `D: 1,4`<br>`A: 1,3`<br>`R: 1,3`<br>`T: 1,0` | **VC1** / **VC4** (holística: aviso reflexivo sobre alucinações) | *"I asked gpt what it wanted to say about this post here it is. ... If someone points out I gave garbage, I can course-correct mid-convo."* |
+| **`508618`** | *Recorded a bot in high sec - but why even bother?* | EVE Online<br>Cluster 3 (Suporte/Bans)<br>*(holística: C2)* | **A5** / **I4** | `D: 1,4`<br>`A: 0,5`<br>`R: 2,2`<br>`T: 1,5` | **VC3** / **VC4** (holística: debate sem dano concreto relatado) | *"Why is he compromising his acc for this? ... most commonly RMT ... IP bans does little - VPNs exist and IPs can be changed."* |
+| **`reddit_1tvlpnw`** | *Sick of spam and bots ruining our game? Here's an addon that uses ML...* | WoW (r/woweconomy)<br>Cluster 2 (Fair Play)<br>*(holística: C5)* | **A3** / **I4** | `D: 0,0`<br>`A: 2,0`<br>`R: 1,5`<br>`T: 0,5` | **VC4** / **VC2** (holística: addon proposto, benefício por confirmar) | *"it would bring up the report window and fill in the box with their coordinates a timestamp and the reason for report botting"* |
+| **`reddit_1v3v2p2`** | *Claude Code Success* | WoW<br>Cluster 5 (Copilotos) | **A1** / **I3** | `D: 5,0`<br>`A: 4,0`<br>`R: 1,0`<br>`T: 1,0` | **VC1** / **VC1** (Cocriação Efetiva) | *"Explained a breakdown to what happened. Gave a link to the blue post. Directed it to review addons... Instructed it to add updated logic"* |
 
 ---
 
@@ -313,20 +336,18 @@ Em conformidade com o princípio de **ancoragem empírica (*verbatim grounding*)
 ### 5.1 O Nível Micro como Contraste Crítico e Inventário Atomizado
 
 > **Nota Epistemológica Central**:  
-> A distribuição de frequências abaixo ($N=825$ posts) constitui um **inventário descritivo da camada micro-empírica** e funciona como um **contraste crítico** indispensável para a teorização netnográfica:
-> 
-> *"Se aplicássemos uma abordagem ingénua de NLP/LLM analisando os 825 posts isoladamente, obteríamos uma imagem artificialmente estéril (77,2% em VC4 e 3,2% em VC1). Ao integrá-los no nível meso do tópico conversacional ($N=152$), revelamos a verdadeira densidade de cocriação (48,7% de impacto ativo de valor)."*
+> A distribuição de frequências abaixo ($N=824$ posts) constitui um **inventário descritivo da camada micro-empírica** e funciona como **contraste** para a leitura ao nível do tópico (Secção 1.7.1).
 
-| Categoria de Valor | Frequência Micro ($N=825$) | Percentagem Micro | Papel na Arquitetura Multinível DART-NET v4.0 |
+| Categoria de Valor | Frequência Micro ($N=824$) | Percentagem Micro | Papel na Arquitetura Multinível DART-NET v4.0 |
 | :--- | :---: | :---: | :--- |
-| **VC1 (Cocriação de Valor Efetiva)** | 26 | 3,2% | Turnos onde a solução finalizada é partilhada pontualmente. *(No nível Meso: 12,5%)* |
-| **VC2 (Potencial Cocriação de Valor)** | 72 | 8,7% | Ideias, propostas e intenções comunicadas em mensagens únicas. *(No nível Meso: 13,8%)* |
-| **VC3 (Codestruição de Valor)** | 90 | 10,9% | Denúncias pontuais, queixas de bans ou relatos de alucinações. *(No nível Meso: 22,4%)* |
-| **VC4 (Sem Evidência Direta / Reflexão)** | 637 | 77,2% | Turnos intermédios de debate, perguntas e diálogo exploratório. *(No nível Meso: 51,3%)* |
-| **Total** | **825** | **100,0%** | **Linha de Base Micro-Empírica de Contraste** |
+| **VC1 (Cocriação de Valor Efetiva)** | 26 | 3,2% | Turnos onde a solução finalizada é partilhada pontualmente. *(Meso: 17,2% holística / 12,6% regra)* |
+| **VC2 (Potencial Cocriação de Valor)** | 72 | 8,7% | Ideias, propostas e intenções comunicadas em mensagens únicas. *(Meso: 13,2% holística / 12,6% regra)* |
+| **VC3 (Codestruição de Valor)** | 90 | 10,9% | Denúncias pontuais, queixas de bans ou relatos de alucinações. *(Meso: 15,9% holística / 23,2% regra)* |
+| **VC4 (Sem Evidência Direta / Reflexão)** | 636 | 77,2% | Turnos intermédios de debate, perguntas e diálogo exploratório. *(Meso: 53,6% holística / 51,7% regra)* |
+| **Total** | **824** | **100,0%** | **Linha de Base Micro-Empírica de Contraste** |
 
 **Análise do Contraste Teórico**:  
-Ao nível do post atómico, as mensagens que documentam impacto ativo de valor (VC1 + VC2 + VC3) perfazem apenas **22,8%** (188 posts), contra 77,2% em VC4. A codestruição (VC3: 10,9%) sobrepõe-se à cocriação efetiva (VC1: 3,2%), refletindo o atrito inicial percebido pelos utilizadores. Contudo, como demonstrado na **Tabela Comparativa Micro vs. Meso (Secção 1.7.1 e Secção 4.3)** — um dos principais achados teóricos deste estudo —, a verdadeira densidade de cocriação e codestruição de valor só se revela quando estes fragmentos atómicos são reintegrados na sua trajetória conversacional no Tópico ($48,7\%$ de impacto ativo de valor).
+Ao nível do post, as mensagens com impacto ativo de valor (VC1 + VC2 + VC3) são **22,8%** (188 posts), contra 77,2% em VC4. A codestruição (VC3: 10,9%) é mais frequente do que a cocriação efetiva (VC1: 3,2%). Ao nível do tópico, perto de metade das discussões tem impacto ativo (46,4% na leitura holística). Estas duas proporções medem coisas diferentes: a primeira, a fração de turnos com valor explícito; a segunda, a fração de discussões cujo desfecho global é de cocriação ou codestruição. A diferença entre elas não deve ser lida como um "ganho" do nível meso (ver o modelo nulo na Secção 1.7.1). Ao nível do tópico, e na leitura holística, a ordem inverte-se: a cocriação efetiva (17,2%) supera a codestruição (15,9%).
 
 ### 5.2 Evidências Paradigmáticas de Cocriação de Valor (VC1)
 
@@ -343,19 +364,19 @@ Ao nível do post atómico, as mensagens que documentam impacto ativo de valor (
 ## 6. Reflexão sobre as Questões de Investigação
 
 > **Enquadramento Epistémico DART-NET v4.0**:  
-> Em estrita conformidade com a Arquitetura Metodológica Multinível Incorporada, as **respostas substantivas às Questões de Investigação (QI1, QI2 e QI3)** assentam primariamente na dinâmica deliberativa, relacional e temporal do **Tópico de Discussão ($N=152$, Nível Meso)**. Os dados e frequências dos posts individuais ($N=825$, Nível Micro) cumprem a função de **ancoragem empírica (*verbatim grounding*)**, rastreabilidade de citações inalteradas e linha de base granular de micro-atos comunicativos, superando a distorção da diluição atómica.
+> Em estrita conformidade com a Arquitetura Metodológica Multinível Incorporada, as **respostas substantivas às Questões de Investigação (QI1, QI2 e QI3)** assentam primariamente na dinâmica deliberativa, relacional e temporal do **Tópico de Discussão ($N=151$, Nível Meso)**. Os dados e frequências dos posts individuais ($N=824$, Nível Micro) cumprem a função de **ancoragem empírica (*verbatim grounding*)**, rastreabilidade de citações inalteradas e linha de base granular de micro-atos comunicativos.
 
 ### 6.1 QI1: Tipologia de Agentes de IA e Formas de Interação Humano-IA
 *Pergunta Central: Que tipos de agentes de IA e que formas de interação humano-IA caracterizam os MMORPG analisados?*
 
 #### 6.1.1 QI1a: Proporção de Agentes de IA Autónomos face a Bots e Scripts Convencionais
 **Resposta (Consolidada no Nível Meso com Suporte Micro)**:
-A análise multinível revela que os ecossistemas contemporâneos superaram a era dos bots mecânicos repetitivos. Na linha de base atómica ($N=825$ posts), os agentes autónomos (A1: 11,5%) e a assistência híbrida por IA generativa (A4: 7,2%) superam largamente os bots e scripts convencionais residuais (A2+A3: 4,2%), embora 77,2% dos turnos sejam dedicados ao debate reflexivo (A5). 
-Quando avaliada ao **Nível Meso dos 152 tópicos completos**, esta proporção ganha relevo estrutural: **48,1% dos tópicos ativos** (73 tópicos nos Clusters 1, 4 e 5) centram-se em experimentação agêntica direta, integração de APIs e *vibe-coding* assistido por LLMs (Claude, GPT-4, Gemini), enquanto apenas 21,7% (Cluster 2) debatem automação ilícita ou bots convencionais de farm. O fenómeno central dos MMORPGs atuais é a integração de inteligência contextual e modelos generativos.
+A análise multinível revela que os ecossistemas contemporâneos superaram a era dos bots mecânicos repetitivos. Na linha de base atómica ($N=824$ posts), os agentes autónomos (A1: 11,5%) e a assistência híbrida por IA generativa (A4: 7,2%) superam largamente os bots e scripts convencionais residuais (A2+A3: 4,1%), embora 77,2% dos turnos sejam dedicados ao debate reflexivo (A5). 
+Quando avaliada ao **Nível Meso dos 151 tópicos completos**, esta proporção ganha relevo estrutural: **62,3% dos tópicos ativos** (94 tópicos nos Clusters 1, 4 e 5 da pipeline; 74,8% na leitura holística) centram-se em ferramentas ligadas por API, agentes oficiais de IA e *vibe-coding* assistido por LLMs (Claude, GPT-4, Gemini). Apenas 21,2% (Cluster 2; 17,9% na leitura holística) debatem fair play, automação ilícita ou bots. *(A versão anterior indicava 48,1% / 73 tópicos, mas a soma dos Clusters 1, 4 e 5 já era então de 94 tópicos.)* O fenómeno central dos MMORPGs atuais é a integração de inteligência contextual e modelos generativos.
 
 #### 6.1.2 QI1b: Estruturas de Interação Humano-IA e Padrões entre Sandbox e Controlado
 **Resposta (Consolidada no Nível Meso com Suporte Micro)**:
-Embora na contagem isolada de mensagens a discussão entre humanos pareça hegemónica (I4: 77,7%), a **análise ao nível de tópicos conversacionais completos** demonstra que **30,8% dos tópicos** materializam padrões ativos de interação direta (I1/I2) ou cooperação triádica contínua (**I3: Humano $\leftrightarrow$ IA $\leftrightarrow$ Comunidade**), especialmente nos clusters de APIs/MCP e Copilotos. 
+Embora na contagem isolada de mensagens a discussão entre humanos pareça hegemónica (I4: 77,7%), a **análise ao nível de tópicos conversacionais completos** demonstra que **29,8% dos tópicos** (45 de 151, com pelo menos um post I1, I2 ou I3) materializam padrões ativos de interação direta (I1/I2) ou cooperação triádica contínua (**I3: Humano $\leftrightarrow$ IA $\leftrightarrow$ Comunidade**), especialmente nos clusters de APIs/MCP e Copilotos. 
 * **Padrões por Ecossistema**:
   * Em **EVE Online (Sandbox Aberto)**: A governança técnica da API ESI e servidores MCP propicia interações agênticas abertas (I1/I3), onde jogadores conversam diretamente com LLMs que consultam dados do jogo em tempo real (ex.: tópicos `510327` e `516433`).
   * Em **World of Warcraft (Ambiente Controlado)**: As interações diretas são confinadas pela Blizzard a NPCs aliados nativos (*Follower Dungeons*, I5) ou ocorrem externamente via copilotos de *vibe-coding* para criação e reparação de addons em Lua (Cluster 5, I3, ex.: `reddit_1v3v2p2`).
@@ -367,15 +388,15 @@ Embora na contagem isolada de mensagens a discussão entre humanos pareça hegem
 
 #### 6.2.1 QI2a: Verificação das Dimensões Diálogo, Acesso, Risco e Transparência
 **Resposta (Consolidada no Nível Meso com Suporte Micro)**:
-Todas as quatro dimensões DART satisfazem critérios mínimos de substância empírica ($\text{Médias} > 1,0$ na base granular de 825 posts), com o Risco a liderar (**1,61/5**), seguido da Transparência (**1,34/5**), Acesso (**1,20/5**) e Diálogo (**1,09/5**).
+Todas as quatro dimensões DART têm médias superiores a 1,0 na base granular de 824 posts, com o Risco a liderar (**1,62/5**), seguido da Transparência (**1,34/5**), Acesso (**1,21/5**) e Diálogo (**1,09/5**). A ordem mantém-se quando só se contam pontuações com evidência verificada literalmente (1,54 / 1,28 / 1,19 / 1,08).
 * **Papel Sistémico das Dimensões no Nível Meso**: A análise agregada por cluster comprova que o **Acesso técnico programável** e o **Diálogo bidirecional** são as condições propulsoras da cocriação de valor (Clusters 1 e 5). Por outro lado, o **Défice de Transparência algorítmica** e a perceção de **Risco assimétrico** (ameaça competitiva, perdas económicas e moderação cega por IA) funcionam como gatilhos primários de codestruição de valor (VC3 nos Clusters 2 e 3).
 
 #### 6.2.2 QI2b: Evidências Empíricas de Cocriação (VC1/VC2) vs. Codestruição (VC3) de Valor
-**Resposta (Superação da Falácia da Diluição Atómica)**:
-Este ponto encerra a principal descoberta teórica da investigação:
-* **Na leitura atómica por post ($N=825$)**: Apenas 3,2% atingem VC1 e 10,9% VC3, com 77,2% em VC4, sugerindo erradamente uma comunidade inerte;
-* **Na leitura substantiva ao Nível do Tópico ($N=152$)**: **48,7% das discussões ativas geram impacto tangível de valor** (**`12,5% VC1`**, **`13,8% VC2`** e **`22,4% VC3`**).
-* **Distribuição entre Clusters**: A cocriação efetiva (VC1) e potencial (VC2) concentra-se nos clusters de Ferramentas/APIs (Cluster 1) e Copilotos (Cluster 5). A codestruição (VC3) atinge proporções críticas nos clusters de Suporte/Moderação (Cluster 3) e Fair Play (Cluster 2), sendo particularmente severa em *World of Warcraft*, onde **27,6% dos tópicos** documentam degradação institucional decorrente do uso opaco de IA.
+**Resposta (Consolidada no Nível Meso com Suporte Micro)**:
+* **Na leitura atómica por post ($N=824$)**: 3,2% atingem VC1 e 10,9% VC3, com 77,2% em VC4. A maioria dos turnos isolados não relata, por si, ganho ou perda.
+* **Na leitura holística ao Nível do Tópico ($N=151$)**: **46,4% das discussões têm uma dinâmica de valor ativa** (**`17,2% VC1`**, **`13,2% VC2`** e **`15,9% VC3`**). A regra de agregação da pipeline dá uma proporção global semelhante (48,3%), mas outra distribuição (12,6% VC1, 12,6% VC2, 23,2% VC3) e acordo fraco com a leitura holística ($\kappa = 0,21$). O modelo nulo mostra que a subida de ~22% para ~48% é esperada pela própria regra (Secção 1.7.1).
+* **Distribuição entre Clusters**: a cocriação efetiva concentra-se nos clusters de Ferramentas/APIs (Cluster 1: 12 de 22 tópicos VC1) e Copilotos (Cluster 5: 9 VC1 e 5 VC2 em 51). A codestruição concentra-se em Suporte/Moderação (Cluster 3: 9 de 25 tópicos VC3) e Fair Play (Cluster 2: 5 de 32). É mais frequente em *World of Warcraft* (**19,4%** dos tópicos na leitura holística; 31,9% pela regra) do que em *EVE Online* (12,7% / 15,2%).
+* **Estado da evidência**: estes resultados vêm de codificação automática (DeepSeek). A codificação humana cega de 37 tópicos (Secção 7.3) servirá para validar quer a leitura holística quer a regra de agregação.
 
 ---
 
@@ -386,13 +407,15 @@ Este ponto encerra a principal descoberta teórica da investigação:
 **Resposta (Síntese Comparativa Transversal)**:
 A análise transversal agregada demonstra que a arquitetura de governança e a infraestrutura técnica exercem um papel determinístico na transição do discurso comunitário da especulação defensiva para a cocriação tangível de valor (Prahalad & Ramaswamy, 2004). 
 
-No ecossistema **Sandbox de *EVE Online***, a disponibilização aberta e padronizada da API ESI e a recente adoção do *Model Context Protocol* (MCP) catalisam uma governança descentralizada onde os jogadores assumem o papel de co-desenvolvedores informacionais. Ao facultar Acesso técnico direto (`A: 1,41`) e visibilidade de diagnóstico (`T: 1,31`), a CCP Games reduz a fricção epistémica e fomenta ecossistemas cooperativos (tais como *EVE Crews* e *Battlefield.Space*), convertendo agentes de IA em próteses de ampliação cognitiva que mitigam a complexidade sistémica em benefício mútuo da comunidade e da plataforma.
+No ecossistema **Sandbox de *EVE Online***, a disponibilização aberta e padronizada da API ESI e a recente adoção do *Model Context Protocol* (MCP) catalisam uma governança descentralizada onde os jogadores assumem o papel de co-desenvolvedores informacionais. O Acesso técnico direto é claramente superior (`A: 1,47` por tópico, contra `1,05` em *WoW*). A plataforma fomenta assim ecossistemas cooperativos (tais como *EVE Crews* e *Battlefield.Space*), convertendo agentes de IA em próteses de ampliação cognitiva que mitigam a complexidade sistémica. Na leitura holística, **24,1% dos tópicos de EVE são de cocriação efetiva (VC1)**, contra 9,7% em *WoW*. Desses 19 tópicos, 9 pertencem ao Cluster 1 (ferramentas ligadas por API) e 10 ao Cluster 5 (copilotos).
 
-Em contrapartida, no ecossistema **Controlado de *World of Warcraft***, a governança algorítmica da Blizzard é estritamente centralizada e defensiva. A sandbox de addons em Lua é delimitada por restrições rigorosas e a IA oficial é confinada a ambientes isolados de jogabilidade assistida (*Follower Dungeons* e *Delves*). Concomitantemente, a automação opaca de pipelines de atendimento e aplicação de penalizações gera uma elevada taxa de codestruição de valor ao nível de tópicos (`VC3: 27,6%`), induzindo cinismo e sensação de desamparo institucional. Quando a cocriação desponta em *WoW*, ocorre quase exclusivamente nas margens informais através do *vibe-coding* de addons via LLMs externos.
+Em contrapartida, no ecossistema **Controlado de *World of Warcraft***, a governança algorítmica da Blizzard é estritamente centralizada e defensiva. A sandbox de addons em Lua é delimitada por restrições rigorosas e a IA oficial é confinada a ambientes isolados de jogabilidade assistida (*Follower Dungeons* e *Delves*). Concomitantemente, a automação opaca de pipelines de atendimento e aplicação de penalizações está associada a uma taxa de codestruição de valor mais elevada ao nível de tópicos (`VC3: 19,4%` na leitura holística, contra 12,7% em *EVE*; 31,9% pela regra de agregação), induzindo cinismo e sensação de desamparo institucional. A Transparência média é ligeiramente mais alta em *WoW* (`1,35` vs. `1,27`), mas reflete sobretudo exigências de transparência dirigidas à Blizzard e não transparência efetiva. Quando a cocriação desponta em *WoW*, ocorre quase exclusivamente nas margens informais: 6 dos 7 tópicos VC1 de *WoW* são *vibe-coding* de addons ou uso de LLMs externos (Cluster 5).
+
+> **Nota de cautela**: antes da correção do jogo, a regra de agregação dava mais cocriação a *WoW* (VC1 16,1% vs. 7,7%). Com o jogo corrigido e a leitura holística, o resultado inverte-se e fica coerente com a hipótese sandbox vs. controlado. Como as duas leituras automáticas divergem, esta conclusão deve ser confirmada pela codificação humana cega antes de ser apresentada como resultado final.
 
 #### 6.3.2 QI3b: Implicações Teóricas e Práticas para o Desenho de Ecossistemas de Videojogos com IA Integrada
 **Resposta**: 
-1. **Implicações Teóricas**: A operacionalização do modelo DART-NET em ambientes lúdicos demonstra que o Risco e a Transparência funcionam como variáveis moderadoras cruciais: sem transparência algorítmica, o aumento de acesso técnico não fomenta cocriação, antes precipita atritos de codestruição (VC3). Ademais, a análise multinível valida que a emergência de valor sociotécnico se consolida ao nível meso da deliberação coletiva (48,7% de impacto de valor em tópicos vs. 22,8% em posts atómicos).
+1. **Implicações Teóricas**: A operacionalização do modelo DART-NET em ambientes lúdicos demonstra que o Risco e a Transparência funcionam como variáveis moderadoras cruciais: sem transparência algorítmica, o aumento de acesso técnico não fomenta cocriação, antes precipita atritos de codestruição (VC3). Ademais, a análise multinível mostra que a leitura do valor depende da unidade de análise: 22,8% dos posts têm impacto ativo de valor, contra 46,4% dos tópicos na leitura holística. A forma de agregação, porém, condiciona fortemente o resultado: uma regra do tipo "basta um post" produz este salto mesmo com rótulos aleatórios (modelo nulo: 57,7%). Para estudos netnográficos assistidos por LLM, a lição metodológica é que a codificação ao nível do tópico deve ser feita de forma independente e não derivada da soma dos posts.
 2. **Implicações Práticas para Estúdios e Designers**: O sucesso de ferramentas comunitárias baseadas em MCP em *EVE Online* indica que as publicadoras devem disponibilizar **interfaces abertas, programáveis e auditáveis (Transparência)**. Inversamente, a automação opaca de suporte ao cliente e moderação por "caixa negra", tal como observado em *WoW*, ilustra o caminho da rápida degradação do valor relacional. Recomenda-se a adoção de salvaguardas contra alucinações, explicabilidade nas regras algorítmicas e a garantia imperativa de intervenção humana no circuito (*human-in-the-loop*) para decisões sancionatórias.
 
 ---
@@ -406,25 +429,56 @@ A auditoria independente conduzida com o modelo `deepseek-v4-pro` sobre uma amos
 * **Casos Sinalizados com Alerta**: Apenas 8 casos em 159 análises auditadas, decorrentes exclusivamente de limiares conservadores de confiança.
 
 ### 7.2 Calibração da Fila de Validação Humana
-* **Total de Posts com Validação Manual Prioritária (`human_review_required = True`)**: **708 posts (85,82%)**
+* **Total de Posts com Validação Manual Prioritária (`human_review_required = True`)**: **707 posts (85,8% do corte de 824)**
 * **Critérios de Sinalização**: Confiança analítica $< 0,80$, jargões altamente contextualizados, sarcasmo e ambiguidade entre categorias de fronteira.
 
-### 7.3 Execução da Auditoria Humana de Alto Nível em Dois Blocos (Track B — Nível Meso com Incorporação Micro)
-Em conformidade com a **Arquitetura Metodológica Multinível Incorporada (DART-NET v4.0)** e a decisão estratégica de consolidar uma amostra de **30 tópicos de discussão completos (19,7% do corpus de 152 tópicos ativos)**, a auditoria humana foi estruturada em **dois blocos independentes de duplo-cego**, incorporando um total de **355 posts constituintes retidos** no livro de cálculo [`output/Protocolo_Auditoria_Humana_Formatado.xlsx`](file:///Users/jpaulo/Documents/AntiGravity_Agents/Interação%20Humano-IA%20e%20Cocriação%20de%20Valor%20em%20Ecossistemas%20de%20Videojogos/output/Protocolo_Auditoria_Humana_Formatado.xlsx) e [`output/Protocolo_Auditoria_Humana_Formatado_JPaulo.xlsx`](file:///Users/jpaulo/Documents/AntiGravity_Agents/Interação%20Humano-IA%20e%20Cocriação%20de%20Valor%20em%20Ecossistemas%20de%20Videojogos/output/Protocolo_Auditoria_Humana_Formatado_JPaulo.xlsx):
+### 7.3 Codificação Humana Cega ao Nível do Tópico (Protocolo v4.1)
 
-1. **Bloco 1 — Calibração Inicial Concluída (Prof. JPaulo & Prof. Emmanoel — $N=15$ Tópicos / $104$ Posts)**:
-   * **Vaga 1 (Ronda 1 Exploratória sobre Resumos de 60 Palavras)**: Fidelidade média de **`4,13 / 5,00`** ($3$ tópicos com nota `5`, $11$ com nota `4` e $1$ com nota `3`), revelando o fenómeno da **Polifonia e Tensão Dialética Multi-VC** em 8 tópicos e a necessidade de desambiguação operacional entre o Cluster 1 e o Cluster 5.
-   * **Vaga 2 (Ronda 2 DART-NET v4.0 sobre Resumos de 150 Palavras)**: A Fidelidade média de síntese subiu para **`4,93 / 5,00`** ($\Delta = +0,80$), com **100,0% de acordo em Trajetória de Valor** ($\kappa = 1,00$) e **93,3% de acordo em Cluster Sociotécnico** ($\kappa = 0,916$, *Acordo Quase Perfeito*).
-   * **Métricas de Alto Nível**: Adequação DART/Agência: **`4,93/5`**; Fidelidade Pragmática (Sátira/Ironia): **`5,00/5`** (100% de precisão); Ancoragem Verbatim Micro-Meso: **`4,93/5`** (com deteção forense de termos de EVE Online em `reddit_1q7m0sl`).
+O protocolo anterior (Track B, Rondas 1 e 2) foi **substituído**. Os codificadores tinham acesso aos resumos e às classificações da pipeline, o que impedia uma validação independente; por isso, o acordo reportado nessa fase ($\kappa = 0,916$ em clusters e $\kappa = 1,00$ em trajetórias de valor) não pode ser usado como medida de fiabilidade. Os ficheiros `Protocolo_Auditoria_Humana_Formatado*.xlsx` foram retirados. O protocolo atual decorre em duas etapas, com quatro ficheiros por etapa (um por codificador) em `output/`:
 
-2. **Bloco 2 — Expansão da Amostra para Replicação Independente (Prof. Roger & Prof. Gomide — $N=15$ Novos Tópicos / $251$ Posts)**:
-   * Desenho experimental estratificado com 3 novos tópicos por cluster e equilíbrio entre ecossistemas (7 em EVE Online e 8 em World of Warcraft):
-     * *Cluster 1 (APIs/MCP)*: `516433` (MCP Server), `507123` (EVE ONE), `reddit_1vdomcq` (Building AI Tools);
-     * *Cluster 2 (Fair Play/Bots)*: `reddit_1tvlpnw` (Addon ML Anti-Spam), `474041` (ML Training em Malukker), `3000003` (Ai and WoW);
-     * *Cluster 3 (Suporte por IA)*: `508618` (Recorded a bot in high sec), `2147065` (No Customer Service anymore?!), `1gebstj` (Peak ChatGPT Support);
-     * *Cluster 4 (IA Oficial In-Game)*: `506798` (Aura Guidance Beta), `2308441` (AI and MMORPGsg), `2171055` (Simulated Players);
-     * *Cluster 5 (Copilotos/Vibe-Coding)*: `reddit_1v3v2p2` (Claude Code Success), `reddit_1ql5f05` (Vibecoded Addon Wars), `1jukb0x` (PSA: Don't Ask ChatGPT About EVE).
-   * Esta estrutura em dois blocos atinge o **padrão de excelência de ~20% do corpus auditado em duplo-cego**, fornecendo replicação cruzada (*cross-replication*) e assegurando validade externa robusta à investigação.
+**Amostra ($N=37$ tópicos, 24,5% dos 151)**: seleção reprodutível (semente 2026) composta por:
+* os 15 tópicos já analisados pelo Prof. JPaulo;
+* 15 novos tópicos estratificados por cluster e jogo;
+* 7 tópicos que o LLM anterior classificara como VC1, sobreamostrados para testar a categoria mais rara.
+
+| Par de Codificadores | Tópicos | Composição | Jogo (EVE / WoW) |
+| :--- | :---: | :--- | :---: |
+| **Prof. JPaulo & Prof. Emmanoel** | 18 | 15 do bloco inicial + 3 VC1 sobreamostrados | 8 / 10 |
+| **Prof. Roger & Prof. Gomide** | 19 | 15 estratificados novos + 4 VC1 sobreamostrados | 12 / 7 |
+| **Total** | **37** | | **20 / 17** |
+
+**Etapa 1 — Codificação cega** (`etapa_1_Codificacao_Topicos_<nome>.xlsx`): cada codificador lê o tópico original através de uma hiperligação e preenche, sem ver resumos nem rótulos automáticos, os campos Cluster (1–5), VC principal e secundário, Confiança (1–3), Evidência (citação literal), Ironia/Sátira e Notas. As instruções de preenchimento são as mesmas dadas à leitura holística automática.
+
+**Etapa 2 — Avaliação dos resumos da IA** (`etapa_2_Avaliacao_Resumos_<nome>.xlsx`): só depois de concluída a Etapa 1, cada codificador avalia o resumo longo da pipeline quanto à Fidelidade da Síntese (1–5), Erros Factuais, Omissões Relevantes e Leitura do Tom Retórico.
+
+**Análise prevista**: a chave `Chave_Analise_NAO_PARTILHAR_com_codificadores.xlsx` (não partilhada com os codificadores) reúne, para cada tópico, a regra de agregação, a classificação holística antiga e a leitura holística v4.1. A análise vai calcular três medidas: o acordo entre codificadores de cada par (κ de Cohen), o acordo de cada codificador com a regra de agregação e o acordo com a leitura holística v4.1. Na amostra, a leitura holística v4.1 dá 18 VC4, 9 VC1, 4 VC2 e 6 VC3.
+
+**Estado (1 de novembro de 2026)**: o Prof. JPaulo já preencheu o Cluster de 15 dos 18 tópicos e o VC principal de 8; os restantes codificadores ainda não começaram. Ainda não há resultados de acordo.
+
+#### 7.3.1 VC Principal e VC Secundário: Regra e Justificação Metodológica
+
+A codificação regista, para cada tópico, um **VC principal** (obrigatório) e um **VC secundário** (opcional). As duas colunas têm papéis diferentes:
+
+| | VC Principal | VC Secundário |
+| :--- | :--- | :--- |
+| **Estatuto** | Obrigatório; uma única categoria (VC1–VC4) | Opcional; só VC1, VC2 ou VC3, diferente do principal |
+| **Quando se usa** | Sempre: dinâmica que melhor descreve a discussão no seu conjunto | Só quando há um episódio concreto de outra dinâmica, apontável num post |
+| **Uso na análise** | κ de Cohen entre codificadores; comparação com a regra de agregação e com a leitura holística; conclusões sobre a QI2b e a QI3a | Descrição da ambivalência (por exemplo, tópicos que combinam VC1 e VC3) e cálculo do acordo parcial |
+
+**Justificação**:
+1. **O κ exige categorias mutuamente exclusivas.** A fiabilidade entre codificadores e a comparação com a codificação automática só podem ser calculadas sobre uma única categoria por tópico. Por isso, todas as conclusões assentam no VC principal.
+2. **O valor é muitas vezes ambivalente.** Cocriação e codestruição podem ocorrer na mesma discussão: é a formação interativa de valor (Echeverri & Skålén, 2011; Plé & Chumpitaz Cáceres, 2010). Na primeira leitura do Prof. JPaulo, 7 dos 15 tópicos receberam duas categorias. O secundário preserva essa informação sem a misturar com a medida principal.
+3. **Permite medir acordo parcial.** Se o principal de um codificador for o secundário do outro, o caso conta como acordo parcial e não como desacordo total. Isso distingue desacordos de fronteira de desacordos substantivos.
+4. **O VC4 não pode ser secundário.** VC4 significa ausência de evidência direta de valor, por isso não é uma dinâmica que esteja presente no tópico. Combinações como "VC2 + VC4" não acrescentam informação: na primeira corrida da leitura holística, 7 dos 19 secundários eram VC4.
+5. **O secundário não serve para registar dúvidas.** Se fosse usado assim, o acordo parcial ficaria artificialmente inflacionado. A dúvida regista-se na Confiança (1–3) e nas Notas.
+
+**Efeito da regra na codificação automática**: a leitura holística foi repetida com esta regra, para usar exatamente o mesmo critério que os codificadores humanos.
+* Com a regra estrita, o modelo passou a atribuir secundário a apenas **2 dos 151 tópicos** (antes eram 19).
+* O VC principal manteve-se em 142 tópicos ($\kappa = 0,91$).
+* Ou seja, para o LLM o secundário contribui pouco. Na corrida anterior também explicava apenas 2 dos 73 desacordos entre a regra de agregação e a leitura holística.
+* O uso do secundário pelos codificadores humanos será reportado de forma descritiva e não entra no cálculo do κ.
+
+> **Limitação conhecida da Etapa 2**: os resumos avaliados foram gerados pela pipeline antes da revisão v4.1. Nalguns tópicos, os posts foram lidos fora da ordem cronológica (ordenados pelo ID em texto); em 4 tópicos da amostra, o resumo foi gerado com o jogo errado. Estes problemas devem ser tidos em conta na avaliação da fidelidade.
 
 ---
 
@@ -434,17 +488,18 @@ Em conformidade com a **Arquitetura Metodológica Multinível Incorporada (DART-
 A pipeline garantiu a total rastreabilidade da investigação:
 1. **Camada 1 (Raw Data)**: Preservados 430 ficheiros brutos intactos em `data/raw/`;
 2. **Camada 2 (AI Coding)**: Registo integral das 1.032 codificações validadas em `data/analysis/netnography_results.jsonl` (organizadas nos 152 tópicos ativos de discussão) e preservação do arquivo não podado em `data/analysis/netnography_results_1032_unpruned.jsonl`;
-3. **Log de Poda Auditável**: Documentação individualizada dos 207 posts avaliados no experimento preliminar de poda da Fase 3.5 em `data/analysis/excluded_posts_log.json`.
+3. **Log de Poda Auditável**: Documentação individualizada dos 207 posts avaliados no experimento preliminar de poda da Fase 3.5 em `data/analysis/excluded_posts_log.json`;
+4. **Camada v4.1 (Correções)**: corpus corrigido com 1.029 posts / 151 tópicos em `data/analysis/netnography_results_v4_1.jsonl`, sem alterar os ficheiros anteriores (Secção 8.5).
 
 ### 8.2 Monitorização e Custo Global da Pipeline
 * **Volume de Chamadas de API**: Mais de 27.000 invocações acumuladas (`deepseek-v4-flash` e `deepseek-v4-pro`);
-* **Custo Operacional Global**: **~$21,50 USD**, consolidando uma relação custo-eficácia inigualável para investigações empíricas em larga escala.
+* **Custo Operacional Global**: **~$21,50 USD**, consolidando uma relação custo-eficácia inigualável para investigações empíricas em larga escala. As duas corridas da codificação holística v4.1 dos 151 tópicos acrescentaram ~0,52 USD.
 
 ### 8.3 O Agente de Síntese de Tópicos (ThreadSynthesisAgent) e Entregáveis Analíticos
 
 Na Fase 4.5 da investigação, o ecossistema multiagente foi expandido com a conceção e implementação do [`ThreadSynthesisAgent`](file:///Users/jpaulo/Documents/AntiGravity_Agents/Interação%20Humano-IA%20e%20Cocriação%20de%20Valor%20em%20Ecossistemas%20de%20Videojogos/agents/thread_synthesis_agent.py), atualizado para a versão **DART-NET v4.0** para operacionalizar a Arquitetura Multinível Incorporada:
 
-1. **Agregação Algorítmica com Preservação dos Posts Constituintes**: O agente agrupa com fidelidade os posts validados nos seus **152 tópicos de discussão ativos** (65 em EVE Online e 87 em World of Warcraft), mantendo em cada ficha de tópico a lista explícita dos seus `post_ids` constituintes (*Ancoragem Micro*), o cluster sociotécnico calibrado, o vetor DART médio ponderado, as frequências taxonómicas e o código de valor emergente.
+1. **Agregação Algorítmica com Preservação dos Posts Constituintes**: O agente agrupa com fidelidade os posts validados nos seus **152 tópicos de discussão ativos** (65 em EVE Online e 87 em World of Warcraft na versão original; **151 tópicos, 79 EVE / 72 WoW** após a revisão v4.1), mantendo em cada ficha de tópico a lista explícita dos seus `post_ids` constituintes (*Ancoragem Micro*), o cluster sociotécnico calibrado, o vetor DART médio ponderado, as frequências taxonómicas e o código de valor emergente.
 2. **Entregável Estruturado JSON**: Os resultados estruturados de todos os tópicos foram consolidados em [`data/analysis/thread_level_results.json`](file:///Users/jpaulo/Documents/AntiGravity_Agents/Interação%20Humano-IA%20e%20Cocriação%20de%20Valor%20em%20Ecossistemas%20de%20Videojogos/data/analysis/thread_level_results.json), contendo metadados completos, lista de posts incorporados, métricas DART individuais, dinâmicas de valor e citações paradigmáticas.
 3. **Catálogo Sistemático e Macro-Síntese**: Foi gerado o documento exaustivo [`output/analise_agregada_topicos.md`](file:///Users/jpaulo/Documents/AntiGravity_Agents/Interação%20Humano-IA%20e%20Cocriação%20de%20Valor%20em%20Ecossistemas%20de%20Videojogos/output/analise_agregada_topicos.md) (com 3.928 linhas), que inclui uma ficha analítica sistemática para cada um dos 152 tópicos (com os seus posts e campos preservados) e a formalização teórica dos 5 clusters sociotécnicos calibrados.
 4. **Articulação Teórica Multinível**: Este módulo fecha o ciclo investigativo entre o nível Meso (tópico como unidade primária de sentido), o nível Micro incorporado (post como evidência literal verificável) e o nível Macro (ecossistemas sandbox vs. controlados), assegurando total rigor netnográfico segundo Kozinets (2020) e Prahalad & Ramaswamy (2004).
@@ -474,93 +529,25 @@ Para solucionar lacunas interpretativas decorrentes da análise atómica isolada
      7. `ThreadSynthesisAgent` (Síntese multinível incorporada Meso-Micro e calibração dos 5 clusters sociotécnicos)
      8. `HumanAuditorAgent / SummaryTableGenerator` (Auditoria humana de alto nível Track B e ancoragem Micro Track A)
 
-### 8.5 Protocolo de Auditoria Humana, Novos Parâmetros Metodológicos e Resultados da Track B
+### 8.5 Revisão v4.1: Correções, Leitura Holística e Modelo Nulo
 
-Em estrito cumprimento da **Arquitetura Metodológica Multinível Incorporada (DART-NET v4.0)** e do princípio de ancoragem empírica (*verbatim grounding*; Kozinets, 2020), o livro de cálculo [`output/Protocolo_Auditoria_Humana_Formatado.xlsx`](file:///Users/jpaulo/Documents/AntiGravity_Agents/Interação%20Humano-IA%20e%20Cocriação%20de%20Valor%20em%20Ecossistemas%20de%20Videojogos/output/Protocolo_Auditoria_Humana_Formatado.xlsx) preserva todos os campos dos tópicos analisados, mantém todos os posts constituintes dos tópicos e introduz novos parâmetros de auditoria de alto nível:
+A revisão v4.1 foi feita sem alterar os ficheiros originais. Todos os resultados novos estão em ficheiros com o sufixo `_v4_1`:
 
-1. **Estrutura Integrada de 7 Folhas no Livro de Auditoria (`Protocolo_Auditoria_Humana_Formatado.xlsx`)**:
-   * **`Instrucoes`**: Formaliza a Arquitetura Multinível Incorporada (DART-NET v4.0), a divisão em dois blocos independentes de duplo-cego, as escalas de fidelidade, os novos parâmetros de auditoria e a regra de fronteira operacional Cluster 1 vs. Cluster 5.
-   * **`Exemplos_Posts` e `Exemplos_Topicos`**: Casos de referência calibrados para alinhamento dos auditores ($\le 60$ palavras nos posts e $\le 150$ palavras nos tópicos).
-   * **`Track_B_Bloco1_JPaulo_Emmanoel` ($N=15$ tópicos estratificados — Auditoria Concluída e Calibrada)**: Preserva todos os campos analíticos do tópico (`Volume_Posts`, `IDs_Posts_Constituintes`, `Perfil_Tecnico_Dominante`, `Vetor_DART_Topico`, `Dinamica_Valor_IA`, `Enquadramento_Retorico_IA`, `Evidencia_Paradigmatica_Verbatim` e `Resumo_Analitico_IA` **$\le 150$ palavras**), com as avaliações completas de **Prof. JPaulo** e **Prof. Emmanoel**, a codificação preservada da Ronda 1 e os novos parâmetros metodológicos.
-   * **`Posts_Bloco1_JPaulo_Emmanoel` ($N=104$ posts constituintes do Bloco 1)**: Mantém integralmente todos os 104 posts pertencentes aos 15 tópicos do Bloco 1, com `Texto_Real_Verbatim`, `Tema_Post`, `Resumo_Analitico_IA` ($\le 60$ palavras), `Agencia_IA`, `Interacao_IA`, `Valor_Post`, `Vetor_DART_Post` e `Papel_Ancoragem_Empirica_No_Topico (Micro -> Meso)`.
-   * **`Track_B_Bloco2_Roger_Gomide` ($N=15$ novos tópicos estratificados — Amostra de Expansão)**: Contém 15 novas discussões cobrindo equilibradamente os 5 clusters nos dois jogos, com todos os campos empíricos e resumos analíticos preenchidos e colunas em branco prontas para codificação independente em duplo-cego por **Prof. Roger** e **Prof. Gomide**.
-   * **`Posts_Bloco2_Roger_Gomide` ($N=251$ posts constituintes do Bloco 2)**: Incorpora a totalidade dos 251 posts que compõem os 15 tópicos do Bloco 2, garantindo ancoragem empírica (*verbatim grounding*) completa para a segunda equipa de auditores.
+| Ficheiro | Conteúdo |
+| :--- | :--- |
+| `scratch/v4_1/01_corrigir_dados.py` | Correção do jogo (14 tópicos), dos subreddits (3 tópicos), fusão do duplicado `3000003`, pseudonimização de 20 nomes, verificação literal da evidência DART |
+| `data/analysis/netnography_results_v4_1.jsonl` | Corpus corrigido: 1.029 posts, 151 tópicos |
+| `data/target_corpus_v4_1.json` | Catálogo de tópicos corrigido (303 → 291 entradas) |
+| `data/analysis/correcoes_v4_1_log.json` | Registo de todas as correções |
+| `scratch/v4_1/02_codificacao_holistica_topicos.py` | Codificação holística cega dos 151 tópicos com `deepseek-v4-pro` (posts por ordem cronológica, sem rótulos micro, evidência verificada literalmente, VC secundário limitado a VC1–VC3; ~0,26 USD por corrida) |
+| `data/analysis/topic_holistic_coding_v4_1.json` | Resultados da codificação holística definitiva (151/151 tópicos, 0 erros, 150/151 citações verificadas), usados neste relatório |
+| `data/analysis/topic_holistic_coding_v4_1_run1_sec_livre.json` | Primeira corrida, com o secundário sem restrições; guardada para o teste-reteste (Secção 7.3.1) |
+| `scratch/v4_1/03_comparacao_meso.py` → `data/analysis/comparacao_meso_v4_1.json` | Comparação micro vs. meso, modelo nulo (5.000 permutações), resultados por jogo e por cluster |
+| `scratch/v4_1/04_estatisticas_relatorio.py` → `data/analysis/estatisticas_relatorio_v4_1.json` | Estatísticas do corte de contraste (824 posts) e das métricas DART por jogo e por cluster usadas neste relatório |
 
-2. **Escala Ordinal de Fidelidade (1 a 5) e os 4 Tipos Concetuais de Fidelidade + Novos Parâmetros de Auditoria**:
-   * **Escala Ordinal (1 a 5)**: **5 — Excelente *(Fidelidade Plena)***; **4 — Boa *(Fidelidade Elevada)***; **3 — Aceitável *(Fidelidade Moderada)***; **2 — Insuficiente *(Baixa Fidelidade)***; **1 — Deficiente / Alucinação *(Fidelidade Nula)***.
-   * **Dimensões Auditadas na Track B (Clássicas + Novas Dimensões DART-NET v4.0)**:
-     1. *Cluster Temático Auditado (`Cluster 1–5`)*: Validação do domínio sociotécnico aplicando a regra de fronteira Cluster 1 (API/MCP em tempo real) vs. Cluster 5 (mediação humana manual);
-     2. *Trajetória Relacional de Valor (`VC1–VC4`) e Polifonia Dialética Multi-VC* **[NOVO]**: Dinâmica emergente na totalidade da discussão e registo das tensões duplas (ex.: `VC2 + VC3`, `VC1 e VC3`, `VC2 e VC4`) identificadas na Ronda 1 de codificação manual;
-     3. *Fidelidade de Síntese Global (`1–5`)*: Representatividade dialética do resumo (evoluindo de `4,13/5` nos resumos curtos de 60 palavras da Ronda 1 para `4,93/5` nos resumos de até 150 palavras da Ronda 2);
-     4. *Adequação do Vetor DART e Agência/Interação (`1–5`)* **[NOVO]**: Coerência sociotécnica entre os escores $D, A, R, T$, os códigos $A_n/I_n$ e o fenómeno real;
-     5. *Fidelidade Pragmática e Retórica (`1–5`)* **[NOVO]**: Rigor na deteção de `[Sátira/Ironia]` e `[Humor/Piada]` mediante confrontação post-tópico;
-     6. *Ancoragem Verbatim Micro-Meso (`1–5`)* **[NOVO]**: Ausência de alucinação e verificação forense face aos 104 posts constituintes;
-     7. *Resolução da Diluição Atómica* **[NOVO]**: Ganho explicativo do nível Meso face à contagem atómica `vc_counts`.
-
-3. **Matriz Consolidada dos Resultados da Auditoria Humana de Alto Nível (Track B — $N=15$ Tópicos / $104$ Posts em 2 Vagas)**:
-
-| ID Tópico | Jogo / Ecossistema | Posts (Ret./Orig.) | Vetor DART (`D\|A\|R\|T`) | Ronda 1 JPaulo (Cluster \| Multi-VC \| Fid.) | Ronda 2 Calibrada (JPaulo / Emmanoel) | Trajetória de Valor Consolidada (Polifonia Multi-VC) | Fidel. Síntese (`R1`$\rightarrow$`R2`) | Adeq. DART | Fidel. Pragm. | Ancor. Verbatim | Parecer Metodológico e Resolução da Diluição Atómica |
-| :--- | :--- | :---: | :---: | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
-| **`1tdxixs`** | EVE Online | `11 / 58` | `0,5\|0,5\|1,1\|1,4` | `C4` \| `VC2/VC3` \| `4` | **Cluster 1** (interf. C4) | **VC4** (Polifonia **VC2 + VC3**) | `4`$\rightarrow$`5` | `5` | `5` | `5` | Supera a neutralidade atómica (`11/11 VC4`) ao expor a tensão entre promessa da DeepMind (`VC2`) e crítica à opacidade corporativa (`VC3`, `T=1,4`); 4 posts satíricos descodificados. |
-| **`2039353`** | WoW | `4 / 114` | `2,5\|2,0\|1,2\|1,5` | `C1` \| `VC2/VC3` \| `3` | **Cluster 5** *(Regra 4.4.1)* | **VC4** (Polifonia **VC2 + VC3**) | `3`$\rightarrow$`5` | `4` | `5` | `5` | Regra Secção 4.4.1: sem API viva; consulta manual ao ChatGPT sobre MMR. Resumo de 150 pal. sobe fidelidade de `3` para `5` e corrige viés atómico (`2 VC2`) ao provar alucinação Lua. |
-| **`510327`** | EVE Online | `41 / 183` | `2,8\|2,4\|1,3\|2,4` | `C1` \| `VC1` \| `4` | **Cluster 1** (Consenso Pleno) | **VC1** (Cocriação Efetiva) | `4`$\rightarrow$`5` | `5` | `5` | `5` | Arquétipo de Cocriação (`VC1`, API ESI + Claude). Enquanto 20/41 posts isolados pareciam `VC4` e 5 `VC3` (bugs), o tópico revela ciclo colaborativo exemplar. |
-| **`1mctiz6`** | EVE Online | `2 / 22` | `0,0\|0,0\|1,0\|0,0` | `C5` \| `VC2/VC3` \| `4` | **Cluster 5** *(Reclass. de C2)* | **VC4** (Polifonia **VC2 + VC3**) | `4`$\rightarrow$`5` | `5` | `5` | `5` | Confirmado no Cluster 5 por JPaulo (uso manual do Gemini para *brainstorming*). Descodifica 100% da sátira nos 2 posts retidos sobre delegação de agência. |
-| **`481937`** | EVE Online | `2 / 41` | `0,0\|1,5\|2,0\|0,0` | `C2` \| `VC3` \| `4` | **Cluster 2** (Consenso Pleno) | **VC4** em tensão c/ **VC3** | `4`$\rightarrow$`5` | `5` | `5` | `5` | Reconcilia a denúncia de *botting* (`VC3` validado por JPaulo no post 1) com a defesa de industriais legítimos (`VC4` no post 2), captando o dilema entre *QoL* e automação ilícita. |
-| **`reddit_1rnbqbh`** | WoW | `2 / 9` | `0,0\|0,0\|0,5\|3,0` | `C4` \| `VC3` \| `4` | **C4** (JP) / **C3** (EM) *(Fronteira)* | **VC4** c/ risco **VC3** | `4`$\rightarrow$`5` | `5` | `5` | `5` | Divergência produtiva de fronteira: conteúdo narrativo in-game (`C4`, JPaulo) vs. *layoffs* e governança (`C3`, Emmanoel). Pico de Transparência (`T=3,0`) perfeitamente captado. |
-| **`503747`** | EVE Online | `4 / 363` | `1,5\|1,5\|3,0\|2,0` | `C1` \| `VC4` \| `4` | **Cluster 2** *(Reclass. de C3)* | **VC4** (Reflexão Macro) | `4`$\rightarrow$`5` | `5` | `5` | `5` | Concordância plena em `VC4`; reclassificado para Cluster 2 (impacto sistémico/económico da automação, `R=3,0`), consolidando 4 reflexões sobre trabalho e economia virtual. |
-| **`2152188`** | WoW | `1 / 1` | `3,0\|2,0\|2,0\|4,0` | `C3` \| `VC3` \| `4` | **Cluster 3** (Consenso Pleno) | **VC3** (Codestruição) | `4`$\rightarrow$`5` | `5` | `5` | `5` | Concordância absoluta (`C3` e `VC3`): deteção forense de travessões (*M-Dashes*) e *links* alucinados no suporte ao cliente (*ChatGPT GM*, `T=4,0`), destruindo a confiança institucional. |
-| **`1i6m4i6`** | WoW | `3 / 100` | `3,7\|2,0\|1,0\|1,3` | `C1` \| `VC2 e VC4` \| `4` | **Cluster 5** *(Regra 4.4.1)* | **VC4** (Polifonia **VC2 + VC4**) | `4`$\rightarrow$`5` | `5` | `5` | `5` | Regra Secção 4.4.1: teste manual ChatGPT vs. Gemini em rotas WoW sem API viva (`C1` $\rightarrow$ `C5`). Corrige o rótulo atómico `VC2` ao integrar a alucinação do Gemini (`VC2 e VC4`). |
-| **`reddit_1q7m0sl`** | WoW *(Verbat.: EVE)* | `11 / 36` | `0,5\|0,7\|2,0\|0,6` | `C4` \| `VC2` \| `4` | **Cluster 4** (Consenso Pleno) | **VC4** (Polifonia **VC2 + VC3**) | `4`$\rightarrow$`4` | `5` | `5` | `4` | **Achado Forense Micro-Meso**: a ancoragem nos 11 posts (`Aura`, `newbros`, `logi apoc fit`, `killboards`) prova que o tópico pertence a *EVE Online*, corrigindo a leitura binária. |
-| **`2116712`** | WoW | `5 / 25` | `0,2\|1,0\|3,8\|1,0` | `C2` \| `VC3` \| `5` | **Cluster 2** *(Reclass. de C4)* | **VC3** (Codestruição) | `5`$\rightarrow$`5` | `5` | `5` | `5` | Validado c/ nota máxima (`5/5`, `C2`, `VC3`) por JPaulo desde a Ronda 1: elimina o falso positivo lexical (`"weakaura"` $\rightarrow$ `"aura"` no C4) e foca *pixel bots* em PvP Rated (`R=3,8`). |
-| **`512367`** | EVE Online | `4 / 16` | `1,0\|2,0\|2,5\|2,2` | `C4` \| `VC1 e VC3` \| `4` | **Cluster 4** (Consenso Pleno) | **VC4** (Polifonia **VC1/VC2 + VC3**) | `4`$\rightarrow$`5` | `5` | `5` | `5` | Corrige o rótulo automático `VC3` ao evidenciar a dialética apontada por JPaulo (`VC1 e VC3`) entre design *Bounded AI / RAG* e preservação de wikis comunitárias. |
-| **`reddit_1kylpvy`** | WoW | `7 / 10` | `2,9\|2,7\|0,7\|1,4` | `C1` \| `VC1 e VC4` \| `4` | **Cluster 5** *(Regra 4.4.1)* | **VC2 / VC1** (Polifonia **VC1 + VC4**) | `4`$\rightarrow$`5` | `5` | `5` | `5` | Regra Secção 4.4.1: uso manual do ChatGPT Plus na gestão de horários de raid e *roleplay* (`C1` $\rightarrow$ `C5`), exigindo verificação cruzada com o *Wowhead* (`VC1 e VC4`). |
-| **`2176376`** | WoW | `2 / 3` | `0,0\|1,0\|0,5\|1,0` | `C4` \| `VC2` \| `5` | **Cluster 4** *(Reclass. de C5)* | **VC4** (Potencial **VC2**) | `5`$\rightarrow$`5` | `5` | `5` | `5` | Validado c/ nota máxima (`5/5`, `C4`, `VC2`) por JPaulo desde a Ronda 1: foco em companheiros de grupo gerados por IA para viabilizar masmorras/raids antigas em servidores *evergreen*. |
-| **`reddit_1r1dd9i`** | WoW | `5 / 34` | `1,2\|0,8\|1,4\|1,0` | `C5` \| `VC4 e VC3` \| `5` | **Cluster 5** (Consenso Pleno) | **VC4** (Polifonia **VC4 + VC3/VC1**) | `5`$\rightarrow$`5` | `5` | `5` | `5` | Validado c/ nota máxima (`5/5`, `C5`, `VC4 e VC3`) desde a Ronda 1: a tese central (*"IA como multiplicador de competência ou incompetência"*) emerge apenas da dialética entre os posts 19, 28 e 29. |
-| **Média / Síntese** | **15 Tópicos** | **104 / 1.015** | **`1,2\|1,4\|1,8\|1,5`** | **Fid. R1: `4,13/5`** | **93,3% Acordo ($\kappa=0,916$)** | **100% Acordo ($\kappa=1,00$)** | **`4,13`$\rightarrow$`4,93`** | **`4,93`** | **`5,00`** | **`4,93`** | **Subida de `+0,80` em Fidelidade após resumos de 150 pal.; 3 casos C1 vs. C5 desambiguados; 6 falsos positivos corrigidos; 1 deteção forense de raspagem.** |
-
-4. **Amostra de Expansão Estratificada e Protocolo Duplo-Cego Independente (Track B — Bloco 2: Prof. Roger & Prof. Gomide — $N=15$ Novos Tópicos / $251$ Posts Constituintes)**:
-
-De forma a expandir a validade externa e o poder estatístico da validação qualitativa humana, a amostra auditada foi duplicada de 15 para **30 discussões completas** (19,7% do corpus ativo de 152 tópicos), englobando um total cumulativo de **355 posts constituintes** (34,4% dos 1.032 posts ativos / 43,0% do corte experimental de 825 posts). 
-
-Enquanto o **Bloco 1** ($N=15$ tópicos, 104 posts) foi integralmente codificado e calibrado em duas rondas por **Prof. JPaulo** e **Prof. Emmanoel** ($\kappa = 0,916$ em clusters e $\kappa = 1,00$ em trajetórias de valor), o **Bloco 2** ($N=15$ novos tópicos, 251 posts) foi especificamente desenhado para uma **avaliação independente em duplo-cego** conduzida por uma segunda equipa de investigadores seniores (**Prof. Roger** e **Prof. Gomide**).
-
-A seleção estratificada do Bloco 2 seguiu três critérios metodológicos estritos:
-* **Equilíbrio Sociotécnico**: Exatamente 3 discussões completas para cada um dos 5 clusters temáticos (C1: APIs/MCP, C2: Fair Play/Bots, C3: Suporte/Governança, C4: IA Oficial In-Game, C5: Copilotos/Vibe-Coding);
-* **Representatividade dos Ecossistemas**: 6 tópicos de *EVE Online* (124 posts retidos) e 9 tópicos de *World of Warcraft* (127 posts retidos), espelhando a distribuição do corpus geral;
-* **Ancoragem Empírica com Zero Alucinação**: Todos os 15 tópicos e os respetivos 251 posts constituintes encontram-se mapeados na folha `Posts_Bloco2_Roger_Gomide`, permitindo que os auditores confrontem diretamente cada afirmação sintetizada com o texto literal dos jogadores.
-
-A matriz abaixo sistematiza a caracterização analítica pré-auditoria do Bloco 2:
-
-| ID Tópico | Jogo / Ecossistema | Posts (Ret./Orig.) | Cluster Estratificado | Título Real da Discussão | Vetor DART (`D\|A\|R\|T`) | Perfil Técnico Dominante | Dinâmica de Valor (Pipeline vs. Meso) | Enquadramento Pragmático / Retórico | Hipótese Teórica e Resolução da Diluição Atómica (Justificação da Seleção) |
-| :--- | :--- | :---: | :---: | :--- | :---: | :---: | :---: | :--- | :--- |
-| **`516433`** | EVE Online | `1 / 1` | **Cluster 1** | *EVE MCP Server — quering ESI from Claude, Copilot and other AI assistants* | `0,0\|5,0\|2,0\|3,0` | Prevalente: `A1 / I4` | Pipeline: `VC4` / Agente: `VC2` | Debate Técnico Sério (Sátira: 0) | Marco em integração técnica externa via Model Context Protocol (Anthropic) com a API ESI. Supera a classificação atómica neutra (`VC4:1`) ao revelar potencial pioneiro de cocriação arquitetural direta (`VC2`, $A=5,0$). |
-| **`507123`** | EVE Online | `9 / 31` | **Cluster 1** | *EVE ONE - Your all in one management portal* | `1,7\|3,7\|1,3\|2,3` | Prevalente: `A1 / I3` | Pipeline: `VC2` / Agente: `VC2` | Debate Técnico Sério / Autopromoção (Sátira: 0) | Plataforma de gestão comunitária multiconta via ESI. Supera a dispersão dos 9 posts (onde 5 pareciam `VC4` neutros) ao documentar o ciclo de cocriação de valor voluntário e transparência em telemetria em New Eden (`VC2` $\rightarrow$ `VC1`). |
-| **`reddit_1vdomcq`** | WoW | `5 / 12` | **Cluster 1** | *How many people are using AI to build tools to improve trading and industry profits?* | `0,8\|2,2\|1,6\|0,8` | Prevalente: `A4 / I1` | Pipeline: `VC1` / Agente: `VC4` | Debate Técnico Sério c/ Crítica e Sarcasmo (Sátira: 2) | Uso de LLMs e APIs de leilão para arbitragem e trading. A análise atómica fragmentava os 5 posts entre VC1, VC2 e VC4; o nível Meso captura a tensão ética entre dashboards comunitários e assimetria algorítmica de mercado. |
-| **`reddit_1tvlpnw`** | WoW | `2 / 2` | **Cluster 2** | *Sick of spam and bots ruining our game? Here's an addon that uses machine learning...* | `0,0\|2,0\|1,5\|0,5` | Prevalente: `A3 / I4` | Pipeline: `VC4` / Agente: `VC2` | Debate Técnico Sério / Tom Proativo (Sátira: 0) | Addon comunitário com Machine Learning local para filtragem em tempo real de spam e bots de chat. Os 2 posts pareciam neutros (`VC4:2`) isoladamente, mas no nível Meso revelam agência defensiva dos jogadores (`VC2`). |
-| **`474041`** | EVE Online | `5 / 9` | **Cluster 2** | *Bots / maybe machine learning training in Malukker* | `0,6\|0,4\|2,2\|1,4` | Prevalente: `A5 / I5` | Pipeline: `VC3` / Agente: `VC4` | Debate Técnico Sério (Sátira: 0) | Denúncia de treino de modelos de ML/RL em sistemas de novatos (*Malukker*). A dinâmica Meso elucida a codestruição de valor (`VC3`, $R=2,2$) decorrente da perturbação predatória do onboarding de novos pilotos (*newbros*). |
-| **`3000003`** | WoW | `18 / 20` | **Cluster 2** | *Ai and WoW* | `0,2\|0,6\|1,3\|0,7` | Prevalente: `A5 / I4` | Pipeline: `VC2` / Agente: `VC4` | Debate Técnico Sério c/ Ironia e Memes (Sátira: 6) | Extenso debate comunitário sobre proliferação de bots por IA e custos ecológicos/éticos de datacenters. A contagem atómica (15/18 `VC4`) ocultava a crítica; o nível Meso expõe a contestação sociotécnica e desilusão com o Fair Play. |
-| **`508618`** | EVE Online | `33 / 85` | **Cluster 3** | *Recorded a bot in high sec - but why even bother?* | `1,1\|0,4\|2,2\|1,5` | Prevalente: `A5 / I4` | Pipeline: `VC3` / Agente: `VC4` | Debate Técnico c/ Sátira e Sarcasmo (Sátira: 5) | Discussão de 33 posts sobre a ineficácia de bans de IP e persistência de bots de mineração ligados a RMT. Enquanto 28 posts isolados pareciam neutros, o tópico consolida uma crise de legitimidade na governança da CCP (`VC3`, $R=2,2$). |
-| **`2147065`** | WoW | `16 / 53` | **Cluster 3** | *No Customer Service anymore?!* | `1,2\|1,1\|1,8\|2,2` | Prevalente: `A5 / I2` | Pipeline: `VC3` / Agente: `VC3` | Sátira / Paródia / Crítica Contundente (Sátira: 5) | Confrontação direta entre jogadores e suporte oficial sobre respostas pré-fabricadas e automação de tickets. 9 dos 16 posts atestam codestruição explícita (`VC3`), evidenciando a degradação do pacto de confiança com a Blizzard. |
-| **`1gebstj`** | WoW | `17 / 92` | **Cluster 3** | *My Name Is Not Joshua And This Is Peak Chatgpt* | `1,2\|0,2\|1,6\|1,4` | Prevalente: `A5 / I1` | Pipeline: `VC3` / Agente: `VC3` | Sátira / Humor / Crítica Contundente (Sátira: 4) | Caso paradigmático de colapso de suporte por IA: o bot trocou a identidade do utilizador ("Joshua") e removeu mecanismos de segurança (autenticador) por engano. O nível Meso descodifica a paródia satírica como denúncia de `VC3`. |
-| **`506798`** | EVE Online | `14 / 47` | **Cluster 4** | *Aura Guidance (Beta) Feedback Thread* | `0,9\|1,3\|1,8\|1,6` | Prevalente: `A5 / I4` | Pipeline: `VC2` / Agente: `VC4` | Debate Técnico c/ Sátira e Crítica (Sátira: 2) | Tópico oficial de testes do assistente inteligente in-game *Aura Guidance*. A leitura Meso revela o escrutínio dos veteranos sobre os limites contratuais do EULA e a proteção de dados textuais, superando a neutralidade atómica (9/14 `VC4`). |
-| **`2308441`** | WoW | `25 / 166` | **Cluster 4** | *AI and MMORPGsg* | `1,5\|1,1\|1,3\|0,7` | Prevalente: `A5 / I1` | Pipeline: `VC3` / Agente: `VC4` | Debate Técnico c/ Ironia e Sarcasmo (Sátira: 4) | Análise aprofundada de 25 posts sobre NPCs generativos em MMORPGs, balanceando o fascínio da narrativa viva com riscos de desvios canónicos (*canon drift*), superfícies de exploit e perda de coerência ficcional. |
-| **`2171055`** | WoW | `32 / 75` | **Cluster 4** | *Artificial Intelligence Simulated Players* | `0,5\|0,3\|1,0\|1,1` | Prevalente: `A5 / I5` | Pipeline: `VC3` / Agente: `VC4` | Sátira / Humor / Debate Sério (Sátira: 6) | Debate comunitário massivo (32 posts retidos) sobre masmorras com seguidores de IA (*Follower Dungeons*). O nível Meso revela a tensão entre alívio da ansiedade social vs. risco de esvaziamento dos canais de formação de grupos humanos. |
-| **`reddit_1v3v2p2`** | WoW | `1 / 3` | **Cluster 5** | *Claude Code Success* | `5,0\|4,0\|1,0\|1,0` | Prevalente: `A1 / I3` | Pipeline: `VC1` / Agente: `VC2` | Humor / Sarcasmo / Debate Técnico (Sátira: 1) | Caso paradigmático de cocriação de valor via vibe-coding ($D=5,0, A=4,0$). O autor recorreu ao Claude Code com notas oficiais de patch (blue post) para atualizar e restaurar o código Lua de um addon quebrado com sucesso imediato. |
-| **`reddit_1ql5f05`** | WoW | `11 / 108` | **Cluster 5** | *The start of the vibecoded addon wars* | `1,0\|1,5\|2,0\|1,7` | Prevalente: `A4 / I3` | Pipeline: `VC1` / Agente: `VC4` | Debate Técnico c/ Ironia e Sarcasmo (Sátira: 2) | Controvérsia pública sobre autoria e qualidade de addons gerados por LLMs no CurseForge. Enquanto 10/11 posts isolados pareciam neutros, o nível Meso expõe a disputa ética entre criadores tradicionais e utilizadores de vibe-coding. |
-| **`1jukb0x`** | EVE Online | `62 / 97` | **Cluster 5** | *Psa For The New Bros Dont Ask Chatgpt About Eve* | `1,4\|1,2\|1,3\|1,0` | Prevalente: `A5 / I3` | Pipeline: `VC1` / Agente: `VC4` | Debate Técnico c/ Sátira e Humor (Sátira: 9) | Maior discussão do corpus (62 posts retidos). Supera cabalmente a aparente esterilidade atómica (54/62 `VC4`) ao constituir um compêndio empírico monumental sobre alucinações de LLMs em *fittings* e a exigência de literacia humana. |
-| **Média / Síntese** | **15 Tópicos** | **251 / 801** | **Equilíbrio 3 por Cluster** | **15 Discussões Estratificadas de Expansão** | **`1,1\|1,7\|1,6\|1,4`** | **Diversidade A1–A5 e I1–I5** | **6 Pipeline VC1/VC2 / 6 VC3 / 3 VC4** | **37 Posts Satíricos Mapeados** | **Expansão de 15 para 30 tópicos (19,7% do corpus) e de 104 para 355 posts constituintes (43,0% dos posts refinados), com colunas em branco prontas para duplo-cego.** |
-
-5. **Consolidação Estatística e Metodológica da Amostra Global de Auditoria ($N=30$ Tópicos / $355$ Posts Constituintes)**:
-
-A tabela comparativa seguinte sumariza o alcance da auditoria humana no âmbito da framework DART-NET v4.0, demonstrando a robustez da amostragem em dois blocos independentes:
-
-| Dimensão de Amostragem | Bloco 1 (Prof. JPaulo & Prof. Emmanoel) | Bloco 2 (Prof. Roger & Prof. Gomide) | Total da Auditoria Humana Consolidada (Track B) | Cobertura Relativa do Corpus Ativo ($N=152$ Tópicos / $1.032$ Posts) |
-| :--- | :---: | :---: | :---: | :---: |
-| **Tópicos de Discussão ($N$)** | **15 tópicos** | **15 tópicos** | **30 tópicos completos** | **19,7%** (~20% do ecossistema) |
-| **Posts Constituintes Retidos ($N$)** | **104 posts** | **251 posts** | **355 posts de ancoragem** | **34,4%** dos posts ativos (**43,0%** do corte de 825) |
-| **Volume de Posts Originais das Threads** | 1.015 posts | 801 posts | 1.816 posts originais | Ampla representatividade contextual |
-| **Distribuição por Ecossistema** | 7 EVE / 8 WoW | 6 EVE / 9 WoW | 13 EVE / 17 WoW | 43,3% EVE / 56,7% WoW (conforme corpus) |
-| **Estratificação por Clusters (C1 a C5)** | 3 C1, 3 C2, 2 C3, 4 C4, 3 C5 | 3 C1, 3 C2, 3 C3, 3 C4, 3 C5 | 6 C1, 6 C2, 5 C3, 7 C4, 6 C5 | Equilíbrio perfeito entre domínios sociotécnicos |
-| **Vetor Médio DART (`D\|A\|R\|T`)** | `1,2 \| 1,4 \| 1,8 \| 1,5` | `1,1 \| 1,7 \| 1,6 \| 1,4` | `1,2 \| 1,5 \| 1,6 \| 1,5` | Consistência de sensibilidade psicométrica |
-| **Posts com Marcadores de Sátira/Ironia** | 16 posts identificados | 37 posts identificados | 53 posts satíricos verificados | Controlo rigoroso de falsos positivos literais |
-| **Estado Operacional da Auditoria** | **Concluída e Calibrada** (Ronda 1 + Ronda 2; $\kappa=0,916 / 1,00$) | **Preparada para Duplo-Cego** (Dados empíricos preenchidos; colunas de voto limpas) | **Protocolo Unificado Disponível em Excel** (`Protocolo_Auditoria_Humana_Formatado.xlsx`) | **Validade Externa e Verificabilidade Garantidas** |
+**Principais consequências para as conclusões**:
+1. O contraste entre ecossistemas inverte-se quando se corrige o jogo e se usa a leitura holística: *EVE Online* tem mais cocriação efetiva (VC1 24,1% vs. 9,7%) e menos codestruição (VC3 12,7% vs. 19,4%) do que *World of Warcraft* (Secções 4.3 e 6.3.1).
+2. O "salto" micro → meso obtido pela regra de agregação é um efeito mecânico da regra (modelo nulo, Secção 1.7.1). A proporção de ~48% de tópicos com impacto ativo é, ainda assim, corroborada pela leitura holística independente (46,4%).
+3. A atribuição de clusters por palavras-chave tem acordo moderado com a leitura holística ($\kappa = 0,43$); as proporções por cluster são indicativas.
+4. As médias DART são robustas à verificação literal da evidência (variação máxima de −0,08).
+5. A leitura holística é estável entre corridas (VC principal: $\kappa = 0,91$; cluster: $\kappa = 0,85$). As conclusões assentam no VC principal; o VC secundário é descritivo (Secção 7.3.1).
