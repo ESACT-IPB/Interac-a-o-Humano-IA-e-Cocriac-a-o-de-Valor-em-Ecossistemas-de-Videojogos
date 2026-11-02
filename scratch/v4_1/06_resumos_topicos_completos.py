@@ -30,6 +30,9 @@ sample = set()
 for c in CODERS:
     ws = openpyxl.load_workbook(os.path.join(ROOT, "output", f"etapa_2_Avaliacao_Resumos_{c}.xlsx"))["Avaliacao_Resumos"]
     sample.update(str(r[0]) for r in ws.iter_rows(min_row=2, values_only=True) if r[0])
+AMOSTRA = os.path.join(ROOT, "data", "analysis", "amostra_auditoria_v4_1_sem_repeticoes.json")
+if os.path.exists(AMOSTRA):  # amostra sem repetições (10_amostra_auditoria_sem_repeticoes.py)
+    sample.update(t for ts in json.load(open(AMOSTRA))["amostra"].values() for t in ts)
 resolve = lambda x: x if x in threads else ("reddit_" + x if "reddit_" + x in threads else x.replace("reddit_", ""))
 todo = {x: resolve(x) for x in sample}
 assert all(t in threads for t in todo.values()), [x for x, t in todo.items() if t not in threads]

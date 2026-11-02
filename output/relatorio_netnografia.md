@@ -19,7 +19,7 @@
 
 ### 1.1 Enquadramento Teórico e Mudança de Paradigma Analítico
 
-O presente relatório formaliza e aplica a framework **DART-NET v4.0** (Prahalad & Ramaswamy, 2004; Vargo & Lusch, 2016; Kozinets, 2020; DART-NET 2026) à análise da interação entre humanos e agentes de inteligência artificial (IA) em ecossistemas de videojogos. O modelo DART original — **Diálogo, Acesso, Risco e Transparência** — constitui a matriz conceptual para avaliar a qualidade das interações sociotécnicas. A versão **DART-NET v4.0** operacionaliza este referencial para ambientes digitais mediados por IA através de uma **Arquitetura Metodológica Multinível Incorporada (*Embedded Multilevel Design*)**, na qual o **Tópico de Discussão (*Thread*, Nível Meso, $N=151$)** assume o estatuto de **Unidade Primária de Análise, Sentido, Codificação Relacional e Teorização**, enquanto os **Posts Individuais (Nível Micro, $N=1.029$ posts ativos / $824$ no corte de contraste)** são integralmente preservados e incorporados dentro dos respetivos tópicos como **Unidade de Ancoragem Empírica (*Verbatim Grounding*) e Controlo Forense Anti-Alucinação**.
+O presente relatório formaliza e aplica a framework **DART-NET v4.0** (Prahalad & Ramaswamy, 2004; Vargo & Lusch, 2016; Kozinets, 2020; DART-NET 2026) à análise da interação entre humanos e agentes de inteligência artificial (IA) em ecossistemas de videojogos. O modelo DART original — **Diálogo, Acesso, Risco e Transparência** — constitui a matriz conceptual para avaliar a qualidade das interações sociotécnicas. A versão **DART-NET v4.0** operacionaliza este referencial para ambientes digitais mediados por IA através de uma **Arquitetura Metodológica Multinível Incorporada (*Embedded Multilevel Design*)**, na qual o **Tópico de Discussão (*Thread*, Nível Meso, N = 151)** assume o estatuto de **Unidade Primária de Análise, Sentido, Codificação Relacional e Teorização**, enquanto os **Posts Individuais (Nível Micro, N = 1.029 posts ativos / 824 no corte de contraste)** são integralmente preservados e incorporados dentro dos respetivos tópicos como **Unidade de Ancoragem Empírica (*Verbatim Grounding*) e Controlo Forense Anti-Alucinação**.
 
 ### 1.2 Distinção Fundamental: IA vs. Automação Convencional (A1–A6)
 
@@ -90,33 +90,33 @@ Por conseguinte, foi aplicado um **protocolo rigoroso de refinamento epistémico
 À luz da teoria de **Interação Humano-Computador (HCI / CSCW)**, da **Lógica Dominante do Serviço (*Service-Dominant Logic* / Cocriação de Valor)** e dos **Estudos de Videojogos (*Game Studies*)**, a análise isolada de posts atómicos sofre de limitações epistemológicas severas que apenas uma arquitetura centrada no **Tópico de Discussão (*Thread*) com incorporação dos seus posts constituintes** permite superar:
 
 1. **Princípio da Indexicalidade Conversacional e *Common Ground* (HCI / CSCW)**: Em plataformas assíncronas como *Reddit* e *Discourse* (Blizzard / CCP Forums), um post individual não é um documento autónomo, mas um **turno conversacional** (*conversational turn*; Clark & Brennan, 1991; Bakhtin, 1986) cujo significado semântico depende das mensagens antecedentes, do post de abertura (*Original Post* — OP) e das respostas subsequentes.
-2. **Natureza Relacional e Temporal do Valor (Cocriação e Codestruição de Valor)**: Segundo Prahalad & Ramaswamy (2004), Vargo & Lusch (2016) e Plé & Chumpitaz Cáceres (2010), a cocriação (`VC1`/`VC2`) e a codestruição (`VC3`) de valor são **processos relacionais e temporais** que emergem na trajetória dialética (proposta ou queixa inicial $\rightarrow$ escrutínio técnico comunitário $\rightarrow$ iteração com o agente de IA $\rightarrow$ estabilização ou rutura). Quando o processo é fatiado em posts isolados, turnos intermédios de diagnóstico ou pergunta surgem artificialmente como "neutros" (`VC4`).
+2. **Natureza Relacional e Temporal do Valor (Cocriação e Codestruição de Valor)**: Segundo Prahalad & Ramaswamy (2004), Vargo & Lusch (2016) e Plé & Chumpitaz Cáceres (2010), a cocriação (`VC1`/`VC2`) e a codestruição (`VC3`) de valor são **processos relacionais e temporais** que emergem na trajetória dialética (proposta ou queixa inicial → escrutínio técnico comunitário → iteração com o agente de IA → estabilização ou rutura). Quando o processo é fatiado em posts isolados, turnos intermédios de diagnóstico ou pergunta surgem artificialmente como "neutros" (`VC4`).
 3. **Pragmática Subcultural Situada e Descodificação de Sátira/Ironia (*Game Studies* e Netnografia)**: Comunidades de MMORPGs (*EVE Online* e *World of Warcraft*) operam com elevado capital subcultural (Consalvo, 2007; Kozinets, 2020), recorrendo sistematicamente a ironia, sarcasmo, *shitposting* e paródia corporativa. Fora do enquadramento completo do tópico, codificadores automatizados incorrem em alucinação literal; quando o post é confrontado com a totalidade do tópico, a intenção figurativa torna-se empiricamente transparente (permitindo demarcar com rigor **238 posts** com tags explícitas de `[Sátira/Ironia]` ou `[Humor/Piada]` e **383 posts** com enquadramento retórico contextualizado em `output/tabela_resumos.md`).
 
 #### 1.7.1 Contribuição Metodológica Central: A Comparação Micro vs. Meso
 
-Estabelecer o **Tópico de Discussão ($N=151$)** como **Unidade Primária de Sentido, Análise e Teorização** e manter o **Post Individual ($N=1.029$ ativos / $824$ no corte de contraste)** como **Unidade Incorporada de Ancoragem Empírica (*Verbatim Grounding*) e Contraste Crítico** é uma das contribuições metodológicas do estudo. A revisão v4.1 testou esta comparação de três formas: (i) com a mesma base de posts nos dois níveis; (ii) contra um modelo nulo; (iii) com uma codificação holística independente dos tópicos.
+Estabelecer o **Tópico de Discussão (N = 151)** como **Unidade Primária de Sentido, Análise e Teorização** e manter o **Post Individual (N = 1.029 ativos / 824 no corte de contraste)** como **Unidade Incorporada de Ancoragem Empírica (*Verbatim Grounding*) e Contraste Crítico** é uma das contribuições metodológicas do estudo. A revisão v4.1 testou esta comparação de três formas: (i) com a mesma base de posts nos dois níveis; (ii) contra um modelo nulo; (iii) com uma codificação holística independente dos tópicos.
 
-| Dimensão de Valor | Micro: corte de contraste ($N=824$ posts) | Micro: corpus ativo ($N=1.029$ posts) | Meso — regra de agregação ($N=151$ tópicos) | Meso — leitura holística cega ($N=151$ tópicos) |
+| Dimensão de Valor | Micro: corte de contraste (N = 824 posts) | Micro: corpus ativo (N = 1.029 posts) | Meso — regra de agregação (N = 151 tópicos) | Meso — leitura holística cega (N = 151 tópicos) |
 | :--- | :---: | :---: | :---: | :---: |
 | **VC1 (Cocriação Efetiva)** | `3,2%` (26) | `2,5%` (26) | `12,6%` (19) | **`20,5%` (31)** |
 | **VC2 (Potencial de Cocriação)** | `8,7%` (72) | `7,2%` (74) | `12,6%` (19) | **`9,9%` (15)** |
 | **VC3 (Codestruição)** | `10,9%` (90) | `11,3%` (116) | `23,2%` (35) | **`15,2%` (23)** |
 | **VC4 (Sem Evidência Direta)** | `77,2%` (636) | `79,0%` (813) | `51,7%` (78) | **`54,3%` (82)** |
-| **Impacto Ativo ($\text{VC1}+\text{VC2}+\text{VC3}$)** | **`22,8%`** (188) | **`21,0%`** (216) | **`48,3%`** (73) | **`45,7%`** (69) |
+| **Impacto Ativo (VC1 + VC2 + VC3)** | **`22,8%`** (188) | **`21,0%`** (216) | **`48,3%`** (73) | **`45,7%`** (69) |
 
 *A leitura holística usa o tópico completo (5.662 posts, incluindo o post de abertura); as outras colunas usam os posts que passaram o filtro de relevância.*
 
 **Leitura dos resultados**:
 1. **A regra de agregação, por si só, não demonstra o ganho meso.** A pipeline classifica um tópico como VC1 se pelo menos um dos seus posts for VC1, e como VC3 se tiver mais posts VC3 do que VC2. Pela mesma lógica, quanto mais posts um tópico tem, mais provável é que fique com impacto ativo. Para medir esse efeito, os rótulos dos posts foram baralhados aleatoriamente entre tópicos, mantendo o tamanho de cada tópico (5.000 simulações). Com rótulos baralhados, a mesma regra produz em média **57,7%** de tópicos com impacto ativo (IC95%: 52,3–62,9%). O valor observado (48,3%) fica **abaixo** desse intervalo. O salto de ~21–23% para ~48% resulta, portanto, da regra e não constitui evidência empírica de cocriação ao nível do tópico.
-2. **A leitura holística independente chega a uma proporção semelhante por outra via.** O `deepseek-v4-pro` leu cada tópico completo (todos os posts recolhidos e o post de abertura), por ordem cronológica, sem ver os rótulos dos posts, e aplicou as mesmas instruções dadas aos codificadores humanos. Resultado: **45,7%** de impacto ativo, com as 151 citações de evidência verificadas literalmente no texto. Isto sustenta que perto de metade das discussões tem uma dinâmica de valor ativa. O resultado é estável: lida só sobre os posts filtrados, a leitura holística dava 46,4%, e duas corridas sobre esses posts mantiveram o VC principal em 142 dos 151 tópicos ($\kappa = 0,91$ teste-reteste). Entre os posts filtrados e o tópico completo, o VC principal mantém-se em 78,8% dos tópicos ($\kappa = 0,67$; Secção 8.6).
-3. **As duas leituras meso não identificam os mesmos tópicos.** O acordo entre a regra e a leitura holística é de apenas **49,7%** ($\kappa = 0,22$, acordo fraco). A leitura holística atribui mais cocriação efetiva (VC1: 31 vs. 19 tópicos) e menos codestruição (VC3: 23 vs. 35). Por exemplo, 20 dos 35 tópicos que a regra marca como VC3 são, na leitura holística, VC4: queixas genéricas sem dano concreto relatado.
+2. **A leitura holística independente chega a uma proporção semelhante por outra via.** O `deepseek-v4-pro` leu cada tópico completo (todos os posts recolhidos e o post de abertura), por ordem cronológica, sem ver os rótulos dos posts, e aplicou as mesmas instruções dadas aos codificadores humanos. Resultado: **45,7%** de impacto ativo, com as 151 citações de evidência verificadas literalmente no texto. Isto sustenta que perto de metade das discussões tem uma dinâmica de valor ativa. O resultado é estável: lida só sobre os posts filtrados, a leitura holística dava 46,4%, e duas corridas sobre esses posts mantiveram o VC principal em 142 dos 151 tópicos (κ = 0,91 teste-reteste). Entre os posts filtrados e o tópico completo, o VC principal mantém-se em 78,8% dos tópicos (κ = 0,67; Secção 8.6).
+3. **As duas leituras meso não identificam os mesmos tópicos.** O acordo entre a regra e a leitura holística é de apenas **49,7%** (κ = 0,22, acordo fraco). A leitura holística atribui mais cocriação efetiva (VC1: 31 vs. 19 tópicos) e menos codestruição (VC3: 23 vs. 35). Por exemplo, 20 dos 35 tópicos que a regra marca como VC3 são, na leitura holística, VC4: queixas genéricas sem dano concreto relatado.
 4. **Conclusão operacional**: a proporção agregada (~48%) é robusta às duas leituras, mas a distribuição entre VC1, VC2 e VC3 depende do método. As conclusões substantivas sobre cocriação vs. codestruição devem apoiar-se na leitura holística e ser confirmadas pela codificação humana cega em curso (Secção 7.3).
 
 Consequentemente, a **Framework Final DART-NET v4.0** estrutura-se em **três níveis analíticos incorporados** (preservando integralmente os posts de todos os tópicos e os respetivos campos analíticos):
 
-1. **Nível Meso — Unidade Primária de Análise, Sentido e Teorização (O Tópico de Discussão — $N=151$ discussões ativas)**: Constitui o centro gravitacional do estudo e a base substantiva para responder às Questões de Investigação (QI1, QI2 e QI3). É a este nível que se determinam a **Trajetória Relacional de Valor (`VC1–VC4`)**, o **Vetor DART Agregado ($D, A, R, T$)**, o **Enquadramento Sociotécnico nos 5 Clusters** (aplicando a regra de fronteira entre o Cluster 1 e o Cluster 5) e o **Registo Pragmático/Retórico** (deteção de sátira, ironia e humor via `TopicDiscussionAnalystAgent` e `ThreadSynthesisAgent`).
-2. **Nível Micro Incorporado — Unidade de Ancoragem Empírica e Evidência Forense (Os Posts do Tópico — $N=1.029$ ativos / $824$ no corte de contraste)**: Cada tópico mantém vinculados todos os seus posts constituintes e respetivos campos (`Post_ID`, `Texto_Real_Verbatim`, `Tema`, `Resumo <= 60 palavras`, `A1–A5`, `I1–I6`, `VC1–VC4`, `DART`). O post individual cumpre três funções indispensáveis:
+1. **Nível Meso — Unidade Primária de Análise, Sentido e Teorização (O Tópico de Discussão — N = 151 discussões ativas)**: Constitui o centro gravitacional do estudo e a base substantiva para responder às Questões de Investigação (QI1, QI2 e QI3). É a este nível que se determinam a **Trajetória Relacional de Valor (`VC1–VC4`)**, o **Vetor DART Agregado (D, A, R, T)**, o **Enquadramento Sociotécnico nos 5 Clusters** (aplicando a regra de fronteira entre o Cluster 1 e o Cluster 5) e o **Registo Pragmático/Retórico** (deteção de sátira, ironia e humor via `TopicDiscussionAnalystAgent` e `ThreadSynthesisAgent`).
+2. **Nível Micro Incorporado — Unidade de Ancoragem Empírica e Evidência Forense (Os Posts do Tópico — N = 1.029 ativos / 824 no corte de contraste)**: Cada tópico mantém vinculados todos os seus posts constituintes e respetivos campos (`Post_ID`, `Texto_Real_Verbatim`, `Tema`, `Resumo <= 60 palavras`, `A1–A5`, `I1–I6`, `VC1–VC4`, `DART`). O post individual cumpre três funções indispensáveis:
    * **Ancoragem Anti-Alucinação (*Verbatim Grounding*)**: Nenhuma inferência de nível Meso é aceite sem citação literal verificável nos posts constituintes (ex.: citações exatas de código, mensagens de erro e respostas de suporte);
    * **Granularidade de Agência e Interação**: Fornece as contagens de micro-atos comunicativos (`A1–A5` e `I1–I6`) e a dispersão intra-tópico (consenso vs. polarização);
    * **Contraste Crítico e Auditoria Bidirecional Post-Tópico**: Permite confrontar a leitura atómica com a leitura holística, auditando a fidelidade factual do resumo do tópico.
@@ -127,7 +127,7 @@ Consequentemente, a **Framework Final DART-NET v4.0** estrutura-se em **três n�
 ## 2. Taxonomia de Agentes de IA e Interações
 
 > **Nota Metodológica de Enquadramento (Abordagem Multinível Incorporada)**:  
-> As contagens e frequências apresentadas nesta secção e na Secção 3 ($N=824$ posts) representam a **camada micro-empírica atomizada**, funcionando como um inventário descritivo dos turnos comunicativos e linha de base granular. Em estrito cumprimento da metodologia DART-NET v4.0, estes números **não devem ser interpretados como conclusões substantivas isoladas sobre o valor do ecossistema**, mas sim como a matéria-prima empírica cuja significação teórica plena se consolida ao nível dos **151 tópicos de discussão** (Secções 4, 6 e 7).
+> As contagens e frequências apresentadas nesta secção e na Secção 3 (N = 824 posts) representam a **camada micro-empírica atomizada**, funcionando como um inventário descritivo dos turnos comunicativos e linha de base granular. Em estrito cumprimento da metodologia DART-NET v4.0, estes números **não devem ser interpretados como conclusões substantivas isoladas sobre o valor do ecossistema**, mas sim como a matéria-prima empírica cuja significação teórica plena se consolida ao nível dos **151 tópicos de discussão** (Secções 4, 6 e 7).
 
 ### 2.1 Distribuição de Tipos de IA (A1–A5 no Corpus Refinado)
 
@@ -300,7 +300,7 @@ A análise de padrões na totalidade dos **151 tópicos ativos** (calibrada pela
    * *Foco*: Utilização de assistentes generativos (Claude, ChatGPT, Gemini, Copilot) mediante mediação humana manual (sem ligação API direta em tempo real) para conceção e reparação de *addons* em Lua, *WeakAuras*, macros e sessões de *brainstorming* ou planeamento tático.
    * *Métricas DART*: Maior volume empírico do corpus (`33,8%`) e mais alto índice de Diálogo (`D: 1,28`), aliado a Acesso técnico relevante (`A: 1,40`; `R: 1,35`; `T: 1,35`). Dinâmica mista: 11 VC1, 6 VC2, 7 VC3 e 27 VC4 na leitura holística.
 
-**Fiabilidade da atribuição de clusters (v4.1)**: a leitura holística cega atribuiu também um cluster a cada tópico. O acordo com o cluster da pipeline é de **56,3%** ($\kappa = 0,44$, acordo moderado). As maiores diferenças:
+**Fiabilidade da atribuição de clusters (v4.1)**: a leitura holística cega atribuiu também um cluster a cada tópico. O acordo com o cluster da pipeline é de **56,3%** (κ = 0,44, acordo moderado). As maiores diferenças:
 * a leitura holística põe muito mais tópicos no Cluster 4 (45 vs. 21), sobretudo tópicos que a pipeline tinha posto em Fair Play (14) e em Copilotos (9);
 * põe muito menos no Cluster 3 (9 vs. 25): 10 dos 25 tópicos que a pipeline pôs em Suporte/Moderação passam para Fair Play (Cluster 2).
 
@@ -316,7 +316,7 @@ Dado que tanto o **Cluster 1** como o **Cluster 5** envolvem a utilização de m
 | Dimensão de Contraste | **Cluster 1: Ferramentas Externas, APIs e MCP** | **Cluster 5: Copilotos, Addons e *Vibe-Coding*** |
 | :--- | :--- | :--- |
 | **Papel da IA** | Motor integrado numa aplicação ou ligado diretamente a *endpoints* de dados do jogo (**Agente A1**). | Assistente/copiloto pessoal de programação local ou consulta conversacional (**Copiloto A4 / Discussão A5**). |
-| **Fluxo de Dados** | **Automatizado via API** (Servidor do Jogo $\leftrightarrow$ API ESI / MCP $\leftrightarrow$ Agente IA). | **Mediado Manualmente pelo Humano** (Jogador copia/cola *prompt* ou código $\leftrightarrow$ LLM externo). |
+| **Fluxo de Dados** | **Automatizado via API** (Servidor do Jogo ↔ API ESI / MCP ↔ Agente IA). | **Mediado Manualmente pelo Humano** (Jogador copia/cola *prompt* ou código ↔ LLM externo). |
 | **Artefacto Principal** | Aplicações web comunitárias, servidores MCP, painéis de telemetria e simuladores ligados à API oficial. | *Addons* locais em Lua, *WeakAuras*, macros de interface ou consultas de planeamento/*brainstorming*. |
 | **Indicadores Empíricos no Corpus** | `API`, `ESI`, `MCP Server`, `Endpoint`, `Telemetry`, `Live Data`, `zKillboard`. | `Vibe-coding`, `Lua`, `Addon`, `WeakAura`, `Claude Code`, `OnUpdate`, `FPS`, `Brainstorm`. |
 | **Casos Verificados no Corpus** | • **`510327`** (*EVE Crews*: simulador web ligado à API ESI com regras calibradas via Claude);<br>• **`516433`** (*EVE MCP Server*: exposição de *endpoints* ESI para consulta direta por assistentes de IA). | • **`reddit_1v3v2p2`** (*Claude Code Success*: reparação de *addon* Lua pós-*patch* via *blue post*);<br>• **`reddit_1r1dd9i`** (*Vibe Coded AddOns*: impacto de performance em Lua e uso de `OnUpdate`);<br>• **`1mctiz6`** e **`1i6m4i6`** (uso do Gemini/ChatGPT para *brainstorming* e rotas de navegação). |
@@ -341,9 +341,9 @@ Em conformidade com o princípio de **ancoragem empírica (*verbatim grounding*)
 ### 5.1 O Nível Micro como Contraste Crítico e Inventário Atomizado
 
 > **Nota Epistemológica Central**:  
-> A distribuição de frequências abaixo ($N=824$ posts) constitui um **inventário descritivo da camada micro-empírica** e funciona como **contraste** para a leitura ao nível do tópico (Secção 1.7.1).
+> A distribuição de frequências abaixo (N = 824 posts) constitui um **inventário descritivo da camada micro-empírica** e funciona como **contraste** para a leitura ao nível do tópico (Secção 1.7.1).
 
-| Categoria de Valor | Frequência Micro ($N=824$) | Percentagem Micro | Papel na Arquitetura Multinível DART-NET v4.0 |
+| Categoria de Valor | Frequência Micro (N = 824) | Percentagem Micro | Papel na Arquitetura Multinível DART-NET v4.0 |
 | :--- | :---: | :---: | :--- |
 | **VC1 (Cocriação de Valor Efetiva)** | 26 | 3,2% | Turnos onde a solução finalizada é partilhada pontualmente. *(Meso: 20,5% holística / 12,6% regra)* |
 | **VC2 (Potencial Cocriação de Valor)** | 72 | 8,7% | Ideias, propostas e intenções comunicadas em mensagens únicas. *(Meso: 9,9% holística / 12,6% regra)* |
@@ -369,19 +369,19 @@ Ao nível do post, as mensagens com impacto ativo de valor (VC1 + VC2 + VC3) sã
 ## 6. Reflexão sobre as Questões de Investigação
 
 > **Enquadramento Epistémico DART-NET v4.0**:  
-> Em estrita conformidade com a Arquitetura Metodológica Multinível Incorporada, as **respostas substantivas às Questões de Investigação (QI1, QI2 e QI3)** assentam primariamente na dinâmica deliberativa, relacional e temporal do **Tópico de Discussão ($N=151$, Nível Meso)**. Os dados e frequências dos posts individuais ($N=824$, Nível Micro) cumprem a função de **ancoragem empírica (*verbatim grounding*)**, rastreabilidade de citações inalteradas e linha de base granular de micro-atos comunicativos.
+> Em estrita conformidade com a Arquitetura Metodológica Multinível Incorporada, as **respostas substantivas às Questões de Investigação (QI1, QI2 e QI3)** assentam primariamente na dinâmica deliberativa, relacional e temporal do **Tópico de Discussão (N = 151, Nível Meso)**. Os dados e frequências dos posts individuais (N = 824, Nível Micro) cumprem a função de **ancoragem empírica (*verbatim grounding*)**, rastreabilidade de citações inalteradas e linha de base granular de micro-atos comunicativos.
 
 ### 6.1 QI1: Tipologia de Agentes de IA e Formas de Interação Humano-IA
 *Pergunta Central: Que tipos de agentes de IA e que formas de interação humano-IA caracterizam os MMORPG analisados?*
 
 #### 6.1.1 QI1a: Proporção de Agentes de IA Autónomos face a Bots e Scripts Convencionais
 **Resposta (Consolidada no Nível Meso com Suporte Micro)**:
-A análise multinível revela que os ecossistemas contemporâneos superaram a era dos bots mecânicos repetitivos. Na linha de base atómica ($N=824$ posts), os agentes autónomos (A1: 11,5%) e a assistência híbrida por IA generativa (A4: 7,2%) superam largamente os bots e scripts convencionais residuais (A2+A3: 4,1%), embora 77,2% dos turnos sejam dedicados ao debate reflexivo (A5). 
+A análise multinível revela que os ecossistemas contemporâneos superaram a era dos bots mecânicos repetitivos. Na linha de base atómica (N = 824 posts), os agentes autónomos (A1: 11,5%) e a assistência híbrida por IA generativa (A4: 7,2%) superam largamente os bots e scripts convencionais residuais (A2+A3: 4,1%), embora 77,2% dos turnos sejam dedicados ao debate reflexivo (A5). 
 Quando avaliada ao **Nível Meso dos 151 tópicos completos**, esta proporção ganha relevo estrutural: **62,3% dos tópicos ativos** (94 tópicos nos Clusters 1, 4 e 5 da pipeline; 76,2% na leitura holística) centram-se em ferramentas ligadas por API, agentes oficiais de IA e *vibe-coding* assistido por LLMs (Claude, GPT-4, Gemini). Apenas 21,2% (Cluster 2; 17,9% na leitura holística) debatem fair play, automação ilícita ou bots. *(A versão anterior indicava 48,1% / 73 tópicos, mas a soma dos Clusters 1, 4 e 5 já era então de 94 tópicos.)* O fenómeno central dos MMORPGs atuais é a integração de inteligência contextual e modelos generativos.
 
 #### 6.1.2 QI1b: Estruturas de Interação Humano-IA e Padrões entre Sandbox e Controlado
 **Resposta (Consolidada no Nível Meso com Suporte Micro)**:
-Embora na contagem isolada de mensagens a discussão entre humanos pareça hegemónica (I4: 77,7%), a **análise ao nível de tópicos conversacionais completos** demonstra que **29,8% dos tópicos** (45 de 151, com pelo menos um post I1, I2 ou I3) materializam padrões ativos de interação direta (I1/I2) ou cooperação triádica contínua (**I3: Humano $\leftrightarrow$ IA $\leftrightarrow$ Comunidade**), especialmente nos clusters de APIs/MCP e Copilotos. 
+Embora na contagem isolada de mensagens a discussão entre humanos pareça hegemónica (I4: 77,7%), a **análise ao nível de tópicos conversacionais completos** demonstra que **29,8% dos tópicos** (45 de 151, com pelo menos um post I1, I2 ou I3) materializam padrões ativos de interação direta (I1/I2) ou cooperação triádica contínua (**I3: Humano ↔ IA ↔ Comunidade**), especialmente nos clusters de APIs/MCP e Copilotos. 
 * **Padrões por Ecossistema**:
   * Em **EVE Online (Sandbox Aberto)**: A governança técnica da API ESI e servidores MCP propicia interações agênticas abertas (I1/I3), onde jogadores conversam diretamente com LLMs que consultam dados do jogo em tempo real (ex.: tópicos `510327` e `516433`).
   * Em **World of Warcraft (Ambiente Controlado)**: As interações diretas são confinadas pela Blizzard a NPCs aliados nativos (*Follower Dungeons*, I5) ou ocorrem externamente via copilotos de *vibe-coding* para criação e reparação de addons em Lua (Cluster 5, I3, ex.: `reddit_1v3v2p2`).
@@ -398,10 +398,10 @@ Todas as quatro dimensões DART têm médias superiores a 1,0 na base granular d
 
 #### 6.2.2 QI2b: Evidências Empíricas de Cocriação (VC1/VC2) vs. Codestruição (VC3) de Valor
 **Resposta (Consolidada no Nível Meso com Suporte Micro)**:
-* **Na leitura atómica por post ($N=824$)**: 3,2% atingem VC1 e 10,9% VC3, com 77,2% em VC4. A maioria dos turnos isolados não relata, por si, ganho ou perda.
-* **Na leitura holística ao Nível do Tópico ($N=151$)**: **45,7% das discussões têm uma dinâmica de valor ativa** (**`20,5% VC1`**, **`9,9% VC2`** e **`15,2% VC3`**). A regra de agregação da pipeline dá uma proporção global semelhante (48,3%), mas outra distribuição (12,6% VC1, 12,6% VC2, 23,2% VC3) e acordo fraco com a leitura holística ($\kappa = 0,22$). O modelo nulo mostra que a subida de ~22% para ~48% é esperada pela própria regra (Secção 1.7.1).
+* **Na leitura atómica por post (N = 824)**: 3,2% atingem VC1 e 10,9% VC3, com 77,2% em VC4. A maioria dos turnos isolados não relata, por si, ganho ou perda.
+* **Na leitura holística ao Nível do Tópico (N = 151)**: **45,7% das discussões têm uma dinâmica de valor ativa** (**`20,5% VC1`**, **`9,9% VC2`** e **`15,2% VC3`**). A regra de agregação da pipeline dá uma proporção global semelhante (48,3%), mas outra distribuição (12,6% VC1, 12,6% VC2, 23,2% VC3) e acordo fraco com a leitura holística (κ = 0,22). O modelo nulo mostra que a subida de ~22% para ~48% é esperada pela própria regra (Secção 1.7.1).
 * **Distribuição entre Clusters**: a cocriação efetiva concentra-se nos clusters de Ferramentas/APIs (Cluster 1: 14 de 22 tópicos VC1) e Copilotos (Cluster 5: 11 VC1 e 6 VC2 em 51). A codestruição concentra-se em Suporte/Moderação (Cluster 3: 10 de 25 tópicos VC3). É mais frequente em *World of Warcraft* (**22,2%** dos tópicos na leitura holística; 31,9% pela regra) do que em *EVE Online* (8,9% / 15,2%).
-* **Estado da evidência**: estes resultados vêm de codificação automática (DeepSeek). A codificação humana cega de 37 tópicos (Secção 7.3) servirá para validar quer a leitura holística quer a regra de agregação.
+* **Estado da evidência**: estes resultados vêm de codificação automática (DeepSeek). Os primeiros 18 tópicos codificados por um humano dão 15/18 de acordo com a leitura holística e 8/18 com a regra de agregação (Secção 7.3.2). A codificação humana cega de 48 tópicos (Secção 7.3) servirá para validar quer a leitura holística quer a regra de agregação.
 
 ---
 
@@ -429,36 +429,73 @@ Em contrapartida, no ecossistema **Controlado de *World of Warcraft***, a govern
 
 ### 7.1 Auditoria Cega Qualitativa (QualityGuardAgent)
 A auditoria independente conduzida com o modelo `deepseek-v4-pro` sobre uma amostra de **159 codificações do corpus refinado** consolidou métricas de excelência:
-* **Score Médio Global de Consistência**: **`91,31%`** (limiar crítico $\ge 70\%$ amplamente superado);
+* **Score Médio Global de Consistência**: **`91,31%`** (limiar crítico ≥ 70% amplamente superado);
 * **Veracidade das Evidências Literais**: **100%** de citações verificadas no texto original;
 * **Casos Sinalizados com Alerta**: Apenas 8 casos em 159 análises auditadas, decorrentes exclusivamente de limiares conservadores de confiança.
 
 ### 7.2 Calibração da Fila de Validação Humana
 * **Total de Posts com Validação Manual Prioritária (`human_review_required = True`)**: **707 posts (85,8% do corte de 824)**
-* **Critérios de Sinalização**: Confiança analítica $< 0,80$, jargões altamente contextualizados, sarcasmo e ambiguidade entre categorias de fronteira.
+* **Critérios de Sinalização**: Confiança analítica < 0,80, jargões altamente contextualizados, sarcasmo e ambiguidade entre categorias de fronteira.
 
 ### 7.3 Codificação Humana Cega ao Nível do Tópico (Protocolo v4.1)
 
-O protocolo anterior (Track B, Rondas 1 e 2) foi **substituído**. Os codificadores tinham acesso aos resumos e às classificações da pipeline, o que impedia uma validação independente; por isso, o acordo reportado nessa fase ($\kappa = 0,916$ em clusters e $\kappa = 1,00$ em trajetórias de valor) não pode ser usado como medida de fiabilidade. Os ficheiros `Protocolo_Auditoria_Humana_Formatado*.xlsx` foram retirados. O protocolo atual decorre em duas etapas, com quatro ficheiros por etapa (um por codificador) em `output/`:
+O protocolo anterior (Track B, Rondas 1 e 2) foi **substituído**. Os codificadores tinham acesso aos resumos e às classificações da pipeline, o que impedia uma validação independente; por isso, o acordo reportado nessa fase (κ = 0,916 em clusters e κ = 1,00 em trajetórias de valor) não pode ser usado como medida de fiabilidade. Os ficheiros `Protocolo_Auditoria_Humana_Formatado*.xlsx` foram retirados. O protocolo atual decorre em duas etapas, com quatro ficheiros por etapa (um por codificador) em `output/`:
 
-**Amostra ($N=37$ tópicos, 24,5% dos 151)**: seleção reprodutível (semente 2026) composta por:
-* os 15 tópicos já analisados pelo Prof. JPaulo;
-* 15 novos tópicos estratificados por cluster e jogo;
-* 7 tópicos que o LLM anterior classificara como VC1, sobreamostrados para testar a categoria mais rara.
+**Amostra (N = 48 tópicos, 31,8% dos 151; um codificador por tópico)**: a primeira versão do protocolo tinha 37 tópicos codificados em pares (18 e 19 tópicos por pessoa). Para reduzir a carga de trabalho e cobrir mais tópicos, a amostra passou a ter **um codificador por tópico, sem repetições** (`scratch/v4_1/10_amostra_auditoria_sem_repeticoes.py`, semente 20261102):
+* o Prof. JPaulo mantém os 18 tópicos que já tinha codificado (15 do bloco inicial e 3 VC1 sobreamostrados);
+* os Profs. Emmanoel, Roger e Gomide recebem 10 tópicos novos cada, sorteados entre os restantes 133, sem tópicos com mais de 100 posts. Os estratos usam o cluster da leitura holística: cada um fica com 5 tópicos de EVE e 5 de WoW e com 2 tópicos de cada cluster, e a repartição equilibra o número de posts a ler (293–296 por pessoa).
 
-| Par de Codificadores | Tópicos | Composição | Jogo (EVE / WoW) |
-| :--- | :---: | :--- | :---: |
-| **Prof. JPaulo & Prof. Emmanoel** | 18 | 15 do bloco inicial + 3 VC1 sobreamostrados | 8 / 10 |
-| **Prof. Roger & Prof. Gomide** | 19 | 15 estratificados novos + 4 VC1 sobreamostrados | 12 / 7 |
-| **Total** | **37** | | **20 / 17** |
+| Codificador | Tópicos | Jogo (EVE / WoW) | Cluster (C1/C2/C3/C4/C5) | Posts a ler |
+| :--- | :---: | :---: | :---: | :---: |
+| **Prof. JPaulo** | 18 | 8 / 10 | 1 / 2 / 1 / 5 / 9 | 787 |
+| **Prof. Emmanoel** | 10 | 5 / 5 | 2 / 2 / 2 / 2 / 2 | 295 |
+| **Prof. Roger** | 10 | 5 / 5 | 2 / 2 / 2 / 2 / 2 | 296 |
+| **Prof. Gomide** | 10 | 5 / 5 | 2 / 2 / 2 / 2 / 2 | 293 |
+| **Total** | **48** | **23 / 25** | **7 / 8 / 7 / 11 / 15** | |
+
+**Justificação do tamanho**: sem repetições, a validação passa a ser o acordo de cada codificador com a codificação automática. Com um acordo à volta de 75%, a margem do IC95% é de ±15 pp com 32 tópicos (8 por pessoa) e de ±12 pp com 48; acima disso cada tópico a mais ganha pouco face ao tempo de leitura (cerca de 3 horas por pessoa para 10 tópicos completos). **Contrapartida**: deixa de ser possível calcular o acordo entre codificadores humanos (κ entre pares).
 
 **Etapa 1 — Codificação cega** (`etapa_1_Codificacao_Topicos_<nome>.xlsx`): cada codificador lê o tópico original através de uma hiperligação e preenche, sem ver resumos nem rótulos automáticos, os campos Cluster (1–5), VC principal e secundário, Confiança (1–3), Evidência (citação literal), Ironia/Sátira e Notas. As instruções de preenchimento são as mesmas dadas à leitura holística automática.
 
-**Etapa 2 — Avaliação dos resumos da IA** (`etapa_2_Avaliacao_Resumos_<nome>.xlsx`): só depois de concluída a Etapa 1, cada codificador avalia o resumo longo da pipeline quanto à Fidelidade da Síntese (1–5), Erros Factuais, Omissões Relevantes e Leitura do Tom Retórico. Os resumos foram regenerados a partir do tópico completo (Secção 8.6). O Prof. JPaulo já tinha avaliado os 18 resumos antigos; essa avaliação fica registada e o seu ficheiro ganhou colunas para avaliar os resumos novos, o que permite medir o efeito do texto de entrada na fidelidade.
+**Etapa 2 — Avaliação dos resumos da IA** (`etapa_2_Avaliacao_Resumos_<nome>.xlsx`): só depois de concluída a Etapa 1, cada codificador avalia o resumo longo da pipeline quanto à Fidelidade da Síntese (1–5), Erros Factuais, Omissões Relevantes e Leitura do Tom Retórico. Os resumos foram regenerados a partir do tópico completo (Secção 8.6). O Prof. JPaulo já tinha avaliado os 18 resumos antigos e avaliou depois os novos, o que permite medir o efeito do texto de entrada na fidelidade (Secção 7.3.2).
 
-**Análise prevista**: a chave `Chave_Analise_NAO_PARTILHAR_com_codificadores.xlsx` (não partilhada com os codificadores) reúne, para cada tópico, a regra de agregação, a classificação holística antiga e a leitura holística v4.1. A análise vai calcular três medidas: o acordo entre codificadores de cada par (κ de Cohen), o acordo de cada codificador com a regra de agregação e o acordo com a leitura holística v4.1. Na amostra, a leitura holística dos tópicos completos dá 18 VC4, 8 VC1, 6 VC2 e 5 VC3.
+**Análise prevista**: a chave `Chave_Analise_NAO_PARTILHAR_com_codificadores.xlsx` (não partilhada com os codificadores) reúne, para cada tópico, o codificador, a regra de agregação, a classificação do agente dos resumos e a leitura holística dos tópicos completos. A análise vai calcular, sobre os 48 tópicos e por codificador, o acordo humano–regra de agregação e o acordo humano–leitura holística (percentagem e κ de Cohen). Na amostra, a leitura holística dá 21 VC4, 9 VC1, 7 VC2 e 11 VC3.
 
-**Estado (1 de novembro de 2026)**: o Prof. JPaulo já preencheu o Cluster de 15 dos 18 tópicos e o VC principal de 8; os restantes codificadores ainda não começaram. Ainda não há resultados de acordo.
+**Estado (2 de novembro de 2026)**: o Prof. JPaulo concluiu as duas etapas dos seus 18 tópicos e refez ambas depois da correção dos tópicos completos (Secção 7.3.2); os ficheiros dos Profs. Emmanoel, Roger e Gomide foram refeitos com os 10 tópicos de cada um e ainda não foram preenchidos.
+
+#### 7.3.2 Resultados Preliminares: Codificação do Prof. JPaulo (N = 18)
+
+O Prof. JPaulo codificou os 18 tópicos duas vezes. A **codificação original** foi cega: feita antes de conhecer qualquer resultado automático. A **recodificação** foi feita depois de a pipeline passar a ler os tópicos completos e **não é cega**, porque o codificador já tinha visto a comparação com a leitura holística. Na recodificação mudou o VC principal em 2 tópicos (`1hlv8xy`: VC1 → VC2; `481937`: VC3 → VC4), ambos no sentido da leitura holística, e a confiança num terceiro. Por isso, **a medida de validação é a codificação original**; a recodificação é reportada como registo.
+
+**Etapa 1 — acordo com a codificação automática (VC principal e cluster)**:
+
+| Comparação (N = 18) | Codificação original (cega) | Recodificação (não cega) |
+| :--- | :---: | :---: |
+| VC — leitura holística, tópico completo | **15/18** (κ = 0,76) | 17/18 (κ = 0,92) |
+| VC — leitura holística, posts filtrados | 12/18 (κ = 0,54) | 12/18 (κ = 0,53) |
+| VC — regra de agregação | 8/18 (κ = 0,23) | 7/18 (κ = 0,14) |
+| Cluster — leitura holística, tópico completo | **15/18** (κ = 0,75) | 15/18 (κ = 0,75) |
+| Cluster — leitura holística, posts filtrados | 17/18 (κ = 0,92) | 17/18 (κ = 0,92) |
+
+* A leitura holística do tópico completo é a que mais se aproxima do codificador humano no VC principal (15/18, acordo substancial). Ler só os posts filtrados baixa o acordo para 12/18, e a regra de agregação fica em 8/18 (acordo fraco), o que confirma, com dados humanos, que a regra não reproduz a leitura do tópico (Secção 1.7.1).
+* Os 3 desacordos da codificação original são todos de fronteira entre categorias vizinhas: VC1 vs. VC2 (`1hlv8xy`, `reddit_1kylpvy`) e VC3 vs. VC4 (`481937`). Em nenhum caso o humano viu cocriação onde a leitura automática viu codestruição, ou vice-versa.
+* No cluster, os 3 desacordos (`510327`, `503747`, `1tdxixs`) envolvem as fronteiras 1/5 e 4/5 (ferramentas por API vs. copilotos; agentes oficiais vs. copilotos), já assinaladas na Secção 4.4.
+* Com um só codificador, estes valores são indicativos; o IC95% (Wilson) de um acordo de 15/18 vai de 61% a 94%.
+
+**Etapa 2 — fidelidade dos resumos da pipeline**:
+
+| Medida (N = 18) | Resumos antigos (posts filtrados) | Resumos novos (tópico completo) |
+| :--- | :---: | :---: |
+| Fidelidade média (1–5) | 3,22 | **4,17** |
+| Resumos com fidelidade ≥ 4 | 8 | **16** |
+| Com erros factuais | 9 | **2** |
+| Com omissões relevantes | 9 | **3** |
+| Tom retórico lido corretamente | 12 (1 incorreto) | **14** (0 incorretos) |
+
+* A fidelidade subiu em 10 tópicos, manteve-se em 6 e desceu em 2 (`2176376` e `510327`, de 5 para 4). A melhoria é significativa (teste dos sinais: 10 de 12 alterações positivas, p = 0,04).
+* As subidas maiores (+3) são nos tópicos onde o resumo antigo tinha lido 1 ou 2 posts de páginas com dezenas (`2056975`, `1i6m4i6`). O resumo do `1i6m4i6`, um *meme*, passou de leitura literal (tom "Incorreta") a leitura correta, porque o modelo passou a ver as respostas que revelam a ironia.
+* A causa principal dos resumos fracos era, portanto, o texto de entrada e não o modelo: com o mesmo agente, o mesmo prompt e o mesmo modelo, a fidelidade passou de "aceitável" para "boa".
+* A avaliação dos resumos antigos ficou registada no commit `c0e3f04`.
 
 #### 7.3.1 VC Principal e VC Secundário: Regra e Justificação Metodológica
 
@@ -468,21 +505,21 @@ A codificação regista, para cada tópico, um **VC principal** (obrigatório) e
 | :--- | :--- | :--- |
 | **Estatuto** | Obrigatório; uma única categoria (VC1–VC4) | Opcional; VC1–VC4, diferente do principal |
 | **Quando se usa** | Sempre: dinâmica que melhor descreve a discussão no seu conjunto | Só quando há um episódio concreto de outra dinâmica, apontável num post |
-| **Uso na análise** | κ de Cohen entre codificadores; comparação com a regra de agregação e com a leitura holística; conclusões sobre a QI2b e a QI3a | Descrição da ambivalência (por exemplo, tópicos que combinam VC1 e VC3) e cálculo do acordo parcial |
+| **Uso na análise** | κ de Cohen com a regra de agregação e com a leitura holística; conclusões sobre a QI2b e a QI3a | Descrição da ambivalência (por exemplo, tópicos que combinam VC1 e VC3) e cálculo do acordo parcial com a leitura holística |
 
 **Justificação**:
-1. **O κ exige categorias mutuamente exclusivas.** A fiabilidade entre codificadores e a comparação com a codificação automática só podem ser calculadas sobre uma única categoria por tópico. Por isso, todas as conclusões assentam no VC principal.
+1. **O κ exige categorias mutuamente exclusivas.** A comparação com a codificação automática só pode ser calculada sobre uma única categoria por tópico. Por isso, todas as conclusões assentam no VC principal.
 2. **O valor é muitas vezes ambivalente.** Cocriação e codestruição podem ocorrer na mesma discussão: é a formação interativa de valor (Echeverri & Skålén, 2011; Plé & Chumpitaz Cáceres, 2010). Na primeira leitura do Prof. JPaulo, 7 dos 15 tópicos receberam duas categorias. O secundário preserva essa informação sem a misturar com a medida principal.
-3. **Permite medir acordo parcial.** Se o principal de um codificador for o secundário do outro, o caso conta como acordo parcial e não como desacordo total. Isso distingue desacordos de fronteira de desacordos substantivos.
+3. **Permite medir acordo parcial.** Se o VC principal do codificador for o secundário da leitura holística (ou vice-versa), o caso conta como acordo parcial e não como desacordo total. Isso distingue desacordos de fronteira de desacordos substantivos.
 4. **O secundário não serve para registar dúvidas.** Se fosse usado assim, o acordo parcial ficaria artificialmente inflacionado. A dúvida regista-se na Confiança (1–3) e nas Notas.
 
 **Nota sobre a leitura holística automática**: a primeira corrida foi feita com o secundário livre e atribuiu-o a 19 dos 151 tópicos (7 deles VC4). A segunda corrida, que é a usada neste relatório, foi feita com o secundário limitado a VC1–VC3; o modelo passou a atribuí-lo a apenas 2 tópicos. Essa restrição foi depois retirada do protocolo, e o VC4 voltou a ser aceite como secundário.
 * A restrição só afetava o VC secundário, que não entra em nenhuma estatística deste relatório. Os resultados da leitura holística mantêm-se válidos.
-* Entre as duas corridas, o VC principal manteve-se em 142 tópicos ($\kappa = 0,91$).
+* Entre as duas corridas, o VC principal manteve-se em 142 tópicos (κ = 0,91).
 * Para o LLM, o secundário contribui pouco: na primeira corrida explicava apenas 2 dos 73 desacordos entre a regra de agregação e a leitura holística.
 * O uso do secundário pelos codificadores humanos será reportado de forma descritiva e não entra no cálculo do κ.
 
-> **Resumos antigos da Etapa 2**: os primeiros resumos foram gerados pela pipeline a partir de apenas 110 dos 778 posts dos 18 tópicos da amostra do Prof. JPaulo (os que passaram o filtro de relevância), sem o post de abertura dos tópicos do Reddit, com os posts fora da ordem cronológica e, em 4 tópicos, com o jogo errado. A primeira avaliação (fidelidade média de 3,2 em 5) refletiu sobretudo estes problemas de entrada: muitas notas referem que o resumo dá ao tópico menos posts do que a página tem. Os resumos foram regenerados com o tópico completo (Secção 8.6).
+> **Resumos antigos da Etapa 2**: os primeiros resumos foram gerados pela pipeline a partir de apenas 110 dos 778 posts dos 18 tópicos da amostra do Prof. JPaulo (os que passaram o filtro de relevância), sem o post de abertura dos tópicos do Reddit, com os posts fora da ordem cronológica e, em 4 tópicos, com o jogo errado. A primeira avaliação (fidelidade média de 3,2 em 5) refletiu sobretudo estes problemas de entrada: muitas notas referem que o resumo dá ao tópico menos posts do que a página tem. Os resumos foram regenerados com o tópico completo (Secção 8.6) e a fidelidade média subiu para 4,2 (Secção 7.3.2).
 
 ---
 
@@ -552,9 +589,9 @@ A revisão v4.1 foi feita sem alterar os ficheiros originais. Todos os resultado
 **Principais consequências para as conclusões**:
 1. O contraste entre ecossistemas inverte-se quando se corrige o jogo e se usa a leitura holística: *EVE Online* tem mais cocriação efetiva (VC1 30,4% vs. 9,7%) e menos codestruição (VC3 8,9% vs. 22,2%) do que *World of Warcraft* (Secções 4.3 e 6.3.1).
 2. O "salto" micro → meso obtido pela regra de agregação é um efeito mecânico da regra (modelo nulo, Secção 1.7.1). A proporção de ~48% de tópicos com impacto ativo é, ainda assim, corroborada pela leitura holística independente (45,7%).
-3. A atribuição de clusters por palavras-chave tem acordo moderado com a leitura holística ($\kappa = 0,44$); as proporções por cluster são indicativas.
+3. A atribuição de clusters por palavras-chave tem acordo moderado com a leitura holística (κ = 0,44); as proporções por cluster são indicativas.
 4. As médias DART são robustas à verificação literal da evidência (variação máxima de −0,08).
-5. A leitura holística é estável entre corridas (VC principal: $\kappa = 0,91$; cluster: $\kappa = 0,85$, ambos sobre os posts filtrados). As conclusões assentam no VC principal; o VC secundário é descritivo (Secção 7.3.1).
+5. A leitura holística é estável entre corridas (VC principal: κ = 0,91; cluster: κ = 0,85, ambos sobre os posts filtrados). As conclusões assentam no VC principal; o VC secundário é descritivo (Secção 7.3.1).
 
 ### 8.6 Tópicos Completos: Filtro de Relevância e Posts de Abertura do Reddit
 
@@ -565,16 +602,16 @@ Ao avaliar os resumos da Etapa 2, o Prof. JPaulo verificou que vários resumos d
 
 **Correção**: a leitura holística e os resumos da Etapa 2 passaram a ler o tópico completo: todos os posts recolhidos (5.662), por ordem cronológica, com o jogo corrigido e com o post de abertura, que entra sempre, mesmo que seja anterior a 2024 ou curto. Autores e texto foram anonimizados como no resto do corpus. A codificação de cada post (A/I/VC/DART), a regra de agregação e o modelo nulo não mudam.
 
-| Leitura holística ($N=151$) | Posts filtrados | Tópico completo, sem post de abertura | **Tópico completo, com post de abertura** |
+| Leitura holística (N = 151) | Posts filtrados | Tópico completo, sem post de abertura | **Tópico completo, com post de abertura** |
 | :--- | :---: | :---: | :---: |
 | VC1 / VC2 / VC3 / VC4 | 26 / 20 / 24 / 81 | 31 / 15 / 21 / 84 | **31 / 15 / 23 / 82** |
 | Impacto ativo — total | 46,4% | 44,4% | **45,7%** |
 | Impacto ativo — EVE / WoW | 53,2% / 38,9% | 44,3% / 44,4% | **48,1% / 43,1%** |
 | Confiança alta (3) | 57 | 90 | **96** |
 | Citações verificadas literalmente | 150 | 151 | **151** |
-| Acordo com o Prof. JPaulo nos 18 tópicos (VC / cluster) | 12 / 17 | 13 / 16 | **15 / 15** |
+| Acordo com a codificação original (cega) do Prof. JPaulo nos 18 tópicos (VC / cluster) | 12 / 17 | 13 / 16 | **15 / 15** |
 
-* Entre os posts filtrados e o tópico completo, o VC principal mantém-se em 78,8% dos tópicos ($\kappa = 0,67$) e o cluster em 80,1% ($\kappa = 0,73$). O acréscimo do post de abertura mudou o VC principal em 8 dos 59 tópicos do Reddit.
+* Entre os posts filtrados e o tópico completo, o VC principal mantém-se em 78,8% dos tópicos (κ = 0,67) e o cluster em 80,1% (κ = 0,73). O acréscimo do post de abertura mudou o VC principal em 8 dos 59 tópicos do Reddit.
 * A proporção global de impacto ativo é robusta (44–46% nas três versões). O que muda é a comparação entre jogos: a vantagem de EVE no impacto ativo era em parte um efeito do filtro. A diferença no tipo de valor (mais VC1 em EVE, mais VC3 em WoW) mantém-se e acentua-se.
 * Com o texto completo, o modelo atribui confiança alta a muito mais tópicos (96 vs. 57).
 * O tópico `510327` (183 posts) ultrapassa o limite de texto e foi lido até cerca de 300.000 caracteres.
@@ -585,6 +622,8 @@ Ao avaliar os resumos da Etapa 2, o Prof. JPaulo verificou que vários resumos d
 | `scratch/v4_1/05_corpus_topicos_completos.py` → `data/processed/topicos_completos_v4_1.jsonl` | Corpus de tópicos completos, anonimizado (5.662 posts) |
 | `scratch/v4_1/02_codificacao_holistica_topicos.py --completos` → `data/analysis/topic_holistic_coding_v4_1_completos.json` | Leitura holística definitiva, usada neste relatório (151/151 tópicos, 0 erros, 151/151 citações verificadas) |
 | `data/analysis/topic_holistic_coding_v4_1_completos_sem_op.json` | Leitura holística do tópico completo antes de recuperar os posts de abertura |
-| `scratch/v4_1/06_resumos_topicos_completos.py` → `data/analysis/topic_discussions_insights_v4_1_completos.json` | Resumos novos dos 37 tópicos da Etapa 2 (mesmo agente, prompt e modelo que os originais) |
+| `scratch/v4_1/06_resumos_topicos_completos.py` → `data/analysis/topic_discussions_insights_v4_1_completos.json` | Resumos novos dos tópicos da Etapa 2: os 37 da primeira amostra e os 30 da amostra sem repetições, 62 no total (mesmo agente, prompt e modelo que os originais) |
+| `scratch/v4_1/10_amostra_auditoria_sem_repeticoes.py` → `data/analysis/amostra_auditoria_v4_1_sem_repeticoes.json` | Amostra da auditoria humana sem repetições (48 tópicos, Secção 7.3) |
+| `scratch/v4_1/11_ficheiros_auditoria_sem_repeticoes.py`, `12_chave_sem_repeticoes.py` | Ficheiros das Etapas 1 e 2 dos Profs. Emmanoel, Roger e Gomide e chave de análise para a nova amostra |
 | `scratch/v4_1/03_comparacao_meso.py --completos` e `04_estatisticas_relatorio.py --completos` | Comparação meso e estatísticas do relatório com a leitura holística definitiva (`*_v4_1_completos.json`) |
 | `scratch/v4_1/07_comparacao_topicos_completos.py` → `data/analysis/comparacao_topicos_completos_v4_1.json` | Comparação entre a leitura dos posts filtrados e a do tópico completo |
