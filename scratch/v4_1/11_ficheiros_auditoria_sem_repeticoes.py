@@ -3,7 +3,7 @@
 Cada ficheiro é reconstruído a partir do ficheiro atual do mesmo codificador (estilos, listas e instruções),
 com 10 linhas para os tópicos de 10_amostra_auditoria_sem_repeticoes.py. Os ficheiros do JPaulo não mudam.
 """
-import copy, glob, json, os, re
+import copy, glob, json, os, re, sys
 
 import openpyxl
 
@@ -78,7 +78,7 @@ def rebuild(path, sheet, tids, extra, textos):
     wb.save(path)
 
 
-for a in ["Emmanoel", "Roger", "Gomide"]:
+for a in (sys.argv[1:] or ["Emmanoel", "Roger", "Gomide"]):
     tids = amostra[a]
     rebuild(OUT(f"etapa_1_Codificacao_Topicos_{a}.xlsx"), "Codificacao", tids, lambda t: {}, TEXTOS_E1)
     rebuild(OUT(f"etapa_2_Avaliacao_Resumos_{a}.xlsx"), "Avaliacao_Resumos", tids,

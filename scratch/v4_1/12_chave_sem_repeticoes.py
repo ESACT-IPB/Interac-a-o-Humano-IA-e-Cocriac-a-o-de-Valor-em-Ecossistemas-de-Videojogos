@@ -30,18 +30,29 @@ origem = {str(r[0]): r[3] for r in ws.iter_rows(min_row=2, values_only=True) if 
 estilo = [copy.copy(ws.cell(2, c)._style) for c in range(1, ws.max_column + 1)]
 ws.cell(1, 3).value = "Codificador"
 ws.delete_rows(2, ws.max_row)
+aid = json.load(open(A("analysis", "topic_coding_ai_interacao_dart_v4_1_completos.json")))
+incluidos = set(json.load(open(A("analysis", "corpus_topicos_v4_1_final.json")))["incluidos"])
+extra = ["IA_Principal_Topico", "Interacao_Principal_Topico", "DART_D_Topico", "DART_A_Topico", "DART_R_Topico", "DART_T_Topico"]
+base = 15
+for i, h in enumerate(extra):
+    ws.cell(1, base + 1 + i).value = h
+    ws.cell(1, base + 1 + i)._style = copy.copy(ws.cell(1, base)._style)
 r = 2
 for coder, tids in amostra.items():
     for t in tids:
+        if t not in incluidos:  # tópicos sem IA (A6) excluídos do corpus final
+            continue
         h = hol[t]
         src = old.get(t) or old.get("3000003" if t == "2248893" else t)
         row = [t, h["game"], coder, origem.get(t, "Estratificada_sem_repeticoes") if coder == "JPaulo" else "Estratificada_sem_repeticoes",
                src["cluster_key"], rule(labels[t]), res[t]["dinamicas_valor"]["tipo_dominante"],
                bool(res[t]["tom_e_retorica"].get("contem_satira_ironia")), len(labels[t]), h["vc_principal"],
                h["vc_secundario"], h["cluster"], h["confianca"], h["ironia_satira"], n_full[t]]
+        g = aid[t]
+        row += [g["ia_principal"], g["interacao_principal"]] + [g["dart"][d]["score"] for d in ["dialogo", "acesso", "risco", "transparencia"]]
         for c, v in enumerate(row, 1):
             ws.cell(r, c).value = v
-            ws.cell(r, c)._style = copy.copy(estilo[c - 1])
+            ws.cell(r, c)._style = copy.copy(estilo[min(c, len(estilo)) - 1])
         r += 1
 wb.save(F)
 print("linhas:", r - 2, dict(Counter(ws.cell(i, 3).value for i in range(2, r))),

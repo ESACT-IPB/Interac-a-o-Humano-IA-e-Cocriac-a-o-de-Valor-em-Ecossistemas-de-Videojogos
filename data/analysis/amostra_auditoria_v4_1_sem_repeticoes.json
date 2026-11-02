@@ -36,7 +36,7 @@
       "2314701",
       "reddit_1s5tj3u",
       "2203538",
-      "1s9et4k",
+      "2257438",
       "1784181",
       "483347",
       "474041",
@@ -50,8 +50,8 @@
       "2324507",
       "2320601",
       "reddit_1tvlpnw",
-      "509843",
-      "1w4y0sn",
+      "512939",
+      "432317",
       "516921",
       "reddit_1phwb0r",
       "reddit_1spdcd4"
@@ -68,5 +68,34 @@
       "reddit_1t939or",
       "498018"
     ]
-  }
+  },
+  "substituicoes_A6": [
+    {
+      "codificador": "Emmanoel",
+      "saiu": "1s9et4k",
+      "entrou": "2257438",
+      "cluster": 4,
+      "jogo": "World of Warcraft"
+    },
+    {
+      "codificador": "Roger",
+      "saiu": "509843",
+      "entrou": "512939",
+      "cluster": 4,
+      "jogo": "EVE Online"
+    },
+    {
+      "codificador": "Roger",
+      "saiu": "1w4y0sn",
+      "entrou": "432317",
+      "cluster": 2,
+      "jogo": "EVE Online"
+    }
+  ],
+  "excluidos_A6_sem_substituicao": [
+    {
+      "codificador": "JPaulo",
+      "topico": "481937"
+    }
+  ]
 }
