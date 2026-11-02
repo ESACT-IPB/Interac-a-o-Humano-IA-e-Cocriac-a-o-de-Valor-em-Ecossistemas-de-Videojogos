@@ -344,7 +344,7 @@ O protocolo anterior (Track B, Rondas 1 e 2) foi **substituído**: os codificado
 
 **Justificação do tamanho**: sem repetições, a validação é o acordo de cada codificador com a codificação automática. Com um acordo à volta de 75%, a margem do IC95% é de cerca de ±12 pp com 47 tópicos; acima disso cada tópico a mais ganha pouco face ao tempo de leitura. **Contrapartida**: não é possível calcular o acordo entre codificadores humanos.
 
-**Etapa 1 — Codificação cega** (`etapa_1_Codificacao_Topicos_<nome>.xlsx`): cada codificador lê o tópico original através de uma hiperligação e preenche, sem ver resumos nem classificações automáticas, os campos Cluster (1–5), VC principal e secundário, Confiança (1–3), Evidência (citação literal), Ironia/Sátira e Notas, e ainda o tipo de IA principal e presentes, a interação principal e presentes e as quatro dimensões DART (0–5). As instruções são as mesmas dadas à codificação automática.
+**Etapa 1 — Codificação cega** (`etapa_1_Codificacao_Topicos_<nome>.xlsx`): cada codificador lê o tópico original através de uma hiperligação e preenche, sem ver resumos nem classificações automáticas, só campos obrigatórios: Cluster (1–5), VC principal, Confiança (1–3), Evidência (citação literal), Ironia/Sátira, tipo de IA principal, interação principal e as quatro dimensões DART (0–5). As colunas opcionais (VC secundário, tipos de IA e interações presentes, e notas) foram retiradas para reduzir o trabalho de cada codificador. As instruções são as mesmas dadas à codificação automática.
 
 **Etapa 2 — Avaliação dos resumos da IA** (`etapa_2_Avaliacao_Resumos_<nome>.xlsx`): depois da Etapa 1, cada codificador avalia o resumo do tópico gerado pela pipeline (agente `TopicDiscussionAnalystAgent`, Secção 8.3) quanto à Fidelidade da Síntese (1–5), Erros Factuais, Omissões Relevantes e Leitura do Tom Retórico.
 
@@ -352,23 +352,12 @@ O protocolo anterior (Track B, Rondas 1 e 2) foi **substituído**: os codificado
 
 **Estado (2 de novembro de 2026)**: o Prof. JPaulo concluiu as duas etapas para VC e cluster (falta preencher as colunas de tipo de IA, interação e DART, acrescentadas depois); os ficheiros dos Profs. Emmanoel, Roger e Gomide estão prontos e ainda não foram preenchidos.
 
-#### 7.1.1 VC Principal e VC Secundário: Regra e Justificação Metodológica
+#### 7.1.1 Um Só VC por Tópico
 
-A codificação regista, para cada tópico, um **VC principal** (obrigatório) e um **VC secundário** (opcional). As duas colunas têm papéis diferentes:
-
-| | VC Principal | VC Secundário |
-| :--- | :--- | :--- |
-| **Estatuto** | Obrigatório; uma única categoria (VC1–VC4) | Opcional; VC1–VC4, diferente do principal |
-| **Quando se usa** | Sempre: dinâmica que melhor descreve a discussão no seu conjunto | Só quando há um episódio concreto de outra dinâmica, apontável num post |
-| **Uso na análise** | κ de Cohen com a codificação automática; conclusões sobre a QI2b e a QI3a | Descrição da ambivalência (por exemplo, tópicos que combinam VC1 e VC3) e cálculo do acordo parcial com a codificação automática |
-
-**Justificação**:
-1. **O κ exige categorias mutuamente exclusivas.** A comparação com a codificação automática só pode ser calculada sobre uma única categoria por tópico. Por isso, todas as conclusões assentam no VC principal.
-2. **O valor é muitas vezes ambivalente.** Cocriação e codestruição podem ocorrer na mesma discussão: é a formação interativa de valor (Echeverri & Skålén, 2011; Plé & Chumpitaz Cáceres, 2010). Na primeira leitura do Prof. JPaulo, 7 dos 15 tópicos receberam duas categorias. O secundário preserva essa informação sem a misturar com a medida principal.
-3. **Permite medir acordo parcial.** Se o VC principal do codificador for o secundário da codificação automática (ou vice-versa), o caso conta como acordo parcial e não como desacordo total. Isso distingue desacordos de fronteira de desacordos substantivos.
-4. **O secundário não serve para registar dúvidas.** Se fosse usado assim, o acordo parcial ficaria artificialmente inflacionado. A dúvida regista-se na Confiança (1–3) e nas Notas.
-
-**Uso do secundário na codificação automática**: o modelo atribui VC secundário a poucos tópicos (16 dos 151 na versão dos tópicos completos). O uso do secundário pelos codificadores humanos será reportado de forma descritiva e não entra no cálculo do κ.
+Os codificadores humanos registam um único **VC principal** por tópico: a dinâmica de valor que melhor descreve a discussão no seu conjunto.
+1. **O κ exige categorias mutuamente exclusivas.** A comparação com a codificação automática só pode ser calculada sobre uma única categoria por tópico, e todas as conclusões assentam no VC principal.
+2. **Dúvidas entre categorias.** Quando o codificador hesita entre duas categorias, escolhe a que melhor descreve o sentido global e baixa a Confiança (1–3).
+3. **Ambivalência do valor.** Cocriação e codestruição podem ocorrer na mesma discussão (formação interativa de valor; Echeverri & Skålén, 2011; Plé & Chumpitaz Cáceres, 2010). Essa ambivalência fica registada apenas na codificação automática, que atribui um VC secundário a 16 dos 151 tópicos; na primeira versão do protocolo, o Prof. JPaulo atribuiu-o a 7 dos 15 tópicos que tinha codificado.
 
 ### 7.2 Resultados Preliminares: Codificação do Prof. JPaulo (N = 17)
 
