@@ -1,0 +1,125 @@
+SML.di(`./Dyg3q1gB6W.js`,import.meta.url,`Dyg3q1gB6W`),SML.di(`./CRb6sXWfZK.js`,import.meta.url,`CRb6sXWfZK`),SML.di(`./BXiQ01DG1Q.js`,import.meta.url,`BXiQ01DG1Q`),SML.di(`./BqSHQ8zzHX.js`,import.meta.url,`BqSHQ8zzHX`),SML.di(`./DrSVhJm3WS.js`,import.meta.url,`DrSVhJm3WS`),SML.di(`./BUtHzg8btp.js`,import.meta.url,`BUtHzg8btp`),SML.dm(`BGGA20qRT4`,[`Dyg3q1gB6W`,`CRb6sXWfZK`,`BXiQ01DG1Q`,`BqSHQ8zzHX`,`DrSVhJm3WS`,`BUtHzg8btp`],async(e,t,n,r,i)=>{var a=e._({AchievementsEntrypoint:()=>l,CSS_SELECTORS:()=>c});let o={HOVERCARD:`hovercard`,PROFILE:`profile`,COMMUNITY:`community`,OTHER_USER_PROFILE:`other-user`},s=t.x`,&nbsp;`,c={SUBREDDIT_NAME_ATTRIBUTE:`subreddit-name`,SUBREDDIT_NAME_CLASS:`.subreddit-name`,SUBREDDIT_ID_ATTRIBUTE:`subreddit-id`},l=class extends t.s{constructor(...e){super(...e),this.username=``,this.source=o.PROFILE,this.achievements=[],this.unlockCount=0,this.totalTrophies=0,this.shouldRenderEntrypoint=!0,this.loading=!1,this.subredditId=``,this.subredditName=``,this.isModalFeatureActivated=!1,this.pubsub=new n.Du(this),this._activateFeature=async e=>n.Tu(e)}getAchievements(e){let t=[],n=[],r=e.filter(e=>e&&e.trophies.edges.length);for(let e of r)for(let r of e.trophies.edges){let e=r?.node;e&&(e.unlockedAt?t.push(e):n.push(e))}return t.concat(n)}setTrophyCounts(e){this.unlockCount=0,this.totalTrophies=0;for(let t of e)this.unlockCount+=+!!t.unlockedAt,this.totalTrophies++}extractAttributeData(e){let t=document.querySelectorAll(`[${e}]`);return t.length===0?null:t[0].getAttribute(e)}extractClassData(e){let t=document.querySelectorAll(e);if(t.length===0)return null;let n=t[0];return n?n.innerText:null}addSubredditPrefix(e){return e?/^r\//.test(e)?e:`r/${e}`:null}async getCommunityAchievementsData(){try{let e=(await n.Gc({operation:`UserCommunityAchievements`,variables:{username:this.username,subredditId:this.subredditId,imageMaxWidth:100}})).data?.redditorInfoByName;if(e?.__typename!==`Redditor`||!e.trophyCase){this.shouldRenderEntrypoint=!1;return}let t=[],r=e.trophyCase.trophiesBySubredditId||[];for(let e of r)(e.__typename===`AchievementImageTrophy`||e.__typename===`AchievementRepeatableImageTrophy`)&&t.push(e);this.achievements=t,this.unlockCount=e.trophyCase.trophiesBySubredditId?.length||0,this.totalTrophies=e.trophyCase.trophiesBySubredditId?.length||0}catch(e){n.cc(e)}}async getAllAchievementsData(){try{if(!this.username){this.achievements=[];return}let e=(await n.Gc({operation:`TrophyCategories`,variables:{trophyImageMaxWidth:100,name:this.username,includeRepeatableAchievements:!0}})).data?.redditorInfoByName;if(e?.__typename!==`Redditor`)return;let t=e.trophyCase?.categories?.edges.map(e=>e?.node);if(!t)return;let r=[];for(let e of t)e&&e.__typename===`AchievementTrophyCategory`&&r.push(e);if(!r.length)return;this.achievements=this.getAchievements(r),this.setTrophyCounts(this.achievements)}catch(e){n.cc(e)}}async connectedCallback(){super.connectedCallback(),this.subredditId=this.extractAttributeData(c.SUBREDDIT_ID_ATTRIBUTE)||``,this.subredditName=this.addSubredditPrefix(this.extractAttributeData(c.SUBREDDIT_NAME_ATTRIBUTE)||this.extractClassData(c.SUBREDDIT_NAME_CLASS))||``;let e=this.source===o.HOVERCARD||this.source===o.COMMUNITY,t=this.subredditId&&this.subredditName;if(e&&!t){this.shouldRenderEntrypoint=!1;return}this.loading=!0,this.subredditId&&e?await this.getCommunityAchievementsData():await this.getAllAchievementsData(),this.loading=!1}joinTemplates(e,n=t.x`, `,r=!1){let i=t.x``;for(let a=0;a<e.length;a++){let o=a===e.length-1&&!r?t.A:n;i=t.x`${i}${e[a](o)}`}return i}async handleAchievementClick(e,t,r=!1){let a=!!document.querySelector(`achievement-modal`);!this.isModalFeatureActivated&&!a&&(await this._activateFeature({name:n.Zc}),this.isModalFeatureActivated=!0),this.pubsub.publish(`achievements-modal-show-by-id`,{achievementId:e,username:t,isCurrentLoggedUser:r});let o=this.getPageTypeFromSource();n.rc(this,i.e(o))}renderAchievementTitles(e){return t.x`
+      ${this.joinTemplates(this.getImageTrophies(e.achievements).slice(0,e.numOfAchievements).map(e=>n=>t.x`<div
+                data-testid="achievement-entrypoint-title"
+                class="text-12 font-normal text-neutral-content no-underline cursor-pointer"
+                @click="${()=>{this.handleAchievementClick(e.id,this.username,this.source===o.PROFILE)}}"
+                @keydown="${t=>{(t.key===` `||t.key===`Enter`)&&this.handleAchievementClick(e.id,this.username,this.source===o.PROFILE)}}"
+              >
+                <span class="achievement-flair-title">${e.name}${n}</span>
+              </div>`),t.x`${e.separator}`,e.numOfUnlockedAchievements>3)}
+    `}renderMoreLink(e){return t.x`
+      <div
+        class="text-12 font-normal text-neutral-content no-underline cursor-pointer"
+        @click="${()=>this.handleViewLinkClick(`/user/${e.username}/achievements/`,!0)}"
+        @keydown="${t=>{(t.key===` `||t.key===`Enter`)&&this.handleViewLinkClick(`/user/${e.username}/achievements/`,!0)}}"
+        data-testid="more-achievements"
+      >
+        <span class="achievement-flair-title"
+          >${`+${e.numOfUnlockedAchievements-e.numOfAchievements} more`}</span
+        >
+      </div>
+    `}renderTitlesSection(e){if(!e.numOfUnlockedAchievements)return t.x`<div
+        class="flex flex-row flex-wrap items-center text-12 font-normal text-neutral-content"
+      >
+        ${`None unlocked`}
+      </div>`;let n=this.renderAchievementTitles(e),r;return r=e.numOfUnlockedAchievements>3?t.x`${n}${this.renderMoreLink(e)}`:t.x`${n}`,t.x`<div class="flex flex-row flex-wrap items-center" style="line-height: 1rem;">
+      ${r}
+    </div>`}getImageTrophies(e){let t=[];for(let n of e)(n.__typename===`AchievementImageTrophy`||n.__typename===`AchievementRepeatableImageTrophy`)&&t.push(n);return t}renderImagesSection(e){let n=this.getImageTrophies(e.achievements).slice(0,3).map((e,t)=>this.renderImage({name:e.name,imageUrl:e.gridImage.url,id:e.id,username:this.username,index:t,isUnlocked:!0})),r=n.length,i=this.source===o.PROFILE;if(r<3&&i){let e=3-r;for(let t=0;t<e;t++)n.push(this.renderImage({name:``,imageUrl:`https://preview.redd.it/l3ct2kzdo12d1.png?width=500&height=500&crop=smart&auto=webp&s=201ce96e4984d919ccb4e0483cbf6d3140b3a5c0`,id:``,username:this.username,index:t+r,isUnlocked:!1}))}return t.x`<div
+      class="flex flex-row ${n.length<2?`me-sm`:``} z-0"
+      style="max-width: 100px;"
+    >
+      ${n}
+    </div>`}renderImage(e){let n=getComputedStyle(this).direction===`rtl`,r=``;e.index>0&&(r=`transform: translateX(${n?``:`-`}${40*e.index}%);`);let i=-2*e.index;return t.x`
+      <div
+        @click="${t=>{if(!e.isUnlocked){t.preventDefault();return}this.handleAchievementClick(e.id,this.username,this.source===o.PROFILE)}}"
+        @keydown="${t=>{(t.key===` `||t.key===`Enter`)&&this.handleAchievementClick(e.id,this.username,this.source===o.PROFILE)}}"
+        class="${e.isUnlocked?`cursor-pointer`:``}"
+        data-testid="achievement-entrypoint-image-container"
+        style="${r}; z-index: ${i};"
+      >
+        <div
+          style="position: relative; width: ${40}px;
+          height: ${40}px; z-index: ${i};"
+          class="achievement-flair"
+        >
+          <img
+            class="absolute top-0 bottom-0 start-0 end-0"
+            alt="${e.name}"
+            style="z-index: ${i};"
+            src="${e.imageUrl}"
+            width="${40}"
+            height="${40}"
+          />
+
+          <div class="absolute top-0 bottom-0 start-0 end-0" style="z-index: ${i-1};">
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="20" r="20" fill="var(--color-neutral-background)" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    `}getPageTypeFromSource(){return this.isInHovercard()?`user_hovercard`:this.isInProfile()||this.isInOtherUserProfile()?`profile`:this.isInCommunity()?`community`:`unknown`}getWindow(){return window}publishViewAllAchievementsTracking(){let e=this.getPageTypeFromSource();n.rc(this,i.v(e))}handleViewLinkClick(e=`/achievements`,t=!1){this.publishViewAllAchievementsTracking(),t?this.getWindow().open(e,`_blank`):this.getWindow().location.href=e}handleViewLinkKeyDown(e,t){(e.key===` `||e.key===`Enter`)&&(this.publishViewAllAchievementsTracking(),t.location.href=`/achievements`)}getViewAllHref(){return this.isInCommunity()?`/user/${this.username}/achievements/category/community/`:`/user/${this.username}/achievements`}renderActionBar(){return this.isInProfile()||this.isInCommunity()?t.x`
+        <div
+          class="flex flex-row 
+            justify-between w-full mt-xs ${this.isInProfile()?`mb-sm`:``} items-center"
+        >
+          <div class="flex flex-col text-12 font-normal text-neutral-content-weak items-center">
+            ${this.isInCommunity()&&!this.unlockCount?t.A:`${this.unlockCount} unlocked`}
+          </div>
+          ${r.b({appearance:`secondary`,attributes:{className:`pointer-events-auto hover:underline`,onclick:()=>this.handleViewLinkClick(this.getViewAllHref(),!0),"data-testid":`achievements-view-link`,"aria-label":`View All Achievements`},children:`View All`,size:r._.Small})}
+        </div>
+      `:t.x`
+      <div
+        tabindex="0"
+        data-testid="achievements-view-link"
+        class="flex flex-row 
+          justify-between w-full mt-xs mb-md items-center"
+        @click="${()=>this.handleViewLinkClick()}"
+        @keydown="${e=>this.handleViewLinkKeyDown(e,window)}"
+      >
+        <span class="text-12 a no-visited hover:underline cursor-pointer">
+          ${`View your achievements`}
+        </span>
+      </div>
+    `}isInHovercard(){return this.source===o.HOVERCARD}isInCommunity(){return this.source===o.COMMUNITY}isInProfile(){return this.source===o.PROFILE}isInOtherUserProfile(){return this.source===o.OTHER_USER_PROFILE}getTitle(){let e=``;return e=this.isInCommunity()?`community achievements`:this.isInHovercard()?`${this.subredditName} achievements`:`achievements`,t.x`
+      <div
+        class="achievements-entrypoint-title
+            flex flex-row w-full items-start mb-xs ${this.isInHovercard()?``:`uppercase`}
+            text-12 font-semibold ${this.isInHovercard()?`text-neutral-content`:`text-neutral-content-weak`}"
+      >
+        ${e}
+      </div>
+    `}renderEntrypoint(){if(!this.shouldRenderEntrypoint||this.loading||!this.unlockCount)return t.A;let e={achievements:this.achievements,username:this.username,numOfAchievements:this.unlockCount<3?this.unlockCount:3,numOfUnlockedAchievements:this.unlockCount,separator:s};return t.x`
+      <hr class="border-0 border-b-sm border-solid border-neutral-border-weak w-full" />
+      ${this.getTitle()}
+      <faceplate-tracker
+        source="achievements"
+        action="view"
+        noun="right_rail"
+        class="achievements-entrypoint flex flex-col w-full items-center"
+      >
+        <div class="achievement-profile-flairs flex flex-row w-full">
+          ${this.renderImagesSection(e)}
+          ${this.username?this.renderTitlesSection(e):t.A}
+        </div>
+        ${this.renderActionBar()}
+      </faceplate-tracker>
+      ${this.isInHovercard()?t.x`<hr class="border-0 border-b-sm border-solid border-neutral-border-weak w-full" />`:t.A}
+    `}render(){return this.isInCommunity()?t.x`<div class="flex flex-col w-full px-md box-border">
+        ${this.renderEntrypoint()}
+      </div>`:this.renderEntrypoint()}};return l.styles=[t.i`
+      .achievement-flair:hover {
+        transform: translateY(-10%);
+        transition: all 0.5s ease;
+      }
+      .achievement-flair-title:hover {
+        text-decoration: underline;
+      }
+      .achievement-profile-entrypoint {
+        pointer-events: auto !important;
+      }
+    `,n.Nd],n.Md([n.Jd({type:String,attribute:`username`})],l.prototype,`username`,void 0),n.Md([n.Jd({type:String,attribute:`source`})],l.prototype,`source`,void 0),n.Md([n.qd()],l.prototype,`achievements`,void 0),n.Md([n.qd()],l.prototype,`unlockCount`,void 0),n.Md([n.qd()],l.prototype,`totalTrophies`,void 0),n.Md([n.qd()],l.prototype,`shouldRenderEntrypoint`,void 0),n.Md([n.qd()],l.prototype,`loading`,void 0),n.Md([n.qd()],l.prototype,`subredditId`,void 0),n.Md([n.qd()],l.prototype,`subredditName`,void 0),n.Md([n.qd()],l.prototype,`isModalFeatureActivated`,void 0),l=n.Md([n.Yd(`achievements-entrypoint`)],l),Object.defineProperty({get t(){return a}},Symbol.toStringTag,{value:`Module`})});
+/* @sml-chunk */
+SML.di(`./3JwSukCgvK.js`,import.meta.url,`3JwSukCgvK`),SML.di(`./aQgOmTlTZn.js`,import.meta.url,`aQgOmTlTZn`),SML.di(`./DQDxE6sCPR.js`,import.meta.url,`DQDxE6sCPR`),SML.di(`./BXiQ01DG1Q.js`,import.meta.url,`BXiQ01DG1Q`),SML.di(`./Dhh_WZakNm.js`,import.meta.url,`Dhh_WZakNm`),SML.di(`./CNGwMkSF3r.js`,import.meta.url,`CNGwMkSF3r`),SML.di(`./tf5PBCf9Vz.js`,import.meta.url,`tf5PBCf9Vz`),SML.di(`./BxMB18vk3l.js`,import.meta.url,`BxMB18vk3l`),SML.di(`./DoDn0ztgt1.js`,import.meta.url,`DoDn0ztgt1`),SML.di(`./CrU4uFp1f-.js`,import.meta.url,`CrU4uFp1f-`),SML.di(`./CotiDhgNio.js`,import.meta.url,`CotiDhgNio`),SML.di(`./BpY9cr_sbU.js`,import.meta.url,`BpY9cr_sbU`),SML.di(`./BbuSs7Q6gM.js`,import.meta.url,`BbuSs7Q6gM`),SML.di(`./DBUpa7xbN2.js`,import.meta.url,`DBUpa7xbN2`),SML.di(`./CVBfDO7QfN.js`,import.meta.url,`CVBfDO7QfN`),SML.di(`./CMbFf84ToB.js`,import.meta.url,`CMbFf84ToB`),SML.di(`./DegTyUm2LF.js`,import.meta.url,`DegTyUm2LF`),SML.di(`./CZ-M9sh7ED.js`,import.meta.url,`CZ-M9sh7ED`),SML.di(`./DkZQBXOOch.js`,import.meta.url,`DkZQBXOOch`),SML.di(`./BZYNFsV2Ck.js`,import.meta.url,`BZYNFsV2Ck`),SML.di(`./B-cWR0ob_y.js`,import.meta.url,`B-cWR0ob_y`),SML.di(`./D902htr1vT.js`,import.meta.url,`D902htr1vT`),SML.di(`./BqfcBbvfzG.js`,import.meta.url,`BqfcBbvfzG`),SML.dm(`BPU5pqH7mZ`,[`3JwSukCgvK`,`aQgOmTlTZn`,`DQDxE6sCPR`,`BXiQ01DG1Q`,`Dhh_WZakNm`,`CNGwMkSF3r`,`tf5PBCf9Vz`,`BxMB18vk3l`,`DoDn0ztgt1`,`CrU4uFp1f-`,`CotiDhgNio`,`BpY9cr_sbU`,`BbuSs7Q6gM`,`DBUpa7xbN2`,`CVBfDO7QfN`,`CMbFf84ToB`,`DegTyUm2LF`,`CZ-M9sh7ED`,`DkZQBXOOch`,`BZYNFsV2Ck`,`B-cWR0ob_y`,`D902htr1vT`,`BqfcBbvfzG`],async e=>{e.g()&&SML.di(`./BeLPE3XcZx.js`,import.meta.url,`BeLPE3XcZx`).then(e=>e.a)});
+/* @sml-chunk */
+SML.di(`./CRb6sXWfZK.js`,import.meta.url,`CRb6sXWfZK`),SML.di(`./BXiQ01DG1Q.js`,import.meta.url,`BXiQ01DG1Q`),SML.di(`./BqSHQ8zzHX.js`,import.meta.url,`BqSHQ8zzHX`),SML.di(`./XaGwdHitMx.js`,import.meta.url,`XaGwdHitMx`),SML.di(`./h8gXYxBNwo.js`,import.meta.url,`h8gXYxBNwo`),SML.di(`./D6N5PwLPgZ.js`,import.meta.url,`D6N5PwLPgZ`),SML.di(`./DrSVhJm3WS.js`,import.meta.url,`DrSVhJm3WS`),SML.di(`./BUtHzg8btp.js`,import.meta.url,`BUtHzg8btp`),SML.di(`./U7XyBBvJSg.js`,import.meta.url,`U7XyBBvJSg`),SML.dm(`Hw3x7g-llY`,[`CRb6sXWfZK`,`BXiQ01DG1Q`,`BqSHQ8zzHX`,`D6N5PwLPgZ`,`U7XyBBvJSg`,`XaGwdHitMx`,`h8gXYxBNwo`,`DrSVhJm3WS`,`BUtHzg8btp`],async(e,t,n,r,i)=>{let a=0;async function o(t){let r=null,o=`alert-dialog-${a}`,s=t.closeText||`Close dialog`,c=t.okText||`Ok`,l=e=>{e.stopPropagation(),r?.hide()},u=e.x`<rpl-modal-card> ${t.title?e.x`<h2 slot="title" class="text-16 font-semibold">${t.title}</h2>`:e.A} <p>${t.text}</p> <div slot="primary-button"> ${n.b({children:c,appearance:`primary`,attributes:{"aria-label":c,onclick:l}})} </div> <div slot="close-button"> ${n.b({appearance:`secondary`,shape:`pill`,leadingIcon:i.c({size:e.I.Small}),size:n._.Small,attributes:{"aria-label":s,onclick:l}})} </div> </rpl-modal-card>`,d=document.createDocumentFragment();e.D(e.x`<rpl-dialog open id="${o}" dialog-id="${o}" label="${t.title}" .litTemplateChildren="${u}"></rpl-dialog>`,d),a++,document.body.appendChild(d),r=document.querySelector(`rpl-dialog#${o}`),r.showModal(),await new Promise(e=>{r?.addEventListener(`rpl-dialog:after-hide`,()=>e(),{once:!0})}),r.remove()}let s=!1,c=new t.Uu,l=async(e=navigator.serviceWorker)=>{let t=window.CLIENT_EXPERIMENTS??{},n=t.shreddit_service_worker_registration===`enabled`;if(t.shreddit_service_worker_killswitch===`enabled`){let t=await e?.getRegistrations();for(let e of t)e.unregister();return}if(n){try{let t=await e?.register(`/sw.js`,{type:`module`,updateViaCache:`all`});c.resolve(t)}catch(e){c.reject(e);return}u(e),d(e),s||(window.addEventListener(`afterRoute`,()=>u(e)),s=!0)}},u=(e=navigator.serviceWorker)=>{if(!e)return;let n=document.getElementsByTagName(`shreddit-app`)?.[0],r={action_info:{page_type:t.fr()},screen:{height:window?.screen.height,width:window?.screen.width},referrer:t.ci(n?.getAttribute(`referrer`)||t.di(),window.location.href)};e.controller?.postMessage({command:`registerClient`,v2EventBoilerPlate:r,disablePNs:n?.getAttribute(`disable-pns`)===`true`})},d=(e=navigator.serviceWorker)=>{e?.addEventListener(`message`,t=>{let{data:n}=t;switch(n.command||n.type){case`registerWithServiceWorker`:return u(e)}})},f=async(e,n=window)=>{if(t.lt(n)&&(t.Gn({name:`pwa`,value:`1`,country:e,options:t.pd}),!t.zn.getItem(`pwa-pn-prompt`))){let e=await x();[`Pending`,`NoSubscription`].includes(e)&&(S(),t.zn.setItem(`pwa-pn-prompt`,`${Date.now()}`))}},p=e=>t.ni({source:`notification_system_settings`,action:e,noun:`push_notifications`}),m=!1;function h(e){let n=document.querySelector(`shreddit-app`);n&&t.rc(n,e)}async function g(e=!1,n=navigator.serviceWorker){let r=await n?.getRegistration();if(!r)return!1;let i=await r.pushManager.getSubscription();if(i&&!e)return!0;let a={userVisibleOnly:!0,applicationServerKey:`BJ2nJR9HeBwCWe4s7bKfKgWZkx2Q8Q59yBdSVLxWIhPaWuzHDUxQ2YJnhLvbAVujWBZYuQv60V6a6oipSw09FT0`};m=!0;try{return h(t.ni({source:`notification`,action:`request`,noun:`push_token`})),i=await r.pushManager.subscribe(a),i?(await _(JSON.stringify(i)),h(t.ni({source:`notification`,action:`register`,noun:`push_token`})),!0):!1}catch{return h(t.ni({source:`notification`,action:`bail`,noun:`push_token`})),!1}finally{m=!1}}async function _(e){if(!(await t.Gc({operation:`RegisterPushToken`,variables:{pushToken:e,language:document.documentElement.lang||r.B[`en-US`],timezoneName:Intl.DateTimeFormat().resolvedOptions().timeZone||`America/Los_Angeles`,timestamp:new Date().toISOString()}})).data.registerWebPushToken?.ok)throw Error(`Error registering push token`);t.zn.setItem(`push-token-last-refresh-ms`,Date.now().toString())}let v=()=>`Notification`in globalThis&&globalThis.Notification!==void 0?Notification:null;async function y(e=navigator.serviceWorker,n=v()){if(await x(e,n)!==`Enabled`)return!1;let r=Number(t.zn.getItem(`push-token-last-refresh-ms`)??`0`);return Date.now()-r<144e5?!1:g(!0,e)}async function b(e=navigator.serviceWorker){let t=(await(await e.getRegistration())?.pushManager.getSubscription())?.unsubscribe();return t&&h(p(`disable`)),t}async function x(e=navigator.serviceWorker,t=v()){if(!t)return`NoNotificationAPI`;try{await c.promise;let n=await e?.getRegistration();return n?n.pushManager?t.permission===`denied`?`Blocked`:t.permission==="default"?`Pending`:await n.pushManager.getSubscription()?`Enabled`:m?`Pending`:`NoSubscription`:`NoPushManager`:`NoServiceWorker`}catch{return`Error`}}async function S(e=navigator.serviceWorker,t=v()){if(t.permission===`denied`)return await C(),!1;let n=await t.requestPermission();if(n===`granted`){let t=await g(!1,e);return t&&h(p(`enable`)),t}else if(n===`denied`)return await C(),!1;return!1}function C(){return o({title:`Notifications Disabled`,text:`Use your browser settings menu to allow notifications for this site.`})}return Object.defineProperty({_:v,a:f,g:x,m:y,r:l,s:S,u:b},Symbol.toStringTag,{value:`Module`})});

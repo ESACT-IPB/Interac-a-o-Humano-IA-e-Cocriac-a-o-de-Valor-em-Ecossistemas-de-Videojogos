@@ -1,0 +1,2270 @@
+{
+  "por_jogo": {
+    "Total": {
+      "n": 139,
+      "ia_principal": {
+        "A1": [
+          14,
+          10.1
+        ],
+        "A2": [
+          1,
+          0.7
+        ],
+        "A3": [
+          0,
+          0.0
+        ],
+        "A4": [
+          19,
+          13.7
+        ],
+        "A5": [
+          105,
+          75.5
+        ],
+        "A6": [
+          0,
+          0.0
+        ]
+      },
+      "ia_presente": {
+        "A1": [
+          14,
+          10.1
+        ],
+        "A2": [
+          0,
+          0.0
+        ],
+        "A3": [
+          0,
+          0.0
+        ],
+        "A4": [
+          20,
+          14.4
+        ]
+      },
+      "algum_A1_A4": [
+        32,
+        23.0
+      ],
+      "algum_A2_A3": [
+        0,
+        0.0
+      ],
+      "interacao_principal": {
+        "I1": [
+          5,
+          3.6
+        ],
+        "I2": [
+          3,
+          2.2
+        ],
+        "I3": [
+          21,
+          15.1
+        ],
+        "I4": [
+          107,
+          77.0
+        ],
+        "I5": [
+          3,
+          2.2
+        ],
+        "I6": [
+          0,
+          0.0
+        ]
+      },
+      "interacao_presente": {
+        "I1": [
+          8,
+          5.8
+        ],
+        "I2": [
+          7,
+          5.0
+        ],
+        "I3": [
+          21,
+          15.1
+        ],
+        "I5": [
+          3,
+          2.2
+        ]
+      },
+      "alguma_interacao_direta": [
+        32,
+        23.0
+      ],
+      "dart_media": {
+        "dialogo": 2.15,
+        "acesso": 2.3,
+        "risco": 2.43,
+        "transparencia": 2.22
+      },
+      "dart_forte_3mais": {
+        "dialogo": [
+          51,
+          36.7
+        ],
+        "acesso": [
+          67,
+          48.2
+        ],
+        "risco": [
+          75,
+          54.0
+        ],
+        "transparencia": [
+          65,
+          46.8
+        ]
+      },
+      "vc": {
+        "VC1": [
+          29,
+          20.9
+        ],
+        "VC2": [
+          14,
+          10.1
+        ],
+        "VC3": [
+          22,
+          15.8
+        ],
+        "VC4": [
+          74,
+          53.2
+        ]
+      },
+      "impacto_ativo": [
+        65,
+        46.8
+      ],
+      "cluster": {
+        "1": [
+          17,
+          12.2
+        ],
+        "2": [
+          23,
+          16.5
+        ],
+        "3": [
+          9,
+          6.5
+        ],
+        "4": [
+          40,
+          28.8
+        ],
+        "5": [
+          50,
+          36.0
+        ]
+      },
+      "ironia": {
+        "Sim": [
+          2,
+          1.4
+        ],
+        "Parcial": [
+          58,
+          41.7
+        ],
+        "Não": [
+          79,
+          56.8
+        ]
+      },
+      "jogo": {
+        "World of Warcraft": 70,
+        "EVE Online": 69
+      }
+    },
+    "EVE Online": {
+      "n": 69,
+      "ia_principal": {
+        "A1": [
+          11,
+          15.9
+        ],
+        "A2": [
+          1,
+          1.4
+        ],
+        "A3": [
+          0,
+          0.0
+        ],
+        "A4": [
+          10,
+          14.5
+        ],
+        "A5": [
+          47,
+          68.1
+        ],
+        "A6": [
+          0,
+          0.0
+        ]
+      },
+      "ia_presente": {
+        "A1": [
+          11,
+          15.9
+        ],
+        "A2": [
+          0,
+          0.0
+        ],
+        "A3": [
+          0,
+          0.0
+        ],
+        "A4": [
+          11,
+          15.9
+        ]
+      },
+      "algum_A1_A4": [
+        20,
+        29.0
+      ],
+      "algum_A2_A3": [
+        0,
+        0.0
+      ],
+      "interacao_principal": {
+        "I1": [
+          3,
+          4.3
+        ],
+        "I2": [
+          2,
+          2.9
+        ],
+        "I3": [
+          13,
+          18.8
+        ],
+        "I4": [
+          49,
+          71.0
+        ],
+        "I5": [
+          2,
+          2.9
+        ],
+        "I6": [
+          0,
+          0.0
+        ]
+      },
+      "interacao_presente": {
+        "I1": [
+          6,
+          8.7
+        ],
+        "I2": [
+          6,
+          8.7
+        ],
+        "I3": [
+          13,
+          18.8
+        ],
+        "I5": [
+          2,
+          2.9
+        ]
+      },
+      "alguma_interacao_direta": [
+        20,
+        29.0
+      ],
+      "dart_media": {
+        "dialogo": 2.2,
+        "acesso": 2.75,
+        "risco": 2.26,
+        "transparencia": 2.12
+      },
+      "dart_forte_3mais": {
+        "dialogo": [
+          26,
+          37.7
+        ],
+        "acesso": [
+          42,
+          60.9
+        ],
+        "risco": [
+          32,
+          46.4
+        ],
+        "transparencia": [
+          28,
+          40.6
+        ]
+      },
+      "vc": {
+        "VC1": [
+          23,
+          33.3
+        ],
+        "VC2": [
+          6,
+          8.7
+        ],
+        "VC3": [
+          7,
+          10.1
+        ],
+        "VC4": [
+          33,
+          47.8
+        ]
+      },
+      "impacto_ativo": [
+        36,
+        52.2
+      ],
+      "cluster": {
+        "1": [
+          16,
+          23.2
+        ],
+        "2": [
+          9,
+          13.0
+        ],
+        "3": [
+          0,
+          0.0
+        ],
+        "4": [
+          19,
+          27.5
+        ],
+        "5": [
+          25,
+          36.2
+        ]
+      },
+      "ironia": {
+        "Sim": [
+          0,
+          0.0
+        ],
+        "Parcial": [
+          29,
+          42.0
+        ],
+        "Não": [
+          40,
+          58.0
+        ]
+      },
+      "jogo": {
+        "EVE Online": 69
+      }
+    },
+    "World of Warcraft": {
+      "n": 70,
+      "ia_principal": {
+        "A1": [
+          3,
+          4.3
+        ],
+        "A2": [
+          0,
+          0.0
+        ],
+        "A3": [
+          0,
+          0.0
+        ],
+        "A4": [
+          9,
+          12.9
+        ],
+        "A5": [
+          58,
+          82.9
+        ],
+        "A6": [
+          0,
+          0.0
+        ]
+      },
+      "ia_presente": {
+        "A1": [
+          3,
+          4.3
+        ],
+        "A2": [
+          0,
+          0.0
+        ],
+        "A3": [
+          0,
+          0.0
+        ],
+        "A4": [
+          9,
+          12.9
+        ]
+      },
+      "algum_A1_A4": [
+        12,
+        17.1
+      ],
+      "algum_A2_A3": [
+        0,
+        0.0
+      ],
+      "interacao_principal": {
+        "I1": [
+          2,
+          2.9
+        ],
+        "I2": [
+          1,
+          1.4
+        ],
+        "I3": [
+          8,
+          11.4
+        ],
+        "I4": [
+          58,
+          82.9
+        ],
+        "I5": [
+          1,
+          1.4
+        ],
+        "I6": [
+          0,
+          0.0
+        ]
+      },
+      "interacao_presente": {
+        "I1": [
+          2,
+          2.9
+        ],
+        "I2": [
+          1,
+          1.4
+        ],
+        "I3": [
+          8,
+          11.4
+        ],
+        "I5": [
+          1,
+          1.4
+        ]
+      },
+      "alguma_interacao_direta": [
+        12,
+        17.1
+      ],
+      "dart_media": {
+        "dialogo": 2.1,
+        "acesso": 1.86,
+        "risco": 2.6,
+        "transparencia": 2.33
+      },
+      "dart_forte_3mais": {
+        "dialogo": [
+          25,
+          35.7
+        ],
+        "acesso": [
+          25,
+          35.7
+        ],
+        "risco": [
+          43,
+          61.4
+        ],
+        "transparencia": [
+          37,
+          52.9
+        ]
+      },
+      "vc": {
+        "VC1": [
+          6,
+          8.6
+        ],
+        "VC2": [
+          8,
+          11.4
+        ],
+        "VC3": [
+          15,
+          21.4
+        ],
+        "VC4": [
+          41,
+          58.6
+        ]
+      },
+      "impacto_ativo": [
+        29,
+        41.4
+      ],
+      "cluster": {
+        "1": [
+          1,
+          1.4
+        ],
+        "2": [
+          14,
+          20.0
+        ],
+        "3": [
+          9,
+          12.9
+        ],
+        "4": [
+          21,
+          30.0
+        ],
+        "5": [
+          25,
+          35.7
+        ]
+      },
+      "ironia": {
+        "Sim": [
+          2,
+          2.9
+        ],
+        "Parcial": [
+          29,
+          41.4
+        ],
+        "Não": [
+          39,
+          55.7
+        ]
+      },
+      "jogo": {
+        "World of Warcraft": 70
+      }
+    }
+  },
+  "por_cluster": {
+    "1": {
+      "n": 17,
+      "ia_principal": {
+        "A1": [
+          10,
+          58.8
+        ],
+        "A2": [
+          0,
+          0.0
+        ],
+        "A3": [
+          0,
+          0.0
+        ],
+        "A4": [
+          3,
+          17.6
+        ],
+        "A5": [
+          4,
+          23.5
+        ],
+        "A6": [
+          0,
+          0.0
+        ]
+      },
+      "ia_presente": {
+        "A1": [
+          10,
+          58.8
+        ],
+        "A2": [
+          0,
+          0.0
+        ],
+        "A3": [
+          0,
+          0.0
+        ],
+        "A4": [
+          4,
+          23.5
+        ]
+      },
+      "algum_A1_A4": [
+        12,
+        70.6
+      ],
+      "algum_A2_A3": [
+        0,
+        0.0
+      ],
+      "interacao_principal": {
+        "I1": [
+          4,
+          23.5
+        ],
+        "I2": [
+          1,
+          5.9
+        ],
+        "I3": [
+          5,
+          29.4
+        ],
+        "I4": [
+          5,
+          29.4
+        ],
+        "I5": [
+          2,
+          11.8
+        ],
+        "I6": [
+          0,
+          0.0
+        ]
+      },
+      "interacao_presente": {
+        "I1": [
+          6,
+          35.3
+        ],
+        "I2": [
+          4,
+          23.5
+        ],
+        "I3": [
+          5,
+          29.4
+        ],
+        "I5": [
+          2,
+          11.8
+        ]
+      },
+      "alguma_interacao_direta": [
+        12,
+        70.6
+      ],
+      "dart_media": {
+        "dialogo": 2.47,
+        "acesso": 4.12,
+        "risco": 1.82,
+        "transparencia": 2.47
+      },
+      "dart_forte_3mais": {
+        "dialogo": [
+          7,
+          41.2
+        ],
+        "acesso": [
+          17,
+          100.0
+        ],
+        "risco": [
+          6,
+          35.3
+        ],
+        "transparencia": [
+          9,
+          52.9
+        ]
+      },
+      "vc": {
+        "VC1": [
+          15,
+          88.2
+        ],
+        "VC2": [
+          0,
+          0.0
+        ],
+        "VC3": [
+          0,
+          0.0
+        ],
+        "VC4": [
+          2,
+          11.8
+        ]
+      },
+      "impacto_ativo": [
+        15,
+        88.2
+      ],
+      "cluster": {
+        "1": [
+          17,
+          100.0
+        ],
+        "2": [
+          0,
+          0.0
+        ],
+        "3": [
+          0,
+          0.0
+        ],
+        "4": [
+          0,
+          0.0
+        ],
+        "5": [
+          0,
+          0.0
+        ]
+      },
+      "ironia": {
+        "Sim": [
+          0,
+          0.0
+        ],
+        "Parcial": [
+          3,
+          17.6
+        ],
+        "Não": [
+          14,
+          82.4
+        ]
+      },
+      "jogo": {
+        "EVE Online": 16,
+        "World of Warcraft": 1
+      }
+    },
+    "2": {
+      "n": 23,
+      "ia_principal": {
+        "A1": [
+          0,
+          0.0
+        ],
+        "A2": [
+          1,
+          4.3
+        ],
+        "A3": [
+          0,
+          0.0
+        ],
+        "A4": [
+          0,
+          0.0
+        ],
+        "A5": [
+          22,
+          95.7
+        ],
+        "A6": [
+          0,
+          0.0
+        ]
+      },
+      "ia_presente": {
+        "A1": [
+          0,
+          0.0
+        ],
+        "A2": [
+          0,
+          0.0
+        ],
+        "A3": [
+          0,
+          0.0
+        ],
+        "A4": [
+          0,
+          0.0
+        ]
+      },
+      "algum_A1_A4": [
+        0,
+        0.0
+      ],
+      "algum_A2_A3": [
+        0,
+        0.0
+      ],
+      "interacao_principal": {
+        "I1": [
+          0,
+          0.0
+        ],
+        "I2": [
+          0,
+          0.0
+        ],
+        "I3": [
+          0,
+          0.0
+        ],
+        "I4": [
+          23,
+          100.0
+        ],
+        "I5": [
+          0,
+          0.0
+        ],
+        "I6": [
+          0,
+          0.0
+        ]
+      },
+      "interacao_presente": {
+        "I1": [
+          0,
+          0.0
+        ],
+        "I2": [
+          0,
+          0.0
+        ],
+        "I3": [
+          0,
+          0.0
+        ],
+        "I5": [
+          0,
+          0.0
+        ]
+      },
+      "alguma_interacao_direta": [
+        0,
+        0.0
+      ],
+      "dart_media": {
+        "dialogo": 1.52,
+        "acesso": 1.17,
+        "risco": 3.04,
+        "transparencia": 1.78
+      },
+      "dart_forte_3mais": {
+        "dialogo": [
+          3,
+          13.0
+        ],
+        "acesso": [
+          4,
+          17.4
+        ],
+        "risco": [
+          18,
+          78.3
+        ],
+        "transparencia": [
+          6,
+          26.1
+        ]
+      },
+      "vc": {
+        "VC1": [
+          0,
+          0.0
+        ],
+        "VC2": [
+          0,
+          0.0
+        ],
+        "VC3": [
+          10,
+          43.5
+        ],
+        "VC4": [
+          13,
+          56.5
+        ]
+      },
+      "impacto_ativo": [
+        10,
+        43.5
+      ],
+      "cluster": {
+        "1": [
+          0,
+          0.0
+        ],
+        "2": [
+          23,
+          100.0
+        ],
+        "3": [
+          0,
+          0.0
+        ],
+        "4": [
+          0,
+          0.0
+        ],
+        "5": [
+          0,
+          0.0
+        ]
+      },
+      "ironia": {
+        "Sim": [
+          1,
+          4.3
+        ],
+        "Parcial": [
+          7,
+          30.4
+        ],
+        "Não": [
+          15,
+          65.2
+        ]
+      },
+      "jogo": {
+        "World of Warcraft": 14,
+        "EVE Online": 9
+      }
+    },
+    "3": {
+      "n": 9,
+      "ia_principal": {
+        "A1": [
+          1,
+          11.1
+        ],
+        "A2": [
+          0,
+          0.0
+        ],
+        "A3": [
+          0,
+          0.0
+        ],
+        "A4": [
+          0,
+          0.0
+        ],
+        "A5": [
+          8,
+          88.9
+        ],
+        "A6": [
+          0,
+          0.0
+        ]
+      },
+      "ia_presente": {
+        "A1": [
+          1,
+          11.1
+        ],
+        "A2": [
+          0,
+          0.0
+        ],
+        "A3": [
+          0,
+          0.0
+        ],
+        "A4": [
+          0,
+          0.0
+        ]
+      },
+      "algum_A1_A4": [
+        1,
+        11.1
+      ],
+      "algum_A2_A3": [
+        0,
+        0.0
+      ],
+      "interacao_principal": {
+        "I1": [
+          0,
+          0.0
+        ],
+        "I2": [
+          1,
+          11.1
+        ],
+        "I3": [
+          0,
+          0.0
+        ],
+        "I4": [
+          8,
+          88.9
+        ],
+        "I5": [
+          0,
+          0.0
+        ],
+        "I6": [
+          0,
+          0.0
+        ]
+      },
+      "interacao_presente": {
+        "I1": [
+          0,
+          0.0
+        ],
+        "I2": [
+          1,
+          11.1
+        ],
+        "I3": [
+          0,
+          0.0
+        ],
+        "I5": [
+          0,
+          0.0
+        ]
+      },
+      "alguma_interacao_direta": [
+        1,
+        11.1
+      ],
+      "dart_media": {
+        "dialogo": 2,
+        "acesso": 0.89,
+        "risco": 2.56,
+        "transparencia": 2.89
+      },
+      "dart_forte_3mais": {
+        "dialogo": [
+          2,
+          22.2
+        ],
+        "acesso": [
+          0,
+          0.0
+        ],
+        "risco": [
+          5,
+          55.6
+        ],
+        "transparencia": [
+          6,
+          66.7
+        ]
+      },
+      "vc": {
+        "VC1": [
+          0,
+          0.0
+        ],
+        "VC2": [
+          0,
+          0.0
+        ],
+        "VC3": [
+          6,
+          66.7
+        ],
+        "VC4": [
+          3,
+          33.3
+        ]
+      },
+      "impacto_ativo": [
+        6,
+        66.7
+      ],
+      "cluster": {
+        "1": [
+          0,
+          0.0
+        ],
+        "2": [
+          0,
+          0.0
+        ],
+        "3": [
+          9,
+          100.0
+        ],
+        "4": [
+          0,
+          0.0
+        ],
+        "5": [
+          0,
+          0.0
+        ]
+      },
+      "ironia": {
+        "Sim": [
+          0,
+          0.0
+        ],
+        "Parcial": [
+          6,
+          66.7
+        ],
+        "Não": [
+          3,
+          33.3
+        ]
+      },
+      "jogo": {
+        "World of Warcraft": 9
+      }
+    },
+    "4": {
+      "n": 40,
+      "ia_principal": {
+        "A1": [
+          1,
+          2.5
+        ],
+        "A2": [
+          0,
+          0.0
+        ],
+        "A3": [
+          0,
+          0.0
+        ],
+        "A4": [
+          0,
+          0.0
+        ],
+        "A5": [
+          39,
+          97.5
+        ],
+        "A6": [
+          0,
+          0.0
+        ]
+      },
+      "ia_presente": {
+        "A1": [
+          1,
+          2.5
+        ],
+        "A2": [
+          0,
+          0.0
+        ],
+        "A3": [
+          0,
+          0.0
+        ],
+        "A4": [
+          0,
+          0.0
+        ]
+      },
+      "algum_A1_A4": [
+        1,
+        2.5
+      ],
+      "algum_A2_A3": [
+        0,
+        0.0
+      ],
+      "interacao_principal": {
+        "I1": [
+          0,
+          0.0
+        ],
+        "I2": [
+          0,
+          0.0
+        ],
+        "I3": [
+          1,
+          2.5
+        ],
+        "I4": [
+          39,
+          97.5
+        ],
+        "I5": [
+          0,
+          0.0
+        ],
+        "I6": [
+          0,
+          0.0
+        ]
+      },
+      "interacao_presente": {
+        "I1": [
+          1,
+          2.5
+        ],
+        "I2": [
+          1,
+          2.5
+        ],
+        "I3": [
+          1,
+          2.5
+        ],
+        "I5": [
+          0,
+          0.0
+        ]
+      },
+      "alguma_interacao_direta": [
+        1,
+        2.5
+      ],
+      "dart_media": {
+        "dialogo": 2.1,
+        "acesso": 1.93,
+        "risco": 2.42,
+        "transparencia": 2.1
+      },
+      "dart_forte_3mais": {
+        "dialogo": [
+          15,
+          37.5
+        ],
+        "acesso": [
+          13,
+          32.5
+        ],
+        "risco": [
+          24,
+          60.0
+        ],
+        "transparencia": [
+          16,
+          40.0
+        ]
+      },
+      "vc": {
+        "VC1": [
+          0,
+          0.0
+        ],
+        "VC2": [
+          3,
+          7.5
+        ],
+        "VC3": [
+          1,
+          2.5
+        ],
+        "VC4": [
+          36,
+          90.0
+        ]
+      },
+      "impacto_ativo": [
+        4,
+        10.0
+      ],
+      "cluster": {
+        "1": [
+          0,
+          0.0
+        ],
+        "2": [
+          0,
+          0.0
+        ],
+        "3": [
+          0,
+          0.0
+        ],
+        "4": [
+          40,
+          100.0
+        ],
+        "5": [
+          0,
+          0.0
+        ]
+      },
+      "ironia": {
+        "Sim": [
+          1,
+          2.5
+        ],
+        "Parcial": [
+          21,
+          52.5
+        ],
+        "Não": [
+          18,
+          45.0
+        ]
+      },
+      "jogo": {
+        "World of Warcraft": 21,
+        "EVE Online": 19
+      }
+    },
+    "5": {
+      "n": 50,
+      "ia_principal": {
+        "A1": [
+          2,
+          4.0
+        ],
+        "A2": [
+          0,
+          0.0
+        ],
+        "A3": [
+          0,
+          0.0
+        ],
+        "A4": [
+          16,
+          32.0
+        ],
+        "A5": [
+          32,
+          64.0
+        ],
+        "A6": [
+          0,
+          0.0
+        ]
+      },
+      "ia_presente": {
+        "A1": [
+          2,
+          4.0
+        ],
+        "A2": [
+          0,
+          0.0
+        ],
+        "A3": [
+          0,
+          0.0
+        ],
+        "A4": [
+          16,
+          32.0
+        ]
+      },
+      "algum_A1_A4": [
+        18,
+        36.0
+      ],
+      "algum_A2_A3": [
+        0,
+        0.0
+      ],
+      "interacao_principal": {
+        "I1": [
+          1,
+          2.0
+        ],
+        "I2": [
+          1,
+          2.0
+        ],
+        "I3": [
+          15,
+          30.0
+        ],
+        "I4": [
+          32,
+          64.0
+        ],
+        "I5": [
+          1,
+          2.0
+        ],
+        "I6": [
+          0,
+          0.0
+        ]
+      },
+      "interacao_presente": {
+        "I1": [
+          1,
+          2.0
+        ],
+        "I2": [
+          1,
+          2.0
+        ],
+        "I3": [
+          15,
+          30.0
+        ],
+        "I5": [
+          1,
+          2.0
+        ]
+      },
+      "alguma_interacao_direta": [
+        18,
+        36.0
+      ],
+      "dart_media": {
+        "dialogo": 2.4,
+        "acesso": 2.76,
+        "risco": 2.34,
+        "transparencia": 2.32
+      },
+      "dart_forte_3mais": {
+        "dialogo": [
+          24,
+          48.0
+        ],
+        "acesso": [
+          33,
+          66.0
+        ],
+        "risco": [
+          22,
+          44.0
+        ],
+        "transparencia": [
+          28,
+          56.0
+        ]
+      },
+      "vc": {
+        "VC1": [
+          14,
+          28.0
+        ],
+        "VC2": [
+          11,
+          22.0
+        ],
+        "VC3": [
+          5,
+          10.0
+        ],
+        "VC4": [
+          20,
+          40.0
+        ]
+      },
+      "impacto_ativo": [
+        30,
+        60.0
+      ],
+      "cluster": {
+        "1": [
+          0,
+          0.0
+        ],
+        "2": [
+          0,
+          0.0
+        ],
+        "3": [
+          0,
+          0.0
+        ],
+        "4": [
+          0,
+          0.0
+        ],
+        "5": [
+          50,
+          100.0
+        ]
+      },
+      "ironia": {
+        "Sim": [
+          0,
+          0.0
+        ],
+        "Parcial": [
+          21,
+          42.0
+        ],
+        "Não": [
+          29,
+          58.0
+        ]
+      },
+      "jogo": {
+        "World of Warcraft": 25,
+        "EVE Online": 25
+      }
+    }
+  },
+  "dart_por_vc": {
+    "VC1": {
+      "dialogo": 2.86,
+      "acesso": 3.97,
+      "risco": 1.86,
+      "transparencia": 2.45
+    },
+    "VC2": {
+      "dialogo": 2.14,
+      "acesso": 2.79,
+      "risco": 1.57,
+      "transparencia": 1.71
+    },
+    "VC3": {
+      "dialogo": 1.73,
+      "acesso": 1.27,
+      "risco": 2.68,
+      "transparencia": 2.36
+    },
+    "VC4": {
+      "dialogo": 2,
+      "acesso": 1.86,
+      "risco": 2.74,
+      "transparencia": 2.19
+    }
+  },
+  "ia_x_vc": {
+    "A5|VC4": 71,
+    "A4|VC1": 14,
+    "A5|VC3": 21,
+    "A5|VC2": 9,
+    "A4|VC2": 4,
+    "A1|VC1": 11,
+    "A5|VC1": 4,
+    "A1|VC3": 1,
+    "A4|VC4": 1,
+    "A2|VC4": 1,
+    "A1|VC2": 1,
+    "A1|VC4": 1
+  },
+  "qualidade": {
+    "vc_citacao_verbatim": 139,
+    "dart_citacoes_verbatim_falhadas": 1,
+    "confianca_vc": {
+      "3": 86,
+      "2": 53
+    },
+    "confianca_ia_dart": {
+      "3": 83,
+      "2": 56
+    },
+    "truncados": [
+      "510327"
+    ]
+  },
+  "exemplos_dart5": {
+    "dialogo": [
+      {
+        "topico": "510327",
+        "titulo": "EVE Crews: A lore-accurate* API-linked crew simulator",
+        "jogo": "EVE Online",
+        "post": "510327_2868896",
+        "citacao": "I’ll point the AI hive mind at the problem and see if we can get to the bottom of it."
+      },
+      {
+        "topico": "reddit_1pftbpi",
+        "titulo": "I fine tuned Aura to act as a real AI copilot",
+        "jogo": "EVE Online",
+        "post": "reddit_1pftbpi_1",
+        "citacao": "I also added text to speech and speech to text with a voice close to the in game Aura to allow natural conversation."
+      },
+      {
+        "topico": "reddit_1vy3jwo",
+        "titulo": "I created ChatGPT copilot for EVE",
+        "jogo": "EVE Online",
+        "post": "reddit_1vy3jwo_1",
+        "citacao": "whenever i talk with chatgpt while playing eve online it just act like my copilot and it has access to everything ESI capable of"
+      }
+    ],
+    "acesso": [
+      {
+        "topico": "502655",
+        "titulo": "Battlefield.Space - a narrative approach to killboards",
+        "jogo": "EVE Online",
+        "post": "502655_2811315",
+        "citacao": "instead of a pile of killmails, you get a brief that answers “what do I need to know about these people or this place before I undock into them?”"
+      },
+      {
+        "topico": "507123",
+        "titulo": "EVE ONE - Your all in one management portal",
+        "jogo": "EVE Online",
+        "post": "507123_2841853",
+        "citacao": "you can now have access to your EVE Mail, calendar and follow up with your skills or marketplace prices from everywhere at any time"
+      },
+      {
+        "topico": "510327",
+        "titulo": "EVE Crews: A lore-accurate* API-linked crew simulator",
+        "jogo": "EVE Online",
+        "post": "510327_2866108",
+        "citacao": "After years of writing about it, the AI-assisted coding era finally gave me a way to build it - so here’s EVE Crews."
+      },
+      {
+        "topico": "513384",
+        "titulo": "Eve-mentor-mcp — open-source MCP server that turns Claude into a new-player mentor",
+        "jogo": "EVE Online",
+        "post": "513384_2889848",
+        "citacao": "26 tools so far: Loss analysis with full fit detail... Recursive skill-prerequisite planning... Whole-fit readiness from a pasted EFT fit"
+      },
+      {
+        "topico": "516433",
+        "titulo": "EVE MCP Server — quering ESI from Claude, Copilot and other AI assistants",
+        "jogo": "EVE Online",
+        "post": "516433_2913324",
+        "citacao": "EVE MCP Server is an open-source Model Context Protocol server exposing EVE’s public ESI endpoints as tools an AI assistant can call directly."
+      },
+      {
+        "topico": "reddit_1pftbpi",
+        "titulo": "I fine tuned Aura to act as a real AI copilot",
+        "jogo": "EVE Online",
+        "post": "reddit_1pftbpi_1",
+        "citacao": "Aura can now perform a surprising number of practical tasks quite well. These are some examples: \"Suggest a similar module for this slot that costs less than 5 million ISK.\""
+      },
+      {
+        "topico": "reddit_1sq7b1r",
+        "titulo": "Eve Market Scout (LLM coded project)",
+        "jogo": "EVE Online",
+        "post": "reddit_1sq7b1r_2",
+        "citacao": "Basically it’s a locally ran market tool that does the same function as Eve Guru but doesn’t cost a subscription. Produces deals to make isk."
+      },
+      {
+        "topico": "reddit_1vy3jwo",
+        "titulo": "I created ChatGPT copilot for EVE",
+        "jogo": "EVE Online",
+        "post": "reddit_1vy3jwo_1",
+        "citacao": "It turns your ChatGPT into your EVE copilot. Basically its some sort of agent harness with collection of: MCP (Allow chatgpt to use ESI)"
+      }
+    ],
+    "risco": [
+      {
+        "topico": "503747",
+        "titulo": "AI and the effect on Economy/Society",
+        "jogo": "EVE Online",
+        "post": "503747_2818750",
+        "citacao": "Also we are looking at massive job loss directly due to AI and it’s ability to perform lots of tasks, economies are already bad (like France and USA) and the effect of AI on top of the usual economic problems might be quite bad."
+      }
+    ],
+    "transparencia": []
+  },
+  "exemplos_vc": {
+    "VC1": [
+      {
+        "topico": "1tyovbz",
+        "titulo": "Evekillcom Fits Battles And Touching Grass",
+        "jogo": "EVE Online",
+        "cluster": 5,
+        "ia": "A4",
+        "interacao": "I3",
+        "dart": [
+          3,
+          2,
+          2,
+          4
+        ],
+        "post": "1tyovbz_8",
+        "citacao": "The way I've been using it is on a tight leash, the code that matters i build myself, the code that doesn't matter that much is AI generated and then reviewed, tested and adjusted",
+        "justificacao": "O tópico relata cocriação efetiva: o autor usou IA (Claude) para gerar componentes de frontend e código auxiliar, que foram revistos, testados e integrados no EVE-KILL, uma ferramenta funcional e partilhada com a comunidade. Vários utilizadores confirmam o valor tangível das novas funcionalidades (fit search, battle view). A discussão secundária sobre ética da IA é reflexiva, mas não constitui uma segunda dinâmica de valor concreta."
+      },
+      {
+        "topico": "1udu43k",
+        "titulo": "Eve Chat Translator Tool For Multilingual",
+        "jogo": "EVE Online",
+        "cluster": 5,
+        "ia": "A1",
+        "interacao": "I2",
+        "dart": [
+          3,
+          4,
+          2,
+          3
+        ],
+        "post": "1udu43k_op",
+        "citacao": "I've been working on a small tool that I believe could make life in EVE a bit easier",
+        "justificacao": "O autor desenvolveu e partilhou uma ferramenta funcional de tradução com IA (ENLE AI) para EVE Online, com atualizações e correções de bugs. Um utilizador confirma que a usaria para PvP, evidenciando cocriação efetiva de valor. O cluster é 5 pois o jogador usa LLM externo sem API do jogo."
+      },
+      {
+        "topico": "2138224",
+        "titulo": "Open Source MCP Server for interfacing with Blizzard API",
+        "jogo": "World of Warcraft",
+        "cluster": 1,
+        "ia": "A1",
+        "interacao": "I1",
+        "dart": [
+          2,
+          4,
+          1,
+          3
+        ],
+        "post": "2138224_27354342",
+        "citacao": "I’ve published a new open-source project: mcp_wowconomics_server. It’s a research-grade Model Context Protocol (MCP) server for analyzing the World of Warcraft economy using live Auction House data",
+        "justificacao": "O tópico apresenta uma ferramenta MCP funcional e publicada que usa dados vivos da API da Blizzard para análise económica. O autor descreve funcionalidades concretas e disponibiliza o código, configurando cocriação efetiva de valor (VC1). O segundo post é uma reação humorística, sem dinâmica de valor adicional."
+      },
+      {
+        "topico": "497087",
+        "titulo": "Eve Online ESI MCP Tool",
+        "jogo": "EVE Online",
+        "cluster": 1,
+        "ia": "A4",
+        "interacao": "I4",
+        "dart": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "post": "497087_2771352",
+        "citacao": "I have created an Model Content Protocol (MCP) tool for the Eve Swagger Interface API.",
+        "justificacao": "O autor partilha uma ferramenta MCP funcional que liga LLMs à API ESI de EVE Online, permitindo ações autenticadas sem inserção manual. É um artefacto concreto e verificável, disponibilizado à comunidade, configurando cocriação efetiva de valor entre jogador e IA."
+      },
+      {
+        "topico": "498018",
+        "titulo": "Showcasing use of modern tech/AI for intelligence in EVE Online",
+        "jogo": "EVE Online",
+        "cluster": 1,
+        "ia": "A1",
+        "interacao": "I5",
+        "dart": [
+          0,
+          4,
+          0,
+          2
+        ],
+        "post": "498018_2777110",
+        "citacao": "The App: [URL_ANONYMIZED] is an automated tool that watches and analyses activity in the Everyshore region, building advisories and character profiles.",
+        "justificacao": "O autor relata ter construído e publicado uma ferramenta funcional que usa a API do EVE, n8n, grafos e LLMs para gerar análises e perfis. O benefício é tangível e partilhado com a comunidade, configurando cocriação efetiva de valor."
+      },
+      {
+        "topico": "500312",
+        "titulo": "My favorite battleship: Vindicator",
+        "jogo": "EVE Online",
+        "cluster": 5,
+        "ia": "A4",
+        "interacao": "I3",
+        "dart": [
+          3,
+          4,
+          3,
+          2
+        ],
+        "post": "500312_2794004",
+        "citacao": "I just copied his post into ChatGPT, told it to turn it into music, changed the most obviously bad lines a little, and ran it through Suno5.",
+        "justificacao": "O tópico relata cocriação efetiva: o autor usou ChatGPT e Suno5 para gerar uma música e uma imagem a partir do post de outro jogador, produzindo um vídeo partilhado. O resultado é tangível e verificável. Há também debate reflexivo sobre o valor da arte gerada por IA, incluindo ironia no post 500312_2794186."
+      },
+      {
+        "topico": "502655",
+        "titulo": "Battlefield.Space - a narrative approach to killboards",
+        "jogo": "EVE Online",
+        "cluster": 1,
+        "ia": "A1",
+        "interacao": "I5",
+        "dart": [
+          1,
+          5,
+          2,
+          4
+        ],
+        "post": "502655_2811315",
+        "citacao": "It generates narrative intel dossiers for characters, corporations, alliances, and systems based on killboard/SDE/ESI data, then runs that through LLMs to turn it into something a human can actually read and act on.",
+        "justificacao": "O tópico documenta a criação e evolução de uma ferramenta funcional (battlefield.space) que integra dados de API do EVE (ESI/SDE/killboards) com LLMs para gerar relatórios de inteligência. O autor relata melhorias concretas e disponibiliza o serviço à comunidade, evidenciando cocriação efetiva de valor entre jogador e IA."
+      },
+      {
+        "topico": "506398",
+        "titulo": "OpenClaw Skill: EVE ESI Integration for Account Management – Open Source",
+        "jogo": "EVE Online",
+        "cluster": 1,
+        "ia": "A1",
+        "interacao": "I1",
+        "dart": [
+          2,
+          4,
+          1,
+          2
+        ],
+        "post": "506398_2837103",
+        "citacao": "I’ve just released my first custom skill for OpenClaw: An integration with the EVE Online ESI API for easy character management.",
+        "justificacao": "O autor partilha uma ferramenta funcional e open-source que integra a IA (OpenClaw) com a API ESI do EVE Online, permitindo gestão de personagem. O benefício é tangível e verificável através do repositório GitHub e guias de configuração, configurando cocriação efetiva de valor entre o jogador e a IA."
+      },
+      {
+        "topico": "507123",
+        "titulo": "EVE ONE - Your all in one management portal",
+        "jogo": "EVE Online",
+        "cluster": 1,
+        "ia": "A1",
+        "interacao": "I3",
+        "dart": [
+          4,
+          5,
+          3,
+          3
+        ],
+        "post": "507123_2842763",
+        "citacao": "Meet your new buddy, BOB The builder, an advanced AI with full knowledge of your character for better situation awareness, better recommendation and optimized fit based on your needs.",
+        "justificacao": "O tópico documenta o desenvolvimento e lançamento de uma ferramenta concreta (EVE ONE) que integra IA (Aura, BOB) com APIs do jogo para gestão de personagens, fittings e intel. O resultado é verificável: app funcional, changelogs, feedback positivo de utilizadores e resolução de bugs. A cocriação de valor é efetiva, não apenas potencial."
+      },
+      {
+        "topico": "510327",
+        "titulo": "EVE Crews: A lore-accurate* API-linked crew simulator",
+        "jogo": "EVE Online",
+        "cluster": 5,
+        "ia": "A4",
+        "interacao": "I3",
+        "dart": [
+          5,
+          5,
+          3,
+          4
+        ],
+        "post": "510327_2866108",
+        "citacao": "After years of writing about it, the AI-assisted coding era finally gave me a way to build it - so here’s EVE Crews.",
+        "justificacao": "O tópico documenta a criação e o desenvolvimento contínuo de uma ferramenta funcional (EVE Crews) pelo autor, usando assistência de IA (vibe-coding). O benefício é tangível: uma aplicação partilhada, testada e iterada com feedback de outros jogadores, que gera valor concreto para a comunidade. A dinâmica dominante é a cocriação efetiva entre o criador e a IA."
+      },
+      {
+        "topico": "513384",
+        "titulo": "Eve-mentor-mcp — open-source MCP server that turns Claude into a new-player mentor",
+        "jogo": "EVE Online",
+        "cluster": 1,
+        "ia": "A1",
+        "interacao": "I1",
+        "dart": [
+          4,
+          5,
+          1,
+          3
+        ],
+        "post": "513384_2889848",
+        "citacao": "I’ve released eve-mentor-mcp, an MIT-licensed MCP server aimed at the new-player and returning-player learning problem rather than at veterans. It gives Claude (or any MCP client) live EVE data with judgment baked in.",
+        "justificacao": "O autor partilha uma ferramenta MCP funcional e open-source que integra dados vivos do EVE via ESI com um LLM, oferecendo 26 ferramentas concretas para mentoria de novos jogadores. O benefício é tangível e verificável, e a comunidade responde com agradecimento, confirmando a cocriação efetiva de valor."
+      },
+      {
+        "topico": "516054",
+        "titulo": "MOP - Market Opportunity Planner - MAOR AI SLOP :D",
+        "jogo": "EVE Online",
+        "cluster": 5,
+        "ia": "A4",
+        "interacao": "I3",
+        "dart": [
+          4,
+          4,
+          1,
+          3
+        ],
+        "post": "516054_2920647",
+        "citacao": "v2.4.1 is released. This was a quick hotfix ontop of v2.4.0 which brought about sales tracking and profit distribution with a versioned policy manager.",
+        "justificacao": "O autor relata o desenvolvimento e lançamento de uma ferramenta funcional (MOP) criada com assistência de LLMs, incluindo funcionalidades testadas com a sua corporação e uma versão lançada com tracking de vendas e distribuição de lucros. Isto constitui um benefício tangível e verificável, enquadrando-se em VC1. O cluster 5 reflete o uso de LLMs como copilotos de código sem API direta ao jogo."
+      },
+      {
+        "topico": "516433",
+        "titulo": "EVE MCP Server — quering ESI from Claude, Copilot and other AI assistants",
+        "jogo": "EVE Online",
+        "cluster": 1,
+        "ia": "A1",
+        "interacao": "I1",
+        "dart": [
+          3,
+          5,
+          2,
+          3
+        ],
+        "post": "516433_2913324",
+        "citacao": "EVE MCP Server is an open-source Model Context Protocol server exposing EVE’s public ESI endpoints as tools an AI assistant can call directly.",
+        "justificacao": "O tópico apresenta uma ferramenta funcional e open-source que permite a cocriação efetiva de valor: o jogador desenvolveu um servidor MCP que liga LLMs à API ESI do EVE, resolvendo o problema de alucinações e disponibilizando 52 ferramentas concretas. O benefício é tangível e partilhado com a comunidade."
+      },
+      {
+        "topico": "516921",
+        "titulo": "Slipway — a free industry planner: what to build, where to build it, where to sell it",
+        "jogo": "EVE Online",
+        "cluster": 5,
+        "ia": "A4",
+        "interacao": "I3",
+        "dart": [
+          4,
+          3,
+          3,
+          3
+        ],
+        "post": "516921_2921797",
+        "citacao": "I’ve corrected the formula, verified the MTU example against the in-game job quote, and added a regression check so this calculation cannot quietly return.",
+        "justificacao": "O tópico relata cocriação efetiva: o autor usou IA para desenvolver a ferramenta Slipway, e a crítica de outro jogador levou à correção de bugs e melhoria do produto. O benefício é tangível (ferramenta corrigida e melhorada). A ironia aparece no tom sarcástico do crítico, mas o resultado final é de valor real."
+      },
+      {
+        "topico": "reddit_1phwb0r",
+        "titulo": "A narrative Killboard / AI based Intel - battlefield.space",
+        "jogo": "EVE Online",
+        "cluster": 1,
+        "ia": "A1",
+        "interacao": "I2",
+        "dart": [
+          1,
+          4,
+          2,
+          3
+        ],
+        "post": "reddit_1phwb0r_op",
+        "citacao": "I built battlefield.space , a site that turns Killboard/ESI/SDE data into narrative intel dossiers for characters, corps, alliances, and systems",
+        "justificacao": "O autor criou e partilhou uma ferramenta funcional que usa LLMs para gerar dossiers de inteligência a partir de dados ESI/killboard, um benefício tangível e verificável (VC1). Vários comentários relatam perda de valor: custo de 10M ISK, informação menos precisa e mais lenta que zkill, configurando codestruição de valor (VC3)."
+      },
+      {
+        "topico": "reddit_1r3mzvw",
+        "titulo": "I built KillReport — Modern killmail tracker for EVE Online",
+        "jogo": "EVE Online",
+        "cluster": 1,
+        "ia": "A5",
+        "interacao": "I4",
+        "dart": [
+          2,
+          3,
+          0,
+          1
+        ],
+        "post": "reddit_1r3mzvw_1",
+        "citacao": "I built killreport.com — Modern killmail tracker and more for EVE Online",
+        "justificacao": "O autor criou e lançou uma ferramenta funcional (killreport.com) que usa APIs do EVE (ESI, RedisQ) para tracking de killmails, partilhando-a com a comunidade e incorporando feedback. Há cocriação efetiva de valor: um produto tangível e operacional, não apenas intenção. A menção a IA para gerar histórias é secundária e especulativa, não altera a dinâmica principal."
+      },
+      {
+        "topico": "reddit_1spdcd4",
+        "titulo": "EVE-KILL.com - We LLM now (And more..)",
+        "jogo": "EVE Online",
+        "cluster": 1,
+        "ia": "A5",
+        "interacao": "I4",
+        "dart": [
+          2,
+          3,
+          2,
+          2
+        ],
+        "post": "reddit_1spdcd4_op",
+        "citacao": "There is an entirely new MCP endpoint that you can connect Claude, ChatGPT and so forth to.",
+        "justificacao": "O tópico anuncia uma nova API MCP que permite a LLMs acederem diretamente aos dados do EVE-KILL. O criador relata um benefício concreto: reduzir a carga no servidor causada por ferramentas de IA que já acediam ao site. A cocriação é efetiva porque a funcionalidade foi implementada e partilhada, com resultados verificáveis."
+      },
+      {
+        "topico": "reddit_1sq7b1r",
+        "titulo": "Eve Market Scout (LLM coded project)",
+        "jogo": "EVE Online",
+        "cluster": 1,
+        "ia": "A4",
+        "interacao": "I3",
+        "dart": [
+          4,
+          5,
+          3,
+          4
+        ],
+        "post": "reddit_1sq7b1r_op",
+        "citacao": "This project has taken nearly 3 months to produce with Claude pro account. Well over 200 separate discussions and coding with over 100 versions to produce this.",
+        "justificacao": "O autor relata um produto funcional (Eve Market Scout) criado com assistência de um LLM (Claude), com integração ESI e pronto para alpha testing. Há benefício tangível e verificável: uma ferramenta de mercado funcional, partilhada com a comunidade. A cocriação é efetiva, não apenas intencional."
+      },
+      {
+        "topico": "reddit_1v3v2p2",
+        "titulo": "Claude Code Success",
+        "jogo": "World of Warcraft",
+        "cluster": 5,
+        "ia": "A4",
+        "interacao": "I3",
+        "dart": [
+          4,
+          4,
+          2,
+          1
+        ],
+        "post": "reddit_1v3v2p2_1",
+        "citacao": "It worked for atlaslootclassic, going to test others next.",
+        "justificacao": "O autor relata um resultado concreto: usou Claude Code para corrigir o addon AtlasLootClassic após uma atualização quebrar APIs, e funcionou. É cocriação efetiva de valor (VC1) com um LLM externo como copiloto de código, sem API do jogo (cluster 5). Os restantes posts são críticas reflexivas à IA, sem episódio concreto de valor ou dano."
+      },
+      {
+        "topico": "reddit_1vdomcq",
+        "titulo": "How many people are using AI to build tools to improve trading and industry profits?",
+        "jogo": "EVE Online",
+        "cluster": 1,
+        "ia": "A4",
+        "interacao": "I3",
+        "dart": [
+          3,
+          4,
+          2,
+          2
+        ],
+        "post": "reddit_1vdomcq_1",
+        "citacao": "I have been using a market tool I built with Claude Code on top of the ESI... every order is placed and updated by hand. It just pulls market data and ranks opportunities",
+        "justificacao": "O tópico relata cocriação efetiva: o autor construiu uma ferramenta com Claude Code sobre a ESI e obteve lucro concreto (80M para 1.5B em 6 semanas). Outros posts confirmam uso semelhante. Há também debate reflexivo sobre custos e ética da IA, mas o núcleo é o resultado tangível."
+      },
+      {
+        "topico": "reddit_1vy3jwo",
+        "titulo": "I created ChatGPT copilot for EVE",
+        "jogo": "EVE Online",
+        "cluster": 1,
+        "ia": "A1",
+        "interacao": "I3",
+        "dart": [
+          5,
+          5,
+          3,
+          3
+        ],
+        "post": "reddit_1vy3jwo_1",
+        "citacao": "I created this in weekend and i am actively using it. And it actually helps me lot.",
+        "justificacao": "O autor relata ter criado e estar a usar ativamente um copiloto de ChatGPT com acesso à ESI via MCP, afirmando que o ajuda muito a compreender o jogo. É um benefício tangível e verificado pelo próprio, partilhado com a comunidade, configurando cocriação efetiva de valor."
+      }
+    ],
+    "VC3": [
+      {
+        "topico": "1gebstj",
+        "titulo": "My Name Is Not Joshua And This Is Peak Chatgpt",
+        "jogo": "World of Warcraft",
+        "cluster": 3,
+        "ia": "A5",
+        "interacao": "I4",
+        "dart": [
+          3,
+          2,
+          4,
+          4
+        ],
+        "post": "1gebstj_16",
+        "citacao": "3 times, 3 different GM's gave me the same chat GPT response with an excerpt from the FAQ without reading my problem.",
+        "justificacao": "O tópico relata danos concretos causados por suporte automatizado: respostas inúteis, erros de identidade, banimentos injustos e perda de acesso. Vários utilizadores descrevem problemas não resolvidos e frustração real, configurando codestruição de valor. A ironia está presente em alguns comentários, mas o núcleo é uma queixa literal sobre a degradação do serviço."
+      },
+      {
+        "topico": "1ofu78l",
+        "titulo": "Stuck In Nullsec",
+        "jogo": "EVE Online",
+        "cluster": 5,
+        "ia": "A5",
+        "interacao": "I4",
+        "dart": [
+          1,
+          1,
+          2,
+          1
+        ],
+        "post": "1ofu78l_op",
+        "citacao": "A 5 player fleet asked me to join and warp to them but I declined(because ChatGPT told me it was not safe 😭)",
+        "justificacao": "O jogador ficou preso num wormhole e recusou ajuda de outros jogadores porque o ChatGPT o aconselhou mal, causando perda de oportunidade e prolongando o problema. A comunidade critica diretamente o conselho da IA, evidenciando codestruição de valor por desconfiança induzida e dano prático à experiência do jogador."
+      },
+      {
+        "topico": "2101219",
+        "titulo": "Blizzard’s Algorithmic Absurdity: Is a ChatGPT Clone Policing Alterac Valley?",
+        "jogo": "World of Warcraft",
+        "cluster": 2,
+        "ia": "A5",
+        "interacao": "I4",
+        "dart": [
+          2,
+          0,
+          3,
+          4
+        ],
+        "post": "2101219_26825118",
+        "citacao": "Blizzard’s auto-ban algo in Alterac Valley is a pathetic excuse for moderation, gleefully smacking World of Warcraft players for the audacity of PvP in a PvP battleground.",
+        "justificacao": "O tópico relata dano concreto (suspensões injustas) atribuído a um sistema algorítmico de moderação, configurando codestruição de valor. A discussão centra-se na integridade competitiva e na deteção algorítmica de não-participação em AV. A ironia está presente no título e em alguns comentários, mas o relato central é literal."
+      },
+      {
+        "topico": "2116712",
+        "titulo": "Another layer of cheating, Pixel bots are out of control",
+        "jogo": "World of Warcraft",
+        "cluster": 2,
+        "ia": "A5",
+        "interacao": "I4",
+        "dart": [
+          1,
+          2,
+          4,
+          2
+        ],
+        "post": "2116712_27042848",
+        "citacao": "Pixel bots are, and have been a thing for well over a decade at this point. Only now, it’s easier than ever to make.",
+        "justificacao": "O tópico relata dano concreto à integridade competitiva: bots de pixels criados com ajuda de ChatGPT para automatizar reações (kicks, fades) em PvP, tornando jogadores 'impossíveis de kickar'. Há perda de confiança e injustiça percebida, configurando codestruição de valor. A discussão deriva para offtopic, mas o núcleo é claro."
+      },
+      {
+        "topico": "2147065",
+        "titulo": "No Customer Service anymore?!",
+        "jogo": "World of Warcraft",
+        "cluster": 3,
+        "ia": "A5",
+        "interacao": "I4",
+        "dart": [
+          3,
+          2,
+          3,
+          4
+        ],
+        "post": "2147065_27455881",
+        "citacao": "The third ticket told me to turn off/on filters so I can see the items properly. Worthless. lmao.",
+        "justificacao": "O tópico relata danos concretos: jogadores descrevem tickets não resolvidos, respostas automáticas inúteis e perda de confiança no suporte. O post âncora exemplifica codestruição de valor com um problema real (itens bloqueados) e respostas repetitivas que não resolvem. A ironia aparece no post sarcástico que imita uma resposta de IA, mas o dano relatado é literal."
+      },
+      {
+        "topico": "2152188",
+        "titulo": "[MoP] bug with cat pets. ChatGPT GM",
+        "jogo": "World of Warcraft",
+        "cluster": 3,
+        "ia": "A1",
+        "interacao": "I2",
+        "dart": [
+          2,
+          1,
+          2,
+          4
+        ],
+        "post": "2152188_27512171",
+        "citacao": "The GM’s post was riddled with M-Dashes (These — things) and even weirder was a multiple links that lead to nowhere and forum topics that don’t exist.",
+        "justificacao": "O jogador relata uma perda concreta: teve de abandonar o seu pet e domar outro para restaurar a funcionalidade, após receber respostas automáticas inúteis de um suporte alegadamente baseado em ChatGPT. A quebra de confiança no suporte e o dano ao progresso do jogador configuram codestruição de valor."
+      },
+      {
+        "topico": "2180159",
+        "titulo": "The 'Obtain the Fangs of Ashamane' quest is stuck",
+        "jogo": "World of Warcraft",
+        "cluster": 3,
+        "ia": "A5",
+        "interacao": "I4",
+        "dart": [
+          2,
+          0,
+          3,
+          3
+        ],
+        "post": "2180159_27921755",
+        "citacao": "I submitted a ticket outlining the issue and got a BS AI-auto response.",
+        "justificacao": "O tópico relata dano concreto: jogadores presos numa quest, com progresso bloqueado e personagens 'bricked'. A interação com o suporte automatizado (respostas de IA) agrava a frustração, sem resolver o problema. A queixa central é a falha do sistema de suporte e a perda de acesso a conteúdo, configurando codestruição de valor."
+      },
+      {
+        "topico": "2344742",
+        "titulo": "Mining Sucks",
+        "jogo": "World of Warcraft",
+        "cluster": 2,
+        "ia": "A5",
+        "interacao": "I4",
+        "dart": [
+          2,
+          0,
+          4,
+          1
+        ],
+        "post": "2344742_29985695",
+        "citacao": "you can’t compete with a bot. They’ve already gone past the finish line because humans need breaks and can’t always get to it quick enough.",
+        "justificacao": "O tópico centra-se na destruição de valor causada por bots de mineração: escassez de nós, economia distorcida e frustração do jogador humano. O autor relata dano concreto (incapacidade de progredir na profissão, AH sobrevalorizado) e propõe soluções contra a automação. As respostas são maioritariamente sarcásticas ou dão dicas manuais, sem cocriação com IA."
+      },
+      {
+        "topico": "reddit_1ql5f05",
+        "titulo": "The start of the vibecoded addon wars",
+        "jogo": "World of Warcraft",
+        "cluster": 5,
+        "ia": "A5",
+        "interacao": "I4",
+        "dart": [
+          2,
+          3,
+          4,
+          3
+        ],
+        "post": "reddit_1ql5f05_93",
+        "citacao": "Quazii is greyzoning the [expletive] out of the addons not allowed to be paywalled rule Edit: Luckyone (ElvUi Person) just tweeted quazii stole their code and sells it now.",
+        "justificacao": "O tópico relata danos concretos: acusações de plágio de código, venda de addons roubados e quebra de confiança na comunidade, com consequências como a saída de Quazii e investigações de copyright. A dinâmica dominante é a codestruição de valor, pois a interação com IA (vibe-coding) e a monetização indevida geram perdas e conflitos verificáveis."
+      }
+    ]
+  },
+  "topicos_A6_excluidos": [
+    {
+      "topico": "1s9et4k",
+      "titulo": "Im A Silly Goose And I Always Forget About",
+      "jogo": "World of Warcraft",
+      "vc": "VC3",
+      "justificacao": "O tópico discute exclusivamente um bug do companheiro NPC Valeera em World of Warcraft (reset semanal de talentos/curios, scaling inconsistente). Não há qualquer menção a inteligência artificial, agentes autónomos, bots, scripts ou sistemas de IA. Toda a discussão é sobre mecânicas de jogo e comportamento de um NPC controlado pelo jogo, sem relação com IA."
+    },
+    {
+      "topico": "1upzjbr",
+      "titulo": "Eve Vanguard Playtest Is Live What Are Your",
+      "jogo": "EVE Online",
+      "vc": "VC4",
+      "justificacao": "O tópico discute o playtest de EVE Vanguard, focando-se em críticas à jogabilidade, gráficos, bugs e decisões de desenvolvimento. A única menção a IA refere-se à qualidade dos NPCs ('the AI is the worst I have seen'), sem descrever qualquer interação com um agente de IA ou episódio concreto de uso de IA. Não há evidência de sistemas de IA autónomos, bots ou assistentes."
+    },
+    {
+      "topico": "1w4y0sn",
+      "titulo": "I Tried Playing With One Account",
+      "jogo": "EVE Online",
+      "vc": "VC4",
+      "justificacao": "O tópico discute multiboxing, PvP e a experiência de jogar com uma única conta em EVE Online. Não há qualquer menção a inteligência artificial, bots, scripts ou agentes autónomos. O conteúdo é irrelevante para a codificação de IA, resultando em A6 e I6."
+    },
+    {
+      "topico": "2323925",
+      "titulo": "Can i get \"hacking\" ban for using an addon",
+      "jogo": "World of Warcraft",
+      "vc": "VC1",
+      "justificacao": "O tópico discute a legitimidade de um addon de pesca no WoW, focando-se em regras de automação e macros. Não há qualquer menção a inteligência artificial, agentes de IA, bots baseados em IA ou interação com sistemas de IA. O conteúdo é sobre automação determinística e políticas de jogo, sendo irrelevante para a codificação de IA."
+    },
+    {
+      "topico": "453504",
+      "titulo": "How to Increase eve’s player count and create value for existing PVP players and eventually everyone else",
+      "jogo": "EVE Online",
+      "vc": "VC4",
+      "justificacao": "O tópico discute exclusivamente blockchain, NFTs e criptomoedas em EVE Online. A única menção a IA é uma referência passageira de um utilizador a 'AI' como algo igualmente absurdo para jogos, sem qualquer descrição de agente de IA, interação ou episódio concreto. Não há evidência de uso real de IA."
+    },
+    {
+      "topico": "456743",
+      "titulo": "A new way to teach players",
+      "jogo": "EVE Online",
+      "vc": "VC4",
+      "justificacao": "O tópico discute uma proposta de copiloto para ensinar jogadores e o encerramento do servidor de teste, sem qualquer menção a inteligência artificial, bots, scripts ou automação. Não há episódios concretos de interação com IA, apenas debate entre humanos sobre mecânicas de jogo e ferramentas de streaming."
+    },
+    {
+      "topico": "481937",
+      "titulo": "A win for bots?",
+      "jogo": "EVE Online",
+      "vc": "VC4",
+      "justificacao": "O tópico discute compressão de minério em EVE Online e menciona 'bots' apenas como automação genérica, sem evidência de IA ou autonomia. Não há episódio concreto de interação com agente de IA, nem discussão sobre IA. O termo 'bots' refere-se a scripts de mineração, não a sistemas de IA."
+    },
+    {
+      "topico": "495219",
+      "titulo": "WTB discord bot that pings me when a contract is accepted",
+      "jogo": "EVE Online",
+      "vc": "VC2",
+      "justificacao": "O tópico discute a criação de um bot para Discord que notifica sobre contratos em EVE Online, mas não há qualquer menção a inteligência artificial. Trata-se de automação convencional baseada em ESI, sem evidência de IA, autonomia cognitiva ou interação com agentes inteligentes. Portanto, é irrelevante para a análise de IA."
+    },
+    {
+      "topico": "509843",
+      "titulo": "Introducing Exordium!",
+      "jogo": "EVE Online",
+      "vc": "VC4",
+      "justificacao": "O tópico discute exclusivamente a nova região Exordium de EVE Online, focando-se em mecânicas de segurança, PvP, economia e logística. Não há qualquer menção a inteligência artificial, bots, scripts ou agentes autónomos em nenhum dos 47 posts. O conteúdo é totalmente irrelevante para a codificação de IA."
+    },
+    {
+      "topico": "510142",
+      "titulo": "Nerf AFK moon mining",
+      "jogo": "EVE Online",
+      "vc": "VC4",
+      "justificacao": "O tópico discute AFK mining e botting em EVE Online, mas não há evidência de uso de IA. A única menção a IA é 'ChatGPT just regurgiates what people on this forum say', que é uma referência genérica a um LLM, sem descrever interação real com agente de IA. O restante do debate é sobre mecânicas de jogo, economia e propostas de mudança, sem relação com IA."
+    },
+    {
+      "topico": "515483",
+      "titulo": "[Tool] PEARL – Escalation Management, Intel Map and Multibox Tools",
+      "jogo": "EVE Online",
+      "vc": "VC1",
+      "justificacao": "O tópico descreve uma ferramenta de software (PEARL) para gestão de escalations, mapas e multibox em EVE Online. Não há qualquer menção a inteligência artificial, agentes de IA, bots ou automação baseada em IA. O conteúdo é irrelevante para a codificação de IA."
+    },
+    {
+      "topico": "764058062403225972",
+      "titulo": "Is multi accounts at the same time meta in this game?",
+      "jogo": "EVE Online",
+      "vc": "VC4",
+      "justificacao": "O tópico discute exclusivamente o uso de múltiplas contas (multi-boxing) em EVE Online, abordando estratégias, vantagens e desvantagens. Não há qualquer menção a inteligência artificial, bots, scripts ou automação. O conteúdo é irrelevante para a classificação de IA."
+    }
+  ],
+  "n_posts_completos": {
+    "Total": 5263,
+    "EVE Online": 2045,
+    "World of Warcraft": 3218
+  }
+}

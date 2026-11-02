@@ -1,0 +1,101 @@
+{
+  "seed": 20261102,
+  "max_posts": 100,
+  "plano_por_auditor": {
+    "C1|EVE Online": 2,
+    "C3|World of Warcraft": 2,
+    "C2|EVE Online": 1,
+    "C2|World of Warcraft": 1,
+    "C4|EVE Online": 1,
+    "C4|World of Warcraft": 1,
+    "C5|EVE Online": 1,
+    "C5|World of Warcraft": 1
+  },
+  "amostra": {
+    "JPaulo": [
+      "1mctiz6",
+      "1hlv8xy",
+      "reddit_1q7m0sl",
+      "2056975",
+      "1uqtdhy",
+      "481937",
+      "2176376",
+      "2039353",
+      "510327",
+      "512367",
+      "1i6m4i6",
+      "reddit_1kylpvy",
+      "2116712",
+      "reddit_1r1dd9i",
+      "503747",
+      "2152188",
+      "reddit_1rnbqbh",
+      "1tdxixs"
+    ],
+    "Emmanoel": [
+      "2314701",
+      "reddit_1s5tj3u",
+      "2203538",
+      "2257438",
+      "1784181",
+      "483347",
+      "474041",
+      "1oq9poa",
+      "reddit_1vy3jwo",
+      "497087"
+    ],
+    "Roger": [
+      "2180159",
+      "1mwoeow",
+      "2324507",
+      "2320601",
+      "reddit_1tvlpnw",
+      "512939",
+      "432317",
+      "516921",
+      "reddit_1phwb0r",
+      "reddit_1spdcd4"
+    ],
+    "Gomide": [
+      "2147065",
+      "reddit_1ariy3g",
+      "2338781",
+      "reddit_1sf61mq",
+      "1eoyf2u",
+      "516800",
+      "509113",
+      "1ofu78l",
+      "reddit_1t939or",
+      "498018"
+    ]
+  },
+  "substituicoes_A6": [
+    {
+      "codificador": "Emmanoel",
+      "saiu": "1s9et4k",
+      "entrou": "2257438",
+      "cluster": 4,
+      "jogo": "World of Warcraft"
+    },
+    {
+      "codificador": "Roger",
+      "saiu": "509843",
+      "entrou": "512939",
+      "cluster": 4,
+      "jogo": "EVE Online"
+    },
+    {
+      "codificador": "Roger",
+      "saiu": "1w4y0sn",
+      "entrou": "432317",
+      "cluster": 2,
+      "jogo": "EVE Online"
+    }
+  ],
+  "excluidos_A6_sem_substituicao": [
+    {
+      "codificador": "JPaulo",
+      "topico": "481937"
+    }
+  ]
+}
